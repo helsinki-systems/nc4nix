@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -e
+# Check if some relevant plugins still build, before committing
+nix build -L --no-link --option builders "" -f test.nix

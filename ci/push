@@ -1,0 +1,59 @@
+#!/usr/bin/env nix-shell
+#!nix-shell -i bash -p git openssh
+set -e
+set -u
+set -o pipefail
+
+# What do we need to commit?
+porcelain="$(git status --porcelain)"
+declare -a toCommit
+for type in plugins themes; do
+	if echo "${porcelain}" | grep -q "$type.json"; then
+		toCommit+=("$type")
+	fi
+done
+set +u
+if [ "${#toCommit[@]}" = 0 ]; then
+	echo "Nothing changed"
+	exit 0
+fi
+set -u
+
+# Format commit message
+firstLine=
+details=
+for category in "${toCommit[@]}"; do
+	# First line
+	if [ "${firstLine}" = '' ]; then
+		firstLine="${firstLine}${category^}: "
+	else
+		firstLine="${firstLine}; ${category^}: "
+	fi
+	added="$(grep -c ^ADD "${category}.log" || true)"
+	if [ "${added}" != 0 ]; then
+		firstLine="${firstLine}A:${added} "
+	fi
+	updated="$(grep -c ^UPD "${category}.log" || true)"
+	if [ "${updated}" != 0 ]; then
+		firstLine="${firstLine}U:${updated} "
+	fi
+	firstLine="$(echo "${firstLine}" | xargs)"
+	# Details
+	details="${details}"$'\n'$'\n'"${category^}:"
+	details="${details}"$'\n'"$(sort -u < "${category}.log")"
+done
+
+# set up ssh
+eval $(ssh-agent -s)
+echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
+# set up git
+git config user.name "GitLab CI"
+git config user.email "gitlab-ci@helsinki-systems.de"
+
+# Commit and push
+git add *.json
+(
+	echo -n "$firstLine"
+	echo "$details"
+) | git commit -F -
+git push git@"$GITLAB_HOST":helsinki-systems/matomo4nix HEAD:master

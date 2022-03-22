@@ -1,0 +1,41 @@
+# vim: set ft=yaml sw=2:
+stages:
+  - build
+  - run
+  - test
+  - push
+
+variables:
+  COMMIT_LOG: "1"
+
+build:
+  stage: build
+  script:
+    - ./ci/build
+  artifacts:
+    paths:
+      - ./nc4nix
+
+run:
+  stage: run
+  only:
+    - schedules
+  artifacts:
+    paths:
+      - ./*.log
+      - ./*.json
+  script:
+    - ./ci/run
+
+test:
+  stage: test
+  interruptible: true
+  script:
+    - ./ci/test
+
+push:
+  stage: push
+  only:
+    - schedules
+  script:
+    - ./ci/push
