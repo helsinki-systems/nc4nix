@@ -4,7 +4,6 @@ set -e
 set -u
 set -o pipefail
 
-export GIT_TRACE=1
 # set up ssh
 eval $(ssh-agent -s)
 echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
@@ -15,4 +14,4 @@ git config user.email "gitlab-ci@helsinki-systems.de"
 # Commit and push
 git add *.json
 git commit -m "automatic update by ci"
-git push git@"$GITLAB_HOST":helsinki-systems/matomo4nix HEAD:master
+git push git@"$GITLAB_HOST":helsinki-systems/nc4nix HEAD:master
