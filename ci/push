@@ -4,6 +4,7 @@ set -e
 set -u
 set -o pipefail
 
+export GIT_TRACE=1
 # set up ssh
 eval $(ssh-agent -s)
 echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
