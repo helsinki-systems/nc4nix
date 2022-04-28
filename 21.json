@@ -250,8 +250,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -390,10 +390,10 @@
     ]
   },
   "electronicsignatures": {
-    "sha256": "141c15dc67c1e14ae36b4b551fa3f6c6ad4c443ff0f52bd2110744195f3b0609",
-    "url": "https://github.com/eideasy/nextcloud-electronic-signatures-plugin/releases/download/v1.10.1/v1.10.1.tar.gz",
-    "version": "1.10.1",
-    "description": "# Features\n- 🔒🔒 Accept Qualified Electronic Signatures (QES - strongest legal value) in PDF or ASICE formats\n- 🔒 Accept Simple Electronic Signatures (email based signature - simple to sign)\n- 🥷 Own your data. Accept QES while never exposing your file to a remote service\n\nCurrently, this app enables the user to gather a single signature onto an existing file:\n1. Pick a file which you want signed by another person\n1. Select \"Signing\" in the file's dropdown menu\n1. Enter the signer's email address\n1. The signer receives a link on their e-mail\n1. They sign the document\n1. The signed document appears in your Nextcloud instance, next to the original file\n\n# Built on top of eID Easy\nThe app uses [eID Easy](https://eideasy.com) as its signing back-end. eID Easy handles the signing process. Refer to [eID Easy's pricing](https://eideasy.com/pricing/) to see the cost of each signing method.\n\n### Get €10 to try out eID Easy\nFor limited time only, we're offering €10 of credit that you can spend to try out all the eID Easy signing services.\n\nWrite to support@eideasy.com to claim this offer.\n\n# Two levels of electronic signatures\n*Qualified Electronic Signature* - the strongest kind of electronic signature. The signer's identity and approval is linked to the file contents and a timestamp by cryptographic means. The signing time and the document's integrity can be verified to ensure that the document has not been tampered with after signing.\n\nWith QES, you can opt to only send the file hashes to eID Easy. This way, the actual content of your files is never exposed to a third party.\n\n*Simple Electronic Signature* - the simplest kind of electronic signature. eID Easy sends a unique link to the signer's e-mail. The signer opens the link, reviews the file and confirms their approval. A visual signature is added to the file. eId Easy adds a cryptographic e-seal to the file, to ensure that it cannot be modified after signing.\n\nWith Simple Electronic Signatures, the contents of your file need to be sent to eID Easy. This provides legal value to the signature, as we can state with certainty that the signer had the opportunity to review the file they were signing.\n\n# Feedback is welcome\nAre you not seeing your preferred signature card / signing app / other QES method? Are we not quite covering your use case? Let us know at support@eideasy.com",
+    "sha256": "2a25547fb56a3f7c41d4ac6ad13943ba5547254f787a25538ae22110411788e8",
+    "url": "https://github.com/eideasy/nextcloud-electronic-signatures-plugin/releases/download/v2.0.0/v2.0.0.tar.gz",
+    "version": "2.0.0",
+    "description": "# Features\n- 🔒🔒 Accept Qualified Electronic Signatures (QES - strongest legal value) in PDF or ASICE formats\n- 🔒 Accept Simple Electronic Signatures (email based signature - simple to sign)\n- 🥷 Own your data. Accept QES while never exposing your file to a remote service\n\nCurrently, this app enables the user to gather a single signature onto an existing file:\n1. Pick a file which you want signed by another person\n1. Select \"Signing\" in the file's dropdown menu\n1. Enter the signer's email address\n1. The signer receives a link on their e-mail\n1. They sign the document\n1. The signed document appears in your Nextcloud instance, next to the original file\n\n# Built on top of eID Easy\nThe app uses [eID Easy](https://eideasy.com) as its signing back-end. eID Easy handles the signing process. Refer to [eID Easy's pricing](https://eideasy.com/pricing/) to see the cost of each signing method.\n\n### Get €10 to try out eID Easy\nFor limited time only, we're offering €10 of credit that you can spend to try out all the eID Easy signing services.\n\nWrite to support@eideasy.com to claim this offer.\n\n# Two levels of electronic signatures\n*Qualified Electronic Signature* - the strongest kind of electronic signature. The signer's identity and approval is linked to the file contents and a timestamp by cryptographic means. The signing time and the document's integrity can be verified to ensure that the document has not been tampered with after signing.\n\nWith QES, you can opt to only send the file hashes to eID Easy. This way, the actual content of your files is never exposed to a third party.\n\n*Simple Electronic Signature* - the simplest kind of electronic signature. eID Easy sends a unique link to the signer's e-mail. The signer opens the link, reviews the file and confirms their approval. A visual signature is added to the file. eId Easy adds a cryptographic e-seal to the file, to ensure that it cannot be modified after signing.\n\nWith Simple Electronic Signatures, the contents of your file need to be sent to eID Easy. This provides legal value to the signature, as we can state with certainty that the signer had the opportunity to review the file they were signing.\n\n# Feedback is welcome\nAre you not seeing your preferred signature card / signing app / other QES method? Are we not quite covering your use case? Let us know at support@eideasy.com\n\n# Documentation\n[CHANGELOG](https://github.com/eideasy/nextcloud-electronic-signatures-plugin/blob/master/CHANGELOG.md)",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -1603,7 +1603,7 @@
     "sha256": "b9e8c267e67f48398c7b1696d1c8f61b994d614b2c1e566b488701208181e95c",
     "url": "https://github.com/nextcloud-releases/registration/releases/download/v1.4.0/registration-v1.4.0.tar.gz",
     "version": "1.4.0",
-    "description": "User registration\n\nThis app allows users to register a new account.\n\n# Features\n\n- Add users to a given group\n- Allow-list with email domains (including wildcard) to register with\n- Admins will be notified via email for new user creation or require approval\n- Supports Nextcloud's Client Login Flow v1 and v2 - allowing registration in the mobile Apps and Desktop clients\n\n# Web form registration flow\n\n1. User enters their email address\n2. Verification link is sent to the email address\n3. User clicks on the verification link\n4. User is lead to a form where they can choose their username and password\n5. New account is created and is logged in automatically",
+    "description": "User registration\n\nThis app allows users to register a new account.\n\n# Features\n\n- Add users to a given group\n- Allow-list with email domains (including wildcard) to register with\n- Administrator will be notified via email for new user creation or require approval\n- Supports Nextcloud's Client Login Flow v1 and v2 - allowing registration in the mobile Apps and Desktop clients\n\n# Web form registration flow\n\n1. User enters their email address\n2. Verification link is sent to the email address\n3. User clicks on the verification link\n4. User is lead to a form where they can choose their username and password\n5. New account is created and is logged in automatically",
     "homepage": "https://github.com/nextcloud/registration",
     "licenses": [
       "agpl"
@@ -2064,7 +2064,7 @@
     "url": "https://github.com/nextcloud-releases/twofactor_nextcloud_notification/releases/download/v3.3.1/twofactor_nextcloud_notification-v3.3.1.tar.gz",
     "version": "3.3.1",
     "description": "Allows using any of your logged in devices as second factor",
-    "homepage": "https://github.com/nickv-nextcloud/twofactor_nextcloud_notification",
+    "homepage": "https://github.com/nextcloud/twofactor_nextcloud_notification",
     "licenses": [
       "agpl"
     ]
@@ -2200,9 +2200,9 @@
     ]
   },
   "user_unix_script": {
-    "sha256": "dcb405521ff83c26eea274f3afb45d71ec6935a6e49ff685a9203ee10ace6f49",
-    "url": "https://github.com/bcecchinato/user_unix_script/releases/download/v0.2.0/user_unix_script.tar.gz",
-    "version": "0.2.0",
+    "sha256": "1e82cf137fd0956dcc4bbe0f03f411e32c8919a32222fe53e8568caf36a5ecba",
+    "url": "https://github.com/bcecchinato/user_unix_script/releases/download/v0.3.0/user_unix_script.tar.gz",
+    "version": "0.3.0",
     "description": "This app allows you to do user management against arbitrary UNIX shell commands. You can authenticate, create, delete users, as well as change their\n\t\t\tpassword. The list of users is fetched from /etc/password file and the description of the user is fetched by reading the 'gecos' property of the\n\t\t\tuser. The application also includes pre and post executions if you need to trigger a shell script before or after an action. For instance, after a password\n\t\t\tchange you might need to execute a synchronization.\n\n\t\t\tThe scripts executed can be variables defined as :\n\t\t \t* %u -> The username on which we make an action\n\t\t \t* %p -> The password if provided with the action\n\n\t\t\tBy default, only users with UID >= 1000 are allowed to authenticate. If a command has no shell script defined, it will be automatically deactivated.\n\t\t\tThe configuration and details of the app are available in README.md.",
     "homepage": "",
     "licenses": [
