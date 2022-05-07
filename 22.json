@@ -240,8 +240,8 @@
     ]
   },
   "cospend": {
-    "sha256": "2a381de66d9f648131bd9d3d92ae1a54cdf60b32fa5363ccff0bc1ebe0e7fdef",
-    "url": "https://github.com/eneiluj/cospend-nc/releases/download/v1.4.6/cospend-1.4.6.tar.gz",
+    "sha256": "8c139e28c2984db7805a8f5a8a7b99271fccbd26e2a0e60140e7e4a6f53a2f06",
+    "url": "https://github.com/eneiluj/cospend-nc/releases/download/v1.4.6-1-nightly/cospend-1.4.6-1-nightly.tar.gz",
     "version": "1.4.6",
     "description": "# Nextcloud Cospend 💰\n\nNextcloud Cospend is a group/shared budget manager. It was inspired by the great [IHateMoney](https://github.com/spiral-project/ihatemoney/).\n\nYou can use it when you share a house, when you go on vacation with friends, whenever you share money with others.\n\nIt lets you create projects with members and bills. Each member has a balance computed from the project bills. This way you can see who owes the group and who the group owes. Ultimately you can ask for a settlement plan telling you which payments to make to reset members balances.\n\nProject members are independent from Nextcloud users. Projects can be accessed and modified by people without a Nextcloud account. Each project has an ID and a password for guest access.\n\n[MoneyBuster](https://gitlab.com/eneiluj/moneybuster) Android client is [available in F-Droid](https://f-droid.org/packages/net.eneiluj.moneybuster/) and on the [Play store](https://play.google.com/store/apps/details?id=net.eneiluj.moneybuster).\n\n[PayForMe](https://github.com/mayflower/PayForMe) iOS client is currently being developped!\n\n## Features\n\n* ✎ create/edit/delete projects, members, bills, bill categories, currencies\n* ⚖ check member balances\n* 🗠 display project statistics\n* ♻ display settlement plan\n* 🎇 automatically create reimbursement bills from settlement plan\n* 🗓 create recurring bills (daily/weekly/monthly/yearly)\n* 📊 optionally provide custom amount for each member in new bills\n* 🔗 link bills with personal files (picture of physical bill for example)\n* 👩 guest access for people outside Nextcloud\n* 👫 share projects with Nextcloud users/groups/circles\n* 🖫 import/export projects as csv (compatible with csv files from IHateMoney)\n* 🔗 generate link/QRCode to easily import projects in MoneyBuster\n* 🗲 implement Nextcloud notifications and activity stream\n\nThis app is tested on Nextcloud 20+ with Firefox 57+ and Chromium.\n\nThis app is under development.\n\n🌍 Help us to translate this app on [Nextcloud-Cospend/MoneyBuster Crowdin project](https://crowdin.com/project/moneybuster).\n\n⚒ Check out other ways to help in the [contribution guidelines](https://gitlab.com/eneiluj/cospend-nc/blob/master/CONTRIBUTING.md).\n\n## Documentation\n\n* [User documentation](https://github.com/eneiluj/cospend-nc/blob/master/docs/user.md)\n* [Admin documentation](https://github.com/eneiluj/cospend-nc/blob/master/docs/admin.md)\n* [Developer documentation](https://github.com/eneiluj/cospend-nc/blob/master/docs/dev.md)\n* [CHANGELOG](https://github.com/eneiluj/cospend-nc/blob/master/CHANGELOG.md#change-log)\n* [AUTHORS](https://github.com/eneiluj/cospend-nc/blob/master/AUTHORS.md#authors)\n\n## Known issues\n\n* it does not make you rich\n\nAny feedback will be appreciated.\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://github.com/eneiluj/cospend-nc",
@@ -250,8 +250,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -750,9 +750,9 @@
     ]
   },
   "geoblocker": {
-    "sha256": "c892a037bd09f5f3690ba5c23c50f95351adefbd96e73bc68b446126b6bea0d4",
-    "url": "https://github.com/HomeITAdmin/nextcloud_geoblocker/releases/download/0.5.4/geoblocker.tar.gz",
-    "version": "0.5.4",
+    "sha256": "d69e2ba84422fab7708055d1640cb76c8d2552e90ac14ddc9e949e9c04fff9e6",
+    "url": "https://github.com/HomeITAdmin/nextcloud_geoblocker/releases/download/0.5.5/geoblocker.tar.gz",
+    "version": "0.5.5",
     "description": "This is a front end to geo localization services, that allows blocking (beta), delaying (beta) and logging of login attempts from specified countries.\nLogin attempts from local network IP addresses are never blocked, delayed or logged.\nIn the current implementation the login page is normally shown to everybody independent of the country. Also login attempts with a non existing user are failing as usual independent of the country.\nWrong Nextcloud configuration (especially in container) can lead to all access seems to come from local network IP address.\nDetermination of the country from IP address is only as good as the chosen service.\n\nCountries can be specified using allowlisting or blocklisting.\n\nCurrently available localization services are:\n- Geoiplookup (local programm on the host)\n- MaxMind GeoLite2 (local database accessed via PHP API)\n- Data from Regional Internet Registries (Nextcloud SQL database build up with data downloaded from the RIRs FTP servers)\n\nFor help how to set up the localization services please have a look at the GitHub repository (homepage on the right side).",
     "homepage": "https://github.com/HomeITAdmin/nextcloud_geoblocker/",
     "licenses": [
@@ -920,8 +920,8 @@
     ]
   },
   "integration_discourse": {
-    "sha256": "641d2f15d27dd6cee0d7e36506e97ad642dddd90c457af696f027c2f39ebe921",
-    "url": "https://github.com/nextcloud/integration_discourse/releases/download/v1.0.2-12-nightly/integration_discourse-1.0.2-12-nightly.tar.gz",
+    "sha256": "7d6e9437b40207ab10e6ff62ba80c6682a0e749e48ab9be6fa51a08bdc0d5c9f",
+    "url": "https://github.com/nextcloud/integration_discourse/releases/download/v1.0.2/integration_discourse-1.0.2.tar.gz",
     "version": "1.0.2",
     "description": "Discourse integration provides a dashboard widget displaying your important notifications\n    and the ability to find topics and posts with Nextcloud's unified search.",
     "homepage": "https://github.com/nextcloud/integration_discourse",
@@ -1470,9 +1470,9 @@
     ]
   },
   "qownnotesapi": {
-    "sha256": "092e0b8afdf5e95ead3c49f9678c405841c9537c0de0a9159572ab24783c183d",
-    "url": "https://github.com/pbek/qownnotesapi/releases/download/21.12.0/qownnotesapi-nc.tar.gz",
-    "version": "21.12.0",
+    "sha256": "53d584caef182ef3a24676d2462dec3d75b1a85be42781309a9c4a1f80ab7235",
+    "url": "https://github.com/pbek/qownnotesapi/releases/download/22.5.0/qownnotesapi-nc.tar.gz",
+    "version": "22.5.0",
     "description": "QOwnNotesAPI is the Nextcloud/ownCloud API for [QOwnNotes](http://www.qownnotes.org), the open source notepad for Linux, macOS and Windows, that works together with the notes application of Nextcloud/ownCloud.\n\nThe only purpose of this App is to provide API access to your Nextcloud/ownCloud server for your QOwnNotes desktop installation, you cannot use this App for anything else, if you don't have QOwnNotes installed on your desktop computer!",
     "homepage": "https://github.com/pbek/qownnotesapi",
     "licenses": [
@@ -1930,10 +1930,10 @@
     ]
   },
   "timemanager": {
-    "sha256": "81f7076c218fc2c793c3d376eef195da515fb4515ba7f8cf581580f6ac0f30bc",
-    "url": "https://github.com/te-online/nextcloud-app-releases/raw/main/timemanager/v0.3.0/timemanager.tar.gz",
-    "version": "0.3.0",
-    "description": "### Time tracking in Nextcloud!\n* 📁 **organize time entries** based on tasks, projects and clients\n* ⏱ **quickly record** a time entry for your latest tasks\n* ✅ **check or uncheck** a time entry (e.g. to save whether you've billed it)\n* 📈 make use of simple, but useful **statistics** and **reports**.\n\n#### Latest changes 🎉\n**0.3.0 Beta, 18. April 2022**\n- Add basic **client sharing feature** with support for sharing clients and all associated projects and tasks (issues #65 and possibly #1)\n  - Allows users you shared the client with to create and edit time entries in tasks you created\n  - Only you can see everyone's time entries (also in reports), everyone else only sees their entries\n  - The sharing feature is currently **not supported** in the Android app and/or REST API\n- Maintenance: Update JS dependencies\n- Bugfix: Some variables weren't checked properly before accessing them, causing warnings to be logged (issue #72)\n\n_Please refer to the [full changelog](https://github.com/te-online/timemanager/#changelog) to see older releases_\n\n📱 **Looking for a mobile companion app?** Try the [Android app (currently in beta)](https://play.google.com/store/apps/details?id=de.jbservices.nc_timemanager_app) made by [@joleaf](https://gitlab.com/joleaf/nc-timemanager-mobile-app)",
+    "sha256": "fed23988779dfcb3cd76db55f95aead84ba2c96bb0b8653a74866d053396c96c",
+    "url": "https://github.com/te-online/nextcloud-app-releases/raw/main/timemanager/v0.3.1/timemanager.tar.gz",
+    "version": "0.3.1",
+    "description": "### Time tracking in Nextcloud!\n* 📁 **organize time entries** based on tasks, projects and clients\n* ⏱ **quickly record** a time entry for your latest tasks\n* ✅ **check or uncheck** a time entry (e.g. to save whether you've billed it)\n* 📈 make use of simple, but useful **statistics** and **reports**.\n\n#### Latest changes 🎉\n**0.3.1 Beta, 6. May 2022**\n- Tools/Import:\n  - Add comma as a delimiter\n  - Improve test coverage\n  - Improve error handling, especially if file does not contain entities\n  - Show messages in a dialog\n- Run tests for Nextcloud 24 and bump compatibility to Nextcloud 24\n- Update JS dependencies\n\n_Please refer to the [full changelog](https://github.com/te-online/timemanager/#changelog) to see older releases_\n\n📱 **Looking for a mobile companion app?** Try the [Android app (currently in beta)](https://play.google.com/store/apps/details?id=de.jbservices.nc_timemanager_app) made by [@joleaf](https://gitlab.com/joleaf/nc-timemanager-mobile-app)",
     "homepage": "https://github.com/te-online/timemanager",
     "licenses": [
       "agpl"
@@ -2220,8 +2220,8 @@
     ]
   },
   "welcome": {
-    "sha256": "afb6c6301cf3177d0637ce4c29796eeb5c005f9153d17f067907fe07c8619763",
-    "url": "https://github.com/eneiluj/welcome/releases/download/v1.0.1-2-nightly/welcome-1.0.1-2-nightly.tar.gz",
+    "sha256": "1441be156e3860a1b214ba07dfe6b4b87512f932d81b2d83acbf34e5e8bdd797",
+    "url": "https://github.com/eneiluj/welcome/releases/download/v1.0.1/welcome-1.0.1.tar.gz",
     "version": "1.0.1",
     "description": "ℹ A Markdown rendering Dashboard widget to welcome all users.\n\n⚙ Configure via `Settings > Administration > Theming > Welcome widget`\n\n📄 Pick a Markdown document to be rendered in the widget\n\n💡 If no document is chosen, the widget won't be shown\n\n📝 Edit the Markdown document to update the widget in real-time\n\n🖼 Images are also supported\n\n💬 Configure a contact person to directly start a chat with (requires [Nextcloud Talk](https://apps.nextcloud.com/apps/spreed) to be installed)",
     "homepage": "https://github.com/eneiluj/welcome",

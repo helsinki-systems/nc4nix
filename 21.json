@@ -250,8 +250,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -1520,9 +1520,9 @@
     ]
   },
   "qownnotesapi": {
-    "sha256": "092e0b8afdf5e95ead3c49f9678c405841c9537c0de0a9159572ab24783c183d",
-    "url": "https://github.com/pbek/qownnotesapi/releases/download/21.12.0/qownnotesapi-nc.tar.gz",
-    "version": "21.12.0",
+    "sha256": "53d584caef182ef3a24676d2462dec3d75b1a85be42781309a9c4a1f80ab7235",
+    "url": "https://github.com/pbek/qownnotesapi/releases/download/22.5.0/qownnotesapi-nc.tar.gz",
+    "version": "22.5.0",
     "description": "QOwnNotesAPI is the Nextcloud/ownCloud API for [QOwnNotes](http://www.qownnotes.org), the open source notepad for Linux, macOS and Windows, that works together with the notes application of Nextcloud/ownCloud.\n\nThe only purpose of this App is to provide API access to your Nextcloud/ownCloud server for your QOwnNotes desktop installation, you cannot use this App for anything else, if you don't have QOwnNotes installed on your desktop computer!",
     "homepage": "https://github.com/pbek/qownnotesapi",
     "licenses": [
@@ -1990,10 +1990,10 @@
     ]
   },
   "timemanager": {
-    "sha256": "81f7076c218fc2c793c3d376eef195da515fb4515ba7f8cf581580f6ac0f30bc",
-    "url": "https://github.com/te-online/nextcloud-app-releases/raw/main/timemanager/v0.3.0/timemanager.tar.gz",
-    "version": "0.3.0",
-    "description": "### Time tracking in Nextcloud!\n* 📁 **organize time entries** based on tasks, projects and clients\n* ⏱ **quickly record** a time entry for your latest tasks\n* ✅ **check or uncheck** a time entry (e.g. to save whether you've billed it)\n* 📈 make use of simple, but useful **statistics** and **reports**.\n\n#### Latest changes 🎉\n**0.3.0 Beta, 18. April 2022**\n- Add basic **client sharing feature** with support for sharing clients and all associated projects and tasks (issues #65 and possibly #1)\n  - Allows users you shared the client with to create and edit time entries in tasks you created\n  - Only you can see everyone's time entries (also in reports), everyone else only sees their entries\n  - The sharing feature is currently **not supported** in the Android app and/or REST API\n- Maintenance: Update JS dependencies\n- Bugfix: Some variables weren't checked properly before accessing them, causing warnings to be logged (issue #72)\n\n_Please refer to the [full changelog](https://github.com/te-online/timemanager/#changelog) to see older releases_\n\n📱 **Looking for a mobile companion app?** Try the [Android app (currently in beta)](https://play.google.com/store/apps/details?id=de.jbservices.nc_timemanager_app) made by [@joleaf](https://gitlab.com/joleaf/nc-timemanager-mobile-app)",
+    "sha256": "fed23988779dfcb3cd76db55f95aead84ba2c96bb0b8653a74866d053396c96c",
+    "url": "https://github.com/te-online/nextcloud-app-releases/raw/main/timemanager/v0.3.1/timemanager.tar.gz",
+    "version": "0.3.1",
+    "description": "### Time tracking in Nextcloud!\n* 📁 **organize time entries** based on tasks, projects and clients\n* ⏱ **quickly record** a time entry for your latest tasks\n* ✅ **check or uncheck** a time entry (e.g. to save whether you've billed it)\n* 📈 make use of simple, but useful **statistics** and **reports**.\n\n#### Latest changes 🎉\n**0.3.1 Beta, 6. May 2022**\n- Tools/Import:\n  - Add comma as a delimiter\n  - Improve test coverage\n  - Improve error handling, especially if file does not contain entities\n  - Show messages in a dialog\n- Run tests for Nextcloud 24 and bump compatibility to Nextcloud 24\n- Update JS dependencies\n\n_Please refer to the [full changelog](https://github.com/te-online/timemanager/#changelog) to see older releases_\n\n📱 **Looking for a mobile companion app?** Try the [Android app (currently in beta)](https://play.google.com/store/apps/details?id=de.jbservices.nc_timemanager_app) made by [@joleaf](https://gitlab.com/joleaf/nc-timemanager-mobile-app)",
     "homepage": "https://github.com/te-online/timemanager",
     "licenses": [
       "agpl"
