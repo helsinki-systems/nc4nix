@@ -570,10 +570,10 @@
     ]
   },
   "files_linkeditor": {
-    "sha256": "4cdd06d36a7cbe12639b5f6dcc728ab992e48035d971eb148fb78740ef8dabc4",
-    "url": "https://github.com/te-online/nextcloud-app-releases/raw/main/files_linkeditor/v1.1.9/files_linkeditor.tar.gz",
-    "version": "1.1.9",
-    "description": "### External web links in Nextcloud!\n* ✍️ **create and edit** .URL and .webloc links in the file view\n* 🌍 **open links** by clicking them and confirming you want to go to the external site\n* 📤 **works in public shares** so you can share links easily with others\n* 🔄 **sync your links** as .URL and .webloc are web links as created on most operating systems.\n\n#### Latest changes 🎉\n**1.1.9, 21. March 2022**\n- Add Czech localization (thanks to @p-bo)\n- Update JS dependencies, fixes [a potential XSS-vulnerability in the URL sanitizer](https://github.com/te-online/files_linkeditor/pull/65)\n\n_[View changelog for older versions](https://github.com/te-online/files_linkeditor#changelog)_",
+    "sha256": "77f63b6361505774d8e9c9e76afeba0c3defae1fc9d0669460c4642e697d483c",
+    "url": "https://github.com/te-online/nextcloud-app-releases/raw/main/files_linkeditor/v1.1.10/files_linkeditor.tar.gz",
+    "version": "1.1.10",
+    "description": "### External web links in Nextcloud!\n* ✍️ **create and edit** .URL and .webloc links in the file view\n* 🌍 **open links** by clicking them and confirming you want to go to the external site\n* 📤 **works in public shares** so you can share links easily with others\n* 🔄 **sync your links** as .URL and .webloc are web links as created on most operating systems.\n\n#### Latest changes 🎉\n**1.1.10, 6. May 2022**\n- Add some basic end-to-end tests\n- Run tests for Nextcloud 24 and bump compatibility to Nextcloud 24\n- Update JS dependencies\n\n_[View changelog for older versions](https://github.com/te-online/files_linkeditor#changelog)_",
     "homepage": "https://github.com/te-online/files_linkeditor",
     "licenses": [
       "agpl"
@@ -1350,9 +1350,9 @@
     ]
   },
   "oidc": {
-    "sha256": "99c9a67b7f5107bb26758252bd03f37165fa71fcd79528dd1e9d5f2c83173395",
-    "url": "https://github.com/H2CK/oidc/releases/download/0.1.1/oidc-0.1.1.tar.gz",
-    "version": "0.1.1",
+    "sha256": "1d126dba9f8aea78d8cd15853057810d6eea734e89164085553dd8e8f45a2b93",
+    "url": "https://github.com/H2CK/oidc/releases/download/0.1.2/oidc-0.1.2.tar.gz",
+    "version": "0.1.2",
     "description": "Nextcloud as OpenID Connect Identity Provider\n\nWith this app you can use Nextcloud as OpenID Connect Identity Provider. If other services\nare configured correctly, you are able to access those services with your Nextcloud login.\n\nFull documentation can be found at:\n\n- [User Documentation](https://github.com/H2CK/oidc/wiki#user-documentation)\n- [Developer Documentation](https://github.com/H2CK/oidc/wiki#developer-documentation)",
     "homepage": "https://github.com/H2CK/oidc",
     "licenses": [
@@ -1360,9 +1360,9 @@
     ]
   },
   "oidc_login": {
-    "sha256": "387a424629dcf79fdf645dd9371bb403ba87297f3ea6afb6b7f355857fd0f82b",
-    "url": "https://github.com/pulsejet/nextcloud-oidc-login/releases/download/v2.3.1/oidc_login.tar.gz",
-    "version": "2.3.1",
+    "sha256": "07b1cb6571f42474bc42f62c76c12a9eba901a6abddaef66c14c11c4d4b3854d",
+    "url": "https://github.com/pulsejet/nextcloud-oidc-login/releases/download/v2.3.2/oidc_login.tar.gz",
+    "version": "2.3.2",
     "description": "# OpenID Connect Login\n\nMake possible create users and login via one single OpenID Connect provider. Even though a fork of [nextcloud-social-login](https://github.com/zorn-v/nextcloud-social-login), it fundamentally differs in two ways - aims for simplistic, single provider login (and hence is very minimalastic), and it supports having LDAP as the primary user backend. This way, you can use OpenID Connect to login to Nextcloud while maintaining an LDAP backend with attributes with the LDAP plugin. Supports automatic discovery of endpoints through the OpenID Connect spec, with a single provider configuration attribute.",
     "homepage": "https://github.com/pulsejet/nextcloud-single-openid-connect",
     "licenses": [
@@ -2270,9 +2270,9 @@
     ]
   },
   "webapppassword": {
-    "sha256": "63a5e2ccc8e50026b7efc667ed09f7a2b52c855131e4c2aad9360c8bf21c560c",
-    "url": "https://gitlab.tugraz.at/dbp/nextcloud/webapppassword/uploads/9c940399771944f671ea9ae42294813d/webapppassword.tar.gz",
-    "version": "21.12.0",
+    "sha256": "3403c6acfea3f4d5af0359afedc9f95f44073bab98466b8be01cc664bfc40c94",
+    "url": "https://gitlab.tugraz.at/dbp/nextcloud/webapppassword/uploads/b0a448075fabcd12814fad32968e63cc/webapppassword.tar.gz",
+    "version": "22.5.0",
     "description": "Temporary app password generator and WebDAV/CalDAV CORS header injection to be able access the\nNextcloud WebDAV/CalDAV service from inside web applications.\n\nThere is an [example implementation](https://gitlab.tugraz.at/dbp/nextcloud/webapppassword/-/blob/master/docs/example/index.html)\nthat uses this app to generate a temporary password and make a WebDAV request to a Nextcloud instance\n([docker container](https://gitlab.tugraz.at/dbp/nextcloud/webapppassword/-/tree/master/docker) included).\n\nSee [Example](https://gitlab.tugraz.at/dbp/nextcloud/webapppassword#example) for a Nextcloud WebDAV file picker example\nthat uses this application.",
     "homepage": "https://gitlab.tugraz.at/dbp/nextcloud/webapppassword",
     "licenses": [
