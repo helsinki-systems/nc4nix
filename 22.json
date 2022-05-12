@@ -1,8 +1,8 @@
 {
   "afterlogic": {
-    "sha256": "0b462304976ab522c6a3c478a428465b468ea39dffdc646b56bdbcccca75e2e7",
-    "url": "https://afterlogic.com/download/nextcloud/afterlogic-nextcloud-203.tar.gz",
-    "version": "2.0.3",
+    "sha256": "063a93b2e8a4763ebcc6b548b49ee58f4f7f485403b584b77fec4550569c9260",
+    "url": "https://afterlogic.com/download/nextcloud/afterlogic-nextcloud-204.tar.gz",
+    "version": "2.0.4",
     "description": "Afterlogic WebMail",
     "homepage": "https://afterlogic.org/webmail-lite",
     "licenses": [
@@ -30,9 +30,9 @@
     ]
   },
   "appointments": {
-    "sha256": "8279941990d8b4f87e67574213212e7b40aacecd5d03cb5e0598b7ac8899981c",
-    "url": "https://github.com/SergeyMosin/Appointments/raw/95c9fcb8ef495a032ac5f1ea58dfb47fca871e55/build/artifacts/appstore/appointments.tar.gz",
-    "version": "1.12.3",
+    "sha256": "e6eb7b48ab4b9c388aed3db429970eac0e156875b4233e167ab3b8babd8077f6",
+    "url": "https://github.com/SergeyMosin/Appointments/raw/v1.12.4a/build/artifacts/appstore/appointments.tar.gz",
+    "version": "1.12.4",
     "description": "Book appointments into your calendar via secure online form. Attendees can confirm or cancel their appointments via an email link.",
     "homepage": "https://www.srgdev.com/lab/nextcloud-appointments/",
     "licenses": [
@@ -180,9 +180,9 @@
     ]
   },
   "checksum": {
-    "sha256": "4d66c7326b53a0280377cb6fbecc34ff30a664163886baa2982bfc5f6a610ad2",
-    "url": "https://github.com/westberliner/checksum/releases/download/v1.1.3/checksum.tar.gz",
-    "version": "1.1.3",
+    "sha256": "f6e4319eed67cd13397e209d55bed944a92b00d0208839c8f299027b4ba92c89",
+    "url": "https://github.com/westberliner/checksum/releases/download/v1.1.4/checksum.tar.gz",
+    "version": "1.1.4",
     "description": "Allows users to create a hash checksum of a file.\n        Possible algorithms are md5, sha1, sha256, sha384, sha512 and crc32.\n\n        Just open the details view of the file (Sidebar). There should be a new tab called \"Checksum\".\n        Select a algorithm and it will try to generate a hash.\n        If you want an other algorithm, just click on the reload button.",
     "homepage": "https://github.com/westberliner/checksum/",
     "licenses": [
@@ -240,8 +240,8 @@
     ]
   },
   "cospend": {
-    "sha256": "cd1017ee7349670a2ffb1c7d856fa356f1bf4f414ce32a90d3b7d4d729d478a3",
-    "url": "https://github.com/eneiluj/cospend-nc/releases/download/v1.4.7-2-nightly/cospend-1.4.7-2-nightly.tar.gz",
+    "sha256": "a9ee0d915ab38fccfd231b22fa2a33c195123f727b64ff1ee65850bb6456e79d",
+    "url": "https://github.com/eneiluj/cospend-nc/releases/download/v1.4.7-3-nightly/cospend-1.4.7-3-nightly.tar.gz",
     "version": "1.4.7",
     "description": "# Nextcloud Cospend 💰\n\nNextcloud Cospend is a group/shared budget manager. It was inspired by the great [IHateMoney](https://github.com/spiral-project/ihatemoney/).\n\nYou can use it when you share a house, when you go on vacation with friends, whenever you share money with others.\n\nIt lets you create projects with members and bills. Each member has a balance computed from the project bills. This way you can see who owes the group and who the group owes. Ultimately you can ask for a settlement plan telling you which payments to make to reset members balances.\n\nProject members are independent from Nextcloud users. Projects can be accessed and modified by people without a Nextcloud account. Each project has an ID and a password for guest access.\n\n[MoneyBuster](https://gitlab.com/eneiluj/moneybuster) Android client is [available in F-Droid](https://f-droid.org/packages/net.eneiluj.moneybuster/) and on the [Play store](https://play.google.com/store/apps/details?id=net.eneiluj.moneybuster).\n\n[PayForMe](https://github.com/mayflower/PayForMe) iOS client is currently being developped!\n\n## Features\n\n* ✎ create/edit/delete projects, members, bills, bill categories, currencies\n* ⚖ check member balances\n* 🗠 display project statistics\n* ♻ display settlement plan\n* 🎇 automatically create reimbursement bills from settlement plan\n* 🗓 create recurring bills (daily/weekly/monthly/yearly)\n* 📊 optionally provide custom amount for each member in new bills\n* 🔗 link bills with personal files (picture of physical bill for example)\n* 👩 guest access for people outside Nextcloud\n* 👫 share projects with Nextcloud users/groups/circles\n* 🖫 import/export projects as csv (compatible with csv files from IHateMoney)\n* 🔗 generate link/QRCode to easily import projects in MoneyBuster\n* 🗲 implement Nextcloud notifications and activity stream\n\nThis app is tested on Nextcloud 20+ with Firefox 57+ and Chromium.\n\nThis app is under development.\n\n🌍 Help us to translate this app on [Nextcloud-Cospend/MoneyBuster Crowdin project](https://crowdin.com/project/moneybuster).\n\n⚒ Check out other ways to help in the [contribution guidelines](https://gitlab.com/eneiluj/cospend-nc/blob/master/CONTRIBUTING.md).\n\n## Documentation\n\n* [User documentation](https://github.com/eneiluj/cospend-nc/blob/master/docs/user.md)\n* [Admin documentation](https://github.com/eneiluj/cospend-nc/blob/master/docs/admin.md)\n* [Developer documentation](https://github.com/eneiluj/cospend-nc/blob/master/docs/dev.md)\n* [CHANGELOG](https://github.com/eneiluj/cospend-nc/blob/master/CHANGELOG.md#change-log)\n* [AUTHORS](https://github.com/eneiluj/cospend-nc/blob/master/AUTHORS.md#authors)\n\n## Known issues\n\n* it does not make you rich\n\nAny feedback will be appreciated.\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://github.com/eneiluj/cospend-nc",
@@ -250,8 +250,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -1310,9 +1310,9 @@
     ]
   },
   "oidc": {
-    "sha256": "1d126dba9f8aea78d8cd15853057810d6eea734e89164085553dd8e8f45a2b93",
-    "url": "https://github.com/H2CK/oidc/releases/download/0.1.2/oidc-0.1.2.tar.gz",
-    "version": "0.1.2",
+    "sha256": "bd42361288eeb171e841b7112a10ebb59dc8656a957cc8f2f90c140ac86f6ffa",
+    "url": "https://github.com/H2CK/oidc/releases/download/0.1.3/oidc-0.1.3.tar.gz",
+    "version": "0.1.3",
     "description": "Nextcloud as OpenID Connect Identity Provider\n\nWith this app you can use Nextcloud as OpenID Connect Identity Provider. If other services\nare configured correctly, you are able to access those services with your Nextcloud login.\n\nFull documentation can be found at:\n\n- [User Documentation](https://github.com/H2CK/oidc/wiki#user-documentation)\n- [Developer Documentation](https://github.com/H2CK/oidc/wiki#developer-documentation)",
     "homepage": "https://github.com/H2CK/oidc",
     "licenses": [
@@ -1820,9 +1820,9 @@
     ]
   },
   "spgverein": {
-    "sha256": "66bd99f667ce3dcb88770bb3ccc7d69aaf8c71c2f21721a4534c4c954d9c305b",
-    "url": "https://gitlab.com/schrieveslaach/nextcloud-spgverein-app/uploads/340cd65c7b920ef9303b1d01f1058fc9/spgverein.tar.gz",
-    "version": "0.11.0",
+    "sha256": "023bd0b47f6839920eef7a7e282225d21d50e104d1f9efc5c16cbca58440320f",
+    "url": "https://gitlab.com/schrieveslaach/nextcloud-spgverein-app/uploads/f4f3c7ec6417eea1d892e8ca7afd92a4/spgverein.tar.gz",
+    "version": "0.12.0",
     "description": "# SPG-Verein in Your Nextcloud Hub\n\nThe Nextcloud app _spgverein_ makes the data of the proprietary windows program\n[SPG-Verein](https://spg-direkt.de/) accessible in your Nextcloud hub. You can\nsynchronize clubs that are managed by SPG-Verein into your nextcloud instance\nand the Nextcloud app _spgverein_ displays all your members in the web interface.\nThis allows you to access your clubs when you are on the road.\n\nIf you like the project or if it provides real value to your organization, please\nconsider donating. Just click on the button below:\n\n[![pipeline status](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/schrieveslaach/donate)",
     "homepage": "https://gitlab.com/schrieveslaach/nextcloud-spgverein-app",
     "licenses": [
@@ -1970,9 +1970,9 @@
     ]
   },
   "twofactor_email": {
-    "sha256": "6990fbc8e33cd35cd90fc05273b444f2009333317bc1cbe901f7792c0cfc0024",
-    "url": "https://github.com/nursoda/twofactor_email/releases/download/2.3.0/twofactor_email.tar.gz",
-    "version": "2.3.0",
+    "sha256": "68325db12c6cd26612c0341dd581ac016e02b038d01656026168db33107ec0e5",
+    "url": "https://github.com/nursoda/twofactor_email/releases/download/2.4.0/twofactor_email.tar.gz",
+    "version": "2.4.0",
     "description": "This app allows users to set up email as a second factor for web logins. It requires that an email address is set in 'Personal info'. It currently cannot be used on first login when two-factor authentication is enforced (not implemented yet).",
     "homepage": "https://github.com/nursoda/twofactor_email",
     "licenses": [
