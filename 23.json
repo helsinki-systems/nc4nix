@@ -20,9 +20,9 @@
     ]
   },
   "announcementcenter": {
-    "sha256": "ae7a7b69f1403379ad276209a58ea996e503fd8aab5091acdc598a8600feae9a",
-    "url": "https://github.com/nextcloud-releases/announcementcenter/releases/download/v6.2.0/announcementcenter-v6.2.0.tar.gz",
-    "version": "6.2.0",
+    "sha256": "a7e786245bcad0e1e0550495d502ae28802b85d24bfc2719feeee82870a861aa",
+    "url": "https://github.com/nextcloud-releases/announcementcenter/releases/download/v6.3.0/announcementcenter-v6.3.0.tar.gz",
+    "version": "6.3.0",
     "description": "Announce your maintenance window 🎛️, introduce a new colleague 👤 or make sure everyone knows about the big event next month 📅\n\n🖌️ Markdown support\n\n📑 Comments including @-mentions\n\n👪 Group permissions\n\n⭕ Dashboard integration\n\n⚡ Activities integration\n\n🔔 Notifications integration",
     "homepage": "https://github.com/nextcloud/announcementcenter",
     "licenses": [
@@ -760,9 +760,9 @@
     ]
   },
   "grauphel": {
-    "sha256": "52b47ba709579f53d0db6e5d681977cc6c4476738b0c0f7bc87c4bc13593356a",
-    "url": "https://grosjo.net/grauphel-1.0.7.tar.gz",
-    "version": "1.0.7",
+    "sha256": "cab66e5bfe3d284e3ad6ece0cdbe215bff2423199fbb52acff951416dd1a97e8",
+    "url": "https://grosjo.net/grauphel-1.0.8.tar.gz",
+    "version": "1.0.8",
     "description": "Tomboy REST API server to sync notes between devices.\n\n  Tomboy, Conboy and Tomdroid clients are supported.",
     "homepage": "https://github.com/grosjo/nextcloud-grauphel",
     "licenses": [
@@ -870,8 +870,8 @@
     ]
   },
   "integration_discourse": {
-    "sha256": "641d2f15d27dd6cee0d7e36506e97ad642dddd90c457af696f027c2f39ebe921",
-    "url": "https://github.com/nextcloud/integration_discourse/releases/download/v1.0.2-12-nightly/integration_discourse-1.0.2-12-nightly.tar.gz",
+    "sha256": "7d6e9437b40207ab10e6ff62ba80c6682a0e749e48ab9be6fa51a08bdc0d5c9f",
+    "url": "https://github.com/nextcloud/integration_discourse/releases/download/v1.0.2/integration_discourse-1.0.2.tar.gz",
     "version": "1.0.2",
     "description": "Discourse integration provides a dashboard widget displaying your important notifications\n    and the ability to find topics and posts with Nextcloud's unified search.",
     "homepage": "https://github.com/nextcloud/integration_discourse",
@@ -1450,10 +1450,10 @@
     ]
   },
   "recognize": {
-    "sha256": "828f0cfec2a15b44c6a3bb5284befa17b2fd21ddd3a88bd41d51b99531696d9a",
-    "url": "https://github.com/marcelklehr/recognize/releases/download/v1.12.0/recognize-1.12.0.tar.gz",
-    "version": "1.12.0",
-    "description": "This app goes through your media collection and adds fitting tags, automatically categorizing your photos and music.\n\n* 📷 👪 Recognizes faces from contact photos\n* 📷 🏔 Recognizes animals, landscapes, food, vehicles, buildings and other objects\n* 📷 🗼 Recognizes landmarks and monuments\n* 👂 🎵 Recognizes music genres\n* ⚡ Tagging works via Nextcloud's Collaborative Tags, allowing access by any of your apps\n  * 👂 listen to your tagged music with the audioplayer app\n  * 📷 view your tagged photos with the photos app\n\nRequirements:\n- php 7.3 and above\n- App \"collaborative tags\" enabled\n- For native speed:\n  - Processor: x86 64bit (with support for AVX instructions)\n  - System with glibc (usually the norm on Linux; Alpine linux and FreeBSD are *not* such systems)\n- For sub-native speed (using JavaScript mode)\n  - Processor: x86 64bit, arm64, armv7l (no AVX needed)\n  - System with glibc or musl (incl. Alpine linux)\n- ~4GB of free RAM (if you're cutting it close, make sure you have some swap available)\n\nThe app does not send any sensitive data to cloud providers or similar services. All processing is done on your nextcloud machine, using Tensorflow.js running in Node.js, which comes bundled with this app.",
+    "sha256": "dd0fc915b95f6975f935e0ecccb1a418ba4a62ba9461aee297a87d50421516a3",
+    "url": "https://github.com/marcelklehr/recognize/releases/download/v2.0.0/recognize-2.0.0.tar.gz",
+    "version": "2.0.0",
+    "description": "This app goes through your media collection and adds fitting tags, automatically categorizing your photos and music.\n\n* 📷 👪 Recognizes faces from contact photos\n* 📷 🏔 Recognizes animals, landscapes, food, vehicles, buildings and other objects\n* 📷 🗼 Recognizes landmarks and monuments\n* 👂 🎵 Recognizes music genres\n* ⚡ Tagging works via Nextcloud's Collaborative Tags, allowing access by any of your apps\n  * 👂 listen to your tagged music with the audioplayer app\n  * 📷 view your tagged photos with the photos app\n\nAfter installation, you can enable tagging in the admin settings.\n\nRequirements:\n- php 7.4 and above\n- App \"collaborative tags\" enabled\n- For native speed:\n  - Processor: x86 64bit (with support for AVX instructions)\n  - System with glibc (usually the norm on Linux; Alpine linux and FreeBSD are *not* such systems)\n- For sub-native speed (using JavaScript mode)\n  - Processor: x86 64bit, arm64, armv7l (no AVX needed)\n  - System with glibc or musl (incl. Alpine linux)\n- ~4GB of free RAM (if you're cutting it close, make sure you have some swap available)\n\nThe app does not send any sensitive data to cloud providers or similar services. All processing is done on your nextcloud machine, using Tensorflow.js running in Node.js, which comes bundled with this app.",
     "homepage": "https://github.com/marcelklehr/recognize",
     "licenses": [
       "agpl"
