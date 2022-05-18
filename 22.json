@@ -220,9 +220,9 @@
     ]
   },
   "contacts": {
-    "sha256": "8c69a60e9b7b8e8c81a4be06d1e2f95180e7556e9074b7add07ee48618ea6d20",
-    "url": "https://github.com/nextcloud-releases/contacts/releases/download/v4.1.0/contacts-v4.1.0.tar.gz",
-    "version": "4.1.0",
+    "sha256": "dfbb3c75b4a86748497316ffaad6ab7274271ebb449baba08737f7928556b1a3",
+    "url": "https://github.com/nextcloud-releases/contacts/releases/download/v4.1.1-rc1/contacts-v4.1.1-rc1.tar.gz",
+    "version": "4.1.1-RC.1",
     "description": "The Nextcloud contacts app is a user interface for Nextcloud's CardDAV server. Easily sync contacts from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Currently Mail and Calendar – more to come.\n* 🎉 **Never forget a birthday!** You can sync birthdays and other recurring events with your Nextcloud Calendar.\n* 👥 **Sharing of Adressbooks!** You want to share your contacts with your friends or coworkers? No problem!\n* 🙈 **We’re not reinventing the wheel!** Based on the great and open SabreDAV library.",
     "homepage": "https://github.com/nextcloud/contacts#readme",
     "licenses": [
@@ -1460,9 +1460,9 @@
     ]
   },
   "previewgenerator": {
-    "sha256": "705905bacddbd5cc6f63dbd3b4c091955bd39eb38224665599419fb680f41dab",
-    "url": "https://github.com/nextcloud-releases/previewgenerator/releases/download/v4.0.0/previewgenerator.tar.gz",
-    "version": "4.0.0",
+    "sha256": "62704edd5b20415a3d6d8c243cc209458f501cff7a7100f048d254c51f07e957",
+    "url": "https://github.com/nextcloud-releases/previewgenerator/releases/download/v5.0.0/previewgenerator-v5.0.0.tar.gz",
+    "version": "5.0.0",
     "description": "The Preview Generator app allows admins to pre-generate previews. The app listens to edit events and stores this information. Once a cron job is triggered it will generate start preview generation. This means that you can better utilize your system by pre-generating previews when your system is normally idle and thus putting less load on your machine when the requests are actually served.\n\nThe app does not replace on demand preview generation so if a preview is requested before it is pre-generated it will still be shown.\nThe first time you install this app, before using a cron job, you properly want to generate all previews via:\n**./occ preview:generate-all -vvv**\n\n**Important**: To enable pre-generation of previews you must add **php /var/www/nextcloud/occ preview:pre-generate** to a system cron job that runs at times of your choosing.",
     "homepage": "https://github.com/nextcloud/previewgenerator",
     "licenses": [
