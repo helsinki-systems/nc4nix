@@ -140,9 +140,9 @@
     ]
   },
   "calendar": {
-    "sha256": "9f227c554bdfb731db486a51d763f7b65dd0451dc58a888460c949ec36713c98",
-    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v3.3.0/calendar-v3.3.0.tar.gz",
-    "version": "3.3.0",
+    "sha256": "b5ff534e3e69ce10aee971840bb56dc350c10775cd35770fd919c49a9097897a",
+    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v3.3.1-RC1/calendar-v3.3.1-RC1.tar.gz",
+    "version": "3.3.1-RC.1",
     "description": "The Calendar app is a user interface for Nextcloud's CalDAV server. Easily sync events from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Currently Contacts - more to come.\n* 🌐 **WebCal Support!** Want to see your favorite team’s matchdays in your calendar? No problem!\n* 🙋 **Attendees!** Invite people to your events\n* ⌚️ **Free/Busy!** See when your attendees are available to meet\n* ⏰ **Reminders!** Get alarms for events inside your browser and via email\n* 🔍 Search! Find your events at ease\n* ☑️ Tasks! See tasks with a due date directly in the calendar\n* 🙈 **We’re not reinventing the wheel!** Based on the great [c-dav library](https://github.com/nextcloud/cdav-library), [ical.js](https://github.com/mozilla-comm/ical.js) and [fullcalendar](https://github.com/fullcalendar/fullcalendar) libraries.",
     "homepage": "https://github.com/nextcloud/calendar/",
     "licenses": [
@@ -220,9 +220,9 @@
     ]
   },
   "contacts": {
-    "sha256": "dfbb3c75b4a86748497316ffaad6ab7274271ebb449baba08737f7928556b1a3",
-    "url": "https://github.com/nextcloud-releases/contacts/releases/download/v4.1.1-rc1/contacts-v4.1.1-rc1.tar.gz",
-    "version": "4.1.1-RC.1",
+    "sha256": "f9118ef301e982ba18a3575f7b39353582a3b54dc70e0d81b8ae95c59f1ef21a",
+    "url": "https://github.com/nextcloud-releases/contacts/releases/download/v4.1.1/contacts-v4.1.1.tar.gz",
+    "version": "4.1.1",
     "description": "The Nextcloud contacts app is a user interface for Nextcloud's CardDAV server. Easily sync contacts from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Currently Mail and Calendar – more to come.\n* 🎉 **Never forget a birthday!** You can sync birthdays and other recurring events with your Nextcloud Calendar.\n* 👥 **Sharing of Adressbooks!** You want to share your contacts with your friends or coworkers? No problem!\n* 🙈 **We’re not reinventing the wheel!** Based on the great and open SabreDAV library.",
     "homepage": "https://github.com/nextcloud/contacts#readme",
     "licenses": [
@@ -760,9 +760,9 @@
     ]
   },
   "grauphel": {
-    "sha256": "cab66e5bfe3d284e3ad6ece0cdbe215bff2423199fbb52acff951416dd1a97e8",
-    "url": "https://grosjo.net/grauphel-1.0.8.tar.gz",
-    "version": "1.0.8",
+    "sha256": "16d01482b8f7bdcbc8efce294e6176f63f07c5b12b0d457d3770fb58d5f277a7",
+    "url": "https://grosjo.net/grauphel-1.0.12.tar.gz",
+    "version": "1.0.12",
     "description": "Tomboy REST API server to sync notes between devices.\n\n  Tomboy, Conboy and Tomdroid clients are supported.",
     "homepage": "https://github.com/grosjo/nextcloud-grauphel",
     "licenses": [
@@ -1450,9 +1450,9 @@
     ]
   },
   "recognize": {
-    "sha256": "dd0fc915b95f6975f935e0ecccb1a418ba4a62ba9461aee297a87d50421516a3",
-    "url": "https://github.com/marcelklehr/recognize/releases/download/v2.0.0/recognize-2.0.0.tar.gz",
-    "version": "2.0.0",
+    "sha256": "91227443bc410d6136e2c34a1f3abb2d3be2e19b8fca3f27674d10689764c4dd",
+    "url": "https://github.com/marcelklehr/recognize/releases/download/v2.0.1/recognize-2.0.1.tar.gz",
+    "version": "2.0.1",
     "description": "This app goes through your media collection and adds fitting tags, automatically categorizing your photos and music.\n\n* 📷 👪 Recognizes faces from contact photos\n* 📷 🏔 Recognizes animals, landscapes, food, vehicles, buildings and other objects\n* 📷 🗼 Recognizes landmarks and monuments\n* 👂 🎵 Recognizes music genres\n* ⚡ Tagging works via Nextcloud's Collaborative Tags, allowing access by any of your apps\n  * 👂 listen to your tagged music with the audioplayer app\n  * 📷 view your tagged photos with the photos app\n\nAfter installation, you can enable tagging in the admin settings.\n\nRequirements:\n- php 7.4 and above\n- App \"collaborative tags\" enabled\n- For native speed:\n  - Processor: x86 64bit (with support for AVX instructions)\n  - System with glibc (usually the norm on Linux; Alpine linux and FreeBSD are *not* such systems)\n- For sub-native speed (using JavaScript mode)\n  - Processor: x86 64bit, arm64, armv7l (no AVX needed)\n  - System with glibc or musl (incl. Alpine linux)\n- ~4GB of free RAM (if you're cutting it close, make sure you have some swap available)\n\nThe app does not send any sensitive data to cloud providers or similar services. All processing is done on your nextcloud machine, using Tensorflow.js running in Node.js, which comes bundled with this app.",
     "homepage": "https://github.com/marcelklehr/recognize",
     "licenses": [
