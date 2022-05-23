@@ -190,8 +190,8 @@
     ]
   },
   "cospend": {
-    "sha256": "a9ee0d915ab38fccfd231b22fa2a33c195123f727b64ff1ee65850bb6456e79d",
-    "url": "https://github.com/eneiluj/cospend-nc/releases/download/v1.4.7-3-nightly/cospend-1.4.7-3-nightly.tar.gz",
+    "sha256": "95b7100869c8178fbab085201ac13e960d8fbe45b7cafd34cf60683d4182cb8e",
+    "url": "https://github.com/eneiluj/cospend-nc/releases/download/v1.4.7-7-nightly/cospend-1.4.7-7-nightly.tar.gz",
     "version": "1.4.7",
     "description": "# Nextcloud Cospend 💰\n\nNextcloud Cospend is a group/shared budget manager. It was inspired by the great [IHateMoney](https://github.com/spiral-project/ihatemoney/).\n\nYou can use it when you share a house, when you go on vacation with friends, whenever you share money with others.\n\nIt lets you create projects with members and bills. Each member has a balance computed from the project bills. This way you can see who owes the group and who the group owes. Ultimately you can ask for a settlement plan telling you which payments to make to reset members balances.\n\nProject members are independent from Nextcloud users. Projects can be accessed and modified by people without a Nextcloud account. Each project has an ID and a password for guest access.\n\n[MoneyBuster](https://gitlab.com/eneiluj/moneybuster) Android client is [available in F-Droid](https://f-droid.org/packages/net.eneiluj.moneybuster/) and on the [Play store](https://play.google.com/store/apps/details?id=net.eneiluj.moneybuster).\n\n[PayForMe](https://github.com/mayflower/PayForMe) iOS client is currently being developped!\n\n## Features\n\n* ✎ create/edit/delete projects, members, bills, bill categories, currencies\n* ⚖ check member balances\n* 🗠 display project statistics\n* ♻ display settlement plan\n* 🎇 automatically create reimbursement bills from settlement plan\n* 🗓 create recurring bills (daily/weekly/monthly/yearly)\n* 📊 optionally provide custom amount for each member in new bills\n* 🔗 link bills with personal files (picture of physical bill for example)\n* 👩 guest access for people outside Nextcloud\n* 👫 share projects with Nextcloud users/groups/circles\n* 🖫 import/export projects as csv (compatible with csv files from IHateMoney)\n* 🔗 generate link/QRCode to easily import projects in MoneyBuster\n* 🗲 implement Nextcloud notifications and activity stream\n\nThis app is tested on Nextcloud 20+ with Firefox 57+ and Chromium.\n\nThis app is under development.\n\n🌍 Help us to translate this app on [Nextcloud-Cospend/MoneyBuster Crowdin project](https://crowdin.com/project/moneybuster).\n\n⚒ Check out other ways to help in the [contribution guidelines](https://gitlab.com/eneiluj/cospend-nc/blob/master/CONTRIBUTING.md).\n\n## Documentation\n\n* [User documentation](https://github.com/eneiluj/cospend-nc/blob/master/docs/user.md)\n* [Admin documentation](https://github.com/eneiluj/cospend-nc/blob/master/docs/admin.md)\n* [Developer documentation](https://github.com/eneiluj/cospend-nc/blob/master/docs/dev.md)\n* [CHANGELOG](https://github.com/eneiluj/cospend-nc/blob/master/CHANGELOG.md#change-log)\n* [AUTHORS](https://github.com/eneiluj/cospend-nc/blob/master/AUTHORS.md#authors)\n\n## Known issues\n\n* it does not make you rich\n\nAny feedback will be appreciated.\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://github.com/eneiluj/cospend-nc",
@@ -240,10 +240,10 @@
     ]
   },
   "diary": {
-    "sha256": "6d21671d05b673834d220b966dd8fc935c3da5ee7a89ec2fc5e7f109b4f4c494",
-    "url": "https://github.com/danielroehrig/diary/releases/download/v.0.0.5/diary.tar.gz",
-    "version": "0.0.5",
-    "description": "Keep your diary in your Nextcloud. Write entries for each day in\na markdown editor. Use the calendar to jump to any date and edit your entries.\n\nWarning! This is a very early alpha release and things are still pretty rough around the edges.",
+    "sha256": "0703c5c2c677e0412b53c4972540b105ac33b766715a6b9ff967a2218efa282d",
+    "url": "https://github.com/danielroehrig/diary/releases/download/v.0.0.6/diary.tar.gz",
+    "version": "0.0.6",
+    "description": "Keep your diary in your Nextcloud. Write entries for each day in\na Markdown editor. Use the calendar to jump to any date and edit your entries.\n\nWarning! This is a very early alpha release and things are still pretty rough around the edges.",
     "homepage": "https://github.com/danielroehrig/diary",
     "licenses": [
       "agpl"
@@ -1150,9 +1150,9 @@
     ]
   },
   "quicknotes": {
-    "sha256": "fa827199c8d9458e6d13786c99ff21315fb8a6adf0694ed74a4c1ddbf50792b7",
-    "url": "https://github.com/matiasdelellis/quicknotes/releases/download/v0.7.6/quicknotes.tar.gz",
-    "version": "0.7.6",
+    "sha256": "624617330785da6dc1251b523c20599eba7a88b585ecdf5539c52d6c91b6596b",
+    "url": "https://github.com/matiasdelellis/quicknotes/releases/download/v0.8.0/quicknotes.tar.gz",
+    "version": "0.8.0",
     "description": "Quick notes with a basic rich text",
     "homepage": "https://github.com/matiasdelellis/quicknotes",
     "licenses": [
@@ -1237,6 +1237,16 @@
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
       "apache"
+    ]
+  },
+  "riotchat": {
+    "sha256": "c782164787dc7bbc9c63819eadb9358fb0809aa3b3dfb3188089f4f530e2105c",
+    "url": "https://github.com/gary-kim/riotchat/releases/download/v0.12.0/riotchat.tar.gz",
+    "version": "0.12.0",
+    "description": "Element for Nextcloud allows you to install Element Web easily through Nextcloud and join the Matrix decentralized communication network.\n\nThis app does not include a Matrix server, only the client. You will have to either set up your own Matrix homeserver, rent one, or use a public one.\n\nThis project is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Element or the Element project, or any of its subsidiaries or its affiliates.\n\nThe name Element as well as related names, marks, emblems and images are registered trademarks of their respective owners.\n\nThe upstream project can be found at [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web).",
+    "homepage": "https://github.com/gary-kim/riotchat",
+    "licenses": [
+      "agpl"
     ]
   },
   "root_cache_cleaner": {
@@ -1690,9 +1700,9 @@
     ]
   },
   "workflow_ocr": {
-    "sha256": "c2b1619f733f90d12eb008074896aeceb53eba2c94558b06ffb959318e39af7a",
-    "url": "https://github.com/R0Wi/workflow_ocr/releases/download/v1.24.0/workflow_ocr.tar.gz",
-    "version": "1.24.0",
+    "sha256": "cf145009df23130e7e9225026a6f43bae813ff9f4833074f4fd5ccb49edf1e7a",
+    "url": "https://github.com/R0Wi/workflow_ocr/releases/download/v1.24.1/workflow_ocr.tar.gz",
+    "version": "1.24.1",
     "description": "This app makes it possible to process various files via OCR algorithms.\n\tThe processing is done via workflow-engine and can therefore easily be customized.\n\tPlease note that you'll have to install the OcrMyPDF CLI on your Nextcloud server to\n\tprocess PDF files. More installation instructions can be found in the docs https://github.com/R0Wi/workflow_ocr/blob/master/README.md.",
     "homepage": "https://github.com/R0Wi/workflow_ocr",
     "licenses": [
