@@ -30,9 +30,9 @@
     ]
   },
   "appointments": {
-    "sha256": "e6eb7b48ab4b9c388aed3db429970eac0e156875b4233e167ab3b8babd8077f6",
-    "url": "https://github.com/SergeyMosin/Appointments/raw/v1.12.4a/build/artifacts/appstore/appointments.tar.gz",
-    "version": "1.12.4",
+    "sha256": "0071a212bf6504c69113627a826f3284ef3da399eec79ed28f20b2c20cedec78",
+    "url": "https://github.com/SergeyMosin/Appointments/raw/v1.12.5/build/artifacts/appstore/appointments.tar.gz",
+    "version": "1.12.5",
     "description": "Book appointments into your calendar via secure online form. Attendees can confirm or cancel their appointments via an email link.",
     "homepage": "https://www.srgdev.com/lab/nextcloud-appointments/",
     "licenses": [
@@ -235,6 +235,16 @@
     "version": "1.7.0",
     "description": "Deck is a kanban style organization tool aimed at personal planning and project organization for teams integrated with Nextcloud.\n\n\n- 📥 Add your tasks to cards and put them in order\n- 📄 Write down additional notes in Markdown\n- 🔖 Assign labels for even better organization\n- 👥 Share with your team, friends or family\n- 📎 Attach files and embed them in your Markdown description\n- 💬 Discuss with your team using comments\n- ⚡ Keep track of changes in the activity stream\n- 🚀 Get your project organized",
     "homepage": "https://github.com/nextcloud/deck",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "deckimportfromtrello": {
+    "sha256": "096f3a7d9ca177756a797a264544e3466c931afc806837ad617011efffde3932",
+    "url": "https://github.com/newroco/deckimportfromtrello/releases/download/1.0.1/deckimportfromtrello-1.0.1.tar.gz",
+    "version": "1.0.1",
+    "description": "nextcloud app that allows Deck import from Trello export to JSON file",
+    "homepage": "",
     "licenses": [
       "agpl"
     ]
@@ -1630,9 +1640,9 @@
     ]
   },
   "user_saml": {
-    "sha256": "6383058f82cfebc389ec13fdcbdac62ccf9ec443b8b1dd8ac6fba2daeccdd210",
-    "url": "https://github.com/nextcloud-releases/user_saml/releases/download/v5.0.0/user_saml-v5.0.0.tar.gz",
-    "version": "5.0.0",
+    "sha256": "769a1e4e78d46702e65bbfcfd683b01ba896173db32be93fb04bab79b48e5bcf",
+    "url": "https://github.com/nextcloud-releases/user_saml/releases/download/v5.0.1/user_saml-v5.0.1.tar.gz",
+    "version": "5.0.1",
     "description": "Using the SSO & SAML app of your Nextcloud you can make it easily possible to integrate your existing Single-Sign-On solution with Nextcloud. In addition, you can use the Nextcloud LDAP user provider to keep the convenience for users. (e.g. when sharing)\nThe following providers are supported and tested at the moment:\n\n* **SAML 2.0**\n\t* OneLogin\n\t* Shibboleth\n\t* Active Directory Federation Services (ADFS)\n\n* **Authentication via Environment Variable**\n\t* Kerberos (mod_auth_kerb)\n\t* Any other provider that authenticates using the environment variable\n\nWhile theoretically any other authentication provider implementing either one of those standards is compatible, we like to note that they are not part of any internal test matrix.",
     "homepage": "https://github.com/nextcloud/user_saml",
     "licenses": [
@@ -1685,6 +1695,16 @@
     "version": "22.5.0",
     "description": "Temporary app password generator and WebDAV/CalDAV CORS header injection to be able access the\nNextcloud WebDAV/CalDAV service from inside web applications.\n\nThere is an [example implementation](https://gitlab.tugraz.at/dbp/nextcloud/webapppassword/-/blob/master/docs/example/index.html)\nthat uses this app to generate a temporary password and make a WebDAV request to a Nextcloud instance\n([docker container](https://gitlab.tugraz.at/dbp/nextcloud/webapppassword/-/tree/master/docker) included).\n\nSee [Example](https://gitlab.tugraz.at/dbp/nextcloud/webapppassword#example) for a Nextcloud WebDAV file picker example\nthat uses this application.",
     "homepage": "https://gitlab.tugraz.at/dbp/nextcloud/webapppassword",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "webhooks": {
+    "sha256": "32b61839ed1a380abef6067580971bb53ff04f7a1b8ded206cc4d0efa99864e0",
+    "url": "https://github.com/kffl/nextcloud-webhooks/releases/download/v0.2.1/webhooks.tar.gz",
+    "version": "0.2.1",
+    "description": "This app allows a Nextcloud instance to call an external service via a HTTP(S) POST request whenever an event of a given type occurs.\n    \nOutgoing webhooks can be triggered by either Nextcloud's internal events specified in config.php or by Flow actions defined in the admin UI.",
+    "homepage": "",
     "licenses": [
       "agpl"
     ]
