@@ -129,6 +129,16 @@
       "agpl"
     ]
   },
+  "cas": {
+    "sha256": "397734789d5c915b21f2c58d3eab7ad11226adcdcb78c5c040722f7f8167d5e9",
+    "url": "https://github.com/mziech/nextcloud-cas/releases/download/v0.2.8/cas.tar.gz",
+    "version": "0.2.8",
+    "description": "This is an very basic and experimental implementation of the CAS server protocol for Nextcloud.\nIt is not another user backend for Nextcloud, instead it allows you to authenticate 3rd-party or\ncustom web applications against the Nextcloud user database.\n        \nIf you are creating a custom application and you want to integrate it seemlessly with Nextcloud login,\nyou can either follow the [CAS protocol specification](https://apereo.github.io/cas/4.2.x/protocol/CAS-Protocol-Specification.html)\nor better use one of the many available CAS client libraries.",
+    "homepage": "https://github.com/mziech/nextcloud-cas",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "cfg_share_links": {
     "sha256": "ff370e59ee02b2cb511f70ff9a04ae7e856bb984ba7b806dd5a5e763ae78683a",
     "url": "https://github.com/jimmyl0l3c/cfg_share_links/releases/download/v2.0.0/cfg_share_links.tar.gz",
@@ -240,9 +250,9 @@
     ]
   },
   "deckimportfromtrello": {
-    "sha256": "096f3a7d9ca177756a797a264544e3466c931afc806837ad617011efffde3932",
-    "url": "https://github.com/newroco/deckimportfromtrello/releases/download/1.0.1/deckimportfromtrello-1.0.1.tar.gz",
-    "version": "1.0.1",
+    "sha256": "0d556e98cf21827960440c5f05688d0c574e43bbc6b640461d2a8785de19eba5",
+    "url": "https://github.com/newroco/deckimportfromtrello/releases/download/1.0.2/deckimportfromtrello-1.0.2.tar.gz",
+    "version": "1.0.2",
     "description": "nextcloud app that allows Deck import from Trello export to JSON file",
     "homepage": "",
     "licenses": [
@@ -365,6 +375,16 @@
     "version": "1.14.0",
     "description": "Nextcloud's File Access Control app enables administrators to protect data from unauthorized access or modifications.\n\n## How it works\nThe administrator can create and manage a set of rule groups. Each of the rule groups consists of one or more rules. If all rules of a group hold true, the group matches the request and access is being denied or the upload is blocked. The rules criteria range from IP address, mimetype and request time to group membership, tags, user agent and more.\n\nAn example would be to deny access to MS Excel/XLSX files owned by the \"Human Resources\" group accessed from an IP not on the internal company network or to block uploads of files bigger than 512 mb by students in the \"1st year\" group.\n\nLearn more about File Access Control on [https://nextcloud.com/workflow](https://nextcloud.com/workflow)",
     "homepage": "https://github.com/nextcloud/files_accesscontrol",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "files_antivirus": {
+    "sha256": "f97fa9da61fccc885be48ce86ed516b6e1dca4b8e02f9c6869612319d373f4eb",
+    "url": "https://github.com/nextcloud/files_antivirus/releases/download/v3.3.0/files_antivirus.tar.gz",
+    "version": "3.3.0",
+    "description": "Antivirus for files is an antivirus app for Nextcloud.\n\n* 🕵️‍♂️ When the user uploads a file, it's checked\n* ☢️ Uploaded and infected files will be deleted and a notification will be shown and/or sent via email\n* 🔎 Background Job to scan all files\n* ❓ Use ClamAV (open source) or Kaspersky Scan Engine\n\nThis application inspects files that are uploaded to Nextcloud for viruses before they are written to the Nextcloud storage. If a file is identified as a virus, it is either logged or not uploaded to the server. The application relies on the underlying ClamAV virus scanning engine, which the admin points Nextcloud to when configuring the application. Alternatively, a Kaspersky Scan Engine can be configured, which has to run on a separate server.\nFor this app to be effective, the ClamAV virus definitions should be kept up to date. Also note that enabling this app will impact system performance as additional processing is required for every upload. More information is available in the Antivirus documentation.",
+    "homepage": "",
     "licenses": [
       "agpl"
     ]
@@ -590,9 +610,9 @@
     ]
   },
   "gpoddersync": {
-    "sha256": "521435072c96b32e317729cb3a6150c8de02c8488a87a2361c03fed42af55f16",
-    "url": "https://github.com/thrillfall/nextcloud-gpodder/releases/download/3.3.0/gpoddersync.tar.gz",
-    "version": "3.3.0",
+    "sha256": "1bff5e2d9b0da5f22ce7d73f7a20d5f7fc9b9303b5d69de3cf159d2dded0f401",
+    "url": "https://github.com/thrillfall/nextcloud-gpodder/releases/download/3.4.0/gpoddersync.tar.gz",
+    "version": "3.4.0",
     "description": "Expose GPodder API to sync podcast consumer apps like AntennaPod",
     "homepage": "https://github.com/thrillfall/nextcloud-gpodder",
     "licenses": [
@@ -690,8 +710,8 @@
     ]
   },
   "integration_discourse": {
-    "sha256": "7d6e9437b40207ab10e6ff62ba80c6682a0e749e48ab9be6fa51a08bdc0d5c9f",
-    "url": "https://github.com/nextcloud/integration_discourse/releases/download/v1.0.2/integration_discourse-1.0.2.tar.gz",
+    "sha256": "641d2f15d27dd6cee0d7e36506e97ad642dddd90c457af696f027c2f39ebe921",
+    "url": "https://github.com/nextcloud/integration_discourse/releases/download/v1.0.2-12-nightly/integration_discourse-1.0.2-12-nightly.tar.gz",
     "version": "1.0.2",
     "description": "Discourse integration provides a dashboard widget displaying your important notifications\n    and the ability to find topics and posts with Nextcloud's unified search.",
     "homepage": "https://github.com/nextcloud/integration_discourse",
@@ -1250,9 +1270,9 @@
     ]
   },
   "riotchat": {
-    "sha256": "c782164787dc7bbc9c63819eadb9358fb0809aa3b3dfb3188089f4f530e2105c",
-    "url": "https://github.com/gary-kim/riotchat/releases/download/v0.12.0/riotchat.tar.gz",
-    "version": "0.12.0",
+    "sha256": "81cfad77c340db2b136ef676e858d3bafd495c9b4383bea3af4ef884287b32c0",
+    "url": "https://github.com/gary-kim/riotchat/releases/download/v0.13.0/riotchat.tar.gz",
+    "version": "0.13.0",
     "description": "Element for Nextcloud allows you to install Element Web easily through Nextcloud and join the Matrix decentralized communication network.\n\nThis app does not include a Matrix server, only the client. You will have to either set up your own Matrix homeserver, rent one, or use a public one.\n\nThis project is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Element or the Element project, or any of its subsidiaries or its affiliates.\n\nThe name Element as well as related names, marks, emblems and images are registered trademarks of their respective owners.\n\nThe upstream project can be found at [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web).",
     "homepage": "https://github.com/gary-kim/riotchat",
     "licenses": [
@@ -1440,9 +1460,9 @@
     ]
   },
   "spreed": {
-    "sha256": "81cbdd0942b2a016cf048fc582b2f0a221d3c7c525dc016c98ad1d16bcbbd1d8",
-    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v14.0.1/spreed-v14.0.1.tar.gz",
-    "version": "14.0.1",
+    "sha256": "b0c107db6516a32468a3ac2127d121fc2558388017b50f14f17be40e8284c5cd",
+    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v14.0.2/spreed-v14.0.2.tar.gz",
+    "version": "14.0.2",
     "description": "Chat, video & audio-conferencing using WebRTC\n\n* 💬 **Chat integration!** Nextcloud Talk comes with a simple text chat. Allowing you to share files from your Nextcloud and mentioning other participants.\n* 👥 **Private, group, public and password protected calls!** Just invite somebody, a whole group or send a public link to invite to a call.\n* 💻 **Screen sharing!** Share your screen with participants of your call. You just need to use Firefox version 66 (or newer), latest Edge or Chrome 72 (or newer, also possible using Chrome 49 with this [Chrome extension](https://chrome.google.com/webstore/detail/screensharing-for-nextclo/kepnpjhambipllfmgmbapncekcmabkol)).\n* 🚀 **Integration with other Nextcloud apps** like Files, Contacts and Deck. More to come.\n\nAnd in the works for the [coming versions](https://github.com/nextcloud/spreed/milestones/):\n* ✋ [Federated calls](https://github.com/nextcloud/spreed/issues/21), to call people on other Nextclouds",
     "homepage": "https://github.com/nextcloud/spreed",
     "licenses": [
