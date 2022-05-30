@@ -2130,11 +2130,21 @@
     ]
   },
   "user_backend_sql_raw": {
-    "sha256": "8d041d6a6e3dca8f4a8f2bd8e0f31cd133b00af91bc2a79ae166b12eef391ea5",
-    "url": "https://github.com/PanCakeConnaisseur/user_backend_sql_raw/releases/download/v1.1.1/user_backend_sql_raw.tar.gz",
-    "version": "1.1.1",
+    "sha256": "aa0bac573b7f39052569ee45aca21eea3d98da278f7ec7716a8eb634b22c5047",
+    "url": "https://github.com/PanCakeConnaisseur/user_backend_sql_raw/releases/download/v1.3.0/user_backend_sql_raw.tar.gz",
+    "version": "1.3.0",
     "description": "This app allows you to do user management against a SQL database using arbitrary SQL queries, enabling you to use any SQL db schema.\n\nYou can authenticate, create, delete users, change their password or display name, basically do (almost) everything that Nextcloud can do with users.\n\nIn contrast to the app *SQL user backend*, you write the SQL queries yourself. You are not limited by assumptions that app authors made about how your db is structured.\n\nThe app uses prepared statements and is written to be secure by default to prevent SQL injections. It understands the most popular standards for password hash formats: MD5-CRYPT, SHA256-CRYPT, SHA512-CRYPT, BCrypt and the state-of-the-art Argon2i and Argon2id. Because the various formats are recognized on-the-fly your db can can have differing hash string formats at the same time, which eases migration to newer formats.\n\nThis app supports PostgreSQL and MariaDB/MySQL.",
     "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "user_cas": {
+    "sha256": "f475c75a9d581c40a291b54d4854dda61486a71c004e62a75090b0ff7b6e02f8",
+    "url": "https://github.com/felixrupp/user_cas/releases/download/1.10.0/user_cas-nextcloud-with-phpcas.tar.gz",
+    "version": "1.10.0",
+    "description": "This app provides in-depth features to authenticate and authorize users against a [jasig/apereo Central Authentication Server (CAS)](https://www.apereo.org/projects/cas). The app provides all necessary options needed to connect to your CAS instance and also advanced features to manage the groups accessible by your CAS infrastructure to implement an authorization feature. This version supports ECAS instances used by the European Commission. Additionally this version supports ActiveDirectory (LDAP) import via commandline. Commercial support for user_cas is available through ownCloud GmbH and myself personally.",
+    "homepage": "https://github.com/felixrupp/user_cas",
     "licenses": [
       "agpl"
     ]
