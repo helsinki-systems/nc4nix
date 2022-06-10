@@ -930,9 +930,9 @@
     ]
   },
   "mail": {
-    "sha256": "1a2d32018b76c6102526687636e8e7d5a7ff028a227b8cd4da2681a34e2472f3",
-    "url": "https://github.com/nextcloud-releases/mail/releases/download/v1.13.3/mail-v1.13.3.tar.gz",
-    "version": "1.13.3",
+    "sha256": "5b90d4bf4606956c8f1ddc94740da33eefae7ffdf79046d7751ee37abcf0b0d2",
+    "url": "https://github.com/nextcloud-releases/mail/releases/download/v1.13.4-rc.1/mail-v1.13.4-rc.1.tar.gz",
+    "version": "1.13.4-rc.1",
     "description": "**💌 A mail app for Nextcloud**\n\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://horde.org) libraries.\n- **📬 Want to host your own mail server?** We don’t have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!",
     "homepage": "https://github.com/nextcloud/mail#readme",
     "licenses": [
@@ -1110,9 +1110,9 @@
     ]
   },
   "passwords": {
-    "sha256": "34bd7c34e74e1a1c5464db540688939d120686a3a8c063170a4beeef228bf49c",
-    "url": "https://git.mdns.eu/nextcloud/passwords/-/jobs/13989/artifacts/raw/passwords.tar.gz",
-    "version": "2022.6.20",
+    "sha256": "d5632fd319da4faf32d34eee7e462f1da039f7ecee3dc5f3ef0d6efb5679d88c",
+    "url": "https://git.mdns.eu/nextcloud/passwords/-/jobs/14028/artifacts/raw/passwords.tar.gz",
+    "version": "2022.7.20-build4503",
     "description": "Passwords is the most advanced password manager for Nextcloud and allows you to manage and store your passwords safely in your own cloud.\nThe intuitive and modern web interface of the app makes it easy to update and add new passwords from anywhere.\nIncluded security checks help you to keep your online accounts safe and up-to-date.\nYou can also share passwords with other Nextcloud users.\n\n**Features**\n * Intuitive and modern user interface\n * Password security monitor\n * Secure encryption\n * Folders &amp; tags\n * Sharing\n * API for apps\n * Extensive handbook\n * Import &amp; Export\n * Browser extensions &amp; Apps\n * ... and many more to come\n\n**Support**\n * [Official Chat](https://t.me/nc_passwords)\n * [Official Forum](https://help.nextcloud.com/c/apps/passwords)\n * [User Handbook](https://git.mdns.eu/nextcloud/passwords/wikis/Users/Index)\n * [Administrator Handbook](https://git.mdns.eu/nextcloud/passwords/wikis/Administrators/Index)\n\n**Apps & Extensions**\n * [Official Firefox Add-On](https://addons.mozilla.org/de/firefox/addon/nextcloud-passwords?src=external-ncapps)\n * [Official Chrome Extension](https://chrome.google.com/webstore/detail/nextcloud-passwords/mhajlicjhgoofheldnmollgbgjheenbi)\n * [Official Microsoft Edge Extension](https://microsoftedge.microsoft.com/addons/detail/cjmlcljdpphgdfpkngjcmeepdpcgpffk)\n * [Android App](https://play.google.com/store/apps/details?id=de.jbservices.nc_passwords_app) by [joleaf](https://gitlab.com/joleaf/nc-passwords-app)\n * [Android App](https://play.google.com/store/apps/details?id=com.nextcloudpasswords) by [daper](https://github.com/daper/nextcloud-passwords-app)\n * [Windows App (WIP)](https://www.microsoft.com/store/apps/9NXVZ0ZP6D5Z) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [Linux App (WIP)](https://gitlab.com/j0chn/nextcloud_password_client/-/tree/main#linux) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [macOS App (WIP)](https://gitlab.com/j0chn/nextcloud_password_client/-/tree/main#mac-os) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [iOS App](https://apps.apple.com/app/id1546212226) by [Johannes Schliephake](https://github.com/johannes-schliephake/nextcloud-passwords-ios)",
     "homepage": "",
     "licenses": [
@@ -1240,9 +1240,9 @@
     ]
   },
   "recognize": {
-    "sha256": "91227443bc410d6136e2c34a1f3abb2d3be2e19b8fca3f27674d10689764c4dd",
-    "url": "https://github.com/marcelklehr/recognize/releases/download/v2.0.1/recognize-2.0.1.tar.gz",
-    "version": "2.0.1",
+    "sha256": "0ff17efb45e1df916d62f008dc7e64b5c6c20ad70660ec74a76b81dd54411dda",
+    "url": "https://github.com/marcelklehr/recognize/releases/download/v2.1.0/recognize-2.1.0.tar.gz",
+    "version": "2.1.0",
     "description": "This app goes through your media collection and adds fitting tags, automatically categorizing your photos and music.\n\n* 📷 👪 Recognizes faces from contact photos\n* 📷 🏔 Recognizes animals, landscapes, food, vehicles, buildings and other objects\n* 📷 🗼 Recognizes landmarks and monuments\n* 👂 🎵 Recognizes music genres\n* ⚡ Tagging works via Nextcloud's Collaborative Tags, allowing access by any of your apps\n  * 👂 listen to your tagged music with the audioplayer app\n  * 📷 view your tagged photos with the photos app\n\nAfter installation, you can enable tagging in the admin settings.\n\nRequirements:\n- php 7.4 and above\n- App \"collaborative tags\" enabled\n- For native speed:\n  - Processor: x86 64bit (with support for AVX instructions)\n  - System with glibc (usually the norm on Linux; Alpine linux and FreeBSD are *not* such systems)\n- For sub-native speed (using JavaScript mode)\n  - Processor: x86 64bit, arm64, armv7l (no AVX needed)\n  - System with glibc or musl (incl. Alpine linux)\n- ~4GB of free RAM (if you're cutting it close, make sure you have some swap available)\n\nThe app does not send any sensitive data to cloud providers or similar services. All processing is done on your nextcloud machine, using Tensorflow.js running in Node.js, which comes bundled with this app.",
     "homepage": "https://github.com/marcelklehr/recognize",
     "licenses": [
@@ -1790,8 +1790,8 @@
     ]
   },
   "welcome": {
-    "sha256": "afb6c6301cf3177d0637ce4c29796eeb5c005f9153d17f067907fe07c8619763",
-    "url": "https://github.com/eneiluj/welcome/releases/download/v1.0.1-2-nightly/welcome-1.0.1-2-nightly.tar.gz",
+    "sha256": "1441be156e3860a1b214ba07dfe6b4b87512f932d81b2d83acbf34e5e8bdd797",
+    "url": "https://github.com/eneiluj/welcome/releases/download/v1.0.1/welcome-1.0.1.tar.gz",
     "version": "1.0.1",
     "description": "ℹ A Markdown rendering Dashboard widget to welcome all users.\n\n⚙ Configure via `Settings > Administration > Theming > Welcome widget`\n\n📄 Pick a Markdown document to be rendered in the widget\n\n💡 If no document is chosen, the widget won't be shown\n\n📝 Edit the Markdown document to update the widget in real-time\n\n🖼 Images are also supported\n\n💬 Configure a contact person to directly start a chat with (requires [Nextcloud Talk](https://apps.nextcloud.com/apps/spreed) to be installed)",
     "homepage": "https://github.com/eneiluj/welcome",
@@ -1800,9 +1800,9 @@
     ]
   },
   "whereami": {
-    "sha256": "ba2a9e8c413b170b4572507637a1d7d1d58ca2ce0de6f205a9c6e5f7e6e64a1a",
-    "url": "https://github.com/Adacis/whereami/releases/download/0.0.1/whereami.tar.gz",
-    "version": "0.0.1",
+    "sha256": "760c21bf01d316bd75e3e6a65ad31ab7cca979438edc7ed7a5e7fccc43f72d48",
+    "url": "https://github.com/Adacis/whereami/releases/download/0.0.2/whereami.tar.gz",
+    "version": "0.0.2",
     "description": "Is a simple application to locate everybody in your company.",
     "homepage": "",
     "licenses": [
