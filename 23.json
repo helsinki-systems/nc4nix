@@ -30,9 +30,9 @@
     ]
   },
   "appointments": {
-    "sha256": "3a9979a84c1bc90b74523e63a1cd8fb1042a9325510c5d44ca3ab5694056ec6c",
-    "url": "https://github.com/SergeyMosin/Appointments/raw/v1.12.6/build/artifacts/appstore/appointments.tar.gz",
-    "version": "1.12.6",
+    "sha256": "2567a749dc2366078e81b7fe866e7d118d326de4d1bfe9611342fcf6b4095309",
+    "url": "https://github.com/SergeyMosin/Appointments/raw/v1.12.7/build/artifacts/appstore/appointments.tar.gz",
+    "version": "1.12.7",
     "description": "Book appointments into your calendar via secure online form. Attendees can confirm or cancel their appointments via an email link.",
     "homepage": "https://www.srgdev.com/lab/nextcloud-appointments/",
     "licenses": [
@@ -260,8 +260,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -685,6 +685,16 @@
     "version": "1.0.4",
     "description": "This adds a new context menu item to the Files dropdown menu &quot;Edit with LibreOffice&quot;.\nClicking that item will open the file in LibreOffice via WebDav (the file can then be edited and saved back directly in LibreOffice).\n\nThis greatly improves the user experience when working with Office files in the browser. No need to download, edit, reupload. Instead use the &quot;Edit with LibreOffice&quot; item.\n\nThis app requires at least LibreOffice 7.2 on Linux and macOS. On Windows it also works with older LibreOffice versions (since LibreOffice 5.3).",
     "homepage": "https://github.com/allotropia/nextcloud_files_libreoffice_edit",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "flow_notifications": {
+    "sha256": "9ec0c85d0a17f130599d384efb9a98cecf86feca25b780ce100b54f41eef3a91",
+    "url": "https://github.com/nextcloud-releases/flow_notifications/releases/download/v1.3.0/flow_notifications-v1.3.0.tar.gz",
+    "version": "1.3.0",
+    "description": "Enable users to configure notifications with customized conditions in their Flow configuration.\n\nUsers are empowered to configure a \"Send a notification\" Flow in their personal settings. They can choose between the events being triggered, and other conditions like filetypes, assigned tags, time ranges and more. They can specify an inscription so that when the notification appears they will have context.\n\n![Notification Flow Configuration](https://raw.githubusercontent.com/nextcloud/flow_notifications/master/screenshots/configuration.png)\n\nWhen an event happens where all conditions are apply, the user will receive a regular Nextcloud notification.\n\n![Flow Notification](https://raw.githubusercontent.com/nextcloud/flow_notifications/master/screenshots/notification.png)",
+    "homepage": "https://github.com/nextcloud/flow_notifications",
     "licenses": [
       "agpl"
     ]
@@ -1250,9 +1260,9 @@
     ]
   },
   "oidc": {
-    "sha256": "2ffc7990c6fe811283c8ccb836df31ebad7b273cc70bfdaa08256ee9112c2beb",
-    "url": "https://github.com/H2CK/oidc/releases/download/0.1.5/oidc-0.1.5.tar.gz",
-    "version": "0.1.5",
+    "sha256": "115a3ad8199d524c123b401be0dc2b55149626bee8b12b050792da7d4453479b",
+    "url": "https://github.com/H2CK/oidc/releases/download/0.1.6/oidc-0.1.6.tar.gz",
+    "version": "0.1.6",
     "description": "Nextcloud as OpenID Connect Identity Provider\n\nWith this app you can use Nextcloud as OpenID Connect Identity Provider. If other services\nare configured correctly, you are able to access those services with your Nextcloud login.\n\nFull documentation can be found at:\n\n- [User Documentation](https://github.com/H2CK/oidc/wiki#user-documentation)\n- [Developer Documentation](https://github.com/H2CK/oidc/wiki#developer-documentation)",
     "homepage": "https://github.com/H2CK/oidc",
     "licenses": [
