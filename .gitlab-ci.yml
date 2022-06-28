@@ -5,6 +5,11 @@ stages:
   - test
   - push
 
+default:
+  tags:
+    - nix
+    - helsinki-hydra-builder02
+
 variables:
   COMMIT_LOG: "1"
 
