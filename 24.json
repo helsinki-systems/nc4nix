@@ -120,9 +120,9 @@
     ]
   },
   "calendar": {
-    "sha256": "6f766176fef40194b36db47f09b36f2a44aac90a507ef84cbbde863b0b4bc154",
-    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v3.4.0/calendar-v3.4.0.tar.gz",
-    "version": "3.4.0",
+    "sha256": "6e4afc6f74d71ce296ca9bc3c643e4a2eb12e85dfc979186ef2eae17e096713a",
+    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v3.4.1/calendar-v3.4.1.tar.gz",
+    "version": "3.4.1",
     "description": "The Calendar app is a user interface for Nextcloud's CalDAV server. Easily sync events from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Currently Contacts - more to come.\n* 🌐 **WebCal Support!** Want to see your favorite team’s matchdays in your calendar? No problem!\n* 🙋 **Attendees!** Invite people to your events\n* ⌚️ **Free/Busy!** See when your attendees are available to meet\n* ⏰ **Reminders!** Get alarms for events inside your browser and via email\n* 🔍 Search! Find your events at ease\n* ☑️ Tasks! See tasks with a due date directly in the calendar\n* 🙈 **We’re not reinventing the wheel!** Based on the great [c-dav library](https://github.com/nextcloud/cdav-library), [ical.js](https://github.com/mozilla-comm/ical.js) and [fullcalendar](https://github.com/fullcalendar/fullcalendar) libraries.",
     "homepage": "https://github.com/nextcloud/calendar/",
     "licenses": [
@@ -240,8 +240,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -1320,9 +1320,9 @@
     ]
   },
   "richdocumentscode": {
-    "sha256": "64691b5d41156e31ecb07107d2bee8bde12f0e305a7f0b745028a2a3e3a6582e",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/21.11.402/richdocumentscode.tar.gz",
-    "version": "21.11.402",
+    "sha256": "eae1640b23510231e4e459bc03c7075c79fdb66fb38a10766590ec3d7785dac7",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/22.5.301/richdocumentscode.tar.gz",
+    "version": "22.5.301",
     "description": "This app has to be installed and used together with the **[Collabora Online](https://apps.nextcloud.com/apps/richdocuments)** app.\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\nThis app provides a built-in server with all of the document editing features of Collabora Online. Easy to install, for personal use or for small teams. A bit slower than a standalone server and without the advanced scalability features.\n\nThe download is rather big so it is possible you experience a time-out when using the web interface. You can use the OCC command line tool to install the built-in server:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -1330,9 +1330,9 @@
     ]
   },
   "richdocumentscode_arm64": {
-    "sha256": "733952af3fb654519beb6f0a4b93ed8f6b52dfe867cecea356b07d51db4112d5",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/21.11.402/richdocumentscode_arm64.tar.gz",
-    "version": "21.11.402",
+    "sha256": "8004d7fb3e7b02f79afba81ee2e63f356af3bd29daa1e3b82271e4b9bba63ff6",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/22.5.301/richdocumentscode_arm64.tar.gz",
+    "version": "22.5.301",
     "description": "This app has to be installed and used together with the **[Collabora Online](https://apps.nextcloud.com/apps/richdocuments)** app.\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\nThis app provides a built-in server with all of the document editing features of Collabora Online. Easy to install, for personal use or for small teams. A bit slower than a standalone server and without the advanced scalability features.\n\nThe download is rather big so it is possible you experience a time-out when using the web interface. You can use the OCC command line tool to install the built-in server:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode_arm64\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
