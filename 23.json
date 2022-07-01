@@ -260,8 +260,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -1779,6 +1779,16 @@
       "agpl"
     ]
   },
+  "sorts": {
+    "sha256": "aa0446859e3417e47a26c3ab1fed43749461fbb2638fa85f3ab4a417c10aeb54",
+    "url": "https://packages.framasoft.org/projects/nextcloud-apps/sorts/sorts-0.1.0-beta.tar.gz",
+    "version": "0.1.0-beta",
+    "description": "This app provide conditional filters, to search efficiently throughout numerous files and folders",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "souvenirs": {
     "sha256": "bef4044aec156b5c08fd6e062e17a09f02a859e8136bfa1c2d3d3e00d8a0b7a8",
     "url": "https://github.com/zorgluf/souvenirs-nextcloud/releases/download/v1.5.0/souvenirs.tar.gz",
@@ -1890,10 +1900,10 @@
     ]
   },
   "timemanager": {
-    "sha256": "fed23988779dfcb3cd76db55f95aead84ba2c96bb0b8653a74866d053396c96c",
-    "url": "https://github.com/te-online/nextcloud-app-releases/raw/main/timemanager/v0.3.1/timemanager.tar.gz",
-    "version": "0.3.1",
-    "description": "### Time tracking in Nextcloud!\n* 📁 **organize time entries** based on tasks, projects and clients\n* ⏱ **quickly record** a time entry for your latest tasks\n* ✅ **check or uncheck** a time entry (e.g. to save whether you've billed it)\n* 📈 make use of simple, but useful **statistics** and **reports**.\n\n#### Latest changes 🎉\n**0.3.1 Beta, 6. May 2022**\n- Tools/Import:\n  - Add comma as a delimiter\n  - Improve test coverage\n  - Improve error handling, especially if file does not contain entities\n  - Show messages in a dialog\n- Run tests for Nextcloud 24 and bump compatibility to Nextcloud 24\n- Update JS dependencies\n\n_Please refer to the [full changelog](https://github.com/te-online/timemanager/#changelog) to see older releases_\n\n📱 **Looking for a mobile companion app?** Try the [Android app (currently in beta)](https://play.google.com/store/apps/details?id=de.jbservices.nc_timemanager_app) made by [@joleaf](https://gitlab.com/joleaf/nc-timemanager-mobile-app)",
+    "sha256": "33e6b865b0ebbf8630facd97bb056a9a5cd573187655dd01e76546b2c8f9f6f9",
+    "url": "https://github.com/te-online/nextcloud-app-releases/raw/main/timemanager/v0.3.2/timemanager.tar.gz",
+    "version": "0.3.2",
+    "description": "### Time tracking in Nextcloud!\n* 📁 **organize time entries** based on tasks, projects and clients\n* ⏱ **quickly record** a time entry for your latest tasks\n* ✅ **check or uncheck** a time entry (e.g. to save whether you've billed it)\n* 📈 make use of simple, but useful **statistics** and **reports**.\n\n#### Latest changes 🎉\n**0.3.2 Beta, 29. June 2022**\n- Add overview of all projects, tasks, and latest time entries when you select the respective menu entries without selecting a client first\n- Dashboard: Add ability to see latest time entries by other people in clients that you shared and enable to filter them by person\n- Reports: Add ability to filter reports by person who created the time entries\n- Bugfix: The list of clients, projects, and tasks that appears when you select the respective menu items didn't show items shared with you\n- Attempt to avoid more layout-shifts on Dashboard when JS has mounted components\n\n_Please refer to the [full changelog](https://github.com/te-online/timemanager/#changelog) to see older releases_\n\n📱 **Looking for a mobile companion app?** Try the [Android app (currently in beta)](https://play.google.com/store/apps/details?id=de.jbservices.nc_timemanager_app) made by [@joleaf](https://gitlab.com/joleaf/nc-timemanager-mobile-app)",
     "homepage": "https://github.com/te-online/timemanager",
     "licenses": [
       "agpl"
