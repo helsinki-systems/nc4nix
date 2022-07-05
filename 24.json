@@ -240,8 +240,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -1040,9 +1040,9 @@
     ]
   },
   "news": {
-    "sha256": "8e6ae871d2664696aed3357c52d2f2beb957fe4eceeb3959f06f73af2f226c4c",
-    "url": "https://github.com/nextcloud/news/releases/download/18.1.0/news.tar.gz",
-    "version": "18.1.0",
+    "sha256": "d6edb62d388f9d8e9f99a63ac1d2eba09cc2f9494bae80b4874ad6f06f01bfee",
+    "url": "https://github.com/nextcloud/news/releases/download/18.1.1-beta1/news.tar.gz",
+    "version": "18.1.1-beta1",
     "description": "📰 A RSS/Atom Feed reader App for Nextcloud\n\n- 📲 Synchronize your feeds with multiple mobile or desktop [clients](https://nextcloud.github.io/news/clients/)\n- 🔄 Automatic updates of your news feeds\n- 🆓 Free and open source under AGPLv3, no ads or premium functions\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://nextcloud.github.io/news/install/#dependencies)\n\nThe Changelog is available [here](https://github.com/nextcloud/news/blob/master/CHANGELOG.md)\n\nCreate a [bug report](https://github.com/nextcloud/news/issues/new/choose)\n\nCreate a [feature request](https://github.com/nextcloud/news/discussions/new)\n\nReport a [feed issue](https://github.com/nextcloud/news/discussions/new)",
     "homepage": "https://github.com/nextcloud/news",
     "licenses": [
@@ -1640,9 +1640,9 @@
     ]
   },
   "timetracker": {
-    "sha256": "c22fa9760e5dd0fdbb753357c105656b84274bca77563b4af337a76a20aeffff",
-    "url": "https://mtier.org/timetracker/timetracker-0.0.74.tar.gz",
-    "version": "0.0.74",
+    "sha256": "7865bbef9290cae16f3ceec3c83663a68599541f1aa25729ab9a1753d11cfe62",
+    "url": "https://mtier.org/timetracker/timetracker-0.0.75.tar.gz",
+    "version": "0.0.75",
     "description": "Track your time spent with different tasks each day using this time tracker app! Features include:\n\n# Adding entries\nWith the integrated timer, you only need to press start and stop! Times will be stored automatically, with 1-second-precision. Forgot to press start? Just use the manual editor, to add entries from the past. Or edit existing ones in case you need to change something!\n\n# Projects, Clients and Tags\nAssign tasks to projects and clients! This allows you to display aggregated durations for each project or client, or filter for tasks by projects or clients. You need some more categorization? That's what tags are made for! Create tags to categorize tasks independently from projects or clients.\n\n# Lost track of your work time?\nNo problem! Just use the Dashboard view to display a nice donut / pie chart of your tasks! Or filter for tasks in the Reports or Timeline view to display total or aggregated values.\n\nThis app is still under development, so stay tuned for updates and additional features! If you have any suggestions, bug reports or feature requests, feel free to head over to our [GitHub project page](https://github.com/mtierltd/timetracker) and search through the existing issues, maybe your topic is already under discussion! And if it's not, feel free to file a new issue for it.\n\nAnd for now, start making your time tracking easier by using this app!",
     "homepage": "",
     "licenses": [
@@ -1675,6 +1675,16 @@
     "version": "2.5.0",
     "description": "This app allows users to set up email as a second factor for web logins. It requires that an email address is set in 'Personal info'. It currently cannot be used on first login when two-factor authentication is enforced (not implemented yet).",
     "homepage": "https://github.com/nursoda/twofactor_email",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "twofactor_gateway": {
+    "sha256": "b152be5f05c1b72d348533f0d9a941b0ed99e36173fb8293443659dd04370f60",
+    "url": "https://github.com/nextcloud-releases/twofactor_gateway/releases/download/v0.20.0/twofactor_gateway-v0.20.0.tar.gz",
+    "version": "0.20.0",
+    "description": "A set of Nextcloud two-factor providers to send authentication codes via Signal, SMS and Telegram.",
+    "homepage": "https://github.com/nextcloud/twofactor_gateway",
     "licenses": [
       "agpl"
     ]
