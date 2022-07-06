@@ -600,9 +600,9 @@
     ]
   },
   "files_zip": {
-    "sha256": "3106bd88887e4d9f64ef1a4dc749407abf64042a2a8b9199639491f36c99ce99",
-    "url": "https://github.com/nextcloud-releases/files_zip/releases/download/v1.1.1/files_zip-v1.1.1.tar.gz",
-    "version": "1.1.1",
+    "sha256": "3e14140567c187b29a5fbbf34f0092bd3d3d139c6c7181fcbf528d8c4fa630fd",
+    "url": "https://github.com/nextcloud-releases/files_zip/releases/download/v1.1.2/files_zip-v1.1.2.tar.gz",
+    "version": "1.1.2",
     "description": "Allow zipping files directly in your Nextcloud!",
     "homepage": "https://github.com/nextcloud/files_zip",
     "licenses": [
@@ -949,6 +949,16 @@
       "agpl"
     ]
   },
+  "ldap_contacts_backend": {
+    "sha256": "e13ebdd8f998c054bbfb0aa8f307da8abd355f48a580d2dbab20838d645b052a",
+    "url": "https://github.com/nextcloud-releases/ldap_contacts_backend/releases/download/v1.4.0/ldap_contacts_backend-v1.4.0.tar.gz",
+    "version": "1.4.0",
+    "description": "Adds a virtual address book and lets import contacts to user&#39;s individual one.\n\n![Copy found LDAP contact to address book](https://raw.githubusercontent.com/nextcloud/ldap_contacts_backend/master/screenshots/contactsmenu-with-action.png)\n\nIn order to configure an LDAP backend, run\n\n``php\nphp occ ldap_contacts:add --interactive $ADDRESSBOOKNAME\n``\n\nWhere $ADDRESSBOOKNAME is a name you like to identify the virtual addressbook with. The interactive mode leads you through the configuration, but you can also use the `--help` flag to see all the options.\n\nGiven that the configuration is correct, you and your users will be able to search through the LDAP contacts via the global contacts menu. An import action allows to copy the contact over to the best fitting existing addressbook. A redirect takes you the contacts app with the newly created card open.",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "libresign": {
     "sha256": "b8e7edb6c395ce6edcd774d2aa813c80071a075260d5ed9b278eb0dad01bd503",
     "url": "https://github.com/LibreSign/libresign/releases/download/v5.1.1/libresign.tar.gz",
@@ -980,9 +990,9 @@
     ]
   },
   "mail": {
-    "sha256": "ed75830654058ddaab8333f2139b14b49fe3fd971b06abd70625fa2bbc1236b3",
-    "url": "https://github.com/nextcloud-releases/mail/releases/download/v1.13.5/mail-v1.13.5.tar.gz",
-    "version": "1.13.5",
+    "sha256": "0f31a819320c8281d27b0002c9dba2d971219e190a6507b87c6ff94de973d366",
+    "url": "https://github.com/nextcloud-releases/mail/releases/download/v1.13.6/mail-v1.13.6.tar.gz",
+    "version": "1.13.6",
     "description": "**💌 A mail app for Nextcloud**\n\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://horde.org) libraries.\n- **📬 Want to host your own mail server?** We don’t have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!",
     "homepage": "https://github.com/nextcloud/mail#readme",
     "licenses": [
@@ -1420,9 +1430,9 @@
     ]
   },
   "side_menu": {
-    "sha256": "c516d05ac4721d1d94cb878ea193ed439e2f5891917db9a010c2a835eaf47482",
-    "url": "https://gitnet.fr/attachments/1176060e-cb61-494e-9665-13c00289d188",
-    "version": "2.4.0",
+    "sha256": "3c5d8de7b236dfac4153997c8da7cb87f18266a62c53f9987a5a4189a517f60f",
+    "url": "https://gitnet.fr/attachments/e8635d89-e6c7-4c67-8e78-afcb0e955621",
+    "version": "2.4.1",
     "description": "Custom menu allows you to modify the position of the main menu by creating a panel on the left of the interface or with a big menu on the top.\nYou can also define apps that must be displayed in the top menu. Fully customisable.\n\nThis application is rather suitable for instances that activate a lot of applications.\n\nUse the shortcut `Ctrl`+`o` to open and to hide the side menu. Use `tab` to navigate.\n\nYou can customize colors depending of the theme (Dark theme and Breeze Dark). Comptatible with AppOrder.\n\nYou can report a bug or request a feature by opening an issue.\n\nRequirements:\n\n* PHP >= 7.3\n* App `theming` enabled\n\nIf you like this application and if you want to support the development:\n\n* [Buy me a coffee](https://www.buymeacoffee.com/deblan)\n* [Donate with liberapay](https://liberapay.com/deblan)\n* [Leave a comment](https://apps.nextcloud.com/apps/side_menu#comments)",
     "homepage": "https://gitnet.fr/deblan/side_menu",
     "licenses": [
@@ -1740,9 +1750,9 @@
     ]
   },
   "uppush": {
-    "sha256": "1a5d9943a17bdb6501f4ff81ed820d2d29c5edb75160a2b842aec73a54ebe33f",
-    "url": "https://github.com/p1gp1g/nextpush-publish/raw/main/1.0.4/uppush-1.0.4.tar.gz",
-    "version": "1.0.4",
+    "sha256": "c681921d4df9159d9a440881a22e0981d0182ef9793a7ccf2864331a3769b18d",
+    "url": "https://github.com/p1gp1g/nextpush-publish/raw/main/1.0.5/uppush-1.0.5.tar.gz",
+    "version": "1.0.5",
     "description": "Once the mobile phone is connected with NextPush, push notifications can be forwarded to applications implementing UnifiedPush.\n\nMore information about UnifiedPush at https://unifiedpush.org",
     "homepage": "",
     "licenses": [
