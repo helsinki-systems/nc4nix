@@ -1,4 +1,4 @@
-{ fetchurl, libarchive, lib, stdenvNoCC, callPackage, overrides ? (self: super: {}) }:
+{ lib, fetchNextcloudApp, callPackage, overrides ? (self: super: {}) }:
 let apps = (self:
   let
     appJson = version: builtins.fromJSON (builtins.readFile (./. + "/${version}.json"));
@@ -10,19 +10,9 @@ let apps = (self:
       value = builtins.mapAttrs mkApp (appJson majorVer);
     }) versions);
 
-    mkApp = pname: value: stdenvNoCC.mkDerivation {
-      inherit pname;
-      inherit (value) version;
-      src = fetchurl {
-        inherit (value) url sha256;
-        name = "${pname}-${value.version}.zip";
-      };
-      buildInputs = [ libarchive ];
-      dontUnpack = true;
-      installPhase = ''
-        mkdir -p $out/apps/${pname}
-        bsdtar xf "$src" -C $out/apps/${pname}/
-      '';
+    mkApp = name: value: fetchNextcloudApp {
+      inherit name;
+      inherit (value) version url sha256;
     };
   in
     apps
