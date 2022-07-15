@@ -330,9 +330,9 @@
     ]
   },
   "duplicatefinder": {
-    "sha256": "cd3025bd3adc7f44dcd4b5db979bc6fd26e8f3b6dd02ba973c1db982c692c3e2",
-    "url": "https://github.com/PaulLereverend/NextcloudDuplicateFinder/releases/download/0.0.14/duplicatefinder.tar.gz",
-    "version": "0.0.14",
+    "sha256": "dcb1056e4454ed0a420b1e33883ca2419545063207c11cc03b5ec548670b6013",
+    "url": "https://github.com/PaulLereverend/NextcloudDuplicateFinder/releases/download/0.0.15/duplicatefinder.tar.gz",
+    "version": "0.0.15",
     "description": "Duplicate Finder is an app that allows you to find files that are the same.\n\n\n  The detection works on the fly and asynchronously via cron jobs.\n  For more details visit the [GitHub repo](https://github.com/PaulLereverend/NextcloudDuplicateFinder).",
     "homepage": "https://github.com/PaulLereverend/NextcloudDuplicateFinder",
     "licenses": [
@@ -1350,9 +1350,9 @@
     ]
   },
   "richdocumentscode": {
-    "sha256": "eae1640b23510231e4e459bc03c7075c79fdb66fb38a10766590ec3d7785dac7",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/22.5.301/richdocumentscode.tar.gz",
-    "version": "22.5.301",
+    "sha256": "39dcdec031a291a2f35c2bcf2708b191b2a6710abae2c7e6650c68d03c283a92",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/22.5.401/richdocumentscode.tar.gz",
+    "version": "22.5.401",
     "description": "This app has to be installed and used together with the **[Collabora Online](https://apps.nextcloud.com/apps/richdocuments)** app.\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\nThis app provides a built-in server with all of the document editing features of Collabora Online. Easy to install, for personal use or for small teams. A bit slower than a standalone server and without the advanced scalability features.\n\nThe download is rather big so it is possible you experience a time-out when using the web interface. You can use the OCC command line tool to install the built-in server:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -1360,9 +1360,9 @@
     ]
   },
   "richdocumentscode_arm64": {
-    "sha256": "8004d7fb3e7b02f79afba81ee2e63f356af3bd29daa1e3b82271e4b9bba63ff6",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/22.5.301/richdocumentscode_arm64.tar.gz",
-    "version": "22.5.301",
+    "sha256": "f39998830981282b5b8e287c49f1e60c830b19769c42d4b7ba1feacd9f484b23",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/22.5.401/richdocumentscode_arm64.tar.gz",
+    "version": "22.5.401",
     "description": "This app has to be installed and used together with the **[Collabora Online](https://apps.nextcloud.com/apps/richdocuments)** app.\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\nThis app provides a built-in server with all of the document editing features of Collabora Online. Easy to install, for personal use or for small teams. A bit slower than a standalone server and without the advanced scalability features.\n\nThe download is rather big so it is possible you experience a time-out when using the web interface. You can use the OCC command line tool to install the built-in server:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode_arm64\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -1370,9 +1370,9 @@
     ]
   },
   "riotchat": {
-    "sha256": "777042445379f29744bdaff53f8aaa621bf6276d888cbc70b9267e5d6cf4671b",
-    "url": "https://github.com/gary-kim/riotchat/releases/download/v0.13.1/riotchat.tar.gz",
-    "version": "0.13.1",
+    "sha256": "35794635af3129e91aece8ae1e3eda504be11462eeeef2ed4d68c4170f68e8bd",
+    "url": "https://github.com/gary-kim/riotchat/releases/download/v0.13.3/riotchat.tar.gz",
+    "version": "0.13.3",
     "description": "Element for Nextcloud allows you to install Element Web easily through Nextcloud and join the Matrix decentralized communication network.\n\nThis app does not include a Matrix server, only the client. You will have to either set up your own Matrix homeserver, rent one, or use a public one.\n\nThis project is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Element or the Element project, or any of its subsidiaries or its affiliates.\n\nThe name Element as well as related names, marks, emblems and images are registered trademarks of their respective owners.\n\nThe upstream project can be found at [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web).",
     "homepage": "https://github.com/gary-kim/riotchat",
     "licenses": [
