@@ -50,8 +50,8 @@
     ]
   },
   "approval": {
-    "sha256": "aad7c382237fba991032624c220f34369398cc258134c92710f21a8e1cb15558",
-    "url": "https://github.com/nextcloud/approval/releases/download/v1.0.10-3-nightly/approval-1.0.10-3-nightly.tar.gz",
+    "sha256": "d18d557dadb0d8c1a202ed2588e75f067d1beb505c281bdd0b4e09d677677994",
+    "url": "https://github.com/nextcloud/approval/releases/download/v1.0.10/approval-1.0.10.tar.gz",
     "version": "1.0.10",
     "description": "Approve/reject files based on workflows defined by admins.",
     "homepage": "https://github.com/eneiluj/approval",
@@ -970,8 +970,8 @@
     ]
   },
   "integration_google": {
-    "sha256": "fe137f643b2c786b91e33198162791e61897f5dd4e35604a22cc88733416a903",
-    "url": "https://github.com/nextcloud/integration_google/releases/download/v1.0.6-1-nightly/integration_google-1.0.6-1-nightly.tar.gz",
+    "sha256": "a7fd805e0b139c4519572e1d17539a9e4703d7f4f3d1d9222dd8734665abb27d",
+    "url": "https://github.com/nextcloud/integration_google/releases/download/v1.0.6/integration_google-1.0.6.tar.gz",
     "version": "1.0.6",
     "description": "Google integration allows you to automatically import your Google calendars, contacts, photos and files into Nextcloud.",
     "homepage": "https://github.com/nextcloud/integration_google",
@@ -999,12 +999,32 @@
       "agpl"
     ]
   },
+  "integration_mattermost": {
+    "sha256": "11e4fae8db5ad077577756fecca222f55bc90910135f475521592eb7a1d4513f",
+    "url": "https://github.com/eneiluj/integration_mattermost/releases/download/v1.0.0-3-nightly/integration_mattermost-1.0.0-3-nightly.tar.gz",
+    "version": "1.0.0",
+    "description": "Mattermost integration provides a dashboard widget displaying your most important notifications\n    and a unified search provider for messages.",
+    "homepage": "https://github.com/eneiluj/integration_mattermost",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "integration_moodle": {
     "sha256": "d442f578673eb4143677f038f1791126876100467806de760afe8d7a9cfd9daa",
     "url": "https://github.com/nextcloud/integration_moodle/releases/download/v1.0.2/integration_moodle-1.0.2.tar.gz",
     "version": "1.0.2",
     "description": "Moodle integration provides a dashboard widget displaying information about your recent courses and upcoming events.\n    It also allows you to search for content in Moodle.",
     "homepage": "https://github.com/nextcloud/integration_moodle",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "integration_nuiteq": {
+    "sha256": "8b03724e9a198b8541e58cbc743dac7fac209ab0870350ef6870396dfc595c71",
+    "url": "https://github.com/eneiluj/integration_nuiteq/releases/download/v1.0.0-1-nightly/integration_nuiteq-1.0.0-1-nightly.tar.gz",
+    "version": "1.0.0",
+    "description": "This app provides a simple interface to list and create Nuiteq Stage boards.",
+    "homepage": "https://github.com/eneiluj/integration_nuiteq",
     "licenses": [
       "agpl"
     ]
@@ -1140,9 +1160,9 @@
     ]
   },
   "mail": {
-    "sha256": "0f31a819320c8281d27b0002c9dba2d971219e190a6507b87c6ff94de973d366",
-    "url": "https://github.com/nextcloud-releases/mail/releases/download/v1.13.6/mail-v1.13.6.tar.gz",
-    "version": "1.13.6",
+    "sha256": "b683edf993011828dcc15ab8cef1add1990efba001abbd6e50d2ab18fd74ee43",
+    "url": "https://github.com/nextcloud-releases/mail/releases/download/v1.14.0-alpha4/mail-v1.14.0-alpha4.tar.gz",
+    "version": "1.14.0-alpha.4",
     "description": "**💌 A mail app for Nextcloud**\n\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://horde.org) libraries.\n- **📬 Want to host your own mail server?** We don’t have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!",
     "homepage": "https://github.com/nextcloud/mail#readme",
     "licenses": [
@@ -1650,9 +1670,9 @@
     ]
   },
   "sharelisting": {
-    "sha256": "93e135540ba3cbc33d214ddebefd8e5cb526b1d801fa11deb1308269d3cf8ab5",
-    "url": "https://github.com/nextcloud-releases/sharelisting/releases/download/v1.1.0/sharelisting-v1.1.0.tar.gz",
-    "version": "1.1.0",
+    "sha256": "9cf20d6008d9ce26d47f9c61e58a2dda4de98c3c1c339f8fc2bbc2483c5828c5",
+    "url": "https://github.com/nextcloud-releases/sharelisting/releases/download/v1.1.1/sharelisting-v1.1.1.tar.gz",
+    "version": "1.1.1",
     "description": "The application generates a list of shares for display at the command line",
     "homepage": "",
     "licenses": [
@@ -2280,9 +2300,9 @@
     ]
   },
   "workflow_ocr": {
-    "sha256": "c5f62e7350a6e3b88a8238f4fe337915536cdc0663cc9e2c33fd09ed86ec02ad",
-    "url": "https://github.com/R0Wi/workflow_ocr/releases/download/v1.23.5/workflow_ocr.tar.gz",
-    "version": "1.23.5",
+    "sha256": "5a461a5ec77f041755365f853bfaf3e4bec3c7512ceb904d5314d486cdc8fd45",
+    "url": "https://github.com/R0Wi/workflow_ocr/releases/download/v1.23.6/workflow_ocr.tar.gz",
+    "version": "1.23.6",
     "description": "This app makes it possible to process various files via OCR algorithms.\n\tThe processing is done via workflow-engine and can therefore easily be customized.\n\tPlease note that you'll have to install the OcrMyPDF CLI on your Nextcloud server to\n\tprocess PDF files. More installation instructions can be found in the docs https://github.com/R0Wi/workflow_ocr/blob/master/README.md.",
     "homepage": "https://github.com/R0Wi/workflow_ocr",
     "licenses": [
