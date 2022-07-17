@@ -4,6 +4,7 @@ stages:
   - run
   - test
   - push
+  - npins
 
 default:
   tags:
@@ -44,3 +45,13 @@ push:
     - schedules
   script:
     - ./ci/push
+
+
+helsinki_npins:
+  stage: npins
+  trigger: helsinki-systems/helsinki
+  only:
+    - schedules
+  variables:
+    COMMAND: update_pin
+    PIN: nc4nix
