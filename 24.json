@@ -50,8 +50,8 @@
     ]
   },
   "approval": {
-    "sha256": "d18d557dadb0d8c1a202ed2588e75f067d1beb505c281bdd0b4e09d677677994",
-    "url": "https://github.com/nextcloud/approval/releases/download/v1.0.10/approval-1.0.10.tar.gz",
+    "sha256": "aad7c382237fba991032624c220f34369398cc258134c92710f21a8e1cb15558",
+    "url": "https://github.com/nextcloud/approval/releases/download/v1.0.10-3-nightly/approval-1.0.10-3-nightly.tar.gz",
     "version": "1.0.10",
     "description": "Approve/reject files based on workflows defined by admins.",
     "homepage": "https://github.com/eneiluj/approval",
@@ -240,9 +240,9 @@
     ]
   },
   "cospend": {
-    "sha256": "68909d4ac183f124561a86c6f4befa29f2e07fdbc9199f3c63645d78c0e2248a",
-    "url": "https://github.com/eneiluj/cospend-nc/releases/download/v1.4.8/cospend-1.4.8.tar.gz",
-    "version": "1.4.8",
+    "sha256": "12fc5779dbf55c3cb8a342e4e82c6fe362ad87615fb464b40af91ce1a99e7ace",
+    "url": "https://github.com/eneiluj/cospend-nc/releases/download/v1.4.9-1-nightly/cospend-1.4.9-1-nightly.tar.gz",
+    "version": "1.4.9",
     "description": "# Nextcloud Cospend 💰\n\nNextcloud Cospend is a group/shared budget manager. It was inspired by the great [IHateMoney](https://github.com/spiral-project/ihatemoney/).\n\nYou can use it when you share a house, when you go on vacation with friends, whenever you share money with others.\n\nIt lets you create projects with members and bills. Each member has a balance computed from the project bills. This way you can see who owes the group and who the group owes. Ultimately you can ask for a settlement plan telling you which payments to make to reset members balances.\n\nProject members are independent from Nextcloud users. Projects can be accessed and modified by people without a Nextcloud account. Each project has an ID and a password for guest access.\n\n[MoneyBuster](https://gitlab.com/eneiluj/moneybuster) Android client is [available in F-Droid](https://f-droid.org/packages/net.eneiluj.moneybuster/) and on the [Play store](https://play.google.com/store/apps/details?id=net.eneiluj.moneybuster).\n\n[PayForMe](https://github.com/mayflower/PayForMe) iOS client is currently being developped!\n\n## Features\n\n* ✎ create/edit/delete projects, members, bills, bill categories, currencies\n* ⚖ check member balances\n* 🗠 display project statistics\n* ♻ display settlement plan\n* 🎇 automatically create reimbursement bills from settlement plan\n* 🗓 create recurring bills (daily/weekly/monthly/yearly)\n* 📊 optionally provide custom amount for each member in new bills\n* 🔗 link bills with personal files (picture of physical bill for example)\n* 👩 guest access for people outside Nextcloud\n* 👫 share projects with Nextcloud users/groups/circles\n* 🖫 import/export projects as csv (compatible with csv files from IHateMoney)\n* 🔗 generate link/QRCode to easily import projects in MoneyBuster\n* 🗲 implement Nextcloud notifications and activity stream\n\nThis app is tested on Nextcloud 20+ with Firefox 57+ and Chromium.\n\nThis app is under development.\n\n🌍 Help us to translate this app on [Nextcloud-Cospend/MoneyBuster Crowdin project](https://crowdin.com/project/moneybuster).\n\n⚒ Check out other ways to help in the [contribution guidelines](https://gitlab.com/eneiluj/cospend-nc/blob/master/CONTRIBUTING.md).\n\n## Documentation\n\n* [User documentation](https://github.com/eneiluj/cospend-nc/blob/master/docs/user.md)\n* [Admin documentation](https://github.com/eneiluj/cospend-nc/blob/master/docs/admin.md)\n* [Developer documentation](https://github.com/eneiluj/cospend-nc/blob/master/docs/dev.md)\n* [CHANGELOG](https://github.com/eneiluj/cospend-nc/blob/master/CHANGELOG.md#change-log)\n* [AUTHORS](https://github.com/eneiluj/cospend-nc/blob/master/AUTHORS.md#authors)\n\n## Known issues\n\n* it does not make you rich\n\nAny feedback will be appreciated.\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://github.com/eneiluj/cospend-nc",
     "licenses": [
@@ -880,8 +880,8 @@
     ]
   },
   "integration_nuiteq": {
-    "sha256": "8b03724e9a198b8541e58cbc743dac7fac209ab0870350ef6870396dfc595c71",
-    "url": "https://github.com/eneiluj/integration_nuiteq/releases/download/v1.0.0-1-nightly/integration_nuiteq-1.0.0-1-nightly.tar.gz",
+    "sha256": "0e29fc4e0e54ca5d05745b4efc3e918171d863e48b5f44ca5b0b5fc8cddf33e8",
+    "url": "https://github.com/eneiluj/integration_nuiteq/releases/download/v1.0.0-2-nightly/integration_nuiteq-1.0.0-2-nightly.tar.gz",
     "version": "1.0.0",
     "description": "This app provides a simple interface to list and create Nuiteq Stage boards.",
     "homepage": "https://github.com/eneiluj/integration_nuiteq",
@@ -1955,6 +1955,16 @@
     "version": "0.0.6",
     "description": "Is a simple application to locate everybody in your company.",
     "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "workflow_media_converter": {
+    "sha256": "ab7ddbc3930c83ae589c7aa725399dbefbc333c7fb021aacd4d7f72d0c2cc08a",
+    "url": "https://github.com/cwilby/nextcloud-workflow-media-converter/releases/download/v1.4.0/workflow_media_converter.tar.gz",
+    "version": "1.4.0",
+    "description": "A dedicated media conversion manager for Nextcloud that allows you to automate media conversion.\n\n**Features**\n * Convert video/audio between formats supported by FFmpeg.\n * Complete control of the conversion process.\n * Automatically convert media as it is uploaded.\n * Create batch jobs to convert existing media.",
+    "homepage": "https://github.com/cwilby/nextcloud-workflow-media-converter",
     "licenses": [
       "agpl"
     ]
