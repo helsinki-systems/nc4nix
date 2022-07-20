@@ -220,9 +220,9 @@
     ]
   },
   "contacts": {
-    "sha256": "c1ba57261ba82c6f8941b9e2f5eabd8f77a7184d3feb2ba5c84748fef48096c2",
-    "url": "https://github.com/nextcloud-releases/contacts/releases/download/v4.2.0-rc2/contacts-v4.2.0-rc2.tar.gz",
-    "version": "4.2.0-rc.2",
+    "sha256": "3a8ec414a957c4000514f419ceba4ec7ee9da416fbf2bff23f1a43b3a0a0c34e",
+    "url": "https://github.com/nextcloud-releases/contacts/releases/download/v4.2.0/contacts-v4.2.0.tar.gz",
+    "version": "4.2.0",
     "description": "The Nextcloud contacts app is a user interface for Nextcloud's CardDAV server. Easily sync contacts from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Currently Mail and Calendar – more to come.\n* 🎉 **Never forget a birthday!** You can sync birthdays and other recurring events with your Nextcloud Calendar.\n* 👥 **Sharing of Adressbooks!** You want to share your contacts with your friends or coworkers? No problem!\n* 🙈 **We’re not reinventing the wheel!** Based on the great and open SabreDAV library.",
     "homepage": "https://github.com/nextcloud/contacts#readme",
     "licenses": [
@@ -250,8 +250,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -1030,8 +1030,8 @@
     ]
   },
   "maps": {
-    "sha256": "002474f7754ecea78124380d53d90ed027c689a17ab2a3063456226304a7a2dc",
-    "url": "https://github.com/nextcloud/maps/releases/download/v0.2.0-2-nightly/maps-0.2.0-2-nightly.tar.gz",
+    "sha256": "e5af4deab940f96a0b4d51e4e114c4f72e4c19318ef23c9998cb4d3bd2c35b89",
+    "url": "https://github.com/nextcloud/maps/releases/download/v0.2.0/maps-0.2.0.tar.gz",
     "version": "0.2.0",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
@@ -1225,6 +1225,16 @@
     "version": "1.0.5",
     "description": "This application allows sending and receiving faxes in Nextcloud. A phaxio.com account and a real fax number acquired from Phaxio are needed. The \nquality and prices of Phaxio's services are the only reason for using them as a FoIP (fax over IP) provider. The 'libcurl' PHP library has to be present on the server. \nDetailed and complete instructions on how to use this application can be found on the 'Admin documentation' page.\n          \nMain features:\n\n* 🚀 Multiple documents can be sent in one fax call (up to 20 separate files).\n\n* 📠 A fax can be sent to multiple fax numbers at once (up to 15 different fax numbers).\n\n* 📄 Users can send as fax any document in any of the following formats: pdf, doc, docx, odt, jpg, png, tif, tiff, txt, html.\n\n* 📰 All incoming faxes are received as pdf documents and stored in a Nextcloud folder.\n\n* 📧 Users receive notifications and (optionally) emails when new faxes arrive.\n\n* 🔍 All the sent and received faxes are stored in specific Nextcloud folders, so that they can be searched by caller/callee phone number or date.\n\n* 💻 When they want to send a fax, users can upload files from their computer or choose them directly from Nextcloud.\n\n* 🔏 Incoming fax requests are checked for authenticity and integrity by verifying Phaxio's signature.\n\n* 💵 Current Phaxio balance can be always checked by pressing a button on the left panel.\n\n* 💰 The only ongoing cost is $2 per month for a fax number located in USA or Canada, in a city chosen by the user. No contracts.\n\n* 💸 Straightforward pricing: $0.07 per sent/received page for faxes to/from USA and Canada and $0.1 per sent/received page for faxes to/from other countries.\n\nWe have no affiliation with Phaxio.",
     "homepage": "https://www.doublebastion.com/pax-fax/",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "pdf_downloader": {
+    "sha256": "9881e569eefa894883e86165656c25b1f03f4699c24a2446336aa359f4b25cf5",
+    "url": "https://github.com/rotdrop/nextcloud-app-pdf-downloader/releases/download/v1.0.0/pdf_downloader.tar.gz",
+    "version": "1.0.0",
+    "description": "Recusively convert entire directory trees to PDF and provide the resulting document as download",
+    "homepage": "",
     "licenses": [
       "agpl"
     ]
