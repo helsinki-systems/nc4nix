@@ -240,8 +240,8 @@
     ]
   },
   "cospend": {
-    "sha256": "12fc5779dbf55c3cb8a342e4e82c6fe362ad87615fb464b40af91ce1a99e7ace",
-    "url": "https://github.com/eneiluj/cospend-nc/releases/download/v1.4.9-1-nightly/cospend-1.4.9-1-nightly.tar.gz",
+    "sha256": "ed931bb2a5b902654f07535d2c285a9e56f2f552b4ca7cf80775b5c86e59312e",
+    "url": "https://github.com/eneiluj/cospend-nc/releases/download/v1.4.9-2-nightly/cospend-1.4.9-2-nightly.tar.gz",
     "version": "1.4.9",
     "description": "# Nextcloud Cospend 💰\n\nNextcloud Cospend is a group/shared budget manager. It was inspired by the great [IHateMoney](https://github.com/spiral-project/ihatemoney/).\n\nYou can use it when you share a house, when you go on vacation with friends, whenever you share money with others.\n\nIt lets you create projects with members and bills. Each member has a balance computed from the project bills. This way you can see who owes the group and who the group owes. Ultimately you can ask for a settlement plan telling you which payments to make to reset members balances.\n\nProject members are independent from Nextcloud users. Projects can be accessed and modified by people without a Nextcloud account. Each project has an ID and a password for guest access.\n\n[MoneyBuster](https://gitlab.com/eneiluj/moneybuster) Android client is [available in F-Droid](https://f-droid.org/packages/net.eneiluj.moneybuster/) and on the [Play store](https://play.google.com/store/apps/details?id=net.eneiluj.moneybuster).\n\n[PayForMe](https://github.com/mayflower/PayForMe) iOS client is currently being developped!\n\n## Features\n\n* ✎ create/edit/delete projects, members, bills, bill categories, currencies\n* ⚖ check member balances\n* 🗠 display project statistics\n* ♻ display settlement plan\n* 🎇 automatically create reimbursement bills from settlement plan\n* 🗓 create recurring bills (daily/weekly/monthly/yearly)\n* 📊 optionally provide custom amount for each member in new bills\n* 🔗 link bills with personal files (picture of physical bill for example)\n* 👩 guest access for people outside Nextcloud\n* 👫 share projects with Nextcloud users/groups/circles\n* 🖫 import/export projects as csv (compatible with csv files from IHateMoney)\n* 🔗 generate link/QRCode to easily import projects in MoneyBuster\n* 🗲 implement Nextcloud notifications and activity stream\n\nThis app is tested on Nextcloud 20+ with Firefox 57+ and Chromium.\n\nThis app is under development.\n\n🌍 Help us to translate this app on [Nextcloud-Cospend/MoneyBuster Crowdin project](https://crowdin.com/project/moneybuster).\n\n⚒ Check out other ways to help in the [contribution guidelines](https://gitlab.com/eneiluj/cospend-nc/blob/master/CONTRIBUTING.md).\n\n## Documentation\n\n* [User documentation](https://github.com/eneiluj/cospend-nc/blob/master/docs/user.md)\n* [Admin documentation](https://github.com/eneiluj/cospend-nc/blob/master/docs/admin.md)\n* [Developer documentation](https://github.com/eneiluj/cospend-nc/blob/master/docs/dev.md)\n* [CHANGELOG](https://github.com/eneiluj/cospend-nc/blob/master/CHANGELOG.md#change-log)\n* [AUTHORS](https://github.com/eneiluj/cospend-nc/blob/master/AUTHORS.md#authors)\n\n## Known issues\n\n* it does not make you rich\n\nAny feedback will be appreciated.\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://github.com/eneiluj/cospend-nc",
@@ -250,8 +250,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -779,6 +779,16 @@
       "agpl"
     ]
   },
+  "hidesidebars": {
+    "sha256": "de88431095173d8e1791d488e27438226d5ef49818b371b83c04ae645ed5985b",
+    "url": "https://github.com/pointcz/hidesidebars/releases/download/v2.0.1/hidesidebars.tar.gz",
+    "version": "2.0.1",
+    "description": "# Hide sidebars\n\nHide left sidebar and top header bar for use in iframe for example or some other scenarios.\n\n## Usage\nAdd `hide-sidebars` after `?` as query parameter to nextcloud url or with `dir` parameter after `&`.\n\nExamples:\n```\nhttp://nextcloud.example.com/index.php/apps/files/?hide-sidebars\nhttp://nextcloud.example.com/index.php/apps/files/?dir=/New%20folder&hide-sidebars\n```\n\nThis app from version 2.0.0 brings new config parameter `addAllowedFrameAncestorDomain`.\nFor usage in iframe you must update `lib/public/AppFramework/Http/ContentSecurityPolicy.php` manually\nor use this new parameter `addAllowedFrameAncestorDomain` in `config.php`\n\n```\n...\n'addAllowedFrameAncestorDomain' => '*.example.com:*'\n...\n```",
+    "homepage": "https://github.com/pointcz/hidesidebars",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "impersonate": {
     "sha256": "c30d7545f732d325d4e7ef30feb3974711feede0fa1bc4409b77d9dcfa5781d3",
     "url": "https://github.com/nextcloud-releases/impersonate/releases/download/v1.11.0/impersonate-v1.11.0.tar.gz",
@@ -1030,8 +1040,8 @@
     ]
   },
   "maps": {
-    "sha256": "e5af4deab940f96a0b4d51e4e114c4f72e4c19318ef23c9998cb4d3bd2c35b89",
-    "url": "https://github.com/nextcloud/maps/releases/download/v0.2.0/maps-0.2.0.tar.gz",
+    "sha256": "002474f7754ecea78124380d53d90ed027c689a17ab2a3063456226304a7a2dc",
+    "url": "https://github.com/nextcloud/maps/releases/download/v0.2.0-2-nightly/maps-0.2.0-2-nightly.tar.gz",
     "version": "0.2.0",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
@@ -1160,9 +1170,9 @@
     ]
   },
   "openotp_auth": {
-    "sha256": "9fb507132c83f74a0d05a32220ba688818df3ec14305f8b5615dd5ff0af815ad",
-    "url": "https://github.com/rcdevs/nextcloud_openotp_auth/releases/download/v1.4.4/openotp_auth-1.4.4.tgz",
-    "version": "1.4.4",
+    "sha256": "2562e7a8732801903fcc6b986ee3faa0fd980b1c4c496958cf098b76b08ded91",
+    "url": "https://github.com/rcdevs/nextcloud_openotp_auth/releases/download/v1.4.5/openotp_auth-1.4.5.tgz",
+    "version": "1.4.5",
     "description": "**RCDevs OpenOTP Application enables two-factor authentication for your users using your personal Cloud.**\n\nIt is versatile, device-independent and based on opened security standards.\n\nOpenOTP provides fine-grained user identity and access management (IAM), one-time passwords authentication technologies (OTP) and Universal Second Factor Authentification (U2F) including among others extensive authentication policies for your AD / LDAP users. \n\nIt is enterprise-ready with strong support for:\n\t\t\n* high-availability\n* load-balancing\n* multi-tenancy\n* geolocalization\n* delegated administration\n* contextual authentication with IP address and device fingerprint\n* push Login technology with Mobile Phone\n* voice biometrics technology\n* easy installation, update and configuration in RCDevs WebADM\n* ... and much more.",
     "homepage": "https://rcdevs.com",
     "licenses": [
@@ -1230,9 +1240,9 @@
     ]
   },
   "pdf_downloader": {
-    "sha256": "9881e569eefa894883e86165656c25b1f03f4699c24a2446336aa359f4b25cf5",
-    "url": "https://github.com/rotdrop/nextcloud-app-pdf-downloader/releases/download/v1.0.0/pdf_downloader.tar.gz",
-    "version": "1.0.0",
+    "sha256": "6ea319ade76e65998a31044e187ea08b48d50dccd1d4623cf5f1dcf20278c2dd",
+    "url": "https://github.com/rotdrop/nextcloud-app-pdf-downloader/releases/download/v1.0.1/pdf_downloader.tar.gz",
+    "version": "1.0.1",
     "description": "Recusively convert entire directory trees to PDF and provide the resulting document as download",
     "homepage": "",
     "licenses": [
