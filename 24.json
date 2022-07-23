@@ -50,8 +50,8 @@
     ]
   },
   "approval": {
-    "sha256": "d18d557dadb0d8c1a202ed2588e75f067d1beb505c281bdd0b4e09d677677994",
-    "url": "https://github.com/nextcloud/approval/releases/download/v1.0.10/approval-1.0.10.tar.gz",
+    "sha256": "aad7c382237fba991032624c220f34369398cc258134c92710f21a8e1cb15558",
+    "url": "https://github.com/nextcloud/approval/releases/download/v1.0.10-3-nightly/approval-1.0.10-3-nightly.tar.gz",
     "version": "1.0.10",
     "description": "Approve/reject files based on workflows defined by admins.",
     "homepage": "https://github.com/eneiluj/approval",
@@ -80,9 +80,9 @@
     ]
   },
   "backup": {
-    "sha256": "55331f07dfd1b574dd30e350b0c4cfd1675baea60e9955c322ec3520b34968f8",
-    "url": "https://github.com/nextcloud-releases/backup/releases/download/1.0.5/backup-1.0.5.tar.gz",
-    "version": "1.0.5",
+    "sha256": "7499a97dfbefecc74ba84a020496c76830ea445aa647dcb6626beb10b7258bc5",
+    "url": "https://github.com/nextcloud-releases/backup/releases/download/v1.1.2/backup-v1.1.2.tar.gz",
+    "version": "1.1.2",
     "description": "The Backup App creates and stores backup images of your Nextcloud:\n\n- Backup the instance, its apps, your data and your database,\n- Administrator can configure the time slots for automated backup,\n- Full and Partial backup, with different frequencies,\n- 2-pass to limit downtime (maintenance mode) of your instance,\n- Compression and encryption,\n- Upload your encrypted backup on an external filesystem,\n- Download and search for your data,\n- Restore single file or the entire instance.",
     "homepage": "https://github.com/nextcloud/backup",
     "licenses": [
@@ -585,6 +585,16 @@
     "version": "1.13.2",
     "description": "An app for Nextcloud to control automatic deletion of files after a given time.\nOptionally the users can be informed the day before.",
     "homepage": "https://github.com/nextcloud/files_retention",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "files_scripts": {
+    "sha256": "cb233fae25b14ddea72e15becbf064185a59a635ce6cf52d9fbe2ebb1d195da7",
+    "url": "https://github.com/Raudius/files_scripts/releases/download/v1.0.0/files_scripts-1.0.0.tar.gz",
+    "version": "1.0.0",
+    "description": "Allows administrators to write small scripts which users can run through file actions menu in the Files app!\n\n- **🌕 Lua:** Script in Lua, its simple and has plenty of online resources.\n- **⚡️Empower users:** Make hard tasks easy, straight from the Files app.\n- **🙋 Open to suggestions:** Are you missing a function in the scripting API? Open an issue on Github!\n\n\n⚠️**Attention** This app requires additional configuration, and may not be suitable for all users. Make sure to read the documentation thoroughly before installing.\n\n⚠️**Attention** With great power comes great responsibility: scripts may modify and delete files permanently. Make sure to read the documentation thoroughly before scripting.",
+    "homepage": "",
     "licenses": [
       "agpl"
     ]
@@ -1850,9 +1860,9 @@
     ]
   },
   "user_migration": {
-    "sha256": "93340c6f731fb75f8801a67d438df83d2688e7bd88abeaebf876f965705513bf",
-    "url": "https://github.com/nextcloud-releases/user_migration/releases/download/v1.0.4/user_migration-v1.0.4.tar.gz",
-    "version": "1.0.4",
+    "sha256": "a6d63aa54a1aa49153f4d503991b3b4af1a71f14dc85e470a70aa5898556d506",
+    "url": "https://github.com/nextcloud-releases/user_migration/releases/download/v1.1.0/user_migration-v1.1.0.tar.gz",
+    "version": "1.1.0",
     "description": "**👤➡ User migration app for Nextcloud**\n\nThis app allows users to easily migrate from one instance to another using an export of their account.\n\n- **🐱 Log in to cat.example.com/nextcloud**\n- **☑ Select what you want to export** (settings, files, profile information, profile picture, calendars, contacts…)\n- **⚙ Start the export** and wait for the server to process it\n- **📁 Download the resulting archive**\n- **🐶 Open an account on dog.example.com/nextcloud**\n- **🡅 Upload the archive into your files**\n- **⚙ Start the import**\n- **🎉 Enjoy your stay on your new instance** and close you old account",
     "homepage": "",
     "licenses": [
