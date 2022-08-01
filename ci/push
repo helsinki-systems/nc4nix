@@ -11,7 +11,10 @@ echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
 git config user.name "GitLab CI"
 git config user.email "gitlab-ci@helsinki-systems.de"
 
-# Commit and push
-git add *.json
-git commit -m "automatic update by ci"
-git push git@"$GITLAB_HOST":helsinki-systems/nc4nix HEAD:main
+# check if no changes (happens some days)
+if git diff *.json --quiet; then
+    # Commit and push
+    git add *.json
+    git commit -m "automatic update by ci"
+    git push git@"$GITLAB_HOST":helsinki-systems/nc4nix HEAD:main
+fi
