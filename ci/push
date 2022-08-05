@@ -12,7 +12,7 @@ git config user.name "GitLab CI"
 git config user.email "gitlab-ci@helsinki-systems.de"
 
 # check if no changes (happens some days)
-if git diff *.json --quiet; then
+if ! git diff --quiet *.json; then
     # Commit and push
     git add *.json
     git commit -m "automatic update by ci"
