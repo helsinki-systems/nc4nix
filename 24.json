@@ -230,9 +230,9 @@
     ]
   },
   "collectives": {
-    "sha256": "85cf8c1d85e3c85547da12939acb4a2555625123bfe951154b9c4a4115b6ab51",
-    "url": "https://gitlab.com/collectivecloud/collectives/uploads/ae3bc38c623446199dfb32c1acb8b46d/collectives-1.4.1.tar.gz",
-    "version": "1.4.1",
+    "sha256": "f7447dd43cb8c855e9c5f1fefd00ade245e8e6709e670c34661fddad9636aa54",
+    "url": "https://gitlab.com/collectivecloud/collectives/uploads/796c03e97868792a67bf4e2c1c389fde/collectives-1.4.2.tar.gz",
+    "version": "1.4.2",
     "description": "Collectives is a Nextcloud App for activist and community projects to organize together.\nCome and gather in collectives to build shared knowledge.\n\n* 👥 **Collective and non-hierarchical workflow by heart**: Collectives are\n  tied to a [Nextcloud Circle](https://github.com/nextcloud/circles) and\n  owned by the collective.\n* 📝 **Collaborative page editing** like known from Etherpad thanks to the\n  [Text app](https://github.com/nextcloud/text).\n* 🔤 **Well-known [Markdown](https://en.wikipedia.org/wiki/Markdown) syntax**\n  for page formatting.\n\n## Installation\n\nIn your Nextcloud instance, simply navigate to **»Apps«**, find the\n**»Circles«** and **»Collectives«** apps and enable them.",
     "homepage": "https://gitlab.com/collectivecloud/collectives",
     "licenses": [
@@ -710,9 +710,9 @@
     ]
   },
   "gestion": {
-    "sha256": "2267931d4937799f2c077b931f37c4b09302eb9daa5aefa40b70c47c95ad3fcc",
-    "url": "https://github.com/baimard/gestion/releases/download/2.1.5/gestion.tar.gz",
-    "version": "2.1.5",
+    "sha256": "3ad31378ed04d520a12ca621b89c5b9227bb03f62d54083a3b4df85bda837a65",
+    "url": "https://github.com/baimard/gestion/releases/download/2.1.6/gestion.tar.gz",
+    "version": "2.1.6",
     "description": "# Company management by Gestion\n\nThis application allows the management of invoicing in a very simple way for Micro-Entreprise.\n\nFunctionality:\n\n* Add customer\n* Generate a quote\n* Generate an invoice\n* Generate product lines to include in quotes\n* You can generate PDFs directly from the app and save them to your Nextcloud\n\nPresentation video in user documentation\n\nIf you need to adapt this application to your country laws, please open issue.\n\n[Love my work ? Buy me a coffee !](https://www.buymeacoffee.com/benjaminaimard)",
     "homepage": "https://github.com/baimard/gestion",
     "licenses": [
@@ -1073,8 +1073,8 @@
     "sha256": "b683edf993011828dcc15ab8cef1add1990efba001abbd6e50d2ab18fd74ee43",
     "url": "https://github.com/nextcloud-releases/mail/releases/download/v1.14.0-alpha4/mail-v1.14.0-alpha4.tar.gz",
     "version": "1.14.0-alpha.4",
-    "description": "**💌 A mail app for Nextcloud**\n\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://horde.org) libraries.\n- **📬 Want to host your own mail server?** We don’t have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!",
-    "homepage": "https://github.com/nextcloud/mail#readme",
+    "description": "**💌 A mail app for Nextcloud**\r\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\r\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\r\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\r\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://horde.org) libraries.\r\n- **📬 Want to host your own mail server?** We do not have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!",
+    "homepage": "",
     "licenses": [
       "agpl"
     ]
@@ -1400,9 +1400,9 @@
     ]
   },
   "recognize": {
-    "sha256": "ad3feb4e6e659a56a5098da706ec3731f09a69be1d9dda19722cbb55de9a9817",
-    "url": "https://github.com/marcelklehr/recognize/releases/download/v2.1.2/recognize-2.1.2.tar.gz",
-    "version": "2.1.2",
+    "sha256": "cc74c7adc5199ab43e84a146cf4dfb4a032ab9c1ae3b75b6925488a15b6d3b94",
+    "url": "https://github.com/nextcloud/recognize/releases/download/v2.2.0/recognize-2.2.0.tar.gz",
+    "version": "2.2.0",
     "description": "This app goes through your media collection and adds fitting tags, automatically categorizing your photos and music.\n\n* 📷 👪 Recognizes faces from contact photos\n* 📷 🏔 Recognizes animals, landscapes, food, vehicles, buildings and other objects\n* 📷 🗼 Recognizes landmarks and monuments\n* 👂 🎵 Recognizes music genres\n* ⚡ Tagging works via Nextcloud's Collaborative Tags, allowing access by any of your apps\n  * 👂 listen to your tagged music with the audioplayer app\n  * 📷 view your tagged photos with the photos app\n\nAfter installation, you can enable tagging in the admin settings.\n\nRequirements:\n- php 7.4 and above\n- App \"collaborative tags\" enabled\n- For native speed:\n  - Processor: x86 64bit (with support for AVX instructions)\n  - System with glibc (usually the norm on Linux; Alpine linux and FreeBSD are *not* such systems)\n- For sub-native speed (using JavaScript mode)\n  - Processor: x86 64bit, arm64, armv7l (no AVX needed)\n  - System with glibc or musl (incl. Alpine linux)\n- ~4GB of free RAM (if you're cutting it close, make sure you have some swap available)\n\nThe app does not send any sensitive data to cloud providers or similar services. All processing is done on your nextcloud machine, using Tensorflow.js running in Node.js, which comes bundled with this app.",
     "homepage": "https://github.com/marcelklehr/recognize",
     "licenses": [
