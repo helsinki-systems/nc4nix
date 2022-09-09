@@ -230,9 +230,9 @@
     ]
   },
   "collectives": {
-    "sha256": "36681701c29aa28a8d0623909b2ac570678a44de517b19555b5f99f3f8d28135",
-    "url": "https://gitlab.com/collectivecloud/collectives/uploads/17aa8533cbc837490ca776769acdd849/collectives-1.5.0-beta1.tar.gz",
-    "version": "1.5.0-beta1",
+    "sha256": "5ab24c25e949636e153832bc1d54cfb7a303f573b2abde7904c03a8139f07b32",
+    "url": "https://gitlab.com/collectivecloud/collectives/uploads/912077195f08190cbf3e806e77fb323b/collectives-1.5.0.tar.gz",
+    "version": "1.5.0",
     "description": "Collectives is a Nextcloud App for activist and community projects to organize together.\nCome and gather in collectives to build shared knowledge.\n\n* 👥 **Collective and non-hierarchical workflow by heart**: Collectives are\n  tied to a [Nextcloud Circle](https://github.com/nextcloud/circles) and\n  owned by the collective.\n* 📝 **Collaborative page editing** like known from Etherpad thanks to the\n  [Text app](https://github.com/nextcloud/text).\n* 🔤 **Well-known [Markdown](https://en.wikipedia.org/wiki/Markdown) syntax**\n  for page formatting.\n\n## Installation\n\nIn your Nextcloud instance, simply navigate to **»Apps«**, find the\n**»Circles«** and **»Collectives«** apps and enable them.",
     "homepage": "https://gitlab.com/collectivecloud/collectives",
     "licenses": [
@@ -250,9 +250,9 @@
     ]
   },
   "cookbook": {
-    "sha256": "dcba410732f42502013c4e1379f8d204598821665fd09a6c191d3299e8b2c454",
-    "url": "https://github.com/nextcloud/cookbook/releases/download/v0.9.15-rc1/Cookbook-0.9.15-rc1.tar.gz",
-    "version": "0.9.15-rc1",
+    "sha256": "bfae2b2c6c8c40e752b728afa49b0aacdc70ba6550bf22b70a71ed67e2be7a51",
+    "url": "https://github.com/nextcloud/cookbook/releases/download/v0.9.15/Cookbook-0.9.15.tar.gz",
+    "version": "0.9.15",
     "description": "A library for all your recipes. It uses JSON files following the schema.org recipe format. To add a recipe to the collection, you can paste in the URL of the recipe, and the provided web page will be parsed and downloaded to whichever folder you specify in the app settings.",
     "homepage": "https://github.com/nextcloud/cookbook/",
     "licenses": [
@@ -270,8 +270,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -1100,9 +1100,9 @@
     ]
   },
   "majordomo": {
-    "sha256": "21c49603ec0ad486b21fa96079c5d73d979b2b8c9fb55e8c7c29bebb3fe3ca81",
-    "url": "https://github.com/mziech/nextcloud-majordomo/releases/download/v1.1.1/majordomo.tar.gz",
-    "version": "1.1.1",
+    "sha256": "d773d0dc6169f69f7f482ad7da852cf6b7c834854a440367a8a2e2a02522d6f0",
+    "url": "https://github.com/mziech/nextcloud-majordomo/releases/download/v1.1.2/majordomo.tar.gz",
+    "version": "1.1.2",
     "description": "Using this app you can automatically synchronize your user's to a\n[Majordomo mailing list manager](https://en.wikipedia.org/wiki/Majordomo_(software)).\nIt is possible to configure multiple mailing lists at any list server to include or exclude selected groups, users and other email addresses.\n\nImport of existing mailing list memberships is supported, as well as reviewing changes before you apply them.\nAt your option, this app will keep your mailing list memberships up-to-date on a daily basis.\n\nThis app requires the PHP `imap` module and a dedicated IMAP mailbox to function!",
     "homepage": "https://github.com/mziech/nextcloud-majordomo",
     "licenses": [
@@ -1125,6 +1125,16 @@
     "version": "0.1.9",
     "description": "**Python 3.6.8 or higher required**\n\nThis app allows to find duplicate or similar 📸📹 photos and videos\n* **Many image formats supported** Jpeg, png, tiff, bmp, gif, heic/hif, cr2 and others.\n* **Large amount of supported video  formats** All that is supported by ffmpeg.\n* **Flexible config** Set your precision level for comparing, choose algo that suits for you most.\n* **Quick rescan** Once file was scanned, hash will be saved, and used for other scans.\n* **External Storages support** [in progress] Search everywhere among all files available to the user.\n* **Save your time and cloud space** The title says all...\n\nQuick start guide and further information in our [Wiki](https://github.com/andrey18106/mediadc/wiki).",
     "homepage": "https://github.com/andrey18106/mediadc",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "memories": {
+    "sha256": "583b1c2eef411020a1a43a7957a00239d519f7c2b2f6005ba07ef62666e2f54e",
+    "url": "https://github.com/pulsejet/memories/releases/download/v1.0.3/memories.tar.gz",
+    "version": "1.0.3",
+    "description": "# Memories\n\n* **📸 Photo and Video Timeline**: Sorts photos by date taken, parsed from Exif data.\n* **🤔 Quick Recap**: Jump to anywhere in the timeline instantly.\n* **🖼️ Folders**: Browse your and shared folders with a similar, efficient timeline.\n* **🎦 Slideshow**: View photos from your timeline and folders easily.\n* **📱 Mobile Support**: Relive your memories on devices of any shape and size through the web app.\n* **🗑️ Recycle**: Select and delete multiple photos and videos at once.\n\n## 🚀 Installation\n\n1. Install the app from the Nextcloud app store\n1. ⚒️ Install `exiftool` (`sudo apt install exiftool`).\n1. Run `php ./occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos. Photos from this directory will be displayed in the timeline, including any photos in nested subdirectories.\n1. Consider installing the [preview generator](https://github.com/rullzer/previewgenerator) for pre-generating thumbnails.",
+    "homepage": "https://github.com/pulsejet/memories",
     "licenses": [
       "agpl"
     ]
@@ -1170,9 +1180,9 @@
     ]
   },
   "news": {
-    "sha256": "884dd77722d28097a82980b6a33a4f91262636c348f502e6ebb880945a276490",
-    "url": "https://github.com/nextcloud/news/releases/download/18.2.0-beta1/news.tar.gz",
-    "version": "18.2.0-beta1",
+    "sha256": "5889eb77628a699829d1303db71a0d6d9c5ce97121074551bf11c2ab64166747",
+    "url": "https://github.com/nextcloud/news/releases/download/18.2.0-beta2/news.tar.gz",
+    "version": "18.2.0-beta2",
     "description": "📰 A RSS/Atom Feed reader App for Nextcloud\n\n- 📲 Synchronize your feeds with multiple mobile or desktop [clients](https://nextcloud.github.io/news/clients/)\n- 🔄 Automatic updates of your news feeds\n- 🆓 Free and open source under AGPLv3, no ads or premium functions\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://nextcloud.github.io/news/install/#dependencies)\n\nThe Changelog is available [here](https://github.com/nextcloud/news/blob/master/CHANGELOG.md)\n\nCreate a [bug report](https://github.com/nextcloud/news/issues/new/choose)\n\nCreate a [feature request](https://github.com/nextcloud/news/discussions/new)\n\nReport a [feed issue](https://github.com/nextcloud/news/discussions/new)",
     "homepage": "https://github.com/nextcloud/news",
     "licenses": [
@@ -1630,10 +1640,10 @@
     ]
   },
   "sms_relentless": {
-    "sha256": "7ae0a99069484bc07311d738391e51c47aeb778af5e377cbd74d24965f34ec97",
-    "url": "https://git.doublebastion.com/releases/sms-relentless/1.1.0/sms_relentless.tar.gz",
-    "version": "1.1.0",
-    "description": "This application allows sending and receiving SMS and MMS messages in Nextcloud. An SMS/MMS enabled phone number acquired from \nTelnyx or Plivo or Twilio or Flowroute is needed. The 'libcurl' PHP library has to be present on the server. Detailed and complete \ninstructions on how to use this application can be found on the 'Admin documentation' page.\n\n### Features:\n\n* 🚀 Use one or multiple local phone numbers in countries of your choice, to send and receive SMS/MMS messages with your browser, on any device connected to the Internet.\n\n* 📑 Sent and received SMS/MMS messages are stored in the database per sending/receiving user and can be viewed in paginated tables with filters for every column.\n\n* 🖼️ Up to 10 files of various formats, including jpeg, png and gif, can be sent as MMS messages from MMS enabled phone numbers. Files included in incoming MMS messages are not downloaded automatically. They are stored as URL links to the actual files, so that the receivers can download them only if they trust the senders.\n\n* 📔 SMS/MMS messages older than a specified number of days can be deleted in bulk with one click and they are automatically archived in csv files stored in Nextcloud, before being removed from the database. This makes them available for future analysis.\n\n* 💻 Sending SMS/MMS messages to thousands of recipients can be achieved by uploading a txt/csv file containing the recipients' phone numbers and the same SMS/MMS is sent automatically to all. The time interval between two consecutive messages is configurable.\n\n* 🔏 SMS/MMS messages coming from Telnyx, Plivo and Twilio are checked for authenticity by verifying the SMS provider's signature.\n\n* 📧 Users receive notifications in Nextcloud and (optionally) emails when new SMS/MMS messages arrive.\n\n* 📄 Each sent message receives a delivery receipt displayed in the Sent SMS Messages table.\n\n* 📱 It works with regular 'long code' (10-digit) phone numbers, but also with 'toll-free' numbers and 'short codes'. Users see a list with their current phone numbers and can set them as Sender IDs. Setting alphanumeric Sender IDs is also possible. \n\n* 💵 It allows checking the current Telnyx/Plivo/Twilio balance by selecting the provider on the left panel.\n\n* 💰 The only ongoing cost is about $1 per month (depending on the country) for an SMS/MMS enabled phone number located in a country chosen by the user. No contracts.\n\n* 💸 Very low prices per SMS: starting from $0.0040 per sent message and $0.0040 per received message (Telnyx), or $0.0050 per sent message and $0 per received message (Plivo), or $0.0079 per sent message and 0.0075 per received message (Twilio), or $0.0040 per sent message and 0.0040 per received message (Flowroute) in the USA.\n\nWe have no affiliation with Telnyx, Plivo, Twilio or Flowroute.\n\n### Documentation\n\n* [Admin documentation](https://www.doublebastion.com/install-nextcloud/#install-sms-relentless)\n\n### Donations\n\n* 🎁 [Donate](https://www.doublebastion.com/donations/)",
+    "sha256": "c2ff5e2cc9fb9837431b1aa86fc3a57c3a3996a0e4544771be132602acfce15f",
+    "url": "https://git.doublebastion.com/releases/sms-relentless/1.1.1/sms_relentless.tar.gz",
+    "version": "1.1.1",
+    "description": "This application allows sending and receiving SMS and MMS messages in Nextcloud. An SMS/MMS enabled phone number acquired from \nTelnyx or Plivo or Twilio or Flowroute is needed. The 'libcurl' PHP library has to be installed on the server. Detailed instructions \non how to configure and use this application can be found on the 'Admin documentation' page.\n\n### Features:\n\n* 🚀 Use one or multiple local phone numbers in countries of your choice, to send and receive SMS/MMS messages with your browser, on any device connected to the Internet.\n\n* 📑 Sent and received SMS/MMS messages are stored in the database per sending/receiving user and can be viewed in paginated tables with filters for every column.\n\n* 🖼️ Up to 10 files of various formats, including jpeg, png and gif, can be sent as MMS messages from MMS enabled phone numbers. Files included in incoming MMS messages are not downloaded automatically. They are stored as URL links to the actual files, so that the receivers can download them only if they trust the senders.\n\n* 📔 SMS/MMS messages older than a specified number of days can be deleted in bulk with one click and they are automatically archived in csv files stored in Nextcloud, before being removed from the database. This makes them available for future analysis.\n\n* 💻 Sending SMS/MMS messages to thousands of recipients can be achieved by uploading a txt/csv file containing the recipients' phone numbers and the same SMS/MMS is sent automatically to all. The time interval between two consecutive messages is configurable.\n\n* 🔏 SMS/MMS messages coming from Telnyx, Plivo and Twilio are checked for authenticity by verifying the SMS provider's signature.\n\n* 📧 Users receive notifications in Nextcloud and (optionally) emails when new SMS/MMS messages arrive.\n\n* 📄 Each sent message receives a delivery receipt displayed in the Sent SMS Messages table.\n\n* 📱 It works with regular 'long code' (10-digit) phone numbers, but also with 'toll-free' numbers and 'short codes'. Users see a list with their current phone numbers and can set them as Sender IDs. Setting alphanumeric Sender IDs is also possible. \n\n* 💵 It allows checking the current Telnyx/Plivo/Twilio balance by selecting the provider on the left panel.\n\n* 💰 The only ongoing cost is about $1 per month (depending on the country) for an SMS/MMS enabled phone number located in a country chosen by the user. No contracts.\n\n* 💸 Very low prices per SMS: starting from $0.0040 per sent message and $0.0040 per received message (Telnyx), or $0.0050 per sent message and $0 per received message (Plivo), or $0.0079 per sent message and 0.0075 per received message (Twilio), or $0.0040 per sent message and 0.0040 per received message (Flowroute) in the USA.\n\nWe have no affiliation with Telnyx, Plivo, Twilio or Flowroute.\n\n### Documentation\n\n* [Admin documentation](https://www.doublebastion.com/install-nextcloud/#install-sms-relentless)\n\n### Donations\n\n* 🎁 [Donate](https://www.doublebastion.com/donations/)",
     "homepage": "https://www.doublebastion.com/sms-relentless/",
     "licenses": [
       "agpl"
@@ -2080,8 +2090,8 @@
     ]
   },
   "welcome": {
-    "sha256": "1441be156e3860a1b214ba07dfe6b4b87512f932d81b2d83acbf34e5e8bdd797",
-    "url": "https://github.com/eneiluj/welcome/releases/download/v1.0.1/welcome-1.0.1.tar.gz",
+    "sha256": "afb6c6301cf3177d0637ce4c29796eeb5c005f9153d17f067907fe07c8619763",
+    "url": "https://github.com/eneiluj/welcome/releases/download/v1.0.1-2-nightly/welcome-1.0.1-2-nightly.tar.gz",
     "version": "1.0.1",
     "description": "ℹ A Markdown rendering Dashboard widget to welcome all users.\n\n⚙ Configure via `Settings > Administration > Theming > Welcome widget`\n\n📄 Pick a Markdown document to be rendered in the widget\n\n💡 If no document is chosen, the widget won't be shown\n\n📝 Edit the Markdown document to update the widget in real-time\n\n🖼 Images are also supported\n\n💬 Configure a contact person to directly start a chat with (requires [Nextcloud Talk](https://apps.nextcloud.com/apps/spreed) to be installed)",
     "homepage": "https://github.com/eneiluj/welcome",
