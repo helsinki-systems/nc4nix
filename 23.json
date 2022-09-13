@@ -290,8 +290,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -1130,10 +1130,10 @@
     ]
   },
   "integration_zimbra": {
-    "sha256": "a111a770d0a69a68ebc56d3240d148c38d27a845f89c35a2ad2e995641c6784e",
-    "url": "https://github.com/eneiluj/integration_zimbra/releases/download/v1.0.0-2-nightly/integration_zimbra-1.0.0-2-nightly.tar.gz",
-    "version": "1.0.0",
-    "description": "Zimbra integration into Nextcloud",
+    "sha256": "1a0daa9795ca2b3b2b0fe240a262f67aa8369214ef4906bfefeffb81f37a5209",
+    "url": "https://github.com/eneiluj/integration_zimbra/releases/download/v1.0.1/integration_zimbra-1.0.1.tar.gz",
+    "version": "1.0.1",
+    "description": "Zimbra integration into Nextcloud provides a dashboard widget for unread emails,\n one for upcoming events, a search provider for emails and the ability so search for Zimbra contacts in Nextcloud.\n\nNextcloud will suggest your Zimbra contacts addresses when you search for a contact via the top-right contacts menu\nor when you search for someone to share a file to.",
     "homepage": "https://github.com/eneiluj/integration_zimbra",
     "licenses": [
       "agpl"
@@ -1220,8 +1220,8 @@
     ]
   },
   "maps": {
-    "sha256": "e9d4cd3461cabbdecb66f46f83be39d9ed9fc3eda5a14721b51bafdf5bcb2206",
-    "url": "https://github.com/nextcloud/maps/releases/download/v0.2.1/maps-0.2.1.tar.gz",
+    "sha256": "c63770ec1d5019a01c63fbeb7e40bd0292d5ea715d0b844cfd238f000ac64c0e",
+    "url": "https://github.com/nextcloud/maps/releases/download/v0.2.1-1-nightly/maps-0.2.1-1-nightly.tar.gz",
     "version": "0.2.1",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
@@ -1360,9 +1360,9 @@
     ]
   },
   "oidc": {
-    "sha256": "48bd8d192c0d9215deffccd5bb7bc39f3b7e1b85efa2649a47bf4c7266ffc5a5",
-    "url": "https://github.com/H2CK/oidc/releases/download/0.1.8/oidc-0.1.8.tar.gz",
-    "version": "0.1.8",
+    "sha256": "e4f1d516c96198a765d639fe18055bcc4bd80ab309c1699ac3f2da9fca53d6d2",
+    "url": "https://github.com/H2CK/oidc/releases/download/0.1.9/oidc-0.1.9.tar.gz",
+    "version": "0.1.9",
     "description": "Nextcloud as OpenID Connect Identity Provider\n\nWith this app you can use Nextcloud as OpenID Connect Identity Provider. If other services\nare configured correctly, you are able to access those services with your Nextcloud login.\n\nFull documentation can be found at:\n\n- [User Documentation](https://github.com/H2CK/oidc/wiki#user-documentation)\n- [Developer Documentation](https://github.com/H2CK/oidc/wiki#developer-documentation)",
     "homepage": "https://github.com/H2CK/oidc",
     "licenses": [
@@ -2040,10 +2040,10 @@
     ]
   },
   "timemanager": {
-    "sha256": "33e6b865b0ebbf8630facd97bb056a9a5cd573187655dd01e76546b2c8f9f6f9",
-    "url": "https://github.com/te-online/nextcloud-app-releases/raw/main/timemanager/v0.3.2/timemanager.tar.gz",
-    "version": "0.3.2",
-    "description": "### Time tracking in Nextcloud!\n* 📁 **organize time entries** based on tasks, projects and clients\n* ⏱ **quickly record** a time entry for your latest tasks\n* ✅ **check or uncheck** a time entry (e.g. to save whether you've billed it)\n* 📈 make use of simple, but useful **statistics** and **reports**.\n\n#### Latest changes 🎉\n**0.3.2 Beta, 29. June 2022**\n- Add overview of all projects, tasks, and latest time entries when you select the respective menu entries without selecting a client first\n- Dashboard: Add ability to see latest time entries by other people in clients that you shared and enable to filter them by person\n- Reports: Add ability to filter reports by person who created the time entries\n- Bugfix: The list of clients, projects, and tasks that appears when you select the respective menu items didn't show items shared with you\n- Attempt to avoid more layout-shifts on Dashboard when JS has mounted components\n\n_Please refer to the [full changelog](https://github.com/te-online/timemanager/#changelog) to see older releases_\n\n📱 **Looking for a mobile companion app?** Try the [Android app (currently in beta)](https://play.google.com/store/apps/details?id=de.jbservices.nc_timemanager_app) made by [@joleaf](https://gitlab.com/joleaf/nc-timemanager-mobile-app)",
+    "sha256": "25011818fac6be6385ff02e439b9bbdff712f9afe4511912323ee49ff3121780",
+    "url": "https://github.com/te-online/nextcloud-app-releases/raw/main/timemanager/v0.3.3/timemanager.tar.gz",
+    "version": "0.3.3",
+    "description": "### Time tracking in Nextcloud!\n* 📁 **organize time entries** based on tasks, projects and clients\n* ⏱ **quickly record** a time entry for your latest tasks\n* ✅ **check or uncheck** a time entry (e.g. to save whether you've billed it)\n* 📈 make use of simple, but useful **statistics** and **reports**.\n\n#### Latest changes 🎉\n**0.3.3 Beta, 11. September 2022**\n- Dashboard / Quick Add: Rework combo-selector for client, project and taks – I hope you like it, happy to get feedback.\n- Dashboard / Quick Add: Add autosuggest for previous notes for repeated time entries to prefill details\n- Previously missing colors for select inputs have been themed\n- Maintenance: Update some JS dependencies\n\n_Please refer to the [full changelog](https://github.com/te-online/timemanager/#changelog) to see older releases_\n\n📱 **Looking for a mobile companion app?** Try the [Android app (currently in beta)](https://play.google.com/store/apps/details?id=de.jbservices.nc_timemanager_app) made by [@joleaf](https://gitlab.com/joleaf/nc-timemanager-mobile-app)",
     "homepage": "https://github.com/te-online/timemanager",
     "licenses": [
       "agpl"
@@ -2170,9 +2170,9 @@
     ]
   },
   "uppush": {
-    "sha256": "1e031df1253b4f374f78a5c90d2bb0e9ac5667234b3a784bff79b9ee1d656622",
-    "url": "https://github.com/p1gp1g/nextpush-publish/raw/main/1.1.0/uppush-1.1.0.tar.gz",
-    "version": "1.1.0",
+    "sha256": "608ef33bd6a14b9cb752b07ee08b75ce2359b8aad893282bc42ce346f92bfe38",
+    "url": "https://github.com/p1gp1g/nextpush-publish/raw/main/1.1.1/uppush-1.1.1.tar.gz",
+    "version": "1.1.1",
     "description": "Once the mobile phone is connected with NextPush, push notifications can be forwarded to applications implementing UnifiedPush.\n\nMore information about UnifiedPush at https://unifiedpush.org",
     "homepage": "",
     "licenses": [
