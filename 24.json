@@ -30,9 +30,9 @@
     ]
   },
   "appointments": {
-    "sha256": "2567a749dc2366078e81b7fe866e7d118d326de4d1bfe9611342fcf6b4095309",
-    "url": "https://github.com/SergeyMosin/Appointments/raw/v1.12.7/build/artifacts/appstore/appointments.tar.gz",
-    "version": "1.12.7",
+    "sha256": "158a5d9dc347a210bc9cf66ebfd9a63db895aba152f7b3a5fdac712a827aabc4",
+    "url": "https://github.com/SergeyMosin/Appointments/raw/v1.12.8/build/artifacts/appstore/appointments.tar.gz",
+    "version": "1.12.8",
     "description": "Book appointments into your calendar via secure online form. Attendees can confirm or cancel their appointments via an email link.",
     "homepage": "https://www.srgdev.com/lab/nextcloud-appointments/",
     "licenses": [
@@ -280,8 +280,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -483,7 +483,7 @@
     "sha256": "eef7cddc517ca5f43789089bff711b1bbaf91cdcab4178f083027d0a76ba9d3d",
     "url": "https://github.com/nextcloud-releases/files_accesscontrol/releases/download/v1.14.1/files_accesscontrol-v1.14.1.tar.gz",
     "version": "1.14.1",
-    "description": "Nextcloud's File Access Control app enables administrators to protect data from unauthorized access or modifications.\n\n## How it works\nThe administrator can create and manage a set of rule groups. Each of the rule groups consists of one or more rules. If all rules of a group hold true, the group matches the request and access is being denied or the upload is blocked. The rules criteria range from IP address, mimetype and request time to group membership, tags, user agent and more.\n\nAn example would be to deny access to MS Excel/XLSX files owned by the \"Human Resources\" group accessed from an IP not on the internal company network or to block uploads of files bigger than 512 mb by students in the \"1st year\" group.\n\nLearn more about File Access Control on [https://nextcloud.com/workflow](https://nextcloud.com/workflow)",
+    "description": "Nextcloud's File Access Control app enables administrators to protect data from unauthorized access or modifications.\n\n## How it works\nThe administrator can create and manage a set of rule groups. Each of the rule groups consists of one or more rules. If all rules of a group hold true, the group matches the request and access is being denied or the upload is blocked. The rules criteria range from IP address, MIME type and request time to group membership, tags, user agent and more.\n\nAn example would be to deny access to MS Excel/XLSX files owned by the \"Human Resources\" group accessed from an IP not on the internal company network or to block uploads of files bigger than 512 mb by students in the \"1st year\" group.\n\nLearn more about File Access Control on [https://nextcloud.com/workflow](https://nextcloud.com/workflow)",
     "homepage": "https://github.com/nextcloud/files_accesscontrol",
     "licenses": [
       "agpl"
@@ -1120,8 +1120,8 @@
     ]
   },
   "maps": {
-    "sha256": "c63770ec1d5019a01c63fbeb7e40bd0292d5ea715d0b844cfd238f000ac64c0e",
-    "url": "https://github.com/nextcloud/maps/releases/download/v0.2.1-1-nightly/maps-0.2.1-1-nightly.tar.gz",
+    "sha256": "e9d4cd3461cabbdecb66f46f83be39d9ed9fc3eda5a14721b51bafdf5bcb2206",
+    "url": "https://github.com/nextcloud/maps/releases/download/v0.2.1/maps-0.2.1.tar.gz",
     "version": "0.2.1",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
@@ -1140,10 +1140,10 @@
     ]
   },
   "memories": {
-    "sha256": "59cf3e3b4b3beae841e1afadd9b85fcb475ff29e81c534bbf97bb196b6b3893e",
-    "url": "https://github.com/pulsejet/memories/releases/download/v1.0.7/memories.tar.gz",
-    "version": "1.0.7",
-    "description": "# Memories\n\n* **📸 Photo and Video Timeline**: Sorts photos by date taken, parsed from Exif data.\n* **🤔 Quick Recap**: Jump to anywhere in the timeline instantly.\n* **🖼️ Folders**: Browse your and shared folders with a similar, efficient timeline.\n* **🎦 Slideshow**: View photos from your timeline and folders easily.\n* **📱 Mobile Support**: Relive your memories on devices of any shape and size through the web app.\n* **🗑️ Recycle**: Select and delete multiple photos and videos at once.\n\n## 🚀 Installation\n\n1. Install the app from the Nextcloud app store\n1. ⚒️ Install `exiftool` (`sudo apt install exiftool`).\n1. Run `php ./occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos. Photos from this directory will be displayed in the timeline, including any photos in nested subdirectories.\n1. Consider installing the [preview generator](https://github.com/rullzer/previewgenerator) for pre-generating thumbnails.",
+    "sha256": "e79d2399609d985333323d2bc682509639fbce9519e41616ba1f9c231c798a1a",
+    "url": "https://github.com/pulsejet/memories/releases/download/v1.1.4/memories.tar.gz",
+    "version": "1.1.4",
+    "description": "# Memories\n\n* **📸 Photo and Video Timeline**: Sorts photos by date taken, parsed from Exif data.\n* **🤔 Quick Recap**: Jump to anywhere in the timeline instantly.\n* **🖼️ Folders**: Browse your and shared folders with a similar, efficient timeline.\n* **🎦 Slideshow**: View photos from your timeline and folders easily.\n* **📱 Mobile Support**: Relive your memories on devices of any shape and size through the web app.\n* **🗑️ Recycle**: Select and delete multiple photos and videos at once.\n* **⚡️ Fast**: Memories is extremely fast. Period.\n\n## 🚀 Installation\n\n1. Install the app from the Nextcloud app store\n1. ⚒️ Install `exiftool` (see below).\n1. Run `php ./occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos. Photos from this directory will be displayed in the timeline, including any photos in nested subdirectories.\n1. Installing the [preview generator](https://github.com/rullzer/previewgenerator) for pre-generating thumbnails is strongly recommended.\n\n## 🔨 Installing Dependencies\nThe exact steps depend on your Nextcloud platform. If you use Docker for your Nextcloud instance, you can install Exiftool by using a custom docker image.\n- **Ubuntu/Debian**: `sudo apt install libimage-exiftool-perl`\n- **Fedora**: `sudo dnf install perl-Image-ExifTool`\n- **Arch Linux**: `sudo pacman -S perl-image-exiftool`\n- **Alpine**: `apk add --no-cache exiftool`\n- **MacOS**: `brew install exiftool`\n- **FreeBSD**: `sudo pkg install p5-Image-ExifTool`",
     "homepage": "https://github.com/pulsejet/memories",
     "licenses": [
       "agpl"
@@ -1400,9 +1400,9 @@
     ]
   },
   "polls": {
-    "sha256": "a868551586c27a235097274457f76d233c14a4eae00f064565a8acea47874517",
-    "url": "https://github.com/nextcloud/polls/releases/download/v3.8.0-beta1/polls.tar.gz",
-    "version": "3.8.0-beta1",
+    "sha256": "cfd28d43e927a4ddea5186f962e556c91785bff23d2150966b1ffd2d5c48accd",
+    "url": "https://github.com/nextcloud/polls/releases/download/v3.8.0-RC3/polls.tar.gz",
+    "version": "3.8.0-RC3",
     "description": "A polls app, similar to Doodle/Dudle with the possibility to restrict access (members, certain groups/users, hidden and public).",
     "homepage": "https://github.com/nextcloud/polls",
     "licenses": [
@@ -1530,9 +1530,9 @@
     ]
   },
   "riotchat": {
-    "sha256": "04a6ce3fba5a13d703e66a0662f1bd4a689417c5278b889cb38fe53532809011",
-    "url": "https://github.com/gary-kim/riotchat/releases/download/v0.13.7/riotchat.tar.gz",
-    "version": "0.13.7",
+    "sha256": "1a656264c656036b8f8a4a5ff22812f039f0b8a49ed92a585c89bed98dda1285",
+    "url": "https://github.com/gary-kim/riotchat/releases/download/v0.13.8/riotchat.tar.gz",
+    "version": "0.13.8",
     "description": "Element for Nextcloud allows you to install Element Web easily through Nextcloud and join the Matrix decentralized communication network.\n\nThis app does not include a Matrix server, only the client. You will have to either set up your own Matrix homeserver, rent one, or use a public one.\n\nThis project is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Element or the Element project, or any of its subsidiaries or its affiliates.\n\nThe name Element as well as related names, marks, emblems and images are registered trademarks of their respective owners.\n\nThe upstream project can be found at [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web).",
     "homepage": "https://github.com/gary-kim/riotchat",
     "licenses": [
@@ -2059,6 +2059,16 @@
       "agpl"
     ]
   },
+  "vibeetoee": {
+    "sha256": "618f4a91207c215b74c437e24e4fb588c5477a81f5176c680b3d609d474d9261",
+    "url": "https://vibecyber.one/nextcloud_publish/1.2.4/vibeetoee.tar.gz",
+    "version": "1.2.4",
+    "description": "VIBE resolves numerous security and operational challenges inherent in traditional public key cryptosystems.\n\n### Features and Benefits\n* Creates a Private Key (PK) for each subscriber based on its unique identity (user name for Nextcloud users)\n* Delivers HSM-powered, zero-trust, identity-based encryption and authentication\n* Authenticates/validates the sender/recipient of a message at the application layer, eliminating “spoofing”\n* Eliminates the need to protect the public parameters, making man in the middle attacks impossible\n* No need for maintaining or remembering pass phrases\n* Enables E2E authenticated, encrypted information sharing to a group, based on user-controlled rights assignment\n* Includes device management tools for deactivation/activation of stolen, lost, and/or decommissioned devices (available as of Q1/2022)\n* Encrypted information easily recovered if one’s device is lost, stolen or becomes defective; subscribers keys can be revoked and re-issued on an individual basis\n* Easily scales to any level, and greatly simplifies key management\n* Introduces simplified key revocation and security infrastructure management, thus significantly lowering operational cost (40-60% cheaper than PKI certificate-based solutions)\n\n**Technical Specifications**: supports AGPLv3, MPL 2.0 and Apache License 2.0*\n\n**Compatible Operating Systems**: Linux; Apple OSX 10.14+; Windows 10+(32/64 Bit); iOS14+; Android 10+\n\nVIBE is available to commercial organizations on a 60-day free trial, and thereafter on an annual subscription basis.",
+    "homepage": "https://vibecyber.com/",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "video_converter": {
     "sha256": "6e5ff5c12840cfb7194e56835e25ce13663e0b9047a79e57f1dd2c8712b332fb",
     "url": "https://github.com/PaulLereverend/NextcloudVideo_Converter/releases/download/1.0.5/video_converter.tar.gz",
@@ -2135,6 +2145,16 @@
     "version": "1.24.4",
     "description": "This app makes it possible to process various files via OCR algorithms.\n\tThe processing is done via workflow-engine and can therefore easily be customized.\n\tPlease note that you'll have to install the OcrMyPDF CLI on your Nextcloud server to\n\tprocess PDF files. More installation instructions can be found in the docs https://github.com/R0Wi/workflow_ocr/blob/master/README.md.",
     "homepage": "https://github.com/R0Wi/workflow_ocr",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "workflow_pdf_converter": {
+    "sha256": "a5d86c36ad8c6ca7acb34eceb6abb9051df01f0b98a0b547453fb64d8a95ce03",
+    "url": "https://github.com/nextcloud-releases/workflow_pdf_converter/releases/download/v1.9.0/workflow_pdf_converter-v1.9.0.tar.gz",
+    "version": "1.9.0",
+    "description": "An app to trigger automatic conversion of documents to PDF. Based on admin defined rules, a background job file be set up when a matching file was created or written, or was assigned a tag. Then, LibreOffice is being utilized for converting the document.",
+    "homepage": "https://github.com/nextcloud/workflow_pdf_converter",
     "licenses": [
       "agpl"
     ]
