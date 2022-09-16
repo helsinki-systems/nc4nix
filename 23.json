@@ -10,9 +10,9 @@
     ]
   },
   "analytics": {
-    "sha256": "f6ca5634203f0e8ec8b5fe9e5d6f33a4d269af2991a08fcdddf5c641811cf38c",
-    "url": "https://github.com/Rello/analytics/releases/download/4.3.1/analytics-4.3.1.tar.gz",
-    "version": "4.3.1",
+    "sha256": "b82ebdd78d1dbf624eaa0c6400e4f3543370d97ab5d3758e9778a646dbdd407a",
+    "url": "https://github.com/Rello/analytics/releases/download/4.4.0/analytics-4.4.0.tar.gz",
+    "version": "4.4.0",
     "description": "Connect data from different sources in one place.\nEnable flexible reports and enjoy seamless Nextcloud integration.\nVisualize and share anything, from financial analysis to IoT logs.\n\n##### Features:\n- Data sources: csv, spreadsheet, API, imports, manual entry\n- 3rd party: GitHub Statistics, website grabber, JSON\n- Register external data sources from other apps\n- Storage: real-time or database\n- Advanced data loads with scheduling\n- Visualization: combined charts, zoom, tables, filters\n- Analysis functions: trend, dis-/aggregation\n- Thresholds for alerts and color coding\n- Integration: Files, Activity, Notifications, Flow, Dashboard, Search\n- Sharing: user, groups, link",
     "homepage": "https://rello.github.io/analytics/",
     "licenses": [
@@ -1030,8 +1030,8 @@
     ]
   },
   "integration_mattermost": {
-    "sha256": "a6aef889daf12090f03ad34864394a15b0c84ce2bcf26b39c399e8e35d9316ff",
-    "url": "https://github.com/eneiluj/integration_mattermost/releases/download/v1.0.0-11-nightly/integration_mattermost-1.0.0-11-nightly.tar.gz",
+    "sha256": "00893970e016d41b43f9d6212c2a6cd8a842946a5b9c5d8273e6c36a555c57c4",
+    "url": "https://github.com/eneiluj/integration_mattermost/releases/download/v1.0.0-12-nightly/integration_mattermost-1.0.0-12-nightly.tar.gz",
     "version": "1.0.0",
     "description": "Mattermost integration provides a dashboard widget displaying your most important notifications\n    and a unified search provider for messages. It also lets you send files to Mattermost from Nextcloud Files.",
     "homepage": "https://github.com/eneiluj/integration_mattermost",
@@ -1240,9 +1240,9 @@
     ]
   },
   "memories": {
-    "sha256": "af3f3b6f1a1885b873b2f5875d2c7cf3b281da8832c59cc8a8bda13f2a84f9d6",
-    "url": "https://github.com/pulsejet/memories/releases/download/v1.1.5/memories.tar.gz",
-    "version": "1.1.5",
+    "sha256": "6db42d3df1fada00a3bd6f49c04937339de6062ebb7cf4ea0522e7074cddd21b",
+    "url": "https://github.com/pulsejet/memories/releases/download/v1.1.6/memories.tar.gz",
+    "version": "1.1.6",
     "description": "# Memories\n\n* **📸 Photo and Video Timeline**: Sorts photos by date taken, parsed from Exif data.\n* **🤔 Quick Recap**: Jump to anywhere in the timeline instantly.\n* **🖼️ Folders**: Browse your and shared folders with a similar, efficient timeline.\n* **🎦 Slideshow**: View photos from your timeline and folders easily.\n* **📱 Mobile Support**: Relive your memories on devices of any shape and size through the web app.\n* **🗑️ Recycle**: Select and delete multiple photos and videos at once.\n* **⚡️ Fast**: Memories is extremely fast. Period.\n\n## 🚀 Installation\n\n1. Install the app from the Nextcloud app store\n1. ⚒️ Install `exiftool` (see below).\n1. Run `php ./occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos. Photos from this directory will be displayed in the timeline, including any photos in nested subdirectories.\n1. Installing the [preview generator](https://github.com/rullzer/previewgenerator) for pre-generating thumbnails is strongly recommended.\n\n## 🔨 Installing Dependencies\nThe exact steps depend on your Nextcloud platform. If you use Docker for your Nextcloud instance, you can install Exiftool by using a custom docker image.\n- **Ubuntu/Debian**: `sudo apt install libimage-exiftool-perl`\n- **Fedora**: `sudo dnf install perl-Image-ExifTool`\n- **Arch Linux**: `sudo pacman -S perl-image-exiftool`\n- **Alpine**: `apk add --no-cache exiftool`\n- **MacOS**: `brew install exiftool`\n- **FreeBSD**: `sudo pkg install p5-Image-ExifTool`",
     "homepage": "https://github.com/pulsejet/memories",
     "licenses": [
@@ -1950,9 +1950,9 @@
     ]
   },
   "spreed": {
-    "sha256": "c38d4e277b25b61ae34cd5e6ce3896905f4ef8b8a10e2b687a540e8cb47129ad",
-    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v13.0.8/spreed-v13.0.8.tar.gz",
-    "version": "13.0.8",
+    "sha256": "18f863eef2345e886164d7f3cbe84b1eb4a3654b1d3089b85735b6ae4efd7568",
+    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v13.0.9/spreed-v13.0.9.tar.gz",
+    "version": "13.0.9",
     "description": "Chat, video & audio-conferencing using WebRTC\n\n* 💬 **Chat integration!** Nextcloud Talk comes with a simple text chat. Allowing you to share files from your Nextcloud and mentioning other participants.\n* 👥 **Private, group, public and password protected calls!** Just invite somebody, a whole group or send a public link to invite to a call.\n* 💻 **Screen sharing!** Share your screen with participants of your call. You just need to use Firefox version 66 (or newer), latest Edge or Chrome 72 (or newer, also possible using Chrome 49 with this [Chrome extension](https://chrome.google.com/webstore/detail/screensharing-for-nextclo/kepnpjhambipllfmgmbapncekcmabkol)).\n* 🚀 **Integration with other Nextcloud apps** like Files, Contacts and Deck. More to come.\n\nAnd in the works for the [coming versions](https://github.com/nextcloud/spreed/milestones/):\n* ✋ [Federated calls](https://github.com/nextcloud/spreed/issues/21), to call people on other Nextclouds",
     "homepage": "https://github.com/nextcloud/spreed",
     "licenses": [
