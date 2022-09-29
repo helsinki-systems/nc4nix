@@ -50,8 +50,8 @@
     ]
   },
   "approval": {
-    "sha256": "aad7c382237fba991032624c220f34369398cc258134c92710f21a8e1cb15558",
-    "url": "https://github.com/nextcloud/approval/releases/download/v1.0.10-3-nightly/approval-1.0.10-3-nightly.tar.gz",
+    "sha256": "d18d557dadb0d8c1a202ed2588e75f067d1beb505c281bdd0b4e09d677677994",
+    "url": "https://github.com/nextcloud/approval/releases/download/v1.0.10/approval-1.0.10.tar.gz",
     "version": "1.0.10",
     "description": "Approve/reject files based on workflows defined by admins.",
     "homepage": "https://github.com/eneiluj/approval",
@@ -529,6 +529,16 @@
       "agpl"
     ]
   },
+  "files_external_ethswarm": {
+    "sha256": "717132f7dfe0b394d1990b5d8bdb469314b8a00d9de3ec0f5d47a12dde1403c9",
+    "url": "https://github.com/MetaProvide/nextcloud-swarm-plugin/releases/download/v0.1.3/files_external_ethswarm.tar.gz",
+    "version": "0.1.3",
+    "description": "# Nextcloud Swarm Plugin\n\n*Decentralized Sovereign cloud-storage comes to Nextcloud!*\n\nThis plugin brings [Swarm](https://www.ethswarm.org/) to [Nextcloud](https://nextcloud.com) - decentralized file-storage, connected to the blockchain.\n\n## Table of Contents\n\n- [Dependencies](#dependencies)\n- [Setup and Installation](#setup-and-installation)\n- [Usage](#usage)\n\t- [Settings](#settings)\n\t- [Using Swarm](#using-swarm)\n- [License](#license)\n\n## Dependencies\n\nTo use the plugin you need the following\n\n* A Nextcloud instance\n* A Bee node\n\n## Setup and Installation\n\nFor setting up a Bee node please have a look at the [official documentation](https://docs.ethswarm.org/docs/installation/quick-start)\n\nThe following steps explain how to configure a Bee node in Nextcloud.\n\n- Make sure the \"External Storage\" plugin is enabled\n- Install the \"External Storage: Swarm\" app from the Nextcloud App store\n- Navigate to External Storage Administration (Profile menu -> Settings -> External Storage)\n- Add the connection settings for a new Bee node\n- Navigate to Ethswarm Storage Administration (Profile menu -> Settings -> Ethswarm Storage)\n- Configure the Bee node - by default, encryption is active\n- To use a Bee node, it is necessary to [Purchase a Batch of new stamps](https://docs.ethswarm.org/docs/access-the-swarm/keep-your-data-alive) from the funds in the chequebook\n- Once the new batch is purchased, a unique batchId is generated. Once your batch has been purchased, it will take a few minutes for other Bee nodes in the Swarm to catch up and register your batch. Allow some time for your batch to propagate in the network before proceeding to the next step. This is indicated by the checkbox \"Usable\".\n- Uploading files to the swarm costs Bzz, so it is necessary to select a Batch as \"Active\". Only 1 batch is allowed to be Active for a given Bee node. Then click \"Save Settings\".\n\n## Usage\n\nFile handling operations involving the Bee node are integrated in the External Storage (\"Files\") section of Nextcloud.\n\nUsing the plugin, the main file operations that are available in Nextcloud are:\n\n- Upload file(s) to a Bee node\n- Download and view files\n- Copy/Move files from any External Storage to a Bee node\n- Copy files from a Bee node to any External Storage\n\n### Settings\n\nAvailable to users with administrative credentials, the external storage accepts configuration options from two places, the normal External Storage settings, which allows a user to configure the basic connection properties of a Bee node.\n\nSince every operation in Swarm costs money, it is important to view how much money is available to the Bee node directly and also provide a convenient way of handling the payment system in Swarm - all managed directly in Nextcloud. This is in a specific section with more advanced configuration for the Bee node, where the following settings can be viewed and edited:\n\n- Configure which Bee node to manage\n- View current status of the Bee node\n- Option to toggle encryption on and off\n- How much BZZ is available to the node\n- Any purchased stamp batches and the remaining balances\n- Have the option to purchase a new batch of stamps\n- Toggle the batch used for uploading files active/inactive\n\n### Using Swarm\n\nOnce setup and configured, the Bee node is ready to use.\n- Navigate to \"Files\" option on the menu -> \"External Storage\" and then the name of the Bee node.\n- You can then upload files just like you normally would in Nextcloud.\n- Once uploaded, it can be viewed internally or downloaded. It can also be copied to another storage.\n- Files from another Nextcloud storage can also be copied/moved to the Bee node.",
+    "homepage": "https://github.com/MetaProvide/nextcloud-swarm-plugin",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "files_fulltextsearch": {
     "sha256": "f9c2aef64bec3f16a31b3c9986ef830eab3158aae966630cc402a0d2dc99741c",
     "url": "https://github.com/nextcloud-releases/files_fulltextsearch/releases/download/v24.0.1/files_fulltextsearch-v24.0.1.tar.gz",
@@ -980,9 +990,9 @@
     ]
   },
   "integration_onedrive": {
-    "sha256": "c3f3efa3035f3909796d8c59e1715d3868ab38a936aa0a565d6b38e409c80947",
-    "url": "https://github.com/eneiluj/integration_onedrive/releases/download/v1.1.3/integration_onedrive-1.1.3.tar.gz",
-    "version": "1.1.3",
+    "sha256": "bef45c4dcb33c90b78a45f8a99d7007517110f7995aca515536677c5ee26ebb0",
+    "url": "https://github.com/eneiluj/integration_onedrive/releases/download/v1.1.4/integration_onedrive-1.1.4.tar.gz",
+    "version": "1.1.4",
     "description": "Microsoft OneDrive integration allows you to automatically import your OneDrive files into Nextcloud.",
     "homepage": "https://github.com/eneiluj/integration_onedrive",
     "licenses": [
@@ -1040,9 +1050,9 @@
     ]
   },
   "integration_zammad": {
-    "sha256": "d2544a56623a3e3ec51001bdbaaac673740eb5057733f3cdf3fe80ae71c69d2d",
-    "url": "https://github.com/nextcloud/integration_zammad/releases/download/v1.0.4/integration_zammad-1.0.4.tar.gz",
-    "version": "1.0.4",
+    "sha256": "702bcd74f2945cd3ca9493fb5631036b99d2b6a3dd440981fae728e28d2b3205",
+    "url": "https://github.com/nextcloud/integration_zammad/releases/download/v1.1.1/integration_zammad-1.1.1.tar.gz",
+    "version": "1.1.1",
     "description": "Zammad integration provides a dashboard widget displaying your important notifications,\n\ta search provider for tickets and notifications for new open tickets.",
     "homepage": "https://github.com/nextcloud/integration_zammad",
     "licenses": [
@@ -1160,9 +1170,9 @@
     ]
   },
   "memories": {
-    "sha256": "8ccc0a307f4faed023cdb7d96271dc3615425160956ee5f91c69887a18f832e2",
-    "url": "https://github.com/pulsejet/memories/releases/download/v2.1.2/memories.tar.gz",
-    "version": "2.1.2",
+    "sha256": "10e2de0f3fe172842572f0940f7fb2a2f8167fd044a42a2449309c93eb7d8110",
+    "url": "https://github.com/pulsejet/memories/releases/download/v2.1.3/memories.tar.gz",
+    "version": "2.1.3",
     "description": "# Memories\n\n* **📸 Photo and Video Timeline**: Sorts photos by date taken, parsed from Exif data.\n* **🤔 Quick Recap**: Jump to anywhere in the timeline instantly.\n* **🖼️ Folders**: Browse your and shared folders with a similar, efficient timeline.\n* **🎦 Slideshow**: View photos from your timeline and folders easily.\n* **📱 Mobile Support**: Relive your memories on devices of any shape and size through the web app.\n* **🗑️ Recycle**: Select and delete multiple photos and videos at once.\n* **✏️ Edit Metadata**: Edit Exif dates on photos quickly and easily.\n* **📦 Archive**: Store photos you don't want to see in your timeline in a separate folder.\n* **⚡️ Fast**: Memories is extremely fast. Period.\n\n## 🚀 Installation\n\n1. Install the app from the Nextcloud app store\n1. ⚒️ Install `exiftool` (see below).\n1. Run `php ./occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos. Photos from this directory will be displayed in the timeline, including any photos in nested subdirectories.\n1. Installing the [preview generator](https://github.com/rullzer/previewgenerator) for pre-generating thumbnails is strongly recommended.\n\n## 🔨 Installing Dependencies\nThe exact steps depend on your Nextcloud platform. If you use Docker for your Nextcloud instance, you can install Exiftool by using a custom docker image.\n- **Ubuntu/Debian**: `sudo apt install libimage-exiftool-perl`\n- **Fedora**: `sudo dnf install perl-Image-ExifTool`\n- **Arch Linux**: `sudo pacman -S perl-image-exiftool`\n- **Alpine**: `apk add --no-cache exiftool`\n- **MacOS**: `brew install exiftool`\n- **FreeBSD**: `sudo pkg install p5-Image-ExifTool`",
     "homepage": "https://github.com/pulsejet/memories",
     "licenses": [
@@ -1210,9 +1220,9 @@
     ]
   },
   "news": {
-    "sha256": "5889eb77628a699829d1303db71a0d6d9c5ce97121074551bf11c2ab64166747",
-    "url": "https://github.com/nextcloud/news/releases/download/18.2.0-beta2/news.tar.gz",
-    "version": "18.2.0-beta2",
+    "sha256": "792d1c17026661f186266034d803963bf3977ea7f223bd6ed866ad6838f5f031",
+    "url": "https://github.com/nextcloud/news/releases/download/18.2.0/news.tar.gz",
+    "version": "18.2.0",
     "description": "📰 A RSS/Atom Feed reader App for Nextcloud\n\n- 📲 Synchronize your feeds with multiple mobile or desktop [clients](https://nextcloud.github.io/news/clients/)\n- 🔄 Automatic updates of your news feeds\n- 🆓 Free and open source under AGPLv3, no ads or premium functions\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://nextcloud.github.io/news/install/#dependencies)\n\nThe Changelog is available [here](https://github.com/nextcloud/news/blob/master/CHANGELOG.md)\n\nCreate a [bug report](https://github.com/nextcloud/news/issues/new/choose)\n\nCreate a [feature request](https://github.com/nextcloud/news/discussions/new)\n\nReport a [feed issue](https://github.com/nextcloud/news/discussions/new)",
     "homepage": "https://github.com/nextcloud/news",
     "licenses": [
@@ -1270,9 +1280,9 @@
     ]
   },
   "oidc": {
-    "sha256": "24bc7b4329f0a8d1267716b0d4fb79f0126a10c4fdb6e91e5bc4e86f22bf8175",
-    "url": "https://github.com/H2CK/oidc/releases/download/0.1.10/oidc-0.1.10.tar.gz",
-    "version": "0.1.10",
+    "sha256": "ff227f317c8650ccc6f6dd90b3f21dc0c6dc9afffe87940499ffca58a496e8e0",
+    "url": "https://github.com/H2CK/oidc/releases/download/0.1.11/oidc-0.1.11.tar.gz",
+    "version": "0.1.11",
     "description": "Nextcloud as OpenID Connect Identity Provider\n\nWith this app you can use Nextcloud as OpenID Connect Identity Provider. If other services\nare configured correctly, you are able to access those services with your Nextcloud login.\n\nFull documentation can be found at:\n\n- [User Documentation](https://github.com/H2CK/oidc/wiki#user-documentation)\n- [Developer Documentation](https://github.com/H2CK/oidc/wiki#developer-documentation)",
     "homepage": "https://github.com/H2CK/oidc",
     "licenses": [
@@ -1760,9 +1770,9 @@
     ]
   },
   "souvenirs": {
-    "sha256": "15dd148f7d839501192d7865c8507e9a7d75a14f7bc850ab3079eaee0b42f332",
-    "url": "https://github.com/zorgluf/souvenirs-nextcloud/releases/download/v1.6.1/souvenirs.tar.gz",
-    "version": "1.6.1",
+    "sha256": "617003a33655c1711cb5fe33db4550852b7b36d09c42e9433f3f206f6799de8f",
+    "url": "https://github.com/zorgluf/souvenirs-nextcloud/releases/download/v1.7.0/souvenirs.tar.gz",
+    "version": "1.7.0",
     "description": "View and share albums made by the [Souvenirs android application](https://github.com/zorgluf/souvenirs-android)",
     "homepage": "https://github.com/zorgluf/souvenirs-nextcloud",
     "licenses": [
@@ -1800,9 +1810,9 @@
     ]
   },
   "tables": {
-    "sha256": "2a92329a2c619766b5651f841f3535517c7e363156f86ccc301a3b0aeaf7de6c",
-    "url": "https://dl.datenangebot.de/nc%20tables/releases/tables%200.2.0.tar.gz",
-    "version": "0.2.0",
+    "sha256": "55c22181b8a4b162ca5068229f9bccb370d0ce0c8df2d239cf4d2caf7496f221",
+    "url": "https://dl.datenangebot.de/nc%20tables/releases/tables%200.2.1.tar.gz",
+    "version": "0.2.1",
     "description": "Manage data within tables.\n\nWith this app you are able to create your own tables with individual columns. You can start with a template or from scratch and add your wanted columns.\nYou can choose from the following column types:\n- Text line or long text\n- Link\n- Number\n- Progress bar\n- Stars rating\n- Yes/No tick\n- Date and/or time\n\nShare your tables with users and groups within your cloud.\n\nHave a good time and manage whatever you want.",
     "homepage": "https://github.com/datenangebot/tables",
     "licenses": [
