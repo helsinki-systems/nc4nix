@@ -50,8 +50,8 @@
     ]
   },
   "approval": {
-    "sha256": "aad7c382237fba991032624c220f34369398cc258134c92710f21a8e1cb15558",
-    "url": "https://github.com/nextcloud/approval/releases/download/v1.0.10-3-nightly/approval-1.0.10-3-nightly.tar.gz",
+    "sha256": "d18d557dadb0d8c1a202ed2588e75f067d1beb505c281bdd0b4e09d677677994",
+    "url": "https://github.com/nextcloud/approval/releases/download/v1.0.10/approval-1.0.10.tar.gz",
     "version": "1.0.10",
     "description": "Approve/reject files based on workflows defined by admins.",
     "homepage": "https://github.com/eneiluj/approval",
@@ -579,6 +579,16 @@
       "agpl"
     ]
   },
+  "files_external_ethswarm": {
+    "sha256": "717132f7dfe0b394d1990b5d8bdb469314b8a00d9de3ec0f5d47a12dde1403c9",
+    "url": "https://github.com/MetaProvide/nextcloud-swarm-plugin/releases/download/v0.1.3/files_external_ethswarm.tar.gz",
+    "version": "0.1.3",
+    "description": "# Nextcloud Swarm Plugin\n\n*Decentralized Sovereign cloud-storage comes to Nextcloud!*\n\nThis plugin brings [Swarm](https://www.ethswarm.org/) to [Nextcloud](https://nextcloud.com) - decentralized file-storage, connected to the blockchain.\n\n## Table of Contents\n\n- [Dependencies](#dependencies)\n- [Setup and Installation](#setup-and-installation)\n- [Usage](#usage)\n\t- [Settings](#settings)\n\t- [Using Swarm](#using-swarm)\n- [License](#license)\n\n## Dependencies\n\nTo use the plugin you need the following\n\n* A Nextcloud instance\n* A Bee node\n\n## Setup and Installation\n\nFor setting up a Bee node please have a look at the [official documentation](https://docs.ethswarm.org/docs/installation/quick-start)\n\nThe following steps explain how to configure a Bee node in Nextcloud.\n\n- Make sure the \"External Storage\" plugin is enabled\n- Install the \"External Storage: Swarm\" app from the Nextcloud App store\n- Navigate to External Storage Administration (Profile menu -> Settings -> External Storage)\n- Add the connection settings for a new Bee node\n- Navigate to Ethswarm Storage Administration (Profile menu -> Settings -> Ethswarm Storage)\n- Configure the Bee node - by default, encryption is active\n- To use a Bee node, it is necessary to [Purchase a Batch of new stamps](https://docs.ethswarm.org/docs/access-the-swarm/keep-your-data-alive) from the funds in the chequebook\n- Once the new batch is purchased, a unique batchId is generated. Once your batch has been purchased, it will take a few minutes for other Bee nodes in the Swarm to catch up and register your batch. Allow some time for your batch to propagate in the network before proceeding to the next step. This is indicated by the checkbox \"Usable\".\n- Uploading files to the swarm costs Bzz, so it is necessary to select a Batch as \"Active\". Only 1 batch is allowed to be Active for a given Bee node. Then click \"Save Settings\".\n\n## Usage\n\nFile handling operations involving the Bee node are integrated in the External Storage (\"Files\") section of Nextcloud.\n\nUsing the plugin, the main file operations that are available in Nextcloud are:\n\n- Upload file(s) to a Bee node\n- Download and view files\n- Copy/Move files from any External Storage to a Bee node\n- Copy files from a Bee node to any External Storage\n\n### Settings\n\nAvailable to users with administrative credentials, the external storage accepts configuration options from two places, the normal External Storage settings, which allows a user to configure the basic connection properties of a Bee node.\n\nSince every operation in Swarm costs money, it is important to view how much money is available to the Bee node directly and also provide a convenient way of handling the payment system in Swarm - all managed directly in Nextcloud. This is in a specific section with more advanced configuration for the Bee node, where the following settings can be viewed and edited:\n\n- Configure which Bee node to manage\n- View current status of the Bee node\n- Option to toggle encryption on and off\n- How much BZZ is available to the node\n- Any purchased stamp batches and the remaining balances\n- Have the option to purchase a new batch of stamps\n- Toggle the batch used for uploading files active/inactive\n\n### Using Swarm\n\nOnce setup and configured, the Bee node is ready to use.\n- Navigate to \"Files\" option on the menu -> \"External Storage\" and then the name of the Bee node.\n- You can then upload files just like you normally would in Nextcloud.\n- Once uploaded, it can be viewed internally or downloaded. It can also be copied to another storage.\n- Files from another Nextcloud storage can also be copied/moved to the Bee node.",
+    "homepage": "https://github.com/MetaProvide/nextcloud-swarm-plugin",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "files_fulltextsearch": {
     "sha256": "f21abfe38dc098c5fde4193cda28d54ab2931523a20f721237431e82bd6525b4",
     "url": "https://github.com/nextcloud-releases/files_fulltextsearch/releases/download/v23.0.2/files_fulltextsearch-v23.0.2.tar.gz",
@@ -1080,9 +1090,9 @@
     ]
   },
   "integration_onedrive": {
-    "sha256": "c3f3efa3035f3909796d8c59e1715d3868ab38a936aa0a565d6b38e409c80947",
-    "url": "https://github.com/eneiluj/integration_onedrive/releases/download/v1.1.3/integration_onedrive-1.1.3.tar.gz",
-    "version": "1.1.3",
+    "sha256": "bef45c4dcb33c90b78a45f8a99d7007517110f7995aca515536677c5ee26ebb0",
+    "url": "https://github.com/eneiluj/integration_onedrive/releases/download/v1.1.4/integration_onedrive-1.1.4.tar.gz",
+    "version": "1.1.4",
     "description": "Microsoft OneDrive integration allows you to automatically import your OneDrive files into Nextcloud.",
     "homepage": "https://github.com/eneiluj/integration_onedrive",
     "licenses": [
@@ -1140,9 +1150,9 @@
     ]
   },
   "integration_zammad": {
-    "sha256": "d2544a56623a3e3ec51001bdbaaac673740eb5057733f3cdf3fe80ae71c69d2d",
-    "url": "https://github.com/nextcloud/integration_zammad/releases/download/v1.0.4/integration_zammad-1.0.4.tar.gz",
-    "version": "1.0.4",
+    "sha256": "702bcd74f2945cd3ca9493fb5631036b99d2b6a3dd440981fae728e28d2b3205",
+    "url": "https://github.com/nextcloud/integration_zammad/releases/download/v1.1.1/integration_zammad-1.1.1.tar.gz",
+    "version": "1.1.1",
     "description": "Zammad integration provides a dashboard widget displaying your important notifications,\n\ta search provider for tickets and notifications for new open tickets.",
     "homepage": "https://github.com/nextcloud/integration_zammad",
     "licenses": [
@@ -1310,9 +1320,9 @@
     ]
   },
   "news": {
-    "sha256": "5889eb77628a699829d1303db71a0d6d9c5ce97121074551bf11c2ab64166747",
-    "url": "https://github.com/nextcloud/news/releases/download/18.2.0-beta2/news.tar.gz",
-    "version": "18.2.0-beta2",
+    "sha256": "792d1c17026661f186266034d803963bf3977ea7f223bd6ed866ad6838f5f031",
+    "url": "https://github.com/nextcloud/news/releases/download/18.2.0/news.tar.gz",
+    "version": "18.2.0",
     "description": "📰 A RSS/Atom Feed reader App for Nextcloud\n\n- 📲 Synchronize your feeds with multiple mobile or desktop [clients](https://nextcloud.github.io/news/clients/)\n- 🔄 Automatic updates of your news feeds\n- 🆓 Free and open source under AGPLv3, no ads or premium functions\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://nextcloud.github.io/news/install/#dependencies)\n\nThe Changelog is available [here](https://github.com/nextcloud/news/blob/master/CHANGELOG.md)\n\nCreate a [bug report](https://github.com/nextcloud/news/issues/new/choose)\n\nCreate a [feature request](https://github.com/nextcloud/news/discussions/new)\n\nReport a [feed issue](https://github.com/nextcloud/news/discussions/new)",
     "homepage": "https://github.com/nextcloud/news",
     "licenses": [
