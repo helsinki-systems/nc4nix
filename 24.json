@@ -50,8 +50,8 @@
     ]
   },
   "approval": {
-    "sha256": "aad7c382237fba991032624c220f34369398cc258134c92710f21a8e1cb15558",
-    "url": "https://github.com/nextcloud/approval/releases/download/v1.0.10-3-nightly/approval-1.0.10-3-nightly.tar.gz",
+    "sha256": "d18d557dadb0d8c1a202ed2588e75f067d1beb505c281bdd0b4e09d677677994",
+    "url": "https://github.com/nextcloud/approval/releases/download/v1.0.10/approval-1.0.10.tar.gz",
     "version": "1.0.10",
     "description": "Approve/reject files based on workflows defined by admins.",
     "homepage": "https://github.com/eneiluj/approval",
@@ -913,7 +913,7 @@
     "sha256": "2fe905ad925fcd20727cfd98eec65189005b755d1e153e87fbdcd6742e468843",
     "url": "https://github.com/nextcloud/integration_github/releases/download/v1.0.4/integration_github-1.0.4.tar.gz",
     "version": "1.0.4",
-    "description": "GitHub integration provides a dashboard widget displaying your most important notifications\n    and a unified search provider for repositories, issues and pull requests.",
+    "description": "GitHub integration provides a dashboard widget displaying your most important notifications\n    and a unified search provider for repositories, issues and pull requests. It also provides a link reference provider\n    to render links to issues, pull requests and comments in Talk and Text.",
     "homepage": "https://github.com/nextcloud/integration_github",
     "licenses": [
       "agpl"
@@ -1060,8 +1060,8 @@
     ]
   },
   "integration_zimbra": {
-    "sha256": "3a6d78d0cad5fe2f6a247d2be6423890b7ce4bd751cc7425319963a02f503679",
-    "url": "https://github.com/eneiluj/integration_zimbra/releases/download/v1.0.3-2-nightly/integration_zimbra-1.0.3-2-nightly.tar.gz",
+    "sha256": "67df37694cd456ce90eb8e8c3cf4f735840a23d97fc822e4070716241637db8d",
+    "url": "https://github.com/eneiluj/integration_zimbra/releases/download/v1.0.3/integration_zimbra-1.0.3.tar.gz",
     "version": "1.0.3",
     "description": "Zimbra integration into Nextcloud provides a dashboard widget for unread emails,\n one for upcoming events, a search provider for emails and the ability so search for Zimbra contacts in Nextcloud.\n\nNextcloud will suggest your Zimbra contacts addresses when you search for a contact via the top-right contacts menu\nor when you search for someone to share a file to.",
     "homepage": "https://github.com/eneiluj/integration_zimbra",
@@ -1170,10 +1170,10 @@
     ]
   },
   "memories": {
-    "sha256": "10e2de0f3fe172842572f0940f7fb2a2f8167fd044a42a2449309c93eb7d8110",
-    "url": "https://github.com/pulsejet/memories/releases/download/v2.1.3/memories.tar.gz",
-    "version": "2.1.3",
-    "description": "# Memories\n\n* **📸 Photo and Video Timeline**: Sorts photos by date taken, parsed from Exif data.\n* **🤔 Quick Recap**: Jump to anywhere in the timeline instantly.\n* **🖼️ Folders**: Browse your and shared folders with a similar, efficient timeline.\n* **🎦 Slideshow**: View photos from your timeline and folders easily.\n* **📱 Mobile Support**: Relive your memories on devices of any shape and size through the web app.\n* **🗑️ Recycle**: Select and delete multiple photos and videos at once.\n* **✏️ Edit Metadata**: Edit Exif dates on photos quickly and easily.\n* **📦 Archive**: Store photos you don't want to see in your timeline in a separate folder.\n* **⚡️ Fast**: Memories is extremely fast. Period.\n\n## 🚀 Installation\n\n1. Install the app from the Nextcloud app store\n1. ⚒️ Install `exiftool` (see below).\n1. Run `php ./occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos. Photos from this directory will be displayed in the timeline, including any photos in nested subdirectories.\n1. Installing the [preview generator](https://github.com/rullzer/previewgenerator) for pre-generating thumbnails is strongly recommended.\n\n## 🔨 Installing Dependencies\nThe exact steps depend on your Nextcloud platform. If you use Docker for your Nextcloud instance, you can install Exiftool by using a custom docker image.\n- **Ubuntu/Debian**: `sudo apt install libimage-exiftool-perl`\n- **Fedora**: `sudo dnf install perl-Image-ExifTool`\n- **Arch Linux**: `sudo pacman -S perl-image-exiftool`\n- **Alpine**: `apk add --no-cache exiftool`\n- **MacOS**: `brew install exiftool`\n- **FreeBSD**: `sudo pkg install p5-Image-ExifTool`",
+    "sha256": "c6e73538fa076c4cc8f931b249e61d4ff18efc4f5a192199d835003c9be4379b",
+    "url": "https://github.com/pulsejet/memories/releases/download/v3.0.0/memories.tar.gz",
+    "version": "3.0.0",
+    "description": "# Memories\n\n* **📸 Photo and Video Timeline**: Sorts photos by date taken, parsed from Exif data.\n* **🤔 Quick Recap**: Jump to anywhere in the timeline instantly.\n* **🖼️ Folders**: Browse your and shared folders with a similar, efficient timeline.\n* **🤖 AI Tagging**: Group photos by people and objects using AI, powered by the [recognize](https://github.com/nextcloud/recognize) app.\n* **🎦 Slideshow**: View photos from your timeline and folders easily.\n* **📱 Mobile Support**: Relive your memories on devices of any shape and size through the web app.\n* **✏️ Edit Metadata**: Edit Exif dates on photos quickly and easily.\n* **📦 Archive**: Store photos you don't want to see in your timeline in a separate folder.\n* **⚡️ Fast**: Memories is extremely fast. Period.\n\n## 🚀 Installation\n\n1. Install the app from the Nextcloud app store\n1. ⚒️ Install `exiftool` (see below).\n1. Run `php ./occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos. Photos from this directory will be displayed in the timeline, including any photos in nested subdirectories.\n1. Installing the [preview generator](https://github.com/rullzer/previewgenerator) for pre-generating thumbnails is strongly recommended.\n\n## 🔨 Installing Dependencies\nThe exact steps depend on your Nextcloud platform. If you use Docker for your Nextcloud instance, you can install Exiftool by using a custom docker image.\n- **Ubuntu/Debian**: `sudo apt install libimage-exiftool-perl`\n- **Fedora**: `sudo dnf install perl-Image-ExifTool`\n- **Arch Linux**: `sudo pacman -S perl-image-exiftool`\n- **Alpine**: `apk add --no-cache exiftool`\n- **MacOS**: `brew install exiftool`\n- **FreeBSD**: `sudo pkg install p5-Image-ExifTool`",
     "homepage": "https://github.com/pulsejet/memories",
     "licenses": [
       "agpl"
@@ -1240,9 +1240,9 @@
     ]
   },
   "notify_push": {
-    "sha256": "07f4bf9261f3fe69e68aa248b5b92bafcf5ae4a98ce7f03fef2afc08f2b438be",
-    "url": "https://github.com/nextcloud/notify_push/releases/download/v0.4.0/notify_push.tar.gz",
-    "version": "0.4.0",
+    "sha256": "38141869600f03e2178315725716dd5d4b69ac0b175e5fc452336d785b8f9384",
+    "url": "https://github.com/nextcloud/notify_push/releases/download/v0.5.0/notify_push.tar.gz",
+    "version": "0.5.0",
     "description": "Push update support for desktop app.\n\nOnce the app is installed, the push binary needs to be setup. You can either use the setup wizard with `occ notify_push:setup` or see the [README](http://github.com/nextcloud/notify_push) for detailed setup instructions",
     "homepage": "",
     "licenses": [
