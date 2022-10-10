@@ -290,8 +290,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -560,9 +560,9 @@
     ]
   },
   "files_downloadactivity": {
-    "sha256": "24c24cd062f9ce968d507206975277ec9759961add2f44c15c3f7ef9b07a9ef3",
-    "url": "https://github.com/nextcloud-releases/files_downloadactivity/releases/download/v1.13.0/files_downloadactivity-v1.13.0.tar.gz",
-    "version": "1.13.0",
+    "sha256": "a0668dc3f2b7bb37f0964d184155935f39a8b093a5710b078072118d4a273b55",
+    "url": "https://github.com/nextcloud-releases/files_downloadactivity/releases/download/v1.15.0/files_downloadactivity-v1.15.0.tar.gz",
+    "version": "1.15.0",
     "description": "Creates activities for downloads of files that were shared with other users or a group",
     "homepage": "https://github.com/nextcloud/files_downloadactivity",
     "licenses": [
@@ -1270,9 +1270,9 @@
     ]
   },
   "memories": {
-    "sha256": "c6e73538fa076c4cc8f931b249e61d4ff18efc4f5a192199d835003c9be4379b",
-    "url": "https://github.com/pulsejet/memories/releases/download/v3.0.0/memories.tar.gz",
-    "version": "3.0.0",
+    "sha256": "8476d2c5e7e2995bd522423407f0d340ff4862d09c30bf83fe2aa0811f0654ef",
+    "url": "https://github.com/pulsejet/memories/releases/download/v3.1.0/memories.tar.gz",
+    "version": "3.1.0",
     "description": "# Memories\n\n* **📸 Photo and Video Timeline**: Sorts photos by date taken, parsed from Exif data.\n* **🤔 Quick Recap**: Jump to anywhere in the timeline instantly.\n* **🖼️ Folders**: Browse your and shared folders with a similar, efficient timeline.\n* **🤖 AI Tagging**: Group photos by people and objects using AI, powered by the [recognize](https://github.com/nextcloud/recognize) app.\n* **🎦 Slideshow**: View photos from your timeline and folders easily.\n* **📱 Mobile Support**: Relive your memories on devices of any shape and size through the web app.\n* **✏️ Edit Metadata**: Edit Exif dates on photos quickly and easily.\n* **📦 Archive**: Store photos you don't want to see in your timeline in a separate folder.\n* **⚡️ Fast**: Memories is extremely fast. Period.\n\n## 🚀 Installation\n\n1. Install the app from the Nextcloud app store\n1. ⚒️ Install `exiftool` (see below).\n1. Run `php ./occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos. Photos from this directory will be displayed in the timeline, including any photos in nested subdirectories.\n1. Installing the [preview generator](https://github.com/rullzer/previewgenerator) for pre-generating thumbnails is strongly recommended.\n\n## 🔨 Installing Dependencies\nThe exact steps depend on your Nextcloud platform. If you use Docker for your Nextcloud instance, you can install Exiftool by using a custom docker image.\n- **Ubuntu/Debian**: `sudo apt install libimage-exiftool-perl`\n- **Fedora**: `sudo dnf install perl-Image-ExifTool`\n- **Arch Linux**: `sudo pacman -S perl-image-exiftool`\n- **Alpine**: `apk add --no-cache exiftool`\n- **MacOS**: `brew install exiftool`\n- **FreeBSD**: `sudo pkg install p5-Image-ExifTool`",
     "homepage": "https://github.com/pulsejet/memories",
     "licenses": [
@@ -2370,9 +2370,9 @@
     ]
   },
   "welcome": {
-    "sha256": "1441be156e3860a1b214ba07dfe6b4b87512f932d81b2d83acbf34e5e8bdd797",
-    "url": "https://github.com/eneiluj/welcome/releases/download/v1.0.1/welcome-1.0.1.tar.gz",
-    "version": "1.0.1",
+    "sha256": "adbb90d586225da58f1a2f3c3c71bda5d3a9124b7aac88a0ca75ebfa386b92fe",
+    "url": "https://github.com/eneiluj/welcome/releases/download/v1.0.2/welcome-1.0.2.tar.gz",
+    "version": "1.0.2",
     "description": "ℹ A Markdown rendering Dashboard widget to welcome all users.\n\n⚙ Configure via `Settings > Administration > Theming > Welcome widget`\n\n📄 Pick a Markdown document to be rendered in the widget\n\n💡 If no document is chosen, the widget won't be shown\n\n📝 Edit the Markdown document to update the widget in real-time\n\n🖼 Images are also supported\n\n💬 Configure a contact person to directly start a chat with (requires [Nextcloud Talk](https://apps.nextcloud.com/apps/spreed) to be installed)",
     "homepage": "https://github.com/eneiluj/welcome",
     "licenses": [
