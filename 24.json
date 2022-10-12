@@ -50,8 +50,8 @@
     ]
   },
   "approval": {
-    "sha256": "aad7c382237fba991032624c220f34369398cc258134c92710f21a8e1cb15558",
-    "url": "https://github.com/nextcloud/approval/releases/download/v1.0.10-3-nightly/approval-1.0.10-3-nightly.tar.gz",
+    "sha256": "d18d557dadb0d8c1a202ed2588e75f067d1beb505c281bdd0b4e09d677677994",
+    "url": "https://github.com/nextcloud/approval/releases/download/v1.0.10/approval-1.0.10.tar.gz",
     "version": "1.0.10",
     "description": "Approve/reject files based on workflows defined by admins.",
     "homepage": "https://github.com/eneiluj/approval",
@@ -100,9 +100,9 @@
     ]
   },
   "bookmarks": {
-    "sha256": "f8ba27f016eed4ee9ac402d8143414901c392b47cda2711e858e75652a8e8990",
-    "url": "https://github.com/nextcloud/bookmarks/releases/download/v11.0.3/bookmarks-11.0.3.tar.gz",
-    "version": "11.0.3",
+    "sha256": "511aadcda0b1f051191c20cfd7048150536cfb1e748deb11b568bec4e535a173",
+    "url": "https://github.com/nextcloud/bookmarks/releases/download/v11.0.4/bookmarks-11.0.4.tar.gz",
+    "version": "11.0.4",
     "description": "- 📂 Sort bookmarks into folders\n- 🏷 Add tags and personal notes\n- 🔍 Full-text search\n- 📲 Synchronize with all your browsers and devices\n- 👪 Share bookmarks with other users and publicly\n- ☠ Find broken links\n- ⚛ Generate RSS feeds of your collections\n- 📔 Read archived versions of your links in case they are depublished\n- 💬 Create new bookmarks directly from within Nextcloud Talk\n- 💼 Built-in Dashboard widgets for frequent and recent links\n\nRequirements:\n - PHP v7.4+\n - PHP extensions:\n   - intl: *\n   - mbstring: *\n - when using MySQL, use at least v8.0",
     "homepage": "https://github.com/nextcloud/bookmarks",
     "licenses": [
@@ -380,9 +380,9 @@
     ]
   },
   "eidlogin": {
-    "sha256": "32cd1cf06074d841da1b9c008a6b649857af16f43a16dbded234326e9ed4d4ca",
-    "url": "https://github.com/eid-login/eid-login-nextcloud/releases/download/1.0.9/eidlogin.tar.gz",
-    "version": "1.0.9",
+    "sha256": "83c4707ea17bd6dcc11fb2942612ec4e9698d508622477fec09c185486a47bd6",
+    "url": "https://github.com/eid-login/eid-login-nextcloud/releases/download/1.0.11/eidlogin.tar.gz",
+    "version": "1.0.11",
     "description": "The eID-Login App allows to use the German eID-card and similar electronic identity documents for secure and privacy-friendly login to Nextcloud. For this purpose, a so-called eID-Client, such as the AusweisApp2 or the Open eCard App and eID-Service are required. In the default configuration a suitable eID-Service is provided without any additional costs.",
     "homepage": "https://eID.services/eidlogin/nextcloud",
     "licenses": [
@@ -1170,9 +1170,9 @@
     ]
   },
   "memories": {
-    "sha256": "8476d2c5e7e2995bd522423407f0d340ff4862d09c30bf83fe2aa0811f0654ef",
-    "url": "https://github.com/pulsejet/memories/releases/download/v3.1.0/memories.tar.gz",
-    "version": "3.1.0",
+    "sha256": "c25c5db513c037517475e7c05e56f9a902d1fc6c8f726c0804e169b527a38cef",
+    "url": "https://github.com/pulsejet/memories/releases/download/v3.2.1/memories.tar.gz",
+    "version": "3.2.1",
     "description": "# Memories\n\n* **📸 Photo and Video Timeline**: Sorts photos by date taken, parsed from Exif data.\n* **🤔 Quick Recap**: Jump to anywhere in the timeline instantly.\n* **🖼️ Folders**: Browse your and shared folders with a similar, efficient timeline.\n* **🤖 AI Tagging**: Group photos by people and objects using AI, powered by the [recognize](https://github.com/nextcloud/recognize) app.\n* **🎦 Slideshow**: View photos from your timeline and folders easily.\n* **📱 Mobile Support**: Relive your memories on devices of any shape and size through the web app.\n* **✏️ Edit Metadata**: Edit Exif dates on photos quickly and easily.\n* **📦 Archive**: Store photos you don't want to see in your timeline in a separate folder.\n* **⚡️ Fast**: Memories is extremely fast. Period.\n\n## 🚀 Installation\n\n1. Install the app from the Nextcloud app store\n1. ⚒️ Install `exiftool` (see below).\n1. Run `php ./occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos. Photos from this directory will be displayed in the timeline, including any photos in nested subdirectories.\n1. Installing the [preview generator](https://github.com/rullzer/previewgenerator) for pre-generating thumbnails is strongly recommended.\n\n## 🔨 Installing Dependencies\nThe exact steps depend on your Nextcloud platform. If you use Docker for your Nextcloud instance, you can install Exiftool by using a custom docker image.\n- **Ubuntu/Debian**: `sudo apt install libimage-exiftool-perl`\n- **Fedora**: `sudo dnf install perl-Image-ExifTool`\n- **Arch Linux**: `sudo pacman -S perl-image-exiftool`\n- **Alpine**: `apk add --no-cache exiftool`\n- **MacOS**: `brew install exiftool`\n- **FreeBSD**: `sudo pkg install p5-Image-ExifTool`",
     "homepage": "https://github.com/pulsejet/memories",
     "licenses": [
@@ -1220,9 +1220,9 @@
     ]
   },
   "news": {
-    "sha256": "792d1c17026661f186266034d803963bf3977ea7f223bd6ed866ad6838f5f031",
-    "url": "https://github.com/nextcloud/news/releases/download/18.2.0/news.tar.gz",
-    "version": "18.2.0",
+    "sha256": "0d1b6fc118f3c842f8469e366d7cefa531a91d1a25be4c2c27ab192d516da262",
+    "url": "https://github.com/nextcloud/news/releases/download/18.3.0-beta1/news.tar.gz",
+    "version": "18.3.0-beta1",
     "description": "📰 A RSS/Atom Feed reader App for Nextcloud\n\n- 📲 Synchronize your feeds with multiple mobile or desktop [clients](https://nextcloud.github.io/news/clients/)\n- 🔄 Automatic updates of your news feeds\n- 🆓 Free and open source under AGPLv3, no ads or premium functions\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://nextcloud.github.io/news/install/#dependencies)\n\nThe Changelog is available [here](https://github.com/nextcloud/news/blob/master/CHANGELOG.md)\n\nCreate a [bug report](https://github.com/nextcloud/news/issues/new/choose)\n\nCreate a [feature request](https://github.com/nextcloud/news/discussions/new)\n\nReport a [feed issue](https://github.com/nextcloud/news/discussions/new)",
     "homepage": "https://github.com/nextcloud/news",
     "licenses": [
@@ -1280,9 +1280,9 @@
     ]
   },
   "oidc": {
-    "sha256": "ff227f317c8650ccc6f6dd90b3f21dc0c6dc9afffe87940499ffca58a496e8e0",
-    "url": "https://github.com/H2CK/oidc/releases/download/0.1.11/oidc-0.1.11.tar.gz",
-    "version": "0.1.11",
+    "sha256": "ffdc1901ed337f17a5d11652eaa9bbd300fb7d2fb827cc04dc071a69b7aacd00",
+    "url": "https://github.com/H2CK/oidc/releases/download/0.2.4/oidc-0.2.4.tar.gz",
+    "version": "0.2.4",
     "description": "Nextcloud as OpenID Connect Identity Provider\n\nWith this app you can use Nextcloud as OpenID Connect Identity Provider. If other services\nare configured correctly, you are able to access those services with your Nextcloud login.\n\nFull documentation can be found at:\n\n- [User Documentation](https://github.com/H2CK/oidc/wiki#user-documentation)\n- [Developer Documentation](https://github.com/H2CK/oidc/wiki#developer-documentation)",
     "homepage": "https://github.com/H2CK/oidc",
     "licenses": [
@@ -2150,8 +2150,8 @@
     ]
   },
   "welcome": {
-    "sha256": "adbb90d586225da58f1a2f3c3c71bda5d3a9124b7aac88a0ca75ebfa386b92fe",
-    "url": "https://github.com/eneiluj/welcome/releases/download/v1.0.2/welcome-1.0.2.tar.gz",
+    "sha256": "881461827479775d76af222dfbbd2bd1eedac4077783194ab7495491ec8ff405",
+    "url": "https://github.com/eneiluj/welcome/releases/download/v1.0.2-1-nightly/welcome-1.0.2-1-nightly.tar.gz",
     "version": "1.0.2",
     "description": "ℹ A Markdown rendering Dashboard widget to welcome all users.\n\n⚙ Configure via `Settings > Administration > Theming > Welcome widget`\n\n📄 Pick a Markdown document to be rendered in the widget\n\n💡 If no document is chosen, the widget won't be shown\n\n📝 Edit the Markdown document to update the widget in real-time\n\n🖼 Images are also supported\n\n💬 Configure a contact person to directly start a chat with (requires [Nextcloud Talk](https://apps.nextcloud.com/apps/spreed) to be installed)",
     "homepage": "https://github.com/eneiluj/welcome",
