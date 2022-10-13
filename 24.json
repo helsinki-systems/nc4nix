@@ -1170,9 +1170,9 @@
     ]
   },
   "memories": {
-    "sha256": "c25c5db513c037517475e7c05e56f9a902d1fc6c8f726c0804e169b527a38cef",
-    "url": "https://github.com/pulsejet/memories/releases/download/v3.2.1/memories.tar.gz",
-    "version": "3.2.1",
+    "sha256": "997fb7c7f5eb3a709c818d0d512a7bc3156e0446bca447b2256c35282c896511",
+    "url": "https://github.com/pulsejet/memories/releases/download/v3.2.2/memories.tar.gz",
+    "version": "3.2.2",
     "description": "# Memories\n\n* **📸 Photo and Video Timeline**: Sorts photos by date taken, parsed from Exif data.\n* **🤔 Quick Recap**: Jump to anywhere in the timeline instantly.\n* **🖼️ Folders**: Browse your and shared folders with a similar, efficient timeline.\n* **🤖 AI Tagging**: Group photos by people and objects using AI, powered by the [recognize](https://github.com/nextcloud/recognize) app.\n* **🎦 Slideshow**: View photos from your timeline and folders easily.\n* **📱 Mobile Support**: Relive your memories on devices of any shape and size through the web app.\n* **✏️ Edit Metadata**: Edit Exif dates on photos quickly and easily.\n* **📦 Archive**: Store photos you don't want to see in your timeline in a separate folder.\n* **⚡️ Fast**: Memories is extremely fast. Period.\n\n## 🚀 Installation\n\n1. Install the app from the Nextcloud app store\n1. ⚒️ Install `exiftool` (see below).\n1. Run `php ./occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos. Photos from this directory will be displayed in the timeline, including any photos in nested subdirectories.\n1. Installing the [preview generator](https://github.com/rullzer/previewgenerator) for pre-generating thumbnails is strongly recommended.\n\n## 🔨 Installing Dependencies\nThe exact steps depend on your Nextcloud platform. If you use Docker for your Nextcloud instance, you can install Exiftool by using a custom docker image.\n- **Ubuntu/Debian**: `sudo apt install libimage-exiftool-perl`\n- **Fedora**: `sudo dnf install perl-Image-ExifTool`\n- **Arch Linux**: `sudo pacman -S perl-image-exiftool`\n- **Alpine**: `apk add --no-cache exiftool`\n- **MacOS**: `brew install exiftool`\n- **FreeBSD**: `sudo pkg install p5-Image-ExifTool`",
     "homepage": "https://github.com/pulsejet/memories",
     "licenses": [
@@ -1190,9 +1190,9 @@
     ]
   },
   "money": {
-    "sha256": "9910171b9e016b33d98f0c2744d9b1a145c77ffe663a299ec3b7cf0e135cd7c0",
-    "url": "https://github.com/powerpaul17/nc_money/releases/download/v0.5.0/money.tar.gz",
-    "version": "0.5.0",
+    "sha256": "af46bbbeef57932a71fa4a61a781ab43e646de1d35dfefa4c8a0876fe371dd2a",
+    "url": "https://github.com/powerpaul17/nc_money/releases/download/v0.6.0/money.tar.gz",
+    "version": "0.6.0",
     "description": "Finance manager for Nextcloud.",
     "homepage": "https://github.com/powerpaul17/nc_money",
     "licenses": [
@@ -1523,7 +1523,7 @@
     "sha256": "4cbdc9193ecdcd013bf440827087505ff906a22505a2e99fd94e6a541c65d2f7",
     "url": "https://github.com/nextcloud/recognize/releases/download/v3.0.0-beta.3/recognize-3.0.0-beta.3.tar.gz",
     "version": "3.0.0-beta.3",
-    "description": "This app goes through your media collection and adds fitting tags, automatically categorizing your photos and music.\n\n* 📷 👪 Recognizes faces from contact photos\n* 📷 🏔 Recognizes animals, landscapes, food, vehicles, buildings and other objects\n* 📷 🗼 Recognizes landmarks and monuments\n* 👂 🎵 Recognizes music genres\n* ⚡ Tagging works via Nextcloud's Collaborative Tags, allowing access by any of your apps\n  * 👂 listen to your tagged music with the audioplayer app\n  * 📷 view your tagged photos with the photos app\n\nAfter installation, you can enable tagging in the admin settings.\n\nRequirements:\n- php 7.4 and above\n- App \"collaborative tags\" enabled\n- For native speed:\n  - Processor: x86 64bit (with support for AVX instructions)\n  - System with glibc (usually the norm on Linux; Alpine linux and FreeBSD are *not* such systems)\n- For sub-native speed (using JavaScript mode)\n  - Processor: x86 64bit, arm64, armv7l (no AVX needed)\n  - System with glibc or musl (incl. Alpine linux)\n- ~4GB of free RAM (if you're cutting it close, make sure you have some swap available)\n\nThe app does not send any sensitive data to cloud providers or similar services. All processing is done on your nextcloud machine, using Tensorflow.js running in Node.js, which comes bundled with this app.",
+    "description": "This app goes through your media collection and adds fitting tags, automatically categorizing your photos and music.\n\n* 📷 👪 Recognizes faces from contact photos\n* 📷 🏔 Recognizes animals, landscapes, food, vehicles, buildings and other objects\n* 📷 🗼 Recognizes landmarks and monuments\n* 👂 🎵 Recognizes music genres\n* ⚡ Tagging works via Nextcloud's Collaborative Tags, allowing access by any of your apps\n  * 👂 listen to your tagged music with the audioplayer app\n  * 📷 view your tagged photos with the photos app\n\nAfter installation, you can enable tagging in the admin settings.\n\nRequirements:\n- PHP 7.4 and above\n- App \"collaborative tags\" enabled\n- For native speed:\n  - Processor: x86 64-bit (with support for AVX instructions)\n  - System with glibc (usually the norm on Linux; Alpine linux and FreeBSD are *not* such systems)\n- For sub-native speed (using JavaScript mode)\n  - Processor: x86 64-bit, arm64, armv7l (no AVX needed)\n  - System with glibc or musl (incl. Alpine linux)\n- ~4GB of free RAM (if you're cutting it close, make sure you have some swap available)\n\nThe app does not send any sensitive data to cloud providers or similar services. All processing is done on your Nextcloud machine, using Tensorflow.js running in Node.js, which comes bundled with this app.",
     "homepage": "https://github.com/marcelklehr/recognize",
     "licenses": [
       "agpl"
@@ -1910,9 +1910,9 @@
     ]
   },
   "tvshownamer": {
-    "sha256": "3fe23c986eddc1b95e7603e3cb510cf39beb6b5f5a0483a35ef621184315db74",
-    "url": "https://github.com/j4ym0/nextcloud-tv-show-namer/releases/download/0.2.1/tvshownamer.tar.gz",
-    "version": "0.2.1",
+    "sha256": "c9a9008f797731369ceba215d65952ba5b3d5b403113227f5afcbde9748c836f",
+    "url": "https://github.com/j4ym0/nextcloud-tv-show-namer/releases/download/0.3.0/tvshownamer.tar.gz",
+    "version": "0.3.0",
     "description": "TV show namer organises your TV shows, series and seasons into a standard format. It uses themoviedb.org to scrape TV information to organise your folders.\n\nRename files from “some.show.s01e03.avi” To “Some Show - S01E01 - Episode Name.avi” easily",
     "homepage": "",
     "licenses": [
@@ -1945,6 +1945,16 @@
     "version": "3.4.0",
     "description": "Allows using any of your logged in devices as second factor",
     "homepage": "https://github.com/nextcloud/twofactor_nextcloud_notification",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "twofactor_reminder": {
+    "sha256": "fad8d13e2f39bfb7662545d10f15978c4e5173a3561b1710ba4befba7a0568ef",
+    "url": "https://github.com/rullzer/twofactor_reminder/releases/download/v0.0.1/twofactor_reminder.tar.gz",
+    "version": "0.0.1",
+    "description": "2FA should be the standard these days. However a lot of people forget to enable it. This app will send them a notification once a month.",
+    "homepage": "https://github.com/rullzer/twofactor_reminder",
     "licenses": [
       "agpl"
     ]
