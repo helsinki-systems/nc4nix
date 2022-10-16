@@ -1,4 +1,4 @@
-{ lib, fetchNextcloudApp, callPackage, overrides ? (self: super: {}) }:
+{ lib, fetchurl, runCommand, callPackage, overrides ? (self: super: {}) }:
 let apps = (self:
   let
     appJson = version: builtins.fromJSON (builtins.readFile (./. + "/${version}.json"));
@@ -10,10 +10,26 @@ let apps = (self:
       value = builtins.mapAttrs mkApp (appJson majorVer);
     }) versions);
 
-    mkApp = name: value: fetchNextcloudApp {
-      inherit name;
-      inherit (value) version url sha256;
-    };
+    mkApp = name: value: runCommand "nc-app-${name}-${value.version}" {
+      src = fetchurl {
+        inherit (value) url sha256;
+      };
+      inherit (value) version;
+    } /* sh */ ''
+      mkdir _unp
+      tar -xpf "$src" -C _unp
+      if [ $(find _unp -mindepth 1 -maxdepth 1 -type d | wc -l) != 1 ]; then
+        echo "error: zip file must contain a single directory"
+        exit 1
+      fi
+      mkdir -p $out
+      cp -R _unp/*/. $out/
+
+      if [ ! -f "$out/appinfo/info.xml" ]; then
+        echo "appinfo/info.xml doesn't exist in $out, aborting!"
+        exit 2
+      fi
+    '';
   in
     apps
   );
