@@ -1270,9 +1270,9 @@
     ]
   },
   "memories": {
-    "sha256": "a501c0c8b6617b6eb3d9d888ea7ff015c2559a2045363d9d43f668c687b52b06",
-    "url": "https://github.com/pulsejet/memories/releases/download/v3.3.0-beta.2/memories.tar.gz",
-    "version": "3.3.0-beta.2",
+    "sha256": "997fb7c7f5eb3a709c818d0d512a7bc3156e0446bca447b2256c35282c896511",
+    "url": "https://github.com/pulsejet/memories/releases/download/v3.2.2/memories.tar.gz",
+    "version": "3.2.2",
     "description": "# Memories\n\n* **📸 Photo and Video Timeline**: Sorts photos by date taken, parsed from Exif data.\n* **🤔 Quick Recap**: Jump to anywhere in the timeline instantly.\n* **🖼️ Folders**: Browse your and shared folders with a similar, efficient timeline.\n* **🤖 AI Tagging**: Group photos by people and objects using AI, powered by the [recognize](https://github.com/nextcloud/recognize) app.\n* **🎦 Slideshow**: View photos from your timeline and folders easily.\n* **📱 Mobile Support**: Relive your memories on devices of any shape and size through the web app.\n* **✏️ Edit Metadata**: Edit Exif dates on photos quickly and easily.\n* **📦 Archive**: Store photos you don't want to see in your timeline in a separate folder.\n* **⚡️ Fast**: Memories is extremely fast. Period.\n\n## 🚀 Installation\n\n1. Install the app from the Nextcloud app store\n1. ⚒️ Install `exiftool` (see below).\n1. Run `php ./occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos. Photos from this directory will be displayed in the timeline, including any photos in nested subdirectories.\n1. Installing the [preview generator](https://github.com/rullzer/previewgenerator) for pre-generating thumbnails is strongly recommended.\n\n## 🔨 Installing Dependencies\nThe exact steps depend on your Nextcloud platform. If you use Docker for your Nextcloud instance, you can install Exiftool by using a custom docker image.\n- **Ubuntu/Debian**: `sudo apt install libimage-exiftool-perl`\n- **Fedora**: `sudo dnf install perl-Image-ExifTool`\n- **Arch Linux**: `sudo pacman -S perl-image-exiftool`\n- **Alpine**: `apk add --no-cache exiftool`\n- **MacOS**: `brew install exiftool`\n- **FreeBSD**: `sudo pkg install p5-Image-ExifTool`",
     "homepage": "https://github.com/pulsejet/memories",
     "licenses": [
@@ -1390,9 +1390,9 @@
     ]
   },
   "oidc": {
-    "sha256": "2dd0bc565c0756d285fa8f88206d3c1be428da584db731fb8feedd97ef580f27",
-    "url": "https://github.com/H2CK/oidc/releases/download/0.2.5/oidc-0.2.5.tar.gz",
-    "version": "0.2.5",
+    "sha256": "3f95e59702ce8785441b17b7d688e7307c14d2d9cee33048a85fcfb3b9b39c89",
+    "url": "https://github.com/H2CK/oidc/releases/download/0.2.6/oidc-0.2.6.tar.gz",
+    "version": "0.2.6",
     "description": "Nextcloud as OpenID Connect Identity Provider\n\nWith this app you can use Nextcloud as OpenID Connect Identity Provider. If other services\nare configured correctly, you are able to access those services with your Nextcloud login.\n\nFull documentation can be found at:\n\n- [User Documentation](https://github.com/H2CK/oidc/wiki#user-documentation)\n- [Developer Documentation](https://github.com/H2CK/oidc/wiki#developer-documentation)",
     "homepage": "https://github.com/H2CK/oidc",
     "licenses": [
@@ -1880,9 +1880,9 @@
     ]
   },
   "snappymail": {
-    "sha256": "fa3d87f91f1aeaca46ca5604c0ab2f582917af3eb6544e17d6592f5b54bb27a4",
-    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.19.1-nextcloud.tar.gz",
-    "version": "2.19.1",
+    "sha256": "45c2dccdb8cfbc6417a8257b962bc6020a97134c4b1f89b5601c8cfc73bf7551",
+    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.19.2-nextcloud.tar.gz",
+    "version": "2.19.2",
     "description": "**Simple, modern, lightweight & fast web-based email client.**\n\n- **Dark mode**\n- **Responsive design**\n- **Full Sieve filtering support**\n- **Almost all IMAP features** including advanced searching\n- **Integration with Nextcloud Unified Search**\n- **Integration with other Nextcloud apps** (Contacts & Files)\n- **Multiple mail accounts and identities**\n- **Send & receive OpenPGP encrypted/signed emails** (With full HTML support, ECC keys, or plain text with Mailvelope)\n- **Many security features** (Sodium encrypted passwords, Sec-Fetch, TOTP 2FA, DKIM, prevent tracking, etc.)\n- **Kolab integrations**\n\nAfter enabling in Nextcloud, go to Nextcloud admin panel, \"Additional settings\" and you will see a \"SnappyMail webmail\" section.\nThere, click on the link to go to the SnappyMail admin panel.",
     "homepage": "https://snappymail.eu",
     "licenses": [
@@ -2190,9 +2190,9 @@
     ]
   },
   "unroundedcorners": {
-    "sha256": "375946cdc5ce8fbe75018367903116ba465c130000c9fb08cb8989704cbb830f",
-    "url": "https://github.com/OliverParoczai/nextcloud-unroundedcorners/releases/download/v1.0.4/unroundedcorners-v1.0.4.tar.gz",
-    "version": "1.0.4",
+    "sha256": "",
+    "url": "https://github.com/OliverParoczai/nextcloud-unroundedcorners/releases/download/v1.0.6/unroundedcorners-v1.0.6.tar.gz",
+    "version": "1.0.6",
     "description": "# Unrounded Corners\nA Nextcloud app that restores the corners of buttons and widgets to their original looks by unrounding them.",
     "homepage": "https://github.com/OliverParoczai/nextcloud-unroundedcorners",
     "licenses": [
@@ -2250,9 +2250,9 @@
     ]
   },
   "user_oidc": {
-    "sha256": "34748e30c807aa18f1bbd048cbfbc09f28fb8a9abd4c0a63f98cd8faa2f60b0e",
-    "url": "https://github.com/nextcloud-releases/user_oidc/releases/download/v1.2.0/user_oidc-v1.2.0.tar.gz",
-    "version": "1.2.0",
+    "sha256": "1021c0ed7c473f3c6db3fd180355dc555cbd4026677103e2873c0c95433d2bf7",
+    "url": "https://github.com/nextcloud-releases/user_oidc/releases/download/v1.2.1/user_oidc-v1.2.1.tar.gz",
+    "version": "1.2.1",
     "description": "Allows flexible configuration of an OIDC server as Nextcloud login user backend.",
     "homepage": "https://github.com/nextcloud/user_oidc",
     "licenses": [
