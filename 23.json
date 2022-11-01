@@ -30,9 +30,9 @@
     ]
   },
   "appointments": {
-    "sha256": "c37728566a5ec7a8ae38a6cd31824094966af6b42335cfc9f82ed3cd6bbe10a1",
-    "url": "https://github.com/SergeyMosin/Appointments/raw/v1.13.0/build/artifacts/appstore/appointments.tar.gz",
-    "version": "1.13.0",
+    "sha256": "50a3562460e5ef6bdab7398f498b6d5f29e94c2b7fa7c6505456f2f8b53f7ef0",
+    "url": "https://github.com/SergeyMosin/Appointments/raw/v1.14.0/build/artifacts/appstore/appointments.tar.gz",
+    "version": "1.14.0",
     "description": "Book appointments into your calendar via secure online form. Attendees can confirm or cancel their appointments via an email link.",
     "homepage": "https://www.srgdev.com/lab/nextcloud-appointments/",
     "licenses": [
@@ -290,8 +290,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -840,9 +840,9 @@
     ]
   },
   "gpoddersync": {
-    "sha256": "0af22464cf26de0adbb13da1fbf6addcac45fc31eb479378a32ba81ccf4d7cde",
-    "url": "https://github.com/thrillfall/nextcloud-gpodder/releases/download/3.5.0/gpoddersync.tar.gz",
-    "version": "3.5.0",
+    "sha256": "e1a0ba3b85172ff70ebd9380812754e5dbe5cdc9eb8e3b77cecaca77ddfb3929",
+    "url": "https://github.com/thrillfall/nextcloud-gpodder/releases/download/3.6.0/gpoddersync.tar.gz",
+    "version": "3.6.0",
     "description": "Expose GPodder API to sync podcast consumer apps like AntennaPod",
     "homepage": "https://github.com/thrillfall/nextcloud-gpodder",
     "licenses": [
@@ -1270,10 +1270,10 @@
     ]
   },
   "memories": {
-    "sha256": "8af84fb2f052cf5ba4c8697becacaf52cdd3c850fc513bd890f6230f8c84c429",
-    "url": "https://github.com/pulsejet/memories/releases/download/v3.4.1/memories.tar.gz",
-    "version": "3.4.1",
-    "description": "# Memories\n\nMemories is a photo management app for Nextcloud with advanced features including:\n\n* **📸 Timeline**: Sort photos and videos by date taken, parsed from Exif data.\n* **⏪ Rewind**: Jump to any time in the past instantly and relive your memories.\n* **🤖 AI Tagging**: Group photos by people and objects using AI, powered by the [recognize](https://github.com/nextcloud/recognize) app.\n* **🖼️ Folders**: Browse your own and shared folders with a similar, efficient timeline.\n* **🎦 Slideshow**: View photos from your timeline and folders easily.\n* **📱 Mobile Support**: Works on devices of any shape and size through the web app.\n* **✏️ Edit Metadata**: Edit Exif dates on photos quickly and easily.\n* **📦 Archive**: Store photos you don't want to see in your timeline in a separate folder.\n* **⚡️ Fast**: Memories is extremely fast. Period.\n\nTo get an idea of what memories looks and feels like, check out the [public demo](https://memories-demo.radialapps.com/apps/memories/). Note that the demo is read-only and may be slow since it runs in a low-end free tier VM provided by [Oracle Cloud](https://www.oracle.com/cloud/free/). Photo credits go to [Unsplash](https://unsplash.com/) (for individual credits, refer to each folder).\n\n## 🚀 Installation\n1. Install the app from the Nextcloud app store\n1. Run `php ./occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos. Photos from this directory will be displayed in the timeline, including any photos in nested subdirectories.\n1. Installing the [preview generator](https://github.com/rullzer/previewgenerator) for pre-generating thumbnails is strongly recommended.",
+    "sha256": "fb29f2b4d0b88b3c5367636f52ce28bb15583e92126da63c12f0032750fae400",
+    "url": "https://github.com/pulsejet/memories/releases/download/v3.5.1/memories.tar.gz",
+    "version": "3.5.1",
+    "description": "# Memories\n\nMemories is a photo management app for Nextcloud with advanced features including:\n\n- **📸 Timeline**: Sort photos and videos by date taken, parsed from Exif data.\n- **⏪ Rewind**: Jump to any time in the past instantly and relive your memories.\n- **🤖 AI Tagging**: Group photos by people and objects using AI, powered by the [recognize](https://github.com/nextcloud/recognize) app.\n- **🖼️ Albums**: Create albums to group photos and videos together. Then share these albums with others.\n- **📁 Folders**: Browse your own and shared folders with a similar, efficient timeline.\n- **🎦 Slideshow**: View photos from your timeline and folders easily.\n- **📱 Mobile Support**: Works on devices of any shape and size through the web app.\n- **✏️ Edit Metadata**: Edit Exif dates on photos quickly and easily.\n- **📦 Archive**: Store photos you don't want to see in your timeline in a separate folder.\n- **📷 RAW Support**: View RAW photos from your camera with the [Camera RAW Previews](https://apps.nextcloud.com/apps/camerarawpreviews) app.\n- **🫱🏻‍🫲🏻 External Sharing**: Share photos and videos with people outside of your Nextcloud instance.\n- **⚡️ Fast**: Memories is extremely fast. Period.\n\nTo get an idea of what memories looks and feels like, check out the [public demo](https://memories-demo.radialapps.com/apps/memories/). Note that the demo is read-only and may be slow since it runs in a low-end free tier VM provided by [Oracle Cloud](https://www.oracle.com/cloud/free/). Photo credits go to [Unsplash](https://unsplash.com/) (for individual credits, refer to each folder).\n\n## 🚀 Installation\n\n1. Install the app from the Nextcloud app store\n1. Run `php ./occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos. Photos from this directory will be displayed in the timeline, including any photos in nested subdirectories.\n1. Installing the [preview generator](https://github.com/rullzer/previewgenerator) for pre-generating thumbnails is strongly recommended.",
     "homepage": "https://github.com/pulsejet/memories",
     "licenses": [
       "agpl"
@@ -1310,9 +1310,9 @@
     ]
   },
   "ncdownloader": {
-    "sha256": "602eb17f13ff4966a44f86430e16644b3d28108b46c3400541411e1fdb7ba4b9",
-    "url": "https://github.com/shiningw/ncdownloader/releases/download/v1.0.1/ncdownloader-release.tar.gz",
-    "version": "1.0.1",
+    "sha256": "540d1ac62bf9158b09e50368b3a5a737687e656ad2a94f673c76613a11c0795c",
+    "url": "https://github.com/shiningw/ncdownloader/releases/download/v1.0.2/ncdownloader-release.tar.gz",
+    "version": "1.0.2",
     "description": "Search for torrents within the app from mutiple BT sites;\nControl Aria2 and manage download tasks from the web;\ndownload videos from 700+ video sites(youtube,youku,vimo,dailymotion,twitter,facebook and the likes",
     "homepage": "https://github.com/shiningw/ncdownloader",
     "licenses": [
@@ -1480,9 +1480,9 @@
     ]
   },
   "passwords": {
-    "sha256": "e31bb5e9b1ecff1900dbc3badc7c4c535bc8c3732da226f10bce90ca4528a39c",
-    "url": "https://git.mdns.eu/nextcloud/passwords/-/jobs/14429/artifacts/raw/passwords.tar.gz",
-    "version": "2022.11.20-build4593",
+    "sha256": "b3b8145ea3a53b954c92f0fa3cc9991a4e41d8e1650ad1078135b73512c2b058",
+    "url": "https://git.mdns.eu/nextcloud/passwords/-/jobs/14452/artifacts/raw/passwords.tar.gz",
+    "version": "2022.11.20-build4598",
     "description": "Passwords is the most advanced password manager for Nextcloud and allows you to manage and store your passwords safely in your own cloud.\nThe intuitive and modern web interface of the app makes it easy to update and add new passwords from anywhere.\nIncluded security checks help you to keep your online accounts safe and up-to-date.\nYou can also share passwords with other Nextcloud users.\n\n**Features**\n * Intuitive and modern user interface\n * Password security monitor\n * Secure encryption\n * Folders &amp; tags\n * Sharing\n * API for apps\n * Extensive handbook\n * Import &amp; Export\n * Browser extensions &amp; Apps\n * ... and many more to come\n\n**Support**\n * [Official Chat](https://t.me/nc_passwords)\n * [Official Forum](https://help.nextcloud.com/c/apps/passwords)\n * [User Handbook](https://git.mdns.eu/nextcloud/passwords/wikis/Users/Index)\n * [Administrator Handbook](https://git.mdns.eu/nextcloud/passwords/wikis/Administrators/Index)\n\n**Apps & Extensions**\n * [Official Firefox Add-On](https://addons.mozilla.org/de/firefox/addon/nextcloud-passwords?src=external-ncapps)\n * [Official Chrome Extension](https://chrome.google.com/webstore/detail/nextcloud-passwords/mhajlicjhgoofheldnmollgbgjheenbi)\n * [Official Microsoft Edge Extension](https://microsoftedge.microsoft.com/addons/detail/cjmlcljdpphgdfpkngjcmeepdpcgpffk)\n * [Android App](https://play.google.com/store/apps/details?id=de.jbservices.nc_passwords_app) by [joleaf](https://gitlab.com/joleaf/nc-passwords-app)\n * [Windows App (WIP)](https://www.microsoft.com/store/apps/9NXVZ0ZP6D5Z) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [Linux App (WIP)](https://gitlab.com/j0chn/nextcloud_password_client/-/tree/main#linux) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [macOS App (WIP)](https://gitlab.com/j0chn/nextcloud_password_client/-/tree/main#mac-os) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [iOS App](https://apps.apple.com/app/id1546212226) by [Johannes Schliephake](https://github.com/johannes-schliephake/nextcloud-passwords-ios)",
     "homepage": "",
     "licenses": [
@@ -1880,9 +1880,9 @@
     ]
   },
   "snappymail": {
-    "sha256": "e2fffc7bd4e55d9e5d822ae346a7a2baf37d509d386c170ef03143a5e8946988",
-    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.19.4-nextcloud.tar.gz",
-    "version": "2.19.4",
+    "sha256": "3c6fddec9f9398770a68e37fec2a9f95bb06fb9e89a331caec78bfa90c7b1950",
+    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.19.5-nextcloud.tar.gz",
+    "version": "2.19.5",
     "description": "**Simple, modern, lightweight & fast web-based email client.**\n\n- **Dark mode**\n- **Responsive design**\n- **Full Sieve filtering support**\n- **Almost all IMAP features** including advanced searching\n- **Integration with Nextcloud Unified Search**\n- **Integration with other Nextcloud apps** (Contacts, Files and Calendar)\n- **Multiple mail accounts and identities**\n- **Send & receive OpenPGP encrypted/signed emails** (With full HTML support, ECC keys, or plain text with Mailvelope)\n- **Many security features** (Sodium encrypted passwords, Sec-Fetch, TOTP 2FA, DKIM, prevent tracking, etc.)\n- **Kolab integrations**\n\nAfter enabling in Nextcloud, go to Nextcloud admin panel, \"Additional settings\" and you will see a \"SnappyMail webmail\" section.\nThere, click on the link to go to the SnappyMail admin panel.",
     "homepage": "https://snappymail.eu",
     "licenses": [
