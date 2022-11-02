@@ -90,9 +90,9 @@
     ]
   },
   "calendar": {
-    "sha256": "7eba7c6d01c10929b685b22db3a772c8cf5e8838b5b636bc8b700d748e6bfbce",
-    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v4.1.0-rc1/calendar-v4.1.0-rc1.tar.gz",
-    "version": "4.1.0-rc.1",
+    "sha256": "2b98ea0e0ba4ca5211122e5fe2b4b63853f7deed32b66988e64b56f2e9160a39",
+    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v4.1.0/calendar-v4.1.0.tar.gz",
+    "version": "4.1.0",
     "description": "The Calendar app is a user interface for Nextcloud's CalDAV server. Easily sync events from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Currently Contacts - more to come.\n* 🌐 **WebCal Support!** Want to see your favorite team’s matchdays in your calendar? No problem!\n* 🙋 **Attendees!** Invite people to your events\n* ⌚️ **Free/Busy!** See when your attendees are available to meet\n* ⏰ **Reminders!** Get alarms for events inside your browser and via email\n* 🔍 Search! Find your events at ease\n* ☑️ Tasks! See tasks with a due date directly in the calendar\n* 🙈 **We’re not reinventing the wheel!** Based on the great [c-dav library](https://github.com/nextcloud/cdav-library), [ical.js](https://github.com/mozilla-comm/ical.js) and [fullcalendar](https://github.com/fullcalendar/fullcalendar) libraries.",
     "homepage": "https://github.com/nextcloud/calendar/",
     "licenses": [
@@ -200,8 +200,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -1215,6 +1215,16 @@
     "version": "2.19.7",
     "description": "**Simple, modern, lightweight & fast web-based email client.**\n\n- **Dark mode**\n- **Responsive design**\n- **Full Sieve filtering support**\n- **Almost all IMAP features** including advanced searching\n- **Integration with Nextcloud Unified Search**\n- **Integration with other Nextcloud apps** (Contacts, Files and Calendar)\n- **Multiple mail accounts and identities**\n- **Send & receive OpenPGP encrypted/signed emails** (With full HTML support, ECC keys, or plain text with Mailvelope)\n- **Many security features** (Sodium encrypted passwords, Sec-Fetch, TOTP 2FA, DKIM, prevent tracking, etc.)\n- **Kolab integrations**\n\nAfter enabling in Nextcloud, go to Nextcloud admin panel, \"Additional settings\" and you will see a \"SnappyMail webmail\" section.\nThere, click on the link to go to the SnappyMail admin panel.",
     "homepage": "https://snappymail.eu",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "social": {
+    "sha256": "4569946f6b1875d17b3fd8e497fb62460bad3811ab38cdb3cb59a0dfd05ab2bf",
+    "url": "https://github.com/nextcloud-releases/social/releases/download/v0.5-beta2/social-v0.5-beta2.tar.gz",
+    "version": "0.5.0-beta",
+    "description": "** Disclaimer: this is an ALPHA version **\r\n\r\n**🎉 Nextcloud becomes part of the federated social networks!**\r\n\r\n**🙋 Find your friends:** No matter if they use Nextcloud, 🐘 Mastodon, 🇫 Friendica, and soon ✱ Diaspora, 👹 MediaGoblin and more – you can follow them!\r\n\r\n**📜 Profile info:** No need to fill out more profiles – your info from Nextcloud will be used and extended.\r\n\r\n**👐 Own your posts:** Everything you post stays on your Nextcloud!\r\n\r\n**🕸 Open standards:** We use the established ActivityPub standard!",
+    "homepage": "https://github.com/nextcloud/social",
     "licenses": [
       "agpl"
     ]
