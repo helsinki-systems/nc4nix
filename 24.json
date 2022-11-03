@@ -280,8 +280,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -610,9 +610,9 @@
     ]
   },
   "files_photospheres": {
-    "sha256": "d83a763a3d386f801bfc1e37c1dd9cace0cdddb730d56dfae2321646c90c2799",
-    "url": "https://github.com/nextcloud/files_photospheres/releases/download/v1.24.2/files_photospheres.tar.gz",
-    "version": "1.24.2",
+    "sha256": "90f1d12ae16aa302ddc06f88a3500ca39c345e573c9bcc91172f54901d9c358e",
+    "url": "https://github.com/nextcloud/files_photospheres/releases/download/v1.24.3/files_photospheres.tar.gz",
+    "version": "1.24.3",
     "description": "Enables viewing of google photosphere images by\n        integrating the photo-sphere-viewer.js component\n        into your nextcloud instance.",
     "homepage": "",
     "licenses": [
@@ -1114,6 +1114,16 @@
     "url": "https://github.com/nextcloud-releases/ldap_contacts_backend/releases/download/v1.4.0/ldap_contacts_backend-v1.4.0.tar.gz",
     "version": "1.4.0",
     "description": "Adds a virtual address book and lets import contacts to user&#39;s individual one.\n\n![Copy found LDAP contact to address book](https://raw.githubusercontent.com/nextcloud/ldap_contacts_backend/master/screenshots/contactsmenu-with-action.png)\n\nIn order to configure an LDAP backend, run\n\n``php\nphp occ ldap_contacts:add --interactive $ADDRESSBOOKNAME\n``\n\nWhere $ADDRESSBOOKNAME is a name you like to identify the virtual addressbook with. The interactive mode leads you through the configuration, but you can also use the `--help` flag to see all the options.\n\nGiven that the configuration is correct, you and your users will be able to search through the LDAP contacts via the global contacts menu. An import action allows to copy the contact over to the best fitting existing addressbook. A redirect takes you the contacts app with the newly created card open.",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "ldap_write_support": {
+    "sha256": "0cba238184488a5c73dbb2cc3e8a63e9b05ed5b8b200245fa5dfbe38e9f7d2fc",
+    "url": "https://github.com/nextcloud-releases/ldap_write_support/releases/download/v1.6.0/ldap_write_support-v1.6.0.tar.gz",
+    "version": "1.6.0",
+    "description": "The write support for LDAP enriches the LDAP backend with capabilities to manage the directory from Nextcloud.\n* create, edit and delete users\n* create, modify memberships and delete groups\n* prevent fallback to the local database backend (optional)\n* auto generate a user id (optional)\n* and more behavioral switches",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -2260,9 +2270,9 @@
     ]
   },
   "workflow_ocr": {
-    "sha256": "3ed26dd6d26e2a69ed5b3619a2754b1f41b652fabbd3ecfb11b1a4a5e3364d57",
-    "url": "https://github.com/R0Wi/workflow_ocr/releases/download/v1.24.5/workflow_ocr.tar.gz",
-    "version": "1.24.5",
+    "sha256": "7fb8d79f976234831f861969c5b278a48946a90a0b656ac774ba27cddabb4384",
+    "url": "https://github.com/R0Wi/workflow_ocr/releases/download/v1.24.6/workflow_ocr.tar.gz",
+    "version": "1.24.6",
     "description": "This app makes it possible to process various files via OCR algorithms.\n\tThe processing is done via workflow-engine and can therefore easily be customized.\n\tPlease note that you'll have to install the OcrMyPDF CLI on your Nextcloud server to\n\tprocess PDF files. More installation instructions can be found in the docs https://github.com/R0Wi/workflow_ocr/blob/master/README.md.",
     "homepage": "https://github.com/R0Wi/workflow_ocr",
     "licenses": [
