@@ -240,9 +240,9 @@
     ]
   },
   "collectives": {
-    "sha256": "5ab24c25e949636e153832bc1d54cfb7a303f573b2abde7904c03a8139f07b32",
-    "url": "https://gitlab.com/collectivecloud/collectives/uploads/912077195f08190cbf3e806e77fb323b/collectives-1.5.0.tar.gz",
-    "version": "1.5.0",
+    "sha256": "3ae523c00dd8edebcfe61d3af2a8fb59ee3ff2c23f417143ed65f116835b6990",
+    "url": "https://gitlab.com/collectivecloud/collectives/uploads/8f1432dacd8817949c876122ea70b923/collectives-1.5.1.tar.gz",
+    "version": "1.5.1",
     "description": "Collectives is a Nextcloud App for activist and community projects to organize together.\nCome and gather in collectives to build shared knowledge.\n\n* 👥 **Collective and non-hierarchical workflow by heart**: Collectives are\n  tied to a [Nextcloud Circle](https://github.com/nextcloud/circles) and\n  owned by the collective.\n* 📝 **Collaborative page editing** like known from Etherpad thanks to the\n  [Text app](https://github.com/nextcloud/text).\n* 🔤 **Well-known [Markdown](https://en.wikipedia.org/wiki/Markdown) syntax**\n  for page formatting.\n\n## Installation\n\nIn your Nextcloud instance, simply navigate to **»Apps«**, find the\n**»Circles«** and **»Collectives«** apps and enable them.",
     "homepage": "https://gitlab.com/collectivecloud/collectives",
     "licenses": [
@@ -260,9 +260,9 @@
     ]
   },
   "cookbook": {
-    "sha256": "de50aabe668cb20ac50f93f3c8721cc31c46782faa38c4c6c5b3a2ee73c52fa2",
-    "url": "https://github.com/nextcloud/cookbook/releases/download/v0.9.17/Cookbook-0.9.17.tar.gz",
-    "version": "0.9.17",
+    "sha256": "a5d36760c9ea7fa6501ed311154932933fc2fd6c3e8ee99258ea81f345d79b75",
+    "url": "https://github.com/nextcloud/cookbook/releases/download/v0.9.18/Cookbook-0.9.18.tar.gz",
+    "version": "0.9.18",
     "description": "A library for all your recipes. It uses JSON files following the schema.org recipe format. To add a recipe to the collection, you can paste in the URL of the recipe, and the provided web page will be parsed and downloaded to whichever folder you specify in the app settings.",
     "homepage": "https://github.com/nextcloud/cookbook/",
     "licenses": [
@@ -349,6 +349,16 @@
       "agpl"
     ]
   },
+  "documentserver_community": {
+    "sha256": "7a91c568a138310434c269c2967eb85a10ea8f57e5f87597acb111dd638cc4b5",
+    "url": "https://github.com/nextcloud/documentserver_community/releases/download/v0.1.13/documentserver_community.tar.gz",
+    "version": "0.1.13",
+    "description": "Document server for OnlyOffice, community edition.\n\nThe community document server is designed to make it easy to get OnlyOffice running in a Nextcloud instance without the need to setup an external document server,\nthe community document server does not support all features of the official OnlyOffice document server and does not provide the same performance and scalability.\n\nIf you are setting up a larger instance or require the additional performance, please see https://onlyoffice.com for options for getting the official document server.\n\nThe community document server will automatically be configured if no other document server is configured for OnlyOffice.\n\nAdditionally, the community document server only supports running on x86-64 Linux servers.",
+    "homepage": "https://github.com/nextcloud/documentserver_community",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "drawio": {
     "sha256": "dd4f8d6e465710b1252af7e38e91f211e08a7c6884696c9c15e7b811c75cc059",
     "url": "https://github.com/pawelrojek/nextcloud-drawio/releases/download/v.1.0.3/drawio-v1.0.3.tar.gz",
@@ -410,9 +420,9 @@
     ]
   },
   "emlviewer": {
-    "sha256": "97a33ad2f664df8bb950930646e4e0fbaf44a22a706be4de5b34b94a439e9114",
-    "url": "https://github.com/newroco/emlviewer/releases/download/1.0.2/emlviewer-1.0.2.tar.gz",
-    "version": "1.0.2",
+    "sha256": "2f547289dce389cb65959bfae91895e1e41b95db82caf84204f460ec39812e31",
+    "url": "https://github.com/newroco/emlviewer/releases/download/1.0.4/emlviewer-1.0.4.tar.gz",
+    "version": "1.0.4",
     "description": "Provides an email preview functionality. It creates preview for the .eml files and displays it as a modal.",
     "homepage": "https://github.com/newroco/emlviewer",
     "licenses": [
@@ -504,6 +514,16 @@
     "url": "https://github.com/nextcloud/files_antivirus/releases/download/v3.3.1/files_antivirus.tar.gz",
     "version": "3.3.1",
     "description": "Antivirus for files is an antivirus app for Nextcloud.\n\n* 🕵️‍♂️ When the user uploads a file, it's checked\n* ☢️ Uploaded and infected files will be deleted and a notification will be shown and/or sent via email\n* 🔎 Background Job to scan all files\n* ❓ Use ClamAV (open source) or Kaspersky Scan Engine\n\nThis application inspects files that are uploaded to Nextcloud for viruses before they are written to the Nextcloud storage. If a file is identified as a virus, it is either logged or not uploaded to the server. The application relies on the underlying ClamAV virus scanning engine, which the admin points Nextcloud to when configuring the application. Alternatively, a Kaspersky Scan Engine can be configured, which has to run on a separate server.\nFor this app to be effective, the ClamAV virus definitions should be kept up to date. Also note that enabling this app will impact system performance as additional processing is required for every upload. More information is available in the Antivirus documentation.",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "files_archive": {
+    "sha256": "c2a562a86688ca6b249cf285c6395a024c8aeb5d19fd0ef12253865a9e7e3c3f",
+    "url": "https://github.com/rotdrop/nextcloud-app-files-archive/releases/download/v1.0.2/files_archive.tar.gz",
+    "version": "1.0.2",
+    "description": "Inspect, mount and extract archive files (zip, tar, etc.)",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -990,9 +1010,9 @@
     ]
   },
   "integration_mattermost": {
-    "sha256": "61c4445a2d1a7567937981b9c6a7c245c1ae4493b4916e1af15cafc210cba06c",
-    "url": "https://github.com/eneiluj/integration_mattermost/releases/download/v1.0.0/integration_mattermost-1.0.0.tar.gz",
-    "version": "1.0.0",
+    "sha256": "5e8baeced8d9ca10ac257fe0ffa333a0dfa9159aacfdbfe6e1b8697e11bf76a9",
+    "url": "https://github.com/julien-nc/integration_mattermost/releases/download/v1.0.3-1-nightly/integration_mattermost-1.0.3-1-nightly.tar.gz",
+    "version": "1.0.3",
     "description": "Mattermost integration provides a dashboard widget displaying your most important notifications\n    and a unified search provider for messages. It also lets you send files to Mattermost from Nextcloud Files.",
     "homepage": "https://github.com/eneiluj/integration_mattermost",
     "licenses": [
@@ -1190,8 +1210,8 @@
     ]
   },
   "maps": {
-    "sha256": "e9d4cd3461cabbdecb66f46f83be39d9ed9fc3eda5a14721b51bafdf5bcb2206",
-    "url": "https://github.com/nextcloud/maps/releases/download/v0.2.1/maps-0.2.1.tar.gz",
+    "sha256": "c63770ec1d5019a01c63fbeb7e40bd0292d5ea715d0b844cfd238f000ac64c0e",
+    "url": "https://github.com/nextcloud/maps/releases/download/v0.2.1-1-nightly/maps-0.2.1-1-nightly.tar.gz",
     "version": "0.2.1",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
@@ -1210,9 +1230,9 @@
     ]
   },
   "memories": {
-    "sha256": "110e34c1268bd62de9eda00e67d7d1727e3ac952afcd897044b8878a74c98671",
-    "url": "https://github.com/pulsejet/memories/releases/download/v3.6.2/memories.tar.gz",
-    "version": "3.6.2",
+    "sha256": "c9d40339834f91639a163e86c3a8810eebadd1a1d68940a36aaf53995813776d",
+    "url": "https://github.com/pulsejet/memories/releases/download/v3.7.0-alpha.2/memories.tar.gz",
+    "version": "3.7.0-alpha.2",
     "description": "# Memories\n\nMemories is a photo management app for Nextcloud with advanced features including:\n\n- **📸 Timeline**: Sort photos and videos by date taken, parsed from Exif data.\n- **⏪ Rewind**: Jump to any time in the past instantly and relive your memories.\n- **🤖 AI Tagging**: Group photos by people and objects using AI, powered by [recognize](https://github.com/nextcloud/recognize).\n- **🖼️ Albums**: Create albums to group photos and videos together. Then share these albums with others.\n- **🫱🏻‍🫲🏻 External Sharing**: Share photos and videos with people outside of your Nextcloud instance.\n- **📱 Mobile Support**: Works on devices of any shape and size through the web app.\n- **✏️ Edit Metadata**: Edit dates on photos quickly and easily.\n- **📦 Archive**: Store photos you don't want to see in your timeline in a separate folder.\n- **⚡️ Performance**: Memories is extremely fast.\n\n## 🌐 Online Demo\n\n- To get an idea of what memories looks and feels like, check out the [public demo](https://memories-demo.radialapps.com/apps/memories/).\n- The demo is read-only and may be slow (free tier VM from [Oracle Cloud](https://www.oracle.com/cloud/free/)).\n- Photo credits go to [Unsplash](https://unsplash.com/) (for individual credits, refer to each folder).\n\n## 🚀 Installation\n\n1. Install the app from the Nextcloud app store.\n1. Perform the recommended [configuration steps](https://github.com/pulsejet/memories/wiki/Extra-Configuration).\n1. Run `php ./occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos.",
     "homepage": "https://github.com/pulsejet/memories",
     "licenses": [
@@ -1490,9 +1510,9 @@
     ]
   },
   "previewgenerator": {
-    "sha256": "a86392e9938cc84ee75eeb9dbbc97f79ca6695f4a7450562c9c40539306bef5b",
-    "url": "https://github.com/nextcloud-releases/previewgenerator/releases/download/v5.1.0/previewgenerator-v5.1.0.tar.gz",
-    "version": "5.1.0",
+    "sha256": "af49dea8663debb6192e5bf12d4250d866ffba958866960d79e27b46fe51ede6",
+    "url": "https://github.com/nextcloud-releases/previewgenerator/releases/download/v5.1.1/previewgenerator-v5.1.1.tar.gz",
+    "version": "5.1.1",
     "description": "The Preview Generator app allows admins to pre-generate previews. The app listens to edit events and stores this information. Once a cron job is triggered it will generate start preview generation. This means that you can better utilize your system by pre-generating previews when your system is normally idle and thus putting less load on your machine when the requests are actually served.\n\nThe app does not replace on demand preview generation so if a preview is requested before it is pre-generated it will still be shown.\nThe first time you install this app, before using a cron job, you properly want to generate all previews via:\n**./occ preview:generate-all -vvv**\n\n**Important**: To enable pre-generation of previews you must add **php /var/www/nextcloud/occ preview:pre-generate** to a system cron job that runs at times of your choosing.",
     "homepage": "https://github.com/nextcloud/previewgenerator",
     "licenses": [
@@ -2240,9 +2260,9 @@
     ]
   },
   "whereami": {
-    "sha256": "82a3c9b0fda759b4d9f873f23dc6568f350d017ad6c01cdc99c8c0f379b7ead8",
-    "url": "https://github.com/Adacis/whereami/releases/download/0.0.21/whereami.tar.gz",
-    "version": "0.0.21",
+    "sha256": "9fb093fd7e807a67594f78ae530f1f56febd60849c6cd8f2ceb89fc789579d26",
+    "url": "https://github.com/Adacis/whereami/releases/download/0.0.22/whereami.tar.gz",
+    "version": "0.0.22",
     "description": "Is a simple application to locate everybody in your company.",
     "homepage": "",
     "licenses": [
@@ -2270,9 +2290,9 @@
     ]
   },
   "workflow_media_converter": {
-    "sha256": "ed780fa40b069c26269208d3d0d1b08dd92ae10188d238e216cece0d86d2551f",
-    "url": "https://github.com/cwilby/nextcloud-workflow-media-converter/releases/download/v1.6.2/workflow_media_converter.tar.gz",
-    "version": "1.6.2",
+    "sha256": "35286449779ed6f4782dd2f0df352cc630075a946c42ccb03d5a6c2b269cdccc",
+    "url": "https://github.com/cwilby/nextcloud-workflow-media-converter/releases/download/v1.6.5/workflow_media_converter.tar.gz",
+    "version": "1.6.5",
     "description": "A dedicated media conversion manager for Nextcloud that allows you to automate media conversion.\n\n**Features**\n * Convert video/audio between formats supported by FFmpeg.\n * Complete control of the conversion process.\n * Automatically convert media as it is uploaded.\n * Create batch jobs to convert existing media.",
     "homepage": "https://github.com/cwilby/nextcloud-workflow-media-converter",
     "licenses": [

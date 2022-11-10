@@ -290,8 +290,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -1060,9 +1060,9 @@
     ]
   },
   "integration_mattermost": {
-    "sha256": "61c4445a2d1a7567937981b9c6a7c245c1ae4493b4916e1af15cafc210cba06c",
-    "url": "https://github.com/eneiluj/integration_mattermost/releases/download/v1.0.0/integration_mattermost-1.0.0.tar.gz",
-    "version": "1.0.0",
+    "sha256": "812d8afef0984920d48989201e4dcc02117a71b1facd0ae788c30a09ae9e9da7",
+    "url": "https://github.com/julien-nc/integration_mattermost/releases/download/v1.0.1/integration_mattermost-1.0.1.tar.gz",
+    "version": "1.0.1",
     "description": "Mattermost integration provides a dashboard widget displaying your most important notifications\n    and a unified search provider for messages. It also lets you send files to Mattermost from Nextcloud Files.",
     "homepage": "https://github.com/eneiluj/integration_mattermost",
     "licenses": [
@@ -1590,9 +1590,9 @@
     ]
   },
   "previewgenerator": {
-    "sha256": "a86392e9938cc84ee75eeb9dbbc97f79ca6695f4a7450562c9c40539306bef5b",
-    "url": "https://github.com/nextcloud-releases/previewgenerator/releases/download/v5.1.0/previewgenerator-v5.1.0.tar.gz",
-    "version": "5.1.0",
+    "sha256": "af49dea8663debb6192e5bf12d4250d866ffba958866960d79e27b46fe51ede6",
+    "url": "https://github.com/nextcloud-releases/previewgenerator/releases/download/v5.1.1/previewgenerator-v5.1.1.tar.gz",
+    "version": "5.1.1",
     "description": "The Preview Generator app allows admins to pre-generate previews. The app listens to edit events and stores this information. Once a cron job is triggered it will generate start preview generation. This means that you can better utilize your system by pre-generating previews when your system is normally idle and thus putting less load on your machine when the requests are actually served.\n\nThe app does not replace on demand preview generation so if a preview is requested before it is pre-generated it will still be shown.\nThe first time you install this app, before using a cron job, you properly want to generate all previews via:\n**./occ preview:generate-all -vvv**\n\n**Important**: To enable pre-generation of previews you must add **php /var/www/nextcloud/occ preview:pre-generate** to a system cron job that runs at times of your choosing.",
     "homepage": "https://github.com/nextcloud/previewgenerator",
     "licenses": [
@@ -1890,9 +1890,9 @@
     ]
   },
   "snappymail": {
-    "sha256": "abbcdb1b06cda3b705a61904f28e582637e93bdb499640a99d29d77ae420f77c",
-    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.20.5-nextcloud.tar.gz",
-    "version": "2.20.5",
+    "sha256": "6d391c5594b57b9238a0c81fa5a5c0b69a59bc10e7a8a43d9ca5559b1504f598",
+    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.20.6-nextcloud.tar.gz",
+    "version": "2.20.6",
     "description": "**Simple, modern, lightweight & fast web-based email client.**\n\n- **Dark mode**\n- **Responsive design**\n- **Full Sieve filtering support**\n- **Almost all IMAP features** including advanced searching\n- **Integration with Nextcloud Unified Search**\n- **Integration with other Nextcloud apps** (Contacts, Files and Calendar)\n- **Multiple mail accounts and identities**\n- **Send & receive OpenPGP encrypted/signed emails** (With full HTML support, ECC keys, or plain text with Mailvelope)\n- **Many security features** (Sodium encrypted passwords, Sec-Fetch, TOTP 2FA, DKIM, prevent tracking, etc.)\n- **Kolab integrations**\n\nAfter enabling in Nextcloud, go to Nextcloud admin panel, \"Additional settings\" and you will see a \"SnappyMail webmail\" section.\nThere, click on the link to go to the SnappyMail admin panel.",
     "homepage": "https://snappymail.eu",
     "licenses": [
@@ -2420,9 +2420,9 @@
     ]
   },
   "workflow_media_converter": {
-    "sha256": "ed780fa40b069c26269208d3d0d1b08dd92ae10188d238e216cece0d86d2551f",
-    "url": "https://github.com/cwilby/nextcloud-workflow-media-converter/releases/download/v1.6.2/workflow_media_converter.tar.gz",
-    "version": "1.6.2",
+    "sha256": "35286449779ed6f4782dd2f0df352cc630075a946c42ccb03d5a6c2b269cdccc",
+    "url": "https://github.com/cwilby/nextcloud-workflow-media-converter/releases/download/v1.6.5/workflow_media_converter.tar.gz",
+    "version": "1.6.5",
     "description": "A dedicated media conversion manager for Nextcloud that allows you to automate media conversion.\n\n**Features**\n * Convert video/audio between formats supported by FFmpeg.\n * Complete control of the conversion process.\n * Automatically convert media as it is uploaded.\n * Create batch jobs to convert existing media.",
     "homepage": "https://github.com/cwilby/nextcloud-workflow-media-converter",
     "licenses": [
