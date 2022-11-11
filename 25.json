@@ -40,8 +40,8 @@
     ]
   },
   "approval": {
-    "sha256": "d18d557dadb0d8c1a202ed2588e75f067d1beb505c281bdd0b4e09d677677994",
-    "url": "https://github.com/nextcloud/approval/releases/download/v1.0.10/approval-1.0.10.tar.gz",
+    "sha256": "aad7c382237fba991032624c220f34369398cc258134c92710f21a8e1cb15558",
+    "url": "https://github.com/nextcloud/approval/releases/download/v1.0.10-3-nightly/approval-1.0.10-3-nightly.tar.gz",
     "version": "1.0.10",
     "description": "Approve/reject files based on workflows defined by admins.",
     "homepage": "https://github.com/eneiluj/approval",
@@ -180,9 +180,9 @@
     ]
   },
   "cookbook": {
-    "sha256": "e51b16dc346c376d76fecb0a88110a4aedeb59621efb4608a84455f78ebfc0c5",
-    "url": "https://github.com/nextcloud/cookbook/releases/download/v0.10.0/Cookbook-0.10.0.tar.gz",
-    "version": "0.10.0",
+    "sha256": "a55598167e6c87c612b09cf70cea10d0e2f4c4c94fa854b3117914ff0e9ae4f6",
+    "url": "https://github.com/nextcloud/cookbook/releases/download/v0.10.1/Cookbook-0.10.1.tar.gz",
+    "version": "0.10.1",
     "description": "A library for all your recipes. It uses JSON files following the schema.org recipe format. To add a recipe to the collection, you can paste in the URL of the recipe, and the provided web page will be parsed and downloaded to whichever folder you specify in the app settings.",
     "homepage": "https://github.com/nextcloud/cookbook/",
     "licenses": [
@@ -225,6 +225,16 @@
     "version": "1.8.1",
     "description": "Deck is a kanban style organization tool aimed at personal planning and project organization for teams integrated with Nextcloud.\n\n\n- 📥 Add your tasks to cards and put them in order\n- 📄 Write down additional notes in markdown\n- 🔖 Assign labels for even better organization\n- 👥 Share with your team, friends or family\n- 📎 Attach files and embed them in your markdown description\n- 💬 Discuss with your team using comments\n- ⚡ Keep track of changes in the activity stream\n- 🚀 Get your project organized",
     "homepage": "https://github.com/nextcloud/deck",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "documentserver_community": {
+    "sha256": "7a91c568a138310434c269c2967eb85a10ea8f57e5f87597acb111dd638cc4b5",
+    "url": "https://github.com/nextcloud/documentserver_community/releases/download/v0.1.13/documentserver_community.tar.gz",
+    "version": "0.1.13",
+    "description": "Document server for OnlyOffice, community edition.\n\nThe community document server is designed to make it easy to get OnlyOffice running in a Nextcloud instance without the need to setup an external document server,\nthe community document server does not support all features of the official OnlyOffice document server and does not provide the same performance and scalability.\n\nIf you are setting up a larger instance or require the additional performance, please see https://onlyoffice.com for options for getting the official document server.\n\nThe community document server will automatically be configured if no other document server is configured for OnlyOffice.\n\nAdditionally, the community document server only supports running on x86-64 Linux servers.",
+    "homepage": "https://github.com/nextcloud/documentserver_community",
     "licenses": [
       "agpl"
     ]
@@ -459,6 +469,16 @@
       "agpl"
     ]
   },
+  "flow_notifications": {
+    "sha256": "e81dbd8d61ade5d3ed63eeb2178c0c37a5cbc9fa6621fcae671c4bc76dc4b172",
+    "url": "https://github.com/nextcloud-releases/flow_notifications/releases/download/v1.5.0/flow_notifications-v1.5.0.tar.gz",
+    "version": "1.5.0",
+    "description": "Enable users to configure notifications with customized conditions in their Flow configuration.\n\nUsers are empowered to configure a \"Send a notification\" Flow in their personal settings. They can choose between the events being triggered, and other conditions like filetypes, assigned tags, time ranges and more. They can specify an inscription so that when the notification appears they will have context.\n\n![Notification Flow Configuration](https://raw.githubusercontent.com/nextcloud/flow_notifications/master/screenshots/configuration.png)\n\nWhen an event happens where all conditions are apply, the user will receive a regular Nextcloud notification.\n\n![Flow Notification](https://raw.githubusercontent.com/nextcloud/flow_notifications/master/screenshots/notification.png)",
+    "homepage": "https://github.com/nextcloud/flow_notifications",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "forms": {
     "sha256": "679f1202fe1c011e5916a867b9644cc4c58699c73a9c65563d1f018e1673d9ca",
     "url": "https://github.com/nextcloud/forms/releases/download/v3.0.1/forms.tar.gz",
@@ -670,9 +690,9 @@
     ]
   },
   "integration_mattermost": {
-    "sha256": "812d8afef0984920d48989201e4dcc02117a71b1facd0ae788c30a09ae9e9da7",
-    "url": "https://github.com/julien-nc/integration_mattermost/releases/download/v1.0.1/integration_mattermost-1.0.1.tar.gz",
-    "version": "1.0.1",
+    "sha256": "5e8baeced8d9ca10ac257fe0ffa333a0dfa9159aacfdbfe6e1b8697e11bf76a9",
+    "url": "https://github.com/julien-nc/integration_mattermost/releases/download/v1.0.3-1-nightly/integration_mattermost-1.0.3-1-nightly.tar.gz",
+    "version": "1.0.3",
     "description": "Mattermost integration provides a dashboard widget displaying your most important notifications\n    and a unified search provider for messages. It also lets you send files to Mattermost from Nextcloud Files.",
     "homepage": "https://github.com/eneiluj/integration_mattermost",
     "licenses": [
@@ -1550,9 +1570,9 @@
     ]
   },
   "whereami": {
-    "sha256": "82a3c9b0fda759b4d9f873f23dc6568f350d017ad6c01cdc99c8c0f379b7ead8",
-    "url": "https://github.com/Adacis/whereami/releases/download/0.0.21/whereami.tar.gz",
-    "version": "0.0.21",
+    "sha256": "9fb093fd7e807a67594f78ae530f1f56febd60849c6cd8f2ceb89fc789579d26",
+    "url": "https://github.com/Adacis/whereami/releases/download/0.0.22/whereami.tar.gz",
+    "version": "0.0.22",
     "description": "Is a simple application to locate everybody in your company.",
     "homepage": "",
     "licenses": [
