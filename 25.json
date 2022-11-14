@@ -30,9 +30,9 @@
     ]
   },
   "appointments": {
-    "sha256": "50a3562460e5ef6bdab7398f498b6d5f29e94c2b7fa7c6505456f2f8b53f7ef0",
-    "url": "https://github.com/SergeyMosin/Appointments/raw/v1.14.0/build/artifacts/appstore/appointments.tar.gz",
-    "version": "1.14.0",
+    "sha256": "8852b3023617e1b16631386f3d2c7d5f4f516325f78faacc76ceb2522eb260dc",
+    "url": "https://github.com/SergeyMosin/Appointments/raw/v1.14.1/build/artifacts/appstore/appointments.tar.gz",
+    "version": "1.14.1",
     "description": "Book appointments into your calendar via secure online form. Attendees can confirm or cancel their appointments via an email link.",
     "homepage": "https://www.srgdev.com/lab/nextcloud-appointments/",
     "licenses": [
@@ -239,6 +239,16 @@
       "agpl"
     ]
   },
+  "dicomviewer": {
+    "sha256": "93f064c6b6d6010aacf2ad5cbbda4ef602d3e8a681ff94edb417e241b96bb9ea",
+    "url": "https://github.com/ayselafsar/dicomviewer/releases/download/v1.2.4/dicomviewer-1.2.4.tar.gz",
+    "version": "1.2.4",
+    "description": "DICOM Viewer allows to display and manipulate DICOM images with a streamlined sidebar and viewer.\n\nSee [README](https://github.com/ayselafsar/dicomviewer) for a list of full features and future roadmap.",
+    "homepage": "https://github.com/ayselafsar/dicomviewer",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "documentserver_community": {
     "sha256": "7a91c568a138310434c269c2967eb85a10ea8f57e5f87597acb111dd638cc4b5",
     "url": "https://github.com/nextcloud/documentserver_community/releases/download/v0.1.13/documentserver_community.tar.gz",
@@ -320,9 +330,9 @@
     ]
   },
   "externalpassword": {
-    "sha256": "0925786b46a3fae477581ac1eb31d6780d90210ce187e5857f40c7539f5f0eeb",
-    "url": "https://files.snyman.info/externalpassword/v1.0.0/externalpassword.tar.gz",
-    "version": "1.0.0",
+    "sha256": "82b33e8426393287be99d4b0158873da3c6a9c2ceff37eefaa7a09b179a46696",
+    "url": "https://files.snyman.info/externalpassword/v1.1.0/externalpassword.tar.gz",
+    "version": "1.1.0",
     "description": "An app for Nextcloud to allow an administrator to direct a user to an external site for changing their password. This is useful in conjunction with an app like external_users.",
     "homepage": "https://git.snyman.info/raoul/externalpassword",
     "licenses": [
@@ -410,9 +420,9 @@
     ]
   },
   "files_photospheres": {
-    "sha256": "2038ccc96c7230219e580c564d7347eedebfe922902c7d52aead7fdd6bbef260",
-    "url": "https://github.com/nextcloud/files_photospheres/releases/download/v1.25.1/files_photospheres.tar.gz",
-    "version": "1.25.1",
+    "sha256": "7426624d5e2c6826aa7f22022c122d9c962aa24b1c89fe0347b688782af1fe1b",
+    "url": "https://github.com/nextcloud/files_photospheres/releases/download/v1.25.2/files_photospheres.tar.gz",
+    "version": "1.25.2",
     "description": "Enables viewing of google photosphere images by\n        integrating the photo-sphere-viewer.js component\n        into your nextcloud instance.",
     "homepage": "",
     "licenses": [
@@ -540,11 +550,11 @@
     ]
   },
   "gpxpod": {
-    "sha256": "d039599a7e381d5747eee2ee65b5d9b4a1b1ed002817e340669ca97f29355399",
-    "url": "https://github.com/eneiluj/gpxpod/releases/download/v5.0.0-3-nightly/gpxpod-5.0.0-3-nightly.tar.gz",
-    "version": "5.0.0",
+    "sha256": "a4d12de0c766e52d15d947b4a9b0ebf09c72a815f60c8374f2b3a4d9b45cd0f0",
+    "url": "https://github.com/julien-nc/gpxpod/releases/download/v5.0.2/gpxpod-5.0.2.tar.gz",
+    "version": "5.0.2",
     "description": "# GpxPod Nextcloud application\n\nDisplay, analyse, compare and share GPS track files.\n\n🌍 Help us to translate this app on [GpxPod Crowdin project](https://crowdin.com/project/gpxpod).\n\nGpxPod :\n\n* 🗺 can display gpx/kml/tcx/igc/fit files anywhere in your files, files shared with you, files in folders shared with you. fit files will be converted and displayed only if **GpsBabel** is found on the server system\n* 📏 supports metric, english and nautical measure systems\n* 🗠 draws elevation, speed or pace interactive chart\n* 🗠 can color track lines by speed, elevation or pace\n* 🗠 show track statistics\n* ⛛ filter tracks by date, total distance...\n* 🖻 displays geotagged pictures found in selected directory\n* 🖧 generates public links pointing to a track/folder. This link can be used if the file/folder is shared by public link\n* 🗁 allows you to move selected track files\n* 🗠 can correct tracks elevations if SRTM.py (gpxelevations) is found on the server's system\n* ⚖ can make global comparison of multiple tracks\n* ⚖ can make visual pair comparison of divergent parts of similar tracks\n* 🀆 allows users to add personal map tile servers\n* ⚙ saves/restores user options values\n* 🖍 allows user to manually set track line colors\n* 🕑 detects browser timezone\n* 🗬 loads extra marker symbols from GpxEdit if installed\n* 🔒 works with encrypted data folder (server side encryption)\n* 🍂 proudly uses Leaflet with lots of plugins to display the map\n* 🖴 is compatible with SQLite, MySQL and PostgreSQL databases\n* 🗁 adds possibility to view .gpx files directly from the \"Files\" app\n\nThis app is tested on Nextcloud 15 with Firefox 57+ and Chromium.\n\nThis app is under (slow) development.\n\nLink to Nextcloud application website : https://apps.nextcloud.com/apps/gpxpod\n\n## Install\n\nSee the [AdminDoc](https://gitlab.com/eneiluj/gpxpod-oc/wikis/admindoc) for installation details\n\n## Known issues\n\n* bad management of file names including simple or double quotes\n* *WARNING*, kml conversion will NOT work with recent kml files using the proprietary \"gx:track\" extension tag.\n\nAny feedback will be appreciated.\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
-    "homepage": "https://gitlab.com/eneiluj/gpxpod-oc",
+    "homepage": "https://github.com/julien-nc/gpxpod",
     "licenses": [
       "agpl"
     ]
@@ -880,8 +890,8 @@
     ]
   },
   "maps": {
-    "sha256": "c63770ec1d5019a01c63fbeb7e40bd0292d5ea715d0b844cfd238f000ac64c0e",
-    "url": "https://github.com/nextcloud/maps/releases/download/v0.2.1-1-nightly/maps-0.2.1-1-nightly.tar.gz",
+    "sha256": "e9d4cd3461cabbdecb66f46f83be39d9ed9fc3eda5a14721b51bafdf5bcb2206",
+    "url": "https://github.com/nextcloud/maps/releases/download/v0.2.1/maps-0.2.1.tar.gz",
     "version": "0.2.1",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
@@ -1004,6 +1014,16 @@
     "url": "https://github.com/kenda/nextcloud-openhab/releases/download/v0.10.1/openhab.tar.gz",
     "version": "0.10.1",
     "description": "This app renders the available sitemaps of an Openhab server instance. This allows you to display values from your smart home in Nextcloud.",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "ownpad": {
+    "sha256": "5a13654439c8962cd956c536c5c60692ce08cf5f50cb2819d5c05ee88be65d06",
+    "url": "https://github.com/otetard/ownpad/releases/download/v0.7.1/ownpad.tar.gz",
+    "version": "0.7.1",
+    "description": "Ownpad is a Nextcloud application that allows to create and open\n    Etherpad and Ethercalc documents.\n\n    This application requires to have access to an instance of\n    Etherpad and/or Ethercalc to work properly.",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -1300,9 +1320,9 @@
     ]
   },
   "snappymail": {
-    "sha256": "8dd1c8866a89ab2980b07443a5134554e3c0c064736211966a08a4d886c461d2",
-    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.21.0-nextcloud.tar.gz",
-    "version": "2.21.0",
+    "sha256": "3e964581a8d36555e988799a7b6d0c4a40eace09c8932bb3bc59b7f7c2233c8c",
+    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.21.1-nextcloud.tar.gz",
+    "version": "2.21.1",
     "description": "**Simple, modern, lightweight & fast web-based email client.**\n\n- **Dark mode**\n- **Responsive design**\n- **Full Sieve filtering support**\n- **Almost all IMAP features** including advanced searching\n- **Integration with Nextcloud Unified Search**\n- **Integration with other Nextcloud apps** (Contacts, Files and Calendar)\n- **Multiple mail accounts and identities**\n- **Send & receive OpenPGP encrypted/signed emails** (With full HTML support, ECC keys, or plain text with Mailvelope)\n- **Many security features** (Sodium encrypted passwords, Sec-Fetch, TOTP 2FA, DKIM, prevent tracking, etc.)\n- **Kolab integrations**\n\nAfter enabling in Nextcloud, go to Nextcloud admin panel, \"Additional settings\" and you will see a \"SnappyMail webmail\" section.\nThere, click on the link to go to the SnappyMail admin panel.",
     "homepage": "https://snappymail.eu",
     "licenses": [
