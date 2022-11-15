@@ -30,9 +30,9 @@
     ]
   },
   "appointments": {
-    "sha256": "50a3562460e5ef6bdab7398f498b6d5f29e94c2b7fa7c6505456f2f8b53f7ef0",
-    "url": "https://github.com/SergeyMosin/Appointments/raw/v1.14.0/build/artifacts/appstore/appointments.tar.gz",
-    "version": "1.14.0",
+    "sha256": "92b9449e679733aa794deaf6250e0c163d13633cb19c3e7b3d2aa792358148b5",
+    "url": "https://github.com/SergeyMosin/Appointments/raw/v1.14.2/build/artifacts/appstore/appointments.tar.gz",
+    "version": "1.14.2",
     "description": "Book appointments into your calendar via secure online form. Attendees can confirm or cancel their appointments via an email link.",
     "homepage": "https://www.srgdev.com/lab/nextcloud-appointments/",
     "licenses": [
@@ -335,6 +335,16 @@
     "version": "0.0.8",
     "description": "Keep your diary in your Nextcloud. Write entries for each day in\na Markdown editor. Use the calendar to jump to any date and edit your entries.\n\nWarning! This is a very early alpha release and things are still pretty rough around the edges.",
     "homepage": "https://github.com/danielroehrig/diary",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "dicomviewer": {
+    "sha256": "93f064c6b6d6010aacf2ad5cbbda4ef602d3e8a681ff94edb417e241b96bb9ea",
+    "url": "https://github.com/ayselafsar/dicomviewer/releases/download/v1.2.4/dicomviewer-1.2.4.tar.gz",
+    "version": "1.2.4",
+    "description": "DICOM Viewer allows to display and manipulate DICOM images with a streamlined sidebar and viewer.\n\nSee [README](https://github.com/ayselafsar/dicomviewer) for a list of full features and future roadmap.",
+    "homepage": "https://github.com/ayselafsar/dicomviewer",
     "licenses": [
       "agpl"
     ]
@@ -814,7 +824,7 @@
     "url": "https://github.com/eneiluj/gpxpod/releases/download/v5.0.0-3-nightly/gpxpod-5.0.0-3-nightly.tar.gz",
     "version": "5.0.0",
     "description": "# GpxPod Nextcloud application\n\nDisplay, analyse, compare and share GPS track files.\n\n🌍 Help us to translate this app on [GpxPod Crowdin project](https://crowdin.com/project/gpxpod).\n\nGpxPod :\n\n* 🗺 can display gpx/kml/tcx/igc/fit files anywhere in your files, files shared with you, files in folders shared with you. fit files will be converted and displayed only if **GpsBabel** is found on the server system\n* 📏 supports metric, english and nautical measure systems\n* 🗠 draws elevation, speed or pace interactive chart\n* 🗠 can color track lines by speed, elevation or pace\n* 🗠 show track statistics\n* ⛛ filter tracks by date, total distance...\n* 🖻 displays geotagged pictures found in selected directory\n* 🖧 generates public links pointing to a track/folder. This link can be used if the file/folder is shared by public link\n* 🗁 allows you to move selected track files\n* 🗠 can correct tracks elevations if SRTM.py (gpxelevations) is found on the server's system\n* ⚖ can make global comparison of multiple tracks\n* ⚖ can make visual pair comparison of divergent parts of similar tracks\n* 🀆 allows users to add personal map tile servers\n* ⚙ saves/restores user options values\n* 🖍 allows user to manually set track line colors\n* 🕑 detects browser timezone\n* 🗬 loads extra marker symbols from GpxEdit if installed\n* 🔒 works with encrypted data folder (server side encryption)\n* 🍂 proudly uses Leaflet with lots of plugins to display the map\n* 🖴 is compatible with SQLite, MySQL and PostgreSQL databases\n* 🗁 adds possibility to view .gpx files directly from the \"Files\" app\n\nThis app is tested on Nextcloud 15 with Firefox 57+ and Chromium.\n\nThis app is under (slow) development.\n\nLink to Nextcloud application website : https://apps.nextcloud.com/apps/gpxpod\n\n## Install\n\nSee the [AdminDoc](https://gitlab.com/eneiluj/gpxpod-oc/wikis/admindoc) for installation details\n\n## Known issues\n\n* bad management of file names including simple or double quotes\n* *WARNING*, kml conversion will NOT work with recent kml files using the proprietary \"gx:track\" extension tag.\n\nAny feedback will be appreciated.\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
-    "homepage": "https://gitlab.com/eneiluj/gpxpod-oc",
+    "homepage": "https://github.com/julien-nc/gpxpod",
     "licenses": [
       "agpl"
     ]
@@ -1400,9 +1410,9 @@
     ]
   },
   "ownpad": {
-    "sha256": "d6956455924c2008aa7bec5f78f47551308a3c480fcb89f820cd3be50b14752f",
-    "url": "https://github.com/otetard/ownpad/releases/download/v0.7.0/ownpad.tar.gz",
-    "version": "0.7.0",
+    "sha256": "5a13654439c8962cd956c536c5c60692ce08cf5f50cb2819d5c05ee88be65d06",
+    "url": "https://github.com/otetard/ownpad/releases/download/v0.7.1/ownpad.tar.gz",
+    "version": "0.7.1",
     "description": "Ownpad is a Nextcloud application that allows to create and open\n    Etherpad and Ethercalc documents.\n\n    This application requires to have access to an instance of\n    Etherpad and/or Ethercalc to work properly.",
     "homepage": "",
     "licenses": [
@@ -1450,9 +1460,9 @@
     ]
   },
   "pdf_downloader": {
-    "sha256": "e79981e0a6f60dff12b073705c4b0ddd4f9a42cd3add7169bc0ab5229fa435e5",
-    "url": "https://github.com/rotdrop/nextcloud-app-pdf-downloader/releases/download/v1.0.8/pdf_downloader.tar.gz",
-    "version": "1.0.8",
+    "sha256": "",
+    "url": "https://github.com/rotdrop/nextcloud-app-pdf-downloader/releases/download/v1.0.9/pdf_downloader.tar.gz",
+    "version": "1.0.9",
     "description": "Recusively convert entire directory trees to PDF and provide the resulting document as download",
     "homepage": "",
     "licenses": [
@@ -1770,9 +1780,9 @@
     ]
   },
   "snappymail": {
-    "sha256": "8dd1c8866a89ab2980b07443a5134554e3c0c064736211966a08a4d886c461d2",
-    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.21.0-nextcloud.tar.gz",
-    "version": "2.21.0",
+    "sha256": "3e964581a8d36555e988799a7b6d0c4a40eace09c8932bb3bc59b7f7c2233c8c",
+    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.21.1-nextcloud.tar.gz",
+    "version": "2.21.1",
     "description": "**Simple, modern, lightweight & fast web-based email client.**\n\n- **Dark mode**\n- **Responsive design**\n- **Full Sieve filtering support**\n- **Almost all IMAP features** including advanced searching\n- **Integration with Nextcloud Unified Search**\n- **Integration with other Nextcloud apps** (Contacts, Files and Calendar)\n- **Multiple mail accounts and identities**\n- **Send & receive OpenPGP encrypted/signed emails** (With full HTML support, ECC keys, or plain text with Mailvelope)\n- **Many security features** (Sodium encrypted passwords, Sec-Fetch, TOTP 2FA, DKIM, prevent tracking, etc.)\n- **Kolab integrations**\n\nAfter enabling in Nextcloud, go to Nextcloud admin panel, \"Additional settings\" and you will see a \"SnappyMail webmail\" section.\nThere, click on the link to go to the SnappyMail admin panel.",
     "homepage": "https://snappymail.eu",
     "licenses": [
