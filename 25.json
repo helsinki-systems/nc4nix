@@ -200,8 +200,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -560,9 +560,9 @@
     ]
   },
   "gpxpod": {
-    "sha256": "a4d12de0c766e52d15d947b4a9b0ebf09c72a815f60c8374f2b3a4d9b45cd0f0",
-    "url": "https://github.com/julien-nc/gpxpod/releases/download/v5.0.2/gpxpod-5.0.2.tar.gz",
-    "version": "5.0.2",
+    "sha256": "e03040ce6a7ac44ad6404a663a313f08e51e90a64cf24fb005ff6d54d7810116",
+    "url": "https://github.com/julien-nc/gpxpod/releases/download/v5.0.3/gpxpod-5.0.3.tar.gz",
+    "version": "5.0.3",
     "description": "# GpxPod Nextcloud application\n\nDisplay, analyse, compare and share GPS track files.\n\n🌍 Help us to translate this app on [GpxPod Crowdin project](https://crowdin.com/project/gpxpod).\n\nGpxPod :\n\n* 🗺 can display gpx/kml/tcx/igc/fit files anywhere in your files, files shared with you, files in folders shared with you. fit files will be converted and displayed only if **GpsBabel** is found on the server system\n* 📏 supports metric, english and nautical measure systems\n* 🗠 draws elevation, speed or pace interactive chart\n* 🗠 can color track lines by speed, elevation or pace\n* 🗠 show track statistics\n* ⛛ filter tracks by date, total distance...\n* 🖻 displays geotagged pictures found in selected directory\n* 🖧 generates public links pointing to a track/folder. This link can be used if the file/folder is shared by public link\n* 🗁 allows you to move selected track files\n* 🗠 can correct tracks elevations if SRTM.py (gpxelevations) is found on the server's system\n* ⚖ can make global comparison of multiple tracks\n* ⚖ can make visual pair comparison of divergent parts of similar tracks\n* 🀆 allows users to add personal map tile servers\n* ⚙ saves/restores user options values\n* 🖍 allows user to manually set track line colors\n* 🕑 detects browser timezone\n* 🗬 loads extra marker symbols from GpxEdit if installed\n* 🔒 works with encrypted data folder (server side encryption)\n* 🍂 proudly uses Leaflet with lots of plugins to display the map\n* 🖴 is compatible with SQLite, MySQL and PostgreSQL databases\n* 🗁 adds possibility to view .gpx files directly from the \"Files\" app\n\nThis app is tested on Nextcloud 15 with Firefox 57+ and Chromium.\n\nThis app is under (slow) development.\n\nLink to Nextcloud application website : https://apps.nextcloud.com/apps/gpxpod\n\n## Install\n\nSee the [AdminDoc](https://gitlab.com/eneiluj/gpxpod-oc/wikis/admindoc) for installation details\n\n## Known issues\n\n* bad management of file names including simple or double quotes\n* *WARNING*, kml conversion will NOT work with recent kml files using the proprietary \"gx:track\" extension tag.\n\nAny feedback will be appreciated.\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://github.com/julien-nc/gpxpod",
     "licenses": [
@@ -570,9 +570,9 @@
     ]
   },
   "grauphel": {
-    "sha256": "669f70ff3077299dd224198c1ecc3c11a0a840eca47ea2f64b08763c8cda4e35",
-    "url": "https://grosjo.net/grauphel-1.0.16.tar.gz",
-    "version": "1.0.16",
+    "sha256": "8cbf15e007a0283dd0ca1406ce283965ff814227e8e6bfbe5174f2199d04debf",
+    "url": "https://grosjo.net/grauphel-1.0.17.tar.gz",
+    "version": "1.0.17",
     "description": "Tomboy REST API server to sync notes between devices.\n\n  Tomboy, Conboy and Tomdroid clients are supported.",
     "homepage": "https://github.com/grosjo/nextcloud-grauphel",
     "licenses": [
@@ -615,6 +615,16 @@
     "version": "2.3.0",
     "description": "👥 Allows for better collaboration with external users by allowing users to create guests account.\n\nGuests accounts can be created from the share menu by entering either the recipients email or name and choosing \"create guest account\", once the share is created the guest user will receive an email notification about the mail with a link to set their password.\n\nGuests users can only access files shared to them and cannot create any files outside of shares, additionally, the apps accessible to guest accounts are whitelisted.",
     "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "hibp": {
+    "sha256": "ea0e70617fc33398532bbe157064f956f0cdc00d1b8af7a8b903d97e19a3723f",
+    "url": "https://github.com/rullzer/hibp/releases/download/v0.0.3/hibp.tar.gz",
+    "version": "0.0.3",
+    "description": "For the users on your system that have an email set, check haveibeenpwned.com and notify them of new breaches.",
+    "homepage": "https://github.com/rullzer/hibp",
     "licenses": [
       "agpl"
     ]
@@ -910,9 +920,9 @@
     ]
   },
   "memories": {
-    "sha256": "04fdf73335a303effca26f4824b3cbde47bb1f9b130cb4b57734322e518bd861",
-    "url": "https://github.com/pulsejet/memories/releases/download/v4.7.1/memories.tar.gz",
-    "version": "4.7.1",
+    "sha256": "52823e7361a49b9b91f83ef297dce6ed8e9027cf82cc687de90bf5e540ed0c04",
+    "url": "https://github.com/pulsejet/memories/releases/download/v4.7.2/memories.tar.gz",
+    "version": "4.7.2",
     "description": "# Memories\n\nMemories is a *batteries-included* photo management solution for Nextcloud with advanced features including:\n\n- **📸 Timeline**: Sort photos and videos by date taken, parsed from Exif data.\n- **⏪ Rewind**: Jump to any time in the past instantly and relive your memories.\n- **🤖 AI Tagging**: Group photos by people and objects using AI, powered by [recognize](https://github.com/nextcloud/recognize).\n- **🖼️ Albums**: Create albums to group photos and videos together. Then share these albums with others.\n- **🫱🏻‍🫲🏻 External Sharing**: Share photos and videos with people outside of your Nextcloud instance.\n- **📱 Mobile Support**: Works on devices of any shape and size through the web app.\n- **✏️ Edit Metadata**: Edit dates on photos quickly and easily.\n- **📦 Archive**: Store photos you don't want to see in your timeline in a separate folder.\n- **📹 Video Transcoding**: Memories transcodes videos and uses HLS for maximal performance.\n- **⚡️ Performance**: In general, Memories is extremely fast.\n\n## 🌐 Online Demo\n\n- To get an idea of what memories looks and feels like, check out the [public demo](https://memories-demo.radialapps.com/apps/memories/).\n- The demo is read-only and may be slow (free tier VM from [Oracle Cloud](https://www.oracle.com/cloud/free/)).\n- Photo credits go to [Unsplash](https://unsplash.com/) (for individual credits, refer to each folder).\n\n## 🚀 Installation\n\n1. Install the app from the Nextcloud app store.\n1. Perform the recommended [configuration steps](https://github.com/pulsejet/memories/wiki/Extra-Configuration).\n1. Run `php ./occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos.",
     "homepage": "https://github.com/pulsejet/memories",
     "licenses": [
@@ -1330,9 +1340,9 @@
     ]
   },
   "snappymail": {
-    "sha256": "3e964581a8d36555e988799a7b6d0c4a40eace09c8932bb3bc59b7f7c2233c8c",
-    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.21.1-nextcloud.tar.gz",
-    "version": "2.21.1",
+    "sha256": "63cac804291890df272ee8ef8a317169eeec8342bbb9d0025263e38109c1e02a",
+    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.21.2-nextcloud.tar.gz",
+    "version": "2.21.2",
     "description": "**Simple, modern, lightweight & fast web-based email client.**\n\n- **Dark mode**\n- **Responsive design**\n- **Full Sieve filtering support**\n- **Almost all IMAP features** including advanced searching\n- **Integration with Nextcloud Unified Search**\n- **Integration with other Nextcloud apps** (Contacts, Files and Calendar)\n- **Multiple mail accounts and identities**\n- **Send & receive OpenPGP encrypted/signed emails** (With full HTML support, ECC keys, or plain text with Mailvelope)\n- **Many security features** (Sodium encrypted passwords, Sec-Fetch, TOTP 2FA, DKIM, prevent tracking, etc.)\n- **Kolab integrations**\n\nAfter enabling in Nextcloud, go to Nextcloud admin panel, \"Additional settings\" and you will see a \"SnappyMail webmail\" section.\nThere, click on the link to go to the SnappyMail admin panel.",
     "homepage": "https://snappymail.eu",
     "licenses": [
@@ -1350,9 +1360,9 @@
     ]
   },
   "sociallogin": {
-    "sha256": "6cf880cb384b6debb32551bc49688c99998a798a5a4461a227f25021892461bc",
-    "url": "https://github.com/zorn-v/nextcloud-social-login/releases/download/v5.1.2/release.tar.gz",
-    "version": "5.1.2",
+    "sha256": "d1f1151afba1c36c94d2e1be64bfc5511a536107f7d7ef29b1687b60dfbb2dde",
+    "url": "https://github.com/zorn-v/nextcloud-social-login/releases/download/v5.1.3/release.tar.gz",
+    "version": "5.1.3",
     "description": "# Social login\n\nMake possible create users and login via Telegram, OAuth or OpenID\n\nFor OAuth you must create app for certain providers. Login button appear at login page if app id specified. Settings are in \"Social login\" section of settings page.\n\n## Installation\n\nLogin to your NextCloud installation as an administrator and under \"Apps\" click \"Download and enable\" next to the \"Social Login\" app.\n\nSee below for setup and configuration instructions.\n\n\n\n## Custom OAuth2/OIDC groups\n\nYou can use groups from your custom provider. For that you should specify \"Groups claim\" in custom OAuth2/OIDC provider settings. That claim should be returned from provider in `id_token` or at user info endpoint. Format should be `array` or comma separated string. Eg (with claim named `roles`)\n\n```json\n{\"roles\": [\"admin\", \"user\"]}\n```\nor\n```json\n{\"roles\": \"admin,user\"}\n```\n\nAlso nested claims is supported. For example `resource_access.client-id.roles` for\n\n```json\n\"resource_access\": {\n   \"client-id\": {\n     \"roles\": [\n       \"client-role-1\",\n       \"client-role-2\"\n     ]\n   }\n}\n```\n\nThere is also support for setting the displayName:\n```\n{\"roles\": [{gid: 1, displayName: \"admin\"}, {gid: 2, displayName: \"user\"}]}\n```\n\n\nYou can use provider groups in two ways:\n\n1. Map provider groups to existing nextcloud groups\n2. Create provider groups in nextcloud and associate it to user (if appropriate option specified)\n\nIf you want sync groups on every login do not forget to check \"Update user profile every login\" setting\n\n## Examples for groups\n\n* You can find example how to configure WSO2IS for return roles claim with OIDC [here](https://medium.com/@dewni.matheesha/claim-mapping-and-retrieving-end-user-information-in-wso2is-cffd5f3937ff)\n* [GitLab OIDC allowing specific GitLab groups](https://github.com/zorn-v/nextcloud-social-login/blob/master/docs/sso/gitlab.md)\n\n## Built-in OAuth providers\n\nYou can copy link of certain login button to get proper \"redirect url\" for OAuth app setting.\n\n* [Google](https://github.com/zorn-v/nextcloud-social-login/blob/master/docs/sso/google.md)\n* [Amazon](https://developer.amazon.com/loginwithamazon/console/site/lwa/overview.html)\n* [Facebook](https://github.com/zorn-v/nextcloud-social-login/blob/master/docs/sso/facebook.md)\n* [Twitter](https://github.com/zorn-v/nextcloud-social-login/blob/master/docs/sso/twitter.md)\n* [GitHub](https://github.com/settings/developers)\n* [Discord](https://discordapp.com/developers/applications/me#top)\n* [Telegram](https://github.com/zorn-v/nextcloud-social-login/blob/master/docs/sso/telegram.md)\n* PlexTv - you can use any title as app id\n\nDetails about \"Allow login only from specified domain\" google setting you can find here [#44](https://github.com/zorn-v/nextcloud-social-login/issues/44)\nYou can use comma separated list for multiple domains\n\n## Config\n\nYou can use `'social_login_auto_redirect' => true` setting in `config.php` for auto redirect unauthorized users to social login if only one provider is configured.\nIf you want to temporary disable this function (e.g. for login as local admin), you can add `noredir=1` query parameter in url for login page. Something like `https://cloud.domain.com/login?noredir=1`\n\nTo set options for http client, you can use\n```php\n  'social_login_http_client' => [\n    'timeout' => 45,\n    'proxy' => 'socks4://127.0.0.1:9050', // Check https://curl.se/libcurl/c/CURLOPT_PROXY.html for allowed variants\n  ],\n```\nin `config.php`\n\n### Configurate a provider via CLI\n\nYou can configure everything from commandline by using the occ utility. To setup a oidc-provider replace the variables and URLs with values that match your deployment.\n```bash\nphp occ config:app:set sociallogin custom_providers --value='{\"custom_oidc\": [{\"name\": \"gitlab_oidc\", \"title\": \"Gitlab\", \"authorizeUrl\": \"https://gitlab.my-domain.org/oauth/authorize\", \"tokenUrl\": \"https://gitlab.my-domain.org/oauth/token\", \"userInfoUrl\": \"https://gitlab.my-domain.org/oauth/userinfo\", \"logoutUrl\": \"\", \"clientId\": \"$my_application_id\", \"clientSecret\": \"$my_super_secret_secret\", \"scope\": \"openid\", \"groupsClaim\": \"groups\", \"style\": \"gitlab\", \"defaultGroup\": \"\"}]}'\n```\nto do this with docker you just need to add `docker exec -t -uwww-data CONTAINER_NAME` in front of the command, or run it interactively from `docker exec -it -uwww-data CONTAINER_NAME sh`\n\nTo find out how to configure other providers, just configure them in the GUI and take a look at the database afterwards:\n```\nmysql -u nextcloud -p nextcloud\nPassword: <yourpassword>\n\n> SELECT * FROM oc_appconfig WHERE appid='sociallogin';\n```\n\nOr just run\n\n`docker exec -t -uwww-data CONTAINER_NAME php occ config:app:get sociallogin custom_providers`\n\n## Hint\n\n### About Callback(Reply) Url\nYou can copy link from specific login button on login page and paste it on provider's website as callback url. To make proper button visible, just fill certain provider settings with random data and change it later.\n\nSome users may get strange reply(Callback) url error from provider even if you pasted the right url, that's because your nextcloud server may generate http urls when you are actually using https.\nPlease set 'overwriteprotocol' => 'https', in your config.php file.",
     "homepage": "https://github.com/zorn-v/nextcloud-social-login",
     "licenses": [
