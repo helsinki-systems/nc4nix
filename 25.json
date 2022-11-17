@@ -30,9 +30,9 @@
     ]
   },
   "appointments": {
-    "sha256": "92b9449e679733aa794deaf6250e0c163d13633cb19c3e7b3d2aa792358148b5",
-    "url": "https://github.com/SergeyMosin/Appointments/raw/v1.14.2/build/artifacts/appstore/appointments.tar.gz",
-    "version": "1.14.2",
+    "sha256": "f6d514a831f1aad75c0e03c7455127266c1400546951e42f121ffb017858cf9a",
+    "url": "https://github.com/SergeyMosin/Appointments/raw/1.14.3/build/artifacts/appstore/appointments.tar.gz",
+    "version": "1.14.3",
     "description": "Book appointments into your calendar via secure online form. Attendees can confirm or cancel their appointments via an email link.",
     "homepage": "https://www.srgdev.com/lab/nextcloud-appointments/",
     "licenses": [
@@ -200,8 +200,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -335,6 +335,16 @@
     "version": "1.1.0",
     "description": "An app for Nextcloud to allow an administrator to direct a user to an external site for changing their password. This is useful in conjunction with an app like external_users.",
     "homepage": "https://git.snyman.info/raoul/externalpassword",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "externalportal": {
+    "sha256": "8f1825399ba24069c335ab6ff697ccfeb9a49b6a222a3f845292af154b07a65c",
+    "url": "https://github.com/puavo-org/externalportal/releases/download/v1.0.0/externalportal.tar.gz",
+    "version": "1.0.0",
+    "description": "A dashboard widget that displays the content from the External sites app on Dashboard in a nice and inviting form.",
+    "homepage": "",
     "licenses": [
       "agpl"
     ]
@@ -560,9 +570,9 @@
     ]
   },
   "gpxpod": {
-    "sha256": "e03040ce6a7ac44ad6404a663a313f08e51e90a64cf24fb005ff6d54d7810116",
-    "url": "https://github.com/julien-nc/gpxpod/releases/download/v5.0.3/gpxpod-5.0.3.tar.gz",
-    "version": "5.0.3",
+    "sha256": "2434713fd7886a6fc2a10c1a0d035bdcdc9bb06f868fab905186580cf1b11f20",
+    "url": "https://github.com/julien-nc/gpxpod/releases/download/v5.0.4/gpxpod-5.0.4.tar.gz",
+    "version": "5.0.4",
     "description": "# GpxPod Nextcloud application\n\nDisplay, analyse, compare and share GPS track files.\n\n🌍 Help us to translate this app on [GpxPod Crowdin project](https://crowdin.com/project/gpxpod).\n\nGpxPod :\n\n* 🗺 can display gpx/kml/tcx/igc/fit files anywhere in your files, files shared with you, files in folders shared with you. fit files will be converted and displayed only if **GpsBabel** is found on the server system\n* 📏 supports metric, english and nautical measure systems\n* 🗠 draws elevation, speed or pace interactive chart\n* 🗠 can color track lines by speed, elevation or pace\n* 🗠 show track statistics\n* ⛛ filter tracks by date, total distance...\n* 🖻 displays geotagged pictures found in selected directory\n* 🖧 generates public links pointing to a track/folder. This link can be used if the file/folder is shared by public link\n* 🗁 allows you to move selected track files\n* 🗠 can correct tracks elevations if SRTM.py (gpxelevations) is found on the server's system\n* ⚖ can make global comparison of multiple tracks\n* ⚖ can make visual pair comparison of divergent parts of similar tracks\n* 🀆 allows users to add personal map tile servers\n* ⚙ saves/restores user options values\n* 🖍 allows user to manually set track line colors\n* 🕑 detects browser timezone\n* 🗬 loads extra marker symbols from GpxEdit if installed\n* 🔒 works with encrypted data folder (server side encryption)\n* 🍂 proudly uses Leaflet with lots of plugins to display the map\n* 🖴 is compatible with SQLite, MySQL and PostgreSQL databases\n* 🗁 adds possibility to view .gpx files directly from the \"Files\" app\n\nThis app is tested on Nextcloud 15 with Firefox 57+ and Chromium.\n\nThis app is under (slow) development.\n\nLink to Nextcloud application website : https://apps.nextcloud.com/apps/gpxpod\n\n## Install\n\nSee the [AdminDoc](https://gitlab.com/eneiluj/gpxpod-oc/wikis/admindoc) for installation details\n\n## Known issues\n\n* bad management of file names including simple or double quotes\n* *WARNING*, kml conversion will NOT work with recent kml files using the proprietary \"gx:track\" extension tag.\n\nAny feedback will be appreciated.\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://github.com/julien-nc/gpxpod",
     "licenses": [
@@ -570,9 +580,9 @@
     ]
   },
   "grauphel": {
-    "sha256": "8cbf15e007a0283dd0ca1406ce283965ff814227e8e6bfbe5174f2199d04debf",
-    "url": "https://grosjo.net/grauphel-1.0.17.tar.gz",
-    "version": "1.0.17",
+    "sha256": "d4929d269a9c4f943ddc0e19482da4e7abc6b90d05c0d43d0af8b61fe8a9f70f",
+    "url": "https://grosjo.net/grauphel-1.0.18.tar.gz",
+    "version": "1.0.18",
     "description": "Tomboy REST API server to sync notes between devices.\n\n  Tomboy, Conboy and Tomdroid clients are supported.",
     "homepage": "https://github.com/grosjo/nextcloud-grauphel",
     "licenses": [
@@ -910,11 +920,21 @@
     ]
   },
   "maps": {
-    "sha256": "c63770ec1d5019a01c63fbeb7e40bd0292d5ea715d0b844cfd238f000ac64c0e",
-    "url": "https://github.com/nextcloud/maps/releases/download/v0.2.1-1-nightly/maps-0.2.1-1-nightly.tar.gz",
+    "sha256": "e9d4cd3461cabbdecb66f46f83be39d9ed9fc3eda5a14721b51bafdf5bcb2206",
+    "url": "https://github.com/nextcloud/maps/releases/download/v0.2.1/maps-0.2.1.tar.gz",
     "version": "0.2.1",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "mediadc": {
+    "sha256": "5b49a9f77355ca100fa794f270c75ba747d92eb79bdd4a876fd492be378098a3",
+    "url": "https://github.com/andrey18106/mediadc/releases/download/v0.2.0/mediadc.tar.gz",
+    "version": "0.2.0",
+    "description": "**Python 3.6.8 or higher required**\n\nThis app allows to find duplicate or similar 📸📹 photos and videos\n* **Many image formats supported** Jpeg, png, tiff, bmp, gif, heic/hif, cr2 and others.\n* **Large amount of supported video  formats** All that is supported by ffmpeg.\n* **Flexible config** Set your precision level for comparing, choose algo that suits for you most.\n* **Quick rescan** Once file was scanned, hash will be saved, and used for other scans.\n* **External Storages support** [in progress] Search everywhere among all files available to the user.\n* **Save your time and cloud space** The title says all...\n\nQuick start guide and further information in our [Wiki](https://github.com/andrey18106/mediadc/wiki).",
+    "homepage": "https://github.com/andrey18106/mediadc",
     "licenses": [
       "agpl"
     ]
@@ -1180,10 +1200,10 @@
     ]
   },
   "recognize": {
-    "sha256": "91838d8794e8d3935233edaa03fa1cf42bbe04ca19ce658c11eca0ae4d4a57b6",
-    "url": "https://github.com/nextcloud/recognize/releases/download/v3.2.1/recognize-3.2.1.tar.gz",
-    "version": "3.2.1",
-    "description": "This app goes through your media collection and adds fitting tags, automatically categorizing your photos and music.\n\n* 📷 👪 Recognizes faces from contact photos\n* 📷 🏔 Recognizes animals, landscapes, food, vehicles, buildings and other objects\n* 📷 🗼 Recognizes landmarks and monuments\n* 👂 🎵 Recognizes music genres\n* ⚡ Tagging works via Nextcloud's Collaborative Tags, allowing access by any of your apps\n  * 👂 listen to your tagged music with the audioplayer app\n  * 📷 view your tagged photos with the photos app\n\nAfter installation, you can enable tagging in the admin settings.\n\nRequirements:\n- PHP 7.4 and above\n- App \"collaborative tags\" enabled\n- For native speed:\n  - Processor: x86 64-bit (with support for AVX instructions)\n  - System with glibc (usually the norm on Linux; Alpine linux and FreeBSD are *not* such systems)\n- For sub-native speed (using JavaScript mode)\n  - Processor: x86 64-bit, arm64, armv7l (no AVX needed)\n  - System with glibc or musl (incl. Alpine linux)\n- ~4GB of free RAM (if you're cutting it close, make sure you have some swap available)\n\nThe app does not send any sensitive data to cloud providers or similar services. All processing is done on your Nextcloud machine, using Tensorflow.js running in Node.js, which comes bundled with this app.",
+    "sha256": "f60e4345c1acf811de023733a087e059baa5a39325a2058d648a9e11d1c72ed4",
+    "url": "https://github.com/nextcloud/recognize/releases/download/v3.2.2/recognize-3.2.2.tar.gz",
+    "version": "3.2.2",
+    "description": "This app goes through your media collection and adds fitting tags, automatically categorizing your photos and music.\n\n* 📷 👪 Recognizes faces from contact photos\n* 📷 🏔 Recognizes animals, landscapes, food, vehicles, buildings and other objects\n* 📷 🗼 Recognizes landmarks and monuments\n* 👂 🎵 Recognizes music genres\n* ⚡ Tagging works via Nextcloud's Collaborative Tags, allowing access by any of your apps\n  * 👂 listen to your tagged music with the audioplayer app\n  * 📷 view your tagged photos with the photos app\n\nAfter installation, you can enable tagging in the admin settings.\n\nRequirements:\n- PHP 7.4 and above\n- App \"collaborative tags\" enabled\n- For native speed:\n  - Processor: x86 64-bit (with support for AVX instructions)\n  - System with glibc (usually the norm on Linux; Alpine linux and FreeBSD are *not* such systems)\n- For sub-native speed (using JavaScript mode)\n  - Processor: x86 64-bit, arm64, armv7l (no AVX needed)\n  - System with glibc or musl (incl. Alpine linux)\n- ~4GB of free RAM (if you're cutting it close, make sure you have some swap available)\n\nThe app does not send any sensitive data to cloud providers or similar services. All processing is done on your Nextcloud machine, using Tensorflow.js running in Node.js.",
     "homepage": "https://github.com/marcelklehr/recognize",
     "licenses": [
       "agpl"
@@ -1450,9 +1470,9 @@
     ]
   },
   "timetracker": {
-    "sha256": "88465a8c380d9504866fca0a2f7e5410b167e7fadef495058b09fd0b58d9b81c",
-    "url": "https://mtier.org/timetracker/timetracker-0.0.76.tar.gz",
-    "version": "0.0.76",
+    "sha256": "ae042f4c0f9f4abcb1a8427f34d1962752fd3d0e10f573b068c59e6065e49255",
+    "url": "https://mtier.org/timetracker/timetracker-0.0.77.tar.gz",
+    "version": "0.0.77",
     "description": "Track your time spent with different tasks each day using this time tracker app! Features include:\n\n# Adding entries\nWith the integrated timer, you only need to press start and stop! Times will be stored automatically, with 1-second-precision. Forgot to press start? Just use the manual editor, to add entries from the past. Or edit existing ones in case you need to change something!\n\n# Projects, Clients and Tags\nAssign tasks to projects and clients! This allows you to display aggregated durations for each project or client, or filter for tasks by projects or clients. You need some more categorization? That's what tags are made for! Create tags to categorize tasks independently from projects or clients.\n\n# Lost track of your work time?\nNo problem! Just use the Dashboard view to display a nice donut / pie chart of your tasks! Or filter for tasks in the Reports or Timeline view to display total or aggregated values.\n\nThis app is still under development, so stay tuned for updates and additional features! If you have any suggestions, bug reports or feature requests, feel free to head over to our [GitHub project page](https://github.com/mtierltd/timetracker) and search through the existing issues, maybe your topic is already under discussion! And if it's not, feel free to file a new issue for it.\n\nAnd for now, start making your time tracking easier by using this app!",
     "homepage": "",
     "licenses": [
