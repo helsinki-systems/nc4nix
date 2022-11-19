@@ -240,9 +240,9 @@
     ]
   },
   "collectives": {
-    "sha256": "198004fd881bc08eebcc2c9e436bec0289ecc747c43043f0946ec0e1265fe73d",
-    "url": "https://gitlab.com/collectivecloud/collectives/uploads/30829903b39e3d6cf4fea8f89aa957b7/collectives-1.6.0.tar.gz",
-    "version": "1.6.0",
+    "sha256": "2ab497c26807531d48e8825eb7b9374a9e632ed6c665d9723c2f7e41e556408d",
+    "url": "https://gitlab.com/collectivecloud/collectives/uploads/16074579c7720ef22086efad8c9298d5/collectives-1.6.1.tar.gz",
+    "version": "1.6.1",
     "description": "Collectives is a Nextcloud App for activist and community projects to organize together.\nCome and gather in collectives to build shared knowledge.\n\n* 👥 **Collective and non-hierarchical workflow by heart**: Collectives are\n  tied to a [Nextcloud Circle](https://github.com/nextcloud/circles) and\n  owned by the collective.\n* 📝 **Collaborative page editing** like known from Etherpad thanks to the\n  [Text app](https://github.com/nextcloud/text).\n* 🔤 **Well-known [Markdown](https://en.wikipedia.org/wiki/Markdown) syntax**\n  for page formatting.\n\n## Installation\n\nIn your Nextcloud instance, simply navigate to **»Apps«**, find the\n**»Circles«** and **»Collectives«** apps and enable them.",
     "homepage": "https://gitlab.com/collectivecloud/collectives",
     "licenses": [
@@ -729,6 +729,16 @@
       "agpl"
     ]
   },
+  "files_texteditor": {
+    "sha256": "b352a2e22985c5dc60b90b0c833551b71a814c8b5776cf6d7afa6fe197602b3c",
+    "url": "https://github.com/nextcloud-releases/files_texteditor/releases/download/v2.15.0/files_texteditor.tar.gz",
+    "version": "2.15.0",
+    "description": "This application enables Nextcloud users to open, save and edit text files in the web browser. If enabled, an entry called \"Text file\" in the \"New\" button menu at the top of the web browser appears. When clicked, a new text file opens in the browser and the file can be saved into the current Nextcloud directory. Further, when a text file is clicked in the web browser, it will be opened and editable. If the privileges allow, a user can also edit shared files and save these changes back into the web browser.\nMore information is available in the text editor documentation.",
+    "homepage": "https://github.com/nextcloud/files_texteditor",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "files_versions_s3": {
     "sha256": "dcc9f8f916819837f5f0c455385a6a2ba76a0400ae0f1ae0640ba1fb75cca0cb",
     "url": "https://github.com/nextcloud/files_versions_s3/releases/download/v0.1.9/files_versions_s3.tar.gz",
@@ -1030,8 +1040,8 @@
     ]
   },
   "integration_mattermost": {
-    "sha256": "e08657771390d33deb9007bcdd43f1b5f23887e0a05db3961c54859eff499f8a",
-    "url": "https://github.com/julien-nc/integration_mattermost/releases/download/v1.0.3/integration_mattermost-1.0.3.tar.gz",
+    "sha256": "b06e09d171638b85282ad71a7749d1f13c6d304787ac4ab2e89338cc7cebacde",
+    "url": "https://github.com/julien-nc/integration_mattermost/releases/download/v1.0.3-2-nightly/integration_mattermost-1.0.3-2-nightly.tar.gz",
     "version": "1.0.3",
     "description": "Mattermost integration provides a dashboard widget displaying your most important notifications\n    and a unified search provider for messages. It also lets you send files to Mattermost from Nextcloud Files.",
     "homepage": "https://github.com/eneiluj/integration_mattermost",
@@ -2170,10 +2180,10 @@
     ]
   },
   "user_retention": {
-    "sha256": "5d940eb0d4898d3e94ac9d5572d3285b04a59994380426afb20f8be7b4c576ee",
-    "url": "https://github.com/nextcloud-releases/user_retention/releases/download/v1.7.0/user_retention-v1.7.0.tar.gz",
-    "version": "1.7.0",
-    "description": "Accounts are deleted when they did not log in within the given number of days. This will also delete all files and other data associated with the account.\n\n* 🛂 Different retention possible for normal accounts and accounts of the [guests app](https://apps.nextcloud.com/apps/guests)\n* ⛔ Exclude accounts based on group memberships (default: admin group)\n* 🔑 Exclude accounts that never logged in (default: enabled)",
+    "sha256": "5f7c93daefe77e1aa19fa60734e75710fe06532e7a2cd1c280c3f7925132081c",
+    "url": "https://github.com/nextcloud-releases/user_retention/releases/download/v1.7.2/user_retention-v1.7.2.tar.gz",
+    "version": "1.7.2",
+    "description": "Users are deleted when they did not log into their account within the given number of days. This will also delete all files and other data of the affected users.\n\n* 🛂 Different retention possible for normal users and users of the [guests app](https://apps.nextcloud.com/apps/guests)\n* ⛔ Exclude users based on group memberships (default: admin group)\n* 🔑 Exclude users that never logged in (default: enabled)",
     "homepage": "https://github.com/nextcloud/user_retention",
     "licenses": [
       "agpl"
