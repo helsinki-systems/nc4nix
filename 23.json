@@ -50,8 +50,8 @@
     ]
   },
   "approval": {
-    "sha256": "aad7c382237fba991032624c220f34369398cc258134c92710f21a8e1cb15558",
-    "url": "https://github.com/nextcloud/approval/releases/download/v1.0.10-3-nightly/approval-1.0.10-3-nightly.tar.gz",
+    "sha256": "d18d557dadb0d8c1a202ed2588e75f067d1beb505c281bdd0b4e09d677677994",
+    "url": "https://github.com/nextcloud/approval/releases/download/v1.0.10/approval-1.0.10.tar.gz",
     "version": "1.0.10",
     "description": "Approve/reject files based on workflows defined by admins.",
     "homepage": "https://github.com/eneiluj/approval",
@@ -1270,8 +1270,8 @@
     ]
   },
   "maps": {
-    "sha256": "e9d4cd3461cabbdecb66f46f83be39d9ed9fc3eda5a14721b51bafdf5bcb2206",
-    "url": "https://github.com/nextcloud/maps/releases/download/v0.2.1/maps-0.2.1.tar.gz",
+    "sha256": "c63770ec1d5019a01c63fbeb7e40bd0292d5ea715d0b844cfd238f000ac64c0e",
+    "url": "https://github.com/nextcloud/maps/releases/download/v0.2.1-1-nightly/maps-0.2.1-1-nightly.tar.gz",
     "version": "0.2.1",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
@@ -1570,9 +1570,9 @@
     ]
   },
   "piwik": {
-    "sha256": "b0f4b2728f3ef57c57fb13bba74c29fb96cc918f42f14b342c735a0ae6e60298",
-    "url": "https://github.com/sualko/cloud_piwik/releases/download/v0.10.0/cloud_piwik-0.10.0.tar.gz",
-    "version": "0.10.0",
+    "sha256": "a71fdd38871d5d8fdd0c88279a8de84d608c7071755641ddcabee5688215aff3",
+    "url": "https://github.com/sualko/cloud_piwik/releases/download/v0.11.0-beta.1/cloud_piwik-0.11.0-beta.1.tar.gz",
+    "version": "0.11.0-beta.1",
     "description": "Track users with Piwik/Matomo",
     "homepage": "http://sualko.github.io/cloud_piwik/",
     "licenses": [
@@ -1910,9 +1910,9 @@
     ]
   },
   "sociallogin": {
-    "sha256": "d1f1151afba1c36c94d2e1be64bfc5511a536107f7d7ef29b1687b60dfbb2dde",
-    "url": "https://github.com/zorn-v/nextcloud-social-login/releases/download/v5.1.3/release.tar.gz",
-    "version": "5.1.3",
+    "sha256": "472aa00a4352151b9f019e2ec69eb75e919384f4e66d3519a3a97e91c7e9db9c",
+    "url": "https://github.com/zorn-v/nextcloud-social-login/releases/download/v5.1.4/release.tar.gz",
+    "version": "5.1.4",
     "description": "# Social login\n\nMake possible create users and login via Telegram, OAuth or OpenID\n\nFor OAuth you must create app for certain providers. Login button appear at login page if app id specified. Settings are in \"Social login\" section of settings page.\n\n## Installation\n\nLogin to your NextCloud installation as an administrator and under \"Apps\" click \"Download and enable\" next to the \"Social Login\" app.\n\nSee below for setup and configuration instructions.\n\n\n\n## Custom OAuth2/OIDC groups\n\nYou can use groups from your custom provider. For that you should specify \"Groups claim\" in custom OAuth2/OIDC provider settings. That claim should be returned from provider in `id_token` or at user info endpoint. Format should be `array` or comma separated string. Eg (with claim named `roles`)\n\n```json\n{\"roles\": [\"admin\", \"user\"]}\n```\nor\n```json\n{\"roles\": \"admin,user\"}\n```\n\nAlso nested claims is supported. For example `resource_access.client-id.roles` for\n\n```json\n\"resource_access\": {\n   \"client-id\": {\n     \"roles\": [\n       \"client-role-1\",\n       \"client-role-2\"\n     ]\n   }\n}\n```\n\nThere is also support for setting the displayName:\n```\n{\"roles\": [{gid: 1, displayName: \"admin\"}, {gid: 2, displayName: \"user\"}]}\n```\n\n\nYou can use provider groups in two ways:\n\n1. Map provider groups to existing nextcloud groups\n2. Create provider groups in nextcloud and associate it to user (if appropriate option specified)\n\nIf you want sync groups on every login do not forget to check \"Update user profile every login\" setting\n\n## Examples for groups\n\n* You can find example how to configure WSO2IS for return roles claim with OIDC [here](https://medium.com/@dewni.matheesha/claim-mapping-and-retrieving-end-user-information-in-wso2is-cffd5f3937ff)\n* [GitLab OIDC allowing specific GitLab groups](https://github.com/zorn-v/nextcloud-social-login/blob/master/docs/sso/gitlab.md)\n\n## Built-in OAuth providers\n\nYou can copy link of certain login button to get proper \"redirect url\" for OAuth app setting.\n\n* [Google](https://github.com/zorn-v/nextcloud-social-login/blob/master/docs/sso/google.md)\n* [Amazon](https://developer.amazon.com/loginwithamazon/console/site/lwa/overview.html)\n* [Facebook](https://github.com/zorn-v/nextcloud-social-login/blob/master/docs/sso/facebook.md)\n* [Twitter](https://github.com/zorn-v/nextcloud-social-login/blob/master/docs/sso/twitter.md)\n* [GitHub](https://github.com/settings/developers)\n* [Discord](https://discordapp.com/developers/applications/me#top)\n* [Telegram](https://github.com/zorn-v/nextcloud-social-login/blob/master/docs/sso/telegram.md)\n* PlexTv - you can use any title as app id\n\nDetails about \"Allow login only from specified domain\" google setting you can find here [#44](https://github.com/zorn-v/nextcloud-social-login/issues/44)\nYou can use comma separated list for multiple domains\n\n## Config\n\nYou can use `'social_login_auto_redirect' => true` setting in `config.php` for auto redirect unauthorized users to social login if only one provider is configured.\nIf you want to temporary disable this function (e.g. for login as local admin), you can add `noredir=1` query parameter in url for login page. Something like `https://cloud.domain.com/login?noredir=1`\n\nTo set options for http client, you can use\n```php\n  'social_login_http_client' => [\n    'timeout' => 45,\n    'proxy' => 'socks4://127.0.0.1:9050', // Check https://curl.se/libcurl/c/CURLOPT_PROXY.html for allowed variants\n  ],\n```\nin `config.php`\n\n### Configurate a provider via CLI\n\nYou can configure everything from commandline by using the occ utility. To setup a oidc-provider replace the variables and URLs with values that match your deployment.\n```bash\nphp occ config:app:set sociallogin custom_providers --value='{\"custom_oidc\": [{\"name\": \"gitlab_oidc\", \"title\": \"Gitlab\", \"authorizeUrl\": \"https://gitlab.my-domain.org/oauth/authorize\", \"tokenUrl\": \"https://gitlab.my-domain.org/oauth/token\", \"userInfoUrl\": \"https://gitlab.my-domain.org/oauth/userinfo\", \"logoutUrl\": \"\", \"clientId\": \"$my_application_id\", \"clientSecret\": \"$my_super_secret_secret\", \"scope\": \"openid\", \"groupsClaim\": \"groups\", \"style\": \"gitlab\", \"defaultGroup\": \"\"}]}'\n```\nto do this with docker you just need to add `docker exec -t -uwww-data CONTAINER_NAME` in front of the command, or run it interactively from `docker exec -it -uwww-data CONTAINER_NAME sh`\n\nTo find out how to configure other providers, just configure them in the GUI and take a look at the database afterwards:\n```\nmysql -u nextcloud -p nextcloud\nPassword: <yourpassword>\n\n> SELECT * FROM oc_appconfig WHERE appid='sociallogin';\n```\n\nOr just run\n\n`docker exec -t -uwww-data CONTAINER_NAME php occ config:app:get sociallogin custom_providers`\n\n## Hint\n\n### About Callback(Reply) Url\nYou can copy link from specific login button on login page and paste it on provider's website as callback url. To make proper button visible, just fill certain provider settings with random data and change it later.\n\nSome users may get strange reply(Callback) url error from provider even if you pasted the right url, that's because your nextcloud server may generate http urls when you are actually using https.\nPlease set 'overwriteprotocol' => 'https', in your config.php file.",
     "homepage": "https://github.com/zorn-v/nextcloud-social-login",
     "licenses": [
