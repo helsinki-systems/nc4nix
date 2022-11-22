@@ -180,9 +180,9 @@
     ]
   },
   "collectives": {
-    "sha256": "30aa87c3e9914b65d826744954d63e9fb095b8afb3e82276f865b304b815f539",
-    "url": "https://gitlab.com/collectivecloud/collectives/uploads/f6f415bacaf2cf9ad6167b27b6d19ecb/collectives-2.0.0.tar.gz",
-    "version": "2.0.0",
+    "sha256": "c4e3f4575fbb7cd889fc386db897dd2eda025bd49c6a814b474f5b93a281b0e2",
+    "url": "https://gitlab.com/collectivecloud/collectives/uploads/91e2385a50b0d03b2e3bce81de9bf5b9/collectives-2.1.0.tar.gz",
+    "version": "2.1.0",
     "description": "Collectives is a Nextcloud App for activist and community projects to organize together.\nCome and gather in collectives to build shared knowledge.\n\n* 👥 **Collective and non-hierarchical workflow by heart**: Collectives are\n  tied to a [Nextcloud Circle](https://github.com/nextcloud/circles) and\n  owned by the collective.\n* 📝 **Collaborative page editing** like known from Etherpad thanks to the\n  [Text app](https://github.com/nextcloud/text).\n* 🔤 **Well-known [Markdown](https://en.wikipedia.org/wiki/Markdown) syntax**\n  for page formatting.\n\n## Installation\n\nIn your Nextcloud instance, simply navigate to **»Apps«**, find the\n**»Circles«** and **»Collectives«** apps and enable them.",
     "homepage": "https://gitlab.com/collectivecloud/collectives",
     "licenses": [
@@ -360,9 +360,9 @@
     ]
   },
   "externalportal": {
-    "sha256": "7238f14a8008f10e465fe32237f1ed4eac72e9effaa9049cc75a3f6fc0470891",
-    "url": "https://github.com/puavo-org/externalportal/releases/download/v1.0.1/externalportal.tar.gz",
-    "version": "1.0.1",
+    "sha256": "1946a0872860e1facdf77380ed8cb1aa178247bb719564a30a56a3f170ac2228",
+    "url": "https://github.com/puavo-org/externalportal/releases/download/v1.0.2/externalportal.tar.gz",
+    "version": "1.0.2",
     "description": "A dashboard widget that displays the content from the External sites app on Dashboard in a nice and inviting form.",
     "homepage": "",
     "licenses": [
@@ -480,10 +480,10 @@
     ]
   },
   "files_scripts": {
-    "sha256": "caf91e794ad12b1dac2778eb6633d421119f7553196029851988600980d9358a",
-    "url": "https://github.com/Raudius/files_scripts/releases/download/v1.3.0/files_scripts-1.3.0.tar.gz",
-    "version": "1.3.0",
-    "description": "Allows administrators to write small scripts which users can run through file actions menu in the Files app!\n\n- **🌕 Lua:** Script in Lua, its simple and has plenty of online resources.\n- **⚡️Empower users:** Make hard tasks easy, straight from the Files app.\n- **🙋 Open to suggestions:** Are you missing a function in the scripting API? Open an issue on Github!\n\n\n⚠️**Attention** This app requires additional configuration, and may not be suitable for all users. Make sure to read the documentation thoroughly before installing.\n\n⚠️**Attention** With great power comes great responsibility: scripts may modify and delete files permanently. Make sure to read the documentation thoroughly before scripting.",
+    "sha256": "f10b0e5f9f0a717bef3c0f5ea0bc23ef159c7defe15f5ba41b08c16ac730b8b1",
+    "url": "https://github.com/Raudius/files_scripts/releases/download/v2.0.0/files_scripts-2.0.0.tar.gz",
+    "version": "2.0.0",
+    "description": "Allows administrators to write small scripts which users can run through via the file actions menu in the Files app!\n\n- **🌕 Lua:** Script in Lua, its simple and has plenty of online resources.\n- **⚡️Empower users:** Make hard tasks easy, straight from the Files app.\n- **🙋 Open to suggestions:** Are you missing a function in the scripting API? Open an issue on Github!\n\n\n⚠️**Attention** This app requires additional configuration, and may not be suitable for all users. Make sure to read the documentation thoroughly.\n\n⚠️**Attention** With great power comes great responsibility: scripts may modify and delete files permanently. Make sure to read the documentation thoroughly before scripting.",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -630,9 +630,9 @@
     ]
   },
   "groupfolders": {
-    "sha256": "146b44270fcb1e74d7c9faedd9d16ef07ac24adfbade0b24b31eb8508677e0e0",
-    "url": "https://github.com/nextcloud/groupfolders/releases/download/v13.0.0/groupfolders.tar.gz",
-    "version": "13.0.0",
+    "sha256": "c1470ea21b72462e952d1932e75b0c90838e12c28f9bc6b7342c43bdfc9a70db",
+    "url": "https://github.com/nextcloud-releases/groupfolders/releases/download/v13.1.0/groupfolders-v13.1.0.tar.gz",
+    "version": "13.1.0",
     "description": "Admin configured folders shared with everyone in a group.\n\nFolders can be configured from *Group folders* in the admin settings.\n\nAfter a folder is created, the admin can give access to the folder to one or more groups, control their write/sharing permissions and assign a quota for the folder.\n\nNote: Encrypting the contents of group folders is currently not supported.",
     "homepage": "https://github.com/nextcloud/groupfolders",
     "licenses": [
@@ -655,6 +655,16 @@
     "version": "2.3.0",
     "description": "👥 Allows for better collaboration with external users by allowing users to create guests account.\n\nGuests accounts can be created from the share menu by entering either the recipients email or name and choosing \"create guest account\", once the share is created the guest user will receive an email notification about the mail with a link to set their password.\n\nGuests users can only access files shared to them and cannot create any files outside of shares, additionally, the apps accessible to guest accounts are whitelisted.",
     "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "health": {
+    "sha256": "d81794e0b6eeb0a49736cbc792cce641ca977ecad55455779a575c6b680111a1",
+    "url": "https://dl.datenangebot.de/nc%20health/releases/health-v1.6.1.tar.gz",
+    "version": "1.6.1",
+    "description": "The app provides different modules to track health data.\n\nFollowing modules are served:\n- Weight\n- Feeling\n- Measurement\n- Sleep\n- Smoking\n- Activities\n- Medication\n\nHealth is everything.",
+    "homepage": "https://github.com/datenangebot/health",
     "licenses": [
       "agpl"
     ]
@@ -1180,9 +1190,9 @@
     ]
   },
   "polls": {
-    "sha256": "02114ea7a6c5e8f7159ff4e007bb87aaa8298ee729d664ede0c8d9c517b8c984",
-    "url": "https://github.com/nextcloud/polls/releases/download/v4.1.0-beta1/polls.tar.gz",
-    "version": "4.1.0-beta1",
+    "sha256": "adca1efd1248d827156d6b029a9172118db80e896e2358da960444cf527fb721",
+    "url": "https://github.com/nextcloud/polls/releases/download/v4.1.0-beta2/polls.tar.gz",
+    "version": "4.1.0-beta2",
     "description": "A polls app, similar to Doodle/Dudle with the possibility to restrict access (members, certain groups/users, hidden and public).",
     "homepage": "https://github.com/nextcloud/polls",
     "licenses": [
@@ -1730,9 +1740,9 @@
     ]
   },
   "whereami": {
-    "sha256": "08d712b05059f99d29894226b63bc8664704918898dee90a28d631132262b3ea",
-    "url": "https://github.com/Adacis/whereami/releases/download/0.0.23/whereami.tar.gz",
-    "version": "0.0.23",
+    "sha256": "d9ef605086eee6b29b650d4a22f102b2a8cc7d3823a40bd1d5c533c88753d6ad",
+    "url": "https://github.com/Adacis/whereami/releases/download/0.0.24/whereami.tar.gz",
+    "version": "0.0.24",
     "description": "Is a simple application to locate everybody in your company.",
     "homepage": "",
     "licenses": [
@@ -1760,9 +1770,9 @@
     ]
   },
   "workflow_ocr": {
-    "sha256": "0286130776894e63fd43ad8f9d96f271d49a1c06a4a174d9b85098f63d574022",
-    "url": "https://github.com/R0Wi/workflow_ocr/releases/download/v1.25.1/workflow_ocr.tar.gz",
-    "version": "1.25.1",
+    "sha256": "d6bb2541f9f081dc9a543cbdba56d1d83f68c1733449a1c5e63bbcfa85ec4a7a",
+    "url": "https://github.com/R0Wi/workflow_ocr/releases/download/v1.25.2/workflow_ocr.tar.gz",
+    "version": "1.25.2",
     "description": "This app makes it possible to process various files via OCR algorithms.\n\tThe processing is done via workflow-engine and can therefore easily be customized.\n\tPlease note that you'll have to install the OcrMyPDF CLI on your Nextcloud server to\n\tprocess PDF files. More installation instructions can be found in the docs https://github.com/R0Wi/workflow_ocr/blob/master/README.md.",
     "homepage": "https://github.com/R0Wi/workflow_ocr",
     "licenses": [
