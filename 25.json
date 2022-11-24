@@ -40,8 +40,8 @@
     ]
   },
   "approval": {
-    "sha256": "d18d557dadb0d8c1a202ed2588e75f067d1beb505c281bdd0b4e09d677677994",
-    "url": "https://github.com/nextcloud/approval/releases/download/v1.0.10/approval-1.0.10.tar.gz",
+    "sha256": "aad7c382237fba991032624c220f34369398cc258134c92710f21a8e1cb15558",
+    "url": "https://github.com/nextcloud/approval/releases/download/v1.0.10-3-nightly/approval-1.0.10-3-nightly.tar.gz",
     "version": "1.0.10",
     "description": "Approve/reject files based on workflows defined by admins.",
     "homepage": "https://github.com/eneiluj/approval",
@@ -389,6 +389,16 @@
       "agpl"
     ]
   },
+  "files_antivirus": {
+    "sha256": "a3b449136dab773bb799d6e9fbe69912132e4dd17e185145fbc10617c8c98b35",
+    "url": "https://github.com/nextcloud/files_antivirus/releases/download/v3.3.2/files_antivirus.tar.gz",
+    "version": "4.0.0",
+    "description": "Antivirus for files is an antivirus app for Nextcloud.\n\n* 🕵️‍♂️ When the user uploads a file, it's checked\n* ☢️ Uploaded and infected files will be deleted and a notification will be shown and/or sent via email\n* 🔎 Background Job to scan all files\n* ❓ Use ClamAV (open source) or Kaspersky Scan Engine\n\nThis application inspects files that are uploaded to Nextcloud for viruses before they are written to the Nextcloud storage. If a file is identified as a virus, it is either logged or not uploaded to the server. The application relies on the underlying ClamAV virus scanning engine, which the admin points Nextcloud to when configuring the application. Alternatively, a Kaspersky Scan Engine can be configured, which has to run on a separate server.\nFor this app to be effective, the ClamAV virus definitions should be kept up to date. Also note that enabling this app will impact system performance as additional processing is required for every upload. More information is available in the Antivirus documentation.",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "files_automatedtagging": {
     "sha256": "447dcdab9d2be8541b0ece845f5775669df24da7d9e38d0a6ed0015675727c17",
     "url": "https://github.com/nextcloud-releases/files_automatedtagging/releases/download/v1.15.0/files_automatedtagging-v1.15.0.tar.gz",
@@ -430,9 +440,9 @@
     ]
   },
   "files_linkeditor": {
-    "sha256": "5f5bf9f78c87baf97ddc2cfed0d8730276669721195e85cb12baadd45a3f7bdc",
-    "url": "https://github.com/te-online/nextcloud-app-releases/raw/main/files_linkeditor/v1.1.12/files_linkeditor.tar.gz",
-    "version": "1.1.12",
+    "sha256": "2eaafef14eca881baf523ecfd6a9e7111d61665a16e5c13cfe3841e296366055",
+    "url": "https://github.com/te-online/nextcloud-app-releases/raw/main/files_linkeditor/v1.1.13/files_linkeditor.tar.gz",
+    "version": "1.1.13",
     "description": "### External web links in Nextcloud!\n* ✍️ **create and edit** .URL and .webloc links in the file view\n* 🌍 **open links** by clicking them and confirming you want to go to the external site\n* 📤 **works in public shares** so you can share links easily with others\n* 🔄 **sync your links** as .URL and .webloc are web links as created on most operating systems.\n\n_[View changelog](https://github.com/te-online/files_linkeditor/blob/main/CHANGELOG.md)_",
     "homepage": "https://github.com/te-online/files_linkeditor",
     "licenses": [
@@ -980,9 +990,9 @@
     ]
   },
   "memories": {
-    "sha256": "d44b5d96e2518c25b678fd5d2cebccb106fe73be02393b22869a8b178b19d24b",
-    "url": "https://github.com/pulsejet/memories/releases/download/v4.8.1/memories.tar.gz",
-    "version": "4.8.1",
+    "sha256": "7e7911e9fb533bffff26fb00540e465b7b35defe259151f424b29c08d3500731",
+    "url": "https://github.com/pulsejet/memories/releases/download/v4.8.2/memories.tar.gz",
+    "version": "4.8.2",
     "description": "# Memories\n\nMemories is a *batteries-included* photo management solution for Nextcloud with advanced features including:\n\n- **📸 Timeline**: Sort photos and videos by date taken, parsed from Exif data.\n- **⏪ Rewind**: Jump to any time in the past instantly and relive your memories.\n- **🤖 AI Tagging**: Group photos by people and objects using AI, powered by [recognize](https://github.com/nextcloud/recognize).\n- **🖼️ Albums**: Create albums to group photos and videos together. Then share these albums with others.\n- **🫱🏻‍🫲🏻 External Sharing**: Share photos and videos with people outside of your Nextcloud instance.\n- **📱 Mobile Support**: Works on devices of any shape and size through the web app.\n- **✏️ Edit Metadata**: Edit dates on photos quickly and easily.\n- **📦 Archive**: Store photos you don't want to see in your timeline in a separate folder.\n- **📹 Video Transcoding**: Memories transcodes videos and uses HLS for maximal performance.\n- **⚡️ Performance**: In general, Memories is extremely fast.\n\n## 🌐 Online Demo\n\n- To get an idea of what memories looks and feels like, check out the [public demo](https://memories-demo.radialapps.com/apps/memories/).\n- The demo is read-only and may be slow (free tier VM from [Oracle Cloud](https://www.oracle.com/cloud/free/)).\n- Photo credits go to [Unsplash](https://unsplash.com/) (for individual credits, refer to each folder).\n\n## 🚀 Installation\n\n1. Install the app from the Nextcloud app store.\n1. Perform the recommended [configuration steps](https://github.com/pulsejet/memories/wiki/Extra-Configuration).\n1. Run `php ./occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos.",
     "homepage": "https://github.com/pulsejet/memories",
     "licenses": [
@@ -1430,9 +1440,9 @@
     ]
   },
   "snappymail": {
-    "sha256": "4c594136e6ae9268815220a573eeb15fba752112f70f1a73968f571570952656",
-    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.21.4-nextcloud.tar.gz",
-    "version": "2.21.4",
+    "sha256": "dd923aa1b9e457b909538c06940392548fc98c257401d2eb373a3eca5c352f0e",
+    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.22.1-nextcloud.tar.gz",
+    "version": "2.22.1",
     "description": "**Simple, modern, lightweight & fast web-based email client.**\n\n- **Dark mode**\n- **Responsive design**\n- **Full Sieve filtering support**\n- **Almost all IMAP features** including advanced searching\n- **Integration with Nextcloud Unified Search**\n- **Integration with other Nextcloud apps** (Contacts, Files and Calendar)\n- **Multiple mail accounts and identities**\n- **Send & receive OpenPGP encrypted/signed emails** (With full HTML support, ECC keys, or plain text with Mailvelope)\n- **Many security features** (Sodium encrypted passwords, Sec-Fetch, TOTP 2FA, DKIM, prevent tracking, etc.)\n- **Kolab integrations**\n\nAfter enabling in Nextcloud, go to Nextcloud admin panel, \"Additional settings\" and you will see a \"SnappyMail webmail\" section.\nThere, click on the link to go to the SnappyMail admin panel.",
     "homepage": "https://snappymail.eu",
     "licenses": [
@@ -1499,6 +1509,16 @@
       "agpl"
     ]
   },
+  "talk_matterbridge": {
+    "sha256": "982a5b223abca60e09620b5c96ec584e39e7c5c6434baf8f48b7686ddeaef47b",
+    "url": "https://github.com/nextcloud/talk_matterbridge/releases/download/v1.25.2-1/talk_matterbridge-1.25.2-1.tar.gz",
+    "version": "1.25.2-1",
+    "description": "This app brings the Matterbridge binary to your server to connect Nextcloud Talk with other chat services.\nThis allows admins to easily install and keep updated the Matterbridge binaries through a familiar interface.\n\nBinary is licensed under Apache-2.0 License.",
+    "homepage": "https://github.com/nextcloud/talk_matterbridge",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "tasks": {
     "sha256": "fdfa3168ac80eaef3e2de5009eee02a369acc8d35dfd8283d1f25423bdf3c532",
     "url": "https://github.com/nextcloud/tasks/releases/download/v0.14.5/tasks.tar.gz",
@@ -1550,9 +1570,9 @@
     ]
   },
   "tvshownamer": {
-    "sha256": "44e7f3a428495a3fb65134b6aa95d21b2176f8a794f40a863c024207b7634e55",
-    "url": "https://github.com/j4ym0/nextcloud-tv-show-namer/releases/download/0.3.2/tvshownamer.tar.gz",
-    "version": "0.3.2",
+    "sha256": "89d082d9f4620411b1dca4905c93a68d5d6cfe065a0c3a73d7a1f971f2bd1a3c",
+    "url": "https://github.com/j4ym0/nextcloud-tv-show-namer/releases/download/0.4.0/tvshownamer.tar.gz",
+    "version": "0.4.0",
     "description": "TV show namer organises your TV shows, series and seasons into a standard format. It uses themoviedb.org to scrape TV information to organise your folders.\n\nRename files from “some.show.s01e03.avi” To “Some Show - S01E01 - Episode Name.avi” easily",
     "homepage": "",
     "licenses": [
@@ -1620,9 +1640,9 @@
     ]
   },
   "unroundedcorners": {
-    "sha256": "4b1abf1d43c8d13cafa1ad853abc312bec0004b57450cf1e748ffffc0b791c01",
-    "url": "https://github.com/OliverParoczai/nextcloud-unroundedcorners/releases/download/v1.0.6-1/unroundedcorners-v1.0.6.tar.gz",
-    "version": "1.0.6",
+    "sha256": "b2d74b71e9b84b51987bc71037a222141d6299e84ac5f867510a983e0a26f54c",
+    "url": "https://github.com/OliverParoczai/nextcloud-unroundedcorners/releases/download/v1.0.8/unroundedcorners-v1.0.8.tar.gz",
+    "version": "1.0.8",
     "description": "# Unrounded Corners\nA Nextcloud app that restores the corners of buttons and widgets to their original looks by unrounding them.",
     "homepage": "https://github.com/OliverParoczai/nextcloud-unroundedcorners",
     "licenses": [
@@ -1680,9 +1700,9 @@
     ]
   },
   "user_saml": {
-    "sha256": "0ae4f41e541aa94d13c46635d1dafb640a893780a4e8d43ecb6b385860cb1075",
-    "url": "https://github.com/nextcloud-releases/user_saml/releases/download/v5.0.3/user_saml-v5.0.3.tar.gz",
-    "version": "5.0.3",
+    "sha256": "665d813d69c58a76bd77342c3b00f3551ef82e51f4c14b9d118a4823eff79cf3",
+    "url": "https://github.com/nextcloud-releases/user_saml/releases/download/v5.1.0/user_saml-v5.1.0.tar.gz",
+    "version": "5.1.0",
     "description": "Using the SSO & SAML app of your Nextcloud you can make it easily possible to integrate your existing Single-Sign-On solution with Nextcloud. In addition, you can use the Nextcloud LDAP user provider to keep the convenience for users. (e.g. when sharing)\nThe following providers are supported and tested at the moment:\n\n* **SAML 2.0**\n\t* OneLogin\n\t* Shibboleth\n\t* Active Directory Federation Services (ADFS)\n\n* **Authentication via Environment Variable**\n\t* Kerberos (mod_auth_kerb)\n\t* Any other provider that authenticates using the environment variable\n\nWhile theoretically any other authentication provider implementing either one of those standards is compatible, we like to note that they are not part of any internal test matrix.",
     "homepage": "https://github.com/nextcloud/user_saml",
     "licenses": [
@@ -1730,8 +1750,8 @@
     ]
   },
   "welcome": {
-    "sha256": "adbb90d586225da58f1a2f3c3c71bda5d3a9124b7aac88a0ca75ebfa386b92fe",
-    "url": "https://github.com/eneiluj/welcome/releases/download/v1.0.2/welcome-1.0.2.tar.gz",
+    "sha256": "881461827479775d76af222dfbbd2bd1eedac4077783194ab7495491ec8ff405",
+    "url": "https://github.com/eneiluj/welcome/releases/download/v1.0.2-1-nightly/welcome-1.0.2-1-nightly.tar.gz",
     "version": "1.0.2",
     "description": "ℹ A Markdown rendering Dashboard widget to welcome all users.\n\n⚙ Configure via `Settings > Administration > Theming > Welcome widget`\n\n📄 Pick a Markdown document to be rendered in the widget\n\n💡 If no document is chosen, the widget won't be shown\n\n📝 Edit the Markdown document to update the widget in real-time\n\n🖼 Images are also supported\n\n💬 Configure a contact person to directly start a chat with (requires [Nextcloud Talk](https://apps.nextcloud.com/apps/spreed) to be installed)",
     "homepage": "https://github.com/eneiluj/welcome",
@@ -1740,9 +1760,9 @@
     ]
   },
   "whereami": {
-    "sha256": "c3c0f39818b173daabc0e2ab674c427125ca7122cfa6bf5459a3b22f57a1cc9a",
-    "url": "https://github.com/Adacis/whereami/releases/download/0.0.25/whereami.tar.gz",
-    "version": "0.0.25",
+    "sha256": "4315cafe8964025ae157b4019e2081a718196870387a6d80cd77c2a6ff12db18",
+    "url": "https://github.com/Adacis/whereami/releases/download/0.0.26/whereami.tar.gz",
+    "version": "0.0.26",
     "description": "Is a simple application to locate everybody in your company.",
     "homepage": "",
     "licenses": [
