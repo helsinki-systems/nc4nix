@@ -30,9 +30,9 @@
     ]
   },
   "appointments": {
-    "sha256": "1158272e580f61d8e9ef57b96c5a6891cadc0b8f28e6beb8f1dd78a7020a366f",
-    "url": "https://github.com/SergeyMosin/Appointments/raw/v1.14.4/build/artifacts/appstore/appointments.tar.gz",
-    "version": "1.14.4",
+    "sha256": "7246b63c5787d9bdbdcb01193711cec45bb41c9d680293dd82f69062e8086366",
+    "url": "https://github.com/SergeyMosin/Appointments/raw/v1.14.5/build/artifacts/appstore/appointments.tar.gz",
+    "version": "1.14.5",
     "description": "Book appointments into your calendar via secure online form. Attendees can confirm or cancel their appointments via an email link.",
     "homepage": "https://www.srgdev.com/lab/nextcloud-appointments/",
     "licenses": [
@@ -1250,9 +1250,9 @@
     ]
   },
   "majordomo": {
-    "sha256": "d773d0dc6169f69f7f482ad7da852cf6b7c834854a440367a8a2e2a02522d6f0",
-    "url": "https://github.com/mziech/nextcloud-majordomo/releases/download/v1.1.2/majordomo.tar.gz",
-    "version": "1.1.2",
+    "sha256": "8fb71cc4c3dca224c8d45051478450ab1d998ff14820ac6456ba659d070d8eac",
+    "url": "https://github.com/mziech/nextcloud-majordomo/releases/download/v1.1.3/majordomo.tar.gz",
+    "version": "1.1.3",
     "description": "Using this app you can automatically synchronize your user's to a\n[Majordomo mailing list manager](https://en.wikipedia.org/wiki/Majordomo_(software)).\nIt is possible to configure multiple mailing lists at any list server to include or exclude selected groups, users and other email addresses.\n\nImport of existing mailing list memberships is supported, as well as reviewing changes before you apply them.\nAt your option, this app will keep your mailing list memberships up-to-date on a daily basis.\n\nThis app requires the PHP `imap` module and a dedicated IMAP mailbox to function!",
     "homepage": "https://github.com/mziech/nextcloud-majordomo",
     "licenses": [
@@ -1470,9 +1470,9 @@
     ]
   },
   "passwords": {
-    "sha256": "f30d709b47b5f298f4779145886d52b7aa60fc223ff614a9892c696ee8530b95",
-    "url": "https://git.mdns.eu/nextcloud/passwords/-/jobs/14676/artifacts/raw/passwords.tar.gz",
-    "version": "2022.12.20-build4643",
+    "sha256": "ede01aebbd619c41cc11513c96c761ee69e40020f60ac45fb5954dc2aeaec9f4",
+    "url": "https://git.mdns.eu/nextcloud/passwords/-/jobs/14705/artifacts/raw/passwords.tar.gz",
+    "version": "2022.12.20",
     "description": "Passwords is the most advanced password manager for Nextcloud and allows you to manage and store your passwords safely in your own cloud.\nThe intuitive and modern web interface of the app makes it easy to update and add new passwords from anywhere.\nIncluded security checks help you to keep your online accounts safe and up-to-date.\nYou can also share passwords with other Nextcloud users.\n\n**Features**\n * Intuitive and modern user interface\n * Password security monitor\n * Secure encryption\n * Folders &amp; tags\n * Sharing\n * API for apps\n * Extensive handbook\n * Import &amp; Export\n * Browser extensions &amp; Apps\n * ... and many more to come\n\n**Support**\n * [Official Chat](https://t.me/nc_passwords)\n * [Official Forum](https://help.nextcloud.com/c/apps/passwords)\n * [User Handbook](https://git.mdns.eu/nextcloud/passwords/wikis/Users/Index)\n * [Administrator Handbook](https://git.mdns.eu/nextcloud/passwords/wikis/Administrators/Index)\n\n**Apps & Extensions**\n * [Official Firefox Add-On](https://addons.mozilla.org/de/firefox/addon/nextcloud-passwords?src=external-ncapps)\n * [Official Chrome Extension](https://chrome.google.com/webstore/detail/nextcloud-passwords/mhajlicjhgoofheldnmollgbgjheenbi)\n * [Official Microsoft Edge Extension](https://microsoftedge.microsoft.com/addons/detail/cjmlcljdpphgdfpkngjcmeepdpcgpffk)\n * [Android App](https://play.google.com/store/apps/details?id=de.jbservices.nc_passwords_app) by [joleaf](https://gitlab.com/joleaf/nc-passwords-app)\n * [Windows App (WIP)](https://www.microsoft.com/store/apps/9NXVZ0ZP6D5Z) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [Linux App (WIP)](https://gitlab.com/j0chn/nextcloud_password_client/-/tree/main#linux) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [macOS App (WIP)](https://gitlab.com/j0chn/nextcloud_password_client/-/tree/main#mac-os) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [iOS App](https://apps.apple.com/app/id1546212226) by [Johannes Schliephake](https://github.com/johannes-schliephake/nextcloud-passwords-ios)",
     "homepage": "",
     "licenses": [
@@ -1480,9 +1480,9 @@
     ]
   },
   "passwords_handbook": {
-    "sha256": "d54d3794b9e8d495cae12fd18722d01fff935ca730b577732a5aa8bf933e796c",
-    "url": "https://git.mdns.eu/nextcloud/passwords-handbook/-/jobs/14611/artifacts/raw/passwords_handbook.tar.gz",
-    "version": "2022.11.21",
+    "sha256": "f26708923d3155e216995be2bcf1eefbad909901ad70b862336685c2c482d560",
+    "url": "https://git.mdns.eu/nextcloud/passwords-handbook/-/jobs/14712/artifacts/raw/passwords_handbook.tar.gz",
+    "version": "2022.12.20",
     "description": "With this app you can host the in app user handbook for the Passwords app for Nextcloud on your own Nextcloud instance instead of using the sources on Github or a custom server.\nThis improves user privacy and enables using the handbook in networks where Github may not be available.",
     "homepage": "",
     "licenses": [
@@ -2225,6 +2225,16 @@
     "version": "1.2.1",
     "description": "Allows flexible configuration of an OIDC server as Nextcloud login user backend.",
     "homepage": "https://github.com/nextcloud/user_oidc",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "user_pwauth": {
+    "sha256": "13a166cbc16c2aef37e4dcbab0b70695ba53302efc49daf7be4b97482aebb6d7",
+    "url": "https://r.mateu.be/user_pwauth-2.7.3.tar.gz",
+    "version": "2.7.3",
+    "description": "Allows you to authenticate with the local users from the hosting machine onto your hosted NextCloud instance.",
+    "homepage": "",
     "licenses": [
       "agpl"
     ]
