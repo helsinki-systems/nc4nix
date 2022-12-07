@@ -3,6 +3,7 @@ package main
 import (
 	"crypto/sha256"
 	"encoding/json"
+	"flag"
 	"fmt"
 	"io/ioutil"
 	"log"
@@ -158,7 +159,7 @@ func queryApi(v string) (ApiJson, error) {
 	return apiResponse, nil
 }
 
-func update(v string) {
+func update(v string, apps []string) {
 	log.Printf("Starting to process apps for version %s", v)
 	j, err := queryApi(v)
 	if err != nil {
@@ -183,8 +184,18 @@ func update(v string) {
 				na.Licenses = rel.Licenses
 			}
 		}
-		log.Printf("Found app %s (%s) at %s", a.Id, na.Version, na.Url)
-		an[a.Id] = na
+		if len(apps) > 0 {
+			for _, app := range apps {
+				if a.Id == app {
+					log.Printf("Found app %s (%s) at %s", a.Id, na.Version, na.Url)
+					an[a.Id] = na
+					break
+				}
+			}
+		} else {
+			log.Printf("Found app %s (%s) at %s", a.Id, na.Version, na.Url)
+			an[a.Id] = na
+		}
 	}
 
 	for k, _ := range an {
@@ -237,8 +248,14 @@ func main() {
 		}
 		NEXTCLOUD_VERSIONS = append(NEXTCLOUD_VERSIONS, v)
 	}
+	apps := flag.String("apps", "", "Apps to fetch. Defaults to all")
+	flag.Parse()
 
 	for _, v := range NEXTCLOUD_VERSIONS {
-		update(v.String())
+		if *apps == "" { // https://github.com/golang/go/issues/35130
+			update(v.String(), nil)
+		} else {
+			update(v.String(), strings.Split(*apps, ","))
+		}
 	}
 }
