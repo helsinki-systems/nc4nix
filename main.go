@@ -4,6 +4,7 @@ import (
 	"crypto/sha256"
 	"encoding/json"
 	"fmt"
+	"flag"
 	"io/ioutil"
 	"log"
 	"net/http"
@@ -158,7 +159,7 @@ func queryApi(v string) (ApiJson, error) {
 	return apiResponse, nil
 }
 
-func update(v string) {
+func update(v string, hasLimits bool, limit string) {
 	log.Printf("Starting to process apps for version %s", v)
 	j, err := queryApi(v)
 	if err != nil {
@@ -183,8 +184,18 @@ func update(v string) {
 				na.Licenses = rel.Licenses
 			}
 		}
-		log.Printf("Found app %s (%s) at %s", a.Id, na.Version, na.Url)
-		an[a.Id] = na
+		if hasLimits {
+			for _, pkgName := range strings.Split(limit, ",") {
+				if (a.Id == pkgName) {
+					log.Printf("Found app %s (%s) at %s", a.Id, na.Version, na.Url)
+					an[a.Id] = na
+				}
+			}
+		} else {
+			log.Printf("Found app %s (%s) at %s", a.Id, na.Version, na.Url)
+			an[a.Id] = na
+		}
+
 	}
 
 	for k, _ := range an {
@@ -237,8 +248,11 @@ func main() {
 		}
 		NEXTCLOUD_VERSIONS = append(NEXTCLOUD_VERSIONS, v)
 	}
+	apps := flag.String("a", "", "apps to fetch - defaults to all")
+	flag.Parse()
+	hasLimits := *apps != ""
 
 	for _, v := range NEXTCLOUD_VERSIONS {
-		update(v.String())
+		update(v.String(), hasLimits, *apps)
 	}
 }
