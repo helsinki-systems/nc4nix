@@ -10,8 +10,14 @@ import (
 	"net/http"
 	"os"
 	"strings"
+	"context"
+	"bytes"
+	"path/filepath"
 
 	"github.com/hashicorp/go-version"
+	"github.com/nix-community/go-nix/pkg/nar"
+	"github.com/nix-community/go-nix/pkg/nixbase32"
+	"github.com/codeclysm/extract/v3"
 )
 
 var DEBUG bool
@@ -109,6 +115,7 @@ func writeFile(t string, c AppJson) {
 }
 
 func prefetch(url string) (string, error) {
+	h := sha256.New()
 	resp, err := http.Get(url)
 	if err != nil || resp.StatusCode != http.StatusOK {
 		log.Print("Prefetch failed for: ", url, err)
@@ -118,11 +125,30 @@ func prefetch(url string) (string, error) {
 	contents, err := ioutil.ReadAll(resp.Body)
 	if err != nil {
 		log.Print("Prefetch failed reading body for: ", url, err)
+	}
+	dname, err := os.MkdirTemp("", "")
+	if err != nil {
+		return "", fmt.Errorf("failed to create temp dir: %w", err)
+	}
+	buffer := bytes.NewBuffer(contents)
+	extract.Archive(context.Background(), buffer, dname, nil)
+	entries, err := os.ReadDir(dname)
+	if err != nil {
 		return "", err
 	}
-	sha256 := fmt.Sprintf("%x", sha256.Sum256(contents))
+	var entryPath string
+	for _, entry := range entries {
+		if entry.IsDir() {
+			entryPath = filepath.Join(dname, entry.Name())
+			break
+		}
+	}
+	if err := nar.DumpPath(h, entryPath); err != nil {
+		return "", fmt.Errorf("failed to dump path: %w", err)
+	}
+	defer os.RemoveAll(dname)
 
-	return sha256, err
+	return nixbase32.EncodeToString(h.Sum(nil)), nil
 }
 
 // copy every element from every map into the resulting map
