@@ -1,13 +1,13 @@
 package main
 
 import (
-	"crypto/sha256"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
 	"log"
 	"net/http"
 	"os"
+	"os/exec"
 	"strings"
 
 	"github.com/hashicorp/go-version"
@@ -56,6 +56,17 @@ type AppJson map[string]App
 func major(t string) string {
 	return strings.Split(t, ".")[0]
 }
+
+func execCmd(name, file string, args ...string) (string, error) {
+	log.Printf("%s %s %s", name, file, args)
+	cmd := exec.Command(file, args...)
+	out, err := cmd.CombinedOutput()
+	if err != nil {
+		log.Printf("Failed: %s %s %s %s", err, name, file, args)
+	}
+	return strings.TrimSpace(string(out)), err
+}
+
 func loadFile(t string) (AppJson, error) {
 	fname := major(t) + ".json"
 	log.Print("Loading " + fname)
@@ -108,19 +119,15 @@ func writeFile(t string, c AppJson) {
 }
 
 func prefetch(url string) (string, error) {
-	resp, err := http.Get(url)
-	if err != nil || resp.StatusCode != http.StatusOK {
+	var sha256 string
+	var err error
+	sha256, err = execCmd("Generating hash with", "nix-prefetch-url", "--unpack", url)
+	if err != nil {
 		log.Print("Prefetch failed for: ", url, err)
 		return "", err
 	}
-	defer resp.Body.Close()
-	contents, err := ioutil.ReadAll(resp.Body)
-	if err != nil {
-		log.Print("Prefetch failed reading body for: ", url, err)
-		return "", err
-	}
-	sha256 := fmt.Sprintf("%x", sha256.Sum256(contents))
-
+	res := strings.Fields(sha256)
+	sha256 = res[len(res)-1]
 	return sha256, err
 }
 
