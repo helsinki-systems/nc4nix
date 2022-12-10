@@ -50,8 +50,8 @@
     ]
   },
   "approval": {
-    "sha256": "aad7c382237fba991032624c220f34369398cc258134c92710f21a8e1cb15558",
-    "url": "https://github.com/nextcloud/approval/releases/download/v1.0.10-3-nightly/approval-1.0.10-3-nightly.tar.gz",
+    "sha256": "d18d557dadb0d8c1a202ed2588e75f067d1beb505c281bdd0b4e09d677677994",
+    "url": "https://github.com/nextcloud/approval/releases/download/v1.0.10/approval-1.0.10.tar.gz",
     "version": "1.0.10",
     "description": "Approve/reject files based on workflows defined by admins.",
     "homepage": "https://github.com/eneiluj/approval",
@@ -280,8 +280,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -1260,8 +1260,8 @@
     ]
   },
   "maps": {
-    "sha256": "e9d4cd3461cabbdecb66f46f83be39d9ed9fc3eda5a14721b51bafdf5bcb2206",
-    "url": "https://github.com/nextcloud/maps/releases/download/v0.2.1/maps-0.2.1.tar.gz",
+    "sha256": "c63770ec1d5019a01c63fbeb7e40bd0292d5ea715d0b844cfd238f000ac64c0e",
+    "url": "https://github.com/nextcloud/maps/releases/download/v0.2.1-1-nightly/maps-0.2.1-1-nightly.tar.gz",
     "version": "0.2.1",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
@@ -1280,11 +1280,21 @@
     ]
   },
   "memories": {
-    "sha256": "9acb71fd9438e61980e8108eeb69774d6f1dcb549b10d479fff08af1eb00019a",
-    "url": "https://github.com/pulsejet/memories/releases/download/v3.8.2/memories.tar.gz",
-    "version": "3.8.2",
-    "description": "# Memories\n\nMemories is a *batteries-included* photo management solution for Nextcloud with advanced features including:\n\n- **📸 Timeline**: Sort photos and videos by date taken, parsed from Exif data.\n- **⏪ Rewind**: Jump to any time in the past instantly and relive your memories.\n- **🤖 AI Tagging**: Group photos by people and objects using AI, powered by [recognize](https://github.com/nextcloud/recognize).\n- **🖼️ Albums**: Create albums to group photos and videos together. Then share these albums with others.\n- **🫱🏻‍🫲🏻 External Sharing**: Share photos and videos with people outside of your Nextcloud instance.\n- **📱 Mobile Support**: Works on devices of any shape and size through the web app.\n- **✏️ Edit Metadata**: Edit dates on photos quickly and easily.\n- **📦 Archive**: Store photos you don't want to see in your timeline in a separate folder.\n- **📹 Video Transcoding**: Memories transcodes videos and uses HLS for maximal performance.\n- **⚡️ Performance**: In general, Memories is extremely fast.\n\n## 🌐 Online Demo\n\n- To get an idea of what memories looks and feels like, check out the [public demo](https://memories-demo.radialapps.com/apps/memories/).\n- The demo is read-only and may be slow (free tier VM from [Oracle Cloud](https://www.oracle.com/cloud/free/)).\n- Photo credits go to [Unsplash](https://unsplash.com/) (for individual credits, refer to each folder).\n\n## 🚀 Installation\n\n1. Install the app from the Nextcloud app store.\n1. Perform the recommended [configuration steps](https://github.com/pulsejet/memories/wiki/Extra-Configuration).\n1. Run `php ./occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos.",
+    "sha256": "03ba6bc369cc17cda60413cfc0a0e9c056e10d9b603cb46150a71be199072eda",
+    "url": "https://github.com/pulsejet/memories/releases/download/v3.9.2/memories.tar.gz",
+    "version": "3.9.2",
+    "description": "# Memories\n\nMemories is a *batteries-included* photo management solution for Nextcloud with advanced features including:\n\n- **📸 Timeline**: Sort photos and videos by date taken, parsed from Exif data.\n- **⏪ Rewind**: Jump to any time in the past instantly and relive your memories.\n- **🤖 AI Tagging**: Group photos by people and objects, powered by [recognize](https://github.com/nextcloud/recognize) and [facerecognition](https://github.com/matiasdelellis/facerecognition).\n- **🖼️ Albums**: Create albums to group photos and videos together. Then share these albums with others.\n- **🫱🏻‍🫲🏻 External Sharing**: Share photos and videos with people outside of your Nextcloud instance.\n- **📱 Mobile Support**: Works on devices of any shape and size through the web app.\n- **✏️ Edit Metadata**: Edit dates on photos quickly and easily.\n- **📦 Archive**: Store photos you don't want to see in your timeline in a separate folder.\n- **📹 Video Transcoding**: Memories transcodes videos and uses HLS for maximal performance.\n- **⚡️ Performance**: In general, Memories is extremely fast.\n\n## 🌐 Online Demo\n\n- To get an idea of what memories looks and feels like, check out the [public demo](https://memories-demo.radialapps.com/apps/memories/).\n- The demo is read-only and may be slow (free tier VM from [Oracle Cloud](https://www.oracle.com/cloud/free/)).\n- Photo credits go to [Unsplash](https://unsplash.com/) (for individual credits, refer to each folder).\n\n## 🚀 Installation\n\n1. Install the app from the Nextcloud app store.\n1. Perform the recommended [configuration steps](https://github.com/pulsejet/memories/wiki/Extra-Configuration).\n1. Run `php ./occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos.",
     "homepage": "https://github.com/pulsejet/memories",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "messagevault": {
+    "sha256": "626ddf010a0dcc2af9f1c7b7dada9f91d0bbe1482e15f2e002a319e9153e06be",
+    "url": "https://cloud.eblah.com/index.php/s/4e9FKKedLzsQizc/download/messagevault.tar.gz",
+    "version": "1.0.2",
+    "description": "Restores XML backups of SMS, RCS, and MMS messages and attachments.",
+    "homepage": "",
     "licenses": [
       "agpl"
     ]
@@ -1380,9 +1390,9 @@
     ]
   },
   "officeonline": {
-    "sha256": "873550ccf8373adac3073ce6ea9a36443c022cc63568acc605b9f40ac49957a5",
-    "url": "https://github.com/nextcloud-releases/officeonline/releases/download/v1.1.3/officeonline-v1.1.3.tar.gz",
-    "version": "1.1.3",
+    "sha256": "250bc968ed33d65842cd619f9f7af25f073299cca0eb30ee30edd9e75bfa604b",
+    "url": "https://github.com/nextcloud-releases/officeonline/releases/download/v1.1.4/officeonline-v1.1.4.tar.gz",
+    "version": "1.1.4",
     "description": "This application can connect to an Office Online server with Nextcloud.",
     "homepage": "",
     "licenses": [
@@ -1470,9 +1480,9 @@
     ]
   },
   "passwords": {
-    "sha256": "ede01aebbd619c41cc11513c96c761ee69e40020f60ac45fb5954dc2aeaec9f4",
-    "url": "https://git.mdns.eu/nextcloud/passwords/-/jobs/14705/artifacts/raw/passwords.tar.gz",
-    "version": "2022.12.20",
+    "sha256": "b59f65e5d6eddfc5c7bf4e0da38158c35c38d17099e5bcfd1c0b1b0f033bce02",
+    "url": "https://git.mdns.eu/nextcloud/passwords/-/jobs/14796/artifacts/raw/passwords.tar.gz",
+    "version": "2022.12.21-build4675",
     "description": "Passwords is the most advanced password manager for Nextcloud and allows you to manage and store your passwords safely in your own cloud.\nThe intuitive and modern web interface of the app makes it easy to update and add new passwords from anywhere.\nIncluded security checks help you to keep your online accounts safe and up-to-date.\nYou can also share passwords with other Nextcloud users.\n\n**Features**\n * Intuitive and modern user interface\n * Password security monitor\n * Secure encryption\n * Folders &amp; tags\n * Sharing\n * API for apps\n * Extensive handbook\n * Import &amp; Export\n * Browser extensions &amp; Apps\n * ... and many more to come\n\n**Support**\n * [Official Chat](https://t.me/nc_passwords)\n * [Official Forum](https://help.nextcloud.com/c/apps/passwords)\n * [User Handbook](https://git.mdns.eu/nextcloud/passwords/wikis/Users/Index)\n * [Administrator Handbook](https://git.mdns.eu/nextcloud/passwords/wikis/Administrators/Index)\n\n**Apps & Extensions**\n * [Official Firefox Add-On](https://addons.mozilla.org/de/firefox/addon/nextcloud-passwords?src=external-ncapps)\n * [Official Chrome Extension](https://chrome.google.com/webstore/detail/nextcloud-passwords/mhajlicjhgoofheldnmollgbgjheenbi)\n * [Official Microsoft Edge Extension](https://microsoftedge.microsoft.com/addons/detail/cjmlcljdpphgdfpkngjcmeepdpcgpffk)\n * [Android App](https://play.google.com/store/apps/details?id=de.jbservices.nc_passwords_app) by [joleaf](https://gitlab.com/joleaf/nc-passwords-app)\n * [Windows App (WIP)](https://www.microsoft.com/store/apps/9NXVZ0ZP6D5Z) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [Linux App (WIP)](https://gitlab.com/j0chn/nextcloud_password_client/-/tree/main#linux) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [macOS App (WIP)](https://gitlab.com/j0chn/nextcloud_password_client/-/tree/main#mac-os) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [iOS App](https://apps.apple.com/app/id1546212226) by [Johannes Schliephake](https://github.com/johannes-schliephake/nextcloud-passwords-ios)",
     "homepage": "",
     "licenses": [
@@ -1520,9 +1530,9 @@
     ]
   },
   "phonetrack": {
-    "sha256": "3bff9d431233a19c1ee79a21d864ed67dd7b7754c2dd910f4c3734e28afed636",
-    "url": "https://gitlab.com/eneiluj/phonetrack-oc/-/wikis/uploads/8f7a2d20d9965e6292e71cafa0f31d26/phonetrack-0.7.2.tar.gz",
-    "version": "0.7.2",
+    "sha256": "1a33819cc7a35a05324d1632ab609c639b8b874f566bb3929c2d468afa50dc2a",
+    "url": "https://github.com/julien-nc/phonetrack/releases/download/v0.7.3-2-nightly/phonetrack-0.7.3-2-nightly.tar.gz",
+    "version": "0.7.3",
     "description": "# PhoneTrack Nextcloud application\n\n📱 PhoneTrack is a Nextcloud application to track and store mobile device's locations.\n\n🗺 It receives information from mobile phone's logging apps and displays it dynamically on a map.\n\n🌍 Help us to translate this app on [PhoneTrack Crowdin project](https://crowdin.com/project/phonetrack).\n\n⚒ Check out other ways to help in the [contribution guidelines](https://gitlab.com/eneiluj/phonetrack-oc/blob/master/CONTRIBUTING.md).\n\nHow to use PhoneTrack :\n\n* Create a tracking session.\n* Give the logging link\\* to the mobile devices. Choose the [logging method](https://gitlab.com/eneiluj/phonetrack-oc/wikis/userdoc#logging-methods) you prefer.\n* Watch the session's devices location in real time (or not) in PhoneTrack or share it with public pages.\n\n(\\*) Don't forget to set the device name in the link (rather than in the logging app settings). Replace \"yourname\" with the desired device name. Setting the device name in logging app settings only works with Owntracks, Traccar and OpenGTS.\n\nOn PhoneTrack main page, while watching a session, you can :\n\n* 📍 Display location history\n* ⛛ Filter points\n* ✎ Manually edit/add/delete points\n* ✎ Edit devices (rename, change colour/shape, move to another session)\n* ⛶ Define geofencing zones for devices\n* ⚇ Define proximity alerts for device pairs\n* 🖧 Share a session to other Nextcloud users or with a public link (read-only)\n* 🔗 Generate public share links with optional restrictions (filters, device name, last positions only, geofencing simplification)\n* 🖫 Import/export a session in GPX format (one file with one track per device or one file per device)\n* 🗠 Display sessions statistics\n* 🔒 [Reserve a device name](https://gitlab.com/eneiluj/phonetrack-oc/wikis/userdoc#device-name-reservation) to make sure only authorised user can log with this name\n* 🗓 Toggle session auto export and auto purge (daily/weekly/monthly)\n* ◔ Choose what to do when point number quota is reached (block logging or delete oldest point)\n\nPublic page and public filtered page work like main page except there is only one session displayed, everything is read-only and there is no need to be logged in.\n\nThis app is tested on Nextcloud 17 with Firefox 57+ and Chromium.\n\nThis app is compatible with theming colours and accessibility themes !\n\nThis app is under development.\n\n## Install\n\nSee the [AdminDoc](https://gitlab.com/eneiluj/phonetrack-oc/wikis/admindoc) for installation details.\n\nCheck [CHANGELOG](https://gitlab.com/eneiluj/phonetrack-oc/blob/master/CHANGELOG.md#change-log) file to see what's new and what's coming in next release.\n\nCheck [AUTHORS](https://gitlab.com/eneiluj/phonetrack-oc/blob/master/AUTHORS.md#authors) file to see complete list of authors.\n\n## Known issues\n\n* PhoneTrack **now works** with Nextcloud group restriction activated. See [admindoc](https://gitlab.com/eneiluj/phonetrack-oc/wikis/admindoc#issue-with-phonetrack-restricted-to-some-groups-in-nextcloud).\n\nAny feedback will be appreciated.\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://gitlab.com/eneiluj/phonetrack-oc",
     "licenses": [
@@ -1850,9 +1860,9 @@
     ]
   },
   "snappymail": {
-    "sha256": "c0429da51b81d7e6c9d63866f260679715ecdb21a7a4154be442b99094cb545a",
-    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.22.7-nextcloud.tar.gz",
-    "version": "2.22.7",
+    "sha256": "43b073d43d6cbdf2a7d16f36ff450c32a15e0e934430f8e7d580205cf9db8e2c",
+    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.23.0-nextcloud.tar.gz",
+    "version": "2.23.0",
     "description": "**Simple, modern, lightweight & fast web-based email client.**\n\n- **Dark mode**\n- **Responsive design**\n- **Full Sieve filtering support**\n- **Almost all IMAP features** including advanced searching\n- **Integration with Nextcloud Unified Search**\n- **Integration with other Nextcloud apps** (Contacts, Files and Calendar)\n- **Multiple mail accounts and identities**\n- **Send & receive OpenPGP encrypted/signed emails** (With full HTML support, ECC keys, or plain text with Mailvelope)\n- **Many security features** (Sodium encrypted passwords, Sec-Fetch, TOTP 2FA, DKIM, prevent tracking, etc.)\n- **Kolab integrations**\n\nAfter enabling in Nextcloud, go to Nextcloud admin panel, \"Additional settings\" and you will see a \"SnappyMail webmail\" section.\nThere, click on the link to go to the SnappyMail admin panel.",
     "homepage": "https://snappymail.eu",
     "licenses": [

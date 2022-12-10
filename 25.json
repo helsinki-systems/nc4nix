@@ -230,8 +230,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -1029,6 +1029,16 @@
       "agpl"
     ]
   },
+  "messagevault": {
+    "sha256": "626ddf010a0dcc2af9f1c7b7dada9f91d0bbe1482e15f2e002a319e9153e06be",
+    "url": "https://cloud.eblah.com/index.php/s/4e9FKKedLzsQizc/download/messagevault.tar.gz",
+    "version": "1.0.2",
+    "description": "Restores XML backups of SMS, RCS, and MMS messages and attachments.",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "metadata": {
     "sha256": "4f7d2a72da661935cbdf133019de5618f26e3e23417f6daabd08a2b5b4bb4538",
     "url": "https://github.com/gino0631/nextcloud-metadata/releases/download/v0.17.0/metadata.tar.gz",
@@ -1105,6 +1115,16 @@
     "version": "1.10.1",
     "description": "An app to sync SMS with your cloud",
     "homepage": "https://github.com/nextcloud/ocsms",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "officeonline": {
+    "sha256": "250bc968ed33d65842cd619f9f7af25f073299cca0eb30ee30edd9e75bfa604b",
+    "url": "https://github.com/nextcloud-releases/officeonline/releases/download/v1.1.4/officeonline-v1.1.4.tar.gz",
+    "version": "1.1.4",
+    "description": "This application can connect to an Office Online server with Nextcloud.",
+    "homepage": "",
     "licenses": [
       "agpl"
     ]
@@ -1210,9 +1230,9 @@
     ]
   },
   "phonetrack": {
-    "sha256": "3bff9d431233a19c1ee79a21d864ed67dd7b7754c2dd910f4c3734e28afed636",
-    "url": "https://gitlab.com/eneiluj/phonetrack-oc/-/wikis/uploads/8f7a2d20d9965e6292e71cafa0f31d26/phonetrack-0.7.2.tar.gz",
-    "version": "0.7.2",
+    "sha256": "1a33819cc7a35a05324d1632ab609c639b8b874f566bb3929c2d468afa50dc2a",
+    "url": "https://github.com/julien-nc/phonetrack/releases/download/v0.7.3-2-nightly/phonetrack-0.7.3-2-nightly.tar.gz",
+    "version": "0.7.3",
     "description": "# PhoneTrack Nextcloud application\n\n📱 PhoneTrack is a Nextcloud application to track and store mobile device's locations.\n\n🗺 It receives information from mobile phone's logging apps and displays it dynamically on a map.\n\n🌍 Help us to translate this app on [PhoneTrack Crowdin project](https://crowdin.com/project/phonetrack).\n\n⚒ Check out other ways to help in the [contribution guidelines](https://gitlab.com/eneiluj/phonetrack-oc/blob/master/CONTRIBUTING.md).\n\nHow to use PhoneTrack :\n\n* Create a tracking session.\n* Give the logging link\\* to the mobile devices. Choose the [logging method](https://gitlab.com/eneiluj/phonetrack-oc/wikis/userdoc#logging-methods) you prefer.\n* Watch the session's devices location in real time (or not) in PhoneTrack or share it with public pages.\n\n(\\*) Don't forget to set the device name in the link (rather than in the logging app settings). Replace \"yourname\" with the desired device name. Setting the device name in logging app settings only works with Owntracks, Traccar and OpenGTS.\n\nOn PhoneTrack main page, while watching a session, you can :\n\n* 📍 Display location history\n* ⛛ Filter points\n* ✎ Manually edit/add/delete points\n* ✎ Edit devices (rename, change colour/shape, move to another session)\n* ⛶ Define geofencing zones for devices\n* ⚇ Define proximity alerts for device pairs\n* 🖧 Share a session to other Nextcloud users or with a public link (read-only)\n* 🔗 Generate public share links with optional restrictions (filters, device name, last positions only, geofencing simplification)\n* 🖫 Import/export a session in GPX format (one file with one track per device or one file per device)\n* 🗠 Display sessions statistics\n* 🔒 [Reserve a device name](https://gitlab.com/eneiluj/phonetrack-oc/wikis/userdoc#device-name-reservation) to make sure only authorised user can log with this name\n* 🗓 Toggle session auto export and auto purge (daily/weekly/monthly)\n* ◔ Choose what to do when point number quota is reached (block logging or delete oldest point)\n\nPublic page and public filtered page work like main page except there is only one session displayed, everything is read-only and there is no need to be logged in.\n\nThis app is tested on Nextcloud 17 with Firefox 57+ and Chromium.\n\nThis app is compatible with theming colours and accessibility themes !\n\nThis app is under development.\n\n## Install\n\nSee the [AdminDoc](https://gitlab.com/eneiluj/phonetrack-oc/wikis/admindoc) for installation details.\n\nCheck [CHANGELOG](https://gitlab.com/eneiluj/phonetrack-oc/blob/master/CHANGELOG.md#change-log) file to see what's new and what's coming in next release.\n\nCheck [AUTHORS](https://gitlab.com/eneiluj/phonetrack-oc/blob/master/AUTHORS.md#authors) file to see complete list of authors.\n\n## Known issues\n\n* PhoneTrack **now works** with Nextcloud group restriction activated. See [admindoc](https://gitlab.com/eneiluj/phonetrack-oc/wikis/admindoc#issue-with-phonetrack-restricted-to-some-groups-in-nextcloud).\n\nAny feedback will be appreciated.\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://gitlab.com/eneiluj/phonetrack-oc",
     "licenses": [
@@ -1320,9 +1340,9 @@
     ]
   },
   "recognize": {
-    "sha256": "e8db432d6b877c9bb5374d7ae955000a05198bd70e85520b1901f1c05b039f99",
-    "url": "https://github.com/nextcloud/recognize/releases/download/v3.2.3/recognize-3.2.3.tar.gz",
-    "version": "3.2.3",
+    "sha256": "58857989a4953036065493de609c3986af9082aaab3a7e6ce3a70c94c88d1ecd",
+    "url": "https://github.com/nextcloud/recognize/releases/download/v3.3.0/recognize-3.3.0.tar.gz",
+    "version": "3.3.0",
     "description": "This app goes through your media collection and adds fitting tags, automatically categorizing your photos and music.\n\n* 📷 👪 Recognizes faces from contact photos\n* 📷 🏔 Recognizes animals, landscapes, food, vehicles, buildings and other objects\n* 📷 🗼 Recognizes landmarks and monuments\n* 👂 🎵 Recognizes music genres\n* ⚡ Tagging works via Nextcloud's Collaborative Tags, allowing access by any of your apps\n  * 👂 listen to your tagged music with the audioplayer app\n  * 📷 view your tagged photos with the photos app\n\nAfter installation, you can enable tagging in the admin settings.\n\nRequirements:\n- PHP 7.4 and above\n- App \"collaborative tags\" enabled\n- For native speed:\n  - Processor: x86 64-bit (with support for AVX instructions)\n  - System with glibc (usually the norm on Linux; Alpine linux and FreeBSD are *not* such systems)\n- For sub-native speed (using JavaScript mode)\n  - Processor: x86 64-bit, arm64, armv7l (no AVX needed)\n  - System with glibc or musl (incl. Alpine linux)\n- ~4GB of free RAM (if you're cutting it close, make sure you have some swap available)\n\nThe app does not send any sensitive data to cloud providers or similar services. All processing is done on your Nextcloud machine, using Tensorflow.js running in Node.js.",
     "homepage": "https://github.com/marcelklehr/recognize",
     "licenses": [
