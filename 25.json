@@ -30,9 +30,9 @@
     ]
   },
   "appointments": {
-    "sha256": "7d9426b453c738446f4021480370febb054a3a695aca1569e6b9d133370f923f",
-    "url": "https://github.com/SergeyMosin/Appointments/raw/v1.14.6/build/artifacts/appstore/appointments.tar.gz",
-    "version": "1.14.6",
+    "sha256": "ea4f6680b18739f7a53dacde56251ba73ccdab8501475746d26acae6628f5983",
+    "url": "https://github.com/SergeyMosin/Appointments/raw/v1.14.7/build/artifacts/appstore/appointments.tar.gz",
+    "version": "1.14.7",
     "description": "Book appointments into your calendar via secure online form. Attendees can confirm or cancel their appointments via an email link.",
     "homepage": "https://www.srgdev.com/lab/nextcloud-appointments/",
     "licenses": [
@@ -60,9 +60,9 @@
     ]
   },
   "auto_groups": {
-    "sha256": "6740bbacb258ed51c67f082bf1cbba76cc278c91cd8b957b9a1516bede482669",
-    "url": "https://github.com/stjosh/auto_groups/releases/download/v1.4.1/auto_groups-v1.4.1.tar.gz",
-    "version": "1.4.1",
+    "sha256": "4fa6c9dd642e76c6331cceb3a3ce1755e4b6c89a234228bf7da9353686735fc1",
+    "url": "https://github.com/stjosh/auto_groups/releases/download/v1.5.0/auto_groups-v1.5.0.tar.gz",
+    "version": "1.5.0",
     "description": "Automatically add users to the specified Auto Groups, except those users belonging to one of the specified Override Groups. \nOptionally, the group assignment can be triggered on every successful login, which is useful for external user backends.\n\n## Configuration\n\n- Go to \"Settings > Administration > Additional settings\"\n- Configure the Auto Groups\n- If required, configure the Override Groups (e.g., for Service Accounts)\n- Optionally, enable the Login Hook, which will enforce correct group membership on every successful login\n\nNote that this app prevents group deletions for groups referenced as Auto Groups or Override Groups.\n\n## Comparison to similar Apps\n\n* [Everyone Group](https://apps.nextcloud.com/apps/group_everyone): The \"Everyone Group\" app adds a virtual Group Backend, always returning all users. In contrast, \"Auto Groups\" operates on \"real\" groups in your normal Group Backend. Additionally, it is possible to specify Override Groups which will prevent users from being added to the Auto Group(s).\n* [Default Group](https://apps.nextcloud.com/apps/defaultgroup): \"Auto Groups\" is actually a modernized and maintaned fork of \"Default Group\", which seems to be abandoned since NC12 or so. In terms of functionality, they are almost identical.\n\nIn addition, I plan to add some more features over time, e.g., \"Union Groups\" - see the [Milestone Plans](https://github.com/stjosh/auto_groups/milestones) for more details.",
     "homepage": "https://github.com/stjosh/auto_groups",
     "licenses": [
@@ -150,9 +150,9 @@
     ]
   },
   "cfg_share_links": {
-    "sha256": "8ec061b490b043780ca00eb0862f865378d18bd200416de4ca1e0bdd39cecd77",
-    "url": "https://github.com/jimmyl0l3c/cfg_share_links/releases/download/v3.0.1/cfg_share_links.tar.gz",
-    "version": "3.0.1",
+    "sha256": "8d00816d428570b3440e0eb55fd8168e1cd684e70630481f8777ddcee2d97735",
+    "url": "https://github.com/jimmyl0l3c/cfg_share_links/releases/download/v3.0.2/cfg_share_links.tar.gz",
+    "version": "3.0.2",
     "description": "App for Nextcloud that adds the ability to specify share tokens when creating new public links and change tokens of existing links.\n\n## Features\n\nSharing sidebar is expanded by new section (Custom public link) that allows you to create public links with custom share tokens.\nYou can also customize share tokens of existing public links.\n\n## Settings\n\nBy going to **Settings > Administration > Configurable Share Links** admins can set default labels for custom links and minimal token length.\nDefault label can be: none, same as token or custom (the same custom label for all custom links).",
     "homepage": "https://github.com/jimmyl0l3c/cfg_share_links",
     "licenses": [
@@ -380,9 +380,9 @@
     ]
   },
   "facerecognition": {
-    "sha256": "9ef0e2355b02ec8559dbdd341ae70eb6a3e279497061518d3a735907bf1f564a",
-    "url": "https://github.com/matiasdelellis/facerecognition/releases/download/v0.9.10-beta.2/facerecognition.tar.gz",
-    "version": "0.9.10-beta.2",
+    "sha256": "fa8781fd4b3f53180e0bcb5bda649d1520b23f0e0a5c59abaec1a3321070a125",
+    "url": "https://github.com/matiasdelellis/facerecognition/releases/download/v0.9.10/facerecognition.tar.gz",
+    "version": "0.9.10",
     "description": "**Detect and group faces of your loved one in your cloud**\n\n⚠️ This application requires minimum of 1GB of RAM memory to work! See [Requirements](https://github.com/matiasdelellis/facerecognition/wiki/Requirements-and-Limitations) for details.\n\n⚠️ Setup of this app requires access to terminal and even getting your hands dirty with installation of additional software. See [Installation](https://github.com/matiasdelellis/facerecognition/wiki/Installation) for details.\n\n- **😏 Detect faces from images:** Use FaceRecognition app to detect _any_ face in _any_ of your images!\n- **👪 Group faces to persons:** Detected faces are grouped together based on similarity and then FaceRecognition app can recognize persons!\n- **🔒 Built-in privacy:** No data is leaving your cloud. Defaults are always off and each user controls enabling/disabling face detection. Images from every directory can be excluded from face detection, if needed.\n- **⚙️ Power of AI:** FaceRecognition app leverages power of AI and already built neural network models through extensive usage of [DLib](http://dlib.net/) library.\n- **🚀 Build your own thing:** FaceRecognition app is just a basic building block. Through FaceRecognition API, you can build your advanced scenarios - automatically add tags to images, connect contacts and persons, share images from specific person… We want to hear your ideas!",
     "homepage": "https://github.com/matiasdelellis/facerecognition",
     "licenses": [
@@ -435,6 +435,26 @@
     "version": "1.0.1",
     "description": "Allow to limit the number of downloads for link shares",
     "homepage": "https://github.com/nextcloud/files_downloadlimit",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "files_fulltextsearch": {
+    "sha256": "26bd35cfa74ac9d38b92087feb2b825806e57e17eba388d11691db20dfe3ec63",
+    "url": "https://github.com/nextcloud-releases/files_fulltextsearch/releases/download/25.0.0/files_fulltextsearch-25.0.0.tar.gz",
+    "version": "25.0.0",
+    "description": "Extension to the _Full text search_ app to index your users' files.",
+    "homepage": "https://github.com/nextcloud/files_fulltextsearch",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "files_fulltextsearch_tesseract": {
+    "sha256": "f1498c69d1803e28281bce932be6356008bd50145a49967a4647445e6b2ed4bd",
+    "url": "https://github.com/nextcloud-releases/files_fulltextsearch_tesseract/releases/download/25.0.0/files_fulltextsearch_tesseract-25.0.0.tar.gz",
+    "version": "25.0.0",
+    "description": "Extension to the _Full text search - Files_ app to OCR your documents before index.\n\nThis is a simple app that use [Tesseract OCR for PHP](https://github.com/thiagoalessio/tesseract-ocr-for-php),\nwhich is a wrapper for the command line program [Tesseract OCR](https://github.com/tesseract-ocr/tesseract)\n\nTesseract must be installed locally, and configured.",
+    "homepage": "https://github.com/nextcloud/files_fulltextsearch_tesseract",
     "licenses": [
       "agpl"
     ]
@@ -585,6 +605,26 @@
     "version": "3.0.1",
     "description": "**Simple surveys and questionnaires, self-hosted!**\n\n- **📝 Simple design:** No mass of options, only the essentials. Works well on mobile of course.\n- **📊 View & export results:** Results are visualized and can also be exported as CSV in the same format used by Google Forms.\n- **🔒 Data under your control!** Unlike in Google Forms, Typeform, Doodle and others, the survey info and responses are kept private on your instance.\n- **🙋 Get involved!** We have lots of stuff planned like more question types, collaboration on forms, [and much more](https://github.com/nextcloud/forms/milestones)!",
     "homepage": "https://github.com/nextcloud/forms",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "fulltextsearch": {
+    "sha256": "89bfbdb3b73695d0e4d1dd092fe2434482ba96242371269d2460d36dcafec496",
+    "url": "https://github.com/nextcloud-releases/fulltextsearch/releases/download/25.0.0/fulltextsearch-25.0.0.tar.gz",
+    "version": "25.0.0",
+    "description": "Core App of the full-text search framework for your Nextcloud.",
+    "homepage": "https://github.com/nextcloud/fulltextsearch",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "fulltextsearch_elasticsearch": {
+    "sha256": "e26ae165b6d07f636729427ef1686a2b644a15e8eb43cd037b2cb981f4f82e9c",
+    "url": "https://github.com/nextcloud-releases/fulltextsearch_elasticsearch/releases/download/25.0.0/fulltextsearch_elasticsearch-25.0.0.tar.gz",
+    "version": "25.0.0",
+    "description": "Extension to the _Full text search_ app to communicate with ElasticSearch.",
+    "homepage": "https://github.com/nextcloud/fulltextsearch_elasticsearch",
     "licenses": [
       "agpl"
     ]
@@ -1000,8 +1040,8 @@
     ]
   },
   "maps": {
-    "sha256": "e9d4cd3461cabbdecb66f46f83be39d9ed9fc3eda5a14721b51bafdf5bcb2206",
-    "url": "https://github.com/nextcloud/maps/releases/download/v0.2.1/maps-0.2.1.tar.gz",
+    "sha256": "c63770ec1d5019a01c63fbeb7e40bd0292d5ea715d0b844cfd238f000ac64c0e",
+    "url": "https://github.com/nextcloud/maps/releases/download/v0.2.1-1-nightly/maps-0.2.1-1-nightly.tar.gz",
     "version": "0.2.1",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
