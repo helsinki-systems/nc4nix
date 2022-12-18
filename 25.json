@@ -169,6 +169,16 @@
       "agpl"
     ]
   },
+  "cloud_py_api": {
+    "sha256": "33b018f2a52f1ae439ccb2c3a35c66d809da2c2ad5d4ffe909efa84efb825c65",
+    "url": "https://github.com/cloud-py-api/cloud_py_api/releases/download/v0.1.0/cloud_py_api.tar.gz",
+    "version": "0.1.0",
+    "description": "Nextcloud Python API Framework\n\n| **Currently in development, all is in a design state**\n\n### Provides Convenient Functions for Python\n\n- Read & Write File System objects\n- Working with Database\n- Wrapper around `OCC` calls\n- Calling your python function from php part of app and return a result\n\n### Used by apps\n\n- [MediaDC](https://apps.nextcloud.com/apps/mediadc) - Nextcloud Media Duplicate Collector app\n\n### Support\n\nYou can support us in several ways:\n\n- ⭐ Star our work (it really motivates)\n- ❗ Create an Issue or feature request (bring to us an excellent idea)\n- 💁 Resolve some Issue or create a Pull Request (contribute to this project)\n- 🪙 Donate with any amount with one of the links below (fund this project)\n\n[![PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/donate?hosted_button_id=H5PLJJMWLDNJQ)\n[![Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/cloud_py_api/donate)",
+    "homepage": "https://github.com/cloud-py-api/cloud_py_api",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "cms_pico": {
     "sha256": "5c464f9bcac1e16596f1c1cda2132712d65ef8ff739cdb141efb2bc5c8347164",
     "url": "https://github.com/nextcloud/cms_pico/releases/download/v1.0.21/cms_pico-v1.0.21.tar.gz",
@@ -230,8 +240,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -970,8 +980,8 @@
     ]
   },
   "integration_zimbra": {
-    "sha256": "e2536f1ba4f928b67a8cf460d07de241655b3f344d3eab6e6ec0918949e74425",
-    "url": "https://github.com/julien-nc/integration_zimbra/releases/download/v1.0.4/integration_zimbra-1.0.4.tar.gz",
+    "sha256": "99fe1e34d9c4d9be9dc627325445fc8598786757635a199c8df1d9d20b0bd946",
+    "url": "https://github.com/julien-nc/integration_zimbra/releases/download/v1.0.4-1-nightly/integration_zimbra-1.0.4-1-nightly.tar.gz",
     "version": "1.0.4",
     "description": "Zimbra integration into Nextcloud provides a dashboard widget for unread emails,\n one for upcoming events, a search provider for emails and the ability to search for Zimbra contacts in Nextcloud.\n\nNextcloud will suggest your Zimbra contacts addresses when you search for a contact via the top-right contacts menu\nor when you search for someone to share a file to.",
     "homepage": "https://github.com/eneiluj/integration_zimbra",
@@ -1010,9 +1020,9 @@
     ]
   },
   "libresign": {
-    "sha256": "b282bf71e9552448140369084159a920a2fa56e02f58382f12df9e548ee33071",
-    "url": "https://github.com/LibreSign/libresign/releases/download/v6.2.0/libresign.tar.gz",
-    "version": "6.2.0",
+    "sha256": "4a879fb7e6786ddc5008e5cef8dc51842c3d19c3377e82dc3bec68b5828bdd20",
+    "url": "https://github.com/LibreSign/libresign/releases/download/v6.2.2/libresign.tar.gz",
+    "version": "6.2.1",
     "description": "**This is a libre digital PDF signature app for Nextcloud**\n\n* ✍️ Sign PDF documents using digital signature",
     "homepage": "https://github.com/LibreSign/libresign",
     "licenses": [
@@ -1060,10 +1070,10 @@
     ]
   },
   "mediadc": {
-    "sha256": "f1305afd410a9da16b8c6baf52fb3e708216897fd0008b5752b692d8f669d8f8",
-    "url": "https://github.com/andrey18106/mediadc/releases/download/v0.3.0-beta.1/mediadc.tar.gz",
-    "version": "0.3.0-beta.1",
-    "description": "**Python 3.6.8 or higher required**\n\nThis app allows to find duplicate or similar 📸📹 photos and videos\n* **Many image formats supported** Jpeg, png, tiff, bmp, gif, heic/hif, cr2 and others.\n* **Large amount of supported video  formats** All that is supported by ffmpeg.\n* **Flexible config** Set your precision level for comparing, choose algo that suits for you most.\n* **Quick rescan** Once file was scanned, hash will be saved, and used for other scans.\n* **External Storages support** [in progress] Search everywhere among all files available to the user.\n* **Save your time and cloud space** The title says all...\n\nQuick start guide and further information in our [Wiki](https://github.com/andrey18106/mediadc/wiki).",
+    "sha256": "cb0bc6fde2fc458aa844244a66e48c9eee643ba02a579d062cd39ab6eac75797",
+    "url": "https://github.com/andrey18106/mediadc/releases/download/v0.3.0/mediadc.tar.gz",
+    "version": "0.3.0",
+    "description": "**[`cloud_py_api`](https://apps.nextcloud.com/apps/cloud_py_api) is required to be installed and enabled first.**\n\nThis app allows to find duplicate or similar 📸📹 photos and videos\n* **Many image formats supported** Jpeg, png, tiff, bmp, gif, heic/hif, cr2 and others.\n* **Large amount of supported video  formats** All that is supported by ffmpeg.\n* **Flexible config** Set your precision level for comparing, choose algo that suits for you most.\n* **Quick rescan** Once file was scanned, hash will be saved, and used for other scans.\n* **External Storages support** Search everywhere among all files available to the user.\n* **Save your time and cloud space** The title says all...\n\nQuick start guide and further information in our [Wiki](https://github.com/andrey18106/mediadc/wiki).\n\n### Support\n\nYou can support us in several ways:\n\n- ⭐ Star our work (it really motivates)\n- ❗ Create an Issue or feature request (bring to us an excellent idea)\n- 💁 Resolve some Issue or create a Pull Request (contribute to this project)\n- 🪙 Donate with any amount with one of the links below (fund this project)\n\n[![PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/donate?hosted_button_id=H5PLJJMWLDNJQ)\n[![Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/cloud_py_api/donate)",
     "homepage": "https://github.com/andrey18106/mediadc",
     "licenses": [
       "agpl"
