@@ -230,9 +230,9 @@
     ]
   },
   "cospend": {
-    "sha256": "af2170f3272008ca5458935fc2ffa9bd7c7ad6cf0d53fa66522b759eafe42c6d",
-    "url": "https://github.com/julien-nc/cospend-nc/releases/download/v1.5.4/cospend-1.5.4.tar.gz",
-    "version": "1.5.4",
+    "sha256": "29605aee2b80f0ce1f3e4db95450026b186141c712589440fa84a28e4cc05c88",
+    "url": "https://github.com/julien-nc/cospend-nc/releases/download/v1.5.5-1-nightly/cospend-1.5.5-1-nightly.tar.gz",
+    "version": "1.5.5",
     "description": "# Nextcloud Cospend 💰\n\nNextcloud Cospend is a group/shared budget manager. It was inspired by the great [IHateMoney](https://github.com/spiral-project/ihatemoney/).\n\nYou can use it when you share a house, when you go on vacation with friends, whenever you share money with others.\n\nIt lets you create projects with members and bills. Each member has a balance computed from the project bills. This way you can see who owes the group and who the group owes. Ultimately you can ask for a settlement plan telling you which payments to make to reset members balances.\n\nProject members are independent from Nextcloud users. Projects can be accessed and modified by people without a Nextcloud account. Each project has an ID and a password for guest access.\n\n[MoneyBuster](https://gitlab.com/eneiluj/moneybuster) Android client is [available in F-Droid](https://f-droid.org/packages/net.eneiluj.moneybuster/) and on the [Play store](https://play.google.com/store/apps/details?id=net.eneiluj.moneybuster).\n\n[PayForMe](https://github.com/mayflower/PayForMe) iOS client is currently being developped!\n\n## Features\n\n* ✎ create/edit/delete projects, members, bills, bill categories, currencies\n* ⚖ check member balances\n* 🗠 display project statistics\n* ♻ display settlement plan\n* 🎇 automatically create reimbursement bills from settlement plan\n* 🗓 create recurring bills (daily/weekly/monthly/yearly)\n* 📊 optionally provide custom amount for each member in new bills\n* 🔗 link bills with personal files (picture of physical bill for example)\n* 👩 guest access for people outside Nextcloud\n* 👫 share projects with Nextcloud users/groups/circles\n* 🖫 import/export projects as csv (compatible with csv files from IHateMoney)\n* 🔗 generate link/QRCode to easily import projects in MoneyBuster\n* 🗲 implement Nextcloud notifications and activity stream\n\nThis app is tested on Nextcloud 20+ with Firefox 57+ and Chromium.\n\nThis app is under development.\n\n🌍 Help us to translate this app on [Nextcloud-Cospend/MoneyBuster Crowdin project](https://crowdin.com/project/moneybuster).\n\n⚒ Check out other ways to help in the [contribution guidelines](https://gitlab.com/eneiluj/cospend-nc/blob/master/CONTRIBUTING.md).\n\n## Documentation\n\n* [User documentation](https://github.com/eneiluj/cospend-nc/blob/master/docs/user.md)\n* [Admin documentation](https://github.com/eneiluj/cospend-nc/blob/master/docs/admin.md)\n* [Developer documentation](https://github.com/eneiluj/cospend-nc/blob/master/docs/dev.md)\n* [CHANGELOG](https://github.com/eneiluj/cospend-nc/blob/master/CHANGELOG.md#change-log)\n* [AUTHORS](https://github.com/eneiluj/cospend-nc/blob/master/AUTHORS.md#authors)\n\n## Known issues\n\n* it does not make you rich\n\nAny feedback will be appreciated.\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://github.com/eneiluj/cospend-nc",
     "licenses": [
@@ -240,8 +240,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -410,9 +410,9 @@
     ]
   },
   "files_accesscontrol": {
-    "sha256": "98303961a0ef53032d85e5c8e65f4f986d6d102a01859da9e045ffb813a96723",
-    "url": "https://github.com/nextcloud-releases/files_accesscontrol/releases/download/v1.15.0/files_accesscontrol-v1.15.0.tar.gz",
-    "version": "1.15.0",
+    "sha256": "461c1d4865a84ccd6ed3fd1b0c735d2cfbe68e6888887513052fb54ea2b27cf7",
+    "url": "https://github.com/nextcloud-releases/files_accesscontrol/releases/download/v1.15.1/files_accesscontrol-v1.15.1.tar.gz",
+    "version": "1.15.1",
     "description": "Nextcloud's File Access Control app enables administrators to protect data from unauthorized access or modifications.\n\n## How it works\nThe administrator can create and manage a set of rule groups. Each of the rule groups consists of one or more rules. If all rules of a group hold true, the group matches the request and access is being denied or the upload is blocked. The rules criteria range from IP address, MIME type and request time to group membership, tags, user agent and more.\n\nAn example would be to deny access to MS Excel/XLSX files owned by the \"Human Resources\" group accessed from an IP not on the internal company network or to block uploads of files bigger than 512 mb by students in the \"1st year\" group.\n\nLearn more about File Access Control on [https://nextcloud.com/workflow](https://nextcloud.com/workflow)",
     "homepage": "https://github.com/nextcloud/files_accesscontrol",
     "licenses": [
@@ -1060,8 +1060,8 @@
     ]
   },
   "maps": {
-    "sha256": "c63770ec1d5019a01c63fbeb7e40bd0292d5ea715d0b844cfd238f000ac64c0e",
-    "url": "https://github.com/nextcloud/maps/releases/download/v0.2.1-1-nightly/maps-0.2.1-1-nightly.tar.gz",
+    "sha256": "e9d4cd3461cabbdecb66f46f83be39d9ed9fc3eda5a14721b51bafdf5bcb2206",
+    "url": "https://github.com/nextcloud/maps/releases/download/v0.2.1/maps-0.2.1.tar.gz",
     "version": "0.2.1",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
@@ -1110,9 +1110,9 @@
     ]
   },
   "money": {
-    "sha256": "8807906e65bfe5902bb39b8b0f3a0345c37d79eca10b6749b459309551f24ff4",
-    "url": "https://github.com/powerpaul17/nc_money/releases/download/v0.11.3/money.tar.gz",
-    "version": "0.11.3",
+    "sha256": "2cfced4852469a120d0c828f37fa863db246294c0a6c57ed06377c374aaa7951",
+    "url": "https://github.com/powerpaul17/nc_money/releases/download/v0.12.0/money.tar.gz",
+    "version": "0.12.0",
     "description": "Finance manager for Nextcloud.",
     "homepage": "https://github.com/powerpaul17/nc_money",
     "licenses": [
@@ -1599,6 +1599,16 @@
       "agpl"
     ]
   },
+  "snowflakestheme": {
+    "sha256": "50d3d9876633ad267208003edf674c7b565cd3052f5f91dc41f3f6996edc1b2b",
+    "url": "https://github.com/christianlupus-nextcloud/snowflakestheme/releases/download/v0.0.1/snowflakestheme-appstore.tar.gz",
+    "version": "0.0.1",
+    "description": "This app just adds an overlay over all nextcloud pages to show a snowing effect.",
+    "homepage": "https://github.com/christianlupus-nextcloud/snowflakestheme",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "social": {
     "sha256": "a9427164226b570e1d0203903975e6abb782b0657129a80512040c1eaecc5f25",
     "url": "https://github.com/nextcloud-releases/social/releases/download/v0.5.0-beta3/social-v0.5.0-beta3.tar.gz",
@@ -1880,9 +1890,9 @@
     ]
   },
   "user_saml": {
-    "sha256": "f19dc8115321f04cd283c8d609b6e74c2032d6979176390ea5319352a2a5e199",
-    "url": "https://github.com/nextcloud-releases/user_saml/releases/download/v5.1.1/user_saml-v5.1.1.tar.gz",
-    "version": "5.1.1",
+    "sha256": "c7dfc677f3a1d869f0586557c226c5c90c6433c733ba68653b06f0c633456a73",
+    "url": "https://github.com/nextcloud-releases/user_saml/releases/download/v5.1.2/user_saml-v5.1.2.tar.gz",
+    "version": "5.1.2",
     "description": "Using the SSO & SAML app of your Nextcloud you can make it easily possible to integrate your existing Single-Sign-On solution with Nextcloud. In addition, you can use the Nextcloud LDAP user provider to keep the convenience for users. (e.g. when sharing)\nThe following providers are supported and tested at the moment:\n\n* **SAML 2.0**\n\t* OneLogin\n\t* Shibboleth\n\t* Active Directory Federation Services (ADFS)\n\n* **Authentication via Environment Variable**\n\t* Kerberos (mod_auth_kerb)\n\t* Any other provider that authenticates using the environment variable\n\nWhile theoretically any other authentication provider implementing either one of those standards is compatible, we like to note that they are not part of any internal test matrix.",
     "homepage": "https://github.com/nextcloud/user_saml",
     "licenses": [
