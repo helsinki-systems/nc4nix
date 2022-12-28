@@ -989,6 +989,16 @@
       "agpl"
     ]
   },
+  "jitsi": {
+    "sha256": "cea3267e98ef690546568df3a5f0e6cbf01d6b7042999cf8e91c28be98fd15ec",
+    "url": "https://weimann.digital/nextcloud-jitsi-v0.16.0.tar.gz",
+    "version": "0.16.0",
+    "description": "This app integrates Jitsi conferences into Nextcloud.\n\nFeatures:\n- 🎥 Easy online conferences in Nextcloud utilising Jitsi\n- 🔗 Sharable conference room links\n- 🔎 Shows conference rooms in the global search\n- ✅ System test before joining a conference\n\nPlease read the [documentation](https://github.com/nextcloud/jitsi).",
+    "homepage": "https://github.com/nextcloud/jitsi",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "keeweb": {
     "sha256": "a3281fcfdb4058971a3b5c838870a8d5b533445c999b8e921fb8758b216dadbc",
     "url": "https://github.com/jhass/nextcloud-keeweb/releases/download/v0.6.10/keeweb-0.6.10.tar.gz",
@@ -1279,6 +1289,16 @@
       "agpl"
     ]
   },
+  "pdf_downloader": {
+    "sha256": "2600c6b5e183877c72ff36ebfc7c9f8793932d949cf8852de7b068a410bb24aa",
+    "url": "https://github.com/rotdrop/nextcloud-app-pdf-downloader/releases/download/v1.1.0-rc4/pdf_downloader.tar.gz",
+    "version": "1.1.0-rc4",
+    "description": "Recursively convert entire directory trees to PDF and provide the resulting document as download",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "permissions_overwrite": {
     "sha256": "1f7843d726441cb8d24d62e1d9136358268361909f83a4f9bb7c39863a6c73be",
     "url": "https://github.com/icewind1991/permissions_overwrite/releases/download/v0.1.8/permissions_overwrite.tar.gz",
@@ -1410,9 +1430,9 @@
     ]
   },
   "recognize": {
-    "sha256": "2fefee3d7f541beb8c20559ec30ab9b10b0e9f6f5cb4a962c1d3ce5673829830",
-    "url": "https://github.com/nextcloud/recognize/releases/download/v3.3.3/recognize-3.3.3.tar.gz",
-    "version": "3.3.3",
+    "sha256": "de8417f2922a26c40a9c625050fb7c21cbd9cb1568f16f1996af8ebcc6895425",
+    "url": "https://github.com/nextcloud/recognize/releases/download/v3.3.4/recognize-3.3.4.tar.gz",
+    "version": "3.3.4",
     "description": "This app goes through your media collection and adds fitting tags, automatically categorizing your photos and music.\n\n* 📷 👪 Recognizes faces from contact photos\n* 📷 🏔 Recognizes animals, landscapes, food, vehicles, buildings and other objects\n* 📷 🗼 Recognizes landmarks and monuments\n* 👂 🎵 Recognizes music genres\n* ⚡ Tagging works via Nextcloud's Collaborative Tags, allowing access by any of your apps\n  * 👂 listen to your tagged music with the audioplayer app\n  * 📷 view your tagged photos with the photos app\n\nAfter installation, you can enable tagging in the admin settings.\n\nRequirements:\n- PHP 7.4 and above\n- App \"collaborative tags\" enabled\n- For native speed:\n  - Processor: x86 64-bit (with support for AVX instructions)\n  - System with glibc (usually the norm on Linux; Alpine linux and FreeBSD are *not* such systems)\n- For sub-native speed (using JavaScript mode)\n  - Processor: x86 64-bit, arm64, armv7l (no AVX needed)\n  - System with glibc or musl (incl. Alpine linux)\n- ~4GB of free RAM (if you're cutting it close, make sure you have some swap available)\n\nThe app does not send any sensitive data to cloud providers or similar services. All processing is done on your Nextcloud machine, using Tensorflow.js running in Node.js.",
     "homepage": "https://github.com/marcelklehr/recognize",
     "licenses": [
@@ -1610,9 +1630,9 @@
     ]
   },
   "snappymail": {
-    "sha256": "561bd0dbc123647b2554b8a5982791bf74e0f339ac487186dfb60d3e15a2cf0c",
-    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.24.1-nextcloud.tar.gz",
-    "version": "2.24.1",
+    "sha256": "29d9df2ffeec6ad6db29061a3821fed48983300cb85be158ec2e078379479192",
+    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.24.2-nextcloud.tar.gz",
+    "version": "2.24.2",
     "description": "**Simple, modern, lightweight & fast web-based email client.**\n\n- **Dark mode**\n- **Responsive design**\n- **Full Sieve filtering support**\n- **Almost all IMAP features** including advanced searching\n- **Integration with Nextcloud Unified Search**\n- **Integration with other Nextcloud apps** (Contacts, Files and Calendar)\n- **Multiple mail accounts and identities**\n- **Send & receive OpenPGP encrypted/signed emails** (With full HTML support, ECC keys, or plain text with Mailvelope)\n- **Many security features** (Sodium encrypted passwords, Sec-Fetch, TOTP 2FA, DKIM, prevent tracking, etc.)\n- **Kolab integrations**\n\nAfter enabling in Nextcloud, go to Nextcloud admin panel, \"Additional settings\" and you will see a \"SnappyMail webmail\" section.\nThere, click on the link to go to the SnappyMail admin panel.",
     "homepage": "https://snappymail.eu",
     "licenses": [
@@ -1760,9 +1780,9 @@
     ]
   },
   "tvshownamer": {
-    "sha256": "dbfb2e09efae4fe23618601a97634c386580a5d4f8f47007a1654a3dfb4ff4e2",
-    "url": "https://github.com/j4ym0/nextcloud-tv-show-namer/releases/download/0.4.2/tvshownamer.tar.gz",
-    "version": "0.4.2",
+    "sha256": "7e6a879cdc6c27b87e5b88f12b5f60fad1c066f0b31ce79e4a75461bb84cd5ce",
+    "url": "https://github.com/j4ym0/nextcloud-tv-show-namer/releases/download/0.5.0/tvshownamer.tar.gz",
+    "version": "0.5.0",
     "description": "TV show namer organises your TV shows, series and seasons into a standard format. It uses themoviedb.org to scrape TV information to organise your folders.\n\nRename files from “some.show.s01e03.avi” To “Some Show - S01E01 - Episode Name.avi” easily",
     "homepage": "",
     "licenses": [
@@ -1860,11 +1880,21 @@
     ]
   },
   "uppush": {
-    "sha256": "eb705616807c8b5685fccb41da11d61df04e510ad0d2276f9d265add30fd8f2b",
-    "url": "https://github.com/p1gp1g/nextpush-publish/raw/main/1.1.2/uppush-1.1.2.tar.gz",
-    "version": "1.1.2",
+    "sha256": "1d97286a027483e6209a26b94664ad5da963f5fbdd01a2b50dd2e32b7141dd36",
+    "url": "https://github.com/p1gp1g/nextpush-publish/raw/main/1.1.3/uppush-1.1.3.tar.gz",
+    "version": "1.1.3",
     "description": "Once the mobile phone is connected with NextPush, push notifications can be forwarded to applications implementing UnifiedPush.\n\nMore information about UnifiedPush at https://unifiedpush.org",
     "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "user_external": {
+    "sha256": "8bb7db302b25045f70317823b64cc66b684d5bdf7d68817840169bdc726ce6dc",
+    "url": "https://github.com/nextcloud-releases/user_external/releases/download/v3.1.0/user_external-v3.1.0.tar.gz",
+    "version": "3.1.0",
+    "description": "Use external user authentication methods to give users acces to your Nextcloud instance:\n\n* IMAP\n* SMB\n* FTP\n* WebDAV\n* HTTP BasicAuth\n* SSH\n* XMPP\n\nRead the [documentation](https://github.com/nextcloud/user_external#readme) to learn how to configure it!",
+    "homepage": "https://github.com/nextcloud/user_external/",
     "licenses": [
       "agpl"
     ]
@@ -1970,9 +2000,9 @@
     ]
   },
   "welcome": {
-    "sha256": "facfbc5d8362aa586432fe7450e26946245c253bf464e20b047b4a517d320bc9",
-    "url": "https://github.com/julien-nc/welcome/releases/download/v1.0.4/welcome-1.0.4.tar.gz",
-    "version": "1.0.4",
+    "sha256": "ef5fea569422a8fddeaeff99dad11cafd53c0e9e0034225a2af408b2ea9449bd",
+    "url": "https://github.com/julien-nc/welcome/releases/download/v1.0.6/welcome-1.0.6.tar.gz",
+    "version": "1.0.6",
     "description": "ℹ A Markdown rendering Dashboard widget to welcome all users.\n\n⚙ Configure via `Settings > Administration > Theming > Welcome widget`\n\n📄 Pick a Markdown document to be rendered in the widget\n\n💡 If no document is chosen, the widget won't be shown\n\n📝 Edit the Markdown document to update the widget in real-time\n\n🖼 Images are also supported\n\n💬 Configure a contact person to directly start a chat with (requires [Nextcloud Talk](https://apps.nextcloud.com/apps/spreed) to be installed)",
     "homepage": "https://github.com/eneiluj/welcome",
     "licenses": [
