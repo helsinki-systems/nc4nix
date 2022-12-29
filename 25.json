@@ -400,9 +400,9 @@
     ]
   },
   "facerecognition": {
-    "sha256": "fa8781fd4b3f53180e0bcb5bda649d1520b23f0e0a5c59abaec1a3321070a125",
-    "url": "https://github.com/matiasdelellis/facerecognition/releases/download/v0.9.10/facerecognition.tar.gz",
-    "version": "0.9.10",
+    "sha256": "edc9e48459c9f14a615470ff88635d5fb8f52affa252ece8b5e2c18f05a0d23a",
+    "url": "https://github.com/matiasdelellis/facerecognition/releases/download/v0.9.11/facerecognition.tar.gz",
+    "version": "0.9.11",
     "description": "**Detect and group faces of your loved one in your cloud**\n\n⚠️ This application requires minimum of 1GB of RAM memory to work! See [Requirements](https://github.com/matiasdelellis/facerecognition/wiki/Requirements-and-Limitations) for details.\n\n⚠️ Setup of this app requires access to terminal and even getting your hands dirty with installation of additional software. See [Installation](https://github.com/matiasdelellis/facerecognition/wiki/Installation) for details.\n\n- **😏 Detect faces from images:** Use FaceRecognition app to detect _any_ face in _any_ of your images!\n- **👪 Group faces to persons:** Detected faces are grouped together based on similarity and then FaceRecognition app can recognize persons!\n- **🔒 Built-in privacy:** No data is leaving your cloud. Defaults are always off and each user controls enabling/disabling face detection. Images from every directory can be excluded from face detection, if needed.\n- **⚙️ Power of AI:** FaceRecognition app leverages power of AI and already built neural network models through extensive usage of [DLib](http://dlib.net/) library.\n- **🚀 Build your own thing:** FaceRecognition app is just a basic building block. Through FaceRecognition API, you can build your advanced scenarios - automatically add tags to images, connect contacts and persons, share images from specific person… We want to hear your ideas!",
     "homepage": "https://github.com/matiasdelellis/facerecognition",
     "licenses": [
@@ -850,8 +850,8 @@
     ]
   },
   "integration_google": {
-    "sha256": "89b26aa09e3166473a163e9008f55378199dfa2c6744448b582498fee3ec3aa9",
-    "url": "https://github.com/nextcloud/integration_google/releases/download/v1.0.9-4-nightly/integration_google-1.0.9-4-nightly.tar.gz",
+    "sha256": "80b8b99970f17ccce874f56665dba61438e38b875f679f60205b71368f204009",
+    "url": "https://github.com/nextcloud/integration_google/releases/download/v1.0.9-5-nightly/integration_google-1.0.9-5-nightly.tar.gz",
     "version": "1.0.9",
     "description": "Google integration allows you to automatically import your Google calendars, contacts, photos and files into Nextcloud.",
     "homepage": "https://github.com/nextcloud/integration_google",
@@ -980,8 +980,8 @@
     ]
   },
   "integration_zimbra": {
-    "sha256": "e2536f1ba4f928b67a8cf460d07de241655b3f344d3eab6e6ec0918949e74425",
-    "url": "https://github.com/julien-nc/integration_zimbra/releases/download/v1.0.4/integration_zimbra-1.0.4.tar.gz",
+    "sha256": "99fe1e34d9c4d9be9dc627325445fc8598786757635a199c8df1d9d20b0bd946",
+    "url": "https://github.com/julien-nc/integration_zimbra/releases/download/v1.0.4-1-nightly/integration_zimbra-1.0.4-1-nightly.tar.gz",
     "version": "1.0.4",
     "description": "Zimbra integration into Nextcloud provides a dashboard widget for unread emails,\n one for upcoming events, a search provider for emails and the ability to search for Zimbra contacts in Nextcloud.\n\nNextcloud will suggest your Zimbra contacts addresses when you search for a contact via the top-right contacts menu\nor when you search for someone to share a file to.",
     "homepage": "https://github.com/eneiluj/integration_zimbra",
@@ -990,9 +990,9 @@
     ]
   },
   "jitsi": {
-    "sha256": "cea3267e98ef690546568df3a5f0e6cbf01d6b7042999cf8e91c28be98fd15ec",
-    "url": "https://weimann.digital/nextcloud-jitsi-v0.16.0.tar.gz",
-    "version": "0.16.0",
+    "sha256": "db56ed57bb52e66d7898da516cc51f61e2623db67d0dc23580b1901d38054343",
+    "url": "https://weimann.digital/nextcloud-jitsi-v0.16.1.tar.gz",
+    "version": "0.16.1",
     "description": "This app integrates Jitsi conferences into Nextcloud.\n\nFeatures:\n- 🎥 Easy online conferences in Nextcloud utilising Jitsi\n- 🔗 Sharable conference room links\n- 🔎 Shows conference rooms in the global search\n- ✅ System test before joining a conference\n\nPlease read the [documentation](https://github.com/nextcloud/jitsi).",
     "homepage": "https://github.com/nextcloud/jitsi",
     "licenses": [
@@ -1245,6 +1245,16 @@
     "version": "0.7.1",
     "description": "Ownpad is a Nextcloud application that allows to create and open\n    Etherpad and Ethercalc documents.\n\n    This application requires to have access to an instance of\n    Etherpad and/or Ethercalc to work properly.",
     "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "pandoc": {
+    "sha256": "1569c573167868247e808128f2746391a8f3d74840f99eba9fabb1162f757702",
+    "url": "https://github.com/mejo-/pandoc/releases/download/v0.2.0/pandoc-0.2.0.tar.gz",
+    "version": "0.2.0",
+    "description": "Allows to convert text files from one markup to\n        another using Pandoc. It required [Pandoc](https://pandoc.org/) to\n        be installed on the Nextcloud host.",
+    "homepage": "https://github.com/mejo-/pandoc",
     "licenses": [
       "agpl"
     ]
@@ -1630,9 +1640,9 @@
     ]
   },
   "snappymail": {
-    "sha256": "29d9df2ffeec6ad6db29061a3821fed48983300cb85be158ec2e078379479192",
-    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.24.2-nextcloud.tar.gz",
-    "version": "2.24.2",
+    "sha256": "66ea8d063f29bef3a09278f12be33e7708b9245becb14437ec94696df8b615ad",
+    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.24.3-nextcloud.tar.gz",
+    "version": "2.24.3",
     "description": "**Simple, modern, lightweight & fast web-based email client.**\n\n- **Dark mode**\n- **Responsive design**\n- **Full Sieve filtering support**\n- **Almost all IMAP features** including advanced searching\n- **Integration with Nextcloud Unified Search**\n- **Integration with other Nextcloud apps** (Contacts, Files and Calendar)\n- **Multiple mail accounts and identities**\n- **Send & receive OpenPGP encrypted/signed emails** (With full HTML support, ECC keys, or plain text with Mailvelope)\n- **Many security features** (Sodium encrypted passwords, Sec-Fetch, TOTP 2FA, DKIM, prevent tracking, etc.)\n- **Kolab integrations**\n\nAfter enabling in Nextcloud, go to Nextcloud admin panel, \"Additional settings\" and you will see a \"SnappyMail webmail\" section.\nThere, click on the link to go to the SnappyMail admin panel.",
     "homepage": "https://snappymail.eu",
     "licenses": [
@@ -1855,6 +1865,16 @@
     "version": "1.0.0",
     "description": "A two-factor provider for WebAuthn devices",
     "homepage": "https://github.com/nextcloud/twofactor_webauthn#readme",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "twofactor_webeid": {
+    "sha256": "afda1070d430b140a483ae4c1e077a182dbb1656f52cd92b76e43946556f8c55",
+    "url": "https://github.com/Muzosh/nextcloud_twofactor_webeid/releases/download/v1.0.0/twofactor_webeid.tar.gz",
+    "version": "1.0.0",
+    "description": "This application enables the usage of Estonian project Web-eID as a second authentication factor. In addition to this, the user must have Web-eID installed on his OS and web-browser as well as having possesion of smart card reader and Web-eID compatible smart card.",
+    "homepage": "https://github.com/Muzosh/twofactor_webeid",
     "licenses": [
       "agpl"
     ]
