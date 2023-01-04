@@ -310,10 +310,10 @@
     ]
   },
   "drawio": {
-    "sha256": "5ead572411e3152e368222cc086dbdf8f88a0e2b55f453f999b17d16ca641d17",
-    "url": "https://github.com/jgraph/drawio-nextcloud/releases/download/v1.0.5/drawio-v1.0.5.tar.gz",
-    "version": "1.0.5",
-    "description": "Integrates Draw.io with Nextcloud",
+    "sha256": "089c37b6cc5be08245478aea0185a157c35c2770db891a597d0673d2f3dd4dfe",
+    "url": "https://github.com/jgraph/drawio-nextcloud/releases/download/v2.0.1/drawio-v2.0.1.tar.gz",
+    "version": "2.0.1",
+    "description": "Integrates draw.io diagrams editor with Nextcloud",
     "homepage": "https://github.com/jgraph/drawio-nextcloud",
     "licenses": [
       "agpl"
@@ -424,6 +424,16 @@
     "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v4.0.1/files_antivirus-v4.0.1.tar.gz",
     "version": "4.0.1",
     "description": "Antivirus for files is an antivirus app for Nextcloud.\n\n* 🕵️‍♂️ When the user uploads a file, it's checked\n* ☢️ Uploaded and infected files will be deleted and a notification will be shown and/or sent via email\n* 🔎 Background Job to scan all files\n* ❓ Use ClamAV (open source) or Kaspersky Scan Engine\n\nThis application inspects files that are uploaded to Nextcloud for viruses before they are written to the Nextcloud storage. If a file is identified as a virus, it is either logged or not uploaded to the server. The application relies on the underlying ClamAV virus scanning engine, which the admin points Nextcloud to when configuring the application. Alternatively, a Kaspersky Scan Engine can be configured, which has to run on a separate server.\nFor this app to be effective, the ClamAV virus definitions should be kept up to date. Also note that enabling this app will impact system performance as additional processing is required for every upload. More information is available in the Antivirus documentation.",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "files_archive": {
+    "sha256": "894460d34a38faa1bffd5a01b23d606c8bb443bdcc3673da5ee90655b4a523ea",
+    "url": "https://github.com/rotdrop/nextcloud-app-files-archive/releases/download/v1.1.0/files_archive.tar.gz",
+    "version": "1.1.0",
+    "description": "Inspect, mount and extract archive files (zip, tar, etc.)",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -890,8 +900,8 @@
     ]
   },
   "integration_mattermost": {
-    "sha256": "0915b4a3e1f1cfbd1ab643e27737080136bc9a42e6fdc4803e7c6951f6c60a3f",
-    "url": "https://github.com/julien-nc/integration_mattermost/releases/download/v1.0.4-1-nightly/integration_mattermost-1.0.4-1-nightly.tar.gz",
+    "sha256": "179fd8e25070c1fc1fe35841999f8e44475195649d1187592cd0c418d24f98db",
+    "url": "https://github.com/julien-nc/integration_mattermost/releases/download/v1.0.4-2-nightly/integration_mattermost-1.0.4-2-nightly.tar.gz",
     "version": "1.0.4",
     "description": "Mattermost integration provides a dashboard widget displaying your most important notifications\n    and a unified search provider for messages. It also lets you send files to Mattermost from Nextcloud Files.",
     "homepage": "https://github.com/eneiluj/integration_mattermost",
@@ -1280,9 +1290,9 @@
     ]
   },
   "passwords": {
-    "sha256": "7fba2bd450050c47deee2d8ac21cd967007613208060b6e0630620012834999d",
-    "url": "https://git.mdns.eu/nextcloud/passwords/-/jobs/14833/artifacts/raw/passwords.tar.gz",
-    "version": "2022.12.21",
+    "sha256": "831b93f6003a8ec599a5405fed16d72cd330d5b78bcd8cee6d9a33aea6dc2672",
+    "url": "https://git.mdns.eu/nextcloud/passwords/-/jobs/14918/artifacts/raw/passwords.tar.gz",
+    "version": "2023.1.20-build4705",
     "description": "Passwords is the most advanced password manager for Nextcloud and allows you to manage and store your passwords safely in your own cloud.\nThe intuitive and modern web interface of the app makes it easy to update and add new passwords from anywhere.\nIncluded security checks help you to keep your online accounts safe and up-to-date.\nYou can also share passwords with other Nextcloud users.\n\n**Features**\n * Intuitive and modern user interface\n * Password security monitor\n * Secure encryption\n * Folders &amp; tags\n * Sharing\n * API for apps\n * Extensive handbook\n * Import &amp; Export\n * Browser extensions &amp; Apps\n * ... and many more to come\n\n**Support**\n * [Official Chat](https://t.me/nc_passwords)\n * [Official Forum](https://help.nextcloud.com/c/apps/passwords)\n * [User Handbook](https://git.mdns.eu/nextcloud/passwords/wikis/Users/Index)\n * [Administrator Handbook](https://git.mdns.eu/nextcloud/passwords/wikis/Administrators/Index)\n\n**Apps & Extensions**\n * [Official Firefox Add-On](https://addons.mozilla.org/de/firefox/addon/nextcloud-passwords?src=external-ncapps)\n * [Official Chrome Extension](https://chrome.google.com/webstore/detail/nextcloud-passwords/mhajlicjhgoofheldnmollgbgjheenbi)\n * [Official Microsoft Edge Extension](https://microsoftedge.microsoft.com/addons/detail/cjmlcljdpphgdfpkngjcmeepdpcgpffk)\n * [Android App](https://play.google.com/store/apps/details?id=de.jbservices.nc_passwords_app) by [joleaf](https://gitlab.com/joleaf/nc-passwords-app)\n * [Windows App (WIP)](https://www.microsoft.com/store/apps/9NXVZ0ZP6D5Z) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [Linux App (WIP)](https://gitlab.com/j0chn/nextcloud_password_client/-/tree/main#linux) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [macOS App (WIP)](https://gitlab.com/j0chn/nextcloud_password_client/-/tree/main#mac-os) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [iOS App](https://apps.apple.com/app/id1546212226) by [Johannes Schliephake](https://github.com/johannes-schliephake/nextcloud-passwords-ios)",
     "homepage": "",
     "licenses": [
@@ -1310,9 +1320,9 @@
     ]
   },
   "pdf_downloader": {
-    "sha256": "2600c6b5e183877c72ff36ebfc7c9f8793932d949cf8852de7b068a410bb24aa",
-    "url": "https://github.com/rotdrop/nextcloud-app-pdf-downloader/releases/download/v1.1.0-rc4/pdf_downloader.tar.gz",
-    "version": "1.1.0-rc4",
+    "sha256": "7158d8f60da940aab4a84102bac652ed7d667121cbbc84a070e7839d3602ead1",
+    "url": "https://github.com/rotdrop/nextcloud-app-pdf-downloader/releases/download/v1.1.0/pdf_downloader.tar.gz",
+    "version": "1.1.0",
     "description": "Recursively convert entire directory trees to PDF and provide the resulting document as download",
     "homepage": "",
     "licenses": [
