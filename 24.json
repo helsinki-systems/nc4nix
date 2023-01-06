@@ -30,9 +30,9 @@
     ]
   },
   "appointments": {
-    "sha256": "ea4f6680b18739f7a53dacde56251ba73ccdab8501475746d26acae6628f5983",
-    "url": "https://github.com/SergeyMosin/Appointments/raw/v1.14.7/build/artifacts/appstore/appointments.tar.gz",
-    "version": "1.14.7",
+    "sha256": "f3c18dc062500ce577f6d1e08d6d3a6e26fe82e175afd943ce32dba21dcf9b7d",
+    "url": "https://github.com/SergeyMosin/Appointments/raw/v1.14.8/build/artifacts/appstore/appointments.tar.gz",
+    "version": "1.14.8",
     "description": "Book appointments into your calendar via secure online form. Attendees can confirm or cancel their appointments via an email link.",
     "homepage": "https://www.srgdev.com/lab/nextcloud-appointments/",
     "licenses": [
@@ -380,9 +380,9 @@
     ]
   },
   "drawio": {
-    "sha256": "089c37b6cc5be08245478aea0185a157c35c2770db891a597d0673d2f3dd4dfe",
-    "url": "https://github.com/jgraph/drawio-nextcloud/releases/download/v2.0.1/drawio-v2.0.1.tar.gz",
-    "version": "2.0.1",
+    "sha256": "83422fddf176705e3a709cc65673eb7b0a3820d196e709896b7f72da990b64c3",
+    "url": "https://github.com/jgraph/drawio-nextcloud/releases/download/v2.0.2/drawio-v2.0.2.tar.gz",
+    "version": "2.0.2",
     "description": "Integrates draw.io diagrams editor with Nextcloud",
     "homepage": "https://github.com/jgraph/drawio-nextcloud",
     "licenses": [
@@ -540,9 +540,9 @@
     ]
   },
   "files_antivirus": {
-    "sha256": "62449d29809b3f0e69fb3b5631fee1f9661963a152ac123f75efe92376b28fd0",
-    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v4.0.1/files_antivirus-v4.0.1.tar.gz",
-    "version": "4.0.1",
+    "sha256": "8112b3b940556f06b59fb8e547f0afba2cb4980618dc2fe24f88c9ae17ca33a1",
+    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v4.0.2/files_antivirus-v4.0.2.tar.gz",
+    "version": "4.0.2",
     "description": "Antivirus for files is an antivirus app for Nextcloud.\n\n* 🕵️‍♂️ When the user uploads a file, it's checked\n* ☢️ Uploaded and infected files will be deleted and a notification will be shown and/or sent via email\n* 🔎 Background Job to scan all files\n* ❓ Use ClamAV (open source) or Kaspersky Scan Engine\n\nThis application inspects files that are uploaded to Nextcloud for viruses before they are written to the Nextcloud storage. If a file is identified as a virus, it is either logged or not uploaded to the server. The application relies on the underlying ClamAV virus scanning engine, which the admin points Nextcloud to when configuring the application. Alternatively, a Kaspersky Scan Engine can be configured, which has to run on a separate server.\nFor this app to be effective, the ClamAV virus definitions should be kept up to date. Also note that enabling this app will impact system performance as additional processing is required for every upload. More information is available in the Antivirus documentation.",
     "homepage": "",
     "licenses": [
@@ -930,9 +930,9 @@
     ]
   },
   "hidesidebars": {
-    "sha256": "11017fbce4beb28db8c3744bb1d7105a6c138bd140623353388b387f84b86356",
-    "url": "https://github.com/pointcz/hidesidebars/releases/download/v2.1.0/hidesidebars.tar.gz",
-    "version": "2.1.0",
+    "sha256": "7525704e0ce6b8a3380438aeac0a492ad6e2912878159e160051f2d3b4eace1b",
+    "url": "https://github.com/pointcz/hidesidebars/releases/download/v2.1.1/hidesidebars.tar.gz",
+    "version": "2.1.1",
     "description": "# Hide sidebars\n\nHide left sidebar and top header bar for use in iframe for example or some other scenarios.\n\n## Usage\nAdd `hide-sidebars` after `?` as query parameter to nextcloud url or with `dir` parameter after `&`.\n\nExamples:\n```\nhttp://nextcloud.example.com/index.php/apps/files/?hide-sidebars\nhttp://nextcloud.example.com/index.php/apps/files/?dir=/New%20folder&hide-sidebars\n```\n\nThis app from version 2.0.0 brings new config parameter `addAllowedFrameAncestorDomain`.\nFor usage in iframe you must update `lib/public/AppFramework/Http/ContentSecurityPolicy.php` manually\nor use this new parameter `addAllowedFrameAncestorDomain` in `config.php`\n\n```\n...\n'addAllowedFrameAncestorDomain' => '*.example.com:*'\n...\n```",
     "homepage": "https://github.com/pointcz/hidesidebars",
     "licenses": [
@@ -1240,9 +1240,9 @@
     ]
   },
   "mail": {
-    "sha256": "c6153bc627458f00b6173af701374c2dd8f082a75df4a2f01131f4179becadac",
-    "url": "https://github.com/nextcloud-releases/mail/releases/download/v1.15.0/mail-v1.15.0.tar.gz",
-    "version": "1.15.0",
+    "sha256": "e9bc24bc07a4c47633b1314a9780666d0aeb0781a10ed741c05f6bd46f30881d",
+    "url": "https://github.com/nextcloud-releases/mail/releases/download/v1.15.1/mail-v1.15.1.tar.gz",
+    "version": "1.15.1",
     "description": "**💌 A mail app for Nextcloud**\n\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://horde.org) libraries.\n- **📬 Want to host your own mail server?** We do not have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!",
     "homepage": "https://github.com/nextcloud/mail#readme",
     "licenses": [

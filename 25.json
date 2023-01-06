@@ -90,9 +90,9 @@
     ]
   },
   "calendar": {
-    "sha256": "bbb731410bb7be52969dba15721ca8a0ce3419444af775f8304196a10ad964c1",
-    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v4.2.0/calendar-v4.2.0.tar.gz",
-    "version": "4.2.0",
+    "sha256": "cc65482804cd8f51a81cb8a698a5b19170f44df567f2ab688055cb0b60d208b5",
+    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v4.2.1/calendar-v4.2.1.tar.gz",
+    "version": "4.2.1",
     "description": "The Calendar app is a user interface for Nextcloud's CalDAV server. Easily sync events from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Currently Contacts - more to come.\n* 🌐 **WebCal Support!** Want to see your favorite team’s matchdays in your calendar? No problem!\n* 🙋 **Attendees!** Invite people to your events\n* ⌚️ **Free/Busy!** See when your attendees are available to meet\n* ⏰ **Reminders!** Get alarms for events inside your browser and via email\n* 🔍 Search! Find your events at ease\n* ☑️ Tasks! See tasks with a due date directly in the calendar\n* 🙈 **We’re not reinventing the wheel!** Based on the great [c-dav library](https://github.com/nextcloud/cdav-library), [ical.js](https://github.com/mozilla-comm/ical.js) and [fullcalendar](https://github.com/fullcalendar/fullcalendar) libraries.",
     "homepage": "https://github.com/nextcloud/calendar/",
     "licenses": [
@@ -789,6 +789,16 @@
       "agpl"
     ]
   },
+  "hidesidebars": {
+    "sha256": "7525704e0ce6b8a3380438aeac0a492ad6e2912878159e160051f2d3b4eace1b",
+    "url": "https://github.com/pointcz/hidesidebars/releases/download/v2.1.1/hidesidebars.tar.gz",
+    "version": "2.1.1",
+    "description": "# Hide sidebars\n\nHide left sidebar and top header bar for use in iframe for example or some other scenarios.\n\n## Usage\nAdd `hide-sidebars` after `?` as query parameter to nextcloud url or with `dir` parameter after `&`.\n\nExamples:\n```\nhttp://nextcloud.example.com/index.php/apps/files/?hide-sidebars\nhttp://nextcloud.example.com/index.php/apps/files/?dir=/New%20folder&hide-sidebars\n```\n\nThis app from version 2.0.0 brings new config parameter `addAllowedFrameAncestorDomain`.\nFor usage in iframe you must update `lib/public/AppFramework/Http/ContentSecurityPolicy.php` manually\nor use this new parameter `addAllowedFrameAncestorDomain` in `config.php`\n\n```\n...\n'addAllowedFrameAncestorDomain' => '*.example.com:*'\n...\n```",
+    "homepage": "https://github.com/pointcz/hidesidebars",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "holiday_calendars": {
     "sha256": "4a84082253b883cb1ebbee16a7cc982272f52ec166210052b4250a41e90a5533",
     "url": "https://packages.framasoft.org/projects/nextcloud-apps/holiday-calendars/holiday_calendars-0.2.1.tar.gz",
@@ -1290,9 +1300,9 @@
     ]
   },
   "passwords": {
-    "sha256": "831b93f6003a8ec599a5405fed16d72cd330d5b78bcd8cee6d9a33aea6dc2672",
-    "url": "https://git.mdns.eu/nextcloud/passwords/-/jobs/14918/artifacts/raw/passwords.tar.gz",
-    "version": "2023.1.20-build4705",
+    "sha256": "8f9f5f93e6f7cac564d4d55e53331a349eecb52e2bf703f8ef33772b574f8314",
+    "url": "https://git.mdns.eu/nextcloud/passwords/-/jobs/14978/artifacts/raw/passwords.tar.gz",
+    "version": "2023.1.20-build4719",
     "description": "Passwords is the most advanced password manager for Nextcloud and allows you to manage and store your passwords safely in your own cloud.\nThe intuitive and modern web interface of the app makes it easy to update and add new passwords from anywhere.\nIncluded security checks help you to keep your online accounts safe and up-to-date.\nYou can also share passwords with other Nextcloud users.\n\n**Features**\n * Intuitive and modern user interface\n * Password security monitor\n * Secure encryption\n * Folders &amp; tags\n * Sharing\n * API for apps\n * Extensive handbook\n * Import &amp; Export\n * Browser extensions &amp; Apps\n * ... and many more to come\n\n**Support**\n * [Official Chat](https://t.me/nc_passwords)\n * [Official Forum](https://help.nextcloud.com/c/apps/passwords)\n * [User Handbook](https://git.mdns.eu/nextcloud/passwords/wikis/Users/Index)\n * [Administrator Handbook](https://git.mdns.eu/nextcloud/passwords/wikis/Administrators/Index)\n\n**Apps & Extensions**\n * [Official Firefox Add-On](https://addons.mozilla.org/de/firefox/addon/nextcloud-passwords?src=external-ncapps)\n * [Official Chrome Extension](https://chrome.google.com/webstore/detail/nextcloud-passwords/mhajlicjhgoofheldnmollgbgjheenbi)\n * [Official Microsoft Edge Extension](https://microsoftedge.microsoft.com/addons/detail/cjmlcljdpphgdfpkngjcmeepdpcgpffk)\n * [Android App](https://play.google.com/store/apps/details?id=de.jbservices.nc_passwords_app) by [joleaf](https://gitlab.com/joleaf/nc-passwords-app)\n * [Windows App (WIP)](https://www.microsoft.com/store/apps/9NXVZ0ZP6D5Z) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [Linux App (WIP)](https://gitlab.com/j0chn/nextcloud_password_client/-/tree/main#linux) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [macOS App (WIP)](https://gitlab.com/j0chn/nextcloud_password_client/-/tree/main#mac-os) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [iOS App](https://apps.apple.com/app/id1546212226) by [Johannes Schliephake](https://github.com/johannes-schliephake/nextcloud-passwords-ios)",
     "homepage": "",
     "licenses": [
