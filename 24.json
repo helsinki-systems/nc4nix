@@ -419,6 +419,16 @@
       "agpl"
     ]
   },
+  "ehr": {
+    "sha256": "df77a48ebfbc7e7e0c967399524be00f33814c913cd9cc16052305e8c9b97724",
+    "url": "https://github.com/Kailona/ehr/releases/download/0.1.7/ehr-0.1.7.tar.gz",
+    "version": "0.1.7",
+    "description": "The Kailona Personal Health Record allows you to regain control over your health data. We provide an open source platform that allows everyone to add plugins and make improvements.\n\nIt helps you aggregate, manage, securely share and visualize your health data including lab data, medical images, FHIR data from hospitals, vital signs, nutritional and activity data.\n\nThis app works with a FHIR server. Please read the [documentation](https://docs.kailona.org/docs/#installation) to learn more about that.\n\n**Note that this app is under alpha development!**",
+    "homepage": "https://docs.kailona.org",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "eidlogin": {
     "sha256": "83c4707ea17bd6dcc11fb2942612ec4e9698d508622477fec09c185486a47bd6",
     "url": "https://github.com/eid-login/eid-login-nextcloud/releases/download/1.0.11/eidlogin.tar.gz",
@@ -565,6 +575,16 @@
     "version": "1.14.0",
     "description": "An app for Nextcloud that automatically assigns tags to newly uploaded files based on some conditions.\n\nThe tags can later be used to control retention, file access, automatic script execution and more.\n\n## How it works\nTo define tags, administrators can create and manage a set of rule groups. Each rule group consists of one or more rules combined through operators. Rules can include criteria like file type, size, time and more. A request matches a group if all rules evaluate to true. On uploading a file all defined groups are evaluated and when matching, the given tags are assigned to the file.",
     "homepage": "https://github.com/nextcloud/files_automatedtagging",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "files_bpm": {
+    "sha256": "5f343068cc8da65a59c6e4fca05fc9e21d4529005aa2412d68fe44888e0937bf",
+    "url": "https://github.com/kirstenhh/nc-bpm-app/releases/download/v1.0.0/files_bpm-v1.0.0.tar.gz",
+    "version": "1.0.0-git.7bf9e0d",
+    "description": "A BPMN 2.0/DMN 1.3 Viewer and Editor",
+    "homepage": "https://github.com/kirstenhh/nc-bpm-app/",
     "licenses": [
       "agpl"
     ]
@@ -1320,9 +1340,9 @@
     ]
   },
   "music": {
-    "sha256": "b48409bd882002aa5f85d6399e8a51149270d1680a756cd31ddbab14cca0b967",
-    "url": "https://github.com/owncloud/music/releases/download/v1.8.0/music_1.8.0_for_nextcloud.tar.gz",
-    "version": "1.8.0",
+    "sha256": "90be9cea929e173f96097809da8d893f2e1dd3be73d5068da80f234158a73ff7",
+    "url": "https://github.com/owncloud/music/releases/download/v1.8.1/music_1.8.1_for_nextcloud.tar.gz",
+    "version": "1.8.1",
     "description": "A stand-alone music player app and a \"lite\" player for the Files app\n\n- On modern browsers, supports audio types .mp3, .ogg, .m4a, .m4b, .flac, .wav, and more\n- Playlist support with import from m3u, m3u8, and pls files\n- Browse by artists, albums, genres, or folders\n- Gapless play\n- Filter the shown content with the search function\n- Play internet radio and podcast channels\n- Setup Last.fm connection to see background information on artists, albums, and songs\n- Control with media control keys on the keyboard or OS\n- The app can handle libraries consisting of thousands of albums and tens of thousands of songs\n- Includes a server backend compatible with the Subsonic and Ampache protocols, allowing playback and browsing of your library on various external apps e.g. on Android or iPhone",
     "homepage": "https://github.com/owncloud/music",
     "licenses": [
@@ -1710,9 +1730,9 @@
     ]
   },
   "riotchat": {
-    "sha256": "6f10f4856a0542d6a25cbde9da7cb05ad21a1a85b4535b3f71713c251a4525d6",
-    "url": "https://github.com/gary-kim/riotchat/releases/download/v0.13.11/riotchat.tar.gz",
-    "version": "0.13.11",
+    "sha256": "b24bfccd841c7025b66a3fad4ef5cb6b8a83edc812ba87f502a7f9ee95cdf7ae",
+    "url": "https://github.com/gary-kim/riotchat/releases/download/v0.14.0/riotchat.tar.gz",
+    "version": "0.14.0",
     "description": "Element for Nextcloud allows you to install Element Web easily through Nextcloud and join the Matrix decentralized communication network.\n\nThis app does not include a Matrix server, only the client. You will have to either set up your own Matrix homeserver, rent one, or use a public one.\n\nThis project is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Element or the Element project, or any of its subsidiaries or its affiliates.\n\nThe name Element as well as related names, marks, emblems and images are registered trademarks of their respective owners.\n\nThe upstream project can be found at [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web).",
     "homepage": "https://github.com/gary-kim/riotchat",
     "licenses": [
