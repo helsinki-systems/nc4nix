@@ -230,8 +230,8 @@
     ]
   },
   "cospend": {
-    "sha256": "8c55e257248556eec2373a1e353a0ae93b5cd0fa21636464db177d785f341557",
-    "url": "https://github.com/julien-nc/cospend-nc/releases/download/v1.5.5/cospend-1.5.5.tar.gz",
+    "sha256": "84b7308dbfbab034aa58f65de59da2803612ebaaa0a4942ed4cebe16a1197c95",
+    "url": "https://github.com/julien-nc/cospend-nc/releases/download/v1.5.5-2-nightly/cospend-1.5.5-2-nightly.tar.gz",
     "version": "1.5.5",
     "description": "# Nextcloud Cospend 💰\n\nNextcloud Cospend is a group/shared budget manager. It was inspired by the great [IHateMoney](https://github.com/spiral-project/ihatemoney/).\n\nYou can use it when you share a house, when you go on vacation with friends, whenever you share money with others.\n\nIt lets you create projects with members and bills. Each member has a balance computed from the project bills. This way you can see who owes the group and who the group owes. Ultimately you can ask for a settlement plan telling you which payments to make to reset members balances.\n\nProject members are independent from Nextcloud users. Projects can be accessed and modified by people without a Nextcloud account. Each project has an ID and a password for guest access.\n\n[MoneyBuster](https://gitlab.com/eneiluj/moneybuster) Android client is [available in F-Droid](https://f-droid.org/packages/net.eneiluj.moneybuster/) and on the [Play store](https://play.google.com/store/apps/details?id=net.eneiluj.moneybuster).\n\n[PayForMe](https://github.com/mayflower/PayForMe) iOS client is currently being developped!\n\n## Features\n\n* ✎ create/edit/delete projects, members, bills, bill categories, currencies\n* ⚖ check member balances\n* 🗠 display project statistics\n* ♻ display settlement plan\n* 🎇 automatically create reimbursement bills from settlement plan\n* 🗓 create recurring bills (daily/weekly/monthly/yearly)\n* 📊 optionally provide custom amount for each member in new bills\n* 🔗 link bills with personal files (picture of physical bill for example)\n* 👩 guest access for people outside Nextcloud\n* 👫 share projects with Nextcloud users/groups/circles\n* 🖫 import/export projects as csv (compatible with csv files from IHateMoney)\n* 🔗 generate link/QRCode to easily import projects in MoneyBuster\n* 🗲 implement Nextcloud notifications and activity stream\n\nThis app is tested on Nextcloud 20+ with Firefox 57+ and Chromium.\n\nThis app is under development.\n\n🌍 Help us to translate this app on [Nextcloud-Cospend/MoneyBuster Crowdin project](https://crowdin.com/project/moneybuster).\n\n⚒ Check out other ways to help in the [contribution guidelines](https://gitlab.com/eneiluj/cospend-nc/blob/master/CONTRIBUTING.md).\n\n## Documentation\n\n* [User documentation](https://github.com/eneiluj/cospend-nc/blob/master/docs/user.md)\n* [Admin documentation](https://github.com/eneiluj/cospend-nc/blob/master/docs/admin.md)\n* [Developer documentation](https://github.com/eneiluj/cospend-nc/blob/master/docs/dev.md)\n* [CHANGELOG](https://github.com/eneiluj/cospend-nc/blob/master/CHANGELOG.md#change-log)\n* [AUTHORS](https://github.com/eneiluj/cospend-nc/blob/master/AUTHORS.md#authors)\n\n## Known issues\n\n* it does not make you rich\n\nAny feedback will be appreciated.\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://github.com/eneiluj/cospend-nc",
@@ -1070,9 +1070,9 @@
     ]
   },
   "libresign": {
-    "sha256": "b3eda80d8d346b10adfd7f58e49a447d0a8ebd2af80a64ea2d654fafabdcf6eb",
-    "url": "https://github.com/LibreSign/libresign/releases/download/v6.2.3/libresign.tar.gz",
-    "version": "6.2.3",
+    "sha256": "26c87cae0bde97e61472b1a60e2bae7afa9229b60a1e7f8cbdaa221fc9099dd7",
+    "url": "https://github.com/LibreSign/libresign/releases/download/v6.2.4/libresign.tar.gz",
+    "version": "6.2.4",
     "description": "**This is a libre digital PDF signature app for Nextcloud**\n\n* ✍️ Sign PDF documents using digital signature",
     "homepage": "https://github.com/LibreSign/libresign",
     "licenses": [
@@ -1310,9 +1310,9 @@
     ]
   },
   "passwords": {
-    "sha256": "d79b6c8fd27d578fc0436465e452aab6c3b42e3b417c9811e7cd38f766f1d403",
-    "url": "https://git.mdns.eu/nextcloud/passwords/-/jobs/15199/artifacts/raw/passwords.tar.gz",
-    "version": "2023.1.20",
+    "sha256": "bf306e38a78f0ab1d4bc9e726d1da180da9d29ada227b02a33662206f20b85dc",
+    "url": "https://git.mdns.eu/nextcloud/passwords/-/jobs/15228/artifacts/raw/passwords.tar.gz",
+    "version": "2023.1.21",
     "description": "Passwords is the most advanced password manager for Nextcloud and allows you to manage and store your passwords safely in your own cloud.\nThe intuitive and modern web interface of the app makes it easy to update and add new passwords from anywhere.\nIncluded security checks help you to keep your online accounts safe and up-to-date.\nYou can also share passwords with other Nextcloud users.\n\n**Features**\n * Intuitive and modern user interface\n * Password security monitor\n * Secure encryption\n * Folders &amp; tags\n * Sharing\n * API for apps\n * Extensive handbook\n * Import &amp; Export\n * Browser extensions &amp; Apps\n * ... and many more to come\n\n**Support**\n * [Official Chat](https://t.me/nc_passwords)\n * [Official Forum](https://help.nextcloud.com/c/apps/passwords)\n * [User Handbook](https://git.mdns.eu/nextcloud/passwords/wikis/Users/Index)\n * [Administrator Handbook](https://git.mdns.eu/nextcloud/passwords/wikis/Administrators/Index)\n\n**Apps & Extensions**\n * [Official Firefox Add-On](https://addons.mozilla.org/de/firefox/addon/nextcloud-passwords?src=external-ncapps)\n * [Official Chrome Extension](https://chrome.google.com/webstore/detail/nextcloud-passwords/mhajlicjhgoofheldnmollgbgjheenbi)\n * [Official Microsoft Edge Extension](https://microsoftedge.microsoft.com/addons/detail/cjmlcljdpphgdfpkngjcmeepdpcgpffk)\n * [Android App](https://play.google.com/store/apps/details?id=de.jbservices.nc_passwords_app) by [joleaf](https://gitlab.com/joleaf/nc-passwords-app)\n * [Windows App (WIP)](https://www.microsoft.com/store/apps/9NXVZ0ZP6D5Z) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [Linux App (WIP)](https://gitlab.com/j0chn/nextcloud_password_client/-/tree/main#linux) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [macOS App (WIP)](https://gitlab.com/j0chn/nextcloud_password_client/-/tree/main#mac-os) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [iOS App](https://apps.apple.com/app/id1546212226) by [Johannes Schliephake](https://github.com/johannes-schliephake/nextcloud-passwords-ios)",
     "homepage": "",
     "licenses": [
@@ -1320,9 +1320,9 @@
     ]
   },
   "passwords_handbook": {
-    "sha256": "4895e77e956e7c53b9616877dc8ee91668f617d6ce8f2ac8a1e57a1ec4baa119",
-    "url": "https://git.mdns.eu/nextcloud/passwords-handbook/-/jobs/15206/artifacts/raw/passwords_handbook.tar.gz",
-    "version": "2023.1.20",
+    "sha256": "6c9bcbed20f6ecf053a7f63ab4bd9a6de6c1f7712422aeb2565128ffbf61a741",
+    "url": "https://git.mdns.eu/nextcloud/passwords-handbook/-/jobs/15235/artifacts/raw/passwords_handbook.tar.gz",
+    "version": "2023.1.21",
     "description": "With this app you can host the in app user handbook for the Passwords app for Nextcloud on your own Nextcloud instance instead of using the sources on Github or a custom server.\nThis improves user privacy and enables using the handbook in networks where Github may not be available.",
     "homepage": "",
     "licenses": [
@@ -1480,9 +1480,9 @@
     ]
   },
   "recognize": {
-    "sha256": "de8417f2922a26c40a9c625050fb7c21cbd9cb1568f16f1996af8ebcc6895425",
-    "url": "https://github.com/nextcloud/recognize/releases/download/v3.3.4/recognize-3.3.4.tar.gz",
-    "version": "3.3.4",
+    "sha256": "082bee70df345141ad4642d1c40e7374ab63803d029d8e71115b253007121762",
+    "url": "https://github.com/nextcloud/recognize/releases/download/v3.3.5/recognize-3.3.5.tar.gz",
+    "version": "3.3.5",
     "description": "This app goes through your media collection and adds fitting tags, automatically categorizing your photos and music.\n\n* 📷 👪 Recognizes faces from contact photos\n* 📷 🏔 Recognizes animals, landscapes, food, vehicles, buildings and other objects\n* 📷 🗼 Recognizes landmarks and monuments\n* 👂 🎵 Recognizes music genres\n* ⚡ Tagging works via Nextcloud's Collaborative Tags, allowing access by any of your apps\n  * 👂 listen to your tagged music with the audioplayer app\n  * 📷 view your tagged photos with the photos app\n\nAfter installation, you can enable tagging in the admin settings.\n\nRequirements:\n- PHP 7.4 and above\n- App \"collaborative tags\" enabled\n- For native speed:\n  - Processor: x86 64-bit (with support for AVX instructions)\n  - System with glibc (usually the norm on Linux; Alpine linux and FreeBSD are *not* such systems)\n- For sub-native speed (using JavaScript mode)\n  - Processor: x86 64-bit, arm64, armv7l (no AVX needed)\n  - System with glibc or musl (incl. Alpine linux)\n- ~4GB of free RAM (if you're cutting it close, make sure you have some swap available)\n\nThe app does not send any sensitive data to cloud providers or similar services. All processing is done on your Nextcloud machine, using Tensorflow.js running in Node.js.",
     "homepage": "https://github.com/marcelklehr/recognize",
     "licenses": [
