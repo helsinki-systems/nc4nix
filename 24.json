@@ -280,8 +280,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -450,9 +450,9 @@
     ]
   },
   "emlviewer": {
-    "sha256": "2f547289dce389cb65959bfae91895e1e41b95db82caf84204f460ec39812e31",
-    "url": "https://github.com/newroco/emlviewer/releases/download/1.0.4/emlviewer-1.0.4.tar.gz",
-    "version": "1.0.4",
+    "sha256": "77661f5711e3807505b15c6cd4848260c81b00aa414aeeaa65ae557680b47793",
+    "url": "https://github.com/newroco/emlviewer/releases/download/1.0.5/emlviewer-1.0.5.tar.gz",
+    "version": "1.0.5",
     "description": "Provides an email preview functionality. It creates preview for the .eml files and displays it as a modal.",
     "homepage": "https://github.com/newroco/emlviewer",
     "licenses": [
@@ -560,9 +560,9 @@
     ]
   },
   "files_archive": {
-    "sha256": "b5cf77e50532e5cb5bb53939292cf91dd00bfa0391b9ee9937922aa7c252c0ad",
-    "url": "https://github.com/rotdrop/nextcloud-app-files-archive/releases/download/v1.1.1/files_archive.tar.gz",
-    "version": "1.1.1",
+    "sha256": "a11af458328ca18dee9b4e1fcc9b4e13105569b2519190239845e5f6464d0af7",
+    "url": "https://github.com/rotdrop/nextcloud-app-files-archive/releases/download/v1.1.2/files_archive.tar.gz",
+    "version": "1.1.2",
     "description": "Inspect, mount and extract archive files (zip, tar, etc.)",
     "homepage": "",
     "licenses": [
@@ -1269,6 +1269,16 @@
       "agpl"
     ]
   },
+  "mail_roundcube": {
+    "sha256": "3d33350ba01b291ef93cbb6e8aab133c9ce26366b344b9b4dad992f9aea8c38f",
+    "url": "https://github.com/rotdrop/nextcloud-roundcube/releases/download/v1.0.0-rc6/mail_roundcube.tar.gz",
+    "version": "1.0.0-rc6",
+    "description": "Integrates an existing RoundCube standalone email-webapp into NextCloud, with optional SSO.",
+    "homepage": "https://github.com/rotdrop/nextcloud-roundcube/",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "majordomo": {
     "sha256": "8fb71cc4c3dca224c8d45051478450ab1d998ff14820ac6456ba659d070d8eac",
     "url": "https://github.com/mziech/nextcloud-majordomo/releases/download/v1.1.3/majordomo.tar.gz",
@@ -1300,9 +1310,9 @@
     ]
   },
   "memories": {
-    "sha256": "1cb599e5ae879d1a9a3390ac028862bfd3b8e42b57048d573de7838c68ab0041",
-    "url": "https://github.com/pulsejet/memories/releases/download/v3.9.3/memories.tar.gz",
-    "version": "3.9.3",
+    "sha256": "116c83f32a5cff1af5c21e162a533b300049d55224a66309eaed511e076b59c1",
+    "url": "https://github.com/pulsejet/memories/releases/download/v3.10.0/memories.tar.gz",
+    "version": "3.10.0",
     "description": "# Memories\n\nMemories is a *batteries-included* photo management solution for Nextcloud with advanced features including:\n\n- **📸 Timeline**: Sort photos and videos by date taken, parsed from Exif data.\n- **⏪ Rewind**: Jump to any time in the past instantly and relive your memories.\n- **🤖 AI Tagging**: Group photos by people and objects, powered by [recognize](https://github.com/nextcloud/recognize) and [facerecognition](https://github.com/matiasdelellis/facerecognition).\n- **🖼️ Albums**: Create albums to group photos and videos together. Then share these albums with others.\n- **🫱🏻‍🫲🏻 External Sharing**: Share photos and videos with people outside of your Nextcloud instance.\n- **📱 Mobile Support**: Works on devices of any shape and size through the web app.\n- **✏️ Edit Metadata**: Edit dates on photos quickly and easily.\n- **📦 Archive**: Store photos you don't want to see in your timeline in a separate folder.\n- **📹 Video Transcoding**: Memories transcodes videos and uses HLS for maximal performance.\n- **⚡️ Performance**: In general, Memories is extremely fast.\n\n## 🌐 Online Demo\n\n- To get an idea of what memories looks and feels like, check out the [public demo](https://memories-demo.radialapps.com/apps/memories/).\n- The demo is read-only and may be slow (free tier VM from [Oracle Cloud](https://www.oracle.com/cloud/free/)).\n- Photo credits go to [Unsplash](https://unsplash.com/) (for individual credits, refer to each folder).\n\n## 🚀 Installation\n\n1. Install the app from the Nextcloud app store.\n1. Perform the recommended [configuration steps](https://github.com/pulsejet/memories/wiki/Extra-Configuration).\n1. Run `php ./occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos.",
     "homepage": "https://github.com/pulsejet/memories",
     "licenses": [
@@ -1490,9 +1500,9 @@
     ]
   },
   "passman": {
-    "sha256": "d501b9c5dba528ae04fe4361a6c9ce75443a8ae26e0c0d1477c5481f20f318ea",
-    "url": "https://releases.passman.cc/passman_2.4.2.tar.gz",
-    "version": "2.4.2",
+    "sha256": "418b689e21189a50186971c3ed9a843f931ffb815d3d6587b6d9e396f8c5431b",
+    "url": "https://releases.passman.cc/passman_2.4.3.tar.gz",
+    "version": "2.4.3",
     "description": "Passman is a full featured password manager.\nFeatures:\n- Vaults\n- Vault key is never sent to the server\n- Browser extension for easy access to passwords\n- Android app for on the road access\n- Credentials are client side encrypted with 256bit AES\n- Credentials are server side encrypted with 256bit AES\n- Ability to add custom fields to credentials\n- Built-in OTP (One Time Password) generator\n- Password analyzer\n- Share passwords internally and via link in a secure manner.\n- Import from various password managers (KeePass, LastPass, DashLane, ZOHO, Clipperz.is )\nFor an demo of this app visit [https://demo.passman.cc](https://demo.passman.cc)",
     "homepage": "https://demo.passman.cc",
     "licenses": [
