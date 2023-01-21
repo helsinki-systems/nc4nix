@@ -240,8 +240,8 @@
     ]
   },
   "cospend": {
-    "sha256": "84b7308dbfbab034aa58f65de59da2803612ebaaa0a4942ed4cebe16a1197c95",
-    "url": "https://github.com/julien-nc/cospend-nc/releases/download/v1.5.5-2-nightly/cospend-1.5.5-2-nightly.tar.gz",
+    "sha256": "8c55e257248556eec2373a1e353a0ae93b5cd0fa21636464db177d785f341557",
+    "url": "https://github.com/julien-nc/cospend-nc/releases/download/v1.5.5/cospend-1.5.5.tar.gz",
     "version": "1.5.5",
     "description": "# Nextcloud Cospend 💰\n\nNextcloud Cospend is a group/shared budget manager. It was inspired by the great [IHateMoney](https://github.com/spiral-project/ihatemoney/).\n\nYou can use it when you share a house, when you go on vacation with friends, whenever you share money with others.\n\nIt lets you create projects with members and bills. Each member has a balance computed from the project bills. This way you can see who owes the group and who the group owes. Ultimately you can ask for a settlement plan telling you which payments to make to reset members balances.\n\nProject members are independent from Nextcloud users. Projects can be accessed and modified by people without a Nextcloud account. Each project has an ID and a password for guest access.\n\n[MoneyBuster](https://gitlab.com/eneiluj/moneybuster) Android client is [available in F-Droid](https://f-droid.org/packages/net.eneiluj.moneybuster/) and on the [Play store](https://play.google.com/store/apps/details?id=net.eneiluj.moneybuster).\n\n[PayForMe](https://github.com/mayflower/PayForMe) iOS client is currently being developped!\n\n## Features\n\n* ✎ create/edit/delete projects, members, bills, bill categories, currencies\n* ⚖ check member balances\n* 🗠 display project statistics\n* ♻ display settlement plan\n* 🎇 automatically create reimbursement bills from settlement plan\n* 🗓 create recurring bills (daily/weekly/monthly/yearly)\n* 📊 optionally provide custom amount for each member in new bills\n* 🔗 link bills with personal files (picture of physical bill for example)\n* 👩 guest access for people outside Nextcloud\n* 👫 share projects with Nextcloud users/groups/circles\n* 🖫 import/export projects as csv (compatible with csv files from IHateMoney)\n* 🔗 generate link/QRCode to easily import projects in MoneyBuster\n* 🗲 implement Nextcloud notifications and activity stream\n\nThis app is tested on Nextcloud 20+ with Firefox 57+ and Chromium.\n\nThis app is under development.\n\n🌍 Help us to translate this app on [Nextcloud-Cospend/MoneyBuster Crowdin project](https://crowdin.com/project/moneybuster).\n\n⚒ Check out other ways to help in the [contribution guidelines](https://gitlab.com/eneiluj/cospend-nc/blob/master/CONTRIBUTING.md).\n\n## Documentation\n\n* [User documentation](https://github.com/eneiluj/cospend-nc/blob/master/docs/user.md)\n* [Admin documentation](https://github.com/eneiluj/cospend-nc/blob/master/docs/admin.md)\n* [Developer documentation](https://github.com/eneiluj/cospend-nc/blob/master/docs/dev.md)\n* [CHANGELOG](https://github.com/eneiluj/cospend-nc/blob/master/CHANGELOG.md#change-log)\n* [AUTHORS](https://github.com/eneiluj/cospend-nc/blob/master/AUTHORS.md#authors)\n\n## Known issues\n\n* it does not make you rich\n\nAny feedback will be appreciated.\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://github.com/eneiluj/cospend-nc",
@@ -285,6 +285,16 @@
     "version": "1.8.3",
     "description": "Deck is a kanban style organization tool aimed at personal planning and project organization for teams integrated with Nextcloud.\n\n\n- 📥 Add your tasks to cards and put them in order\n- 📄 Write down additional notes in Markdown\n- 🔖 Assign labels for even better organization\n- 👥 Share with your team, friends or family\n- 📎 Attach files and embed them in your Markdown description\n- 💬 Discuss with your team using comments\n- ⚡ Keep track of changes in the activity stream\n- 🚀 Get your project organized",
     "homepage": "https://github.com/nextcloud/deck",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "diary": {
+    "sha256": "0374b8556934990c6984b373a156cedd011e1a8828a23b578110bf2e21a1e7a9",
+    "url": "https://github.com/danielroehrig/diary/releases/download/v.0.0.9/diary.tar.gz",
+    "version": "0.0.9",
+    "description": "Keep your diary in your Nextcloud. Write entries for each day in\na Markdown editor. Use the calendar to jump to any date and edit your entries.\n\nWarning! This is a very early alpha release and things are still pretty rough around the edges.",
+    "homepage": "https://github.com/danielroehrig/diary",
     "licenses": [
       "agpl"
     ]
@@ -360,9 +370,9 @@
     ]
   },
   "emlviewer": {
-    "sha256": "77661f5711e3807505b15c6cd4848260c81b00aa414aeeaa65ae557680b47793",
-    "url": "https://github.com/newroco/emlviewer/releases/download/1.0.5/emlviewer-1.0.5.tar.gz",
-    "version": "1.0.5",
+    "sha256": "1005822d1b7cb447dcbcc9a67df0ea252d7a03128b43f0f83eed21b8bc7dec0e",
+    "url": "https://github.com/newroco/emlviewer/releases/download/1.0.7/emlviewer-1.0.7.tar.gz",
+    "version": "1.0.7",
     "description": "Provides an email preview functionality. It creates preview for the .eml files and displays it as a modal.",
     "homepage": "https://github.com/newroco/emlviewer",
     "licenses": [
@@ -910,8 +920,8 @@
     ]
   },
   "integration_google": {
-    "sha256": "c7671104f8e125199e20b9b3ed531fe3ccabada0b0e311232524a05fb2259251",
-    "url": "https://github.com/nextcloud/integration_google/releases/download/v1.0.9/integration_google-1.0.9.tar.gz",
+    "sha256": "80b8b99970f17ccce874f56665dba61438e38b875f679f60205b71368f204009",
+    "url": "https://github.com/nextcloud/integration_google/releases/download/v1.0.9-5-nightly/integration_google-1.0.9-5-nightly.tar.gz",
     "version": "1.0.9",
     "description": "Google integration allows you to automatically import your Google calendars, contacts, photos and files into Nextcloud.",
     "homepage": "https://github.com/nextcloud/integration_google",
@@ -1040,8 +1050,8 @@
     ]
   },
   "integration_zimbra": {
-    "sha256": "e2536f1ba4f928b67a8cf460d07de241655b3f344d3eab6e6ec0918949e74425",
-    "url": "https://github.com/julien-nc/integration_zimbra/releases/download/v1.0.4/integration_zimbra-1.0.4.tar.gz",
+    "sha256": "99fe1e34d9c4d9be9dc627325445fc8598786757635a199c8df1d9d20b0bd946",
+    "url": "https://github.com/julien-nc/integration_zimbra/releases/download/v1.0.4-1-nightly/integration_zimbra-1.0.4-1-nightly.tar.gz",
     "version": "1.0.4",
     "description": "Zimbra integration into Nextcloud provides a dashboard widget for unread emails,\n one for upcoming events, a search provider for emails and the ability to search for Zimbra contacts in Nextcloud.\n\nNextcloud will suggest your Zimbra contacts addresses when you search for a contact via the top-right contacts menu\nor when you search for someone to share a file to.",
     "homepage": "https://github.com/eneiluj/integration_zimbra",
@@ -1160,9 +1170,9 @@
     ]
   },
   "memories": {
-    "sha256": "610797cb51f87aefefe70663bc8703e1a0fe3bb57d191b510ddf6719ae846968",
-    "url": "https://github.com/pulsejet/memories/releases/download/v4.10.0/memories.tar.gz",
-    "version": "4.10.0",
+    "sha256": "5fa97f2977f93391d7d396cfc595bfbce97dd9a77adf2eba49b907c63ba17555",
+    "url": "https://github.com/pulsejet/memories/releases/download/v4.10.1/memories.tar.gz",
+    "version": "4.10.1",
     "description": "# Memories\n\nMemories is a *batteries-included* photo management solution for Nextcloud with advanced features including:\n\n- **📸 Timeline**: Sort photos and videos by date taken, parsed from Exif data.\n- **⏪ Rewind**: Jump to any time in the past instantly and relive your memories.\n- **🤖 AI Tagging**: Group photos by people and objects, powered by [recognize](https://github.com/nextcloud/recognize) and [facerecognition](https://github.com/matiasdelellis/facerecognition).\n- **🖼️ Albums**: Create albums to group photos and videos together. Then share these albums with others.\n- **🫱🏻‍🫲🏻 External Sharing**: Share photos and videos with people outside of your Nextcloud instance.\n- **📱 Mobile Support**: Works on devices of any shape and size through the web app.\n- **✏️ Edit Metadata**: Edit dates on photos quickly and easily.\n- **📦 Archive**: Store photos you don't want to see in your timeline in a separate folder.\n- **📹 Video Transcoding**: Memories transcodes videos and uses HLS for maximal performance.\n- **⚡️ Performance**: In general, Memories is extremely fast.\n\n## 🌐 Online Demo\n\n- To get an idea of what memories looks and feels like, check out the [public demo](https://memories-demo.radialapps.com/apps/memories/).\n- The demo is read-only and may be slow (free tier VM from [Oracle Cloud](https://www.oracle.com/cloud/free/)).\n- Photo credits go to [Unsplash](https://unsplash.com/) (for individual credits, refer to each folder).\n\n## 🚀 Installation\n\n1. Install the app from the Nextcloud app store.\n1. Perform the recommended [configuration steps](https://github.com/pulsejet/memories/wiki/Extra-Configuration).\n1. Run `php ./occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos.",
     "homepage": "https://github.com/pulsejet/memories",
     "licenses": [
@@ -1270,8 +1280,8 @@
     ]
   },
   "oidc": {
-    "sha256": "db6afb44ed4dbbcd106362855c1be66475daf5bcaef6b233369543ca99c41953",
-    "url": "https://github.com/H2CK/oidc/releases/download/0.2.9/oidc-0.2.9.tar.gz",
+    "sha256": "62efa9849929b402285cc387cf728b5d7c6e91e1e2d2bff1877412cea220519c",
+    "url": "https://github.com/H2CK/oidc/releases/download/0.2.10/oidc-0.2.10.tar.gz",
     "version": "0.2.9",
     "description": "Nextcloud as OpenID Connect Identity Provider\n\nWith this app you can use Nextcloud as OpenID Connect Identity Provider. If other services\nare configured correctly, you are able to access those services with your Nextcloud login.\n\nFull documentation can be found at:\n\n- [User Documentation](https://github.com/H2CK/oidc/wiki#user-documentation)\n- [Developer Documentation](https://github.com/H2CK/oidc/wiki#developer-documentation)",
     "homepage": "https://github.com/H2CK/oidc",
@@ -2210,9 +2220,9 @@
     ]
   },
   "xwiki": {
-    "sha256": "f167e9a1a64b559505942a4237388e9672276e608a4184ac24c8dc6ca112dbae",
-    "url": "https://github.com/nextcloud/xwiki/releases/download/v0.0.2/xwiki.tar.gz",
-    "version": "0.0.2",
+    "sha256": "2bb092ae2f770c955df960f05c6a80b55f9433e64a2e42b3e051ce17ef7edca1",
+    "url": "https://github.com/nextcloud/xwiki/releases/download/v0.0.3/xwiki.tar.gz",
+    "version": "0.0.3",
     "description": "This application allows you to search and display your XWiki content right from Nextcloud. XWiki is a powerful development platform that allows you to customize the wiki to your specific needs. Using structured data and in-page-scripting you can create macros and applications that allow you to extend the capabilities of your wiki. Note: full functionality requires the Nextcloud extension on XWiki (11.10 or later required).",
     "homepage": "https://github.com/nextcloud/xwiki",
     "licenses": [
