@@ -100,19 +100,19 @@
     ]
   },
   "cadviewer": {
-    "sha256": "5b6f06dda990942433365d2b0d380c105476a2aaab43882c0fb6d5f9c3d9f8f2",
+    "sha256": "f0c28e195e6339d39a1b6f9f2fe129b755e7e741600d940c9dcf039679d99a2e",
     "url": "https://github.com/CADViewer/NextCloud/releases/download/8.12.2/cadviewer-v8.12.2.tar.gz",
-    "version": "0.0.5",
-    "description": "Nothing for now",
+    "version": "8.12.2",
+    "description": "# CADViewer\nCADViewer implements CAD viewing, markup and collaboration on the NextCloud platform for AutoCAD, MicroStation, PDF and advanced raster graphics. Following CADViewer features are available:\n- **AutoCAD**: Support for DWG, DXF and DWF files.\n- **MicroStation**: Support for DGN files.\n- **PDF**: Support for Vector Graphics PDF files. (use right click menu)\n- **TIFF**: Support for TIFF format.\n- **PNG, JPG, GIF**: Bitmap support. (use right click menu)\n- **Annotation**: Full redlining interface of drawings where each user has individually associated redlines.\n- **Collaboration**: Redlines/Annotation on drawings are shared to global \"CADViewer-Markup\" folder as PDF, where users can share internally/externally.\n- **Download**: Direct download of SVG or PDF image with/without redlines/annotations.\n- **Printing**: Printing of drawings to printer driver or as PDF.\n- **Measurement**: Global scale matrix preserved in drawing for measurement and calibration methods.\n- **Zoom**: Advanced zoom and pan controls.\n- **Layers**: Retained layer structure for layer management.\n- **Search**: Integrated text search method.\n\n\n## 🌐 Online Demo\n- To test the look and feel of [CADViewer](https://cadviewer.com), check out our [Online Demos](https://cadviewer.com/cadviewerdemo/).\n\n\n## 🚀 Installation\n1. Install the app from the Nextcloud app store or from CADViewer [GitHub repository](https://github.com/CADViewer/NextCloud/).\n2. Perform the [configuration steps](https://github.com/CADViewer/NextCloud/blob/main/README.md).\n3. **NOTE**: The configuration steps (permission settings for executable, log files, and folders) are needed for the back-end CAD conversion to work properly. Without permission settings, no drawings will display!\n4. Simply open your CAD drawings and start collaborate.. 😄",
     "homepage": "https://www.cadviewer.com",
     "licenses": [
       "agpl"
     ]
   },
   "calendar": {
-    "sha256": "cc65482804cd8f51a81cb8a698a5b19170f44df567f2ab688055cb0b60d208b5",
-    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v4.2.1/calendar-v4.2.1.tar.gz",
-    "version": "4.2.1",
+    "sha256": "60aa0baf8fd739d616ab1a1f8d87f0a0a88b405574997cf2733886df48b77069",
+    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v4.2.2/calendar-v4.2.2.tar.gz",
+    "version": "4.2.2",
     "description": "The Calendar app is a user interface for Nextcloud's CalDAV server. Easily sync events from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Currently Contacts - more to come.\n* 🌐 **WebCal Support!** Want to see your favorite team’s matchdays in your calendar? No problem!\n* 🙋 **Attendees!** Invite people to your events\n* ⌚️ **Free/Busy!** See when your attendees are available to meet\n* ⏰ **Reminders!** Get alarms for events inside your browser and via email\n* 🔍 Search! Find your events at ease\n* ☑️ Tasks! See tasks with a due date directly in the calendar\n* 🙈 **We’re not reinventing the wheel!** Based on the great [c-dav library](https://github.com/nextcloud/cdav-library), [ical.js](https://github.com/mozilla-comm/ical.js) and [fullcalendar](https://github.com/fullcalendar/fullcalendar) libraries.",
     "homepage": "https://github.com/nextcloud/calendar/",
     "licenses": [
@@ -260,8 +260,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -1010,9 +1010,9 @@
     ]
   },
   "integration_openproject": {
-    "sha256": "461aac6004063e5ad9f79309199e333b6378d2d0918072ab7140dbe525d429a6",
-    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.1.0/integration_openproject-2.1.0.tar.gz",
-    "version": "2.1.0",
+    "sha256": "aa41928102b22882ec32df2807c6ca99f2b199ec58b55b8f251d73b16115c760",
+    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.2.1/integration_openproject-2.2.1.tar.gz",
+    "version": "2.2.1",
     "description": "This application enables seamless integration with open source project management and collaboration software OpenProject.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in OpenProject\n* Find all work packages linked to a file or a folder\n* View OpenProject notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n\nOn the OpenProject end, users are able to:\n\n* View all Nextcloud files and folders linked to a work package\n* Download linked files or open them in Nextcloud to edit them\n\nFor more information on how to set up and use the OpenProject application, please refer to [integration setup guide](https://www.openproject.org/docs/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://www.openproject.org/docs/user-guide/nextcloud-integration/).",
     "homepage": "https://github.com/nextcloud/integration_openproject",
     "licenses": [
@@ -1070,8 +1070,8 @@
     ]
   },
   "integration_zimbra": {
-    "sha256": "e2536f1ba4f928b67a8cf460d07de241655b3f344d3eab6e6ec0918949e74425",
-    "url": "https://github.com/julien-nc/integration_zimbra/releases/download/v1.0.4/integration_zimbra-1.0.4.tar.gz",
+    "sha256": "99fe1e34d9c4d9be9dc627325445fc8598786757635a199c8df1d9d20b0bd946",
+    "url": "https://github.com/julien-nc/integration_zimbra/releases/download/v1.0.4-1-nightly/integration_zimbra-1.0.4-1-nightly.tar.gz",
     "version": "1.0.4",
     "description": "Zimbra integration into Nextcloud provides a dashboard widget for unread emails,\n one for upcoming events, a search provider for emails and the ability to search for Zimbra contacts in Nextcloud.\n\nNextcloud will suggest your Zimbra contacts addresses when you search for a contact via the top-right contacts menu\nor when you search for someone to share a file to.",
     "homepage": "https://github.com/eneiluj/integration_zimbra",
@@ -1670,9 +1670,9 @@
     ]
   },
   "secrets": {
-    "sha256": "5afd0dfffa142f4bf4dd0cd283f61a48eea1f91e7e9670d06c9a8786fd2f72e3",
-    "url": "https://github.com/theCalcaholic/nextcloud-secrets/releases/download/v1.3.0/secrets.tar.gz",
-    "version": "1.3.0",
+    "sha256": "aea9f4b187055565440bde7378f71dc24dc1dad0f65ff97c7b2b510d5491bb4c",
+    "url": "https://github.com/theCalcaholic/nextcloud-secrets/releases/download/v1.3.1/secrets.tar.gz",
+    "version": "1.3.1",
     "description": "Securely and share data with anyone. All data is end-to-end encrypted by the user and will be deleted once retrieved successfullly",
     "homepage": "",
     "licenses": [
@@ -1690,9 +1690,9 @@
     ]
   },
   "sentry": {
-    "sha256": "2c01c4e29c2c3a916a92281ff2bfcdedfcd7d14c98733ba89bae55e2b698b9b9",
-    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.3.4/sentry-v8.3.4.tar.gz",
-    "version": "8.3.4",
+    "sha256": "edd6e002a23c14e11e49df9feae945ff4fa1ac69bbc43c9285d0a793511900b5",
+    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.4.0/sentry-v8.4.0.tar.gz",
+    "version": "8.4.0",
     "description": "A Sentry integration that sends unhandled exceptions to a Sentry instance to aggregate application crashes. You either have to set up your own Sentry instance or use your sentry.io account. See the admin documentation for how to configure this app.",
     "homepage": "https://github.com/ChristophWurst/nextcloud_sentry",
     "licenses": [
@@ -1780,9 +1780,9 @@
     ]
   },
   "snappymail": {
-    "sha256": "0194bfc57b580b85fdc4334523f96a47d062d8642f033bfe6f6c5fce86ad0a96",
-    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.24.6-nextcloud.tar.gz",
-    "version": "2.24.6",
+    "sha256": "405ab7bca7432fd5fdcc7a50b5ff55dbfad48d35437da5ee4681b73f275b2b0c",
+    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.25.0-nextcloud.tar.gz",
+    "version": "2.25.0",
     "description": "**Simple, modern, lightweight & fast web-based email client.**\n\n- **Dark mode**\n- **Responsive design**\n- **Full Sieve filtering support**\n- **Almost all IMAP features** including advanced searching\n- **Integration with Nextcloud Unified Search**\n- **Integration with other Nextcloud apps** (Contacts, Files and Calendar)\n- **Multiple mail accounts and identities**\n- **Send & receive OpenPGP encrypted/signed emails** (With full HTML support, ECC keys, or plain text with Mailvelope)\n- **Many security features** (Sodium encrypted passwords, Sec-Fetch, TOTP 2FA, DKIM, prevent tracking, etc.)\n- **Kolab integrations**\n\nAfter enabling in Nextcloud, go to Nextcloud admin panel, \"Additional settings\" and you will see a \"SnappyMail webmail\" section.\nThere, click on the link to go to the SnappyMail admin panel.",
     "homepage": "https://snappymail.eu",
     "licenses": [
@@ -2240,9 +2240,9 @@
     ]
   },
   "xwiki": {
-    "sha256": "2bb092ae2f770c955df960f05c6a80b55f9433e64a2e42b3e051ce17ef7edca1",
-    "url": "https://github.com/nextcloud/xwiki/releases/download/v0.0.3/xwiki.tar.gz",
-    "version": "0.0.3",
+    "sha256": "74f4325c34ba13560d9b6e789c7e6dd33bfc620cbcb454e81a416d96d0ae1dde",
+    "url": "https://github.com/nextcloud/xwiki/releases/download/v0.0.4/xwiki.tar.gz",
+    "version": "0.0.4",
     "description": "This application allows you to search and display your XWiki content right from Nextcloud. XWiki is a powerful development platform that allows you to customize the wiki to your specific needs. Using structured data and in-page-scripting you can create macros and applications that allow you to extend the capabilities of your wiki. Note: full functionality requires the Nextcloud extension on XWiki (11.10 or later required).",
     "homepage": "https://github.com/nextcloud/xwiki",
     "licenses": [
