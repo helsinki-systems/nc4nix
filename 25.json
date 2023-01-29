@@ -250,8 +250,8 @@
     ]
   },
   "cospend": {
-    "sha256": "8c55e257248556eec2373a1e353a0ae93b5cd0fa21636464db177d785f341557",
-    "url": "https://github.com/julien-nc/cospend-nc/releases/download/v1.5.5/cospend-1.5.5.tar.gz",
+    "sha256": "84b7308dbfbab034aa58f65de59da2803612ebaaa0a4942ed4cebe16a1197c95",
+    "url": "https://github.com/julien-nc/cospend-nc/releases/download/v1.5.5-2-nightly/cospend-1.5.5-2-nightly.tar.gz",
     "version": "1.5.5",
     "description": "# Nextcloud Cospend 💰\n\nNextcloud Cospend is a group/shared budget manager. It was inspired by the great [IHateMoney](https://github.com/spiral-project/ihatemoney/).\n\nYou can use it when you share a house, when you go on vacation with friends, whenever you share money with others.\n\nIt lets you create projects with members and bills. Each member has a balance computed from the project bills. This way you can see who owes the group and who the group owes. Ultimately you can ask for a settlement plan telling you which payments to make to reset members balances.\n\nProject members are independent from Nextcloud users. Projects can be accessed and modified by people without a Nextcloud account. Each project has an ID and a password for guest access.\n\n[MoneyBuster](https://gitlab.com/eneiluj/moneybuster) Android client is [available in F-Droid](https://f-droid.org/packages/net.eneiluj.moneybuster/) and on the [Play store](https://play.google.com/store/apps/details?id=net.eneiluj.moneybuster).\n\n[PayForMe](https://github.com/mayflower/PayForMe) iOS client is currently being developped!\n\n## Features\n\n* ✎ create/edit/delete projects, members, bills, bill categories, currencies\n* ⚖ check member balances\n* 🗠 display project statistics\n* ♻ display settlement plan\n* 🎇 automatically create reimbursement bills from settlement plan\n* 🗓 create recurring bills (daily/weekly/monthly/yearly)\n* 📊 optionally provide custom amount for each member in new bills\n* 🔗 link bills with personal files (picture of physical bill for example)\n* 👩 guest access for people outside Nextcloud\n* 👫 share projects with Nextcloud users/groups/circles\n* 🖫 import/export projects as csv (compatible with csv files from IHateMoney)\n* 🔗 generate link/QRCode to easily import projects in MoneyBuster\n* 🗲 implement Nextcloud notifications and activity stream\n\nThis app is tested on Nextcloud 20+ with Firefox 57+ and Chromium.\n\nThis app is under development.\n\n🌍 Help us to translate this app on [Nextcloud-Cospend/MoneyBuster Crowdin project](https://crowdin.com/project/moneybuster).\n\n⚒ Check out other ways to help in the [contribution guidelines](https://gitlab.com/eneiluj/cospend-nc/blob/master/CONTRIBUTING.md).\n\n## Documentation\n\n* [User documentation](https://github.com/eneiluj/cospend-nc/blob/master/docs/user.md)\n* [Admin documentation](https://github.com/eneiluj/cospend-nc/blob/master/docs/admin.md)\n* [Developer documentation](https://github.com/eneiluj/cospend-nc/blob/master/docs/dev.md)\n* [CHANGELOG](https://github.com/eneiluj/cospend-nc/blob/master/CHANGELOG.md#change-log)\n* [AUTHORS](https://github.com/eneiluj/cospend-nc/blob/master/AUTHORS.md#authors)\n\n## Known issues\n\n* it does not make you rich\n\nAny feedback will be appreciated.\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://github.com/eneiluj/cospend-nc",
@@ -1150,9 +1150,9 @@
     ]
   },
   "mail_roundcube": {
-    "sha256": "3d33350ba01b291ef93cbb6e8aab133c9ce26366b344b9b4dad992f9aea8c38f",
-    "url": "https://github.com/rotdrop/nextcloud-roundcube/releases/download/v1.0.0-rc6/mail_roundcube.tar.gz",
-    "version": "1.0.0-rc6",
+    "sha256": "3bed7b520f916495d96cbe75fa8c15e6ce4aab1572e8c40e40d1520f6190d7cd",
+    "url": "https://github.com/rotdrop/nextcloud-roundcube/releases/download/v1.0.0-rc7/mail_roundcube.tar.gz",
+    "version": "1.0.0-rc7",
     "description": "Integrates an existing RoundCube standalone email-webapp into NextCloud, with optional SSO.",
     "homepage": "https://github.com/rotdrop/nextcloud-roundcube/",
     "licenses": [
@@ -1190,9 +1190,9 @@
     ]
   },
   "memories": {
-    "sha256": "335a9826aa60f5c7f7d616837fd66d2f5f03e781809cdc5432a7990004500f4b",
-    "url": "https://github.com/pulsejet/memories/releases/download/v4.10.2/memories.tar.gz",
-    "version": "4.10.2",
+    "sha256": "15c1a4a3e58b5baf092520d87cf43a74e73364cf5aa6fc523bfe6330575eda5b",
+    "url": "https://github.com/pulsejet/memories/releases/download/v4.10.3/memories.tar.gz",
+    "version": "4.10.3",
     "description": "# Memories\n\nMemories is a *batteries-included* photo management solution for Nextcloud with advanced features including:\n\n- **📸 Timeline**: Sort photos and videos by date taken, parsed from Exif data.\n- **⏪ Rewind**: Jump to any time in the past instantly and relive your memories.\n- **🤖 AI Tagging**: Group photos by people and objects, powered by [recognize](https://github.com/nextcloud/recognize) and [facerecognition](https://github.com/matiasdelellis/facerecognition).\n- **🖼️ Albums**: Create albums to group photos and videos together. Then share these albums with others.\n- **🫱🏻‍🫲🏻 External Sharing**: Share photos and videos with people outside of your Nextcloud instance.\n- **📱 Mobile Support**: Works on devices of any shape and size through the web app.\n- **✏️ Edit Metadata**: Edit dates on photos quickly and easily.\n- **📦 Archive**: Store photos you don't want to see in your timeline in a separate folder.\n- **📹 Video Transcoding**: Memories transcodes videos and uses HLS for maximal performance.\n- **⚡️ Performance**: In general, Memories is extremely fast.\n\n## 🌐 Online Demo\n\n- To get an idea of what memories looks and feels like, check out the [public demo](https://memories-demo.radialapps.com/apps/memories/).\n- The demo is read-only and may be slow (free tier VM from [Oracle Cloud](https://www.oracle.com/cloud/free/)).\n- Photo credits go to [Unsplash](https://unsplash.com/) (for individual credits, refer to each folder).\n\n## 🚀 Installation\n\n1. Install the app from the Nextcloud app store.\n1. Perform the recommended [configuration steps](https://github.com/pulsejet/memories/wiki/Extra-Configuration).\n1. Run `php ./occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos.",
     "homepage": "https://github.com/pulsejet/memories",
     "licenses": [
@@ -1300,9 +1300,9 @@
     ]
   },
   "oidc": {
-    "sha256": "62efa9849929b402285cc387cf728b5d7c6e91e1e2d2bff1877412cea220519c",
-    "url": "https://github.com/H2CK/oidc/releases/download/0.2.10/oidc-0.2.10.tar.gz",
-    "version": "0.2.9",
+    "sha256": "252ee41988503ededad2f6cf3c46ce9614af165a34b5786d7b446ffafb577407",
+    "url": "https://github.com/H2CK/oidc/releases/download/0.3.0/oidc-0.3.0.tar.gz",
+    "version": "0.3.0",
     "description": "Nextcloud as OpenID Connect Identity Provider\n\nWith this app you can use Nextcloud as OpenID Connect Identity Provider. If other services\nare configured correctly, you are able to access those services with your Nextcloud login.\n\nFull documentation can be found at:\n\n- [User Documentation](https://github.com/H2CK/oidc/wiki#user-documentation)\n- [Developer Documentation](https://github.com/H2CK/oidc/wiki#developer-documentation)",
     "homepage": "https://github.com/H2CK/oidc",
     "licenses": [
@@ -1310,9 +1310,9 @@
     ]
   },
   "oidc_login": {
-    "sha256": "7bf2d99777d67f3f8af43b3c0790f46c45a584e432ad5358d3115b90d807b81e",
-    "url": "https://github.com/pulsejet/nextcloud-oidc-login/releases/download/v2.4.0/oidc_login.tar.gz",
-    "version": "2.4.0",
+    "sha256": "6f9544ac60344c89b791a7599032246c666b2cec1eac40bc1f9c839e4e5e3c88",
+    "url": "https://github.com/pulsejet/nextcloud-oidc-login/releases/download/v2.4.1/oidc_login.tar.gz",
+    "version": "2.4.1",
     "description": "# OpenID Connect Login\n\nProvides user creation and login via one single OpenID Connect provider. Even though this is a fork of [nextcloud-social-login](https://github.com/zorn-v/nextcloud-social-login), it fundamentally differs in two ways - aims for simplistic, single provider login (and hence is very minimalistic), and it supports having LDAP as the primary user backend. This way, you can use OpenID Connect to login to Nextcloud while maintaining an LDAP backend with attributes with the LDAP plugin.\n\n### Features\n\n- Automatic [Identity provider endpoints discovery](https://openid.net/specs/openid-connect-discovery-1_0.html)\n- User creation at first login\n- User profile update at login (name, email, avatar, groups etc.)\n- Group creation\n- Automatic redirection from the nextcloud login page to the Identity Provider login page\n- WebDAV endpoints `Bearer` and `Basic` authentication",
     "homepage": "https://github.com/pulsejet/nextcloud-single-openid-connect",
     "licenses": [
