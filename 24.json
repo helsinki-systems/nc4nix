@@ -1280,9 +1280,9 @@
     ]
   },
   "mail_roundcube": {
-    "sha256": "3d33350ba01b291ef93cbb6e8aab133c9ce26366b344b9b4dad992f9aea8c38f",
-    "url": "https://github.com/rotdrop/nextcloud-roundcube/releases/download/v1.0.0-rc6/mail_roundcube.tar.gz",
-    "version": "1.0.0-rc6",
+    "sha256": "3bed7b520f916495d96cbe75fa8c15e6ce4aab1572e8c40e40d1520f6190d7cd",
+    "url": "https://github.com/rotdrop/nextcloud-roundcube/releases/download/v1.0.0-rc7/mail_roundcube.tar.gz",
+    "version": "1.0.0-rc7",
     "description": "Integrates an existing RoundCube standalone email-webapp into NextCloud, with optional SSO.",
     "homepage": "https://github.com/rotdrop/nextcloud-roundcube/",
     "licenses": [
@@ -1320,9 +1320,9 @@
     ]
   },
   "memories": {
-    "sha256": "85856fecabf23d3823dd11372a6d6e31cbc963749824f93da77eb4b7b7aeb695",
-    "url": "https://github.com/pulsejet/memories/releases/download/v3.10.2/memories.tar.gz",
-    "version": "3.10.2",
+    "sha256": "e60b91b9ced1f31163782a2acc56d48c898d8106ed8448fa53347387f23c0084",
+    "url": "https://github.com/pulsejet/memories/releases/download/v3.10.3/memories.tar.gz",
+    "version": "3.10.3",
     "description": "# Memories\n\nMemories is a *batteries-included* photo management solution for Nextcloud with advanced features including:\n\n- **📸 Timeline**: Sort photos and videos by date taken, parsed from Exif data.\n- **⏪ Rewind**: Jump to any time in the past instantly and relive your memories.\n- **🤖 AI Tagging**: Group photos by people and objects, powered by [recognize](https://github.com/nextcloud/recognize) and [facerecognition](https://github.com/matiasdelellis/facerecognition).\n- **🖼️ Albums**: Create albums to group photos and videos together. Then share these albums with others.\n- **🫱🏻‍🫲🏻 External Sharing**: Share photos and videos with people outside of your Nextcloud instance.\n- **📱 Mobile Support**: Works on devices of any shape and size through the web app.\n- **✏️ Edit Metadata**: Edit dates on photos quickly and easily.\n- **📦 Archive**: Store photos you don't want to see in your timeline in a separate folder.\n- **📹 Video Transcoding**: Memories transcodes videos and uses HLS for maximal performance.\n- **⚡️ Performance**: In general, Memories is extremely fast.\n\n## 🌐 Online Demo\n\n- To get an idea of what memories looks and feels like, check out the [public demo](https://memories-demo.radialapps.com/apps/memories/).\n- The demo is read-only and may be slow (free tier VM from [Oracle Cloud](https://www.oracle.com/cloud/free/)).\n- Photo credits go to [Unsplash](https://unsplash.com/) (for individual credits, refer to each folder).\n\n## 🚀 Installation\n\n1. Install the app from the Nextcloud app store.\n1. Perform the recommended [configuration steps](https://github.com/pulsejet/memories/wiki/Extra-Configuration).\n1. Run `php ./occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos.",
     "homepage": "https://github.com/pulsejet/memories",
     "licenses": [
@@ -1440,9 +1440,9 @@
     ]
   },
   "oidc": {
-    "sha256": "62efa9849929b402285cc387cf728b5d7c6e91e1e2d2bff1877412cea220519c",
-    "url": "https://github.com/H2CK/oidc/releases/download/0.2.10/oidc-0.2.10.tar.gz",
-    "version": "0.2.9",
+    "sha256": "252ee41988503ededad2f6cf3c46ce9614af165a34b5786d7b446ffafb577407",
+    "url": "https://github.com/H2CK/oidc/releases/download/0.3.0/oidc-0.3.0.tar.gz",
+    "version": "0.3.0",
     "description": "Nextcloud as OpenID Connect Identity Provider\n\nWith this app you can use Nextcloud as OpenID Connect Identity Provider. If other services\nare configured correctly, you are able to access those services with your Nextcloud login.\n\nFull documentation can be found at:\n\n- [User Documentation](https://github.com/H2CK/oidc/wiki#user-documentation)\n- [Developer Documentation](https://github.com/H2CK/oidc/wiki#developer-documentation)",
     "homepage": "https://github.com/H2CK/oidc",
     "licenses": [
@@ -1450,9 +1450,9 @@
     ]
   },
   "oidc_login": {
-    "sha256": "7bf2d99777d67f3f8af43b3c0790f46c45a584e432ad5358d3115b90d807b81e",
-    "url": "https://github.com/pulsejet/nextcloud-oidc-login/releases/download/v2.4.0/oidc_login.tar.gz",
-    "version": "2.4.0",
+    "sha256": "6f9544ac60344c89b791a7599032246c666b2cec1eac40bc1f9c839e4e5e3c88",
+    "url": "https://github.com/pulsejet/nextcloud-oidc-login/releases/download/v2.4.1/oidc_login.tar.gz",
+    "version": "2.4.1",
     "description": "# OpenID Connect Login\n\nProvides user creation and login via one single OpenID Connect provider. Even though this is a fork of [nextcloud-social-login](https://github.com/zorn-v/nextcloud-social-login), it fundamentally differs in two ways - aims for simplistic, single provider login (and hence is very minimalistic), and it supports having LDAP as the primary user backend. This way, you can use OpenID Connect to login to Nextcloud while maintaining an LDAP backend with attributes with the LDAP plugin.\n\n### Features\n\n- Automatic [Identity provider endpoints discovery](https://openid.net/specs/openid-connect-discovery-1_0.html)\n- User creation at first login\n- User profile update at login (name, email, avatar, groups etc.)\n- Group creation\n- Automatic redirection from the nextcloud login page to the Identity Provider login page\n- WebDAV endpoints `Bearer` and `Basic` authentication",
     "homepage": "https://github.com/pulsejet/nextcloud-single-openid-connect",
     "licenses": [
