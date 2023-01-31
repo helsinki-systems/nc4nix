@@ -250,8 +250,8 @@
     ]
   },
   "cospend": {
-    "sha256": "84b7308dbfbab034aa58f65de59da2803612ebaaa0a4942ed4cebe16a1197c95",
-    "url": "https://github.com/julien-nc/cospend-nc/releases/download/v1.5.5-2-nightly/cospend-1.5.5-2-nightly.tar.gz",
+    "sha256": "8c55e257248556eec2373a1e353a0ae93b5cd0fa21636464db177d785f341557",
+    "url": "https://github.com/julien-nc/cospend-nc/releases/download/v1.5.5/cospend-1.5.5.tar.gz",
     "version": "1.5.5",
     "description": "# Nextcloud Cospend 💰\n\nNextcloud Cospend is a group/shared budget manager. It was inspired by the great [IHateMoney](https://github.com/spiral-project/ihatemoney/).\n\nYou can use it when you share a house, when you go on vacation with friends, whenever you share money with others.\n\nIt lets you create projects with members and bills. Each member has a balance computed from the project bills. This way you can see who owes the group and who the group owes. Ultimately you can ask for a settlement plan telling you which payments to make to reset members balances.\n\nProject members are independent from Nextcloud users. Projects can be accessed and modified by people without a Nextcloud account. Each project has an ID and a password for guest access.\n\n[MoneyBuster](https://gitlab.com/eneiluj/moneybuster) Android client is [available in F-Droid](https://f-droid.org/packages/net.eneiluj.moneybuster/) and on the [Play store](https://play.google.com/store/apps/details?id=net.eneiluj.moneybuster).\n\n[PayForMe](https://github.com/mayflower/PayForMe) iOS client is currently being developped!\n\n## Features\n\n* ✎ create/edit/delete projects, members, bills, bill categories, currencies\n* ⚖ check member balances\n* 🗠 display project statistics\n* ♻ display settlement plan\n* 🎇 automatically create reimbursement bills from settlement plan\n* 🗓 create recurring bills (daily/weekly/monthly/yearly)\n* 📊 optionally provide custom amount for each member in new bills\n* 🔗 link bills with personal files (picture of physical bill for example)\n* 👩 guest access for people outside Nextcloud\n* 👫 share projects with Nextcloud users/groups/circles\n* 🖫 import/export projects as csv (compatible with csv files from IHateMoney)\n* 🔗 generate link/QRCode to easily import projects in MoneyBuster\n* 🗲 implement Nextcloud notifications and activity stream\n\nThis app is tested on Nextcloud 20+ with Firefox 57+ and Chromium.\n\nThis app is under development.\n\n🌍 Help us to translate this app on [Nextcloud-Cospend/MoneyBuster Crowdin project](https://crowdin.com/project/moneybuster).\n\n⚒ Check out other ways to help in the [contribution guidelines](https://gitlab.com/eneiluj/cospend-nc/blob/master/CONTRIBUTING.md).\n\n## Documentation\n\n* [User documentation](https://github.com/eneiluj/cospend-nc/blob/master/docs/user.md)\n* [Admin documentation](https://github.com/eneiluj/cospend-nc/blob/master/docs/admin.md)\n* [Developer documentation](https://github.com/eneiluj/cospend-nc/blob/master/docs/dev.md)\n* [CHANGELOG](https://github.com/eneiluj/cospend-nc/blob/master/CHANGELOG.md#change-log)\n* [AUTHORS](https://github.com/eneiluj/cospend-nc/blob/master/AUTHORS.md#authors)\n\n## Known issues\n\n* it does not make you rich\n\nAny feedback will be appreciated.\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://github.com/eneiluj/cospend-nc",
@@ -260,8 +260,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -730,11 +730,21 @@
     ]
   },
   "gestion": {
-    "sha256": "a77a6ad279e00e8a1d06a8362b2bb4d15e531d03d4437d919b1025dcbf1d6fbf",
-    "url": "https://github.com/baimard/gestion/releases/download/2.2.2/gestion.tar.gz",
-    "version": "2.2.2",
+    "sha256": "8c121f7886f8a2a3d58e28b4c95d726c6d63fd2d5d7efce83f495683fc3c9ca9",
+    "url": "https://github.com/baimard/gestion/releases/download/2.3.0/gestion.tar.gz",
+    "version": "2.3.0",
     "description": "# Company management by Gestion\n\nThis application allows the management of invoicing in a very simple way for Micro-Entreprise.\n\nFunctionality:\n\n* Add customer\n* Generate a quote\n* Generate an invoice\n* Generate product lines to include in quotes\n* You can generate PDFs directly from the app and save them to your Nextcloud\n\nPresentation video in user documentation\n\nIf you need to adapt this application to your country laws, please open issue.\n\n[Love my work ? Buy me a coffee !](https://www.buymeacoffee.com/benjaminaimard)",
     "homepage": "https://github.com/baimard/gestion",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "google_synchronization": {
+    "sha256": "e57f1058dac9e4ee633bd170993b5af642a06325f1423096c47b6801a54ec9aa",
+    "url": "https://github.com/MarcelRobitaille/nextcloud_google_synchronization/releases/download/v1.0.9.0/google_synchronization-v1.0.9.0.tar.gz",
+    "version": "1.0.9",
+    "description": "Google Synchronization automatically keeps your Nextcloud calendar up to date with your Google Calendar.",
+    "homepage": "https://github.com/MarcelRobitaille/nextcloud_google_synchronization",
     "licenses": [
       "agpl"
     ]
@@ -1070,8 +1080,8 @@
     ]
   },
   "integration_zimbra": {
-    "sha256": "99fe1e34d9c4d9be9dc627325445fc8598786757635a199c8df1d9d20b0bd946",
-    "url": "https://github.com/julien-nc/integration_zimbra/releases/download/v1.0.4-1-nightly/integration_zimbra-1.0.4-1-nightly.tar.gz",
+    "sha256": "e2536f1ba4f928b67a8cf460d07de241655b3f344d3eab6e6ec0918949e74425",
+    "url": "https://github.com/julien-nc/integration_zimbra/releases/download/v1.0.4/integration_zimbra-1.0.4.tar.gz",
     "version": "1.0.4",
     "description": "Zimbra integration into Nextcloud provides a dashboard widget for unread emails,\n one for upcoming events, a search provider for emails and the ability to search for Zimbra contacts in Nextcloud.\n\nNextcloud will suggest your Zimbra contacts addresses when you search for a contact via the top-right contacts menu\nor when you search for someone to share a file to.",
     "homepage": "https://github.com/eneiluj/integration_zimbra",
@@ -1220,9 +1230,9 @@
     ]
   },
   "money": {
-    "sha256": "7ae5c41b707734ebef05e4db0ec3f8274f85572f87d25e27037431425327e77b",
-    "url": "https://github.com/powerpaul17/nc_money/releases/download/v0.13.0/money.tar.gz",
-    "version": "0.13.0",
+    "sha256": "38ae3d621d0786897cce08b9e57451d9b416574b0f48302302720a8dec37a728",
+    "url": "https://github.com/powerpaul17/nc_money/releases/download/v0.14.0/money.tar.gz",
+    "version": "0.14.0",
     "description": "Finance manager for Nextcloud.",
     "homepage": "https://github.com/powerpaul17/nc_money",
     "licenses": [
@@ -1300,8 +1310,8 @@
     ]
   },
   "oidc": {
-    "sha256": "252ee41988503ededad2f6cf3c46ce9614af165a34b5786d7b446ffafb577407",
-    "url": "https://github.com/H2CK/oidc/releases/download/0.3.0/oidc-0.3.0.tar.gz",
+    "sha256": "df7cc94721ed0dad483aa29412f412cba1fef32e08ca7aef47a7432c31b3fabf",
+    "url": "https://github.com/H2CK/oidc/releases/download/0.3.1/oidc-0.3.1.tar.gz",
     "version": "0.3.0",
     "description": "Nextcloud as OpenID Connect Identity Provider\n\nWith this app you can use Nextcloud as OpenID Connect Identity Provider. If other services\nare configured correctly, you are able to access those services with your Nextcloud login.\n\nFull documentation can be found at:\n\n- [User Documentation](https://github.com/H2CK/oidc/wiki#user-documentation)\n- [Developer Documentation](https://github.com/H2CK/oidc/wiki#developer-documentation)",
     "homepage": "https://github.com/H2CK/oidc",
@@ -1690,9 +1700,9 @@
     ]
   },
   "sentry": {
-    "sha256": "08c573f882b68bd1c35c2c5619d3c045ca52cf90b030193506d5f151adde743e",
-    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.5.0/sentry-v8.5.0.tar.gz",
-    "version": "8.5.0",
+    "sha256": "b8a01d40979277b96a97431e99e7d02527fd2c3dfd4959a6ec35e269bfcbb039",
+    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.6.0/sentry-v8.6.0.tar.gz",
+    "version": "8.6.0",
     "description": "A Sentry integration that sends unhandled exceptions to a Sentry instance to aggregate application crashes. You either have to set up your own Sentry instance or use your sentry.io account. See the admin documentation for how to configure this app.",
     "homepage": "https://github.com/ChristophWurst/nextcloud_sentry",
     "licenses": [
@@ -1780,9 +1790,9 @@
     ]
   },
   "snappymail": {
-    "sha256": "405ab7bca7432fd5fdcc7a50b5ff55dbfad48d35437da5ee4681b73f275b2b0c",
-    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.25.0-nextcloud.tar.gz",
-    "version": "2.25.0",
+    "sha256": "e2ee63a08927430eea34f8aac1682f2abbb209362bb20f7b26350dbfb4ecc428",
+    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.25.1-nextcloud.tar.gz",
+    "version": "2.25.1",
     "description": "**Simple, modern, lightweight & fast web-based email client.**\n\n- **Dark mode**\n- **Responsive design**\n- **Full Sieve filtering support**\n- **Almost all IMAP features** including advanced searching\n- **Integration with Nextcloud Unified Search**\n- **Integration with other Nextcloud apps** (Contacts, Files and Calendar)\n- **Multiple mail accounts and identities**\n- **Send & receive OpenPGP encrypted/signed emails** (With full HTML support, ECC keys, or plain text with Mailvelope)\n- **Many security features** (Sodium encrypted passwords, Sec-Fetch, TOTP 2FA, DKIM, prevent tracking, etc.)\n- **Kolab integrations**\n\nAfter enabling in Nextcloud, go to Nextcloud admin panel, \"Additional settings\" and you will see a \"SnappyMail webmail\" section.\nThere, click on the link to go to the SnappyMail admin panel.",
     "homepage": "https://snappymail.eu",
     "licenses": [
