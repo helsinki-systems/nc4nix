@@ -290,8 +290,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -860,11 +860,21 @@
     ]
   },
   "gestion": {
-    "sha256": "a77a6ad279e00e8a1d06a8362b2bb4d15e531d03d4437d919b1025dcbf1d6fbf",
-    "url": "https://github.com/baimard/gestion/releases/download/2.2.2/gestion.tar.gz",
-    "version": "2.2.2",
+    "sha256": "8c121f7886f8a2a3d58e28b4c95d726c6d63fd2d5d7efce83f495683fc3c9ca9",
+    "url": "https://github.com/baimard/gestion/releases/download/2.3.0/gestion.tar.gz",
+    "version": "2.3.0",
     "description": "# Company management by Gestion\n\nThis application allows the management of invoicing in a very simple way for Micro-Entreprise.\n\nFunctionality:\n\n* Add customer\n* Generate a quote\n* Generate an invoice\n* Generate product lines to include in quotes\n* You can generate PDFs directly from the app and save them to your Nextcloud\n\nPresentation video in user documentation\n\nIf you need to adapt this application to your country laws, please open issue.\n\n[Love my work ? Buy me a coffee !](https://www.buymeacoffee.com/benjaminaimard)",
     "homepage": "https://github.com/baimard/gestion",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "google_synchronization": {
+    "sha256": "e57f1058dac9e4ee633bd170993b5af642a06325f1423096c47b6801a54ec9aa",
+    "url": "https://github.com/MarcelRobitaille/nextcloud_google_synchronization/releases/download/v1.0.9.0/google_synchronization-v1.0.9.0.tar.gz",
+    "version": "1.0.9",
+    "description": "Google Synchronization automatically keeps your Nextcloud calendar up to date with your Google Calendar.",
+    "homepage": "https://github.com/MarcelRobitaille/nextcloud_google_synchronization",
     "licenses": [
       "agpl"
     ]
@@ -1190,8 +1200,8 @@
     ]
   },
   "integration_zimbra": {
-    "sha256": "99fe1e34d9c4d9be9dc627325445fc8598786757635a199c8df1d9d20b0bd946",
-    "url": "https://github.com/julien-nc/integration_zimbra/releases/download/v1.0.4-1-nightly/integration_zimbra-1.0.4-1-nightly.tar.gz",
+    "sha256": "e2536f1ba4f928b67a8cf460d07de241655b3f344d3eab6e6ec0918949e74425",
+    "url": "https://github.com/julien-nc/integration_zimbra/releases/download/v1.0.4/integration_zimbra-1.0.4.tar.gz",
     "version": "1.0.4",
     "description": "Zimbra integration into Nextcloud provides a dashboard widget for unread emails,\n one for upcoming events, a search provider for emails and the ability to search for Zimbra contacts in Nextcloud.\n\nNextcloud will suggest your Zimbra contacts addresses when you search for a contact via the top-right contacts menu\nor when you search for someone to share a file to.",
     "homepage": "https://github.com/eneiluj/integration_zimbra",
@@ -1440,8 +1450,8 @@
     ]
   },
   "oidc": {
-    "sha256": "252ee41988503ededad2f6cf3c46ce9614af165a34b5786d7b446ffafb577407",
-    "url": "https://github.com/H2CK/oidc/releases/download/0.3.0/oidc-0.3.0.tar.gz",
+    "sha256": "df7cc94721ed0dad483aa29412f412cba1fef32e08ca7aef47a7432c31b3fabf",
+    "url": "https://github.com/H2CK/oidc/releases/download/0.3.1/oidc-0.3.1.tar.gz",
     "version": "0.3.0",
     "description": "Nextcloud as OpenID Connect Identity Provider\n\nWith this app you can use Nextcloud as OpenID Connect Identity Provider. If other services\nare configured correctly, you are able to access those services with your Nextcloud login.\n\nFull documentation can be found at:\n\n- [User Documentation](https://github.com/H2CK/oidc/wiki#user-documentation)\n- [Developer Documentation](https://github.com/H2CK/oidc/wiki#developer-documentation)",
     "homepage": "https://github.com/H2CK/oidc",
@@ -1820,9 +1830,9 @@
     ]
   },
   "sentry": {
-    "sha256": "08c573f882b68bd1c35c2c5619d3c045ca52cf90b030193506d5f151adde743e",
-    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.5.0/sentry-v8.5.0.tar.gz",
-    "version": "8.5.0",
+    "sha256": "b8a01d40979277b96a97431e99e7d02527fd2c3dfd4959a6ec35e269bfcbb039",
+    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.6.0/sentry-v8.6.0.tar.gz",
+    "version": "8.6.0",
     "description": "A Sentry integration that sends unhandled exceptions to a Sentry instance to aggregate application crashes. You either have to set up your own Sentry instance or use your sentry.io account. See the admin documentation for how to configure this app.",
     "homepage": "https://github.com/ChristophWurst/nextcloud_sentry",
     "licenses": [
@@ -1930,9 +1940,9 @@
     ]
   },
   "snappymail": {
-    "sha256": "405ab7bca7432fd5fdcc7a50b5ff55dbfad48d35437da5ee4681b73f275b2b0c",
-    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.25.0-nextcloud.tar.gz",
-    "version": "2.25.0",
+    "sha256": "e2ee63a08927430eea34f8aac1682f2abbb209362bb20f7b26350dbfb4ecc428",
+    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.25.1-nextcloud.tar.gz",
+    "version": "2.25.1",
     "description": "**Simple, modern, lightweight & fast web-based email client.**\n\n- **Dark mode**\n- **Responsive design**\n- **Full Sieve filtering support**\n- **Almost all IMAP features** including advanced searching\n- **Integration with Nextcloud Unified Search**\n- **Integration with other Nextcloud apps** (Contacts, Files and Calendar)\n- **Multiple mail accounts and identities**\n- **Send & receive OpenPGP encrypted/signed emails** (With full HTML support, ECC keys, or plain text with Mailvelope)\n- **Many security features** (Sodium encrypted passwords, Sec-Fetch, TOTP 2FA, DKIM, prevent tracking, etc.)\n- **Kolab integrations**\n\nAfter enabling in Nextcloud, go to Nextcloud admin panel, \"Additional settings\" and you will see a \"SnappyMail webmail\" section.\nThere, click on the link to go to the SnappyMail admin panel.",
     "homepage": "https://snappymail.eu",
     "licenses": [
@@ -2540,10 +2550,10 @@
     ]
   },
   "workspace": {
-    "sha256": "bfe9cbb8e81e01eb8f08c7cc1e08065b611baa7270699de07f39bac956a94636",
-    "url": "https://github.com/arawa/workspace/releases/download/v1.3.1/workspace-1.3.1.tar.gz",
-    "version": "1.3.1",
-    "description": "Workspace allows managers to :\n- Create shared workspaces\n- Delegate management of each workspace to users (workspace managers) in order for them to:\n    - choose members\n    - create groups\n    - configure advanced permissions on workspace folders\n- All through a simple unified interface, designed to simplify your users' experience and make them autonomous\n\nThis app is a Nextcloud extension of the Groupfolders app.\n\nFor more information, please visit [our website](https://www.arawa.fr/solutions/produits-arawa/arawa-workspace-for-nextcloud/) (french content).\n\n**Caution**, to use our app, you need to install [our forked Groupfolders app](https://github.com/arawa/groupfolders), release [v9.1.1](https://github.com/arawa/groupfolders/releases/download/v9.1.1/groupfolders-9.1.1.tar.gz).\nWe are working with Nextcloud to make Workspace compatible with the standard Groupfolders application.\nThis version will be available soon.\n\nFor more details, please go to the [admin documentation](https://github.com/arawa/workspace/blob/main/README.md#installation).",
+    "sha256": "49f3c2a07701dbf7a5f491196bfa1e767957fdb6bb75cad7618f366dfd3bfeea",
+    "url": "https://github.com/arawa/workspace/releases/download/v1.3.2/workspace-1.3.2.tar.gz",
+    "version": "1.3.2",
+    "description": "Workspace allows managers to :\n- Create shared workspaces\n- Delegate management of each workspace to users (workspace managers) in order for them to:\n    - choose members\n    - create groups\n    - configure advanced permissions on workspace folders\n- All through a simple unified interface, designed to simplify your users' experience and make them autonomous\n\nThis app is a Nextcloud extension of the Groupfolders app.\n\nFor more information, please visit [our website](https://www.arawa.fr/solutions/produits-arawa/arawa-workspace-for-nextcloud/) (french content).\n\n**Caution**, to use our app, you need to install [our forked Groupfolders app](https://github.com/arawa/groupfolders), release [v9.2.0](https://github.com/arawa/groupfolders/releases/download/v9.2.0/groupfolders-9.2.0.tar.gz).\nWe are working with Nextcloud to make Workspace compatible with the standard Groupfolders application.\nThis version will be available soon.\n\nFor more details, please go to the [admin documentation](https://github.com/arawa/workspace/blob/main/README.md#installation).",
     "homepage": "",
     "licenses": [
       "agpl"
