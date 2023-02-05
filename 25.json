@@ -99,6 +99,16 @@
       "agpl"
     ]
   },
+  "breezedark": {
+    "sha256": "cd598d670e559b77c25bb964d18b4d96b74c5f4d4a7278c9eca4dd510903925a",
+    "url": "https://github.com/mwalbeck/nextcloud-breeze-dark/releases/download/v25.0.0/breezedark.tar.gz",
+    "version": "25.0.0",
+    "description": "# Breeze Dark\nThis is a breeze dark theme for Nextcloud, based on the Breeze Dark theme made by the KDE Project.\n\n## Usage\n\nAfter you install the theme, you need to enable it. There are two options for this, a global and a personal one.\n\n### Global\n\nWith the global options you can enforce the use of the theme for all users as well as unauthenticated visits. Please note that when the theme is enforced for all users it isn't possible for them to disable the theme or choose a different theme.\n\nThere is also an option to let the theme be enabled / disabled based on the theming preferences reported by browser. When the theme is deactivated using this method, Nextcloud will revert to using the default light theme. This setting only sets the default for when the theme is globally enforced and can be overridden by the user.\n\nYou can also choose whether the login page should be themed. Though this only has an effect if the theme is enforced globally, or during the login phase of a user that has the theme enabled.\n\nYou can find the global options here:\n\n```\nSettings > Administration > Theming > Breeze Dark\n```\n\n### Personal\n\nThe personal option allows each user to enable / disable the theme unless it's being enforced by the global options. They can though choose whether the theme should follow the theming choice reported by the browser. This option is also available when the theme is being enforced globally. If the user hasn't set a prefernece they will follow the global default. You can find the personal option here:\n\n```\nSettings > Personal > Appearance and accessibility > Breeze Dark\n```\n\n### Custom styling\n\nUnder the Theming section in the admin settings you can add your own custom styling to the theme. Only standard CSS can be used. This custom styling will be applied whenever the theme is enabled and only affects the Breeze Dark theme.",
+    "homepage": "https://github.com/mwalbeck/nextcloud-breeze-dark",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "cadviewer": {
     "sha256": "fbd1381d22043d586274e320594101395462a62f4eaeaf952bb902f9e8069749",
     "url": "https://github.com/CADViewer/NextCloud/releases/download/cv_nextcloud_v8.17.3/cadviewer-v8.17.3.tar.gz",
@@ -250,8 +260,8 @@
     ]
   },
   "cospend": {
-    "sha256": "8c55e257248556eec2373a1e353a0ae93b5cd0fa21636464db177d785f341557",
-    "url": "https://github.com/julien-nc/cospend-nc/releases/download/v1.5.5/cospend-1.5.5.tar.gz",
+    "sha256": "84b7308dbfbab034aa58f65de59da2803612ebaaa0a4942ed4cebe16a1197c95",
+    "url": "https://github.com/julien-nc/cospend-nc/releases/download/v1.5.5-2-nightly/cospend-1.5.5-2-nightly.tar.gz",
     "version": "1.5.5",
     "description": "# Nextcloud Cospend 💰\n\nNextcloud Cospend is a group/shared budget manager. It was inspired by the great [IHateMoney](https://github.com/spiral-project/ihatemoney/).\n\nYou can use it when you share a house, when you go on vacation with friends, whenever you share money with others.\n\nIt lets you create projects with members and bills. Each member has a balance computed from the project bills. This way you can see who owes the group and who the group owes. Ultimately you can ask for a settlement plan telling you which payments to make to reset members balances.\n\nProject members are independent from Nextcloud users. Projects can be accessed and modified by people without a Nextcloud account. Each project has an ID and a password for guest access.\n\n[MoneyBuster](https://gitlab.com/eneiluj/moneybuster) Android client is [available in F-Droid](https://f-droid.org/packages/net.eneiluj.moneybuster/) and on the [Play store](https://play.google.com/store/apps/details?id=net.eneiluj.moneybuster).\n\n[PayForMe](https://github.com/mayflower/PayForMe) iOS client is currently being developped!\n\n## Features\n\n* ✎ create/edit/delete projects, members, bills, bill categories, currencies\n* ⚖ check member balances\n* 🗠 display project statistics\n* ♻ display settlement plan\n* 🎇 automatically create reimbursement bills from settlement plan\n* 🗓 create recurring bills (daily/weekly/monthly/yearly)\n* 📊 optionally provide custom amount for each member in new bills\n* 🔗 link bills with personal files (picture of physical bill for example)\n* 👩 guest access for people outside Nextcloud\n* 👫 share projects with Nextcloud users/groups/circles\n* 🖫 import/export projects as csv (compatible with csv files from IHateMoney)\n* 🔗 generate link/QRCode to easily import projects in MoneyBuster\n* 🗲 implement Nextcloud notifications and activity stream\n\nThis app is tested on Nextcloud 20+ with Firefox 57+ and Chromium.\n\nThis app is under development.\n\n🌍 Help us to translate this app on [Nextcloud-Cospend/MoneyBuster Crowdin project](https://crowdin.com/project/moneybuster).\n\n⚒ Check out other ways to help in the [contribution guidelines](https://gitlab.com/eneiluj/cospend-nc/blob/master/CONTRIBUTING.md).\n\n## Documentation\n\n* [User documentation](https://github.com/eneiluj/cospend-nc/blob/master/docs/user.md)\n* [Admin documentation](https://github.com/eneiluj/cospend-nc/blob/master/docs/admin.md)\n* [Developer documentation](https://github.com/eneiluj/cospend-nc/blob/master/docs/dev.md)\n* [CHANGELOG](https://github.com/eneiluj/cospend-nc/blob/master/CHANGELOG.md#change-log)\n* [AUTHORS](https://github.com/eneiluj/cospend-nc/blob/master/AUTHORS.md#authors)\n\n## Known issues\n\n* it does not make you rich\n\nAny feedback will be appreciated.\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://github.com/eneiluj/cospend-nc",
@@ -1230,9 +1240,9 @@
     ]
   },
   "money": {
-    "sha256": "72a49836ae90d9695d35f8e6dad687e99c5c4c74dbe04585aa22316a9885422c",
-    "url": "https://github.com/powerpaul17/nc_money/releases/download/v0.14.2/money.tar.gz",
-    "version": "0.14.2",
+    "sha256": "1a488f5506d59f01266852d8ba9029bcc72a8828af2fc4b430a27ecb53e6dc76",
+    "url": "https://github.com/powerpaul17/nc_money/releases/download/v0.15.0/money.tar.gz",
+    "version": "0.15.0",
     "description": "Finance manager for Nextcloud.",
     "homepage": "https://github.com/powerpaul17/nc_money",
     "licenses": [
@@ -1390,9 +1400,9 @@
     ]
   },
   "passwords": {
-    "sha256": "f13b7a6eb5153dec9932e070248e90a842fc7ce7c334b27af6713a7d3f29c98d",
-    "url": "https://git.mdns.eu/nextcloud/passwords/-/jobs/15371/artifacts/raw/passwords.tar.gz",
-    "version": "2023.1.23",
+    "sha256": "cde241ab6be8c9dc36bf65ffc7566c4ed132f2f4d3a46dbefd72aa365a305aa1",
+    "url": "https://git.mdns.eu/nextcloud/passwords/-/jobs/15423/artifacts/raw/passwords.tar.gz",
+    "version": "2023.2.20-build4813",
     "description": "Passwords is the most advanced password manager for Nextcloud and allows you to manage and store your passwords safely in your own cloud.\nThe intuitive and modern web interface of the app makes it easy to update and add new passwords from anywhere.\nIncluded security checks help you to keep your online accounts safe and up-to-date.\nYou can also share passwords with other Nextcloud users.\n\n**Features**\n * Intuitive and modern user interface\n * Password security monitor\n * Secure encryption\n * Folders &amp; tags\n * Sharing\n * API for apps\n * Extensive handbook\n * Import &amp; Export\n * Browser extensions &amp; Apps\n * ... and many more to come\n\n**Support**\n * [Official Chat](https://t.me/nc_passwords)\n * [Official Forum](https://help.nextcloud.com/c/apps/passwords)\n * [User Handbook](https://git.mdns.eu/nextcloud/passwords/wikis/Users/Index)\n * [Administrator Handbook](https://git.mdns.eu/nextcloud/passwords/wikis/Administrators/Index)\n\n**Apps & Extensions**\n * [Official Firefox Add-On](https://addons.mozilla.org/de/firefox/addon/nextcloud-passwords?src=external-ncapps)\n * [Official Chrome Extension](https://chrome.google.com/webstore/detail/nextcloud-passwords/mhajlicjhgoofheldnmollgbgjheenbi)\n * [Official Microsoft Edge Extension](https://microsoftedge.microsoft.com/addons/detail/cjmlcljdpphgdfpkngjcmeepdpcgpffk)\n * [Android App](https://play.google.com/store/apps/details?id=de.jbservices.nc_passwords_app) by [joleaf](https://gitlab.com/joleaf/nc-passwords-app)\n * [Windows App (WIP)](https://www.microsoft.com/store/apps/9NXVZ0ZP6D5Z) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [Linux App (WIP)](https://gitlab.com/j0chn/nextcloud_password_client/-/tree/main#linux) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [macOS App (WIP)](https://gitlab.com/j0chn/nextcloud_password_client/-/tree/main#mac-os) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [iOS App](https://apps.apple.com/app/id1546212226) by [Johannes Schliephake](https://github.com/johannes-schliephake/nextcloud-passwords-ios)",
     "homepage": "",
     "licenses": [

@@ -290,8 +290,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -1830,9 +1830,9 @@
     ]
   },
   "sentry": {
-    "sha256": "de26c997a612e9660bd94765194a8032cfd2e491f5eb16c1298889a3a3a935cd",
-    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.6.1/sentry-v8.6.1.tar.gz",
-    "version": "8.6.1",
+    "sha256": "da5b7a33c52992758f1d9024eb8be520eff91b3882994a664a968caeabdf0ef9",
+    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.6.2/sentry-v8.6.2.tar.gz",
+    "version": "8.6.2",
     "description": "A Sentry integration that sends unhandled exceptions to a Sentry instance to aggregate application crashes. You either have to set up your own Sentry instance or use your sentry.io account. See the admin documentation for how to configure this app.",
     "homepage": "https://github.com/ChristophWurst/nextcloud_sentry",
     "licenses": [
@@ -1940,9 +1940,9 @@
     ]
   },
   "snappymail": {
-    "sha256": "c60b5b2538e2eb9299b4428ad7408fe0acbb841033b2b43708d0cccc9a23a136",
-    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.25.2-nextcloud.tar.gz",
-    "version": "2.25.2",
+    "sha256": "bf9347425057a3403824c253921fc8e9eb0692f7a01ff5bf6f339b6c149cc9fa",
+    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.25.3-nextcloud.tar.gz",
+    "version": "2.25.3",
     "description": "**Simple, modern, lightweight & fast web-based email client.**\n\n- **Dark mode**\n- **Responsive design**\n- **Full Sieve filtering support**\n- **Almost all IMAP features** including advanced searching\n- **Integration with Nextcloud Unified Search**\n- **Integration with other Nextcloud apps** (Contacts, Files and Calendar)\n- **Multiple mail accounts and identities**\n- **Send & receive OpenPGP encrypted/signed emails** (With full HTML support, ECC keys, or plain text with Mailvelope)\n- **Many security features** (Sodium encrypted passwords, Sec-Fetch, TOTP 2FA, DKIM, prevent tracking, etc.)\n- **Kolab integrations**\n\nAfter enabling in Nextcloud, go to Nextcloud admin panel, \"Additional settings\" and you will see a \"SnappyMail webmail\" section.\nThere, click on the link to go to the SnappyMail admin panel.",
     "homepage": "https://snappymail.eu",
     "licenses": [
@@ -2020,9 +2020,9 @@
     ]
   },
   "solid": {
-    "sha256": "e9dea52c1b98334eda9b3091042f56639aaf7781e9966eaad473d54993e414e9",
-    "url": "https://github.com/pdsinterop/solid-nextcloud/releases/download/v0.7.1/solid.tar.gz",
-    "version": "0.7.1",
+    "sha256": "c2e92a1fdb9f48a0ccf2a588bea6830cefede1e655be9dcc80ddbac3cca4b421",
+    "url": "https://github.com/pdsinterop/solid-nextcloud/releases/download/v0.7.2/solid.tar.gz",
+    "version": "0.7.2",
     "description": "# Solid pod server\n\nThis app gives every user on the server a Solid pod storage space and a corresponding WebID URL.\nIt supports the webid-oidc-dpop-pkce login flow to connect to a Solid App with your Nextcloud User.\nWhen you do this, the Solid App can store data in your Nextcloud account through the Solid protocol.\nIMPORTANT: See https://github.com/pdsinterop/solid-nextcloud/blob/main/INSTALL.md for additional install instructions!",
     "homepage": "",
     "licenses": [
@@ -2110,9 +2110,9 @@
     ]
   },
   "talked": {
-    "sha256": "629e5af4289d3fbdd432d0ed5f7075d4ef65f0ebb07a70b8dbe2601743eae366",
-    "url": "https://github.com/MetaProvide/talked-client/releases/download/v0.4.0/talked.tar.gz",
-    "version": "0.4.0",
+    "sha256": "da7e135d3bf48b2fe09f945d8ff0b8af348dfeba9691ae22e1ad72bf0b9c3491",
+    "url": "https://github.com/MetaProvide/talked-client/releases/download/v0.5.0/talked.tar.gz",
+    "version": "0.5.0",
     "description": "# Talked client\n\nCall recording for Nextcloud Talk. This app provides a chat based interface to interact with the Talked server component that handles the actual recording.\n\nCheck out the [Talked server repo](https://github.com/MetaProvide/talked) for more information on how this works and what the current limitations are.\n\n## Installation and setup\n\nIt's available in the [Nextcloud app store](https://apps.nextcloud.com/apps/talked), just search for Talked and you should be able to find it.\n\nOr you can clone this repo into your app folder and enable it in the app menu in Nextcloud.\n\n### Register chat command\n\nTo use the chat command to interact with the Talked server, the command first needs to be registered with Talk. You can register a command using the occ command. The exact command depends on how you have installed Nextcloud. Below I'll have an example for the official docker container and the snap. For more information about registering a chat command, check out the Talk documenation: https://nextcloud-talk.readthedocs.io/en/latest/commands/\n\nYou will find two examples for both the docker container and snap. The only difference is whether you want to allow all registered users in a room to start a recording, or only the moderators.\n\n#### Docker container\n\n##### Only moderators can use\n```\nphp occ talk:command:add recording Talked \"php /var/www/html/occ talked:record {ROOM} {ARGUMENTS}\" 2 1\n```\n##### All registered users can use\n```\nphp occ talk:command:add recording Talked \"php /var/www/html/occ talked:record {ROOM} {ARGUMENTS}\" 2 2\n```\n\n#### Snap\n\n##### Only moderators can use\n```\nocc talk:command:add recording Talked \"php /var/www/html/occ talked:record {ROOM} {ARGUMENTS}\" 2 1\n```\n##### All registered users can use\n```\nocc talk:command:add recording Talked \"php /var/www/html/occ talked:record {ROOM} {ARGUMENTS}\" 2 2\n```\n\n### Configuring Talked\n\nAfter you have registered the Talk command you should configure Talked. If you head to Admin settings > Talk, then you will find the settings for Talked near the bottom. Here you can specify the URI for your Talked server and whether to use HTTP Basic auth, and the credentials for HTTP Basic auth.\n\nThe http / https should be included in the url, for example: https://talked.example.com\n\nYou can also connect to the Talked server over a unix socket. To specify the path to a unix socket prefix the path with `unix:` for example: `unix:/tmp/talked.sock`.\n\nPlease note that abstract sockets aren't supported.\n\n## Usage\n\nTo use Talked, simply use the `/recording` command in a chat room. If you don't specify any options or run `/recording help` you will get a help message telling you about the different options. The following options are available:\n\n* `/recording start` - starts a recording in the current room.\n* `/recording stop`  - stops the active recording.\n* `/recording status` - checks if there is an active recording.\n* `/recording info` - prints the version number of the Talked server.\n* `/recording help` - prints a help message with the different options.",
     "homepage": "https://github.com/MetaProvide/talked-client",
     "licenses": [
