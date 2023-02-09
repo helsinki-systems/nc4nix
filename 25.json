@@ -270,8 +270,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -345,6 +345,16 @@
     "version": "0.1.13",
     "description": "Document server for OnlyOffice, community edition.\n\nThe community document server is designed to make it easy to get OnlyOffice running in a Nextcloud instance without the need to setup an external document server,\nthe community document server does not support all features of the official OnlyOffice document server and does not provide the same performance and scalability.\n\nIf you are setting up a larger instance or require the additional performance, please see https://onlyoffice.com for options for getting the official document server.\n\nThe community document server will automatically be configured if no other document server is configured for OnlyOffice.\n\nAdditionally, the community document server only supports running on x86-64 Linux servers.",
     "homepage": "https://github.com/nextcloud/documentserver_community",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "dokuwiki": {
+    "sha256": "c83aa03771c8ec0682896a864d88ba165d117bd5f9ed0f481f3d423e8eb4e157",
+    "url": "https://github.com/rotdrop/nextcloud-app-dokuwiki/releases/download/v1.0.0-rc2/dokuwiki.tar.gz",
+    "version": "1.0.0-rc2",
+    "description": "Embed an existing DokuWiki instance into Nextcloud, potentially with SSO. For SSO DokuWiki users and Nextcloud users have to coincide, e.g. by using a common authentication backend lik LDAP, or with an appropriate auth plugin on either side of the integration.",
+    "homepage": "",
     "licenses": [
       "agpl"
     ]
@@ -1090,8 +1100,8 @@
     ]
   },
   "integration_zimbra": {
-    "sha256": "e2536f1ba4f928b67a8cf460d07de241655b3f344d3eab6e6ec0918949e74425",
-    "url": "https://github.com/julien-nc/integration_zimbra/releases/download/v1.0.4/integration_zimbra-1.0.4.tar.gz",
+    "sha256": "99fe1e34d9c4d9be9dc627325445fc8598786757635a199c8df1d9d20b0bd946",
+    "url": "https://github.com/julien-nc/integration_zimbra/releases/download/v1.0.4-1-nightly/integration_zimbra-1.0.4-1-nightly.tar.gz",
     "version": "1.0.4",
     "description": "Zimbra integration into Nextcloud provides a dashboard widget for unread emails,\n one for upcoming events, a search provider for emails and the ability to search for Zimbra contacts in Nextcloud.\n\nNextcloud will suggest your Zimbra contacts addresses when you search for a contact via the top-right contacts menu\nor when you search for someone to share a file to.",
     "homepage": "https://github.com/eneiluj/integration_zimbra",
@@ -1170,9 +1180,9 @@
     ]
   },
   "mail_roundcube": {
-    "sha256": "3bed7b520f916495d96cbe75fa8c15e6ce4aab1572e8c40e40d1520f6190d7cd",
-    "url": "https://github.com/rotdrop/nextcloud-roundcube/releases/download/v1.0.0-rc7/mail_roundcube.tar.gz",
-    "version": "1.0.0-rc7",
+    "sha256": "04996edaff0d3defc40b883ba089b948a682af48940476a869bb580421d4f777",
+    "url": "https://github.com/rotdrop/nextcloud-roundcube/releases/download/v1.0.0/mail_roundcube.tar.gz",
+    "version": "1.0.0",
     "description": "Integrates an existing RoundCube standalone email-webapp into NextCloud, with optional SSO.",
     "homepage": "https://github.com/rotdrop/nextcloud-roundcube/",
     "licenses": [
@@ -1320,9 +1330,9 @@
     ]
   },
   "oidc": {
-    "sha256": "18ba1ee4ee5c9baca6aef5056bc35f0b0fdeb0c385fd7bcbe822430ff9edc972",
-    "url": "https://github.com/H2CK/oidc/releases/download/0.4.0/oidc-0.4.0.tar.gz",
-    "version": "0.4.0",
+    "sha256": "792858d970dd59cf215732e6a73b758bf7c1d76a76b2515332730f43c23b722b",
+    "url": "https://github.com/H2CK/oidc/releases/download/0.4.2/oidc-0.4.2.tar.gz",
+    "version": "0.4.2",
     "description": "Nextcloud as OpenID Connect Identity Provider\n\nWith this app you can use Nextcloud as OpenID Connect Identity Provider. If other services\nare configured correctly, you are able to access those services with your Nextcloud login.\n\nFull documentation can be found at:\n\n- [User Documentation](https://github.com/H2CK/oidc/wiki#user-documentation)\n- [Developer Documentation](https://github.com/H2CK/oidc/wiki#developer-documentation)",
     "homepage": "https://github.com/H2CK/oidc",
     "licenses": [
@@ -1400,9 +1410,9 @@
     ]
   },
   "passwords": {
-    "sha256": "8ba3353013a332ef8aae5248496f1ff9d9522a3ceaf5ff32f0c40e265b0f49c0",
-    "url": "https://git.mdns.eu/nextcloud/passwords/-/jobs/15498/artifacts/raw/passwords.tar.gz",
-    "version": "2023.2.20-build4828",
+    "sha256": "cf6cff8b7ea24f33c340f96e2dc646e10fc3d809ad392dc7ff18872e7ab552fb",
+    "url": "https://git.mdns.eu/nextcloud/passwords/-/jobs/15509/artifacts/raw/passwords.tar.gz",
+    "version": "2023.2.20-build4829",
     "description": "Passwords is the most advanced password manager for Nextcloud and allows you to manage and store your passwords safely in your own cloud.\nThe intuitive and modern web interface of the app makes it easy to update and add new passwords from anywhere.\nIncluded security checks help you to keep your online accounts safe and up-to-date.\nYou can also share passwords with other Nextcloud users.\n\n**Features**\n * Intuitive and modern user interface\n * Password security monitor\n * Secure encryption\n * Folders &amp; tags\n * Sharing\n * API for apps\n * Extensive handbook\n * Import &amp; Export\n * Browser extensions &amp; Apps\n * ... and many more to come\n\n**Support**\n * [Official Chat](https://t.me/nc_passwords)\n * [Official Forum](https://help.nextcloud.com/c/apps/passwords)\n * [User Handbook](https://git.mdns.eu/nextcloud/passwords/wikis/Users/Index)\n * [Administrator Handbook](https://git.mdns.eu/nextcloud/passwords/wikis/Administrators/Index)\n\n**Apps & Extensions**\n * [Official Firefox Add-On](https://addons.mozilla.org/de/firefox/addon/nextcloud-passwords?src=external-ncapps)\n * [Official Chrome Extension](https://chrome.google.com/webstore/detail/nextcloud-passwords/mhajlicjhgoofheldnmollgbgjheenbi)\n * [Official Microsoft Edge Extension](https://microsoftedge.microsoft.com/addons/detail/cjmlcljdpphgdfpkngjcmeepdpcgpffk)\n * [Android App](https://play.google.com/store/apps/details?id=de.jbservices.nc_passwords_app) by [joleaf](https://gitlab.com/joleaf/nc-passwords-app)\n * [Windows App (WIP)](https://www.microsoft.com/store/apps/9NXVZ0ZP6D5Z) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [Linux App (WIP)](https://gitlab.com/j0chn/nextcloud_password_client/-/tree/main#linux) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [macOS App (WIP)](https://gitlab.com/j0chn/nextcloud_password_client/-/tree/main#mac-os) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [iOS App](https://apps.apple.com/app/id1546212226) by [Johannes Schliephake](https://github.com/johannes-schliephake/nextcloud-passwords-ios)",
     "homepage": "",
     "licenses": [
