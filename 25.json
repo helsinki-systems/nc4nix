@@ -260,8 +260,8 @@
     ]
   },
   "cospend": {
-    "sha256": "f5510abf7e333d6993925e8ec329a39a8f29b709b11b689df142c68df460f927",
-    "url": "https://github.com/julien-nc/cospend-nc/releases/download/v1.5.7/cospend-1.5.7.tar.gz",
+    "sha256": "56485f944b71140506c713f5bba4f320f50bece4488022eb222604edaa14ce92",
+    "url": "https://github.com/julien-nc/cospend-nc/releases/download/v1.5.7-1-nightly/cospend-1.5.7-1-nightly.tar.gz",
     "version": "1.5.7",
     "description": "# Nextcloud Cospend 💰\n\nNextcloud Cospend is a group/shared budget manager. It was inspired by the great [IHateMoney](https://github.com/spiral-project/ihatemoney/).\n\nYou can use it when you share a house, when you go on vacation with friends, whenever you share money with others.\n\nIt lets you create projects with members and bills. Each member has a balance computed from the project bills. This way you can see who owes the group and who the group owes. Ultimately you can ask for a settlement plan telling you which payments to make to reset members balances.\n\nProject members are independent from Nextcloud users. Projects can be accessed and modified by people without a Nextcloud account. Each project has an ID and a password for guest access.\n\n[MoneyBuster](https://gitlab.com/eneiluj/moneybuster) Android client is [available in F-Droid](https://f-droid.org/packages/net.eneiluj.moneybuster/) and on the [Play store](https://play.google.com/store/apps/details?id=net.eneiluj.moneybuster).\n\n[PayForMe](https://github.com/mayflower/PayForMe) iOS client is currently being developped!\n\n## Features\n\n* ✎ create/edit/delete projects, members, bills, bill categories, currencies\n* ⚖ check member balances\n* 🗠 display project statistics\n* ♻ display settlement plan\n* 🎇 automatically create reimbursement bills from settlement plan\n* 🗓 create recurring bills (daily/weekly/monthly/yearly)\n* 📊 optionally provide custom amount for each member in new bills\n* 🔗 link bills with personal files (picture of physical bill for example)\n* 👩 guest access for people outside Nextcloud\n* 👫 share projects with Nextcloud users/groups/circles\n* 🖫 import/export projects as csv (compatible with csv files from IHateMoney)\n* 🔗 generate link/QRCode to easily import projects in MoneyBuster\n* 🗲 implement Nextcloud notifications and activity stream\n\nThis app is tested on Nextcloud 20+ with Firefox 57+ and Chromium.\n\nThis app is under development.\n\n🌍 Help us to translate this app on [Nextcloud-Cospend/MoneyBuster Crowdin project](https://crowdin.com/project/moneybuster).\n\n⚒ Check out other ways to help in the [contribution guidelines](https://gitlab.com/eneiluj/cospend-nc/blob/master/CONTRIBUTING.md).\n\n## Documentation\n\n* [User documentation](https://github.com/eneiluj/cospend-nc/blob/master/docs/user.md)\n* [Admin documentation](https://github.com/eneiluj/cospend-nc/blob/master/docs/admin.md)\n* [Developer documentation](https://github.com/eneiluj/cospend-nc/blob/master/docs/dev.md)\n* [CHANGELOG](https://github.com/eneiluj/cospend-nc/blob/master/CHANGELOG.md#change-log)\n* [AUTHORS](https://github.com/eneiluj/cospend-nc/blob/master/AUTHORS.md#authors)\n\n## Known issues\n\n* it does not make you rich\n\nAny feedback will be appreciated.\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://github.com/julien-nc/cospend-nc",
@@ -440,9 +440,9 @@
     ]
   },
   "external": {
-    "sha256": "0c8dd993c2dd4161a1052df68b9992e8cb369e604eeba034330427d27aa8b3ae",
-    "url": "https://github.com/nextcloud-releases/external/releases/download/v5.0.0/external-v5.0.0.tar.gz",
-    "version": "5.0.0",
+    "sha256": "06493d5f5b55a272ac880dd894abb1db2f0aec7749bf8a8cfde27d4cffa2d7b2",
+    "url": "https://github.com/nextcloud-releases/external/releases/download/v5.0.2/external-v5.0.2.tar.gz",
+    "version": "5.0.2",
     "description": "This application allows an admin to add additional links into the Nextcloud menus.\nFollowing a link, the external website appears in the Nextcloud frame.\nIt is also possible to add links only for a given language, device type or user group.\n\nMore information is available in the External sites documentation.",
     "homepage": "https://github.com/nextcloud/external",
     "licenses": [
@@ -510,9 +510,9 @@
     ]
   },
   "files_automatedtagging": {
-    "sha256": "447dcdab9d2be8541b0ece845f5775669df24da7d9e38d0a6ed0015675727c17",
-    "url": "https://github.com/nextcloud-releases/files_automatedtagging/releases/download/v1.15.0/files_automatedtagging-v1.15.0.tar.gz",
-    "version": "1.15.0",
+    "sha256": "dc40d915e8bd1715e060a25fa0ce43194e59761cf9ad9f82d2684eca715ff71f",
+    "url": "https://github.com/nextcloud-releases/files_automatedtagging/releases/download/v1.15.1/files_automatedtagging-v1.15.1.tar.gz",
+    "version": "1.15.1",
     "description": "An app for Nextcloud that automatically assigns tags to newly uploaded files based on some conditions.\n\nThe tags can later be used to control retention, file access, automatic script execution and more.\n\n## How it works\nTo define tags, administrators can create and manage a set of rule groups. Each rule group consists of one or more rules combined through operators. Rules can include criteria like file type, size, time and more. A request matches a group if all rules evaluate to true. On uploading a file all defined groups are evaluated and when matching, the given tags are assigned to the file.",
     "homepage": "https://github.com/nextcloud/files_automatedtagging",
     "licenses": [
@@ -970,8 +970,8 @@
     ]
   },
   "integration_google": {
-    "sha256": "c7671104f8e125199e20b9b3ed531fe3ccabada0b0e311232524a05fb2259251",
-    "url": "https://github.com/nextcloud/integration_google/releases/download/v1.0.9/integration_google-1.0.9.tar.gz",
+    "sha256": "80b8b99970f17ccce874f56665dba61438e38b875f679f60205b71368f204009",
+    "url": "https://github.com/nextcloud/integration_google/releases/download/v1.0.9-5-nightly/integration_google-1.0.9-5-nightly.tar.gz",
     "version": "1.0.9",
     "description": "Google integration allows you to automatically import your Google calendars, contacts, photos and files into Nextcloud.",
     "homepage": "https://github.com/nextcloud/integration_google",
@@ -1150,9 +1150,9 @@
     ]
   },
   "libresign": {
-    "sha256": "25a4f24bfe057c04a92e6d7ba3fd2421001eadce82e4aba0648128663b82f965",
-    "url": "https://github.com/LibreSign/libresign/releases/download/v6.2.5/libresign.tar.gz",
-    "version": "6.2.5",
+    "sha256": "ae9feed732e0bc8f5b9368168ffa0b5c8cc1845a87046030bbbab274ac546467",
+    "url": "https://github.com/LibreSign/libresign/releases/download/v6.2.6/libresign.tar.gz",
+    "version": "6.2.6",
     "description": "**This is a libre digital PDF signature app for Nextcloud**\n\n* ✍️ Sign PDF documents using digital signature",
     "homepage": "https://github.com/LibreSign/libresign",
     "licenses": [
@@ -1170,9 +1170,9 @@
     ]
   },
   "mail": {
-    "sha256": "aca62c8b90c85a7bd6ef8bce499b21e63a4da3afcde12720fa3d998da1d8471d",
-    "url": "https://github.com/nextcloud-releases/mail/releases/download/v2.2.3/mail-v2.2.3.tar.gz",
-    "version": "2.2.3",
+    "sha256": "055108acddeb26144fcd599dbd763d03cffc2799082ea7f48a3a85f42c6eec03",
+    "url": "https://github.com/nextcloud-releases/mail/releases/download/v2.3.0-alpha.4/mail-v2.3.0-alpha.4.tar.gz",
+    "version": "2.3.0-alpha.4",
     "description": "**💌 A mail app for Nextcloud**\n\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://horde.org) libraries.\n- **📬 Want to host your own mail server?** We do not have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!",
     "homepage": "https://github.com/nextcloud/mail#readme",
     "licenses": [
@@ -1410,9 +1410,9 @@
     ]
   },
   "passwords": {
-    "sha256": "f46aff8b3b04806397fc1d84c7ba8229b951224676883c043a6d87ca308ed117",
-    "url": "https://git.mdns.eu/nextcloud/passwords/-/jobs/15703/artifacts/raw/passwords.tar.gz",
-    "version": "2023.2.21-build4865",
+    "sha256": "5945e24b623f061af7456d643a8fa7a6d670026ada084f035550d93e0ae2463c",
+    "url": "https://git.mdns.eu/nextcloud/passwords/-/jobs/15725/artifacts/raw/passwords.tar.gz",
+    "version": "2023.2.21-build4869",
     "description": "Passwords is the most advanced password manager for Nextcloud and allows you to manage and store your passwords safely in your own cloud.\nThe intuitive and modern web interface of the app makes it easy to update and add new passwords from anywhere.\nIncluded security checks help you to keep your online accounts safe and up-to-date.\nYou can also share passwords with other Nextcloud users.\n\n**Features**\n * Intuitive and modern user interface\n * Password security monitor\n * Secure encryption\n * Folders &amp; tags\n * Sharing\n * API for apps\n * Extensive handbook\n * Import &amp; Export\n * Browser extensions &amp; Apps\n * ... and many more to come\n\n**Support**\n * [Official Chat](https://t.me/nc_passwords)\n * [Official Forum](https://help.nextcloud.com/c/apps/passwords)\n * [User Handbook](https://git.mdns.eu/nextcloud/passwords/wikis/Users/Index)\n * [Administrator Handbook](https://git.mdns.eu/nextcloud/passwords/wikis/Administrators/Index)\n\n**Apps & Extensions**\n * [Official Firefox Add-On](https://addons.mozilla.org/de/firefox/addon/nextcloud-passwords?src=external-ncapps)\n * [Official Chrome Extension](https://chrome.google.com/webstore/detail/nextcloud-passwords/mhajlicjhgoofheldnmollgbgjheenbi)\n * [Official Microsoft Edge Extension](https://microsoftedge.microsoft.com/addons/detail/cjmlcljdpphgdfpkngjcmeepdpcgpffk)\n * [Android App](https://play.google.com/store/apps/details?id=de.jbservices.nc_passwords_app) by [joleaf](https://gitlab.com/joleaf/nc-passwords-app)\n * [Windows App (WIP)](https://www.microsoft.com/store/apps/9NXVZ0ZP6D5Z) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [Linux App (WIP)](https://gitlab.com/j0chn/nextcloud_password_client/-/tree/main#linux) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [macOS App (WIP)](https://gitlab.com/j0chn/nextcloud_password_client/-/tree/main#mac-os) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [iOS App](https://apps.apple.com/app/id1546212226) by [Johannes Schliephake](https://github.com/johannes-schliephake/nextcloud-passwords-ios)",
     "homepage": "",
     "licenses": [
@@ -1650,9 +1650,9 @@
     ]
   },
   "riotchat": {
-    "sha256": "b24bfccd841c7025b66a3fad4ef5cb6b8a83edc812ba87f502a7f9ee95cdf7ae",
-    "url": "https://github.com/gary-kim/riotchat/releases/download/v0.14.0/riotchat.tar.gz",
-    "version": "0.14.0",
+    "sha256": "24b7e294bc2e94569d226ded455142d35345c91a30addb0b1c176b80cdcee2bd",
+    "url": "https://github.com/gary-kim/riotchat/releases/download/v0.14.1/riotchat.tar.gz",
+    "version": "0.14.1",
     "description": "Element for Nextcloud allows you to install Element Web easily through Nextcloud and join the Matrix decentralized communication network.\n\nThis app does not include a Matrix server, only the client. You will have to either set up your own Matrix homeserver, rent one, or use a public one.\n\nThis project is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Element or the Element project, or any of its subsidiaries or its affiliates.\n\nThe name Element as well as related names, marks, emblems and images are registered trademarks of their respective owners.\n\nThe upstream project can be found at [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web).",
     "homepage": "https://github.com/gary-kim/riotchat",
     "licenses": [
