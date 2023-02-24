@@ -110,9 +110,9 @@
     ]
   },
   "cadviewer": {
-    "sha256": "3740de3274b542ba6277e8347529790ebc9363bbb7d6917734dff3e90a2dedc6",
-    "url": "https://github.com/CADViewer/NextCloud/releases/download/cv_nextcloud_v8.34.1/cadviewer-v8.34.1.tar.gz",
-    "version": "8.34.1",
+    "sha256": "ec6f53a7642af70c40605543ee3f14a231c434ef112bfb513d07435d6a6786f8",
+    "url": "https://github.com/CADViewer/NextCloud/releases/download/cv_nextcloud_v8.36.3/cadviewer-v8.36.3.tar.gz",
+    "version": "8.36.3",
     "description": "# CADViewer\nCADViewer implements CAD viewing, markup and collaboration on the NextCloud platform for AutoCAD, MicroStation, PDF and advanced raster graphics. Following CADViewer features are available:\n- **AutoCAD**: Support for DWG, DXF and DWF files.\n- **MicroStation**: Support for DGN files.\n- **PDF**: Support for Vector Graphics PDF files. (Use **...** menu)\n- **TIFF**: Support for TIFF format. (Use **...** menu)\n- **PNG, JPG, GIF**: Bitmap support. (Use **...** menu)\n- **SVG**: SVG support. (Use **...** menu)\n- **Annotation**: Full redlining interface of drawings where each user has individually associated redlines.\n- **PDF Collaboration**: Redlines/Annotations on drawings are saved as PDF to the user's *CADViewer-Markup* folder, where the user can then share internally/externally.\n- **Download**: Direct download of SVG or PDF image with/without redlines/annotations.\n- **Printing**: Printing of drawings to printer driver or as PDF.\n- **Measurement**: Global scale matrix preserved in drawing for measurement and calibration methods.\n- **Zoom**: Advanced zoom and pan controls.\n- **Layers**: Retained layer structure for layer management.\n- **Search**: Integrated text search method.\n- **Compare**: Advanced compare of drawings.\n\n## 🌐Online Demo\n- To test the look and feel of [CADViewer](https://cadviewer.com), check out our [Online Demos](https://cadviewer.com/cadviewerdemo/).\n\n## 📦Installation\n1. Install the app from the Nextcloud app store or from CADViewer [GitHub repository](https://github.com/CADViewer/NextCloud/).\n2. Perform the [configuration steps](https://github.com/CADViewer/NextCloud/blob/main/README.md).\n3. **NOTE**: The configuration steps (permission settings for executable, log files, and folders) are needed for the back-end CAD conversion to work properly. Without permission settings, no drawings will display!\n4. Simply open your CAD drawings and start collaborate.. 😄",
     "homepage": "https://www.cadviewer.com",
     "licenses": [
@@ -475,6 +475,16 @@
     "version": "0.9.11",
     "description": "**Detect and group faces of your loved one in your cloud**\n\n⚠️ This application requires minimum of 1GB of RAM memory to work! See [Requirements](https://github.com/matiasdelellis/facerecognition/wiki/Requirements-and-Limitations) for details.\n\n⚠️ Setup of this app requires access to terminal and even getting your hands dirty with installation of additional software. See [Installation](https://github.com/matiasdelellis/facerecognition/wiki/Installation) for details.\n\n- **😏 Detect faces from images:** Use FaceRecognition app to detect _any_ face in _any_ of your images!\n- **👪 Group faces to persons:** Detected faces are grouped together based on similarity and then FaceRecognition app can recognize persons!\n- **🔒 Built-in privacy:** No data is leaving your cloud. Defaults are always off and each user controls enabling/disabling face detection. Images from every directory can be excluded from face detection, if needed.\n- **⚙️ Power of AI:** FaceRecognition app leverages power of AI and already built neural network models through extensive usage of [DLib](http://dlib.net/) library.\n- **🚀 Build your own thing:** FaceRecognition app is just a basic building block. Through FaceRecognition API, you can build your advanced scenarios - automatically add tags to images, connect contacts and persons, share images from specific person… We want to hear your ideas!",
     "homepage": "https://github.com/matiasdelellis/facerecognition",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "files_3dmodelviewer": {
+    "sha256": "834789f2e48884139f3c97adb6aca652dc8d8dbcbcc1b49937ec7e0af9dd74e1",
+    "url": "https://github.com/WARP-LAB/files_3dmodelviewer/releases/download/v0.0.5/files_3dmodelviewer.tar.gz",
+    "version": "0.0.5",
+    "description": "# Visualise and explore 3D models\n\n- 3dm | Rhino\n- 3ds | Autodesk 3D Studio\n- 3mf | 3D Manufacturing Format\n- bim | dotbim\n- brep/brp | Boundary Representation\n- dae | Collada\n- fbx | Filmbox\n- fcstd | FreeCAD Standard File Format\n- glb | GL Transmission Format\n- gltf | GL Transmission Format\n- ifc | International Foundation Class\n- iges/igs | Initial Graphics Exchange Specification\n- obj | Wavefront\n- off | Object File Format\n- ply | Polygon File Format\n- step/stp | Standard for Exchange of Product Model Data\n- stl | Stereolithography Standard Tesselation/Triangle Language\n- wrl | Virtual Reality Modeling Language",
+    "homepage": "https://github.com/WARP-LAB/files_3dmodelviewer",
     "licenses": [
       "agpl"
     ]
@@ -1250,9 +1260,9 @@
     ]
   },
   "money": {
-    "sha256": "1a488f5506d59f01266852d8ba9029bcc72a8828af2fc4b430a27ecb53e6dc76",
-    "url": "https://github.com/powerpaul17/nc_money/releases/download/v0.15.0/money.tar.gz",
-    "version": "0.15.0",
+    "sha256": "a41dc0d913cc28f03933b45786eeb503603ecf6ad7210444e6535f2f81b43c20",
+    "url": "https://github.com/powerpaul17/nc_money/releases/download/v0.15.1/money.tar.gz",
+    "version": "0.15.1",
     "description": "Finance manager for Nextcloud.",
     "homepage": "https://github.com/powerpaul17/nc_money",
     "licenses": [
@@ -1300,9 +1310,9 @@
     ]
   },
   "notify_push": {
-    "sha256": "7239f26bea6a83d4de01d9083a53f9cc9f8e275603ed98674d59f55cbe51f824",
-    "url": "https://github.com/nextcloud-releases/notify_push/releases/download/v0.5.2/notify_push-v0.5.2.tar.gz",
-    "version": "0.5.2",
+    "sha256": "f6d1a7d92ca32d8c8a5648e73a06fe5568701b4f04ed8f93275ab968fb7ad2e3",
+    "url": "https://github.com/nextcloud-releases/notify_push/releases/download/v0.6.0/notify_push-v0.6.0.tar.gz",
+    "version": "0.6.0",
     "description": "Push update support for desktop app.\n\nOnce the app is installed, the push binary needs to be setup. You can either use the setup wizard with `occ notify_push:setup` or see the [README](http://github.com/nextcloud/notify_push) for detailed setup instructions",
     "homepage": "",
     "licenses": [
@@ -1880,9 +1890,9 @@
     ]
   },
   "spreed": {
-    "sha256": "d24f4335f3d2fcef70b998f7fc66f42a32a9a925cbe6e967af435187b8a0de04",
-    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v15.0.3/spreed-v15.0.3.tar.gz",
-    "version": "15.0.3",
+    "sha256": "282decb10f6783620ec29ba7904c69288bf5d0a43dfde9ab300e89a50f0b5a83",
+    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v15.0.4/spreed-v15.0.4.tar.gz",
+    "version": "15.0.4",
     "description": "Chat, video & audio-conferencing using WebRTC\n\n* 💬 **Chat integration!** Nextcloud Talk comes with a simple text chat. Allowing you to share files from your Nextcloud and mentioning other participants.\n* 👥 **Private, group, public and password protected calls!** Just invite somebody, a whole group or send a public link to invite to a call.\n* 💻 **Screen sharing!** Share your screen with participants of your call. You just need to use Firefox version 66 (or newer), latest Edge or Chrome 72 (or newer, also possible using Chrome 49 with this [Chrome extension](https://chrome.google.com/webstore/detail/screensharing-for-nextclo/kepnpjhambipllfmgmbapncekcmabkol)).\n* 🚀 **Integration with other Nextcloud apps** like Files, Contacts and Deck. More to come.\n\nAnd in the works for the [coming versions](https://github.com/nextcloud/spreed/milestones/):\n* ✋ [Federated calls](https://github.com/nextcloud/spreed/issues/21), to call people on other Nextclouds",
     "homepage": "https://github.com/nextcloud/spreed",
     "licenses": [
@@ -2060,9 +2070,9 @@
     ]
   },
   "twofactor_webauthn": {
-    "sha256": "4592a44faa08592c61e6630408bfa56d739b28f74f8935ef1294dc5b93107009",
-    "url": "https://github.com/nextcloud-releases/twofactor_webauthn/releases/download/v1.1.0/twofactor_webauthn-v1.1.0.tar.gz",
-    "version": "1.1.0",
+    "sha256": "90c6c02a54708e9c97ba1a4beeba122923307bad8355cc263606c6b41e25712d",
+    "url": "https://github.com/nextcloud-releases/twofactor_webauthn/releases/download/v1.1.1/twofactor_webauthn-v1.1.1.tar.gz",
+    "version": "1.1.1",
     "description": "A two-factor provider for WebAuthn devices",
     "homepage": "https://github.com/nextcloud/twofactor_webauthn#readme",
     "licenses": [
@@ -2130,9 +2140,9 @@
     ]
   },
   "user_oidc": {
-    "sha256": "1021c0ed7c473f3c6db3fd180355dc555cbd4026677103e2873c0c95433d2bf7",
-    "url": "https://github.com/nextcloud-releases/user_oidc/releases/download/v1.2.1/user_oidc-v1.2.1.tar.gz",
-    "version": "1.2.1",
+    "sha256": "a09ce630ad733b433106f66cf59abfd6cb027775ecbaf50af447395c28c8fe43",
+    "url": "https://github.com/nextcloud-releases/user_oidc/releases/download/v1.3.0/user_oidc-v1.3.0.tar.gz",
+    "version": "1.3.0",
     "description": "Allows flexible configuration of an OIDC server as Nextcloud login user backend.",
     "homepage": "https://github.com/nextcloud/user_oidc",
     "licenses": [
@@ -2260,9 +2270,9 @@
     ]
   },
   "workflow_ocr": {
-    "sha256": "9a8aea0b0dd0f59155fd9334404dc53ac73dce8ec7cdbc8b550f81cb0095cacf",
-    "url": "https://github.com/R0Wi/workflow_ocr/releases/download/v1.25.3/workflow_ocr.tar.gz",
-    "version": "1.25.3",
+    "sha256": "e3998b8055ef7f42d8a4b35eedf56032b11157c57a1e958e9824c851ba1acbbb",
+    "url": "https://github.com/R0Wi/workflow_ocr/releases/download/v1.25.4/workflow_ocr.tar.gz",
+    "version": "1.25.4",
     "description": "This app makes it possible to process various files via OCR algorithms.\n\tThe processing is done via workflow-engine and can therefore easily be customized.\n\tPlease note that you'll have to install the OcrMyPDF CLI on your Nextcloud server to\n\tprocess PDF files. More installation instructions can be found in the docs https://github.com/R0Wi/workflow_ocr/blob/master/README.md.",
     "homepage": "https://github.com/R0Wi/workflow_ocr",
     "licenses": [

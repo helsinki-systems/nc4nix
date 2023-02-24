@@ -130,9 +130,9 @@
     ]
   },
   "cadviewer": {
-    "sha256": "3740de3274b542ba6277e8347529790ebc9363bbb7d6917734dff3e90a2dedc6",
-    "url": "https://github.com/CADViewer/NextCloud/releases/download/cv_nextcloud_v8.34.1/cadviewer-v8.34.1.tar.gz",
-    "version": "8.34.1",
+    "sha256": "ec6f53a7642af70c40605543ee3f14a231c434ef112bfb513d07435d6a6786f8",
+    "url": "https://github.com/CADViewer/NextCloud/releases/download/cv_nextcloud_v8.36.3/cadviewer-v8.36.3.tar.gz",
+    "version": "8.36.3",
     "description": "# CADViewer\nCADViewer implements CAD viewing, markup and collaboration on the NextCloud platform for AutoCAD, MicroStation, PDF and advanced raster graphics. Following CADViewer features are available:\n- **AutoCAD**: Support for DWG, DXF and DWF files.\n- **MicroStation**: Support for DGN files.\n- **PDF**: Support for Vector Graphics PDF files. (Use **...** menu)\n- **TIFF**: Support for TIFF format. (Use **...** menu)\n- **PNG, JPG, GIF**: Bitmap support. (Use **...** menu)\n- **SVG**: SVG support. (Use **...** menu)\n- **Annotation**: Full redlining interface of drawings where each user has individually associated redlines.\n- **PDF Collaboration**: Redlines/Annotations on drawings are saved as PDF to the user's *CADViewer-Markup* folder, where the user can then share internally/externally.\n- **Download**: Direct download of SVG or PDF image with/without redlines/annotations.\n- **Printing**: Printing of drawings to printer driver or as PDF.\n- **Measurement**: Global scale matrix preserved in drawing for measurement and calibration methods.\n- **Zoom**: Advanced zoom and pan controls.\n- **Layers**: Retained layer structure for layer management.\n- **Search**: Integrated text search method.\n- **Compare**: Advanced compare of drawings.\n\n## 🌐Online Demo\n- To test the look and feel of [CADViewer](https://cadviewer.com), check out our [Online Demos](https://cadviewer.com/cadviewerdemo/).\n\n## 📦Installation\n1. Install the app from the Nextcloud app store or from CADViewer [GitHub repository](https://github.com/CADViewer/NextCloud/).\n2. Perform the [configuration steps](https://github.com/CADViewer/NextCloud/blob/main/README.md).\n3. **NOTE**: The configuration steps (permission settings for executable, log files, and folders) are needed for the back-end CAD conversion to work properly. Without permission settings, no drawings will display!\n4. Simply open your CAD drawings and start collaborate.. 😄",
     "homepage": "https://www.cadviewer.com",
     "licenses": [
@@ -559,6 +559,16 @@
       "agpl"
     ]
   },
+  "files_3dmodelviewer": {
+    "sha256": "834789f2e48884139f3c97adb6aca652dc8d8dbcbcc1b49937ec7e0af9dd74e1",
+    "url": "https://github.com/WARP-LAB/files_3dmodelviewer/releases/download/v0.0.5/files_3dmodelviewer.tar.gz",
+    "version": "0.0.5",
+    "description": "# Visualise and explore 3D models\n\n- 3dm | Rhino\n- 3ds | Autodesk 3D Studio\n- 3mf | 3D Manufacturing Format\n- bim | dotbim\n- brep/brp | Boundary Representation\n- dae | Collada\n- fbx | Filmbox\n- fcstd | FreeCAD Standard File Format\n- glb | GL Transmission Format\n- gltf | GL Transmission Format\n- ifc | International Foundation Class\n- iges/igs | Initial Graphics Exchange Specification\n- obj | Wavefront\n- off | Object File Format\n- ply | Polygon File Format\n- step/stp | Standard for Exchange of Product Model Data\n- stl | Stereolithography Standard Tesselation/Triangle Language\n- wrl | Virtual Reality Modeling Language",
+    "homepage": "https://github.com/WARP-LAB/files_3dmodelviewer",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "files_accesscontrol": {
     "sha256": "eef7cddc517ca5f43789089bff711b1bbaf91cdcab4178f083027d0a76ba9d3d",
     "url": "https://github.com/nextcloud-releases/files_accesscontrol/releases/download/v1.14.1/files_accesscontrol-v1.14.1.tar.gz",
@@ -680,9 +690,9 @@
     ]
   },
   "files_lock": {
-    "sha256": "58a10372c0431f5cff1d630f75e58faa26c61fdd9e56bdf0f7b4988276bb1c22",
-    "url": "https://github.com/nextcloud-releases/files_lock/releases/download/v24.0.1/files_lock-v24.0.1.tar.gz",
-    "version": "24.0.1",
+    "sha256": "c04a12043c584c60d5ca00def11c577818b9f4f5ffcd37825e8b6a3be63fcc94",
+    "url": "https://github.com/nextcloud-releases/files_lock/releases/download/v26.0.0/files_lock-v26.0.0.tar.gz",
+    "version": "26.0.0",
     "description": "Allow your users to temporary lock their files to avoid conflicts while working on shared files.",
     "homepage": "https://github.com/nextcloud/files_lock",
     "licenses": [
@@ -1160,9 +1170,9 @@
     ]
   },
   "integration_reddit": {
-    "sha256": "fe580af889f2bcf159bce56079dcc921a1801ef4a012bcb4c61e836377ef028d",
-    "url": "https://github.com/nextcloud/integration_reddit/releases/download/v1.0.5/integration_reddit-1.0.5.tar.gz",
-    "version": "1.0.5",
+    "sha256": "bc1b73b8139a890f2783440016f33e336809e298c4b4132cc6f81c1b80655134",
+    "url": "https://github.com/nextcloud/integration_reddit/releases/download/v1.0.7/integration_reddit-1.0.7.tar.gz",
+    "version": "1.0.7",
     "description": "Reddit integration provides a dashboard widget displaying your recent subscribed news.",
     "homepage": "https://github.com/nextcloud/integration_reddit",
     "licenses": [
@@ -1180,9 +1190,9 @@
     ]
   },
   "integration_twitter": {
-    "sha256": "f341a957a263c063fdce556414c204dde1307377b0d823aff7fc3681e55baca7",
-    "url": "https://github.com/nextcloud/integration_twitter/releases/download/v1.0.3/integration_twitter-1.0.3.tar.gz",
-    "version": "1.0.3",
+    "sha256": "193518e62ae2c9a45277128785e27071a20c46b0e302647c3c4d60a32050c893",
+    "url": "https://github.com/nextcloud/integration_twitter/releases/download/v1.0.5/integration_twitter-1.0.5.tar.gz",
+    "version": "1.0.5",
     "description": "Twitter integration provides dashboard widgets displaying your important notifications and your home timeline.",
     "homepage": "https://github.com/nextcloud/integration_twitter",
     "licenses": [
@@ -1420,9 +1430,9 @@
     ]
   },
   "notify_push": {
-    "sha256": "7239f26bea6a83d4de01d9083a53f9cc9f8e275603ed98674d59f55cbe51f824",
-    "url": "https://github.com/nextcloud-releases/notify_push/releases/download/v0.5.2/notify_push-v0.5.2.tar.gz",
-    "version": "0.5.2",
+    "sha256": "f6d1a7d92ca32d8c8a5648e73a06fe5568701b4f04ed8f93275ab968fb7ad2e3",
+    "url": "https://github.com/nextcloud-releases/notify_push/releases/download/v0.6.0/notify_push-v0.6.0.tar.gz",
+    "version": "0.6.0",
     "description": "Push update support for desktop app.\n\nOnce the app is installed, the push binary needs to be setup. You can either use the setup wizard with `occ notify_push:setup` or see the [README](http://github.com/nextcloud/notify_push) for detailed setup instructions",
     "homepage": "",
     "licenses": [
@@ -2070,9 +2080,9 @@
     ]
   },
   "spreed": {
-    "sha256": "90ed50f2c2c363c58e6477457013ac1646f99f96e66c16ea3c5ec163c65c2d22",
-    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v14.0.8/spreed-v14.0.8.tar.gz",
-    "version": "14.0.8",
+    "sha256": "a5665f28595c3fbc67357d8759c5c9d755dea255105d997f01d9b2958dca0dd2",
+    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v14.0.9/spreed-v14.0.9.tar.gz",
+    "version": "14.0.9",
     "description": "Chat, video & audio-conferencing using WebRTC\n\n* 💬 **Chat integration!** Nextcloud Talk comes with a simple text chat. Allowing you to share files from your Nextcloud and mentioning other participants.\n* 👥 **Private, group, public and password protected calls!** Just invite somebody, a whole group or send a public link to invite to a call.\n* 💻 **Screen sharing!** Share your screen with participants of your call. You just need to use Firefox version 66 (or newer), latest Edge or Chrome 72 (or newer, also possible using Chrome 49 with this [Chrome extension](https://chrome.google.com/webstore/detail/screensharing-for-nextclo/kepnpjhambipllfmgmbapncekcmabkol)).\n* 🚀 **Integration with other Nextcloud apps** like Files, Contacts and Deck. More to come.\n\nAnd in the works for the [coming versions](https://github.com/nextcloud/spreed/milestones/):\n* ✋ [Federated calls](https://github.com/nextcloud/spreed/issues/21), to call people on other Nextclouds",
     "homepage": "https://github.com/nextcloud/spreed",
     "licenses": [
@@ -2350,9 +2360,9 @@
     ]
   },
   "user_oidc": {
-    "sha256": "1021c0ed7c473f3c6db3fd180355dc555cbd4026677103e2873c0c95433d2bf7",
-    "url": "https://github.com/nextcloud-releases/user_oidc/releases/download/v1.2.1/user_oidc-v1.2.1.tar.gz",
-    "version": "1.2.1",
+    "sha256": "a09ce630ad733b433106f66cf59abfd6cb027775ecbaf50af447395c28c8fe43",
+    "url": "https://github.com/nextcloud-releases/user_oidc/releases/download/v1.3.0/user_oidc-v1.3.0.tar.gz",
+    "version": "1.3.0",
     "description": "Allows flexible configuration of an OIDC server as Nextcloud login user backend.",
     "homepage": "https://github.com/nextcloud/user_oidc",
     "licenses": [
@@ -2530,9 +2540,9 @@
     ]
   },
   "workflow_ocr": {
-    "sha256": "7fb8d79f976234831f861969c5b278a48946a90a0b656ac774ba27cddabb4384",
-    "url": "https://github.com/R0Wi/workflow_ocr/releases/download/v1.24.6/workflow_ocr.tar.gz",
-    "version": "1.24.6",
+    "sha256": "6a8d4f69732c9fde3b273adac90189e1d9b85d969bd722587e652b2ebcf0c315",
+    "url": "https://github.com/R0Wi/workflow_ocr/releases/download/v1.24.7/workflow_ocr.tar.gz",
+    "version": "1.24.7",
     "description": "This app makes it possible to process various files via OCR algorithms.\n\tThe processing is done via workflow-engine and can therefore easily be customized.\n\tPlease note that you'll have to install the OcrMyPDF CLI on your Nextcloud server to\n\tprocess PDF files. More installation instructions can be found in the docs https://github.com/R0Wi/workflow_ocr/blob/master/README.md.",
     "homepage": "https://github.com/R0Wi/workflow_ocr",
     "licenses": [
