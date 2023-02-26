@@ -1,4 +1,14 @@
 {
+  "aaochat": {
+    "sha256": "890de02c84680b4ddcc5ece163bac6df3688b9570b21cb97a94baaf062298470",
+    "url": "https://github.com/aaochat/aaochat/files/10823292/aaochat.tar.gz",
+    "version": "0.0.2",
+    "description": "Transform your Team's communication with Aao Business Chat!\n\nThis powerful App offers numerous helpful features to make your chats smoother, more engaging, and hassle-free. With Aao Business, you can:\n\n- 📎 Share Audio/Video/Documents with ease\n- 🗓️ Schedule messages for optimal timing\n- 🔔 Snooze messages for later\n- 📝 Draft and save messages for later\n- 🏷️ Label messages for better organization\n- 🤫 Reply privately in groups\n- 🔒 Create Admin-Only Groups but with a Twist\n- 📢 Use Broadcast Groups to reach multiple people at once\n- 🔇 Schedule Mute for when you need to focus\n- 🖼️ View documents/media without downloading\n- 🤖 Utilize AI (OCR) to search photos, videos, and documents\n\nExperience Seamless and Efficient Team communication with Aao Business Chat",
+    "homepage": "https://aaochat.com/",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "afterlogic": {
     "sha256": "063a93b2e8a4763ebcc6b548b49ee58f4f7f485403b584b77fec4550569c9260",
     "url": "https://afterlogic.com/download/nextcloud/afterlogic-nextcloud-204.tar.gz",
@@ -560,9 +570,9 @@
     ]
   },
   "files_3dmodelviewer": {
-    "sha256": "834789f2e48884139f3c97adb6aca652dc8d8dbcbcc1b49937ec7e0af9dd74e1",
-    "url": "https://github.com/WARP-LAB/files_3dmodelviewer/releases/download/v0.0.5/files_3dmodelviewer.tar.gz",
-    "version": "0.0.5",
+    "sha256": "18cc969cac3097325977868c33a315cbc129535c8f642f2328c221a3fd4cf6b4",
+    "url": "https://github.com/WARP-LAB/files_3dmodelviewer/releases/download/v0.0.6/files_3dmodelviewer.tar.gz",
+    "version": "0.0.6",
     "description": "# Visualise and explore 3D models\n\n- 3dm | Rhino\n- 3ds | Autodesk 3D Studio\n- 3mf | 3D Manufacturing Format\n- bim | dotbim\n- brep/brp | Boundary Representation\n- dae | Collada\n- fbx | Filmbox\n- fcstd | FreeCAD Standard File Format\n- glb | GL Transmission Format\n- gltf | GL Transmission Format\n- ifc | International Foundation Class\n- iges/igs | Initial Graphics Exchange Specification\n- obj | Wavefront\n- off | Object File Format\n- ply | Polygon File Format\n- step/stp | Standard for Exchange of Product Model Data\n- stl | Stereolithography Standard Tesselation/Triangle Language\n- wrl | Virtual Reality Modeling Language",
     "homepage": "https://github.com/WARP-LAB/files_3dmodelviewer",
     "licenses": [
@@ -900,9 +910,9 @@
     ]
   },
   "gpoddersync": {
-    "sha256": "0faf716df0c1f66b5cd00667790ad522836962887e56a7d88810d7d8438e09ca",
-    "url": "https://github.com/thrillfall/nextcloud-gpodder/releases/download/3.7.1/gpoddersync.tar.gz",
-    "version": "3.7.1",
+    "sha256": "c38f8655a738f042fafc117ee1852ab089bb9fb50c79cdba8281aa0387d77a83",
+    "url": "https://github.com/thrillfall/nextcloud-gpodder/releases/download/3.7.3/gpoddersync.tar.gz",
+    "version": "3.7.3",
     "description": "Expose GPodder API to sync podcast consumer apps like AntennaPod",
     "homepage": "https://github.com/thrillfall/nextcloud-gpodder",
     "licenses": [
@@ -1090,8 +1100,8 @@
     ]
   },
   "integration_google": {
-    "sha256": "80b8b99970f17ccce874f56665dba61438e38b875f679f60205b71368f204009",
-    "url": "https://github.com/nextcloud/integration_google/releases/download/v1.0.9-5-nightly/integration_google-1.0.9-5-nightly.tar.gz",
+    "sha256": "c7671104f8e125199e20b9b3ed531fe3ccabada0b0e311232524a05fb2259251",
+    "url": "https://github.com/nextcloud/integration_google/releases/download/v1.0.9/integration_google-1.0.9.tar.gz",
     "version": "1.0.9",
     "description": "Google integration allows you to automatically import your Google calendars, contacts, photos and files into Nextcloud.",
     "homepage": "https://github.com/nextcloud/integration_google",
@@ -1650,9 +1660,9 @@
     ]
   },
   "previewgenerator": {
-    "sha256": "7477da967a19f3e35982a4173b3bbe329bbc766be29277e91454b153b2ab4c3a",
-    "url": "https://github.com/nextcloud-releases/previewgenerator/releases/download/v5.2.0/previewgenerator-v5.2.0.tar.gz",
-    "version": "5.2.0",
+    "sha256": "ee417949ed9314e4e768a1a32cdc27607cc991ddae4bd4aca93c44d505a78f04",
+    "url": "https://github.com/nextcloud-releases/previewgenerator/releases/download/v5.2.1/previewgenerator-v5.2.1.tar.gz",
+    "version": "5.2.1",
     "description": "The Preview Generator app allows admins to pre-generate previews. The app listens to edit events and stores this information. Once a cron job is triggered it will generate start preview generation. This means that you can better utilize your system by pre-generating previews when your system is normally idle and thus putting less load on your machine when the requests are actually served.\n\nThe app does not replace on demand preview generation so if a preview is requested before it is pre-generated it will still be shown.\nThe first time you install this app, before using a cron job, you properly want to generate all previews via:\n**./occ preview:generate-all -vvv**\n\n**Important**: To enable pre-generation of previews you must add **php /var/www/nextcloud/occ preview:pre-generate** to a system cron job that runs at times of your choosing.",
     "homepage": "https://github.com/nextcloud/previewgenerator",
     "licenses": [
@@ -1960,9 +1970,9 @@
     ]
   },
   "snappymail": {
-    "sha256": "36cadab5c2ca118340a45ef92bcfae50944216e59ec3c9a984d2e1dd208c154a",
-    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.26.3-nextcloud.tar.gz",
-    "version": "2.26.3",
+    "sha256": "fc14461e5f74043e65c5280c85b1f688de6540c6681557b35928feb75250a568",
+    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.26.4-nextcloud.tar.gz",
+    "version": "2.26.4",
     "description": "**Simple, modern, lightweight & fast web-based email client.**\n\n- **Dark mode**\n- **Responsive design**\n- **Full Sieve filtering support**\n- **Almost all IMAP features** including advanced searching\n- **Integration with Nextcloud Unified Search**\n- **Integration with other Nextcloud apps** (Contacts, Files and Calendar)\n- **Multiple mail accounts and identities**\n- **Send & receive OpenPGP encrypted/signed emails** (With full HTML support, ECC keys, or plain text with Mailvelope)\n- **Many security features** (Sodium encrypted passwords, Sec-Fetch, TOTP 2FA, DKIM, prevent tracking, etc.)\n- **Kolab integrations**\n\nAfter enabling in Nextcloud, go to Nextcloud admin panel, \"Additional settings\" and you will see a \"SnappyMail webmail\" section.\nThere, click on the link to go to the SnappyMail admin panel.",
     "homepage": "https://snappymail.eu",
     "licenses": [
