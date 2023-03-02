@@ -30,9 +30,9 @@
     ]
   },
   "announcementcenter": {
-    "sha256": "bca18dd7ecc3b43f49197563dc9b88a6327efe930addb387fb5c6b5c6f15978d",
-    "url": "https://github.com/nextcloud-releases/announcementcenter/releases/download/v6.5.0/announcementcenter-v6.5.0.tar.gz",
-    "version": "6.5.0",
+    "sha256": "a5dc01408cc93a78c088d46d2c66a2435602376caaf9e58954b694e7ffa5dfaf",
+    "url": "https://github.com/nextcloud-releases/announcementcenter/releases/download/v6.5.1/announcementcenter-v6.5.1.tar.gz",
+    "version": "6.5.1",
     "description": "Announce your maintenance window 🎛️, introduce a new colleague 👤 or make sure everyone knows about the big event next month 📅\n\n🖌️ Markdown support\n\n📑 Comments including @-mentions\n\n👪 Group permissions\n\n⭕ Dashboard integration\n\n⚡ Activities integration\n\n🔔 Notifications integration",
     "homepage": "https://github.com/nextcloud/announcementcenter",
     "licenses": [
@@ -360,10 +360,10 @@
     ]
   },
   "dokuwiki": {
-    "sha256": "c83aa03771c8ec0682896a864d88ba165d117bd5f9ed0f481f3d423e8eb4e157",
-    "url": "https://github.com/rotdrop/nextcloud-app-dokuwiki/releases/download/v1.0.0-rc2/dokuwiki.tar.gz",
-    "version": "1.0.0-rc2",
-    "description": "Embed an existing DokuWiki instance into Nextcloud, potentially with SSO. For SSO DokuWiki users and Nextcloud users have to coincide, e.g. by using a common authentication backend lik LDAP, or with an appropriate auth plugin on either side of the integration.",
+    "sha256": "4c3f6497844b3d59db65ee85ecc9aa643052c570ffdb19234ba21e7a1ecaaf72",
+    "url": "https://github.com/rotdrop/nextcloud-app-dokuwiki/releases/download/v1.0.0/dokuwiki.tar.gz",
+    "version": "1.0.0",
+    "description": "Embed an existing DokuWiki instance into Nextcloud, potentially with SSO. For SSO DokuWiki users and Nextcloud users have to coincide, e.g. by using a common authentication backend like LDAP, or with an appropriate auth plugin on either side of the integration.",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -520,9 +520,9 @@
     ]
   },
   "files_archive": {
-    "sha256": "a11af458328ca18dee9b4e1fcc9b4e13105569b2519190239845e5f6464d0af7",
-    "url": "https://github.com/rotdrop/nextcloud-app-files-archive/releases/download/v1.1.2/files_archive.tar.gz",
-    "version": "1.1.2",
+    "sha256": "e1b3fe960f27a3467dd335f7a9cc4373ff5c456346448523afad619ec00fbe7c",
+    "url": "https://github.com/rotdrop/nextcloud-app-files-archive/releases/download/v1.1.3-rc1/files_archive.tar.gz",
+    "version": "1.1.3-rc1",
     "description": "Inspect, mount and extract archive files (zip, tar, etc.)",
     "homepage": "",
     "licenses": [
@@ -565,6 +565,16 @@
     "version": "1.0.1",
     "description": "Allow to limit the number of downloads for link shares",
     "homepage": "https://github.com/nextcloud/files_downloadlimit",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "files_external_ethswarm": {
+    "sha256": "1f71af78cf832b998d35e65b37272bef60728fc39bdecc21ed181bc1999130e6",
+    "url": "https://github.com/MetaProvide/nextcloud-swarm-plugin/releases/download/v0.2.0/files_external_ethswarm.tar.gz",
+    "version": "0.2.0",
+    "description": "# Nextcloud Swarm Plugin\n\n*Decentralized Sovereign cloud-storage comes to Nextcloud!*\n\nThis plugin brings [Swarm](https://www.ethswarm.org/) to [Nextcloud](https://nextcloud.com) - decentralized file-storage, connected to the blockchain.\n\n## Table of Contents\n\n- [Dependencies](#dependencies)\n- [Setup and Installation](#setup-and-installation)\n- [Usage](#usage)\n\t- [Settings](#settings)\n\t- [Using Swarm](#using-swarm)\n- [License](#license)\n\n## Dependencies\n\nTo use the plugin you need the following\n\n* A Nextcloud instance\n* A Bee node\n\n## Setup and Installation\n\nFor setting up a Bee node please have a look at the [official documentation](https://docs.ethswarm.org/docs/installation/quick-start)\n\nThe following steps explain how to configure a Bee node in Nextcloud.\n\n- Make sure the \"External Storage\" plugin is enabled\n- Install the \"External Storage: Swarm\" app from the Nextcloud App store\n- Navigate to External Storage Administration (Profile menu -> Settings -> External Storage)\n- Add the connection settings for a new Bee node\n- Navigate to Ethswarm Storage Administration (Profile menu -> Settings -> Ethswarm Storage)\n- Configure the Bee node - by default, encryption is active\n- To use a Bee node, it is necessary to [Purchase a Batch of new stamps](https://docs.ethswarm.org/docs/access-the-swarm/keep-your-data-alive) from the funds in the chequebook\n- Once the new batch is purchased, a unique batchId is generated. Once your batch has been purchased, it will take a few minutes for other Bee nodes in the Swarm to catch up and register your batch. Allow some time for your batch to propagate in the network before proceeding to the next step. This is indicated by the checkbox \"Usable\".\n- Uploading files to the swarm costs Bzz, so it is necessary to select a Batch as \"Active\". Only 1 batch is allowed to be Active for a given Bee node. Then click \"Save Settings\".\n\n## Usage\n\nFile handling operations involving the Bee node are integrated in the External Storage (\"Files\") section of Nextcloud.\n\nUsing the plugin, the main file operations that are available in Nextcloud are:\n\n- Upload file(s) to a Bee node\n- Download and view files\n- Copy/Move files from any External Storage to a Bee node\n- Copy files from a Bee node to any External Storage\n\n### Settings\n\nAvailable to users with administrative credentials, the external storage accepts configuration options from two places, the normal External Storage settings, which allows a user to configure the basic connection properties of a Bee node.\n\nSince every operation in Swarm costs money, it is important to view how much money is available to the Bee node directly and also provide a convenient way of handling the payment system in Swarm - all managed directly in Nextcloud. This is in a specific section with more advanced configuration for the Bee node, where the following settings can be viewed and edited:\n\n- Configure which Bee node to manage\n- View current status of the Bee node\n- Option to toggle encryption on and off\n- How much BZZ is available to the node\n- Any purchased stamp batches and the remaining balances\n- Have the option to purchase a new batch of stamps\n- Toggle the batch used for uploading files active/inactive\n\n### Using Swarm\n\nOnce setup and configured, the Bee node is ready to use.\n- Navigate to \"Files\" option on the menu -> \"External Storage\" and then the name of the Bee node.\n- You can then upload files just like you normally would in Nextcloud.\n- Once uploaded, it can be viewed internally or downloaded. It can also be copied to another storage.\n- Files from another Nextcloud storage can also be copied/moved to the Bee node.",
+    "homepage": "https://github.com/MetaProvide/nextcloud-swarm-plugin",
     "licenses": [
       "agpl"
     ]
@@ -625,6 +635,16 @@
     "version": "0.0.27",
     "description": "This application enables Nextcloud users to open, save and edit mind map files in the web browser. If enabled, an entry in the New button at the top of the web browser the Mindmap file entry appears. When clicked, a new mindmap file opens in the browser and the file can be saved into the current Nextcloud directory.",
     "homepage": "https://github.com/ACTom/files_mindmap",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "files_notify_redis": {
+    "sha256": "bf3ed9ac90e39ed8c0060b04d8139e16c5a7fb4520724ffbbc31c0a06f2f40a4",
+    "url": "https://github.com/icewind1991/files_notify_redis/releases/download/v0.2.0/files_notify_redis-v0.2.0.tar.gz",
+    "version": "0.2.0",
+    "description": "Adds support for handling filesystem notifications for local storages that are pushed into redis",
+    "homepage": "https://github.com/icewind1991/files_notify_redis",
     "licenses": [
       "agpl"
     ]
@@ -770,9 +790,9 @@
     ]
   },
   "gestion": {
-    "sha256": "f75f3631e8cc954bedb7fbd02cf409f9eb3e9e347ba6532393f40d9d44403188",
-    "url": "https://github.com/baimard/gestion/releases/download/2.3.2/gestion.tar.gz",
-    "version": "2.3.2",
+    "sha256": "1bb6f362156cab4650b6fc0ba4b2c5ff8d8d1adfb25ed23306abb12df4d2aa4a",
+    "url": "https://github.com/baimard/gestion/releases/download/2.3.3/gestion.tar.gz",
+    "version": "2.3.3",
     "description": "# Company management by Gestion\n\nThis application allows the management of invoicing in a very simple way for Micro-Entreprise.\n\nFunctionality:\n\n* Add customer\n* Generate a quote\n* Generate an invoice\n* Generate product lines to include in quotes\n* You can generate PDFs directly from the app and save them to your Nextcloud\n\nPresentation video in user documentation\n\nIf you need to adapt this application to your country laws, please open issue.\n\n[Love my work ? Buy me a coffee !](https://www.buymeacoffee.com/benjaminaimard)",
     "homepage": "https://github.com/baimard/gestion",
     "licenses": [
@@ -800,8 +820,8 @@
     ]
   },
   "gpxpod": {
-    "sha256": "722c794cb30b992d8c698bb7e725af6494e4dc308bdc8baf34b53f1f89fed303",
-    "url": "https://github.com/julien-nc/gpxpod/releases/download/v5.0.6/gpxpod-5.0.6.tar.gz",
+    "sha256": "ce74f47cd07df26f162cb113317e9724cb2aefc28c4f443a90ae42f58333a08e",
+    "url": "https://github.com/julien-nc/gpxpod/releases/download/v5.0.6-1-nightly/gpxpod-5.0.6-1-nightly.tar.gz",
     "version": "5.0.6",
     "description": "# GpxPod Nextcloud application\n\nDisplay, analyse, compare and share GPS track files.\n\n🌍 Help us to translate this app on [GpxPod Crowdin project](https://crowdin.com/project/gpxpod).\n\nGpxPod :\n\n* 🗺 can display gpx/kml/tcx/igc/fit files anywhere in your files, files shared with you, files in folders shared with you. fit files will be converted and displayed only if **GpsBabel** is found on the server system\n* 📏 supports metric, english and nautical measure systems\n* 🗠 draws elevation, speed or pace interactive chart\n* 🗠 can color track lines by speed, elevation or pace\n* 🗠 show track statistics\n* ⛛ filter tracks by date, total distance...\n* 🖻 displays geotagged pictures found in selected directory\n* 🖧 generates public links pointing to a track/folder. This link can be used if the file/folder is shared by public link\n* 🗁 allows you to move selected track files\n* 🗠 can correct tracks elevations if SRTM.py (gpxelevations) is found on the server's system\n* ⚖ can make global comparison of multiple tracks\n* ⚖ can make visual pair comparison of divergent parts of similar tracks\n* 🀆 allows users to add personal map tile servers\n* ⚙ saves/restores user options values\n* 🖍 allows user to manually set track line colors\n* 🕑 detects browser timezone\n* 🗬 loads extra marker symbols from GpxEdit if installed\n* 🔒 works with encrypted data folder (server side encryption)\n* 🍂 proudly uses Leaflet with lots of plugins to display the map\n* 🖴 is compatible with SQLite, MySQL and PostgreSQL databases\n* 🗁 adds possibility to view .gpx files directly from the \"Files\" app\n\nThis app is tested on Nextcloud 15 with Firefox 57+ and Chromium.\n\nThis app is under (slow) development.\n\nLink to Nextcloud application website : https://apps.nextcloud.com/apps/gpxpod\n\n## Install\n\nSee the [AdminDoc](https://gitlab.com/eneiluj/gpxpod-oc/wikis/admindoc) for installation details\n\n## Known issues\n\n* bad management of file names including simple or double quotes\n* *WARNING*, kml conversion will NOT work with recent kml files using the proprietary \"gx:track\" extension tag.\n\nAny feedback will be appreciated.\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://github.com/julien-nc/gpxpod",
@@ -1070,9 +1090,9 @@
     ]
   },
   "integration_openproject": {
-    "sha256": "aa41928102b22882ec32df2807c6ca99f2b199ec58b55b8f251d73b16115c760",
-    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.2.1/integration_openproject-2.2.1.tar.gz",
-    "version": "2.2.1",
+    "sha256": "d135c38484944a0c0f5a98861e5d1aa9a4f7052f3f220fe8b197d5c4e3aa4c01",
+    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.3.1/integration_openproject-2.3.1.tar.gz",
+    "version": "2.3.1",
     "description": "This application enables seamless integration with open source project management and collaboration software OpenProject.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in OpenProject\n* Find all work packages linked to a file or a folder\n* View OpenProject notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n\nOn the OpenProject end, users are able to:\n\n* View all Nextcloud files and folders linked to a work package\n* Download linked files or open them in Nextcloud to edit them\n\nFor more information on how to set up and use the OpenProject application, please refer to [integration setup guide](https://www.openproject.org/docs/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://www.openproject.org/docs/user-guide/nextcloud-integration/).",
     "homepage": "https://github.com/nextcloud/integration_openproject",
     "licenses": [
@@ -1210,9 +1230,9 @@
     ]
   },
   "mail_roundcube": {
-    "sha256": "04996edaff0d3defc40b883ba089b948a682af48940476a869bb580421d4f777",
-    "url": "https://github.com/rotdrop/nextcloud-roundcube/releases/download/v1.0.0/mail_roundcube.tar.gz",
-    "version": "1.0.0",
+    "sha256": "fc63975671f5204effa256863f2a7d5d7a6e11517a7c67ede5160d0489530049",
+    "url": "https://github.com/rotdrop/nextcloud-roundcube/releases/download/v1.0.1/mail_roundcube.tar.gz",
+    "version": "1.0.1",
     "description": "Integrates an existing RoundCube standalone email-webapp into NextCloud, with optional SSO.",
     "homepage": "https://github.com/rotdrop/nextcloud-roundcube/",
     "licenses": [
@@ -1230,9 +1250,9 @@
     ]
   },
   "maps": {
-    "sha256": "da11dacae09c3546cfd5c87f8b72eca601123a60b21565d1e128cf32be0b90ec",
-    "url": "https://github.com/nextcloud/maps/releases/download/v0.2.5-9-nightly/maps-0.2.5-9-nightly.tar.gz",
-    "version": "0.2.5",
+    "sha256": "424c894d3407a77b0e849484d13d672a96e0bfbe513b0fe82963ad45ca6223e1",
+    "url": "https://github.com/nextcloud/maps/releases/download/v0.2.4/maps-0.2.4.tar.gz",
+    "version": "0.2.4",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
     "licenses": [
@@ -1280,9 +1300,9 @@
     ]
   },
   "money": {
-    "sha256": "a41dc0d913cc28f03933b45786eeb503603ecf6ad7210444e6535f2f81b43c20",
-    "url": "https://github.com/powerpaul17/nc_money/releases/download/v0.15.1/money.tar.gz",
-    "version": "0.15.1",
+    "sha256": "89a9deeb66b823ae535cf8c314cdbd1a1e40b6394dee4d654ae49433dc84e4cf",
+    "url": "https://github.com/powerpaul17/nc_money/releases/download/v0.15.2/money.tar.gz",
+    "version": "0.15.2",
     "description": "Finance manager for Nextcloud.",
     "homepage": "https://github.com/powerpaul17/nc_money",
     "licenses": [
@@ -1310,9 +1330,9 @@
     ]
   },
   "news": {
-    "sha256": "f3acfc37084bb753974d6894b37f9122f2ea0ce81fc4f3f6f89a9f5d993bd183",
-    "url": "https://github.com/nextcloud/news/releases/download/21.0.0-beta1/news.tar.gz",
-    "version": "21.0.0-beta1",
+    "sha256": "03884d56ba24e263e0e8403d2dcd7b88eb71ff3085277e993bdcf11b8512f11a",
+    "url": "https://github.com/nextcloud/news/releases/download/21.0.0/news.tar.gz",
+    "version": "21.0.0",
     "description": "📰 A RSS/Atom Feed reader App for Nextcloud\n\n- 📲 Synchronize your feeds with multiple mobile or desktop [clients](https://nextcloud.github.io/news/clients/)\n- 🔄 Automatic updates of your news feeds\n- 🆓 Free and open source under AGPLv3, no ads or premium functions\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://nextcloud.github.io/news/install/#dependencies)\n\nThe Changelog is available [here](https://github.com/nextcloud/news/blob/master/CHANGELOG.md)\n\nCreate a [bug report](https://github.com/nextcloud/news/issues/new/choose)\n\nCreate a [feature request](https://github.com/nextcloud/news/discussions/new)\n\nReport a [feed issue](https://github.com/nextcloud/news/discussions/new)",
     "homepage": "https://github.com/nextcloud/news",
     "licenses": [
@@ -1320,10 +1340,10 @@
     ]
   },
   "nextpod": {
-    "sha256": "ada55c307d83658915f5a4faf9116f0dbecef107d27db45ac0fc33a576ca20b1",
-    "url": "https://github.com/pbek/nextcloud-nextpod/releases/download/v0.1.0/nextpod-nc.tar.gz",
-    "version": "0.1.0",
-    "description": "This Nextcloud app lets you visualize your podcast subscriptions and episode downloads from\n[GPodderSync](https://apps.nextcloud.com/apps/gpoddersync) which acts as a basic gpodder.net\napi to sync podcast consumer apps (podcatchers) like AntennaPod.\n\nYou need to have [GPodderSync](https://apps.nextcloud.com/apps/gpoddersync) installed to use this app!",
+    "sha256": "5c1a7f9b909dbd1ce60321c639d72a62553a8a713e0ecf6f146f8567bba47b26",
+    "url": "https://github.com/pbek/nextcloud-nextpod/releases/download/v0.1.1/nextpod-nc.tar.gz",
+    "version": "0.1.1",
+    "description": "This Nextcloud app lets you visualize your podcast subscriptions and episode downloads from\n[GPodderSync](https://apps.nextcloud.com/apps/gpoddersync), which acts as a basic gpodder.net\napi to sync podcast consumer apps (podcatchers) like AntennaPod.\n\nYou need to have [GPodderSync](https://apps.nextcloud.com/apps/gpoddersync) installed to use this app!",
     "homepage": "https://github.com/pbek/nextcloud-nextpod",
     "licenses": [
       "agpl"
@@ -1490,9 +1510,9 @@
     ]
   },
   "pdf_downloader": {
-    "sha256": "977efe1442a240ea5000b7e964ed76891223b1f9392fedffd2de8d280330d4d2",
-    "url": "https://github.com/rotdrop/nextcloud-app-pdf-downloader/releases/download/v1.1.1/pdf_downloader.tar.gz",
-    "version": "1.1.1",
+    "sha256": "1a03c6386ca828cda95c5b7afb8f8d2fb1c03811b0aaa4d4464e221cf97d0b7d",
+    "url": "https://github.com/rotdrop/nextcloud-app-pdf-downloader/releases/download/v1.1.2-rc1/pdf_downloader.tar.gz",
+    "version": "1.1.2-rc1",
     "description": "Recursively convert entire directory trees to PDF and provide the resulting document as download",
     "homepage": "",
     "licenses": [
@@ -1923,7 +1943,7 @@
     "sha256": "282decb10f6783620ec29ba7904c69288bf5d0a43dfde9ab300e89a50f0b5a83",
     "url": "https://github.com/nextcloud-releases/spreed/releases/download/v15.0.4/spreed-v15.0.4.tar.gz",
     "version": "15.0.4",
-    "description": "Chat, video & audio-conferencing using WebRTC\n\n* 💬 **Chat integration!** Nextcloud Talk comes with a simple text chat. Allowing you to share files from your Nextcloud and mentioning other participants.\n* 👥 **Private, group, public and password protected calls!** Just invite somebody, a whole group or send a public link to invite to a call.\n* 💻 **Screen sharing!** Share your screen with participants of your call. You just need to use Firefox version 66 (or newer), latest Edge or Chrome 72 (or newer, also possible using Chrome 49 with this [Chrome extension](https://chrome.google.com/webstore/detail/screensharing-for-nextclo/kepnpjhambipllfmgmbapncekcmabkol)).\n* 🚀 **Integration with other Nextcloud apps** like Files, Contacts and Deck. More to come.\n\nAnd in the works for the [coming versions](https://github.com/nextcloud/spreed/milestones/):\n* ✋ [Federated calls](https://github.com/nextcloud/spreed/issues/21), to call people on other Nextclouds",
+    "description": "Chat, video & audio-conferencing using WebRTC\r\n\r\n* 💬 **Chat integration!** Nextcloud Talk comes with a simple text chat. Allowing you to share files from your Nextcloud and mentioning other participants.\r\n* 👥 **Private, group, public and password protected calls!** Just invite somebody, a whole group or send a public link to invite to a call.\r\n* 💻 **Screen sharing!** Share your screen with participants of your call. You just need to use Firefox version 66 (or newer), latest Edge or Chrome 72 (or newer, also possible using Chrome 49 with this [Chrome extension](https://chrome.google.com/webstore/detail/screensharing-for-nextclo/kepnpjhambipllfmgmbapncekcmabkol)).\r\n* 🚀 **Integration with other Nextcloud apps** like Files, Contacts and Deck. More to come.\r\n\r\nAnd in the works for the [coming versions](https://github.com/nextcloud/spreed/milestones/):\r\n* ✋ [Federated calls](https://github.com/nextcloud/spreed/issues/21), to call people on other Nextclouds",
     "homepage": "https://github.com/nextcloud/spreed",
     "licenses": [
       "agpl"
