@@ -120,9 +120,9 @@
     ]
   },
   "cadviewer": {
-    "sha256": "adc1775cdb3c867ced232fa3a06eef2df72be4fb8613dc933c065345c89166e7",
-    "url": "https://github.com/CADViewer/NextCloud/releases/download/cv_nextcloud_v8.40.2/cadviewer-v8.40.2.tar.gz",
-    "version": "8.40.2",
+    "sha256": "54827471c84324fc9c5d8d3bddd84985670aad469ec25e3345a45ab1f2d2b9e9",
+    "url": "https://github.com/CADViewer/NextCloud/releases/download/cv_nextcloud_v8.42.9/cadviewer-v8.42.9.tar.gz",
+    "version": "8.42.9",
     "description": "# CADViewer\nCADViewer implements CAD viewing, markup and collaboration on the NextCloud platform for AutoCAD, MicroStation, PDF and advanced raster graphics. Following CADViewer features are available:\n- **AutoCAD**: Support for DWG, DXF and DWF files.\n- **MicroStation**: Support for DGN files.\n- **PDF**: Support for Vector Graphics PDF files. (Use **...** menu)\n- **TIFF**: Support for TIFF format. (Use **...** menu)\n- **PNG, JPG, GIF**: Bitmap support. (Use **...** menu)\n- **SVG**: SVG support. (Use **...** menu)\n- **Annotation**: Full redlining interface of drawings where each user has individually associated redlines.\n- **PDF Collaboration**: Redlines/Annotations on drawings are saved as PDF to the user's *CADViewer-Markup* folder, where the user can then share internally/externally.\n- **Download**: Direct download of SVG or PDF image with/without redlines/annotations.\n- **Printing**: Printing of drawings to printer driver or as PDF.\n- **Measurement**: Global scale matrix preserved in drawing for measurement and calibration methods.\n- **Zoom**: Advanced zoom and pan controls.\n- **Layers**: Retained layer structure for layer management.\n- **Search**: Integrated text search method.\n- **Compare**: Advanced compare of drawings.\n\n## 🌐Online Demo\n- To test the look and feel of [CADViewer](https://cadviewer.com), check out our [Online Demos](https://cadviewer.com/cadviewerdemo/).\n\n## 📦Installation\n1. Install the app from the Nextcloud app store or from CADViewer [GitHub repository](https://github.com/CADViewer/NextCloud/).\n2. Perform the [configuration steps](https://github.com/CADViewer/NextCloud/blob/main/README.md).\n3. **NOTE**: The configuration steps (permission settings for executable, log files, and folders) are needed for the back-end CAD conversion to work properly. Without permission settings, no drawings will display!\n4. Simply open your CAD drawings and start collaborate.. 😄",
     "homepage": "https://www.cadviewer.com",
     "licenses": [
@@ -750,10 +750,10 @@
     ]
   },
   "forms": {
-    "sha256": "f9695ecc803016e59180ffc4da65060da14f35ea90b81ddd5627c90e828c466a",
-    "url": "https://github.com/nextcloud/forms/releases/download/v3.1.0/forms.tar.gz",
-    "version": "3.1.0",
-    "description": "**Simple surveys and questionnaires, self-hosted!**\n\n- **📝 Simple design:** No mass of options, only the essentials. Works well on mobile of course.\n- **📊 View & export results:** Results are visualized and can also be exported as CSV in the same format used by Google Forms.\n- **🔒 Data under your control!** Unlike in Google Forms, Typeform, Doodle and others, the survey info and responses are kept private on your instance.\n- **🙋 Get involved!** We have lots of stuff planned like more question types, collaboration on forms, [and much more](https://github.com/nextcloud/forms/milestones)!",
+    "sha256": "96a2101fda186dc1f19c208b17a574f75f6fcbb98c5029b9cddd4344f98e4dce",
+    "url": "https://github.com/nextcloud/forms/releases/download/v3.2.0/forms.tar.gz",
+    "version": "3.2.0",
+    "description": "**Simple surveys and questionnaires, self-hosted!**\n\n- **📝 Simple design:** No mass of options, only the essentials. Works well on mobile of course.\n- **📊 View & export results:** Results are visualized and can also be exported as CSV in the same format used by Google Forms.\n- **🔒 Data under your control!** Unlike in Google Forms, Typeform, Doodle and others, the survey info and responses are kept private on your instance.\n- **🧑‍💻 Connect to your software:** Easily integrate Forms into your service with our full-fledged [REST-API](https://github.com/nextcloud/forms/blob/main/docs/API.md).\n- **🙋 Get involved!** We have lots of stuff planned like more question types, collaboration on forms, [and much more](https://github.com/nextcloud/forms/milestones)!",
     "homepage": "https://github.com/nextcloud/forms",
     "licenses": [
       "agpl"
@@ -1650,9 +1650,9 @@
     ]
   },
   "recognize": {
-    "sha256": "43d004191884dd78c9d816278eb4fe5f5344c1c675b99e2379ad48035cc6b842",
-    "url": "https://github.com/nextcloud/recognize/releases/download/v3.5.0/recognize-3.5.0.tar.gz",
-    "version": "3.5.0",
+    "sha256": "3ec480e607a72eed95015609ef45c8f239c7ea464f482e5ff18396d0f1e24ed3",
+    "url": "https://github.com/nextcloud/recognize/releases/download/v3.6.0/recognize-3.6.0.tar.gz",
+    "version": "3.6.0",
     "description": "This app goes through your media collection and adds fitting tags, automatically categorizing your photos and music.\n\n* 📷 👪 Recognizes faces from contact photos\n* 📷 🏔 Recognizes animals, landscapes, food, vehicles, buildings and other objects\n* 📷 🗼 Recognizes landmarks and monuments\n* 👂 🎵 Recognizes music genres\n* ⚡ Tagging works via Nextcloud's Collaborative Tags, allowing access by any of your apps\n  * 👂 listen to your tagged music with the audioplayer app\n  * 📷 view your tagged photos with the photos app\n\nAfter installation, you can enable tagging in the admin settings.\n\nRequirements:\n- PHP 7.4 and above\n- App \"collaborative tags\" enabled\n- For native speed:\n  - Processor: x86 64-bit (with support for AVX instructions)\n  - System with glibc (usually the norm on Linux; Alpine linux and FreeBSD are *not* such systems)\n- For sub-native speed (using JavaScript mode)\n  - Processor: x86 64-bit, arm64, armv7l (no AVX needed)\n  - System with glibc or musl (incl. Alpine linux)\n- ~4GB of free RAM (if you're cutting it close, make sure you have some swap available)\n\nThe app does not send any sensitive data to cloud providers or similar services. All processing is done on your Nextcloud machine, using Tensorflow.js running in Node.js.",
     "homepage": "https://github.com/marcelklehr/recognize",
     "licenses": [
@@ -1790,9 +1790,9 @@
     ]
   },
   "sentry": {
-    "sha256": "5d06ca8300a39a1cf9a0deb865729597b11ebf22fe70bea0c2e260849f48ba4b",
-    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.6.5/sentry-v8.6.5.tar.gz",
-    "version": "8.6.5",
+    "sha256": "ab771ee919c54539a50759e0fc2ff25010cd7dfdbd62fe15cb2d27696186d2b3",
+    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.6.6/sentry-v8.6.6.tar.gz",
+    "version": "8.6.6",
     "description": "A Sentry integration that sends unhandled exceptions to a Sentry instance to aggregate application crashes. You either have to set up your own Sentry instance or use your sentry.io account. See the admin documentation for how to configure this app.",
     "homepage": "https://github.com/ChristophWurst/nextcloud_sentry",
     "licenses": [
@@ -1814,6 +1814,16 @@
     "url": "https://github.com/nextcloud-releases/sharelisting/releases/download/v1.1.1/sharelisting-v1.1.1.tar.gz",
     "version": "1.1.1",
     "description": "The application generates a list of shares for display at the command line",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "sharepoint": {
+    "sha256": "a53bdf45b9c879a20b3e1d6028cb69f1de03fbbb54d671e5f2827350cbc92b09",
+    "url": "https://github.com/nextcloud-releases/sharepoint/releases/download/v1.13.0/sharepoint-v1.13.0.tar.gz",
+    "version": "1.13.0",
+    "description": "The Sharepoint Backend allows administrators to add Sharepoint document libraries as folders in Nextcloud. This offers an easy way for users to access Sharepoint data in the same place where they find their other files, facilitating collaboration and sharing within and across the borders of the organization. Users can use the desktop client, mobile apps or web interface and comment, tag, share and collaboratively edit files on Sharepoint just like with any other data on Nextcloud.\n\nSupports Sharepoint 2013, 2016 and 365. Nextcloud accesses Sharepoint through the Sharepoint REST API and uses NTLM authentication. Nextcloud respects file access permissions associated with its configured user credentials. Versioning and sharing are handled by Nextcloud.\n\nLearn more about External Storage and Sharepoint on [https://nextcloud.com/storage/](https://nextcloud.com/storage/)",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -1980,9 +1990,9 @@
     ]
   },
   "talk_matterbridge": {
-    "sha256": "982a5b223abca60e09620b5c96ec584e39e7c5c6434baf8f48b7686ddeaef47b",
-    "url": "https://github.com/nextcloud/talk_matterbridge/releases/download/v1.25.2-1/talk_matterbridge-1.25.2-1.tar.gz",
-    "version": "1.25.2-1",
+    "sha256": "5db44247be503d45021f07600e06ba457593aad86d75c4041fe0d90ded501373",
+    "url": "https://github.com/nextcloud/talk_matterbridge/releases/download/v1.26.0-0/talk_matterbridge.tar.gz",
+    "version": "1.26.0-0",
     "description": "This app brings the Matterbridge binary to your server to connect Nextcloud Talk with other chat services.\nThis allows admins to easily install and keep updated the Matterbridge binaries through a familiar interface.\n\nBinary is licensed under Apache-2.0 License.",
     "homepage": "https://github.com/nextcloud/talk_matterbridge",
     "licenses": [
@@ -2030,9 +2040,9 @@
     ]
   },
   "timemanager": {
-    "sha256": "516a437299acfa8a86ab93d3c06ba87739aee4b40b7de58b2ddb4950101e342a",
-    "url": "https://github.com/te-online/nextcloud-app-releases/raw/main/timemanager/v0.3.5/timemanager.tar.gz",
-    "version": "0.3.5",
+    "sha256": "b5004d78f445513db92153f161f264a9acb3fbe28765f7fd750fe001828f696a",
+    "url": "https://github.com/te-online/nextcloud-app-releases/raw/main/timemanager/v0.3.6/timemanager.tar.gz",
+    "version": "0.3.6",
     "description": "### Time tracking in Nextcloud!\n* 📁 **organize time entries** based on tasks, projects and clients\n* ⏱ **quickly record** a time entry for your latest tasks\n* ✅ **check or uncheck** a time entry (e.g. to save whether you've billed it)\n* 📈 make use of simple, but useful **statistics** and **reports**.\n\n_[View changelog](https://github.com/te-online/timemanager/blob/main/CHANGELOG.md) to see older releases_\n\n📱 **Looking for a mobile companion app?** Try the [Android app (currently in beta)](https://play.google.com/store/apps/details?id=de.jbservices.nc_timemanager_app) made by [@joleaf](https://gitlab.com/joleaf/nc-timemanager-mobile-app)",
     "homepage": "https://github.com/te-online/timemanager",
     "licenses": [
@@ -2120,9 +2130,9 @@
     ]
   },
   "twofactor_webauthn": {
-    "sha256": "90c6c02a54708e9c97ba1a4beeba122923307bad8355cc263606c6b41e25712d",
-    "url": "https://github.com/nextcloud-releases/twofactor_webauthn/releases/download/v1.1.1/twofactor_webauthn-v1.1.1.tar.gz",
-    "version": "1.1.1",
+    "sha256": "35631dadea51eb534bd1cfea4fcb4349e66027f0a29ea4995eb0a1f9c9fb201f",
+    "url": "https://github.com/nextcloud-releases/twofactor_webauthn/releases/download/v1.1.2/twofactor_webauthn-v1.1.2.tar.gz",
+    "version": "1.1.2",
     "description": "A two-factor provider for WebAuthn devices",
     "homepage": "https://github.com/nextcloud/twofactor_webauthn#readme",
     "licenses": [
@@ -2180,19 +2190,19 @@
     ]
   },
   "user_migration": {
-    "sha256": "012559aa713517d85f3f99044c10b617181f229a7d13cb360f097d074efe7a5a",
-    "url": "https://github.com/nextcloud-releases/user_migration/releases/download/v2.0.1/user_migration-v2.0.1.tar.gz",
-    "version": "2.0.1",
-    "description": "**👤➡ User migration app for Nextcloud**\r\n\r\nThis app allows users to easily migrate from one instance to another using an export of their account.\r\n\r\n- **🐱 Log in to cat.example.com/nextcloud**\r\n- **☑ Select what you want to export** (settings, files, profile information, profile picture, calendars, contacts…)\r\n- **⚙ Start the export** and wait for the server to process it\r\n- **📁 Download the resulting archive**\r\n- **🐶 Open an account on dog.example.com/nextcloud**\r\n- **🡅 Upload the archive into your files**\r\n- **⚙ Start the import**\r\n- **🎉 Enjoy your stay on your new instance** and close you old account",
+    "sha256": "8764f21fd5c791be4cdc2dd73d0e2a2dc443c14056910a4a643f3750cdf9d792",
+    "url": "https://github.com/nextcloud-releases/user_migration/releases/download/v3.0.0/user_migration-v3.0.0.tar.gz",
+    "version": "3.0.0",
+    "description": "**👤➡ User migration app for Nextcloud**\n\nThis app allows users to easily migrate from one instance to another using an export of their account.\n\n- **🐱 Log in to cat.example.com/nextcloud**\n- **⚙ Go into `Personal settings` > `Data migration`**\n- **☑ Select what you want to export** (settings, files, profile information, profile picture, calendars, contacts…)\n- **⚙ Start the export** and wait for the server to process it\n- **📁 Download the resulting file called `user.nextcloud_export`**\n- **🐶 Open an account on dog.example.com/nextcloud**\n- **🡅 Upload `user.nextcloud_export` into your files**\n- **⚙ Go into `Personal settings` > `Data migration` and start the import**\n- **🎉 Enjoy your stay on your new instance** and close you old account",
     "homepage": "",
     "licenses": [
       "agpl"
     ]
   },
   "user_oidc": {
-    "sha256": "a09ce630ad733b433106f66cf59abfd6cb027775ecbaf50af447395c28c8fe43",
-    "url": "https://github.com/nextcloud-releases/user_oidc/releases/download/v1.3.0/user_oidc-v1.3.0.tar.gz",
-    "version": "1.3.0",
+    "sha256": "343bd7b4d6246a2bbff7c69c6a1756054dac5370dac6af5c9b5ddbb28868370d",
+    "url": "https://github.com/nextcloud-releases/user_oidc/releases/download/v1.3.1/user_oidc-v1.3.1.tar.gz",
+    "version": "1.3.1",
     "description": "Allows flexible configuration of an OIDC server as Nextcloud login user backend.",
     "homepage": "https://github.com/nextcloud/user_oidc",
     "licenses": [

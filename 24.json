@@ -140,9 +140,9 @@
     ]
   },
   "cadviewer": {
-    "sha256": "adc1775cdb3c867ced232fa3a06eef2df72be4fb8613dc933c065345c89166e7",
-    "url": "https://github.com/CADViewer/NextCloud/releases/download/cv_nextcloud_v8.40.2/cadviewer-v8.40.2.tar.gz",
-    "version": "8.40.2",
+    "sha256": "54827471c84324fc9c5d8d3bddd84985670aad469ec25e3345a45ab1f2d2b9e9",
+    "url": "https://github.com/CADViewer/NextCloud/releases/download/cv_nextcloud_v8.42.9/cadviewer-v8.42.9.tar.gz",
+    "version": "8.42.9",
     "description": "# CADViewer\nCADViewer implements CAD viewing, markup and collaboration on the NextCloud platform for AutoCAD, MicroStation, PDF and advanced raster graphics. Following CADViewer features are available:\n- **AutoCAD**: Support for DWG, DXF and DWF files.\n- **MicroStation**: Support for DGN files.\n- **PDF**: Support for Vector Graphics PDF files. (Use **...** menu)\n- **TIFF**: Support for TIFF format. (Use **...** menu)\n- **PNG, JPG, GIF**: Bitmap support. (Use **...** menu)\n- **SVG**: SVG support. (Use **...** menu)\n- **Annotation**: Full redlining interface of drawings where each user has individually associated redlines.\n- **PDF Collaboration**: Redlines/Annotations on drawings are saved as PDF to the user's *CADViewer-Markup* folder, where the user can then share internally/externally.\n- **Download**: Direct download of SVG or PDF image with/without redlines/annotations.\n- **Printing**: Printing of drawings to printer driver or as PDF.\n- **Measurement**: Global scale matrix preserved in drawing for measurement and calibration methods.\n- **Zoom**: Advanced zoom and pan controls.\n- **Layers**: Retained layer structure for layer management.\n- **Search**: Integrated text search method.\n- **Compare**: Advanced compare of drawings.\n\n## 🌐Online Demo\n- To test the look and feel of [CADViewer](https://cadviewer.com), check out our [Online Demos](https://cadviewer.com/cadviewerdemo/).\n\n## 📦Installation\n1. Install the app from the Nextcloud app store or from CADViewer [GitHub repository](https://github.com/CADViewer/NextCloud/).\n2. Perform the [configuration steps](https://github.com/CADViewer/NextCloud/blob/main/README.md).\n3. **NOTE**: The configuration steps (permission settings for executable, log files, and folders) are needed for the back-end CAD conversion to work properly. Without permission settings, no drawings will display!\n4. Simply open your CAD drawings and start collaborate.. 😄",
     "homepage": "https://www.cadviewer.com",
     "licenses": [
@@ -780,9 +780,9 @@
     ]
   },
   "files_scripts": {
-    "sha256": "a38fe1d059962a547f68eb70e45f1e5397de842fd0ed80c74bd74760fdc5376e",
-    "url": "https://github.com/Raudius/files_scripts/releases/download/v2.0.3/files_scripts-2.0.3.tar.gz",
-    "version": "2.0.3",
+    "sha256": "5ee502061af50ae9f9d08dcb63a8ab80e9dfe93c51dfef9186acd01a30a9712d",
+    "url": "https://github.com/Raudius/files_scripts/releases/download/v2.0.4/files_scripts-2.0.4.tar.gz",
+    "version": "2.0.4",
     "description": "Allows administrators to write small scripts which users can run through via the file actions menu in the Files app!\n\n- **🌕 Lua:** Script in Lua, its simple and has plenty of online resources.\n- **⚡️Empower users:** Make hard tasks easy, straight from the Files app.\n- **🙋 Open to suggestions:** Are you missing a function in the scripting API? Open an issue on Github!\n\n\n⚠️**Attention** This app requires additional configuration, and may not be suitable for all users. Make sure to read the documentation thoroughly.\n\n⚠️**Attention** With great power comes great responsibility: Scripts may modify and delete files permanently. Make sure to read the documentation thoroughly before scripting.",
     "homepage": "",
     "licenses": [
@@ -1880,9 +1880,9 @@
     ]
   },
   "sentry": {
-    "sha256": "5d06ca8300a39a1cf9a0deb865729597b11ebf22fe70bea0c2e260849f48ba4b",
-    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.6.5/sentry-v8.6.5.tar.gz",
-    "version": "8.6.5",
+    "sha256": "ab771ee919c54539a50759e0fc2ff25010cd7dfdbd62fe15cb2d27696186d2b3",
+    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.6.6/sentry-v8.6.6.tar.gz",
+    "version": "8.6.6",
     "description": "A Sentry integration that sends unhandled exceptions to a Sentry instance to aggregate application crashes. You either have to set up your own Sentry instance or use your sentry.io account. See the admin documentation for how to configure this app.",
     "homepage": "https://github.com/ChristophWurst/nextcloud_sentry",
     "licenses": [
@@ -2383,7 +2383,7 @@
     "sha256": "a6d63aa54a1aa49153f4d503991b3b4af1a71f14dc85e470a70aa5898556d506",
     "url": "https://github.com/nextcloud-releases/user_migration/releases/download/v1.1.0/user_migration-v1.1.0.tar.gz",
     "version": "1.1.0",
-    "description": "**👤➡ User migration app for Nextcloud**\r\n\r\nThis app allows users to easily migrate from one instance to another using an export of their account.\r\n\r\n- **🐱 Log in to cat.example.com/nextcloud**\r\n- **☑ Select what you want to export** (settings, files, profile information, profile picture, calendars, contacts…)\r\n- **⚙ Start the export** and wait for the server to process it\r\n- **📁 Download the resulting archive**\r\n- **🐶 Open an account on dog.example.com/nextcloud**\r\n- **🡅 Upload the archive into your files**\r\n- **⚙ Start the import**\r\n- **🎉 Enjoy your stay on your new instance** and close you old account",
+    "description": "**👤➡ User migration app for Nextcloud**\n\nThis app allows users to easily migrate from one instance to another using an export of their account.\n\n- **🐱 Log in to cat.example.com/nextcloud**\n- **⚙ Go into `Personal settings` > `Data migration`**\n- **☑ Select what you want to export** (settings, files, profile information, profile picture, calendars, contacts…)\n- **⚙ Start the export** and wait for the server to process it\n- **📁 Download the resulting file called `user.nextcloud_export`**\n- **🐶 Open an account on dog.example.com/nextcloud**\n- **🡅 Upload `user.nextcloud_export` into your files**\n- **⚙ Go into `Personal settings` > `Data migration` and start the import**\n- **🎉 Enjoy your stay on your new instance** and close you old account",
     "homepage": "",
     "licenses": [
       "agpl"
