@@ -1020,8 +1020,8 @@
     ]
   },
   "integration_google": {
-    "sha256": "c7671104f8e125199e20b9b3ed531fe3ccabada0b0e311232524a05fb2259251",
-    "url": "https://github.com/nextcloud/integration_google/releases/download/v1.0.9/integration_google-1.0.9.tar.gz",
+    "sha256": "80b8b99970f17ccce874f56665dba61438e38b875f679f60205b71368f204009",
+    "url": "https://github.com/nextcloud/integration_google/releases/download/v1.0.9-5-nightly/integration_google-1.0.9-5-nightly.tar.gz",
     "version": "1.0.9",
     "description": "Google integration allows you to automatically import your Google calendars, contacts, photos and files into Nextcloud.",
     "homepage": "https://github.com/nextcloud/integration_google",
@@ -1650,9 +1650,9 @@
     ]
   },
   "recognize": {
-    "sha256": "111c95a91eb7e0b534883835d5211027a9b3f44682fcc9836580410dea01ece4",
-    "url": "https://github.com/nextcloud/recognize/releases/download/v3.6.1/recognize-3.6.1.tar.gz",
-    "version": "3.6.1",
+    "sha256": "8487adfb6f09cfacf0b9b05c5d7cf0343895702a1878c5615df974e87167d8c2",
+    "url": "https://github.com/nextcloud/recognize/releases/download/v3.6.2/recognize-3.6.2.tar.gz",
+    "version": "3.6.2",
     "description": "This app goes through your media collection and adds fitting tags, automatically categorizing your photos and music.\n\n* 📷 👪 Recognizes faces from contact photos\n* 📷 🏔 Recognizes animals, landscapes, food, vehicles, buildings and other objects\n* 📷 🗼 Recognizes landmarks and monuments\n* 👂 🎵 Recognizes music genres\n* ⚡ Tagging works via Nextcloud's Collaborative Tags, allowing access by any of your apps\n  * 👂 listen to your tagged music with the audioplayer app\n  * 📷 view your tagged photos with the photos app\n\nAfter installation, you can enable tagging in the admin settings.\n\nRequirements:\n- PHP 7.4 and above\n- App \"collaborative tags\" enabled\n- For native speed:\n  - Processor: x86 64-bit (with support for AVX instructions)\n  - System with glibc (usually the norm on Linux; Alpine linux and FreeBSD are *not* such systems)\n- For sub-native speed (using JavaScript mode)\n  - Processor: x86 64-bit, arm64, armv7l (no AVX needed)\n  - System with glibc or musl (incl. Alpine linux)\n- ~4GB of free RAM (if you're cutting it close, make sure you have some swap available)\n\nThe app does not send any sensitive data to cloud providers or similar services. All processing is done on your Nextcloud machine, using Tensorflow.js running in Node.js.",
     "homepage": "https://github.com/marcelklehr/recognize",
     "licenses": [
