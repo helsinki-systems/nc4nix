@@ -1700,9 +1700,9 @@
     ]
   },
   "recognize": {
-    "sha256": "54329f2346ea5a22b32b05e50b2cc53720a7bbdcba4380ae55b76364b3dfca6a",
-    "url": "https://github.com/nextcloud/recognize/releases/download/v3.6.3/recognize-3.6.3.tar.gz",
-    "version": "3.6.3",
+    "sha256": "33375d6bd848a94dcf3b3ef57ab3c8e65b3ac6eefae0cd7d6e4ea3855dc84d67",
+    "url": "https://github.com/nextcloud/recognize/releases/download/v3.7.0/recognize-3.7.0.tar.gz",
+    "version": "3.7.0",
     "description": "This app goes through your media collection and adds fitting tags, automatically categorizing your photos and music.\n\n* 📷 👪 Recognizes faces from contact photos\n* 📷 🏔 Recognizes animals, landscapes, food, vehicles, buildings and other objects\n* 📷 🗼 Recognizes landmarks and monuments\n* 👂 🎵 Recognizes music genres\n* ⚡ Tagging works via Nextcloud's Collaborative Tags, allowing access by any of your apps\n  * 👂 listen to your tagged music with the audioplayer app\n  * 📷 view your tagged photos with the photos app\n\nAfter installation, you can enable tagging in the admin settings.\n\nRequirements:\n- PHP 7.4 and above\n- App \"collaborative tags\" enabled\n- For native speed:\n  - Processor: x86 64-bit (with support for AVX instructions)\n  - System with glibc (usually the norm on Linux; Alpine linux and FreeBSD are *not* such systems)\n- For sub-native speed (using JavaScript mode)\n  - Processor: x86 64-bit, arm64, armv7l (no AVX needed)\n  - System with glibc or musl (incl. Alpine linux)\n- ~4GB of free RAM (if you're cutting it close, make sure you have some swap available)\n\nThe app does not send any sensitive data to cloud providers or similar services. All processing is done on your Nextcloud machine, using Tensorflow.js running in Node.js.",
     "homepage": "https://github.com/marcelklehr/recognize",
     "licenses": [
@@ -1890,9 +1890,9 @@
     ]
   },
   "side_menu": {
-    "sha256": "05140952c68337578107031b0f27c45f143fb990ad6a44b5ed02d4866f6482d0",
-    "url": "https://gitnet.fr/attachments/7e5c80a7-67d6-469a-a840-1f5a96709006",
-    "version": "3.7.0",
+    "sha256": "858910748aad25853ba579a629c23bf946820e071223121b1eb48275d3b70895",
+    "url": "https://gitnet.fr/attachments/161413eb-5539-4466-b166-ecb7372ea703",
+    "version": "3.7.1",
     "description": "Custom menu allows you to modify the position of the main menu by creating a panel on the left of the interface or with a big menu on the top.\nYou can also define apps that must be displayed in the top menu. Fully customisable.\n\nThis application is rather suitable for instances that activate a lot of applications.\n\nUse the shortcut `Ctrl`+`o` to open and to hide the side menu. Use `tab` to navigate.\n\nYou can customize colors depending of the theme (Dark theme and Breeze Dark).\n\nYou can report a bug or request a feature by opening an issue.\n\nRequirements:\n\n* PHP >= 8.0\n* App `theming` enabled\n\nIf you like this application and if you want to support the development:\n\n* [Buy me a coffee](https://www.buymeacoffee.com/deblan)\n* [Donate with liberapay](https://liberapay.com/deblan)\n* [Leave a comment](https://apps.nextcloud.com/apps/side_menu#comments)\n\nNotice\n------\n\nBecause I believe in a free and decentralized Internet, [Gitnet](https://gitnet.fr) is **self-hosted at home**.\nIn case of downtime, you can download **Custom Menu** from [here](https://kim.deblan.fr/~side_menu/).",
     "homepage": "https://gitnet.fr/deblan/side_menu",
     "licenses": [
