@@ -120,9 +120,9 @@
     ]
   },
   "cadviewer": {
-    "sha256": "5eb5264c6ea9e78816be42b0a04d0d267e5663573e14d024061e1337bbbdd504",
-    "url": "https://github.com/CADViewer/NextCloud/releases/download/cv_nextcloud_v8.52.4/cadviewer-v8.52.4.tar.gz",
-    "version": "8.52.4",
+    "sha256": "2d0296a17a5254cb379dbe9a0a307681c453c5c981bdd882fd52cf681a09b6a9",
+    "url": "https://github.com/CADViewer/NextCloud/releases/download/cv_nextcloud_v8.53.1/cadviewer-v8.53.1.tar.gz",
+    "version": "8.53.1",
     "description": "# CADViewer\nCADViewer implements CAD viewing, markup and collaboration on the NextCloud platform for AutoCAD, MicroStation, PDF and advanced raster graphics. Following CADViewer features are available:\n- **AutoCAD**: Support for DWG, DXF and DWF files.\n- **MicroStation**: Support for DGN files.\n- **PDF**: Support for Vector Graphics PDF files. (Use **...** menu)\n- **TIFF**: Support for TIFF format. (Use **...** menu)\n- **PNG, JPG, GIF**: Bitmap support. (Use **...** menu)\n- **SVG**: SVG support. (Use **...** menu)\n- **Annotation**: Full redlining interface of drawings where each user has individually associated redlines.\n- **PDF Collaboration**: Redlines/Annotations on drawings are saved as PDF to the user's *CADViewer-Markup* folder, where the user can then share internally/externally.\n- **Download**: Direct download of SVG or PDF image with/without redlines/annotations.\n- **Printing**: Printing of drawings to printer driver or as PDF.\n- **Measurement**: Global scale matrix preserved in drawing for measurement and calibration methods.\n- **Zoom**: Advanced zoom and pan controls.\n- **Layers**: Retained layer structure for layer management.\n- **Search**: Integrated text search method.\n- **Compare**: Advanced compare of drawings.\n\n## 🌐Online Demo\n- To test the look and feel of [CADViewer](https://cadviewer.com), check out our [Online Demos](https://cadviewer.com/cadviewerdemo/).\n\n## 📦Installation\n1. Install the app from the Nextcloud app store or from CADViewer [GitHub repository](https://github.com/CADViewer/NextCloud/).\n2. Perform the [configuration steps](https://github.com/CADViewer/NextCloud/blob/main/README.md).\n3. **NOTE**: The configuration steps (permission settings for executable, log files, and folders) are needed for the back-end CAD conversion to work properly. Without permission settings, no drawings will display!\n4. Simply open your CAD drawings and start collaborate.. 😄 \n5. If you have any issues displaying drawings, see [troubleshooting](https://github.com/CADViewer/NextCloud/blob/main/README.md) , file an [issue report](https://github.com/CADViewer/NextCloud/issues) or [contact us](mailto:developer@tailormade.com).",
     "homepage": "https://www.cadviewer.com",
     "licenses": [
@@ -130,9 +130,9 @@
     ]
   },
   "calendar": {
-    "sha256": "1ef54498610193ffb11c6eb2d6013ad765ccef2de0653b3ac657c47900409fa7",
-    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v4.3.0-rc.2/calendar-v4.3.0-rc.2.tar.gz",
-    "version": "4.3.0-rc.2",
+    "sha256": "314d9ced5f5d0fe29ed128a9f6a62a18de89311e99ba1a09d058c4477430feaf",
+    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v4.3.0/calendar-v4.3.0.tar.gz",
+    "version": "4.3.0",
     "description": "The Calendar app is a user interface for Nextcloud's CalDAV server. Easily sync events from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Currently Contacts - more to come.\n* 🌐 **WebCal Support!** Want to see your favorite team’s matchdays in your calendar? No problem!\n* 🙋 **Attendees!** Invite people to your events\n* ⌚️ **Free/Busy!** See when your attendees are available to meet\n* ⏰ **Reminders!** Get alarms for events inside your browser and via email\n* 🔍 Search! Find your events at ease\n* ☑️ Tasks! See tasks with a due date directly in the calendar\n* 🙈 **We’re not reinventing the wheel!** Based on the great [c-dav library](https://github.com/nextcloud/cdav-library), [ical.js](https://github.com/mozilla-comm/ical.js) and [fullcalendar](https://github.com/fullcalendar/fullcalendar) libraries.",
     "homepage": "https://github.com/nextcloud/calendar/",
     "licenses": [
@@ -730,9 +730,9 @@
     ]
   },
   "files_versions_s3": {
-    "sha256": "dcc9f8f916819837f5f0c455385a6a2ba76a0400ae0f1ae0640ba1fb75cca0cb",
-    "url": "https://github.com/nextcloud/files_versions_s3/releases/download/v0.1.9/files_versions_s3.tar.gz",
-    "version": "0.1.9",
+    "sha256": "ffaeb16401e886325c88222d2f7dfecc3a0d343118085597063a3fa5236bde50",
+    "url": "https://github.com/nextcloud-releases/files_versions_s3/releases/download/v0.1.10/files_versions_s3-v0.1.10.tar.gz",
+    "version": "0.1.10",
     "description": "Use S3 object versioning for file versioning.\n\n## Warning\n\nThis app does not include any mechanism for expiring old s3 versions,\nyou should setup your own version expiry (also called \"Lifecycle management\" in S3)\nto prevent versions from taking up an ever increasing amount of space.\n\n## Usage\n\n- install the app\n- check if bucket versioning is enabled for your storage using `occ files_versions_s3:status`\n- enable bucket versioning if not yet enabled using `occ files_versions_s3:enable <id>`",
     "homepage": "https://github.com/nextcloud/files_versions_s3",
     "licenses": [
@@ -840,8 +840,8 @@
     ]
   },
   "gpxpod": {
-    "sha256": "722c794cb30b992d8c698bb7e725af6494e4dc308bdc8baf34b53f1f89fed303",
-    "url": "https://github.com/julien-nc/gpxpod/releases/download/v5.0.6/gpxpod-5.0.6.tar.gz",
+    "sha256": "ce74f47cd07df26f162cb113317e9724cb2aefc28c4f443a90ae42f58333a08e",
+    "url": "https://github.com/julien-nc/gpxpod/releases/download/v5.0.6-1-nightly/gpxpod-5.0.6-1-nightly.tar.gz",
     "version": "5.0.6",
     "description": "# GpxPod Nextcloud application\n\nDisplay, analyse, compare and share GPS track files.\n\n🌍 Help us to translate this app on [GpxPod Crowdin project](https://crowdin.com/project/gpxpod).\n\nGpxPod :\n\n* 🗺 can display gpx/kml/tcx/igc/fit files anywhere in your files, files shared with you, files in folders shared with you. fit files will be converted and displayed only if **GpsBabel** is found on the server system\n* 📏 supports metric, english and nautical measure systems\n* 🗠 draws elevation, speed or pace interactive chart\n* 🗠 can color track lines by speed, elevation or pace\n* 🗠 show track statistics\n* ⛛ filter tracks by date, total distance...\n* 🖻 displays geotagged pictures found in selected directory\n* 🖧 generates public links pointing to a track/folder. This link can be used if the file/folder is shared by public link\n* 🗁 allows you to move selected track files\n* 🗠 can correct tracks elevations if SRTM.py (gpxelevations) is found on the server's system\n* ⚖ can make global comparison of multiple tracks\n* ⚖ can make visual pair comparison of divergent parts of similar tracks\n* 🀆 allows users to add personal map tile servers\n* ⚙ saves/restores user options values\n* 🖍 allows user to manually set track line colors\n* 🕑 detects browser timezone\n* 🗬 loads extra marker symbols from GpxEdit if installed\n* 🔒 works with encrypted data folder (server side encryption)\n* 🍂 proudly uses Leaflet with lots of plugins to display the map\n* 🖴 is compatible with SQLite, MySQL and PostgreSQL databases\n* 🗁 adds possibility to view .gpx files directly from the \"Files\" app\n\nThis app is tested on Nextcloud 15 with Firefox 57+ and Chromium.\n\nThis app is under (slow) development.\n\nLink to Nextcloud application website : https://apps.nextcloud.com/apps/gpxpod\n\n## Install\n\nSee the [AdminDoc](https://gitlab.com/eneiluj/gpxpod-oc/wikis/admindoc) for installation details\n\n## Known issues\n\n* bad management of file names including simple or double quotes\n* *WARNING*, kml conversion will NOT work with recent kml files using the proprietary \"gx:track\" extension tag.\n\nAny feedback will be appreciated.\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://github.com/julien-nc/gpxpod",
@@ -890,9 +890,9 @@
     ]
   },
   "groupquota": {
-    "sha256": "692a0ad254081671c439e948fa490fd7a01e983edb61c8bf1b50a09275cbae67",
-    "url": "https://github.com/nextcloud/groupquota/releases/download/v0.1.9/groupquota.tar.gz",
-    "version": "0.1.9",
+    "sha256": "646e399aca25a9b56e37c3668192492ef10130bac14abcbb9f2c776aaf407319",
+    "url": "https://github.com/nextcloud-releases/groupquota/releases/download/v0.1.10/groupquota-v0.1.10.tar.gz",
+    "version": "0.1.10",
     "description": "Allow setting a disk quota for an entire group.\n\nNote: configuring quota is only possible trough the API, no admin interface is currently available.",
     "homepage": "https://github.com/nextcloud/groupquota",
     "licenses": [
@@ -920,9 +920,9 @@
     ]
   },
   "hedgenext": {
-    "sha256": "0527e739e38c35f8bfed209bc0891d68a193d6196efd96ba4f49f3ff649103e0",
-    "url": "https://github.com/libnewton/hedgenext-plugin/releases/download/v0.0.4/hedgenext.tar.gz",
-    "version": "0.0.5",
+    "sha256": "bf29dc58c22e02c5e720382cf638bc335e850270073da015dee97ae5b7efb64f",
+    "url": "https://github.com/libnewton/hedgenext-plugin/releases/download/v0.0.9/hedgenext.tar.gz",
+    "version": "0.0.9",
     "description": "This application is the Nextcloud client of HedgeNext - the Nextcloud-adjusted fork of Hedgedoc, the definitive collaberative markdown editor.",
     "homepage": "https://github.com/libnewton/hedgenext-plugin",
     "licenses": [
@@ -1104,7 +1104,7 @@
     "url": "https://github.com/julien-nc/integration_miro/releases/download/v1.0.0-1-nightly/integration_miro-1.0.0-1-nightly.tar.gz",
     "version": "1.0.0",
     "description": "Miro integration lets users create boards, share board links and open boards directly in Nextcloud.",
-    "homepage": "https://github.com/eneiluj/integration_miro",
+    "homepage": "https://github.com/julien-nc/integration_miro",
     "licenses": [
       "agpl"
     ]
@@ -1460,9 +1460,9 @@
     ]
   },
   "onlyoffice": {
-    "sha256": "208eb2d87a18948cc221c26a23b947711c134509cbe630d25c97885ac6c22802",
-    "url": "https://github.com/ONLYOFFICE/onlyoffice-nextcloud/releases/download/v7.6.8/onlyoffice.tar.gz",
-    "version": "7.6.8",
+    "sha256": "3a2018d5bff59d6f2329b5895a6a9bd36ec4e23e85c79612c4d4e88810fc34a0",
+    "url": "https://github.com/ONLYOFFICE/onlyoffice-nextcloud/releases/download/v7.8.0/onlyoffice.tar.gz",
+    "version": "7.8.0",
     "description": "ONLYOFFICE connector allows you to view, edit and collaborate on text documents, spreadsheets and presentations within Nextcloud using ONLYOFFICE Docs. This will create a new Edit in ONLYOFFICE action within the document library for Office documents. This allows multiple users to co-author documents in real time from the familiar web interface and save the changes back to your file storage.",
     "homepage": "https://www.onlyoffice.com",
     "licenses": [
@@ -1530,9 +1530,9 @@
     ]
   },
   "passwords": {
-    "sha256": "a32a032a4994e566acdf4bdf4f0106a17f05a0fa610f5276f15963c731bc33d9",
-    "url": "https://git.mdns.eu/nextcloud/passwords/-/jobs/15883/artifacts/raw/passwords.tar.gz",
-    "version": "2023.4.20-build4904",
+    "sha256": "759f64b4d39d2719f6835d688bd427fe1f71b8f6e29d15cc298123aae96028c1",
+    "url": "https://git.mdns.eu/nextcloud/passwords/-/jobs/15905/artifacts/raw/passwords.tar.gz",
+    "version": "2023.3.21",
     "description": "Passwords is the most advanced password manager for Nextcloud and allows you to manage and store your passwords safely in your own cloud.\nThe intuitive and modern web interface of the app makes it easy to update and add new passwords from anywhere.\nIncluded security checks help you to keep your online accounts safe and up-to-date.\nYou can also share passwords with other Nextcloud users.\n\n**Features**\n * Intuitive and modern user interface\n * Password security monitor\n * Secure encryption\n * Folders &amp; tags\n * Sharing\n * API for apps\n * Extensive handbook\n * Import &amp; Export\n * Browser extensions &amp; Apps\n * ... and many more to come\n\n**Support**\n * [Official Chat](https://t.me/nc_passwords)\n * [Official Forum](https://help.nextcloud.com/c/apps/passwords)\n * [User Handbook](https://git.mdns.eu/nextcloud/passwords/wikis/Users/Index)\n * [Administrator Handbook](https://git.mdns.eu/nextcloud/passwords/wikis/Administrators/Index)\n\n**Apps & Extensions**\n * [Official Firefox Add-On](https://addons.mozilla.org/de/firefox/addon/nextcloud-passwords?src=external-ncapps)\n * [Official Chrome Extension](https://chrome.google.com/webstore/detail/nextcloud-passwords/mhajlicjhgoofheldnmollgbgjheenbi)\n * [Official Microsoft Edge Extension](https://microsoftedge.microsoft.com/addons/detail/cjmlcljdpphgdfpkngjcmeepdpcgpffk)\n * [Android App](https://play.google.com/store/apps/details?id=de.jbservices.nc_passwords_app) by [joleaf](https://gitlab.com/joleaf/nc-passwords-app)\n * [Windows App (WIP)](https://www.microsoft.com/store/apps/9NXVZ0ZP6D5Z) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [Linux App (WIP)](https://gitlab.com/j0chn/nextcloud_password_client/-/tree/main#linux) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [macOS App (WIP)](https://gitlab.com/j0chn/nextcloud_password_client/-/tree/main#mac-os) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [iOS App](https://apps.apple.com/app/id1546212226) by [Johannes Schliephake](https://github.com/johannes-schliephake/nextcloud-passwords-ios)",
     "homepage": "",
     "licenses": [
@@ -1540,9 +1540,9 @@
     ]
   },
   "passwords_handbook": {
-    "sha256": "3057834ef6c70beb9e6bc1f0fe15edf0998f3cbacb22c299d5abeeffbe17ad18",
-    "url": "https://git.mdns.eu/nextcloud/passwords-handbook/-/jobs/15868/artifacts/raw/passwords_handbook.tar.gz",
-    "version": "2023.3.20",
+    "sha256": "c14bd84b3cd30d31deaef18135a5f9ef5b9de458758293291a9e76f42dcb2ba1",
+    "url": "https://git.mdns.eu/nextcloud/passwords-handbook/-/jobs/15912/artifacts/raw/passwords_handbook.tar.gz",
+    "version": "2023.3.21",
     "description": "With this app you can host the in app user handbook for the Passwords app for Nextcloud on your own Nextcloud instance instead of using the sources on Github or a custom server.\nThis improves user privacy and enables using the handbook in networks where Github may not be available.",
     "homepage": "",
     "licenses": [
@@ -1940,9 +1940,9 @@
     ]
   },
   "snappymail": {
-    "sha256": "fc14461e5f74043e65c5280c85b1f688de6540c6681557b35928feb75250a568",
-    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.26.4-nextcloud.tar.gz",
-    "version": "2.26.4",
+    "sha256": "f7bc9b5de5239c769ef44eb2948d6356fd3f65bd8b74507127dda738497169aa",
+    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.27.0-nextcloud.tar.gz",
+    "version": "2.27.0",
     "description": "**Simple, modern, lightweight & fast web-based email client.**\n\n- **Dark mode**\n- **Responsive design**\n- **Full Sieve filtering support**\n- **Almost all IMAP features** including advanced searching\n- **Integration with Nextcloud Unified Search**\n- **Integration with other Nextcloud apps** (Contacts, Files and Calendar)\n- **Multiple mail accounts and identities**\n- **Send & receive OpenPGP encrypted/signed emails** (With full HTML support, ECC keys, or plain text with Mailvelope)\n- **Many security features** (Sodium encrypted passwords, Sec-Fetch, TOTP 2FA, DKIM, prevent tracking, etc.)\n- **Kolab integrations**\n\nAfter enabling in Nextcloud, go to Nextcloud admin panel, \"Additional settings\" and you will see a \"SnappyMail webmail\" section.\nThere, click on the link to go to the SnappyMail admin panel.",
     "homepage": "https://snappymail.eu",
     "licenses": [
@@ -2030,9 +2030,9 @@
     ]
   },
   "tables": {
-    "sha256": "a7616aaa9890a85a196eb086ad945b28b9318a7d48fbcc610d346d6e1125e443",
-    "url": "https://github.com/nextcloud-releases/tables/releases/download/v0.3.2/tables.tar.gz",
-    "version": "0.3.2",
+    "sha256": "2bf7f531317d93bfa903dd087ebfeba4e807b04ce927fdb0e0c84604c7d4789f",
+    "url": "https://github.com/nextcloud-releases/tables/releases/download/v0.3.3/tables.tar.gz",
+    "version": "0.3.3",
     "description": "Manage data the way you need it.\n\nWith this app you are able to create your own tables with individual columns. You can start with a template or from scratch and add your wanted columns.\nYou can choose from the following column types:\n- Text line or long text\n- Link\n- Number\n- Progress bar\n- Stars rating\n- Yes/No tick\n- Date and/or time\n\nShare your tables with users and groups within your cloud.\n\nHave a good time and manage whatever you want.",
     "homepage": "https://github.com/nextcloud/tables",
     "licenses": [
