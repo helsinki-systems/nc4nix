@@ -140,9 +140,9 @@
     ]
   },
   "cadviewer": {
-    "sha256": "5eb5264c6ea9e78816be42b0a04d0d267e5663573e14d024061e1337bbbdd504",
-    "url": "https://github.com/CADViewer/NextCloud/releases/download/cv_nextcloud_v8.52.4/cadviewer-v8.52.4.tar.gz",
-    "version": "8.52.4",
+    "sha256": "39e572c3e6b4d9bba1741340ad3fb4749bb1bade883139741ee0438b82dbe2bd",
+    "url": "https://github.com/CADViewer/NextCloud/releases/download/cv_nextcloud_v8.54.1/cadviewer-v8.54.1.tar.gz",
+    "version": "8.54.1",
     "description": "# CADViewer\nCADViewer implements CAD viewing, markup and collaboration on the NextCloud platform for AutoCAD, MicroStation, PDF and advanced raster graphics. Following CADViewer features are available:\n- **AutoCAD**: Support for DWG, DXF and DWF files.\n- **MicroStation**: Support for DGN files.\n- **PDF**: Support for Vector Graphics PDF files. (Use **...** menu)\n- **TIFF**: Support for TIFF format. (Use **...** menu)\n- **PNG, JPG, GIF**: Bitmap support. (Use **...** menu)\n- **SVG**: SVG support. (Use **...** menu)\n- **Annotation**: Full redlining interface of drawings where each user has individually associated redlines.\n- **PDF Collaboration**: Redlines/Annotations on drawings are saved as PDF to the user's *CADViewer-Markup* folder, where the user can then share internally/externally.\n- **Download**: Direct download of SVG or PDF image with/without redlines/annotations.\n- **Printing**: Printing of drawings to printer driver or as PDF.\n- **Measurement**: Global scale matrix preserved in drawing for measurement and calibration methods.\n- **Zoom**: Advanced zoom and pan controls.\n- **Layers**: Retained layer structure for layer management.\n- **Search**: Integrated text search method.\n- **Compare**: Advanced compare of drawings.\n\n## 🌐Online Demo\n- To test the look and feel of [CADViewer](https://cadviewer.com), check out our [Online Demos](https://cadviewer.com/cadviewerdemo/).\n\n## 📦Installation\n1. Install the app from the Nextcloud app store or from CADViewer [GitHub repository](https://github.com/CADViewer/NextCloud/).\n2. Perform the [configuration steps](https://github.com/CADViewer/NextCloud/blob/main/README.md).\n3. **NOTE**: The configuration steps (permission settings for executable, log files, and folders) are needed for the back-end CAD conversion to work properly. Without permission settings, no drawings will display!\n4. Simply open your CAD drawings and start collaborate.. 😄 \n5. If you have any issues displaying drawings, see [troubleshooting](https://github.com/CADViewer/NextCloud/blob/main/README.md) , file an [issue report](https://github.com/CADViewer/NextCloud/issues) or [contact us](mailto:developer@tailormade.com).",
     "homepage": "https://www.cadviewer.com",
     "licenses": [
@@ -630,9 +630,9 @@
     ]
   },
   "files_downloadactivity": {
-    "sha256": "a0668dc3f2b7bb37f0964d184155935f39a8b093a5710b078072118d4a273b55",
-    "url": "https://github.com/nextcloud-releases/files_downloadactivity/releases/download/v1.15.0/files_downloadactivity-v1.15.0.tar.gz",
-    "version": "1.15.0",
+    "sha256": "65176d793de0ac8824c4abdd3c14f8946abbb1f249d55e7d434485d69ace00f6",
+    "url": "https://github.com/nextcloud-releases/files_downloadactivity/releases/download/v1.16.0/files_downloadactivity-v1.16.0.tar.gz",
+    "version": "1.16.0",
     "description": "Creates activities for downloads of files that were shared with other users or a group",
     "homepage": "https://github.com/nextcloud/files_downloadactivity",
     "licenses": [
@@ -820,9 +820,9 @@
     ]
   },
   "files_versions_s3": {
-    "sha256": "dcc9f8f916819837f5f0c455385a6a2ba76a0400ae0f1ae0640ba1fb75cca0cb",
-    "url": "https://github.com/nextcloud/files_versions_s3/releases/download/v0.1.9/files_versions_s3.tar.gz",
-    "version": "0.1.9",
+    "sha256": "ffaeb16401e886325c88222d2f7dfecc3a0d343118085597063a3fa5236bde50",
+    "url": "https://github.com/nextcloud-releases/files_versions_s3/releases/download/v0.1.10/files_versions_s3-v0.1.10.tar.gz",
+    "version": "0.1.10",
     "description": "Use S3 object versioning for file versioning.\n\n## Warning\n\nThis app does not include any mechanism for expiring old s3 versions,\nyou should setup your own version expiry (also called \"Lifecycle management\" in S3)\nto prevent versions from taking up an ever increasing amount of space.\n\n## Usage\n\n- install the app\n- check if bucket versioning is enabled for your storage using `occ files_versions_s3:status`\n- enable bucket versioning if not yet enabled using `occ files_versions_s3:enable <id>`",
     "homepage": "https://github.com/nextcloud/files_versions_s3",
     "licenses": [
@@ -980,9 +980,9 @@
     ]
   },
   "groupquota": {
-    "sha256": "692a0ad254081671c439e948fa490fd7a01e983edb61c8bf1b50a09275cbae67",
-    "url": "https://github.com/nextcloud/groupquota/releases/download/v0.1.9/groupquota.tar.gz",
-    "version": "0.1.9",
+    "sha256": "646e399aca25a9b56e37c3668192492ef10130bac14abcbb9f2c776aaf407319",
+    "url": "https://github.com/nextcloud-releases/groupquota/releases/download/v0.1.10/groupquota-v0.1.10.tar.gz",
+    "version": "0.1.10",
     "description": "Allow setting a disk quota for an entire group.\n\nNote: configuring quota is only possible trough the API, no admin interface is currently available.",
     "homepage": "https://github.com/nextcloud/groupquota",
     "licenses": [
@@ -1440,9 +1440,9 @@
     ]
   },
   "news": {
-    "sha256": "f8d7fdc5c86c30128d313367afb3f5a311c5293f0ebd596cfd2d9881abf923f5",
-    "url": "https://github.com/nextcloud/news/releases/download/21.1.0-beta1/news.tar.gz",
-    "version": "21.1.0-beta1",
+    "sha256": "a023b20e91fd9d9e83fd0616de71a7c44b64c44d683c8001454dd705a0fe04be",
+    "url": "https://github.com/nextcloud/news/releases/download/21.1.0/news.tar.gz",
+    "version": "21.1.0",
     "description": "📰 A RSS/Atom Feed reader App for Nextcloud\n\n- 📲 Synchronize your feeds with multiple mobile or desktop [clients](https://nextcloud.github.io/news/clients/)\n- 🔄 Automatic updates of your news feeds\n- 🆓 Free and open source under AGPLv3, no ads or premium functions\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://nextcloud.github.io/news/install/#dependencies)\n\nThe Changelog is available [here](https://github.com/nextcloud/news/blob/master/CHANGELOG.md)\n\nCreate a [bug report](https://github.com/nextcloud/news/issues/new/choose)\n\nCreate a [feature request](https://github.com/nextcloud/news/discussions/new)\n\nReport a [feed issue](https://github.com/nextcloud/news/discussions/new)",
     "homepage": "https://github.com/nextcloud/news",
     "licenses": [
@@ -1463,7 +1463,7 @@
     "sha256": "adddee56456d0115f87a74405a6d62bd5e3af256e86199d87bbff3b2a6876299",
     "url": "https://github.com/nextcloud/notes/releases/download/v4.5.1/notes.tar.gz",
     "version": "4.5.1",
-    "description": "The Notes app is a distraction free notes taking app for [Nextcloud](https://www.nextcloud.com/). It provides categories for better organization and supports formatting using [Markdown](https://en.wikipedia.org/wiki/Markdown) syntax. Notes are saved as files in your Nextcloud, so you can view and edit them with every Nextcloud client. Furthermore, a separate [REST API](https://github.com/nextcloud/notes/blob/master/docs/api/README.md) allows for an easy integration into third-party apps (currently, there are notes apps for [Android](https://github.com/stefan-niedermann/nextcloud-notes), [iOS](https://github.com/owncloud/notes-iOS-App) and the [console](https://git.danielmoch.com/nncli/about) which allow convenient access to your Nextcloud notes). Further features include marking notes as favorites.",
+    "description": "The Notes app is a distraction free notes taking app for [Nextcloud](https://www.nextcloud.com/). It provides categories for better organization and supports formatting using [Markdown](https://en.wikipedia.org/wiki/Markdown) syntax. Notes are saved as files in your Nextcloud, so you can view and edit them with every Nextcloud client. Furthermore, a separate [REST API](https://github.com/nextcloud/notes/blob/master/docs/api/README.md) allows for an easy integration into third-party apps (currently, there are notes apps for [Android](https://github.com/nextcloud/notes-android), [iOS](https://github.com/nextcloud/notes-ios) and the [console](https://git.danielmoch.com/nncli/about) which allow convenient access to your Nextcloud notes). Further features include marking notes as favorites.",
     "homepage": "https://github.com/nextcloud/notes",
     "licenses": [
       "agpl"
@@ -1530,9 +1530,9 @@
     ]
   },
   "onlyoffice": {
-    "sha256": "6117b7b8c5c7133975e4ebf482814cdcd3f94a1b3c76ea1b5eed47bdd1fbfcbb",
-    "url": "https://github.com/ONLYOFFICE/onlyoffice-nextcloud/releases/download/v7.5.8/onlyoffice.tar.gz",
-    "version": "7.5.8",
+    "sha256": "8230b3df89b04a7db5ca96b70c99ae9b2f6819ddf2b62dc1c5f948da4553bcb1",
+    "url": "https://github.com/ONLYOFFICE/onlyoffice-nextcloud/releases/download/v7.7.0/onlyoffice.tar.gz",
+    "version": "7.7.0",
     "description": "ONLYOFFICE connector allows you to view, edit and collaborate on text documents, spreadsheets and presentations within Nextcloud using ONLYOFFICE Docs. This will create a new Edit in ONLYOFFICE action within the document library for Office documents. This allows multiple users to co-author documents in real time from the familiar web interface and save the changes back to your file storage.",
     "homepage": "https://www.onlyoffice.com",
     "licenses": [
@@ -1600,9 +1600,9 @@
     ]
   },
   "passwords_handbook": {
-    "sha256": "3057834ef6c70beb9e6bc1f0fe15edf0998f3cbacb22c299d5abeeffbe17ad18",
-    "url": "https://git.mdns.eu/nextcloud/passwords-handbook/-/jobs/15868/artifacts/raw/passwords_handbook.tar.gz",
-    "version": "2023.3.20",
+    "sha256": "c14bd84b3cd30d31deaef18135a5f9ef5b9de458758293291a9e76f42dcb2ba1",
+    "url": "https://git.mdns.eu/nextcloud/passwords-handbook/-/jobs/15912/artifacts/raw/passwords_handbook.tar.gz",
+    "version": "2023.3.21",
     "description": "With this app you can host the in app user handbook for the Passwords app for Nextcloud on your own Nextcloud instance instead of using the sources on Github or a custom server.\nThis improves user privacy and enables using the handbook in networks where Github may not be available.",
     "homepage": "",
     "licenses": [
@@ -2000,9 +2000,9 @@
     ]
   },
   "snappymail": {
-    "sha256": "fc14461e5f74043e65c5280c85b1f688de6540c6681557b35928feb75250a568",
-    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.26.4-nextcloud.tar.gz",
-    "version": "2.26.4",
+    "sha256": "fb5e234aa5227fa42e4121b68e351a46ce30b52a55ddfa405c766b007fed582b",
+    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.27.1-nextcloud.tar.gz",
+    "version": "2.27.1",
     "description": "**Simple, modern, lightweight & fast web-based email client.**\n\n- **Dark mode**\n- **Responsive design**\n- **Full Sieve filtering support**\n- **Almost all IMAP features** including advanced searching\n- **Integration with Nextcloud Unified Search**\n- **Integration with other Nextcloud apps** (Contacts, Files and Calendar)\n- **Multiple mail accounts and identities**\n- **Send & receive OpenPGP encrypted/signed emails** (With full HTML support, ECC keys, or plain text with Mailvelope)\n- **Many security features** (Sodium encrypted passwords, Sec-Fetch, TOTP 2FA, DKIM, prevent tracking, etc.)\n- **Kolab integrations**\n\nAfter enabling in Nextcloud, go to Nextcloud admin panel, \"Additional settings\" and you will see a \"SnappyMail webmail\" section.\nThere, click on the link to go to the SnappyMail admin panel.",
     "homepage": "https://snappymail.eu",
     "licenses": [
@@ -2123,7 +2123,7 @@
     "sha256": "a5665f28595c3fbc67357d8759c5c9d755dea255105d997f01d9b2958dca0dd2",
     "url": "https://github.com/nextcloud-releases/spreed/releases/download/v14.0.9/spreed-v14.0.9.tar.gz",
     "version": "14.0.9",
-    "description": "Chat, video & audio-conferencing using WebRTC\r\n\r\n* 💬 **Chat integration!** Nextcloud Talk comes with a simple text chat. Allowing you to share files from your Nextcloud and mentioning other participants.\r\n* 👥 **Private, group, public and password protected calls!** Just invite somebody, a whole group or send a public link to invite to a call.\r\n* 💻 **Screen sharing!** Share your screen with participants of your call. You just need to use Firefox version 66 (or newer), latest Edge or Chrome 72 (or newer, also possible using Chrome 49 with this [Chrome extension](https://chrome.google.com/webstore/detail/screensharing-for-nextclo/kepnpjhambipllfmgmbapncekcmabkol)).\r\n* 🚀 **Integration with other Nextcloud apps** like Files, Contacts and Deck. More to come.\r\n\r\nAnd in the works for the [coming versions](https://github.com/nextcloud/spreed/milestones/):\r\n* ✋ [Federated calls](https://github.com/nextcloud/spreed/issues/21), to call people on other Nextclouds",
+    "description": "Chat, video & audio-conferencing using WebRTC\n\n* 💬 **Chat integration!** Nextcloud Talk comes with a simple text chat. Allowing you to share files from your Nextcloud and mentioning other participants.\n* 👥 **Private, group, public and password protected calls!** Just invite somebody, a whole group or send a public link to invite to a call.\n* 💻 **Screen sharing!** Share your screen with participants of your call. You just need to use Firefox version 66 (or newer), latest Edge or Chrome 72 (or newer, also possible using Chrome 49 with this [Chrome extension](https://chrome.google.com/webstore/detail/screensharing-for-nextclo/kepnpjhambipllfmgmbapncekcmabkol)).\n* 🚀 **Integration with other Nextcloud apps** like Files, Contacts and Deck. More to come.\n\nAnd in the works for the [coming versions](https://github.com/nextcloud/spreed/milestones/):\n* ✋ [Federated calls](https://github.com/nextcloud/spreed/issues/21), to call people on other Nextclouds",
     "homepage": "https://github.com/nextcloud/spreed",
     "licenses": [
       "agpl"
