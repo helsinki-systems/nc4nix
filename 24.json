@@ -610,9 +610,9 @@
     ]
   },
   "files_automatedtagging": {
-    "sha256": "8c867fbe2ca1398b6ea122e5ab331c2fde155c1ce2801338577f648baa911d56",
-    "url": "https://github.com/nextcloud-releases/files_automatedtagging/releases/download/v1.14.1/files_automatedtagging-v1.14.1.tar.gz",
-    "version": "1.14.1",
+    "sha256": "784cee534ce2f85268e4445d865e7a8974c538a55486361b8d81e960ebde7e6e",
+    "url": "https://github.com/nextcloud-releases/files_automatedtagging/releases/download/v1.14.2/files_automatedtagging-v1.14.2.tar.gz",
+    "version": "1.14.2",
     "description": "An app for Nextcloud that automatically assigns tags to newly uploaded files based on some conditions.\n\nThe tags can later be used to control retention, file access, automatic script execution and more.\n\n## How it works\nTo define tags, administrators can create and manage a set of rule groups. Each rule group consists of one or more rules combined through operators. Rules can include criteria like file type, size, time and more. A request matches a group if all rules evaluate to true. On uploading a file all defined groups are evaluated and when matching, the given tags are assigned to the file.",
     "homepage": "https://github.com/nextcloud/files_automatedtagging",
     "licenses": [
@@ -650,9 +650,9 @@
     ]
   },
   "files_external_ethswarm": {
-    "sha256": "1f71af78cf832b998d35e65b37272bef60728fc39bdecc21ed181bc1999130e6",
-    "url": "https://github.com/MetaProvide/nextcloud-swarm-plugin/releases/download/v0.2.0/files_external_ethswarm.tar.gz",
-    "version": "0.2.0",
+    "sha256": "fa7e94ff59d72170b5111037538ca306050b07c351ec89c3929106daf1c235b1",
+    "url": "https://github.com/MetaProvide/nextcloud-swarm-plugin/releases/download/v0.2.1/files_external_ethswarm.tar.gz",
+    "version": "0.2.1",
     "description": "# Nextcloud Swarm Plugin\n\n*Decentralized Sovereign cloud-storage comes to Nextcloud!*\n\nThis plugin brings [Swarm](https://www.ethswarm.org/) to [Nextcloud](https://nextcloud.com) - decentralized file-storage, connected to the blockchain.\n\n## Table of Contents\n\n- [Dependencies](#dependencies)\n- [Setup and Installation](#setup-and-installation)\n- [Usage](#usage)\n\t- [Settings](#settings)\n\t- [Using Swarm](#using-swarm)\n- [License](#license)\n\n## Dependencies\n\nTo use the plugin you need the following\n\n* A Nextcloud instance\n* A Bee node\n\n## Setup and Installation\n\nFor setting up a Bee node please have a look at the [official documentation](https://docs.ethswarm.org/docs/installation/quick-start)\n\nThe following steps explain how to configure a Bee node in Nextcloud.\n\n- Make sure the \"External Storage\" plugin is enabled\n- Install the \"External Storage: Swarm\" app from the Nextcloud App store\n- Navigate to External Storage Administration (Profile menu -> Settings -> External Storage)\n- Add the connection settings for a new Bee node\n- Navigate to Ethswarm Storage Administration (Profile menu -> Settings -> Ethswarm Storage)\n- Configure the Bee node - by default, encryption is active\n- To use a Bee node, it is necessary to [Purchase a Batch of new stamps](https://docs.ethswarm.org/docs/access-the-swarm/keep-your-data-alive) from the funds in the chequebook\n- Once the new batch is purchased, a unique batchId is generated. Once your batch has been purchased, it will take a few minutes for other Bee nodes in the Swarm to catch up and register your batch. Allow some time for your batch to propagate in the network before proceeding to the next step. This is indicated by the checkbox \"Usable\".\n- Uploading files to the swarm costs Bzz, so it is necessary to select a Batch as \"Active\". Only 1 batch is allowed to be Active for a given Bee node. Then click \"Save Settings\".\n\n## Usage\n\nFile handling operations involving the Bee node are integrated in the External Storage (\"Files\") section of Nextcloud.\n\nUsing the plugin, the main file operations that are available in Nextcloud are:\n\n- Upload file(s) to a Bee node\n- Download and view files\n- Copy/Move files from any External Storage to a Bee node\n- Copy files from a Bee node to any External Storage\n\n### Settings\n\nAvailable to users with administrative credentials, the external storage accepts configuration options from two places, the normal External Storage settings, which allows a user to configure the basic connection properties of a Bee node.\n\nSince every operation in Swarm costs money, it is important to view how much money is available to the Bee node directly and also provide a convenient way of handling the payment system in Swarm - all managed directly in Nextcloud. This is in a specific section with more advanced configuration for the Bee node, where the following settings can be viewed and edited:\n\n- Configure which Bee node to manage\n- View current status of the Bee node\n- Option to toggle encryption on and off\n- How much BZZ is available to the node\n- Any purchased stamp batches and the remaining balances\n- Have the option to purchase a new batch of stamps\n- Toggle the batch used for uploading files active/inactive\n\n### Using Swarm\n\nOnce setup and configured, the Bee node is ready to use.\n- Navigate to \"Files\" option on the menu -> \"External Storage\" and then the name of the Bee node.\n- You can then upload files just like you normally would in Nextcloud.\n- Once uploaded, it can be viewed internally or downloaded. It can also be copied to another storage.\n- Files from another Nextcloud storage can also be copied/moved to the Bee node.",
     "homepage": "https://github.com/MetaProvide/nextcloud-swarm-plugin",
     "licenses": [
@@ -920,9 +920,9 @@
     ]
   },
   "gpoddersync": {
-    "sha256": "c38f8655a738f042fafc117ee1852ab089bb9fb50c79cdba8281aa0387d77a83",
-    "url": "https://github.com/thrillfall/nextcloud-gpodder/releases/download/3.7.3/gpoddersync.tar.gz",
-    "version": "3.7.3",
+    "sha256": "dc6f161c5160789c4d650da1d177de45d6d4f37b561e0f595e6524e510834c14",
+    "url": "https://github.com/thrillfall/nextcloud-gpodder/releases/download/3.8.0/gpoddersync.tar.gz",
+    "version": "3.8.0",
     "description": "Expose GPodder API to sync podcast consumer apps like AntennaPod",
     "homepage": "https://github.com/thrillfall/nextcloud-gpodder",
     "licenses": [
@@ -1450,9 +1450,9 @@
     ]
   },
   "nextpod": {
-    "sha256": "425915329e2d489f0a4a4f781dc94c36b902ce844d76cc77eeae8c37d8701d5c",
-    "url": "https://github.com/pbek/nextcloud-nextpod/releases/download/v0.4.0/nextpod-nc.tar.gz",
-    "version": "0.4.0",
+    "sha256": "98b37a1f82a9bb3392f0ac6b0e9afcd0ab3c281e860ebc39391fef0547f043ff",
+    "url": "https://github.com/pbek/nextcloud-nextpod/releases/download/v0.4.1/nextpod-nc.tar.gz",
+    "version": "0.4.1",
     "description": "This Nextcloud app lets you visualize your podcast subscriptions and episode downloads from\n[GPodderSync](https://apps.nextcloud.com/apps/gpoddersync), which acts as a basic gpodder.net\napi to sync podcast consumer apps (podcatchers) like AntennaPod.\n\nYou need to have [GPodderSync](https://apps.nextcloud.com/apps/gpoddersync) installed to use this app!",
     "homepage": "https://github.com/pbek/nextcloud-nextpod",
     "licenses": [
@@ -1620,9 +1620,9 @@
     ]
   },
   "pdf_downloader": {
-    "sha256": "11bc519b46e08021504f92b4a1905cd29d6ae12a7ed28d7b0500c1281754ccf8",
-    "url": "https://github.com/rotdrop/nextcloud-app-pdf-downloader/releases/download/v1.1.2-rc5/pdf_downloader.tar.gz",
-    "version": "1.1.2-rc5",
+    "sha256": "f8df93a9a40755c40d66e6a13021f640e972cf7817f58d9f3d067a090f00b415",
+    "url": "https://github.com/rotdrop/nextcloud-app-pdf-downloader/releases/download/v1.1.2/pdf_downloader.tar.gz",
+    "version": "1.1.2",
     "description": "Recursively convert entire directory trees to PDF and provide the resulting document as download",
     "homepage": "",
     "licenses": [
@@ -1700,9 +1700,9 @@
     ]
   },
   "qownnotesapi": {
-    "sha256": "5a79098f35722ab21b133b7b086c17c793cfa9e63f5a9cd6ca6edbbb74c660ee",
-    "url": "https://github.com/pbek/qownnotesapi/releases/download/22.10.0/qownnotesapi-nc.tar.gz",
-    "version": "22.10.0",
+    "sha256": "a8254f1e559ffd903c023c5d4674d6e4a8c634366cdd332786b43298cfc6d677",
+    "url": "https://github.com/pbek/qownnotesapi/releases/download/v23.3.0/qownnotesapi-nc.tar.gz",
+    "version": "23.3.0",
     "description": "QOwnNotesAPI is the Nextcloud/ownCloud API for [QOwnNotes](http://www.qownnotes.org), the open source notepad for Linux, macOS and Windows, that works together with the notes application of Nextcloud/ownCloud.\n\nThe only purpose of this App is to provide API access to your Nextcloud/ownCloud server for your QOwnNotes desktop installation, you cannot use this App for anything else, if you don't have QOwnNotes installed on your desktop computer!",
     "homepage": "https://github.com/pbek/qownnotesapi",
     "licenses": [
@@ -2510,9 +2510,9 @@
     ]
   },
   "webapppassword": {
-    "sha256": "d6b198d7af65104a88312fe458bf1a505d7f901502fd45383c47a70903f12fbb",
-    "url": "https://github.com/digital-blueprint/webapppassword/releases/download/v23.1.0/webapppassword.tar.gz",
-    "version": "23.1.0",
+    "sha256": "1536d484c76d1dc9523e716e1d5e60f330a9344c897d332cccc9d1b142558a16",
+    "url": "https://github.com/digital-blueprint/webapppassword/releases/download/v23.3.0/webapppassword.tar.gz",
+    "version": "23.3.0",
     "description": "Temporary app password generator and WebDAV/CalDAV CORS header injection to be able access the\nNextcloud WebDAV/CalDAV service from inside web applications.\n\nThere is an [example implementation](https://github.com/digital-blueprint/webapppassword/blob/main/docs/example/index.html)\nthat uses this app to generate a temporary password and make a WebDAV request to a Nextcloud instance\n([docker container](https://github.com/digital-blueprint/webapppassword/tree/main/docker) included).\n\nSee [Example](https://github.com/digital-blueprint/webapppassword#example) for a Nextcloud WebDAV file picker example\nthat uses this application.",
     "homepage": "https://github.com/digital-blueprint/webapppassword",
     "licenses": [

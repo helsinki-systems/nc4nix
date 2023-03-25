@@ -210,9 +210,9 @@
     ]
   },
   "cloud_py_api": {
-    "sha256": "234bd9996f420b679adde8c2c5c69170e2234ccedfe2397b9ae017cd1b628f53",
-    "url": "https://github.com/cloud-py-api/cloud_py_api/releases/download/v0.1.5/cloud_py_api.tar.gz",
-    "version": "0.1.5",
+    "sha256": "44c7740d52b15a4df0409150dc5636e603b1b8d2b9d6c452e62de31915188b03",
+    "url": "https://github.com/cloud-py-api/cloud_py_api/releases/download/v0.1.6/cloud_py_api.tar.gz",
+    "version": "0.1.6",
     "description": "Nextcloud Python API Framework\n\n| **Currently in development, all is under design**\n\n### Provides convenient functions for Python\n\n- Read & write file system objects\n- Working with database\n- Wrapper around `OCC` calls\n- Calling your python function from php part of your app and return a result\n\n### Used by the following apps\n\n- [MediaDC](https://apps.nextcloud.com/apps/mediadc) - Nextcloud Media Duplicate Collector app\n\n### Support\n\nYou can support us in several ways:\n\n- ⭐ Star our work (it really motivates)\n- ❗ Create an issue or feature request (bring to us an excellent idea)\n- 💁 Resolve some issues or create a pull request (contribute to this project)\n- 🪙 Donate with any amount with one of the links below (fund this project)\n\n[![PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/donate?hosted_button_id=H5PLJJMWLDNJQ)\n[![Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/cloud_py_api/donate)",
     "homepage": "https://github.com/cloud-py-api/cloud_py_api",
     "licenses": [
@@ -260,9 +260,9 @@
     ]
   },
   "cookbook": {
-    "sha256": "a55598167e6c87c612b09cf70cea10d0e2f4c4c94fa854b3117914ff0e9ae4f6",
-    "url": "https://github.com/nextcloud/cookbook/releases/download/v0.10.1/Cookbook-0.10.1.tar.gz",
-    "version": "0.10.1",
+    "sha256": "1fb2957884819eed3fe10df58a18625ef46d917cf8c8b18e02c023e444607823",
+    "url": "https://github.com/nextcloud/cookbook/releases/download/v0.10.2/Cookbook-0.10.2.tar.gz",
+    "version": "0.10.2",
     "description": "A library for all your recipes. It uses JSON files following the schema.org recipe format. To add a recipe to the collection, you can paste in the URL of the recipe, and the provided web page will be parsed and downloaded to whichever folder you specify in the app settings.",
     "homepage": "https://github.com/nextcloud/cookbook/",
     "licenses": [
@@ -510,9 +510,9 @@
     ]
   },
   "files_antivirus": {
-    "sha256": "8112b3b940556f06b59fb8e547f0afba2cb4980618dc2fe24f88c9ae17ca33a1",
-    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v4.0.2/files_antivirus-v4.0.2.tar.gz",
-    "version": "4.0.2",
+    "sha256": "ab09bb7625fe58dad1890c68c77e655b43869d997d5e6a07c72e9150accb1474",
+    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v4.0.3/files_antivirus-v4.0.3.tar.gz",
+    "version": "4.0.3",
     "description": "Antivirus for files is an antivirus app for Nextcloud.\n\n* 🕵️‍♂️ When the user uploads a file, it's checked\n* ☢️ Uploaded and infected files will be deleted and a notification will be shown and/or sent via email\n* 🔎 Background Job to scan all files\n* ❓ Use ClamAV (open source) or Kaspersky Scan Engine\n\nThis application inspects files that are uploaded to Nextcloud for viruses before they are written to the Nextcloud storage. If a file is identified as a virus, it is either logged or not uploaded to the server. The application relies on the underlying ClamAV virus scanning engine, which the admin points Nextcloud to when configuring the application. Alternatively, a Kaspersky Scan Engine can be configured, which has to run on a separate server.\nFor this app to be effective, the ClamAV virus definitions should be kept up to date. Also note that enabling this app will impact system performance as additional processing is required for every upload. More information is available in the Antivirus documentation.",
     "homepage": "",
     "licenses": [
@@ -530,9 +530,9 @@
     ]
   },
   "files_automatedtagging": {
-    "sha256": "380c0789f61ca6722f20210aacef09012b2742d5235040841084d3d779d9c46c",
-    "url": "https://github.com/nextcloud-releases/files_automatedtagging/releases/download/v1.15.2/files_automatedtagging-v1.15.2.tar.gz",
-    "version": "1.15.2",
+    "sha256": "aab328a4f17e07fd7402b53e3e2e905f00048a417b353fb41c7f519cd52e786e",
+    "url": "https://github.com/nextcloud-releases/files_automatedtagging/releases/download/v1.15.3/files_automatedtagging-v1.15.3.tar.gz",
+    "version": "1.15.3",
     "description": "An app for Nextcloud that automatically assigns tags to newly uploaded files based on some conditions.\n\nThe tags can later be used to control retention, file access, automatic script execution and more.\n\n## How it works\nTo define tags, administrators can create and manage a set of rule groups. Each rule group consists of one or more rules combined through operators. Rules can include criteria like file type, size, time and more. A request matches a group if all rules evaluate to true. On uploading a file all defined groups are evaluated and when matching, the given tags are assigned to the file.",
     "homepage": "https://github.com/nextcloud/files_automatedtagging",
     "licenses": [
@@ -840,8 +840,8 @@
     ]
   },
   "gpxpod": {
-    "sha256": "ce74f47cd07df26f162cb113317e9724cb2aefc28c4f443a90ae42f58333a08e",
-    "url": "https://github.com/julien-nc/gpxpod/releases/download/v5.0.6-1-nightly/gpxpod-5.0.6-1-nightly.tar.gz",
+    "sha256": "722c794cb30b992d8c698bb7e725af6494e4dc308bdc8baf34b53f1f89fed303",
+    "url": "https://github.com/julien-nc/gpxpod/releases/download/v5.0.6/gpxpod-5.0.6.tar.gz",
     "version": "5.0.6",
     "description": "# GpxPod Nextcloud application\n\nDisplay, analyse, compare and share GPS track files.\n\n🌍 Help us to translate this app on [GpxPod Crowdin project](https://crowdin.com/project/gpxpod).\n\nGpxPod :\n\n* 🗺 can display gpx/kml/tcx/igc/fit files anywhere in your files, files shared with you, files in folders shared with you. fit files will be converted and displayed only if **GpsBabel** is found on the server system\n* 📏 supports metric, english and nautical measure systems\n* 🗠 draws elevation, speed or pace interactive chart\n* 🗠 can color track lines by speed, elevation or pace\n* 🗠 show track statistics\n* ⛛ filter tracks by date, total distance...\n* 🖻 displays geotagged pictures found in selected directory\n* 🖧 generates public links pointing to a track/folder. This link can be used if the file/folder is shared by public link\n* 🗁 allows you to move selected track files\n* 🗠 can correct tracks elevations if SRTM.py (gpxelevations) is found on the server's system\n* ⚖ can make global comparison of multiple tracks\n* ⚖ can make visual pair comparison of divergent parts of similar tracks\n* 🀆 allows users to add personal map tile servers\n* ⚙ saves/restores user options values\n* 🖍 allows user to manually set track line colors\n* 🕑 detects browser timezone\n* 🗬 loads extra marker symbols from GpxEdit if installed\n* 🔒 works with encrypted data folder (server side encryption)\n* 🍂 proudly uses Leaflet with lots of plugins to display the map\n* 🖴 is compatible with SQLite, MySQL and PostgreSQL databases\n* 🗁 adds possibility to view .gpx files directly from the \"Files\" app\n\nThis app is tested on Nextcloud 15 with Firefox 57+ and Chromium.\n\nThis app is under (slow) development.\n\nLink to Nextcloud application website : https://apps.nextcloud.com/apps/gpxpod\n\n## Install\n\nSee the [AdminDoc](https://gitlab.com/eneiluj/gpxpod-oc/wikis/admindoc) for installation details\n\n## Known issues\n\n* bad management of file names including simple or double quotes\n* *WARNING*, kml conversion will NOT work with recent kml files using the proprietary \"gx:track\" extension tag.\n\nAny feedback will be appreciated.\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://github.com/julien-nc/gpxpod",
@@ -1110,9 +1110,9 @@
     ]
   },
   "integration_nuiteq": {
-    "sha256": "c09df083d121adb285d801d8f070e37ceba2b72cb1989e73df76693e23c1c55a",
-    "url": "https://github.com/eneiluj/integration_nuiteq/releases/download/v1.0.3/integration_nuiteq-1.0.3.tar.gz",
-    "version": "1.0.3",
+    "sha256": "a60e5329be5be239fd4a979e51f9970bcbb3ea50eab1b8b4ce89cd5560568c53",
+    "url": "https://github.com/julien-nc/integration_nuiteq/releases/download/v1.0.4/integration_nuiteq-1.0.4.tar.gz",
+    "version": "1.0.4",
     "description": "NUITEQ Stage creates a natural interaction between participants in a Modern Meeting by merging the experience of creating together on a whiteboard and discussing in a video call and chat. Prepare and upload files and presentations, share them with others in the meeting. Designed for collaboration first to engage team members - NUITEQ Stage is safe, easy and efficient to use.\n\nThis app provides a simple interface to list, create and share NUITEQ Stage whiteboards.",
     "homepage": "https://github.com/eneiluj/integration_nuiteq",
     "licenses": [
@@ -1260,9 +1260,9 @@
     ]
   },
   "mail": {
-    "sha256": "daa28fe6c6a80990ee9d138c100d058f55b0fa28d22eabf4ab5fd08d5cefaec8",
-    "url": "https://github.com/nextcloud-releases/mail/releases/download/v2.2.4/mail-v2.2.4.tar.gz",
-    "version": "2.2.4",
+    "sha256": "ac4f43950566286f40e81237522c839e4b5887c77ab6fdafd398a32a4e006eed",
+    "url": "https://github.com/nextcloud-releases/mail/releases/download/v2.2.5/mail-v2.2.5.tar.gz",
+    "version": "2.2.5",
     "description": "**💌 A mail app for Nextcloud**\n\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://horde.org) libraries.\n- **📬 Want to host your own mail server?** We do not have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!",
     "homepage": "https://github.com/nextcloud/mail#readme",
     "licenses": [
@@ -1270,9 +1270,9 @@
     ]
   },
   "mail_roundcube": {
-    "sha256": "a9e704eeda501cfeb0fa47fb416be4203821ae8f6f31fea5c5b77f39d190d552",
-    "url": "https://github.com/rotdrop/nextcloud-roundcube/releases/download/v1.0.2-rc1/mail_roundcube.tar.gz",
-    "version": "1.0.2-rc1",
+    "sha256": "bdbc90e7ec8c3d091eb99efa75f2fce7f5ce8d1c74a320780a3c3ac98bcafee9",
+    "url": "https://github.com/rotdrop/nextcloud-roundcube/releases/download/v1.0.2/mail_roundcube.tar.gz",
+    "version": "1.0.2",
     "description": "Integrates an existing RoundCube standalone email-webapp into NextCloud, with optional SSO.",
     "homepage": "https://github.com/rotdrop/nextcloud-roundcube/",
     "licenses": [
@@ -1290,9 +1290,9 @@
     ]
   },
   "maps": {
-    "sha256": "33cad794a90364885a28631a4d96e0edd40caabbb825ece1e8df9afb09bddd19",
-    "url": "https://github.com/nextcloud/maps/releases/download/v1.0.0-5-nightly/maps-1.0.0-5-nightly.tar.gz",
-    "version": "1.0.0",
+    "sha256": "5e1e5c1bf483a1e7aa6f1f8cd5c1d2c8c6aa86e3d3fb734961e097bfd2b2a6c1",
+    "url": "https://github.com/nextcloud/maps/releases/download/v1.0.2/maps-1.0.2.tar.gz",
+    "version": "1.0.2",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
     "licenses": [
@@ -1300,9 +1300,9 @@
     ]
   },
   "mediadc": {
-    "sha256": "f7dd90dbf8a7f5f248a254f905ffd0bf3807810186e6735e9d942d97dd3a2708",
-    "url": "https://github.com/cloud-py-api/mediadc/releases/download/v0.3.4/mediadc.tar.gz",
-    "version": "0.3.4",
+    "sha256": "ef8c433630f331a1958c8b557cab6571778d20db954a5ba44283cb4d97464ccd",
+    "url": "https://github.com/cloud-py-api/mediadc/releases/download/v0.3.5/mediadc.tar.gz",
+    "version": "0.3.5",
     "description": "**[`cloud_py_api`](https://apps.nextcloud.com/apps/cloud_py_api) is required to be installed and enabled first.**\n\nThis app allows to find duplicate or similar 📸📹 photos and videos\n* **Many image formats supported** Jpeg, png, tiff, bmp, gif, heic/hif, cr2 and others.\n* **Large amount of supported video  formats** All that is supported by ffmpeg.\n* **Flexible config** Set your precision level for comparing, choose algo that suits for you most.\n* **Quick rescan** Once file was scanned, hash will be saved, and used for other scans.\n* **External Storages support** Search everywhere among all files available to the user.\n* **Save your time and cloud space** The title says all...\n\nQuick start guide and further information in our [Wiki](https://github.com/cloud-py-api/mediadc/wiki).\n\n### Support\n\nYou can support us in several ways:\n\n- ⭐ Star our work (it really motivates)\n- ❗ Create an Issue or feature request (bring to us an excellent idea)\n- 💁 Resolve some Issue or create a Pull Request (contribute to this project)\n- 🪙 Donate with any amount with one of the links below (fund this project)\n\n[![PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/donate?hosted_button_id=H5PLJJMWLDNJQ)\n[![Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/cloud_py_api/donate)",
     "homepage": "https://github.com/cloud-py-api/mediadc",
     "licenses": [
@@ -1310,10 +1310,10 @@
     ]
   },
   "memories": {
-    "sha256": "96ea7d247b73172b8b7efedbb9083e419787deb1f1c1be7efbe66ce01537266d",
-    "url": "https://github.com/pulsejet/memories/releases/download/v4.12.3/memories.tar.gz",
-    "version": "4.12.3",
-    "description": "# Memories: Photo Management for Nextcloud\n\nMemories is a *batteries-included* photo management solution for Nextcloud with advanced features including:\n\n- **📸 Timeline**: Sort photos and videos by date taken, parsed from Exif data.\n- **⏪ Rewind**: Jump to any time in the past instantly and relive your memories.\n- **🤖 AI Tagging**: Group photos by people and objects, powered by [recognize](https://github.com/nextcloud/recognize) and [facerecognition](https://github.com/matiasdelellis/facerecognition).\n- **🖼️ Albums**: Create albums to group photos and videos together. Then share these albums with others.\n- **🫱🏻‍🫲🏻 External Sharing**: Share photos and videos with people outside of your Nextcloud instance.\n- **📱 Mobile Support**: Works on devices of any shape and size through the web app.\n- **✏️ Edit Metadata**: Edit dates and other metadata on photos quickly and in bulk.\n- **📦 Archive**: Store photos you don't want to see in your timeline in a separate folder.\n- **📹 Video Transcoding**: Memories transcodes videos and uses HLS for maximal performance.\n- **🗺️ Map**: View your photos on a map, tagged with accurate reverse geocoding.\n- **📦 Migration**: Supports easy migration from Nextcloud Photos and Google Takeout.\n- **⚡️ Performance**: Memories is very fast.\n\n## 🚀 Installation\n\n1. Install the app from the Nextcloud app store (try a demo [here](https://memories-demo.radialapps.com/apps/memories/)).\n1. Perform the recommended [configuration steps](https://github.com/pulsejet/memories/wiki/Configuration).\n1. Run `php occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos.",
+    "sha256": "0e5f166b11e2c308ebae6625fe20503fca7d95e14b0b45382313c8f128c58fbf",
+    "url": "https://github.com/pulsejet/memories/releases/download/v4.12.5/memories.tar.gz",
+    "version": "4.12.5",
+    "description": "# Memories: Photo Management for Nextcloud\n\nMemories is a *batteries-included* photo management solution for Nextcloud with advanced features including:\n\n- **📸 Timeline**: Sort photos and videos by date taken, parsed from Exif data.\n- **⏪ Rewind**: Jump to any time in the past instantly and relive your memories.\n- **🤖 AI Tagging**: Group photos by people and objects, powered by [recognize](https://github.com/nextcloud/recognize) and [facerecognition](https://github.com/matiasdelellis/facerecognition).\n- **🖼️ Albums**: Create albums to group photos and videos together. Then share these albums with others.\n- **🫱🏻‍🫲🏻 External Sharing**: Share photos and videos with people outside of your Nextcloud instance.\n- **📱 Mobile Support**: Work from any device, of any shape and size through the web app.\n- **✏️ Edit Metadata**: Edit dates and other metadata on photos quickly and in bulk.\n- **📦 Archive**: Store photos you don't want to see in your timeline in a separate folder.\n- **📹 Video Transcoding**: Transcode videos and use HLS for maximal performance.\n- **🗺️ Map**: View your photos on a map, tagged with accurate reverse geocoding.\n- **📦 Migration**: Migrate easily from Nextcloud Photos and Google Takeout.\n- **⚡️ Performance**: Do all this very fast.\n\n## 🚀 Installation\n\n1. Install the app from the Nextcloud app store (try a demo [here](https://memories-demo.radialapps.com/apps/memories/)).\n1. Perform the recommended [configuration steps](https://github.com/pulsejet/memories/wiki/Configuration).\n1. Run `php occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos.",
     "homepage": "https://github.com/pulsejet/memories",
     "licenses": [
       "agpl"
@@ -1380,9 +1380,9 @@
     ]
   },
   "news": {
-    "sha256": "a023b20e91fd9d9e83fd0616de71a7c44b64c44d683c8001454dd705a0fe04be",
-    "url": "https://github.com/nextcloud/news/releases/download/21.1.0/news.tar.gz",
-    "version": "21.1.0",
+    "sha256": "696935efb8c91e77bfbbd7cd6c250ee81fd017f8469920e9ee7b9cf7ecd52f29",
+    "url": "https://github.com/nextcloud/news/releases/download/21.2.0-beta1/news.tar.gz",
+    "version": "21.2.0-beta1",
     "description": "📰 A RSS/Atom Feed reader App for Nextcloud\n\n- 📲 Synchronize your feeds with multiple mobile or desktop [clients](https://nextcloud.github.io/news/clients/)\n- 🔄 Automatic updates of your news feeds\n- 🆓 Free and open source under AGPLv3, no ads or premium functions\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://nextcloud.github.io/news/install/#dependencies)\n\nThe Changelog is available [here](https://github.com/nextcloud/news/blob/master/CHANGELOG.md)\n\nCreate a [bug report](https://github.com/nextcloud/news/issues/new/choose)\n\nCreate a [feature request](https://github.com/nextcloud/news/discussions/new)\n\nReport a [feed issue](https://github.com/nextcloud/news/discussions/new)",
     "homepage": "https://github.com/nextcloud/news",
     "licenses": [
@@ -1440,9 +1440,9 @@
     ]
   },
   "oidc": {
-    "sha256": "8ac47738d89815db93b2457881b01f279e1f53f306dacfd4a618744005b1536d",
-    "url": "https://github.com/H2CK/oidc/releases/download/0.4.4/oidc-0.4.4.tar.gz",
-    "version": "0.4.4",
+    "sha256": "de7aea5823038d12320f6e01a4e4052f0fef89bb4c75243ce54305bfa705082c",
+    "url": "https://github.com/H2CK/oidc/releases/download/0.4.6/oidc-0.4.6.tar.gz",
+    "version": "0.4.6",
     "description": "Nextcloud as OpenID Connect Identity Provider\n\nWith this app you can use Nextcloud as OpenID Connect Identity Provider. If other services\nare configured correctly, you are able to access those services with your Nextcloud login.\n\nFull documentation can be found at:\n\n- [User Documentation](https://github.com/H2CK/oidc/wiki#user-documentation)\n- [Developer Documentation](https://github.com/H2CK/oidc/wiki#developer-documentation)",
     "homepage": "https://github.com/H2CK/oidc",
     "licenses": [
@@ -1530,9 +1530,9 @@
     ]
   },
   "passwords": {
-    "sha256": "759f64b4d39d2719f6835d688bd427fe1f71b8f6e29d15cc298123aae96028c1",
-    "url": "https://git.mdns.eu/nextcloud/passwords/-/jobs/15905/artifacts/raw/passwords.tar.gz",
-    "version": "2023.3.21",
+    "sha256": "ed49cb3084aa0e40de00ed5e60e9ee0e598d09bb89666b1c498c0c28ed518187",
+    "url": "https://git.mdns.eu/nextcloud/passwords/-/jobs/15962/artifacts/raw/passwords.tar.gz",
+    "version": "2023.3.32-build4919",
     "description": "Passwords is the most advanced password manager for Nextcloud and allows you to manage and store your passwords safely in your own cloud.\nThe intuitive and modern web interface of the app makes it easy to update and add new passwords from anywhere.\nIncluded security checks help you to keep your online accounts safe and up-to-date.\nYou can also share passwords with other Nextcloud users.\n\n**Features**\n * Intuitive and modern user interface\n * Password security monitor\n * Secure encryption\n * Folders &amp; tags\n * Sharing\n * API for apps\n * Extensive handbook\n * Import &amp; Export\n * Browser extensions &amp; Apps\n * ... and many more to come\n\n**Support**\n * [Official Chat](https://t.me/nc_passwords)\n * [Official Forum](https://help.nextcloud.com/c/apps/passwords)\n * [User Handbook](https://git.mdns.eu/nextcloud/passwords/wikis/Users/Index)\n * [Administrator Handbook](https://git.mdns.eu/nextcloud/passwords/wikis/Administrators/Index)\n\n**Apps & Extensions**\n * [Official Firefox Add-On](https://addons.mozilla.org/de/firefox/addon/nextcloud-passwords?src=external-ncapps)\n * [Official Chrome Extension](https://chrome.google.com/webstore/detail/nextcloud-passwords/mhajlicjhgoofheldnmollgbgjheenbi)\n * [Official Microsoft Edge Extension](https://microsoftedge.microsoft.com/addons/detail/cjmlcljdpphgdfpkngjcmeepdpcgpffk)\n * [Android App](https://play.google.com/store/apps/details?id=de.jbservices.nc_passwords_app) by [joleaf](https://gitlab.com/joleaf/nc-passwords-app)\n * [Windows App (WIP)](https://www.microsoft.com/store/apps/9NXVZ0ZP6D5Z) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [Linux App (WIP)](https://gitlab.com/j0chn/nextcloud_password_client/-/tree/main#linux) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [macOS App (WIP)](https://gitlab.com/j0chn/nextcloud_password_client/-/tree/main#mac-os) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [iOS App](https://apps.apple.com/app/id1546212226) by [Johannes Schliephake](https://github.com/johannes-schliephake/nextcloud-passwords-ios)",
     "homepage": "",
     "licenses": [
@@ -2000,9 +2000,9 @@
     ]
   },
   "spreed": {
-    "sha256": "282decb10f6783620ec29ba7904c69288bf5d0a43dfde9ab300e89a50f0b5a83",
-    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v15.0.4/spreed-v15.0.4.tar.gz",
-    "version": "15.0.4",
+    "sha256": "f8ff63ec93f31d7795703b6718bf1915ce427074599f4cb8afd4a7cbdbc629bb",
+    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v15.0.5/spreed-v15.0.5.tar.gz",
+    "version": "15.0.5",
     "description": "Chat, video & audio-conferencing using WebRTC\n\n* 💬 **Chat integration!** Nextcloud Talk comes with a simple text chat. Allowing you to share files from your Nextcloud and mentioning other participants.\n* 👥 **Private, group, public and password protected calls!** Just invite somebody, a whole group or send a public link to invite to a call.\n* 💻 **Screen sharing!** Share your screen with participants of your call. You just need to use Firefox version 66 (or newer), latest Edge or Chrome 72 (or newer, also possible using Chrome 49 with this [Chrome extension](https://chrome.google.com/webstore/detail/screensharing-for-nextclo/kepnpjhambipllfmgmbapncekcmabkol)).\n* 🚀 **Integration with other Nextcloud apps** like Files, Contacts and Deck. More to come.\n\nAnd in the works for the [coming versions](https://github.com/nextcloud/spreed/milestones/):\n* ✋ [Federated calls](https://github.com/nextcloud/spreed/issues/21), to call people on other Nextclouds",
     "homepage": "https://github.com/nextcloud/spreed",
     "licenses": [
@@ -2080,9 +2080,9 @@
     ]
   },
   "theming_customcss": {
-    "sha256": "726737fd857fbc4ae3090bee5b6d53920eaa0916bcf68931602ea62b0d766680",
-    "url": "https://github.com/juliushaertl/theming_customcss/releases/download/v1.12.0/theming_customcss.tar.gz",
-    "version": "1.12.0",
+    "sha256": "36fe378e912ca18024aa5155ab4d1b3ec1648270e2916639ea484f640f25edcf",
+    "url": "https://github.com/juliushaertl/theming_customcss/releases/download/v1.13.0/theming_customcss.tar.gz",
+    "version": "1.13.0",
     "description": "Adjust the Nextcloud theme with custom CSS",
     "homepage": "",
     "licenses": [
@@ -2290,9 +2290,9 @@
     ]
   },
   "user_unix_script": {
-    "sha256": "19a3304616c9d08a4d80344f992d277ec7f156ce735ee2108ebe8c8d3ce403cb",
-    "url": "https://github.com/bcecchinato/user_unix_script/releases/download/v0.5.0/user_unix_script.tar.gz",
-    "version": "0.5.0",
+    "sha256": "7ad1dd2533baffd313d03cbd6ab71b017224f6308a67f7459036006946e0a422",
+    "url": "https://github.com/bcecchinato/user_unix_script/releases/download/v0.6.0/user_unix_script.tar.gz",
+    "version": "0.6.0",
     "description": "This app allows you to do user management against arbitrary UNIX shell commands. You can authenticate, create, delete users, as well as change their\n\t\t\tpassword. The list of users is fetched from /etc/password file and the description of the user is fetched by reading the 'gecos' property of the\n\t\t\tuser. The application also includes pre and post executions if you need to trigger a shell script before or after an action. For instance, after a password\n\t\t\tchange you might need to execute a synchronization.\n\n\t\t\tThe scripts executed can be variables defined as :\n\t\t \t* %u -> The username on which we make an action\n\t\t \t* %p -> The password if provided with the action\n\n\t\t\tBy default, only users with UID >= 1000 are allowed to authenticate. If a command has no shell script defined, it will be automatically deactivated.\n\t\t\tThe configuration and details of the app are available in README.md.",
     "homepage": "",
     "licenses": [
