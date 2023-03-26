@@ -590,9 +590,9 @@
     ]
   },
   "files_antivirus": {
-    "sha256": "8112b3b940556f06b59fb8e547f0afba2cb4980618dc2fe24f88c9ae17ca33a1",
-    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v4.0.2/files_antivirus-v4.0.2.tar.gz",
-    "version": "4.0.2",
+    "sha256": "ab09bb7625fe58dad1890c68c77e655b43869d997d5e6a07c72e9150accb1474",
+    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v4.0.3/files_antivirus-v4.0.3.tar.gz",
+    "version": "4.0.3",
     "description": "Antivirus for files is an antivirus app for Nextcloud.\n\n* 🕵️‍♂️ When the user uploads a file, it's checked\n* ☢️ Uploaded and infected files will be deleted and a notification will be shown and/or sent via email\n* 🔎 Background Job to scan all files\n* ❓ Use ClamAV (open source) or Kaspersky Scan Engine\n\nThis application inspects files that are uploaded to Nextcloud for viruses before they are written to the Nextcloud storage. If a file is identified as a virus, it is either logged or not uploaded to the server. The application relies on the underlying ClamAV virus scanning engine, which the admin points Nextcloud to when configuring the application. Alternatively, a Kaspersky Scan Engine can be configured, which has to run on a separate server.\nFor this app to be effective, the ClamAV virus definitions should be kept up to date. Also note that enabling this app will impact system performance as additional processing is required for every upload. More information is available in the Antivirus documentation.",
     "homepage": "",
     "licenses": [
@@ -1160,9 +1160,9 @@
     ]
   },
   "integration_nuiteq": {
-    "sha256": "c09df083d121adb285d801d8f070e37ceba2b72cb1989e73df76693e23c1c55a",
-    "url": "https://github.com/eneiluj/integration_nuiteq/releases/download/v1.0.3/integration_nuiteq-1.0.3.tar.gz",
-    "version": "1.0.3",
+    "sha256": "a60e5329be5be239fd4a979e51f9970bcbb3ea50eab1b8b4ce89cd5560568c53",
+    "url": "https://github.com/julien-nc/integration_nuiteq/releases/download/v1.0.4/integration_nuiteq-1.0.4.tar.gz",
+    "version": "1.0.4",
     "description": "NUITEQ Stage creates a natural interaction between participants in a Modern Meeting by merging the experience of creating together on a whiteboard and discussing in a video call and chat. Prepare and upload files and presentations, share them with others in the meeting. Designed for collaboration first to engage team members - NUITEQ Stage is safe, easy and efficient to use.\n\nThis app provides a simple interface to list, create and share NUITEQ Stage whiteboards.",
     "homepage": "https://github.com/eneiluj/integration_nuiteq",
     "licenses": [
@@ -1330,9 +1330,9 @@
     ]
   },
   "mail_roundcube": {
-    "sha256": "a9e704eeda501cfeb0fa47fb416be4203821ae8f6f31fea5c5b77f39d190d552",
-    "url": "https://github.com/rotdrop/nextcloud-roundcube/releases/download/v1.0.2-rc1/mail_roundcube.tar.gz",
-    "version": "1.0.2-rc1",
+    "sha256": "bdbc90e7ec8c3d091eb99efa75f2fce7f5ce8d1c74a320780a3c3ac98bcafee9",
+    "url": "https://github.com/rotdrop/nextcloud-roundcube/releases/download/v1.0.2/mail_roundcube.tar.gz",
+    "version": "1.0.2",
     "description": "Integrates an existing RoundCube standalone email-webapp into NextCloud, with optional SSO.",
     "homepage": "https://github.com/rotdrop/nextcloud-roundcube/",
     "licenses": [
@@ -1373,7 +1373,7 @@
     "sha256": "68745cc0253ad0d936eebc7c23eee461b43a6074f7b61bb8f1c473a49e2d3dc5",
     "url": "https://github.com/pulsejet/memories/releases/download/v3.11.3/memories.tar.gz",
     "version": "3.11.3",
-    "description": "# Memories: Photo Management for Nextcloud\n\nMemories is a *batteries-included* photo management solution for Nextcloud with advanced features including:\n\n- **📸 Timeline**: Sort photos and videos by date taken, parsed from Exif data.\n- **⏪ Rewind**: Jump to any time in the past instantly and relive your memories.\n- **🤖 AI Tagging**: Group photos by people and objects, powered by [recognize](https://github.com/nextcloud/recognize) and [facerecognition](https://github.com/matiasdelellis/facerecognition).\n- **🖼️ Albums**: Create albums to group photos and videos together. Then share these albums with others.\n- **🫱🏻‍🫲🏻 External Sharing**: Share photos and videos with people outside of your Nextcloud instance.\n- **📱 Mobile Support**: Works on devices of any shape and size through the web app.\n- **✏️ Edit Metadata**: Edit dates and other metadata on photos quickly and in bulk.\n- **📦 Archive**: Store photos you don't want to see in your timeline in a separate folder.\n- **📹 Video Transcoding**: Memories transcodes videos and uses HLS for maximal performance.\n- **🗺️ Map**: View your photos on a map, tagged with accurate reverse geocoding.\n- **📦 Migration**: Supports easy migration from Nextcloud Photos and Google Takeout.\n- **⚡️ Performance**: Memories is very fast.\n\n## 🚀 Installation\n\n1. Install the app from the Nextcloud app store (try a demo [here](https://memories-demo.radialapps.com/apps/memories/)).\n1. Perform the recommended [configuration steps](https://github.com/pulsejet/memories/wiki/Configuration).\n1. Run `php occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos.",
+    "description": "# Memories: Photo Management for Nextcloud\n\nMemories is a *batteries-included* photo management solution for Nextcloud with advanced features including:\n\n- **📸 Timeline**: Sort photos and videos by date taken, parsed from Exif data.\n- **⏪ Rewind**: Jump to any time in the past instantly and relive your memories.\n- **🤖 AI Tagging**: Group photos by people and objects, powered by [recognize](https://github.com/nextcloud/recognize) and [facerecognition](https://github.com/matiasdelellis/facerecognition).\n- **🖼️ Albums**: Create albums to group photos and videos together. Then share these albums with others.\n- **🫱🏻‍🫲🏻 External Sharing**: Share photos and videos with people outside of your Nextcloud instance.\n- **📱 Mobile Support**: Work from any device, of any shape and size through the web app.\n- **✏️ Edit Metadata**: Edit dates and other metadata on photos quickly and in bulk.\n- **📦 Archive**: Store photos you don't want to see in your timeline in a separate folder.\n- **📹 Video Transcoding**: Transcode videos and use HLS for maximal performance.\n- **🗺️ Map**: View your photos on a map, tagged with accurate reverse geocoding.\n- **📦 Migration**: Migrate easily from Nextcloud Photos and Google Takeout.\n- **⚡️ Performance**: Do all this very fast.\n\n## 🚀 Installation\n\n1. Install the app from the Nextcloud app store (try a demo [here](https://memories-demo.radialapps.com/apps/memories/)).\n1. Perform the recommended [configuration steps](https://github.com/pulsejet/memories/wiki/Configuration).\n1. Run `php occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos.",
     "homepage": "https://github.com/pulsejet/memories",
     "licenses": [
       "agpl"
@@ -1440,9 +1440,9 @@
     ]
   },
   "news": {
-    "sha256": "a023b20e91fd9d9e83fd0616de71a7c44b64c44d683c8001454dd705a0fe04be",
-    "url": "https://github.com/nextcloud/news/releases/download/21.1.0/news.tar.gz",
-    "version": "21.1.0",
+    "sha256": "696935efb8c91e77bfbbd7cd6c250ee81fd017f8469920e9ee7b9cf7ecd52f29",
+    "url": "https://github.com/nextcloud/news/releases/download/21.2.0-beta1/news.tar.gz",
+    "version": "21.2.0-beta1",
     "description": "📰 A RSS/Atom Feed reader App for Nextcloud\n\n- 📲 Synchronize your feeds with multiple mobile or desktop [clients](https://nextcloud.github.io/news/clients/)\n- 🔄 Automatic updates of your news feeds\n- 🆓 Free and open source under AGPLv3, no ads or premium functions\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://nextcloud.github.io/news/install/#dependencies)\n\nThe Changelog is available [here](https://github.com/nextcloud/news/blob/master/CHANGELOG.md)\n\nCreate a [bug report](https://github.com/nextcloud/news/issues/new/choose)\n\nCreate a [feature request](https://github.com/nextcloud/news/discussions/new)\n\nReport a [feed issue](https://github.com/nextcloud/news/discussions/new)",
     "homepage": "https://github.com/nextcloud/news",
     "licenses": [
@@ -1510,9 +1510,9 @@
     ]
   },
   "oidc": {
-    "sha256": "8ac47738d89815db93b2457881b01f279e1f53f306dacfd4a618744005b1536d",
-    "url": "https://github.com/H2CK/oidc/releases/download/0.4.4/oidc-0.4.4.tar.gz",
-    "version": "0.4.4",
+    "sha256": "de7aea5823038d12320f6e01a4e4052f0fef89bb4c75243ce54305bfa705082c",
+    "url": "https://github.com/H2CK/oidc/releases/download/0.4.6/oidc-0.4.6.tar.gz",
+    "version": "0.4.6",
     "description": "Nextcloud as OpenID Connect Identity Provider\n\nWith this app you can use Nextcloud as OpenID Connect Identity Provider. If other services\nare configured correctly, you are able to access those services with your Nextcloud login.\n\nFull documentation can be found at:\n\n- [User Documentation](https://github.com/H2CK/oidc/wiki#user-documentation)\n- [Developer Documentation](https://github.com/H2CK/oidc/wiki#developer-documentation)",
     "homepage": "https://github.com/H2CK/oidc",
     "licenses": [
@@ -2120,9 +2120,9 @@
     ]
   },
   "spreed": {
-    "sha256": "a5665f28595c3fbc67357d8759c5c9d755dea255105d997f01d9b2958dca0dd2",
-    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v14.0.9/spreed-v14.0.9.tar.gz",
-    "version": "14.0.9",
+    "sha256": "0402af5b6dbc7335dd60115f95947ada7e6e240719546e0ce8740951a2469765",
+    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v14.0.10/spreed-v14.0.10.tar.gz",
+    "version": "14.0.10",
     "description": "Chat, video & audio-conferencing using WebRTC\n\n* 💬 **Chat integration!** Nextcloud Talk comes with a simple text chat. Allowing you to share files from your Nextcloud and mentioning other participants.\n* 👥 **Private, group, public and password protected calls!** Just invite somebody, a whole group or send a public link to invite to a call.\n* 💻 **Screen sharing!** Share your screen with participants of your call. You just need to use Firefox version 66 (or newer), latest Edge or Chrome 72 (or newer, also possible using Chrome 49 with this [Chrome extension](https://chrome.google.com/webstore/detail/screensharing-for-nextclo/kepnpjhambipllfmgmbapncekcmabkol)).\n* 🚀 **Integration with other Nextcloud apps** like Files, Contacts and Deck. More to come.\n\nAnd in the works for the [coming versions](https://github.com/nextcloud/spreed/milestones/):\n* ✋ [Federated calls](https://github.com/nextcloud/spreed/issues/21), to call people on other Nextclouds",
     "homepage": "https://github.com/nextcloud/spreed",
     "licenses": [
@@ -2160,9 +2160,9 @@
     ]
   },
   "talk_matterbridge": {
-    "sha256": "5db44247be503d45021f07600e06ba457593aad86d75c4041fe0d90ded501373",
-    "url": "https://github.com/nextcloud/talk_matterbridge/releases/download/v1.26.0-0/talk_matterbridge.tar.gz",
-    "version": "1.26.0-0",
+    "sha256": "803e657cb5818d63a2cb650b7f7d6781054841b3198f78b0bb7cee56b1034a4b",
+    "url": "https://github.com/nextcloud/talk_matterbridge/releases/download/v1.26.0/talk_matterbridge.tar.gz",
+    "version": "1.26.0",
     "description": "This app brings the Matterbridge binary to your server to connect Nextcloud Talk with other chat services.\nThis allows admins to easily install and keep updated the Matterbridge binaries through a familiar interface.\n\nBinary is licensed under Apache-2.0 License.",
     "homepage": "https://github.com/nextcloud/talk_matterbridge",
     "licenses": [
@@ -2200,9 +2200,9 @@
     ]
   },
   "theming_customcss": {
-    "sha256": "726737fd857fbc4ae3090bee5b6d53920eaa0916bcf68931602ea62b0d766680",
-    "url": "https://github.com/juliushaertl/theming_customcss/releases/download/v1.12.0/theming_customcss.tar.gz",
-    "version": "1.12.0",
+    "sha256": "36fe378e912ca18024aa5155ab4d1b3ec1648270e2916639ea484f640f25edcf",
+    "url": "https://github.com/juliushaertl/theming_customcss/releases/download/v1.13.0/theming_customcss.tar.gz",
+    "version": "1.13.0",
     "description": "Adjust the Nextcloud theme with custom CSS",
     "homepage": "",
     "licenses": [
@@ -2440,9 +2440,9 @@
     ]
   },
   "user_unix_script": {
-    "sha256": "19a3304616c9d08a4d80344f992d277ec7f156ce735ee2108ebe8c8d3ce403cb",
-    "url": "https://github.com/bcecchinato/user_unix_script/releases/download/v0.5.0/user_unix_script.tar.gz",
-    "version": "0.5.0",
+    "sha256": "7ad1dd2533baffd313d03cbd6ab71b017224f6308a67f7459036006946e0a422",
+    "url": "https://github.com/bcecchinato/user_unix_script/releases/download/v0.6.0/user_unix_script.tar.gz",
+    "version": "0.6.0",
     "description": "This app allows you to do user management against arbitrary UNIX shell commands. You can authenticate, create, delete users, as well as change their\n\t\t\tpassword. The list of users is fetched from /etc/password file and the description of the user is fetched by reading the 'gecos' property of the\n\t\t\tuser. The application also includes pre and post executions if you need to trigger a shell script before or after an action. For instance, after a password\n\t\t\tchange you might need to execute a synchronization.\n\n\t\t\tThe scripts executed can be variables defined as :\n\t\t \t* %u -> The username on which we make an action\n\t\t \t* %p -> The password if provided with the action\n\n\t\t\tBy default, only users with UID >= 1000 are allowed to authenticate. If a command has no shell script defined, it will be automatically deactivated.\n\t\t\tThe configuration and details of the app are available in README.md.",
     "homepage": "",
     "licenses": [
