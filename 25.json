@@ -840,8 +840,8 @@
     ]
   },
   "gpxpod": {
-    "sha256": "722c794cb30b992d8c698bb7e725af6494e4dc308bdc8baf34b53f1f89fed303",
-    "url": "https://github.com/julien-nc/gpxpod/releases/download/v5.0.6/gpxpod-5.0.6.tar.gz",
+    "sha256": "ce74f47cd07df26f162cb113317e9724cb2aefc28c4f443a90ae42f58333a08e",
+    "url": "https://github.com/julien-nc/gpxpod/releases/download/v5.0.6-1-nightly/gpxpod-5.0.6-1-nightly.tar.gz",
     "version": "5.0.6",
     "description": "# GpxPod Nextcloud application\n\nDisplay, analyse, compare and share GPS track files.\n\n🌍 Help us to translate this app on [GpxPod Crowdin project](https://crowdin.com/project/gpxpod).\n\nGpxPod :\n\n* 🗺 can display gpx/kml/tcx/igc/fit files anywhere in your files, files shared with you, files in folders shared with you. fit files will be converted and displayed only if **GpsBabel** is found on the server system\n* 📏 supports metric, english and nautical measure systems\n* 🗠 draws elevation, speed or pace interactive chart\n* 🗠 can color track lines by speed, elevation or pace\n* 🗠 show track statistics\n* ⛛ filter tracks by date, total distance...\n* 🖻 displays geotagged pictures found in selected directory\n* 🖧 generates public links pointing to a track/folder. This link can be used if the file/folder is shared by public link\n* 🗁 allows you to move selected track files\n* 🗠 can correct tracks elevations if SRTM.py (gpxelevations) is found on the server's system\n* ⚖ can make global comparison of multiple tracks\n* ⚖ can make visual pair comparison of divergent parts of similar tracks\n* 🀆 allows users to add personal map tile servers\n* ⚙ saves/restores user options values\n* 🖍 allows user to manually set track line colors\n* 🕑 detects browser timezone\n* 🗬 loads extra marker symbols from GpxEdit if installed\n* 🔒 works with encrypted data folder (server side encryption)\n* 🍂 proudly uses Leaflet with lots of plugins to display the map\n* 🖴 is compatible with SQLite, MySQL and PostgreSQL databases\n* 🗁 adds possibility to view .gpx files directly from the \"Files\" app\n\nThis app is tested on Nextcloud 15 with Firefox 57+ and Chromium.\n\nThis app is under (slow) development.\n\nLink to Nextcloud application website : https://apps.nextcloud.com/apps/gpxpod\n\n## Install\n\nSee the [AdminDoc](https://gitlab.com/eneiluj/gpxpod-oc/wikis/admindoc) for installation details\n\n## Known issues\n\n* bad management of file names including simple or double quotes\n* *WARNING*, kml conversion will NOT work with recent kml files using the proprietary \"gx:track\" extension tag.\n\nAny feedback will be appreciated.\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://github.com/julien-nc/gpxpod",
@@ -900,9 +900,9 @@
     ]
   },
   "guests": {
-    "sha256": "edc8eb231bca8f505d5bf1e726c34b7621277c8cae4aa6a7ec7344e786991d1d",
-    "url": "https://github.com/nextcloud-releases/guests/releases/download/v2.3.0/guests-v2.3.0.tar.gz",
-    "version": "2.3.0",
+    "sha256": "f285378d4124835cd0d9a3cf2dbd1fd3d458c48d164cda6bd08ac5eb50fb074e",
+    "url": "https://github.com/nextcloud-releases/guests/releases/download/v2.4.0/guests-v2.4.0.tar.gz",
+    "version": "2.4.0",
     "description": "👥 Allows for better collaboration with external users by allowing users to create guests account.\n\nGuests accounts can be created from the share menu by entering either the recipients email or name and choosing \"create guest account\", once the share is created the guest user will receive an email notification about the mail with a link to set their password.\n\nGuests users can only access files shared to them and cannot create any files outside of shares, additionally, the apps accessible to guest accounts are whitelisted.",
     "homepage": "",
     "licenses": [
@@ -1330,9 +1330,9 @@
     ]
   },
   "metadata": {
-    "sha256": "4f7d2a72da661935cbdf133019de5618f26e3e23417f6daabd08a2b5b4bb4538",
-    "url": "https://github.com/gino0631/nextcloud-metadata/releases/download/v0.17.0/metadata.tar.gz",
-    "version": "0.17.0",
+    "sha256": "543b9e0c33def5bae1835b16f5f60738f76452ff25634acf4b2acae8394ac48f",
+    "url": "https://github.com/gino0631/nextcloud-metadata/releases/download/v0.18.0/metadata.tar.gz",
+    "version": "0.18.0",
     "description": "A plugin which displays file metadata in the file details sidebar.\n\nSee the [README](https://github.com/gino0631/nextcloud-metadata/blob/master/README.md) for the supported file types and limitations.",
     "homepage": "https://github.com/gino0631/nextcloud-metadata",
     "licenses": [
@@ -1390,9 +1390,9 @@
     ]
   },
   "nextpod": {
-    "sha256": "c4bf4eb774f096741e58fe388674a1bf62a1507edbc967b23d28b398f0b3b996",
-    "url": "https://github.com/pbek/nextcloud-nextpod/releases/download/v0.6.0/nextpod-nc.tar.gz",
-    "version": "0.6.0",
+    "sha256": "ffc2f67b32b13d15c261e06fca1e076c0eb07fa3ff55aec71e691a5eddbea74b",
+    "url": "https://github.com/pbek/nextcloud-nextpod/releases/download/v0.6.1/nextpod-nc.tar.gz",
+    "version": "0.6.1",
     "description": "This Nextcloud app lets you visualize your podcast subscriptions and episode downloads from\n[GPodderSync](https://apps.nextcloud.com/apps/gpoddersync), which acts as a basic gpodder.net\napi to sync podcast consumer apps (podcatchers) like AntennaPod.\n\nYou need to have [GPodderSync](https://apps.nextcloud.com/apps/gpoddersync) installed to use this app!",
     "homepage": "https://github.com/pbek/nextcloud-nextpod",
     "licenses": [
@@ -1410,9 +1410,9 @@
     ]
   },
   "notify_push": {
-    "sha256": "566782f99b3e3ee3e11876823dffbaefafd2531caa34374e1671639f24527c43",
-    "url": "https://github.com/nextcloud-releases/notify_push/releases/download/v0.6.1/notify_push-v0.6.1.tar.gz",
-    "version": "0.6.0",
+    "sha256": "0d1aa75f831376832e64151f203103519b5772e0d173bfc2b6beebb2189b13ab",
+    "url": "https://github.com/nextcloud-releases/notify_push/releases/download/v0.6.2/notify_push-v0.6.2.tar.gz",
+    "version": "0.6.2",
     "description": "Push update support for desktop app.\n\nOnce the app is installed, the push binary needs to be setup. You can either use the setup wizard with `occ notify_push:setup` or see the [README](http://github.com/nextcloud/notify_push) for detailed setup instructions",
     "homepage": "",
     "licenses": [
@@ -1610,9 +1610,9 @@
     ]
   },
   "polls": {
-    "sha256": "f648925fae3d1ef287467a33746982348ee230a6235636c0137d329cb3a0e9de",
-    "url": "https://github.com/nextcloud/polls/releases/download/v5.0.0-beta5/polls.tar.gz",
-    "version": "5.0.0-beta5",
+    "sha256": "642e1be29fa938ce6033e347f8439a65708a1c34916676b4b3035359badb5d00",
+    "url": "https://github.com/nextcloud/polls/releases/download/v5.0.0-rc1/polls.tar.gz",
+    "version": "5.0.0-rc1",
     "description": "A polls app, similar to Doodle/Dudle with the possibility to restrict access (members, certain groups/users, hidden and public).",
     "homepage": "https://github.com/nextcloud/polls",
     "licenses": [
