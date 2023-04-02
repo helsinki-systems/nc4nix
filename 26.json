@@ -510,8 +510,8 @@
     ]
   },
   "gpxpod": {
-    "sha256": "ce74f47cd07df26f162cb113317e9724cb2aefc28c4f443a90ae42f58333a08e",
-    "url": "https://github.com/julien-nc/gpxpod/releases/download/v5.0.6-1-nightly/gpxpod-5.0.6-1-nightly.tar.gz",
+    "sha256": "722c794cb30b992d8c698bb7e725af6494e4dc308bdc8baf34b53f1f89fed303",
+    "url": "https://github.com/julien-nc/gpxpod/releases/download/v5.0.6/gpxpod-5.0.6.tar.gz",
     "version": "5.0.6",
     "description": "# GpxPod Nextcloud application\n\nDisplay, analyse, compare and share GPS track files.\n\n🌍 Help us to translate this app on [GpxPod Crowdin project](https://crowdin.com/project/gpxpod).\n\nGpxPod :\n\n* 🗺 can display gpx/kml/tcx/igc/fit files anywhere in your files, files shared with you, files in folders shared with you. fit files will be converted and displayed only if **GpsBabel** is found on the server system\n* 📏 supports metric, english and nautical measure systems\n* 🗠 draws elevation, speed or pace interactive chart\n* 🗠 can color track lines by speed, elevation or pace\n* 🗠 show track statistics\n* ⛛ filter tracks by date, total distance...\n* 🖻 displays geotagged pictures found in selected directory\n* 🖧 generates public links pointing to a track/folder. This link can be used if the file/folder is shared by public link\n* 🗁 allows you to move selected track files\n* 🗠 can correct tracks elevations if SRTM.py (gpxelevations) is found on the server's system\n* ⚖ can make global comparison of multiple tracks\n* ⚖ can make visual pair comparison of divergent parts of similar tracks\n* 🀆 allows users to add personal map tile servers\n* ⚙ saves/restores user options values\n* 🖍 allows user to manually set track line colors\n* 🕑 detects browser timezone\n* 🗬 loads extra marker symbols from GpxEdit if installed\n* 🔒 works with encrypted data folder (server side encryption)\n* 🍂 proudly uses Leaflet with lots of plugins to display the map\n* 🖴 is compatible with SQLite, MySQL and PostgreSQL databases\n* 🗁 adds possibility to view .gpx files directly from the \"Files\" app\n\nThis app is tested on Nextcloud 15 with Firefox 57+ and Chromium.\n\nThis app is under (slow) development.\n\nLink to Nextcloud application website : https://apps.nextcloud.com/apps/gpxpod\n\n## Install\n\nSee the [AdminDoc](https://gitlab.com/eneiluj/gpxpod-oc/wikis/admindoc) for installation details\n\n## Known issues\n\n* bad management of file names including simple or double quotes\n* *WARNING*, kml conversion will NOT work with recent kml files using the proprietary \"gx:track\" extension tag.\n\nAny feedback will be appreciated.\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://github.com/julien-nc/gpxpod",
@@ -880,9 +880,9 @@
     ]
   },
   "libresign": {
-    "sha256": "0442564d5477fb9964292c21977a86efde6319ce6cf5c434dd4b040017088b74",
-    "url": "https://github.com/LibreSign/libresign/releases/download/v7.0.0/libresign-v7.0.0.tar.gz",
-    "version": "7.0.0",
+    "sha256": "b5e0eb5b783e708b07ddd3a783dac5434452799d072d1786bab1e2a6d4c4c2d8",
+    "url": "https://github.com/LibreSign/libresign/releases/download/v7.0.1/libresign-v7.0.1.tar.gz",
+    "version": "7.1.0",
     "description": "**This is a libre digital PDF signature app for Nextcloud**\n\n* ✍️ Sign PDF documents using digital signature",
     "homepage": "https://github.com/LibreSign/libresign",
     "licenses": [
@@ -920,9 +920,9 @@
     ]
   },
   "memories": {
-    "sha256": "f1e2db7612349eef239ea0ec969e379d6321c38da010e70f25f55e084dd62fe7",
-    "url": "https://github.com/pulsejet/memories/releases/download/v4.13.0-alpha.1/memories.tar.gz",
-    "version": "4.13.0-alpha.1",
+    "sha256": "46de81ab5dd90cc77b7cd0a1bddfa061ba32cb7fe3b02d70414f04ef0ed95f32",
+    "url": "https://github.com/pulsejet/memories/releases/download/v4.13.0-alpha.2/memories.tar.gz",
+    "version": "4.13.0-alpha.2",
     "description": "# Memories: Photo Management for Nextcloud\n\nMemories is a *batteries-included* photo management solution for Nextcloud with advanced features including:\n\n- **📸 Timeline**: Sort photos and videos by date taken, parsed from Exif data.\n- **⏪ Rewind**: Jump to any time in the past instantly and relive your memories.\n- **🤖 AI Tagging**: Group photos by people and objects, powered by [recognize](https://github.com/nextcloud/recognize) and [facerecognition](https://github.com/matiasdelellis/facerecognition).\n- **🖼️ Albums**: Create albums to group photos and videos together. Then share these albums with others.\n- **🫱🏻‍🫲🏻 External Sharing**: Share photos and videos with people outside of your Nextcloud instance.\n- **📱 Mobile Support**: Work from any device, of any shape and size through the web app.\n- **✏️ Edit Metadata**: Edit dates and other metadata on photos quickly and in bulk.\n- **📦 Archive**: Store photos you don't want to see in your timeline in a separate folder.\n- **📹 Video Transcoding**: Transcode videos and use HLS for maximal performance.\n- **🗺️ Map**: View your photos on a map, tagged with accurate reverse geocoding.\n- **📦 Migration**: Migrate easily from Nextcloud Photos and Google Takeout.\n- **⚡️ Performance**: Do all this very fast.\n\n## 🚀 Installation\n\n1. Install the app from the Nextcloud app store (try a demo [here](https://memories-demo.radialapps.com/apps/memories/)).\n1. Perform the recommended [configuration steps](https://github.com/pulsejet/memories/wiki/Configuration).\n1. Run `php occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos.",
     "homepage": "https://github.com/pulsejet/memories",
     "licenses": [
@@ -955,6 +955,16 @@
     "version": "0.0.1",
     "description": "A plugin to restrict access to files with mfazone tag\n\nSee the [README](https://github.com/pondersource/mfazones/blob/main/README.md) for usage.",
     "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "music": {
+    "sha256": "f4879d92ed5feb516eaea824f6f47722240098ab46b8e2f969dc0b289588f798",
+    "url": "https://github.com/owncloud/music/releases/download/v1.8.2/music_1.8.2_for_nextcloud.tar.gz",
+    "version": "1.8.2",
+    "description": "A stand-alone music player app and a \"lite\" player for the Files app\n\n- On modern browsers, supports audio types .mp3, .ogg, .m4a, .m4b, .flac, .wav, and more\n- Playlist support with import from m3u, m3u8, and pls files\n- Browse by artists, albums, genres, or folders\n- Gapless play\n- Filter the shown content with the search function\n- Play internet radio and podcast channels\n- Setup Last.fm connection to see background information on artists, albums, and songs\n- Control with media control keys on the keyboard or OS\n- The app can handle libraries consisting of thousands of albums and tens of thousands of songs\n- Includes a server backend compatible with the Subsonic and Ampache protocols, allowing playback and browsing of your library on various external apps e.g. on Android or iPhone",
+    "homepage": "https://github.com/owncloud/music",
     "licenses": [
       "agpl"
     ]
@@ -1050,9 +1060,9 @@
     ]
   },
   "passwords": {
-    "sha256": "3a6ab7bdf78ceff99e46f6f365b0c6dda69f910ea95dc4ccc5f05bc2aa3d3e08",
-    "url": "https://git.mdns.eu/nextcloud/passwords/-/jobs/15974/artifacts/raw/passwords.tar.gz",
-    "version": "2023.4.30-build4922",
+    "sha256": "523707e639f7c253ca67835373e58660bce2e3d83424270c4b1d595861f242ab",
+    "url": "https://git.mdns.eu/nextcloud/passwords/-/jobs/15991/artifacts/raw/passwords.tar.gz",
+    "version": "2023.4.30",
     "description": "Passwords is the most advanced password manager for Nextcloud and allows you to manage and store your passwords safely in your own cloud.\nThe intuitive and modern web interface of the app makes it easy to update and add new passwords from anywhere.\nIncluded security checks help you to keep your online accounts safe and up-to-date.\nYou can also share passwords with other Nextcloud users.\n\n**Features**\n * Intuitive and modern user interface\n * Password security monitor\n * Secure encryption\n * Folders &amp; tags\n * Sharing\n * API for apps\n * Extensive handbook\n * Import &amp; Export\n * Browser extensions &amp; Apps\n * ... and many more to come\n\n**Support**\n * [Official Chat](https://t.me/nc_passwords)\n * [Official Forum](https://help.nextcloud.com/c/apps/passwords)\n * [User Handbook](https://git.mdns.eu/nextcloud/passwords/wikis/Users/Index)\n * [Administrator Handbook](https://git.mdns.eu/nextcloud/passwords/wikis/Administrators/Index)\n\n**Apps & Extensions**\n * [Official Firefox Add-On](https://addons.mozilla.org/de/firefox/addon/nextcloud-passwords?src=external-ncapps)\n * [Official Chrome Extension](https://chrome.google.com/webstore/detail/nextcloud-passwords/mhajlicjhgoofheldnmollgbgjheenbi)\n * [Official Microsoft Edge Extension](https://microsoftedge.microsoft.com/addons/detail/cjmlcljdpphgdfpkngjcmeepdpcgpffk)\n * [Android App](https://play.google.com/store/apps/details?id=de.jbservices.nc_passwords_app) by [joleaf](https://gitlab.com/joleaf/nc-passwords-app)\n * [Windows App (WIP)](https://www.microsoft.com/store/apps/9NXVZ0ZP6D5Z) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [Linux App (WIP)](https://gitlab.com/j0chn/nextcloud_password_client/-/tree/main#linux) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [macOS App (WIP)](https://gitlab.com/j0chn/nextcloud_password_client/-/tree/main#mac-os) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [iOS App](https://apps.apple.com/app/id1546212226) by [Johannes Schliephake](https://github.com/johannes-schliephake/nextcloud-passwords-ios)",
     "homepage": "",
     "licenses": [
@@ -1060,9 +1070,9 @@
     ]
   },
   "passwords_handbook": {
-    "sha256": "c14bd84b3cd30d31deaef18135a5f9ef5b9de458758293291a9e76f42dcb2ba1",
-    "url": "https://git.mdns.eu/nextcloud/passwords-handbook/-/jobs/15912/artifacts/raw/passwords_handbook.tar.gz",
-    "version": "2023.3.21",
+    "sha256": "bb3ce81d53647fa78cc7dba806cc93ca9ec4fe29b81255c6e72fde0003859cdd",
+    "url": "https://git.mdns.eu/nextcloud/passwords-handbook/-/jobs/16001/artifacts/raw/passwords_handbook.tar.gz",
+    "version": "2023.4.20",
     "description": "With this app you can host the in app user handbook for the Passwords app for Nextcloud on your own Nextcloud instance instead of using the sources on Github or a custom server.\nThis improves user privacy and enables using the handbook in networks where Github may not be available.",
     "homepage": "",
     "licenses": [
