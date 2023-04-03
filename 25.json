@@ -200,11 +200,21 @@
     ]
   },
   "checksum": {
-    "sha256": "1c8a296f9eab907bb5de0d6cf663bca2c0772b623c0edeb5f104942b2d0807dd",
-    "url": "https://github.com/westberliner/checksum/releases/download/v1.2.0/checksum.tar.gz",
-    "version": "1.2.0",
+    "sha256": "4e15303cdf236c297697ba102abc96f5753f940106097750e5de068a68e1baa9",
+    "url": "https://github.com/westberliner/checksum/releases/download/v1.2.1/checksum.tar.gz",
+    "version": "1.2.1",
     "description": "Allows users to create a hash checksum of a file.\n        Possible algorithms are md5, sha1, sha256, sha384, sha512, sha3-256, sha3-512 and crc32.\n\n        Just open the details view of the file (Sidebar). There should be a new tab called \"Checksum\".\n        Select a algorithm and it will try to generate a hash.\n        If you want an other algorithm, just click on the reload button.",
     "homepage": "https://github.com/westberliner/checksum/",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "chores": {
+    "sha256": "c1fde3f0cab3687f8a7b9bdec4cf7f41f37929a83e78d500903969b54e9529fa",
+    "url": "https://neo.sinyax.net/cdn/chores_0.0.3.tar.gz",
+    "version": "0.0.3",
+    "description": "Track chores and receive points for doing them!\n\nCreate a team and invite other Nextcloud users from the same server, the total\npoints for each member are tracked.\n\nChores can be set to automatically repeat based on a schedule.",
+    "homepage": "https://sr.ht/~cypheon/nextcloud-chores/",
     "licenses": [
       "agpl"
     ]
@@ -840,9 +850,9 @@
     ]
   },
   "gpxpod": {
-    "sha256": "722c794cb30b992d8c698bb7e725af6494e4dc308bdc8baf34b53f1f89fed303",
-    "url": "https://github.com/julien-nc/gpxpod/releases/download/v5.0.6/gpxpod-5.0.6.tar.gz",
-    "version": "5.0.6",
+    "sha256": "64f4e353f550310e39a8ceb3890ccab16853c937c59c52f8105cf6bc863d01ff",
+    "url": "https://github.com/julien-nc/gpxpod/releases/download/v5.0.7-2-nightly/gpxpod-5.0.7-2-nightly.tar.gz",
+    "version": "5.0.7",
     "description": "# GpxPod Nextcloud application\n\nDisplay, analyse, compare and share GPS track files.\n\n🌍 Help us to translate this app on [GpxPod Crowdin project](https://crowdin.com/project/gpxpod).\n\nGpxPod :\n\n* 🗺 can display gpx/kml/tcx/igc/fit files anywhere in your files, files shared with you, files in folders shared with you. fit files will be converted and displayed only if **GpsBabel** is found on the server system\n* 📏 supports metric, english and nautical measure systems\n* 🗠 draws elevation, speed or pace interactive chart\n* 🗠 can color track lines by speed, elevation or pace\n* 🗠 show track statistics\n* ⛛ filter tracks by date, total distance...\n* 🖻 displays geotagged pictures found in selected directory\n* 🖧 generates public links pointing to a track/folder. This link can be used if the file/folder is shared by public link\n* 🗁 allows you to move selected track files\n* 🗠 can correct tracks elevations if SRTM.py (gpxelevations) is found on the server's system\n* ⚖ can make global comparison of multiple tracks\n* ⚖ can make visual pair comparison of divergent parts of similar tracks\n* 🀆 allows users to add personal map tile servers\n* ⚙ saves/restores user options values\n* 🖍 allows user to manually set track line colors\n* 🕑 detects browser timezone\n* 🗬 loads extra marker symbols from GpxEdit if installed\n* 🔒 works with encrypted data folder (server side encryption)\n* 🍂 proudly uses Leaflet with lots of plugins to display the map\n* 🖴 is compatible with SQLite, MySQL and PostgreSQL databases\n* 🗁 adds possibility to view .gpx files directly from the \"Files\" app\n\nThis app is tested on Nextcloud 15 with Firefox 57+ and Chromium.\n\nThis app is under (slow) development.\n\nLink to Nextcloud application website : https://apps.nextcloud.com/apps/gpxpod\n\n## Install\n\nSee the [AdminDoc](https://gitlab.com/eneiluj/gpxpod-oc/wikis/admindoc) for installation details\n\n## Known issues\n\n* bad management of file names including simple or double quotes\n* *WARNING*, kml conversion will NOT work with recent kml files using the proprietary \"gx:track\" extension tag.\n\nAny feedback will be appreciated.\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://github.com/julien-nc/gpxpod",
     "licenses": [
@@ -1310,9 +1320,9 @@
     ]
   },
   "memories": {
-    "sha256": "46de81ab5dd90cc77b7cd0a1bddfa061ba32cb7fe3b02d70414f04ef0ed95f32",
-    "url": "https://github.com/pulsejet/memories/releases/download/v4.13.0-alpha.2/memories.tar.gz",
-    "version": "4.13.0-alpha.2",
+    "sha256": "294d1176a94dca4e8395045de126fcef89f785034c6643c451d9e58267ff59fb",
+    "url": "https://github.com/pulsejet/memories/releases/download/v4.13.0-alpha.3/memories.tar.gz",
+    "version": "4.13.0-alpha.3",
     "description": "# Memories: Photo Management for Nextcloud\n\nMemories is a *batteries-included* photo management solution for Nextcloud with advanced features including:\n\n- **📸 Timeline**: Sort photos and videos by date taken, parsed from Exif data.\n- **⏪ Rewind**: Jump to any time in the past instantly and relive your memories.\n- **🤖 AI Tagging**: Group photos by people and objects, powered by [recognize](https://github.com/nextcloud/recognize) and [facerecognition](https://github.com/matiasdelellis/facerecognition).\n- **🖼️ Albums**: Create albums to group photos and videos together. Then share these albums with others.\n- **🫱🏻‍🫲🏻 External Sharing**: Share photos and videos with people outside of your Nextcloud instance.\n- **📱 Mobile Support**: Work from any device, of any shape and size through the web app.\n- **✏️ Edit Metadata**: Edit dates and other metadata on photos quickly and in bulk.\n- **📦 Archive**: Store photos you don't want to see in your timeline in a separate folder.\n- **📹 Video Transcoding**: Transcode videos and use HLS for maximal performance.\n- **🗺️ Map**: View your photos on a map, tagged with accurate reverse geocoding.\n- **📦 Migration**: Migrate easily from Nextcloud Photos and Google Takeout.\n- **⚡️ Performance**: Do all this very fast.\n\n## 🚀 Installation\n\n1. Install the app from the Nextcloud app store (try a demo [here](https://memories-demo.radialapps.com/apps/memories/)).\n1. Perform the recommended [configuration steps](https://github.com/pulsejet/memories/wiki/Configuration).\n1. Run `php occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos.",
     "homepage": "https://github.com/pulsejet/memories",
     "licenses": [
