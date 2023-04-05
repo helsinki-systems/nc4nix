@@ -470,10 +470,10 @@
     ]
   },
   "electronicsignatures": {
-    "sha256": "6c54bbf1f02c126ec18bc8e984d66979127abbb53ac56899287c4e801af8d70c",
-    "url": "https://github.com/eideasy/nextcloud-electronic-signatures-plugin/releases/download/v2.0.3/v2.0.3.tar.gz",
-    "version": "2.0.3",
-    "description": "# Features\n- 🔒🔒 Accept Qualified Electronic Signatures (QES - strongest legal value) in PDF or ASICE formats\n- 🔒 Accept Simple Electronic Signatures (email based signature - simple to sign)\n\nCurrently, this app enables the user to gather a single signature onto an existing file:\n1. Pick a file which you want signed by another person\n2. Select \"Signing\" in the file's dropdown menu\n3. Enter the signer's email address\n4. The signer receives a link on their e-mail\n5. They sign the document\n6. The signed document appears in your Nextcloud instance, next to the original file\n\n# Built on top of eID Easy\nThe app uses [eID Easy](https://eideasy.com) as its signing back-end. eID Easy handles the signing process. Refer to [eID Easy's pricing](https://eideasy.com/pricing/) to see the cost of each signing method.\n\n### Get €10 to try out eID Easy\nFor limited time only, we're offering €10 of credit that you can spend to try out all the eID Easy signing services.\n\nWrite to support@eideasy.com to claim this offer.\n\n# Two levels of electronic signatures\n*Qualified Electronic Signature* - the strongest kind of electronic signature. The signer's identity and approval is linked to the file contents and a timestamp by cryptographic means. The signing time and the document's integrity can be verified to ensure that the document has not been tampered with after signing.\n\nWith QES, you can opt to only send the file hashes to eID Easy. This way, the actual content of your files is never exposed to a third party.\n\n*Simple Electronic Signature* - the simplest kind of electronic signature. eID Easy sends a unique link to the signer's e-mail. The signer opens the link, reviews the file and confirms their approval. A visual signature is added to the file. eId Easy adds a cryptographic e-seal to the file, to ensure that it cannot be modified after signing.\n\nWith Simple Electronic Signatures, the contents of your file need to be sent to eID Easy. This provides legal value to the signature, as we can state with certainty that the signer had the opportunity to review the file they were signing.\n\n# Feedback is welcome\nAre you not seeing your preferred signature card / signing app / other QES method? Are we not quite covering your use case? Let us know at support@eideasy.com\n\n# Documentation\n\n## Set up\n1. Install and enable the \"Electronic Signatures\" app.\n2. In Nextcloud, on the blue top-bar, click on your profile picture.\n3. A dropdown menu opens, click on \"Settings\".\n4. On the left sidebar, click on \"Electronic Signatures\".\n5. Follow the instructions there to configure your eID Easy credentials.\n\n[CHANGELOG](https://github.com/eideasy/nextcloud-electronic-signatures-plugin/blob/master/CHANGELOG.md)",
+    "sha256": "6933a4f0942a1aa8a98af42c0145d258eb01d161e1f586185f03e0cbf0c4333c",
+    "url": "https://github.com/eideasy/nextcloud-electronic-signatures-plugin/releases/download/v2.0.4/v2.0.4.tar.gz",
+    "version": "2.0.4",
+    "description": "# Features\n- 🔒🔒 Accept Qualified Electronic Signatures (QES - strongest legal value) in PDF or ASICE formats\n- 🔒 Accept Simple Electronic Signatures (email based signature - simple to sign)\n\nCurrently, this app enables the user to gather a single signature onto an existing file:\n1. Pick a file which you want signed by another person\n2. Select \"Signing\" in the file's dropdown menu\n3. Enter the signer's email address\n4. The signer receives a link on their e-mail\n5. They sign the document\n6. The signed document appears in your Nextcloud instance, next to the original file\n\n# Built on top of eID Easy\nThe app uses [eID Easy](https://eideasy.com) as its signing back-end. eID Easy handles the signing process. Refer to [eID Easy's pricing](https://eideasy.com/pricing/) to see the cost of each signing method.\n\n### Get €10 to try out eID Easy\nFor limited time only, we're offering €10 of credit that you can spend to try out all the eID Easy signing services.\n\nWrite to support@eideasy.com to claim this offer.\n\n# Two levels of electronic signatures\n*Qualified Electronic Signature* - the strongest kind of electronic signature. The signer's identity and approval is linked to the file contents and a timestamp by cryptographic means. The signing time and the document's integrity can be verified to ensure that the document has not been tampered with after signing.\n\nWith QES, you can opt to only send the file hashes to eID Easy. This way, the actual content of your files is never exposed to a third party.\n\n*Simple Electronic Signature* - the simplest kind of electronic signature. eID Easy sends a unique link to the signer's e-mail. The signer opens the link, reviews the file and confirms their approval. A visual signature is added to the file. eId Easy adds a cryptographic e-seal to the file, to ensure that it cannot be modified after signing.\n\nWith Simple Electronic Signatures, the contents of your file need to be sent to eID Easy. This provides legal value to the signature, as we can state with certainty that the signer had the opportunity to review the file they were signing.\n\n# Pricing\nSee [https://eideasy.com/pricing](https://eideasy.com/pricing) for pricing information.\n\n# Feedback is welcome\nAre you not seeing your preferred signature card / signing app / other QES method? Are we not quite covering your use case? Let us know at support@eideasy.com\n\n# Documentation\n\n## Set up\n1. Install and enable the \"Electronic Signatures\" app.\n2. In Nextcloud, on the blue top-bar, click on your profile picture.\n3. A dropdown menu opens, click on \"Settings\".\n4. On the left sidebar, click on \"Electronic Signatures\".\n5. Follow the instructions there to configure your eID Easy credentials.\n\n[CHANGELOG](https://github.com/eideasy/nextcloud-electronic-signatures-plugin/blob/master/CHANGELOG.md)",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -1023,7 +1023,7 @@
     "sha256": "f79e3c80962f2daaceb8d43c0fbed3017c3e4e33e039ac106974dfd0d25ad4d8",
     "url": "https://packages.framasoft.org/projects/nextcloud-apps/holiday-calendars/holiday_calendars-0.1.0.tar.gz",
     "version": "0.1.0",
-    "description": "This is an app listing links to public calendars representing the holidays and allowing to subscribe to them",
+    "description": "This is an app listing links to public calendars representing the holidays and allowing to subscribe to them\n\n## Settings\n\nBy going to **Settings > Personal > Groupware** you can subscribe to the different calendars.",
     "homepage": "https://framagit.org/framasoft/nextcloud/holiday_calendars",
     "licenses": [
       "agpl"
@@ -1110,8 +1110,8 @@
     ]
   },
   "integration_google": {
-    "sha256": "c7671104f8e125199e20b9b3ed531fe3ccabada0b0e311232524a05fb2259251",
-    "url": "https://github.com/nextcloud/integration_google/releases/download/v1.0.9/integration_google-1.0.9.tar.gz",
+    "sha256": "80b8b99970f17ccce874f56665dba61438e38b875f679f60205b71368f204009",
+    "url": "https://github.com/nextcloud/integration_google/releases/download/v1.0.9-5-nightly/integration_google-1.0.9-5-nightly.tar.gz",
     "version": "1.0.9",
     "description": "Google integration allows you to automatically import your Google calendars, contacts, photos and files into Nextcloud.",
     "homepage": "https://github.com/nextcloud/integration_google",
@@ -1430,9 +1430,9 @@
     ]
   },
   "ncdownloader": {
-    "sha256": "540d1ac62bf9158b09e50368b3a5a737687e656ad2a94f673c76613a11c0795c",
-    "url": "https://github.com/shiningw/ncdownloader/releases/download/v1.0.2/ncdownloader-release.tar.gz",
-    "version": "1.0.2",
+    "sha256": "7aac782ff4b45f3c2ad682ea0f54001ce9fb4f1da4c133ef3971ba0ec0ed571c",
+    "url": "https://github.com/shiningw/ncdownloader/releases/download/v1.0.3/ncdownloader-release.tar.gz",
+    "version": "1.0.4",
     "description": "Search for torrents within the app from mutiple BT sites;\nControl Aria2 and manage download tasks from the web;\ndownload videos from 700+ video sites(youtube,youku,vimo,dailymotion,twitter,facebook and the likes",
     "homepage": "https://github.com/shiningw/ncdownloader",
     "licenses": [
@@ -1450,9 +1450,9 @@
     ]
   },
   "nextpod": {
-    "sha256": "ffc2f67b32b13d15c261e06fca1e076c0eb07fa3ff55aec71e691a5eddbea74b",
-    "url": "https://github.com/pbek/nextcloud-nextpod/releases/download/v0.6.1/nextpod-nc.tar.gz",
-    "version": "0.6.1",
+    "sha256": "11ef99a178f0f562401f89b633b6cbd332b8f834ade5969e8aa708bd1de58e23",
+    "url": "https://github.com/pbek/nextcloud-nextpod/releases/download/v0.6.2/nextpod-nc.tar.gz",
+    "version": "0.6.2",
     "description": "This Nextcloud app lets you visualize your podcast subscriptions and episode downloads from\n[GPodderSync](https://apps.nextcloud.com/apps/gpoddersync), which acts as a basic gpodder.net\napi to sync podcast consumer apps (podcatchers) like AntennaPod.\n\nYou need to have [GPodderSync](https://apps.nextcloud.com/apps/gpoddersync) installed to use this app!",
     "homepage": "https://github.com/pbek/nextcloud-nextpod",
     "licenses": [
@@ -1580,9 +1580,9 @@
     ]
   },
   "passman": {
-    "sha256": "418b689e21189a50186971c3ed9a843f931ffb815d3d6587b6d9e396f8c5431b",
-    "url": "https://releases.passman.cc/passman_2.4.3.tar.gz",
-    "version": "2.4.3",
+    "sha256": "0056f23b6e46212bd23b145efa145958c2e3b66fee164c22b6bb080393226633",
+    "url": "https://releases.passman.cc/passman_2.4.4.tar.gz",
+    "version": "2.4.4",
     "description": "Passman is a full featured password manager.\nFeatures:\n- Vaults\n- Vault key is never sent to the server\n- Browser extension for easy access to passwords\n- Android app for on the road access\n- Credentials are client side encrypted with 256bit AES\n- Credentials are server side encrypted with 256bit AES\n- Ability to add custom fields to credentials\n- Built-in OTP (One Time Password) generator\n- Password analyzer\n- Share passwords internally and via link in a secure manner.\n- Import from various password managers (KeePass, LastPass, DashLane, ZOHO, Clipperz.is )\nFor an demo of this app visit [https://demo.passman.cc](https://demo.passman.cc)",
     "homepage": "https://demo.passman.cc",
     "licenses": [
@@ -1690,9 +1690,9 @@
     ]
   },
   "previewgenerator": {
-    "sha256": "ee417949ed9314e4e768a1a32cdc27607cc991ddae4bd4aca93c44d505a78f04",
-    "url": "https://github.com/nextcloud-releases/previewgenerator/releases/download/v5.2.1/previewgenerator-v5.2.1.tar.gz",
-    "version": "5.2.1",
+    "sha256": "c0073a26724b6c6c74181a0f33ef2e8b67f18e47cccbf43840c87fd9c141db9e",
+    "url": "https://github.com/nextcloud-releases/previewgenerator/releases/download/v5.2.2/previewgenerator-v5.2.2.tar.gz",
+    "version": "5.2.2",
     "description": "The Preview Generator app allows admins to pre-generate previews. The app listens to edit events and stores this information. Once a cron job is triggered it will generate start preview generation. This means that you can better utilize your system by pre-generating previews when your system is normally idle and thus putting less load on your machine when the requests are actually served.\n\nThe app does not replace on demand preview generation so if a preview is requested before it is pre-generated it will still be shown.\nThe first time you install this app, before using a cron job, you properly want to generate all previews via:\n**./occ preview:generate-all -vvv**\n\n**Important**: To enable pre-generation of previews you must add **php /var/www/nextcloud/occ preview:pre-generate** to a system cron job that runs at times of your choosing.",
     "homepage": "https://github.com/nextcloud/previewgenerator",
     "licenses": [
@@ -1910,9 +1910,9 @@
     ]
   },
   "shareimporter": {
-    "sha256": "8c286385825e6f6dc34a68af67872d77ecd2a7f6f1e07f003423ffac576d6464",
-    "url": "https://github.com/nextcloud-releases/shareimporter/releases/download/v1.0.6/shareimporter-v1.0.6.tar.gz",
-    "version": "1.0.6",
+    "sha256": "b9ea1830001e29fed51bff6f51a3c1a2d6f57a0bc4bca562552a475b9b7f944e",
+    "url": "https://github.com/nextcloud-releases/shareimporter/releases/download/v1.1.0/shareimporter-v1.1.0.tar.gz",
+    "version": "1.1.0",
     "description": "Import Shares in Nextcloud app",
     "homepage": "https://github.com/nextcloud/shareimporter",
     "licenses": [
@@ -2000,9 +2000,9 @@
     ]
   },
   "snappymail": {
-    "sha256": "54642bc58bd584da7aa12069e9c7f270dc7e78d77ec8964d38c0a3f750a660b0",
-    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.27.2-nextcloud.tar.gz",
-    "version": "2.27.2",
+    "sha256": "bc4558784a6151b12794b9f465a83f960ae9f8e00e43c2152cf97dde9df9dd8f",
+    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.27.3-nextcloud.tar.gz",
+    "version": "2.27.3",
     "description": "**Simple, modern, lightweight & fast web-based email client.**\n\n- **Dark mode**\n- **Responsive design**\n- **Full Sieve filtering support**\n- **Almost all IMAP features** including advanced searching\n- **Integration with Nextcloud Unified Search**\n- **Integration with other Nextcloud apps** (Contacts, Files and Calendar)\n- **Multiple mail accounts and identities**\n- **Send & receive OpenPGP encrypted/signed emails** (With full HTML support, ECC keys, or plain text with Mailvelope)\n- **Many security features** (Sodium encrypted passwords, Sec-Fetch, TOTP 2FA, DKIM, prevent tracking, etc.)\n- **Kolab integrations**\n\nAfter enabling in Nextcloud, go to Nextcloud admin panel, \"Additional settings\" and you will see a \"SnappyMail webmail\" section.\nThere, click on the link to go to the SnappyMail admin panel.",
     "homepage": "https://snappymail.eu",
     "licenses": [

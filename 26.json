@@ -249,6 +249,16 @@
       "agpl"
     ]
   },
+  "electronicsignatures": {
+    "sha256": "6933a4f0942a1aa8a98af42c0145d258eb01d161e1f586185f03e0cbf0c4333c",
+    "url": "https://github.com/eideasy/nextcloud-electronic-signatures-plugin/releases/download/v2.0.4/v2.0.4.tar.gz",
+    "version": "2.0.4",
+    "description": "# Features\n- 🔒🔒 Accept Qualified Electronic Signatures (QES - strongest legal value) in PDF or ASICE formats\n- 🔒 Accept Simple Electronic Signatures (email based signature - simple to sign)\n\nCurrently, this app enables the user to gather a single signature onto an existing file:\n1. Pick a file which you want signed by another person\n2. Select \"Signing\" in the file's dropdown menu\n3. Enter the signer's email address\n4. The signer receives a link on their e-mail\n5. They sign the document\n6. The signed document appears in your Nextcloud instance, next to the original file\n\n# Built on top of eID Easy\nThe app uses [eID Easy](https://eideasy.com) as its signing back-end. eID Easy handles the signing process. Refer to [eID Easy's pricing](https://eideasy.com/pricing/) to see the cost of each signing method.\n\n### Get €10 to try out eID Easy\nFor limited time only, we're offering €10 of credit that you can spend to try out all the eID Easy signing services.\n\nWrite to support@eideasy.com to claim this offer.\n\n# Two levels of electronic signatures\n*Qualified Electronic Signature* - the strongest kind of electronic signature. The signer's identity and approval is linked to the file contents and a timestamp by cryptographic means. The signing time and the document's integrity can be verified to ensure that the document has not been tampered with after signing.\n\nWith QES, you can opt to only send the file hashes to eID Easy. This way, the actual content of your files is never exposed to a third party.\n\n*Simple Electronic Signature* - the simplest kind of electronic signature. eID Easy sends a unique link to the signer's e-mail. The signer opens the link, reviews the file and confirms their approval. A visual signature is added to the file. eId Easy adds a cryptographic e-seal to the file, to ensure that it cannot be modified after signing.\n\nWith Simple Electronic Signatures, the contents of your file need to be sent to eID Easy. This provides legal value to the signature, as we can state with certainty that the signer had the opportunity to review the file they were signing.\n\n# Pricing\nSee [https://eideasy.com/pricing](https://eideasy.com/pricing) for pricing information.\n\n# Feedback is welcome\nAre you not seeing your preferred signature card / signing app / other QES method? Are we not quite covering your use case? Let us know at support@eideasy.com\n\n# Documentation\n\n## Set up\n1. Install and enable the \"Electronic Signatures\" app.\n2. In Nextcloud, on the blue top-bar, click on your profile picture.\n3. A dropdown menu opens, click on \"Settings\".\n4. On the left sidebar, click on \"Electronic Signatures\".\n5. Follow the instructions there to configure your eID Easy credentials.\n\n[CHANGELOG](https://github.com/eideasy/nextcloud-electronic-signatures-plugin/blob/master/CHANGELOG.md)",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "end_to_end_encryption": {
     "sha256": "09e953227e4e198293563fdf2548491dd4f653091a1de20e8c3765775aa62cd0",
     "url": "https://github.com/nextcloud-releases/end_to_end_encryption/releases/download/v1.12.4/end_to_end_encryption-v1.12.4.tar.gz",
@@ -530,8 +540,8 @@
     ]
   },
   "gpxpod": {
-    "sha256": "849e087c5c3681cdad9340cfa66a7fb7c21161607c56e2f26139174a7d0d3b3e",
-    "url": "https://github.com/julien-nc/gpxpod/releases/download/v5.0.8-1-nightly/gpxpod-5.0.8-1-nightly.tar.gz",
+    "sha256": "5198689f24c60279203a1c6c14e12e24d7d69f358f3d738d8b33d047ad64e5ae",
+    "url": "https://github.com/julien-nc/gpxpod/releases/download/v5.0.8-2-nightly/gpxpod-5.0.8-2-nightly.tar.gz",
     "version": "5.0.8",
     "description": "# GpxPod Nextcloud application\n\nDisplay, analyse, compare and share GPS track files.\n\n🌍 Help us to translate this app on [GpxPod Crowdin project](https://crowdin.com/project/gpxpod).\n\nGpxPod :\n\n* 🗺 can display gpx/kml/tcx/igc/fit files anywhere in your files, files shared with you, files in folders shared with you. fit files will be converted and displayed only if **GpsBabel** is found on the server system\n* 📏 supports metric, english and nautical measure systems\n* 🗠 draws elevation, speed or pace interactive chart\n* 🗠 can color track lines by speed, elevation or pace\n* 🗠 show track statistics\n* ⛛ filter tracks by date, total distance...\n* 🖻 displays geotagged pictures found in selected directory\n* 🖧 generates public links pointing to a track/folder. This link can be used if the file/folder is shared by public link\n* 🗁 allows you to move selected track files\n* 🗠 can correct tracks elevations if SRTM.py (gpxelevations) is found on the server's system\n* ⚖ can make global comparison of multiple tracks\n* ⚖ can make visual pair comparison of divergent parts of similar tracks\n* 🀆 allows users to add personal map tile servers\n* ⚙ saves/restores user options values\n* 🖍 allows user to manually set track line colors\n* 🕑 detects browser timezone\n* 🗬 loads extra marker symbols from GpxEdit if installed\n* 🔒 works with encrypted data folder (server side encryption)\n* 🍂 proudly uses Leaflet with lots of plugins to display the map\n* 🖴 is compatible with SQLite, MySQL and PostgreSQL databases\n* 🗁 adds possibility to view .gpx files directly from the \"Files\" app\n\nThis app is tested on Nextcloud 15 with Firefox 57+ and Chromium.\n\nThis app is under (slow) development.\n\nLink to Nextcloud application website : https://apps.nextcloud.com/apps/gpxpod\n\n## Install\n\nSee the [AdminDoc](https://gitlab.com/eneiluj/gpxpod-oc/wikis/admindoc) for installation details\n\n## Known issues\n\n* bad management of file names including simple or double quotes\n* *WARNING*, kml conversion will NOT work with recent kml files using the proprietary \"gx:track\" extension tag.\n\nAny feedback will be appreciated.\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://github.com/julien-nc/gpxpod",
@@ -620,10 +630,10 @@
     ]
   },
   "holiday_calendars": {
-    "sha256": "4a84082253b883cb1ebbee16a7cc982272f52ec166210052b4250a41e90a5533",
-    "url": "https://packages.framasoft.org/projects/nextcloud-apps/holiday-calendars/holiday_calendars-0.2.1.tar.gz",
-    "version": "0.2.1",
-    "description": "This is an app listing links to public calendars representing the holidays and allowing to subscribe to them",
+    "sha256": "796763d858bfc30f4030da86898b62e18a832cd149411652bee617a93e1f70f7",
+    "url": "https://packages.framasoft.org/projects/nextcloud-apps/holiday-calendars/holiday_calendars-0.3.0.tar.gz",
+    "version": "0.3.0",
+    "description": "This is an app listing links to public calendars representing the holidays and allowing to subscribe to them\n\n## Settings\n\nBy going to **Settings > Personal > Groupware** you can subscribe to the different calendars.",
     "homepage": "https://framagit.org/framasoft/nextcloud/holiday_calendars",
     "licenses": [
       "agpl"
@@ -720,8 +730,8 @@
     ]
   },
   "integration_google": {
-    "sha256": "c7671104f8e125199e20b9b3ed531fe3ccabada0b0e311232524a05fb2259251",
-    "url": "https://github.com/nextcloud/integration_google/releases/download/v1.0.9/integration_google-1.0.9.tar.gz",
+    "sha256": "80b8b99970f17ccce874f56665dba61438e38b875f679f60205b71368f204009",
+    "url": "https://github.com/nextcloud/integration_google/releases/download/v1.0.9-5-nightly/integration_google-1.0.9-5-nightly.tar.gz",
     "version": "1.0.9",
     "description": "Google integration allows you to automatically import your Google calendars, contacts, photos and files into Nextcloud.",
     "homepage": "https://github.com/nextcloud/integration_google",
@@ -750,8 +760,8 @@
     ]
   },
   "integration_miro": {
-    "sha256": "61da124edf578dba694b2cde81878400fb4a4f7f00f4375689673e5afee82051",
-    "url": "https://github.com/julien-nc/integration_miro/releases/download/v1.0.0-1-nightly/integration_miro-1.0.0-1-nightly.tar.gz",
+    "sha256": "52700c8ca536f45afbf8b431f92d89d881439b1b3c9b6170c28134167ed8339a",
+    "url": "https://github.com/julien-nc/integration_miro/releases/download/v1.0.0/integration_miro-1.0.0.tar.gz",
     "version": "1.0.0",
     "description": "Miro integration lets users create boards, share board links and open boards directly in Nextcloud.",
     "homepage": "https://github.com/julien-nc/integration_miro",
@@ -910,9 +920,9 @@
     ]
   },
   "mail": {
-    "sha256": "17dc993df675704519a99a54cf1e2ac4831c19ef604a55facf8ef6cc2cf7b91f",
-    "url": "https://github.com/nextcloud-releases/mail/releases/download/v3.0.3-beta1/mail-v3.0.3-beta1.tar.gz",
-    "version": "3.0.3-beta.1",
+    "sha256": "4ace91aa9c92e78dbfd590d6c7175303e8d256abfd52159ad4e86c7b9ece778e",
+    "url": "https://github.com/nextcloud-releases/mail/releases/download/v3.1.0/mail-v3.1.0.tar.gz",
+    "version": "3.1.0",
     "description": "**💌 A mail app for Nextcloud**\n\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://horde.org) libraries.\n- **📬 Want to host your own mail server?** We do not have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!",
     "homepage": "https://github.com/nextcloud/mail#readme",
     "licenses": [
@@ -1000,9 +1010,9 @@
     ]
   },
   "nextpod": {
-    "sha256": "ffc2f67b32b13d15c261e06fca1e076c0eb07fa3ff55aec71e691a5eddbea74b",
-    "url": "https://github.com/pbek/nextcloud-nextpod/releases/download/v0.6.1/nextpod-nc.tar.gz",
-    "version": "0.6.1",
+    "sha256": "11ef99a178f0f562401f89b633b6cbd332b8f834ade5969e8aa708bd1de58e23",
+    "url": "https://github.com/pbek/nextcloud-nextpod/releases/download/v0.6.2/nextpod-nc.tar.gz",
+    "version": "0.6.2",
     "description": "This Nextcloud app lets you visualize your podcast subscriptions and episode downloads from\n[GPodderSync](https://apps.nextcloud.com/apps/gpoddersync), which acts as a basic gpodder.net\napi to sync podcast consumer apps (podcatchers) like AntennaPod.\n\nYou need to have [GPodderSync](https://apps.nextcloud.com/apps/gpoddersync) installed to use this app!",
     "homepage": "https://github.com/pbek/nextcloud-nextpod",
     "licenses": [
@@ -1160,9 +1170,9 @@
     ]
   },
   "previewgenerator": {
-    "sha256": "ee417949ed9314e4e768a1a32cdc27607cc991ddae4bd4aca93c44d505a78f04",
-    "url": "https://github.com/nextcloud-releases/previewgenerator/releases/download/v5.2.1/previewgenerator-v5.2.1.tar.gz",
-    "version": "5.2.1",
+    "sha256": "c0073a26724b6c6c74181a0f33ef2e8b67f18e47cccbf43840c87fd9c141db9e",
+    "url": "https://github.com/nextcloud-releases/previewgenerator/releases/download/v5.2.2/previewgenerator-v5.2.2.tar.gz",
+    "version": "5.2.2",
     "description": "The Preview Generator app allows admins to pre-generate previews. The app listens to edit events and stores this information. Once a cron job is triggered it will generate start preview generation. This means that you can better utilize your system by pre-generating previews when your system is normally idle and thus putting less load on your machine when the requests are actually served.\n\nThe app does not replace on demand preview generation so if a preview is requested before it is pre-generated it will still be shown.\nThe first time you install this app, before using a cron job, you properly want to generate all previews via:\n**./occ preview:generate-all -vvv**\n\n**Important**: To enable pre-generation of previews you must add **php /var/www/nextcloud/occ preview:pre-generate** to a system cron job that runs at times of your choosing.",
     "homepage": "https://github.com/nextcloud/previewgenerator",
     "licenses": [
@@ -1279,6 +1289,16 @@
       "agpl"
     ]
   },
+  "shareimporter": {
+    "sha256": "b9ea1830001e29fed51bff6f51a3c1a2d6f57a0bc4bca562552a475b9b7f944e",
+    "url": "https://github.com/nextcloud-releases/shareimporter/releases/download/v1.1.0/shareimporter-v1.1.0.tar.gz",
+    "version": "1.1.0",
+    "description": "Import Shares in Nextcloud app",
+    "homepage": "https://github.com/nextcloud/shareimporter",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "sharepoint": {
     "sha256": "300217b005d1af42c95f154cad0595b906078f4a991af747a1a430b5cd391c59",
     "url": "https://github.com/nextcloud-releases/sharepoint/releases/download/v1.14.0/sharepoint-v1.14.0.tar.gz",
@@ -1320,9 +1340,9 @@
     ]
   },
   "snappymail": {
-    "sha256": "54642bc58bd584da7aa12069e9c7f270dc7e78d77ec8964d38c0a3f750a660b0",
-    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.27.2-nextcloud.tar.gz",
-    "version": "2.27.2",
+    "sha256": "bc4558784a6151b12794b9f465a83f960ae9f8e00e43c2152cf97dde9df9dd8f",
+    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.27.3-nextcloud.tar.gz",
+    "version": "2.27.3",
     "description": "**Simple, modern, lightweight & fast web-based email client.**\n\n- **Dark mode**\n- **Responsive design**\n- **Full Sieve filtering support**\n- **Almost all IMAP features** including advanced searching\n- **Integration with Nextcloud Unified Search**\n- **Integration with other Nextcloud apps** (Contacts, Files and Calendar)\n- **Multiple mail accounts and identities**\n- **Send & receive OpenPGP encrypted/signed emails** (With full HTML support, ECC keys, or plain text with Mailvelope)\n- **Many security features** (Sodium encrypted passwords, Sec-Fetch, TOTP 2FA, DKIM, prevent tracking, etc.)\n- **Kolab integrations**\n\nAfter enabling in Nextcloud, go to Nextcloud admin panel, \"Additional settings\" and you will see a \"SnappyMail webmail\" section.\nThere, click on the link to go to the SnappyMail admin panel.",
     "homepage": "https://snappymail.eu",
     "licenses": [
