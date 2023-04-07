@@ -933,7 +933,7 @@
     "sha256": "248c467cae7a82aef466f4e0de335ac6ee05cd06fab9178717f4afd30a8e810a",
     "url": "https://gitlab.com/eneiluj/gpxpod-oc/-/wikis/uploads/89555a30934ebbe34c3a515aabd1781a/gpxpod-4.3.0.tar.gz",
     "version": "4.3.0",
-    "description": "# GpxPod Nextcloud application\n\nDisplay, analyse, compare and share GPS track files.\n\n🌍 Help us to translate this app on [GpxPod Crowdin project](https://crowdin.com/project/gpxpod).\n\nGpxPod :\n\n* 🗺 can display gpx/kml/tcx/igc/fit files anywhere in your files, files shared with you, files in folders shared with you. fit files will be converted and displayed only if **GpsBabel** is found on the server system\n* 📏 supports metric, english and nautical measure systems\n* 🗠 draws elevation, speed or pace interactive chart\n* 🗠 can color track lines by speed, elevation or pace\n* 🗠 show track statistics\n* ⛛ filter tracks by date, total distance...\n* 🖻 displays geotagged pictures found in selected directory\n* 🖧 generates public links pointing to a track/folder. This link can be used if the file/folder is shared by public link\n* 🗁 allows you to move selected track files\n* 🗠 can correct tracks elevations if SRTM.py (gpxelevations) is found on the server's system\n* ⚖ can make global comparison of multiple tracks\n* ⚖ can make visual pair comparison of divergent parts of similar tracks\n* 🀆 allows users to add personal map tile servers\n* ⚙ saves/restores user options values\n* 🖍 allows user to manually set track line colors\n* 🕑 detects browser timezone\n* 🗬 loads extra marker symbols from GpxEdit if installed\n* 🔒 works with encrypted data folder (server side encryption)\n* 🍂 proudly uses Leaflet with lots of plugins to display the map\n* 🖴 is compatible with SQLite, MySQL and PostgreSQL databases\n* 🗁 adds possibility to view .gpx files directly from the \"Files\" app\n\nThis app is tested on Nextcloud 15 with Firefox 57+ and Chromium.\n\nThis app is under (slow) development.\n\nLink to Nextcloud application website : https://apps.nextcloud.com/apps/gpxpod\n\n## Install\n\nSee the [AdminDoc](https://gitlab.com/eneiluj/gpxpod-oc/wikis/admindoc) for installation details\n\n## Known issues\n\n* bad management of file names including simple or double quotes\n* *WARNING*, kml conversion will NOT work with recent kml files using the proprietary \"gx:track\" extension tag.\n\nAny feedback will be appreciated.\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
+    "description": "# GpxPod Nextcloud application\n\nDisplay, analyse, compare and share GPS track files.\n\n🌍 Help us to translate this app on [GpxPod Crowdin project](https://crowdin.com/project/gpxpod).\n\nGpxPod:\n\n* 🗺 can display your gpx/kml/tcx/igc/fit files\n* 📏 supports metric, english and nautical measure systems\n* 🗠 draws interactive chart for elevation, speed, pace or any extension data\n* 🗠 use line gradient color for track lines with speed, elevation, pace or any extension data\n* 🗠 shows track statistics\n* 🖻 displays geotagged pictures\n* 🖧 generates public links pointing to a track/folder\n* 🗠 can correct tracks elevations using SRTM data\n* ⚖ can make global comparison of multiple tracks\n* ⚖ can make visual pair comparison of divergent parts of similar tracks\n* 🀆 allows users to add personal map tile servers\n* 🖍 allows user to manually choose line color for each track\n* 🔒 works with encrypted data folder (server side encryption)\n* 🍂 proudly uses Leaflet and MapLibre GL\n\nLink to Nextcloud application website : https://apps.nextcloud.com/apps/gpxpod\n\n## Install\n\nSee the [AdminDoc](https://gitlab.com/eneiluj/gpxpod-oc/wikis/admindoc) for installation details\n\n## Known issues\n\n* *WARNING*, kml conversion will NOT work with recent kml files using the proprietary \"gx:track\" extension tag.\n\nAny feedback will be appreciated.\n\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://github.com/julien-nc/gpxpod",
     "licenses": [
       "agpl"
@@ -1110,8 +1110,8 @@
     ]
   },
   "integration_google": {
-    "sha256": "80b8b99970f17ccce874f56665dba61438e38b875f679f60205b71368f204009",
-    "url": "https://github.com/nextcloud/integration_google/releases/download/v1.0.9-5-nightly/integration_google-1.0.9-5-nightly.tar.gz",
+    "sha256": "c7671104f8e125199e20b9b3ed531fe3ccabada0b0e311232524a05fb2259251",
+    "url": "https://github.com/nextcloud/integration_google/releases/download/v1.0.9/integration_google-1.0.9.tar.gz",
     "version": "1.0.9",
     "description": "Google integration allows you to automatically import your Google calendars, contacts, photos and files into Nextcloud.",
     "homepage": "https://github.com/nextcloud/integration_google",
@@ -1180,9 +1180,9 @@
     ]
   },
   "integration_openproject": {
-    "sha256": "d135c38484944a0c0f5a98861e5d1aa9a4f7052f3f220fe8b197d5c4e3aa4c01",
-    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.3.1/integration_openproject-2.3.1.tar.gz",
-    "version": "2.3.1",
+    "sha256": "1b9eabc5d434f0addc8260a7723b65eca41df8070658b137381f7bb1f6e157b1",
+    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.3.4/integration_openproject-2.3.4.tar.gz",
+    "version": "2.3.4",
     "description": "This application enables seamless integration with open source project management and collaboration software OpenProject.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in OpenProject\n* Find all work packages linked to a file or a folder\n* View OpenProject notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n\nOn the OpenProject end, users are able to:\n\n* View all Nextcloud files and folders linked to a work package\n* Download linked files or open them in Nextcloud to edit them\n\nFor more information on how to set up and use the OpenProject application, please refer to [integration setup guide](https://www.openproject.org/docs/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://www.openproject.org/docs/user-guide/nextcloud-integration/).",
     "homepage": "https://github.com/nextcloud/integration_openproject",
     "licenses": [
@@ -1240,8 +1240,8 @@
     ]
   },
   "integration_zimbra": {
-    "sha256": "99fe1e34d9c4d9be9dc627325445fc8598786757635a199c8df1d9d20b0bd946",
-    "url": "https://github.com/julien-nc/integration_zimbra/releases/download/v1.0.4-1-nightly/integration_zimbra-1.0.4-1-nightly.tar.gz",
+    "sha256": "e2536f1ba4f928b67a8cf460d07de241655b3f344d3eab6e6ec0918949e74425",
+    "url": "https://github.com/julien-nc/integration_zimbra/releases/download/v1.0.4/integration_zimbra-1.0.4.tar.gz",
     "version": "1.0.4",
     "description": "Zimbra integration into Nextcloud provides a dashboard widget for unread emails,\n one for upcoming events, a search provider for emails and the ability to search for Zimbra contacts in Nextcloud.\n\nNextcloud will suggest your Zimbra contacts addresses when you search for a contact via the top-right contacts menu\nor when you search for someone to share a file to.",
     "homepage": "https://github.com/eneiluj/integration_zimbra",
@@ -1440,9 +1440,9 @@
     ]
   },
   "news": {
-    "sha256": "696935efb8c91e77bfbbd7cd6c250ee81fd017f8469920e9ee7b9cf7ecd52f29",
-    "url": "https://github.com/nextcloud/news/releases/download/21.2.0-beta1/news.tar.gz",
-    "version": "21.2.0-beta1",
+    "sha256": "bbc3d14d4d6ad5a2b74890899a0167ff8f43f9800206e3ac9b57a4d1f425f4bf",
+    "url": "https://github.com/nextcloud/news/releases/download/21.2.0-beta2/news.tar.gz",
+    "version": "21.2.0-beta2",
     "description": "📰 A RSS/Atom Feed reader App for Nextcloud\n\n- 📲 Synchronize your feeds with multiple mobile or desktop [clients](https://nextcloud.github.io/news/clients/)\n- 🔄 Automatic updates of your news feeds\n- 🆓 Free and open source under AGPLv3, no ads or premium functions\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://nextcloud.github.io/news/install/#dependencies)\n\nThe Changelog is available [here](https://github.com/nextcloud/news/blob/master/CHANGELOG.md)\n\nCreate a [bug report](https://github.com/nextcloud/news/issues/new/choose)\n\nCreate a [feature request](https://github.com/nextcloud/news/discussions/new)\n\nReport a [feed issue](https://github.com/nextcloud/news/discussions/new)",
     "homepage": "https://github.com/nextcloud/news",
     "licenses": [
