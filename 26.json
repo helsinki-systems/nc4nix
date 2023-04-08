@@ -239,6 +239,16 @@
       "agpl"
     ]
   },
+  "drop_account": {
+    "sha256": "43c14b1010fc848f556ae3069d7457bfcaa96a90e8999100714f2c281534d761",
+    "url": "https://packages.framasoft.org/projects/nextcloud-apps/drop-account/drop_account-2.2.0.tar.gz",
+    "version": "2.2.0",
+    "description": "# Description\n\nThis app allows users to delete their accounts by removing all their data.\n\nIt can also send activities to the admins about deleted accounts.",
+    "homepage": "https://framagit.org/framasoft/nextcloud/drop_account",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "eidlogin": {
     "sha256": "5f6c3a583911b4fdc82af2b007bc7002d51e4621b6bdb06220a5bd47ce53db6e",
     "url": "https://github.com/eid-login/eid-login-nextcloud/releases/download/1.0.12/eidlogin.tar.gz",
@@ -550,9 +560,9 @@
     ]
   },
   "gpxpod": {
-    "sha256": "209fb81850ba29e1777e782f98e004f65afae5c87c8cd57edd20cbd16a0b4be1",
-    "url": "https://github.com/julien-nc/gpxpod/releases/download/v5.0.9/gpxpod-5.0.9.tar.gz",
-    "version": "5.0.9",
+    "sha256": "625865f6374ec46f907e4e7380d3bc1703ad033ae31874baeb2e7daa6a2b5cf5",
+    "url": "https://github.com/julien-nc/gpxpod/releases/download/v5.0.10/gpxpod-5.0.10.tar.gz",
+    "version": "5.0.10",
     "description": "# GpxPod Nextcloud application\n\nDisplay, analyse, compare and share GPS track files.\n\n🌍 Help us to translate this app on [GpxPod Crowdin project](https://crowdin.com/project/gpxpod).\n\nGpxPod:\n\n* 🗺 can display your gpx/kml/tcx/igc/fit files\n* 📏 supports metric, english and nautical measure systems\n* 🗠 draws interactive chart for elevation, speed, pace or any extension data\n* 🗠 use line gradient color for track lines with speed, elevation, pace or any extension data\n* 🗠 shows track statistics\n* 🖻 displays geotagged pictures\n* 🖧 generates public links pointing to a track/folder\n* 🗠 can correct tracks elevations using SRTM data\n* ⚖ can make global comparison of multiple tracks\n* ⚖ can make visual pair comparison of divergent parts of similar tracks\n* 🀆 allows users to add personal map tile servers\n* 🖍 allows user to manually choose line color for each track\n* 🔒 works with encrypted data folder (server side encryption)\n* 🍂 proudly uses Leaflet and MapLibre GL\n\nLink to Nextcloud application website : https://apps.nextcloud.com/apps/gpxpod\n\n## Install\n\nSee the [AdminDoc](https://gitlab.com/eneiluj/gpxpod-oc/wikis/admindoc) for installation details\n\n## Known issues\n\n* *WARNING*, kml conversion will NOT work with recent kml files using the proprietary \"gx:track\" extension tag.\n\nAny feedback will be appreciated.\n\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://github.com/julien-nc/gpxpod",
     "licenses": [
@@ -615,6 +625,16 @@
     "version": "2.4.0",
     "description": "👥 Allows for better collaboration with external users by allowing users to create guests account.\n\nGuests accounts can be created from the share menu by entering either the recipients email or name and choosing \"create guest account\", once the share is created the guest user will receive an email notification about the mail with a link to set their password.\n\nGuests users can only access files shared to them and cannot create any files outside of shares, additionally, the apps accessible to guest accounts are whitelisted.",
     "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "hedgenext": {
+    "sha256": "b990f698d721206be90bdbcb9d3484ad48e8ff4c13b0de2eaa95b8c6c352a967",
+    "url": "https://github.com/libnewton/hedgenext-plugin/releases/download/v0.0.12/hedgenext.tar.gz",
+    "version": "0.0.12",
+    "description": "This application is the Nextcloud client of HedgeNext - the Nextcloud-adjusted fork of Hedgedoc, the definitive collaberative markdown editor.",
+    "homepage": "https://github.com/libnewton/hedgenext-plugin",
     "licenses": [
       "agpl"
     ]
@@ -740,8 +760,8 @@
     ]
   },
   "integration_google": {
-    "sha256": "c7671104f8e125199e20b9b3ed531fe3ccabada0b0e311232524a05fb2259251",
-    "url": "https://github.com/nextcloud/integration_google/releases/download/v1.0.9/integration_google-1.0.9.tar.gz",
+    "sha256": "80b8b99970f17ccce874f56665dba61438e38b875f679f60205b71368f204009",
+    "url": "https://github.com/nextcloud/integration_google/releases/download/v1.0.9-5-nightly/integration_google-1.0.9-5-nightly.tar.gz",
     "version": "1.0.9",
     "description": "Google integration allows you to automatically import your Google calendars, contacts, photos and files into Nextcloud.",
     "homepage": "https://github.com/nextcloud/integration_google",
@@ -820,9 +840,9 @@
     ]
   },
   "integration_openai": {
-    "sha256": "1ea6ab64d2c49524d8a096b7fb6379d43f320981e4b7a2591e2cf115ee5db608",
-    "url": "https://github.com/julien-nc/integration_openai/releases/download/v1.0.3-3-nightly/integration_openai-1.0.3-3-nightly.tar.gz",
-    "version": "1.0.3",
+    "sha256": "5eaf55771d13b2c2a959937182f4d4e82a033c5a7418cc092debe820e7775eae",
+    "url": "https://github.com/julien-nc/integration_openai/releases/download/v1.0.4/integration_openai-1.0.4.tar.gz",
+    "version": "1.0.4",
     "description": "OpenAI integration provides a link reference provider to get\nOpenAI text prediction (with many models including GPT-3) and generate DALL·E 2 images.",
     "homepage": "https://github.com/julien-nc/integration_openai",
     "licenses": [
@@ -945,6 +965,16 @@
     "version": "7.1.0",
     "description": "**This is a libre digital PDF signature app for Nextcloud**\n\n* ✍️ Sign PDF documents using digital signature",
     "homepage": "https://github.com/LibreSign/libresign",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "login_notes": {
+    "sha256": "bf585b2561c506317de0a6bcb78650ff9ef7df873afe13e88f3df382b1ee1853",
+    "url": "https://packages.framasoft.org/projects/nextcloud-apps/login-notes/login_notes-1.2.0.tar.gz",
+    "version": "1.2.0",
+    "description": "This app will show admin defined notes the log-in page",
+    "homepage": "https://framagit.org/framasoft/nextcloud/login-notes",
     "licenses": [
       "agpl"
     ]
@@ -1295,6 +1325,16 @@
     "version": "1.4.0",
     "description": "Securely share data with anyone. All data is end-to-end encrypted by the user and will be deleted once retrieved successfully",
     "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "sendent": {
+    "sha256": "d145dbf20faf897ee03cd32e53babde820c5c711f46fb69ba8d1aac504532c15",
+    "url": "https://download.sendent.com/serverapp/1.3.3/sendent.tar.gz",
+    "version": "1.3.3",
+    "description": "Sendent allows you to securely exchange files and emails. Sendent is linked to Microsoft Outlook, so you can continue to work from your trusted email program while you mail more easily and securely. Very useful, for example, to share privacy-sensitive documents or content or to send attachments that are normally too large to email. All files are uploaded to your personal Nextcloud environment from which you determine who has access to them.",
+    "homepage": "https://www.sendent.nl",
     "licenses": [
       "agpl"
     ]
