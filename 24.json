@@ -590,10 +590,10 @@
     ]
   },
   "files_antivirus": {
-    "sha256": "ab09bb7625fe58dad1890c68c77e655b43869d997d5e6a07c72e9150accb1474",
-    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v4.0.3/files_antivirus-v4.0.3.tar.gz",
-    "version": "4.0.3",
-    "description": "Antivirus for files is an antivirus app for Nextcloud.\n\n* 🕵️‍♂️ When the user uploads a file, it's checked\n* ☢️ Uploaded and infected files will be deleted and a notification will be shown and/or sent via email\n* 🔎 Background Job to scan all files\n* ❓ Use ClamAV (open source) or Kaspersky Scan Engine\n\nThis application inspects files that are uploaded to Nextcloud for viruses before they are written to the Nextcloud storage. If a file is identified as a virus, it is either logged or not uploaded to the server. The application relies on the underlying ClamAV virus scanning engine, which the admin points Nextcloud to when configuring the application. Alternatively, a Kaspersky Scan Engine can be configured, which has to run on a separate server.\nFor this app to be effective, the ClamAV virus definitions should be kept up to date. Also note that enabling this app will impact system performance as additional processing is required for every upload. More information is available in the Antivirus documentation.",
+    "sha256": "f1ebd475b8e6fa072482d9a2d24cb9de5f5a6f81374bc08da5d26f66245287f2",
+    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.0.0/files_antivirus-v5.0.0.tar.gz",
+    "version": "5.0.0",
+    "description": "Antivirus for files is an antivirus app for Nextcloud.\n\n* 🕵️‍♂️ When the user uploads a file, it's checked\n* ☢️ Uploaded and infected files will be deleted and a notification will be shown and/or sent via email\n* 🔎 Background Job to scan all files\n* ❓ Use ClamAV (open source), Kaspersky Scan Engine or an ICAP compatible scanner\n\nThis application inspects files that are uploaded to Nextcloud for viruses before they are written to the Nextcloud storage. If a file is identified as a virus, it is either logged or not uploaded to the server. The application relies on the underlying ClamAV virus scanning engine, which the admin points Nextcloud to when configuring the application. Alternatively, a Kaspersky Scan Engine can be configured, which has to run on a separate server.\nFor this app to be effective, the ClamAV virus definitions should be kept up to date. Also note that enabling this app will impact system performance as additional processing is required for every upload. More information is available in the Antivirus documentation.",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -1800,9 +1800,9 @@
     ]
   },
   "richdocumentscode": {
-    "sha256": "1a1de0e2179483f5ad40a0835756fee7e95e9165016955ccfdfbbf3b856e63e0",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/22.5.802/richdocumentscode.tar.gz",
-    "version": "22.5.802",
+    "sha256": "749891dbb15515aac1b1db2ad934248b562d288d943375fdf4a8750fea28a7ed",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/22.5.1301/richdocumentscode.tar.gz",
+    "version": "22.5.1301",
     "description": "This app has to be installed and used together with the **[Collabora Online](https://apps.nextcloud.com/apps/richdocuments)** app.\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\nThis app provides a built-in server with all of the document editing features of Collabora Online. Easy to install, for personal use or for small teams. A bit slower than a standalone server and without the advanced scalability features.\n\nThe download is rather big so it is possible you experience a time-out when using the web interface. You can use the OCC command line tool to install the built-in server:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -1810,9 +1810,9 @@
     ]
   },
   "richdocumentscode_arm64": {
-    "sha256": "f99597011b717dcdc0cf0736f237aca7f06a2a9d7cfaf7342cc9f42bd4c3ff3f",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/22.5.802/richdocumentscode_arm64.tar.gz",
-    "version": "22.5.802",
+    "sha256": "fde6be96967b1c16ad1e2f5a76b15cc2b9fdfa7b8bf96bc9f7486d6d902212a8",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/22.5.1301/richdocumentscode_arm64.tar.gz",
+    "version": "22.5.1301",
     "description": "This app has to be installed and used together with the **[Collabora Online](https://apps.nextcloud.com/apps/richdocuments)** app.\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\nThis app provides a built-in server with all of the document editing features of Collabora Online. Easy to install, for personal use or for small teams. A bit slower than a standalone server and without the advanced scalability features.\n\nThe download is rather big so it is possible you experience a time-out when using the web interface. You can use the OCC command line tool to install the built-in server:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode_arm64\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -2100,9 +2100,9 @@
     ]
   },
   "souvenirs": {
-    "sha256": "8c192c95f8db5b7e2040b1b505581385b01e2342a4cbd1b8cd37277e8e55a016",
-    "url": "https://github.com/zorgluf/souvenirs-nextcloud/releases/download/v1.8.2/souvenirs.tar.gz",
-    "version": "1.8.2",
+    "sha256": "389da3fb74bfee1bcf657a7123bb8e165e33cfd9b9b93976e4d60016d417ab0f",
+    "url": "https://github.com/zorgluf/souvenirs-nextcloud/releases/download/v1.9.0/souvenirs.tar.gz",
+    "version": "1.9.0",
     "description": "View and share albums made by the [Souvenirs android application](https://github.com/zorgluf/souvenirs-android).\n    \\nThis application is just a viewer. No album creation or edition features are available for the moment. You will need to create albums using the android app and sync them to your nextcloud server.",
     "homepage": "https://github.com/zorgluf/souvenirs-nextcloud",
     "licenses": [
