@@ -80,9 +80,9 @@
     ]
   },
   "cadviewer": {
-    "sha256": "0fe01d19c96555d1f91202068fb5d983d727ffcd724c9ca1ac85f180c847fd6b",
-    "url": "https://github.com/CADViewer/NextCloud/releases/download/cv_nextcloud_v8.59.16/cadviewer-v8.59.16.tar.gz",
-    "version": "8.59.16",
+    "sha256": "51675d74a854e52c9bb03b3eb743a70aeb77ad41506d91fbbca2f81521ad9e52",
+    "url": "https://github.com/CADViewer/NextCloud/releases/download/cv_nextcloud_v8.59.18/cadviewer-v8.59.18.tar.gz",
+    "version": "8.59.18",
     "description": "# CADViewer\nCADViewer implements CAD viewing, markup and collaboration on the NextCloud platform for AutoCAD, MicroStation, PDF and advanced raster graphics. Following CADViewer features are available:\n- **AutoCAD**: Support for DWG, DXF and DWF files.\n- **MicroStation**: Support for DGN files.\n- **PDF**: Support for Vector Graphics PDF files. (Use **...** menu)\n- **TIFF**: Support for TIFF format. (Use **...** menu)\n- **PNG, JPG, GIF**: Bitmap support. (Use **...** menu)\n- **SVG**: SVG support. (Use **...** menu)\n- **Annotation**: Full redlining interface of drawings where each user has individually associated redlines.\n- **PDF Collaboration**: Redlines/Annotations on drawings are saved as PDF to the user's *CADViewer-Markup* folder, where the user can then share internally/externally.\n- **Download**: Direct download of SVG or PDF image with/without redlines/annotations.\n- **Printing**: Printing of drawings to printer driver or as PDF.\n- **Measurement**: Global scale matrix preserved in drawing for measurement and calibration methods.\n- **Zoom**: Advanced zoom and pan controls.\n- **Layers**: Retained layer structure for layer management.\n- **Search**: Integrated text search method.\n- **Compare**: Advanced compare of drawings.\n\n## 🌐Online Demo\n- To test the look and feel of [CADViewer](https://cadviewer.com), check out our [Online Demos](https://cadviewer.com/cadviewerdemo/).\n\n## 📦Installation\n1. Install the app from the Nextcloud app store or from CADViewer [GitHub repository](https://github.com/CADViewer/NextCloud/).\n2. Perform the [configuration steps](https://github.com/CADViewer/NextCloud/blob/main/README.md).\n3. **NOTE**: The configuration steps (permission settings for executable, log files, and folders) are needed for the back-end CAD conversion to work properly. Without permission settings, no drawings will display!\n4. Simply open your CAD drawings and start collaborate.. 😄 \n5. If you have any issues displaying drawings, see [troubleshooting](https://github.com/CADViewer/NextCloud/blob/main/README.md) , file an [issue report](https://github.com/CADViewer/NextCloud/issues) or [contact us](mailto:developer@tailormade.com).",
     "homepage": "https://www.cadviewer.com",
     "licenses": [
@@ -539,6 +539,16 @@
       "agpl"
     ]
   },
+  "geoblocker": {
+    "sha256": "4049086e68ba85dae13923c0eed07a8361a7cec8a19c849a1427ae50d91d84f1",
+    "url": "https://github.com/HomeITAdmin/nextcloud_geoblocker/releases/download/0.5.8/geoblocker.tar.gz",
+    "version": "0.5.8",
+    "description": "This is a front end to geo localization services, that allows blocking (beta), delaying (beta) and logging of login attempts from specified countries.\nLogin attempts from local network IP addresses are never blocked, delayed or logged.\nIn the current implementation the login page is normally shown to everybody independent of the country. Also login attempts with a non existing user are failing as usual independent of the country.\nWrong Nextcloud configuration (especially in container) can lead to all access seems to come from local network IP address.\nDetermination of the country from IP address is only as good as the chosen service.\n\nCountries can be specified using allowlisting or blocklisting.\n\nCurrently available localization services are:\n- Geoiplookup (local programm on the host)\n- MaxMind GeoLite2 (local database accessed via PHP API)\n- Data from Regional Internet Registries (Nextcloud SQL database build up with data downloaded from the RIRs FTP servers)\n\nFor help how to set up the localization services please have a look at the GitHub repository (homepage on the right side).",
+    "homepage": "https://github.com/HomeITAdmin/nextcloud_geoblocker/",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "gestion": {
     "sha256": "1bb6f362156cab4650b6fc0ba4b2c5ff8d8d1adfb25ed23306abb12df4d2aa4a",
     "url": "https://github.com/baimard/gestion/releases/download/2.3.3/gestion.tar.gz",
@@ -810,8 +820,8 @@
     ]
   },
   "integration_miro": {
-    "sha256": "61da124edf578dba694b2cde81878400fb4a4f7f00f4375689673e5afee82051",
-    "url": "https://github.com/julien-nc/integration_miro/releases/download/v1.0.0-1-nightly/integration_miro-1.0.0-1-nightly.tar.gz",
+    "sha256": "52700c8ca536f45afbf8b431f92d89d881439b1b3c9b6170c28134167ed8339a",
+    "url": "https://github.com/julien-nc/integration_miro/releases/download/v1.0.0/integration_miro-1.0.0.tar.gz",
     "version": "1.0.0",
     "description": "Miro integration lets users create boards, share board links and open boards directly in Nextcloud.",
     "homepage": "https://github.com/julien-nc/integration_miro",
@@ -950,8 +960,8 @@
     ]
   },
   "integration_zimbra": {
-    "sha256": "e2536f1ba4f928b67a8cf460d07de241655b3f344d3eab6e6ec0918949e74425",
-    "url": "https://github.com/julien-nc/integration_zimbra/releases/download/v1.0.4/integration_zimbra-1.0.4.tar.gz",
+    "sha256": "99fe1e34d9c4d9be9dc627325445fc8598786757635a199c8df1d9d20b0bd946",
+    "url": "https://github.com/julien-nc/integration_zimbra/releases/download/v1.0.4-1-nightly/integration_zimbra-1.0.4-1-nightly.tar.gz",
     "version": "1.0.4",
     "description": "Zimbra integration into Nextcloud provides a dashboard widget for unread emails,\n one for upcoming events, a search provider for emails and the ability to search for Zimbra contacts in Nextcloud.\n\nNextcloud will suggest your Zimbra contacts addresses when you search for a contact via the top-right contacts menu\nor when you search for someone to share a file to.",
     "homepage": "https://github.com/eneiluj/integration_zimbra",
@@ -1080,9 +1090,9 @@
     ]
   },
   "news": {
-    "sha256": "bbc3d14d4d6ad5a2b74890899a0167ff8f43f9800206e3ac9b57a4d1f425f4bf",
-    "url": "https://github.com/nextcloud/news/releases/download/21.2.0-beta2/news.tar.gz",
-    "version": "21.2.0-beta2",
+    "sha256": "b1f513634fafee289849490660e70ad509b1eec57ccfe3dff1b0efd55e664942",
+    "url": "https://github.com/nextcloud/news/releases/download/21.2.0-beta3/news.tar.gz",
+    "version": "21.2.0-beta3",
     "description": "📰 A RSS/Atom Feed reader App for Nextcloud\n\n- 📲 Synchronize your feeds with multiple mobile or desktop [clients](https://nextcloud.github.io/news/clients/)\n- 🔄 Automatic updates of your news feeds\n- 🆓 Free and open source under AGPLv3, no ads or premium functions\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://nextcloud.github.io/news/install/#dependencies)\n\nThe Changelog is available [here](https://github.com/nextcloud/news/blob/master/CHANGELOG.md)\n\nCreate a [bug report](https://github.com/nextcloud/news/issues/new/choose)\n\nCreate a [feature request](https://github.com/nextcloud/news/discussions/new)\n\nReport a [feed issue](https://github.com/nextcloud/news/discussions/new)",
     "homepage": "https://github.com/nextcloud/news",
     "licenses": [
@@ -1460,9 +1470,9 @@
     ]
   },
   "side_menu": {
-    "sha256": "a6523aed8e3cbf59603addb65812415e1ee2ef065a95bd55b6454ac704dbf1de",
-    "url": "https://gitnet.fr/attachments/81533261-902a-4cd8-b938-290e7254556e",
-    "version": "3.7.3",
+    "sha256": "c05513c0f6b572ab06ba1a7f0b7a2310b553d55e45fb9472a9866704b7844a0a",
+    "url": "https://gitnet.fr/attachments/cd5dd50a-56c9-4dcd-a3bb-e04002b99552",
+    "version": "3.7.4",
     "description": "Custom menu allows you to modify the position of the main menu by creating a panel on the left of the interface or with a big menu on the top.\nYou can also define apps that must be displayed in the top menu. Fully customisable.\n\nThis application is rather suitable for instances that activate a lot of applications.\n\nUse the shortcut `Ctrl`+`o` to open and to hide the side menu. Use `tab` to navigate.\n\nYou can customize colors depending of the theme (Dark theme and Breeze Dark).\n\nYou can report a bug or request a feature by opening an issue.\n\nRequirements:\n\n* PHP >= 8.0\n* App `theming` enabled\n\nIf you like this application and if you want to support the development:\n\n* [Buy me a coffee](https://www.buymeacoffee.com/deblan)\n* [Donate with liberapay](https://liberapay.com/deblan)\n* [Leave a comment](https://apps.nextcloud.com/apps/side_menu#comments)\n\nNotice\n------\n\nBecause I believe in a free and decentralized Internet, [Gitnet](https://gitnet.fr) is **self-hosted at home**.\nIn case of downtime, you can download **Custom Menu** from [here](https://kim.deblan.fr/~side_menu/).",
     "homepage": "https://gitnet.fr/deblan/side_menu",
     "licenses": [
