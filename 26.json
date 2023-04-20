@@ -80,9 +80,9 @@
     ]
   },
   "cadviewer": {
-    "sha256": "51675d74a854e52c9bb03b3eb743a70aeb77ad41506d91fbbca2f81521ad9e52",
-    "url": "https://github.com/CADViewer/NextCloud/releases/download/cv_nextcloud_v8.59.18/cadviewer-v8.59.18.tar.gz",
-    "version": "8.59.18",
+    "sha256": "3cd506ae6a80bfa33b0a1b5b0e75ccfac0df9d41c47178fddeb02fbc5f503d59",
+    "url": "https://github.com/CADViewer/NextCloud/releases/download/cv_nextcloud_v8.59.19/cadviewer-v8.59.19.tar.gz",
+    "version": "8.59.19",
     "description": "# CADViewer\nCADViewer implements CAD viewing, markup and collaboration on the NextCloud platform for AutoCAD, MicroStation, PDF and advanced raster graphics. Following CADViewer features are available:\n- **AutoCAD**: Support for DWG, DXF and DWF files.\n- **MicroStation**: Support for DGN files.\n- **PDF**: Support for Vector Graphics PDF files. (Use **...** menu)\n- **TIFF**: Support for TIFF format. (Use **...** menu)\n- **PNG, JPG, GIF**: Bitmap support. (Use **...** menu)\n- **SVG**: SVG support. (Use **...** menu)\n- **Annotation**: Full redlining interface of drawings where each user has individually associated redlines.\n- **PDF Collaboration**: Redlines/Annotations on drawings are saved as PDF to the user's *CADViewer-Markup* folder, where the user can then share internally/externally.\n- **Download**: Direct download of SVG or PDF image with/without redlines/annotations.\n- **Printing**: Printing of drawings to printer driver or as PDF.\n- **Measurement**: Global scale matrix preserved in drawing for measurement and calibration methods.\n- **Zoom**: Advanced zoom and pan controls.\n- **Layers**: Retained layer structure for layer management.\n- **Search**: Integrated text search method.\n- **Compare**: Advanced compare of drawings.\n\n## 🌐Online Demo\n- To test the look and feel of [CADViewer](https://cadviewer.com), check out our [Online Demos](https://cadviewer.com/cadviewerdemo/).\n\n## 📦Installation\n1. Install the app from the Nextcloud app store or from CADViewer [GitHub repository](https://github.com/CADViewer/NextCloud/).\n2. Perform the [configuration steps](https://github.com/CADViewer/NextCloud/blob/main/README.md).\n3. **NOTE**: The configuration steps (permission settings for executable, log files, and folders) are needed for the back-end CAD conversion to work properly. Without permission settings, no drawings will display!\n4. Simply open your CAD drawings and start collaborate.. 😄 \n5. If you have any issues displaying drawings, see [troubleshooting](https://github.com/CADViewer/NextCloud/blob/main/README.md) , file an [issue report](https://github.com/CADViewer/NextCloud/issues) or [contact us](mailto:developer@tailormade.com).",
     "homepage": "https://www.cadviewer.com",
     "licenses": [
@@ -809,6 +809,16 @@
       "agpl"
     ]
   },
+  "integration_homeassistant": {
+    "sha256": "577a6c258ecf4054e5b9fa4cb4b01c2d93dace80fad8e6ac6d023cc64afb3f49",
+    "url": "https://github.com/poulou0/nextcloud-homeassistant-integration/releases/download/v0.02/integration_homeassistant.tar.gz",
+    "version": "0.0.2",
+    "description": "A dashboard widget for a home-assistant instance",
+    "homepage": "https://github.com/poulou0/nextcloud-homeassistant-integration",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "integration_libretranslate": {
     "sha256": "1e2a4dbdc4fda8b36ec01503685182ac1fa1046a4151a4ba029047c876786b65",
     "url": "https://github.com/v1r0x/integration_libretranslate/releases/download/release-v1.1.0-beta1/integration_libretranslate.tar.gz",
@@ -1020,9 +1030,9 @@
     ]
   },
   "mail": {
-    "sha256": "4ace91aa9c92e78dbfd590d6c7175303e8d256abfd52159ad4e86c7b9ece778e",
-    "url": "https://github.com/nextcloud-releases/mail/releases/download/v3.1.0/mail-v3.1.0.tar.gz",
-    "version": "3.1.0",
+    "sha256": "2997f7456440a490b652f37c67655a6ee9ebfc0b44902a895f7cbea80520a2e9",
+    "url": "https://github.com/nextcloud-releases/mail/releases/download/v3.1.1/mail-v3.1.1.tar.gz",
+    "version": "3.1.1",
     "description": "**💌 A mail app for Nextcloud**\n\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://horde.org) libraries.\n- **📬 Want to host your own mail server?** We do not have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!",
     "homepage": "https://github.com/nextcloud/mail#readme",
     "licenses": [
@@ -1050,9 +1060,9 @@
     ]
   },
   "memories": {
-    "sha256": "55f816e5d0e7b2adfdcb7a580f24ca3f2ea034d80791e55b4d71222625180559",
-    "url": "https://github.com/pulsejet/memories/releases/download/v5.0.4/memories.tar.gz",
-    "version": "5.0.4",
+    "sha256": "d96091b04d7e932b203a0152a6745d0c47c6465a726965197e8af4db093c6fd6",
+    "url": "https://github.com/pulsejet/memories/releases/download/v5.0.5/memories.tar.gz",
+    "version": "5.0.5",
     "description": "# Memories: Photo Management for Nextcloud\n\nMemories is a *batteries-included* photo management solution for Nextcloud with advanced features including:\n\n- **📸 Timeline**: Sort photos and videos by date taken, parsed from Exif data.\n- **⏪ Rewind**: Jump to any time in the past instantly and relive your memories.\n- **🤖 AI Tagging**: Group photos by people and objects, powered by [recognize](https://github.com/nextcloud/recognize) and [facerecognition](https://github.com/matiasdelellis/facerecognition).\n- **🖼️ Albums**: Create albums to group photos and videos together. Then share these albums with others.\n- **🫱🏻‍🫲🏻 External Sharing**: Share photos and videos with people outside of your Nextcloud instance.\n- **📱 Mobile Support**: Work from any device, of any shape and size through the web app.\n- **✏️ Edit Metadata**: Edit dates and other metadata on photos quickly and in bulk.\n- **📦 Archive**: Store photos you don't want to see in your timeline in a separate folder.\n- **📹 Video Transcoding**: Transcode videos and use HLS for maximal performance.\n- **🗺️ Map**: View your photos on a map, tagged with accurate reverse geocoding.\n- **📦 Migration**: Migrate easily from Nextcloud Photos and Google Takeout.\n- **⚡️ Performance**: Do all this very fast.\n\n## 🚀 Installation\n\n1. Install the app from the Nextcloud app store (try a demo [here](https://memories-demo.radialapps.com/apps/memories/)).\n1. Perform the recommended [configuration steps](https://github.com/pulsejet/memories/wiki/Configuration).\n1. Run `php occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos.",
     "homepage": "https://github.com/pulsejet/memories",
     "licenses": [
@@ -1290,9 +1300,9 @@
     ]
   },
   "previewgenerator": {
-    "sha256": "c0073a26724b6c6c74181a0f33ef2e8b67f18e47cccbf43840c87fd9c141db9e",
-    "url": "https://github.com/nextcloud-releases/previewgenerator/releases/download/v5.2.2/previewgenerator-v5.2.2.tar.gz",
-    "version": "5.2.2",
+    "sha256": "b01870c594b9f807ae386253784fa69c27eec4c9d1acc289a490e801d2094604",
+    "url": "https://github.com/nextcloud-releases/previewgenerator/releases/download/v5.2.3/previewgenerator-v5.2.3.tar.gz",
+    "version": "5.2.3",
     "description": "The Preview Generator app allows admins to pre-generate previews. The app listens to edit events and stores this information. Once a cron job is triggered it will generate start preview generation. This means that you can better utilize your system by pre-generating previews when your system is normally idle and thus putting less load on your machine when the requests are actually served.\n\nThe app does not replace on demand preview generation so if a preview is requested before it is pre-generated it will still be shown.\nThe first time you install this app, before using a cron job, you properly want to generate all previews via:\n**./occ preview:generate-all -vvv**\n\n**Important**: To enable pre-generation of previews you must add **php /var/www/nextcloud/occ preview:pre-generate** to a system cron job that runs at times of your choosing.",
     "homepage": "https://github.com/nextcloud/previewgenerator",
     "licenses": [
@@ -1810,10 +1820,10 @@
     ]
   },
   "webapppassword": {
-    "sha256": "1536d484c76d1dc9523e716e1d5e60f330a9344c897d332cccc9d1b142558a16",
-    "url": "https://github.com/digital-blueprint/webapppassword/releases/download/v23.3.0/webapppassword.tar.gz",
-    "version": "23.3.0",
-    "description": "Temporary app password generator and WebDAV/CalDAV CORS header injection to be able access the\nNextcloud WebDAV/CalDAV service from inside web applications.\n\nThere is an [example implementation](https://github.com/digital-blueprint/webapppassword/blob/main/docs/example/index.html)\nthat uses this app to generate a temporary password and make a WebDAV request to a Nextcloud instance\n([docker container](https://github.com/digital-blueprint/webapppassword/tree/main/docker) included).\n\nSee [Example](https://github.com/digital-blueprint/webapppassword#example) for a Nextcloud WebDAV file picker example\nthat uses this application.",
+    "sha256": "3827179a33ac62c3ccb4b52e18368e688c45a93a17876682825b8756464b1d6f",
+    "url": "https://github.com/digital-blueprint/webapppassword/releases/download/v23.4.1/webapppassword.tar.gz",
+    "version": "23.4.1",
+    "description": "Temporary app password generator and WebDAV/CalDAV CORS header injection to be able to access the\nNextcloud WebDAV/CalDAV service from inside web applications. There also is a files sharing api endpoint with CORS header injection.\n\nThere is an [example implementation](https://github.com/digital-blueprint/webapppassword/blob/main/docs/example/index.html)\nthat uses this app to generate a temporary password and make a WebDAV request to a Nextcloud instance\n([docker container](https://github.com/digital-blueprint/webapppassword/tree/main/docker) included).\n\nSee [Example](https://github.com/digital-blueprint/webapppassword#example) for a Nextcloud WebDAV file picker example\nthat uses this application.",
     "homepage": "https://github.com/digital-blueprint/webapppassword",
     "licenses": [
       "agpl"
