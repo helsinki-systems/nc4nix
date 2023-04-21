@@ -429,6 +429,16 @@
       "agpl"
     ]
   },
+  "files_markdown": {
+    "sha256": "e121093ed9fa08eea03ee5591082476a6068a7111b02ead63a70b631c9d44fc6",
+    "url": "https://github.com/icewind1991/files_markdown/releases/download/v2.4.0/files_markdown-v2.4.0.tar.gz",
+    "version": "2.4.0",
+    "description": "Markdown Editor extends the Nextcloud text editor with a live preview for markdown files.\n\nA full list of features can be found [in the README](https://github.com/icewind1991/files_markdown)",
+    "homepage": "https://github.com/icewind1991/files_markdown",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "files_notify_redis": {
     "sha256": "bf3ed9ac90e39ed8c0060b04d8139e16c5a7fb4520724ffbbc31c0a06f2f40a4",
     "url": "https://github.com/icewind1991/files_notify_redis/releases/download/v0.2.0/files_notify_redis-v0.2.0.tar.gz",
@@ -1009,6 +1019,26 @@
       "agpl"
     ]
   },
+  "ldap_contacts_backend": {
+    "sha256": "5f91e7ad580234c826a8c2791f9ef39bf458248622be3df06a6c2471b6e84e39",
+    "url": "https://github.com/nextcloud-releases/ldap_contacts_backend/releases/download/v1.6.0/ldap_contacts_backend-v1.6.0.tar.gz",
+    "version": "1.6.0",
+    "description": "Adds a virtual address book and lets import contacts to user&#39;s individual one.\n\n![Copy found LDAP contact to address book](https://raw.githubusercontent.com/nextcloud/ldap_contacts_backend/master/screenshots/contactsmenu-with-action.png)\n\nIn order to configure an LDAP backend, run\n\n``php\nphp occ ldap_contacts:add --interactive $ADDRESSBOOKNAME\n``\n\nWhere $ADDRESSBOOKNAME is a name you like to identify the virtual addressbook with. The interactive mode leads you through the configuration, but you can also use the `--help` flag to see all the options.\n\nGiven that the configuration is correct, you and your users will be able to search through the LDAP contacts via the global contacts menu. An import action allows to copy the contact over to the best fitting existing addressbook. A redirect takes you the contacts app with the newly created card open.",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "ldap_write_support": {
+    "sha256": "f7c0efc1229710ab5253f8193b2c5f73d8fe9d4e179bd1968562bed1cb3a4b1a",
+    "url": "https://github.com/nextcloud-releases/ldap_write_support/releases/download/v1.8.0/ldap_write_support-v1.8.0.tar.gz",
+    "version": "1.8.0",
+    "description": "The write support for LDAP enriches the LDAP backend with capabilities to manage the directory from Nextcloud.\n* create, edit and delete users\n* create, modify memberships and delete groups\n* prevent fallback to the local database backend (optional)\n* auto generate a user id (optional)\n* and more behavioral switches",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "libresign": {
     "sha256": "846ebe133bbd629ef1c964c4e5ceb7875a506e125dc0ee2c9c228b54c7e9650f",
     "url": "https://github.com/LibreSign/libresign/releases/download/v7.1.1/libresign-v7.1.1.tar.gz",
@@ -1100,9 +1130,9 @@
     ]
   },
   "money": {
-    "sha256": "0773f707c88d2c8299217548dca9ca800fc859584d2176c13356017d77b51178",
-    "url": "https://github.com/powerpaul17/nc_money/releases/download/v0.17.0/money.tar.gz",
-    "version": "0.17.0",
+    "sha256": "99e82de533b6aa8031916820d7b02fb6e2b58716ae58040a0b6ecf698eb54a92",
+    "url": "https://github.com/powerpaul17/nc_money/releases/download/v0.18.0/money.tar.gz",
+    "version": "0.18.0",
     "description": "Finance manager for Nextcloud.",
     "homepage": "https://github.com/powerpaul17/nc_money",
     "licenses": [
@@ -1300,9 +1330,9 @@
     ]
   },
   "previewgenerator": {
-    "sha256": "b01870c594b9f807ae386253784fa69c27eec4c9d1acc289a490e801d2094604",
-    "url": "https://github.com/nextcloud-releases/previewgenerator/releases/download/v5.2.3/previewgenerator-v5.2.3.tar.gz",
-    "version": "5.2.3",
+    "sha256": "65e56bb28a250e96b1f714baa04077298ef179b1dda6fe1380ad12541b1e3f59",
+    "url": "https://github.com/nextcloud-releases/previewgenerator/releases/download/v5.2.4/previewgenerator-v5.2.4.tar.gz",
+    "version": "5.2.4",
     "description": "The Preview Generator app allows admins to pre-generate previews. The app listens to edit events and stores this information. Once a cron job is triggered it will generate start preview generation. This means that you can better utilize your system by pre-generating previews when your system is normally idle and thus putting less load on your machine when the requests are actually served.\n\nThe app does not replace on demand preview generation so if a preview is requested before it is pre-generated it will still be shown.\nThe first time you install this app, before using a cron job, you properly want to generate all previews via:\n**./occ preview:generate-all -vvv**\n\n**Important**: To enable pre-generation of previews you must add **php /var/www/nextcloud/occ preview:pre-generate** to a system cron job that runs at times of your choosing.",
     "homepage": "https://github.com/nextcloud/previewgenerator",
     "licenses": [
@@ -1560,9 +1590,9 @@
     ]
   },
   "spreed": {
-    "sha256": "fb00e9e36fd176ad2b2ff7d7886542f57a8cec3b7343a6505a90124a3a573902",
-    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v16.0.2/spreed-v16.0.2.tar.gz",
-    "version": "16.0.2",
+    "sha256": "caeaa1581301ba5905ed19cd616a30eeef7ea564f96069d745c6ba43a969a98b",
+    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v16.0.3/spreed-v16.0.3.tar.gz",
+    "version": "16.0.3",
     "description": "Chat, video & audio-conferencing using WebRTC\n\n* 💬 **Chat integration!** Nextcloud Talk comes with a simple text chat. Allowing you to share files from your Nextcloud and mentioning other participants.\n* 👥 **Private, group, public and password protected calls!** Just invite somebody, a whole group or send a public link to invite to a call.\n* 💻 **Screen sharing!** Share your screen with participants of your call. You just need to use Firefox version 66 (or newer), latest Edge or Chrome 72 (or newer, also possible using Chrome 49 with this [Chrome extension](https://chrome.google.com/webstore/detail/screensharing-for-nextclo/kepnpjhambipllfmgmbapncekcmabkol)).\n* 🚀 **Integration with other Nextcloud apps** like Files, Contacts and Deck. More to come.\n\nAnd in the works for the [coming versions](https://github.com/nextcloud/spreed/milestones/):\n* ✋ [Federated calls](https://github.com/nextcloud/spreed/issues/21), to call people on other Nextclouds",
     "homepage": "https://github.com/nextcloud/spreed",
     "licenses": [
