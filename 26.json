@@ -80,9 +80,9 @@
     ]
   },
   "cadviewer": {
-    "sha256": "3cd506ae6a80bfa33b0a1b5b0e75ccfac0df9d41c47178fddeb02fbc5f503d59",
-    "url": "https://github.com/CADViewer/NextCloud/releases/download/cv_nextcloud_v8.59.19/cadviewer-v8.59.19.tar.gz",
-    "version": "8.59.19",
+    "sha256": "f8b5eec86fe090a11b2085486f4e2be722c26a52e22713f34c7e4addc19eb062",
+    "url": "https://github.com/CADViewer/NextCloud/releases/download/cv_nextcloud_v8.61.2/cadviewer-v8.61.2.tar.gz",
+    "version": "8.61.2",
     "description": "# CADViewer\nCADViewer implements CAD viewing, markup and collaboration on the NextCloud platform for AutoCAD, MicroStation, PDF and advanced raster graphics. Following CADViewer features are available:\n- **AutoCAD**: Support for DWG, DXF and DWF files.\n- **MicroStation**: Support for DGN files.\n- **PDF**: Support for Vector Graphics PDF files. (Use **...** menu)\n- **TIFF**: Support for TIFF format. (Use **...** menu)\n- **PNG, JPG, GIF**: Bitmap support. (Use **...** menu)\n- **SVG**: SVG support. (Use **...** menu)\n- **Annotation**: Full redlining interface of drawings where each user has individually associated redlines.\n- **PDF Collaboration**: Redlines/Annotations on drawings are saved as PDF to the user's *CADViewer-Markup* folder, where the user can then share internally/externally.\n- **Download**: Direct download of SVG or PDF image with/without redlines/annotations.\n- **Printing**: Printing of drawings to printer driver or as PDF.\n- **Measurement**: Global scale matrix preserved in drawing for measurement and calibration methods.\n- **Zoom**: Advanced zoom and pan controls.\n- **Layers**: Retained layer structure for layer management.\n- **Search**: Integrated text search method.\n- **Compare**: Advanced compare of drawings.\n\n## 🌐Online Demo\n- To test the look and feel of [CADViewer](https://cadviewer.com), check out our [Online Demos](https://cadviewer.com/cadviewerdemo/).\n\n## 📦Installation\n1. Install the app from the Nextcloud app store or from CADViewer [GitHub repository](https://github.com/CADViewer/NextCloud/).\n2. Perform the [configuration steps](https://github.com/CADViewer/NextCloud/blob/main/README.md).\n3. **NOTE**: The configuration steps (permission settings for executable, log files, and folders) are needed for the back-end CAD conversion to work properly. Without permission settings, no drawings will display!\n4. Simply open your CAD drawings and start collaborate.. 😄 \n5. If you have any issues displaying drawings, see [troubleshooting](https://github.com/CADViewer/NextCloud/blob/main/README.md) , file an [issue report](https://github.com/CADViewer/NextCloud/issues) or [contact us](mailto:developer@tailormade.com).",
     "homepage": "https://www.cadviewer.com",
     "licenses": [
@@ -1000,8 +1000,8 @@
     ]
   },
   "integration_zimbra": {
-    "sha256": "e2536f1ba4f928b67a8cf460d07de241655b3f344d3eab6e6ec0918949e74425",
-    "url": "https://github.com/julien-nc/integration_zimbra/releases/download/v1.0.4/integration_zimbra-1.0.4.tar.gz",
+    "sha256": "99fe1e34d9c4d9be9dc627325445fc8598786757635a199c8df1d9d20b0bd946",
+    "url": "https://github.com/julien-nc/integration_zimbra/releases/download/v1.0.4-1-nightly/integration_zimbra-1.0.4-1-nightly.tar.gz",
     "version": "1.0.4",
     "description": "Zimbra integration into Nextcloud provides a dashboard widget for unread emails,\n one for upcoming events, a search provider for emails and the ability to search for Zimbra contacts in Nextcloud.\n\nNextcloud will suggest your Zimbra contacts addresses when you search for a contact via the top-right contacts menu\nor when you search for someone to share a file to.",
     "homepage": "https://github.com/eneiluj/integration_zimbra",
@@ -1150,9 +1150,9 @@
     ]
   },
   "news": {
-    "sha256": "b1f513634fafee289849490660e70ad509b1eec57ccfe3dff1b0efd55e664942",
-    "url": "https://github.com/nextcloud/news/releases/download/21.2.0-beta3/news.tar.gz",
-    "version": "21.2.0-beta3",
+    "sha256": "b669fd316fd1048c761f732eadf68fdc1bf8c2d0ed4fa3a0ae6319d5b45cf5da",
+    "url": "https://github.com/nextcloud/news/releases/download/21.2.0-beta4/news.tar.gz",
+    "version": "21.2.0-beta4",
     "description": "📰 A RSS/Atom Feed reader App for Nextcloud\n\n- 📲 Synchronize your feeds with multiple mobile or desktop [clients](https://nextcloud.github.io/news/clients/)\n- 🔄 Automatic updates of your news feeds\n- 🆓 Free and open source under AGPLv3, no ads or premium functions\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://nextcloud.github.io/news/install/#dependencies)\n\nThe Changelog is available [here](https://github.com/nextcloud/news/blob/master/CHANGELOG.md)\n\nCreate a [bug report](https://github.com/nextcloud/news/issues/new/choose)\n\nCreate a [feature request](https://github.com/nextcloud/news/discussions/new)\n\nReport a [feed issue](https://github.com/nextcloud/news/discussions/new)",
     "homepage": "https://github.com/nextcloud/news",
     "licenses": [
@@ -1245,6 +1245,16 @@
     "version": "0.12.0",
     "description": "This app renders the available sitemaps of an Openhab server instance. This allows you to display values from your smart home in Nextcloud.",
     "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "pandoc": {
+    "sha256": "31dcb239531ee893b0f5bbc8e96840f01f79346f4f924f94ee29bb4ca5bbff41",
+    "url": "https://github.com/mejo-/pandoc/releases/download/v0.5.0/pandoc-0.5.0.tar.gz",
+    "version": "0.5.0",
+    "description": "Allows to convert text files from one markup to\n        another using Pandoc. It requires [Pandoc](https://pandoc.org/) to\n        be installed on the Nextcloud host.",
+    "homepage": "https://github.com/mejo-/pandoc",
     "licenses": [
       "agpl"
     ]
