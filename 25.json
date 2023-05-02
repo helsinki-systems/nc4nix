@@ -1130,8 +1130,8 @@
     ]
   },
   "integration_miro": {
-    "sha256": "52700c8ca536f45afbf8b431f92d89d881439b1b3c9b6170c28134167ed8339a",
-    "url": "https://github.com/julien-nc/integration_miro/releases/download/v1.0.0/integration_miro-1.0.0.tar.gz",
+    "sha256": "61da124edf578dba694b2cde81878400fb4a4f7f00f4375689673e5afee82051",
+    "url": "https://github.com/julien-nc/integration_miro/releases/download/v1.0.0-1-nightly/integration_miro-1.0.0-1-nightly.tar.gz",
     "version": "1.0.0",
     "description": "Miro integration lets users create boards, share board links and open boards directly in Nextcloud.",
     "homepage": "https://github.com/julien-nc/integration_miro",
@@ -1539,6 +1539,16 @@
       "agpl"
     ]
   },
+  "otpmanager": {
+    "sha256": "8c7b06eccd463393fad6cf9c1faf95ac390e68ee461aaf5fcfc559a0477bb7bf",
+    "url": "https://github.com/matteo-convertino/otpmanager-nextcloud/releases/download/v0.1.5-beta/otpmanager-0.1.5-beta.tar.gz",
+    "version": "0.1.5-beta",
+    "description": "OTP Manager is useful for those who use two-factor authentication (2FA) and want to manage their OTP codes securely and easily. \nThis application allows you to synchronise your OTP codes with your personal Nextcloud server so that you can access them from any device.\n\n######\n\nWith OTP Manager, you no longer have to worry about losing your OTP codes or not having access to them when you need them. \nAll you have to do is synchronise your app with your Nextcloud server and you will always have your OTP codes at hand, wherever you are.\n\n######\n\nOTP Manager offers the convenient feature of importing OTP codes from Google Authenticator by scanning the QR code. \nThis means you don't have to worry about having to manually enter every single OTP code, but can simply scan the QR code that the Google app generates when exporting \naccounts, and OTP Manager will automatically import your associated accounts.\n\n######\n\nThis way, the migration from Google Authenticator to OTP Manager will be quick and easy, without having to waste time manually resetting all your OTP codes.\n\n######\n\n**Apps & Extensions**\n* [Official Android App](https://play.google.com/store/apps/details?id=com.convertino.otp_manager)",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "ownpad": {
     "sha256": "5a13654439c8962cd956c536c5c60692ce08cf5f50cb2819d5c05ee88be65d06",
     "url": "https://github.com/otetard/ownpad/releases/download/v0.7.1/ownpad.tar.gz",
@@ -1620,11 +1630,11 @@
     ]
   },
   "phonetrack": {
-    "sha256": "fc39a26afa352d0945c334adbf6937c1ff594e9a1926b8ef3c8309fd6e017de9",
-    "url": "https://github.com/julien-nc/phonetrack/releases/download/v0.7.4/phonetrack-0.7.4.tar.gz",
-    "version": "0.7.4",
+    "sha256": "d81dac140a381888e3744cf9d00b36b5b2f8774cccf3bc5a34ea70c489ef2665",
+    "url": "https://github.com/julien-nc/phonetrack/releases/download/v0.7.6/phonetrack-0.7.6.tar.gz",
+    "version": "0.7.6",
     "description": "# PhoneTrack Nextcloud application\n\n📱 PhoneTrack is a Nextcloud application to track and store mobile device's locations.\n\n🗺 It receives information from mobile phone's logging apps and displays it dynamically on a map.\n\n🌍 Help us to translate this app on [PhoneTrack Crowdin project](https://crowdin.com/project/phonetrack).\n\n⚒ Check out other ways to help in the [contribution guidelines](https://gitlab.com/eneiluj/phonetrack-oc/blob/master/CONTRIBUTING.md).\n\nHow to use PhoneTrack :\n\n* Create a tracking session.\n* Give the logging link\\* to the mobile devices. Choose the [logging method](https://gitlab.com/eneiluj/phonetrack-oc/wikis/userdoc#logging-methods) you prefer.\n* Watch the session's devices location in real time (or not) in PhoneTrack or share it with public pages.\n\n(\\*) Don't forget to set the device name in the link (rather than in the logging app settings). Replace \"yourname\" with the desired device name. Setting the device name in logging app settings only works with Owntracks, Traccar and OpenGTS.\n\nOn PhoneTrack main page, while watching a session, you can :\n\n* 📍 Display location history\n* ⛛ Filter points\n* ✎ Manually edit/add/delete points\n* ✎ Edit devices (rename, change colour/shape, move to another session)\n* ⛶ Define geofencing zones for devices\n* ⚇ Define proximity alerts for device pairs\n* 🖧 Share a session to other Nextcloud users or with a public link (read-only)\n* 🔗 Generate public share links with optional restrictions (filters, device name, last positions only, geofencing simplification)\n* 🖫 Import/export a session in GPX format (one file with one track per device or one file per device)\n* 🗠 Display sessions statistics\n* 🔒 [Reserve a device name](https://gitlab.com/eneiluj/phonetrack-oc/wikis/userdoc#device-name-reservation) to make sure only authorised user can log with this name\n* 🗓 Toggle session auto export and auto purge (daily/weekly/monthly)\n* ◔ Choose what to do when point number quota is reached (block logging or delete oldest point)\n\nPublic page and public filtered page work like main page except there is only one session displayed, everything is read-only and there is no need to be logged in.\n\nThis app is tested on Nextcloud 17 with Firefox 57+ and Chromium.\n\nThis app is compatible with theming colours and accessibility themes !\n\nThis app is under development.\n\n## Install\n\nSee the [AdminDoc](https://gitlab.com/eneiluj/phonetrack-oc/wikis/admindoc) for installation details.\n\nCheck [CHANGELOG](https://gitlab.com/eneiluj/phonetrack-oc/blob/master/CHANGELOG.md#change-log) file to see what's new and what's coming in next release.\n\nCheck [AUTHORS](https://gitlab.com/eneiluj/phonetrack-oc/blob/master/AUTHORS.md#authors) file to see complete list of authors.\n\n## Known issues\n\n* PhoneTrack **now works** with Nextcloud group restriction activated. See [admindoc](https://gitlab.com/eneiluj/phonetrack-oc/wikis/admindoc#issue-with-phonetrack-restricted-to-some-groups-in-nextcloud).\n\nAny feedback will be appreciated.\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
-    "homepage": "https://gitlab.com/eneiluj/phonetrack-oc",
+    "homepage": "https://github.com/julien-nc/phonetrack-oc",
     "licenses": [
       "agpl"
     ]
@@ -1870,9 +1880,9 @@
     ]
   },
   "secrets": {
-    "sha256": "dcc58f01ee015bfa7ee23d1259c692a5899a576116821db4b352459ba2397d5a",
-    "url": "https://github.com/theCalcaholic/nextcloud-secrets/releases/download/v1.4.1/secrets.tar.gz",
-    "version": "1.4.1",
+    "sha256": "b3edfdf31fd938be9695191c7ef5faefc0f76c29186550dbabc82e67ccb38d01",
+    "url": "https://github.com/theCalcaholic/nextcloud-secrets/releases/download/v1.4.2/secrets.tar.gz",
+    "version": "1.4.2",
     "description": "Securely share data with anyone. All data is end-to-end encrypted by the user and will be deleted once retrieved successfully",
     "homepage": "",
     "licenses": [
