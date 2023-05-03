@@ -80,10 +80,10 @@
     ]
   },
   "cadviewer": {
-    "sha256": "25ee70be9ac555282cd0be7ba0e04ec0e47a446fdb423c78dcefc592dacfd9bd",
-    "url": "https://github.com/CADViewer/NextCloud/releases/download/cv_nextcloud_v8.61.4/cadviewer-v8.61.4.tar.gz",
-    "version": "8.61.4",
-    "description": "# CADViewer\nCADViewer implements CAD viewing, markup and collaboration on the NextCloud platform for AutoCAD, MicroStation, PDF and advanced raster graphics. Following CADViewer features are available:\n- **AutoCAD**: Support for DWG, DXF and DWF files.\n- **MicroStation**: Support for DGN files.\n- **PDF**: Support for Vector Graphics PDF files. (Use **...** menu)\n- **TIFF**: Support for TIFF format. (Use **...** menu)\n- **PNG, JPG, GIF**: Bitmap support. (Use **...** menu)\n- **SVG**: SVG support. (Use **...** menu)\n- **Annotation**: Full redlining interface of drawings where each user has individually associated redlines.\n- **PDF Collaboration**: Redlines/Annotations on drawings are saved as PDF to the user's *CADViewer-Markup* folder, where the user can then share internally/externally.\n- **Download**: Direct download of SVG or PDF image with/without redlines/annotations.\n- **Printing**: Printing of drawings to printer driver or as PDF.\n- **Measurement**: Global scale matrix preserved in drawing for measurement and calibration methods.\n- **Zoom**: Advanced zoom and pan controls.\n- **Layers**: Retained layer structure for layer management.\n- **Search**: Integrated text search method.\n- **Compare**: Advanced compare of drawings.\n\n## 🌐Online Demo\n- To test the look and feel of [CADViewer](https://cadviewer.com), check out our [Online Demos](https://cadviewer.com/cadviewerdemo/).\n\n## 📦Installation\n1. Install the app from the Nextcloud app store or from CADViewer [GitHub repository](https://github.com/CADViewer/NextCloud/).\n2. Perform the [configuration steps](https://github.com/CADViewer/NextCloud/blob/main/README.md).\n3. **NOTE**: The configuration steps (permission settings for executable, log files, and folders) are needed for the back-end CAD conversion to work properly. Without permission settings, no drawings will display!\n4. Simply open your CAD drawings and start collaborate.. 😄 \n5. If you have any issues displaying drawings, see [troubleshooting](https://github.com/CADViewer/NextCloud/blob/main/README.md) , file an [issue report](https://github.com/CADViewer/NextCloud/issues) or [contact us](mailto:developer@tailormade.com).",
+    "sha256": "2bd0ad5b11fa285cf484cc79cf40a69b6ab85063d7c896d5e6ba02c1fd951c71",
+    "url": "https://github.com/CADViewer/NextCloud/releases/download/cv_nextcloud_v8.63.1/cadviewer-v8.63.1.tar.gz",
+    "version": "8.63.1",
+    "description": "# CADViewer\nCADViewer implements CAD viewing, markup and collaboration on the NextCloud platform for AutoCAD, MicroStation, PDF and advanced raster graphics. Following CADViewer features are available:\n- **AutoCAD**: Support for DWG, DXF and DWF files.\n- **MicroStation**: Support for DGN files.\n- **PDF**: Support for Vector Graphics PDF files. (Use **...** menu)\n- **TIFF**: Support for TIFF format. (Use **...** menu)\n- **PNG, JPG, GIF**: Bitmap support. (Use **...** menu)\n- **SVG**: SVG support. (Use **...** menu)\n- **Annotation**: Full redlining interface of drawings where each user has individually associated redlines.\n- **PDF Collaboration**: Redlines/Annotations on drawings are saved as PDF to the user's *CADViewer-Markup* folder, where the user can then share internally/externally.\n- **Download**: Direct download of SVG or PDF image with/without redlines/annotations.\n- **Printing**: Printing of drawings to printer driver or as PDF.\n- **Measurement**: Global scale matrix preserved in drawing for measurement and calibration methods.\n- **Zoom**: Advanced zoom and pan controls.\n- **Layers**: Retained layer structure for layer management.\n- **Search**: Integrated text search method.\n- **Compare**: Advanced compare of drawings.\n\n## 🌐Online Demo\n- To test the look and feel of [CADViewer](https://cadviewer.com), check out our [Online Demos](https://cadviewer.com/cadviewerdemo/).\n\n## 📦Installation\n1. Install the app from the Nextcloud app store or from CADViewer [GitHub repository](https://github.com/CADViewer/NextCloud/).\n2. Perform the [configuration steps](https://github.com/CADViewer/NextCloud/blob/main/README.md).\n3. **NOTE**: The configuration steps (permission settings for executable, log files, and folders) are needed for the back-end CAD conversion to work properly. Without permission settings, no drawings will display!\n4. Simply open your CAD drawings and start collaborate.. 😄 \n5. If you have any issues displaying drawings, see [troubleshooting](https://github.com/CADViewer/NextCloud/blob/main/README.md) , file an [issue report](https://github.com/CADViewer/NextCloud/issues) or [contact us](mailto:developer@tailormade.com).\n6. Software run with all features enabled, but with small canvas watermarks to discurage redistribution of converted drawings. To remove watermarks, [Contact Us!](https://cadviewer.com/contact/).",
     "homepage": "https://www.cadviewer.com",
     "licenses": [
       "agpl"
@@ -170,9 +170,9 @@
     ]
   },
   "contacts": {
-    "sha256": "d557d9a8b5e66321eb14c21e27f4bc0a7a6a0c88869d75be304ea0abb7c5aeec",
-    "url": "https://github.com/nextcloud-releases/contacts/releases/download/v5.2.0/contacts-v5.2.0.tar.gz",
-    "version": "5.2.0",
+    "sha256": "16fbb6443bba3b37ac66e40d6e08fb5b19dbe5aa91a00f134e16addb05177fd8",
+    "url": "https://github.com/nextcloud-releases/contacts/releases/download/v5.3.0-alpha1/contacts-v5.3.0-alpha1.tar.gz",
+    "version": "5.3.0-alpha.1",
     "description": "The Nextcloud contacts app is a user interface for Nextcloud's CardDAV server. Easily sync contacts from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Currently Mail and Calendar – more to come.\n* 🎉 **Never forget a birthday!** You can sync birthdays and other recurring events with your Nextcloud Calendar.\n* 👥 **Sharing of Adressbooks!** You want to share your contacts with your friends or coworkers? No problem!\n* 🙈 **We’re not reinventing the wheel!** Based on the great and open SabreDAV library.",
     "homepage": "https://github.com/nextcloud/contacts#readme",
     "licenses": [
@@ -399,6 +399,16 @@
       "agpl"
     ]
   },
+  "files_fulltextsearch": {
+    "sha256": "2df65a77a563b9149a93a4f8d097c058897fba2c177997095afac28df0cf4ba6",
+    "url": "https://github.com/nextcloud-releases/files_fulltextsearch/releases/download/26.0.0/files_fulltextsearch-26.0.0.tar.gz",
+    "version": "26.0.0",
+    "description": "Extension to the _Full text search_ app to index your users' files.",
+    "homepage": "https://github.com/nextcloud/files_fulltextsearch",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "files_inotify": {
     "sha256": "36bd8e3b4030be332be847389736fabaecf0c4311c8319981dde741e5ef5222c",
     "url": "https://github.com/icewind1991/files_inotify/releases/download/v0.1.14/files_inotify-v0.1.14.tar.gz",
@@ -559,6 +569,16 @@
       "agpl"
     ]
   },
+  "fulltextsearch": {
+    "sha256": "5c0ff761d8107407effe80476c65a4172f18910ca0671cda42a40242fdca981a",
+    "url": "https://github.com/nextcloud-releases/fulltextsearch/releases/download/26.0.0/fulltextsearch-26.0.0.tar.gz",
+    "version": "26.0.0",
+    "description": "Core App of the full-text search framework for your Nextcloud.",
+    "homepage": "https://github.com/nextcloud/fulltextsearch",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "fulltextsearch_elasticsearch": {
     "sha256": "6a6ec07b418e1cbcbcf6204f73c4483633d39c0baf228130f8c81ebbfcf86b70",
     "url": "https://github.com/nextcloud-releases/fulltextsearch_elasticsearch/releases/download/26.0.0/fulltextsearch_elasticsearch-26.0.0.tar.gz",
@@ -650,9 +670,9 @@
     ]
   },
   "groupfolders": {
-    "sha256": "a422485c37761e81c43bfa5f1dcc82c7a9b081f227ed92e14e0f3f2fb23698ce",
-    "url": "https://github.com/nextcloud-releases/groupfolders/releases/download/v14.0.1/groupfolders-v14.0.1.tar.gz",
-    "version": "14.0.1",
+    "sha256": "8bd39debd104442ef396e534e1d612feb4ea59c84e92d3fd48dc2fc117206341",
+    "url": "https://github.com/nextcloud-releases/groupfolders/releases/download/v14.0.2/groupfolders-v14.0.2.tar.gz",
+    "version": "14.0.2",
     "description": "Admin configured folders shared with everyone in a group.\n\nFolders can be configured from *Group folders* in the admin settings.\n\nAfter a folder is created, the admin can give access to the folder to one or more groups, control their write/sharing permissions and assign a quota for the folder.\n\nNote: Encrypting the contents of group folders is currently not supported.",
     "homepage": "https://github.com/nextcloud/groupfolders",
     "licenses": [
@@ -880,8 +900,8 @@
     ]
   },
   "integration_miro": {
-    "sha256": "61da124edf578dba694b2cde81878400fb4a4f7f00f4375689673e5afee82051",
-    "url": "https://github.com/julien-nc/integration_miro/releases/download/v1.0.0-1-nightly/integration_miro-1.0.0-1-nightly.tar.gz",
+    "sha256": "52700c8ca536f45afbf8b431f92d89d881439b1b3c9b6170c28134167ed8339a",
+    "url": "https://github.com/julien-nc/integration_miro/releases/download/v1.0.0/integration_miro-1.0.0.tar.gz",
     "version": "1.0.0",
     "description": "Miro integration lets users create boards, share board links and open boards directly in Nextcloud.",
     "homepage": "https://github.com/julien-nc/integration_miro",
@@ -1310,9 +1330,9 @@
     ]
   },
   "passman": {
-    "sha256": "0056f23b6e46212bd23b145efa145958c2e3b66fee164c22b6bb080393226633",
-    "url": "https://releases.passman.cc/passman_2.4.4.tar.gz",
-    "version": "2.4.4",
+    "sha256": "c1c471d655041db24124105228e49c1a58ce80733b5697faf4eca626823c4b66",
+    "url": "https://releases.passman.cc/passman_2.4.5.tar.gz",
+    "version": "2.4.5",
     "description": "Passman is a full featured password manager.\nFeatures:\n- Vaults\n- Vault key is never sent to the server\n- Browser extension for easy access to passwords\n- Android app for on the road access\n- Credentials are client side encrypted with 256bit AES\n- Credentials are server side encrypted with 256bit AES\n- Ability to add custom fields to credentials\n- Built-in OTP (One Time Password) generator\n- Password analyzer\n- Share passwords internally and via link in a secure manner.\n- Import from various password managers (KeePass, LastPass, DashLane, ZOHO, Clipperz.is )\nFor an demo of this app visit [https://demo.passman.cc](https://demo.passman.cc)",
     "homepage": "https://demo.passman.cc",
     "licenses": [
