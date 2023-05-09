@@ -90,10 +90,10 @@
     ]
   },
   "cadviewer": {
-    "sha256": "d9d0d7e411b64efc574ee75a4cee1d8a22afd4f86d99feeacc6518f82eac0e84",
-    "url": "https://github.com/CADViewer/NextCloud/releases/download/cv_nextcloud_v8.63.3/cadviewer-v8.63.3.tar.gz",
-    "version": "8.63.3",
-    "description": "# CADViewer\nCADViewer implements CAD viewing, markup and collaboration on the NextCloud platform for AutoCAD, MicroStation, PDF and advanced raster graphics. Following CADViewer features are available:\n- **AutoCAD**: Support for DWG, DXF and DWF files.\n- **MicroStation**: Support for DGN files.\n- **PDF**: Support for Vector Graphics PDF files. (Use **...** menu)\n- **TIFF**: Support for TIFF format. (Use **...** menu)\n- **PNG, JPG, GIF**: Bitmap support. (Use **...** menu)\n- **SVG**: SVG support. (Use **...** menu)\n- **Annotation**: Full redlining interface of drawings where each user has individually associated redlines.\n- **PDF Collaboration**: Redlines/Annotations on drawings are saved as PDF to the user's *CADViewer-Markup* folder, where the user can then share internally/externally.\n- **Download**: Direct download of SVG or PDF image with/without redlines/annotations.\n- **Printing**: Printing of drawings to printer driver or as PDF.\n- **Measurement**: Global scale matrix preserved in drawing for measurement and calibration methods.\n- **Zoom**: Advanced zoom and pan controls.\n- **Layers**: Retained layer structure for layer management.\n- **Search**: Integrated text search method.\n- **Compare**: Advanced compare of drawings.\n\n## 🌐Online Demo\n- To test the look and feel of [CADViewer](https://cadviewer.com), check out our [Online Demos](https://cadviewer.com/cadviewerdemo/).\n\n## 📦Installation\n1. Install the app from the Nextcloud app store or from CADViewer [GitHub repository](https://github.com/CADViewer/NextCloud/).\n2. Perform the [configuration steps](https://github.com/CADViewer/NextCloud/blob/main/README.md).\n3. **NOTE**: The configuration steps (permission settings for executable, log files, and folders) are needed for the back-end CAD conversion to work properly. Without permission settings, no drawings will display!\n4. Simply open your CAD drawings and start collaborate.. 😄 \n5. If you have any issues displaying drawings, see [troubleshooting](https://github.com/CADViewer/NextCloud/blob/main/README.md) , file an [issue report](https://github.com/CADViewer/NextCloud/issues) or [contact us](mailto:developer@tailormade.com).\n6. Software run with all features enabled, but with small canvas watermarks to discurage redistribution of converted drawings. To remove watermarks, [Contact Us!](https://cadviewer.com/contact/).",
+    "sha256": "47372e861372ce41818368fb624e4b41d450bf298040e87a67d832150215d48e",
+    "url": "https://github.com/CADViewer/NextCloud/releases/download/cv_nextcloud_v8.65.2/cadviewer-v8.65.2.tar.gz",
+    "version": "8.65.2",
+    "description": "# CADViewer\nCADViewer implements CAD viewing, markup and collaboration on the NextCloud platform for AutoCAD, MicroStation, PDF and advanced raster graphics. Following CADViewer features are available:\n- **AutoCAD**: Support for DWG, DXF and DWF files.\n- **MicroStation**: Support for DGN files.\n- **PDF**: Support for Vector Graphics PDF files. (Use **...** menu)\n- **TIFF**: Support for TIFF format. (Use **...** menu)\n- **PNG, JPG, GIF**: Bitmap support. (Use **...** menu)\n- **SVG**: SVG support. (Use **...** menu)\n- **Annotation**: Full redlining interface of drawings where each user has individually associated redlines.\n- **PDF Collaboration**: Redlines/Annotations on drawings are saved as PDF to the user's *CADViewer-Markup* folder, where the user can then share internally/externally.\n- **Download**: Direct download of SVG or PDF image with/without redlines/annotations.\n- **Printing**: Printing of drawings to printer driver or as PDF.\n- **Measurement**: Global scale matrix preserved in drawing for measurement and calibration methods.\n- **Zoom**: Advanced zoom and pan controls.\n- **Layers**: Retained layer structure for layer management.\n- **Search**: Integrated text search method.\n- **Compare**: Advanced compare of drawings.\n\n## 🌐Online Demo\n- To test the look and feel of [CADViewer](https://cadviewer.com), check out our [Online Demos](https://cadviewer.com/cadviewerdemo/).\n\n## 📦Installation\n1. Install the app from the Nextcloud app store or from CADViewer [GitHub repository](https://github.com/CADViewer/NextCloud/).\n2. Perform the [configuration steps](https://github.com/CADViewer/NextCloud/blob/main/README.md).\n3. **NOTE**: The configuration steps (possible permission settings for executable, log files, and folders, and .htaccess file modification) are needed for the back-end CAD conversion to work properly. Without check of settings, no drawings will display!\n4. Simply open your CAD drawings and start collaborate.. 😄 \n5. If you have any issues displaying drawings, see [troubleshooting](https://github.com/CADViewer/NextCloud/blob/main/README.md) , file an [issue report](https://github.com/CADViewer/NextCloud/issues) or [contact us](mailto:developer@tailormade.com).\n6. Software run with all features enabled, but with small canvas watermarks to discurage redistribution of converted drawings. To remove watermarks, [Contact Us!](https://cadviewer.com/contact/).",
     "homepage": "https://www.cadviewer.com",
     "licenses": [
       "agpl"
@@ -1309,6 +1309,16 @@
       "agpl"
     ]
   },
+  "oidc_login": {
+    "sha256": "d8e0fff6f12696793cedcc5f0042a0213c278856de8485b9e58fa765a611b740",
+    "url": "https://github.com/pulsejet/nextcloud-oidc-login/releases/download/v2.5.1/oidc_login.tar.gz",
+    "version": "2.5.1",
+    "description": "# OpenID Connect Login\n\nProvides user creation and login via one single OpenID Connect provider. Even though this is a fork of [nextcloud-social-login](https://github.com/zorn-v/nextcloud-social-login), it fundamentally differs in two ways - aims for simplistic, single provider login (and hence is very minimalistic), and it supports having LDAP as the primary user backend. This way, you can use OpenID Connect to login to Nextcloud while maintaining an LDAP backend with attributes with the LDAP plugin.\n\n### Features\n\n- Automatic [Identity provider endpoints discovery](https://openid.net/specs/openid-connect-discovery-1_0.html)\n- User creation at first login\n- User profile update at login (name, email, avatar, groups etc.)\n- Group creation\n- Automatic redirection from the nextcloud login page to the Identity Provider login page\n- WebDAV endpoints `Bearer` and `Basic` authentication",
+    "homepage": "https://github.com/pulsejet/nextcloud-single-openid-connect",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "onlyoffice": {
     "sha256": "3a2018d5bff59d6f2329b5895a6a9bd36ec4e23e85c79612c4d4e88810fc34a0",
     "url": "https://github.com/ONLYOFFICE/onlyoffice-nextcloud/releases/download/v7.8.0/onlyoffice.tar.gz",
@@ -1410,9 +1420,9 @@
     ]
   },
   "polls": {
-    "sha256": "d37c03a6a23b537cb1c02901b4e9eea5218a48ab0ab9f0d6dc572294161ea413",
-    "url": "https://github.com/nextcloud/polls/releases/download/v5.0.4/polls.tar.gz",
-    "version": "5.0.4",
+    "sha256": "00386f9c59812f77f426adebf7d51c7f887c0066105a82e7a507b83b0968a1e9",
+    "url": "https://github.com/nextcloud/polls/releases/download/v5.0.5/polls.tar.gz",
+    "version": "5.0.5",
     "description": "A polls app, similar to Doodle/Dudle with the possibility to restrict access (members, certain groups/users, hidden and public).",
     "homepage": "https://github.com/nextcloud/polls",
     "licenses": [
@@ -1945,6 +1955,16 @@
     "version": "1.3.2",
     "description": "Allows flexible configuration of an OIDC server as Nextcloud login user backend.",
     "homepage": "https://github.com/nextcloud/user_oidc",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "user_pwauth": {
+    "sha256": "3dd8014661e708699772ed32108d15be1e3491c9c4843af31d38c9b1d2305702",
+    "url": "https://r.mateu.be/user_pwauth-2.7.4.tar.gz",
+    "version": "2.7.4",
+    "description": "Allows you to authenticate with the local users from the hosting machine onto your hosted NextCloud instance.",
+    "homepage": "",
     "licenses": [
       "agpl"
     ]
