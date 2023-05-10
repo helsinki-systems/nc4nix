@@ -30,9 +30,9 @@
     ]
   },
   "appointments": {
-    "sha256": "0a7a8b1a1f91891872ebcaaf2fe20f1ed1d7aa7d17f843b180c7854131635608",
-    "url": "https://github.com/SergeyMosin/Appointments/raw/v1.14.14/build/artifacts/appstore/appointments.tar.gz",
-    "version": "1.14.14",
+    "sha256": "363023ab2219a0658480061baf7c0a510db745a81a40896aa18fc518dc57d928",
+    "url": "https://github.com/SergeyMosin/Appointments/raw/v1.15.0/build/artifacts/appstore/appointments.tar.gz",
+    "version": "1.15.0",
     "description": "Book appointments into your calendar via secure online form. Attendees can confirm or cancel their appointments via an email link.",
     "homepage": "https://www.srgdev.com/lab/nextcloud-appointments/",
     "licenses": [
@@ -950,9 +950,9 @@
     ]
   },
   "integration_openai": {
-    "sha256": "9411a2f3584993724cc236b2e70d7f3195b0c132dc03297bf296d0f81940fc78",
-    "url": "https://github.com/nextcloud-releases/integration_openai/releases/download/v1.0.5/integration_openai-v1.0.5.tar.gz",
-    "version": "1.0.5",
+    "sha256": "38e187c9c2e8b0429636346e49eeb21adf5d4494ed21ae948b1fe6aae6e34be2",
+    "url": "https://github.com/nextcloud-releases/integration_openai/releases/download/v1.0.6/integration_openai-v1.0.6.tar.gz",
+    "version": "1.0.6",
     "description": "OpenAI integration provides a link reference provider to get\nOpenAI text prediction (with many models including GPT-3) and generate DALL·E 2 images.",
     "homepage": "https://github.com/julien-nc/integration_openai",
     "licenses": [
@@ -1000,9 +1000,9 @@
     ]
   },
   "integration_replicate": {
-    "sha256": "7baee79948698bab4f75be587821e99073ade030415705deadf518686748a595",
-    "url": "https://github.com/julien-nc/integration_replicate/releases/download/v1.0.3/integration_replicate-1.0.3.tar.gz",
-    "version": "1.0.3",
+    "sha256": "82ac3533f9b108ec036c8ebdf264753c1a0f23d67980ad9438d4deb6d413de92",
+    "url": "https://github.com/nextcloud-releases/integration_replicate/releases/download/v1.0.5/integration_replicate-v1.0.5.tar.gz",
+    "version": "1.0.5",
     "description": "Replicate integration provides a link reference provider for\n    Whisper translation/transcription and stable diffusion image prediction.",
     "homepage": "https://github.com/julien-nc/integration_replicate",
     "licenses": [
@@ -1569,6 +1569,16 @@
       "agpl"
     ]
   },
+  "sciencemesh": {
+    "sha256": "62ec4742350cf1a09d9baeb5a29a8a6b5891b784bd882d54e7ceae1b27d72345",
+    "url": "https://github.com/pondersource/nc-sciencemesh/raw/sciencemesh/release/sciencemesh.tar.gz",
+    "version": "0.3.1",
+    "description": "Connect your Nextcloud instance to your Reva instance and the Science Mesh",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "secrets": {
     "sha256": "b3edfdf31fd938be9695191c7ef5faefc0f76c29186550dbabc82e67ccb38d01",
     "url": "https://github.com/theCalcaholic/nextcloud-secrets/releases/download/v1.4.2/secrets.tar.gz",
@@ -1655,6 +1665,16 @@
     "version": "0.3.6",
     "description": "Nextcloud app to debug smb connections",
     "homepage": "https://github.com/icewind1991/smb_test",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "sms_relentless": {
+    "sha256": "98b4056f14eafe270e3c76c8706f1963d5ed6fcd196891e3f4062e4b7530ac16",
+    "url": "https://git.doublebastion.com/releases/sms-relentless/1.1.9/sms_relentless.tar.gz",
+    "version": "1.1.9",
+    "description": "This application allows sending and receiving SMS and MMS messages in Nextcloud. An SMS/MMS enabled phone number acquired from \nTelnyx or Plivo or Twilio or Flowroute is needed. The 'libcurl' PHP library has to be installed on the server. Detailed instructions \non how to configure and use this application can be found on the 'Admin documentation' page.\n\n### Features:\n\n* 🚀 Use one or multiple local phone numbers in countries of your choice, to send and receive SMS/MMS messages with your browser, on any device connected to the Internet.\n\n* 📑 Sent and received SMS/MMS messages are stored in the database per sending/receiving user and can be viewed in paginated tables with filters for every column.\n\n* 🖼️  Up to 10 files of various formats, including jpeg, png and gif, can be sent as MMS messages from MMS enabled phone numbers. Files included in incoming MMS messages are not downloaded automatically. They are stored as URL links to the actual files, so that the receivers can download them only if they trust the senders.\n\n* 📔 SMS/MMS messages older than a specified number of days can be deleted in bulk with one click and they are automatically archived in csv files stored in Nextcloud, before being removed from the database. This makes them available for future analysis.\n\n* 💻 Sending SMS/MMS messages to thousands of recipients can be achieved by uploading a txt/csv file containing the recipients' phone numbers and the same SMS/MMS is sent automatically to all. The time interval between two consecutive messages is configurable.\n\n* 👤 If messages are sent by Nextcloud users from phone numbers mentioned in their profiles, their Display Names appear before their messages.\n\n* ⚠️  Admins can restrict the use of specific phone numbers to specific groups or users.\n\n* ✉️  Auto-replies in 'daily mode' and 'vacation mode' can be configured for any controlled phone number.\n\n* 🔏 SMS/MMS messages coming from Telnyx, Plivo and Twilio are checked for authenticity by verifying the SMS provider's signature.\n\n* 📧 Users receive notifications in Nextcloud and (optionally) emails when new SMS/MMS messages arrive.\n\n* 📄 Each sent message receives a delivery receipt displayed in the Sent SMS Messages table.\n\n* 📱 It works with regular 'long code' (10-digit) phone numbers, but also with 'toll-free' numbers and 'short codes'. Users see a list with their current phone numbers and can set them as Sender IDs. Setting alphanumeric Sender IDs is also possible. \n\n* 💵 It allows checking the current Telnyx/Plivo/Twilio balance by selecting the provider on the left panel.\n\n* 💰 The only ongoing cost is about $1 per month (depending on the country) for an SMS/MMS enabled phone number located in a country chosen by the user. No contracts.\n\n* 💸 Low prices per SMS: starting from $0.0060 per sent message and $0.0040 per received message (Telnyx), or $0.0070 per sent message and $0 per received message (Plivo), or $0.0099 per sent message and 0.0079 per received message (Twilio), or $0.0055 per sent message and 0.0040 per received message (Flowroute) in the USA.\n\nWe have no affiliation with Telnyx, Plivo, Twilio or Flowroute.\n\n### Documentation\n\n* [Admin documentation](https://www.doublebastion.com/install-nextcloud/#install-sms-relentless)\n\n### Donations\n\n* 🎁 [Donate](https://www.doublebastion.com/donations/)",
+    "homepage": "https://www.doublebastion.com/sms-relentless/",
     "licenses": [
       "agpl"
     ]
