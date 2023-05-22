@@ -109,6 +109,16 @@
       "agpl"
     ]
   },
+  "calendar_news": {
+    "sha256": "c93e69b8c8f35af8485c7675a3f2cd4a5ebf61995d0cee4774d19f405354e953",
+    "url": "https://github.com/mziech/nextcloud-calendar-news/releases/download/v1.1.7/calendar_news.tar.gz",
+    "version": "1.1.7",
+    "description": "This generates a scheduled e-mail newsletter based on calendar events.\n\nThe administrator can freely configure the sections of the newsletter.\nThe following section types are supported:\n* Static headline\n* Static text paragraph\n* List of calendar entries of calendars accessible to the administrator\n\nFor each calendar, the relative timespan can be configured and the list entries can be formatted using a simple placeholder-language.",
+    "homepage": "https://github.com/mziech/nextcloud-calendar-news",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "calendar_resource_management": {
     "sha256": "b9b6e9b14003584e68eb2384b6c0a5d86c8c29ba5520a61ee80938b4fdeb11d2",
     "url": "https://github.com/nextcloud-releases/calendar_resource_management/releases/download/v0.5.0/calendar_resource_management-v0.5.0.tar.gz",
@@ -1530,9 +1540,9 @@
     ]
   },
   "recognize": {
-    "sha256": "14295acf3c700732363e126305ac27ccefdc0394a482b78eda80adaee1a121e8",
-    "url": "https://github.com/nextcloud/recognize/releases/download/v4.0.1/recognize-4.0.1.tar.gz",
-    "version": "4.0.1",
+    "sha256": "6238d3789f14be3585516e6c5390fb70a1db4e5ea78f7c2244da67a48023353f",
+    "url": "https://github.com/nextcloud/recognize/releases/download/v4.1.0/recognize-4.1.0.tar.gz",
+    "version": "4.1.0",
     "description": "This app goes through your media collection and adds fitting tags, automatically categorizing your photos and music.\n\n* 📷 👪 Recognizes faces from contact photos\n* 📷 🏔 Recognizes animals, landscapes, food, vehicles, buildings and other objects\n* 📷 🗼 Recognizes landmarks and monuments\n* 👂 🎵 Recognizes music genres\n* ⚡ Tagging works via Nextcloud's Collaborative Tags, allowing access by any of your apps\n  * 👂 listen to your tagged music with the audioplayer app\n  * 📷 view your tagged photos with the photos app\n\nAfter installation, you can enable tagging in the admin settings.\n\nRequirements:\n- php 7.4 and above\n- App \"collaborative tags\" enabled\n- For native speed:\n  - Processor: x86 64-bit (with support for AVX instructions)\n  - System with glibc (usually the norm on Linux; FreeBSD, Alpine linux and thus also the official Nextcloud Docker container and Nextcloud AIO are *not* such systems)\n- For sub-native speed (using WASM mode)\n  - Processor: x86 64-bit, arm64, armv7l (no AVX needed)\n  - System with glibc or musl (incl. Alpine linux and thus also the official Nextcloud Docker container and also Nextcloud AIO)\n- ~4GB of free RAM (if you're cutting it close, make sure you have some swap available)\n- This app is currently incompatible with the *Suspicious Login* app due to a dependency conflict (ie. you can only have one of the two installed)\n\nThe app does not send any sensitive data to cloud providers or similar services. All processing is done on your Nextcloud machine, using Tensorflow.js running in Node.js.",
     "homepage": "https://github.com/marcelklehr/recognize",
     "licenses": [
