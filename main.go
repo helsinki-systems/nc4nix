@@ -176,7 +176,7 @@ func update(v string) {
 		latestVer, _ := version.NewVersion("0")
 		for _, rel := range a.Releases {
 			ver, _ := version.NewVersion(rel.Version)
-			if ver.GreaterThan(latestVer) {
+			if ver.GreaterThan(latestVer) && len(ver.Prerelease()) == 0 {
 				latestVer = ver
 				na.Version = ver.String()
 				na.Url = rel.Download
