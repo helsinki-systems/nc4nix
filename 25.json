@@ -520,9 +520,9 @@
     ]
   },
   "files_antivirus": {
-    "sha256": "f1ebd475b8e6fa072482d9a2d24cb9de5f5a6f81374bc08da5d26f66245287f2",
-    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.0.0/files_antivirus-v5.0.0.tar.gz",
-    "version": "5.0.0",
+    "sha256": "e123bb8d94017620d271321d9333700a65a098c33ffc778ee5e57a3660b7f08f",
+    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.1.0/files_antivirus-v5.1.0.tar.gz",
+    "version": "5.1.0",
     "description": "Antivirus for files is an antivirus app for Nextcloud.\n\n* 🕵️‍♂️ When the user uploads a file, it's checked\n* ☢️ Uploaded and infected files will be deleted and a notification will be shown and/or sent via email\n* 🔎 Background Job to scan all files\n* ❓ Use ClamAV (open source), Kaspersky Scan Engine or an ICAP compatible scanner\n\nThis application inspects files that are uploaded to Nextcloud for viruses before they are written to the Nextcloud storage. If a file is identified as a virus, it is either logged or not uploaded to the server. The application relies on the underlying ClamAV virus scanning engine, which the admin points Nextcloud to when configuring the application. Alternatively, a Kaspersky Scan Engine can be configured, which has to run on a separate server.\nFor this app to be effective, the ClamAV virus definitions should be kept up to date. Also note that enabling this app will impact system performance as additional processing is required for every upload. More information is available in the Antivirus documentation.",
     "homepage": "",
     "licenses": [
@@ -620,9 +620,9 @@
     ]
   },
   "files_inotify": {
-    "sha256": "36bd8e3b4030be332be847389736fabaecf0c4311c8319981dde741e5ef5222c",
-    "url": "https://github.com/icewind1991/files_inotify/releases/download/v0.1.14/files_inotify-v0.1.14.tar.gz",
-    "version": "0.1.14",
+    "sha256": "783de8c7e103f3797306d28dae88c97cc411423e11be37dcf87d6e2c5131326b",
+    "url": "https://github.com/icewind1991/files_inotify/releases/download/v0.1.15/files_inotify-v0.1.15.tar.gz",
+    "version": "0.1.15",
     "description": "Adds support detecting changes in local external storages with\nocc files_external:notify.\n\nNote that there are scalability limitations to using `inotify` on large folder structures, see the [README](https://github.com/icewind1991/files_inotify/blob/master/README.md) for more information",
     "homepage": "https://github.com/icewind1991/files_inotify",
     "licenses": [
