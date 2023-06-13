@@ -130,9 +130,9 @@
     ]
   },
   "calendar": {
-    "sha256": "43b2180e87e1e86d8f59099f236b3bf4d8c527e978fc71907018994b2a00d12d",
-    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v4.4.1/calendar-v4.4.1.tar.gz",
-    "version": "4.4.1",
+    "sha256": "12a558c52473cdfc7e9560fbc6916c834cf62f3d2015c0b44d9678c16b2b439e",
+    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v4.4.2/calendar-v4.4.2.tar.gz",
+    "version": "4.4.2",
     "description": "The Calendar app is a user interface for Nextcloud's CalDAV server. Easily sync events from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Currently Contacts - more to come.\n* 🌐 **WebCal Support!** Want to see your favorite team’s matchdays in your calendar? No problem!\n* 🙋 **Attendees!** Invite people to your events\n* ⌚️ **Free/Busy!** See when your attendees are available to meet\n* ⏰ **Reminders!** Get alarms for events inside your browser and via email\n* 🔍 Search! Find your events at ease\n* ☑️ Tasks! See tasks with a due date directly in the calendar\n* 🙈 **We’re not reinventing the wheel!** Based on the great [c-dav library](https://github.com/nextcloud/cdav-library), [ical.js](https://github.com/mozilla-comm/ical.js) and [fullcalendar](https://github.com/fullcalendar/fullcalendar) libraries.",
     "homepage": "https://github.com/nextcloud/calendar/",
     "licenses": [
@@ -1128,8 +1128,8 @@
     ]
   },
   "integration_miro": {
-    "sha256": "52700c8ca536f45afbf8b431f92d89d881439b1b3c9b6170c28134167ed8339a",
-    "url": "https://github.com/julien-nc/integration_miro/releases/download/v1.0.0/integration_miro-1.0.0.tar.gz",
+    "sha256": "61da124edf578dba694b2cde81878400fb4a4f7f00f4375689673e5afee82051",
+    "url": "https://github.com/julien-nc/integration_miro/releases/download/v1.0.0-1-nightly/integration_miro-1.0.0-1-nightly.tar.gz",
     "version": "1.0.0",
     "description": "Miro integration lets users create boards, share board links and open boards directly in Nextcloud.",
     "homepage": "https://github.com/julien-nc/integration_miro",
@@ -1438,9 +1438,9 @@
     ]
   },
   "notes": {
-    "sha256": "85b6f781547bab94772326e869c41b8c8443c7d05dc2a6e520acafd8e262aa0b",
-    "url": "https://github.com/nextcloud-releases/notes/releases/download/v4.7.2/notes.tar.gz",
-    "version": "4.7.2",
+    "sha256": "66108eefe62788d022bd360de9517f2d33026649998a777abed7fc5f7248a6fd",
+    "url": "https://github.com/nextcloud-releases/notes/releases/download/v4.8.0/notes.tar.gz",
+    "version": "4.8.0",
     "description": "The Notes app is a distraction free notes taking app for [Nextcloud](https://www.nextcloud.com/). It provides categories for better organization and supports formatting using [Markdown](https://en.wikipedia.org/wiki/Markdown) syntax. Notes are saved as files in your Nextcloud, so you can view and edit them with every Nextcloud client. Furthermore, a separate [REST API](https://github.com/nextcloud/notes/blob/master/docs/api/README.md) allows for an easy integration into third-party apps (currently, there are notes apps for [Android](https://github.com/nextcloud/notes-android), [iOS](https://github.com/nextcloud/notes-ios) and the [console](https://git.danielmoch.com/nncli/about) which allow convenient access to your Nextcloud notes). Further features include marking notes as favorites.",
     "homepage": "https://github.com/nextcloud/notes",
     "licenses": [
@@ -1806,9 +1806,9 @@
     ]
   },
   "richdocumentscode": {
-    "sha256": "749891dbb15515aac1b1db2ad934248b562d288d943375fdf4a8750fea28a7ed",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/22.5.1301/richdocumentscode.tar.gz",
-    "version": "22.5.1301",
+    "sha256": "ab131a367e1c427c19c3dc2edd657d219645b6a6cd5ec2bba7bd0582252ea57d",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.5/richdocumentscode.tar.gz",
+    "version": "23.5.5",
     "description": "This app has to be installed and used together with the **[Collabora Online](https://apps.nextcloud.com/apps/richdocuments)** app.\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\nThis app provides a built-in server with all of the document editing features of Collabora Online. Easy to install, for personal use or for small teams. A bit slower than a standalone server and without the advanced scalability features.\n\nThe download is rather big so it is possible you experience a time-out when using the web interface. You can use the OCC command line tool to install the built-in server:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -1816,9 +1816,9 @@
     ]
   },
   "richdocumentscode_arm64": {
-    "sha256": "fde6be96967b1c16ad1e2f5a76b15cc2b9fdfa7b8bf96bc9f7486d6d902212a8",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/22.5.1301/richdocumentscode_arm64.tar.gz",
-    "version": "22.5.1301",
+    "sha256": "77ad5735856305a5da3564fb6f37841f54984b40e3500c34f2b5084b72758f00",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.5/richdocumentscode_arm64.tar.gz",
+    "version": "23.5.5",
     "description": "This app has to be installed and used together with the **[Collabora Online](https://apps.nextcloud.com/apps/richdocuments)** app.\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\nThis app provides a built-in server with all of the document editing features of Collabora Online. Easy to install, for personal use or for small teams. A bit slower than a standalone server and without the advanced scalability features.\n\nThe download is rather big so it is possible you experience a time-out when using the web interface. You can use the OCC command line tool to install the built-in server:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode_arm64\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -2144,9 +2144,9 @@
     ]
   },
   "tables": {
-    "sha256": "e993e6537b67117ab98051e08e0a386e4cb1ab33909ba976ae1d65b409e7b7c2",
-    "url": "https://github.com/nextcloud-releases/tables/releases/download/v0.5.0/tables.tar.gz",
-    "version": "0.5.0",
+    "sha256": "d88551cc99c3982abe3c48f5eb6c64194781f7358090599b42eb9b115b85a802",
+    "url": "https://github.com/nextcloud-releases/tables/releases/download/v0.5.1/tables.tar.gz",
+    "version": "0.5.1",
     "description": "Manage data the way you need it.\n\nWith this app you are able to create your own tables with individual columns. You can start with a template or from scratch and add your wanted columns.\nYou can choose from the following column types:\n- Text line or rich text\n- Link\n- Number\n- Progress bar\n- Stars rating\n- Yes/No tick\n- Date and/or time\n- (Multi) selection\n\nShare your tables with users and groups within your cloud.\n\nHave a good time and manage whatever you want.",
     "homepage": "https://github.com/nextcloud/tables",
     "licenses": [
