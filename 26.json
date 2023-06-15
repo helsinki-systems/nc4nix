@@ -220,9 +220,9 @@
     ]
   },
   "contacts": {
-    "sha256": "47a6f7eee46ec5b7eaad0a1b1db74816d9fa8bc37c226eec1ad1d210580afb94",
-    "url": "https://github.com/nextcloud-releases/contacts/releases/download/v5.3.0/contacts-v5.3.0.tar.gz",
-    "version": "5.3.0",
+    "sha256": "ff18783f818348c6c88db27697ecb873a17a7e34ce03c3b9e91ae3f365931d19",
+    "url": "https://github.com/nextcloud-releases/contacts/releases/download/V5.3.1/contacts-V5.3.1.tar.gz",
+    "version": "5.3.1",
     "description": "The Nextcloud contacts app is a user interface for Nextcloud's CardDAV server. Easily sync contacts from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Currently Mail and Calendar – more to come.\n* 🎉 **Never forget a birthday!** You can sync birthdays and other recurring events with your Nextcloud Calendar.\n* 👥 **Sharing of Adressbooks!** You want to share your contacts with your friends or coworkers? No problem!\n* 🙈 **We’re not reinventing the wheel!** Based on the great and open SabreDAV library.",
     "homepage": "https://github.com/nextcloud/contacts#readme",
     "licenses": [
@@ -310,9 +310,9 @@
     ]
   },
   "eidlogin": {
-    "sha256": "5f6c3a583911b4fdc82af2b007bc7002d51e4621b6bdb06220a5bd47ce53db6e",
-    "url": "https://github.com/eid-login/eid-login-nextcloud/releases/download/1.0.12/eidlogin.tar.gz",
-    "version": "1.0.12",
+    "sha256": "e2c16b7e8a55087c96d4394f3cdf5d1a24102a93726eb274cc4368a0da3feff4",
+    "url": "https://github.com/eid-login/eid-login-nextcloud/releases/download/1.0.13/eidlogin.tar.gz",
+    "version": "1.0.13",
     "description": "The eID-Login App allows to use the German eID-card and similar electronic identity documents for secure and privacy-friendly login to Nextcloud. For this purpose, a so-called eID-Client, such as the AusweisApp2 or the Open eCard App and eID-Service are required. In the default configuration a suitable eID-Service is provided without any additional costs.",
     "homepage": "https://eID.services/eidlogin/nextcloud",
     "licenses": [
@@ -320,10 +320,10 @@
     ]
   },
   "electronicsignatures": {
-    "sha256": "6933a4f0942a1aa8a98af42c0145d258eb01d161e1f586185f03e0cbf0c4333c",
-    "url": "https://github.com/eideasy/nextcloud-electronic-signatures-plugin/releases/download/v2.0.4/v2.0.4.tar.gz",
-    "version": "2.0.4",
-    "description": "# Features\n- 🔒🔒 Accept Qualified Electronic Signatures (QES - strongest legal value) in PDF or ASICE formats\n- 🔒 Accept Simple Electronic Signatures (email based signature - simple to sign)\n\nCurrently, this app enables the user to gather a single signature onto an existing file:\n1. Pick a file which you want signed by another person\n2. Select \"Signing\" in the file's dropdown menu\n3. Enter the signer's email address\n4. The signer receives a link on their e-mail\n5. They sign the document\n6. The signed document appears in your Nextcloud instance, next to the original file\n\n# Built on top of eID Easy\nThe app uses [eID Easy](https://eideasy.com) as its signing back-end. eID Easy handles the signing process. Refer to [eID Easy's pricing](https://eideasy.com/pricing/) to see the cost of each signing method.\n\n### Get €10 to try out eID Easy\nFor limited time only, we're offering €10 of credit that you can spend to try out all the eID Easy signing services.\n\nWrite to support@eideasy.com to claim this offer.\n\n# Two levels of electronic signatures\n*Qualified Electronic Signature* - the strongest kind of electronic signature. The signer's identity and approval is linked to the file contents and a timestamp by cryptographic means. The signing time and the document's integrity can be verified to ensure that the document has not been tampered with after signing.\n\nWith QES, you can opt to only send the file hashes to eID Easy. This way, the actual content of your files is never exposed to a third party.\n\n*Simple Electronic Signature* - the simplest kind of electronic signature. eID Easy sends a unique link to the signer's e-mail. The signer opens the link, reviews the file and confirms their approval. A visual signature is added to the file. eId Easy adds a cryptographic e-seal to the file, to ensure that it cannot be modified after signing.\n\nWith Simple Electronic Signatures, the contents of your file need to be sent to eID Easy. This provides legal value to the signature, as we can state with certainty that the signer had the opportunity to review the file they were signing.\n\n# Pricing\nSee [https://eideasy.com/pricing](https://eideasy.com/pricing) for pricing information.\n\n# Feedback is welcome\nAre you not seeing your preferred signature card / signing app / other QES method? Are we not quite covering your use case? Let us know at support@eideasy.com\n\n# Documentation\n\n## Set up\n1. Install and enable the \"Electronic Signatures\" app.\n2. In Nextcloud, on the blue top-bar, click on your profile picture.\n3. A dropdown menu opens, click on \"Settings\".\n4. On the left sidebar, click on \"Electronic Signatures\".\n5. Follow the instructions there to configure your eID Easy credentials.\n\n[CHANGELOG](https://github.com/eideasy/nextcloud-electronic-signatures-plugin/blob/master/CHANGELOG.md)",
+    "sha256": "d0bf23f38e756a4e7ea00294f5215fdb78c1074b327e8881086c85739ff78558",
+    "url": "https://github.com/eideasy/nextcloud-electronic-signatures-plugin/releases/download/v2.0.5/v2.0.5.tar.gz",
+    "version": "2.0.5",
+    "description": "# Features\n- 🔒🔒 Accept Qualified Electronic Signatures (QES - strongest legal value) in PDF or ASICE formats\n- 🔒 Accept Simple Electronic Signatures (email based signature - simple to sign)\n\nCurrently, this app enables the user to gather a single signature onto an existing file:\n1. Pick a file which you want signed by another person\n2. Select \"Signing\" in the file's dropdown menu\n3. Enter the signer's email address\n4. The signer receives a link on their e-mail\n5. They sign the document\n6. The signed document appears in your Nextcloud instance, next to the original file\n\n# Built on top of eID Easy\nThe app uses [eID Easy](https://eideasy.com) as its signing back-end. eID Easy handles the signing process. Refer to [eID Easy's pricing](https://eideasy.com/pricing/) to see the cost of each signing method.\n\n### Get €10 to try out eID Easy\nFor limited time only, we're offering €10 of credit that you can spend to try out all the eID Easy signing services.\n\nWrite to info@eideasy.com to claim this offer.\n\n# Two levels of electronic signatures\n*Qualified Electronic Signature* - the strongest kind of electronic signature. The signer's identity and approval is linked to the file contents and a timestamp by cryptographic means. The signing time and the document's integrity can be verified to ensure that the document has not been tampered with after signing.\n\nWith QES, you can opt to only send the file hashes to eID Easy. This way, the actual content of your files is never exposed to a third party.\n\n*Simple Electronic Signature* - the simplest kind of electronic signature. eID Easy sends a unique link to the signer's e-mail. The signer opens the link, reviews the file and confirms their approval. A visual signature is added to the file. eId Easy adds a cryptographic e-seal to the file, to ensure that it cannot be modified after signing.\n\nWith Simple Electronic Signatures, the contents of your file need to be sent to eID Easy. This provides legal value to the signature, as we can state with certainty that the signer had the opportunity to review the file they were signing.\n\n# Pricing\nSee [https://eideasy.com/pricing](https://eideasy.com/pricing) for pricing information.\n\n# Feedback is welcome\nAre you not seeing your preferred signature card / signing app / other QES method? Are we not quite covering your use case? Let us know at info@eideasy.com\n\n# Documentation\n\n## Set up\n1. Install and enable the \"Electronic Signatures\" app.\n2. In Nextcloud, on the blue top-bar, click on your profile picture.\n3. A dropdown menu opens, click on \"Settings\".\n4. On the left sidebar, click on \"Electronic Signatures\".\n5. Follow the instructions there to configure your eID Easy credentials.\n\n[CHANGELOG](https://github.com/eideasy/nextcloud-electronic-signatures-plugin/blob/master/CHANGELOG.md)",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -375,6 +375,16 @@
     "version": "1.2.0",
     "description": "A dashboard widget that displays the content from the External sites app on Dashboard in a nice and inviting form.",
     "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "facerecognition": {
+    "sha256": "7881d9d0499dffe64a5efb6d6353385838aab7e5369b737980c24c914d9fad48",
+    "url": "https://github.com/matiasdelellis/facerecognition/releases/download/v0.9.20/facerecognition.tar.gz",
+    "version": "0.9.20",
+    "description": "**Detect and group faces of your loved one in your cloud**\n\n⚠️ This application requires minimum of 1GB of RAM memory to work! See [Requirements](https://github.com/matiasdelellis/facerecognition/wiki/Requirements-and-Limitations) for details.\n\n⚠️ Setup of this app requires access to terminal and even getting your hands dirty with installation of additional software. See [Installation](https://github.com/matiasdelellis/facerecognition/wiki/Installation) for details.\n\n- **😏 Detect faces from images:** Use FaceRecognition app to detect _any_ face in _any_ of your images!\n- **👪 Group faces to persons:** Detected faces are grouped together based on similarity and then FaceRecognition app can recognize persons!\n- **🔒 Built-in privacy:** No data is leaving your cloud. Defaults are always off and each user controls enabling/disabling face detection. Images from every directory can be excluded from face detection, if needed.\n- **⚙️ Power of AI:** FaceRecognition app leverages power of AI and already built neural network models through extensive usage of [DLib](http://dlib.net/) library.\n- **🚀 Build your own thing:** FaceRecognition app is just a basic building block. Through FaceRecognition API, you can build your advanced scenarios - automatically add tags to images, connect contacts and persons, share images from specific person… We want to hear your ideas!",
+    "homepage": "https://github.com/matiasdelellis/facerecognition",
     "licenses": [
       "agpl"
     ]
@@ -1200,9 +1210,9 @@
     ]
   },
   "mail": {
-    "sha256": "5ed5e4f4f7a951a5e45b895ad9340c27fc030955d0f7676a7ea18a689f953a2d",
-    "url": "https://github.com/nextcloud-releases/mail/releases/download/v3.2.0/mail-v3.2.0.tar.gz",
-    "version": "3.2.0",
+    "sha256": "1a2e5c5527f87b4a9fc9cbcb93190d9183d83ea3b0e3613f326693359f2fe473",
+    "url": "https://github.com/nextcloud-releases/mail/releases/download/v3.2.1/mail-v3.2.1.tar.gz",
+    "version": "3.2.1",
     "description": "**💌 A mail app for Nextcloud**\n\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://horde.org) libraries.\n- **📬 Want to host your own mail server?** We do not have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!",
     "homepage": "https://github.com/nextcloud/mail#readme",
     "licenses": [
@@ -1548,9 +1558,9 @@
     ]
   },
   "preferred_providers": {
-    "sha256": "8af5de67f53800fea5b50c76bf029f4300469a3c2dc4913d2eebbf5f7019f2c4",
-    "url": "https://github.com/nextcloud-releases/preferred_providers/releases/download/v1.13.0/preferred_providers-v1.13.0.tar.gz",
-    "version": "1.13.0",
+    "sha256": "9a7cb626f832328257cf62c4b624f1f99936545a5d31ef8e6d6b39f91bb924e8",
+    "url": "https://github.com/nextcloud-releases/preferred_providers/releases/download/v1.13.1/preferred_providers-v1.13.1.tar.gz",
+    "version": "1.13.1",
     "description": "Allow nextcloud to request user accounts",
     "homepage": "",
     "licenses": [
