@@ -1628,9 +1628,9 @@
     ]
   },
   "recognize": {
-    "sha256": "6238d3789f14be3585516e6c5390fb70a1db4e5ea78f7c2244da67a48023353f",
-    "url": "https://github.com/nextcloud/recognize/releases/download/v4.1.0/recognize-4.1.0.tar.gz",
-    "version": "4.1.0",
+    "sha256": "65fc4faf936425876373da3e69e89e65df46f14949890a7e159d1dc060370024",
+    "url": "https://github.com/nextcloud/recognize/releases/download/v4.2.0/recognize-4.2.0.tar.gz",
+    "version": "4.2.0",
     "description": "This app goes through your media collection and adds fitting tags, automatically categorizing your photos and music.\n\n* 📷 👪 Recognizes faces from contact photos\n* 📷 🏔 Recognizes animals, landscapes, food, vehicles, buildings and other objects\n* 📷 🗼 Recognizes landmarks and monuments\n* 👂 🎵 Recognizes music genres\n* ⚡ Tagging works via Nextcloud's Collaborative Tags, allowing access by any of your apps\n  * 👂 listen to your tagged music with the audioplayer app\n  * 📷 view your tagged photos with the photos app\n\nAfter installation, you can enable tagging in the admin settings.\n\nRequirements:\n- php 7.4 and above\n- App \"collaborative tags\" enabled\n- For native speed:\n  - Processor: x86 64-bit (with support for AVX instructions)\n  - System with glibc (usually the norm on Linux; FreeBSD, Alpine linux and thus also the official Nextcloud Docker container and Nextcloud AIO are *not* such systems)\n- For sub-native speed (using WASM mode)\n  - Processor: x86 64-bit, arm64, armv7l (no AVX needed)\n  - System with glibc or musl (incl. Alpine linux and thus also the official Nextcloud Docker container and also Nextcloud AIO)\n- ~4GB of free RAM (if you're cutting it close, make sure you have some swap available)\n- This app is currently incompatible with the *Suspicious Login* app due to a dependency conflict (ie. you can only have one of the two installed)\n\nThe app does not send any sensitive data to cloud providers or similar services. All processing is done on your Nextcloud machine, using Tensorflow.js running in Node.js.",
     "homepage": "https://github.com/marcelklehr/recognize",
     "licenses": [
@@ -2116,9 +2116,9 @@
     ]
   },
   "uppush": {
-    "sha256": "49176786a6fac1db057de143e5cceb5d253ee949376214692a52a9abb9993eac",
-    "url": "https://codeberg.org/NextPush/uppush/archive/1.3.0.tar.gz",
-    "version": "1.3.0",
+    "sha256": "166b1928966d875dbcf3bff1938649d2966c444df3beb2ed53a14577c328ef71",
+    "url": "https://codeberg.org/NextPush/uppush/archive/1.4.0.tar.gz",
+    "version": "1.4.0",
     "description": "Once the mobile phone is connected with NextPush, push notifications can be forwarded to applications implementing UnifiedPush.\n\nMore information about UnifiedPush at https://unifiedpush.org",
     "homepage": "",
     "licenses": [
