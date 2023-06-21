@@ -4,7 +4,7 @@ let
   ncVersions = map lib.versions.major (import ./nc-versions.nix { inherit pkgs; }).n;
 in builtins.map (v: lib.recurseIntoAttrs {
     inherit (nc4nix."${v}")
-      breezedark
+      # breezedark
       drawio
       groupfolders
       onlyoffice;
