@@ -175,6 +175,7 @@ func update(v string, apps []string) {
 		na.Description = a.Translations["en"].Description
 		na.Homepage = a.Website
 		latestVer, _ := version.NewVersion("0")
+		found := false
 		for _, rel := range a.Releases {
 			ver, _ := version.NewVersion(rel.Version)
 			if ver.GreaterThan(latestVer) && len(ver.Prerelease()) == 0 {
@@ -182,9 +183,12 @@ func update(v string, apps []string) {
 				na.Version = ver.String()
 				na.Url = rel.Download
 				na.Licenses = rel.Licenses
+				found = true
 			}
 		}
-		if len(apps) > 0 {
+		if !found {
+			log.Printf("Skipping app %s (%s) because it only has a compatible prerelease", a.Id, na.Version)
+		} else if len(apps) > 0 {
 			for _, app := range apps {
 				if a.Id == app {
 					log.Printf("Found app %s (%s) at %s", a.Id, na.Version, na.Url)
