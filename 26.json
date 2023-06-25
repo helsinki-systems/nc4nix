@@ -70,9 +70,9 @@
     ]
   },
   "auto_groups": {
-    "sha256": "aa4ea5bc998c350f7018878b98d48bf92c26c7ac363cad4e63a722d8c88fca08",
-    "url": "https://github.com/stjosh/auto_groups/releases/download/v1.5.1/auto_groups-v1.5.1.tar.gz",
-    "version": "1.5.1",
+    "sha256": "0a5b12efa608d00e07a6dc9df3ae765ee6e5676bf55e3167bb8beff322defcb3",
+    "url": "https://github.com/stjosh/auto_groups/releases/download/v1.5.2/auto_groups-v1.5.2.tar.gz",
+    "version": "1.5.2",
     "description": "Automatically add users to the specified Auto Groups, except those users belonging to one of the specified Override Groups. \nOptionally, the group assignment can be triggered on every successful login, which is useful for external user backends.\n\n## Configuration\n\n- Go to \"Settings > Administration > Additional settings\"\n- Configure the Auto Groups\n- If required, configure the Override Groups (e.g., for Service Accounts)\n- Optionally, enable the Login Hook, which will enforce correct group membership on every successful login\n\nNote that this app prevents group deletions for groups referenced as Auto Groups or Override Groups.\n\n## Comparison to similar Apps\n\n* [Everyone Group](https://apps.nextcloud.com/apps/group_everyone): The \"Everyone Group\" app adds a virtual Group Backend, always returning all users. In contrast, \"Auto Groups\" operates on \"real\" groups in your normal Group Backend. Additionally, it is possible to specify Override Groups which will prevent users from being added to the Auto Group(s).\n* [Default Group](https://apps.nextcloud.com/apps/defaultgroup): \"Auto Groups\" is actually a modernized and maintaned fork of \"Default Group\", which seems to be abandoned since NC12 or so. In terms of functionality, they are almost identical.\n\nIn addition, I plan to add some more features over time, e.g., \"Union Groups\" - see the [Milestone Plans](https://github.com/stjosh/auto_groups/milestones) for more details.",
     "homepage": "https://github.com/stjosh/auto_groups",
     "licenses": [
@@ -180,9 +180,9 @@
     ]
   },
   "checksum": {
-    "sha256": "4e15303cdf236c297697ba102abc96f5753f940106097750e5de068a68e1baa9",
-    "url": "https://github.com/westberliner/checksum/releases/download/v1.2.1/checksum.tar.gz",
-    "version": "1.2.1",
+    "sha256": "90b09d4c23da52e2feb74a0ad5adf4bce0aa763f526c7e43f40c9cdea4d46fe4",
+    "url": "https://github.com/westberliner/checksum/releases/download/v1.2.2/checksum.tar.gz",
+    "version": "1.2.2",
     "description": "Allows users to create a hash checksum of a file.\n        Possible algorithms are md5, sha1, sha256, sha384, sha512, sha3-256, sha3-512 and crc32.\n\n        Just open the details view of the file (Sidebar). There should be a new tab called \"Checksum\".\n        Select a algorithm and it will try to generate a hash.\n        If you want an other algorithm, just click on the reload button.",
     "homepage": "https://github.com/westberliner/checksum/",
     "licenses": [
@@ -730,9 +730,9 @@
     ]
   },
   "gpxpod": {
-    "sha256": "ea9cb0c1b35f57743f51e11b7f2c035e69d83bceb9aaa93524300016a83c0bec",
-    "url": "https://github.com/julien-nc/gpxpod/releases/download/v5.0.11/gpxpod-5.0.11.tar.gz",
-    "version": "5.0.11",
+    "sha256": "ba1cfa002f28a434241500e91b8bbc1f8be416dcdb14066f6fcaf7d901e3ffc2",
+    "url": "https://github.com/julien-nc/gpxpod/releases/download/v5.0.12/gpxpod-5.0.12.tar.gz",
+    "version": "5.0.12",
     "description": "# GpxPod Nextcloud application\n\nDisplay, analyse, compare and share GPS track files.\n\n🌍 Help us to translate this app on [GpxPod Crowdin project](https://crowdin.com/project/gpxpod).\n\nGpxPod:\n\n* 🗺 can display your gpx/kml/tcx/igc/fit files\n* 📏 supports metric, english and nautical measure systems\n* 🗠 draws interactive chart for elevation, speed, pace or any extension data\n* 🗠 use line gradient color for track lines with speed, elevation, pace or any extension data\n* 🗠 shows track statistics\n* 🖻 displays geotagged pictures\n* 🖧 generates public links pointing to a track/folder\n* 🗠 can correct tracks elevations using SRTM data\n* ⚖ can make global comparison of multiple tracks\n* ⚖ can make visual pair comparison of divergent parts of similar tracks\n* 🀆 allows users to add personal map tile servers\n* 🖍 allows user to manually choose line color for each track\n* 🔒 works with encrypted data folder (server side encryption)\n* 🍂 proudly uses Leaflet and MapLibre GL\n\nLink to Nextcloud application website : https://apps.nextcloud.com/apps/gpxpod\n\n## Install\n\nSee the [AdminDoc](https://gitlab.com/eneiluj/gpxpod-oc/wikis/admindoc) for installation details\n\n## Known issues\n\n* *WARNING*, kml conversion will NOT work with recent kml files using the proprietary \"gx:track\" extension tag.\n\nAny feedback will be appreciated.\n\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://github.com/julien-nc/gpxpod",
     "licenses": [

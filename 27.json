@@ -49,6 +49,16 @@
       "agpl"
     ]
   },
+  "auto_groups": {
+    "sha256": "0a5b12efa608d00e07a6dc9df3ae765ee6e5676bf55e3167bb8beff322defcb3",
+    "url": "https://github.com/stjosh/auto_groups/releases/download/v1.5.2/auto_groups-v1.5.2.tar.gz",
+    "version": "1.5.2",
+    "description": "Automatically add users to the specified Auto Groups, except those users belonging to one of the specified Override Groups. \nOptionally, the group assignment can be triggered on every successful login, which is useful for external user backends.\n\n## Configuration\n\n- Go to \"Settings > Administration > Additional settings\"\n- Configure the Auto Groups\n- If required, configure the Override Groups (e.g., for Service Accounts)\n- Optionally, enable the Login Hook, which will enforce correct group membership on every successful login\n\nNote that this app prevents group deletions for groups referenced as Auto Groups or Override Groups.\n\n## Comparison to similar Apps\n\n* [Everyone Group](https://apps.nextcloud.com/apps/group_everyone): The \"Everyone Group\" app adds a virtual Group Backend, always returning all users. In contrast, \"Auto Groups\" operates on \"real\" groups in your normal Group Backend. Additionally, it is possible to specify Override Groups which will prevent users from being added to the Auto Group(s).\n* [Default Group](https://apps.nextcloud.com/apps/defaultgroup): \"Auto Groups\" is actually a modernized and maintaned fork of \"Default Group\", which seems to be abandoned since NC12 or so. In terms of functionality, they are almost identical.\n\nIn addition, I plan to add some more features over time, e.g., \"Union Groups\" - see the [Milestone Plans](https://github.com/stjosh/auto_groups/milestones) for more details.",
+    "homepage": "https://github.com/stjosh/auto_groups",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "bookmarks": {
     "sha256": "ec6c7c7bc0b6743901ff7f5e00628e2eb3f762455b1a47cf2a9401782695fdc1",
     "url": "https://github.com/nextcloud/bookmarks/releases/download/v13.0.1/bookmarks-13.0.1.tar.gz",
@@ -75,6 +85,26 @@
     "version": "0.5.0",
     "description": "Management for calendar resources and rooms",
     "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "checksum": {
+    "sha256": "90b09d4c23da52e2feb74a0ad5adf4bce0aa763f526c7e43f40c9cdea4d46fe4",
+    "url": "https://github.com/westberliner/checksum/releases/download/v1.2.2/checksum.tar.gz",
+    "version": "1.2.2",
+    "description": "Allows users to create a hash checksum of a file.\n        Possible algorithms are md5, sha1, sha256, sha384, sha512, sha3-256, sha3-512 and crc32.\n\n        Just open the details view of the file (Sidebar). There should be a new tab called \"Checksum\".\n        Select a algorithm and it will try to generate a hash.\n        If you want an other algorithm, just click on the reload button.",
+    "homepage": "https://github.com/westberliner/checksum/",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "cloud_py_api": {
+    "sha256": "157b0b08bd88044dd5df07d1cc572e52e5f6746d85104a1d7c6c8d6b992fe867",
+    "url": "https://github.com/cloud-py-api/cloud_py_api/releases/download/v0.1.8/cloud_py_api.tar.gz",
+    "version": "0.1.8",
+    "description": "Nextcloud Python API Framework\n\n| **Currently in development, all is under design**\n\n### Provides convenient functions for Python\n\n- Read & write file system objects\n- Working with database\n- Wrapper around `OCC` calls\n- Calling your python function from php part of your app and return a result\n\n### Used by the following apps\n\n- [MediaDC](https://apps.nextcloud.com/apps/mediadc) - Nextcloud Media Duplicate Collector app",
+    "homepage": "https://github.com/cloud-py-api/cloud_py_api",
     "licenses": [
       "agpl"
     ]
@@ -255,6 +285,16 @@
     "version": "0.9.20",
     "description": "**Detect and group faces of your loved one in your cloud**\n\n⚠️ This application requires minimum of 1GB of RAM memory to work! See [Requirements](https://github.com/matiasdelellis/facerecognition/wiki/Requirements-and-Limitations) for details.\n\n⚠️ Setup of this app requires access to terminal and even getting your hands dirty with installation of additional software. See [Installation](https://github.com/matiasdelellis/facerecognition/wiki/Installation) for details.\n\n- **😏 Detect faces from images:** Use FaceRecognition app to detect _any_ face in _any_ of your images!\n- **👪 Group faces to persons:** Detected faces are grouped together based on similarity and then FaceRecognition app can recognize persons!\n- **🔒 Built-in privacy:** No data is leaving your cloud. Defaults are always off and each user controls enabling/disabling face detection. Images from every directory can be excluded from face detection, if needed.\n- **⚙️ Power of AI:** FaceRecognition app leverages power of AI and already built neural network models through extensive usage of [DLib](http://dlib.net/) library.\n- **🚀 Build your own thing:** FaceRecognition app is just a basic building block. Through FaceRecognition API, you can build your advanced scenarios - automatically add tags to images, connect contacts and persons, share images from specific person… We want to hear your ideas!",
     "homepage": "https://github.com/matiasdelellis/facerecognition",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "files_3dmodelviewer": {
+    "sha256": "03b5fdde4438c3eff790f98a4575d9a27ff7bdb4384278a36a4ba3892645dbba",
+    "url": "https://github.com/WARP-LAB/files_3dmodelviewer/releases/download/v0.0.11/files_3dmodelviewer.tar.gz",
+    "version": "0.0.11",
+    "description": "# Visualise and explore 3D models\n\n- 3dm | Rhino\n- 3ds | Autodesk 3D Studio\n- 3mf | 3D Manufacturing Format\n- bim | dotbim\n- brep/brp | Boundary Representation\n- dae | Collada\n- fbx | Filmbox\n- fcstd | FreeCAD Standard File Format\n- glb | GL Transmission Format\n- gltf | GL Transmission Format\n- ifc | International Foundation Class\n- iges/igs | Initial Graphics Exchange Specification\n- obj | Wavefront\n- off | Object File Format\n- ply | Polygon File Format\n- step/stp | Standard for Exchange of Product Model Data\n- stl | Stereolithography Standard Tesselation/Triangle Language\n- wrl | Virtual Reality Modeling Language",
+    "homepage": "https://github.com/WARP-LAB/files_3dmodelviewer",
     "licenses": [
       "agpl"
     ]
@@ -480,9 +520,9 @@
     ]
   },
   "gpxpod": {
-    "sha256": "ea9cb0c1b35f57743f51e11b7f2c035e69d83bceb9aaa93524300016a83c0bec",
-    "url": "https://github.com/julien-nc/gpxpod/releases/download/v5.0.11/gpxpod-5.0.11.tar.gz",
-    "version": "5.0.11",
+    "sha256": "ba1cfa002f28a434241500e91b8bbc1f8be416dcdb14066f6fcaf7d901e3ffc2",
+    "url": "https://github.com/julien-nc/gpxpod/releases/download/v5.0.12/gpxpod-5.0.12.tar.gz",
+    "version": "5.0.12",
     "description": "# GpxPod Nextcloud application\n\nDisplay, analyse, compare and share GPS track files.\n\n🌍 Help us to translate this app on [GpxPod Crowdin project](https://crowdin.com/project/gpxpod).\n\nGpxPod:\n\n* 🗺 can display your gpx/kml/tcx/igc/fit files\n* 📏 supports metric, english and nautical measure systems\n* 🗠 draws interactive chart for elevation, speed, pace or any extension data\n* 🗠 use line gradient color for track lines with speed, elevation, pace or any extension data\n* 🗠 shows track statistics\n* 🖻 displays geotagged pictures\n* 🖧 generates public links pointing to a track/folder\n* 🗠 can correct tracks elevations using SRTM data\n* ⚖ can make global comparison of multiple tracks\n* ⚖ can make visual pair comparison of divergent parts of similar tracks\n* 🀆 allows users to add personal map tile servers\n* 🖍 allows user to manually choose line color for each track\n* 🔒 works with encrypted data folder (server side encryption)\n* 🍂 proudly uses Leaflet and MapLibre GL\n\nLink to Nextcloud application website : https://apps.nextcloud.com/apps/gpxpod\n\n## Install\n\nSee the [AdminDoc](https://gitlab.com/eneiluj/gpxpod-oc/wikis/admindoc) for installation details\n\n## Known issues\n\n* *WARNING*, kml conversion will NOT work with recent kml files using the proprietary \"gx:track\" extension tag.\n\nAny feedback will be appreciated.\n\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://github.com/julien-nc/gpxpod",
     "licenses": [

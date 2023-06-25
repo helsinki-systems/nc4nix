@@ -70,9 +70,9 @@
     ]
   },
   "auto_groups": {
-    "sha256": "aa4ea5bc998c350f7018878b98d48bf92c26c7ac363cad4e63a722d8c88fca08",
-    "url": "https://github.com/stjosh/auto_groups/releases/download/v1.5.1/auto_groups-v1.5.1.tar.gz",
-    "version": "1.5.1",
+    "sha256": "0a5b12efa608d00e07a6dc9df3ae765ee6e5676bf55e3167bb8beff322defcb3",
+    "url": "https://github.com/stjosh/auto_groups/releases/download/v1.5.2/auto_groups-v1.5.2.tar.gz",
+    "version": "1.5.2",
     "description": "Automatically add users to the specified Auto Groups, except those users belonging to one of the specified Override Groups. \nOptionally, the group assignment can be triggered on every successful login, which is useful for external user backends.\n\n## Configuration\n\n- Go to \"Settings > Administration > Additional settings\"\n- Configure the Auto Groups\n- If required, configure the Override Groups (e.g., for Service Accounts)\n- Optionally, enable the Login Hook, which will enforce correct group membership on every successful login\n\nNote that this app prevents group deletions for groups referenced as Auto Groups or Override Groups.\n\n## Comparison to similar Apps\n\n* [Everyone Group](https://apps.nextcloud.com/apps/group_everyone): The \"Everyone Group\" app adds a virtual Group Backend, always returning all users. In contrast, \"Auto Groups\" operates on \"real\" groups in your normal Group Backend. Additionally, it is possible to specify Override Groups which will prevent users from being added to the Auto Group(s).\n* [Default Group](https://apps.nextcloud.com/apps/defaultgroup): \"Auto Groups\" is actually a modernized and maintaned fork of \"Default Group\", which seems to be abandoned since NC12 or so. In terms of functionality, they are almost identical.\n\nIn addition, I plan to add some more features over time, e.g., \"Union Groups\" - see the [Milestone Plans](https://github.com/stjosh/auto_groups/milestones) for more details.",
     "homepage": "https://github.com/stjosh/auto_groups",
     "licenses": [
@@ -200,9 +200,9 @@
     ]
   },
   "checksum": {
-    "sha256": "4e15303cdf236c297697ba102abc96f5753f940106097750e5de068a68e1baa9",
-    "url": "https://github.com/westberliner/checksum/releases/download/v1.2.1/checksum.tar.gz",
-    "version": "1.2.1",
+    "sha256": "90b09d4c23da52e2feb74a0ad5adf4bce0aa763f526c7e43f40c9cdea4d46fe4",
+    "url": "https://github.com/westberliner/checksum/releases/download/v1.2.2/checksum.tar.gz",
+    "version": "1.2.2",
     "description": "Allows users to create a hash checksum of a file.\n        Possible algorithms are md5, sha1, sha256, sha384, sha512, sha3-256, sha3-512 and crc32.\n\n        Just open the details view of the file (Sidebar). There should be a new tab called \"Checksum\".\n        Select a algorithm and it will try to generate a hash.\n        If you want an other algorithm, just click on the reload button.",
     "homepage": "https://github.com/westberliner/checksum/",
     "licenses": [
@@ -220,10 +220,10 @@
     ]
   },
   "cloud_py_api": {
-    "sha256": "c1ffa87efac04d0bdb12a7a3c1e72b8ca58733a074d5108ea13cc56eb238f124",
-    "url": "https://github.com/cloud-py-api/cloud_py_api/releases/download/v0.1.7/cloud_py_api.tar.gz",
-    "version": "0.1.7",
-    "description": "Nextcloud Python API Framework\n\n| **Currently in development, all is under design**\n\n### Provides convenient functions for Python\n\n- Read & write file system objects\n- Working with database\n- Wrapper around `OCC` calls\n- Calling your python function from php part of your app and return a result\n\n### Used by the following apps\n\n- [MediaDC](https://apps.nextcloud.com/apps/mediadc) - Nextcloud Media Duplicate Collector app\n\n### Support\n\nYou can support us in several ways:\n\n- ⭐ Star our work (it really motivates)\n- ❗ Create an issue or feature request (bring to us an excellent idea)\n- 💁 Resolve some issues or create a pull request (contribute to this project)\n- 🪙 Donate with any amount with one of the links below (fund this project)\n\n[![PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/donate?hosted_button_id=H5PLJJMWLDNJQ)\n[![Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/cloud_py_api/donate)",
+    "sha256": "157b0b08bd88044dd5df07d1cc572e52e5f6746d85104a1d7c6c8d6b992fe867",
+    "url": "https://github.com/cloud-py-api/cloud_py_api/releases/download/v0.1.8/cloud_py_api.tar.gz",
+    "version": "0.1.8",
+    "description": "Nextcloud Python API Framework\n\n| **Currently in development, all is under design**\n\n### Provides convenient functions for Python\n\n- Read & write file system objects\n- Working with database\n- Wrapper around `OCC` calls\n- Calling your python function from php part of your app and return a result\n\n### Used by the following apps\n\n- [MediaDC](https://apps.nextcloud.com/apps/mediadc) - Nextcloud Media Duplicate Collector app",
     "homepage": "https://github.com/cloud-py-api/cloud_py_api",
     "licenses": [
       "agpl"
@@ -500,9 +500,9 @@
     ]
   },
   "files_3dmodelviewer": {
-    "sha256": "e4436e051fc20dc98824859656ca30ff6afd387c259c21097e367304166447c2",
-    "url": "https://github.com/WARP-LAB/files_3dmodelviewer/releases/download/v0.0.8/files_3dmodelviewer.tar.gz",
-    "version": "0.0.8",
+    "sha256": "03b5fdde4438c3eff790f98a4575d9a27ff7bdb4384278a36a4ba3892645dbba",
+    "url": "https://github.com/WARP-LAB/files_3dmodelviewer/releases/download/v0.0.11/files_3dmodelviewer.tar.gz",
+    "version": "0.0.11",
     "description": "# Visualise and explore 3D models\n\n- 3dm | Rhino\n- 3ds | Autodesk 3D Studio\n- 3mf | 3D Manufacturing Format\n- bim | dotbim\n- brep/brp | Boundary Representation\n- dae | Collada\n- fbx | Filmbox\n- fcstd | FreeCAD Standard File Format\n- glb | GL Transmission Format\n- gltf | GL Transmission Format\n- ifc | International Foundation Class\n- iges/igs | Initial Graphics Exchange Specification\n- obj | Wavefront\n- off | Object File Format\n- ply | Polygon File Format\n- step/stp | Standard for Exchange of Product Model Data\n- stl | Stereolithography Standard Tesselation/Triangle Language\n- wrl | Virtual Reality Modeling Language",
     "homepage": "https://github.com/WARP-LAB/files_3dmodelviewer",
     "licenses": [
