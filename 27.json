@@ -470,9 +470,9 @@
     ]
   },
   "forms": {
-    "sha256": "eeb151ffb9db52164afdcd520e06a4f53edd8b0d93c35dc43a3d941f507e8fc7",
-    "url": "https://github.com/nextcloud-releases/forms/releases/download/v3.3.0/forms-v3.3.0.tar.gz",
-    "version": "3.3.0",
+    "sha256": "37e8445d5872e3ef660cad6a7ffafe26597b6fd3a2d585b5ff1cf21a3e975056",
+    "url": "https://github.com/nextcloud-releases/forms/releases/download/v3.3.1/forms-v3.3.1.tar.gz",
+    "version": "3.3.1",
     "description": "**Simple surveys and questionnaires, self-hosted!**\n\n- **📝 Simple design:** No mass of options, only the essentials. Works well on mobile of course.\n- **📊 View & export results:** Results are visualized and can also be exported as CSV in the same format used by Google Forms.\n- **🔒 Data under your control!** Unlike in Google Forms, Typeform, Doodle and others, the survey info and responses are kept private on your instance.\n- **🧑‍💻 Connect to your software:** Easily integrate Forms into your service with our full-fledged [REST-API](https://github.com/nextcloud/forms/blob/main/docs/API.md).\n- **🙋 Get involved!** We have lots of stuff planned like more question types, collaboration on forms, [and much more](https://github.com/nextcloud/forms/milestones)!",
     "homepage": "https://github.com/nextcloud/forms",
     "licenses": [
@@ -829,6 +829,16 @@
       "agpl"
     ]
   },
+  "integration_pexip": {
+    "sha256": "51fb0480101f91e7e0d6d9ebe229589f438f966776843122ebd63cac3e67fbf2",
+    "url": "https://github.com/nextcloud-releases/integration_pexip/releases/download/v1.0.0/integration_pexip-v1.0.0.tar.gz",
+    "version": "1.0.0",
+    "description": "The Pexip integration app implements a Smart Picker provider to create\nPexip meetings and immediately get a meeting link.\n\nMore information in the [project's README](https://github.com/julien-nc/integration_pexip/#readme).",
+    "homepage": "https://github.com/julien-nc/integration_pexip",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "integration_reddit": {
     "sha256": "da40c4665f8f0260c131582f703e0dd60edcd3f88e84574d8e828ac2ab6638f5",
     "url": "https://github.com/nextcloud-releases/integration_reddit/releases/download/v2.0.0/integration_reddit-v2.0.0.tar.gz",
@@ -1055,6 +1065,16 @@
       "agpl"
     ]
   },
+  "oidc_login": {
+    "sha256": "088000fd6cd5117612dd00b1251e676a54ad236a62c60a768b6a1e43ba037346",
+    "url": "https://github.com/pulsejet/nextcloud-oidc-login/releases/download/v2.6.0/oidc_login.tar.gz",
+    "version": "2.6.0",
+    "description": "# OpenID Connect Login\n\nProvides user creation and login via one single OpenID Connect provider. Even though this is a fork of [nextcloud-social-login](https://github.com/zorn-v/nextcloud-social-login), it fundamentally differs in two ways - aims for simplistic, single provider login (and hence is very minimalistic), and it supports having LDAP as the primary user backend. This way, you can use OpenID Connect to login to Nextcloud while maintaining an LDAP backend with attributes with the LDAP plugin.\n\n### Features\n\n- Automatic [Identity provider endpoints discovery](https://openid.net/specs/openid-connect-discovery-1_0.html)\n- User creation at first login\n- User profile update at login (name, email, avatar, groups etc.)\n- Group creation\n- Automatic redirection from the nextcloud login page to the Identity Provider login page\n- WebDAV endpoints `Bearer` and `Basic` authentication",
+    "homepage": "https://github.com/pulsejet/nextcloud-single-openid-connect",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "onlyoffice": {
     "sha256": "e2fccfecf20b3821e039c5107b3fc578f70f54e3409c002b37c1c50149bcc0d2",
     "url": "https://github.com/ONLYOFFICE/onlyoffice-nextcloud/releases/download/v8.1.0/onlyoffice.tar.gz",
@@ -1276,9 +1296,9 @@
     ]
   },
   "sentry": {
-    "sha256": "8624c3d6ee25922e945f8fea401549b527027e9b3ad340234a865949de923a17",
-    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.8.3/sentry-v8.8.3.tar.gz",
-    "version": "8.8.3",
+    "sha256": "0b5b367e0fb8d7b23c862e1afeccb94652185b400d3a8fb83ae3d7aa79b64d35",
+    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.8.4/sentry-v8.8.4.tar.gz",
+    "version": "8.8.4",
     "description": "A Sentry integration that sends unhandled exceptions to a Sentry instance to aggregate application crashes. You either have to set up your own Sentry instance or use your sentry.io account. See the admin documentation for how to configure this app.",
     "homepage": "https://github.com/ChristophWurst/nextcloud_sentry",
     "licenses": [

@@ -1338,10 +1338,10 @@
     ]
   },
   "mediadc": {
-    "sha256": "ef8c433630f331a1958c8b557cab6571778d20db954a5ba44283cb4d97464ccd",
-    "url": "https://github.com/cloud-py-api/mediadc/releases/download/v0.3.5/mediadc.tar.gz",
-    "version": "0.3.5",
-    "description": "**[`cloud_py_api`](https://apps.nextcloud.com/apps/cloud_py_api) is required to be installed and enabled first.**\n\nThis app allows to find duplicate or similar 📸📹 photos and videos\n* **Many image formats supported** Jpeg, png, tiff, bmp, gif, heic/hif, cr2 and others.\n* **Large amount of supported video  formats** All that is supported by ffmpeg.\n* **Flexible config** Set your precision level for comparing, choose algo that suits for you most.\n* **Quick rescan** Once file was scanned, hash will be saved, and used for other scans.\n* **External Storages support** Search everywhere among all files available to the user.\n* **Save your time and cloud space** The title says all...\n\nQuick start guide and further information in our [Wiki](https://github.com/cloud-py-api/mediadc/wiki).\n\n### Support\n\nYou can support us in several ways:\n\n- ⭐ Star our work (it really motivates)\n- ❗ Create an Issue or feature request (bring to us an excellent idea)\n- 💁 Resolve some Issue or create a Pull Request (contribute to this project)\n- 🪙 Donate with any amount with one of the links below (fund this project)\n\n[![PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/donate?hosted_button_id=H5PLJJMWLDNJQ)\n[![Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/cloud_py_api/donate)",
+    "sha256": "9e7f064f2d547d1529f5562c3435304f4cabf9f64e2dd4c364d286ccb687015c",
+    "url": "https://github.com/cloud-py-api/mediadc/releases/download/v0.3.6/mediadc.tar.gz",
+    "version": "0.3.6",
+    "description": "**[`cloud_py_api`](https://apps.nextcloud.com/apps/cloud_py_api) is required to be installed and enabled first.**\n\nThis app allows to find duplicate or similar 📸📹 photos and videos\n* **Many image formats supported** Jpeg, png, tiff, bmp, gif, heic/hif, cr2 and others.\n* **Large amount of supported video  formats** All that is supported by ffmpeg.\n* **Flexible config** Set your precision level for comparing, choose algo that suits for you most.\n* **Quick rescan** Once file was scanned, hash will be saved, and used for other scans.\n* **External Storages support** Search everywhere among all files available to the user.\n* **Save your time and cloud space** The title says all...\n\nQuick start guide and further information in our [Wiki](https://github.com/cloud-py-api/mediadc/wiki).",
     "homepage": "https://github.com/cloud-py-api/mediadc",
     "licenses": [
       "agpl"
@@ -1896,9 +1896,9 @@
     ]
   },
   "sentry": {
-    "sha256": "8624c3d6ee25922e945f8fea401549b527027e9b3ad340234a865949de923a17",
-    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.8.3/sentry-v8.8.3.tar.gz",
-    "version": "8.8.3",
+    "sha256": "0b5b367e0fb8d7b23c862e1afeccb94652185b400d3a8fb83ae3d7aa79b64d35",
+    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.8.4/sentry-v8.8.4.tar.gz",
+    "version": "8.8.4",
     "description": "A Sentry integration that sends unhandled exceptions to a Sentry instance to aggregate application crashes. You either have to set up your own Sentry instance or use your sentry.io account. See the admin documentation for how to configure this app.",
     "homepage": "https://github.com/ChristophWurst/nextcloud_sentry",
     "licenses": [
@@ -2544,9 +2544,9 @@
     ]
   },
   "workspace": {
-    "sha256": "d842fc5ff2fd951e0e28bace25ae6a622f9f83dc4d2bc1f2d070cb4b62e76aa7",
-    "url": "https://github.com/arawa/workspace/releases/download/v2.0.1/workspace-2.0.1.tar.gz",
-    "version": "2.0.1",
+    "sha256": "5c2ea8b692674dfc05104a770588d09bd2508c38a0d15f8d0acd99ac3550e5c6",
+    "url": "https://github.com/arawa/workspace/releases/download/v3.0.2/workspace-3.0.2.tar.gz",
+    "version": "3.0.2",
     "description": "Workspace allows managers to :\n- Create shared workspaces\n- Delegate management of each workspace to users (workspace managers) in order for them to:\n    - choose members\n    - create groups\n    - configure advanced permissions on workspace folders\n- All through a simple unified interface, designed to simplify your users' experience and make them autonomous\n\nIt is necessary to install the Group Folders app for the Workspace app to work.\n\nBefore using Workspace, you must configure the app, following these important steps:\n\n- Limit the Workspace app to specific groups : in your \"application management\" administrator interface, limit the application to the following groups: \"GeneralManager\" and \"WorkspacesManagers\".\n\n- Configure Groupfolders for Workspace:\n    - until Nextcloud 24 : in \"Settings\" > \"Group folders\" > \"Group folder admin delegation\" section, add the groups \"GeneralManager\" and \"WorkspacesManagers\".\n    - from Nextcloud 25 : in \"Settings\" > \"Group folders\" > \"Group folder admin delegation\" section, add the group \"GeneralManager\" to the **first** field, and the group \"WorkspacesManagers\" to the **second** field\n\nSince Workspace 2.0.0 for Nextcloud 25, our app is fully compatible with the standard Group folders app (since 13.1.0), available on [Nextcloud app store](https://apps.nextcloud.com/apps/groupfolders/).\n\n**Caution** if you are using a major version 24 of Nextcloud or earlier : to use our app, you need to install [our forked Groupfolders app](https://github.com/arawa/groupfolders), release [v9.2.1](https://github.com/arawa/groupfolders/releases/download/v9.2.1/groupfolders-9.2.1.tar.gz).\n\nFor more information, please visit [our website](https://www.arawa.fr/solutions/produits-arawa/arawa-workspace-for-nextcloud/) (french content).\n\nFor more details, please go to the [admin documentation](https://github.com/arawa/workspace/blob/main/README.md#installation).",
     "homepage": "",
     "licenses": [
