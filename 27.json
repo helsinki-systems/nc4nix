@@ -80,9 +80,9 @@
     ]
   },
   "calendar": {
-    "sha256": "12a558c52473cdfc7e9560fbc6916c834cf62f3d2015c0b44d9678c16b2b439e",
-    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v4.4.2/calendar-v4.4.2.tar.gz",
-    "version": "4.4.2",
+    "sha256": "cdf0ab185bd9d1b8bd17cb948e995039fa54d89b47b0d26567aad7a7a8f8618f",
+    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v4.4.3/calendar-v4.4.3.tar.gz",
+    "version": "4.4.3",
     "description": "The Calendar app is a user interface for Nextcloud's CalDAV server. Easily sync events from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Currently Contacts - more to come.\n* 🌐 **WebCal Support!** Want to see your favorite team’s matchdays in your calendar? No problem!\n* 🙋 **Attendees!** Invite people to your events\n* ⌚️ **Free/Busy!** See when your attendees are available to meet\n* ⏰ **Reminders!** Get alarms for events inside your browser and via email\n* 🔍 Search! Find your events at ease\n* ☑️ Tasks! See tasks with a due date directly in the calendar\n* 🙈 **We’re not reinventing the wheel!** Based on the great [c-dav library](https://github.com/nextcloud/cdav-library), [ical.js](https://github.com/mozilla-comm/ical.js) and [fullcalendar](https://github.com/fullcalendar/fullcalendar) libraries.",
     "homepage": "https://github.com/nextcloud/calendar/",
     "licenses": [
@@ -330,9 +330,9 @@
     ]
   },
   "files_antivirus": {
-    "sha256": "f62051a7e48d8e90c60f074aae3224ed61bdabf74f491dd03daf156c2fb73712",
-    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.1.1/files_antivirus-v5.1.1.tar.gz",
-    "version": "5.1.1",
+    "sha256": "dc42e2152dc9b93bc57cb7bc75962b23ac851d77ff722c676a7b1ac19a2e4c55",
+    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.2.0/files_antivirus-v5.2.0.tar.gz",
+    "version": "5.2.0",
     "description": "Antivirus for files is an antivirus app for Nextcloud.\n\n* 🕵️‍♂️ When the user uploads a file, it's checked\n* ☢️ Uploaded and infected files will be deleted and a notification will be shown and/or sent via email\n* 🔎 Background Job to scan all files\n* ❓ Use ClamAV (open source), Kaspersky Scan Engine or an ICAP compatible scanner\n\nThis application inspects files that are uploaded to Nextcloud for viruses before they are written to the Nextcloud storage. If a file is identified as a virus, it is either logged or not uploaded to the server. The application relies on the underlying ClamAV virus scanning engine, which the admin points Nextcloud to when configuring the application. Alternatively, a Kaspersky Scan Engine can be configured, which has to run on a separate server.\nFor this app to be effective, the ClamAV virus definitions should be kept up to date. Also note that enabling this app will impact system performance as additional processing is required for every upload. More information is available in the Antivirus documentation.",
     "homepage": "",
     "licenses": [
@@ -420,9 +420,9 @@
     ]
   },
   "files_notify_redis": {
-    "sha256": "859d7f2ce5b21b99fc7c7f728db03963764079264d36ebd39b8e6f00423cc0ad",
-    "url": "https://github.com/icewind1991/files_notify_redis/releases/download/v0.2.1/files_notify_redis-v0.2.1.tar.gz",
-    "version": "0.2.1",
+    "sha256": "fffa1df607527cffd54e0d41bd81b1d9c2257baca2f114333e11f4dfffb4c483",
+    "url": "https://github.com/icewind1991/files_notify_redis/releases/download/v0.3.0/files_notify_redis-v0.3.0.tar.gz",
+    "version": "0.3.0",
     "description": "Adds support for handling filesystem notifications for local storages that are pushed into redis",
     "homepage": "https://github.com/icewind1991/files_notify_redis",
     "licenses": [
@@ -1296,9 +1296,9 @@
     ]
   },
   "richdocumentscode": {
-    "sha256": "7fbc3b0e5c96f4bca266ad7819ae4e620a32cc62b3e6c5c3d0221aaa47ed05d3",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.102/richdocumentscode.tar.gz",
-    "version": "23.5.102",
+    "sha256": "02c32ec53f840b374dd45e9331268e970054224de3c91f061586e87afa4a4de0",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.103/richdocumentscode.tar.gz",
+    "version": "23.5.103",
     "description": "This app has to be installed and used together with the **[Collabora Online](https://apps.nextcloud.com/apps/richdocuments)** app.\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\nThis app provides a built-in server with all of the document editing features of Collabora Online. Easy to install, for personal use or for small teams. A bit slower than a standalone server and without the advanced scalability features.\n\nThe download is rather big so it is possible you experience a time-out when using the web interface. You can use the OCC command line tool to install the built-in server:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -1306,9 +1306,9 @@
     ]
   },
   "richdocumentscode_arm64": {
-    "sha256": "95f79e1b989cbf2f8a130d3032292379fa016d4cca3226a66bc2acc0497b98f5",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.102/richdocumentscode_arm64.tar.gz",
-    "version": "23.5.102",
+    "sha256": "2e94403550688794e3aa43fd8552ac6b37a5441dc0ac6695998288b9de44474e",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.103/richdocumentscode_arm64.tar.gz",
+    "version": "23.5.103",
     "description": "This app has to be installed and used together with the **[Collabora Online](https://apps.nextcloud.com/apps/richdocuments)** app.\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\nThis app provides a built-in server with all of the document editing features of Collabora Online. Easy to install, for personal use or for small teams. A bit slower than a standalone server and without the advanced scalability features.\n\nThe download is rather big so it is possible you experience a time-out when using the web interface. You can use the OCC command line tool to install the built-in server:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode_arm64\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -1376,9 +1376,9 @@
     ]
   },
   "side_menu": {
-    "sha256": "78b423e37850303747133fb8d08ac0b15a1a0fcc344c40d5d5760626b83a7f82",
-    "url": "https://gitnet.fr/attachments/0e7fdb6d-dcdd-4c93-913e-e8db730daafa",
-    "version": "3.9.0",
+    "sha256": "c2b71b54310d58fe4190ff22ea15c7dd228fc600c8f277e271c1d2bc21d25715",
+    "url": "https://gitnet.fr/attachments/6c94236a-2f34-4a6a-8573-10b7559f2901",
+    "version": "3.9.1",
     "description": "Custom menu allows you to modify the position of the main menu by creating a panel on the left of the interface or with a big menu on the top.\nYou can also define apps that must be displayed in the top menu. Fully customisable.\n\nThis application is rather suitable for instances that activate a lot of applications.\n\nUse the shortcut `Ctrl`+`o` to open and to hide the side menu. Use `tab` to navigate.\n\nYou can customize colors depending of the theme (Dark theme and Breeze Dark).\n\nYou can report a bug or request a feature by opening an issue.\n\nRequirements:\n\n* PHP >= 8.0\n* App `theming` enabled\n\nIf you like this application and if you want to support the development:\n\n* [Buy me a coffee](https://www.buymeacoffee.com/deblan)\n* [Donate with liberapay](https://liberapay.com/deblan)\n* [Leave a comment](https://apps.nextcloud.com/apps/side_menu#comments)\n\nNotice\n------\n\nBecause I believe in a free and decentralized Internet, [Gitnet](https://gitnet.fr) is **self-hosted at home**.\nIn case of downtime, you can download **Custom Menu** from [here](https://kim.deblan.fr/~side_menu/).",
     "homepage": "https://gitnet.fr/deblan/side_menu",
     "licenses": [
@@ -1544,9 +1544,9 @@
     ]
   },
   "text_templates": {
-    "sha256": "80276c2408a0f51fc073f5ce0ee58d2af8c8da58576659051c75524ba519a732",
-    "url": "https://github.com/nextcloud-releases/text_templates/releases/download/v1.0.3/text_templates-v1.0.3.tar.gz",
-    "version": "1.0.3",
+    "sha256": "828105846b639d08a8a3ae2edd46ec75b937a6e713a225d1d880486fe064a424",
+    "url": "https://github.com/nextcloud-releases/text_templates/releases/download/v1.0.4/text_templates-v1.0.4.tar.gz",
+    "version": "1.0.4",
     "description": "This app adds a smart picker provider to quickly access text templates when using Text, Collectives, Talk, Mail\nor any place where the smart picker is integrated.",
     "homepage": "https://github.com/julien-nc/text_templates",
     "licenses": [
