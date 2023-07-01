@@ -330,9 +330,9 @@
     ]
   },
   "files_antivirus": {
-    "sha256": "dc42e2152dc9b93bc57cb7bc75962b23ac851d77ff722c676a7b1ac19a2e4c55",
-    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.2.0/files_antivirus-v5.2.0.tar.gz",
-    "version": "5.2.0",
+    "sha256": "f69cf1cdfd2e8f771dab65c6c35ddc69e0980629713284943cf0071fa1a68182",
+    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.2.1/files_antivirus-v5.2.1.tar.gz",
+    "version": "5.2.1",
     "description": "Antivirus for files is an antivirus app for Nextcloud.\n\n* 🕵️‍♂️ When the user uploads a file, it's checked\n* ☢️ Uploaded and infected files will be deleted and a notification will be shown and/or sent via email\n* 🔎 Background Job to scan all files\n* ❓ Use ClamAV (open source), Kaspersky Scan Engine or an ICAP compatible scanner\n\nThis application inspects files that are uploaded to Nextcloud for viruses before they are written to the Nextcloud storage. If a file is identified as a virus, it is either logged or not uploaded to the server. The application relies on the underlying ClamAV virus scanning engine, which the admin points Nextcloud to when configuring the application. Alternatively, a Kaspersky Scan Engine can be configured, which has to run on a separate server.\nFor this app to be effective, the ClamAV virus definitions should be kept up to date. Also note that enabling this app will impact system performance as additional processing is required for every upload. More information is available in the Antivirus documentation.",
     "homepage": "",
     "licenses": [
@@ -350,9 +350,9 @@
     ]
   },
   "files_confidential": {
-    "sha256": "ec50a0eb7ba7e9196e50172e13df2e97d2e556b17f0e60529ee509532869f434",
-    "url": "https://github.com/nextcloud/files_confidential/releases/download/v1.0.2/files_confidential.tar.gz",
-    "version": "1.0.2",
+    "sha256": "84d7226a967f1fd3b11d02f1f2f114361b2e7775a93287cf07929712f95bbba4",
+    "url": "https://github.com/nextcloud/files_confidential/releases/download/v1.0.3/files_confidential.tar.gz",
+    "version": "1.0.3",
     "description": "This app allows you to define a set of classification labels that will be assigned to files as Nextcloud tags.\nFor each classification label you can define a set of rules when it will be assigned to a file, based on text\ncontent or BAILS classification meta data.",
     "homepage": "https://github.com/nextcloud/files_confidential",
     "licenses": [
@@ -420,9 +420,9 @@
     ]
   },
   "files_notify_redis": {
-    "sha256": "fffa1df607527cffd54e0d41bd81b1d9c2257baca2f114333e11f4dfffb4c483",
-    "url": "https://github.com/icewind1991/files_notify_redis/releases/download/v0.3.0/files_notify_redis-v0.3.0.tar.gz",
-    "version": "0.3.0",
+    "sha256": "b22ad18bbc3be9764323bcac1b267396539e793a27302f89706e36d27b96a675",
+    "url": "https://github.com/icewind1991/files_notify_redis/releases/download/v0.3.1/files_notify_redis-v0.3.1.tar.gz",
+    "version": "0.3.1",
     "description": "Adds support for handling filesystem notifications for local storages that are pushed into redis",
     "homepage": "https://github.com/icewind1991/files_notify_redis",
     "licenses": [
@@ -809,6 +809,16 @@
       "agpl"
     ]
   },
+  "integration_onedrive": {
+    "sha256": "4e0fe5402685cf025eba66ee3b8d6090bf0300624fcd65daff8f0648cd6beeed",
+    "url": "https://github.com/nextcloud-releases/integration_onedrive/releases/download/v3.0.0/integration_onedrive-v3.0.0.tar.gz",
+    "version": "3.0.0",
+    "description": "Microsoft OneDrive integration allows you to automatically import your OneDrive files into Nextcloud.",
+    "homepage": "https://github.com/nextcloud/integration_onedrive",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "integration_openai": {
     "sha256": "b466ef01e987eb8e92093f32142ec4cc0442c29a0f3ba061e15ec1bebd4d48eb",
     "url": "https://github.com/nextcloud-releases/integration_openai/releases/download/v1.0.10/integration_openai-v1.0.10.tar.gz",
@@ -860,9 +870,9 @@
     ]
   },
   "integration_reddit": {
-    "sha256": "da40c4665f8f0260c131582f703e0dd60edcd3f88e84574d8e828ac2ab6638f5",
-    "url": "https://github.com/nextcloud-releases/integration_reddit/releases/download/v2.0.0/integration_reddit-v2.0.0.tar.gz",
-    "version": "2.0.0",
+    "sha256": "c5d3ce77c0707b0d40ec4fef5dde703074232c427699641dcb82c2fd6450dfb9",
+    "url": "https://github.com/nextcloud-releases/integration_reddit/releases/download/v2.0.1/integration_reddit-v2.0.1.tar.gz",
+    "version": "2.0.1",
     "description": "Reddit integration provides a dashboard widget displaying your recent subscribed news.",
     "homepage": "https://github.com/nextcloud/integration_reddit",
     "licenses": [
@@ -910,10 +920,10 @@
     ]
   },
   "integration_zammad": {
-    "sha256": "488a0cc41dcf7dba5558550e8c6d92d4b9068b79a72a3a4c4a85083c2d09be50",
-    "url": "https://github.com/nextcloud/integration_zammad/releases/download/v2.0.4/integration_zammad-2.0.4.tar.gz",
-    "version": "2.0.4",
-    "description": "Zammad integration provides a dashboard widget displaying your important notifications,\r\n\ta search provider for tickets and notifications for new open tickets.",
+    "sha256": "75036bc9f3a4a63c1fcdd4df91c15d75add211430e8620f2e146113ddf86bec7",
+    "url": "https://github.com/nextcloud-releases/integration_zammad/releases/download/v2.0.6/integration_zammad-v2.0.6.tar.gz",
+    "version": "2.0.6",
+    "description": "Zammad integration provides a dashboard widget displaying your important notifications,\n\ta search provider for tickets and notifications for new open tickets.",
     "homepage": "https://github.com/nextcloud/integration_zammad",
     "licenses": [
       "agpl"
@@ -1000,12 +1010,14 @@
     ]
   },
   "memories": {
-    "sha256": "",
-    "url": "",
-    "version": "",
-    "description": "# Memories: Photo Management for Nextcloud\n\nMemories is a *batteries-included* photo management solution for Nextcloud with advanced features including:\n\n- **📸 Timeline**: Sort photos and videos by date taken, parsed from Exif data.\n- **⏪ Rewind**: Jump to any time in the past instantly and relive your memories.\n- **🤖 AI Tagging**: Group photos by people and objects, powered by [recognize](https://github.com/nextcloud/recognize) and [facerecognition](https://github.com/matiasdelellis/facerecognition).\n- **🖼️ Albums**: Create albums to group photos and videos together. Then share these albums with others.\n- **🫱🏻‍🫲🏻 External Sharing**: Share photos and videos with people outside of your Nextcloud instance.\n- **📱 Mobile Support**: Work from any device, of any shape and size through the web app.\n- **✏️ Edit Metadata**: Edit dates and other metadata on photos quickly and in bulk.\n- **📦 Archive**: Store photos you don't want to see in your timeline in a separate folder.\n- **📹 Video Transcoding**: Transcode videos and use HLS for maximal performance.\n- **🗺️ Map**: View your photos on a map, tagged with accurate reverse geocoding.\n- **📦 Migration**: Migrate easily from Nextcloud Photos and Google Takeout.\n- **⚡️ Performance**: Do all this very fast.\n\n## 🚀 Installation\n\n1. Install the app from the Nextcloud app store (try a demo [here](https://memories-demo.radialapps.com/apps/memories/)).\n1. Perform the recommended [configuration steps](https://github.com/pulsejet/memories/wiki/Configuration).\n1. Run `php occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos.",
-    "homepage": "https://github.com/pulsejet/memories",
-    "licenses": null
+    "sha256": "aab63af2b0b8eedc47999741f4b87ed64f61ab029bae62ae149759a958a3be4c",
+    "url": "https://github.com/pulsejet/memories/releases/download/v5.2.0/memories.tar.gz",
+    "version": "5.2.0",
+    "description": "# Memories: Photo Management for Nextcloud\n\nMemories is a *batteries-included* photo management solution for Nextcloud with advanced features including:\n\n- **📸 Timeline**: Sort photos and videos by date taken, parsed from Exif data.\n- **⏪ Rewind**: Jump to any time in the past instantly and relive your memories.\n- **🤖 AI Tagging**: Group photos by people and objects, powered by [recognize](https://github.com/nextcloud/recognize) and [facerecognition](https://github.com/matiasdelellis/facerecognition).\n- **🖼️ Albums**: Create albums to group photos and videos together. Then share these albums with others.\n- **🫱🏻‍🫲🏻 External Sharing**: Share photos and videos with people outside of your Nextcloud instance.\n- **📱 Mobile Support**: Work from any device, of any shape and size through the web app.\n- **✏️ Edit Metadata**: Edit dates and other metadata on photos quickly and in bulk.\n- **📦 Archive**: Store photos you don't want to see in your timeline in a separate folder.\n- **📹 Video Transcoding**: Transcode videos and use HLS for maximal performance.\n- **🗺️ Map**: View your photos on a map, tagged with accurate reverse geocoding.\n- **📦 Migration**: Migrate easily from Nextcloud Photos and Google Takeout.\n- **⚡️ Performance**: Do all this very fast.\n\n## 🚀 Installation\n\n1. Install the app from the Nextcloud app store (try a demo [here](https://demo.memories.gallery/apps/memories/)).\n1. Perform the recommended [configuration steps](https://memories.gallery/config/).\n1. Run `php occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos.",
+    "homepage": "https://memories.gallery",
+    "licenses": [
+      "agpl"
+    ]
   },
   "metadata": {
     "sha256": "5df1710b04453b45a704f5380887a3357c92450760bafcdabaeeb66f350a0f8e",
