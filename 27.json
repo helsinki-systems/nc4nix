@@ -50,9 +50,9 @@
     ]
   },
   "approval": {
-    "sha256": "91b7f16e14aa065f8298707b5e2692a85069c31b5ee20bac53299b84ca449364",
-    "url": "https://github.com/nextcloud-releases/approval/releases/download/v1.0.13/approval-v1.0.13.tar.gz",
-    "version": "1.0.13",
+    "sha256": "90d4f12dc4f6197622f962bb013adc2870552e711a906e173dea14b3f36ca334",
+    "url": "https://github.com/nextcloud-releases/approval/releases/download/v1.0.14/approval-v1.0.14.tar.gz",
+    "version": "1.0.14",
     "description": "Approve/reject files based on workflows defined by admins.",
     "homepage": "https://github.com/nextcloud/approval",
     "licenses": [
@@ -228,6 +228,14 @@
     "licenses": [
       "agpl"
     ]
+  },
+  "dokuwiki": {
+    "sha256": "",
+    "url": "",
+    "version": "",
+    "description": "Embed an existing DokuWiki instance into Nextcloud, potentially with SSO. For SSO DokuWiki users and Nextcloud users have to coincide, e.g. by using a common authentication backend like LDAP, or with an appropriate auth plugin on either side of the integration.",
+    "homepage": "",
+    "licenses": null
   },
   "drawio": {
     "sha256": "711efcac7473d623bd1407650b9cbc1a40e306dca57c34239fe4821dfc0e1b8d",
@@ -1177,6 +1185,16 @@
       "agpl"
     ]
   },
+  "oidc": {
+    "sha256": "daa46b900eca12064fd47ccab989b5b1726693e20c113aeabf7cdb77d9adf78b",
+    "url": "https://github.com/H2CK/oidc/releases/download/0.6.1/oidc-0.6.1.tar.gz",
+    "version": "0.6.1",
+    "description": "Nextcloud as OpenID Connect Identity Provider\n\nWith this app you can use Nextcloud as OpenID Connect Identity Provider. If other services\nare configured correctly, you are able to access those services with your Nextcloud login.\n\nFull documentation can be found at:\n\n- [User Documentation](https://github.com/H2CK/oidc/wiki#user-documentation)\n- [Developer Documentation](https://github.com/H2CK/oidc/wiki#developer-documentation)",
+    "homepage": "https://github.com/H2CK/oidc",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "oidc_login": {
     "sha256": "088000fd6cd5117612dd00b1251e676a54ad236a62c60a768b6a1e43ba037346",
     "url": "https://github.com/pulsejet/nextcloud-oidc-login/releases/download/v2.6.0/oidc_login.tar.gz",
@@ -1368,9 +1386,9 @@
     ]
   },
   "richdocumentscode": {
-    "sha256": "02c32ec53f840b374dd45e9331268e970054224de3c91f061586e87afa4a4de0",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.103/richdocumentscode.tar.gz",
-    "version": "23.5.103",
+    "sha256": "2cae11a10464769722cdd31372d27bf8248fe426b0156a423839d936092dbbc0",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.104/richdocumentscode.tar.gz",
+    "version": "23.5.104",
     "description": "This app has to be installed and used together with the **[Collabora Online](https://apps.nextcloud.com/apps/richdocuments)** app.\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\nThis app provides a built-in server with all of the document editing features of Collabora Online. Easy to install, for personal use or for small teams. A bit slower than a standalone server and without the advanced scalability features.\n\nThe download is rather big so it is possible you experience a time-out when using the web interface. You can use the OCC command line tool to install the built-in server:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -1378,9 +1396,9 @@
     ]
   },
   "richdocumentscode_arm64": {
-    "sha256": "2e94403550688794e3aa43fd8552ac6b37a5441dc0ac6695998288b9de44474e",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.103/richdocumentscode_arm64.tar.gz",
-    "version": "23.5.103",
+    "sha256": "2af98961a48a6a53ce5a4a58c3b3d388fbccaed0ad20d84febbe66d6101552c6",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.104/richdocumentscode_arm64.tar.gz",
+    "version": "23.5.104",
     "description": "This app has to be installed and used together with the **[Collabora Online](https://apps.nextcloud.com/apps/richdocuments)** app.\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\nThis app provides a built-in server with all of the document editing features of Collabora Online. Easy to install, for personal use or for small teams. A bit slower than a standalone server and without the advanced scalability features.\n\nThe download is rather big so it is possible you experience a time-out when using the web interface. You can use the OCC command line tool to install the built-in server:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode_arm64\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
