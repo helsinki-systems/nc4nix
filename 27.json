@@ -1,8 +1,8 @@
 {
   "aaochat": {
-    "sha256": "f3de720b0291db017b7c6fa86f273047b3a72f82fc046e05004c6fa3de8c28d4",
-    "url": "https://github.com/aaochat/aaochat/files/10821189/aaochat.tar.gz",
-    "version": "0.0.1",
+    "sha256": "fcc12b7e0700b4bbf4bbd401a6f792d0d35179c94a89c501f4fc7e52dbcc173b",
+    "url": "https://github.com/aaochat/aaochat/files/12179940/aaochat.tar.gz",
+    "version": "0.0.7",
     "description": "Transform your Team's communication with Aao Business Chat!\n\nThis powerful App offers numerous helpful features to make your chats smoother, more engaging, and hassle-free. With Aao Business, you can:\n\n- 📎 Share Audio/Video/Documents with ease\n- 🗓️ Schedule messages for optimal timing\n- 🔔 Snooze messages for later\n- 📝 Draft and save messages for later\n- 🏷️ Label messages for better organization\n- 🤫 Reply privately in groups\n- 🔒 Create Admin-Only Groups but with a Twist\n- 📢 Use Broadcast Groups to reach multiple people at once\n- 🔇 Schedule Mute for when you need to focus\n- 🖼️ View documents/media without downloading\n- 🤖 Utilize AI (OCR) to search photos, videos, and documents\n\nExperience Seamless and Efficient Team communication with Aao Business Chat.\n\n#####\n\nHere is the **[link](https://youtu.be/0n6bcnDckyc)** to the video: Step by step guide on how to install Aao Business Chat on Nextcloud **[https://youtu.be/0n6bcnDckyc](https://youtu.be/0n6bcnDckyc)**",
     "homepage": "https://aaochat.com/",
     "licenses": [
@@ -75,6 +75,16 @@
     "version": "1.5.2",
     "description": "Automatically add users to the specified Auto Groups, except those users belonging to one of the specified Override Groups. \nOptionally, the group assignment can be triggered on every successful login, which is useful for external user backends.\n\n## Configuration\n\n- Go to \"Settings > Administration > Additional settings\"\n- Configure the Auto Groups\n- If required, configure the Override Groups (e.g., for Service Accounts)\n- Optionally, enable the Login Hook, which will enforce correct group membership on every successful login\n\nNote that this app prevents group deletions for groups referenced as Auto Groups or Override Groups.\n\n## Comparison to similar Apps\n\n* [Everyone Group](https://apps.nextcloud.com/apps/group_everyone): The \"Everyone Group\" app adds a virtual Group Backend, always returning all users. In contrast, \"Auto Groups\" operates on \"real\" groups in your normal Group Backend. Additionally, it is possible to specify Override Groups which will prevent users from being added to the Auto Group(s).\n* [Default Group](https://apps.nextcloud.com/apps/defaultgroup): \"Auto Groups\" is actually a modernized and maintaned fork of \"Default Group\", which seems to be abandoned since NC12 or so. In terms of functionality, they are almost identical.\n\nIn addition, I plan to add some more features over time, e.g., \"Union Groups\" - see the [Milestone Plans](https://github.com/stjosh/auto_groups/milestones) for more details.",
     "homepage": "https://github.com/stjosh/auto_groups",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "bbb": {
+    "sha256": "4b9801487d4b13d3d2c17036de319858ff33e624f481bf29f36dcaa99dc898f0",
+    "url": "https://github.com/sualko/cloud_bbb/releases/download/v2.5.0/bbb-v2.5.0.tar.gz",
+    "version": "2.5.0",
+    "description": "This app allows to create meetings with an external installation of [BigBlueButton](https://bigbluebutton.org).\n\n* **Room setup** Create multiple room configurations with name, welcome message …\n* **Share guest link** Share the room link with all your guests\n* **Share moderator link** Invite moderators to the room\n* **Share rooms** Share rooms with members, groups or circles\n* **Custom presentation** Start a room with a selected presentation from your file browser\n* **Manage recordings** View, share and delete recordings for your rooms\n* **Restrictions** Restrict room creation to certain groups\n* **Activities** Get an overview of your room activities\n\nQuick start guide and further information in our [readme](https://github.com/sualko/cloud_bbb).\nDo you like this application? Give something back to the open source community and checkout our\n[ways to contribute](https://github.com/sualko/cloud_bbb/blob/master/.github/contributing.md).\n\nDeveloper wanted! If you have time it would be awesome if you could help to enhance this application.\n\n*This app integrates BigBlueButton and is not endorsed or certified by BigBlueButton Inc. BigBlueButton and the BigBlueButton Logo are trademarks of BigBlueButton Inc.*",
+    "homepage": "https://github.com/sualko/cloud_bbb/",
     "licenses": [
       "agpl"
     ]
@@ -1333,6 +1343,16 @@
     "version": "1.0.5",
     "description": "This app provides a page to pick a file, generate a public link and directly browse it.\nIt can be used to integrate Nextcloud in other apps such as a video call software.",
     "homepage": "https://github.com/julien-nc/picker",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "piwik": {
+    "sha256": "615664498330eeb67b7bf2c7a27cb564925885de8ff498bedeed533edc07ea2c",
+    "url": "https://github.com/sualko/cloud_piwik/releases/download/v0.12.0/cloud_piwik-0.12.0.tar.gz",
+    "version": "0.12.0",
+    "description": "Track users with Piwik/Matomo",
+    "homepage": "http://sualko.github.io/cloud_piwik/",
     "licenses": [
       "agpl"
     ]
