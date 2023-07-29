@@ -948,9 +948,9 @@
     ]
   },
   "integration_openproject": {
-    "sha256": "269815eb794efb5c65997b5f8710bd8652eafa3d972cccc2a38fddce53ea89b3",
-    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.3.7/integration_openproject-2.3.7.tar.gz",
-    "version": "2.3.7",
+    "sha256": "22f5d16fe2b0306d5fab2f4af1cb7795863f79dbb256904941a113d7fa3fc61c",
+    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.3.8/integration_openproject-2.3.8.tar.gz",
+    "version": "2.3.8",
     "description": "This application enables seamless integration with open source project management and collaboration software OpenProject.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in OpenProject\n* Find all work packages linked to a file or a folder\n* View OpenProject notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n\nOn the OpenProject end, users are able to:\n\n* View all Nextcloud files and folders linked to a work package\n* Download linked files or open them in Nextcloud to edit them\n\nFor more information on how to set up and use the OpenProject application, please refer to [integration setup guide](https://www.openproject.org/docs/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://www.openproject.org/docs/user-guide/nextcloud-integration/).",
     "homepage": "https://github.com/nextcloud/integration_openproject",
     "licenses": [
@@ -1003,6 +1003,16 @@
     "version": "1.0.7",
     "description": "Replicate integration provides a smart picker provider for Whisper translation/transcription and stable diffusion image prediction.\n\n## Ethical AI Rating\n### Rating: 🟡\n\nPositive:\n* the software for training and inferencing of this model is open source\n* the trained model is freely available, and thus can be ran on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\nNegative:\n* the software for training and inferencing of this model is proprietary, limiting running it locally or training by yourself\n* the trained model is not freely available, so the model can not be ran on-premises\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/julien-nc/integration_replicate",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "integration_slack": {
+    "sha256": "ed67e2c87ccab9363aa99ef516241489b259af9676ac4c420d12140f57242098",
+    "url": "https://github.com/nextcloud-releases/integration_slack/releases/download/1.0.0/integration_slack-1.0.0.tar.gz",
+    "version": "1.0.0",
+    "description": "Slack integration lets you send files to Slack from Nextcloud Files.",
+    "homepage": "https://github.com/nextcloud/integration_slack",
     "licenses": [
       "agpl"
     ]
@@ -1248,9 +1258,9 @@
     ]
   },
   "oidc": {
-    "sha256": "daa46b900eca12064fd47ccab989b5b1726693e20c113aeabf7cdb77d9adf78b",
-    "url": "https://github.com/H2CK/oidc/releases/download/0.6.1/oidc-0.6.1.tar.gz",
-    "version": "0.6.1",
+    "sha256": "5fe59bdc3e5638dae6f46cd71c41126e033ff793890e785a0eb06d93e5d32a39",
+    "url": "https://github.com/H2CK/oidc/releases/download/0.6.2/oidc-0.6.2.tar.gz",
+    "version": "0.6.2",
     "description": "Nextcloud as OpenID Connect Identity Provider\n\nWith this app you can use Nextcloud as OpenID Connect Identity Provider. If other services\nare configured correctly, you are able to access those services with your Nextcloud login.\n\nFull documentation can be found at:\n\n- [User Documentation](https://github.com/H2CK/oidc/wiki#user-documentation)\n- [Developer Documentation](https://github.com/H2CK/oidc/wiki#developer-documentation)",
     "homepage": "https://github.com/H2CK/oidc",
     "licenses": [
@@ -1298,19 +1308,19 @@
     ]
   },
   "passwords": {
-    "sha256": "ee1896857093280324eabac2bf41c7f94b67d42578f0fee95cbac06447cb821a",
-    "url": "https://git.mdns.eu/nextcloud/passwords/-/jobs/16163/artifacts/raw/passwords.tar.gz",
-    "version": "2023.7.30",
-    "description": "Passwords is the most advanced password manager for Nextcloud and allows you to manage and store your passwords safely in your own cloud.\nThe intuitive and modern web interface of the app makes it easy to update and add new passwords from anywhere.\nIncluded security checks help you to keep your online accounts safe and up-to-date.\nYou can also share passwords with other Nextcloud users.\n\n**Features**\n * Intuitive and modern user interface\n * Password security monitor\n * Secure encryption\n * Folders &amp; tags\n * Sharing\n * API for apps\n * Extensive handbook\n * Import &amp; Export\n * Browser extensions &amp; Apps\n * ... and many more to come\n\n**Support**\n * [Official Chat](https://t.me/nc_passwords)\n * [Official Forum](https://help.nextcloud.com/c/apps/passwords)\n * [User Handbook](https://git.mdns.eu/nextcloud/passwords/wikis/Users/Index)\n * [Administrator Handbook](https://git.mdns.eu/nextcloud/passwords/wikis/Administrators/Index)\n\n**Apps & Extensions**\n * [Official Firefox Add-On](https://addons.mozilla.org/de/firefox/addon/nextcloud-passwords?src=external-ncapps)\n * [Official Chrome Extension](https://chrome.google.com/webstore/detail/nextcloud-passwords/mhajlicjhgoofheldnmollgbgjheenbi)\n * [Official Microsoft Edge Extension](https://microsoftedge.microsoft.com/addons/detail/cjmlcljdpphgdfpkngjcmeepdpcgpffk)\n * [Android App](https://play.google.com/store/apps/details?id=de.jbservices.nc_passwords_app) by [joleaf](https://gitlab.com/joleaf/nc-passwords-app)\n * [Windows App (WIP)](https://www.microsoft.com/store/apps/9NXVZ0ZP6D5Z) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [Linux App (WIP)](https://gitlab.com/j0chn/nextcloud_password_client/-/tree/main#linux) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [macOS App (WIP)](https://gitlab.com/j0chn/nextcloud_password_client/-/tree/main#mac-os) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [iOS App](https://apps.apple.com/app/id1546212226) by [Johannes Schliephake](https://github.com/johannes-schliephake/nextcloud-passwords-ios)",
+    "sha256": "d06ebd640c609cefa34f58aee09e85e4931e16361f6a1a0664754255a6af68f6",
+    "url": "https://git.mdns.eu/api/v4/projects/45/packages/generic/passwords/2023.8.0/passwords.tar.gz",
+    "version": "2023.8.30",
+    "description": "Passwords is the most advanced password manager for Nextcloud and allows you to manage and store your passwords safely in your own cloud.\nThe intuitive and modern web interface of the app makes it easy to update and add new passwords from anywhere.\nIncluded security checks help you to keep your online accounts safe and up-to-date.\nYou can also share passwords with other Nextcloud users.\n\n**Features**\n * Intuitive and modern user interface\n * Password security monitor\n * Secure encryption\n * Folders &amp; tags\n * Sharing\n * API for apps\n * Extensive handbook\n * Import &amp; Export\n * Browser extensions &amp; Apps\n * ... and many more to come\n\n**Support**\n * [Official Chat](https://t.me/nc_passwords/1)\n * [Official Forum](https://help.nextcloud.com/c/apps/passwords)\n * [User Handbook](https://git.mdns.eu/nextcloud/passwords/-/wikis/Users/Index)\n * [Administrator Handbook](https://git.mdns.eu/nextcloud/passwords/-/wikis/Administrators/Index)\n\n**Apps & Extensions**\n * [Official Firefox Add-On](https://addons.mozilla.org/de/firefox/addon/nextcloud-passwords?src=external-ncapps)\n * [Official Chrome Extension](https://chrome.google.com/webstore/detail/nextcloud-passwords/mhajlicjhgoofheldnmollgbgjheenbi)\n * [Official Microsoft Edge Extension](https://microsoftedge.microsoft.com/addons/detail/cjmlcljdpphgdfpkngjcmeepdpcgpffk)\n * [Android App](https://play.google.com/store/apps/details?id=de.jbservices.nc_passwords_app) by [joleaf](https://gitlab.com/joleaf/nc-passwords-app)\n * [Windows App (WIP)](https://www.microsoft.com/store/apps/9NXVZ0ZP6D5Z) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [Linux App (WIP)](https://gitlab.com/j0chn/nextcloud_password_client/-/tree/main#linux) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [macOS App (WIP)](https://gitlab.com/j0chn/nextcloud_password_client/-/tree/main#mac-os) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [iOS App](https://apps.apple.com/app/id1546212226) by [Johannes Schliephake](https://github.com/johannes-schliephake/nextcloud-passwords-ios)",
     "homepage": "",
     "licenses": [
       "agpl"
     ]
   },
   "passwords_handbook": {
-    "sha256": "cb6efadfa416b05c239a84c6fb637a97a0fc14327a3b89012393ef6fae47c6ff",
-    "url": "https://git.mdns.eu/nextcloud/passwords-handbook/-/jobs/16169/artifacts/raw/passwords_handbook.tar.gz",
-    "version": "2023.7.20",
+    "sha256": "e21cf2367ba04b14e3a79864617908493a5b6bff08de6388c689adf37ad3ac76",
+    "url": "https://git.mdns.eu/api/v4/projects/58/packages/generic/passwords-handbook/2023.8.0/passwords-handbook.tar.gz",
+    "version": "2023.8.20",
     "description": "With this app you can host the in app user handbook for the Passwords app for Nextcloud on your own Nextcloud instance instead of using the sources on Github or a custom server.\nThis improves user privacy and enables using the handbook in networks where Github may not be available.",
     "homepage": "",
     "licenses": [
@@ -1678,9 +1688,9 @@
     ]
   },
   "spreed": {
-    "sha256": "9cff47bff3ea266fb2d06036408bd274ce912bf2bf90528531ccb382c8c1d903",
-    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v17.0.2/spreed-v17.0.2.tar.gz",
-    "version": "17.0.2",
+    "sha256": "bdbd3c0c8faafb97fcef3cf6520b84d72e9bd0d57612820262968a5069b2179c",
+    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v17.0.3/spreed-v17.0.3.tar.gz",
+    "version": "17.0.3",
     "description": "Chat, video & audio-conferencing using WebRTC\n\n* 💬 **Chat integration!** Nextcloud Talk comes with a simple text chat. Allowing you to share files from your Nextcloud and mentioning other participants.\n* 👥 **Private, group, public and password protected calls!** Just invite somebody, a whole group or send a public link to invite to a call.\n* 💻 **Screen sharing!** Share your screen with participants of your call. You just need to use Firefox version 66 (or newer), latest Edge or Chrome 72 (or newer, also possible using Chrome 49 with this [Chrome extension](https://chrome.google.com/webstore/detail/screensharing-for-nextclo/kepnpjhambipllfmgmbapncekcmabkol)).\n* 🚀 **Integration with other Nextcloud apps** like Files, Contacts and Deck. More to come.\n\nAnd in the works for the [coming versions](https://github.com/nextcloud/spreed/milestones/):\n* ✋ [Federated calls](https://github.com/nextcloud/spreed/issues/21), to call people on other Nextclouds",
     "homepage": "https://github.com/nextcloud/spreed",
     "licenses": [
