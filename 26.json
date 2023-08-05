@@ -120,9 +120,9 @@
     ]
   },
   "calendar": {
-    "sha256": "cdf0ab185bd9d1b8bd17cb948e995039fa54d89b47b0d26567aad7a7a8f8618f",
-    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v4.4.3/calendar-v4.4.3.tar.gz",
-    "version": "4.4.3",
+    "sha256": "f147873a981b51fda81c73af2cde7cbfaf10bf20d84179128ec54a9fa506ac65",
+    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v4.4.4/calendar-v4.4.4.tar.gz",
+    "version": "4.4.4",
     "description": "The Calendar app is a user interface for Nextcloud's CalDAV server. Easily sync events from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Currently Contacts - more to come.\n* 🌐 **WebCal Support!** Want to see your favorite team’s matchdays in your calendar? No problem!\n* 🙋 **Attendees!** Invite people to your events\n* ⌚️ **Free/Busy!** See when your attendees are available to meet\n* ⏰ **Reminders!** Get alarms for events inside your browser and via email\n* 🔍 Search! Find your events at ease\n* ☑️ Tasks! See tasks with a due date directly in the calendar\n* 🙈 **We’re not reinventing the wheel!** Based on the great [c-dav library](https://github.com/nextcloud/cdav-library), [ical.js](https://github.com/mozilla-comm/ical.js) and [fullcalendar](https://github.com/fullcalendar/fullcalendar) libraries.",
     "homepage": "https://github.com/nextcloud/calendar/",
     "licenses": [
@@ -320,12 +320,14 @@
     ]
   },
   "dokuwiki": {
-    "sha256": "",
-    "url": "",
-    "version": "",
+    "sha256": "b97f658d2cf467be32dc41524028f65ee0c85411a483303bebff31de45f78a3b",
+    "url": "https://github.com/rotdrop/nextcloud-app-dokuwiki/releases/download/v1.0.1/dokuwiki.tar.gz",
+    "version": "1.0.1",
     "description": "Embed an existing DokuWiki instance into Nextcloud, potentially with SSO. For SSO DokuWiki users and Nextcloud users have to coincide, e.g. by using a common authentication backend like LDAP, or with an appropriate auth plugin on either side of the integration.",
     "homepage": "",
-    "licenses": null
+    "licenses": [
+      "agpl"
+    ]
   },
   "drawio": {
     "sha256": "e41ac49d2d9c324fefc2402bd655cab5fa1ca91799023d7ea5b0ea9a2fee1b40",
@@ -472,6 +474,16 @@
     "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.2.1/files_antivirus-v5.2.1.tar.gz",
     "version": "5.2.1",
     "description": "Antivirus for files is an antivirus app for Nextcloud.\n\n* 🕵️‍♂️ When the user uploads a file, it's checked\n* ☢️ Uploaded and infected files will be deleted and a notification will be shown and/or sent via email\n* 🔎 Background Job to scan all files\n* ❓ Use ClamAV (open source), Kaspersky Scan Engine or an ICAP compatible scanner\n\nThis application inspects files that are uploaded to Nextcloud for viruses before they are written to the Nextcloud storage. If a file is identified as a virus, it is either logged or not uploaded to the server. The application relies on the underlying ClamAV virus scanning engine, which the admin points Nextcloud to when configuring the application. Alternatively, a Kaspersky Scan Engine can be configured, which has to run on a separate server.\nFor this app to be effective, the ClamAV virus definitions should be kept up to date. Also note that enabling this app will impact system performance as additional processing is required for every upload. More information is available in the Antivirus documentation.",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "files_archive": {
+    "sha256": "cf554bc2066666a0ab3976662b196b6d9a64ddec73eea6f81be6654fdeeddcc0",
+    "url": "https://github.com/rotdrop/nextcloud-app-files-archive/releases/download/v1.1.3/files_archive.tar.gz",
+    "version": "1.1.3",
+    "description": "Inspect, mount and extract archive files (zip, tar, etc.)",
     "homepage": "",
     "licenses": [
       "agpl"
