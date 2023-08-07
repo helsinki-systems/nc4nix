@@ -280,8 +280,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -1800,9 +1800,9 @@
     ]
   },
   "richdocumentscode": {
-    "sha256": "2cae11a10464769722cdd31372d27bf8248fe426b0156a423839d936092dbbc0",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.104/richdocumentscode.tar.gz",
-    "version": "23.5.104",
+    "sha256": "e7bff881acb21bac77ec7ce45118340f4ba9510510b698bf6269711b97126922",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.202/richdocumentscode.tar.gz",
+    "version": "23.5.202",
     "description": "This app has to be installed and used together with the **[Collabora Online](https://apps.nextcloud.com/apps/richdocuments)** app.\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\nThis app provides a built-in server with all of the document editing features of Collabora Online. Easy to install, for personal use or for small teams. A bit slower than a standalone server and without the advanced scalability features.\n\nThe download is rather big so it is possible you experience a time-out when using the web interface. You can use the OCC command line tool to install the built-in server:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -1810,9 +1810,9 @@
     ]
   },
   "richdocumentscode_arm64": {
-    "sha256": "2af98961a48a6a53ce5a4a58c3b3d388fbccaed0ad20d84febbe66d6101552c6",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.104/richdocumentscode_arm64.tar.gz",
-    "version": "23.5.104",
+    "sha256": "91c27c4126a6f54f8948872dda1467b50338319fab8a6032bfcbbce06b68fd8d",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.202/richdocumentscode_arm64.tar.gz",
+    "version": "23.5.202",
     "description": "This app has to be installed and used together with the **[Collabora Online](https://apps.nextcloud.com/apps/richdocuments)** app.\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\nThis app provides a built-in server with all of the document editing features of Collabora Online. Easy to install, for personal use or for small teams. A bit slower than a standalone server and without the advanced scalability features.\n\nThe download is rather big so it is possible you experience a time-out when using the web interface. You can use the OCC command line tool to install the built-in server:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode_arm64\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
