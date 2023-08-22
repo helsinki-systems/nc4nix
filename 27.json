@@ -258,8 +258,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -898,9 +898,9 @@
     ]
   },
   "integration_giphy": {
-    "sha256": "5ed63cc2e1d995bda3f7714f20184351870fc2ec8f3150f6bd2a6391bd474278",
-    "url": "https://github.com/nextcloud-releases/integration_giphy/releases/download/v1.0.7/integration_giphy-v1.0.7.tar.gz",
-    "version": "1.0.7",
+    "sha256": "18bf40a43b950ec470d06e43cb56b050f2c2dc6c2e7e632bad09e6b8c9acaef2",
+    "url": "https://github.com/nextcloud-releases/integration_giphy/releases/download/v1.0.8/integration_giphy-v1.0.8.tar.gz",
+    "version": "1.0.8",
     "description": "Giphy integration provides a unified search provider for GIFs. It also provides a link reference provider\n    to render links to GIFs and make it possible to search for GIFs in Talk, Text and potentially anywhere in Nextcloud.",
     "homepage": "https://github.com/nextcloud/integration_giphy",
     "licenses": [
@@ -1031,16 +1031,16 @@
     "sha256": "8da3a71fc0003894812438eef631d9107a0178822c6fc0f1db81a18f1db6ea81",
     "url": "https://github.com/nextcloud-releases/integration_openai/releases/download/v1.0.11/integration_openai-v1.0.11.tar.gz",
     "version": "1.0.11",
-    "description": "This app includes 3 custom smart pickers for Nextcloud:\n* ChatGPT-like answers\n* Image generation (with DALL·E 2 or LocalAI)\n* Whisper dictation\n\nIt also implements\n\n* A Translation provider (using OpenAI's gpt-3.5-turbo)\n* A SpeechToText provider (using Whisper)\n\nInstead of connecting to the OpenAI API for these, you can also connect to a self-hosted [LocalAI](https://localai.io) instance.\n\n## Ethical AI Rating\n### Rating for Text generation using ChatGPT via OpenAI API: 🔴\n\nNegative:\n* the software for training and inference of this model is proprietary, limiting running it locally or training by yourself\n* the trained model is not freely available, so the model can not be run on-premises\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model's performance and CO2 usage.\n\n\n### Rating for Translation using ChatGPT via OpenAI API: 🔴\n\nNegative:\n* the software for training and inference of this model is proprietary, limiting running it locally or training by yourself\n* the trained model is not freely available, so the model can not be run on-premises\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model's performance and CO2 usage.\n\n### Rating for Image generation using DALL·E via OpenAI API: 🔴\n\nNegative:\n* the software for training and inferencing of this model is proprietary, limiting running it locally or training by yourself\n* the trained model is not freely available, so the model can not be ran on-premises\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\n\n### Rating for Speech-To-Text using Whisper via OpenAI API: 🟡\n\nPositive:\n* the software for training and inferencing of this model is open source\n* The trained model is freely available, and thus can run on-premise\n\nNegative:\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\n### Rating for Text generation via LocalAI: 🟢\n\nPositive:\n* the software for training and inferencing of this model is open source\n* the trained model is freely available, and thus can be ran on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n\n### Rating for Image generation using Stable Diffusion via LocalAI : 🟡\n\nPositive:\n* the software for training and inferencing of this model is open source\n* the trained model is freely available, and thus can be ran on-premises\n\nNegative:\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\n\n### Rating for Speech-To-Text using Whisper via LocalAI: 🟡\n\nPositive:\n* the software for training and inferencing of this model is open source\n* the trained model is freely available, and thus can be ran on-premises\n\nNegative:\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
+    "description": "This app includes 3 custom smart pickers for Nextcloud:\n* ChatGPT-like answers\n* Image generation (with DALL·E 2 or LocalAI)\n* Whisper dictation\n\nIt also implements\n\n* A Translation provider (using any available language model)\n* A SpeechToText provider (using Whisper)\n\nInstead of connecting to the OpenAI API for these, you can also connect to a self-hosted [LocalAI](https://localai.io) instance.\n\n## Ethical AI Rating\n### Rating for Text generation using ChatGPT via OpenAI API: 🔴\n\nNegative:\n* the software for training and inference of this model is proprietary, limiting running it locally or training by yourself\n* the trained model is not freely available, so the model can not be run on-premises\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model's performance and CO2 usage.\n\n\n### Rating for Translation using ChatGPT via OpenAI API: 🔴\n\nNegative:\n* the software for training and inference of this model is proprietary, limiting running it locally or training by yourself\n* the trained model is not freely available, so the model can not be run on-premises\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model's performance and CO2 usage.\n\n### Rating for Image generation using DALL·E via OpenAI API: 🔴\n\nNegative:\n* the software for training and inferencing of this model is proprietary, limiting running it locally or training by yourself\n* the trained model is not freely available, so the model can not be ran on-premises\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\n\n### Rating for Speech-To-Text using Whisper via OpenAI API: 🟡\n\nPositive:\n* the software for training and inferencing of this model is open source\n* The trained model is freely available, and thus can run on-premise\n\nNegative:\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\n### Rating for Text generation via LocalAI: 🟢\n\nPositive:\n* the software for training and inferencing of this model is open source\n* the trained model is freely available, and thus can be ran on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n\n### Rating for Image generation using Stable Diffusion via LocalAI : 🟡\n\nPositive:\n* the software for training and inferencing of this model is open source\n* the trained model is freely available, and thus can be ran on-premises\n\nNegative:\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\n\n### Rating for Speech-To-Text using Whisper via LocalAI: 🟡\n\nPositive:\n* the software for training and inferencing of this model is open source\n* the trained model is freely available, and thus can be ran on-premises\n\nNegative:\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/integration_openai",
     "licenses": [
       "agpl"
     ]
   },
   "integration_openproject": {
-    "sha256": "22f5d16fe2b0306d5fab2f4af1cb7795863f79dbb256904941a113d7fa3fc61c",
-    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.3.8/integration_openproject-2.3.8.tar.gz",
-    "version": "2.3.8",
+    "sha256": "804da189baef519bc1c9998d4a4ad1e310a2c808573bb513fab3deeb2ddc9931",
+    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.4.2/integration_openproject-2.4.2.tar.gz",
+    "version": "2.4.2",
     "description": "This application enables seamless integration with open source project management and collaboration software OpenProject.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in OpenProject\n* Find all work packages linked to a file or a folder\n* View OpenProject notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n\nOn the OpenProject end, users are able to:\n\n* View all Nextcloud files and folders linked to a work package\n* Download linked files or open them in Nextcloud to edit them\n\nFor more information on how to set up and use the OpenProject application, please refer to [integration setup guide](https://www.openproject.org/docs/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://www.openproject.org/docs/user-guide/nextcloud-integration/).",
     "homepage": "https://github.com/nextcloud/integration_openproject",
     "licenses": [
@@ -1068,9 +1068,9 @@
     ]
   },
   "integration_pexip": {
-    "sha256": "2a7514b323d9a1445d8001f22306da9a0cba0f935238f50ce3bf77c9a0fc59c1",
-    "url": "https://github.com/nextcloud-releases/integration_pexip/releases/download/v1.0.1/integration_pexip-v1.0.1.tar.gz",
-    "version": "1.0.1",
+    "sha256": "559cf6a2d9db9d43d790928f836aeb9ed2cf42641e7c030ca59782c5784dbec4",
+    "url": "https://github.com/nextcloud-releases/integration_pexip/releases/download/v1.0.3/integration_pexip-v1.0.3.tar.gz",
+    "version": "1.0.3",
     "description": "The Pexip integration app implements a Smart Picker provider to create\nPexip meetings and immediately get a meeting link.\n\nMore information in the [project's README](https://github.com/julien-nc/integration_pexip/#readme).",
     "homepage": "https://github.com/julien-nc/integration_pexip",
     "licenses": [
@@ -1216,9 +1216,9 @@
     ]
   },
   "mail": {
-    "sha256": "b07f5024038b620f3031210d821fddd127dde801765019d7c16eab6c30298e67",
-    "url": "https://github.com/nextcloud-releases/mail/releases/download/v3.2.6/mail-v3.2.6.tar.gz",
-    "version": "3.2.6",
+    "sha256": "0f35e7d2b6e1679ba7457042ecf2b5ee1cf06ee88f701c39bc09e0b4a9f6a710",
+    "url": "https://github.com/nextcloud-releases/mail/releases/download/v3.3.0/mail-v3.3.0.tar.gz",
+    "version": "3.3.0",
     "description": "**💌 A mail app for Nextcloud**\n\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://horde.org) libraries.\n- **📬 Want to host your own mail server?** We do not have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!\n\n## Ethical AI Rating\n### Rating: 🟢\n\nPositive:\n* The software for training and inferencing of this model is open source.\n* The model is created and trained on-premises based on the user's own data.\n* The training data is accessible to the user, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/mail#readme",
     "licenses": [
@@ -1696,9 +1696,9 @@
     ]
   },
   "sentry": {
-    "sha256": "734cbf50d19e8977e41b4e86bb43285df12dfa2b7c0bfc53e311401622198505",
-    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.8.10/sentry-v8.8.10.tar.gz",
-    "version": "8.8.10",
+    "sha256": "818024ec4727f2bc6ded47b532c5443e84fa2db4b9e03958e955238fdc44fbf5",
+    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.8.11/sentry-v8.8.11.tar.gz",
+    "version": "8.8.11",
     "description": "A Sentry integration that sends unhandled exceptions to a Sentry instance to aggregate application crashes. You either have to set up your own Sentry instance or use your sentry.io account. See the admin documentation for how to configure this app.",
     "homepage": "https://github.com/ChristophWurst/nextcloud_sentry",
     "licenses": [
@@ -2024,9 +2024,9 @@
     ]
   },
   "unroundedcorners": {
-    "sha256": "29491ead046a2ad282c1c1105996e7175209e31b128f3e47e8b183e8bd544d36",
-    "url": "https://github.com/OliverParoczai/nextcloud-unroundedcorners/releases/download/v1.0.9/unroundedcorners-v1.0.9.tar.gz",
-    "version": "1.0.9",
+    "sha256": "af39a044553b1d431f56950524b2c652ab163b16d22f55919c037f28874fcb1c",
+    "url": "https://github.com/OliverParoczai/nextcloud-unroundedcorners/releases/download/v1.1.0/unroundedcorners-v1.1.0.tar.gz",
+    "version": "1.1.0",
     "description": "# Unrounded Corners\nA Nextcloud app that restores the corners of buttons and widgets to their original looks by unrounding them.",
     "homepage": "https://github.com/OliverParoczai/nextcloud-unroundedcorners",
     "licenses": [
@@ -2149,6 +2149,16 @@
     "version": "1.0.9",
     "description": "ℹ A Markdown rendering Dashboard widget to welcome all users.\n\n⚙ Configure via `Settings > Administration > Theming > Welcome widget`\n\n📄 Pick a Markdown document to be rendered in the widget\n\n💡 If no document is chosen, the widget won't be shown\n\n📝 Edit the Markdown document to update the widget in real-time\n\n🖼 Images are also supported\n\n💬 Configure a contact person to directly start a chat with (requires [Nextcloud Talk](https://apps.nextcloud.com/apps/spreed) to be installed)",
     "homepage": "https://github.com/nextcloud/welcome",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "whereami": {
+    "sha256": "ef4a03464d065204e263bb74d0ebf5cdd18cc99b400daf0092c9546630b7492c",
+    "url": "https://github.com/Adacis/whereami/releases/download/0.0.28/whereami.tar.gz",
+    "version": "0.0.28",
+    "description": "Is a simple application to locate everybody in your company.",
+    "homepage": "",
     "licenses": [
       "agpl"
     ]
