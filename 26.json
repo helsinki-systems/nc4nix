@@ -20,10 +20,10 @@
     ]
   },
   "analytics": {
-    "sha256": "4ff6458df74370e0eb56344ae08a5851291f8a14566ecb34a895bccb45c54926",
-    "url": "https://github.com/Rello/analytics/releases/download/4.9.4/analytics-4.9.4.tar.gz",
-    "version": "4.9.4",
-    "description": "Connect data from different sources in one place.\nEnable flexible reports and enjoy seamless Nextcloud integration.\nVisualize and share anything, from financial analysis to IoT logs.\n\n##### Features:\n- Data sources: csv, spreadsheet, API, imports, manual entry\n- 3rd party: GitHub Statistics, website grabber, JSON\n- Register external data sources from other apps\n- Storage: real-time or database\n- Advanced data loads with scheduling\n- Visualization: combined charts, zoom, tables, filters\n- Analysis functions: trend, dis-/aggregation\n- Thresholds for alerts and color coding\n- Integration: Files, Activity, Notifications, Flow, Dashboard, Search, Smart picker\n- Sharing: user, groups, link",
+    "sha256": "373be515d05d28958eadfae899829c96598f7a2f4933fa31cd6fd07e142f3e1e",
+    "url": "https://github.com/Rello/analytics/releases/download/4.10.0/analytics-4.10.0.tar.gz",
+    "version": "4.10.0",
+    "description": "Connect data from different sources in one place.\nEnable flexible reports and enjoy seamless Nextcloud integration.\nVisualize and share anything, from financial analysis to IoT logs.\n\n##### Features:\n- Data sources: csv, spreadsheet, API, imports, manual entry\n- 3rd party: GitHub Statistics, website grabber, JSON\n- Register external data sources from other apps\n- Storage: real-time or database\n- Advanced data loads with scheduling\n- Visualization: combined charts, zoom, tables, filters\n- Analysis functions: trend, dis-/aggregation\n- Thresholds for alerts and color coding\n- Integration: Files, Activity, Notifications, Flow, Dashboard, Search, Smart picker, Translation\n- Sharing: user, groups, link",
     "homepage": "https://rello.github.io/analytics/",
     "licenses": [
       "agpl"
@@ -40,9 +40,9 @@
     ]
   },
   "appointments": {
-    "sha256": "1172b21d3e3750934e8e9a97759cae8d19c9846b505facfa72b1cce8e90b6ea8",
-    "url": "https://github.com/SergeyMosin/Appointments/raw/v1.15.2/build/artifacts/appstore/appointments.tar.gz",
-    "version": "1.15.2",
+    "sha256": "1fde6d63987b018506b2556a1b87355fb87ec83ea902e2f51aba0a2abc0bbdf4",
+    "url": "https://github.com/SergeyMosin/Appointments/raw/v1.15.3/build/artifacts/appstore/appointments.tar.gz",
+    "version": "1.15.3",
     "description": "Book appointments into your calendar via secure online form. Attendees can confirm or cancel their appointments via an email link.",
     "homepage": "https://www.srgdev.com/lab/nextcloud-appointments/",
     "licenses": [
@@ -370,9 +370,9 @@
     ]
   },
   "duplicatefinder": {
-    "sha256": "2875ef6d7ffa819841dd0be818249780e675c68c4d11de03b3424363e3067a6d",
-    "url": "https://github.com/eldertek/duplicatefinder/releases/download/v1.0.2/duplicatefinder-v1.0.2.tar.gz",
-    "version": "1.0.2",
+    "sha256": "78ea0c86aa86a3090043f68ee297c67adab51357b89b2a5b76ab831926729f13",
+    "url": "https://github.com/eldertek/duplicatefinder/releases/download/v1.0.3/duplicatefinder-v1.0.3.tar.gz",
+    "version": "1.0.3",
     "description": "Are you tired of sifting through piles of files and folders, only to discover multiple copies of the same content cluttering your storage space?",
     "homepage": "",
     "licenses": [
@@ -1388,8 +1388,8 @@
     ]
   },
   "maps": {
-    "sha256": "c0b8ea8095a9614a25537836d93cc0a457d983acd3c7c91edf8847c327fd9541",
-    "url": "https://github.com/nextcloud/maps/releases/download/v1.1.0-2a-nightly/maps-1.1.0-2a-nightly.tar.gz",
+    "sha256": "31efd5fbdc17672ab7504571f4daa29baa5f3c525a00b8cabfd7fb8948e2965f",
+    "url": "https://github.com/nextcloud/maps/releases/download/v1.1.0/maps-1.1.0.tar.gz",
     "version": "1.1.0",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
@@ -1513,6 +1513,16 @@
     "version": "0.6.3",
     "description": "Push update support for desktop app.\n\nOnce the app is installed, the push binary needs to be setup. You can either use the setup wizard with `occ notify_push:setup` or see the [README](http://github.com/nextcloud/notify_push) for detailed setup instructions",
     "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "occweb": {
+    "sha256": "26769374a7bb821435c5de8c33bdd307a15863544158ab1036eb7b5e46e4a43a",
+    "url": "https://github.com/Adphi/occweb/releases/download/v0.1.1/occweb.tar.gz",
+    "version": "0.1.1",
+    "description": "Run OCC Commands in a web terminal",
+    "homepage": "https://github.com/adphi/occweb",
     "licenses": [
       "agpl"
     ]
@@ -1918,9 +1928,9 @@
     ]
   },
   "sendent": {
-    "sha256": "c7a57ed2aa9b8be80fa2b0f1dceb235115f11c1e97927cdafe95a0a68694b0ff",
-    "url": "https://download.sendent.com/serverapp/2.0.3/sendent.tar.gz",
-    "version": "2.0.3",
+    "sha256": "fe9300517d6290a73e034e81ec115479c510d164e2ef5127de728386b6007ee4",
+    "url": "https://download.sendent.com/serverapp/2.0.4/sendent.tar.gz",
+    "version": "2.0.4",
     "description": "Sendent allows you to securely exchange files and emails. Sendent is linked to Microsoft Outlook, so you can continue to work from your trusted email program while you mail more easily and securely. Very useful, for example, to share privacy-sensitive documents or content or to send attachments that are normally too large to email. All files are uploaded to your personal Nextcloud environment from which you determine who has access to them.",
     "homepage": "https://www.sendent.nl",
     "licenses": [
