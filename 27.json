@@ -428,9 +428,9 @@
     ]
   },
   "facerecognition": {
-    "sha256": "3ae324071cad5f50d87ac615d411dfeb32ed79ce781089967a5acb8a5928a055",
-    "url": "https://github.com/matiasdelellis/facerecognition/releases/download/v0.9.30/facerecognition.tar.gz",
-    "version": "0.9.30",
+    "sha256": "2ce37043592fdf8b9c901e742eb3e22308970928242d1fd4da314b6b26cef87e",
+    "url": "https://github.com/matiasdelellis/facerecognition/releases/download/v0.9.31/facerecognition.tar.gz",
+    "version": "0.9.31",
     "description": "**Detect and group faces of your loved one in your cloud**\n\n⚠️ This application requires minimum of 1GB of RAM memory to work! See [Requirements](https://github.com/matiasdelellis/facerecognition/wiki/Requirements-and-Limitations) for details.\n\n⚠️ Setup of this app requires access to terminal and even getting your hands dirty with installation of additional software. See [Installation](https://github.com/matiasdelellis/facerecognition/wiki/Installation) for details.\n\n- **😏 Detect faces from images:** Use FaceRecognition app to detect _any_ face in _any_ of your images!\n- **👪 Group faces to persons:** Detected faces are grouped together based on similarity and then FaceRecognition app can recognize persons!\n- **🔒 Built-in privacy:** No data is leaving your cloud. Defaults are always off and each user controls enabling/disabling face detection. Images from every directory can be excluded from face detection, if needed.\n- **⚙️ Power of AI:** FaceRecognition app leverages power of AI and already built neural network models through extensive usage of [DLib](http://dlib.net/) library.\n- **🚀 Build your own thing:** FaceRecognition app is just a basic building block. Through FaceRecognition API, you can build your advanced scenarios - automatically add tags to images, connect contacts and persons, share images from specific person… We want to hear your ideas!",
     "homepage": "https://github.com/matiasdelellis/facerecognition",
     "licenses": [
@@ -458,9 +458,9 @@
     ]
   },
   "files_antivirus": {
-    "sha256": "f69cf1cdfd2e8f771dab65c6c35ddc69e0980629713284943cf0071fa1a68182",
-    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.2.1/files_antivirus-v5.2.1.tar.gz",
-    "version": "5.2.1",
+    "sha256": "b8fb826322dc056d43888ad19663005cd9ae27f058780e9d756a7d27bf6dc20c",
+    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.2.2/files_antivirus-v5.2.2.tar.gz",
+    "version": "5.2.2",
     "description": "Antivirus for files is an antivirus app for Nextcloud.\n\n* 🕵️‍♂️ When the user uploads a file, it's checked\n* ☢️ Uploaded and infected files will be deleted and a notification will be shown and/or sent via email\n* 🔎 Background Job to scan all files\n* ❓ Use ClamAV (open source), Kaspersky Scan Engine or an ICAP compatible scanner\n\nThis application inspects files that are uploaded to Nextcloud for viruses before they are written to the Nextcloud storage. If a file is identified as a virus, it is either logged or not uploaded to the server. The application relies on the underlying ClamAV virus scanning engine, which the admin points Nextcloud to when configuring the application. Alternatively, a Kaspersky Scan Engine can be configured, which has to run on a separate server.\nFor this app to be effective, the ClamAV virus definitions should be kept up to date. Also note that enabling this app will impact system performance as additional processing is required for every upload. More information is available in the Antivirus documentation.",
     "homepage": "",
     "licenses": [
@@ -1198,12 +1198,14 @@
     ]
   },
   "limit_login_to_ip": {
-    "sha256": "",
-    "url": "",
-    "version": "",
-    "description": "This app allows administrators to restrict login to their\r\nNextcloud server to specific IP ranges. Note that existing sessions will be kept\r\nopen.\r\n\r\nThe allowed IP ranges can be administrated using the OCC command line interface\r\nor graphically using the admin settings. If you plan to use the OCC tool, the\r\nfollowing commands would be applicable.\r\n\r\nTo whitelist `127.0.0.0/24`:\r\n\r\n- `occ config:app:set limit_login_to_ip whitelisted.ranges --value 127.0.0.0/24`\r\n\r\nTo whitelist `127.0.0.0/24` and also `192.168.0.0/24`:\r\n\r\n- `occ config:app:set limit_login_to_ip whitelisted.ranges --value 127.0.0.0/24,192.168.0.0/24`",
+    "sha256": "ed13ac1292f6513be472f1a8459dbe2d2a731c7937eedbac59d2042d685fcd85",
+    "url": "https://github.com/nextcloud-releases/limit_login_to_ip/releases/download/v4.0.0/limit_login_to_ip-v4.0.0.tar.gz",
+    "version": "4.0.0",
+    "description": "This app allows administrators to restrict login to their\nNextcloud server to specific IP ranges. Note that existing sessions will be kept\nopen.\n\nThe allowed IP ranges can be administrated using the OCC command line interface\nor graphically using the admin settings. If you plan to use the OCC tool, the\nfollowing commands would be applicable.\n\nTo allow `127.0.0.0/24`:\n\n- `occ config:app:set limit_login_to_ip whitelisted.ranges --value 127.0.0.0/24`\n\nTo allow `127.0.0.0/24` and also `192.168.0.0/24`:\n\n- `occ config:app:set limit_login_to_ip whitelisted.ranges --value 127.0.0.0/24,192.168.0.0/24`",
     "homepage": "https://github.com/nextcloud/limit_login_to_ip",
-    "licenses": null
+    "licenses": [
+      "agpl"
+    ]
   },
   "login_notes": {
     "sha256": "bf585b2561c506317de0a6bcb78650ff9ef7df873afe13e88f3df382b1ee1853",
@@ -1216,9 +1218,9 @@
     ]
   },
   "mail": {
-    "sha256": "0f35e7d2b6e1679ba7457042ecf2b5ee1cf06ee88f701c39bc09e0b4a9f6a710",
-    "url": "https://github.com/nextcloud-releases/mail/releases/download/v3.3.0/mail-v3.3.0.tar.gz",
-    "version": "3.3.0",
+    "sha256": "4fd003b0344264cfb6ec95f9a78400acea8804320a5563e1b8548b4e4b8465fa",
+    "url": "https://github.com/nextcloud-releases/mail/releases/download/v3.3.1/mail-v3.3.1.tar.gz",
+    "version": "3.3.1",
     "description": "**💌 A mail app for Nextcloud**\n\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://horde.org) libraries.\n- **📬 Want to host your own mail server?** We do not have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!\n\n## Ethical AI Rating\n### Rating: 🟢\n\nPositive:\n* The software for training and inferencing of this model is open source.\n* The model is created and trained on-premises based on the user's own data.\n* The training data is accessible to the user, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/mail#readme",
     "licenses": [
@@ -1236,8 +1238,8 @@
     ]
   },
   "maps": {
-    "sha256": "31efd5fbdc17672ab7504571f4daa29baa5f3c525a00b8cabfd7fb8948e2965f",
-    "url": "https://github.com/nextcloud/maps/releases/download/v1.1.0/maps-1.1.0.tar.gz",
+    "sha256": "c0b8ea8095a9614a25537836d93cc0a457d983acd3c7c91edf8847c327fd9541",
+    "url": "https://github.com/nextcloud/maps/releases/download/v1.1.0-2a-nightly/maps-1.1.0-2a-nightly.tar.gz",
     "version": "1.1.0",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
@@ -2164,9 +2166,9 @@
     ]
   },
   "whereami": {
-    "sha256": "ef4a03464d065204e263bb74d0ebf5cdd18cc99b400daf0092c9546630b7492c",
-    "url": "https://github.com/Adacis/whereami/releases/download/0.0.28/whereami.tar.gz",
-    "version": "0.0.28",
+    "sha256": "f19a928276deabe77c0af18cefd4e1fd2e0ff1bd24cf3c51b272f5062e339e13",
+    "url": "https://github.com/Adacis/whereami/releases/download/0.0.29/whereami.tar.gz",
+    "version": "0.0.29",
     "description": "Is a simple application to locate everybody in your company.",
     "homepage": "",
     "licenses": [
