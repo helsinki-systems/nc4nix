@@ -1309,6 +1309,16 @@
       "agpl"
     ]
   },
+  "l10n_override": {
+    "sha256": "40db44357b032684e96a0f341cab6cbfad6cda45d56a98a10e4b87e6a09b57cd",
+    "url": "https://github.com/LibreCodeCoop/l10n_override/releases/download/v0.1.0/l10n_override-v0.1.0.tar.gz",
+    "version": "0.1.0",
+    "description": "Override app translation\n\nAvailable commands:\n\n```\nocc l10n-override:add\nocc l10n-override:list\nocc l10n-override:delete\n```\n\nWith this app maybe will be possible change all texts on your Nextcloud. By example changing the \"Account name or email\" at login screen to \"Your code\".\n\nTo more informations about how this app works or to get examples, look at the admin documentation.\n\n💡 Do you have an app idea? Want customizations to an existing app? Contact our sales team: contact@librecode.coop",
+    "homepage": "https://github.com/librecodecoop/l10n_override",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "ldap_contacts_backend": {
     "sha256": "5f91e7ad580234c826a8c2791f9ef39bf458248622be3df06a6c2471b6e84e39",
     "url": "https://github.com/nextcloud-releases/ldap_contacts_backend/releases/download/v1.6.0/ldap_contacts_backend-v1.6.0.tar.gz",
@@ -1870,9 +1880,9 @@
     ]
   },
   "richdocumentscode": {
-    "sha256": "e7bff881acb21bac77ec7ce45118340f4ba9510510b698bf6269711b97126922",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.202/richdocumentscode.tar.gz",
-    "version": "23.5.202",
+    "sha256": "09d4800e92c1d923148411e55f47703a38560912c42990e9ad5a9ee218404907",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.301/richdocumentscode.tar.gz",
+    "version": "23.5.301",
     "description": "This app has to be installed and used together with the **[Collabora Online](https://apps.nextcloud.com/apps/richdocuments)** app.\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\nThis app provides a built-in server with all of the document editing features of Collabora Online. Easy to install, for personal use or for small teams. A bit slower than a standalone server and without the advanced scalability features.\n\nThe download is rather big so it is possible you experience a time-out when using the web interface. You can use the OCC command line tool to install the built-in server:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -1880,9 +1890,9 @@
     ]
   },
   "richdocumentscode_arm64": {
-    "sha256": "91c27c4126a6f54f8948872dda1467b50338319fab8a6032bfcbbce06b68fd8d",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.202/richdocumentscode_arm64.tar.gz",
-    "version": "23.5.202",
+    "sha256": "69d4aa3ec362cd347c72e64e1b8efacf57e8ebd64d678f7f69970437576213ef",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.301/richdocumentscode_arm64.tar.gz",
+    "version": "23.5.301",
     "description": "This app has to be installed and used together with the **[Collabora Online](https://apps.nextcloud.com/apps/richdocuments)** app.\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\nThis app provides a built-in server with all of the document editing features of Collabora Online. Easy to install, for personal use or for small teams. A bit slower than a standalone server and without the advanced scalability features.\n\nThe download is rather big so it is possible you experience a time-out when using the web interface. You can use the OCC command line tool to install the built-in server:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode_arm64\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
