@@ -1656,9 +1656,9 @@
     ]
   },
   "passwords": {
-    "sha256": "244bb6bed9b50cbe551e39a79b4b6de2bff597d0dbe9d47732b52bb6e57146e1",
-    "url": "https://git.mdns.eu/api/v4/projects/45/packages/generic/passwords/2023.8.1/passwords.tar.gz",
-    "version": "2023.8.31",
+    "sha256": "cbc06e7d791464fa54b4d3df903d2f2f0f99487b7bdc0f6a10bf3ef52426cecd",
+    "url": "https://git.mdns.eu/api/v4/projects/45/packages/generic/passwords/2023.9.0/passwords.tar.gz",
+    "version": "2023.9.30",
     "description": "Passwords is the most advanced password manager for Nextcloud and allows you to manage and store your passwords safely in your own cloud.\nThe intuitive and modern web interface of the app makes it easy to update and add new passwords from anywhere.\nIncluded security checks help you to keep your online accounts safe and up-to-date.\nYou can also share passwords with other Nextcloud users.\n\n**Features**\n * Intuitive and modern user interface\n * Password security monitor\n * Secure encryption\n * Folders &amp; tags\n * Sharing\n * API for apps\n * Extensive handbook\n * Import &amp; Export\n * Browser extensions &amp; Apps\n * ... and many more to come\n\n**Support**\n * [Official Chat](https://t.me/nc_passwords/1)\n * [Official Forum](https://help.nextcloud.com/c/apps/passwords)\n * [User Handbook](https://git.mdns.eu/nextcloud/passwords/-/wikis/Users/Index)\n * [Administrator Handbook](https://git.mdns.eu/nextcloud/passwords/-/wikis/Administrators/Index)\n\n**Apps & Extensions**\n * [Official Firefox Add-On](https://addons.mozilla.org/de/firefox/addon/nextcloud-passwords?src=external-ncapps)\n * [Official Chrome Extension](https://chrome.google.com/webstore/detail/nextcloud-passwords/mhajlicjhgoofheldnmollgbgjheenbi)\n * [Official Microsoft Edge Extension](https://microsoftedge.microsoft.com/addons/detail/cjmlcljdpphgdfpkngjcmeepdpcgpffk)\n * [Android App](https://play.google.com/store/apps/details?id=de.jbservices.nc_passwords_app) by [joleaf](https://gitlab.com/joleaf/nc-passwords-app)\n * [Windows App (WIP)](https://www.microsoft.com/store/apps/9NXVZ0ZP6D5Z) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [Linux App (WIP)](https://gitlab.com/j0chn/nextcloud_password_client/-/tree/main#linux) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [macOS App (WIP)](https://gitlab.com/j0chn/nextcloud_password_client/-/tree/main#mac-os) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [iOS App](https://apps.apple.com/app/id1546212226) by [Johannes Schliephake](https://github.com/johannes-schliephake/nextcloud-passwords-ios)",
     "homepage": "",
     "licenses": [
@@ -1666,9 +1666,9 @@
     ]
   },
   "passwords_handbook": {
-    "sha256": "0679407f9a48a1a253bda7ed5bc28538930c833e5340560bc57163383a3e9093",
-    "url": "https://git.mdns.eu/api/v4/projects/58/packages/generic/passwords-handbook/2023.8.1/passwords-handbook.tar.gz",
-    "version": "2023.8.21",
+    "sha256": "4e84481557f02c55bb8fe3c0127cef97598b8150c03c12fd309259a8362b0b5a",
+    "url": "https://git.mdns.eu/api/v4/projects/58/packages/generic/passwords-handbook/2023.9.0/passwords-handbook.tar.gz",
+    "version": "2023.9.20",
     "description": "With this app you can host the in app user handbook for the Passwords app for Nextcloud on your own Nextcloud instance instead of using the sources on Github or a custom server.\nThis improves user privacy and enables using the handbook in networks where Github may not be available.",
     "homepage": "",
     "licenses": [
@@ -2529,6 +2529,16 @@
     "version": "1.10.0",
     "description": "Provides a command which generates a report about all the users and their usage:\n\n```\n$ sudo -u www-data ./occ usage-report:generate admin\n\"admin\",\"2017-09-18T09:00:01+00:00\",5368709120,786432000,12,1,1,2\n```\n\nTo include the header of the fields in the CSV use the `--verbose` option:\n\n```\n$ sudo -u www-data ./occ usage-report:generate --verbose admin\n\"user-id\",\"date as 'c'\",\"assigned quota (5 GB)\",\"used quota (500 MB)\",number of files,number of shares,number of uploads,number of downloads\n\"admin\",\"2017-09-18T09:00:01+00:00\",5368709120,786432000,12,1,1,2\n```",
     "homepage": "https://github.com/nextcloud/user_usage_report",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "user_vo": {
+    "sha256": "009e711a17d5daaab9f58f5d697ca77bd0d4a9ef68a3da52e67f79650b9d2c76",
+    "url": "https://github.com/NikolausDemmel/user_vo/releases/download/v0.1.1/user_vo.tar.gz",
+    "version": "0.1.1",
+    "description": "Use VereinOnline User Authentication to give VereinOnline users access to your Nextcloud instance.\n\nThe [documentation](https://github.com/NikolausDemmel/user_vo) describes how this plugin is configured.",
+    "homepage": "https://github.com/NikolausDemmel/user_vo",
     "licenses": [
       "agpl"
     ]
