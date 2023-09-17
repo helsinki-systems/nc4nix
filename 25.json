@@ -1128,8 +1128,8 @@
     ]
   },
   "integration_google": {
-    "sha256": "80b8b99970f17ccce874f56665dba61438e38b875f679f60205b71368f204009",
-    "url": "https://github.com/nextcloud/integration_google/releases/download/v1.0.9-5-nightly/integration_google-1.0.9-5-nightly.tar.gz",
+    "sha256": "c7671104f8e125199e20b9b3ed531fe3ccabada0b0e311232524a05fb2259251",
+    "url": "https://github.com/nextcloud/integration_google/releases/download/v1.0.9/integration_google-1.0.9.tar.gz",
     "version": "1.0.9",
     "description": "Google integration allows you to automatically import your Google calendars, contacts, photos and files into Nextcloud.",
     "homepage": "https://github.com/nextcloud/integration_google",
@@ -2106,8 +2106,8 @@
     ]
   },
   "snowflakestheme": {
-    "sha256": "8592a55a5930b8b057377f7e416941bac1d47a08d418697d5e5424ecc1b11416",
-    "url": "https://github.com/christianlupus-nextcloud/snowflakestheme/releases/download/v1.0.0/snowflakestheme.tar.gz",
+    "sha256": "3ff4669763a5fc69b57b6efd735f500d293b33d5408dcf2b70a5be273824c660",
+    "url": "https://github.com/christianlupus-nextcloud/snowflakestheme/releases/download/v1.1.0/snowflakestheme.tar.gz",
     "version": "1.0.0",
     "description": "This app just adds an overlay over all nextcloud pages to show a snowing effect.",
     "homepage": "https://github.com/christianlupus-nextcloud/snowflakestheme",
@@ -2459,6 +2459,16 @@
     "version": "3.2.0",
     "description": "Use external user authentication methods to give users acces to your Nextcloud instance:\n\n* IMAP\n* SMB\n* FTP\n* WebDAV\n* HTTP BasicAuth\n* SSH\n* XMPP\n\nRead the [documentation](https://github.com/nextcloud/user_external#readme) to learn how to configure it!",
     "homepage": "https://github.com/nextcloud/user_external/",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "user_ispconfig": {
+    "sha256": "f2762cc63fd07a9e8e585fdf07982cbd70597f19e19d54f679ff6785febd7eef",
+    "url": "https://github.com/SpicyWeb-de/nextcloud-user-ispconfig/releases/download/v0.5.0/user-ispconfig-0.5.0.tar.gz",
+    "version": "0.5.0",
+    "description": "Using this authentication provider you allow your users to use login credentials from their mailboxes as managed by ISPConfig 3 hosting controlpanel.\n\nTo do so, you have to configure the URL of your panel server for API requests along with user credentials for a ISPConfig remote api user.\nSee Readme in admin documentation for details.\n\nFurthermore, you can set default quota and group memberships for all newly created users.\n\nFor users from specific domains you can add individual quota and group settings and also allow them to use simplified usernames, e.g. instead of john@doe.com just john or john.doe. For more information on this, take a look at prefix, suffix and bare-name configuration contained in the Readme file.\n\nRequires SOAP PHP Extension to be installed and enabled and an ISPConfig remote user with permissions for Customer Functions, Server Functions, E-Mail User Functions.",
+    "homepage": "https://github.com/SpicyWeb-de/nextcloud-user-ispconfig",
     "licenses": [
       "agpl"
     ]
