@@ -59,6 +59,16 @@
       "agpl"
     ]
   },
+  "assistant": {
+    "sha256": "874c7b2383f5dfb03082b8157dfcc1b3438a2dbe62222aa86562bfd0a9177c33",
+    "url": "https://github.com/nextcloud-releases/assistant/releases/download/v1.0.1/assistant-v1.0.1.tar.gz",
+    "version": "1.0.1",
+    "description": "This app brings a user interface to use the Nextcloud text processing feature.\n\nIt allows users to launch text processing tasks, be notified when they finish and see the results.\nThe assistant also appears in others apps like Text to easily process parts of a document.\n\n### How to use it\n\nA new right header  menu entry appears. Once clicked, the assistant is displayed and you can select and task type and\nset the input text you want to process.\n\nOnce a task is scheduled, it will run as a background job. When it is finished, you will receive a notification\nfrom which the results can be displayed.\n\nOther apps can integrate with the assistant. For example, Text will display an inline button besides every paragraph\nto directly select a task type to process this paragraph. Selecting a task this way will open the assistant with the task\nbeing pre-selected and the input text set.\n\n### Text processing providers\n\nIn the assistant, the list of available tasks depends on the available providers installed via other apps.\nThis means you have complete freedom over which service/software will actually run your text processing tasks.\nSo far, the [Large language model](https://github.com/nextcloud/llm#readme)\nand the [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai) apps\ninclude text processing providers to:\n* Summarize\n* Extract topics\n* Generate a headline\n* Get an answer from a free prompt\n* Reformulate (OpenAi/LocalAi only)",
+    "homepage": "https://github.com/julien-nc/assistant",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "audioplayer": {
     "sha256": "a6883d725974dbe01b6071bf8e2533b4ef6876abbb3d211605489e2b7d84a9fe",
     "url": "https://github.com/Rello/audioplayer/releases/download/3.4.0/audioplayer-3.4.0.tar.gz",
@@ -788,9 +798,9 @@
     ]
   },
   "groupfolders": {
-    "sha256": "0b188b6777649b61ba58af1828410af0a3dc19c3d0e419c24b0c48338d13fd08",
-    "url": "https://github.com/nextcloud-releases/groupfolders/releases/download/v15.2.0/groupfolders-v15.2.0.tar.gz",
-    "version": "15.2.0",
+    "sha256": "5dc8daa40a3342a53a9e2bd33be3f54c5a738f477a0c37862ed21eb704488bdf",
+    "url": "https://github.com/nextcloud-releases/groupfolders/releases/download/v15.3.0/groupfolders-v15.3.0.tar.gz",
+    "version": "15.3.0",
     "description": "Admin configured folders shared with everyone in a group.\n\nFolders can be configured from *Group folders* in the admin settings.\n\nAfter a folder is created, the admin can give access to the folder to one or more groups, control their write/sharing permissions and assign a quota for the folder.\n\nNote: Encrypting the contents of group folders is currently not supported.",
     "homepage": "https://github.com/nextcloud/groupfolders",
     "licenses": [
@@ -1046,9 +1056,9 @@
     ]
   },
   "integration_openai": {
-    "sha256": "8da3a71fc0003894812438eef631d9107a0178822c6fc0f1db81a18f1db6ea81",
-    "url": "https://github.com/nextcloud-releases/integration_openai/releases/download/v1.0.11/integration_openai-v1.0.11.tar.gz",
-    "version": "1.0.11",
+    "sha256": "63ff5fdc5df550e2b1ec394ef78cd054906775c84fa46d2ffb02df5fe8997e62",
+    "url": "https://github.com/nextcloud-releases/integration_openai/releases/download/v1.0.13/integration_openai-v1.0.13.tar.gz",
+    "version": "1.0.13",
     "description": "This app includes 3 custom smart pickers for Nextcloud:\n* ChatGPT-like answers\n* Image generation (with DALL·E 2 or LocalAI)\n* Whisper dictation\n\nIt also implements\n\n* A Translation provider (using any available language model)\n* A SpeechToText provider (using Whisper)\n\nInstead of connecting to the OpenAI API for these, you can also connect to a self-hosted [LocalAI](https://localai.io) instance.\n\n## Ethical AI Rating\n### Rating for Text generation using ChatGPT via OpenAI API: 🔴\n\nNegative:\n* the software for training and inference of this model is proprietary, limiting running it locally or training by yourself\n* the trained model is not freely available, so the model can not be run on-premises\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model's performance and CO2 usage.\n\n\n### Rating for Translation using ChatGPT via OpenAI API: 🔴\n\nNegative:\n* the software for training and inference of this model is proprietary, limiting running it locally or training by yourself\n* the trained model is not freely available, so the model can not be run on-premises\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model's performance and CO2 usage.\n\n### Rating for Image generation using DALL·E via OpenAI API: 🔴\n\nNegative:\n* the software for training and inferencing of this model is proprietary, limiting running it locally or training by yourself\n* the trained model is not freely available, so the model can not be ran on-premises\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\n\n### Rating for Speech-To-Text using Whisper via OpenAI API: 🟡\n\nPositive:\n* the software for training and inferencing of this model is open source\n* The trained model is freely available, and thus can run on-premise\n\nNegative:\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\n### Rating for Text generation via LocalAI: 🟢\n\nPositive:\n* the software for training and inferencing of this model is open source\n* the trained model is freely available, and thus can be ran on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n\n### Rating for Image generation using Stable Diffusion via LocalAI : 🟡\n\nPositive:\n* the software for training and inferencing of this model is open source\n* the trained model is freely available, and thus can be ran on-premises\n\nNegative:\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\n\n### Rating for Speech-To-Text using Whisper via LocalAI: 🟡\n\nPositive:\n* the software for training and inferencing of this model is open source\n* the trained model is freely available, and thus can be ran on-premises\n\nNegative:\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/integration_openai",
     "licenses": [
@@ -1241,6 +1251,16 @@
     "version": "4.0.0",
     "description": "This app allows administrators to restrict login to their\nNextcloud server to specific IP ranges. Note that existing sessions will be kept\nopen.\n\nThe allowed IP ranges can be administrated using the OCC command line interface\nor graphically using the admin settings. If you plan to use the OCC tool, the\nfollowing commands would be applicable.\n\nTo allow `127.0.0.0/24`:\n\n- `occ config:app:set limit_login_to_ip whitelisted.ranges --value 127.0.0.0/24`\n\nTo allow `127.0.0.0/24` and also `192.168.0.0/24`:\n\n- `occ config:app:set limit_login_to_ip whitelisted.ranges --value 127.0.0.0/24,192.168.0.0/24`",
     "homepage": "https://github.com/nextcloud/limit_login_to_ip",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "llm": {
+    "sha256": "c6bff213df92a01a3cba2ff3e90c53c61c794eaa2edcf734659120e9f7fabc40",
+    "url": "https://github.com/nextcloud/llm/releases/download/v1.0.1/llm.tar.gz",
+    "version": "1.0.1",
+    "description": "A TextProcessing provider Large Language Model that runs locally on CPU\n\nThe models run completely on your machine. No private data leaves your servers.\n\nAfter installing this app you will need to run\n\n    occ llm:download-model\n\nModels:\n\n* Llama 2 by Meta ([LLAMA 2 Community License](https://download.nextcloud.com/server/apps/llm/llama-2-7b-chat-ggml/LICENSE))\n* GPT4All Falcon by Nomic AI ([Apache License 2.0](https://download.nextcloud.com/server/apps/llm/LICENSE))\n\nRequirements:\n\n* x86 CPU\n* GNU lib C (musl is not supported)\n* Python 3.10+\n\n## Ethical AI Rating \"Llama 2\" model\n### Rating: 🟡\n\nPositive:\n* the software for training and inference of this model is open source\n* the trained model is freely available, and thus can be run on-premises\n\nNegative:\n\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\n## Ethical AI Rating for \"GPT4All Falcon\" model\n### Rating: 🟢\n\nPositive:\n* the software for training and inference of this model is open source\n* the trained model is freely available, and thus can be run on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
+    "homepage": "",
     "licenses": [
       "agpl"
     ]
@@ -1956,10 +1976,10 @@
     ]
   },
   "stt_whisper": {
-    "sha256": "dde07310cdf80d0e23132e6e0a487956fb8b6512a868c7b4beeaf2a48ac8f3c8",
-    "url": "https://github.com/nextcloud/stt_whisper/releases/download/v1.0.5/stt_whisper.tar.gz",
-    "version": "1.0.5",
-    "description": "Speech-To-Text provider running OpenAI Whisper locally\n\nThe models run completely on your machine. No private data leaves your servers.\n\nRequires:\n\n * Architecture: x86_64\n * OS: Linux\n\nAfter installing this app you will need to run\n\n    occ stt_whisper:download-models [model-name]\n\nwhere [model-name] is one of\n\n * small\n * medium (default)\n * large\n\n## Ethical AI Rating\n### Rating: 🟡\n\nPositive:\n* the software for training and inference of this model is open source\n* the trained model is freely available, and thus can be run on-premises\n\nNegative:\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
+    "sha256": "25eee19fdf1086dbadd15105bd6057ab7da53e1d134badf4602fbefd8664435f",
+    "url": "https://github.com/nextcloud/stt_whisper/releases/download/v1.0.6/stt_whisper.tar.gz",
+    "version": "1.0.6",
+    "description": "Speech-To-Text provider running OpenAI Whisper locally\n\nThe models run completely on your machine. No private data leaves your servers.\n\nRequirements:\n * Architecture: x86-64 with AVX support\n * OS: Linux\n\nModel sizes:\n\n* Small: 500MB\n* Medium: 1.5Gb\n* Large: 3.1GB\n\nAfter installing this app you will need to run\n\n    occ stt_whisper:download-models [model-name]\n\nwhere [model-name] is one of\n\n * small\n * medium (default)\n * large\n\n## Ethical AI Rating\n### Rating: 🟡\n\nPositive:\n* the software for training and inference of this model is open source\n* the trained model is freely available, and thus can be run on-premises\n\nNegative:\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "",
     "licenses": [
       "agpl"
