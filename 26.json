@@ -120,9 +120,9 @@
     ]
   },
   "calendar": {
-    "sha256": "31ca181e7341a0e523c4be5113747d97b0f02b70473ef43c54a86379fd9eda48",
-    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v4.5.0/calendar-v4.5.0.tar.gz",
-    "version": "4.5.0",
+    "sha256": "20543149da1b3e71b366e97faa246810d90469093440416521e36c95597f8401",
+    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v4.5.1/calendar-v4.5.1.tar.gz",
+    "version": "4.5.1",
     "description": "The Calendar app is a user interface for Nextcloud's CalDAV server. Easily sync events from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Currently Contacts - more to come.\n* 🌐 **WebCal Support!** Want to see your favorite team’s matchdays in your calendar? No problem!\n* 🙋 **Attendees!** Invite people to your events\n* ⌚️ **Free/Busy!** See when your attendees are available to meet\n* ⏰ **Reminders!** Get alarms for events inside your browser and via email\n* 🔍 Search! Find your events at ease\n* ☑️ Tasks! See tasks with a due date directly in the calendar\n* 🙈 **We’re not reinventing the wheel!** Based on the great [c-dav library](https://github.com/nextcloud/cdav-library), [ical.js](https://github.com/mozilla-comm/ical.js) and [fullcalendar](https://github.com/fullcalendar/fullcalendar) libraries.",
     "homepage": "https://github.com/nextcloud/calendar/",
     "licenses": [
@@ -1888,9 +1888,9 @@
     ]
   },
   "richdocumentscode": {
-    "sha256": "09d4800e92c1d923148411e55f47703a38560912c42990e9ad5a9ee218404907",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.301/richdocumentscode.tar.gz",
-    "version": "23.5.301",
+    "sha256": "7f3a17b81442d6fc75436d1f2506918ab083afbd4bc806e1a479aa990975163b",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.402/richdocumentscode.tar.gz",
+    "version": "23.5.402",
     "description": "This app has to be installed and used together with the **[Collabora Online](https://apps.nextcloud.com/apps/richdocuments)** app.\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\nThis app provides a built-in server with all of the document editing features of Collabora Online. Easy to install, for personal use or for small teams. A bit slower than a standalone server and without the advanced scalability features.\n\nThe download is rather big so it is possible you experience a time-out when using the web interface. You can use the OCC command line tool to install the built-in server:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -1898,9 +1898,9 @@
     ]
   },
   "richdocumentscode_arm64": {
-    "sha256": "69d4aa3ec362cd347c72e64e1b8efacf57e8ebd64d678f7f69970437576213ef",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.301/richdocumentscode_arm64.tar.gz",
-    "version": "23.5.301",
+    "sha256": "3ab55ba4708c0ea350e4b7001ded5c6f0ec02c51deb949ebce5016910cf6a5c8",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.402/richdocumentscode_arm64.tar.gz",
+    "version": "23.5.402",
     "description": "This app has to be installed and used together with the **[Collabora Online](https://apps.nextcloud.com/apps/richdocuments)** app.\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\nThis app provides a built-in server with all of the document editing features of Collabora Online. Easy to install, for personal use or for small teams. A bit slower than a standalone server and without the advanced scalability features.\n\nThe download is rather big so it is possible you experience a time-out when using the web interface. You can use the OCC command line tool to install the built-in server:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode_arm64\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -2178,9 +2178,9 @@
     ]
   },
   "spreed": {
-    "sha256": "b530e75aa3643fa7cc49d08fd5cd2f3e1f1fd0aeec4c506f470c2ce46967f4c8",
-    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v16.0.5/spreed-v16.0.5.tar.gz",
-    "version": "16.0.5",
+    "sha256": "6c1e7c9c0a96582e3c569938e320627f733ebe9ff1a3fac6027d58174e2e203f",
+    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v16.0.6/spreed-v16.0.6.tar.gz",
+    "version": "16.0.6",
     "description": "Chat, video & audio-conferencing using WebRTC\n\n* 💬 **Chat integration!** Nextcloud Talk comes with a simple text chat. Allowing you to share files from your Nextcloud and mentioning other participants.\n* 👥 **Private, group, public and password protected calls!** Just invite somebody, a whole group or send a public link to invite to a call.\n* 💻 **Screen sharing!** Share your screen with participants of your call. You just need to use Firefox version 66 (or newer), latest Edge or Chrome 72 (or newer, also possible using Chrome 49 with this [Chrome extension](https://chrome.google.com/webstore/detail/screensharing-for-nextclo/kepnpjhambipllfmgmbapncekcmabkol)).\n* 🚀 **Integration with other Nextcloud apps** like Files, Contacts and Deck. More to come.\n\nAnd in the works for the [coming versions](https://github.com/nextcloud/spreed/milestones/):\n* ✋ [Federated calls](https://github.com/nextcloud/spreed/issues/21), to call people on other Nextclouds",
     "homepage": "https://github.com/nextcloud/spreed",
     "licenses": [
