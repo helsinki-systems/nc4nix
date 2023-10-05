@@ -49,6 +49,16 @@
       "agpl"
     ]
   },
+  "app_api": {
+    "sha256": "54eee732cf356cacc8391a9125b83db65773cb1bbcb522e6903011667b8ec1fb",
+    "url": "https://github.com/cloud-py-api/app_api/releases/download/v1.0.0/app_api-v1.0.0.tar.gz",
+    "version": "1.0.0",
+    "description": "### Supercharge your Nextcloud with AppAPI and applications specifically designed for it.\n\n\nThe AppAPI is a project within the Nextcloud ecosystem designed to streamline and enhance the process of\napplication development, deployment, and management. It introduces a new methodology that allows developers to create\napplications using a variety of programming languages, not limited to PHP, which was traditionally used in Nextcloud development.\n\n\n### List of applications that require AppAPI:\n\n| Name                | Language | Description         | Link                                                          |\n|---------------------|----------|---------------------|---------------------------------------------------------------|\n| talk_bot_ai_example | Python   | Talk Bot demo       | [GitHub](https://github.com/cloud-py-api/talk_bot_ai_example) |\n| upscaler_example    | Python   | Image UpScaler demo | [GitHub](https://github.com/cloud-py-api/upscaler_example)    |\n\n_If you wish to develop an application, we will gladly help and assist you._\n\n### Support\n\nWe appreciate any support for this project:\n\n- ⭐ Star our work on GitHub (it helps us a lot)\n- ❗ Create an Issue or feature request (bring to us an excellent idea)\n- 💁 Resolve an Issue and create a Pull Request (contribute to this project)\n- 🧑‍💻 Develop your own application using AppAPI and share it with the world (contact us if help is needed)\n\nWe are genuinely excited about the future of the AppAPI project and its potential to transform\nthe way applications are developed and experienced within Nextcloud.\n\nAs we embark on this journey, we warmly invite you - developers, thinkers, creators, and visionaries -\nto join us in shaping a more versatile, stable, and secure app landscape.\n\n#### Your insights, suggestions, and contributions are invaluable to us.",
+    "homepage": "https://github.com/cloud-py-api/app_api",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "appointments": {
     "sha256": "1fde6d63987b018506b2556a1b87355fb87ec83ea902e2f51aba0a2abc0bbdf4",
     "url": "https://github.com/SergeyMosin/Appointments/raw/v1.15.3/build/artifacts/appstore/appointments.tar.gz",
@@ -248,9 +258,9 @@
     ]
   },
   "collectives": {
-    "sha256": "70bd663d6d0e55adb6cadcf049b00509902ec9fdb9f1367a0296adb6e1203361",
-    "url": "https://github.com/nextcloud/collectives/releases/download/v2.7.1/collectives-2.7.1.tar.gz",
-    "version": "2.7.1",
+    "sha256": "4d526f05a21b3c1a490a1ce47e79c326afee95b1ab7f7bb509438ba3435918c9",
+    "url": "https://github.com/nextcloud/collectives/releases/download/v2.8.2/collectives-2.8.2.tar.gz",
+    "version": "2.8.2",
     "description": "Collectives is a Nextcloud App for activist and community projects to organize together.\nCome and gather in collectives to build shared knowledge.\n\n* 👥 **Collective and non-hierarchical workflow by heart**: Collectives are\n  tied to a [Nextcloud Circle](https://github.com/nextcloud/circles) and\n  owned by the collective.\n* 📝 **Collaborative page editing** like known from Etherpad thanks to the\n  [Text app](https://github.com/nextcloud/text).\n* 🔤 **Well-known [Markdown](https://en.wikipedia.org/wiki/Markdown) syntax**\n  for page formatting.\n\n## Installation\n\nIn your Nextcloud instance, simply navigate to **»Apps«**, find the\n**»Circles«** and **»Collectives«** apps and enable them.",
     "homepage": "https://github.com/nextcloud/collectives",
     "licenses": [
@@ -783,6 +793,16 @@
     "version": "3.8.1",
     "description": "Expose GPodder API to sync podcast consumer apps like AntennaPod",
     "homepage": "https://github.com/thrillfall/nextcloud-gpodder",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "gptfreeprompt": {
+    "sha256": "c2731d8cb4c96d625458c973e6080d2f88111cc229b3e36caca218f4a2a0e121",
+    "url": "https://github.com/nextcloud-releases/gptfreeprompt/releases/download/v1.0.1/gptfreeprompt-v1.0.1.tar.gz",
+    "version": "1.0.1",
+    "description": "A unified SmartPicker for Nextcloud large language model integrations that provide free prompting cabability.",
+    "homepage": "https://github.com/nextcloud/gptfreeprompt",
     "licenses": [
       "agpl"
     ]
@@ -1886,9 +1906,9 @@
     ]
   },
   "skyprint": {
-    "sha256": "9dabd187b5d2a9f68ed785d0c5229fb4e0d6a5989979784bd031f341c06e1cbb",
-    "url": "https://github.com/CGessinger/nextcloud-skyprint/releases/download/v0.1.2/skyprint.tar.gz",
-    "version": "0.1.2",
+    "sha256": "5fc7c195b7ae049806466484db41ff459b02feca6667591bf4103ccbd430272b",
+    "url": "https://github.com/CGessinger/nextcloud-skyprint/releases/download/v0.1.3/skyprint.tar.gz",
+    "version": "0.1.3",
     "description": "A straightforward app enabling users to easily print documents directly from your cloud storage. With Sky Print, you can adjust a variety of print settings, such as paper size, orientation and quality.",
     "homepage": "https://github.com/CGessinger/nextcloud-skyprint",
     "licenses": [
@@ -2109,6 +2129,16 @@
     "version": "1.1.6",
     "description": "Machine translation provider using Opus models by University of Helsinki\n\nThe models run completely on your machine. No private data leaves your servers.\n\nCurrently supported languages:\n\n * English\n * German\n * French\n * Spanish\n * Chinese\n\nAfter installing this app you will need to run\n\n    occ translate:download-models\n\nRequirements:\n\n* x86 CPU\n* GNU lib C (musl is not supported)\n\n## Ethical AI Rating\n### Rating: 🟢\n\nPositive:\n* the software for training and inferencing of this model is open source\n* the trained model is freely available, and thus can be ran on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "tuya_cloud": {
+    "sha256": "712c96704529d9617b3137609f3b5fd42b9fc2594c759829aad02b5f1593ec23",
+    "url": "https://github.com/matiasdelellis/tuya_cloud/releases/download/v0.0.2/tuya_cloud.tar.gz",
+    "version": "0.0.2",
+    "description": "The Tuya integration integrates all Powered by Tuya devices you have added to the Tuya Smart and Tuya Smart Life apps.",
+    "homepage": "https://github.com/matiasdelellis/tuya_cloud",
     "licenses": [
       "agpl"
     ]
