@@ -200,10 +200,10 @@
     ]
   },
   "cfg_share_links": {
-    "sha256": "24d1a93bbc17aa597c6d2b02156f484e83eb0475fb495ce8513c84386e781ac2",
-    "url": "https://github.com/jimmyl0l3c/cfg_share_links/releases/download/v4.1.0/cfg_share_links.tar.gz",
-    "version": "4.1.0",
-    "description": "App for Nextcloud that adds the ability to specify share tokens when creating new public links and change tokens of existing links.\n\n## Features\n\nSharing sidebar is expanded by new section (Custom public link) that allows you to create public links with custom share tokens.\nYou can also customize share tokens of existing public links.\n\n## Settings\n\nBy going to **Settings > Administration > Configurable Share Links** admins can set default labels for custom links and minimal token length.\nDefault label can be: none, same as token or custom (the same custom label for all custom links).",
+    "sha256": "8c673f913e301091e31ae94cc4092da1e226911e197e78393903b3d85d7df8e9",
+    "url": "https://github.com/jimmyl0l3c/cfg_share_links/releases/download/v4.2.0/cfg_share_links.tar.gz",
+    "version": "4.2.0",
+    "description": "App for Nextcloud that adds the ability to specify share tokens when creating new public links and change tokens of existing links.\n\n## Features\n\nSharing sidebar is expanded by new section (Custom public link) that allows you to create public links with custom share tokens.\nYou can also customize share tokens of existing public links.\n\n## Settings\n\nBy going to **Administration settings > Administration > Configurable Share Links** admins can set default labels for custom links and minimal token length.\nDefault label can be: none, same as token or custom (the same custom label for all custom links).",
     "homepage": "https://github.com/jimmyl0l3c/cfg_share_links",
     "licenses": [
       "agpl"
@@ -1448,9 +1448,9 @@
     ]
   },
   "memories": {
-    "sha256": "414ad507995c08c02213688b1ce4e234d239f4beb51243fb610ee409acd164ed",
-    "url": "https://github.com/pulsejet/memories/releases/download/v5.4.1/memories.tar.gz",
-    "version": "5.4.1",
+    "sha256": "264989754c63e6729683abbd4d16151a86ccac15f55a17d4288f90caa1ac96dd",
+    "url": "https://github.com/pulsejet/memories/releases/download/v5.5.1/memories.tar.gz",
+    "version": "5.5.1",
     "description": "# Memories: Photo Management for Nextcloud\n\nMemories is a *batteries-included* photo management solution for Nextcloud with advanced features including:\n\n- **📸 Timeline**: Sort photos and videos by date taken, parsed from Exif data.\n- **⏪ Rewind**: Jump to any time in the past instantly and relive your memories.\n- **🤖 AI Tagging**: Group photos by people and objects, powered by [recognize](https://github.com/nextcloud/recognize) and [facerecognition](https://github.com/matiasdelellis/facerecognition).\n- **🖼️ Albums**: Create albums to group photos and videos together. Then share these albums with others.\n- **🫱🏻‍🫲🏻 External Sharing**: Share photos and videos with people outside of your Nextcloud instance.\n- **📱 Mobile Support**: Work from any device, of any shape and size through the web app.\n- **✏️ Edit Metadata**: Edit dates and other metadata on photos quickly and in bulk.\n- **📦 Archive**: Store photos you don't want to see in your timeline in a separate folder.\n- **📹 Video Transcoding**: Transcode videos and use HLS for maximal performance.\n- **🗺️ Map**: View your photos on a map, tagged with accurate reverse geocoding.\n- **📦 Migration**: Migrate easily from Nextcloud Photos and Google Takeout.\n- **⚡️ Performance**: Do all this very fast.\n\n## 🚀 Installation\n\n1. Install the app from the Nextcloud app store (try a demo [here](https://demo.memories.gallery/apps/memories/)).\n1. Perform the recommended [configuration steps](https://memories.gallery/config/).\n1. Run `php occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos.",
     "homepage": "https://memories.gallery",
     "licenses": [
@@ -1488,9 +1488,9 @@
     ]
   },
   "money": {
-    "sha256": "888e9abc8855e6bf9c7bf1bfcdb1d5261fdcdb6a430c23886d62ab91987610cb",
-    "url": "https://github.com/powerpaul17/nc_money/releases/download/v0.21.1/money.tar.gz",
-    "version": "0.21.1",
+    "sha256": "8bc3793d84f5dbec2da6bbefaf8e531375af0cbb59e9ac2f8875a0dde70941a4",
+    "url": "https://github.com/powerpaul17/nc_money/releases/download/v0.21.2/money.tar.gz",
+    "version": "0.21.2",
     "description": "Finance manager for Nextcloud.",
     "homepage": "https://github.com/powerpaul17/nc_money",
     "licenses": [
@@ -1668,9 +1668,9 @@
     ]
   },
   "otpmanager": {
-    "sha256": "ba70f6518caafcfe84870ce9d082aecb9ca9dd334e66b48d08f62a6dc4af2909",
-    "url": "https://github.com/matteo-convertino/otpmanager-nextcloud/releases/download/v0.1.9/otpmanager-0.1.9.tar.gz",
-    "version": "0.1.9",
+    "sha256": "6976d1bae1dddc75031d1e8d2ce33d219a8299e5ff603fbea60e3bc15f5aaa1b",
+    "url": "https://github.com/matteo-convertino/otpmanager-nextcloud/releases/download/v0.2.0/otpmanager-0.2.0.tar.gz",
+    "version": "0.2.0",
     "description": "OTP Manager is useful for those who use two-factor authentication (2FA) and want to manage their OTP codes securely and easily. \nThis application allows you to synchronise your OTP codes with your personal Nextcloud server so that you can access them from any device.\n\n######\n\nWith OTP Manager, you no longer have to worry about losing your OTP codes or not having access to them when you need them. \nAll you have to do is synchronise your app with your Nextcloud server and you will always have your OTP codes at hand, wherever you are.\n\n######\n\nOTP Manager offers the convenient feature of importing OTP codes from Google Authenticator by scanning the QR code. \nThis means you don't have to worry about having to manually enter every single OTP code, but can simply scan the QR code that the Google app generates when exporting \naccounts, and OTP Manager will automatically import your associated accounts.\n\n######\n\nThis way, the migration from Google Authenticator to OTP Manager will be quick and easy, without having to waste time manually resetting all your OTP codes.\n\n######\n\n**Apps & Extensions**\n* [Official Android App](https://play.google.com/store/apps/details?id=com.convertino.otp_manager)",
     "homepage": "",
     "licenses": [
