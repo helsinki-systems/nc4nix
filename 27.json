@@ -247,6 +247,16 @@
       "agpl"
     ]
   },
+  "chores": {
+    "sha256": "08d65d370f43d74dae238275a71d64cff303da68624872070cad5c9b2324647d",
+    "url": "https://neo.sinyax.net/cdn/chores_0.0.5.tar.gz",
+    "version": "0.0.5",
+    "description": "Track chores and receive points for doing them!\n\nCreate a team and invite other Nextcloud users from the same server, the total\npoints for each member are tracked.\n\nChores can be set to automatically repeat based on a schedule.",
+    "homepage": "https://sr.ht/~cypheon/nextcloud-chores/",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "cloud_py_api": {
     "sha256": "157b0b08bd88044dd5df07d1cc572e52e5f6746d85104a1d7c6c8d6b992fe867",
     "url": "https://github.com/cloud-py-api/cloud_py_api/releases/download/v0.1.8/cloud_py_api.tar.gz",
@@ -1476,11 +1486,11 @@
     ]
   },
   "ocs_api_viewer": {
-    "sha256": "9ca0c29e39e57fac3e486579493f6b9571466f33c14bced8b06cbdbd0fcd4e59",
-    "url": "https://github.com/provokateurin/ocs_api_viewer/releases/download/v1.0.3/ocs_api_viewer.tar.gz",
-    "version": "1.0.3",
+    "sha256": "22a108f8956d3b3e6f0d3c8370212dc94088c480856d5e8f1cd4414457bbd2de",
+    "url": "https://github.com/provokateurin/ocs_api_viewer/releases/download/v1.0.4/ocs_api_viewer.tar.gz",
+    "version": "1.0.4",
     "description": "View OCS API specifications for installed apps",
-    "homepage": "",
+    "homepage": "https://github.com/provokateurin/ocs_api_viewer",
     "licenses": [
       "agpl"
     ]
@@ -1736,9 +1746,9 @@
     ]
   },
   "recognize": {
-    "sha256": "0dfe71b72cceae235c4d728e49f05f29df19897e56e25a68e5b026c8d00f3c46",
-    "url": "https://github.com/nextcloud/recognize/releases/download/v5.0.0/recognize-5.0.0.tar.gz",
-    "version": "5.0.0",
+    "sha256": "43f3d692fe02be4704b035b751e15da14dd5737c480d40dabb2638cc39176270",
+    "url": "https://github.com/nextcloud/recognize/releases/download/v5.0.1/recognize-5.0.1.tar.gz",
+    "version": "5.0.1",
     "description": "Smart media tagging and face recognition with on-premises machine learning models.\nThis app goes through your media collection and adds fitting tags, automatically categorizing your photos and music.\n\n* 📷 👪 Recognizes faces from contact photos\n* 📷 🏔 Recognizes animals, landscapes, food, vehicles, buildings and other objects\n* 📷 🗼 Recognizes landmarks and monuments\n* 👂 🎵 Recognizes music genres\n* 🎥 🤸 Recognizes human actions on video\n\n⚡ Tagging works via Nextcloud's Collaborative Tags\n  * 👂 listen to your tagged music with the audioplayer app\n  * 📷 view your tagged photos and videos with the photos app\n\nModel sizes:\n\n * Object recognition: 1GB\n * Landmark recognition: 300MB\n * Video action recognition: 50MB\n * Music genre recognition: 50MB\n\n## Ethical AI Rating\n### Rating for Photo object detection: 🟢\n\nPositive:\n* the software for training and inference of this model is open source\n* the trained model is freely available, and thus can be run on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n### Rating for Photo face recognition: 🟢\n\nPositive:\n* the software for training and inference of this model is open source\n* the trained model is freely available, and thus can be run on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n### Rating for Video action recognition: 🟢\n\nPositive:\n* the software for training and inferencing of this model is open source\n* the trained model is freely available, and thus can be ran on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n## Ethical AI Rating\n### Rating Music genre recognition: 🟡\n\nPositive:\n* the software for training and inference of this model is open source\n* the trained model is freely available, and thus can be run on-premises\n\nNegative:\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).\n\nAfter installation, you can enable tagging in the admin settings.\n\nRequirements:\n- php 7.4 and above\n- App \"collaborative tags\" enabled\n- For native speed:\n  - Processor: x86 64-bit (with support for AVX instructions)\n  - System with glibc (usually the norm on Linux; FreeBSD, Alpine linux and thus also the official Nextcloud Docker container and Nextcloud AIO are *not* such systems)\n- For sub-native speed (using WASM mode)\n  - Processor: x86 64-bit, arm64, armv7l (no AVX needed)\n  - System with glibc or musl (incl. Alpine linux and thus also the official Nextcloud Docker container and also Nextcloud AIO)\n- ~4GB of free RAM (if you're cutting it close, make sure you have some swap available)\n- This app is currently incompatible with the *Suspicious Login* app due to a dependency conflict (ie. you can only have one of the two installed)\n\nThe app does not send any sensitive data to cloud providers or similar services. All processing is done on your Nextcloud machine, using Tensorflow.js running in Node.js.",
     "homepage": "https://github.com/nextcloud/recognize",
     "licenses": [
