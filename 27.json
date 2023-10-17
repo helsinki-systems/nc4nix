@@ -60,9 +60,9 @@
     ]
   },
   "appointments": {
-    "sha256": "1fde6d63987b018506b2556a1b87355fb87ec83ea902e2f51aba0a2abc0bbdf4",
-    "url": "https://github.com/SergeyMosin/Appointments/raw/v1.15.3/build/artifacts/appstore/appointments.tar.gz",
-    "version": "1.15.3",
+    "sha256": "d955c185c7ddf9cc74ef3bf77085e5fb3d4681e75d3303d0c9e0bcc0e309f2cd",
+    "url": "https://github.com/SergeyMosin/Appointments/raw/v1.15.4/build/artifacts/appstore/appointments.tar.gz",
+    "version": "1.15.4",
     "description": "Book appointments into your calendar via secure online form. Attendees can confirm or cancel their appointments via an email link.",
     "homepage": "https://www.srgdev.com/lab/nextcloud-appointments/",
     "licenses": [
@@ -308,8 +308,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -897,6 +897,16 @@
       "agpl"
     ]
   },
+  "hibp_login_check": {
+    "sha256": "c513fe4c26ae14ef2df2ac718ac7a1a5f6a9799a8dfe953a458fa97f8f2a1c31",
+    "url": "https://github.com/rullzer/hibp_login_check/releases/download/v0.0.2/hibp_login_check.tar.gz",
+    "version": "0.0.2",
+    "description": "Using passwords that appear in known breaches is not a good idea. This will run a check during each login to verify you account is still safe.",
+    "homepage": "https://github.com/rullzer/hibp_login_check",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "imageconverter": {
     "sha256": "27633f4c2b2a34805eb16019785422affa7090832ae28877a8f9ff03d2fa222c",
     "url": "https://github.com/major-mayer/imageconverter/releases/download/v.1.3.5/imageconverter.tar.gz",
@@ -958,12 +968,14 @@
     ]
   },
   "integration_ews": {
-    "sha256": "",
-    "url": "",
-    "version": "",
+    "sha256": "18c7584098602142543e7cc649d34129edd3d7cdecfad9c7c5277dc93bd2948f",
+    "url": "https://github.com/ksainc/integration_ews/releases/download/v1.0.13/integration_ews-v1.0.13.tar.gz",
+    "version": "1.0.13",
     "description": "Exchange EWS Connector (Exchange Web Services) allows you to automatically sync your calendars and contacts from any EWS compatible service with Nextcloud.",
     "homepage": "https://github.com/ksainc/integration_ews",
-    "licenses": null
+    "licenses": [
+      "agpl"
+    ]
   },
   "integration_excalidraw": {
     "sha256": "b937acb327601720cec954a3211d080a4dd72f04d80cd6b37d29c0568f894918",
@@ -1116,9 +1128,9 @@
     ]
   },
   "integration_openproject": {
-    "sha256": "410376c55379815c87e42be10beb96ee135011f691fa8d1e83a197c64cb7dfa7",
-    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.4.4/integration_openproject-2.4.4.tar.gz",
-    "version": "2.4.4",
+    "sha256": "590256ed33aec331eef4de519015d64c102196589454108eea409e21d33706fd",
+    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.4.5/integration_openproject-2.4.5.tar.gz",
+    "version": "2.4.5",
     "description": "This application enables seamless integration with open source project management and collaboration software OpenProject.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in OpenProject\n* Find all work packages linked to a file or a folder\n* View OpenProject notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n* Link work packages in rich text fields via Smart Picker\n* Preview links to work packages in text fields\n\nOn the OpenProject end, users are able to:\n\n* Link work packages with files and folders in Nextcloud\n* Upload and download files directly to Nextcloud from within a work package\n* Open linked files in Nextcloud to edit them\n* Let OpenProject create shared folders per project\n\nFor more information on how to set up and use the OpenProject application, please refer to [integration setup guide](https://www.openproject.org/docs/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://www.openproject.org/docs/user-guide/nextcloud-integration/).",
     "homepage": "https://github.com/nextcloud/integration_openproject",
     "licenses": [
@@ -1306,10 +1318,10 @@
     ]
   },
   "llm": {
-    "sha256": "c6bff213df92a01a3cba2ff3e90c53c61c794eaa2edcf734659120e9f7fabc40",
-    "url": "https://github.com/nextcloud/llm/releases/download/v1.0.1/llm.tar.gz",
-    "version": "1.0.1",
-    "description": "A TextProcessing provider Large Language Model that runs locally on CPU\n\nThe models run completely on your machine. No private data leaves your servers.\n\nAfter installing this app you will need to run\n\n    occ llm:download-model\n\nModels:\n\n* Llama 2 by Meta ([LLAMA 2 Community License](https://download.nextcloud.com/server/apps/llm/llama-2-7b-chat-ggml/LICENSE))\n* GPT4All Falcon by Nomic AI ([Apache License 2.0](https://download.nextcloud.com/server/apps/llm/LICENSE))\n\nRequirements:\n\n* x86 CPU\n* GNU lib C (musl is not supported)\n* Python 3.10+\n\n## Ethical AI Rating \"Llama 2\" model\n### Rating: 🟡\n\nPositive:\n* the software for training and inference of this model is open source\n* the trained model is freely available, and thus can be run on-premises\n\nNegative:\n\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\n## Ethical AI Rating for \"GPT4All Falcon\" model\n### Rating: 🟢\n\nPositive:\n* the software for training and inference of this model is open source\n* the trained model is freely available, and thus can be run on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
+    "sha256": "437296cf2a039c1e2e6f0c22b768c686d5549ec7e0deeb1e935a6e163d4d2477",
+    "url": "https://github.com/nextcloud/llm/releases/download/v1.0.2/llm.tar.gz",
+    "version": "1.0.2",
+    "description": "A TextProcessing provider Large Language Model that runs locally on CPU\n\nThe models run completely on your machine. No private data leaves your servers.\n\nAfter installing this app you will need to run\n\n    occ llm:download-model\n\nModels:\n\n* Llama 2 by Meta\n  * Languages: English\n  * [LLAMA 2 Community License](https://download.nextcloud.com/server/apps/llm/llama-2-7b-chat-ggml/LICENSE)\n* GPT4All Falcon by Nomic AI\n  * Languages: English\n  * [Apache License 2.0](https://download.nextcloud.com/server/apps/llm/LICENSE)\nRequirements:\n\n* x86 CPU\n* GNU lib C (musl is not supported)\n* Python 3.10+  (including python-venv)\n\n## Ethical AI Rating \"Llama 2\" model\n### Rating: 🟡\n\nPositive:\n* the software for training and inference of this model is open source\n* the trained model is freely available, and thus can be run on-premises\n\nNegative:\n\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\n## Ethical AI Rating for \"GPT4All Falcon\" model\n### Rating: 🟢\n\nPositive:\n* the software for training and inference of this model is open source\n* the trained model is freely available, and thus can be run on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -1596,19 +1608,19 @@
     ]
   },
   "passwords": {
-    "sha256": "cbc06e7d791464fa54b4d3df903d2f2f0f99487b7bdc0f6a10bf3ef52426cecd",
-    "url": "https://git.mdns.eu/api/v4/projects/45/packages/generic/passwords/2023.9.0/passwords.tar.gz",
-    "version": "2023.9.30",
-    "description": "Passwords is the most advanced password manager for Nextcloud and allows you to manage and store your passwords safely in your own cloud.\nThe intuitive and modern web interface of the app makes it easy to update and add new passwords from anywhere.\nIncluded security checks help you to keep your online accounts safe and up-to-date.\nYou can also share passwords with other Nextcloud users.\n\n**Features**\n * Intuitive and modern user interface\n * Password security monitor\n * Secure encryption\n * Folders &amp; tags\n * Sharing\n * API for apps\n * Extensive handbook\n * Import &amp; Export\n * Browser extensions &amp; Apps\n * ... and many more to come\n\n**Support**\n * [Official Chat](https://t.me/nc_passwords/1)\n * [Official Forum](https://help.nextcloud.com/c/apps/passwords)\n * [User Handbook](https://git.mdns.eu/nextcloud/passwords/-/wikis/Users/Index)\n * [Administrator Handbook](https://git.mdns.eu/nextcloud/passwords/-/wikis/Administrators/Index)\n\n**Apps & Extensions**\n * [Official Firefox Add-On](https://addons.mozilla.org/de/firefox/addon/nextcloud-passwords?src=external-ncapps)\n * [Official Chrome Extension](https://chrome.google.com/webstore/detail/nextcloud-passwords/mhajlicjhgoofheldnmollgbgjheenbi)\n * [Official Microsoft Edge Extension](https://microsoftedge.microsoft.com/addons/detail/cjmlcljdpphgdfpkngjcmeepdpcgpffk)\n * [Android App](https://play.google.com/store/apps/details?id=de.jbservices.nc_passwords_app) by [joleaf](https://gitlab.com/joleaf/nc-passwords-app)\n * [Windows App (WIP)](https://www.microsoft.com/store/apps/9NXVZ0ZP6D5Z) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [Linux App (WIP)](https://gitlab.com/j0chn/nextcloud_password_client/-/tree/main#linux) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [macOS App (WIP)](https://gitlab.com/j0chn/nextcloud_password_client/-/tree/main#mac-os) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [iOS App](https://apps.apple.com/app/id1546212226) by [Johannes Schliephake](https://github.com/johannes-schliephake/nextcloud-passwords-ios)",
+    "sha256": "4524194cc67dea47d6091b02b4c6dfac239a7a6d88cb504222f659a93dd9d096",
+    "url": "https://git.mdns.eu/api/v4/projects/45/packages/generic/passwords/2023.10.0/passwords.tar.gz",
+    "version": "2023.10.30",
+    "description": "Passwords is the most advanced password manager for Nextcloud and allows you to manage and store your passwords safely in your own cloud.\nThe intuitive and modern web interface of the app makes it easy to update and add new passwords from anywhere.\nIncluded security checks help you to keep your online accounts safe and up-to-date.\nYou can also share passwords with other Nextcloud users.\n\n**Features**\n * Intuitive and modern user interface\n * Password security monitor\n * Secure encryption\n * Folders &amp; tags\n * Sharing\n * API for apps\n * Extensive handbook\n * Import &amp; Export\n * Browser extensions &amp; Apps\n * ... and many more to come\n\n**Support**\n * [Official Chat](https://t.me/nc_passwords/1)\n * [Official Forum](https://help.nextcloud.com/c/apps/passwords)\n * [User Handbook](https://git.mdns.eu/nextcloud/passwords/-/wikis/Users/Index)\n * [Administrator Handbook](https://git.mdns.eu/nextcloud/passwords/-/wikis/Administrators/Index)\n\n**Apps & Extensions**\n * [Official Firefox Add-On](https://addons.mozilla.org/de/firefox/addon/nextcloud-passwords?src=external-ncapps)\n * [Official Chrome Extension](https://chrome.google.com/webstore/detail/nextcloud-passwords/mhajlicjhgoofheldnmollgbgjheenbi)\n * [Official Microsoft Edge Extension](https://microsoftedge.microsoft.com/addons/detail/cjmlcljdpphgdfpkngjcmeepdpcgpffk)\n * [Android App](https://play.google.com/store/apps/details?id=de.jbservices.nc_passwords_app) by [joleaf](https://gitlab.com/joleaf/nc-passwords-app)\n * [Android App](https://play.google.com/store/apps/details?id=com.hegocre.nextcloudpasswords) by [hegocre](https://github.com/hegocre/NextcloudPasswords)\n * [Windows App (WIP)](https://www.microsoft.com/store/apps/9NXVZ0ZP6D5Z) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [Linux App (WIP)](https://gitlab.com/j0chn/nextcloud_password_client/-/tree/main#linux) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [macOS App (WIP)](https://gitlab.com/j0chn/nextcloud_password_client/-/tree/main#mac-os) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [iOS App](https://apps.apple.com/app/id1546212226) by [Johannes Schliephake](https://github.com/johannes-schliephake/nextcloud-passwords-ios)",
     "homepage": "",
     "licenses": [
       "agpl"
     ]
   },
   "passwords_handbook": {
-    "sha256": "4e84481557f02c55bb8fe3c0127cef97598b8150c03c12fd309259a8362b0b5a",
-    "url": "https://git.mdns.eu/api/v4/projects/58/packages/generic/passwords-handbook/2023.9.0/passwords-handbook.tar.gz",
-    "version": "2023.9.20",
+    "sha256": "07d9d576a7ca8ea52b4793a1f3006cdf1a11423fe22e6ca0344bc99c725b7c86",
+    "url": "https://git.mdns.eu/api/v4/projects/58/packages/generic/passwords-handbook/2023.10.0/passwords-handbook.tar.gz",
+    "version": "2023.10.20",
     "description": "With this app you can host the in app user handbook for the Passwords app for Nextcloud on your own Nextcloud instance instead of using the sources on Github or a custom server.\nThis improves user privacy and enables using the handbook in networks where Github may not be available.",
     "homepage": "",
     "licenses": [
@@ -1746,9 +1758,9 @@
     ]
   },
   "recognize": {
-    "sha256": "43f3d692fe02be4704b035b751e15da14dd5737c480d40dabb2638cc39176270",
-    "url": "https://github.com/nextcloud/recognize/releases/download/v5.0.1/recognize-5.0.1.tar.gz",
-    "version": "5.0.1",
+    "sha256": "9ab153b7729b467ca040b28278a687631ea8361e866517e0f6251090ddfeb2e9",
+    "url": "https://github.com/nextcloud/recognize/releases/download/v5.0.3/recognize-5.0.3.tar.gz",
+    "version": "5.0.3",
     "description": "Smart media tagging and face recognition with on-premises machine learning models.\nThis app goes through your media collection and adds fitting tags, automatically categorizing your photos and music.\n\n* 📷 👪 Recognizes faces from contact photos\n* 📷 🏔 Recognizes animals, landscapes, food, vehicles, buildings and other objects\n* 📷 🗼 Recognizes landmarks and monuments\n* 👂 🎵 Recognizes music genres\n* 🎥 🤸 Recognizes human actions on video\n\n⚡ Tagging works via Nextcloud's Collaborative Tags\n  * 👂 listen to your tagged music with the audioplayer app\n  * 📷 view your tagged photos and videos with the photos app\n\nModel sizes:\n\n * Object recognition: 1GB\n * Landmark recognition: 300MB\n * Video action recognition: 50MB\n * Music genre recognition: 50MB\n\n## Ethical AI Rating\n### Rating for Photo object detection: 🟢\n\nPositive:\n* the software for training and inference of this model is open source\n* the trained model is freely available, and thus can be run on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n### Rating for Photo face recognition: 🟢\n\nPositive:\n* the software for training and inference of this model is open source\n* the trained model is freely available, and thus can be run on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n### Rating for Video action recognition: 🟢\n\nPositive:\n* the software for training and inferencing of this model is open source\n* the trained model is freely available, and thus can be ran on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n## Ethical AI Rating\n### Rating Music genre recognition: 🟡\n\nPositive:\n* the software for training and inference of this model is open source\n* the trained model is freely available, and thus can be run on-premises\n\nNegative:\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).\n\nAfter installation, you can enable tagging in the admin settings.\n\nRequirements:\n- php 7.4 and above\n- App \"collaborative tags\" enabled\n- For native speed:\n  - Processor: x86 64-bit (with support for AVX instructions)\n  - System with glibc (usually the norm on Linux; FreeBSD, Alpine linux and thus also the official Nextcloud Docker container and Nextcloud AIO are *not* such systems)\n- For sub-native speed (using WASM mode)\n  - Processor: x86 64-bit, arm64, armv7l (no AVX needed)\n  - System with glibc or musl (incl. Alpine linux and thus also the official Nextcloud Docker container and also Nextcloud AIO)\n- ~4GB of free RAM (if you're cutting it close, make sure you have some swap available)\n- This app is currently incompatible with the *Suspicious Login* app due to a dependency conflict (ie. you can only have one of the two installed)\n\nThe app does not send any sensitive data to cloud providers or similar services. All processing is done on your Nextcloud machine, using Tensorflow.js running in Node.js.",
     "homepage": "https://github.com/nextcloud/recognize",
     "licenses": [
@@ -1766,9 +1778,9 @@
     ]
   },
   "richdocuments": {
-    "sha256": "36ea1a7208af58ce013b70569199c6763659e34aaa2daae18335b3eecee492c6",
-    "url": "https://github.com/nextcloud-releases/richdocuments/releases/download/v8.2.0/richdocuments-v8.2.0.tar.gz",
-    "version": "8.2.0",
+    "sha256": "a48587d4839e97d1f60c92cb7f4740d31de853602750bfc3124ce72193761f76",
+    "url": "https://github.com/nextcloud-releases/richdocuments/releases/download/v8.2.1/richdocuments-v8.2.1.tar.gz",
+    "version": "8.2.1",
     "description": "This application can connect to a Collabora Online (or other) server (WOPI-like Client). Nextcloud is the WOPI Host. Please read the documentation to learn more about that.\n\nYou can also edit your documents off-line with the Collabora Office app from the **[Android](https://play.google.com/store/apps/details?id=com.collabora.libreoffice)** and **[iOS](https://apps.apple.com/us/app/collabora-office/id1440482071)** store.",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -1776,9 +1788,9 @@
     ]
   },
   "richdocumentscode": {
-    "sha256": "7f3a17b81442d6fc75436d1f2506918ab083afbd4bc806e1a479aa990975163b",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.402/richdocumentscode.tar.gz",
-    "version": "23.5.402",
+    "sha256": "fec938791e366594b72c2acecf0113b4d9aab4d35e97c4ccb4819783a2c48a86",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.403/richdocumentscode.tar.gz",
+    "version": "23.5.403",
     "description": "This app has to be installed and used together with the **[Collabora Online](https://apps.nextcloud.com/apps/richdocuments)** app.\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\nThis app provides a built-in server with all of the document editing features of Collabora Online. Easy to install, for personal use or for small teams. A bit slower than a standalone server and without the advanced scalability features.\n\nThe download is rather big so it is possible you experience a time-out when using the web interface. You can use the OCC command line tool to install the built-in server:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -1786,9 +1798,9 @@
     ]
   },
   "richdocumentscode_arm64": {
-    "sha256": "3ab55ba4708c0ea350e4b7001ded5c6f0ec02c51deb949ebce5016910cf6a5c8",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.402/richdocumentscode_arm64.tar.gz",
-    "version": "23.5.402",
+    "sha256": "a0083bbeee00265403ab4386b8fb2fbdf788f7c7395a282b4bb2ce2c1792aa12",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.403/richdocumentscode_arm64.tar.gz",
+    "version": "23.5.403",
     "description": "This app has to be installed and used together with the **[Collabora Online](https://apps.nextcloud.com/apps/richdocuments)** app.\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\nThis app provides a built-in server with all of the document editing features of Collabora Online. Easy to install, for personal use or for small teams. A bit slower than a standalone server and without the advanced scalability features.\n\nThe download is rather big so it is possible you experience a time-out when using the web interface. You can use the OCC command line tool to install the built-in server:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode_arm64\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -2193,6 +2205,16 @@
       "agpl"
     ]
   },
+  "twofactor_reminder": {
+    "sha256": "af6672f65a7ba7de806c78d78aa6d0591d8224bfda1e4da2132b8204d9f0e248",
+    "url": "https://github.com/rullzer/twofactor_reminder/releases/download/v1.1.0/twofactor_reminder.tar.gz",
+    "version": "1.1.0",
+    "description": "2FA should be the standard these days. However a lot of people forget to enable it. This app will send them a notification once a month.",
+    "homepage": "https://github.com/rullzer/twofactor_reminder",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "twofactor_webauthn": {
     "sha256": "ad29902e328bb7b16f877df50d7ccd95d6351f32395d0f3b5de07d346e73dc9b",
     "url": "https://github.com/nextcloud-releases/twofactor_webauthn/releases/download/v1.2.0/twofactor_webauthn-v1.2.0.tar.gz",
@@ -2204,9 +2226,9 @@
     ]
   },
   "unroundedcorners": {
-    "sha256": "ade6a340816421d1f7a83b11b20294c8c58087d8117491f4019818e5d1ad9d45",
-    "url": "https://github.com/OliverParoczai/nextcloud-unroundedcorners/releases/download/v1.1.1/unroundedcorners-v1.1.1.tar.gz",
-    "version": "1.1.1",
+    "sha256": "b2482cba59a948d4424866d95bbee588e68f6cd8e3a9b1adbfc4f5968255b584",
+    "url": "https://github.com/OliverParoczai/nextcloud-unroundedcorners/releases/download/v1.1.2/unroundedcorners-v1.1.2.tar.gz",
+    "version": "1.1.2",
     "description": "# Unrounded Corners\nA Nextcloud app that restores the corners of buttons and widgets to their original looks by unrounding them.",
     "homepage": "https://github.com/OliverParoczai/nextcloud-unroundedcorners",
     "licenses": [
