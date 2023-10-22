@@ -1647,6 +1647,16 @@
       "agpl"
     ]
   },
+  "pandoc": {
+    "sha256": "504c286d773f4504def85387cd7e5bc86dc0d95e5006015229811b4cd48ddd4a",
+    "url": "https://github.com/mejo-/pandoc/releases/download/v0.6.0/pandoc-0.6.0.tar.gz",
+    "version": "0.6.0",
+    "description": "Allows to convert text files from one markup to\n        another using Pandoc. It requires [Pandoc](https://pandoc.org/) to\n        be installed on the Nextcloud host.",
+    "homepage": "https://github.com/mejo-/pandoc",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "passman": {
     "sha256": "09e35a374722a158dc5ba20b07ffc122f9a341671bbdf2b79bc8d543c2c6b723",
     "url": "https://releases.passman.cc/passman_2.4.7.tar.gz",
@@ -1838,9 +1848,9 @@
     ]
   },
   "richdocumentscode": {
-    "sha256": "fec938791e366594b72c2acecf0113b4d9aab4d35e97c4ccb4819783a2c48a86",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.403/richdocumentscode.tar.gz",
-    "version": "23.5.403",
+    "sha256": "db133879962e91132afb95fc88b482e3daef9f546cbcc6f5bd81aff544657c48",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.502/richdocumentscode.tar.gz",
+    "version": "23.5.502",
     "description": "This app has to be installed and used together with the **[Collabora Online](https://apps.nextcloud.com/apps/richdocuments)** app.\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\nThis app provides a built-in server with all of the document editing features of Collabora Online. Easy to install, for personal use or for small teams. A bit slower than a standalone server and without the advanced scalability features.\n\nThe download is rather big so it is possible you experience a time-out when using the web interface. You can use the OCC command line tool to install the built-in server:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -1848,9 +1858,9 @@
     ]
   },
   "richdocumentscode_arm64": {
-    "sha256": "a0083bbeee00265403ab4386b8fb2fbdf788f7c7395a282b4bb2ce2c1792aa12",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.403/richdocumentscode_arm64.tar.gz",
-    "version": "23.5.403",
+    "sha256": "cd540b7f323406074dfd15fe8d9c48c938a4de81664ed829313ef6c6c2e7f5b0",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.502/richdocumentscode_arm64.tar.gz",
+    "version": "23.5.502",
     "description": "This app has to be installed and used together with the **[Collabora Online](https://apps.nextcloud.com/apps/richdocuments)** app.\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\nThis app provides a built-in server with all of the document editing features of Collabora Online. Easy to install, for personal use or for small teams. A bit slower than a standalone server and without the advanced scalability features.\n\nThe download is rather big so it is possible you experience a time-out when using the web interface. You can use the OCC command line tool to install the built-in server:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode_arm64\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -1928,9 +1938,9 @@
     ]
   },
   "sfbridge": {
-    "sha256": "1a3e129ecf66fbaef9dc0755330e45b00228948edbc0913e484f91219a90ea3c",
-    "url": "https://github.com/Rello/sfbridge/releases/download/0.1.0/sfbridge-0.1.0.tar.gz",
-    "version": "0.1.0",
+    "sha256": "b24ab691b6520cf166dfd6a1b38d07a570349ad105a9aa3010c1d3672cc7a644",
+    "url": "https://github.com/Rello/sfbridge/releases/download/0.2.1/sfbridge-0.2.1.tar.gz",
+    "version": "0.2.1",
     "description": "This automation in Nextcloud bridges the gap between financial transactions and Salesforce.\nPaypal or bank transactions like donations or payments can be synchronized with the Salesforce Nonprofit Success Pack (NPSP).\n\n##### Features\n- Paypal: Read transaction history\n- Bank (via API): Read transaction history\n- Salesforce: Create Household/Organization accounts and contact on demand\n- Salesforce: Create/update Opportunities/Payments/Allocations\n- Salesforce: Link Opportunities to Campaigns\n- Nextcloud: Automation via background job\n- Nextcloud: Notifications for new transactions\n\n##### Please check GitHub for details first!",
     "homepage": "https://github.com/Rello/sfbridge",
     "licenses": [
