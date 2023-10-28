@@ -318,8 +318,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -558,9 +558,9 @@
     ]
   },
   "files_antivirus": {
-    "sha256": "b8fb826322dc056d43888ad19663005cd9ae27f058780e9d756a7d27bf6dc20c",
-    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.2.2/files_antivirus-v5.2.2.tar.gz",
-    "version": "5.2.2",
+    "sha256": "51d7d0d4d0206c0bbf13ed000df8256a3956efc39e2893561812ca8f06ea7f3d",
+    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.3.0/files_antivirus-v5.3.0.tar.gz",
+    "version": "5.3.0",
     "description": "Antivirus for files is an antivirus app for Nextcloud.\n\n* 🕵️‍♂️ When the user uploads a file, it's checked\n* ☢️ Uploaded and infected files will be deleted and a notification will be shown and/or sent via email\n* 🔎 Background Job to scan all files\n* ❓ Use ClamAV (open source), Kaspersky Scan Engine or an ICAP compatible scanner\n\nThis application inspects files that are uploaded to Nextcloud for viruses before they are written to the Nextcloud storage. If a file is identified as a virus, it is either logged or not uploaded to the server. The application relies on the underlying ClamAV virus scanning engine, which the admin points Nextcloud to when configuring the application. Alternatively, a Kaspersky Scan Engine can be configured, which has to run on a separate server.\nFor this app to be effective, the ClamAV virus definitions should be kept up to date. Also note that enabling this app will impact system performance as additional processing is required for every upload. More information is available in the Antivirus documentation.",
     "homepage": "",
     "licenses": [
@@ -1148,9 +1148,9 @@
     ]
   },
   "integration_onedrive": {
-    "sha256": "4e0fe5402685cf025eba66ee3b8d6090bf0300624fcd65daff8f0648cd6beeed",
-    "url": "https://github.com/nextcloud-releases/integration_onedrive/releases/download/v3.0.0/integration_onedrive-v3.0.0.tar.gz",
-    "version": "3.0.0",
+    "sha256": "d8cd254d9edc3edcbbd753eaa6c185d8ba40ca958b406de2d58c3dc946d1d5e9",
+    "url": "https://github.com/nextcloud-releases/integration_onedrive/releases/download/v3.1.0/integration_onedrive-v3.1.0.tar.gz",
+    "version": "3.1.0",
     "description": "Microsoft OneDrive integration allows you to automatically import your OneDrive files into Nextcloud.",
     "homepage": "https://github.com/nextcloud/integration_onedrive",
     "licenses": [
@@ -1358,10 +1358,10 @@
     ]
   },
   "llm": {
-    "sha256": "437296cf2a039c1e2e6f0c22b768c686d5549ec7e0deeb1e935a6e163d4d2477",
-    "url": "https://github.com/nextcloud/llm/releases/download/v1.0.2/llm.tar.gz",
-    "version": "1.0.2",
-    "description": "A TextProcessing provider Large Language Model that runs locally on CPU\n\nThe models run completely on your machine. No private data leaves your servers.\n\nAfter installing this app you will need to run\n\n    occ llm:download-model\n\nModels:\n\n* Llama 2 by Meta\n  * Languages: English\n  * [LLAMA 2 Community License](https://download.nextcloud.com/server/apps/llm/llama-2-7b-chat-ggml/LICENSE)\n* GPT4All Falcon by Nomic AI\n  * Languages: English\n  * [Apache License 2.0](https://download.nextcloud.com/server/apps/llm/LICENSE)\nRequirements:\n\n* x86 CPU\n* GNU lib C (musl is not supported)\n* Python 3.10+  (including python-venv)\n\n## Ethical AI Rating \"Llama 2\" model\n### Rating: 🟡\n\nPositive:\n* the software for training and inference of this model is open source\n* the trained model is freely available, and thus can be run on-premises\n\nNegative:\n\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\n## Ethical AI Rating for \"GPT4All Falcon\" model\n### Rating: 🟢\n\nPositive:\n* the software for training and inference of this model is open source\n* the trained model is freely available, and thus can be run on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
+    "sha256": "2639f0aa2603dbe8bd56029f8bf1f5241b866091352b8c6a78b15dfeab2ba818",
+    "url": "https://github.com/nextcloud/llm/releases/download/v1.1.0/llm.tar.gz",
+    "version": "1.1.0",
+    "description": "A TextProcessing provider Large Language Model that runs locally on CPU\n\nThe models run completely on your machine. No private data leaves your servers.\n\nAfter installing this app you will need to run\n\n    occ llm:download-model\n\nModels:\n\n* Llama 2 by Meta\n  * Languages: English\n  * [LLAMA 2 Community License](https://download.nextcloud.com/server/apps/llm/llama-2-7b-chat-ggml/LICENSE)\n* GPT4All Falcon by Nomic AI\n  * Languages: English\n  * [Apache License 2.0](https://download.nextcloud.com/server/apps/llm/LICENSE)\nRequirements:\n\n* x86 CPU\n* GNU lib C (musl is not supported)\n* Python 3.10+  (including python-venv)\n\n#### Nextcloud All-in-One:\nWith Nextcloud AIO, this app is not going to work because AIO uses musl. However you can use [this community container](https://github.com/nextcloud/all-in-one/tree/main/community-containers/local-ai) as replacement for this app.\n\n## Ethical AI Rating \"Llama 2\" model\n### Rating: 🟡\n\nPositive:\n* the software for training and inference of this model is open source\n* the trained model is freely available, and thus can be run on-premises\n\nNegative:\n\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\n## Ethical AI Rating for \"GPT4All Falcon\" model\n### Rating: 🟢\n\nPositive:\n* the software for training and inference of this model is open source\n* the trained model is freely available, and thus can be run on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -1428,9 +1428,9 @@
     ]
   },
   "memories": {
-    "sha256": "55777d816c9d8d47442870cc5ed0a5a52271e03ea9637454b9f044b05784463a",
-    "url": "https://github.com/pulsejet/memories/releases/download/v6.0.0/memories.tar.gz",
-    "version": "6.0.0",
+    "sha256": "57966d970fe1e8e878932dc190fc14652c74a1ff58b742bdf80b293089df49f7",
+    "url": "https://github.com/pulsejet/memories/releases/download/v6.0.1/memories.tar.gz",
+    "version": "6.0.1",
     "description": "# Memories: Photo Management for Nextcloud\n\nMemories is a *batteries-included* photo management solution for Nextcloud with advanced features including:\n\n- **📸 Timeline**: Sort photos and videos by date taken, parsed from Exif data.\n- **⏪ Rewind**: Jump to any time in the past instantly and relive your memories.\n- **🤖 AI Tagging**: Group photos by people and objects, powered by [recognize](https://github.com/nextcloud/recognize) and [facerecognition](https://github.com/matiasdelellis/facerecognition).\n- **🖼️ Albums**: Create albums to group photos and videos together. Then share these albums with others.\n- **🫱🏻‍🫲🏻 External Sharing**: Share photos and videos with people outside of your Nextcloud instance.\n- **📱 Mobile Support**: Work from any device, of any shape and size through the web app.\n- **✏️ Edit Metadata**: Edit dates and other metadata on photos quickly and in bulk.\n- **📦 Archive**: Store photos you don't want to see in your timeline in a separate folder.\n- **📹 Video Transcoding**: Transcode videos and use HLS for maximal performance.\n- **🗺️ Map**: View your photos on a map, tagged with accurate reverse geocoding.\n- **📦 Migration**: Migrate easily from Nextcloud Photos and Google Takeout.\n- **⚡️ Performance**: Do all this very fast.\n\n## 🚀 Installation\n\n1. Install the app from the Nextcloud app store (try a demo [here](https://demo.memories.gallery/apps/memories/)).\n1. Perform the recommended [configuration steps](https://memories.gallery/config/).\n1. Run `php occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos.",
     "homepage": "https://memories.gallery",
     "licenses": [
@@ -1598,9 +1598,9 @@
     ]
   },
   "onlyoffice": {
-    "sha256": "19fb98961f1ee2dbb88e2832ca60388300d459119a6202af53e7da7c637a3bc0",
-    "url": "https://github.com/ONLYOFFICE/onlyoffice-nextcloud/releases/download/v8.2.2/onlyoffice.tar.gz",
-    "version": "8.2.2",
+    "sha256": "74f2f5db9a0b605d77db835850324e0e6a971e399c6cd24f4eb82d507d34de4a",
+    "url": "https://github.com/ONLYOFFICE/onlyoffice-nextcloud/releases/download/v8.2.4/onlyoffice.tar.gz",
+    "version": "8.2.4",
     "description": "ONLYOFFICE connector allows you to view, edit and collaborate on text documents, spreadsheets and presentations within Nextcloud using ONLYOFFICE Docs. This will create a new Edit in ONLYOFFICE action within the document library for Office documents. This allows multiple users to co-author documents in real time from the familiar web interface and save the changes back to your file storage.",
     "homepage": "https://www.onlyoffice.com",
     "licenses": [
@@ -2118,9 +2118,9 @@
     ]
   },
   "spreed": {
-    "sha256": "c7f1daf88886609aa0d8720878893732cddfc131048bba9756fecc9cc46b074d",
-    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v17.1.1/spreed-v17.1.1.tar.gz",
-    "version": "17.1.1",
+    "sha256": "217f8235dd5cd34a4f4eccc527b13a32f4e3f0c09723871b1cb5913b83ef25b2",
+    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v17.1.2/spreed-v17.1.2.tar.gz",
+    "version": "17.1.2",
     "description": "Chat, video & audio-conferencing using WebRTC\n\n* 💬 **Chat integration!** Nextcloud Talk comes with a simple text chat. Allowing you to share files from your Nextcloud and mentioning other participants.\n* 👥 **Private, group, public and password protected calls!** Just invite somebody, a whole group or send a public link to invite to a call.\n* 💻 **Screen sharing!** Share your screen with participants of your call. You just need to use Firefox version 66 (or newer), latest Edge or Chrome 72 (or newer, also possible using Chrome 49 with this [Chrome extension](https://chrome.google.com/webstore/detail/screensharing-for-nextclo/kepnpjhambipllfmgmbapncekcmabkol)).\n* 🚀 **Integration with other Nextcloud apps** like Files, Contacts and Deck. More to come.\n\nAnd in the works for the [coming versions](https://github.com/nextcloud/spreed/milestones/):\n* ✋ [Federated calls](https://github.com/nextcloud/spreed/issues/21), to call people on other Nextclouds",
     "homepage": "https://github.com/nextcloud/spreed",
     "licenses": [

@@ -320,8 +320,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -580,9 +580,9 @@
     ]
   },
   "files_antivirus": {
-    "sha256": "b8fb826322dc056d43888ad19663005cd9ae27f058780e9d756a7d27bf6dc20c",
-    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.2.2/files_antivirus-v5.2.2.tar.gz",
-    "version": "5.2.2",
+    "sha256": "51d7d0d4d0206c0bbf13ed000df8256a3956efc39e2893561812ca8f06ea7f3d",
+    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.3.0/files_antivirus-v5.3.0.tar.gz",
+    "version": "5.3.0",
     "description": "Antivirus for files is an antivirus app for Nextcloud.\n\n* 🕵️‍♂️ When the user uploads a file, it's checked\n* ☢️ Uploaded and infected files will be deleted and a notification will be shown and/or sent via email\n* 🔎 Background Job to scan all files\n* ❓ Use ClamAV (open source), Kaspersky Scan Engine or an ICAP compatible scanner\n\nThis application inspects files that are uploaded to Nextcloud for viruses before they are written to the Nextcloud storage. If a file is identified as a virus, it is either logged or not uploaded to the server. The application relies on the underlying ClamAV virus scanning engine, which the admin points Nextcloud to when configuring the application. Alternatively, a Kaspersky Scan Engine can be configured, which has to run on a separate server.\nFor this app to be effective, the ClamAV virus definitions should be kept up to date. Also note that enabling this app will impact system performance as additional processing is required for every upload. More information is available in the Antivirus documentation.",
     "homepage": "",
     "licenses": [
@@ -650,9 +650,9 @@
     ]
   },
   "files_external_ethswarm": {
-    "sha256": "fa7e94ff59d72170b5111037538ca306050b07c351ec89c3929106daf1c235b1",
-    "url": "https://github.com/MetaProvide/nextcloud-swarm-plugin/releases/download/v0.2.1/files_external_ethswarm.tar.gz",
-    "version": "0.2.1",
+    "sha256": "adb40dc42cef709c4a22887a4af78c504b0f9610a903aad3eb375a1e573a27ac",
+    "url": "https://github.com/MetaProvide/nextcloud-swarm-plugin/releases/download/v0.2.3/files_external_ethswarm.tar.gz",
+    "version": "0.2.2",
     "description": "# Nextcloud Swarm Plugin\n\n*Decentralized Sovereign cloud-storage comes to Nextcloud!*\n\nThis plugin brings [Swarm](https://www.ethswarm.org/) to [Nextcloud](https://nextcloud.com) - decentralized file-storage, connected to the blockchain.\n\n## Table of Contents\n\n- [Dependencies](#dependencies)\n- [Setup and Installation](#setup-and-installation)\n- [Usage](#usage)\n\t- [Settings](#settings)\n\t- [Using Swarm](#using-swarm)\n- [License](#license)\n\n## Dependencies\n\nTo use the plugin you need the following\n\n* A Nextcloud instance\n* A Bee node\n\n## Setup and Installation\n\nFor setting up a Bee node please have a look at the [official documentation](https://docs.ethswarm.org/docs/installation/quick-start)\n\nThe following steps explain how to configure a Bee node in Nextcloud.\n\n- Make sure the \"External Storage\" plugin is enabled\n- Install the \"External Storage: Swarm\" app from the Nextcloud App store\n- Navigate to External Storage Administration (Profile menu -> Settings -> External Storage)\n- Add the connection settings for a new Bee node\n- Navigate to Ethswarm Storage Administration (Profile menu -> Settings -> Ethswarm Storage)\n- Configure the Bee node - by default, encryption is active\n- To use a Bee node, it is necessary to [Purchase a Batch of new stamps](https://docs.ethswarm.org/docs/access-the-swarm/keep-your-data-alive) from the funds in the chequebook\n- Once the new batch is purchased, a unique batchId is generated. Once your batch has been purchased, it will take a few minutes for other Bee nodes in the Swarm to catch up and register your batch. Allow some time for your batch to propagate in the network before proceeding to the next step. This is indicated by the checkbox \"Usable\".\n- Uploading files to the swarm costs Bzz, so it is necessary to select a Batch as \"Active\". Only 1 batch is allowed to be Active for a given Bee node. Then click \"Save Settings\".\n\n## Usage\n\nFile handling operations involving the Bee node are integrated in the External Storage (\"Files\") section of Nextcloud.\n\nUsing the plugin, the main file operations that are available in Nextcloud are:\n\n- Upload file(s) to a Bee node\n- Download and view files\n- Copy/Move files from any External Storage to a Bee node\n- Copy files from a Bee node to any External Storage\n\n### Settings\n\nAvailable to users with administrative credentials, the external storage accepts configuration options from two places, the normal External Storage settings, which allows a user to configure the basic connection properties of a Bee node.\n\nSince every operation in Swarm costs money, it is important to view how much money is available to the Bee node directly and also provide a convenient way of handling the payment system in Swarm - all managed directly in Nextcloud. This is in a specific section with more advanced configuration for the Bee node, where the following settings can be viewed and edited:\n\n- Configure which Bee node to manage\n- View current status of the Bee node\n- Option to toggle encryption on and off\n- How much BZZ is available to the node\n- Any purchased stamp batches and the remaining balances\n- Have the option to purchase a new batch of stamps\n- Toggle the batch used for uploading files active/inactive\n\n### Using Swarm\n\nOnce setup and configured, the Bee node is ready to use.\n- Navigate to \"Files\" option on the menu -> \"External Storage\" and then the name of the Bee node.\n- You can then upload files just like you normally would in Nextcloud.\n- Once uploaded, it can be viewed internally or downloaded. It can also be copied to another storage.\n- Files from another Nextcloud storage can also be copied/moved to the Bee node.",
     "homepage": "https://github.com/MetaProvide/nextcloud-swarm-plugin",
     "licenses": [
@@ -1138,8 +1138,8 @@
     ]
   },
   "integration_google": {
-    "sha256": "80b8b99970f17ccce874f56665dba61438e38b875f679f60205b71368f204009",
-    "url": "https://github.com/nextcloud/integration_google/releases/download/v1.0.9-5-nightly/integration_google-1.0.9-5-nightly.tar.gz",
+    "sha256": "c7671104f8e125199e20b9b3ed531fe3ccabada0b0e311232524a05fb2259251",
+    "url": "https://github.com/nextcloud/integration_google/releases/download/v1.0.9/integration_google-1.0.9.tar.gz",
     "version": "1.0.9",
     "description": "Google integration allows you to automatically import your Google calendars, contacts, photos and files into Nextcloud.",
     "homepage": "https://github.com/nextcloud/integration_google",
@@ -1578,9 +1578,9 @@
     ]
   },
   "onlyoffice": {
-    "sha256": "67ad416725051f109b8c1747b1a11d1a7e85f16214ecbb36217ab57a4660b897",
-    "url": "https://github.com/ONLYOFFICE/onlyoffice-nextcloud/releases/download/v7.9.2/onlyoffice.tar.gz",
-    "version": "7.9.2",
+    "sha256": "7b130e23d413949171d58581edbbaad1efd3c73289653ce35fc0cf28e1409475",
+    "url": "https://github.com/ONLYOFFICE/onlyoffice-nextcloud/releases/download/v7.9.4/onlyoffice.tar.gz",
+    "version": "7.9.4",
     "description": "ONLYOFFICE connector allows you to view, edit and collaborate on text documents, spreadsheets and presentations within Nextcloud using ONLYOFFICE Docs. This will create a new Edit in ONLYOFFICE action within the document library for Office documents. This allows multiple users to co-author documents in real time from the familiar web interface and save the changes back to your file storage.",
     "homepage": "https://www.onlyoffice.com",
     "licenses": [
