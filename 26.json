@@ -410,9 +410,9 @@
     ]
   },
   "duplicatefinder": {
-    "sha256": "e96c8d76cdba66801714683075d0cf8c37d57b868848d9d1caa37b32c9b36433",
-    "url": "https://github.com/eldertek/duplicatefinder/releases/download/v1.0.7/duplicatefinder-v1.0.7.tar.gz",
-    "version": "1.0.7",
+    "sha256": "beb9338bf3c58f7e635e10297ef3f54dc401d935da35b94d2437d15d724bcf05",
+    "url": "https://github.com/eldertek/duplicatefinder/releases/download/v1.0.8/duplicatefinder-v1.0.8.tar.gz",
+    "version": "1.0.8",
     "description": "Are you tired of sifting through piles of files and folders, only to discover multiple copies of the same content cluttering your storage space?",
     "homepage": "",
     "licenses": [
@@ -590,9 +590,9 @@
     ]
   },
   "files_confidential": {
-    "sha256": "d145fc893cae2d9f098f452a734f2c9da3e2e56bf75c767ef14860c42c888bc5",
-    "url": "https://github.com/nextcloud/files_confidential/releases/download/v1.0.5/files_confidential.tar.gz",
-    "version": "1.0.5",
+    "sha256": "baf902a2c49bcfd1dea3beb86e27b26f9199980b7eb5b8cdf337b49fa2bb78af",
+    "url": "https://github.com/nextcloud/files_confidential/releases/download/v2.0.0/files_confidential.tar.gz",
+    "version": "2.0.0",
     "description": "This app allows you to define a set of classification labels that will be assigned to files as Nextcloud tags.\nFor each classification label you can define a set of rules when it will be assigned to a file, based on text\ncontent or BAILS classification meta data.",
     "homepage": "https://github.com/nextcloud/files_confidential",
     "licenses": [
@@ -1170,8 +1170,8 @@
     ]
   },
   "integration_mattermost": {
-    "sha256": "179fd8e25070c1fc1fe35841999f8e44475195649d1187592cd0c418d24f98db",
-    "url": "https://github.com/julien-nc/integration_mattermost/releases/download/v1.0.4-2-nightly/integration_mattermost-1.0.4-2-nightly.tar.gz",
+    "sha256": "9763a09cf94bdc5e46e1b07f64a4a5f34709b82d10b52cfabbcae9fd8cef9534",
+    "url": "https://github.com/nextcloud-releases/integration_mattermost/releases/download/v1.0.4/integration_mattermost-v1.0.4.tar.gz",
     "version": "1.0.4",
     "description": "Mattermost integration provides a dashboard widget displaying your most important notifications\n    and a unified search provider for messages. It also lets you send files to Mattermost from Nextcloud Files.",
     "homepage": "https://github.com/nextcloud/integration_mattermost",
@@ -1440,10 +1440,10 @@
     ]
   },
   "mail": {
-    "sha256": "60e711c45fcd5756efd417d12849580bf2e6c3bd172a3358a5c8038d78ede1ac",
-    "url": "https://github.com/nextcloud-releases/mail/releases/download/v3.4.3/mail-v3.4.3.tar.gz",
-    "version": "3.4.3",
-    "description": "**💌 A mail app for Nextcloud**\n\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://horde.org) libraries.\n- **📬 Want to host your own mail server?** We do not have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!",
+    "sha256": "3c6414203e7751d6b71d860ee16242559c88557fae9b00b3251b205ed4f0142f",
+    "url": "https://github.com/nextcloud-releases/mail/releases/download/v3.4.4/mail-v3.4.4.tar.gz",
+    "version": "3.4.4",
+    "description": "**💌 A mail app for Nextcloud**\n\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://horde.org) libraries.\n- **📬 Want to host your own mail server?** We do not have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!\n\n## Ethical AI Rating\n\n### Priority Inbox\n\nPositive:\n* The software for training and inferencing of this model is open source.\n* The model is created and trained on-premises based on the user's own data.\n* The training data is accessible to the user, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n### Thread Summaries (opt-in)\n\n**Rating:** 🟢/🟡/🟠/🔴\n\nThe rating depends on the installed text processing backend. See [the rating overview](https://docs.nextcloud.com/server/latest/admin_manual/ai/index.html) for details.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/mail#readme",
     "licenses": [
       "agpl"
@@ -2350,10 +2350,10 @@
     ]
   },
   "translate": {
-    "sha256": "b218baace9c1048c59f359ba66eda9917400de5c27e48bba6a6203f160ac3671",
-    "url": "https://github.com/nextcloud/translate/releases/download/v1.1.6/translate.tar.gz",
-    "version": "1.1.6",
-    "description": "Machine translation provider using Opus models by University of Helsinki\n\nThe models run completely on your machine. No private data leaves your servers.\n\nCurrently supported languages:\n\n * English\n * German\n * French\n * Spanish\n * Chinese\n\nAfter installing this app you will need to run\n\n    occ translate:download-models\n\nRequirements:\n\n* x86 CPU\n* GNU lib C (musl is not supported)\n\n## Ethical AI Rating\n### Rating: 🟢\n\nPositive:\n* the software for training and inferencing of this model is open source\n* the trained model is freely available, and thus can be ran on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
+    "sha256": "2a12e6ae0c3987cc404082eae5d517d031d9fee9abf4fe7de589c46ea3c4f76a",
+    "url": "https://github.com/nextcloud/translate/releases/download/v1.2.0/translate.tar.gz",
+    "version": "1.2.0",
+    "description": "A Machine translation provider using Opus models by University of Helsinki running locally on CPU.\n\nThe models run completely on your machine. No private data leaves your servers.\n\nCurrently supported languages:\n\n* English\n* German\n* French\n* Spanish\n* Chinese\n\nModel size:\n\n * ~1GB per language pair\n * ~10GB in total\n\nAfter installing this app you will need to run\n\n    occ translate:download-models\n\nRequirements:\n\n* x86 CPU\n* GNU lib C (musl is not supported)\n\n## Ethical AI Rating\n### Rating: 🟢\n\nPositive:\n* the software for training and inferencing of this model is open source\n* the trained model is freely available, and thus can be ran on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "",
     "licenses": [
       "agpl"
