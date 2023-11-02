@@ -320,8 +320,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -1347,6 +1347,16 @@
       "agpl"
     ]
   },
+  "listman": {
+    "sha256": "06f08af4d219307e76fd492a5df5ef1ce138381c34dbd14283faedbb978b171c",
+    "url": "https://dalliance.net/listman/listman-27.1.2.tar.gz",
+    "version": "27.1.2",
+    "description": "This is a simple app for managing mail-lists with the Nextcloud System. Each Nextcloud user may create multiple mail-lists, circulate subscribe forms, send messages to the members of the list etc. It has a separate SMTP configuration visible only to nextcloud admin-users.\\n\\nOnly admins can send to lists, not for a shared discussion.\\n\\nNew in version 20.1.0 - actually works!\\n\\nNew in version 20.1.1 - Import CSV of list-members\\n\\nJuly 2022: New in version 20.2.1 - Option for ssl/tls encryption, page to get HTML of react-widget so it can be embedded elsewhere\\n\\nAugust 2022: New in version 20.2.2 - compatibility fixes for php7.4 and php8.\\n\\nNov 2023: new in version 27.1.2 - fixes for broken scrolling",
+    "homepage": "https://github.com/revpriest/listman",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "login_notes": {
     "sha256": "bf585b2561c506317de0a6bcb78650ff9ef7df873afe13e88f3df382b1ee1853",
     "url": "https://packages.framasoft.org/projects/nextcloud-apps/login-notes/login_notes-1.2.0.tar.gz",
@@ -1598,9 +1608,9 @@
     ]
   },
   "openincryptpad": {
-    "sha256": "7bd001fa57e609f37e01235ee2867693e33227d831a68e334410422ee4837d96",
-    "url": "https://github.com/cryptpad/nextcloud-open-in-cryptpad/releases/download/v0.0.3/openincryptpad.tar.gz",
-    "version": "0.0.3",
+    "sha256": "ffb6550082d2de059989e2ec26f329b982769b9ee3884f24afaf4eadb6bf71e0",
+    "url": "https://github.com/cryptpad/nextcloud-open-in-cryptpad/releases/download/v0.1.0/openincryptpad.tar.gz",
+    "version": "0.1.0",
     "description": "# Open In CryptPad\n\n\"Open in CryptPad\" is a Nextcloud application that allows collaborative editing\nof files. For this it uses a CryptPad instance embedded into the Nextcloud web\ninterface. Currently, only drawio diagrams are supported.\n\n## Prerequisites on the CryptPad side\n\nTo embed CryptPad into Nextcloud, the \"Enable remote embedding\" admin setting\nneeds to be enabled. You can find this setting on the \"Administration\" web\ninterface in the \"General\" tab.\n\n## Install from Nextcloud app store\n\n1. Add drawio mimetype to Nextcloud. \"Open in CryptPad\" depends on Nextcloud\n   detecting drawio files correctly. For this you have to create the following\n   files: (**Note:** do this before uploading any drawio files! The mimetype of\n   old files will not be updated by these changes)\n    - `nextcloud/config/mimetypealiases.json`\n\n        ``` json\n        {\n            \"application/x-drawio\": \"image\"\n        }\n        ```\n\n    - `nextcloud/config/mimetypemapping.json`\n\n        ``` json\n        {\n            \"drawio\": [\"application/x-drawio\"]\n        }\n        ```\n2. Open the \"Apps\" page in your Nextcloud web interface and install \"Open in\n   CryptPad\". You can find it in the \"Integration\" category.\n3. Configure \"Open in CryptPad\" in the administration settings of Nextcloud.",
     "homepage": "",
     "licenses": [
