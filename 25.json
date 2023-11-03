@@ -320,8 +320,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -1181,16 +1181,16 @@
     "sha256": "179fd8e25070c1fc1fe35841999f8e44475195649d1187592cd0c418d24f98db",
     "url": "https://github.com/julien-nc/integration_mattermost/releases/download/v1.0.4-2-nightly/integration_mattermost-1.0.4-2-nightly.tar.gz",
     "version": "1.0.4",
-    "description": "Mattermost integration provides a dashboard widget displaying your most important notifications\n    and a unified search provider for messages. It also lets you send files to Mattermost from Nextcloud Files.",
+    "description": "Mattermost integration provides a dashboard widget displaying your most important notifications\nand a unified search provider for messages. It also lets you send files to Mattermost from Nextcloud Files.",
     "homepage": "https://github.com/nextcloud/integration_mattermost",
     "licenses": [
       "agpl"
     ]
   },
   "integration_miro": {
-    "sha256": "e717708a876936d10d8044d4ba224de03477c8327d90f7a2aaf8480be35b3b74",
-    "url": "https://github.com/nextcloud-releases/integration_miro/releases/download/v1.0.2/integration_miro-v1.0.2.tar.gz",
-    "version": "1.0.2",
+    "sha256": "d31a71598f59cc8c57ac3280914000aac3d98072e7539f753f26c584cf10fcef",
+    "url": "https://github.com/nextcloud-releases/integration_miro/releases/download/v1.0.3/integration_miro-v1.0.3.tar.gz",
+    "version": "1.0.3",
     "description": "Miro integration lets users create boards, share board links and open boards directly in Nextcloud.",
     "homepage": "https://github.com/julien-nc/integration_miro",
     "licenses": [
@@ -1278,9 +1278,9 @@
     ]
   },
   "integration_zimbra": {
-    "sha256": "36680e30daa6074250d75f515513aba5455a4152588c12216536693552c834dc",
-    "url": "https://github.com/nextcloud-releases/integration_zimbra/releases/download/v1.0.6/integration_zimbra-v1.0.6.tar.gz",
-    "version": "1.0.6",
+    "sha256": "e4aa39d3137e1429e05698768461d8e77a30e0989fb926d02bdb18eab1d20d48",
+    "url": "https://github.com/nextcloud-releases/integration_zimbra/releases/download/v1.0.8/integration_zimbra-v1.0.8.tar.gz",
+    "version": "1.0.8",
     "description": "Zimbra integration into Nextcloud provides a dashboard widget for unread emails,\n one for upcoming events, a search provider for emails and the ability to search for Zimbra contacts in Nextcloud.\n\nNextcloud will suggest your Zimbra contacts addresses when you search for a contact via the top-right contacts menu\nor when you search for someone to share a file to.",
     "homepage": "https://github.com/eneiluj/integration_zimbra",
     "licenses": [
@@ -1468,9 +1468,9 @@
     ]
   },
   "money": {
-    "sha256": "0fb11dc0675c4784478bf74db72e9e53bd525575126623c948f43b1733ce3f61",
-    "url": "https://github.com/powerpaul17/nc_money/releases/download/v0.22.1/money.tar.gz",
-    "version": "0.22.1",
+    "sha256": "99a0f8c5c62f4cc8a1f7de5d3334c270fd7d3a9a3f622136469e17b41446098f",
+    "url": "https://github.com/powerpaul17/nc_money/releases/download/v0.23.0/money.tar.gz",
+    "version": "0.23.0",
     "description": "Finance manager for Nextcloud.",
     "homepage": "https://github.com/powerpaul17/nc_money",
     "licenses": [
@@ -1608,9 +1608,9 @@
     ]
   },
   "openincryptpad": {
-    "sha256": "ffb6550082d2de059989e2ec26f329b982769b9ee3884f24afaf4eadb6bf71e0",
-    "url": "https://github.com/cryptpad/nextcloud-open-in-cryptpad/releases/download/v0.1.0/openincryptpad.tar.gz",
-    "version": "0.1.0",
+    "sha256": "9f22a8d858212552e9ebb62e5f446bb5f5ef9a8a552cfc98125ef17895e2f4bb",
+    "url": "https://github.com/cryptpad/nextcloud-open-in-cryptpad/releases/download/v0.2.0/openincryptpad.tar.gz",
+    "version": "0.2.0",
     "description": "# Open In CryptPad\n\n\"Open in CryptPad\" is a Nextcloud application that allows collaborative editing\nof files. For this it uses a CryptPad instance embedded into the Nextcloud web\ninterface. Currently, only drawio diagrams are supported.\n\n## Prerequisites on the CryptPad side\n\nTo embed CryptPad into Nextcloud, the \"Enable remote embedding\" admin setting\nneeds to be enabled. You can find this setting on the \"Administration\" web\ninterface in the \"General\" tab.\n\n## Install from Nextcloud app store\n\n1. Add drawio mimetype to Nextcloud. \"Open in CryptPad\" depends on Nextcloud\n   detecting drawio files correctly. For this you have to create the following\n   files: (**Note:** do this before uploading any drawio files! The mimetype of\n   old files will not be updated by these changes)\n    - `nextcloud/config/mimetypealiases.json`\n\n        ``` json\n        {\n            \"application/x-drawio\": \"image\"\n        }\n        ```\n\n    - `nextcloud/config/mimetypemapping.json`\n\n        ``` json\n        {\n            \"drawio\": [\"application/x-drawio\"]\n        }\n        ```\n2. Open the \"Apps\" page in your Nextcloud web interface and install \"Open in\n   CryptPad\". You can find it in the \"Integration\" category.\n3. Configure \"Open in CryptPad\" in the administration settings of Nextcloud.",
     "homepage": "",
     "licenses": [
@@ -1736,9 +1736,9 @@
     ]
   },
   "picker": {
-    "sha256": "68160801c276e53918a4c65b1026390535ef75275d36d3eba3ee22594df6eec4",
-    "url": "https://github.com/nextcloud-releases/picker/releases/download/v1.0.5/picker-v1.0.5.tar.gz",
-    "version": "1.0.5",
+    "sha256": "50f81fd8c7a154e750eb74b2c6decd1e060bd4de916136c2c38ed91c33b6b2e8",
+    "url": "https://github.com/nextcloud-releases/picker/releases/download/v1.0.7/picker-v1.0.7.tar.gz",
+    "version": "1.0.7",
     "description": "This app provides a page to pick a file, generate a public link and directly browse it.\nIt can be used to integrate Nextcloud in other apps such as a video call software.",
     "homepage": "https://github.com/julien-nc/picker",
     "licenses": [
@@ -1756,9 +1756,9 @@
     ]
   },
   "polls": {
-    "sha256": "5576122d054774a56aea33c42ee5a6b50da6e625e84c3e5bde37480b31fa7c90",
-    "url": "https://github.com/nextcloud/polls/releases/download/v5.4.0/polls.tar.gz",
-    "version": "5.4.0",
+    "sha256": "f38484bf6725ef3c552793d8abba395e74c3bf77d54be91ae98d3b720d39eeb9",
+    "url": "https://github.com/nextcloud/polls/releases/download/v5.4.1/polls.tar.gz",
+    "version": "5.4.1",
     "description": "A polls app, similar to Doodle/Dudle with the possibility to restrict access (members, certain groups/users, hidden and public).",
     "homepage": "https://github.com/nextcloud/polls",
     "licenses": [
@@ -1896,9 +1896,9 @@
     ]
   },
   "richdocuments": {
-    "sha256": "f1b2410d6c1d6a621e6d12ffe26362d456f93df2533127ba8a0970f60d028098",
-    "url": "https://github.com/nextcloud-releases/richdocuments/releases/download/v7.1.7/richdocuments-v7.1.7.tar.gz",
-    "version": "7.1.7",
+    "sha256": "f2e493ec8d6dbedd06bd631d6a8856e22e83992f1f7bd9462a1a77e4df36bbdc",
+    "url": "https://github.com/nextcloud-releases/richdocuments/releases/download/v7.1.8/richdocuments-v7.1.8.tar.gz",
+    "version": "7.1.8",
     "description": "This application can connect to a Collabora Online (or other) server (WOPI-like Client). Nextcloud is the WOPI Host. Please read the documentation to learn more about that.\n\nYou can also edit your documents off-line with the Collabora Office app from the **[Android](https://play.google.com/store/apps/details?id=com.collabora.libreoffice)** and **[iOS](https://apps.apple.com/us/app/collabora-office/id1440482071)** store.",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -2544,9 +2544,9 @@
     ]
   },
   "user_saml": {
-    "sha256": "1f294adb3e31617075a0ec1fd8dcd36c6cb0fb35ef70f76c89a7e47d13ef857a",
-    "url": "https://github.com/nextcloud-releases/user_saml/releases/download/v5.2.2/user_saml-v5.2.2.tar.gz",
-    "version": "5.2.2",
+    "sha256": "ec0b5f54bfdf285bf2eb2d4e793619784684f207830d263ce258724a4ca97a31",
+    "url": "https://github.com/nextcloud-releases/user_saml/releases/download/v5.2.3/user_saml-v5.2.3.tar.gz",
+    "version": "5.2.3",
     "description": "Using the SSO & SAML app of your Nextcloud you can make it easily possible to integrate your existing Single-Sign-On solution with Nextcloud. In addition, you can use the Nextcloud LDAP user provider to keep the convenience for users. (e.g. when sharing)\nThe following providers are supported and tested at the moment:\n\n* **SAML 2.0**\n\t* OneLogin\n\t* Shibboleth\n\t* Active Directory Federation Services (ADFS)\n\n* **Authentication via Environment Variable**\n\t* Kerberos (mod_auth_kerb)\n\t* Any other provider that authenticates using the environment variable\n\nWhile theoretically any other authentication provider implementing either one of those standards is compatible, we like to note that they are not part of any internal test matrix.",
     "homepage": "https://github.com/nextcloud/user_saml",
     "licenses": [
