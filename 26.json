@@ -400,9 +400,9 @@
     ]
   },
   "drop_account": {
-    "sha256": "17d93fd8c8dfe68da86dd300f90ffda3a737367f2b17221de4cc5d5919f0cc8e",
-    "url": "https://packages.framasoft.org/projects/nextcloud-apps/drop-account/drop_account-2.3.1.tar.gz",
-    "version": "2.3.1",
+    "sha256": "1718655033b0044c6c896d0440407ac7293e28886bf57621e6512aa0a4ef89f3",
+    "url": "https://packages.framasoft.org/projects/nextcloud-apps/drop-account/drop_account-2.3.2.tar.gz",
+    "version": "2.3.2",
     "description": "# Description\n\nThis app allows users to delete their accounts by removing all their data.\n\nIt can also send activities to the admins about deleted accounts.",
     "homepage": "https://framagit.org/framasoft/nextcloud/drop_account",
     "licenses": [
@@ -1170,8 +1170,8 @@
     ]
   },
   "integration_mattermost": {
-    "sha256": "9763a09cf94bdc5e46e1b07f64a4a5f34709b82d10b52cfabbcae9fd8cef9534",
-    "url": "https://github.com/nextcloud-releases/integration_mattermost/releases/download/v1.0.4/integration_mattermost-v1.0.4.tar.gz",
+    "sha256": "179fd8e25070c1fc1fe35841999f8e44475195649d1187592cd0c418d24f98db",
+    "url": "https://github.com/julien-nc/integration_mattermost/releases/download/v1.0.4-2-nightly/integration_mattermost-1.0.4-2-nightly.tar.gz",
     "version": "1.0.4",
     "description": "Mattermost integration provides a dashboard widget displaying your most important notifications\nand a unified search provider for messages. It also lets you send files to Mattermost from Nextcloud Files.",
     "homepage": "https://github.com/nextcloud/integration_mattermost",
@@ -1540,9 +1540,9 @@
     ]
   },
   "money": {
-    "sha256": "0fb11dc0675c4784478bf74db72e9e53bd525575126623c948f43b1733ce3f61",
-    "url": "https://github.com/powerpaul17/nc_money/releases/download/v0.22.1/money.tar.gz",
-    "version": "0.22.1",
+    "sha256": "99a0f8c5c62f4cc8a1f7de5d3334c270fd7d3a9a3f622136469e17b41446098f",
+    "url": "https://github.com/powerpaul17/nc_money/releases/download/v0.23.0/money.tar.gz",
+    "version": "0.23.0",
     "description": "Finance manager for Nextcloud.",
     "homepage": "https://github.com/powerpaul17/nc_money",
     "licenses": [
@@ -1690,9 +1690,9 @@
     ]
   },
   "openincryptpad": {
-    "sha256": "9f22a8d858212552e9ebb62e5f446bb5f5ef9a8a552cfc98125ef17895e2f4bb",
-    "url": "https://github.com/cryptpad/nextcloud-open-in-cryptpad/releases/download/v0.2.0/openincryptpad.tar.gz",
-    "version": "0.2.0",
+    "sha256": "bc14053e457cbdb37d8274f39d3c93e5bffe8146bd045f6e24322fb849defc4b",
+    "url": "https://github.com/cryptpad/nextcloud-open-in-cryptpad/releases/download/v0.2.1/openincryptpad.tar.gz",
+    "version": "0.2.1",
     "description": "# Open In CryptPad\n\n\"Open in CryptPad\" is a Nextcloud application that allows collaborative editing\nof files. For this it uses a CryptPad instance embedded into the Nextcloud web\ninterface. Currently, only drawio diagrams are supported.\n\n## Prerequisites on the CryptPad side\n\nTo embed CryptPad into Nextcloud, the \"Enable remote embedding\" admin setting\nneeds to be enabled. You can find this setting on the \"Administration\" web\ninterface in the \"General\" tab.\n\n## Install from Nextcloud app store\n\n1. Add drawio mimetype to Nextcloud. \"Open in CryptPad\" depends on Nextcloud\n   detecting drawio files correctly. For this you have to create the following\n   files: (**Note:** do this before uploading any drawio files! The mimetype of\n   old files will not be updated by these changes)\n    - `nextcloud/config/mimetypealiases.json`\n\n        ``` json\n        {\n            \"application/x-drawio\": \"image\"\n        }\n        ```\n\n    - `nextcloud/config/mimetypemapping.json`\n\n        ``` json\n        {\n            \"drawio\": [\"application/x-drawio\"]\n        }\n        ```\n2. Open the \"Apps\" page in your Nextcloud web interface and install \"Open in\n   CryptPad\". You can find it in the \"Integration\" category.\n3. Configure \"Open in CryptPad\" in the administration settings of Nextcloud.",
     "homepage": "",
     "licenses": [
@@ -1780,9 +1780,9 @@
     ]
   },
   "pax_fax": {
-    "sha256": "2873c4af4d2b99be8869655048efb090ac546df2282df31a892c6a4460be5d1f",
-    "url": "https://git.doublebastion.com/releases/pax-fax/1.1.2/pax_fax.tar.gz",
-    "version": "1.1.2",
+    "sha256": "b1222fe9150a2b3443ee0f9463c2e68d72f4a06b7ea62228c8d0403a75c15194",
+    "url": "https://git.doublebastion.com/releases/pax-fax/1.1.3/pax_fax.tar.gz",
+    "version": "1.1.3",
     "description": "This application allows sending and receiving faxes in Nextcloud. A phaxio.com account and a real fax number acquired from Phaxio are needed. \nComplete instructions on how to configure and use this application are detailed in the 'Admin documentation' linked on this page.\n          \n### Features:\n\n* 🚀 Multiple documents can be sent in one fax call (up to 20 separate files with a cumulative size of up to 20 MB).\n\n* 📠 A fax can be sent to multiple fax numbers at once (up to 15 different fax numbers).\n\n* 📄 Users can send as fax any document in any of the following formats: pdf, doc, docx, odt, jpeg/jpg, png, tiff/tif, txt, html.\n\n* 📰 All incoming faxes are received as pdf documents and stored in a Nextcloud folder.\n\n* 📧 Users receive notifications and (optionally) emails when new faxes arrive.\n\n* 🔍 All the sent and received faxes are stored in specific Nextcloud folders, so that they can be searched by caller/callee phone number or date.\n\n* 💻 When they want to send a fax, users can upload files from their computer or choose them directly from Nextcloud.\n\n* 🔏 Incoming fax requests are checked for authenticity and integrity by verifying Phaxio's signature.\n\n* 💵 Current Phaxio balance can be always checked by pressing a button on the left panel.\n\n* 💰 The only ongoing cost is $2 per month for a fax number located in USA or Canada, in a city chosen by the user. No contracts.\n\n* 💸 Straightforward pricing: $0.07 per sent/received page for faxes to/from USA and Canada and $0.1 per sent/received page for faxes to/from other countries.\n\nWe have no affiliation with Phaxio.\n\n### Documentation\n\n* [Admin documentation](https://www.doublebastion.com/install-nextcloud/#install-pax-fax)\n\n### Donations\n\n* 🎁 [Donate](https://www.doublebastion.com/donations/)",
     "homepage": "https://www.doublebastion.com/pax-fax/",
     "licenses": [
@@ -2050,9 +2050,9 @@
     ]
   },
   "sfbridge": {
-    "sha256": "19e5daa0eee99f00d2fa8b2dde54d3c1f197e716f51dfbdb223411ca6ad65546",
-    "url": "https://github.com/Rello/sfbridge/releases/download/0.3.0/sfbridge-0.3.0.tar.gz",
-    "version": "0.3.0",
+    "sha256": "8ad2f9aaeff94ca4a085049081cecdfa93e2c3d3fdd584c6b69dfda02d1f77a9",
+    "url": "https://github.com/Rello/sfbridge/releases/download/0.3.1/sfbridge-0.3.1.tar.gz",
+    "version": "0.3.1",
     "description": "This automation in Nextcloud bridges the gap between financial transactions and Salesforce.\nPaypal or bank transactions like donations or payments can be synchronized with the Salesforce Nonprofit Success Pack (NPSP).\n\n##### Features\n- Paypal: Read transaction history\n- Bank (via API): Read transaction history\n- Salesforce: Create Household/Organization accounts and contact on demand\n- Salesforce: Create/update Opportunities/Payments/Allocations\n- Salesforce: Link Opportunities to Campaigns\n- Nextcloud: Automation via background job\n- Nextcloud: Notifications for new transactions\n\n##### Please check GitHub for details first!",
     "homepage": "https://github.com/Rello/sfbridge",
     "licenses": [
@@ -2400,9 +2400,9 @@
     ]
   },
   "twofactor_nextcloud_notification": {
-    "sha256": "ad8fa0c2d3093ab7d224cdfbf43650a1c01f7e91adfb1dd68400f8aacaca82e8",
-    "url": "https://github.com/nextcloud-releases/twofactor_nextcloud_notification/releases/download/v3.7.0/twofactor_nextcloud_notification-v3.7.0.tar.gz",
-    "version": "3.7.0",
+    "sha256": "615c97cd1f4828e4577cb0453ff59d9e4e76938cab20ac07d098ef185fbf60c2",
+    "url": "https://github.com/nextcloud-releases/twofactor_nextcloud_notification/releases/download/v3.8.0/twofactor_nextcloud_notification-v3.8.0.tar.gz",
+    "version": "3.8.0",
     "description": "Allows using any of your logged in devices as second factor",
     "homepage": "https://github.com/nextcloud/twofactor_nextcloud_notification",
     "licenses": [
@@ -2520,9 +2520,9 @@
     ]
   },
   "user_saml": {
-    "sha256": "1f294adb3e31617075a0ec1fd8dcd36c6cb0fb35ef70f76c89a7e47d13ef857a",
-    "url": "https://github.com/nextcloud-releases/user_saml/releases/download/v5.2.2/user_saml-v5.2.2.tar.gz",
-    "version": "5.2.2",
+    "sha256": "ec0b5f54bfdf285bf2eb2d4e793619784684f207830d263ce258724a4ca97a31",
+    "url": "https://github.com/nextcloud-releases/user_saml/releases/download/v5.2.3/user_saml-v5.2.3.tar.gz",
+    "version": "5.2.3",
     "description": "Using the SSO & SAML app of your Nextcloud you can make it easily possible to integrate your existing Single-Sign-On solution with Nextcloud. In addition, you can use the Nextcloud LDAP user provider to keep the convenience for users. (e.g. when sharing)\nThe following providers are supported and tested at the moment:\n\n* **SAML 2.0**\n\t* OneLogin\n\t* Shibboleth\n\t* Active Directory Federation Services (ADFS)\n\n* **Authentication via Environment Variable**\n\t* Kerberos (mod_auth_kerb)\n\t* Any other provider that authenticates using the environment variable\n\nWhile theoretically any other authentication provider implementing either one of those standards is compatible, we like to note that they are not part of any internal test matrix.",
     "homepage": "https://github.com/nextcloud/user_saml",
     "licenses": [

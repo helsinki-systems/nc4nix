@@ -1468,9 +1468,9 @@
     ]
   },
   "money": {
-    "sha256": "99a0f8c5c62f4cc8a1f7de5d3334c270fd7d3a9a3f622136469e17b41446098f",
-    "url": "https://github.com/powerpaul17/nc_money/releases/download/v0.23.0/money.tar.gz",
-    "version": "0.23.0",
+    "sha256": "c58b669d0fb7d2fbac3809f3ccdb1d42558518ba04bd7edca3e636d245809997",
+    "url": "https://github.com/powerpaul17/nc_money/releases/download/v0.23.1/money.tar.gz",
+    "version": "0.23.1",
     "description": "Finance manager for Nextcloud.",
     "homepage": "https://github.com/powerpaul17/nc_money",
     "licenses": [
@@ -1608,9 +1608,9 @@
     ]
   },
   "openincryptpad": {
-    "sha256": "9f22a8d858212552e9ebb62e5f446bb5f5ef9a8a552cfc98125ef17895e2f4bb",
-    "url": "https://github.com/cryptpad/nextcloud-open-in-cryptpad/releases/download/v0.2.0/openincryptpad.tar.gz",
-    "version": "0.2.0",
+    "sha256": "bc14053e457cbdb37d8274f39d3c93e5bffe8146bd045f6e24322fb849defc4b",
+    "url": "https://github.com/cryptpad/nextcloud-open-in-cryptpad/releases/download/v0.2.1/openincryptpad.tar.gz",
+    "version": "0.2.1",
     "description": "# Open In CryptPad\n\n\"Open in CryptPad\" is a Nextcloud application that allows collaborative editing\nof files. For this it uses a CryptPad instance embedded into the Nextcloud web\ninterface. Currently, only drawio diagrams are supported.\n\n## Prerequisites on the CryptPad side\n\nTo embed CryptPad into Nextcloud, the \"Enable remote embedding\" admin setting\nneeds to be enabled. You can find this setting on the \"Administration\" web\ninterface in the \"General\" tab.\n\n## Install from Nextcloud app store\n\n1. Add drawio mimetype to Nextcloud. \"Open in CryptPad\" depends on Nextcloud\n   detecting drawio files correctly. For this you have to create the following\n   files: (**Note:** do this before uploading any drawio files! The mimetype of\n   old files will not be updated by these changes)\n    - `nextcloud/config/mimetypealiases.json`\n\n        ``` json\n        {\n            \"application/x-drawio\": \"image\"\n        }\n        ```\n\n    - `nextcloud/config/mimetypemapping.json`\n\n        ``` json\n        {\n            \"drawio\": [\"application/x-drawio\"]\n        }\n        ```\n2. Open the \"Apps\" page in your Nextcloud web interface and install \"Open in\n   CryptPad\". You can find it in the \"Integration\" category.\n3. Configure \"Open in CryptPad\" in the administration settings of Nextcloud.",
     "homepage": "",
     "licenses": [
@@ -2006,9 +2006,9 @@
     ]
   },
   "sfbridge": {
-    "sha256": "19e5daa0eee99f00d2fa8b2dde54d3c1f197e716f51dfbdb223411ca6ad65546",
-    "url": "https://github.com/Rello/sfbridge/releases/download/0.3.0/sfbridge-0.3.0.tar.gz",
-    "version": "0.3.0",
+    "sha256": "8ad2f9aaeff94ca4a085049081cecdfa93e2c3d3fdd584c6b69dfda02d1f77a9",
+    "url": "https://github.com/Rello/sfbridge/releases/download/0.3.1/sfbridge-0.3.1.tar.gz",
+    "version": "0.3.1",
     "description": "This automation in Nextcloud bridges the gap between financial transactions and Salesforce.\nPaypal or bank transactions like donations or payments can be synchronized with the Salesforce Nonprofit Success Pack (NPSP).\n\n##### Features\n- Paypal: Read transaction history\n- Bank (via API): Read transaction history\n- Salesforce: Create Household/Organization accounts and contact on demand\n- Salesforce: Create/update Opportunities/Payments/Allocations\n- Salesforce: Link Opportunities to Campaigns\n- Nextcloud: Automation via background job\n- Nextcloud: Notifications for new transactions\n\n##### Please check GitHub for details first!",
     "homepage": "https://github.com/Rello/sfbridge",
     "licenses": [

@@ -320,8 +320,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -330,9 +330,9 @@
     ]
   },
   "csp_editor": {
-    "sha256": "45b9792841ba5e89eca8ced263be12bd481326da6e2a303f404fef9802e90714",
-    "url": "https://packages.framasoft.org/projects/nextcloud-apps/csp-editor/csp_editor-1.2.0.tar.gz",
-    "version": "1.2.0",
+    "sha256": "f8ba771dc32ecaba1759600d48a9d8a0a7cdc8699e13f8d9113719da466a3c21",
+    "url": "https://packages.framasoft.org/projects/nextcloud-apps/csp-editor/csp_editor-1.2.1.tar.gz",
+    "version": "1.2.1",
     "description": "# Description\n\nThis app allows to edit Nextcloud's default CSP policy.",
     "homepage": "https://framagit.org/framasoft/nextcloud/csp_editor",
     "licenses": [
@@ -420,9 +420,9 @@
     ]
   },
   "drop_account": {
-    "sha256": "17d93fd8c8dfe68da86dd300f90ffda3a737367f2b17221de4cc5d5919f0cc8e",
-    "url": "https://packages.framasoft.org/projects/nextcloud-apps/drop-account/drop_account-2.3.1.tar.gz",
-    "version": "2.3.1",
+    "sha256": "1718655033b0044c6c896d0440407ac7293e28886bf57621e6512aa0a4ef89f3",
+    "url": "https://packages.framasoft.org/projects/nextcloud-apps/drop-account/drop_account-2.3.2.tar.gz",
+    "version": "2.3.2",
     "description": "# Description\n\nThis app allows users to delete their accounts by removing all their data.\n\nIt can also send activities to the admins about deleted accounts.",
     "homepage": "https://framagit.org/framasoft/nextcloud/drop_account",
     "licenses": [
@@ -1480,9 +1480,9 @@
     ]
   },
   "money": {
-    "sha256": "99a0f8c5c62f4cc8a1f7de5d3334c270fd7d3a9a3f622136469e17b41446098f",
-    "url": "https://github.com/powerpaul17/nc_money/releases/download/v0.23.0/money.tar.gz",
-    "version": "0.23.0",
+    "sha256": "c58b669d0fb7d2fbac3809f3ccdb1d42558518ba04bd7edca3e636d245809997",
+    "url": "https://github.com/powerpaul17/nc_money/releases/download/v0.23.1/money.tar.gz",
+    "version": "0.23.1",
     "description": "Finance manager for Nextcloud.",
     "homepage": "https://github.com/powerpaul17/nc_money",
     "licenses": [
@@ -1630,9 +1630,9 @@
     ]
   },
   "openincryptpad": {
-    "sha256": "9f22a8d858212552e9ebb62e5f446bb5f5ef9a8a552cfc98125ef17895e2f4bb",
-    "url": "https://github.com/cryptpad/nextcloud-open-in-cryptpad/releases/download/v0.2.0/openincryptpad.tar.gz",
-    "version": "0.2.0",
+    "sha256": "bc14053e457cbdb37d8274f39d3c93e5bffe8146bd045f6e24322fb849defc4b",
+    "url": "https://github.com/cryptpad/nextcloud-open-in-cryptpad/releases/download/v0.2.1/openincryptpad.tar.gz",
+    "version": "0.2.1",
     "description": "# Open In CryptPad\n\n\"Open in CryptPad\" is a Nextcloud application that allows collaborative editing\nof files. For this it uses a CryptPad instance embedded into the Nextcloud web\ninterface. Currently, only drawio diagrams are supported.\n\n## Prerequisites on the CryptPad side\n\nTo embed CryptPad into Nextcloud, the \"Enable remote embedding\" admin setting\nneeds to be enabled. You can find this setting on the \"Administration\" web\ninterface in the \"General\" tab.\n\n## Install from Nextcloud app store\n\n1. Add drawio mimetype to Nextcloud. \"Open in CryptPad\" depends on Nextcloud\n   detecting drawio files correctly. For this you have to create the following\n   files: (**Note:** do this before uploading any drawio files! The mimetype of\n   old files will not be updated by these changes)\n    - `nextcloud/config/mimetypealiases.json`\n\n        ``` json\n        {\n            \"application/x-drawio\": \"image\"\n        }\n        ```\n\n    - `nextcloud/config/mimetypemapping.json`\n\n        ``` json\n        {\n            \"drawio\": [\"application/x-drawio\"]\n        }\n        ```\n2. Open the \"Apps\" page in your Nextcloud web interface and install \"Open in\n   CryptPad\". You can find it in the \"Integration\" category.\n3. Configure \"Open in CryptPad\" in the administration settings of Nextcloud.",
     "homepage": "",
     "licenses": [
@@ -1970,9 +1970,9 @@
     ]
   },
   "sfbridge": {
-    "sha256": "19e5daa0eee99f00d2fa8b2dde54d3c1f197e716f51dfbdb223411ca6ad65546",
-    "url": "https://github.com/Rello/sfbridge/releases/download/0.3.0/sfbridge-0.3.0.tar.gz",
-    "version": "0.3.0",
+    "sha256": "8ad2f9aaeff94ca4a085049081cecdfa93e2c3d3fdd584c6b69dfda02d1f77a9",
+    "url": "https://github.com/Rello/sfbridge/releases/download/0.3.1/sfbridge-0.3.1.tar.gz",
+    "version": "0.3.1",
     "description": "This automation in Nextcloud bridges the gap between financial transactions and Salesforce.\nPaypal or bank transactions like donations or payments can be synchronized with the Salesforce Nonprofit Success Pack (NPSP).\n\n##### Features\n- Paypal: Read transaction history\n- Bank (via API): Read transaction history\n- Salesforce: Create Household/Organization accounts and contact on demand\n- Salesforce: Create/update Opportunities/Payments/Allocations\n- Salesforce: Link Opportunities to Campaigns\n- Nextcloud: Automation via background job\n- Nextcloud: Notifications for new transactions\n\n##### Please check GitHub for details first!",
     "homepage": "https://github.com/Rello/sfbridge",
     "licenses": [
@@ -2060,9 +2060,9 @@
     ]
   },
   "sms_relentless": {
-    "sha256": "c97990558affb61f98224b852ed71c97b9fc33975b3e0ebb4b1f4d4c9dadaf63",
-    "url": "https://git.doublebastion.com/releases/sms-relentless/1.2.9/sms_relentless.tar.gz",
-    "version": "1.2.9",
+    "sha256": "bccf7f509a3a7ff5ffe9b3150b7a79c3b54a202eaa3bc03112a87c1147dc3599",
+    "url": "https://git.doublebastion.com/releases/sms-relentless/1.3.0/sms_relentless.tar.gz",
+    "version": "1.3.0",
     "description": "This application allows sending and receiving SMS and MMS messages in Nextcloud. An SMS/MMS enabled phone number acquired from \nTelnyx or Plivo or Twilio or Flowroute is needed. Detailed instructions on how to configure and use this application can be found on the 'Admin documentation' page.\n\n### Features:\n\n* 🚀 Use one or multiple local phone numbers in countries of your choice, to send and receive SMS/MMS messages with your browser, on any device connected to the Internet.\n\n* 📑 Sent and received SMS/MMS messages are stored in the database per sending/receiving user and can be viewed in paginated tables with filters for every column.\n\n* 🖼️  Up to 10 files of various formats, including jpeg, png and gif, can be sent as MMS messages from MMS enabled phone numbers. Files included in incoming MMS messages are not downloaded automatically. They are stored as URL links to the actual files, so that the receivers can download them only if they trust the senders.\n\n* 📔 SMS/MMS messages older than a specified number of days can be deleted in bulk with one click and they are automatically archived in csv files stored in Nextcloud, before being removed from the database. This makes them available for future analysis.\n\n* 💻 Sending SMS/MMS messages to thousands of recipients can be achieved by uploading a txt/csv file containing the recipients' phone numbers and the same SMS/MMS is sent automatically to all. The time interval between two consecutive messages is configurable.\n\n* 👤 The Display Name of Nextcloud users can be prepended to their messages, to make the origin of messages clearer.\n\n* ⚠️  Admins can restrict the use of specific phone numbers to specific groups or users.\n\n* ✉️  Auto-replies in 'daily mode' and 'vacation mode' can be configured for any controlled phone number.\n\n* 🔏 SMS/MMS messages coming from Telnyx, Plivo and Twilio are checked for authenticity by verifying the SMS provider's signature.\n\n* 📧 Users receive notifications in Nextcloud and (optionally) emails when new SMS/MMS messages arrive.\n\n* 📄 Each sent message receives a delivery receipt displayed in the Sent SMS Messages table.\n\n* 📱 It works with regular 'long code' (10-digit) phone numbers, but also with 'toll-free' numbers and 'short codes'. Users see a list with their current phone numbers and can set them as Sender IDs. Setting alphanumeric Sender IDs is also possible. \n\n* 💵 It allows checking the current Telnyx/Plivo/Twilio balance by selecting the provider on the left panel.\n\n* 💰 The only ongoing cost is about $1 per month (depending on the country) for an SMS/MMS enabled phone number located in a country chosen by the user. No contracts.\n\n* 💸 Low prices per SMS: starting from $0.0060 per sent message and $0.0040 per received message (Telnyx), or $0.0070 per sent message and $0 per received message (Plivo), or $0.0099 per sent message and 0.0079 per received message (Twilio), or $0.0055 per sent message and 0.0040 per received message (Flowroute) in the USA.\n\nWe have no affiliation with Telnyx, Plivo, Twilio or Flowroute.\n\n### Documentation\n\n* [Admin documentation](https://www.doublebastion.com/install-nextcloud/#install-sms-relentless)\n\n### Donations\n\n* 🎁 [Donate](https://www.doublebastion.com/donations/)",
     "homepage": "https://www.doublebastion.com/sms-relentless/",
     "licenses": [
@@ -2328,9 +2328,9 @@
     ]
   },
   "twofactor_nextcloud_notification": {
-    "sha256": "ad8fa0c2d3093ab7d224cdfbf43650a1c01f7e91adfb1dd68400f8aacaca82e8",
-    "url": "https://github.com/nextcloud-releases/twofactor_nextcloud_notification/releases/download/v3.7.0/twofactor_nextcloud_notification-v3.7.0.tar.gz",
-    "version": "3.7.0",
+    "sha256": "615c97cd1f4828e4577cb0453ff59d9e4e76938cab20ac07d098ef185fbf60c2",
+    "url": "https://github.com/nextcloud-releases/twofactor_nextcloud_notification/releases/download/v3.8.0/twofactor_nextcloud_notification-v3.8.0.tar.gz",
+    "version": "3.8.0",
     "description": "Allows using any of your logged in devices as second factor",
     "homepage": "https://github.com/nextcloud/twofactor_nextcloud_notification",
     "licenses": [
