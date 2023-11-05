@@ -300,8 +300,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -310,9 +310,9 @@
     ]
   },
   "csp_editor": {
-    "sha256": "45b9792841ba5e89eca8ced263be12bd481326da6e2a303f404fef9802e90714",
-    "url": "https://packages.framasoft.org/projects/nextcloud-apps/csp-editor/csp_editor-1.2.0.tar.gz",
-    "version": "1.2.0",
+    "sha256": "f8ba771dc32ecaba1759600d48a9d8a0a7cdc8699e13f8d9113719da466a3c21",
+    "url": "https://packages.framasoft.org/projects/nextcloud-apps/csp-editor/csp_editor-1.2.1.tar.gz",
+    "version": "1.2.1",
     "description": "# Description\n\nThis app allows to edit Nextcloud's default CSP policy.",
     "homepage": "https://framagit.org/framasoft/nextcloud/csp_editor",
     "licenses": [
@@ -1170,8 +1170,8 @@
     ]
   },
   "integration_mattermost": {
-    "sha256": "179fd8e25070c1fc1fe35841999f8e44475195649d1187592cd0c418d24f98db",
-    "url": "https://github.com/julien-nc/integration_mattermost/releases/download/v1.0.4-2-nightly/integration_mattermost-1.0.4-2-nightly.tar.gz",
+    "sha256": "9763a09cf94bdc5e46e1b07f64a4a5f34709b82d10b52cfabbcae9fd8cef9534",
+    "url": "https://github.com/nextcloud-releases/integration_mattermost/releases/download/v1.0.4/integration_mattermost-v1.0.4.tar.gz",
     "version": "1.0.4",
     "description": "Mattermost integration provides a dashboard widget displaying your most important notifications\nand a unified search provider for messages. It also lets you send files to Mattermost from Nextcloud Files.",
     "homepage": "https://github.com/nextcloud/integration_mattermost",
@@ -1540,9 +1540,9 @@
     ]
   },
   "money": {
-    "sha256": "99a0f8c5c62f4cc8a1f7de5d3334c270fd7d3a9a3f622136469e17b41446098f",
-    "url": "https://github.com/powerpaul17/nc_money/releases/download/v0.23.0/money.tar.gz",
-    "version": "0.23.0",
+    "sha256": "c58b669d0fb7d2fbac3809f3ccdb1d42558518ba04bd7edca3e636d245809997",
+    "url": "https://github.com/powerpaul17/nc_money/releases/download/v0.23.1/money.tar.gz",
+    "version": "0.23.1",
     "description": "Finance manager for Nextcloud.",
     "homepage": "https://github.com/powerpaul17/nc_money",
     "licenses": [
@@ -2140,9 +2140,9 @@
     ]
   },
   "sms_relentless": {
-    "sha256": "c97990558affb61f98224b852ed71c97b9fc33975b3e0ebb4b1f4d4c9dadaf63",
-    "url": "https://git.doublebastion.com/releases/sms-relentless/1.2.9/sms_relentless.tar.gz",
-    "version": "1.2.9",
+    "sha256": "bccf7f509a3a7ff5ffe9b3150b7a79c3b54a202eaa3bc03112a87c1147dc3599",
+    "url": "https://git.doublebastion.com/releases/sms-relentless/1.3.0/sms_relentless.tar.gz",
+    "version": "1.3.0",
     "description": "This application allows sending and receiving SMS and MMS messages in Nextcloud. An SMS/MMS enabled phone number acquired from \nTelnyx or Plivo or Twilio or Flowroute is needed. Detailed instructions on how to configure and use this application can be found on the 'Admin documentation' page.\n\n### Features:\n\n* 🚀 Use one or multiple local phone numbers in countries of your choice, to send and receive SMS/MMS messages with your browser, on any device connected to the Internet.\n\n* 📑 Sent and received SMS/MMS messages are stored in the database per sending/receiving user and can be viewed in paginated tables with filters for every column.\n\n* 🖼️  Up to 10 files of various formats, including jpeg, png and gif, can be sent as MMS messages from MMS enabled phone numbers. Files included in incoming MMS messages are not downloaded automatically. They are stored as URL links to the actual files, so that the receivers can download them only if they trust the senders.\n\n* 📔 SMS/MMS messages older than a specified number of days can be deleted in bulk with one click and they are automatically archived in csv files stored in Nextcloud, before being removed from the database. This makes them available for future analysis.\n\n* 💻 Sending SMS/MMS messages to thousands of recipients can be achieved by uploading a txt/csv file containing the recipients' phone numbers and the same SMS/MMS is sent automatically to all. The time interval between two consecutive messages is configurable.\n\n* 👤 The Display Name of Nextcloud users can be prepended to their messages, to make the origin of messages clearer.\n\n* ⚠️  Admins can restrict the use of specific phone numbers to specific groups or users.\n\n* ✉️  Auto-replies in 'daily mode' and 'vacation mode' can be configured for any controlled phone number.\n\n* 🔏 SMS/MMS messages coming from Telnyx, Plivo and Twilio are checked for authenticity by verifying the SMS provider's signature.\n\n* 📧 Users receive notifications in Nextcloud and (optionally) emails when new SMS/MMS messages arrive.\n\n* 📄 Each sent message receives a delivery receipt displayed in the Sent SMS Messages table.\n\n* 📱 It works with regular 'long code' (10-digit) phone numbers, but also with 'toll-free' numbers and 'short codes'. Users see a list with their current phone numbers and can set them as Sender IDs. Setting alphanumeric Sender IDs is also possible. \n\n* 💵 It allows checking the current Telnyx/Plivo/Twilio balance by selecting the provider on the left panel.\n\n* 💰 The only ongoing cost is about $1 per month (depending on the country) for an SMS/MMS enabled phone number located in a country chosen by the user. No contracts.\n\n* 💸 Low prices per SMS: starting from $0.0060 per sent message and $0.0040 per received message (Telnyx), or $0.0070 per sent message and $0 per received message (Plivo), or $0.0099 per sent message and 0.0079 per received message (Twilio), or $0.0055 per sent message and 0.0040 per received message (Flowroute) in the USA.\n\nWe have no affiliation with Telnyx, Plivo, Twilio or Flowroute.\n\n### Documentation\n\n* [Admin documentation](https://www.doublebastion.com/install-nextcloud/#install-sms-relentless)\n\n### Donations\n\n* 🎁 [Donate](https://www.doublebastion.com/donations/)",
     "homepage": "https://www.doublebastion.com/sms-relentless/",
     "licenses": [
