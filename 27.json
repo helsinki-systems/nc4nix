@@ -40,9 +40,9 @@
     ]
   },
   "announcementcenter": {
-    "sha256": "e07d7f7b64cbcc45736b5d165d934ba887884d09662d1f991d9bef0ffcbbffca",
-    "url": "https://github.com/nextcloud-releases/announcementcenter/releases/download/v6.6.2/announcementcenter-v6.6.2.tar.gz",
-    "version": "6.6.2",
+    "sha256": "8397ff209f0a3e412ba189f7547ee91314a7afe5565ff874d4fcf62f23390005",
+    "url": "https://github.com/nextcloud-releases/announcementcenter/releases/download/v6.7.0/announcementcenter-v6.7.0.tar.gz",
+    "version": "6.7.0",
     "description": "Announce your maintenance window 🎛️, introduce a new colleague 👤 or make sure everyone knows about the big event next month 📅\n\n🖌️ Markdown support\n\n📑 Comments including @-mentions\n\n👪 Group permissions\n\n⭕ Dashboard integration\n\n⚡ Activities integration\n\n🔔 Notifications integration",
     "homepage": "https://github.com/nextcloud/announcementcenter",
     "licenses": [
@@ -430,9 +430,9 @@
     ]
   },
   "duplicatefinder": {
-    "sha256": "adebd4828a3d64bc29822c09e2708810bec80148399e536fdb08b17dc65c9c3f",
-    "url": "https://github.com/eldertek/duplicatefinder/releases/download/v1.1.0/duplicatefinder-v1.1.0.tar.gz",
-    "version": "1.1.0",
+    "sha256": "bbde40a56205c48b94f77b8648241aa268497376078b7cfeddefaa55d981dce8",
+    "url": "https://github.com/eldertek/duplicatefinder/releases/download/v1.1.1/duplicatefinder-v1.1.1.tar.gz",
+    "version": "1.1.1",
     "description": "Are you tired of sifting through piles of files and folders, only to discover multiple copies of the same content cluttering your storage space?",
     "homepage": "",
     "licenses": [
@@ -914,7 +914,7 @@
     "url": "https://github.com/nextcloud-releases/guests/releases/download/v2.5.0/guests-v2.5.0.tar.gz",
     "version": "2.5.0",
     "description": "👥 Allows for better collaboration with external users by allowing users to create guests account.\n\nGuests accounts can be created from the share menu by entering either the recipients email or name and choosing \"create guest account\", once the share is created the guest user will receive an email notification about the mail with a link to set their password.\n\nGuests users can only access files shared to them and cannot create any files outside of shares, additionally, the apps accessible to guest accounts are whitelisted.",
-    "homepage": "",
+    "homepage": "https://github.com/nextcloud/guests/",
     "licenses": [
       "agpl"
     ]
@@ -963,7 +963,7 @@
     "sha256": "035ac62492da5a188d7fd97461487a58e07e7ca44144372413cf7486ae4e0789",
     "url": "https://github.com/nextcloud-releases/impersonate/releases/download/v1.14.0/impersonate-v1.14.0.tar.gz",
     "version": "1.14.0",
-    "description": "By installing the impersonate app of your Nextcloud you enable administrators to impersonate other users on the Nextcloud server. This is especially useful for debugging issues reported by users.\n\nTo impersonate a user an administrator has to simply follow the following four steps:\n\n1. Login as administrator to Nextcloud.\n2. Open users administration interface.\n3. Select the impersonate button on the affected user.\n4. Confirm the impersonation.\n\nThe administrator is then logged-in as the user, to switch back to the regular user account they simply have to press the logout button.\n\n**Note:**\n\n- This app is not compatible with instances that have encryption enabled.\n- While impersonate actions are logged note that actions performed impersonated will be logged as the impersonated user.\n- Impersonating a user is only possible after their first login.",
+    "description": "By installing the impersonate app of your Nextcloud you enable administrators to impersonate other users on the Nextcloud server. This is especially useful for debugging issues reported by users.\n\nTo impersonate a user an administrator has to simply follow the following four steps:\n\n1. Login as administrator to Nextcloud.\n2. Open users administration interface.\n3. Select the impersonate button on the affected user.\n4. Confirm the impersonation.\n\nThe administrator is then logged-in as the user, to switch back to the regular user account they simply have to press the logout button.\n\n**Note:**\n\n- This app is not compatible with instances that have encryption enabled.\n- While impersonate actions are logged note that actions performed impersonated will be logged as the impersonated user.\n- Impersonating a user is only possible after their first login.\n- You can limit which users/groups can use impersonation in Administration settings > Additional settings.",
     "homepage": "https://github.com/nextcloud/impersonate",
     "licenses": [
       "agpl"
@@ -1170,9 +1170,9 @@
     ]
   },
   "integration_openai": {
-    "sha256": "1202e6b8952c0ed672f119e9e795b6e926d616d71a4d16e3d8941f94b4d0db02",
-    "url": "https://github.com/nextcloud-releases/integration_openai/releases/download/v1.1.0/integration_openai-v1.1.0.tar.gz",
-    "version": "1.1.0",
+    "sha256": "0b3179a02549b30e825679f00ef0d2f520da470e560583bc2493c29f8eb84d3e",
+    "url": "https://github.com/nextcloud-releases/integration_openai/releases/download/v1.1.1/integration_openai-v1.1.1.tar.gz",
+    "version": "1.1.1",
     "description": "This app includes 3 custom smart pickers for Nextcloud:\n* ChatGPT-like answers\n* Image generation (with DALL·E 2 or LocalAI)\n* Whisper dictation\n\nIt also implements\n\n* A Translation provider (using any available language model)\n* A SpeechToText provider (using Whisper)\n\nInstead of connecting to the OpenAI API for these, you can also connect to a self-hosted [LocalAI](https://localai.io) instance.\n\n## Ethical AI Rating\n### Rating for Text generation using ChatGPT via OpenAI API: 🔴\n\nNegative:\n* the software for training and inference of this model is proprietary, limiting running it locally or training by yourself\n* the trained model is not freely available, so the model can not be run on-premises\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model's performance and CO2 usage.\n\n\n### Rating for Translation using ChatGPT via OpenAI API: 🔴\n\nNegative:\n* the software for training and inference of this model is proprietary, limiting running it locally or training by yourself\n* the trained model is not freely available, so the model can not be run on-premises\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model's performance and CO2 usage.\n\n### Rating for Image generation using DALL·E via OpenAI API: 🔴\n\nNegative:\n* the software for training and inferencing of this model is proprietary, limiting running it locally or training by yourself\n* the trained model is not freely available, so the model can not be ran on-premises\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\n\n### Rating for Speech-To-Text using Whisper via OpenAI API: 🟡\n\nPositive:\n* the software for training and inferencing of this model is open source\n* The trained model is freely available, and thus can run on-premise\n\nNegative:\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\n### Rating for Text generation via LocalAI: 🟢\n\nPositive:\n* the software for training and inferencing of this model is open source\n* the trained model is freely available, and thus can be ran on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n\n### Rating for Image generation using Stable Diffusion via LocalAI : 🟡\n\nPositive:\n* the software for training and inferencing of this model is open source\n* the trained model is freely available, and thus can be ran on-premises\n\nNegative:\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\n\n### Rating for Speech-To-Text using Whisper via LocalAI: 🟡\n\nPositive:\n* the software for training and inferencing of this model is open source\n* the trained model is freely available, and thus can be ran on-premises \n\nNegative:\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/integration_openai",
     "licenses": [
@@ -1380,10 +1380,10 @@
     ]
   },
   "llm": {
-    "sha256": "2639f0aa2603dbe8bd56029f8bf1f5241b866091352b8c6a78b15dfeab2ba818",
-    "url": "https://github.com/nextcloud/llm/releases/download/v1.1.0/llm.tar.gz",
-    "version": "1.1.0",
-    "description": "A TextProcessing provider Large Language Model that runs locally on CPU\n\nThe models run completely on your machine. No private data leaves your servers.\n\nAfter installing this app you will need to run\n\n    occ llm:download-model\n\nModels:\n\n* Llama 2 by Meta\n  * Languages: English\n  * [LLAMA 2 Community License](https://download.nextcloud.com/server/apps/llm/llama-2-7b-chat-ggml/LICENSE)\n* GPT4All Falcon by Nomic AI\n  * Languages: English\n  * [Apache License 2.0](https://download.nextcloud.com/server/apps/llm/LICENSE)\nRequirements:\n\n* x86 CPU\n* GNU lib C (musl is not supported)\n* Python 3.10+  (including python-venv)\n\n#### Nextcloud All-in-One:\nWith Nextcloud AIO, this app is not going to work because AIO uses musl. However you can use [this community container](https://github.com/nextcloud/all-in-one/tree/main/community-containers/local-ai) as replacement for this app.\n\n## Ethical AI Rating \"Llama 2\" model\n### Rating: 🟡\n\nPositive:\n* the software for training and inference of this model is open source\n* the trained model is freely available, and thus can be run on-premises\n\nNegative:\n\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\n## Ethical AI Rating for \"GPT4All Falcon\" model\n### Rating: 🟢\n\nPositive:\n* the software for training and inference of this model is open source\n* the trained model is freely available, and thus can be run on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
+    "sha256": "ce374344f4e37a96b0caade42c1a58b43c808bbf35fa28d31b69b83fcc6166e1",
+    "url": "https://github.com/nextcloud/llm/releases/download/v1.2.0/llm.tar.gz",
+    "version": "1.2.0",
+    "description": "A TextProcessing provider Large Language Model that runs locally on CPU\n\nThe models run completely on your machine. No private data leaves your servers.\n\nAfter installing this app you will need to run\n\n    occ llm:download-model\n\nModels:\n\n* Llama 2 by Meta\n  * Languages: English\n  * [LLAMA 2 Community License](https://download.nextcloud.com/server/apps/llm/llama-2-7b-chat-ggml/LICENSE)\n* GPT4All Falcon by Nomic AI\n  * Languages: English\n  * [Apache License 2.0](https://download.nextcloud.com/server/apps/llm/LICENSE)\n* Leo HessianAI by LAION LeoLM\n  * Languages: English/German\n  * [LLAMA 2 Community License](https://download.nextcloud.com/server/apps/llm/leo-hessianai-13B-chat-bilingual-GGUF/LICENSE)\nRequirements:\n\n* x86 CPU\n* GNU lib C (musl is not supported)\n* Python 3.10+  (including python-venv)\n\n#### Nextcloud All-in-One:\nWith Nextcloud AIO, this app is not going to work because AIO uses musl. However you can use [this community container](https://github.com/nextcloud/all-in-one/tree/main/community-containers/local-ai) as replacement for this app.\n\n## Ethical AI Rating \"Llama 2\" model\n### Rating: 🟡\n\nPositive:\n* the software for training and inference of this model is open source\n* the trained model is freely available, and thus can be run on-premises\n\nNegative:\n\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\n## Ethical AI Rating for \"GPT4All Falcon\" model\n### Rating: 🟢\n\nPositive:\n* the software for training and inference of this model is open source\n* the trained model is freely available, and thus can be run on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -1910,9 +1910,9 @@
     ]
   },
   "rides": {
-    "sha256": "44b96153b8c1b8a79edf514bf30950ee4a8e5b3594fe94b2f0120c76a7b06d05",
-    "url": "https://github.com/brenyodani/rides/releases/download/v0.0.2/rides.tar.gz",
-    "version": "0.0.2",
+    "sha256": "9f44b2485eb18e3035cdcaf54b2f3c556f58a688ba2bad9322bb4df1db4ac57b",
+    "url": "https://github.com/brenyodani/rides/releases/download/v0.0.5beta/rides.tar.gz",
+    "version": "0.0.5",
     "description": "Test",
     "homepage": "",
     "licenses": [
