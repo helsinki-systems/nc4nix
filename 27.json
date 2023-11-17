@@ -990,11 +990,11 @@
     ]
   },
   "integration_deepl": {
-    "sha256": "08320601e97bbd47e7ac1ea92152b22f7023b329ed82a3eb3490d89f71901c82",
-    "url": "https://github.com/juliushaertl/integration_deepl/releases/download/v1.1.0/integration_deepl.tar.gz",
-    "version": "1.1.0",
-    "description": "Deepl integration providing an translations through deepl.com with Nextcloud",
-    "homepage": "https://github.com/juliushaertl/integration_deepl",
+    "sha256": "3a00868bf1dcb2266966a42fa661b2b7be2a59d1a12f1e9c40e84d171e8f48b5",
+    "url": "https://github.com/juliushaertl/integration_deepl/releases/download/v1.1.1/integration_deepl.tar.gz",
+    "version": "1.1.1",
+    "description": "Deepl integration providing an translations through deepl.com with Nextcloud\n\n## Ethical AI Rating\n### Rating: 🔴\n\nNegative:\n* the software for training and inferencing of this model is proprietary, limiting running it locally or training by yourself\n* the trained model is not freely available, so the model can not be ran on-premises\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
+    "homepage": "https://github.com/nextcloud/integration_deepl",
     "licenses": [
       "agpl"
     ]
@@ -1110,9 +1110,9 @@
     ]
   },
   "integration_libretranslate": {
-    "sha256": "ad21be4aee45b59000a9e3b23b95e1da425c051b96efb03e1430d52308f8bc62",
-    "url": "https://github.com/v1r0x/integration_libretranslate/releases/download/release-v1.1.0/integration_libretranslate.tar.gz",
-    "version": "1.1.0",
+    "sha256": "fee42ecbff3363776c2ef0f1e96d7b681185dcec76e9adbe1ed21c650afe4b76",
+    "url": "https://github.com/v1r0x/integration_libretranslate/releases/download/release-v1.1.1/integration_libretranslate.tar.gz",
+    "version": "1.1.1",
     "description": "LibreTranslate integration providing translations using your own server/api key\n\n        ## Configure\n\n        Configuration is done using your server's CLI. These following configuration values are available:\n\n        - `host`: **required** URL of (your) LibreTranslate instance (without trailing `/`)\n        - `port`: _optional_ Needed if you are **not** running LibreTranslate on the default http port (http 80 or https 443). E.g. if it is running on a custom port (or LT's default port 5000) (defaults to _`null`_)\n        - `apikey`: _optional_ Needed if the LT instance requires an api key (defaults to _`null`_)\n        - `from_lang`: _optional_ default language key you want to translate from (defaults to _en_)\n        - `to_lang`: _optional_ default language key of your destination language (defaults to _de_)\n\n        ### Example:\n        ```bash\n        occ config:app:set integration_libretranslate host --value=\"https://cloud.your-domain.tld\"\n        occ config:app:set integration_libretranslate port --value=\"5000\"\n        occ config:app:set integration_libretranslate apikey --value=\"<API_KEY>\"\n        occ config:app:set integration_libretranslate from_lang --value=\"en\"\n        occ config:app:set integration_libretranslate to_lang --value=\"de\"\n        ```",
     "homepage": "https://github.com/v1r0x/integration_libretranslate",
     "licenses": [
@@ -1280,11 +1280,11 @@
     ]
   },
   "integration_youtube": {
-    "sha256": "e69ecb44e7ca3af3a3e22f3488e787ecc085e7024e061c1f51f422c03393689d",
-    "url": "https://github.com/juliushaertl/integration_youtube/releases/download/v0.1.4/integration_youtube.tar.gz",
-    "version": "0.1.4",
+    "sha256": "2a29273d2467d66003ab154b3aad1bae76adb76356d388901bf33b7f6dd1998e",
+    "url": "https://github.com/juliushaertl/integration_youtube/releases/download/v0.1.5/integration_youtube.tar.gz",
+    "version": "0.1.5",
     "description": "Youtube integration providing an inline video player for link previews with Nextcloud 25",
-    "homepage": "https://github.com/juliushaertl/integration_youtube",
+    "homepage": "https://github.com/nextcloud/integration_youtube",
     "licenses": [
       "agpl"
     ]
