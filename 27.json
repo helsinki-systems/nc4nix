@@ -993,7 +993,7 @@
     "sha256": "3a00868bf1dcb2266966a42fa661b2b7be2a59d1a12f1e9c40e84d171e8f48b5",
     "url": "https://github.com/juliushaertl/integration_deepl/releases/download/v1.1.1/integration_deepl.tar.gz",
     "version": "1.1.1",
-    "description": "Deepl integration providing an translations through deepl.com with Nextcloud\n\n## Ethical AI Rating\n### Rating: 🔴\n\nNegative:\n* the software for training and inferencing of this model is proprietary, limiting running it locally or training by yourself\n* the trained model is not freely available, so the model can not be ran on-premises\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
+    "description": "Deepl integration providing an translations through deepl.com with Nextcloud\r\n\r\n## Ethical AI Rating\r\n### Rating: 🔴\r\n\r\nNegative:\r\n* the software for training and inferencing of this model is proprietary, limiting running it locally or training by yourself\r\n* the trained model is not freely available, so the model can not be ran on-premises\r\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\r\n\r\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/integration_deepl",
     "licenses": [
       "agpl"
@@ -1890,9 +1890,9 @@
     ]
   },
   "richdocuments": {
-    "sha256": "7c65b3c681cf479829e922f07df3cfd9514f20fce6c037c596d6a28bd159f8a1",
-    "url": "https://github.com/nextcloud-releases/richdocuments/releases/download/v8.2.2/richdocuments-v8.2.2.tar.gz",
-    "version": "8.2.2",
+    "sha256": "42bb1d0bb2d0432a433edabf7ffc591623d450192501bb4e4a71fa484ed84e8e",
+    "url": "https://github.com/nextcloud-releases/richdocuments/releases/download/v8.2.3/richdocuments-v8.2.3.tar.gz",
+    "version": "8.2.3",
     "description": "This application can connect to a Collabora Online (or other) server (WOPI-like Client). Nextcloud is the WOPI Host. Please read the documentation to learn more about that.\n\nYou can also edit your documents off-line with the Collabora Office app from the **[Android](https://play.google.com/store/apps/details?id=com.collabora.libreoffice)** and **[iOS](https://apps.apple.com/us/app/collabora-office/id1440482071)** store.",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -2090,9 +2090,9 @@
     ]
   },
   "snappymail": {
-    "sha256": "948abf99e6b02c3c900f311a8c0839fa1aba2420f06340802113315abe318122",
-    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.29.2-nextcloud.tar.gz",
-    "version": "2.29.2",
+    "sha256": "b5a333f82e813211b6c18cd192d7cd32ad3683b82e479e274f486ce7c153322f",
+    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.29.4-nextcloud.tar.gz",
+    "version": "2.29.4",
     "description": "**Simple, modern, lightweight & fast web-based email client.**\n\n- **Dark mode**\n- **Responsive design**\n- **Full Sieve filtering support**\n- **Almost all IMAP features** including advanced searching\n- **Integration with Nextcloud Unified Search**\n- **Integration with other Nextcloud apps** (Contacts, Files and Calendar)\n- **Multiple mail accounts and identities**\n- **Send & receive OpenPGP encrypted/signed emails** (With full HTML support, ECC keys, or plain text with Mailvelope)\n- **Many security features** (Sodium encrypted passwords, Sec-Fetch, TOTP 2FA, DKIM, prevent tracking, etc.)\n- **Kolab integrations**\n\nAfter enabling in Nextcloud, go to Nextcloud admin panel, \"Additional settings\" and you will see a \"SnappyMail webmail\" section.\nThere, click on the link to go to the SnappyMail admin panel.",
     "homepage": "https://snappymail.eu",
     "licenses": [
@@ -2268,10 +2268,10 @@
     ]
   },
   "thesearchpage": {
-    "sha256": "b4785cf0cf1f168e7d536e7e9f1c16bacf162b9baefc7fc782c706296caf3d17",
-    "url": "https://github.com/callmemagnus/nextcloud-searchpage/releases/download/v1.2.1/thesearchpage.tar.gz",
-    "version": "1.2.1",
-    "description": "🔎 A Search Page for your Nextcloud instance\n    \nIt works like the existing search widget, uses the same sources to query BUT \ndisplays the results in a more readable and browsable fashion.\n\nThe content of the results depends on the other applications installed on \nyour Nextcloud instance. Every Nextcloud application can become a search \nprovider and get its results displayed by this application.\n\nOut of the Nextcloud box, you usually get the following providers:\n\n- Apps -- searches for match for in installed application names\n- Files -- searches on path and filename\n- Tags\n- Comments\n- Settings\n\nBecause of its design, the results depend on the implementation of the providers\nin respective application.\n\nKnown issues with other applications: \n\n- users -- [by design(?), it always returns an empty array](https://github.com/nextcloud/server/issues/41274) (it is hidden/disabled in this application)\n- fulltextsearch -- does not seem to AND the query terms, OR is usually less relevant\n- news -- does not provide a direct link to a feed item.\n\nDon't hesitate to leave a comment here or a rating!",
+    "sha256": "8625e070cf9798f2b819e54cca275d671cd6829f9d01969527632028e04e9adc",
+    "url": "https://github.com/callmemagnus/nextcloud-searchpage/releases/download/v1.2.2/thesearchpage.tar.gz",
+    "version": "1.2.2",
+    "description": "🔎 A Search Page for your Nextcloud instance\n    \n- [Changelog](https://raw.githubusercontent.com/callmemagnus/nextcloud-searchpage/main/CHANGELOG.md)\n- [Help translate this application](https://app.transifex.com/nextcloud/nextcloud/thesearchpage/)\n\nIt works like the existing search widget, uses the same sources to query BUT \ndisplays the results in a more readable and browsable fashion.\n\nThe content of the results depends on the other applications installed on \nyour Nextcloud instance. Every Nextcloud application can become a search \nprovider and get its results displayed by this application.\n\nOut of the Nextcloud box, you usually get the following providers:\n\n- Apps -- searches for match for in installed application names\n- Files -- searches on path and filename\n- Tags\n- Comments\n- Settings\n\nBecause of its design, the results depend on the implementation of the providers\nin respective application.\n\nKnown issues with other applications: \n\n- users -- [by design(?), it always returns an empty array](https://github.com/nextcloud/server/issues/41274) (it is hidden/disabled in this application)\n- fulltextsearch -- does not seem to AND the query terms, OR is usually less relevant\n- news -- does not provide a direct link to a feed item.\n\n\nDon't hesitate to leave a comment here or a rating!",
     "homepage": "https://github.com/callmemagnus/nextcloud-searchpage",
     "licenses": [
       "agpl"
@@ -2301,7 +2301,7 @@
     "sha256": "2a12e6ae0c3987cc404082eae5d517d031d9fee9abf4fe7de589c46ea3c4f76a",
     "url": "https://github.com/nextcloud/translate/releases/download/v1.2.0/translate.tar.gz",
     "version": "1.2.0",
-    "description": "A Machine translation provider using Opus models by University of Helsinki running locally on CPU.\n\nThe models run completely on your machine. No private data leaves your servers.\n\nCurrently supported languages:\n\n* English\n* German\n* French\n* Spanish\n* Chinese\n\nModel size:\n\n * ~1GB per language pair\n * ~10GB in total\n\nAfter installing this app you will need to run\n\n    occ translate:download-models\n\nRequirements:\n\n* x86 CPU\n* GNU lib C (musl is not supported)\n\n## Ethical AI Rating\n### Rating: 🟢\n\nPositive:\n* the software for training and inferencing of this model is open source\n* the trained model is freely available, and thus can be ran on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
+    "description": "A Machine translation provider using Opus models by University of Helsinki running locally on CPU.\n\nThe models run completely on your machine. No private data leaves your servers.\n\nCurrently supported languages:\n\n* English\n* German\n* French\n* Spanish\n* Chinese\n\nModel size:\n\n * ~1GB per language pair\n * ~10GB in total\n\nAfter installing this app you will need to run\n\n    occ translate:download-models\n\nRequirements:\n\n* x86 CPU\n* GNU lib C (musl is not supported)\n\n#### Nextcloud All-in-One:\nWith Nextcloud AIO, this app is not going to work because AIO uses musl. However you can use [this community container](https://github.com/nextcloud/all-in-one/tree/main/community-containers/libretranslate) as replacement for this app.\n\n## Ethical AI Rating\n### Rating: 🟢\n\nPositive:\n* the software for training and inferencing of this model is open source\n* the trained model is freely available, and thus can be ran on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -2568,9 +2568,9 @@
     ]
   },
   "workflow_script": {
-    "sha256": "3bfff475ba3f73a40dac19c87aaa8b136d72da186e87e8f28c4d7abe8daec52b",
-    "url": "https://github.com/nextcloud-releases/workflow_script/releases/download/v1.12.0/workflow_script-v1.12.0.tar.gz",
-    "version": "1.12.0",
+    "sha256": "9bdf8057f796083152db4c8f8f2d746174de11e1f2d7dfa51aabf6dc406db314",
+    "url": "https://github.com/nextcloud-releases/workflow_script/releases/download/v1.12.1/workflow_script-v1.12.1.tar.gz",
+    "version": "1.12.1",
     "description": "Pass files on to external scripts depending on a defined set of rules.",
     "homepage": "https://github.com/nextcloud/workflow_script",
     "licenses": [
