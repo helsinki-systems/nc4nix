@@ -130,9 +130,9 @@
     ]
   },
   "cadviewer": {
-    "sha256": "54622a56e153e726d40a82604a7b242b34d7d1f7b7ee3056974cf3ad24fb82f3",
-    "url": "https://github.com/CADViewer/NextCloud/releases/download/cv_nextcloud_v9.18.8/cadviewer-v9.18.8.tar.gz",
-    "version": "9.18.8",
+    "sha256": "35bbf06ce2779345832efa6dcb02eb323807edc60163d093fb83ddd6a3d71f4e",
+    "url": "https://github.com/CADViewer/NextCloud/releases/download/cv_nextcloud_v9.19.4/cadviewer-v9.19.4.tar.gz",
+    "version": "9.19.4",
     "description": "# CADViewer\nCADViewer implements CAD viewing, markup and collaboration on the NextCloud platform for AutoCAD, MicroStation, PDF and advanced raster graphics. Following CADViewer features are available:\n- **AutoCAD**: Support for DWG, DXF and DWF files.\n- **MicroStation**: Support for DGN files.\n- **PDF**: Support for Vector Graphics PDF files. (Use **...** menu)\n- **TIFF**: Support for TIFF format. (Use **...** menu)\n- **PNG, JPG, GIF**: Bitmap support. (Use **...** menu)\n- **SVG**: SVG support. (Use **...** menu)\n- **Annotation**: Full redlining interface of drawings where each user has individually associated redlines.\n- **PDF Collaboration**: Redlines/Annotations on drawings are saved as PDF to the user's *CADViewer-Markup* folder, where the user can then share internally/externally.\n- **Download**: Direct download of SVG or PDF image with/without redlines/annotations.\n- **Printing**: Printing of drawings to printer driver or as PDF.\n- **Measurement**: Global scale matrix preserved in drawing for measurement and calibration methods.\n- **Zoom**: Advanced zoom and pan controls.\n- **Layers**: Retained layer structure for layer management.\n- **Search**: Integrated text search method.\n- **Compare**: Advanced compare of drawings.\n\n## 🌐Online Demo\n- To test the look and feel of [CADViewer](https://cadviewer.com), check out our [Online Demos](https://cadviewer.com/cadviewerdemo/).\n\n## 📦Installation\n1. Install the app from the Nextcloud app store or from CADViewer [GitHub repository](https://github.com/CADViewer/NextCloud/).\n2. Perform the [configuration steps](https://github.com/CADViewer/NextCloud/blob/main/README.md).\n3. **NOTE**: The configuration steps (possible permission settings for executable, log files, and folders, and .htaccess file modification) are needed for the back-end CAD conversion to work properly. Without check of settings, no drawings will display!\n4. Simply open your CAD drawings and start collaborate.. 😄 \n5. If you have any issues displaying drawings, see [troubleshooting](https://github.com/CADViewer/NextCloud/blob/main/README.md) , file an [issue report](https://github.com/CADViewer/NextCloud/issues) or [contact us](mailto:developer@tailormade.com).\n6. Software run with all features enabled, but with small canvas watermarks to discurage redistribution of converted drawings. To remove watermarks through a license key, corp or single user(s), [Contact Us!](https://cadviewer.com/contact/).\n\n## Guides\n1. [Administrator Interface Guide](https://cadviewer.com/cadviewerusermanual/referenceapplications/nextcloud/admin/).\n2. [User Interface Guide](https://cadviewer.com/cadviewerusermanual/referenceapplications/nextcloud/userinterface/).",
     "homepage": "https://www.cadviewer.com",
     "licenses": [
@@ -580,9 +580,9 @@
     ]
   },
   "files_antivirus": {
-    "sha256": "51d7d0d4d0206c0bbf13ed000df8256a3956efc39e2893561812ca8f06ea7f3d",
-    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.3.0/files_antivirus-v5.3.0.tar.gz",
-    "version": "5.3.0",
+    "sha256": "ded44d4d298d751b8e939c753b85805dc9156ec653bbbf9ed513a91bbd934e34",
+    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.4.0/files_antivirus-v5.4.0.tar.gz",
+    "version": "5.4.0",
     "description": "Antivirus for files is an antivirus app for Nextcloud.\n\n* 🕵️‍♂️ When the user uploads a file, it's checked\n* ☢️ Uploaded and infected files will be deleted and a notification will be shown and/or sent via email\n* 🔎 Background Job to scan all files\n* ❓ Use ClamAV (open source), Kaspersky Scan Engine or an ICAP compatible scanner\n\nThis application inspects files that are uploaded to Nextcloud for viruses before they are written to the Nextcloud storage. If a file is identified as a virus, it is either logged or not uploaded to the server. The application relies on the underlying ClamAV virus scanning engine, which the admin points Nextcloud to when configuring the application. Alternatively, a Kaspersky Scan Engine can be configured, which has to run on a separate server.\nFor this app to be effective, the ClamAV virus definitions should be kept up to date. Also note that enabling this app will impact system performance as additional processing is required for every upload. More information is available in the Antivirus documentation.",
     "homepage": "",
     "licenses": [
@@ -680,9 +680,9 @@
     ]
   },
   "files_inotify": {
-    "sha256": "783de8c7e103f3797306d28dae88c97cc411423e11be37dcf87d6e2c5131326b",
-    "url": "https://github.com/icewind1991/files_inotify/releases/download/v0.1.15/files_inotify-v0.1.15.tar.gz",
-    "version": "0.1.15",
+    "sha256": "63597a1ca8701291d85bea2ce08848fd8eb314a6fceeef34aecd25c88f20c6f1",
+    "url": "https://github.com/icewind1991/files_inotify/releases/download/v0.1.16/files_inotify-v0.1.16.tar.gz",
+    "version": "0.1.16",
     "description": "Adds support detecting changes in local external storages with\nocc files_external:notify.\n\nNote that there are scalability limitations to using `inotify` on large folder structures, see the [README](https://github.com/icewind1991/files_inotify/blob/master/README.md) for more information",
     "homepage": "https://github.com/icewind1991/files_inotify",
     "licenses": [
@@ -1926,9 +1926,9 @@
     ]
   },
   "riotchat": {
-    "sha256": "a51ce26f7b78ef144c56cf6d5482057b66f2410a2ec2f9fa22e58d3c2b45ff74",
-    "url": "https://github.com/gary-kim/riotchat/releases/download/v0.16.3/riotchat.tar.gz",
-    "version": "0.16.3",
+    "sha256": "4de864e7c638771a0114ade8ccf9292670aeaffc82372e82400404285c049b9e",
+    "url": "https://github.com/gary-kim/riotchat/releases/download/v0.16.4/riotchat.tar.gz",
+    "version": "0.16.4",
     "description": "Element for Nextcloud allows you to install Element Web easily through Nextcloud and join the Matrix decentralized communication network.\n\nThis app does not include a Matrix server, only the client. You will have to either set up your own Matrix homeserver, rent one, or use a public one.\n\nThis project is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Element or the Element project, or any of its subsidiaries or its affiliates.\n\nThe name Element as well as related names, marks, emblems and images are registered trademarks of their respective owners.\n\nThe upstream project can be found at [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web).",
     "homepage": "https://github.com/gary-kim/riotchat",
     "licenses": [
@@ -2234,9 +2234,9 @@
     ]
   },
   "souvenirs": {
-    "sha256": "e40a5c277ec4fd65a9528635db8a37a82977ade5408302164018d6bba456184c",
-    "url": "https://github.com/zorgluf/souvenirs-nextcloud/releases/download/v1.9.2/souvenirs.tar.gz",
-    "version": "1.9.2",
+    "sha256": "6bb055cdd22246d96917057110c9780d1c52de45c802fa2a52ee59091194da60",
+    "url": "https://github.com/zorgluf/souvenirs-nextcloud/releases/download/v1.9.3/souvenirs.tar.gz",
+    "version": "1.9.3",
     "description": "View and share albums made by the [Souvenirs android application](https://github.com/zorgluf/souvenirs-android).\n    \\nThis application is just a viewer. No album creation or edition features are available for the moment. You will need to create albums using the android app and sync them to your nextcloud server.",
     "homepage": "https://github.com/zorgluf/souvenirs-nextcloud",
     "licenses": [
