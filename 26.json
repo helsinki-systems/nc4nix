@@ -60,10 +60,10 @@
     ]
   },
   "approval": {
-    "sha256": "5273e3f341a88ab5fb6b3203db6b70ca56bbd44bceff0335f6a8300ee81cc172",
-    "url": "https://github.com/nextcloud-releases/approval/releases/download/v1.1.0/approval-v1.1.0.tar.gz",
-    "version": "1.1.0",
-    "description": "Approve/reject files based on workflows defined by admins.",
+    "sha256": "b38cd793f3b4fa2c4f590b9c172055c9367f5bbeb5d564299b2fd339f752cb38",
+    "url": "https://github.com/nextcloud-releases/approval/releases/download/v1.1.1/approval-v1.1.1.tar.gz",
+    "version": "1.1.1",
+    "description": "Approve/reject files based on workflows defined by admins.\n\n:warning: **This app will be deprecated from Nextcloud 28 onwards.\nIf you are a Nextcloud customer and you rely on this app,\nplease wait with updating to 28 and open a support ticket so we can find a solution for your use-case.**",
     "homepage": "https://github.com/nextcloud/approval",
     "licenses": [
       "agpl"
@@ -280,11 +280,11 @@
     ]
   },
   "cookbook": {
-    "sha256": "1fb2957884819eed3fe10df58a18625ef46d917cf8c8b18e02c023e444607823",
-    "url": "https://github.com/nextcloud/cookbook/releases/download/v0.10.2/Cookbook-0.10.2.tar.gz",
-    "version": "0.10.2",
+    "sha256": "c4f7f2277cf00f6e3f6597c5c9d3f11806554930ea6209e5e942a904897d74f5",
+    "url": "https://github.com/christianlupus-nextcloud/cookbook-releases/releases/download/v0.10.3/cookbook-0.10.3.tar.gz",
+    "version": "0.10.3",
     "description": "A library for all your recipes. It uses JSON files following the schema.org recipe format. To add a recipe to the collection, you can paste in the URL of the recipe, and the provided web page will be parsed and downloaded to whichever folder you specify in the app settings.",
-    "homepage": "",
+    "homepage": "https://github.com/nextcloud/cookbook/",
     "licenses": [
       "agpl"
     ]
@@ -300,8 +300,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -1960,20 +1960,20 @@
     ]
   },
   "richdocumentscode": {
-    "sha256": "22ace186806bf7ffa97a0978292dbe355d311a69a1d671efc5133b30ce098a71",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.503/richdocumentscode.tar.gz",
-    "version": "23.5.503",
-    "description": "This app has to be installed and used together with the **[Collabora Online](https://apps.nextcloud.com/apps/richdocuments)** app.\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\nThis app provides a built-in server with all of the document editing features of Collabora Online. Easy to install, for personal use or for small teams. A bit slower than a standalone server and without the advanced scalability features.\n\nThe download is rather big so it is possible you experience a time-out when using the web interface. You can use the OCC command line tool to install the built-in server:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)",
+    "sha256": "ca08955297e487015793f941c15b1db447303940248cdd9ed1f19e7d5199cb7c",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.601/richdocumentscode.tar.gz",
+    "version": "23.5.601",
+    "description": "This app has to be installed and used together with the **[Nextcloud Office](https://apps.nextcloud.com/apps/richdocuments)** integration app.\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\nThis app provides a built-in server with all of the document editing features of Collabora Online. Easy to install, for personal use or for small teams. A bit slower than a standalone server and without the advanced scalability features.\n\nThe download is rather big so it is possible you experience a time-out when using the web interface. You can use the OCC command line tool to install the built-in server:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
       "apache"
     ]
   },
   "richdocumentscode_arm64": {
-    "sha256": "f184dd4edab2d9f7227eb3d41864bd2d5c1ff56113930c22f8c1d76d1c4a3d92",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.503/richdocumentscode_arm64.tar.gz",
-    "version": "23.5.503",
-    "description": "This app has to be installed and used together with the **[Collabora Online](https://apps.nextcloud.com/apps/richdocuments)** app.\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\nThis app provides a built-in server with all of the document editing features of Collabora Online. Easy to install, for personal use or for small teams. A bit slower than a standalone server and without the advanced scalability features.\n\nThe download is rather big so it is possible you experience a time-out when using the web interface. You can use the OCC command line tool to install the built-in server:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode_arm64\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)",
+    "sha256": "2ba084b74ced561ac70748a27555dfcde5a5af6f8c2453f9bfe981d87dfcc617",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.601/richdocumentscode_arm64.tar.gz",
+    "version": "23.5.601",
+    "description": "This app has to be installed and used together with the **[Nextcloud Office](https://apps.nextcloud.com/apps/richdocuments)** integration app.\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\nThis app provides a built-in server with all of the document editing features of Collabora Online. Easy to install, for personal use or for small teams. A bit slower than a standalone server and without the advanced scalability features.\n\nThe download is rather big so it is possible you experience a time-out when using the web interface. You can use the OCC command line tool to install the built-in server:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode_arm64\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
       "apache"
@@ -2130,8 +2130,8 @@
     ]
   },
   "skyprint": {
-    "sha256": "736899dc2842a6291dedd31340dc15cf344d003a3ff6f1d04ae6b661bae08a76",
-    "url": "https://github.com/CGessinger/nextcloud-skyprint/releases/download/v0.1.4/skyprint.tar.gz",
+    "sha256": "9f9e5206d6f2ba81a6ec45b80df93cfe1593df2bf6f707c7cf9946e41130d133",
+    "url": "https://github.com/CGessinger/nextcloud-skyprint/releases/download/v0.1.5/skyprint.tar.gz",
     "version": "0.1.4",
     "description": "A straightforward app enabling users to easily print documents directly from your cloud storage. With Sky Print, you can adjust a variety of print settings, such as paper size, orientation and quality.",
     "homepage": "https://github.com/CGessinger/nextcloud-skyprint",
@@ -2160,9 +2160,9 @@
     ]
   },
   "snappymail": {
-    "sha256": "b5a333f82e813211b6c18cd192d7cd32ad3683b82e479e274f486ce7c153322f",
-    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.29.4-nextcloud.tar.gz",
-    "version": "2.29.4",
+    "sha256": "6d7711cdd08b4d434989028f6ffc481d3951dd9529ef5d7cdc3e63d04dbc5363",
+    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.30.0-nextcloud.tar.gz",
+    "version": "2.30.0",
     "description": "**Simple, modern, lightweight & fast web-based email client.**\n\n- **Dark mode**\n- **Responsive design**\n- **Full Sieve filtering support**\n- **Almost all IMAP features** including advanced searching\n- **Integration with Nextcloud Unified Search**\n- **Integration with other Nextcloud apps** (Contacts, Files and Calendar)\n- **Multiple mail accounts and identities**\n- **Send & receive OpenPGP encrypted/signed emails** (With full HTML support, ECC keys, or plain text with Mailvelope)\n- **Many security features** (Sodium encrypted passwords, Sec-Fetch, TOTP 2FA, DKIM, prevent tracking, etc.)\n- **Kolab integrations**\n\nAfter enabling in Nextcloud, go to Nextcloud admin panel, \"Additional settings\" and you will see a \"SnappyMail webmail\" section.\nThere, click on the link to go to the SnappyMail admin panel.",
     "homepage": "https://snappymail.eu",
     "licenses": [
