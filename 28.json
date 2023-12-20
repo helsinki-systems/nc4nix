@@ -189,6 +189,16 @@
       "agpl"
     ]
   },
+  "context_chat": {
+    "sha256": "0c24265c50f7ff72211a8162d59a326cdfd1c0347af5132fa74eb76e1e74700c",
+    "url": "https://github.com/nextcloud-releases/context_chat/releases/download/v1.0.0/context_chat.tar.gz",
+    "version": "1.0.0",
+    "description": "Ask questions to nextcloud Assistant about the content of your documents.",
+    "homepage": "https://github.com/nextcloud/context_chat",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "cookbook": {
     "sha256": "f28221b48d4191bdf30bfce70cb61698b695aa48812cb32a6ea1005b91f2712e",
     "url": "https://github.com/christianlupus-nextcloud/cookbook-releases/releases/download/v0.11.0/cookbook-0.11.0.tar.gz",
@@ -219,6 +229,16 @@
       "mpl"
     ]
   },
+  "csp_editor": {
+    "sha256": "a9680f22e0258c228d9256ef12a563f147243d7090e77c8b4120cecb1167a89c",
+    "url": "https://packages.framasoft.org/projects/nextcloud-apps/csp-editor/csp_editor-1.4.0.tar.gz",
+    "version": "1.4.0",
+    "description": "# Description\n\nThis app allows to edit Nextcloud's default CSP policy.",
+    "homepage": "https://framagit.org/framasoft/nextcloud/csp_editor",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "deck": {
     "sha256": "b56da14e40620ae4f6e4c8d66f8a8816223530a3705082678ee32a8b0e8f46a0",
     "url": "https://github.com/nextcloud-releases/deck/releases/download/v1.12.0/deck-v1.12.0.tar.gz",
@@ -235,6 +255,16 @@
     "version": "1.3.0",
     "description": "A simple manager to manipulate Drone CI's FIFO queue.",
     "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "drop_account": {
+    "sha256": "f3136cbf78ff9d2d22b8433841fcf76c239bceaeda9a9c2318ae0d582bf6384e",
+    "url": "https://packages.framasoft.org/projects/nextcloud-apps/drop-account/drop_account-2.4.0.tar.gz",
+    "version": "2.4.0",
+    "description": "# Description\n\nThis app allows users to delete their accounts by removing all their data.\n\nIt can also send activities to the admins about deleted accounts.",
+    "homepage": "https://framagit.org/framasoft/nextcloud/drop_account",
     "licenses": [
       "agpl"
     ]
@@ -470,8 +500,8 @@
     ]
   },
   "geoblocker": {
-    "sha256": "8d66fa69f043eff8695868bdde5b3c29831e6fb509dc52561e96957cd9e5d86e",
-    "url": "https://github.com/HomeITAdmin/nextcloud_geoblocker/releases/download/0.5.12/geoblocker.tar.gz",
+    "sha256": "e2f9ed6b8d5ddd6a8dccf78c7d93e0ea9122d35b11f5b190401ffb72694d75f2",
+    "url": "https://github.com/HomeITAdmin/nextcloud_geoblocker/releases/download/0.5.13/geoblocker.tar.gz",
     "version": "0.5.12",
     "description": "This is a front end to geo localization services, that allows blocking (beta), delaying (beta) and logging of login attempts from specified countries.\nLogin attempts from local network IP addresses are never blocked, delayed or logged.\nIn the current implementation the login page is normally shown to everybody independent of the country. Also login attempts with a non existing user are failing as usual independent of the country.\nWrong Nextcloud configuration (especially in container) can lead to all access seems to come from local network IP address.\nDetermination of the country from IP address is only as good as the chosen service.\n\nCountries can be specified using allowlisting or blocklisting.\n\nCurrently available localization services are:\n- Geoiplookup (local programm on the host)\n- MaxMind GeoLite2 (local database accessed via PHP API)\n- Data from Regional Internet Registries (Nextcloud SQL database build up with data downloaded from the RIRs FTP servers)\n\nFor help how to set up the localization services please have a look at the GitHub repository (homepage on the right side).",
     "homepage": "https://github.com/HomeITAdmin/nextcloud_geoblocker/",
@@ -945,6 +975,26 @@
     "version": "0.3.0",
     "description": "**Tech companies help you amass data – we help you clean it by having fun while getting things done! 😊** You will see one random element of your data at a time and you decide whether to ✅keep or ❌sweep it.\n\nCurrently this works for Files, and we have [plans to integrate many more sources](http://keeporsweep.net) – come join and contribute! 😍",
     "homepage": "http://keeporsweep.net",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "ldap_contacts_backend": {
+    "sha256": "d071c83b69f1624dcdfba3c59d5757e8a7a49ea2482cbeadca69fae38e31f6c6",
+    "url": "https://github.com/nextcloud-releases/ldap_contacts_backend/releases/download/v1.8.0/ldap_contacts_backend-v1.8.0.tar.gz",
+    "version": "1.8.0",
+    "description": "Adds a virtual address book and lets import contacts to user&#39;s individual one.\n\n![Copy found LDAP contact to address book](https://raw.githubusercontent.com/nextcloud/ldap_contacts_backend/master/screenshots/contactsmenu-with-action.png)\n\nIn order to configure an LDAP backend, run\n\n``php\nphp occ ldap_contacts:add --interactive $ADDRESSBOOKNAME\n``\n\nWhere $ADDRESSBOOKNAME is a name you like to identify the virtual addressbook with. The interactive mode leads you through the configuration, but you can also use the `--help` flag to see all the options.\n\nGiven that the configuration is correct, you and your users will be able to search through the LDAP contacts via the global contacts menu. An import action allows to copy the contact over to the best fitting existing addressbook. A redirect takes you the contacts app with the newly created card open.",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "ldap_write_support": {
+    "sha256": "cc3acc53c30cd8a1e8cde604f3fff4129646ac80a2c099eb03b6e37e53e25077",
+    "url": "https://github.com/nextcloud-releases/ldap_write_support/releases/download/v1.10.0/ldap_write_support-v1.10.0.tar.gz",
+    "version": "1.10.0",
+    "description": "The write support for LDAP enriches the LDAP backend with capabilities to manage the directory from Nextcloud.\n* create, edit and delete users\n* create, modify memberships and delete groups\n* prevent fallback to the local database backend (optional)\n* auto generate a user id (optional)\n* and more behavioral switches",
+    "homepage": "",
     "licenses": [
       "agpl"
     ]
@@ -1560,9 +1610,9 @@
     ]
   },
   "transfer": {
-    "sha256": "5b3c937c38c2c510e2f1e194b0fa40bca70f0716863f8cc14859516420f5dbde",
-    "url": "https://github.com/danth/transfer/releases/download/v0.6.2/transfer.tar.gz",
-    "version": "0.6.2",
+    "sha256": "af5d284c3dd835b6a9574d6532986d6ee74c36137db0351b25eb83339359ec75",
+    "url": "https://github.com/danth/transfer/releases/download/v0.6.3/transfer.tar.gz",
+    "version": "0.6.3",
     "description": "\"Upload by link\" functionality for Nextcloud. Transfer files\n            using the full bandwidth available to your server. Avoid the need to\n            leave your own device online to finish an upload.",
     "homepage": "https://github.com/danth/transfer#readme",
     "licenses": [
