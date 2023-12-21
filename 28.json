@@ -220,8 +220,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -400,9 +400,9 @@
     ]
   },
   "files_lock": {
-    "sha256": "7710c875bf28b557ee6ad97330590ecb87f3f38843811357a95158c2a9ab2a4f",
-    "url": "https://github.com/nextcloud-releases/files_lock/releases/download/v28.0.0/files_lock-v28.0.0.tar.gz",
-    "version": "28.0.0",
+    "sha256": "7485c1ba678ead043d0d41d724a5f47de9a120a351d20dd3251cf85a24002754",
+    "url": "https://github.com/nextcloud-releases/files_lock/releases/download/v28.0.1/files_lock-v28.0.1.tar.gz",
+    "version": "28.0.1",
     "description": "Allow your users to temporary lock their files to avoid conflicts while working on shared files.",
     "homepage": "https://github.com/nextcloud/files_lock",
     "licenses": [
@@ -1260,9 +1260,9 @@
     ]
   },
   "richdocumentscode": {
-    "sha256": "cb1ec04304ec971fb3fb723a8a289c3b2f4936088eedf0bab8bee1fb24242d8d",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.602/richdocumentscode.tar.gz",
-    "version": "23.5.602",
+    "sha256": "dcf5b455e1eee0a714b728110538b52d105ad0c0968201af01ba4a71dceba180",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.604/richdocumentscode.tar.gz",
+    "version": "23.5.604",
     "description": "This app has to be installed and used together with the **[Nextcloud Office](https://apps.nextcloud.com/apps/richdocuments)** integration app.\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\nThis app provides a built-in server with all of the document editing features of Collabora Online. Easy to install, for personal use or for small teams. A bit slower than a standalone server and without the advanced scalability features.\n\nThe download is rather big so it is possible you experience a time-out when using the web interface. You can use the OCC command line tool to install the built-in server:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -1270,9 +1270,9 @@
     ]
   },
   "richdocumentscode_arm64": {
-    "sha256": "38ba9fa6977cf95ff4c6c2558d5f141f83a88871e2c9b9e7e0ad4e9e28077a18",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.602/richdocumentscode_arm64.tar.gz",
-    "version": "23.5.602",
+    "sha256": "adae7b20df6762b826cc9618831ebbccdb49c215892340407cd7278a17b3a048",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.604/richdocumentscode_arm64.tar.gz",
+    "version": "23.5.604",
     "description": "This app has to be installed and used together with the **[Nextcloud Office](https://apps.nextcloud.com/apps/richdocuments)** integration app.\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\nThis app provides a built-in server with all of the document editing features of Collabora Online. Easy to install, for personal use or for small teams. A bit slower than a standalone server and without the advanced scalability features.\n\nThe download is rather big so it is possible you experience a time-out when using the web interface. You can use the OCC command line tool to install the built-in server:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode_arm64\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -1280,9 +1280,9 @@
     ]
   },
   "rides": {
-    "sha256": "b3ada3588e8c08719d9b2290e337db5b40e55070781e7054285a4291d492cc93",
-    "url": "https://github.com/brenyodani/rides/releases/download/V0.1.7/rides.tar.gz",
-    "version": "0.1.7",
+    "sha256": "18dc75b1b9e8e987afb08f3fa45f0d74baeb5b28ced7f786df12484c9ce9fab2",
+    "url": "https://github.com/brenyodani/rides/releases/download/V0.1.8/rides.tar.gz",
+    "version": "0.1.8",
     "description": "Test",
     "homepage": "",
     "licenses": [
@@ -1359,6 +1359,16 @@
       "agpl"
     ]
   },
+  "sharemover": {
+    "sha256": "0a14e6b294939a1aab2055b902ca806f011663bc1e645fc1b9fd761ae9f24325",
+    "url": "https://gitlab.com/api/v4/projects/44516534/packages/generic/sharemover/1.3.1/sharemover-1.3.1.tar.gz",
+    "version": "1.3.1",
+    "description": "If you receive a share, the file/folder will normally be placed in the standard directory for shared files. This App automatically moves shared files/folders, which have/contain a specific mime type, to another custom directory of your choice. After installing the app, you can adjust system wide settings as the admin or personal settings as a user in the Sharing section of Nextcloud Settings.",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "side_menu": {
     "sha256": "a545636230dc590930bbceb97627fc856b3c106e54c60012cc3350681bc48f66",
     "url": "https://gitnet.fr/deblan/side_menu/releases/download/v3.11.2/side_menu_v3.11.2.tar.gz",
@@ -1430,9 +1440,9 @@
     ]
   },
   "sociallogin": {
-    "sha256": "f5289e2b53bdc18158c46afa78c7fbf33d295a96ca987ad9c46f52111de07b4f",
-    "url": "https://github.com/zorn-v/nextcloud-social-login/releases/download/v5.6.0/release.tar.gz",
-    "version": "5.6.0",
+    "sha256": "3c1b4d62a7b88c06cc8ca90d38bb6b550d40d61a30b8b1463e4ba27a5a125b6a",
+    "url": "https://github.com/zorn-v/nextcloud-social-login/releases/download/v5.6.1/release.tar.gz",
+    "version": "5.6.1",
     "description": "# Social login\n\nMake possible create users and login via Telegram, OAuth or OpenID\n\nFor OAuth you must create app for certain providers. Login button appear at login page if app id specified. Settings are in \"Social login\" section of settings page.\n\n## Installation\n\nLogin to your NextCloud installation as an administrator and under \"Apps\" click \"Download and enable\" next to the \"Social Login\" app.\n\nSee below for setup and configuration instructions.\n\n\n\n## Custom OAuth2/OIDC groups\n\nYou can use groups from your custom provider. For that you should specify \"Groups claim\" in custom OAuth2/OIDC provider settings. That claim should be returned from provider in `id_token` or at user info endpoint. Format should be `array` or comma separated string. Eg (with claim named `roles`)\n\n```json\n{\"roles\": [\"admin\", \"user\"]}\n```\nor\n```json\n{\"roles\": \"admin,user\"}\n```\n\nAlso nested claims is supported. For example `resource_access.client-id.roles` for\n\n```json\n\"resource_access\": {\n   \"client-id\": {\n     \"roles\": [\n       \"client-role-1\",\n       \"client-role-2\"\n     ]\n   }\n}\n```\n\nThere is also support for setting the displayName:\n```\n{\"roles\": [{gid: 1, displayName: \"admin\"}, {gid: 2, displayName: \"user\"}]}\n```\n\n\nYou can use provider groups in two ways:\n\n1. Map provider groups to existing nextcloud groups\n2. Create provider groups in nextcloud and associate it to user (if appropriate option specified)\n\nIf you want sync groups on every login do not forget to check \"Update user profile every login\" setting\n\n## Examples for groups\n\n* You can find example how to configure WSO2IS for return roles claim with OIDC [here](https://medium.com/@dewni.matheesha/claim-mapping-and-retrieving-end-user-information-in-wso2is-cffd5f3937ff)\n* [GitLab OIDC allowing specific GitLab groups](https://github.com/zorn-v/nextcloud-social-login/blob/master/docs/sso/gitlab.md)\n\n## Built-in OAuth providers\n\nYou can copy link of certain login button to get proper \"redirect url\" for OAuth app setting.\n\n* [Google](https://github.com/zorn-v/nextcloud-social-login/blob/master/docs/sso/google.md)\n* [Amazon](https://developer.amazon.com/loginwithamazon/console/site/lwa/overview.html)\n* [Facebook](https://github.com/zorn-v/nextcloud-social-login/blob/master/docs/sso/facebook.md)\n* [Twitter](https://github.com/zorn-v/nextcloud-social-login/blob/master/docs/sso/twitter.md)\n* [GitHub](https://github.com/settings/developers)\n* [Discord](#configure-discord)\n* [Telegram](https://github.com/zorn-v/nextcloud-social-login/blob/master/docs/sso/telegram.md)\n* PlexTv - you can use any title as app id\n\nDetails about \"Allow login only from specified domain\" google setting you can find here [#44](https://github.com/zorn-v/nextcloud-social-login/issues/44)\nYou can use comma separated list for multiple domains\n\n## Config\n\nYou can use `'social_login_auto_redirect' => true` setting in `config.php` for auto redirect unauthorized users to social login if only one provider is configured.\nIf you want to temporary disable this function (e.g. for login as local admin), you can add `noredir=1` query parameter in url for login page. Something like `https://cloud.domain.com/login?noredir=1`\n\nTo set options for http client, you can use\n```php\n  'social_login_http_client' => [\n    'timeout' => 45,\n    'proxy' => 'socks4://127.0.0.1:9050', // Check https://curl.se/libcurl/c/CURLOPT_PROXY.html for allowed variants\n  ],\n```\nin `config.php`\n\n### Configurate a provider via CLI\n\nYou can configure everything from commandline by using the occ utility. To setup a oidc-provider replace the variables and URLs with values that match your deployment.\n```bash\nphp occ config:app:set sociallogin custom_providers --value='{\"custom_oidc\": [{\"name\": \"gitlab_oidc\", \"title\": \"Gitlab\", \"authorizeUrl\": \"https://gitlab.my-domain.org/oauth/authorize\", \"tokenUrl\": \"https://gitlab.my-domain.org/oauth/token\", \"userInfoUrl\": \"https://gitlab.my-domain.org/oauth/userinfo\", \"logoutUrl\": \"\", \"clientId\": \"$my_application_id\", \"clientSecret\": \"$my_super_secret_secret\", \"scope\": \"openid\", \"groupsClaim\": \"groups\", \"style\": \"gitlab\", \"defaultGroup\": \"\"}]}'\n```\nto do this with docker you just need to add `docker exec -t -uwww-data CONTAINER_NAME` in front of the command, or run it interactively from `docker exec -it -uwww-data CONTAINER_NAME sh`\n\nTo find out how to configure other providers, just configure them in the GUI and take a look at the database afterwards:\n```\nmysql -u nextcloud -p nextcloud\nPassword: <yourpassword>\n\n> SELECT * FROM oc_appconfig WHERE appid='sociallogin';\n```\n\nOr just run\n\n`docker exec -t -uwww-data CONTAINER_NAME php occ config:app:get sociallogin custom_providers`\n\n### Configure Discord\n\nTo properly configure discord you have to:\n\n1. Create new discord application on [DiscordApp developers](https://discordapp.com/developers/applications/me#top)\n2. Open tab `Settings -> OAuth2 -> General`. In `Redirects` add new redirection link looking like this: `https://nextcloud.mydomain.com/apps/sociallogin/oauth/discord`.\n3. Copy `CLIENT ID` and generate and copy `CLIENT SECRET`\n4. Open in Nextcloud `Settings -> Social Login` and paste `CLIENT ID` into field `App id` and `CLIENT SECRET` into `Secret`.\n5. Select default group for users created this way.\n6. For group mapping check [#395](https://github.com/zorn-v/nextcloud-social-login/pull/395)\n\n## Hint\n\n### About Callback(Reply) Url\nYou can copy link from specific login button on login page and paste it on provider's website as callback url. To make proper button visible, just fill certain provider settings with random data and change it later.\n\nSome users may get strange reply(Callback) url error from provider even if you pasted the right url, that's because your nextcloud server may generate http urls when you are actually using https.\nPlease set 'overwriteprotocol' => 'https', in your config.php file.",
     "homepage": "https://github.com/zorn-v/nextcloud-social-login",
     "licenses": [
@@ -1560,9 +1570,9 @@
     ]
   },
   "text2image_stablediffusion": {
-    "sha256": "4c8476c59a35a363dfa1a90b2d7ead1cfe35ac7947d2930a55a727964e44dc22",
-    "url": "https://github.com/nextcloud/text2image_stablediffusion/releases/download/v1.0.1/text2image_stablediffusion.tar.gz",
-    "version": "1.0.1",
+    "sha256": "56937689801bdfe139404468957542e02fa3df35cc16558b4c8324b7136f128e",
+    "url": "https://github.com/nextcloud/text2image_stablediffusion/releases/download/v1.0.2/text2image_stablediffusion.tar.gz",
+    "version": "1.0.2",
     "description": "Image generation provider using Stable Diffusion by Stability AI\n\nThe models run completely on your machine. No private data leaves your servers.\n\nAfter installing this app you will need to run\n\n    occ text2image_stablediffusion:download-models\n\n## Ethical AI Rating\n### Rating: 🟢\n\nPositive:\n* the software for training and inference of this model is open source\n* the trained model is freely available, and thus can be ran on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "",
     "licenses": [
