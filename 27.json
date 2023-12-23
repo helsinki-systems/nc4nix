@@ -73,7 +73,7 @@
     "sha256": "b38cd793f3b4fa2c4f590b9c172055c9367f5bbeb5d564299b2fd339f752cb38",
     "url": "https://github.com/nextcloud-releases/approval/releases/download/v1.1.1/approval-v1.1.1.tar.gz",
     "version": "1.1.1",
-    "description": "Approve/reject files based on workflows defined by admins.\n\n:warning: **This app will be deprecated from Nextcloud 28 onwards.\nIf you are a Nextcloud customer and you rely on this app,\nplease wait with updating to 28 and open a support ticket so we can find a solution for your use-case.**",
+    "description": "Approve/reject files based on workflows defined by admins.",
     "homepage": "https://github.com/nextcloud/approval",
     "licenses": [
       "agpl"
@@ -320,8 +320,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -820,9 +820,9 @@
     ]
   },
   "geoblocker": {
-    "sha256": "e2f9ed6b8d5ddd6a8dccf78c7d93e0ea9122d35b11f5b190401ffb72694d75f2",
+    "sha256": "726caa9b018907e7d4cbcfe99ac2bf47b30bef315b9c7ce83ad8a6b0882b33c4",
     "url": "https://github.com/HomeITAdmin/nextcloud_geoblocker/releases/download/0.5.13/geoblocker.tar.gz",
-    "version": "0.5.12",
+    "version": "0.5.13",
     "description": "This is a front end to geo localization services, that allows blocking (beta), delaying (beta) and logging of login attempts from specified countries.\nLogin attempts from local network IP addresses are never blocked, delayed or logged.\nIn the current implementation the login page is normally shown to everybody independent of the country. Also login attempts with a non existing user are failing as usual independent of the country.\nWrong Nextcloud configuration (especially in container) can lead to all access seems to come from local network IP address.\nDetermination of the country from IP address is only as good as the chosen service.\n\nCountries can be specified using allowlisting or blocklisting.\n\nCurrently available localization services are:\n- Geoiplookup (local programm on the host)\n- MaxMind GeoLite2 (local database accessed via PHP API)\n- Data from Regional Internet Registries (Nextcloud SQL database build up with data downloaded from the RIRs FTP servers)\n\nFor help how to set up the localization services please have a look at the GitHub repository (homepage on the right side).",
     "homepage": "https://github.com/HomeITAdmin/nextcloud_geoblocker/",
     "licenses": [
@@ -1030,9 +1030,9 @@
     ]
   },
   "integration_ews": {
-    "sha256": "dea81ddee9e9daad271914c0cbc81dd829af8965bb3ee607eadba305a3ce3665",
-    "url": "https://github.com/ksainc/integration_ews/releases/download/v1.0.18/integration_ews-v1.0.18.tar.gz",
-    "version": "1.0.18",
+    "sha256": "9a4c9a40da92e7fb9d7497a842470cea58e54c10d575aa0daecd7c42bd968905",
+    "url": "https://github.com/ksainc/integration_ews/releases/download/v1.0.20/integration_ews-v1.0.20.tar.gz",
+    "version": "1.0.20",
     "description": "Exchange EWS Connector (Exchange Web Services) allows you to automatically sync your calendars and contacts from any EWS compatible service with Nextcloud.",
     "homepage": "https://github.com/ksainc/integration_ews",
     "licenses": [
@@ -1440,8 +1440,8 @@
     ]
   },
   "maps": {
-    "sha256": "1c114f7dc56085623fdfcd484e0690085178416a2600ae244761bcd8c34685a2",
-    "url": "https://github.com/nextcloud/maps/releases/download/v1.2.0-2-nightly/maps-1.2.0-2-nightly.tar.gz",
+    "sha256": "dd70a39b5aec3e92e73845681cf6ac283644273c1e63b01ba80497a229871958",
+    "url": "https://github.com/nextcloud/maps/releases/download/v1.2.0/maps-1.2.0.tar.gz",
     "version": "1.2.0",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
@@ -1649,11 +1649,21 @@
       "apache"
     ]
   },
+  "openhab": {
+    "sha256": "c96a27657dcb10dd6c94a610953ce15e005e4140ac69760fbfc2432416ea2de2",
+    "url": "https://github.com/kenda/nextcloud-openhab/releases/download/v0.13.0/openhab.tar.gz",
+    "version": "0.12.0",
+    "description": "This app renders the available sitemaps of an Openhab server instance. This allows you to display values from your smart home in Nextcloud.",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "openincryptpad": {
-    "sha256": "04a69115e0fc8386564b3ad9735bd5dd6eeec3571c64e306d8ca3c589575a5ae",
-    "url": "https://github.com/cryptpad/nextcloud-open-in-cryptpad/releases/download/v0.2.4/openincryptpad.tar.gz",
-    "version": "0.2.4",
-    "description": "# Open In CryptPad\n\n\"Open in CryptPad\" is a Nextcloud application that allows collaborative editing\nof files. For this it uses a CryptPad instance embedded into the Nextcloud web\ninterface. Currently, only drawio diagrams are supported.\n\n## Prerequisites on the CryptPad side\n\nTo embed CryptPad into Nextcloud, the \"Enable remote embedding\" admin setting\nneeds to be enabled. You can find this setting on the \"Administration\" web\ninterface in the \"General\" tab.\n\n## Install from Nextcloud app store\n\n1. Add drawio mimetype to Nextcloud. \"Open in CryptPad\" depends on Nextcloud\n   detecting drawio files correctly. For this you have to create the following\n   files: (**Note:** do this before uploading any drawio files! The mimetype of\n   old files will not be updated by these changes)\n    - `nextcloud/config/mimetypealiases.json`\n\n        ``` json\n        {\n            \"application/x-drawio\": \"image\"\n        }\n        ```\n\n    - `nextcloud/config/mimetypemapping.json`\n\n        ``` json\n        {\n            \"drawio\": [\"application/x-drawio\"]\n        }\n        ```\n2. Open the \"Apps\" page in your Nextcloud web interface and install \"Open in\n   CryptPad\". You can find it in the \"Integration\" category.\n3. Configure \"Open in CryptPad\" in the administration settings of Nextcloud.",
+    "sha256": "ee6b83f1fb66dfb2b14b1c2bfca2280bf34401e53665abcf46b4b5a755d3994a",
+    "url": "https://github.com/cryptpad/nextcloud-open-in-cryptpad/releases/download/v0.3.0/openincryptpad.tar.gz",
+    "version": "0.3.0",
+    "description": "# Open In CryptPad\n\n\"Open in CryptPad\" is a Nextcloud application that allows collaborative editing\nof files. For this it uses a CryptPad instance embedded into the Nextcloud web\ninterface. Currently, only drawio diagrams are supported.\n\n## Importing images from Nextcloud into diagrams\n\nWith this app, you can import images from Nextcloud into\ndiagrams. These images are not embedded, but linked to their\nsource in Nextcloud. **To achieve this, imported images are made\npublic via a secret link to the image.**\n\n## Rights management\n\nWhen using this app, the file permissions are completely handled by\nNextcloud. The right's management of CryptPad is not used for Nextcloud\nfiles edited in CryptPad.\n\t\n## Installation\n\n### Prerequisites on the CryptPad side\n\nTo embed CryptPad into Nextcloud, the \"Enable remote embedding\" admin setting\nneeds to be enabled. You can find this setting on the \"Administration\" web\ninterface in the \"General\" tab.\n\n### Install from Nextcloud app store\n\n1. Add drawio mimetype to Nextcloud. \"Open in CryptPad\" depends on Nextcloud\n   detecting drawio files correctly. For this you have to create the following\n   files: (**Note:** do this before uploading any drawio files! The mimetype of\n   old files will not be updated by these changes)\n    - `nextcloud/config/mimetypealiases.json`\n\n        ``` json\n        {\n            \"application/x-drawio\": \"image\"\n        }\n        ```\n\n    - `nextcloud/config/mimetypemapping.json`\n\n        ``` json\n        {\n            \"drawio\": [\"application/x-drawio\"]\n        }\n        ```\n2. Open the \"Apps\" page in your Nextcloud web interface and install \"Open in\n   CryptPad\". You can find it in the \"Integration\" category.\n3. Configure \"Open in CryptPad\" in the administration settings of Nextcloud.",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -1930,9 +1940,9 @@
     ]
   },
   "rides": {
-    "sha256": "18dc75b1b9e8e987afb08f3fa45f0d74baeb5b28ced7f786df12484c9ce9fab2",
-    "url": "https://github.com/brenyodani/rides/releases/download/V0.1.8/rides.tar.gz",
-    "version": "0.1.8",
+    "sha256": "acb2bdf65255f8e5294c6aa80553bfbaee1131cf6f7493eb45e3d51206f42f96",
+    "url": "https://github.com/brenyodani/rides/releases/download/V0.1.10/rides.tar.gz",
+    "version": "0.1.10",
     "description": "Test",
     "homepage": "",
     "licenses": [
@@ -2050,9 +2060,9 @@
     ]
   },
   "shifts": {
-    "sha256": "0c707be4f347f9f9bc7a4079c430ccad044f1e56963f83dddf01abbd349fc05d",
-    "url": "https://github.com/csoc-de/Shifts/releases/download/v1.9.3/shifts-1.9.3.tar.gz",
-    "version": "1.9.3",
+    "sha256": "efc3b19c29313a5593876c70f865609f38ec10ce03d98b19a6a8babd28f9cf0e",
+    "url": "https://github.com/csoc-de/Shifts/releases/download/v1.9.5/shifts-1.9.5.tar.gz",
+    "version": "1.9.5",
     "description": "* **Interactions with the Nextcloud Calender app!** Easy integration into the existing Calender of Nextcloud.\n* **Manage and organize your Shifts System!** Customize your Shifts Model with different Shifttypes\n* **Separation of Users by different Nextcloud user Groups!** Divide your Workforce with different Skill-Levels\n\nMore to come:\n* Further maturing of the app\n* Individualisation\n\n\nIf you experience any issues or have any suggestions for improvement, please feel free to use the issue tracker.",
     "homepage": "https://github.com/csoc-de/Shifts",
     "licenses": [
