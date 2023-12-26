@@ -249,6 +249,16 @@
       "agpl"
     ]
   },
+  "drawio": {
+    "sha256": "888ba07c532b20e09f16e865de83c271cbc56080142512b78319b1015d1f22fa",
+    "url": "https://github.com/jgraph/drawio-nextcloud/releases/download/v3.0.0/drawio-v3.0.0.tar.gz",
+    "version": "3.0.0",
+    "description": "Integrates draw.io diagrams editor with Nextcloud",
+    "homepage": "https://github.com/jgraph/drawio-nextcloud",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "droneci_fast_lane": {
     "sha256": "17c762d466028894e308516ec67bb66d4ac4522d39f86152f8832858235fdf42",
     "url": "https://github.com/nextcloud-releases/droneci_fast_lane/releases/download/v1.3.0/droneci_fast_lane-v1.3.0.tar.gz",
@@ -1160,9 +1170,9 @@
     ]
   },
   "openhab": {
-    "sha256": "bd0f47b14d318d68a0e71d209036d950ab8903e6e2cdbb3afb2c332527f19160",
-    "url": "https://github.com/kenda/nextcloud-openhab/releases/download/v0.13.2/openhab.tar.gz",
-    "version": "0.13.2",
+    "sha256": "1c9b44df697cee78b21c424dafa415c87460999658958e3f514fc2fc61a60308",
+    "url": "https://github.com/kenda/nextcloud-openhab/releases/download/v0.13.3/openhab.tar.gz",
+    "version": "0.13.3",
     "description": "This app renders the available sitemaps of an Openhab server instance. This allows you to display values from your smart home in Nextcloud.",
     "homepage": "",
     "licenses": [
@@ -1694,6 +1704,16 @@
     "url": "https://github.com/nextcloud/translate/releases/download/v2.0.0/translate.tar.gz",
     "version": "2.0.0",
     "description": "A Machine translation provider using Opus models by University of Helsinki running locally on CPU.\n\nThe models run completely on your machine. No private data leaves your servers.\n\nCurrently supported languages:\n\n* English\n* German\n* French\n* Spanish\n* Chinese\n\nModel size:\n\n * ~1GB per language pair\n * ~10GB in total\n\nAfter installing this app you will need to run\n\n    occ translate:download-models\n\nRequirements:\n\n* x86 CPU\n* GNU lib C (musl is not supported)\n\n#### Nextcloud All-in-One:\nWith Nextcloud AIO, this app is not going to work because AIO uses musl. However you can use [this community container](https://github.com/nextcloud/all-in-one/tree/main/community-containers/libretranslate) as replacement for this app.\n\n## Ethical AI Rating\n### Rating: 🟢\n\nPositive:\n* the software for training and inferencing of this model is open source\n* the trained model is freely available, and thus can be ran on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "tvshownamer": {
+    "sha256": "a37e6a5e7c00f67b63da68adbdac5f77284deed6dcf9b50aca7a5c4ef5bcc739",
+    "url": "https://github.com/j4ym0/nextcloud-tv-show-namer/releases/download/1.0.1/tvshownamer.tar.gz",
+    "version": "1.0.1",
+    "description": "TV show namer organises your TV shows, series and seasons into a standard format. It uses themoviedb.org and thetvdb.com to scrape TV information to organise your files.\n\nRename files from “some.show.s01e03.avi” To “Some Show - S01E01 - Episode Name.avi” easily",
     "homepage": "",
     "licenses": [
       "agpl"
