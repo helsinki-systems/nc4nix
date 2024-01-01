@@ -439,6 +439,16 @@
       "agpl"
     ]
   },
+  "files_photospheres": {
+    "sha256": "4c8284a5db07a1ff05e9a3c06e3bf42c26d0d24455d53b88330a0927b0f445e6",
+    "url": "https://github.com/nextcloud/files_photospheres/releases/download/v1.28.0/files_photospheres.tar.gz",
+    "version": "1.28.0",
+    "description": "Enables viewing of google photosphere images by\n        integrating the photo-sphere-viewer.js component\n        into your nextcloud instance.",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "files_scripts": {
     "sha256": "6eb03907a364bc4e3d914f5ae4634b92a4d6f863ed03fdba6909aa6ef6541c8a",
     "url": "https://github.com/Raudius/files_scripts/releases/download/v4.0.2/files_scripts-4.0.2.tar.gz",
@@ -1670,8 +1680,8 @@
     ]
   },
   "thesearchpage": {
-    "sha256": "8625e070cf9798f2b819e54cca275d671cd6829f9d01969527632028e04e9adc",
-    "url": "https://github.com/callmemagnus/nextcloud-searchpage/releases/download/v1.2.2/thesearchpage.tar.gz",
+    "sha256": "6efa6ff0cf03339271e7101eb7327b695fe6a9f1b06ebd2ce1b40b68b137e256",
+    "url": "https://github.com/callmemagnus/nextcloud-searchpage/releases/download/v1.2.3/thesearchpage.tar.gz",
     "version": "1.2.2",
     "description": "🔎 A Search Page for your Nextcloud instance\n    \n- [Changelog](https://raw.githubusercontent.com/callmemagnus/nextcloud-searchpage/main/CHANGELOG.md)\n- [Help translate this application](https://app.transifex.com/nextcloud/nextcloud/thesearchpage/)\n\nIt works like the existing search widget, uses the same sources to query BUT \ndisplays the results in a more readable and browsable fashion.\n\nThe content of the results depends on the other applications installed on \nyour Nextcloud instance. Every Nextcloud application can become a search \nprovider and get its results displayed by this application.\n\nOut of the Nextcloud box, you usually get the following providers:\n\n- Apps -- searches for match for in installed application names\n- Files -- searches on path and filename\n- Tags\n- Comments\n- Settings\n\nBecause of its design, the results depend on the implementation of the providers\nin respective application.\n\nKnown issues with other applications: \n\n- users -- [by design(?), it always returns an empty array](https://github.com/nextcloud/server/issues/41274) (it is hidden/disabled in this application)\n- fulltextsearch -- does not seem to AND the query terms, OR is usually less relevant\n- news -- does not provide a direct link to a feed item.\n\n\nDon't hesitate to leave a comment here or a rating!",
     "homepage": "https://github.com/callmemagnus/nextcloud-searchpage",
