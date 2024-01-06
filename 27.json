@@ -50,9 +50,9 @@
     ]
   },
   "app_api": {
-    "sha256": "f7db1a5833901862400fb1150cc75f15b88c441daca02f977d8bb4ecdbb82641",
-    "url": "https://github.com/cloud-py-api/app_api/releases/download/v1.4.5/app_api-v1.4.5.tar.gz",
-    "version": "1.4.5",
+    "sha256": "8513fbdb4c6b3d952d89ecf595b6416cc35be0e2df62b743b63da0dd7d284368",
+    "url": "https://github.com/cloud-py-api/app_api/releases/download/v1.4.6/app_api-v1.4.6.tar.gz",
+    "version": "1.4.6",
     "description": "### Boost your Nextcloud with AppAPI and its specially designed applications.\n\n\nThe AppAPI is a project within the Nextcloud ecosystem designed to streamline and enhance the process of\napplication development, deployment, and management.\n\nIt introduces a new methodology that allows developers to create\napplications using a variety of programming languages, not limited to PHP, which was traditionally used in Nextcloud development.\n\n\n### List of applications that require AppAPI:\n\n- [talk_bot_ai_example](https://github.com/cloud-py-api/talk_bot_ai_example)\n- [upscaler_example](https://github.com/cloud-py-api/upscaler_example)\n- [image_to_text_example](https://github.com/cloud-py-api/file_to_text_example)\n- [ai_image_generator_bot](https://github.com/cloud-py-api/ai_image_generator_bot)\n\n_If you wish to develop an application, we will gladly help and assist you._\n\n### Support\n\nWe appreciate any support for this project:\n\n- ⭐ Star our work on GitHub\n- ❗ Create an Issue or feature request\n- 💁 Resolve an Issue and create a Pull Request\n- 🧑‍💻 Develop your own application using AppAPI\n\nWe are genuinely excited about the future of the AppAPI project and its potential to transform\nthe way applications are developed and experienced within Nextcloud.\n\nAs we embark on this journey, we warmly invite you - developers, thinkers, creators, and visionaries -\nto join us in shaping a more versatile, stable, and secure app landscape.\n\n*Your insights, suggestions, and contributions are invaluable to us.*",
     "homepage": "https://github.com/cloud-py-api/app_api",
     "licenses": [
@@ -1640,9 +1640,9 @@
     ]
   },
   "oidc_login": {
-    "sha256": "85c2bdbdfcf3f3788c187a46be8cd2dd732d610d0d70bcb905544b1058b85249",
-    "url": "https://github.com/pulsejet/nextcloud-oidc-login/releases/download/v3.0.1/oidc_login.tar.gz",
-    "version": "3.0.1",
+    "sha256": "d4861c6e8915ad3b470688d9c06fd1ef0ed9ae632e88d36325cdf28457d83de8",
+    "url": "https://github.com/pulsejet/nextcloud-oidc-login/releases/download/v3.0.2/oidc_login.tar.gz",
+    "version": "3.0.2",
     "description": "# OpenID Connect Login\n\nProvides user creation and login via one single OpenID Connect provider. Even though this is a fork of [nextcloud-social-login](https://github.com/zorn-v/nextcloud-social-login), it fundamentally differs in two ways - aims for simplistic, single provider login (and hence is very minimalistic), and it supports having LDAP as the primary user backend. This way, you can use OpenID Connect to login to Nextcloud while maintaining an LDAP backend with attributes with the LDAP plugin.\n\n### Features\n\n- Automatic [Identity provider endpoints discovery](https://openid.net/specs/openid-connect-discovery-1_0.html)\n- User creation at first login\n- User profile update at login (name, email, avatar, groups etc.)\n- Group creation\n- Automatic redirection from the nextcloud login page to the Identity Provider login page\n- WebDAV endpoints `Bearer` and `Basic` authentication",
     "homepage": "https://github.com/pulsejet/nextcloud-single-openid-connect",
     "licenses": [
@@ -1730,9 +1730,9 @@
     ]
   },
   "passman": {
-    "sha256": "09e35a374722a158dc5ba20b07ffc122f9a341671bbdf2b79bc8d543c2c6b723",
-    "url": "https://releases.passman.cc/passman_2.4.7.tar.gz",
-    "version": "2.4.7",
+    "sha256": "52fdea14f2b1d2a3163cf36ba2556efee7c9e842847fcf12473a6fad60b13c8e",
+    "url": "https://releases.passman.cc/passman_2.4.8.tar.gz",
+    "version": "2.4.8",
     "description": "Passman is a full featured password manager.\nFeatures:\n- Vaults\n- Vault key is never sent to the server\n- Browser extension for easy access to passwords\n- Android app for on the road access\n- Credentials are client side encrypted with 256bit AES\n- Credentials are server side encrypted with 256bit AES\n- Ability to add custom fields to credentials\n- Built-in OTP (One Time Password) generator\n- Password analyzer\n- Share passwords internally and via link in a secure manner.\n- Import from various password managers (KeePass, LastPass, DashLane, ZOHO, Clipperz.is )\nFor an demo of this app visit [https://demo.passman.cc](https://demo.passman.cc)",
     "homepage": "https://demo.passman.cc",
     "licenses": [
@@ -2005,6 +2005,16 @@
     "version": "2.0.5",
     "description": "Sendent allows you to securely exchange files and emails. Sendent is linked to Microsoft Outlook, so you can continue to work from your trusted email program while you mail more easily and securely. Very useful, for example, to share privacy-sensitive documents or content or to send attachments that are normally too large to email. All files are uploaded to your personal Nextcloud environment from which you determine who has access to them.",
     "homepage": "https://www.sendent.nl",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "sensorlogger": {
+    "sha256": "9a97c3decf66ad4fc8a25783a2274c1d862033db7e3351c6b2589baace9326cf",
+    "url": "https://www.html5live.at/wp-content/uploads/2024/01/sensorlogger-0.1.4nc.tar.gz",
+    "version": "0.1.4",
+    "description": "SensorLogger for nextcloud enables users to log data provided by sensor devices\n\t\tsuch as temperatur, humidity, VOCs, pressure etc. SensorLogger for nextcloud can be used\n\t\tto log almost any raw or aggregated data. Other examples of usage: fan speed, disk usage,\n\t\tuptime, iops, water level, voltage, luminosity, rainfall and many many more.",
+    "homepage": "https://www.html5live.at/sensorlogger/",
     "licenses": [
       "agpl"
     ]
