@@ -39,6 +39,16 @@
       "agpl"
     ]
   },
+  "appointments": {
+    "sha256": "cea23f263a0836eee164f226fff7efee7215de1a1756246bcfe28372ff7d1b38",
+    "url": "https://github.com/SergeyMosin/Appointments/raw/v1.15.5/build/artifacts/appstore/appointments.tar.gz",
+    "version": "1.15.5",
+    "description": "Book appointments into your calendar via secure online form. Attendees can confirm or cancel their appointments via an email link.",
+    "homepage": "https://www.srgdev.com/lab/nextcloud-appointments/",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "approval": {
     "sha256": "f6e85452cf1305585012d37ac2cef9eae92791cb61e14fb94f079671eec9f6e1",
     "url": "https://github.com/nextcloud-releases/approval/releases/download/v1.2.0/approval-v1.2.0.tar.gz",
@@ -230,8 +240,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -1750,9 +1760,9 @@
     ]
   },
   "thesearchpage": {
-    "sha256": "6efa6ff0cf03339271e7101eb7327b695fe6a9f1b06ebd2ce1b40b68b137e256",
-    "url": "https://github.com/callmemagnus/nextcloud-searchpage/releases/download/v1.2.3/thesearchpage.tar.gz",
-    "version": "1.2.2",
+    "sha256": "13d6ba7f72b0edbcba77333dc3240afbae9ab6b2b2045bf7541c9e465ae69deb",
+    "url": "https://github.com/callmemagnus/nextcloud-searchpage/releases/download/v1.2.4/thesearchpage.tar.gz",
+    "version": "1.2.4",
     "description": "🔎 A Search Page for your Nextcloud instance\n    \n- [Changelog](https://raw.githubusercontent.com/callmemagnus/nextcloud-searchpage/main/CHANGELOG.md)\n- [Help translate this application](https://app.transifex.com/nextcloud/nextcloud/thesearchpage/)\n\nIt works like the existing search widget, uses the same sources to query BUT \ndisplays the results in a more readable and browsable fashion.\n\nThe content of the results depends on the other applications installed on \nyour Nextcloud instance. Every Nextcloud application can become a search \nprovider and get its results displayed by this application.\n\nOut of the Nextcloud box, you usually get the following providers:\n\n- Apps -- searches for match for in installed application names\n- Files -- searches on path and filename\n- Tags\n- Comments\n- Settings\n\nBecause of its design, the results depend on the implementation of the providers\nin respective application.\n\nKnown issues with other applications: \n\n- users -- [by design(?), it always returns an empty array](https://github.com/nextcloud/server/issues/41274) (it is hidden/disabled in this application)\n- fulltextsearch -- does not seem to AND the query terms, OR is usually less relevant\n- news -- does not provide a direct link to a feed item.\n\n\nDon't hesitate to leave a comment here or a rating!",
     "homepage": "https://github.com/callmemagnus/nextcloud-searchpage",
     "licenses": [
