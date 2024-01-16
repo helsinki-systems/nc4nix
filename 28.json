@@ -270,8 +270,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -599,6 +599,16 @@
       "agpl"
     ]
   },
+  "gestion": {
+    "sha256": "2292a4a9faf627c38922c3c977f106e7ede1c31708efa95d4fa7f5f8abb568f9",
+    "url": "https://github.com/baimard/gestion/releases/download/2.4.3/gestion.tar.gz",
+    "version": "2.4.3",
+    "description": "# Company management by Gestion\n\nThis application allows the management of invoicing in a very simple way for Micro-Entreprise.\n\nFunctionality:\n\n* Add customer\n* Generate a quote\n* Generate an invoice\n* Generate product lines to include in quotes\n* You can generate PDFs directly from the app and save them to your Nextcloud\n\nPresentation video in user documentation\n\nIf you need to adapt this application to your country laws, please open issue.\n\n[Love my work ? Buy me a coffee !](https://www.buymeacoffee.com/benjaminaimard)",
+    "homepage": "https://github.com/baimard/gestion",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "googledocsredirect": {
     "sha256": "124b0b159e25726f292cea297965fe5ea4037a4b351a7f7e4e2afdfbecac45dc",
     "url": "https://github.com/grubersjoe/nextcloud-google-docs-redirect/releases/download/v1.0.7/googledocsredirect-v1.0.7.tar.gz",
@@ -780,9 +790,9 @@
     ]
   },
   "integration_ews": {
-    "sha256": "6b2ff98c95799400b6e4a90f4e9169ab625e294e33846cca092f2fb49835d233",
-    "url": "https://github.com/ksainc/integration_ews/releases/download/v1.0.28/integration_ews-v1.0.28.tar.gz",
-    "version": "1.0.28",
+    "sha256": "e81402627ef686a9609c048c4e41d5d913b697489aa5c3f91c3048aa52acbf69",
+    "url": "https://github.com/ksainc/integration_ews/releases/download/v1.0.29/integration_ews-v1.0.29.tar.gz",
+    "version": "1.0.29",
     "description": "Exchange EWS Connector (Exchange Web Services) allows you to automatically sync your calendars and contacts from any EWS compatible service with Nextcloud.",
     "homepage": "https://github.com/ksainc/integration_ews",
     "licenses": [
@@ -1459,6 +1469,16 @@
       "agpl"
     ]
   },
+  "repod": {
+    "sha256": "61019324ad507e677fb8f49fc0e5de4866791ed7ecbc5d5875521de7d4c7b230",
+    "url": "https://git.crystalyx.net/Xefir/repod/releases/download/1.1.0/repod.tar.gz",
+    "version": "1.1.0",
+    "description": "# Features\n- 🔍 Browse and subscribe huge collection of podcasts\n- 🔊 Listen to episodes directly in Nextcloud\n- 🌐 Sync your activity with [AntennaPod](https://antennapod.org/)\n\n# Requirements\nYou need to have [GPodderSync](https://apps.nextcloud.com/apps/gpoddersync) installed to use this app!",
+    "homepage": "https://git.crystalyx.net/Xefir/RePod",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "richdocuments": {
     "sha256": "9d74d511d42ae38c80063f83b86c3f551602d1dc147346124e7ef3d117d0d4de",
     "url": "https://github.com/nextcloud-releases/richdocuments/releases/download/v8.3.1/richdocuments-v8.3.1.tar.gz",
@@ -1540,9 +1560,9 @@
     ]
   },
   "sentry": {
-    "sha256": "b621b967af57a43474df5d8df4ec37def60243f64a06aaf0d4859163795d39d3",
-    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.9.1/sentry-v8.9.1.tar.gz",
-    "version": "8.9.1",
+    "sha256": "f6160b7191a4d4f11074931f43709c2b54e9ad6bf77131591408c642e99151b8",
+    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.9.2/sentry-v8.9.2.tar.gz",
+    "version": "8.9.2",
     "description": "A Sentry integration that sends unhandled exceptions to a Sentry instance to aggregate application crashes. You either have to set up your own Sentry instance or use your sentry.io account. See the admin documentation for how to configure this app.",
     "homepage": "https://github.com/ChristophWurst/nextcloud_sentry",
     "licenses": [
@@ -2005,6 +2025,16 @@
     "version": "1.12.0",
     "description": "Provides a command which generates a report about all the users and their usage:\n\n```\n$ sudo -u www-data ./occ usage-report:generate admin\n\"admin\",\"2017-09-18T09:00:01+00:00\",5368709120,786432000,12,1,1,2\n```\n\nTo include the header of the fields in the CSV use the `--verbose` option:\n\n```\n$ sudo -u www-data ./occ usage-report:generate --verbose admin\n\"user-id\",\"date as 'c'\",\"assigned quota (5 GB)\",\"used quota (500 MB)\",number of files,number of shares,number of uploads,number of downloads\n\"admin\",\"2017-09-18T09:00:01+00:00\",5368709120,786432000,12,1,1,2\n```",
     "homepage": "https://github.com/nextcloud/user_usage_report",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "vdirsyncerui": {
+    "sha256": "2b743118ef6acc4f668e5e74b1c230708bb029e9dda7937cef87ae17413b7e85",
+    "url": "https://ucar-solutions.de/vdirsyncerui-0.0.7.tar.gz",
+    "version": "0.0.7",
+    "description": "Saving configuration data to pass to the external program vdirsyncer",
+    "homepage": "",
     "licenses": [
       "agpl"
     ]
