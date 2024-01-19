@@ -130,9 +130,9 @@
     ]
   },
   "calendar": {
-    "sha256": "ab011a6f93c0ebf82f21f7a0df8486d8ae2500845987e45bcd822f3b516fc308",
-    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v4.6.3/calendar-v4.6.3.tar.gz",
-    "version": "4.6.3",
+    "sha256": "2f338d23786310173e29340f880ec396b624f18a403533b8f1653ca1427f79e7",
+    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v4.6.4/calendar-v4.6.4.tar.gz",
+    "version": "4.6.4",
     "description": "The Calendar app is a user interface for Nextcloud's CalDAV server. Easily sync events from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Currently Contacts - more to come.\n* 🌐 **WebCal Support!** Want to see your favorite team’s matchdays in your calendar? No problem!\n* 🙋 **Attendees!** Invite people to your events\n* ⌚️ **Free/Busy!** See when your attendees are available to meet\n* ⏰ **Reminders!** Get alarms for events inside your browser and via email\n* 🔍 Search! Find your events at ease\n* ☑️ Tasks! See tasks with a due date directly in the calendar\n* 🙈 **We’re not reinventing the wheel!** Based on the great [c-dav library](https://github.com/nextcloud/cdav-library), [ical.js](https://github.com/mozilla-comm/ical.js) and [fullcalendar](https://github.com/fullcalendar/fullcalendar) libraries.",
     "homepage": "https://github.com/nextcloud/calendar/",
     "licenses": [
@@ -410,9 +410,9 @@
     ]
   },
   "files_antivirus": {
-    "sha256": "ded44d4d298d751b8e939c753b85805dc9156ec653bbbf9ed513a91bbd934e34",
-    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.4.0/files_antivirus-v5.4.0.tar.gz",
-    "version": "5.4.0",
+    "sha256": "845440cbd147db3e060cdad2f7acad46188079c3f68331124e4d8772ab8de823",
+    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.4.1/files_antivirus-v5.4.1.tar.gz",
+    "version": "5.4.1",
     "description": "Antivirus for files is an antivirus app for Nextcloud.\n\n* 🕵️‍♂️ When the user uploads a file, it's checked\n* ☢️ Uploaded and infected files will be deleted and a notification will be shown and/or sent via email\n* 🔎 Background Job to scan all files\n* ❓ Use ClamAV (open source), Kaspersky Scan Engine or an ICAP compatible scanner\n\nThis application inspects files that are uploaded to Nextcloud for viruses before they are written to the Nextcloud storage. If a file is identified as a virus, it is either logged or not uploaded to the server. The application relies on the underlying ClamAV virus scanning engine, which the admin points Nextcloud to when configuring the application. Alternatively, a Kaspersky Scan Engine can be configured, which has to run on a separate server.\nFor this app to be effective, the ClamAV virus definitions should be kept up to date. Also note that enabling this app will impact system performance as additional processing is required for every upload. More information is available in the Antivirus documentation.",
     "homepage": "",
     "licenses": [
@@ -800,9 +800,9 @@
     ]
   },
   "integration_ews": {
-    "sha256": "e81402627ef686a9609c048c4e41d5d913b697489aa5c3f91c3048aa52acbf69",
-    "url": "https://github.com/ksainc/integration_ews/releases/download/v1.0.29/integration_ews-v1.0.29.tar.gz",
-    "version": "1.0.29",
+    "sha256": "23c25f697c0fcc1fcd5ca4f4bd2d5ecbae9b81f8d8e93a5f63be14fea4370176",
+    "url": "https://github.com/ksainc/integration_ews/releases/download/v1.0.30/integration_ews-v1.0.30.tar.gz",
+    "version": "1.0.30",
     "description": "Exchange EWS Connector (Exchange Web Services) allows you to automatically sync your calendars and contacts from any EWS compatible service with Nextcloud.",
     "homepage": "https://github.com/ksainc/integration_ews",
     "licenses": [
@@ -970,8 +970,8 @@
     ]
   },
   "integration_openproject": {
-    "sha256": "f45361ec575204c053695c25ec562d865e870a89b8c399f4a41ca20d39b4f5f5",
-    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.6.0-20240117-nightly/integration_openproject-2.6.0-20240117-nightly.tar.gz",
+    "sha256": "64c83b6e832d77db8380f2dd76214d3700d9fcebdb097683d7d9a2b686355ca1",
+    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.6.0/integration_openproject-2.6.0.tar.gz",
     "version": "2.6.0",
     "description": "This application enables seamless integration with open source project management and collaboration software OpenProject.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in OpenProject\n* Find all work packages linked to a file or a folder\n* Create work packages directly in Nextcloud\n* View OpenProject notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n* Link work packages in rich text fields via Smart Picker\n* Preview links to work packages in text fields\n* Link multiple files and folder to a work package at once\n\nOn the OpenProject end, users are able to:\n\n* Link work packages with files and folders in Nextcloud\n* Upload and download files directly to Nextcloud from within a work package\n* Open linked files in Nextcloud to edit them\n* Let OpenProject create shared folders per project\n\nFor more information on how to set up and use the OpenProject application, please refer to [integration setup guide](https://www.openproject.org/docs/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://www.openproject.org/docs/user-guide/nextcloud-integration/).",
     "homepage": "https://github.com/nextcloud/integration_openproject",
@@ -1230,10 +1230,10 @@
     ]
   },
   "multiboards": {
-    "sha256": "71592f38b1f7ba236ecacbce00d9f741c7a354d017ab547b0cd63fa6930730ba",
-    "url": "https://github.com/githubkoma/multiboards/releases/download/v1.0.1/multiboards.tar.gz",
-    "version": "1.0.1",
-    "description": "- Create Digital Boards from your content in Nextcloud \\t\n    - Use it for Mindmaps, Visualizations, Knowledge Management, ... \\t\n    - Based on [Reactflow](https://reactflow.dev/)",
+    "sha256": "2a531d73a357623d1eeaccab33ee6044d10f95a00a603ca57dac7b387a63a894",
+    "url": "https://github.com/githubkoma/multiboards/releases/download/v1.0.2/multiboards.tar.gz",
+    "version": "1.0.2",
+    "description": "Create Digital Boards from your content in Nextcloud\n- Use it for Mindmaps, Visualizations, Knowledge Management, ...  \n- Based on [Reactflow](https://reactflow.dev/)\n\nThis app is in an early stage and some designs or features are subject to change.",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -1324,6 +1324,16 @@
     "url": "https://github.com/cryptpad/nextcloud-open-in-cryptpad/releases/download/v0.3.1/openincryptpad.tar.gz",
     "version": "0.3.1",
     "description": "# Open In CryptPad\n\n\"Open in CryptPad\" is a Nextcloud application that allows collaborative editing\nof files. For this it uses a CryptPad instance embedded into the Nextcloud web\ninterface. Currently, only drawio diagrams are supported.\n\n## Importing images from Nextcloud into diagrams\n\nWith this app, you can import images from Nextcloud into\ndiagrams. These images are not embedded, but linked to their\nsource in Nextcloud. **To achieve this, imported images are made\npublic via a secret link to the image.**\n\n## Rights management\n\nWhen using this app, the file permissions are completely handled by\nNextcloud. The right's management of CryptPad is not used for Nextcloud\nfiles edited in CryptPad.\n\t\n## Installation\n\n### Prerequisites on the CryptPad side\n\nTo embed CryptPad into Nextcloud, the \"Enable remote embedding\" admin setting\nneeds to be enabled. You can find this setting on the \"Administration\" web\ninterface in the \"General\" tab.\n\n### Install from Nextcloud app store\n\n1. Add drawio mimetype to Nextcloud. \"Open in CryptPad\" depends on Nextcloud\n   detecting drawio files correctly. For this you have to create the following\n   files: (**Note:** do this before uploading any drawio files! The mimetype of\n   old files will not be updated by these changes)\n    - `nextcloud/config/mimetypealiases.json`\n\n        ``` json\n        {\n            \"application/x-drawio\": \"image\"\n        }\n        ```\n\n    - `nextcloud/config/mimetypemapping.json`\n\n        ``` json\n        {\n            \"drawio\": [\"application/x-drawio\"]\n        }\n        ```\n2. Open the \"Apps\" page in your Nextcloud web interface and install \"Open in\n   CryptPad\". You can find it in the \"Integration\" category.\n3. Configure \"Open in CryptPad\" in the administration settings of Nextcloud.",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "otpmanager": {
+    "sha256": "185a18c1341abc1724466a65fc0a2671e297f7fdeb222444459c065566101d2f",
+    "url": "https://github.com/matteo-convertino/otpmanager-nextcloud/releases/download/v0.3.3/otpmanager-0.3.3.tar.gz",
+    "version": "0.3.3",
+    "description": "OTP Manager is useful for those who use two-factor authentication (2FA) and want to manage their OTP codes securely and easily. \nThis application allows you to synchronise your OTP codes with your personal Nextcloud server so that you can access them from any device.\n\n######\n\nWith OTP Manager, you no longer have to worry about losing your OTP codes or not having access to them when you need them. \nAll you have to do is synchronise your app with your Nextcloud server and you will always have your OTP codes at hand, wherever you are.\n\n######\n\nOTP Manager offers the convenient feature of importing OTP codes from Google Authenticator by scanning the QR code. \nThis means you don't have to worry about having to manually enter every single OTP code, but can simply scan the QR code that the Google app generates when exporting \naccounts, and OTP Manager will automatically import your associated accounts.\n\n######\n\nThis way, the migration from Google Authenticator to OTP Manager will be quick and easy, without having to waste time manually resetting all your OTP codes.\n\n######\n\n**Apps & Extensions**\n* [Official Android App](https://play.google.com/store/apps/details?id=com.convertino.otp_manager)\n* [Official iOS App](https://apps.apple.com/us/app/nextcloud-otp-manager/id6471510170)",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -1480,9 +1490,9 @@
     ]
   },
   "repod": {
-    "sha256": "0334252a7b864b78787d917d0c580c442d11d5dad5f0fda1e898b0938b94f0f0",
-    "url": "https://git.crystalyx.net/Xefir/repod/releases/download/1.2.1/repod.tar.gz",
-    "version": "1.2.1",
+    "sha256": "055f0283e3268da689c194af75a95fdaa467246109a269cf8e5e39fb34e1dfa3",
+    "url": "https://git.crystalyx.net/Xefir/repod/releases/download/1.4.0/repod.tar.gz",
+    "version": "1.4.0",
     "description": "## Features\n- 🔍 Browse and subscribe huge collection of podcasts\n- 🔊 Listen to episodes directly in Nextcloud\n- 🌐 Sync your activity with [AntennaPod](https://antennapod.org/)\n\n## Requirements\nYou need to have [GPodderSync](https://apps.nextcloud.com/apps/gpoddersync) installed to use this app!",
     "homepage": "https://git.crystalyx.net/Xefir/RePod",
     "licenses": [
