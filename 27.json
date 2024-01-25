@@ -1070,9 +1070,9 @@
     ]
   },
   "integration_ews": {
-    "sha256": "7140d137b5280962e1be947f62105b29edb9565271405c2ae4c875fc43aa95a7",
-    "url": "https://github.com/ksainc/integration_ews/releases/download/v1.0.35/integration_ews-v1.0.35.tar.gz",
-    "version": "1.0.35",
+    "sha256": "23eb585ee4ab443fc08b9ad4a15ed149b93edb13d68792ce50cc05b547093350",
+    "url": "https://github.com/ksainc/integration_ews/releases/download/v1.0.36/integration_ews-v1.0.36.tar.gz",
+    "version": "1.0.36",
     "description": "Exchange EWS Connector (Exchange Web Services) allows you to automatically sync your calendars and contacts from any EWS compatible service with Nextcloud.",
     "homepage": "https://github.com/ksainc/integration_ews",
     "licenses": [
@@ -1155,6 +1155,16 @@
     "version": "1.0.7",
     "description": "Jira integration provides a dashboard widget displaying your important notifications,\na unified search provider to search for issues\nand notifications about recent activity related to your assigned issues.",
     "homepage": "https://github.com/nextcloud/integration_jira",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "integration_jupyterhub": {
+    "sha256": "265b3406803e5df38f6705df0699fe91d4da86607c15ef651d27f2437090faf3",
+    "url": "https://github.com/SUNET/nextcloud-jupyter/releases/download/v0.1.0/integration_jupyterhub-0.1.0.tar.gz",
+    "version": "0.1.0",
+    "description": "Integrate Jupyther Hub into Nextcloud",
+    "homepage": "",
     "licenses": [
       "agpl"
     ]
@@ -1480,8 +1490,8 @@
     ]
   },
   "maps": {
-    "sha256": "dd70a39b5aec3e92e73845681cf6ac283644273c1e63b01ba80497a229871958",
-    "url": "https://github.com/nextcloud/maps/releases/download/v1.2.0/maps-1.2.0.tar.gz",
+    "sha256": "1c114f7dc56085623fdfcd484e0690085178416a2600ae244761bcd8c34685a2",
+    "url": "https://github.com/nextcloud/maps/releases/download/v1.2.0-2-nightly/maps-1.2.0-2-nightly.tar.gz",
     "version": "1.2.0",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
@@ -1620,9 +1630,9 @@
     ]
   },
   "notify_push": {
-    "sha256": "c18e4f572750e8a4621644ba11d8239a4047916b6b86ea70a4f0396682e59115",
-    "url": "https://github.com/nextcloud-releases/notify_push/releases/download/v0.6.7/notify_push-v0.6.7.tar.gz",
-    "version": "0.6.7",
+    "sha256": "dc56129a32646259658a3bfad3bd41c1c924f5a8ae1369b5f642450ccb6150d6",
+    "url": "https://github.com/nextcloud-releases/notify_push/releases/download/v0.6.8/notify_push-v0.6.8.tar.gz",
+    "version": "0.6.8",
     "description": "Push update support for desktop app.\n\nOnce the app is installed, the push binary needs to be setup. You can either use the setup wizard with `occ notify_push:setup` or see the [README](http://github.com/nextcloud/notify_push) for detailed setup instructions",
     "homepage": "",
     "licenses": [
@@ -1710,9 +1720,9 @@
     ]
   },
   "openincryptpad": {
-    "sha256": "b3edf48af71615e6998184bfdfb0a31fcf0079004e620391f53288b506fb362f",
-    "url": "https://github.com/cryptpad/nextcloud-open-in-cryptpad/releases/download/v0.3.1/openincryptpad.tar.gz",
-    "version": "0.3.1",
+    "sha256": "ca279ef785c80e8ff90aea50745b817d230f68479fb4770f6826787ce47a3f72",
+    "url": "https://github.com/cryptpad/nextcloud-open-in-cryptpad/releases/download/v0.3.2/openincryptpad.tar.gz",
+    "version": "0.3.2",
     "description": "# Open In CryptPad\n\n\"Open in CryptPad\" is a Nextcloud application that allows collaborative editing\nof files. For this it uses a CryptPad instance embedded into the Nextcloud web\ninterface. Currently, only drawio diagrams are supported.\n\n## Importing images from Nextcloud into diagrams\n\nWith this app, you can import images from Nextcloud into\ndiagrams. These images are not embedded, but linked to their\nsource in Nextcloud. **To achieve this, imported images are made\npublic via a secret link to the image.**\n\n## Rights management\n\nWhen using this app, the file permissions are completely handled by\nNextcloud. The right's management of CryptPad is not used for Nextcloud\nfiles edited in CryptPad.\n\t\n## Installation\n\n### Prerequisites on the CryptPad side\n\nTo embed CryptPad into Nextcloud, the \"Enable remote embedding\" admin setting\nneeds to be enabled. You can find this setting on the \"Administration\" web\ninterface in the \"General\" tab.\n\n### Install from Nextcloud app store\n\n1. Add drawio mimetype to Nextcloud. \"Open in CryptPad\" depends on Nextcloud\n   detecting drawio files correctly. For this you have to create the following\n   files: (**Note:** do this before uploading any drawio files! The mimetype of\n   old files will not be updated by these changes)\n    - `nextcloud/config/mimetypealiases.json`\n\n        ``` json\n        {\n            \"application/x-drawio\": \"image\"\n        }\n        ```\n\n    - `nextcloud/config/mimetypemapping.json`\n\n        ``` json\n        {\n            \"drawio\": [\"application/x-drawio\"]\n        }\n        ```\n2. Open the \"Apps\" page in your Nextcloud web interface and install \"Open in\n   CryptPad\". You can find it in the \"Integration\" category.\n3. Configure \"Open in CryptPad\" in the administration settings of Nextcloud.",
     "homepage": "",
     "licenses": [
@@ -1740,9 +1750,9 @@
     ]
   },
   "otpmanager": {
-    "sha256": "185a18c1341abc1724466a65fc0a2671e297f7fdeb222444459c065566101d2f",
-    "url": "https://github.com/matteo-convertino/otpmanager-nextcloud/releases/download/v0.3.3/otpmanager-0.3.3.tar.gz",
-    "version": "0.3.3",
+    "sha256": "329a0a71e1877541cecb3224e641c8de6234ceee662f71dd410f689d033bee80",
+    "url": "https://github.com/matteo-convertino/otpmanager-nextcloud/releases/download/v0.3.4/otpmanager-0.3.4.tar.gz",
+    "version": "0.3.4",
     "description": "OTP Manager is useful for those who use two-factor authentication (2FA) and want to manage their OTP codes securely and easily. \nThis application allows you to synchronise your OTP codes with your personal Nextcloud server so that you can access them from any device.\n\n######\n\nWith OTP Manager, you no longer have to worry about losing your OTP codes or not having access to them when you need them. \nAll you have to do is synchronise your app with your Nextcloud server and you will always have your OTP codes at hand, wherever you are.\n\n######\n\nOTP Manager offers the convenient feature of importing OTP codes from Google Authenticator by scanning the QR code. \nThis means you don't have to worry about having to manually enter every single OTP code, but can simply scan the QR code that the Google app generates when exporting \naccounts, and OTP Manager will automatically import your associated accounts.\n\n######\n\nThis way, the migration from Google Authenticator to OTP Manager will be quick and easy, without having to waste time manually resetting all your OTP codes.\n\n######\n\n**Apps & Extensions**\n* [Official Android App](https://play.google.com/store/apps/details?id=com.convertino.otp_manager)\n* [Official iOS App](https://apps.apple.com/us/app/nextcloud-otp-manager/id6471510170)",
     "homepage": "",
     "licenses": [
@@ -1970,9 +1980,9 @@
     ]
   },
   "repod": {
-    "sha256": "1736472fca5498b5b971a3231cf8b2f46f9bc5f43ce4237313ff808ecf6bd3fc",
-    "url": "https://git.crystalyx.net/Xefir/repod/releases/download/1.4.3/repod.tar.gz",
-    "version": "1.4.3",
+    "sha256": "436c6e7320d69722de54c3180d11b8a373b566104ff9373830dfdd6520a3b11c",
+    "url": "https://git.crystalyx.net/Xefir/repod/releases/download/1.4.4/repod.tar.gz",
+    "version": "1.4.4",
     "description": "## Features\n- 🔍 Browse and subscribe huge collection of podcasts\n- 🔊 Listen to episodes directly in Nextcloud\n- 🌐 Sync your activity with [AntennaPod](https://antennapod.org/)\n\n## Requirements\nYou need to have [GPodderSync](https://apps.nextcloud.com/apps/gpoddersync) installed to use this app!",
     "homepage": "https://git.crystalyx.net/Xefir/RePod",
     "licenses": [
@@ -2370,9 +2380,9 @@
     ]
   },
   "tables": {
-    "sha256": "d6f794434d36bb37390f60e7bace334fb621d4d4592066476a8c2cea604f0484",
-    "url": "https://github.com/nextcloud-releases/tables/releases/download/v0.6.5/tables.tar.gz",
-    "version": "0.6.5",
+    "sha256": "7ce024420ccaa09fcfef4e0d4dc295d3100ce8d20df8de18ab6c8f09e8e4ef5d",
+    "url": "https://github.com/nextcloud-releases/tables/releases/download/v0.6.6/tables-v0.6.6.tar.gz",
+    "version": "0.6.6",
     "description": "Manage data the way you need it.\n\nWith this app you are able to create your own tables with individual columns. You can start with a template or from scratch and add your wanted columns.\nYou can choose from the following column types:\n- Text line or rich text\n- Link to urls or other nextcloud resources\n- Numbers\n- Progress bar\n- Stars rating\n- Yes/No tick\n- Date and/or time\n- (Multi) selection\n\nShare your tables and views with users and groups within your cloud.\n\nHave a good time and manage whatever you want.",
     "homepage": "https://github.com/nextcloud/tables",
     "licenses": [
@@ -2658,9 +2668,9 @@
     ]
   },
   "vdirsyncerui": {
-    "sha256": "20e3277b5eb2248715a8df008b7662f68e5843dbde944707ac55622e86939bbc",
-    "url": "https://ucar-solutions.de/vdirsyncerui-0.0.9.tar.gz",
-    "version": "0.0.9",
+    "sha256": "d41b1f284588bf846205eac35251c0c3bbc15e7ec985af1b6312c99b96ae68f0",
+    "url": "https://ucar-solutions.de/vdirsyncerui-0.0.17.tar.gz",
+    "version": "0.0.17",
     "description": "Saving configuration data to pass to the external program vdirsyncer",
     "homepage": "",
     "licenses": [
@@ -2728,9 +2738,9 @@
     ]
   },
   "workflow_media_converter": {
-    "sha256": "73987452047bc4840e7bf9a51e1970e9237e7e1cb269b1e8b2eff03a68a494ab",
-    "url": "https://github.com/cwilby/nextcloud-workflow-media-converter/releases/download/v1.9.0/workflow_media_converter.tar.gz",
-    "version": "1.9.0",
+    "sha256": "1d4e0327431cf54d7a91c755bef4b2c9030c8667a4bdde8ea6b00ab25f232ca5",
+    "url": "https://github.com/cwilby/nextcloud-workflow-media-converter/releases/download/v1.9.1/workflow_media_converter.tar.gz",
+    "version": "1.9.1",
     "description": "A dedicated media conversion manager for Nextcloud that allows you to automate media conversion.\n\n**Features**\n * Convert video/audio between formats supported by FFmpeg.\n * Complete control of the conversion process.\n * Automatically convert media as it is uploaded.\n * Create batch jobs to convert existing media.",
     "homepage": "https://github.com/cwilby/nextcloud-workflow-media-converter",
     "licenses": [
