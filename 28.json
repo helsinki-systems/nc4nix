@@ -40,9 +40,9 @@
     ]
   },
   "app_api": {
-    "sha256": "8513fbdb4c6b3d952d89ecf595b6416cc35be0e2df62b743b63da0dd7d284368",
-    "url": "https://github.com/cloud-py-api/app_api/releases/download/v1.4.6/app_api-v1.4.6.tar.gz",
-    "version": "1.4.6",
+    "sha256": "67fea0f3dab70a1fe095535604b9db533a939aead99694cd17466aa182bedec8",
+    "url": "https://github.com/cloud-py-api/app_api/releases/download/v2.0.1/app_api-v2.0.1.tar.gz",
+    "version": "2.0.1",
     "description": "### Boost your Nextcloud with AppAPI and its specially designed applications.\n\n\nThe AppAPI is a project within the Nextcloud ecosystem designed to streamline and enhance the process of\napplication development, deployment, and management.\n\nIt introduces a new methodology that allows developers to create\napplications using a variety of programming languages, not limited to PHP, which was traditionally used in Nextcloud development.\n\n\n### List of applications that require AppAPI:\n\n- [talk_bot_ai_example](https://github.com/cloud-py-api/talk_bot_ai_example)\n- [upscaler_example](https://github.com/cloud-py-api/upscaler_example)\n- [image_to_text_example](https://github.com/cloud-py-api/file_to_text_example)\n- [ai_image_generator_bot](https://github.com/cloud-py-api/ai_image_generator_bot)\n\n_If you wish to develop an application, we will gladly help and assist you._\n\n### Support\n\nWe appreciate any support for this project:\n\n- ⭐ Star our work on GitHub\n- ❗ Create an Issue or feature request\n- 💁 Resolve an Issue and create a Pull Request\n- 🧑‍💻 Develop your own application using AppAPI\n\nWe are genuinely excited about the future of the AppAPI project and its potential to transform\nthe way applications are developed and experienced within Nextcloud.\n\nAs we embark on this journey, we warmly invite you - developers, thinkers, creators, and visionaries -\nto join us in shaping a more versatile, stable, and secure app landscape.\n\n*Your insights, suggestions, and contributions are invaluable to us.*",
     "homepage": "https://github.com/cloud-py-api/app_api",
     "licenses": [
@@ -820,9 +820,9 @@
     ]
   },
   "integration_ews": {
-    "sha256": "23eb585ee4ab443fc08b9ad4a15ed149b93edb13d68792ce50cc05b547093350",
-    "url": "https://github.com/ksainc/integration_ews/releases/download/v1.0.36/integration_ews-v1.0.36.tar.gz",
-    "version": "1.0.36",
+    "sha256": "911fb02b62a1c6a6efdc33daf25c3a4ead6eaeaa5e55960e6ec75cd6e33602b4",
+    "url": "https://github.com/ksainc/integration_ews/releases/download/v1.0.37/integration_ews-v1.0.37.tar.gz",
+    "version": "1.0.37",
     "description": "Exchange EWS Connector (Exchange Web Services) allows you to automatically sync your calendars and contacts from any EWS compatible service with Nextcloud.",
     "homepage": "https://github.com/ksainc/integration_ews",
     "licenses": [
@@ -1000,8 +1000,8 @@
     ]
   },
   "integration_openproject": {
-    "sha256": "f45361ec575204c053695c25ec562d865e870a89b8c399f4a41ca20d39b4f5f5",
-    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.6.0-20240117-nightly/integration_openproject-2.6.0-20240117-nightly.tar.gz",
+    "sha256": "64c83b6e832d77db8380f2dd76214d3700d9fcebdb097683d7d9a2b686355ca1",
+    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.6.0/integration_openproject-2.6.0.tar.gz",
     "version": "2.6.0",
     "description": "This application enables seamless integration with open source project management and collaboration software OpenProject.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in OpenProject\n* Find all work packages linked to a file or a folder\n* Create work packages directly in Nextcloud\n* View OpenProject notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n* Link work packages in rich text fields via Smart Picker\n* Preview links to work packages in text fields\n* Link multiple files and folder to a work package at once\n\nOn the OpenProject end, users are able to:\n\n* Link work packages with files and folders in Nextcloud\n* Upload and download files directly to Nextcloud from within a work package\n* Open linked files in Nextcloud to edit them\n* Let OpenProject create shared folders per project\n\nFor more information on how to set up and use the OpenProject application, please refer to [integration setup guide](https://www.openproject.org/docs/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://www.openproject.org/docs/user-guide/nextcloud-integration/).",
     "homepage": "https://github.com/nextcloud/integration_openproject",
@@ -1245,6 +1245,16 @@
     "version": "6.2.2",
     "description": "# Memories: Photo Management for Nextcloud\n\nMemories is a *batteries-included* photo management solution for Nextcloud with advanced features including:\n\n- **📸 Timeline**: Sort photos and videos by date taken, parsed from Exif data.\n- **⏪ Rewind**: Jump to any time in the past instantly and relive your memories.\n- **🤖 AI Tagging**: Group photos by people and objects, powered by [recognize](https://github.com/nextcloud/recognize) and [facerecognition](https://github.com/matiasdelellis/facerecognition).\n- **🖼️ Albums**: Create albums to group photos and videos together. Then share these albums with others.\n- **🫱🏻‍🫲🏻 External Sharing**: Share photos and videos with people outside of your Nextcloud instance.\n- **📱 Mobile Support**: Work from any device, of any shape and size through the web app.\n- **✏️ Edit Metadata**: Edit dates and other metadata on photos quickly and in bulk.\n- **📦 Archive**: Store photos you don't want to see in your timeline in a separate folder.\n- **📹 Video Transcoding**: Transcode videos and use HLS for maximal performance.\n- **🗺️ Map**: View your photos on a map, tagged with accurate reverse geocoding.\n- **📦 Migration**: Migrate easily from Nextcloud Photos and Google Takeout.\n- **⚡️ Performance**: Do all this very fast.\n\n## 🚀 Installation\n\n1. Install the app from the Nextcloud app store (try a demo [here](https://demo.memories.gallery/apps/memories/)).\n1. Perform the recommended [configuration steps](https://memories.gallery/config/).\n1. Run `php occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos.",
     "homepage": "https://memories.gallery",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "mfazones": {
+    "sha256": "92b99201f4ad1bc65ac2554f692329d3766f0c5bbf67a72962770b0ce897ef18",
+    "url": "https://github.com/SUNET/nextcloud-mfazones/releases/download/v0.0.2/mfazones-0.0.2.tar.gz",
+    "version": "0.0.2",
+    "description": "A plugin to restrict access to files with mfazone tag\n\nSee the [README](https://github.com/pondersource/mfazones/blob/main/README.md) for usage.",
+    "homepage": "",
     "licenses": [
       "agpl"
     ]
@@ -1830,9 +1840,9 @@
     ]
   },
   "spreed": {
-    "sha256": "7c058d3e4e0f9b75ef1be022d2e6a9683e889ea5a7e678aed5cbfc31d674c716",
-    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v18.0.1/spreed-v18.0.1.tar.gz",
-    "version": "18.0.1",
+    "sha256": "0744108643f03162502b36379346b739d6628db53b7044ec6144114af192ed9d",
+    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v18.0.2/spreed-v18.0.2.tar.gz",
+    "version": "18.0.2",
     "description": "Chat, video & audio-conferencing using WebRTC\n\n* 💬 **Chat integration!** Nextcloud Talk comes with a simple text chat. Allowing you to share files from your Nextcloud and mentioning other participants.\n* 👥 **Private, group, public and password protected calls!** Just invite somebody, a whole group or send a public link to invite to a call.\n* 💻 **Screen sharing!** Share your screen with participants of your call. You just need to use Firefox version 66 (or newer), latest Edge or Chrome 72 (or newer, also possible using Chrome 49 with this [Chrome extension](https://chrome.google.com/webstore/detail/screensharing-for-nextclo/kepnpjhambipllfmgmbapncekcmabkol)).\n* 🚀 **Integration with other Nextcloud apps** like Files, Contacts and Deck. More to come.\n\nAnd in the works for the [coming versions](https://github.com/nextcloud/spreed/milestones/):\n* ✋ [Federated calls](https://github.com/nextcloud/spreed/issues/21), to call people on other Nextclouds",
     "homepage": "https://github.com/nextcloud/spreed",
     "licenses": [
