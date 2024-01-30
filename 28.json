@@ -120,9 +120,9 @@
     ]
   },
   "cadviewer": {
-    "sha256": "6f0b15dfa91ece9a81ad87ae55754398fcf0b3a5f4447e76bab7a62a8820ec94",
-    "url": "https://github.com/CADViewer/NextCloud/releases/download/cv_nextcloud_v9.38.6/cadviewer-v9.38.6.tar.gz",
-    "version": "9.38.6",
+    "sha256": "538fd69ecce6cc952c49c3f4bdf3dc616b4a9c6d1ba298bd9a89fe5b32a82b76",
+    "url": "https://github.com/CADViewer/NextCloud/releases/download/cv_nextcloud_v9.40.6/cadviewer-v9.40.6.tar.gz",
+    "version": "9.40.6",
     "description": "# CADViewer\nCADViewer implements CAD viewing, markup and collaboration on the NextCloud platform for AutoCAD, MicroStation, PDF and advanced raster graphics. Following CADViewer features are available:\n- **AutoCAD**: Support for DWG, DXF and DWF files.\n- **MicroStation**: Support for DGN files.\n- **PDF**: Support for Vector Graphics PDF files. (Use **...** menu)\n- **TIFF**: Support for TIFF format. (Use **...** menu)\n- **PNG, JPG, GIF**: Bitmap support. (Use **...** menu)\n- **SVG**: SVG support. (Use **...** menu)\n- **Annotation**: Full redlining interface of drawings where each user has individually associated redlines.\n- **PDF Collaboration**: Redlines/Annotations on drawings are saved as PDF to the user's *CADViewer-Markup* folder, where the user can then share internally/externally.\n- **Download**: Direct download of SVG or PDF image with/without redlines/annotations.\n- **Printing**: Printing of drawings to printer driver or as PDF.\n- **Measurement**: Global scale matrix preserved in drawing for measurement and calibration methods.\n- **Zoom**: Advanced zoom and pan controls.\n- **Layers**: Retained layer structure for layer management.\n- **Search**: Integrated text search method.\n- **Compare**: Advanced compare of drawings. Compare of different versions of same files in Nextcloud 27+.\n\n## 🌐Online Demo\n- To test the look and feel of [CADViewer](https://cadviewer.com), check out our [Online Demos](https://cadviewer.com/cadviewerdemo/).\n\n## 📦Installation\n1. Install the app from the Nextcloud app store or from CADViewer [GitHub repository](https://github.com/CADViewer/NextCloud/).\n2. Perform the [configuration steps](https://github.com/CADViewer/NextCloud/blob/main/README.md).\n3. **NOTE**: The configuration steps (possible permission settings and ownership for executable, log files, and folders, and .htaccess file modification for rewrite rule) are needed for the back-end CAD conversion to work properly. Without check of settings, no drawings will display!\n4. Simply open your CAD drawings and start collaborate.. 😄 \n5. If you have any issues displaying drawings, see [troubleshooting](https://github.com/CADViewer/NextCloud/blob/main/README.md) , file an [issue report](https://github.com/CADViewer/NextCloud/issues) or [contact us](mailto:developer@tailormade.com).\n6. Software run with all features enabled, but with small canvas watermarks to discurage redistribution of converted drawings. To remove watermarks through a license key, corp or single user(s), [Contact Us!](https://cadviewer.com/contact/).\n\n## Guides\n1. [Administrator Interface Guide](https://cadviewer.com/cadviewerusermanual/referenceapplications/nextcloud/admin/).\n2. [User Interface Guide](https://cadviewer.com/cadviewerusermanual/referenceapplications/nextcloud/userinterface/).",
     "homepage": "https://www.cadviewer.com",
     "licenses": [
@@ -355,6 +355,16 @@
     "version": "1.0.15",
     "description": "The eID-Login App allows to use the German eID-card and similar electronic identity documents for secure and privacy-friendly login to Nextcloud. For this purpose, a so-called eID-Client, such as the AusweisApp2 or the Open eCard App and eID-Service are required. In the default configuration a suitable eID-Service is provided without any additional costs.",
     "homepage": "https://eID.services/eidlogin/nextcloud",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "electronicsignatures": {
+    "sha256": "f7491942986fcc05520cd189860d96812dc10cd165c3673e80874bd11374aab2",
+    "url": "https://github.com/eideasy/nextcloud-electronic-signatures-plugin/releases/download/v3.0.0/electronicsignatures.tar.gz",
+    "version": "3.0.0",
+    "description": "# Features\n- 🔒🔒 Accept Qualified Electronic Signatures (QES - strongest legal value) in PDF or .asice formats\n- 🔒 Accept Simple Electronic Signatures (sms based signature - simple to sign)\n\n### How it works:\n1. Pick a file\n2. Select \"Signing\" in the file's dropdown menu\n3. Add signers\n4. Signers receive a link on their e-mail\n5. They sign the document\n6. The signed document appears in your Nextcloud instance, next to the original file\n\n# Built on top of eID Easy\nElectronic signatures app uses [eID Easy](https://eideasy.com) as its signing back-end. eID Easy handles the signing process. Refer to [eID Easy's pricing](https://eideasy.com/pricing/) for pricing information.\n\n### Get €10 to try out eID Easy\nFor limited time only, we're offering €10 of credit that you can spend to try out all the eID Easy signing services.\n\nWrite to info@eideasy.com to claim this offer.\n\n# Two levels of electronic signatures\n**Qualified Electronic Signature** - the strongest kind of electronic signature. The signer's identity and approval is linked to the file contents and a timestamp by cryptographic means. The signing time and the document's integrity can be verified to ensure that the document has not been tampered with after signing.\n\n**Simple Electronic Signature** - the simplest kind of electronic signature. eID Easy sends a unique link to the signer's e-mail. The signer opens the link, reviews the file and confirms their approval. A visual signature is added to the file. eId Easy adds a cryptographic e-seal to the file, to ensure that it cannot be modified after signing.\n\n# Pricing\nSee [https://eideasy.com/pricing](https://eideasy.com/pricing) for pricing information.\n\n# Feedback is welcome\nAre you not seeing your preferred signature card / signing app / other QES method? Are we not quite covering your use case? Let us know at info@eideasy.com\n\n# Documentation\n\n## Set up\nSee the following guides:\n[1. Installation](https://docs.eideasy.com/nextcloud/nextcloud-app-installation.html#_1-installation)\n[2. Set up](https://docs.eideasy.com/nextcloud/nextcloud-app-setup.html#_2-set-up)\n[3. Signing a document](https://docs.eideasy.com/nextcloud/nextcloud-app-signing.html#_3-signing-a-document)\n\n[CHANGELOG](https://github.com/eideasy/nextcloud-electronic-signatures-plugin/blob/master/CHANGELOG.md)",
+    "homepage": "",
     "licenses": [
       "agpl"
     ]
@@ -1000,8 +1010,8 @@
     ]
   },
   "integration_openproject": {
-    "sha256": "f45361ec575204c053695c25ec562d865e870a89b8c399f4a41ca20d39b4f5f5",
-    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.6.0-20240117-nightly/integration_openproject-2.6.0-20240117-nightly.tar.gz",
+    "sha256": "64c83b6e832d77db8380f2dd76214d3700d9fcebdb097683d7d9a2b686355ca1",
+    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.6.0/integration_openproject-2.6.0.tar.gz",
     "version": "2.6.0",
     "description": "This application enables seamless integration with open source project management and collaboration software OpenProject.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in OpenProject\n* Find all work packages linked to a file or a folder\n* Create work packages directly in Nextcloud\n* View OpenProject notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n* Link work packages in rich text fields via Smart Picker\n* Preview links to work packages in text fields\n* Link multiple files and folder to a work package at once\n\nOn the OpenProject end, users are able to:\n\n* Link work packages with files and folders in Nextcloud\n* Upload and download files directly to Nextcloud from within a work package\n* Open linked files in Nextcloud to edit them\n* Let OpenProject create shared folders per project\n\nFor more information on how to set up and use the OpenProject application, please refer to [integration setup guide](https://www.openproject.org/docs/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://www.openproject.org/docs/user-guide/nextcloud-integration/).",
     "homepage": "https://github.com/nextcloud/integration_openproject",
@@ -2080,9 +2090,9 @@
     ]
   },
   "user_oidc": {
-    "sha256": "4a288db126d7e82742ecf9dfe169cb20e6f54cdf475c55efaac75fff1798cbf5",
-    "url": "https://github.com/nextcloud-releases/user_oidc/releases/download/v1.3.5/user_oidc-v1.3.5.tar.gz",
-    "version": "1.3.5",
+    "sha256": "cb0aecd6d83145066e93f0cad2abe1e0a98b6bb0e0979d6c33d11c899ac786cf",
+    "url": "https://github.com/nextcloud-releases/user_oidc/releases/download/v1.3.6/user_oidc-v1.3.6.tar.gz",
+    "version": "1.3.6",
     "description": "Allows flexible configuration of an OIDC server as Nextcloud login user backend.",
     "homepage": "https://github.com/nextcloud/user_oidc",
     "licenses": [
