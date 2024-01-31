@@ -270,8 +270,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -1010,8 +1010,8 @@
     ]
   },
   "integration_openproject": {
-    "sha256": "64c83b6e832d77db8380f2dd76214d3700d9fcebdb097683d7d9a2b686355ca1",
-    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.6.0/integration_openproject-2.6.0.tar.gz",
+    "sha256": "f45361ec575204c053695c25ec562d865e870a89b8c399f4a41ca20d39b4f5f5",
+    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.6.0-20240117-nightly/integration_openproject-2.6.0-20240117-nightly.tar.gz",
     "version": "2.6.0",
     "description": "This application enables seamless integration with open source project management and collaboration software OpenProject.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in OpenProject\n* Find all work packages linked to a file or a folder\n* Create work packages directly in Nextcloud\n* View OpenProject notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n* Link work packages in rich text fields via Smart Picker\n* Preview links to work packages in text fields\n* Link multiple files and folder to a work package at once\n\nOn the OpenProject end, users are able to:\n\n* Link work packages with files and folders in Nextcloud\n* Upload and download files directly to Nextcloud from within a work package\n* Open linked files in Nextcloud to edit them\n* Let OpenProject create shared folders per project\n\nFor more information on how to set up and use the OpenProject application, please refer to [integration setup guide](https://www.openproject.org/docs/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://www.openproject.org/docs/user-guide/nextcloud-integration/).",
     "homepage": "https://github.com/nextcloud/integration_openproject",
@@ -1260,10 +1260,10 @@
     ]
   },
   "mfazones": {
-    "sha256": "92b99201f4ad1bc65ac2554f692329d3766f0c5bbf67a72962770b0ce897ef18",
-    "url": "https://github.com/SUNET/nextcloud-mfazones/releases/download/v0.0.2/mfazones-0.0.2.tar.gz",
-    "version": "0.0.2",
-    "description": "A plugin to restrict access to files with mfazone tag\n\nSee the [README](https://github.com/pondersource/mfazones/blob/main/README.md) for usage.",
+    "sha256": "1c8c011e5d8a5c07368fb862075ecde1d4d24bff4f75805367dbf2f3fdb5f080",
+    "url": "https://github.com/SUNET/nextcloud-mfazones/releases/download/v0.0.4/mfazones-0.0.4.tar.gz",
+    "version": "0.0.4",
+    "description": "A plugin to restrict access to files with mfazone tag\n\nThis app will make it possible to designate certain directories as `mfazones` and only users who have a valid MFA token will be able to access them.\n\nThe app uses the workflow engine to enforce the restriction.\n\nSee the [README](https://github.com/SUNET/nextcloud-mfazones/blob/main/README.md) for more information.",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -1509,6 +1509,16 @@
       "agpl"
     ]
   },
+  "quicknotes": {
+    "sha256": "6108558539c7f522a2f252ae57ae93408e1238c286ea988c8b248b5bcebc5d1e",
+    "url": "https://github.com/matiasdelellis/quicknotes/releases/download/v0.8.20/quicknotes.tar.gz",
+    "version": "0.8.20",
+    "description": "Quick notes with a basic rich text",
+    "homepage": "https://github.com/matiasdelellis/quicknotes",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "quota_warning": {
     "sha256": "62d50e125bacb6cd28f998c66b226b3d465cd0af0fbd35dbf804fc31551918f8",
     "url": "https://github.com/nextcloud-releases/quota_warning/releases/download/v1.18.0/quota_warning-v1.18.0.tar.gz",
@@ -1550,9 +1560,9 @@
     ]
   },
   "repod": {
-    "sha256": "436c6e7320d69722de54c3180d11b8a373b566104ff9373830dfdd6520a3b11c",
-    "url": "https://git.crystalyx.net/Xefir/repod/releases/download/1.4.4/repod.tar.gz",
-    "version": "1.4.4",
+    "sha256": "34a4cb5f69b1593d43f3b291e05539a1da77caef30cb2b175f2417519afb5814",
+    "url": "https://git.crystalyx.net/Xefir/repod/releases/download/1.5.1/repod.tar.gz",
+    "version": "1.5.1",
     "description": "## Features\n- 🔍 Browse and subscribe huge collection of podcasts\n- 🔊 Listen to episodes directly in Nextcloud\n- 🌐 Sync your activity with [AntennaPod](https://antennapod.org/)\n\n## Requirements\nYou need to have [GPodderSync](https://apps.nextcloud.com/apps/gpoddersync) installed to use this app!",
     "homepage": "https://git.crystalyx.net/Xefir/RePod",
     "licenses": [
@@ -2110,9 +2120,9 @@
     ]
   },
   "user_saml": {
-    "sha256": "134ed208fca77e9f9faabdcd844261a6fe45f6e40543c3f4abeff8fa4b617427",
-    "url": "https://github.com/nextcloud-releases/user_saml/releases/download/v6.1.0/user_saml-v6.1.0.tar.gz",
-    "version": "6.1.0",
+    "sha256": "172ceb65b16a806a00935c04ff6f132221f80e287d5807d21503595cec84ef40",
+    "url": "https://github.com/nextcloud-releases/user_saml/releases/download/v6.1.1/user_saml-v6.1.1.tar.gz",
+    "version": "6.1.1",
     "description": "Using the SSO & SAML app of your Nextcloud you can make it easily possible to integrate your existing Single-Sign-On solution with Nextcloud. In addition, you can use the Nextcloud LDAP user provider to keep the convenience for users. (e.g. when sharing)\nThe following providers are supported and tested at the moment:\n\n* **SAML 2.0**\n\t* OneLogin\n\t* Shibboleth\n\t* Active Directory Federation Services (ADFS)\n\n* **Authentication via Environment Variable**\n\t* Kerberos (mod_auth_kerb)\n\t* Any other provider that authenticates using the environment variable\n\nWhile theoretically any other authentication provider implementing either one of those standards is compatible, we like to note that they are not part of any internal test matrix.",
     "homepage": "https://github.com/nextcloud/user_saml",
     "licenses": [
