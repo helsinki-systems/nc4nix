@@ -339,6 +339,16 @@
       "agpl"
     ]
   },
+  "documentserver_community": {
+    "sha256": "3e764ad90c020b843f8991d0f359c7e26a2ff84d0c3136ebc86e87a88c5f3b92",
+    "url": "https://github.com/chadek/documentserver_community/releases/download/v0.1.15.1/documentserver_community.tar.gz",
+    "version": "0.1.15",
+    "description": "Document server for OnlyOffice, community edition.\n\nThe community document server is designed to make it easy to get OnlyOffice running in a Nextcloud instance without the need to setup an external document server,\nthe community document server does not support all features of the official OnlyOffice document server and does not provide the same performance and scalability.\n\nIf you are setting up a larger instance or require the additional performance, please see https://onlyoffice.com for options for getting the official document server.\n\nThe community document server will automatically be configured if no other document server is configured for OnlyOffice.\n\nAdditionally, the community document server only supports running on x86-64 Linux servers.",
+    "homepage": "https://github.com/nextcloud/documentserver_community",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "drawio": {
     "sha256": "eee968fbbac720e08216de0b8570c541cfa2821322c1f1c3c1c26e09f09be021",
     "url": "https://github.com/jgraph/drawio-nextcloud/releases/download/v3.0.2/drawio-v3.0.2.tar.gz",
@@ -510,9 +520,9 @@
     ]
   },
   "files_inotify": {
-    "sha256": "63597a1ca8701291d85bea2ce08848fd8eb314a6fceeef34aecd25c88f20c6f1",
-    "url": "https://github.com/icewind1991/files_inotify/releases/download/v0.1.16/files_inotify-v0.1.16.tar.gz",
-    "version": "0.1.16",
+    "sha256": "f419c509a3ae57a35591661e331e0d164f3b868e0ddf299f1b8dc138010fc910",
+    "url": "https://github.com/icewind1991/files_inotify/releases/download/v0.2.0/files_inotify-v0.2.0.tar.gz",
+    "version": "0.2.0",
     "description": "Adds support detecting changes in local external storages with\nocc files_external:notify.\n\nNote that there are scalability limitations to using `inotify` on large folder structures, see the [README](https://github.com/icewind1991/files_inotify/blob/master/README.md) for more information",
     "homepage": "https://github.com/icewind1991/files_inotify",
     "licenses": [
@@ -795,6 +805,16 @@
     "version": "1.15.0",
     "description": "By installing the impersonate app of your Nextcloud you enable administrators to impersonate other users on the Nextcloud server. This is especially useful for debugging issues reported by users.\n\nTo impersonate a user an administrator has to simply follow the following four steps:\n\n1. Login as administrator to Nextcloud.\n2. Open users administration interface.\n3. Select the impersonate button on the affected user.\n4. Confirm the impersonation.\n\nThe administrator is then logged-in as the user, to switch back to the regular user account they simply have to press the logout button.\n\n**Note:**\n\n- This app is not compatible with instances that have encryption enabled.\n- While impersonate actions are logged note that actions performed impersonated will be logged as the impersonated user.\n- Impersonating a user is only possible after their first login.\n- You can limit which users/groups can use impersonation in Administration settings > Additional settings.",
     "homepage": "https://github.com/nextcloud/impersonate",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "instance_quota": {
+    "sha256": "8386a9fa32ae7f1d465539f9dc62a468dac9e04eb09ee2a1b9e6b2a8a0044e87",
+    "url": "https://packages.framasoft.org/projects/nextcloud-apps/instance_quota/instance_quota-0.1.0.tar.gz",
+    "version": "0.1.0",
+    "description": "Allow setting a disk quota for the entire Nextcloud instance.\n\nNote: configuring quota is only possible through the API, no admin interface is currently available.",
+    "homepage": "https://framagit.org/framasoft/nextcloud/instance_quota",
     "licenses": [
       "agpl"
     ]
