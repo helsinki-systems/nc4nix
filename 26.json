@@ -1029,6 +1029,16 @@
       "agpl"
     ]
   },
+  "hidesidebars": {
+    "sha256": "8e8715f956138fdf16b6194d259e172ae6275ec18a3e2c64668b137f21d03a94",
+    "url": "https://github.com/pointcz/hidesidebars/releases/download/v2.2.1/hidesidebars.tar.gz",
+    "version": "2.2.1",
+    "description": "# Hide sidebars\n\nHide left sidebar and top header bar for use in iframe for example or some other scenarios.\n\n## Usage\nAdd `hide-sidebars` after `?` as query parameter to nextcloud url or with `dir` parameter after `&`.\n\nExamples:\n```\nhttp://nextcloud.example.com/index.php/apps/files/?hide-sidebars\nhttp://nextcloud.example.com/index.php/apps/files/?dir=/New%20folder&hide-sidebars\n```\n\nThis app from version 2.0.0 brings new config parameter `addAllowedFrameAncestorDomain`.\nFor usage in iframe you must update `lib/public/AppFramework/Http/ContentSecurityPolicy.php` manually\nor use this new parameter `addAllowedFrameAncestorDomain` in `config.php`\n\n```\n...\n'addAllowedFrameAncestorDomain' => '*.example.com:*'\n...\n```",
+    "homepage": "https://github.com/pointcz/hidesidebars",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "holiday_calendars": {
     "sha256": "796763d858bfc30f4030da86898b62e18a832cd149411652bee617a93e1f70f7",
     "url": "https://packages.framasoft.org/projects/nextcloud-apps/holiday-calendars/holiday_calendars-0.3.0.tar.gz",
@@ -1540,8 +1550,8 @@
     ]
   },
   "maps": {
-    "sha256": "1c114f7dc56085623fdfcd484e0690085178416a2600ae244761bcd8c34685a2",
-    "url": "https://github.com/nextcloud/maps/releases/download/v1.2.0-2-nightly/maps-1.2.0-2-nightly.tar.gz",
+    "sha256": "dd70a39b5aec3e92e73845681cf6ac283644273c1e63b01ba80497a229871958",
+    "url": "https://github.com/nextcloud/maps/releases/download/v1.2.0/maps-1.2.0.tar.gz",
     "version": "1.2.0",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",

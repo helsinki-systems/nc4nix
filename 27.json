@@ -50,9 +50,9 @@
     ]
   },
   "app_api": {
-    "sha256": "f34ebcc2f120c327ec232382b787e3f632c64c7ca0c881d5dc2aaaef06c09f2a",
-    "url": "https://github.com/cloud-py-api/app_api/releases/download/v2.1.0/app_api-v2.1.0.tar.gz",
-    "version": "2.1.0",
+    "sha256": "b29e408abf92e838da5949995c0a638aca5d6c1a1d3e46d683cd7523ad0cf7f2",
+    "url": "https://github.com/cloud-py-api/app_api/releases/download/v2.2.0/app_api-v2.2.0.tar.gz",
+    "version": "2.2.0",
     "description": "### Boost your Nextcloud with AppAPI and its specially designed applications.\n\n\nThe AppAPI is a project within the Nextcloud ecosystem designed to streamline and enhance the process of\napplication development, deployment, and management.\n\nIt introduces a new methodology that allows developers to create\napplications using a variety of programming languages, not limited to PHP, which was traditionally used in Nextcloud development.\n\n\n### List of applications that require AppAPI:\n\n- [talk_bot_ai_example](https://github.com/cloud-py-api/talk_bot_ai_example)\n- [upscaler_example](https://github.com/cloud-py-api/upscaler_example)\n- [image_to_text_example](https://github.com/cloud-py-api/file_to_text_example)\n- [ai_image_generator_bot](https://github.com/cloud-py-api/ai_image_generator_bot)\n\n_If you wish to develop an application, we will gladly help and assist you._\n\n### Support\n\nWe appreciate any support for this project:\n\n- ⭐ Star our work on GitHub\n- ❗ Create an Issue or feature request\n- 💁 Resolve an Issue and create a Pull Request\n- 🧑‍💻 Develop your own application using AppAPI\n\nWe are genuinely excited about the future of the AppAPI project and its potential to transform\nthe way applications are developed and experienced within Nextcloud.\n\nAs we embark on this journey, we warmly invite you - developers, thinkers, creators, and visionaries -\nto join us in shaping a more versatile, stable, and secure app landscape.\n\n*Your insights, suggestions, and contributions are invaluable to us.*",
     "homepage": "https://github.com/cloud-py-api/app_api",
     "licenses": [
@@ -340,8 +340,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -1009,6 +1009,16 @@
       "agpl"
     ]
   },
+  "hidesidebars": {
+    "sha256": "3be3ed2e962017b645c7b622b1e59f278bac85c3daebec1fd28e42ee6b09519d",
+    "url": "https://github.com/pointcz/hidesidebars/releases/download/v2.2.2/hidesidebars.tar.gz",
+    "version": "2.2.2",
+    "description": "# Hide sidebars\n\nHide left sidebar and top header bar for use in iframe for example or some other scenarios.\n\n## Usage\nAdd `hide-sidebars` after `?` as query parameter to nextcloud url or with `dir` parameter after `&`.\n\nExamples:\n```\nhttp://nextcloud.example.com/index.php/apps/files/?hide-sidebars\nhttp://nextcloud.example.com/index.php/apps/files/?dir=/New%20folder&hide-sidebars\n```\n\nThis app from version 2.0.0 brings new config parameter `addAllowedFrameAncestorDomain`.\nFor usage in iframe you must update `lib/public/AppFramework/Http/ContentSecurityPolicy.php` manually\nor use this new parameter `addAllowedFrameAncestorDomain` in `config.php`\n\n```\n...\n'addAllowedFrameAncestorDomain' => '*.example.com:*'\n...\n```",
+    "homepage": "https://github.com/pointcz/hidesidebars",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "imageconverter": {
     "sha256": "27633f4c2b2a34805eb16019785422affa7090832ae28877a8f9ff03d2fa222c",
     "url": "https://github.com/major-mayer/imageconverter/releases/download/v.1.3.5/imageconverter.tar.gz",
@@ -1100,9 +1110,9 @@
     ]
   },
   "integration_excalidraw": {
-    "sha256": "399bd3234de7bb5037d46b3ae119fec681684f1f2ad97ebaf2897d4643bfcd3c",
-    "url": "https://github.com/nextcloud-releases/integration_excalidraw/releases/download/v2.0.4/integration_excalidraw-v2.0.4.tar.gz",
-    "version": "2.0.4",
+    "sha256": "81da6fed1d9cb770acd78945c7340874cdf644337c4b4a748599584de8af1ddf",
+    "url": "https://github.com/nextcloud-releases/integration_excalidraw/releases/download/v2.1.0/integration_excalidraw-v2.1.0.tar.gz",
+    "version": "2.1.0",
     "description": "Modern collaborative whiteboard in Nextcloud.\nThis integration app lets users create Excalidraw boards, share board links and open boards directly in Nextcloud.",
     "homepage": "https://github.com/eneiluj/integration_excalidraw",
     "licenses": [
@@ -1520,8 +1530,8 @@
     ]
   },
   "maps": {
-    "sha256": "dd70a39b5aec3e92e73845681cf6ac283644273c1e63b01ba80497a229871958",
-    "url": "https://github.com/nextcloud/maps/releases/download/v1.2.0/maps-1.2.0.tar.gz",
+    "sha256": "1c114f7dc56085623fdfcd484e0690085178416a2600ae244761bcd8c34685a2",
+    "url": "https://github.com/nextcloud/maps/releases/download/v1.2.0-2-nightly/maps-1.2.0-2-nightly.tar.gz",
     "version": "1.2.0",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
