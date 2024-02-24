@@ -1030,9 +1030,9 @@
     ]
   },
   "hidesidebars": {
-    "sha256": "8e8715f956138fdf16b6194d259e172ae6275ec18a3e2c64668b137f21d03a94",
-    "url": "https://github.com/pointcz/hidesidebars/releases/download/v2.2.1/hidesidebars.tar.gz",
-    "version": "2.2.1",
+    "sha256": "3be3ed2e962017b645c7b622b1e59f278bac85c3daebec1fd28e42ee6b09519d",
+    "url": "https://github.com/pointcz/hidesidebars/releases/download/v2.2.2/hidesidebars.tar.gz",
+    "version": "2.2.2",
     "description": "# Hide sidebars\n\nHide left sidebar and top header bar for use in iframe for example or some other scenarios.\n\n## Usage\nAdd `hide-sidebars` after `?` as query parameter to nextcloud url or with `dir` parameter after `&`.\n\nExamples:\n```\nhttp://nextcloud.example.com/index.php/apps/files/?hide-sidebars\nhttp://nextcloud.example.com/index.php/apps/files/?dir=/New%20folder&hide-sidebars\n```\n\nThis app from version 2.0.0 brings new config parameter `addAllowedFrameAncestorDomain`.\nFor usage in iframe you must update `lib/public/AppFramework/Http/ContentSecurityPolicy.php` manually\nor use this new parameter `addAllowedFrameAncestorDomain` in `config.php`\n\n```\n...\n'addAllowedFrameAncestorDomain' => '*.example.com:*'\n...\n```",
     "homepage": "https://github.com/pointcz/hidesidebars",
     "licenses": [
@@ -1120,9 +1120,9 @@
     ]
   },
   "integration_excalidraw": {
-    "sha256": "399bd3234de7bb5037d46b3ae119fec681684f1f2ad97ebaf2897d4643bfcd3c",
-    "url": "https://github.com/nextcloud-releases/integration_excalidraw/releases/download/v2.0.4/integration_excalidraw-v2.0.4.tar.gz",
-    "version": "2.0.4",
+    "sha256": "81da6fed1d9cb770acd78945c7340874cdf644337c4b4a748599584de8af1ddf",
+    "url": "https://github.com/nextcloud-releases/integration_excalidraw/releases/download/v2.1.0/integration_excalidraw-v2.1.0.tar.gz",
+    "version": "2.1.0",
     "description": "Modern collaborative whiteboard in Nextcloud.\nThis integration app lets users create Excalidraw boards, share board links and open boards directly in Nextcloud.",
     "homepage": "https://github.com/eneiluj/integration_excalidraw",
     "licenses": [
