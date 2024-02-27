@@ -509,6 +509,16 @@
       "agpl"
     ]
   },
+  "files_bpm": {
+    "sha256": "6ca76b63d9faa172eafa83d81b48f8d71bc1e4d6aa08a6fd9c17f0dfd2e616e6",
+    "url": "https://github.com/kirstenhh/nc-bpm-app/releases/download/v1.3.0/files_bpm-v1.3.0.tar.gz",
+    "version": "1.3.0",
+    "description": "A BPMN 2.0/DMN 1.3 Viewer and Editor",
+    "homepage": "https://github.com/kirstenhh/nc-bpm-app/",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "files_confidential": {
     "sha256": "7bf1813346dca2ca1366d887a3ba98ad9ded32252a5e530eb40d6a5b42fd0db3",
     "url": "https://github.com/nextcloud/files_confidential/releases/download/v2.0.1/files_confidential.tar.gz",
@@ -580,9 +590,9 @@
     ]
   },
   "files_retention": {
-    "sha256": "a0a61f921b1cfa71d6e7b5a52ca247b868ca0c0ba0f618717a82ba6b52744b10",
-    "url": "https://github.com/nextcloud-releases/files_retention/releases/download/v1.17.0/files_retention-v1.17.0.tar.gz",
-    "version": "1.17.0",
+    "sha256": "4dc3ec46d953daac6d5253d9a02c8dc842e2697b7fca2b5a98fbafab852dd771",
+    "url": "https://github.com/nextcloud-releases/files_retention/releases/download/v1.17.1/files_retention-v1.17.1.tar.gz",
+    "version": "1.17.1",
     "description": "An app for Nextcloud to control automatic deletion of files after a given time.\nOptionally the users can be informed the day before.",
     "homepage": "https://github.com/nextcloud/files_retention",
     "licenses": [
@@ -1580,9 +1590,9 @@
     ]
   },
   "polls": {
-    "sha256": "db945371059f47e55254d292932f7249c8a6fb44ccd7b96a614b6b6a895b9b8d",
-    "url": "https://github.com/nextcloud/polls/releases/download/v6.1.3/polls.tar.gz",
-    "version": "6.1.3",
+    "sha256": "e3277ed4916ca5d7073403c1c6c936f7a5d7484b45f84e5a7870efa0c9522f9a",
+    "url": "https://github.com/nextcloud/polls/releases/download/v6.1.5/polls.tar.gz",
+    "version": "6.1.5",
     "description": "A polls app, similar to Doodle/Dudle with the possibility to restrict access (members, certain groups/users, hidden and public).",
     "homepage": "https://github.com/nextcloud/polls",
     "licenses": [
@@ -1750,11 +1760,21 @@
     ]
   },
   "sendent": {
-    "sha256": "5e9b289ccb3a8c84c5df856372756c571228b4a10cef384567549f2fe0599404",
-    "url": "https://download.sendent.com/serverapp/2.0.5/sendent.tar.gz",
-    "version": "2.0.5",
-    "description": "Sendent allows you to securely exchange files and emails. Sendent is linked to Microsoft Outlook, so you can continue to work from your trusted email program while you mail more easily and securely. Very useful, for example, to share privacy-sensitive documents or content or to send attachments that are normally too large to email. All files are uploaded to your personal Nextcloud environment from which you determine who has access to them.",
-    "homepage": "https://www.sendent.nl",
+    "sha256": "206e2e92a49cb7c6a4eca30625dba88564aacd7b55d576085e2070ac593068d3",
+    "url": "https://download.sendent.com/serverapp/3.0.1/sendent.tar.gz",
+    "version": "3.0.1",
+    "description": "Sendent now securely exchanges files and emails, integrating with both Microsoft Outlook and Microsoft Teams. This enhanced capability allows users to seamlessly conduct their work, not only within their preferred email environment but also within the collaborative framework of Microsoft Teams. Whether sharing privacy-sensitive documents, content, or handling attachments that exceed standard email size constraints, Sendent ensures a streamlined and secure communication experience. All files are directed to your Nextcloud instance, empowering you to control and manage access permissions effectively.",
+    "homepage": "https://www.sendent.com",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "sendentsynchroniser": {
+    "sha256": "1aeb172f6548c50c135110d34c6bbe080f3e81e00c26a7f495039fefefdcbad6",
+    "url": "https://download.sendent.com/sendentsynchroniser/1.0.5/sendentsynchroniser.tar.gz",
+    "version": "1.0.5",
+    "description": "Say goodbye to manual updates! The Sendent Sync app, designed for the Nextcloud Exchange Connector, enables bi-directional syncing of agendas and contacts between your Microsoft Exchange and Nextcloud Hub. Focus on what truly matters – your work – while your data flows effortlessly.",
+    "homepage": "https://www.sendent.com",
     "licenses": [
       "agpl"
     ]
@@ -1770,9 +1790,9 @@
     ]
   },
   "sentry": {
-    "sha256": "f9f85f0b90f8dce67a157780f53baac93e82e4f8d429ae94b665c2e66c784f2e",
-    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.9.4/sentry-v8.9.4.tar.gz",
-    "version": "8.9.4",
+    "sha256": "507ceba2637fc9573736b8abc7447b016d00a719cd9736889ad7d396b1027024",
+    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.9.5/sentry-v8.9.5.tar.gz",
+    "version": "8.9.5",
     "description": "A Sentry integration that sends unhandled exceptions to a Sentry instance to aggregate application crashes. You either have to set up your own Sentry instance or use your sentry.io account. See the admin documentation for how to configure this app.",
     "homepage": "https://github.com/ChristophWurst/nextcloud_sentry",
     "licenses": [
@@ -2115,6 +2135,16 @@
     "version": "0.3.11",
     "description": "### Time tracking in Nextcloud!\n* 📁 **organize time entries** based on tasks, projects and clients\n* ⏱ **quickly record** a time entry for your latest tasks\n* ✅ **check or uncheck** a time entry (e.g. to save whether you've billed it)\n* 📈 make use of simple, but useful **statistics** and **reports**.\n\n_[View changelog](https://github.com/te-online/timemanager/blob/main/CHANGELOG.md) to see older releases_\n\n📱 **Looking for a mobile companion app?** Try the [Android app (currently in beta)](https://play.google.com/store/apps/details?id=de.jbservices.nc_timemanager_app) made by [@joleaf](https://gitlab.com/joleaf/nc-timemanager-mobile-app)",
     "homepage": "https://github.com/te-online/timemanager",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "timetracker": {
+    "sha256": "9b253262974dfbe0ab945890eaeedbb08c23991c8068a57a8cad613247b6d97a",
+    "url": "https://mtier.org/timetracker/timetracker-0.0.82.tar.gz",
+    "version": "0.0.82",
+    "description": "Track your time spent with different tasks each day using this time tracker app! Features include:\n\n# Adding entries\nWith the integrated timer, you only need to press start and stop! Times will be stored automatically, with 1-second-precision. Forgot to press start? Just use the manual editor, to add entries from the past. Or edit existing ones in case you need to change something!\n\n# Projects, Clients and Tags\nAssign tasks to projects and clients! This allows you to display aggregated durations for each project or client, or filter for tasks by projects or clients. You need some more categorization? That's what tags are made for! Create tags to categorize tasks independently from projects or clients.\n\n# Lost track of your work time?\nNo problem! Just use the Dashboard view to display a nice donut / pie chart of your tasks! Or filter for tasks in the Reports or Timeline view to display total or aggregated values.\n\nThis app is still under development, so stay tuned for updates and additional features! If you have any suggestions, bug reports or feature requests, feel free to head over to our [GitHub project page](https://github.com/mtierltd/timetracker) and search through the existing issues, maybe your topic is already under discussion! And if it's not, feel free to file a new issue for it.\n\nAnd for now, start making your time tracking easier by using this app!",
+    "homepage": "",
     "licenses": [
       "agpl"
     ]
