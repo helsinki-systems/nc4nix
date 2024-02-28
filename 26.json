@@ -310,8 +310,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -610,9 +610,9 @@
     ]
   },
   "files_bpm": {
-    "sha256": "70899be9df664ab38663543e1148318f2c1741d3417da124e83414604a19c8b7",
-    "url": "https://github.com/kirstenhh/nc-bpm-app/releases/download/v1.2.0/files_bpm-v1.2.0.tar.gz",
-    "version": "1.2.0",
+    "sha256": "6ca76b63d9faa172eafa83d81b48f8d71bc1e4d6aa08a6fd9c17f0dfd2e616e6",
+    "url": "https://github.com/kirstenhh/nc-bpm-app/releases/download/v1.3.0/files_bpm-v1.3.0.tar.gz",
+    "version": "1.3.0",
     "description": "A BPMN 2.0/DMN 1.3 Viewer and Editor",
     "homepage": "https://github.com/kirstenhh/nc-bpm-app/",
     "licenses": [
@@ -1230,8 +1230,8 @@
     ]
   },
   "integration_mattermost": {
-    "sha256": "9763a09cf94bdc5e46e1b07f64a4a5f34709b82d10b52cfabbcae9fd8cef9534",
-    "url": "https://github.com/nextcloud-releases/integration_mattermost/releases/download/v1.0.4/integration_mattermost-v1.0.4.tar.gz",
+    "sha256": "179fd8e25070c1fc1fe35841999f8e44475195649d1187592cd0c418d24f98db",
+    "url": "https://github.com/julien-nc/integration_mattermost/releases/download/v1.0.4-2-nightly/integration_mattermost-1.0.4-2-nightly.tar.gz",
     "version": "1.0.4",
     "description": "Mattermost integration provides a dashboard widget displaying your most important notifications\nand a unified search provider for messages. It also lets you send files to Mattermost from Nextcloud Files.",
     "homepage": "https://github.com/nextcloud/integration_mattermost",
@@ -2040,9 +2040,9 @@
     ]
   },
   "richdocuments": {
-    "sha256": "529d45b06ac6f82687d1aed1d5837d3d8147f4b492b55fdc4472f1df87639892",
-    "url": "https://github.com/nextcloud-releases/richdocuments/releases/download/v8.0.7/richdocuments-v8.0.7.tar.gz",
-    "version": "8.0.7",
+    "sha256": "89025243d8c3d5953772f18f7204d760c2c873f82d1954d4549f19b812db4ac8",
+    "url": "https://github.com/nextcloud-releases/richdocuments/releases/download/v8.0.8/richdocuments-v8.0.8.tar.gz",
+    "version": "8.0.8",
     "description": "This application can connect to a Collabora Online (or other) server (WOPI-like Client). Nextcloud is the WOPI Host. Please read the documentation to learn more about that.\n\nYou can also edit your documents off-line with the Collabora Office app from the **[Android](https://play.google.com/store/apps/details?id=com.collabora.libreoffice)** and **[iOS](https://apps.apple.com/us/app/collabora-office/id1440482071)** store.",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -2120,11 +2120,21 @@
     ]
   },
   "sendent": {
-    "sha256": "5e9b289ccb3a8c84c5df856372756c571228b4a10cef384567549f2fe0599404",
-    "url": "https://download.sendent.com/serverapp/2.0.5/sendent.tar.gz",
-    "version": "2.0.5",
-    "description": "Sendent allows you to securely exchange files and emails. Sendent is linked to Microsoft Outlook, so you can continue to work from your trusted email program while you mail more easily and securely. Very useful, for example, to share privacy-sensitive documents or content or to send attachments that are normally too large to email. All files are uploaded to your personal Nextcloud environment from which you determine who has access to them.",
-    "homepage": "https://www.sendent.nl",
+    "sha256": "206e2e92a49cb7c6a4eca30625dba88564aacd7b55d576085e2070ac593068d3",
+    "url": "https://download.sendent.com/serverapp/3.0.1/sendent.tar.gz",
+    "version": "3.0.1",
+    "description": "Sendent now securely exchanges files and emails, integrating with both Microsoft Outlook and Microsoft Teams. This enhanced capability allows users to seamlessly conduct their work, not only within their preferred email environment but also within the collaborative framework of Microsoft Teams. Whether sharing privacy-sensitive documents, content, or handling attachments that exceed standard email size constraints, Sendent ensures a streamlined and secure communication experience. All files are directed to your Nextcloud instance, empowering you to control and manage access permissions effectively.",
+    "homepage": "https://www.sendent.com",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "sendentsynchroniser": {
+    "sha256": "1aeb172f6548c50c135110d34c6bbe080f3e81e00c26a7f495039fefefdcbad6",
+    "url": "https://download.sendent.com/sendentsynchroniser/1.0.5/sendentsynchroniser.tar.gz",
+    "version": "1.0.5",
+    "description": "Say goodbye to manual updates! The Sendent Sync app, designed for the Nextcloud Exchange Connector, enables bi-directional syncing of agendas and contacts between your Microsoft Exchange and Nextcloud Hub. Focus on what truly matters – your work – while your data flows effortlessly.",
+    "homepage": "https://www.sendent.com",
     "licenses": [
       "agpl"
     ]
@@ -2140,9 +2150,9 @@
     ]
   },
   "sentry": {
-    "sha256": "f9f85f0b90f8dce67a157780f53baac93e82e4f8d429ae94b665c2e66c784f2e",
-    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.9.4/sentry-v8.9.4.tar.gz",
-    "version": "8.9.4",
+    "sha256": "507ceba2637fc9573736b8abc7447b016d00a719cd9736889ad7d396b1027024",
+    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.9.5/sentry-v8.9.5.tar.gz",
+    "version": "8.9.5",
     "description": "A Sentry integration that sends unhandled exceptions to a Sentry instance to aggregate application crashes. You either have to set up your own Sentry instance or use your sentry.io account. See the admin documentation for how to configure this app.",
     "homepage": "https://github.com/ChristophWurst/nextcloud_sentry",
     "licenses": [
@@ -2480,9 +2490,9 @@
     ]
   },
   "timetracker": {
-    "sha256": "80d636ab97ff112a008d49244ad43e3ade33b94ece7157253d4749705e1c5bb3",
-    "url": "https://mtier.org/timetracker/timetracker-0.0.81.tar.gz",
-    "version": "0.0.81",
+    "sha256": "9b253262974dfbe0ab945890eaeedbb08c23991c8068a57a8cad613247b6d97a",
+    "url": "https://mtier.org/timetracker/timetracker-0.0.82.tar.gz",
+    "version": "0.0.82",
     "description": "Track your time spent with different tasks each day using this time tracker app! Features include:\n\n# Adding entries\nWith the integrated timer, you only need to press start and stop! Times will be stored automatically, with 1-second-precision. Forgot to press start? Just use the manual editor, to add entries from the past. Or edit existing ones in case you need to change something!\n\n# Projects, Clients and Tags\nAssign tasks to projects and clients! This allows you to display aggregated durations for each project or client, or filter for tasks by projects or clients. You need some more categorization? That's what tags are made for! Create tags to categorize tasks independently from projects or clients.\n\n# Lost track of your work time?\nNo problem! Just use the Dashboard view to display a nice donut / pie chart of your tasks! Or filter for tasks in the Reports or Timeline view to display total or aggregated values.\n\nThis app is still under development, so stay tuned for updates and additional features! If you have any suggestions, bug reports or feature requests, feel free to head over to our [GitHub project page](https://github.com/mtierltd/timetracker) and search through the existing issues, maybe your topic is already under discussion! And if it's not, feel free to file a new issue for it.\n\nAnd for now, start making your time tracking easier by using this app!",
     "homepage": "",
     "licenses": [
