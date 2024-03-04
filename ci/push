@@ -1,20 +1,30 @@
 #!/usr/bin/env nix-shell
 #!nix-shell -i bash -p git openssh
-set -e
-set -u
-set -o pipefail
+# vi: ft=sh
+# shellcheck shell=bash
 
-# set up ssh
-eval $(ssh-agent -s)
-echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
-# set up git
+
+set -euo pipefail
+
+# Set up SSH
+eval "$(ssh-agent -s)"
+echo "${SSH_PRIVATE_KEY}" | tr -d '\r' | ssh-add - > /dev/null
+unset SSH_PRIVATE_KEY
+
+# Set up git
 git config user.name "GitLab CI"
 git config user.email "gitlab-ci@helsinki-systems.de"
+git remote rm origin || :
+git remote add origin git@"${CI_SERVER_HOST}":"${CI_PROJECT_PATH}"
+export GIT_SSH_COMMAND="ssh -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null"
 
-# check if no changes (happens some days)
+# TODO: Use CI_JOB_TOKEN instead. See https://gitlab.com/gitlab-org/gitlab/-/issues/389060
+#git remote add origin "https://gitlab-ci-token:${CI_JOB_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git"
+
+# Check for changes
 if ! git diff --quiet *.json; then
     # Commit and push
     git add *.json
     git commit -m "automatic update by ci"
-    git push git@"$GITLAB_HOST":helsinki-systems/nc4nix HEAD:main
+    git push origin HEAD:main
 fi
