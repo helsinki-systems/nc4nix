@@ -160,9 +160,9 @@
     ]
   },
   "calendar": {
-    "sha256": "e9bd7a72c14226166c7f43d85b275058e5ecfbe57ad5e5333ba84a9dca52ae2b",
-    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v4.6.5/calendar-v4.6.5.tar.gz",
-    "version": "4.6.5",
+    "sha256": "0rasf00cm5c32i3v70rs8dnr3qh3jgc7q6w6ah448khnr0i95zld",
+    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v4.6.6/calendar-v4.6.6.tar.gz",
+    "version": "4.6.6",
     "description": "The Calendar app is a user interface for Nextcloud's CalDAV server. Easily sync events from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Currently Contacts - more to come.\n* 🌐 **WebCal Support!** Want to see your favorite team’s matchdays in your calendar? No problem!\n* 🙋 **Attendees!** Invite people to your events\n* ⌚️ **Free/Busy!** See when your attendees are available to meet\n* ⏰ **Reminders!** Get alarms for events inside your browser and via email\n* 🔍 Search! Find your events at ease\n* ☑️ Tasks! See tasks with a due date directly in the calendar\n* 🙈 **We’re not reinventing the wheel!** Based on the great [c-dav library](https://github.com/nextcloud/cdav-library), [ical.js](https://github.com/mozilla-comm/ical.js) and [fullcalendar](https://github.com/fullcalendar/fullcalendar) libraries.",
     "homepage": "https://github.com/nextcloud/calendar/",
     "licenses": [
@@ -1540,8 +1540,8 @@
     ]
   },
   "maps": {
-    "sha256": "dd70a39b5aec3e92e73845681cf6ac283644273c1e63b01ba80497a229871958",
-    "url": "https://github.com/nextcloud/maps/releases/download/v1.2.0/maps-1.2.0.tar.gz",
+    "sha256": "049hrp79fj1bp9nk9isjrk427k238974x7gsj68jplxfrgq3sdkz",
+    "url": "https://github.com/nextcloud/maps/releases/download/v1.2.0-2-nightly/maps-1.2.0-2-nightly.tar.gz",
     "version": "1.2.0",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
@@ -2040,9 +2040,9 @@
     ]
   },
   "richdocuments": {
-    "sha256": "9e6a7574f3439483e290e69895354a16ff51a4a1c435e131a76e4f9572ae2868",
-    "url": "https://github.com/nextcloud-releases/richdocuments/releases/download/v8.2.4/richdocuments-v8.2.4.tar.gz",
-    "version": "8.2.4",
+    "sha256": "1a2xw3kr4kalv7f4lmna49b0rvds4jd92s48vcz8yhw3mh5wr1fj",
+    "url": "https://github.com/nextcloud-releases/richdocuments/releases/download/v8.2.5/richdocuments-v8.2.5.tar.gz",
+    "version": "8.2.5",
     "description": "This application can connect to a Collabora Online (or other) server (WOPI-like Client). Nextcloud is the WOPI Host. Please read the documentation to learn more about that.\n\nYou can also edit your documents off-line with the Collabora Office app from the **[Android](https://play.google.com/store/apps/details?id=com.collabora.libreoffice)** and **[iOS](https://apps.apple.com/us/app/collabora-office/id1440482071)** store.",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -2838,9 +2838,9 @@
     ]
   },
   "workspace": {
-    "sha256": "472fa94aa9a5377563348282fe5585127f8f192ec4b8b28a8593640e800de56e",
-    "url": "https://github.com/arawa/workspace/releases/download/v3.0.4/workspace-3.0.4.tar.gz",
-    "version": "3.0.4",
+    "sha256": "0qy0dcaf4c3f7zzmd12d12s161rsb07jq0xpsa9c56srvgnxz4xm",
+    "url": "https://github.com/arawa/workspace/releases/download/v3.0.5/workspace-3.0.5.tar.gz",
+    "version": "3.0.5",
     "description": "# Description\n\nWorkspace allows managers to :\n- Create shared workspaces\n- Delegate management of each workspace to users (workspace managers) in order for them to:\n    - choose members\n    - create groups\n    - configure advanced permissions on workspace folders\n- All through a simple unified interface, designed to simplify your users' experience and make them autonomous\n\nIt is necessary to install the Group Folders app for the Workspace app to work.\n\n# App configuration\n\nBefore using Workspace, you must configure the app, following these important steps:\n\n- Limit the Workspace app to specific groups : in your \"application management\" administrator interface, limit the application to the following groups: \"GeneralManager\" and \"WorkspacesManagers\".\n\n- Configure Groupfolders for Workspace:\n    - until Nextcloud 24 : in \"Settings\" > \"Group folders\" > \"Group folder admin delegation\" section, add the groups \"GeneralManager\" and \"WorkspacesManagers\".\n    - from Nextcloud 25 : in \"Settings\" > \"Group folders\" > \"Group folder admin delegation\" section, add the group \"GeneralManager\" to the **first** field, and the group \"WorkspacesManagers\" to the **second** field\n\nSince Workspace 2.0.0 for Nextcloud 25, our app is fully compatible with the standard Group folders app (since 13.1.0), available on [Nextcloud app store](https://apps.nextcloud.com/apps/groupfolders/).\n\n**Caution** if you are using a major version 24 of Nextcloud or earlier : to use our app, you need to install [our forked Groupfolders app](https://github.com/arawa/groupfolders), release [v9.2.1](https://github.com/arawa/groupfolders/releases/download/v9.2.1/groupfolders-9.2.1.tar.gz).\n\nFor more information, please visit [our website](https://www.arawa.fr/solutions/produits-arawa/arawa-workspace-for-nextcloud/) (french content).\n\nFor more details, please go to the [admin documentation](https://github.com/arawa/workspace/blob/main/README.md#installation).\n\n# Upgrade guideline\n\nThis section is very important to resolve rare bugs.\nWe try hard to do resolve major bugs and to have a better user experience.\n\n## v3.0.4\n\nFor this version, you should refresh your browser from the Workspace app with `Ctrl, Shift + R`.",
     "homepage": "",
     "licenses": [

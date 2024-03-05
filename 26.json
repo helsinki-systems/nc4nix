@@ -310,8 +310,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "0pjkw3fggmspyf4i1yy8maysrzz2b311yn2x2bz1jb7bavqfn8s8",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -1230,8 +1230,8 @@
     ]
   },
   "integration_mattermost": {
-    "sha256": "9763a09cf94bdc5e46e1b07f64a4a5f34709b82d10b52cfabbcae9fd8cef9534",
-    "url": "https://github.com/nextcloud-releases/integration_mattermost/releases/download/v1.0.4/integration_mattermost-v1.0.4.tar.gz",
+    "sha256": "02b6gbnvdiipql4s66262xn48hmxv92hq2v8xfvzli4lvsb689ag",
+    "url": "https://github.com/julien-nc/integration_mattermost/releases/download/v1.0.4-2-nightly/integration_mattermost-1.0.4-2-nightly.tar.gz",
     "version": "1.0.4",
     "description": "Mattermost integration provides a dashboard widget displaying your most important notifications\nand a unified search provider for messages. It also lets you send files to Mattermost from Nextcloud Files.",
     "homepage": "https://github.com/nextcloud/integration_mattermost",
@@ -2840,9 +2840,9 @@
     ]
   },
   "workspace": {
-    "sha256": "472fa94aa9a5377563348282fe5585127f8f192ec4b8b28a8593640e800de56e",
-    "url": "https://github.com/arawa/workspace/releases/download/v3.0.4/workspace-3.0.4.tar.gz",
-    "version": "3.0.4",
+    "sha256": "0qy0dcaf4c3f7zzmd12d12s161rsb07jq0xpsa9c56srvgnxz4xm",
+    "url": "https://github.com/arawa/workspace/releases/download/v3.0.5/workspace-3.0.5.tar.gz",
+    "version": "3.0.5",
     "description": "# Description\n\nWorkspace allows managers to :\n- Create shared workspaces\n- Delegate management of each workspace to users (workspace managers) in order for them to:\n    - choose members\n    - create groups\n    - configure advanced permissions on workspace folders\n- All through a simple unified interface, designed to simplify your users' experience and make them autonomous\n\nIt is necessary to install the Group Folders app for the Workspace app to work.\n\n# App configuration\n\nBefore using Workspace, you must configure the app, following these important steps:\n\n- Limit the Workspace app to specific groups : in your \"application management\" administrator interface, limit the application to the following groups: \"GeneralManager\" and \"WorkspacesManagers\".\n\n- Configure Groupfolders for Workspace:\n    - until Nextcloud 24 : in \"Settings\" > \"Group folders\" > \"Group folder admin delegation\" section, add the groups \"GeneralManager\" and \"WorkspacesManagers\".\n    - from Nextcloud 25 : in \"Settings\" > \"Group folders\" > \"Group folder admin delegation\" section, add the group \"GeneralManager\" to the **first** field, and the group \"WorkspacesManagers\" to the **second** field\n\nSince Workspace 2.0.0 for Nextcloud 25, our app is fully compatible with the standard Group folders app (since 13.1.0), available on [Nextcloud app store](https://apps.nextcloud.com/apps/groupfolders/).\n\n**Caution** if you are using a major version 24 of Nextcloud or earlier : to use our app, you need to install [our forked Groupfolders app](https://github.com/arawa/groupfolders), release [v9.2.1](https://github.com/arawa/groupfolders/releases/download/v9.2.1/groupfolders-9.2.1.tar.gz).\n\nFor more information, please visit [our website](https://www.arawa.fr/solutions/produits-arawa/arawa-workspace-for-nextcloud/) (french content).\n\nFor more details, please go to the [admin documentation](https://github.com/arawa/workspace/blob/main/README.md#installation).\n\n# Upgrade guideline\n\nThis section is very important to resolve rare bugs.\nWe try hard to do resolve major bugs and to have a better user experience.\n\n## v3.0.4\n\nFor this version, you should refresh your browser from the Workspace app with `Ctrl, Shift + R`.",
     "homepage": "",
     "licenses": [

@@ -130,9 +130,9 @@
     ]
   },
   "calendar": {
-    "sha256": "e9bd7a72c14226166c7f43d85b275058e5ecfbe57ad5e5333ba84a9dca52ae2b",
-    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v4.6.5/calendar-v4.6.5.tar.gz",
-    "version": "4.6.5",
+    "sha256": "0rasf00cm5c32i3v70rs8dnr3qh3jgc7q6w6ah448khnr0i95zld",
+    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v4.6.6/calendar-v4.6.6.tar.gz",
+    "version": "4.6.6",
     "description": "The Calendar app is a user interface for Nextcloud's CalDAV server. Easily sync events from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Currently Contacts - more to come.\n* 🌐 **WebCal Support!** Want to see your favorite team’s matchdays in your calendar? No problem!\n* 🙋 **Attendees!** Invite people to your events\n* ⌚️ **Free/Busy!** See when your attendees are available to meet\n* ⏰ **Reminders!** Get alarms for events inside your browser and via email\n* 🔍 Search! Find your events at ease\n* ☑️ Tasks! See tasks with a due date directly in the calendar\n* 🙈 **We’re not reinventing the wheel!** Based on the great [c-dav library](https://github.com/nextcloud/cdav-library), [ical.js](https://github.com/mozilla-comm/ical.js) and [fullcalendar](https://github.com/fullcalendar/fullcalendar) libraries.",
     "homepage": "https://github.com/nextcloud/calendar/",
     "licenses": [
@@ -1710,9 +1710,9 @@
     ]
   },
   "richdocuments": {
-    "sha256": "9d74d511d42ae38c80063f83b86c3f551602d1dc147346124e7ef3d117d0d4de",
-    "url": "https://github.com/nextcloud-releases/richdocuments/releases/download/v8.3.1/richdocuments-v8.3.1.tar.gz",
-    "version": "8.3.1",
+    "sha256": "0ns4vxh7iyffpmn4i4mnaw8y4ash0hxmyvi406zprg2wjpm31xmr",
+    "url": "https://github.com/nextcloud-releases/richdocuments/releases/download/v8.3.2/richdocuments-v8.3.2.tar.gz",
+    "version": "8.3.2",
     "description": "This application can connect to a Collabora Online (or other) server (WOPI-like Client). Nextcloud is the WOPI Host. Please read the documentation to learn more about that.\n\nYou can also edit your documents off-line with the Collabora Office app from the **[Android](https://play.google.com/store/apps/details?id=com.collabora.libreoffice)** and **[iOS](https://apps.apple.com/us/app/collabora-office/id1440482071)** store.",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -2435,6 +2435,16 @@
     "version": "1.13.0",
     "description": "Pass files on to external scripts depending on a defined set of rules.",
     "homepage": "https://github.com/nextcloud/workflow_script",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "workspace": {
+    "sha256": "0qy0dcaf4c3f7zzmd12d12s161rsb07jq0xpsa9c56srvgnxz4xm",
+    "url": "https://github.com/arawa/workspace/releases/download/v3.0.5/workspace-3.0.5.tar.gz",
+    "version": "3.0.5",
+    "description": "# Description\n\nWorkspace allows managers to :\n- Create shared workspaces\n- Delegate management of each workspace to users (workspace managers) in order for them to:\n    - choose members\n    - create groups\n    - configure advanced permissions on workspace folders\n- All through a simple unified interface, designed to simplify your users' experience and make them autonomous\n\nIt is necessary to install the Group Folders app for the Workspace app to work.\n\n# App configuration\n\nBefore using Workspace, you must configure the app, following these important steps:\n\n- Limit the Workspace app to specific groups : in your \"application management\" administrator interface, limit the application to the following groups: \"GeneralManager\" and \"WorkspacesManagers\".\n\n- Configure Groupfolders for Workspace:\n    - until Nextcloud 24 : in \"Settings\" > \"Group folders\" > \"Group folder admin delegation\" section, add the groups \"GeneralManager\" and \"WorkspacesManagers\".\n    - from Nextcloud 25 : in \"Settings\" > \"Group folders\" > \"Group folder admin delegation\" section, add the group \"GeneralManager\" to the **first** field, and the group \"WorkspacesManagers\" to the **second** field\n\nSince Workspace 2.0.0 for Nextcloud 25, our app is fully compatible with the standard Group folders app (since 13.1.0), available on [Nextcloud app store](https://apps.nextcloud.com/apps/groupfolders/).\n\n**Caution** if you are using a major version 24 of Nextcloud or earlier : to use our app, you need to install [our forked Groupfolders app](https://github.com/arawa/groupfolders), release [v9.2.1](https://github.com/arawa/groupfolders/releases/download/v9.2.1/groupfolders-9.2.1.tar.gz).\n\nFor more information, please visit [our website](https://www.arawa.fr/solutions/produits-arawa/arawa-workspace-for-nextcloud/) (french content).\n\nFor more details, please go to the [admin documentation](https://github.com/arawa/workspace/blob/main/README.md#installation).\n\n# Upgrade guideline\n\nThis section is very important to resolve rare bugs.\nWe try hard to do resolve major bugs and to have a better user experience.\n\n## v3.0.4\n\nFor this version, you should refresh your browser from the Workspace app with `Ctrl, Shift + R`.",
+    "homepage": "",
     "licenses": [
       "agpl"
     ]
