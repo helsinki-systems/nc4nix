@@ -310,8 +310,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -580,9 +580,9 @@
     ]
   },
   "files_antivirus": {
-    "sha256": "d8126b1f65bdbd63b3d132ef36c947038fd2600cd1764c13f1400138967c70e3",
-    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.4.2/files_antivirus-v5.4.2.tar.gz",
-    "version": "5.4.2",
+    "sha256": "2c6f26f9c385912c74ea442602bb0c695585ac8e3c609b30078278151bd7526d",
+    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.5.0/files_antivirus-v5.5.0.tar.gz",
+    "version": "5.5.0",
     "description": "Antivirus for files is an antivirus app for Nextcloud.\n\n* 🕵️‍♂️ When the user uploads a file, it's checked\n* ☢️ Uploaded and infected files will be deleted and a notification will be shown and/or sent via email\n* 🔎 Background Job to scan all files\n* ❓ Use ClamAV (open source), Kaspersky Scan Engine or an ICAP compatible scanner\n\nThis application inspects files that are uploaded to Nextcloud for viruses before they are written to the Nextcloud storage. If a file is identified as a virus, it is either logged or not uploaded to the server. The application relies on the underlying ClamAV virus scanning engine, which the admin points Nextcloud to when configuring the application. Alternatively, a Kaspersky Scan Engine can be configured, which has to run on a separate server.\nFor this app to be effective, the ClamAV virus definitions should be kept up to date. Also note that enabling this app will impact system performance as additional processing is required for every upload. More information is available in the Antivirus documentation.",
     "homepage": "",
     "licenses": [
@@ -640,19 +640,19 @@
     ]
   },
   "files_downloadlimit": {
-    "sha256": "f3aa3e89c75b6ee4d85b38cad8b112995519dc2ebf3787a21c6fc2254d69f427",
-    "url": "https://github.com/nextcloud-releases/files_downloadlimit/releases/download/v1.1.0/files_downloadlimit-v1.1.0.tar.gz",
-    "version": "1.1.0",
-    "description": "Allow to limit the number of downloads for link shares",
+    "sha256": "5c11e837ac51f128f8067f0292790ed8d805b3aae3bdcda9a15bbef0da0c734a",
+    "url": "https://github.com/nextcloud-releases/files_downloadlimit/releases/download/v1.2.0/files_downloadlimit-v1.2.0.tar.gz",
+    "version": "1.2.0",
+    "description": "This app allows limiting the number of downloads for external link shares.",
     "homepage": "https://github.com/nextcloud/files_downloadlimit",
     "licenses": [
       "agpl"
     ]
   },
   "files_external_ethswarm": {
-    "sha256": "4bf4c40ecf21ab84660a57cb7f325e79d28181bb113ae689a5059200ff743b76",
-    "url": "https://github.com/MetaProvide/nextcloud-swarm-plugin/releases/download/v0.2.4/files_external_ethswarm.tar.gz",
-    "version": "0.2.4",
+    "sha256": "cf8311aba43bd7dbb88818361cbe3f08cd435e3a366d70f22edeff4ee27eb54c",
+    "url": "https://github.com/MetaProvide/nextcloud-swarm-plugin/releases/download/v0.3.0/files_external_ethswarm.tar.gz",
+    "version": "0.3.0",
     "description": "# Nextcloud Swarm Plugin\n\n*Decentralized Sovereign cloud-storage comes to Nextcloud!*\n\nThis plugin brings [Swarm](https://www.ethswarm.org/) to [Nextcloud](https://nextcloud.com) - decentralized file-storage, connected to the blockchain.\n\n## Table of Contents\n\n- [Dependencies](#dependencies)\n- [Setup and Installation](#setup-and-installation)\n- [Usage](#usage)\n\t- [Settings](#settings)\n\t- [Using Swarm](#using-swarm)\n- [License](#license)\n\n## Dependencies\n\nTo use the plugin you need the following\n\n* A Nextcloud instance\n* A Bee node\n\n## Setup and Installation\n\nFor setting up a Bee node please have a look at the [official documentation](https://docs.ethswarm.org/docs/installation/quick-start)\n\nThe following steps explain how to configure a Bee node in Nextcloud.\n\n- Make sure the \"External Storage\" plugin is enabled\n- Install the \"External Storage: Swarm\" app from the Nextcloud App store\n- Navigate to External Storage Administration (Profile menu -> Settings -> External Storage)\n- Add the connection settings for a new Bee node\n- Navigate to Ethswarm Storage Administration (Profile menu -> Settings -> Ethswarm Storage)\n- Configure the Bee node - by default, encryption is active\n- To use a Bee node, it is necessary to [Purchase a Batch of new stamps](https://docs.ethswarm.org/docs/access-the-swarm/keep-your-data-alive) from the funds in the chequebook\n- Once the new batch is purchased, a unique batchId is generated. Once your batch has been purchased, it will take a few minutes for other Bee nodes in the Swarm to catch up and register your batch. Allow some time for your batch to propagate in the network before proceeding to the next step. This is indicated by the checkbox \"Usable\".\n- Uploading files to the swarm costs Bzz, so it is necessary to select a Batch as \"Active\". Only 1 batch is allowed to be Active for a given Bee node. Then click \"Save Settings\".\n\n## Usage\n\nFile handling operations involving the Bee node are integrated in the External Storage (\"Files\") section of Nextcloud.\n\nUsing the plugin, the main file operations that are available in Nextcloud are:\n\n- Upload file(s) to a Bee node\n- Download and view files\n- Copy/Move files from any External Storage to a Bee node\n- Copy files from a Bee node to any External Storage\n\n### Settings\n\nAvailable to users with administrative credentials, the external storage accepts configuration options from two places, the normal External Storage settings, which allows a user to configure the basic connection properties of a Bee node.\n\nSince every operation in Swarm costs money, it is important to view how much money is available to the Bee node directly and also provide a convenient way of handling the payment system in Swarm - all managed directly in Nextcloud. This is in a specific section with more advanced configuration for the Bee node, where the following settings can be viewed and edited:\n\n- Configure which Bee node to manage\n- View current status of the Bee node\n- Option to toggle encryption on and off\n- How much BZZ is available to the node\n- Any purchased stamp batches and the remaining balances\n- Have the option to purchase a new batch of stamps\n- Toggle the batch used for uploading files active/inactive\n\n### Using Swarm\n\nOnce setup and configured, the Bee node is ready to use.\n- Navigate to \"Files\" option on the menu -> \"External Storage\" and then the name of the Bee node.\n- You can then upload files just like you normally would in Nextcloud.\n- Once uploaded, it can be viewed internally or downloaded. It can also be copied to another storage.\n- Files from another Nextcloud storage can also be copied/moved to the Bee node.",
     "homepage": "https://github.com/MetaProvide/nextcloud-swarm-plugin",
     "licenses": [
@@ -960,9 +960,9 @@
     ]
   },
   "groupfolders": {
-    "sha256": "f41d741f5ccc2f3f7f1920e69d4a41cb29e56572f77f70623f3813fd4caa6e59",
-    "url": "https://github.com/nextcloud-releases/groupfolders/releases/download/v14.0.7/groupfolders-v14.0.7.tar.gz",
-    "version": "14.0.7",
+    "sha256": "c1c2da646cb674e36436c33038a2ba7a1c1e6b0a8a5daa1427f402b39bc0e9b7",
+    "url": "https://github.com/nextcloud-releases/groupfolders/releases/download/v14.0.8/groupfolders-v14.0.8.tar.gz",
+    "version": "14.0.8",
     "description": "Admin configured folders shared with everyone in a group.\n\nFolders can be configured from *Group folders* in the admin settings.\n\nAfter a folder is created, the admin can give access to the folder to one or more groups, control their write/sharing permissions and assign a quota for the folder.\n\nNote: Encrypting the contents of group folders is currently not supported.",
     "homepage": "https://github.com/nextcloud/groupfolders",
     "licenses": [
@@ -1090,9 +1090,9 @@
     ]
   },
   "integration_discourse": {
-    "sha256": "8a438b8d0e8d5ca2f19e845c0604508ddd45d840a483a5141f4b1d34e550a07e",
-    "url": "https://github.com/nextcloud-releases/integration_discourse/releases/download/v2.0.5/integration_discourse-v2.0.5.tar.gz",
-    "version": "2.0.5",
+    "sha256": "bd402ddd3c162ba7d55a7a15d2f3e0d551a07dc7e18ec3a758b6c4b2ef76c1b2",
+    "url": "https://github.com/nextcloud-releases/integration_discourse/releases/download/v2.0.6/integration_discourse-v2.0.6.tar.gz",
+    "version": "2.0.6",
     "description": "Discourse integration provides a dashboard widget displaying your important notifications\n    and the ability to find topics and posts with Nextcloud's unified search.",
     "homepage": "https://github.com/nextcloud/integration_discourse",
     "licenses": [
@@ -1570,8 +1570,8 @@
     ]
   },
   "maps": {
-    "sha256": "dd70a39b5aec3e92e73845681cf6ac283644273c1e63b01ba80497a229871958",
-    "url": "https://github.com/nextcloud/maps/releases/download/v1.2.0/maps-1.2.0.tar.gz",
+    "sha256": "1c114f7dc56085623fdfcd484e0690085178416a2600ae244761bcd8c34685a2",
+    "url": "https://github.com/nextcloud/maps/releases/download/v1.2.0-2-nightly/maps-1.2.0-2-nightly.tar.gz",
     "version": "1.2.0",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
@@ -1680,9 +1680,9 @@
     ]
   },
   "notes": {
-    "sha256": "a3e04aac5994e7283a6b92774f72e84cf1532ee695c2e4a94101268da5867a0c",
-    "url": "https://github.com/nextcloud-releases/notes/releases/download/v4.9.3/notes.tar.gz",
-    "version": "4.9.3",
+    "sha256": "bc987c9f905908916df495dee7c37efec438264cf264a0c5c18521264b26a083",
+    "url": "https://github.com/nextcloud-releases/notes/releases/download/v4.9.4/notes-v4.9.4.tar.gz",
+    "version": "4.9.4",
     "description": "The Notes app is a distraction free notes taking app for [Nextcloud](https://www.nextcloud.com/). It provides categories for better organization and supports formatting using [Markdown](https://en.wikipedia.org/wiki/Markdown) syntax. Notes are saved as files in your Nextcloud, so you can view and edit them with every Nextcloud client. Furthermore, a separate [REST API](https://github.com/nextcloud/notes/blob/master/docs/api/README.md) allows for an easy integration into third-party apps (currently, there are notes apps for [Android](https://github.com/nextcloud/notes-android), [iOS](https://github.com/nextcloud/notes-ios) and the [console](https://git.danielmoch.com/nncli/about) which allow convenient access to your Nextcloud notes). Further features include marking notes as favorites.",
     "homepage": "https://github.com/nextcloud/notes",
     "licenses": [
@@ -1740,9 +1740,9 @@
     ]
   },
   "oidc": {
-    "sha256": "ffc1de14948dc96fe9864d3e50a8d55d2f968e3a6dbcd63a5c4be1fcaa3eea38",
-    "url": "https://github.com/H2CK/oidc/releases/download/0.7.3/oidc-0.7.3.tar.gz",
-    "version": "0.7.3",
+    "sha256": "262ff2bff14f1b02d4b4a7c3166d0ef5feaf42410164b815643189e776522dcb",
+    "url": "https://github.com/H2CK/oidc/releases/download/0.8.0/oidc-0.8.0.tar.gz",
+    "version": "0.8.0",
     "description": "Nextcloud as OpenID Connect Identity Provider\n\nWith this app you can use Nextcloud as OpenID Connect Identity Provider. If other services\nare configured correctly, you are able to access those services with your Nextcloud login.\n\nFull documentation can be found at:\n\n- [User Documentation](https://github.com/H2CK/oidc/wiki#user-documentation)\n- [Developer Documentation](https://github.com/H2CK/oidc/wiki#developer-documentation)",
     "homepage": "https://github.com/H2CK/oidc",
     "licenses": [
@@ -2080,29 +2080,29 @@
     ]
   },
   "richdocumentscode": {
-    "sha256": "57c28671a2ff47ffac9d93adb395b67046cdeef58524c7aebcd31e8446058dfb",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.904/richdocumentscode.tar.gz",
-    "version": "23.5.904",
-    "description": "This app has to be installed and used together with the **[Nextcloud Office](https://apps.nextcloud.com/apps/richdocuments)** integration app.\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\nThis app provides a built-in server with all of the document editing features of Collabora Online. Easy to install, for personal use or for small teams. A bit slower than a standalone server and without the advanced scalability features.\n\nThe download is rather big so it is possible you experience a time-out when using the web interface. You can use the OCC command line tool to install the built-in server:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)",
+    "sha256": "af0de4024be6d56ef15b5d195e4a7deb2a8038f5bc9183689588ed5fb43e3d84",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.1001/richdocumentscode.tar.gz",
+    "version": "23.5.1001",
+    "description": "**This app has to be installed and used together with the [Nextcloud Office](https://apps.nextcloud.com/apps/richdocuments) integration app.**\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\n* This app provides a built-in server with all of the document editing features of Collabora Online. \n* Easy to install, for personal use or for small teams. \n* A bit slower than a standalone server and without the advanced scalability features.\n\n**System Requirements:**\n- Linux running on ```x86-64``` or ```arm64/aarch64```\n- A ```glibc``` based distribution/container (```musl libc``` is **not** supported)\n- Fontconfig (```libfontconfig.so.1```)\n- Additional requirements can be found in [here](https://github.com/CollaboraOnline/richdocumentscode#richdocumentscode)\n          \n*The download is rather big so it is possible you will experience a time-out when installing via the web interface.* You can use the OCC command install the built-in server from the command-line instead:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)\n\nAdditional troubleshooting tips can be found [here](https://github.com/CollaboraOnline/richdocumentscode?tab=readme-ov-file#troubleshooting).",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
       "apache"
     ]
   },
   "richdocumentscode_arm64": {
-    "sha256": "5ccc0c3b6208942a5ba32456ff93751f07cbd85f9d2e652144ecfbd37f4331ea",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.904/richdocumentscode_arm64.tar.gz",
-    "version": "23.5.904",
-    "description": "This app has to be installed and used together with the **[Nextcloud Office](https://apps.nextcloud.com/apps/richdocuments)** integration app.\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\nThis app provides a built-in server with all of the document editing features of Collabora Online. Easy to install, for personal use or for small teams. A bit slower than a standalone server and without the advanced scalability features.\n\nThe download is rather big so it is possible you experience a time-out when using the web interface. You can use the OCC command line tool to install the built-in server:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode_arm64\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)",
+    "sha256": "c43f69cba356adaa36daaf246b2791e03617a3cd90da38109df93f847eb26c75",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.1001/richdocumentscode_arm64.tar.gz",
+    "version": "23.5.1001",
+    "description": "**This app has to be installed and used together with the [Nextcloud Office](https://apps.nextcloud.com/apps/richdocuments) integration app.**\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\n* This app provides a built-in server with all of the document editing features of Collabora Online. \n* Easy to install, for personal use or for small teams. \n* A bit slower than a standalone server and without the advanced scalability features.\n\n**System Requirements:**\n- Linux running on ```x86-64``` or ```arm64/aarch64```\n- A ```glibc``` based distribution/container (```musl libc``` is **not** supported)\n- Fontconfig (```libfontconfig.so.1```)\n- Additional requirements can be found in [here](https://github.com/CollaboraOnline/richdocumentscode#richdocumentscode)\n          \n*The download is rather big so it is possible you will experience a time-out when installing via the web interface.* You can use the OCC command install the built-in server from the command-line instead:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode_arm64\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)\n\nAdditional troubleshooting tips can be found [here](https://github.com/CollaboraOnline/richdocumentscode?tab=readme-ov-file#troubleshooting).",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
       "apache"
     ]
   },
   "riotchat": {
-    "sha256": "3acbc1a05ec802cec1b67854de0ad5194a0c1f111b1096e42c6433c04ea189fa",
-    "url": "https://github.com/gary-kim/riotchat/releases/download/v0.16.8/riotchat.tar.gz",
-    "version": "0.16.8",
+    "sha256": "2c62295c9e71e1404ab765731ee676e9542308f62617f767518dd183bff40605",
+    "url": "https://github.com/gary-kim/riotchat/releases/download/v0.16.9/riotchat.tar.gz",
+    "version": "0.16.9",
     "description": "Element for Nextcloud allows you to install Element Web easily through Nextcloud and join the Matrix decentralized communication network.\n\nThis app does not include a Matrix server, only the client. You will have to either set up your own Matrix homeserver, rent one, or use a public one.\n\nThis project is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Element or the Element project, or any of its subsidiaries or its affiliates.\n\nThe name Element as well as related names, marks, emblems and images are registered trademarks of their respective owners.\n\nThe upstream project can be found at [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web).",
     "homepage": "https://github.com/gary-kim/riotchat",
     "licenses": [
