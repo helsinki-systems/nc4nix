@@ -320,8 +320,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -380,9 +380,9 @@
     ]
   },
   "documentserver_community": {
-    "sha256": "1e04a0aa09b44d86216928e5724ad32aa9961830d5ba5ae49704f25e6d607190",
+    "sha256": "b6d9302e0f4dc675f5dcd6e91fa915fbc5c68cb6fc4219a23e6dfd7673c0e4e0",
     "url": "https://github.com/chadek/documentserver_community/releases/download/v0.1.16/documentserver_community.tar.gz",
-    "version": "0.1.15",
+    "version": "0.1.16",
     "description": "Document server for OnlyOffice, community edition.\n\nThe community document server is designed to make it easy to get OnlyOffice running in a Nextcloud instance without the need to setup an external document server,\nthe community document server does not support all features of the official OnlyOffice document server and does not provide the same performance and scalability.\n\nIf you are setting up a larger instance or require the additional performance, please see https://onlyoffice.com for options for getting the official document server.\n\nThe community document server will automatically be configured if no other document server is configured for OnlyOffice.\n\nAdditionally, the community document server only supports running on x86-64 Linux servers.",
     "homepage": "https://github.com/nextcloud/documentserver_community",
     "licenses": [
@@ -1490,9 +1490,9 @@
     ]
   },
   "nextpod": {
-    "sha256": "35f595fa2e2fa36052da271faff8a968d5db9e0d11fef291f99fee5180f167cc",
-    "url": "https://github.com/pbek/nextcloud-nextpod/releases/download/v0.7.4/nextpod-nc.tar.gz",
-    "version": "0.7.4",
+    "sha256": "5debd5d5faac883fe5a5b164070a7c4b57cb7b4b95c0cc9e4f5fc102dde86e96",
+    "url": "https://github.com/pbek/nextcloud-nextpod/releases/download/v0.7.5/nextpod-nc.tar.gz",
+    "version": "0.7.5",
     "description": "This Nextcloud app lets you visualize your podcast subscriptions and episode downloads from\n[GPodderSync](https://apps.nextcloud.com/apps/gpoddersync), which acts as a basic gpodder.net\napi to sync podcast consumer apps (podcatchers) like AntennaPod.\n\nYou need to have [GPodderSync](https://apps.nextcloud.com/apps/gpoddersync) installed to use this app!",
     "homepage": "https://github.com/pbek/nextcloud-nextpod",
     "licenses": [
@@ -1700,9 +1700,9 @@
     ]
   },
   "polls": {
-    "sha256": "1705edfd9fec75ac398e656c6fe200d2e759c2191b5d0f737c617de529fd49af",
-    "url": "https://github.com/nextcloud/polls/releases/download/v7.0.0/polls.tar.gz",
-    "version": "7.0.0",
+    "sha256": "ad82463fe227330a0ae53b219b961256305eb37318e790d55675476231dec248",
+    "url": "https://github.com/nextcloud/polls/releases/download/v7.0.2/polls.tar.gz",
+    "version": "7.0.2",
     "description": "A polls app, similar to Doodle/Dudle with the possibility to restrict access (members, certain groups/users, hidden and public).",
     "homepage": "https://github.com/nextcloud/polls",
     "licenses": [
@@ -1740,9 +1740,9 @@
     ]
   },
   "qownnotesapi": {
-    "sha256": "9a92cd44b1a699cff20e1d3e65253fa1c1ebeefde9013a1bedb09604494af73c",
-    "url": "https://github.com/pbek/qownnotesapi/releases/download/v23.12.0/qownnotesapi-nc.tar.gz",
-    "version": "23.12.0",
+    "sha256": "9354a6d193bdab1f4a980182198ba970b78c4a594a5263a53d25206d656ba88e",
+    "url": "https://github.com/pbek/qownnotesapi/releases/download/v24.4.0/qownnotesapi-nc.tar.gz",
+    "version": "24.4.0",
     "description": "QOwnNotesAPI is the Nextcloud/ownCloud API for [QOwnNotes](http://www.qownnotes.org), the open source notepad for Linux, macOS and Windows, that works together with the notes application of Nextcloud/ownCloud.\n\nThe only purpose of this App is to provide API access to your Nextcloud/ownCloud server for your QOwnNotes desktop installation, you cannot use this App for anything else, if you don't have QOwnNotes installed on your desktop computer!",
     "homepage": "https://github.com/pbek/qownnotesapi",
     "licenses": [
@@ -2389,6 +2389,16 @@
       "agpl"
     ]
   },
+  "user_external": {
+    "sha256": "91e0b42466b35774ec69093aa9db30b11cab8831539bb7892290662a3c98e1f8",
+    "url": "https://github.com/nextcloud-releases/user_external/releases/download/v3.3.0/user_external-v3.3.0.tar.gz",
+    "version": "3.3.0",
+    "description": "Use external user authentication methods to give users acces to your Nextcloud instance:\n\n* IMAP\n* SMB\n* FTP\n* WebDAV\n* HTTP BasicAuth\n* SSH\n* XMPP\n\nRead the [documentation](https://github.com/nextcloud/user_external#readme) to learn how to configure it!",
+    "homepage": "https://github.com/nextcloud/user_external/",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "user_migration": {
     "sha256": "d4ece67c87427a53866de4c7e18f2109e9e13c423b947131ffb31de81e06cd09",
     "url": "https://github.com/nextcloud-releases/user_migration/releases/download/v5.0.0/user_migration-v5.0.0.tar.gz",
@@ -2460,9 +2470,9 @@
     ]
   },
   "webapppassword": {
-    "sha256": "877d80cebc5cea520aae75370357197516e280a06e7b8be43a5b42c18182b4d5",
-    "url": "https://github.com/digital-blueprint/webapppassword/releases/download/v24.1.1/webapppassword.tar.gz",
-    "version": "24.1.1",
+    "sha256": "ad35314b31f60dd8942ff6f37fbf45ba21e6cef520db9678e5e2ef2a073ff9ac",
+    "url": "https://github.com/digital-blueprint/webapppassword/releases/download/v24.4.0/webapppassword.tar.gz",
+    "version": "24.4.0",
     "description": "Temporary app password generator and WebDAV/CalDAV CORS header injection to be able to access the\nNextcloud WebDAV/CalDAV service from inside web applications. There also is a files sharing api endpoint with CORS header injection.\n\nThere is an [example implementation](https://github.com/digital-blueprint/webapppassword/blob/main/docs/example/index.html)\nthat uses this app to generate a temporary password and make a WebDAV request to a Nextcloud instance\n([docker container](https://github.com/digital-blueprint/webapppassword/tree/main/docker) included).\n\nSee [Example](https://github.com/digital-blueprint/webapppassword#example) for a Nextcloud WebDAV file picker example\nthat uses this application.",
     "homepage": "https://github.com/digital-blueprint/webapppassword",
     "licenses": [
@@ -2510,9 +2520,9 @@
     ]
   },
   "workflow_media_converter": {
-    "sha256": "c1e1dd4bdaa18cd2c603ad9c289743c1695739cf49f14be33f6a7fbb5332efaf",
-    "url": "https://github.com/cwilby/nextcloud-workflow-media-converter/releases/download/v1.10.1/workflow_media_converter.tar.gz",
-    "version": "1.10.1",
+    "sha256": "1478f2bd71fe0da1446f8da639c40ab5a0e49bfd39ae634f12021e603e8a628d",
+    "url": "https://github.com/cwilby/nextcloud-workflow-media-converter/releases/download/v1.10.2/workflow_media_converter.tar.gz",
+    "version": "1.10.2",
     "description": "A dedicated media conversion manager for Nextcloud that allows you to automate media conversion.\n\n**Features**\n * Convert video/audio between formats supported by FFmpeg.\n * Complete control of the conversion process.\n * Automatically convert media as it is uploaded.\n * Create batch jobs to convert existing media.",
     "homepage": "https://github.com/cwilby/nextcloud-workflow-media-converter",
     "licenses": [
