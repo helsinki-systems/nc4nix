@@ -100,9 +100,9 @@
     ]
   },
   "auto_groups": {
-    "sha256": "0a5b12efa608d00e07a6dc9df3ae765ee6e5676bf55e3167bb8beff322defcb3",
-    "url": "https://github.com/stjosh/auto_groups/releases/download/v1.5.2/auto_groups-v1.5.2.tar.gz",
-    "version": "1.5.2",
+    "sha256": "c320513dcb12b36b3a0c10f6555f21c9ec61ac9e89bd5001f7a8a1c5d5ec09f1",
+    "url": "https://github.com/stjosh/auto_groups/releases/download/v1.5.3/auto_groups-v1.5.3.tar.gz",
+    "version": "1.5.3",
     "description": "Automatically add users to the specified Auto Groups, except those users belonging to one of the specified Override Groups. \nOptionally, the group assignment can be triggered on every successful login, which is useful for external user backends.\n\n## Configuration\n\n- Go to \"Settings > Administration > Additional settings\"\n- Configure the Auto Groups\n- If required, configure the Override Groups (e.g., for Service Accounts)\n- Optionally, enable the Login Hook, which will enforce correct group membership on every successful login\n\nNote that this app prevents group deletions for groups referenced as Auto Groups or Override Groups.\n\n## Comparison to similar Apps\n\n* [Everyone Group](https://apps.nextcloud.com/apps/group_everyone): The \"Everyone Group\" app adds a virtual Group Backend, always returning all users. In contrast, \"Auto Groups\" operates on \"real\" groups in your normal Group Backend. Additionally, it is possible to specify Override Groups which will prevent users from being added to the Auto Group(s).\n* [Default Group](https://apps.nextcloud.com/apps/defaultgroup): \"Auto Groups\" is actually a modernized and maintaned fork of \"Default Group\", which seems to be abandoned since NC12 or so. In terms of functionality, they are almost identical.\n\nIn addition, I plan to add some more features over time, e.g., \"Union Groups\" - see the [Milestone Plans](https://github.com/stjosh/auto_groups/milestones) for more details.",
     "homepage": "https://github.com/stjosh/auto_groups",
     "licenses": [
@@ -620,9 +620,9 @@
     ]
   },
   "files_linkeditor": {
-    "sha256": "0a1d1a87b704ae002ca6213966f659ac76aba8006cc45e3ae2d845d15f15a485",
-    "url": "https://github.com/te-online/nextcloud-app-releases/raw/main/files_linkeditor/v1.1.19/files_linkeditor.tar.gz",
-    "version": "1.1.19",
+    "sha256": "7ad6fe25e7d7dfb243ca9977a28c78f0deb1f4a3ecbf9036d1a23306f41a57c5",
+    "url": "https://github.com/te-online/nextcloud-app-releases/raw/main/files_linkeditor/v1.1.20/files_linkeditor.tar.gz",
+    "version": "1.1.20",
     "description": "### External web links in Nextcloud!\n* ✍️ **create and edit** .URL and .webloc links in the file view\n* 🌍 **open links** by clicking them and confirming you want to go to the external site\n* 📤 **works in public shares** so you can share links easily with others\n* 🔄 **sync your links** as .URL and .webloc are web links as created on most operating systems.\n\n_[View changelog](https://github.com/te-online/files_linkeditor/blob/main/CHANGELOG.md)_",
     "homepage": "https://github.com/te-online/files_linkeditor",
     "licenses": [
@@ -1590,9 +1590,9 @@
     ]
   },
   "onlyoffice": {
-    "sha256": "eaa3540ca445b6dfae460b33629fb2f780397c095ce132e2cfb768afa51d1432",
-    "url": "https://github.com/ONLYOFFICE/onlyoffice-nextcloud/releases/download/v9.0.0/onlyoffice.tar.gz",
-    "version": "9.0.0",
+    "sha256": "b784d1296805832d98fd64af8d93f6e9b955e5532fcad2750e769b3153ccf18d",
+    "url": "https://github.com/ONLYOFFICE/onlyoffice-nextcloud/releases/download/v9.1.0/onlyoffice.tar.gz",
+    "version": "9.1.0",
     "description": "ONLYOFFICE connector allows you to view, edit and collaborate on text documents, spreadsheets and presentations within Nextcloud using ONLYOFFICE Docs. This will create a new Edit in ONLYOFFICE action within the document library for Office documents. This allows multiple users to co-author documents in real time from the familiar web interface and save the changes back to your file storage.",
     "homepage": "https://www.onlyoffice.com",
     "licenses": [
@@ -1730,9 +1730,9 @@
     ]
   },
   "polls": {
-    "sha256": "ad82463fe227330a0ae53b219b961256305eb37318e790d55675476231dec248",
-    "url": "https://github.com/nextcloud/polls/releases/download/v7.0.2/polls.tar.gz",
-    "version": "7.0.2",
+    "sha256": "ae0b3f5ab44946f687cba2e92048afdadb46b8bf260151f962e745d94d2a8eff",
+    "url": "https://github.com/nextcloud/polls/releases/download/v7.0.3/polls.tar.gz",
+    "version": "7.0.3",
     "description": "A polls app, similar to Doodle/Dudle with the possibility to restrict access (members, certain groups/users, hidden and public).",
     "homepage": "https://github.com/nextcloud/polls",
     "licenses": [
@@ -2030,9 +2030,9 @@
     ]
   },
   "side_menu": {
-    "sha256": "d7785d263a9e480267fc289aa36271da2651e32e7e3a0396ed58a91e2f2f20ea",
-    "url": "https://gitnet.fr/deblan/side_menu/releases/download/v3.11.8/side_menu_v3.11.8.tar.gz",
-    "version": "3.11.8",
+    "sha256": "5c0a4537972b9f64bc04dd0867f18b004b5acf0aa5920f8272c27885eb0b6d2c",
+    "url": "https://gitnet.fr/deblan/side_menu/releases/download/v3.12.0/side_menu_v3.12.0.tar.gz",
+    "version": "3.12.0",
     "description": "Custom menu allows you to modify the position of the main menu by creating a panel on the left of the interface or with a big menu on the top.\nYou can also define apps that must be displayed in the top menu. Fully customisable.\n\nThis application is rather suitable for instances that activate a lot of applications.\n\nUse the shortcut `Ctrl`+`o` to open and to hide the side menu. Use `tab` to navigate.\n\nYou can customize colors depending of the theme (Dark theme and Breeze Dark).\n\nYou can report a bug or request a feature by opening an issue.\n\nRequirements:\n\n* PHP >= 8.0\n* App `theming` enabled\n\nIf you like this application and if you want to support the development:\n\n* [Buy me a coffee](https://www.buymeacoffee.com/deblan)\n* [Donate with liberapay](https://liberapay.com/deblan)\n* [Leave a comment](https://apps.nextcloud.com/apps/side_menu#comments)\n\nNotice\n------\n\nBecause I believe in a free and decentralized Internet, [Gitnet](https://gitnet.fr) is **self-hosted at home**.\nIn case of downtime, you can download **Custom Menu** from [here](https://kim.deblan.fr/~side_menu/).",
     "homepage": "https://gitnet.fr/deblan/side_menu",
     "licenses": [
