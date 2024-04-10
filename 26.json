@@ -80,9 +80,9 @@
     ]
   },
   "auto_groups": {
-    "sha256": "0a5b12efa608d00e07a6dc9df3ae765ee6e5676bf55e3167bb8beff322defcb3",
-    "url": "https://github.com/stjosh/auto_groups/releases/download/v1.5.2/auto_groups-v1.5.2.tar.gz",
-    "version": "1.5.2",
+    "sha256": "c320513dcb12b36b3a0c10f6555f21c9ec61ac9e89bd5001f7a8a1c5d5ec09f1",
+    "url": "https://github.com/stjosh/auto_groups/releases/download/v1.5.3/auto_groups-v1.5.3.tar.gz",
+    "version": "1.5.3",
     "description": "Automatically add users to the specified Auto Groups, except those users belonging to one of the specified Override Groups. \nOptionally, the group assignment can be triggered on every successful login, which is useful for external user backends.\n\n## Configuration\n\n- Go to \"Settings > Administration > Additional settings\"\n- Configure the Auto Groups\n- If required, configure the Override Groups (e.g., for Service Accounts)\n- Optionally, enable the Login Hook, which will enforce correct group membership on every successful login\n\nNote that this app prevents group deletions for groups referenced as Auto Groups or Override Groups.\n\n## Comparison to similar Apps\n\n* [Everyone Group](https://apps.nextcloud.com/apps/group_everyone): The \"Everyone Group\" app adds a virtual Group Backend, always returning all users. In contrast, \"Auto Groups\" operates on \"real\" groups in your normal Group Backend. Additionally, it is possible to specify Override Groups which will prevent users from being added to the Auto Group(s).\n* [Default Group](https://apps.nextcloud.com/apps/defaultgroup): \"Auto Groups\" is actually a modernized and maintaned fork of \"Default Group\", which seems to be abandoned since NC12 or so. In terms of functionality, they are almost identical.\n\nIn addition, I plan to add some more features over time, e.g., \"Union Groups\" - see the [Milestone Plans](https://github.com/stjosh/auto_groups/milestones) for more details.",
     "homepage": "https://github.com/stjosh/auto_groups",
     "licenses": [
@@ -200,9 +200,9 @@
     ]
   },
   "certificate24": {
-    "sha256": "d620473fdc1afef9a9902d574b7914ecc6d96d640242e58e4349870b3362628a",
-    "url": "https://github.com/strukturag/nextcloud-certificate24/releases/download/v0.2.2/certificate24.tar.gz",
-    "version": "0.2.2",
+    "sha256": "079337c8a232473ab4b7576c0a87551e94e9d00a4178b8759ac07d124021e304",
+    "url": "https://github.com/strukturag/nextcloud-certificate24/releases/download/v0.2.3/certificate24.tar.gz",
+    "version": "0.2.3",
     "description": "Certificate24 - Digital Document Signature\n\nWith Certificate24 you can request digital signatures of documents stored in your Nextcloud from other users in Nextcloud or from external users (by email).\n\nSee [the website](https://www.certificate24.com) for further information.",
     "homepage": "https://www.certificate24.com",
     "licenses": [
@@ -310,8 +310,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -690,9 +690,9 @@
     ]
   },
   "files_linkeditor": {
-    "sha256": "0a1d1a87b704ae002ca6213966f659ac76aba8006cc45e3ae2d845d15f15a485",
-    "url": "https://github.com/te-online/nextcloud-app-releases/raw/main/files_linkeditor/v1.1.19/files_linkeditor.tar.gz",
-    "version": "1.1.19",
+    "sha256": "7ad6fe25e7d7dfb243ca9977a28c78f0deb1f4a3ecbf9036d1a23306f41a57c5",
+    "url": "https://github.com/te-online/nextcloud-app-releases/raw/main/files_linkeditor/v1.1.20/files_linkeditor.tar.gz",
+    "version": "1.1.20",
     "description": "### External web links in Nextcloud!\n* ✍️ **create and edit** .URL and .webloc links in the file view\n* 🌍 **open links** by clicking them and confirming you want to go to the external site\n* 📤 **works in public shares** so you can share links easily with others\n* 🔄 **sync your links** as .URL and .webloc are web links as created on most operating systems.\n\n_[View changelog](https://github.com/te-online/files_linkeditor/blob/main/CHANGELOG.md)_",
     "homepage": "https://github.com/te-online/files_linkeditor",
     "licenses": [
@@ -1570,8 +1570,8 @@
     ]
   },
   "maps": {
-    "sha256": "dd70a39b5aec3e92e73845681cf6ac283644273c1e63b01ba80497a229871958",
-    "url": "https://github.com/nextcloud/maps/releases/download/v1.2.0/maps-1.2.0.tar.gz",
+    "sha256": "1c114f7dc56085623fdfcd484e0690085178416a2600ae244761bcd8c34685a2",
+    "url": "https://github.com/nextcloud/maps/releases/download/v1.2.0-2-nightly/maps-1.2.0-2-nightly.tar.gz",
     "version": "1.2.0",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
@@ -1730,9 +1730,9 @@
     ]
   },
   "officeonline": {
-    "sha256": "a7a2a89c5cc15bf1ac47b9469a1dc3351d7eabbe016304fcfb31b94faceab750",
-    "url": "https://github.com/nextcloud-releases/officeonline/releases/download/v2.1.0/officeonline-v2.1.0.tar.gz",
-    "version": "2.1.0",
+    "sha256": "3a96d31df7ad071272c54f31166b55f1f43d3b4c6c4e9b16495f18cde9d69531",
+    "url": "https://github.com/nextcloud-releases/officeonline/releases/download/v2.1.1/officeonline-v2.1.1.tar.gz",
+    "version": "2.1.1",
     "description": "This application can connect to an Office Online server with Nextcloud.",
     "homepage": "",
     "licenses": [
@@ -1890,9 +1890,9 @@
     ]
   },
   "permissions_overwrite": {
-    "sha256": "b05579499c36ac4f3ef28a68b88f80c1ad453c001d24708613a6c68c2f642218",
-    "url": "https://github.com/icewind1991/permissions_overwrite/releases/download/v0.1.11/permissions_overwrite-v0.1.11.tar.gz",
-    "version": "0.1.11",
+    "sha256": "93bd0d8570038d4a5b835bd5fe3f7144acc3bd0a964512e204770edbbe90b853",
+    "url": "https://github.com/icewind1991/permissions_overwrite/releases/download/v0.1.12/permissions_overwrite-v0.1.12.tar.gz",
+    "version": "0.1.12",
     "description": "Allow overwriting external storage permissions.",
     "homepage": "",
     "licenses": [
@@ -2110,9 +2110,9 @@
     ]
   },
   "root_cache_cleaner": {
-    "sha256": "0a8f14da8470bbc66c4d99837d4c8b30e00a1763218d1e9fc92caa27d22b183a",
-    "url": "https://github.com/icewind1991/root_cache_cleaner/releases/download/v0.1.6/root_cache_cleaner-v0.1.6.tar.gz",
-    "version": "0.1.6",
+    "sha256": "caf8aa1c8e48387f24ba9c85e163006a6a88de191a8c4ff602698bacba4362c2",
+    "url": "https://github.com/icewind1991/root_cache_cleaner/releases/download/v0.1.7/root_cache_cleaner-v0.1.7.tar.gz",
+    "version": "0.1.7",
     "description": "Clean duplicate items from the root filecache by deleting user specific entries that got indexed into the root cache by mistake.",
     "homepage": "https://github.com/icewind1991/root_cache_cleaner",
     "licenses": [
