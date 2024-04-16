@@ -310,8 +310,8 @@
     ]
   },
   "cpanelmailsync": {
-    "sha256": "61286c7355324a90cb2dbc20055741019c671460f2734103c2d4f40679ed04fa",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "sha256": "cbad10af74ccb4e06f5a0aa2868b3ab03322a13eb475cc7ba4ec8c7009505251",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -1353,7 +1353,7 @@
     "sha256": "9c85f05665eca35710ace09cac1f358f9a471d2cbe6f5609c7eaee0fb879ae7c",
     "url": "https://github.com/nextcloud-releases/integration_replicate/releases/download/v1.1.0/integration_replicate-v1.1.0.tar.gz",
     "version": "1.1.0",
-    "description": "The Replicate integration app provides a smart picker provider for Whisper translation/transcription and image generation.\nIt also provides a SpeechToText provider, a Text processing provider and an Image generation provider.\n\n## Ethical AI Rating\n### Rating: 🟡\n\nPositive:\n* The software for training and inferencing of this model is open source\n* The trained model is freely available, and thus can be ran on-premises\n* The training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\nNegative:\n* The software for training and inferencing of this model is proprietary, limiting running it locally or training by yourself\n* The trained model is not freely available, so the model can not be ran on-premises\n* The training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
+    "description": "The Replicate integration app provides a SpeechToText provider, a Text processing provider and an Image generation provider.\n\n⚠️ The smart pickers have been removed from this app\nas they are now included in the [Assistant app](https://apps.nextcloud.com/apps/assistant).\n\n## Ethical AI Rating\n### Speech-to-Text Rating: 🟡\n\nPositive:\n* The software for training and inference of this model is open source\n* The trained model is freely available, and thus can be run on-premises\n\nNegative:\n* The training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\n### Text processing Rating\n\nThe rating depends on the model you select to use.\n\n### Image generation Rating\n\nThe rating depends on the model you select to use.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/julien-nc/integration_replicate",
     "licenses": [
       "agpl"
@@ -1453,7 +1453,7 @@
     "sha256": "27d8c5557a66a1e0230c8fdcaec5c7549bcfbf10986a299656eab8ef79cbb0d3",
     "url": "https://github.com/jhass/nextcloud-keeweb/releases/download/v0.6.13/keeweb-0.6.13.tar.gz",
     "version": "0.6.13",
-    "description": "Open Keepass stores inside Nextcloud with Keeweb just by clicking on an *.kdbx file in your Nextcloud.\n        \n💀 KeeWeb itself not actively maintained since 2021 and may contain security issues 💀 Please move to an actively maintained developed app like Passman or Passwords.",
+    "description": "Open Keepass stores inside Nextcloud with Keeweb just by clicking on an *.kdbx file in your Nextcloud.\n        \nWARNING: As of March 2024 KeeWeb itself was not actively maintained since 2021 and may contain security issues. You may consider to choose an actively maintained developed app like Passman or Passwords. If this changes in the future, this notice will be updated accordingly.",
     "homepage": "https://github.com/jhass/nextcloud-keeweb",
     "licenses": [
       "agpl"
@@ -1570,8 +1570,8 @@
     ]
   },
   "maps": {
-    "sha256": "1c114f7dc56085623fdfcd484e0690085178416a2600ae244761bcd8c34685a2",
-    "url": "https://github.com/nextcloud/maps/releases/download/v1.2.0-2-nightly/maps-1.2.0-2-nightly.tar.gz",
+    "sha256": "dd70a39b5aec3e92e73845681cf6ac283644273c1e63b01ba80497a229871958",
+    "url": "https://github.com/nextcloud/maps/releases/download/v1.2.0/maps-1.2.0.tar.gz",
     "version": "1.2.0",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",

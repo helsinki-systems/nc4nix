@@ -80,10 +80,10 @@
     ]
   },
   "assistant": {
-    "sha256": "7fca7003b6e60b3fb138ee9da5bd790e2f806dacdaad30c82c83b5e6a85f89e4",
-    "url": "https://github.com/nextcloud-releases/assistant/releases/download/v1.0.7/assistant-v1.0.7.tar.gz",
-    "version": "1.0.7",
-    "description": "This app brings a user interface to use the Nextcloud text processing feature.\n\nIt allows users to launch AI tasks, be notified when they finish and see the results.\nThe assistant also appears in others apps like Text to easily process parts of a document.\n\n### How to use it\n\nA new right header menu entry appears. Once clicked, the assistant is displayed and you can select and task type and\nset the input you want to process.\n\nThe task might run immediately or be scheduled depending on the time estimation given by the AI provider.\nOnce a task is scheduled, it will run as a background job. When it is finished, you will receive a notification\nfrom which the results can be displayed.\n\nOther apps can integrate with the assistant. For example, Text will display an inline button besides every paragraph\nto directly select a task type to process this paragraph. Selecting a task this way will open the assistant with the task\nbeing pre-selected and the input text set.\n\n## Features\n\nIn the assistant, the list of available tasks depends on the available providers installed via other apps.\nThis means you have complete freedom over which service/software will actually run your AI tasks.\n\n### Text processing providers\n\nSo far, the [Large language model](https://github.com/nextcloud/llm#readme)\nand the [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai) apps\ninclude text processing providers to:\n* Summarize\n* Extract topics\n* Generate a headline\n* Get an answer from a free prompt\n* Reformulate (OpenAi/LocalAi only)\n* Context writer: Generate text with a specified style. The style can be described or provided via an example text.\n\n### Text to image (Image generation)\n\nKnown providers:\n* [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai)\n* [Text2Image Stable Diffusion](https://apps.nextcloud.com/apps/text2image_stablediffusion)\n\n### Speech to text (Audio transcription)\n\nKnown providers:\n* [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai)\n* [Local Whisper Speech-To-Text](https://apps.nextcloud.com/apps/stt_whisper)",
+    "sha256": "34ffacad203ec89289b652099edda5310be5cad39450fc6394f8d5f54de87e5c",
+    "url": "https://github.com/nextcloud-releases/assistant/releases/download/v1.0.8/assistant-v1.0.8.tar.gz",
+    "version": "1.0.8",
+    "description": "This app brings a user interface to use the Nextcloud text processing feature.\n\nIt allows users to launch AI tasks, be notified when they finish and see the results.\nThe assistant also appears in others apps like Text to easily process parts of a document.\n\nMore details on the assistant OCS API and frontend integration possibilities in the\n[developer doc](https://github.com/nextcloud/assistant/raw/main/docs/developer)\n\n### How to use it\n\nA new right header menu entry appears. Once clicked, the assistant is displayed and you can select and task type and\nset the input you want to process.\n\nThe task might run immediately or be scheduled depending on the time estimation given by the AI provider.\nOnce a task is scheduled, it will run as a background job. When it is finished, you will receive a notification\nfrom which the results can be displayed.\n\nOther apps can integrate with the assistant. For example, Text will display an inline button besides every paragraph\nto directly select a task type to process this paragraph. Selecting a task this way will open the assistant with the task\nbeing pre-selected and the input text set.\n\nMore details and screenshots in the [user doc](https://github.com/nextcloud/assistant/raw/main/docs/user).\n\n## Features\n\nIn the assistant, the list of available tasks depends on the available providers installed via other apps.\nThis means you have complete freedom over which service/software will actually run your AI tasks.\n\n### Text processing providers\n\nSo far, the [Large language model](https://github.com/nextcloud/llm#readme)\nand the [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai) apps\ninclude text processing providers to:\n* Summarize\n* Extract topics\n* Generate a headline\n* Get an answer from a free prompt\n* Reformulate (OpenAi/LocalAi only)\n* Context writer: Generate text with a specified style. The style can be described or provided via an example text.\n\n### Text to image (Image generation)\n\nKnown providers:\n* [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai)\n* [Text2Image Stable Diffusion](https://apps.nextcloud.com/apps/text2image_stablediffusion)\n\n### Speech to text (Audio transcription)\n\nKnown providers:\n* [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai)\n* [Local Whisper Speech-To-Text](https://apps.nextcloud.com/apps/stt_whisper)",
     "homepage": "https://github.com/nextcloud/assistant",
     "licenses": [
       "agpl"
@@ -300,9 +300,9 @@
     ]
   },
   "context_chat": {
-    "sha256": "b4a15474497fc13c593553a6f45624ef09fbc081ba658bd97276fe11d5896006",
-    "url": "https://github.com/nextcloud-releases/context_chat/releases/download/v2.0.2/context_chat-v2.0.2.tar.gz",
-    "version": "2.0.2",
+    "sha256": "ba90fe9393a2c217d10e098c8190189bcb57ba417f32f15bcded2ee852671ec5",
+    "url": "https://github.com/nextcloud-releases/context_chat/releases/download/v2.1.0/context_chat-v2.1.0.tar.gz",
+    "version": "2.1.0",
     "description": "Ask questions to nextcloud Assistant about the content of your documents.\n\n## Install\n1. Install two other mandatory apps for this app to work as desired in your Nextcloud install from the \"Apps\" page:\n- AppAPI (>= v2.0.x): https://apps.nextcloud.com/apps/app_api\n- Assistant: https://apps.nextcloud.com/apps/assistant (The OCS API or the `occ` commands can also be used to interact with this app but it recommended to do that through a Text Processing OCP API consumer like the Assistant app.)\n2. Install this app (Nextcloud Assistant Context Chat): https://apps.nextcloud.com/apps/context_chat\n3. Install the Context Chat Backend app (https://apps.nextcloud.com/apps/context_chat_backend) from the \"External Apps\" page. It is important to note here that the backend app should have the same major and minor version as this app (context_chat)\n4. Start using Context Chat from the Assistant UI\n\nNote:\nRefer to the [Context Chat Backend's readme](https://github.com/nextcloud/context_chat_backend/?tab=readme-ov-file) and the [AppAPI's documentation](https://cloud-py-api.github.io/app_api/) for help with setup of AppAPI's deploy daemon.",
     "homepage": "https://github.com/nextcloud/context_chat",
     "licenses": [
@@ -750,9 +750,9 @@
     ]
   },
   "forms": {
-    "sha256": "a98d026c88f868140aeee870043733309fa74dc303908f103692da3216b26826",
-    "url": "https://github.com/nextcloud-releases/forms/releases/download/v4.2.0/forms-v4.2.0.tar.gz",
-    "version": "4.2.0",
+    "sha256": "3311e34087be5f2df98d0269e2c8d6ef3125bf3ec4d28be05536e2535830bcfb",
+    "url": "https://github.com/nextcloud-releases/forms/releases/download/v4.2.2/forms-v4.2.2.tar.gz",
+    "version": "4.2.2",
     "description": "**Simple surveys and questionnaires, self-hosted!**\n\n- **📝 Simple design:** No mass of options, only the essentials. Works well on mobile of course.\n- **📊 View & export results:** Results are visualized and can also be exported as CSV in the same format used by Google Forms.\n- **🔒 Data under your control!** Unlike in Google Forms, Typeform, Doodle and others, the survey info and responses are kept private on your instance.\n- **🧑‍💻 Connect to your software:** Easily integrate Forms into your service with our full-fledged [REST-API](https://github.com/nextcloud/forms/blob/main/docs/API.md).\n- **🙋 Get involved!** We have lots of stuff planned like more question types, collaboration on forms, [and much more](https://github.com/nextcloud/forms/milestones)!",
     "homepage": "https://github.com/nextcloud/forms",
     "licenses": [
@@ -1140,9 +1140,9 @@
     ]
   },
   "integration_nepenthes": {
-    "sha256": "a4eceb5186d3e773ecef3a34b1daeed47cd022b4d11da7603f85765bdca2ad9f",
-    "url": "https://gitlab.com/nirvati/nepenthes/nextcloud-integration/-/jobs/6615184034/artifacts/raw/out/integration_nepenthes-v0.0.5+nightly.9e9fb02e.tar.gz",
-    "version": "0.0.5",
+    "sha256": "73856894037085db900c5f10a8918552da6fba69c2c94ca2b341249c01596aad",
+    "url": "https://releases.nepenthes.nirvati.org/62450db9/integration_nepenthes-v0.0.7%2Bnightly.62450db9.tar.gz",
+    "version": "0.0.7",
     "description": "This application enables seamless integration with open source project management and collaboration software Nepenthes.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in Nepenthes\n* Find all work packages linked to a file or a folder\n* Create work packages directly in Nextcloud\n* View Nepenthes notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n* Link work packages in rich text fields via Smart Picker\n* Preview links to work packages in text fields\n* Link multiple files and folder to a work package at once\n\nOn the Nepenthes end, users are able to:\n\n* Link work packages with files and folders in Nextcloud\n* Upload and download files directly to Nextcloud from within a work package\n* Open linked files in Nextcloud to edit them\n* Let Nepenthes create shared folders per project\n\nFor more information on how to set up and use the Nepenthes application, please refer to [integration setup guide](https://nepenthes.nirvati.org/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://nepenthes.nirvati.org/user-guide/nextcloud-integration/).",
     "homepage": "https://gitlab.com/nirvati/nepenthes/nextcloud-integration",
     "licenses": [
@@ -1250,10 +1250,10 @@
     ]
   },
   "integration_replicate": {
-    "sha256": "180fc1f067589841f6d0fef4e85856e1f2863d0ec9ad4e37fa81015b20d77fb3",
-    "url": "https://github.com/nextcloud-releases/integration_replicate/releases/download/v2.0.1/integration_replicate-v2.0.1.tar.gz",
-    "version": "2.0.1",
-    "description": "The Replicate integration app provides a smart picker provider for Whisper translation/transcription and image generation.\nIt also provides a SpeechToText provider, a Text processing provider and an Image generation provider.\n\n## Ethical AI Rating\n### Rating: 🟡\n\nPositive:\n* The software for training and inferencing of this model is open source\n* The trained model is freely available, and thus can be ran on-premises\n* The training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\nNegative:\n* The software for training and inferencing of this model is proprietary, limiting running it locally or training by yourself\n* The trained model is not freely available, so the model can not be ran on-premises\n* The training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
+    "sha256": "13431d89bc19facee97111b00fffe6440951af075a178e691bbf4bb8ec6c47f8",
+    "url": "https://github.com/nextcloud-releases/integration_replicate/releases/download/v3.0.0/integration_replicate-v3.0.0.tar.gz",
+    "version": "3.0.0",
+    "description": "The Replicate integration app provides a SpeechToText provider, a Text processing provider and an Image generation provider.\n\n⚠️ The smart pickers have been removed from this app\nas they are now included in the [Assistant app](https://apps.nextcloud.com/apps/assistant).\n\n## Ethical AI Rating\n### Speech-to-Text Rating: 🟡\n\nPositive:\n* The software for training and inference of this model is open source\n* The trained model is freely available, and thus can be run on-premises\n\nNegative:\n* The training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\n### Text processing Rating\n\nThe rating depends on the model you select to use.\n\n### Image generation Rating\n\nThe rating depends on the model you select to use.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/julien-nc/integration_replicate",
     "licenses": [
       "agpl"
@@ -1370,10 +1370,10 @@
     ]
   },
   "keeweb": {
-    "sha256": "6cb74bc8c91315f7e5f2434a6e1658eabd1d5ac4204c3d5e1220760a5237f7cd",
-    "url": "https://github.com/jhass/nextcloud-keeweb/releases/download/v0.6.17/keeweb-0.6.17.tar.gz",
-    "version": "0.6.17",
-    "description": "Open Keepass stores inside Nextcloud with Keeweb just by clicking on an *.kdbx file in your Nextcloud.\n        \n💀 KeeWeb itself not actively maintained since 2021 and may contain security issues 💀 Please move to an actively maintained developed app like Passman or Passwords.",
+    "sha256": "0ec5a34bb53c14f6ebc9f1f74e3434b0ba956195f8c25cf2e80665d9c1d747a3",
+    "url": "https://github.com/jhass/nextcloud-keeweb/releases/download/v0.6.18/keeweb-0.6.18.tar.gz",
+    "version": "0.6.18",
+    "description": "Open Keepass stores inside Nextcloud with Keeweb just by clicking on an *.kdbx file in your Nextcloud.\n        \nWARNING: As of March 2024 KeeWeb itself was not actively maintained since 2021 and may contain security issues. You may consider to choose an actively maintained developed app like Passman or Passwords. If this changes in the future, this notice will be updated accordingly.",
     "homepage": "https://github.com/jhass/nextcloud-keeweb",
     "licenses": [
       "agpl"
@@ -1500,9 +1500,9 @@
     ]
   },
   "mfazones": {
-    "sha256": "79f4f7b86810a864923c70f4beccf683d01234e488b24c4bbd79113e1e4707b7",
-    "url": "https://github.com/SUNET/nextcloud-mfazones/releases/download/v0.0.6/mfazones-0.0.6.tar.gz",
-    "version": "0.0.6",
+    "sha256": "b4c899ee51b57dbf0ab4454c046c235c3d9d92b2de94d4118acfa500097aaba2",
+    "url": "https://github.com/SUNET/nextcloud-mfazones/releases/download/v0.0.8/mfazones-0.0.8.tar.gz",
+    "version": "0.0.8",
     "description": "A plugin to restrict access to files with mfazone tag\n\nThis app will make it possible to designate certain directories as `mfazones` and only users who have a valid MFA token will be able to access them.\n\nThe app uses the workflow engine to enforce the restriction.\n\nSee the [README](https://github.com/SUNET/nextcloud-mfazones/blob/main/README.md) for more information.",
     "homepage": "",
     "licenses": [
