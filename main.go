@@ -1,7 +1,6 @@
 package main
 
 import (
-	"crypto/sha256"
 	"encoding/json"
 	"flag"
 	"fmt"
@@ -12,6 +11,8 @@ import (
 	"strings"
 
 	"github.com/hashicorp/go-version"
+	multihash "github.com/multiformats/go-multihash/core"
+	"github.com/nix-community/go-nix/pkg/hash"
 )
 
 var DEBUG bool
@@ -45,7 +46,7 @@ type ApiApp struct {
 type ApiJson []ApiApp
 
 type App struct {
-	Sha256      string   `json:"sha256"`
+	Hash        string   `json:"hash"`
 	Url         string   `json:"url"`
 	Version     string   `json:"version"`
 	Description string   `json:"description"`
@@ -120,9 +121,13 @@ func prefetch(url string) (string, error) {
 		log.Print("Prefetch failed reading body for: ", url, err)
 		return "", err
 	}
-	sha256 := fmt.Sprintf("%x", sha256.Sum256(contents))
-
-	return sha256, err
+	h, err := hash.New(multihash.SHA2_256)
+	if err != nil {
+		log.Print("Failed to create new hasher: ", url, err)
+		return "", err
+	}
+	_, _ = h.Write(contents)
+	return h.SRIString(), nil
 }
 
 // copy every element from every map into the resulting map
@@ -218,13 +223,13 @@ func update(v string, apps []string) {
 		}
 
 		if needsPrefetch {
-			sha256, err := prefetch(na.Url)
+			h, err := prefetch(na.Url)
 			if err != nil {
 				continue
 			}
-			na.Sha256 = sha256
+			na.Hash = h
 		} else {
-			na.Sha256 = oa.Sha256
+			na.Hash = oa.Hash
 		}
 		an[k] = na
 	}

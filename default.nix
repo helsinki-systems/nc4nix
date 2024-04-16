@@ -12,7 +12,7 @@ let apps = (self:
 
     mkApp = name: value: runCommand "nc-app-${name}-${value.version}" {
       src = fetchurl {
-        inherit (value) url sha256;
+        inherit (value) url hash;
       };
       inherit (value) version;
     } /* sh */ ''
