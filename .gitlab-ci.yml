@@ -1,10 +1,19 @@
 # vim: set ft=yaml sw=2:
 stages:
+  - compliance
+  - lint
   - build
   - run
   - test
   - push
   - npins
+
+include:
+  - project: "helsinki-systems/gitlab-ci-templates"
+    ref: "master"
+    file:
+      # TODO: Use go/all.yml
+      - "common.yml"
 
 default:
   tags:
@@ -16,6 +25,12 @@ variables:
 
 build:
   stage: build
+  needs: []
+  when: always
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule" && $COMMAND == "renovate"'
+      when: never
+    - when: always
   script:
     - ./ci/build
   artifacts:
@@ -24,8 +39,10 @@ build:
 
 run:
   stage: run
-  only:
-    - schedules
+  needs: []
+  when: always
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule" && $COMMAND == "run"'
   artifacts:
     paths:
       - ./*.log
@@ -35,23 +52,32 @@ run:
 
 test:
   stage: test
-  interruptible: true
+  needs: []
+  when: always
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule" && $COMMAND == "renovate"'
+      when: never
+    - when: always
   script:
     - ./ci/test
 
 push:
   stage: push
-  only:
-    - schedules
+  needs: []
+  when: always
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule" && $COMMAND == "run"'
   script:
     - ./ci/push
 
 
 helsinki_npins:
   stage: npins
+  needs: []
+  when: always
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule" && $COMMAND == "run"'
   trigger: helsinki-systems/helsinki
-  only:
-    - schedules
   variables:
     COMMAND: update_pin
     PIN: nc4nix
