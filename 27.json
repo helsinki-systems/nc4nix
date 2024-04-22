@@ -340,8 +340,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-YShsc1UySpDLLbwgBVdBAZxnFGDyc0EDwtT0BnntBPo=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129418437/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -470,9 +470,9 @@
     ]
   },
   "eidlogin": {
-    "hash": "sha256-fUYhA4pqc+hv04k4xBn+sujEuRcVewQds1hB2v8a8YA=",
-    "url": "https://github.com/eid-login/eid-login-nextcloud/releases/download/1.0.15/eidlogin.tar.gz",
-    "version": "1.0.15",
+    "hash": "sha256-FXbUMFmSG7hxpQJUC8gKEBnCFpHx85C0cnik6O/S3sc=",
+    "url": "https://github.com/eid-login/eid-login-nextcloud/releases/download/1.0.16/eidlogin.tar.gz",
+    "version": "1.0.16",
     "description": "The eID-Login App allows to use the German eID-card and similar electronic identity documents for secure and privacy-friendly login to Nextcloud. For this purpose, a so-called eID-Client, such as the AusweisApp2 or the Open eCard App and eID-Service are required. In the default configuration a suitable eID-Service is provided without any additional costs.",
     "homepage": "https://eID.services/eidlogin/nextcloud",
     "licenses": [
@@ -520,9 +520,9 @@
     ]
   },
   "event_update_notification": {
-    "hash": "sha256-+K8yV3vefLgJ3p3LrZBD0AtapPfUMpyIPehCYYybI1I=",
-    "url": "https://github.com/nextcloud-releases/event_update_notification/releases/download/v2.3.0/event_update_notification-v2.3.0.tar.gz",
-    "version": "2.3.0",
+    "hash": "sha256-JZrUOkJD6hWUigmr0aH71SJDoF7beqVrfwK7PxIyIJo=",
+    "url": "https://github.com/nextcloud-releases/event_update_notification/releases/download/v2.4.0/event_update_notification-v2.4.0.tar.gz",
+    "version": "2.4.0",
     "description": "Receive a notification when an event in a shared calendar was added, modified or deleted.",
     "homepage": "https://github.com/nickv-nextcloud/event_update_notification",
     "licenses": [
@@ -710,9 +710,9 @@
     ]
   },
   "files_lock": {
-    "hash": "sha256-U2v93GnVUe1kf2TpYPC9yn3GaXByYG8XF4OfihPlIuY=",
-    "url": "https://github.com/nextcloud-releases/files_lock/releases/download/v27.0.5/files_lock-v27.0.5.tar.gz",
-    "version": "27.0.5",
+    "hash": "sha256-A9maQ5WFWi41SmKlzWIkYra80MX8XYOjhYiKzA3fjTs=",
+    "url": "https://github.com/nextcloud-releases/files_lock/releases/download/v27.0.6/files_lock-v27.0.6.tar.gz",
+    "version": "27.0.6",
     "description": "Allow your users to temporary lock their files to avoid conflicts while working on shared files.",
     "homepage": "https://github.com/nextcloud/files_lock",
     "licenses": [
@@ -895,6 +895,16 @@
     "version": "2.4.3",
     "description": "# Company management by Gestion\n\nThis application allows the management of invoicing in a very simple way for Micro-Entreprise.\n\nFunctionality:\n\n* Add customer\n* Generate a quote\n* Generate an invoice\n* Generate product lines to include in quotes\n* You can generate PDFs directly from the app and save them to your Nextcloud\n\nPresentation video in user documentation\n\nIf you need to adapt this application to your country laws, please open issue.\n\n[Love my work ? Buy me a coffee !](https://www.buymeacoffee.com/benjaminaimard)",
     "homepage": "https://github.com/baimard/gestion",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "google_synchronization": {
+    "hash": "sha256-Ef/j+D/cPLUWeH9X79W63JY2HcdgqxGp+9rP598w/Qw=",
+    "url": "https://github.com/MarcelRobitaille/nextcloud_google_synchronization/releases/download/v2.1.1/google_synchronization-v2.1.1.tar.gz",
+    "version": "2.1.1",
+    "description": "Google Synchronization automatically keeps your Nextcloud calendar up to date with your Google Calendar.",
+    "homepage": "https://github.com/MarcelRobitaille/nextcloud_google_synchronization",
     "licenses": [
       "agpl"
     ]
@@ -1283,16 +1293,16 @@
     "hash": "sha256-wqBJnz7vKVI5H+OPUl1hHBckLZ8mFyjiZ1A/Uu6nW2s=",
     "url": "https://github.com/nextcloud-releases/integration_openai/releases/download/v1.1.5/integration_openai-v1.1.5.tar.gz",
     "version": "1.1.5",
-    "description": "This app includes 3 custom smart pickers for Nextcloud:\n* ChatGPT-like answers\n* Image generation (with DALL·E 2 or LocalAI)\n* Whisper dictation\n\nIt also implements\n\n* A Translation provider (using any available language model)\n* A SpeechToText provider (using Whisper)\n\nInstead of connecting to the OpenAI API for these, you can also connect to a self-hosted [LocalAI](https://localai.io) instance.\n\n## Ethical AI Rating\n### Rating for Text generation using ChatGPT via OpenAI API: 🔴\n\nNegative:\n* the software for training and inference of this model is proprietary, limiting running it locally or training by yourself\n* the trained model is not freely available, so the model can not be run on-premises\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model's performance and CO2 usage.\n\n\n### Rating for Translation using ChatGPT via OpenAI API: 🔴\n\nNegative:\n* the software for training and inference of this model is proprietary, limiting running it locally or training by yourself\n* the trained model is not freely available, so the model can not be run on-premises\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model's performance and CO2 usage.\n\n### Rating for Image generation using DALL·E via OpenAI API: 🔴\n\nNegative:\n* the software for training and inferencing of this model is proprietary, limiting running it locally or training by yourself\n* the trained model is not freely available, so the model can not be ran on-premises\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\n\n### Rating for Speech-To-Text using Whisper via OpenAI API: 🟡\n\nPositive:\n* the software for training and inferencing of this model is open source\n* The trained model is freely available, and thus can run on-premise\n\nNegative:\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\n### Rating for Text generation via LocalAI: 🟢\n\nPositive:\n* the software for training and inferencing of this model is open source\n* the trained model is freely available, and thus can be ran on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n\n### Rating for Image generation using Stable Diffusion via LocalAI : 🟡\n\nPositive:\n* the software for training and inferencing of this model is open source\n* the trained model is freely available, and thus can be ran on-premises\n\nNegative:\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\n\n### Rating for Speech-To-Text using Whisper via LocalAI: 🟡\n\nPositive:\n* the software for training and inferencing of this model is open source\n* the trained model is freely available, and thus can be ran on-premises\n\nNegative:\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
+    "description": "⚠️ The smart pickers have been removed from this app\nas they are now included in the [Assistant app](https://apps.nextcloud.com/apps/assistant).\n\nThis app implements:\n\n* Text generation providers: Free prompt, Summarize, Headline and Reformulate (using any available large language model)\n* A Translation provider (using any available language model)\n* A SpeechToText provider (using Whisper)\n* An image generation provider\n\nInstead of connecting to the OpenAI API for these, you can also connect to a self-hosted [LocalAI](https://localai.io) instance\nor to any service that implements an API similar to the OpenAI one, for example: [Plusserver](https://www.plusserver.com/en/ai-platform/).\n\n## Ethical AI Rating\n### Rating for Text generation using ChatGPT via OpenAI API: 🔴\n\nNegative:\n* the software for training and inference of this model is proprietary, limiting running it locally or training by yourself\n* the trained model is not freely available, so the model can not be run on-premises\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model's performance and CO2 usage.\n\n\n### Rating for Translation using ChatGPT via OpenAI API: 🔴\n\nNegative:\n* the software for training and inference of this model is proprietary, limiting running it locally or training by yourself\n* the trained model is not freely available, so the model can not be run on-premises\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model's performance and CO2 usage.\n\n### Rating for Image generation using DALL·E via OpenAI API: 🔴\n\nNegative:\n* the software for training and inferencing of this model is proprietary, limiting running it locally or training by yourself\n* the trained model is not freely available, so the model can not be ran on-premises\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\n\n### Rating for Speech-To-Text using Whisper via OpenAI API: 🟡\n\nPositive:\n* the software for training and inferencing of this model is open source\n* The trained model is freely available, and thus can run on-premise\n\nNegative:\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\n### Rating for Text generation via LocalAI: 🟢\n\nPositive:\n* the software for training and inferencing of this model is open source\n* the trained model is freely available, and thus can be ran on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n\n### Rating for Image generation using Stable Diffusion via LocalAI : 🟡\n\nPositive:\n* the software for training and inferencing of this model is open source\n* the trained model is freely available, and thus can be ran on-premises\n\nNegative:\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\n\n### Rating for Speech-To-Text using Whisper via LocalAI: 🟡\n\nPositive:\n* the software for training and inferencing of this model is open source\n* the trained model is freely available, and thus can be ran on-premises\n\nNegative:\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/integration_openai",
     "licenses": [
       "agpl"
     ]
   },
   "integration_openproject": {
-    "hash": "sha256-A0oRerXse1dYWUtJrL/YhMLLUSTGSepAxhaFjlmIci4=",
-    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.6.2/integration_openproject-2.6.2.tar.gz",
-    "version": "2.6.2",
+    "hash": "sha256-Bte1pXP6ts7lIdlDjdJu/amI8p7A/6G26XU6hNYD2+g=",
+    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.6.3/integration_openproject-2.6.3.tar.gz",
+    "version": "2.6.3",
     "description": "This application enables seamless integration with open source project management and collaboration software OpenProject.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in OpenProject\n* Find all work packages linked to a file or a folder\n* Create work packages directly in Nextcloud\n* View OpenProject notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n* Link work packages in rich text fields via Smart Picker\n* Preview links to work packages in text fields\n* Link multiple files and folder to a work package at once\n\nOn the OpenProject end, users are able to:\n\n* Link work packages with files and folders in Nextcloud\n* Upload and download files directly to Nextcloud from within a work package\n* Open linked files in Nextcloud to edit them\n* Let OpenProject create shared folders per project\n\nFor more information on how to set up and use the OpenProject application, please refer to [integration setup guide](https://www.openproject.org/docs/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://www.openproject.org/docs/user-guide/nextcloud-integration/).",
     "homepage": "https://github.com/nextcloud/integration_openproject",
     "licenses": [
@@ -1640,9 +1650,9 @@
     ]
   },
   "music": {
-    "hash": "sha256-hgcC1wqgJzK2vqiyFZz8YALp4ZSHSuZn8iOUjzeAcrE=",
-    "url": "https://github.com/owncloud/music/releases/download/v1.10.0/music_1.10.0_for_nextcloud.tar.gz",
-    "version": "1.10.0",
+    "hash": "sha256-IcxgSo5kIDzMideKlrh3gdG71s0+KqTCNCpmH+N1lGQ=",
+    "url": "https://github.com/owncloud/music/releases/download/v1.11.0/music_1.11.0_for_nextcloud.tar.gz",
+    "version": "1.11.0",
     "description": "A stand-alone music player app and a \"lite\" player for the Files app\n\n- On modern browsers, supports audio types .mp3, .ogg, .m4a, .m4b, .flac, .wav, and more\n- Playlist support with import from m3u, m3u8, and pls files\n- Browse by artists, albums, genres, or folders\n- Gapless play\n- Filter the shown content with the search function\n- Play internet radio and podcast channels\n- Setup Last.fm connection to see background information on artists, albums, and songs\n- Control with media control keys on the keyboard or OS\n- The app can handle libraries consisting of thousands of albums and tens of thousands of songs\n- Includes a server backend compatible with the Subsonic and Ampache protocols, allowing playback and browsing of your library on various external apps e.g. on Android or iPhone",
     "homepage": "https://github.com/owncloud/music",
     "licenses": [
@@ -1750,9 +1760,9 @@
     ]
   },
   "officeonline": {
-    "hash": "sha256-OpbTHfetBxJyxU8xFmtV8fQ9O0xsTpsWSV8YzenWlTE=",
-    "url": "https://github.com/nextcloud-releases/officeonline/releases/download/v2.1.1/officeonline-v2.1.1.tar.gz",
-    "version": "2.1.1",
+    "hash": "sha256-erhIpfn4vE3HhhQUsTxa4fV9Rbzb9rG9Skp7ac/48XQ=",
+    "url": "https://github.com/nextcloud-releases/officeonline/releases/download/v2.1.2/officeonline-v2.1.2.tar.gz",
+    "version": "2.1.2",
     "description": "This application can connect to an Office Online server with Nextcloud.",
     "homepage": "",
     "licenses": [
@@ -2320,9 +2330,9 @@
     ]
   },
   "sms_relentless": {
-    "hash": "sha256-5L9hj+6Jfgu/v4rfvWFJPK0yPuYXct0n3DYXgYcKCfI=",
-    "url": "https://git.doublebastion.com/releases/sms-relentless/1.3.4/sms_relentless.tar.gz",
-    "version": "1.3.4",
+    "hash": "sha256-kXl/0wBQmjyaAUuOF1zJwbG2OQ6tNDHKW1c+w1jaW7g=",
+    "url": "https://git.doublebastion.com/releases/sms-relentless/1.3.5/sms_relentless.tar.gz",
+    "version": "1.3.5",
     "description": "This application allows sending and receiving SMS and MMS messages in Nextcloud. An SMS/MMS enabled phone number acquired from \nTelnyx, Plivo, Twilio or Flowroute is needed. Detailed instructions on how to configure and use this application can be found on the 'Admin documentation' page.\n\n### Features:\n\n* 🚀 Use one or multiple local phone numbers in countries of your choice, to send and receive SMS/MMS messages with your browser, on any device connected to the Internet.\n\n* 📑 Sent and received SMS/MMS messages are stored in the database per sending/receiving user and can be viewed in paginated tables with filters for every column.\n\n* 🖼️  Up to 10 files of various formats, including jpeg, png and gif, can be sent as MMS messages from MMS enabled phone numbers. Files included in incoming MMS messages are not downloaded automatically. They are stored as URL links to the actual files, so that the receivers can download them only if they trust the senders.\n\n* 📔 SMS/MMS messages older than a specified number of days can be deleted in bulk with one click and they are automatically archived in csv files stored in Nextcloud, before being removed from the database. This makes them available for future analysis.\n\n* 💻 Sending SMS/MMS messages to thousands of recipients can be achieved by uploading a txt/csv file containing the recipients' phone numbers and the same SMS/MMS is sent automatically to all. The time interval between two consecutive messages is configurable.\n\n* 👤 The Display Name of Nextcloud users can be prepended to their messages, to make the origin of messages clearer.\n\n* ⚠️  Admins can restrict the use of specific phone numbers to specific groups or users.\n\n* ✉️  Auto-replies in 'daily mode' and 'vacation mode' can be configured for any controlled phone number.\n\n* 🔏 SMS/MMS messages coming from Telnyx, Plivo and Twilio are checked for authenticity by verifying the SMS provider's signature.\n\n* 📧 Users receive notifications in Nextcloud and (optionally) emails when new SMS/MMS messages arrive.\n\n* 📄 Each sent message receives a delivery receipt displayed in the Sent SMS Messages table.\n\n* 🎎 Messages exchanged between pairs of numbers are organized into conversations on a separate page where each conversation can be viewed, tagged and archived.\n\n* 📞 It can be used with regular 'long code' (10-digit) phone numbers, but also with 'toll-free' numbers and 'short codes'. Users see a list with their current phone numbers and can set them as Sender IDs. Setting alphanumeric Sender IDs is also possible.\n\n* 📱 If Nextcloud is accessed in Firefox for mobile (version 123.0 or newer), it can be used directly on mobile devices.\n\n* 💵 It allows checking the current Telnyx/Plivo/Twilio balance by selecting the provider on the left panel.\n\n* 💰 The only ongoing cost is about $1 per month (depending on the country) for an SMS/MMS enabled phone number located in a country chosen by the user. No contracts.\n\n* 💸 Low prices per SMS: starting from $0.0040 per sent message and $0.0040 per received message (Telnyx), or $0.0085 per sent message and $0.0085 per received message (Plivo), or $0.0109 per sent message and 0.0079 per received message (Twilio), or $0.0055 per sent message and 0.0040 per received message (Flowroute) in the USA.\n\nWe have no affiliation with Telnyx, Plivo, Twilio or Flowroute.\n\n### Documentation\n\n* [Admin documentation](https://www.doublebastion.com/install-nextcloud/#install-sms-relentless)\n\n### Donations\n\n* 🎁 [Donate](https://www.doublebastion.com/donations/)",
     "homepage": "https://www.doublebastion.com/sms-relentless/",
     "licenses": [
@@ -2658,9 +2668,9 @@
     ]
   },
   "unroundedcorners": {
-    "hash": "sha256-skgsulmpSNRCSGbZW77liOaPbNjjqbGtv8T1loJVtYQ=",
-    "url": "https://github.com/OliverParoczai/nextcloud-unroundedcorners/releases/download/v1.1.2/unroundedcorners-v1.1.2.tar.gz",
-    "version": "1.1.2",
+    "hash": "sha256-sdgc2ENnRkcQnopbqsn/FHYDoiKqeKfYEontFy0cYU4=",
+    "url": "https://github.com/OliverParoczai/nextcloud-unroundedcorners/releases/download/v1.1.3/unroundedcorners-v1.1.3.tar.gz",
+    "version": "1.1.3",
     "description": "# Unrounded Corners\nA Nextcloud app that restores the corners of buttons and widgets to their original looks by unrounding them.",
     "homepage": "https://github.com/OliverParoczai/nextcloud-unroundedcorners",
     "licenses": [
