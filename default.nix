@@ -1,4 +1,4 @@
-{ lib, fetchurl, runCommand, callPackage, overrides ? (self: super: {}) }:
+{ lib, recurseIntoAttrs, fetchurl, runCommand, callPackage, overrides ? (self: super: {}) }:
 let apps = (self:
   let
     appJson = version: builtins.fromJSON (builtins.readFile (./. + "/${version}.json"));
@@ -6,8 +6,8 @@ let apps = (self:
     apps = builtins.listToAttrs (map (v: let
       majorVer = lib.versions.major v;
     in {
-      name = majorVer;
-      value = builtins.mapAttrs mkApp (appJson majorVer);
+      name = "nextcloud-${majorVer}";
+      value = recurseIntoAttrs (builtins.mapAttrs mkApp (appJson majorVer));
     }) versions);
 
     mkApp = name: value: runCommand "nc-app-${name}-${value.version}" {
