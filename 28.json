@@ -300,9 +300,9 @@
     ]
   },
   "context_chat": {
-    "hash": "sha256-upD+k5OiwhfRDgmMgZAYm8tXukF/MvFbze0u6FJnHsU=",
-    "url": "https://github.com/nextcloud-releases/context_chat/releases/download/v2.1.0/context_chat-v2.1.0.tar.gz",
-    "version": "2.1.0",
+    "hash": "sha256-7EFBIMUI9f4m7llUsAUVNxOIMHFsGlP6Wn+jX3aprlY=",
+    "url": "https://github.com/nextcloud-releases/context_chat/releases/download/v2.1.1/context_chat-v2.1.1.tar.gz",
+    "version": "2.1.1",
     "description": "Ask questions to nextcloud Assistant about the content of your documents.\n\n## Install\n1. Install two other mandatory apps for this app to work as desired in your Nextcloud install from the \"Apps\" page:\n- AppAPI (>= v2.0.x): https://apps.nextcloud.com/apps/app_api\n- Assistant: https://apps.nextcloud.com/apps/assistant (The OCS API or the `occ` commands can also be used to interact with this app but it recommended to do that through a Text Processing OCP API consumer like the Assistant app.)\n2. Install this app (Nextcloud Assistant Context Chat): https://apps.nextcloud.com/apps/context_chat\n3. Install the Context Chat Backend app (https://apps.nextcloud.com/apps/context_chat_backend) from the \"External Apps\" page. It is important to note here that the backend app should have the same major and minor version as this app (context_chat)\n4. Start using Context Chat from the Assistant UI\n\nNote:\nRefer to the [Context Chat Backend's readme](https://github.com/nextcloud/context_chat_backend/?tab=readme-ov-file) and the [AppAPI's documentation](https://cloud-py-api.github.io/app_api/) for help with setup of AppAPI's deploy daemon.",
     "homepage": "https://github.com/nextcloud/context_chat",
     "licenses": [
@@ -1480,9 +1480,9 @@
     ]
   },
   "maps": {
-    "hash": "sha256-cj4u2gv1EfhyJ+YB9QnViMdkh0AyeLywU1ewDRfAMRc=",
-    "url": "https://github.com/nextcloud/maps/releases/download/v1.3.1/maps-1.3.1.tar.gz",
-    "version": "1.3.1",
+    "hash": "sha256-FmRhpPRpMnCHkJFaVvQuR6Y7Pd7vpP+tUVih919g/fQ=",
+    "url": "https://github.com/nextcloud/maps/releases/download/v1.4.0-1-nightly/maps-1.4.0-1-nightly.tar.gz",
+    "version": "1.4.0",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
     "licenses": [
@@ -1900,9 +1900,9 @@
     ]
   },
   "richdocuments": {
-    "hash": "sha256-ks+7MSRmgP6EyfPnOR+tqQ/5zmJcqH0RwdXBZuVKANk=",
-    "url": "https://github.com/nextcloud-releases/richdocuments/releases/download/v8.3.4/richdocuments-v8.3.4.tar.gz",
-    "version": "8.3.4",
+    "hash": "sha256-ufqzvQ5hyeJ/uYDbK5spegrnL/WRFEiN9NDvFL5cpsM=",
+    "url": "https://github.com/nextcloud-releases/richdocuments/releases/download/v8.3.5/richdocuments-v8.3.5.tar.gz",
+    "version": "8.3.5",
     "description": "This application can connect to a Collabora Online (or other) server (WOPI-like Client). Nextcloud is the WOPI Host. Please read the documentation to learn more about that.\n\nYou can also edit your documents off-line with the Collabora Office app from the **[Android](https://play.google.com/store/apps/details?id=com.collabora.libreoffice)** and **[iOS](https://apps.apple.com/us/app/collabora-office/id1440482071)** store.",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -1910,20 +1910,20 @@
     ]
   },
   "richdocumentscode": {
-    "hash": "sha256-rw3kAkvm1W7xW10ZXkp96yqAOPW8kYNolYjtX7Q+PYQ=",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.1001/richdocumentscode.tar.gz",
-    "version": "23.5.1001",
-    "description": "**This app has to be installed and used together with the [Nextcloud Office](https://apps.nextcloud.com/apps/richdocuments) integration app.**\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\n* This app provides a built-in server with all of the document editing features of Collabora Online. \n* Easy to install, for personal use or for small teams. \n* A bit slower than a standalone server and without the advanced scalability features.\n\n**System Requirements:**\n- Linux running on ```x86-64``` or ```arm64/aarch64```\n- A ```glibc``` based distribution/container (```musl libc``` is **not** supported)\n- Fontconfig (```libfontconfig.so.1```)\n- Additional requirements can be found in [here](https://github.com/CollaboraOnline/richdocumentscode#richdocumentscode)\n          \n*The download is rather big so it is possible you will experience a time-out when installing via the web interface.* You can use the OCC command install the built-in server from the command-line instead:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)\n\nAdditional troubleshooting tips can be found [here](https://github.com/CollaboraOnline/richdocumentscode?tab=readme-ov-file#troubleshooting).",
+    "hash": "sha256-wVNZ9dS18h7A2i0hVWKfqgWTK7yzk6oauBKcoTH3IbY=",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/24.4.103/richdocumentscode.tar.gz",
+    "version": "24.4.103",
+    "description": "**This app has to be installed and used together with the [Nextcloud Office](https://apps.nextcloud.com/apps/richdocuments) integration app.**\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\n* This app provides a built-in server with all of the document editing features of Collabora Online.\n* Easy to install, for personal use or for small teams.\n* A bit slower than a standalone server and without the advanced scalability features.\n\n**System Requirements:**\n- Linux running on ```x86-64``` or ```arm64/aarch64```\n- A ```glibc``` based distribution/container (```musl libc``` is **not** supported)\n- Fontconfig (```libfontconfig.so.1```)\n- Additional requirements can be found in [here](https://github.com/CollaboraOnline/richdocumentscode#richdocumentscode)\n\n*The download is rather big so it is possible you will experience a time-out when installing via the web interface.* You can use the OCC command install the built-in server from the command-line instead:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)\n\nAdditional troubleshooting tips can be found [here](https://github.com/CollaboraOnline/richdocumentscode?tab=readme-ov-file#troubleshooting).",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
       "apache"
     ]
   },
   "richdocumentscode_arm64": {
-    "hash": "sha256-xD9py6NWrao22q8kayeR4DYXo82Q2jgQnfk/hH6ybHU=",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/23.5.1001/richdocumentscode_arm64.tar.gz",
-    "version": "23.5.1001",
-    "description": "**This app has to be installed and used together with the [Nextcloud Office](https://apps.nextcloud.com/apps/richdocuments) integration app.**\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\n* This app provides a built-in server with all of the document editing features of Collabora Online. \n* Easy to install, for personal use or for small teams. \n* A bit slower than a standalone server and without the advanced scalability features.\n\n**System Requirements:**\n- Linux running on ```x86-64``` or ```arm64/aarch64```\n- A ```glibc``` based distribution/container (```musl libc``` is **not** supported)\n- Fontconfig (```libfontconfig.so.1```)\n- Additional requirements can be found in [here](https://github.com/CollaboraOnline/richdocumentscode#richdocumentscode)\n          \n*The download is rather big so it is possible you will experience a time-out when installing via the web interface.* You can use the OCC command install the built-in server from the command-line instead:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode_arm64\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)\n\nAdditional troubleshooting tips can be found [here](https://github.com/CollaboraOnline/richdocumentscode?tab=readme-ov-file#troubleshooting).",
+    "hash": "sha256-yIY2rIys5hR2kCWtUiUTG6xLaIMoUSlYwh+NIBSZl+Y=",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/24.4.103/richdocumentscode_arm64.tar.gz",
+    "version": "24.4.103",
+    "description": "**This app has to be installed and used together with the [Nextcloud Office](https://apps.nextcloud.com/apps/richdocuments) integration app.**\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\n* This app provides a built-in server with all of the document editing features of Collabora Online.\n* Easy to install, for personal use or for small teams.\n* A bit slower than a standalone server and without the advanced scalability features.\n\n**System Requirements:**\n- Linux running on ```x86-64``` or ```arm64/aarch64```\n- A ```glibc``` based distribution/container (```musl libc``` is **not** supported)\n- Fontconfig (```libfontconfig.so.1```)\n- Additional requirements can be found in [here](https://github.com/CollaboraOnline/richdocumentscode#richdocumentscode)\n\n*The download is rather big so it is possible you will experience a time-out when installing via the web interface.* You can use the OCC command install the built-in server from the command-line instead:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode_arm64\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)\n\nAdditional troubleshooting tips can be found [here](https://github.com/CollaboraOnline/richdocumentscode?tab=readme-ov-file#troubleshooting).",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
       "apache"
@@ -2130,9 +2130,9 @@
     ]
   },
   "snappymail": {
-    "hash": "sha256-FSKsXuNnryfYYQgGOItv7YQJj4nPeLbvFcxTIpgiMXg=",
-    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.36.0-nextcloud.tar.gz",
-    "version": "2.36.0",
+    "hash": "sha256-wH0HkuWzZ4jDawEwtPbB1/VKgascyBnW7SMYXYY1vDc=",
+    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.36.1-nextcloud.tar.gz",
+    "version": "2.36.1",
     "description": "**Lightweight & fast email client.**\n\n- **Dark mode**\n- **Responsive design**\n- **Full Sieve filtering support**\n- **Almost all IMAP features** including advanced searching\n- **Integration with Nextcloud Unified Search**\n- **Integration with other Nextcloud apps** (Contacts, Files and Calendar)\n- **Multiple mail accounts and identities**\n- **Send & receive OpenPGP encrypted/signed emails** (With full HTML support, ECC keys, or plain text with Mailvelope)\n- **Send & receive S/MIME encrypted/signed emails**\n- **Many security features** (Sodium encrypted passwords, Sec-Fetch, TOTP 2FA, DKIM, prevent tracking, etc.)\n- **Kolab integrations**\n\nAfter enabling in Nextcloud, go to Nextcloud admin panel, \"Additional settings\" and you will see a \"SnappyMail webmail\" section.\nThere, click on the link to go to the SnappyMail admin panel.",
     "homepage": "https://snappymail.eu",
     "licenses": [
@@ -2500,9 +2500,9 @@
     ]
   },
   "user_pwauth": {
-    "hash": "sha256-+XUeft1riZhvajPlMpHgmCgKxhBat8kRDGXUXdg47wE=",
-    "url": "https://r.mateu.be/user_pwauth-2.8.0.tar.gz",
-    "version": "2.8.0",
+    "hash": "sha256-yl6mZovq75HWMJMra+wrx1of6F10MAq85mKdr3iIN/4=",
+    "url": "https://r.mateu.be/user_pwauth-2.8.1.tar.gz",
+    "version": "2.8.1",
     "description": "Allows you to authenticate with the local users from the hosting machine onto your hosted NextCloud instance.",
     "homepage": "",
     "licenses": [
