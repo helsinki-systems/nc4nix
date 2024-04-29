@@ -120,9 +120,9 @@
     ]
   },
   "bbb": {
-    "hash": "sha256-S5gBSH1LE9PSwXA23jGYWP8z5iT0gb8p823KqZ3ImPA=",
-    "url": "https://github.com/sualko/cloud_bbb/releases/download/v2.5.0/bbb-v2.5.0.tar.gz",
-    "version": "2.5.0",
+    "hash": "sha256-mgkz8rrl153TnRRJOwdJHv/fPfhJwbZx7XCDbprphlc=",
+    "url": "https://github.com/littleredbutton/cloud_bbb/releases/download/v2.6.0/bbb-v2.6.0.tar.gz",
+    "version": "2.6.0",
     "description": "This app allows to create meetings with an external installation of [BigBlueButton](https://bigbluebutton.org).\n\n* **Room setup** Create multiple room configurations with name, welcome message …\n* **Share guest link** Share the room link with all your guests\n* **Share moderator link** Invite moderators to the room\n* **Share rooms** Share rooms with members, groups or circles\n* **Custom presentation** Start a room with a selected presentation from your file browser\n* **Manage recordings** View, share and delete recordings for your rooms\n* **Restrictions** Restrict room creation to certain groups\n* **Activities** Get an overview of your room activities\n\nQuick start guide and further information in our [readme](https://github.com/sualko/cloud_bbb).\nDo you like this application? Give something back to the open source community and checkout our\n[ways to contribute](https://github.com/sualko/cloud_bbb/blob/master/.github/contributing.md).\n\nDeveloper wanted! If you have time it would be awesome if you could help to enhance this application.\n\n*This app integrates BigBlueButton and is not endorsed or certified by BigBlueButton Inc. BigBlueButton and the BigBlueButton Logo are trademarks of BigBlueButton Inc.*",
     "homepage": "https://github.com/sualko/cloud_bbb/",
     "licenses": [
@@ -1870,9 +1870,9 @@
     ]
   },
   "passman": {
-    "hash": "sha256-Uv3qFPKx0qMWPPNrolVu/ufJ6EKEf88SRzpvrWCxPI4=",
-    "url": "https://releases.passman.cc/passman_2.4.8.tar.gz",
-    "version": "2.4.8",
+    "hash": "sha256-jLcKuY8wJohZ/oRon05yBq+755W9ytgOZsad9jhjUJY=",
+    "url": "https://releases.passman.cc/passman_2.4.9.tar.gz",
+    "version": "2.4.9",
     "description": "Passman is a full featured password manager.\nFeatures:\n- Vaults\n- Vault key is never sent to the server\n- Browser extension for easy access to passwords\n- Android app for on the road access\n- Credentials are client side encrypted with 256bit AES\n- Credentials are server side encrypted with 256bit AES\n- Ability to add custom fields to credentials\n- Built-in OTP (One Time Password) generator\n- Password analyzer\n- Share passwords internally and via link in a secure manner.\n- Import from various password managers (KeePass, LastPass, DashLane, ZOHO, Clipperz.is )\nFor an demo of this app visit [https://demo.passman.cc](https://demo.passman.cc)",
     "homepage": "https://demo.passman.cc",
     "licenses": [
@@ -2692,6 +2692,16 @@
     "url": "https://codeberg.org/NextPush/uppush/archive/1.4.3.tar.gz",
     "version": "1.4.3",
     "description": "Once the mobile phone is connected with NextPush, push notifications can be forwarded to applications implementing UnifiedPush.\n\nMore information about UnifiedPush at https://unifiedpush.org",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "user_backend_sql_raw": {
+    "hash": "sha256-iAZGz0N8Dp09/sbTyhe0oMIzLUj7mW4Q/xUEFMJxIyA=",
+    "url": "https://github.com/PanCakeConnaisseur/user_backend_sql_raw/releases/download/v1.4.0/user_backend_sql_raw.tar.gz",
+    "version": "1.4.0",
+    "description": "This app allows you to do user management against a SQL database using arbitrary SQL queries, enabling you to use any SQL db schema.\n\nYou can authenticate, create, delete users, change their password or display name, basically do (almost) everything that Nextcloud can do with users.\n\nIn contrast to the app *SQL user backend*, you write the SQL queries yourself. You are not limited by assumptions that app authors made about how your db is structured.\n\nThe app uses prepared statements and is written to be secure by default to prevent SQL injections. It understands the most popular standards for password hash formats: MD5-CRYPT, SHA256-CRYPT, SHA512-CRYPT, BCrypt and the state-of-the-art Argon2i and Argon2id. Because the various formats are recognized on-the-fly your db can can have differing hash string formats at the same time, which eases migration to newer formats.\n\nThis app supports PostgreSQL and MariaDB/MySQL.",
     "homepage": "",
     "licenses": [
       "agpl"
