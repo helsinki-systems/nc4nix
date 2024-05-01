@@ -160,9 +160,9 @@
     ]
   },
   "calendar": {
-    "hash": "sha256-OlQ4krrDi8IprS2CBwStPFTXG8OsL/J7biKYX9x5XPI=",
-    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v4.7.1/calendar-v4.7.1.tar.gz",
-    "version": "4.7.1",
+    "hash": "sha256-ED3f7pns8LSEUtypMocWRLZ//xT62/R/u6q9Ddddv4Q=",
+    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v4.7.2/calendar-v4.7.2.tar.gz",
+    "version": "4.7.2",
     "description": "The Calendar app is a user interface for Nextcloud's CalDAV server. Easily sync events from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Currently Contacts - more to come.\n* 🌐 **WebCal Support!** Want to see your favorite team’s matchdays in your calendar? No problem!\n* 🙋 **Attendees!** Invite people to your events\n* ⌚️ **Free/Busy!** See when your attendees are available to meet\n* ⏰ **Reminders!** Get alarms for events inside your browser and via email\n* 🔍 Search! Find your events at ease\n* ☑️ Tasks! See tasks with a due date directly in the calendar\n* 🙈 **We’re not reinventing the wheel!** Based on the great [c-dav library](https://github.com/nextcloud/cdav-library), [ical.js](https://github.com/mozilla-comm/ical.js) and [fullcalendar](https://github.com/fullcalendar/fullcalendar) libraries.",
     "homepage": "https://github.com/nextcloud/calendar/",
     "licenses": [
@@ -340,8 +340,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -580,9 +580,9 @@
     ]
   },
   "files_3dmodelviewer": {
-    "hash": "sha256-Trt4z/rpRRjo7MYTrcvMuf2kww3M1MjnX0Iq55aICek=",
-    "url": "https://github.com/WARP-LAB/files_3dmodelviewer/releases/download/v0.0.12/files_3dmodelviewer.tar.gz",
-    "version": "0.0.12",
+    "hash": "sha256-nc8uGgP/yyMVnbifwpeiRGJhp2IqktJpGxqM3WQZiec=",
+    "url": "https://github.com/WARP-LAB/files_3dmodelviewer/releases/download/v0.0.13/files_3dmodelviewer.tar.gz",
+    "version": "0.0.13",
     "description": "# Visualise and explore 3D models\n\n- 3dm | Rhino\n- 3ds | Autodesk 3D Studio\n- 3mf | 3D Manufacturing Format\n- bim | dotbim\n- brep/brp | Boundary Representation\n- dae | Collada\n- fbx | Filmbox\n- fcstd | FreeCAD Standard File Format\n- glb | GL Transmission Format\n- gltf | GL Transmission Format\n- ifc | International Foundation Class\n- iges/igs | Initial Graphics Exchange Specification\n- obj | Wavefront\n- off | Object File Format\n- ply | Polygon File Format\n- step/stp | Standard for Exchange of Product Model Data\n- stl | Stereolithography Standard Tesselation/Triangle Language\n- wrl | Virtual Reality Modeling Language",
     "homepage": "https://github.com/WARP-LAB/files_3dmodelviewer",
     "licenses": [
@@ -1600,9 +1600,9 @@
     ]
   },
   "memories": {
-    "hash": "sha256-PSMDCgBOPxZl5A1wTkzMvYKPBSLyIIxoYzkpYz2EPf8=",
-    "url": "https://github.com/pulsejet/memories/releases/download/v7.2.0/memories.tar.gz",
-    "version": "7.2.0",
+    "hash": "sha256-+nFaQusirDROK4XloBmrFKBK367DDXclFtgqJ87XFx0=",
+    "url": "https://github.com/pulsejet/memories/releases/download/v7.3.0/memories.tar.gz",
+    "version": "7.3.0",
     "description": "# Memories: Photo Management for Nextcloud\n\nMemories is a *batteries-included* photo management solution for Nextcloud with advanced features including:\n\n- **📸 Timeline**: Sort photos and videos by date taken, parsed from Exif data.\n- **⏪ Rewind**: Jump to any time in the past instantly and relive your memories.\n- **🤖 AI Tagging**: Group photos by people and objects, powered by [recognize](https://github.com/nextcloud/recognize) and [facerecognition](https://github.com/matiasdelellis/facerecognition).\n- **🖼️ Albums**: Create albums to group photos and videos together. Then share these albums with others.\n- **🫱🏻‍🫲🏻 External Sharing**: Share photos and videos with people outside of your Nextcloud instance.\n- **📱 Mobile Support**: Work from any device, of any shape and size through the web app.\n- **✏️ Edit Metadata**: Edit dates and other metadata on photos quickly and in bulk.\n- **📦 Archive**: Store photos you don't want to see in your timeline in a separate folder.\n- **📹 Video Transcoding**: Transcode videos and use HLS for maximal performance.\n- **🗺️ Map**: View your photos on a map, tagged with accurate reverse geocoding.\n- **📦 Migration**: Migrate easily from Nextcloud Photos and Google Takeout.\n- **⚡️ Performance**: Do all this very fast.\n\n## 🚀 Installation\n\n1. Install the app from the Nextcloud app store (try a demo [here](https://demo.memories.gallery/apps/memories/)).\n1. Perform the recommended [configuration steps](https://memories.gallery/config/).\n1. Run `php occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos.",
     "homepage": "https://memories.gallery",
     "licenses": [
@@ -1720,9 +1720,9 @@
     ]
   },
   "notify_push": {
-    "hash": "sha256-4rpKHXkJlnEdv52oaAPbyn75/rvz+PqfN4M8CI0iU9Y=",
-    "url": "https://github.com/nextcloud-releases/notify_push/releases/download/v0.6.10/notify_push-v0.6.10.tar.gz",
-    "version": "0.6.10",
+    "hash": "sha256-3aQrNxOO4X7Tu+dHqTuc/YlMs0qFuFibTUnziRIU960=",
+    "url": "https://github.com/nextcloud-releases/notify_push/releases/download/v0.6.11/notify_push-v0.6.11.tar.gz",
+    "version": "0.6.11",
     "description": "Push update support for desktop app.\n\nOnce the app is installed, the push binary needs to be setup. You can either use the setup wizard with `occ notify_push:setup` or see the [README](http://github.com/nextcloud/notify_push) for detailed setup instructions",
     "homepage": "",
     "licenses": [
@@ -2568,9 +2568,9 @@
     ]
   },
   "timemanager": {
-    "hash": "sha256-xgBBT3VzNfy5NMW8YhSSZ0wVZlNrPKpzq+ZQvbHzFGo=",
-    "url": "https://github.com/te-online/nextcloud-app-releases/raw/main/timemanager/v0.3.13/timemanager.tar.gz",
-    "version": "0.3.13",
+    "hash": "sha256-OjRMQ+eyrsBsS8CNHr6avbTwNpinVs/nVrWiMnm38Q4=",
+    "url": "https://github.com/te-online/nextcloud-app-releases/raw/main/timemanager/v0.3.14/timemanager.tar.gz",
+    "version": "0.3.14",
     "description": "### Time tracking in Nextcloud!\n* 📁 **organize time entries** based on tasks, projects and clients\n* ⏱ **quickly record** a time entry for your latest tasks\n* ✅ **check or uncheck** a time entry (e.g. to save whether you've billed it)\n* 📈 make use of simple, but useful **statistics** and **reports**.\n\n_[View changelog](https://github.com/te-online/timemanager/blob/main/CHANGELOG.md) to see older releases_\n\n📱 **Looking for a mobile companion app?** Try the [Android app (currently in beta)](https://play.google.com/store/apps/details?id=de.jbservices.nc_timemanager_app) made by [@joleaf](https://gitlab.com/joleaf/nc-timemanager-mobile-app)",
     "homepage": "https://github.com/te-online/timemanager",
     "licenses": [
