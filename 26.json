@@ -310,8 +310,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -1230,8 +1230,8 @@
     ]
   },
   "integration_mattermost": {
-    "hash": "sha256-l2OgnPlL3F5G4bB/ZKSl80cJuC0QtSz6u8rp/YzvlTQ=",
-    "url": "https://github.com/nextcloud-releases/integration_mattermost/releases/download/v1.0.4/integration_mattermost-v1.0.4.tar.gz",
+    "hash": "sha256-F5/Y4lBwwfwf41hBmZ+OREdRlWSdEYdZLNDEGNJPmNs=",
+    "url": "https://github.com/julien-nc/integration_mattermost/releases/download/v1.0.4-2-nightly/integration_mattermost-1.0.4-2-nightly.tar.gz",
     "version": "1.0.4",
     "description": "Mattermost integration provides a dashboard widget displaying your most important notifications\nand a unified search provider for messages. It also lets you send files to Mattermost from Nextcloud Files.",
     "homepage": "https://github.com/nextcloud/integration_mattermost",
@@ -2100,9 +2100,9 @@
     ]
   },
   "riotchat": {
-    "hash": "sha256-LGIpXJ5x4UBKt2VzHuZ26VQjCPYmF/dnUY3Rg7/0BgU=",
-    "url": "https://github.com/gary-kim/riotchat/releases/download/v0.16.9/riotchat.tar.gz",
-    "version": "0.16.9",
+    "hash": "sha256-Lb9chTIkpAt2ZwTyXCC3dL+Kvwu5ep+ufwaXRCM8LC4=",
+    "url": "https://github.com/gary-kim/riotchat/releases/download/v0.17.0/riotchat.tar.gz",
+    "version": "0.17.0",
     "description": "Element for Nextcloud allows you to install Element Web easily through Nextcloud and join the Matrix decentralized communication network.\n\nThis app does not include a Matrix server, only the client. You will have to either set up your own Matrix homeserver, rent one, or use a public one.\n\nThis project is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Element or the Element project, or any of its subsidiaries or its affiliates.\n\nThe name Element as well as related names, marks, emblems and images are registered trademarks of their respective owners.\n\nThe upstream project can be found at [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web).",
     "homepage": "https://github.com/gary-kim/riotchat",
     "licenses": [
@@ -2150,9 +2150,9 @@
     ]
   },
   "sendent": {
-    "hash": "sha256-RV0PAu+lElMAMrHjUppkaW5EKYW5aN3O3H+aJ7n7M/E=",
-    "url": "https://download.sendent.com/serverapp/3.0.7/sendent.tar.gz",
-    "version": "3.0.7",
+    "hash": "sha256-PiK6SzDCHyllePRA3E8CGzBJ0el4cK+CftaWixHql7s=",
+    "url": "https://download.sendent.com/serverapp/3.0.8/sendent.tar.gz",
+    "version": "3.0.8",
     "description": "Sendent now securely exchanges files and emails, integrating with both Microsoft Outlook and Microsoft Teams. This enhanced capability allows users to seamlessly conduct their work, not only within their preferred email environment but also within the collaborative framework of Microsoft Teams. Whether sharing privacy-sensitive documents, content, or handling attachments that exceed standard email size constraints, Sendent ensures a streamlined and secure communication experience. All files are directed to your Nextcloud instance, empowering you to control and manage access permissions effectively.",
     "homepage": "https://www.sendent.com",
     "licenses": [
@@ -2650,10 +2650,10 @@
     ]
   },
   "user_backend_sql_raw": {
-    "hash": "sha256-T/dGLQNDQWjxsWvif7DU1JB6ffOO0iBUqKNUzW6dw18=",
-    "url": "https://github.com/PanCakeConnaisseur/user_backend_sql_raw/releases/download/v1.5.1/user_backend_sql_raw.tar.gz",
-    "version": "1.5.1",
-    "description": "This app allows you to do user management against a SQL database using arbitrary SQL queries, enabling you to use any SQL db schema.\n\nYou can authenticate, create, delete users, change their password or display name, basically do (almost) everything that Nextcloud can do with users.\n\nIn contrast to the app *SQL user backend*, you write the SQL queries yourself. You are not limited by assumptions that app authors made about how your db is structured.\n\nThe app uses prepared statements and is written to be secure by default to prevent SQL injections. It understands the most popular standards for password hash formats: MD5-CRYPT, SHA256-CRYPT, SHA512-CRYPT, BCrypt and the state-of-the-art Argon2i and Argon2id. Because the various formats are recognized on-the-fly your db can can have differing hash string formats at the same time, which eases migration to newer formats.\n\nThis app supports PostgreSQL and MariaDB/MySQL.",
+    "hash": "sha256-WxAgOCro6N1/2YCjWWxlNGuv3YvV4j32GCyOllzS2Cw=",
+    "url": "https://github.com/PanCakeConnaisseur/user_backend_sql_raw/releases/download/v2.0.1/user_backend_sql_raw.tar.gz",
+    "version": "2.0.1",
+    "description": "This is an app for Nextcloud that offers user management and authentication with\narbitrary SQL queries.\n\nYou can authenticate, create, delete users, change their password or display\nname, basically do (almost) everything that Nextcloud can do with users.\n\nIn contrast to the app *SQL user backend*, you write the SQL queries yourself.\nYou are not limited by assumptions that app authors made about how your db is\nstructured.\n\nThe app uses prepared statements and is written to be secure by default to\nprevent SQL injections. It understands the most popular standards for password\nhash formats: MD5-CRYPT, SHA256-CRYPT, SHA512-CRYPT, BCrypt, Argon2i and\nArgon2id. Because the various formats are recognized on-the-fly your db can can\nhave differing hash string formats at the same time, which eases migration to\nnewer formats.\n\nThis app primarily supports PostgreSQL and MariaDB/MySQL but the underlying PHP\nmechanism also supports Firebird, MS SQL, Oracle DB, ODBC, DB2, SQLite, Informix\nand IBM databases. By using an appropriate DSN you should be able to connect to\nthese databases. This has not been tested, though.",
     "homepage": "",
     "licenses": [
       "agpl"
