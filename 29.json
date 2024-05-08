@@ -250,8 +250,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -640,9 +640,9 @@
     ]
   },
   "htmlviewer": {
-    "hash": "sha256-JppAJr631ndLcYI6f+ryptMUWgbUY7V7fKjV3tVRCjc=",
-    "url": "https://git.mdns.eu/api/v4/projects/79/packages/generic/htmlviewer/29.1.0/htmlviewer.tar.gz",
-    "version": "29.1.0",
+    "hash": "sha256-2CFT2Wg7xXlJOJ/yJRmj2RK92IUVBhvgbmME/M82SEQ=",
+    "url": "https://git.mdns.eu/api/v4/projects/79/packages/generic/htmlviewer/29.1.1/htmlviewer.tar.gz",
+    "version": "29.1.1",
     "description": "HTML files can be a great way to illustrate content in an interactive and responsive format.\nThe HTML viewer app enables viewing and editing of static HTML files directly within Nextcloud.\n\n### Security information\nLoading HTML files within the context of Nextcloud carries a risk of exposing user information to third parties, depending on the configuration of the server\nThe HTML viewer app uses the sandbox and CSP features for iframes to disable JavaScript and prevent access to user information and websites outside your Nextcloud, but this can not guarantee that no information is ever transferred to third parties.\n\nAdministrators should also be aware that some users may not be able to differentiate between the content of an HTML file they have opened and the normal user interface of Nextcloud.\n\n### JavaScript\nJavaScript for HTML files is disabled by default. Enabling it is a bad idea and we do not recommend this at all.\nAlthough security features like sandboxing, CSP and CORS limit what can be done, it still means that unknown code is being executed within Nextcloud.\n\nIf you still wish to enable JS, this occ command will enable it:\n```bash\n./occ config:app:set htmlviewer allowJs --value=1\n```\n\n### File Size Limit\nBy default, the app will load HTML files up to 32MB. To change the file size, use this occ command:\n```bash\n ./occ config:app:set htmlviewer maxSize --value=SizeInMegabyte\n```\n\n### Iframe Permissions\nThe app automatically configures the iframe with an CSP for [supported browsers](https://caniuse.com/mdn-api_htmliframeelement_csp) and a sandbox to limit code execution and data access.\nBoth policies can be changed through config settings with the OCC commands shown below.\nPlease be aware that the general CSP of your Nextcloud may still block some access regardless of what CSP and sandbox settings you configure.\n\nTo change the CSP or sandbox settings, use these occ commands:\n```bash\n ./occ config:app:set htmlviewer csp --value=CustomCspSettings\n ./occ config:app:set htmlviewer sandbox --value=CustomSandboxSettings\n```",
     "homepage": "",
     "licenses": [
