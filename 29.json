@@ -250,8 +250,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -555,6 +555,26 @@
     "version": "4.2.3",
     "description": "**Simple surveys and questionnaires, self-hosted!**\n\n- **📝 Simple design:** No mass of options, only the essentials. Works well on mobile of course.\n- **📊 View & export results:** Results are visualized and can also be exported as CSV in the same format used by Google Forms.\n- **🔒 Data under your control!** Unlike in Google Forms, Typeform, Doodle and others, the survey info and responses are kept private on your instance.\n- **🧑‍💻 Connect to your software:** Easily integrate Forms into your service with our full-fledged [REST-API](https://github.com/nextcloud/forms/blob/main/docs/API.md).\n- **🙋 Get involved!** We have lots of stuff planned like more question types, collaboration on forms, [and much more](https://github.com/nextcloud/forms/milestones)!",
     "homepage": "https://github.com/nextcloud/forms",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "fulltextsearch_elasticsearch": {
+    "hash": "",
+    "url": "https://github.com/nextcloud-releases/fulltextsearch_elasticsearch/releases/download/29.0.0/fulltextsearch_elasticsearch-29.0.0.tar.gz",
+    "version": "29.0.0",
+    "description": "Extension to the _Full text search_ app to communicate with ElasticSearch.",
+    "homepage": "https://github.com/nextcloud/fulltextsearch_elasticsearch",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "geoblocker": {
+    "hash": "sha256-cWWfZrpFgecrCfImbGy+JKJah/S5uy+DiZyeH+iWUco=",
+    "url": "https://github.com/HomeITAdmin/nextcloud_geoblocker/releases/download/0.5.14/geoblocker.tar.gz",
+    "version": "0.5.14",
+    "description": "This is a front end to geo localization services, that allows blocking (beta), delaying (beta) and logging of login attempts from specified countries.\nLogin attempts from local network IP addresses are never blocked, delayed or logged.\nIn the current implementation the login page is normally shown to everybody independent of the country. Also login attempts with a non existing user are failing as usual independent of the country.\nWrong Nextcloud configuration (especially in container) can lead to all access seems to come from local network IP address.\nDetermination of the country from IP address is only as good as the chosen service.\n\nCountries can be specified using allowlisting or blocklisting.\n\nCurrently available localization services are:\n- Geoiplookup (local programm on the host)\n- MaxMind GeoLite2 (local database accessed via PHP API)\n- Data from Regional Internet Registries (Nextcloud SQL database build up with data downloaded from the RIRs FTP servers)\n\nFor help how to set up the localization services please have a look at the GitHub repository (homepage on the right side).",
+    "homepage": "https://github.com/HomeITAdmin/nextcloud_geoblocker/",
     "licenses": [
       "agpl"
     ]
