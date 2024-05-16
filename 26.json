@@ -1230,8 +1230,8 @@
     ]
   },
   "integration_mattermost": {
-    "hash": "sha256-F5/Y4lBwwfwf41hBmZ+OREdRlWSdEYdZLNDEGNJPmNs=",
-    "url": "https://github.com/julien-nc/integration_mattermost/releases/download/v1.0.4-2-nightly/integration_mattermost-1.0.4-2-nightly.tar.gz",
+    "hash": "sha256-l2OgnPlL3F5G4bB/ZKSl80cJuC0QtSz6u8rp/YzvlTQ=",
+    "url": "https://github.com/nextcloud-releases/integration_mattermost/releases/download/v1.0.4/integration_mattermost-v1.0.4.tar.gz",
     "version": "1.0.4",
     "description": "Mattermost integration provides a dashboard widget displaying your most important notifications\nand a unified search provider for messages. It also lets you send files to Mattermost from Nextcloud Files.",
     "homepage": "https://github.com/nextcloud/integration_mattermost",
@@ -1700,9 +1700,9 @@
     ]
   },
   "occweb": {
-    "hash": "sha256-JnaTdKe7ghQ1xd6MM73TB6FYY1RBWKsQNut7XkbkpDo=",
-    "url": "https://github.com/Adphi/occweb/releases/download/v0.1.1/occweb.tar.gz",
-    "version": "0.1.1",
+    "hash": "sha256-PkM3yldDN3jiCgs9E5SqyjjSpuRaGLYrRZd+B4iQklQ=",
+    "url": "https://github.com/Adphi/occweb/releases/download/v0.1.2/occweb.tar.gz",
+    "version": "0.1.2",
     "description": "Run OCC Commands in a web terminal",
     "homepage": "https://github.com/adphi/occweb",
     "licenses": [
@@ -2080,9 +2080,9 @@
     ]
   },
   "richdocumentscode": {
-    "hash": "sha256-wVNZ9dS18h7A2i0hVWKfqgWTK7yzk6oauBKcoTH3IbY=",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/24.4.103/richdocumentscode.tar.gz",
-    "version": "24.4.103",
+    "hash": "sha256-nRhrrq5ayiDxoLmck5Ovs/cnVb9+axThqYzlEP2rYLs=",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/24.4.201/richdocumentscode.tar.gz",
+    "version": "24.4.201",
     "description": "**This app has to be installed and used together with the [Nextcloud Office](https://apps.nextcloud.com/apps/richdocuments) integration app.**\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\n* This app provides a built-in server with all of the document editing features of Collabora Online.\n* Easy to install, for personal use or for small teams.\n* A bit slower than a standalone server and without the advanced scalability features.\n\n**System Requirements:**\n- Linux running on ```x86-64``` or ```arm64/aarch64```\n- A ```glibc``` based distribution/container (```musl libc``` is **not** supported)\n- Fontconfig (```libfontconfig.so.1```)\n- Additional requirements can be found in [here](https://github.com/CollaboraOnline/richdocumentscode#richdocumentscode)\n\n*The download is rather big so it is possible you will experience a time-out when installing via the web interface.* You can use the OCC command install the built-in server from the command-line instead:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)\n\nAdditional troubleshooting tips can be found [here](https://github.com/CollaboraOnline/richdocumentscode?tab=readme-ov-file#troubleshooting).",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -2090,9 +2090,9 @@
     ]
   },
   "richdocumentscode_arm64": {
-    "hash": "sha256-yIY2rIys5hR2kCWtUiUTG6xLaIMoUSlYwh+NIBSZl+Y=",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/24.4.103/richdocumentscode_arm64.tar.gz",
-    "version": "24.4.103",
+    "hash": "sha256-baLefgWnCLMgA6vWKorD+u+9siiDauPJ0IxQ3ruzf04=",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/24.4.201/richdocumentscode_arm64.tar.gz",
+    "version": "24.4.201",
     "description": "**This app has to be installed and used together with the [Nextcloud Office](https://apps.nextcloud.com/apps/richdocuments) integration app.**\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\n* This app provides a built-in server with all of the document editing features of Collabora Online.\n* Easy to install, for personal use or for small teams.\n* A bit slower than a standalone server and without the advanced scalability features.\n\n**System Requirements:**\n- Linux running on ```x86-64``` or ```arm64/aarch64```\n- A ```glibc``` based distribution/container (```musl libc``` is **not** supported)\n- Fontconfig (```libfontconfig.so.1```)\n- Additional requirements can be found in [here](https://github.com/CollaboraOnline/richdocumentscode#richdocumentscode)\n\n*The download is rather big so it is possible you will experience a time-out when installing via the web interface.* You can use the OCC command install the built-in server from the command-line instead:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode_arm64\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)\n\nAdditional troubleshooting tips can be found [here](https://github.com/CollaboraOnline/richdocumentscode?tab=readme-ov-file#troubleshooting).",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [

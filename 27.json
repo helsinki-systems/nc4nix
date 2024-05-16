@@ -160,9 +160,9 @@
     ]
   },
   "calendar": {
-    "hash": "sha256-FnlN5q1kf/TXK3lBwNfnvKhACaV6L1OBHkKzi4ZFS6Q=",
-    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v4.7.3/calendar-v4.7.3.tar.gz",
-    "version": "4.7.3",
+    "hash": "sha256-C3AYf1mT3aN2DK23IafjPImK26Ntg1G7GnY5TT7P+fs=",
+    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v4.7.4/calendar-v4.7.4.tar.gz",
+    "version": "4.7.4",
     "description": "The Calendar app is a user interface for Nextcloud's CalDAV server. Easily sync events from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Currently Contacts - more to come.\n* 🌐 **WebCal Support!** Want to see your favorite team’s matchdays in your calendar? No problem!\n* 🙋 **Attendees!** Invite people to your events\n* ⌚️ **Free/Busy!** See when your attendees are available to meet\n* ⏰ **Reminders!** Get alarms for events inside your browser and via email\n* 🔍 Search! Find your events at ease\n* ☑️ Tasks! See tasks with a due date directly in the calendar\n* 🙈 **We’re not reinventing the wheel!** Based on the great [c-dav library](https://github.com/nextcloud/cdav-library), [ical.js](https://github.com/mozilla-comm/ical.js) and [fullcalendar](https://github.com/fullcalendar/fullcalendar) libraries.",
     "homepage": "https://github.com/nextcloud/calendar/",
     "licenses": [
@@ -1730,9 +1730,9 @@
     ]
   },
   "occweb": {
-    "hash": "sha256-JnaTdKe7ghQ1xd6MM73TB6FYY1RBWKsQNut7XkbkpDo=",
-    "url": "https://github.com/Adphi/occweb/releases/download/v0.1.1/occweb.tar.gz",
-    "version": "0.1.1",
+    "hash": "sha256-PkM3yldDN3jiCgs9E5SqyjjSpuRaGLYrRZd+B4iQklQ=",
+    "url": "https://github.com/Adphi/occweb/releases/download/v0.1.2/occweb.tar.gz",
+    "version": "0.1.2",
     "description": "Run OCC Commands in a web terminal",
     "homepage": "https://github.com/adphi/occweb",
     "licenses": [
@@ -2100,9 +2100,9 @@
     ]
   },
   "richdocumentscode": {
-    "hash": "sha256-wVNZ9dS18h7A2i0hVWKfqgWTK7yzk6oauBKcoTH3IbY=",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/24.4.103/richdocumentscode.tar.gz",
-    "version": "24.4.103",
+    "hash": "sha256-nRhrrq5ayiDxoLmck5Ovs/cnVb9+axThqYzlEP2rYLs=",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/24.4.201/richdocumentscode.tar.gz",
+    "version": "24.4.201",
     "description": "**This app has to be installed and used together with the [Nextcloud Office](https://apps.nextcloud.com/apps/richdocuments) integration app.**\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\n* This app provides a built-in server with all of the document editing features of Collabora Online.\n* Easy to install, for personal use or for small teams.\n* A bit slower than a standalone server and without the advanced scalability features.\n\n**System Requirements:**\n- Linux running on ```x86-64``` or ```arm64/aarch64```\n- A ```glibc``` based distribution/container (```musl libc``` is **not** supported)\n- Fontconfig (```libfontconfig.so.1```)\n- Additional requirements can be found in [here](https://github.com/CollaboraOnline/richdocumentscode#richdocumentscode)\n\n*The download is rather big so it is possible you will experience a time-out when installing via the web interface.* You can use the OCC command install the built-in server from the command-line instead:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)\n\nAdditional troubleshooting tips can be found [here](https://github.com/CollaboraOnline/richdocumentscode?tab=readme-ov-file#troubleshooting).",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -2110,9 +2110,9 @@
     ]
   },
   "richdocumentscode_arm64": {
-    "hash": "sha256-yIY2rIys5hR2kCWtUiUTG6xLaIMoUSlYwh+NIBSZl+Y=",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/24.4.103/richdocumentscode_arm64.tar.gz",
-    "version": "24.4.103",
+    "hash": "sha256-baLefgWnCLMgA6vWKorD+u+9siiDauPJ0IxQ3ruzf04=",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/24.4.201/richdocumentscode_arm64.tar.gz",
+    "version": "24.4.201",
     "description": "**This app has to be installed and used together with the [Nextcloud Office](https://apps.nextcloud.com/apps/richdocuments) integration app.**\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\n* This app provides a built-in server with all of the document editing features of Collabora Online.\n* Easy to install, for personal use or for small teams.\n* A bit slower than a standalone server and without the advanced scalability features.\n\n**System Requirements:**\n- Linux running on ```x86-64``` or ```arm64/aarch64```\n- A ```glibc``` based distribution/container (```musl libc``` is **not** supported)\n- Fontconfig (```libfontconfig.so.1```)\n- Additional requirements can be found in [here](https://github.com/CollaboraOnline/richdocumentscode#richdocumentscode)\n\n*The download is rather big so it is possible you will experience a time-out when installing via the web interface.* You can use the OCC command install the built-in server from the command-line instead:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode_arm64\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)\n\nAdditional troubleshooting tips can be found [here](https://github.com/CollaboraOnline/richdocumentscode?tab=readme-ov-file#troubleshooting).",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -2130,9 +2130,9 @@
     ]
   },
   "riotchat": {
-    "hash": "sha256-Lb9chTIkpAt2ZwTyXCC3dL+Kvwu5ep+ufwaXRCM8LC4=",
-    "url": "https://github.com/gary-kim/riotchat/releases/download/v0.17.0/riotchat.tar.gz",
-    "version": "0.17.0",
+    "hash": "sha256-7ntKomIFGC+4GAe3/lAywVFU+UIJhcSIqeOoLUdp874=",
+    "url": "https://github.com/gary-kim/riotchat/releases/download/v0.17.1/riotchat.tar.gz",
+    "version": "0.17.1",
     "description": "Element for Nextcloud allows you to install Element Web easily through Nextcloud and join the Matrix decentralized communication network.\n\nThis app does not include a Matrix server, only the client. You will have to either set up your own Matrix homeserver, rent one, or use a public one.\n\nThis project is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Element or the Element project, or any of its subsidiaries or its affiliates.\n\nThe name Element as well as related names, marks, emblems and images are registered trademarks of their respective owners.\n\nThe upstream project can be found at [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web).",
     "homepage": "https://github.com/gary-kim/riotchat",
     "licenses": [
