@@ -200,9 +200,9 @@
     ]
   },
   "collectives": {
-    "hash": "sha256-o8XKsZu4RYtzHXZp/MZkqpQpSPSp1L9CpqWMRN9TXBk=",
-    "url": "https://github.com/nextcloud/collectives/releases/download/v2.10.1/collectives-2.10.1.tar.gz",
-    "version": "2.10.1",
+    "hash": "sha256-W0FudQfCtmrON6I4+l3VuMgdXlDMtZqpCEXUH3h7p0w=",
+    "url": "https://github.com/nextcloud/collectives/releases/download/v2.11.0/collectives-2.11.0.tar.gz",
+    "version": "2.11.0",
     "description": "Collectives is a Nextcloud App for activist and community projects to organize together.\nCome and gather in collectives to build shared knowledge.\n\n* 👥 **Collective and non-hierarchical workflow by heart**: Collectives are\n  tied to a [Nextcloud Team](https://github.com/nextcloud/circles) and\n  owned by the collective.\n* 📝 **Collaborative page editing** like known from Etherpad thanks to the\n  [Text app](https://github.com/nextcloud/text).\n* 🔤 **Well-known [Markdown](https://en.wikipedia.org/wiki/Markdown) syntax**\n  for page formatting.\n\n## Installation\n\nIn your Nextcloud instance, simply navigate to **»Apps«**, find the\n**»Teams«** and **»Collectives«** apps and enable them.",
     "homepage": "https://github.com/nextcloud/collectives",
     "licenses": [
@@ -410,9 +410,9 @@
     ]
   },
   "files_antivirus": {
-    "hash": "sha256-LG8m+cOFkSx06kQmArsMaVWFrI48YJswB4J4FRvXUm0=",
-    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.5.0/files_antivirus-v5.5.0.tar.gz",
-    "version": "5.5.0",
+    "hash": "sha256-0syn4uQM/ZwGy+LCouvLVIZRBEDtzkOJ5DHFKMuvvzE=",
+    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.5.1/files_antivirus-v5.5.1.tar.gz",
+    "version": "5.5.1",
     "description": "Antivirus for files is an antivirus app for Nextcloud.\n\n* 🕵️‍♂️ When the user uploads a file, it's checked\n* ☢️ Uploaded and infected files will be deleted and a notification will be shown and/or sent via email\n* 🔎 Background Job to scan all files\n* ❓ Use ClamAV (open source), Kaspersky Scan Engine or an ICAP compatible scanner\n\nThis application inspects files that are uploaded to Nextcloud for viruses before they are written to the Nextcloud storage. If a file is identified as a virus, it is either logged or not uploaded to the server. The application relies on the underlying ClamAV virus scanning engine, which the admin points Nextcloud to when configuring the application. Alternatively, a Kaspersky Scan Engine can be configured, which has to run on a separate server.\nFor this app to be effective, the ClamAV virus definitions should be kept up to date. Also note that enabling this app will impact system performance as additional processing is required for every upload. More information is available in the Antivirus documentation.",
     "homepage": "",
     "licenses": [
@@ -425,6 +425,16 @@
     "version": "1.19.0",
     "description": "An app for Nextcloud that automatically assigns tags to newly uploaded files based on some conditions.\n\nThe tags can later be used to control retention, file access, automatic script execution and more.\n\n## How it works\nTo define tags, administrators can create and manage a set of rule groups. Each rule group consists of one or more rules combined through operators. Rules can include criteria like file type, size, time and more. A request matches a group if all rules evaluate to true. On uploading a file all defined groups are evaluated and when matching, the given tags are assigned to the file.",
     "homepage": "https://github.com/nextcloud/files_automatedtagging",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "files_bpm": {
+    "hash": "sha256-bJRjC/vHGMrkri0j1vh3lVAi+dAdePylgUUFenmnNgw=",
+    "url": "https://github.com/kirstenhh/nc-bpm-app/releases/download/v1.4.0/files_bpm-v1.4.0.tar.gz",
+    "version": "1.4.0",
+    "description": "A BPMN 2.0/DMN 1.3 Viewer and Editor",
+    "homepage": "https://github.com/kirstenhh/nc-bpm-app/",
     "licenses": [
       "agpl"
     ]
@@ -1070,9 +1080,9 @@
     ]
   },
   "mail": {
-    "hash": "sha256-NhZFFd3BupSVv63Kr9O/3/y8QugKWfbK35b6b6kaxWs=",
-    "url": "https://github.com/nextcloud-releases/mail/releases/download/v3.6.0/mail-v3.6.0.tar.gz",
-    "version": "3.6.0",
+    "hash": "sha256-PenYJq8zN6oqmlOsxDCoWEN06lc6IShZO6U0ebvo/RA=",
+    "url": "https://github.com/nextcloud-releases/mail/releases/download/v3.6.1/mail-v3.6.1.tar.gz",
+    "version": "3.6.1",
     "description": "**💌 A mail app for Nextcloud**\n\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://horde.org) libraries.\n- **📬 Want to host your own mail server?** We do not have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!\n\n## Ethical AI Rating\n\n### Priority Inbox\n\nPositive:\n* The software for training and inferencing of this model is open source.\n* The model is created and trained on-premises based on the user's own data.\n* The training data is accessible to the user, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n### Thread Summaries (opt-in)\n\n**Rating:** 🟢/🟡/🟠/🔴\n\nThe rating depends on the installed text processing backend. See [the rating overview](https://docs.nextcloud.com/server/latest/admin_manual/ai/index.html) for details.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/mail#readme",
     "licenses": [
