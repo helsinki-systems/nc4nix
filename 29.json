@@ -389,6 +389,16 @@
       "agpl"
     ]
   },
+  "facerecognition": {
+    "hash": "sha256-euKq3byS/odt+7nzcRVLYxbdtfy4alHE6lBViQFi4QM=",
+    "url": "https://github.com/matiasdelellis/facerecognition/releases/download/v0.9.50/facerecognition.tar.gz",
+    "version": "0.9.50",
+    "description": "**Detect and group faces of your loved one in your cloud**\n\n⚠️ This application requires minimum of 1GB of RAM memory to work! See [Requirements](https://github.com/matiasdelellis/facerecognition/wiki/Requirements-and-Limitations) for details.\n\n⚠️ Setup of this app requires access to terminal and even getting your hands dirty with installation of additional software. See [Installation](https://github.com/matiasdelellis/facerecognition/wiki/Installation) for details.\n\n- **😏 Detect faces from images:** Use FaceRecognition app to detect _any_ face in _any_ of your images!\n- **👪 Group faces to persons:** Detected faces are grouped together based on similarity and then FaceRecognition app can recognize persons!\n- **🔒 Built-in privacy:** No data is leaving your cloud. Defaults are always off and each user controls enabling/disabling face detection. Images from every directory can be excluded from face detection, if needed.\n- **⚙️ Power of AI:** FaceRecognition app leverages power of AI and already built neural network models through extensive usage of [DLib](http://dlib.net/) library.\n- **🚀 Build your own thing:** FaceRecognition app is just a basic building block. Through FaceRecognition API, you can build your advanced scenarios - automatically add tags to images, connect contacts and persons, share images from specific person… We want to hear your ideas!",
+    "homepage": "https://github.com/matiasdelellis/facerecognition",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "familytree": {
     "hash": "sha256-l66ZIt+/TlFEJFic3iocIHuxgMt8IBCSuBwkmX2eoWo=",
     "url": "https://github.com/derbenx/nextcloud-familytree/releases/download/1.3.5/familytree.tar.gz",
@@ -400,9 +410,9 @@
     ]
   },
   "files_3dmodelviewer": {
-    "hash": "sha256-nc8uGgP/yyMVnbifwpeiRGJhp2IqktJpGxqM3WQZiec=",
-    "url": "https://github.com/WARP-LAB/files_3dmodelviewer/releases/download/v0.0.13/files_3dmodelviewer.tar.gz",
-    "version": "0.0.13",
+    "hash": "sha256-AQglSiL1gtF0nFLhqnyXYkgXBFqhm8TxATyyncMz08A=",
+    "url": "https://github.com/WARP-LAB/files_3dmodelviewer/releases/download/v0.0.14/files_3dmodelviewer.tar.gz",
+    "version": "0.0.14",
     "description": "# Visualise and explore 3D models\n\n- 3dm | Rhino\n- 3ds | Autodesk 3D Studio\n- 3mf | 3D Manufacturing Format\n- bim | dotbim\n- brep/brp | Boundary Representation\n- dae | Collada\n- fbx | Filmbox\n- fcstd | FreeCAD Standard File Format\n- glb | GL Transmission Format\n- gltf | GL Transmission Format\n- ifc | International Foundation Class\n- iges/igs | Initial Graphics Exchange Specification\n- obj | Wavefront\n- off | Object File Format\n- ply | Polygon File Format\n- step/stp | Standard for Exchange of Product Model Data\n- stl | Stereolithography Standard Tesselation/Triangle Language\n- wrl | Virtual Reality Modeling Language",
     "homepage": "https://github.com/WARP-LAB/files_3dmodelviewer",
     "licenses": [
@@ -420,9 +430,9 @@
     ]
   },
   "files_antivirus": {
-    "hash": "sha256-0syn4uQM/ZwGy+LCouvLVIZRBEDtzkOJ5DHFKMuvvzE=",
-    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.5.1/files_antivirus-v5.5.1.tar.gz",
-    "version": "5.5.1",
+    "hash": "sha256-K9i2Yds7uU1EM/dlCazo5lqHu5QMuA/bJmCsakPQek8=",
+    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.5.2/files_antivirus-v5.5.2.tar.gz",
+    "version": "5.5.2",
     "description": "Antivirus for files is an antivirus app for Nextcloud.\n\n* 🕵️‍♂️ When the user uploads a file, it's checked\n* ☢️ Uploaded and infected files will be deleted and a notification will be shown and/or sent via email\n* 🔎 Background Job to scan all files\n* ❓ Use ClamAV (open source), Kaspersky Scan Engine or an ICAP compatible scanner\n\nThis application inspects files that are uploaded to Nextcloud for viruses before they are written to the Nextcloud storage. If a file is identified as a virus, it is either logged or not uploaded to the server. The application relies on the underlying ClamAV virus scanning engine, which the admin points Nextcloud to when configuring the application. Alternatively, a Kaspersky Scan Engine can be configured, which has to run on a separate server.\nFor this app to be effective, the ClamAV virus definitions should be kept up to date. Also note that enabling this app will impact system performance as additional processing is required for every upload. More information is available in the Antivirus documentation.",
     "homepage": "",
     "licenses": [
@@ -1140,8 +1150,8 @@
     ]
   },
   "maps": {
-    "hash": "sha256-FmRhpPRpMnCHkJFaVvQuR6Y7Pd7vpP+tUVih919g/fQ=",
-    "url": "https://github.com/nextcloud/maps/releases/download/v1.4.0-1-nightly/maps-1.4.0-1-nightly.tar.gz",
+    "hash": "sha256-BmXs6Oepwnm+Cviy4awm3S8P9AiJTt1BnAQNb4TxVYE=",
+    "url": "https://github.com/nextcloud/maps/releases/download/v1.4.0/maps-1.4.0.tar.gz",
     "version": "1.4.0",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
@@ -1175,6 +1185,16 @@
     "version": "7.3.1",
     "description": "# Memories: Photo Management for Nextcloud\n\nMemories is a *batteries-included* photo management solution for Nextcloud with advanced features including:\n\n- **📸 Timeline**: Sort photos and videos by date taken, parsed from Exif data.\n- **⏪ Rewind**: Jump to any time in the past instantly and relive your memories.\n- **🤖 AI Tagging**: Group photos by people and objects, powered by [recognize](https://github.com/nextcloud/recognize) and [facerecognition](https://github.com/matiasdelellis/facerecognition).\n- **🖼️ Albums**: Create albums to group photos and videos together. Then share these albums with others.\n- **🫱🏻‍🫲🏻 External Sharing**: Share photos and videos with people outside of your Nextcloud instance.\n- **📱 Mobile Support**: Work from any device, of any shape and size through the web app.\n- **✏️ Edit Metadata**: Edit dates and other metadata on photos quickly and in bulk.\n- **📦 Archive**: Store photos you don't want to see in your timeline in a separate folder.\n- **📹 Video Transcoding**: Transcode videos and use HLS for maximal performance.\n- **🗺️ Map**: View your photos on a map, tagged with accurate reverse geocoding.\n- **📦 Migration**: Migrate easily from Nextcloud Photos and Google Takeout.\n- **⚡️ Performance**: Do all this very fast.\n\n## 🚀 Installation\n\n1. Install the app from the Nextcloud app store (try a demo [here](https://demo.memories.gallery/apps/memories/)).\n1. Perform the recommended [configuration steps](https://memories.gallery/config/).\n1. Run `php occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos.",
     "homepage": "https://memories.gallery",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "metadata": {
+    "hash": "sha256-FsdkKnF+hXhrw3KVYWLu7FN34PMF0mOM4+tvB8IzmXw=",
+    "url": "https://github.com/gino0631/nextcloud-metadata/releases/download/v0.20.0/metadata.tar.gz",
+    "version": "0.20.0",
+    "description": "A plugin which displays file metadata in the file details sidebar.\n\nSee the [README](https://github.com/gino0631/nextcloud-metadata/blob/master/README.md) for the supported file types and limitations.",
+    "homepage": "https://github.com/gino0631/nextcloud-metadata",
     "licenses": [
       "agpl"
     ]
@@ -1550,9 +1570,9 @@
     ]
   },
   "sharerenamer": {
-    "hash": "sha256-exm0PEC1k6Y5q5KpZEL+NCJrJmPF9OzsyPs2gr+T8VY=",
-    "url": "https://github.com/JonathanTreffler/sharerenamer/releases/download/v3.3.1/sharerenamer.tar.gz",
-    "version": "3.3.1",
+    "hash": "sha256-PZZYe9sBsNnZOFiLoUywN7958XlBanG1r8bk2Jlhiuk=",
+    "url": "https://github.com/JonathanTreffler/sharerenamer/releases/download/v3.3.2/sharerenamer.tar.gz",
+    "version": "3.3.2",
     "description": "This app allows you to customize your share tokens, so your links can be like https://your-nextcloud.com/s/mysharedlink instead of https://your-nextcloud.com/s/qPv1SwbU5M2YEoJZ. Just share a file or folder normally and customize the link in the sharerenamer tab in the sidebar.\n\t\nPlease be aware that this is a potential security risk: links could be guessed! We discourage using this app on large instances that host sensitive data! We also encourage you to password protect such shared links.",
     "homepage": "https://github.com/JonathanTreffler/sharerenamer",
     "licenses": [
@@ -1935,6 +1955,16 @@
     "version": "6.1.3",
     "description": "Using the SSO & SAML app of your Nextcloud you can make it easily possible to integrate your existing Single-Sign-On solution with Nextcloud. In addition, you can use the Nextcloud LDAP user provider to keep the convenience for users. (e.g. when sharing)\nThe following providers are supported and tested at the moment:\n\n* **SAML 2.0**\n\t* OneLogin\n\t* Shibboleth\n\t* Active Directory Federation Services (ADFS)\n\n* **Authentication via Environment Variable**\n\t* Kerberos (mod_auth_kerb)\n\t* Any other provider that authenticates using the environment variable\n\nWhile theoretically any other authentication provider implementing either one of those standards is compatible, we like to note that they are not part of any internal test matrix.",
     "homepage": "https://github.com/nextcloud/user_saml",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "user_usage_report": {
+    "hash": "sha256-8hBdacnuZa8dq137q2t3iogeXQkwCVe6G9LTFyjsywo=",
+    "url": "https://github.com/nextcloud-releases/user_usage_report/releases/download/v1.13.0/user_usage_report-v1.13.0.tar.gz",
+    "version": "1.13.0",
+    "description": "Provides a command which generates a report about all the users and their usage:\n\n```\n$ sudo -u www-data ./occ usage-report:generate admin\n\"admin\",\"2017-09-18T09:00:01+00:00\",5368709120,786432000,12,1,1,2\n```\n\nTo include the header of the fields in the CSV use the `--verbose` option:\n\n```\n$ sudo -u www-data ./occ usage-report:generate --verbose admin\n\"user-id\",\"date as 'c'\",\"assigned quota (5 GB)\",\"used quota (500 MB)\",number of files,number of shares,number of uploads,number of downloads\n\"admin\",\"2017-09-18T09:00:01+00:00\",5368709120,786432000,12,1,1,2\n```",
+    "homepage": "https://github.com/nextcloud/user_usage_report",
     "licenses": [
       "agpl"
     ]

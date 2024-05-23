@@ -560,9 +560,9 @@
     ]
   },
   "files_3dmodelviewer": {
-    "hash": "sha256-nc8uGgP/yyMVnbifwpeiRGJhp2IqktJpGxqM3WQZiec=",
-    "url": "https://github.com/WARP-LAB/files_3dmodelviewer/releases/download/v0.0.13/files_3dmodelviewer.tar.gz",
-    "version": "0.0.13",
+    "hash": "sha256-AQglSiL1gtF0nFLhqnyXYkgXBFqhm8TxATyyncMz08A=",
+    "url": "https://github.com/WARP-LAB/files_3dmodelviewer/releases/download/v0.0.14/files_3dmodelviewer.tar.gz",
+    "version": "0.0.14",
     "description": "# Visualise and explore 3D models\n\n- 3dm | Rhino\n- 3ds | Autodesk 3D Studio\n- 3mf | 3D Manufacturing Format\n- bim | dotbim\n- brep/brp | Boundary Representation\n- dae | Collada\n- fbx | Filmbox\n- fcstd | FreeCAD Standard File Format\n- glb | GL Transmission Format\n- gltf | GL Transmission Format\n- ifc | International Foundation Class\n- iges/igs | Initial Graphics Exchange Specification\n- obj | Wavefront\n- off | Object File Format\n- ply | Polygon File Format\n- step/stp | Standard for Exchange of Product Model Data\n- stl | Stereolithography Standard Tesselation/Triangle Language\n- wrl | Virtual Reality Modeling Language",
     "homepage": "https://github.com/WARP-LAB/files_3dmodelviewer",
     "licenses": [
@@ -580,9 +580,9 @@
     ]
   },
   "files_antivirus": {
-    "hash": "sha256-0syn4uQM/ZwGy+LCouvLVIZRBEDtzkOJ5DHFKMuvvzE=",
-    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.5.1/files_antivirus-v5.5.1.tar.gz",
-    "version": "5.5.1",
+    "hash": "sha256-K9i2Yds7uU1EM/dlCazo5lqHu5QMuA/bJmCsakPQek8=",
+    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.5.2/files_antivirus-v5.5.2.tar.gz",
+    "version": "5.5.2",
     "description": "Antivirus for files is an antivirus app for Nextcloud.\n\n* 🕵️‍♂️ When the user uploads a file, it's checked\n* ☢️ Uploaded and infected files will be deleted and a notification will be shown and/or sent via email\n* 🔎 Background Job to scan all files\n* ❓ Use ClamAV (open source), Kaspersky Scan Engine or an ICAP compatible scanner\n\nThis application inspects files that are uploaded to Nextcloud for viruses before they are written to the Nextcloud storage. If a file is identified as a virus, it is either logged or not uploaded to the server. The application relies on the underlying ClamAV virus scanning engine, which the admin points Nextcloud to when configuring the application. Alternatively, a Kaspersky Scan Engine can be configured, which has to run on a separate server.\nFor this app to be effective, the ClamAV virus definitions should be kept up to date. Also note that enabling this app will impact system performance as additional processing is required for every upload. More information is available in the Antivirus documentation.",
     "homepage": "",
     "licenses": [
@@ -2880,9 +2880,9 @@
     ]
   },
   "workspace": {
-    "hash": "sha256-L9OxPb9rMs6T8Vc/kt9P0SrUHl/CI5TKFUF424Bpg20=",
-    "url": "https://github.com/arawa/workspace/releases/download/v3.0.6/workspace-3.0.6.tar.gz",
-    "version": "3.0.6",
+    "hash": "sha256-fooKmfCZcgAqeqCd0ua+AoJKhFWr4W0fnvSDMF1TA4o=",
+    "url": "https://github.com/arawa/workspace/releases/download/v3.1.0/workspace-3.1.0.tar.gz",
+    "version": "3.1.0",
     "description": "# Description\n\nWorkspace allows managers to :\n- Create shared workspaces\n- Delegate management of each workspace to users (workspace managers) in order for them to:\n    - choose members\n    - create groups\n    - configure advanced permissions on workspace folders\n- All through a simple unified interface, designed to simplify your users' experience and make them autonomous\n\nIt is necessary to install the Group Folders app for the Workspace app to work.\n\n# App configuration\n\nBefore using Workspace, you must configure the app, following these important steps:\n\n- Limit the Workspace app to specific groups : in your \"application management\" administrator interface, limit the application to the following groups: \"GeneralManager\" and \"WorkspacesManagers\".\n\n- Configure Groupfolders for Workspace:\n    - until Nextcloud 24 : in \"Settings\" > \"Group folders\" > \"Group folder admin delegation\" section, add the groups \"GeneralManager\" and \"WorkspacesManagers\".\n    - from Nextcloud 25 : in \"Settings\" > \"Group folders\" > \"Group folder admin delegation\" section, add the group \"GeneralManager\" to the **first** field, and the group \"WorkspacesManagers\" to the **second** field\n\nSince Workspace 2.0.0 for Nextcloud 25, our app is fully compatible with the standard Group folders app (since 13.1.0), available on [Nextcloud app store](https://apps.nextcloud.com/apps/groupfolders/).\n\n**Caution** if you are using a major version 24 of Nextcloud or earlier : to use our app, you need to install [our forked Groupfolders app](https://github.com/arawa/groupfolders), release [v9.2.1](https://github.com/arawa/groupfolders/releases/download/v9.2.1/groupfolders-9.2.1.tar.gz).\n\nFor more information, please visit [our website](https://www.arawa.fr/solutions/produits-arawa/arawa-workspace-for-nextcloud/) (french content).\n\nFor more details, please go to the [admin documentation](https://github.com/arawa/workspace/blob/main/README.md#installation).\n\n# Upgrade guideline\n\nThis section is very important to resolve rare bugs.\nWe try hard to do resolve major bugs and to have a better user experience.\n\n## v3.0.4\n\nFor this version, you should refresh your browser from the Workspace app with `Ctrl, Shift + R`.",
     "homepage": "",
     "licenses": [
