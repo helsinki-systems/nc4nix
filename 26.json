@@ -63,7 +63,7 @@
     "hash": "sha256-s4zXk/O0+ixPWQucFyBVyTZ/W7611WQpmy/TOfdSyzg=",
     "url": "https://github.com/nextcloud-releases/approval/releases/download/v1.1.1/approval-v1.1.1.tar.gz",
     "version": "1.1.1",
-    "description": "Approve/reject files based on workflows defined by admins.",
+    "description": "Approve/reject files based on workflows defined by admins.\n\n**Warning**: The DocuSign integration is no longer part of this app\nand can be installed with [this app](https://apps.nextcloud.com/apps/integration_docusign).",
     "homepage": "https://github.com/nextcloud/approval",
     "licenses": [
       "agpl"
@@ -200,9 +200,9 @@
     ]
   },
   "certificate24": {
-    "hash": "sha256-B5M3yKIyRzq0t1dsCodVHpTp0ApBeLh1msB9EkAh4wQ=",
-    "url": "https://github.com/strukturag/nextcloud-certificate24/releases/download/v0.2.3/certificate24.tar.gz",
-    "version": "0.2.3",
+    "hash": "sha256-eN8zURY3yqDEotmtGOrVTH3v4D6webps+b35Gan/PSc=",
+    "url": "https://github.com/strukturag/nextcloud-certificate24/releases/download/v0.2.4/certificate24.tar.gz",
+    "version": "0.2.4",
     "description": "Certificate24 - Digital Document Signature\n\nWith Certificate24 you can request digital signatures of documents stored in your Nextcloud from other users in Nextcloud or from external users (by email).\n\nSee [the website](https://www.certificate24.com) for further information.",
     "homepage": "https://www.certificate24.com",
     "licenses": [
@@ -310,8 +310,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -580,9 +580,9 @@
     ]
   },
   "files_antivirus": {
-    "hash": "sha256-K9i2Yds7uU1EM/dlCazo5lqHu5QMuA/bJmCsakPQek8=",
-    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.5.2/files_antivirus-v5.5.2.tar.gz",
-    "version": "5.5.2",
+    "hash": "sha256-y1Vp2FDFlReI2R2QPKkzjCZvriBwpPqfz+6K1Y9GbUE=",
+    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.5.3/files_antivirus-v5.5.3.tar.gz",
+    "version": "5.5.3",
     "description": "Antivirus for files is an antivirus app for Nextcloud.\n\n* 🕵️‍♂️ When the user uploads a file, it's checked\n* ☢️ Uploaded and infected files will be deleted and a notification will be shown and/or sent via email\n* 🔎 Background Job to scan all files\n* ❓ Use ClamAV (open source), Kaspersky Scan Engine or an ICAP compatible scanner\n\nThis application inspects files that are uploaded to Nextcloud for viruses before they are written to the Nextcloud storage. If a file is identified as a virus, it is either logged or not uploaded to the server. The application relies on the underlying ClamAV virus scanning engine, which the admin points Nextcloud to when configuring the application. Alternatively, a Kaspersky Scan Engine can be configured, which has to run on a separate server.\nFor this app to be effective, the ClamAV virus definitions should be kept up to date. Also note that enabling this app will impact system performance as additional processing is required for every upload. More information is available in the Antivirus documentation.",
     "homepage": "",
     "licenses": [
@@ -1930,9 +1930,9 @@
     ]
   },
   "polls": {
-    "hash": "sha256-SrL94fmWuvHHVBlYNOwUnlgWThIt6+y8+LmsicMxDrM=",
-    "url": "https://github.com/nextcloud/polls/releases/download/v6.3.0/polls.tar.gz",
-    "version": "6.3.0",
+    "hash": "sha256-Xhwj8Vfrp7uBGNPvyUvuYosWFbyxA8pQJa9MKDcdvFM=",
+    "url": "https://github.com/nextcloud/polls/releases/download/v6.4.0/polls.tar.gz",
+    "version": "6.4.0",
     "description": "A polls app, similar to Doodle/Dudle with the possibility to restrict access (members, certain groups/users, hidden and public).",
     "homepage": "https://github.com/nextcloud/polls",
     "licenses": [
