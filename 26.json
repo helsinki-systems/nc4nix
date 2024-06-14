@@ -1030,9 +1030,9 @@
     ]
   },
   "hidesidebars": {
-    "hash": "sha256-O+PtLpYgF7ZFx7YiseWfJ4ushcPa6+wf0o5C7msJUZ0=",
-    "url": "https://github.com/pointcz/hidesidebars/releases/download/v2.2.2/hidesidebars.tar.gz",
-    "version": "2.2.2",
+    "hash": "sha256-mbUBcVwgfrET1+T33ZtMHSFE4hLpr8CAw0hO3Et3lYQ=",
+    "url": "https://github.com/pointcz/hidesidebars/releases/download/v2.2.3/hidesidebars.tar.gz",
+    "version": "2.2.3",
     "description": "# Hide sidebars\n\nHide left sidebar and top header bar for use in iframe for example or some other scenarios.\n\n## Usage\nAdd `hide-sidebars` after `?` as query parameter to nextcloud url or with `dir` parameter after `&`.\n\nExamples:\n```\nhttp://nextcloud.example.com/index.php/apps/files/?hide-sidebars\nhttp://nextcloud.example.com/index.php/apps/files/?dir=/New%20folder&hide-sidebars\n```\n\nThis app from version 2.0.0 brings new config parameter `addAllowedFrameAncestorDomain`.\nFor usage in iframe you must update `lib/public/AppFramework/Http/ContentSecurityPolicy.php` manually\nor use this new parameter `addAllowedFrameAncestorDomain` in `config.php`\n\n```\n...\n'addAllowedFrameAncestorDomain' => '*.example.com:*'\n...\n```",
     "homepage": "https://github.com/pointcz/hidesidebars",
     "licenses": [
