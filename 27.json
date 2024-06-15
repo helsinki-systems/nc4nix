@@ -340,8 +340,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -880,10 +880,10 @@
     ]
   },
   "gdatavaas": {
-    "hash": "sha256-hyy+k04NvTUHlHPJiZwe5jMUm+b5tWvWyhR588oX0V4=",
-    "url": "https://github.com/GDATASoftwareAG/nextcloud-gdata-antivirus/releases/download/0.9.5/gdatavaas.tar.gz",
-    "version": "0.9.5",
-    "description": "The G DATA Antivirus app is an additional layer of security for your Nextcloud server. Easily scan files for malicious content.\n\n* 🚀 **Integration with the Flow App!** Use the tags to trigger flows\n* ☢️ **Blocks uploads of malicious files!** Prevents the upload of malicious files by scanning them on upload\n* 🙋 **User notifications!** Users are notified about the scan results\n* 🕵️‍♂️ **Automatic scans!** Automatically scans all files in the background\n* ⏰ **Customize what should and should not be scanned!** Configuration via Block- and Allowlist\n* ❓ **Use the activity app!** See what happened in your Nextcloud instance\n\nThis app is based on the G DATA Verdict as a Service (VaaS) API. For more information, visit the [G DATA website](https://www.gdata.de/business/security-services/verdict-as-a-service).\nIf you have any questions about scanning, usage or similar, please feel free to write an e-mail to vaas@gdata.de.",
+    "hash": "sha256-mlbKJwqp+jW1ZWJ8WnN0vOED7wvN1iHRWNYPZ6AsWuY=",
+    "url": "https://github.com/GDATASoftwareAG/nextcloud-gdata-antivirus/releases/download/0.9.6/gdatavaas.tar.gz",
+    "version": "0.9.6",
+    "description": "The G DATA Antivirus app is an additional layer of security for your Nextcloud server. Easily scan files for malicious content.\n\n* 🚀 **Integration with the Flow App!** Use the tags to trigger flows\n* ☢️ **Blocks uploads of malicious files!** Prevents the upload of malicious files by scanning them on upload\n* 🙋 **User notifications!** Users are notified about the scan results\n* 🕵️‍♂️ **Automatic scans!** Automatically scans all files in the background\n* ⏰ **Customize what should and should not be scanned!** Configuration via Block- and Allowlist\n* ❓ **Use the activity app!** See what happened in your Nextcloud instance\n* ✅ **no additional software required!** The app uses the G DATA Verdict as a Service (VaaS) API to scan files\n\nThis app is based on the G DATA Verdict as a Service (VaaS) API. For more information, visit the [G DATA website](https://www.gdata.de/business/security-services/verdict-as-a-service).\nIf you have any questions about scanning, usage or similar, please feel free to write an e-mail to vaas@gdata.de.",
     "homepage": "https://www.gdata.de/business/security-services/verdict-as-a-service",
     "licenses": [
       "agpl"
@@ -1020,9 +1020,9 @@
     ]
   },
   "hedgenext": {
-    "hash": "sha256-KbBHQYNhZKmCgTLb9k/sQXlJz9do0pcRRavX6SNOyp4=",
-    "url": "https://github.com/libnewton/hedgenext-plugin/releases/download/v0.0.14/hedgenext.tar.gz",
-    "version": "0.0.14",
+    "hash": "sha256-i8z1/j7l6e9yDLJg1jTo5HUaPV6/ZIEVaspRK8pySrY=",
+    "url": "https://github.com/libnewton/hedgenext-plugin/releases/download/v0.0.15/hedgenext.tar.gz",
+    "version": "0.0.15",
     "description": "This application is the Nextcloud client of HedgeNext - the Nextcloud-adjusted fork of Hedgedoc, the definitive collaberative markdown editor.",
     "homepage": "https://github.com/libnewton/hedgenext-plugin",
     "licenses": [
@@ -1040,10 +1040,10 @@
     ]
   },
   "hidesidebars": {
-    "hash": "sha256-mbUBcVwgfrET1+T33ZtMHSFE4hLpr8CAw0hO3Et3lYQ=",
-    "url": "https://github.com/pointcz/hidesidebars/releases/download/v2.2.3/hidesidebars.tar.gz",
+    "hash": "sha256-nGdNOWv2Ru7W1gMMtQ6b51+T7P55wpOdSLUvK9AFHdc=",
+    "url": "https://github.com/pointcz/hidesidebars/releases/download/v2.2.4/hidesidebars.tar.gz",
     "version": "2.2.3",
-    "description": "# Hide sidebars\n\nHide left sidebar and top header bar for use in iframe for example or some other scenarios.\n\n## Usage\nAdd `hide-sidebars` after `?` as query parameter to nextcloud url or with `dir` parameter after `&`.\n\nExamples:\n```\nhttp://nextcloud.example.com/index.php/apps/files/?hide-sidebars\nhttp://nextcloud.example.com/index.php/apps/files/?dir=/New%20folder&hide-sidebars\n```\n\nThis app from version 2.0.0 brings new config parameter `addAllowedFrameAncestorDomain`.\nFor usage in iframe you must update `lib/public/AppFramework/Http/ContentSecurityPolicy.php` manually\nor use this new parameter `addAllowedFrameAncestorDomain` in `config.php`\n\n```\n...\n'addAllowedFrameAncestorDomain' => '*.example.com:*'\n...\n```",
+    "description": "# Hide sidebars\n\nHide left sidebar and top header bar for use in iframe for example or some other scenarios.\n\n## Usage\nAdd `hide-sidebars` after `?` as query parameter to nextcloud url or with `dir` parameter after `&`.\n\nExamples:\n```\nhttp://nextcloud.example.com/index.php/apps/files/?hide-sidebars\nhttp://nextcloud.example.com/index.php/apps/files/?dir=/New%20folder&hide-sidebars\n```\n\nThis app from version 2.0.0 brings new config parameter `addAllowedFrameAncestorDomain` to allow embedding into a website.\nSimply add the following line to your `config/config.php`:\n\n```\n...\n'addAllowedFrameAncestorDomain' => '*.example.com:*'\n...\n```",
     "homepage": "https://github.com/pointcz/hidesidebars",
     "licenses": [
       "agpl"
@@ -2100,9 +2100,9 @@
     ]
   },
   "repod": {
-    "hash": "sha256-BOlPXN8lDvnPRQayR6QvsdqWjoNzwRzqRBVmG0eiJV4=",
-    "url": "https://git.crystalyx.net/Xefir/repod/releases/download/2.3.2/repod.tar.gz",
-    "version": "2.3.2",
+    "hash": "sha256-42NT0w0XyXyONy3SGaThL1NnFRo6LBCbf4hhxCVsYhI=",
+    "url": "https://git.crystalyx.net/Xefir/repod/releases/download/2.3.3/repod.tar.gz",
+    "version": "2.3.3",
     "description": "## Features\n- 🔍 Browse and subscribe huge collection of podcasts\n- 🔊 Listen to episodes directly in Nextcloud\n- 🌐 Sync your activity with [AntennaPod](https://antennapod.org/)\n\n## Requirements\nYou need to have [GPodderSync](https://apps.nextcloud.com/apps/gpoddersync) installed to use this app!",
     "homepage": "https://git.crystalyx.net/Xefir/repod",
     "licenses": [
