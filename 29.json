@@ -410,9 +410,9 @@
     ]
   },
   "facerecognition": {
-    "hash": "sha256-euKq3byS/odt+7nzcRVLYxbdtfy4alHE6lBViQFi4QM=",
-    "url": "https://github.com/matiasdelellis/facerecognition/releases/download/v0.9.50/facerecognition.tar.gz",
-    "version": "0.9.50",
+    "hash": "sha256-1EG1nLP7uuCLcm7SXkW6aG5ncIELtLhUQpvY2+0uAAY=",
+    "url": "https://github.com/matiasdelellis/facerecognition/releases/download/v0.9.51/facerecognition.tar.gz",
+    "version": "0.9.51",
     "description": "**Detect and group faces of your loved one in your cloud**\n\n⚠️ This application requires minimum of 1GB of RAM memory to work! See [Requirements](https://github.com/matiasdelellis/facerecognition/wiki/Requirements-and-Limitations) for details.\n\n⚠️ Setup of this app requires access to terminal and even getting your hands dirty with installation of additional software. See [Installation](https://github.com/matiasdelellis/facerecognition/wiki/Installation) for details.\n\n- **😏 Detect faces from images:** Use FaceRecognition app to detect _any_ face in _any_ of your images!\n- **👪 Group faces to persons:** Detected faces are grouped together based on similarity and then FaceRecognition app can recognize persons!\n- **🔒 Built-in privacy:** No data is leaving your cloud. Defaults are always off and each user controls enabling/disabling face detection. Images from every directory can be excluded from face detection, if needed.\n- **⚙️ Power of AI:** FaceRecognition app leverages power of AI and already built neural network models through extensive usage of [DLib](http://dlib.net/) library.\n- **🚀 Build your own thing:** FaceRecognition app is just a basic building block. Through FaceRecognition API, you can build your advanced scenarios - automatically add tags to images, connect contacts and persons, share images from specific person… We want to hear your ideas!",
     "homepage": "https://github.com/matiasdelellis/facerecognition",
     "licenses": [
@@ -450,9 +450,9 @@
     ]
   },
   "files_antivirus": {
-    "hash": "sha256-C9nWG4TZkWmRSjFYdApBo14dpibzLfY1KEz2H6sY1uI=",
-    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.5.4/files_antivirus-v5.5.4.tar.gz",
-    "version": "5.5.4",
+    "hash": "sha256-oAAAncL0KnSw3ZaBjaBDmz5W6iiU65/PXRRoQi2RBHs=",
+    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.5.5/files_antivirus-v5.5.5.tar.gz",
+    "version": "5.5.5",
     "description": "Antivirus for files is an antivirus app for Nextcloud.\n\n* 🕵️‍♂️ When the user uploads a file, it's checked\n* ☢️ Uploaded and infected files will be deleted and a notification will be shown and/or sent via email\n* 🔎 Background Job to scan all files\n* ❓ Use ClamAV (open source), Kaspersky Scan Engine or an ICAP compatible scanner\n\nThis application inspects files that are uploaded to Nextcloud for viruses before they are written to the Nextcloud storage. If a file is identified as a virus, it is either logged or not uploaded to the server. The application relies on the underlying ClamAV virus scanning engine, which the admin points Nextcloud to when configuring the application. Alternatively, a Kaspersky Scan Engine can be configured, which has to run on a separate server.\nFor this app to be effective, the ClamAV virus definitions should be kept up to date. Also note that enabling this app will impact system performance as additional processing is required for every upload. More information is available in the Antivirus documentation.",
     "homepage": "",
     "licenses": [
@@ -480,10 +480,10 @@
     ]
   },
   "files_confidential": {
-    "hash": "sha256-/R/6YpTbcObBjsYbFmH43Bket844ezKKcZJe3zdQ35g=",
-    "url": "https://github.com/nextcloud/files_confidential/releases/download/v2.1.0/files_confidential.tar.gz",
-    "version": "2.1.0",
-    "description": "This app allows you to define a set of classification labels that will be assigned to files as Nextcloud tags.\nFor each classification label you can define a set of rules when it will be assigned to a file, based on text\ncontent or BAILS classification meta data.",
+    "hash": "sha256-ZpXHuV5ynN9s8ne0ZGbWptuWtaCzm8eF8y5Z7lx3YJY=",
+    "url": "https://github.com/nextcloud/files_confidential/releases/download/v3.0.0/files_confidential.tar.gz",
+    "version": "3.0.0",
+    "description": "This app allows you to define a set of classification rules that will assign tags files.\nFor each classification rule you can define when the tag will be assigned to a file, based on text\ncontent, BAILS classification metadata or Microsoft Information Purview metadata.",
     "homepage": "https://github.com/nextcloud/files_confidential",
     "licenses": [
       "agpl"
@@ -655,6 +655,16 @@
     "version": "29.0.1",
     "description": "Extension to the _Full text search_ app to communicate with ElasticSearch.",
     "homepage": "https://github.com/nextcloud/fulltextsearch_elasticsearch",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "gdatavaas": {
+    "hash": "sha256-dIM3uZaPIk8hVxQTJHHEckt30Ho0P+Xx2ArhV9iJY+g=",
+    "url": "https://github.com/GDATASoftwareAG/nextcloud-gdata-antivirus/releases/download/29.0.0/gdatavaas.tar.gz",
+    "version": "29.0.0",
+    "description": "The G DATA Antivirus app is an additional layer of security for your Nextcloud server. Easily scan files for malicious content.\n\n* 🚀 **Integration with the Flow App!** Use the tags to trigger flows\n* ☢️ **Blocks uploads of malicious files!** Prevents the upload of malicious files by scanning them on upload\n* 🙋 **User notifications!** Users are notified about the scan results\n* 🕵️‍♂️ **Automatic scans!** Automatically scans all files in the background\n* ⏰ **Customize what should and should not be scanned!** Configuration via Block- and Allowlist\n* ❓ **Use the activity app!** See what happened in your Nextcloud instance\n* ✅ **no additional software required!** The app uses the G DATA Verdict as a Service (VaaS) API to scan files\n\nThis app is based on the G DATA Verdict as a Service (VaaS) API. For more information, visit the [G DATA website](https://www.gdata.de/business/security-services/verdict-as-a-service).\nIf you have any questions about scanning, usage or similar, please feel free to write an e-mail to vaas@gdata.de.",
+    "homepage": "https://www.gdata.de/business/security-services/verdict-as-a-service",
     "licenses": [
       "agpl"
     ]
@@ -1220,8 +1230,8 @@
     ]
   },
   "maps": {
-    "hash": "sha256-BmXs6Oepwnm+Cviy4awm3S8P9AiJTt1BnAQNb4TxVYE=",
-    "url": "https://github.com/nextcloud/maps/releases/download/v1.4.0/maps-1.4.0.tar.gz",
+    "hash": "sha256-FmRhpPRpMnCHkJFaVvQuR6Y7Pd7vpP+tUVih919g/fQ=",
+    "url": "https://github.com/nextcloud/maps/releases/download/v1.4.0-1-nightly/maps-1.4.0-1-nightly.tar.gz",
     "version": "1.4.0",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
@@ -1529,6 +1539,16 @@
       "agpl"
     ]
   },
+  "quicknotes": {
+    "hash": "sha256-8ppIN7ITiQVsgPzbRVB6OHe4vSzdBBovHexBkr4yffY=",
+    "url": "https://github.com/matiasdelellis/quicknotes/releases/download/v0.8.23/quicknotes.tar.gz",
+    "version": "0.8.23",
+    "description": "Quick notes with a basic rich text",
+    "homepage": "https://github.com/matiasdelellis/quicknotes",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "quota_warning": {
     "hash": "sha256-9Pw6c/I5Vm9W8XF3Mcr8iAxNhZyYDNUsC4f0l2j+Zdc=",
     "url": "https://github.com/nextcloud-releases/quota_warning/releases/download/v1.19.0/quota_warning-v1.19.0.tar.gz",
@@ -1580,9 +1600,9 @@
     ]
   },
   "richdocuments": {
-    "hash": "sha256-gawfahjIz3RMELffhm2U1JFOovzb1ZnS9NtqzjHsEdw=",
-    "url": "https://github.com/nextcloud-releases/richdocuments/releases/download/v8.4.2/richdocuments-v8.4.2.tar.gz",
-    "version": "8.4.2",
+    "hash": "sha256-ErJ5Hi2aDQATE6dUasfgbxxYzvsk8Unlz3vT92vPcUg=",
+    "url": "https://github.com/nextcloud-releases/richdocuments/releases/download/v8.4.3/richdocuments-v8.4.3.tar.gz",
+    "version": "8.4.3",
     "description": "This application can connect to a Collabora Online (or other) server (WOPI-like Client). Nextcloud is the WOPI Host. Please read the documentation to learn more about that.\n\nYou can also edit your documents off-line with the Collabora Office app from the **[Android](https://play.google.com/store/apps/details?id=com.collabora.libreoffice)** and **[iOS](https://apps.apple.com/us/app/collabora-office/id1440482071)** store.",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -1840,9 +1860,9 @@
     ]
   },
   "spreed": {
-    "hash": "sha256-FmikkGguGlMdEyae3vT6Esx1mMUc1ri5eQX280woPls=",
-    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v19.0.2/spreed-v19.0.2.tar.gz",
-    "version": "19.0.2",
+    "hash": "sha256-O/KFg+sixBymLaPVIUpnG9exwCnBKweHHCzE9pfbnAU=",
+    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v19.0.3/spreed-v19.0.3.tar.gz",
+    "version": "19.0.3",
     "description": "Chat, video & audio-conferencing using WebRTC\n\n* 💬 **Chat** Nextcloud Talk comes with a simple text chat, allowing you to share or upload files from your Nextcloud Files app or local device and mention other participants.\n* 👥 **Private, group, public and password protected calls!** Invite someone, a whole group or send a public link to invite to a call.\n* 🌐 **Federated chats** Chat with other Nextcloud users on their servers\n* 💻 **Screen sharing!** Share your screen with the participants of your call.\n* 🚀 **Integration with other Nextcloud apps** like Files, Calendar, User status, Dashboard, Flow, Maps, Smart picker, Contacts, Deck, and many more.\n* 🌉 **Sync with other chat solutions** With [Matterbridge](https://github.com/42wim/matterbridge/) being integrated in Talk, you can easily sync a lot of other chat solutions to Nextcloud Talk and vice-versa.",
     "homepage": "https://github.com/nextcloud/spreed",
     "licenses": [

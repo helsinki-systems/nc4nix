@@ -340,8 +340,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -600,9 +600,9 @@
     ]
   },
   "files_antivirus": {
-    "hash": "sha256-C9nWG4TZkWmRSjFYdApBo14dpibzLfY1KEz2H6sY1uI=",
-    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.5.4/files_antivirus-v5.5.4.tar.gz",
-    "version": "5.5.4",
+    "hash": "sha256-oAAAncL0KnSw3ZaBjaBDmz5W6iiU65/PXRRoQi2RBHs=",
+    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.5.5/files_antivirus-v5.5.5.tar.gz",
+    "version": "5.5.5",
     "description": "Antivirus for files is an antivirus app for Nextcloud.\n\n* 🕵️‍♂️ When the user uploads a file, it's checked\n* ☢️ Uploaded and infected files will be deleted and a notification will be shown and/or sent via email\n* 🔎 Background Job to scan all files\n* ❓ Use ClamAV (open source), Kaspersky Scan Engine or an ICAP compatible scanner\n\nThis application inspects files that are uploaded to Nextcloud for viruses before they are written to the Nextcloud storage. If a file is identified as a virus, it is either logged or not uploaded to the server. The application relies on the underlying ClamAV virus scanning engine, which the admin points Nextcloud to when configuring the application. Alternatively, a Kaspersky Scan Engine can be configured, which has to run on a separate server.\nFor this app to be effective, the ClamAV virus definitions should be kept up to date. Also note that enabling this app will impact system performance as additional processing is required for every upload. More information is available in the Antivirus documentation.",
     "homepage": "",
     "licenses": [
@@ -643,7 +643,7 @@
     "hash": "sha256-/R/6YpTbcObBjsYbFmH43Bket844ezKKcZJe3zdQ35g=",
     "url": "https://github.com/nextcloud/files_confidential/releases/download/v2.1.0/files_confidential.tar.gz",
     "version": "2.1.0",
-    "description": "This app allows you to define a set of classification labels that will be assigned to files as Nextcloud tags.\nFor each classification label you can define a set of rules when it will be assigned to a file, based on text\ncontent or BAILS classification meta data.",
+    "description": "This app allows you to define a set of classification rules that will assign tags files.\nFor each classification rule you can define when the tag will be assigned to a file, based on text\ncontent, BAILS classification metadata or Microsoft Information Purview metadata.",
     "homepage": "https://github.com/nextcloud/files_confidential",
     "licenses": [
       "agpl"
@@ -880,9 +880,9 @@
     ]
   },
   "gdatavaas": {
-    "hash": "sha256-mlbKJwqp+jW1ZWJ8WnN0vOED7wvN1iHRWNYPZ6AsWuY=",
-    "url": "https://github.com/GDATASoftwareAG/nextcloud-gdata-antivirus/releases/download/0.9.6/gdatavaas.tar.gz",
-    "version": "0.9.6",
+    "hash": "sha256-JYPKRwSPRlzoQPp7bMl4WkN6TKuCFAl1OaTZ5paliqQ=",
+    "url": "https://github.com/GDATASoftwareAG/nextcloud-gdata-antivirus/releases/download/28.0.0/gdatavaas.tar.gz",
+    "version": "28.0.0",
     "description": "The G DATA Antivirus app is an additional layer of security for your Nextcloud server. Easily scan files for malicious content.\n\n* 🚀 **Integration with the Flow App!** Use the tags to trigger flows\n* ☢️ **Blocks uploads of malicious files!** Prevents the upload of malicious files by scanning them on upload\n* 🙋 **User notifications!** Users are notified about the scan results\n* 🕵️‍♂️ **Automatic scans!** Automatically scans all files in the background\n* ⏰ **Customize what should and should not be scanned!** Configuration via Block- and Allowlist\n* ❓ **Use the activity app!** See what happened in your Nextcloud instance\n* ✅ **no additional software required!** The app uses the G DATA Verdict as a Service (VaaS) API to scan files\n\nThis app is based on the G DATA Verdict as a Service (VaaS) API. For more information, visit the [G DATA website](https://www.gdata.de/business/security-services/verdict-as-a-service).\nIf you have any questions about scanning, usage or similar, please feel free to write an e-mail to vaas@gdata.de.",
     "homepage": "https://www.gdata.de/business/security-services/verdict-as-a-service",
     "licenses": [
@@ -2110,9 +2110,9 @@
     ]
   },
   "richdocuments": {
-    "hash": "sha256-nO5xzsgz9NMvPHpAcFY5AnhqaLoVzn78toJ1wfW56NY=",
-    "url": "https://github.com/nextcloud-releases/richdocuments/releases/download/v8.2.10/richdocuments-v8.2.10.tar.gz",
-    "version": "8.2.10",
+    "hash": "sha256-9GFYyAwRj4K7I+sXkba45NNsSSYkwkWmQmGxXA2FaWs=",
+    "url": "https://github.com/nextcloud-releases/richdocuments/releases/download/v8.2.11/richdocuments-v8.2.11.tar.gz",
+    "version": "8.2.11",
     "description": "This application can connect to a Collabora Online (or other) server (WOPI-like Client). Nextcloud is the WOPI Host. Please read the documentation to learn more about that.\n\nYou can also edit your documents off-line with the Collabora Office app from the **[Android](https://play.google.com/store/apps/details?id=com.collabora.libreoffice)** and **[iOS](https://apps.apple.com/us/app/collabora-office/id1440482071)** store.",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
