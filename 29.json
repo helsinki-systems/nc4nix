@@ -80,9 +80,9 @@
     ]
   },
   "assistant": {
-    "hash": "sha256-Rn71fzdW69iSejQlvqEL6E2oXrHAhUDAa3CPeBL8lf4=",
-    "url": "https://github.com/nextcloud-releases/assistant/releases/download/v1.0.9/assistant-v1.0.9.tar.gz",
-    "version": "1.0.9",
+    "hash": "sha256-kfdS7M5QQNGYFFMxLuYcAD34pn4yZGJHzsN3BVRPbdU=",
+    "url": "https://github.com/nextcloud-releases/assistant/releases/download/v1.1.0/assistant-v1.1.0.tar.gz",
+    "version": "1.1.0",
     "description": "This app brings a user interface to use the Nextcloud text processing feature.\n\nIt allows users to launch AI tasks, be notified when they finish and see the results.\nThe assistant also appears in others apps like Text to easily process parts of a document.\n\nMore details on the assistant OCS API and frontend integration possibilities in the\n[developer doc](https://github.com/nextcloud/assistant/raw/main/docs/developer)\n\n### How to use it\n\nA new right header menu entry appears. Once clicked, the assistant is displayed and you can select and task type and\nset the input you want to process.\n\nThe task might run immediately or be scheduled depending on the time estimation given by the AI provider.\nOnce a task is scheduled, it will run as a background job. When it is finished, you will receive a notification\nfrom which the results can be displayed.\n\nOther apps can integrate with the assistant. For example, Text will display an inline button besides every paragraph\nto directly select a task type to process this paragraph. Selecting a task this way will open the assistant with the task\nbeing pre-selected and the input text set.\n\nMore details and screenshots in the [user doc](https://github.com/nextcloud/assistant/raw/main/docs/user).\n\n## Features\n\nIn the assistant, the list of available tasks depends on the available providers installed via other apps.\nThis means you have complete freedom over which service/software will actually run your AI tasks.\n\n### Text processing providers\n\nSo far, the [Large language model](https://github.com/nextcloud/llm#readme)\nand the [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai) apps\ninclude text processing providers to:\n* Summarize\n* Extract topics\n* Generate a headline\n* Get an answer from a free prompt\n* Reformulate (OpenAi/LocalAi only)\n* Context writer: Generate text with a specified style. The style can be described or provided via an example text.\n\n### Text to image (Image generation)\n\nKnown providers:\n* [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai)\n* [Text2Image Stable Diffusion](https://apps.nextcloud.com/apps/text2image_stablediffusion)\n\n### Speech to text (Audio transcription)\n\nKnown providers:\n* [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai)\n* [Local Whisper Speech-To-Text](https://apps.nextcloud.com/apps/stt_whisper)",
     "homepage": "https://github.com/nextcloud/assistant",
     "licenses": [
@@ -480,9 +480,9 @@
     ]
   },
   "files_confidential": {
-    "hash": "sha256-ZpXHuV5ynN9s8ne0ZGbWptuWtaCzm8eF8y5Z7lx3YJY=",
-    "url": "https://github.com/nextcloud/files_confidential/releases/download/v3.0.0/files_confidential.tar.gz",
-    "version": "3.0.0",
+    "hash": "sha256-by4a20hrxDjUyFUknqriQ9nfxgnH3viVWCv5nj5fqjA=",
+    "url": "https://github.com/nextcloud/files_confidential/releases/download/v3.0.1/files_confidential.tar.gz",
+    "version": "3.0.1",
     "description": "This app allows you to define a set of classification rules that will assign tags files.\nFor each classification rule you can define when the tag will be assigned to a file, based on text\ncontent, BAILS classification metadata or Microsoft Information Purview metadata.",
     "homepage": "https://github.com/nextcloud/files_confidential",
     "licenses": [
@@ -1230,8 +1230,8 @@
     ]
   },
   "maps": {
-    "hash": "sha256-FmRhpPRpMnCHkJFaVvQuR6Y7Pd7vpP+tUVih919g/fQ=",
-    "url": "https://github.com/nextcloud/maps/releases/download/v1.4.0-1-nightly/maps-1.4.0-1-nightly.tar.gz",
+    "hash": "sha256-BmXs6Oepwnm+Cviy4awm3S8P9AiJTt1BnAQNb4TxVYE=",
+    "url": "https://github.com/nextcloud/maps/releases/download/v1.4.0/maps-1.4.0.tar.gz",
     "version": "1.4.0",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
@@ -2130,9 +2130,9 @@
     ]
   },
   "webapppassword": {
-    "hash": "sha256-rTUxSzH2DdiUL/bzf79FuiHmzvUg25Z45eLvKgc/+aw=",
-    "url": "https://github.com/digital-blueprint/webapppassword/releases/download/v24.4.0/webapppassword.tar.gz",
-    "version": "24.4.0",
+    "hash": "sha256-rkKknK+iOhCxw7U73eD3dNKHP/YRYmK9Z70b1VlztiQ=",
+    "url": "https://github.com/digital-blueprint/webapppassword/releases/download/v24.6.0/webapppassword.tar.gz",
+    "version": "24.6.0",
     "description": "Temporary app password generator and WebDAV/CalDAV CORS header injection to be able to access the\nNextcloud WebDAV/CalDAV service from inside web applications. There also is a files sharing api endpoint with CORS header injection.\n\nThere is an [example implementation](https://github.com/digital-blueprint/webapppassword/blob/main/docs/example/index.html)\nthat uses this app to generate a temporary password and make a WebDAV request to a Nextcloud instance\n([docker container](https://github.com/digital-blueprint/webapppassword/tree/main/docker) included).\n\nSee [Example](https://github.com/digital-blueprint/webapppassword#example) for a Nextcloud WebDAV file picker example\nthat uses this application.",
     "homepage": "https://github.com/digital-blueprint/webapppassword",
     "licenses": [
