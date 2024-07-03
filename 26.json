@@ -580,9 +580,9 @@
     ]
   },
   "files_antivirus": {
-    "hash": "sha256-oAAAncL0KnSw3ZaBjaBDmz5W6iiU65/PXRRoQi2RBHs=",
-    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.5.5/files_antivirus-v5.5.5.tar.gz",
-    "version": "5.5.5",
+    "hash": "sha256-Vqyu05K1SOVHqN8oqIjFiCcnorT88jBV6qbNNIM88GE=",
+    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.5.6/files_antivirus-v5.5.6.tar.gz",
+    "version": "5.5.6",
     "description": "Antivirus for files is an antivirus app for Nextcloud.\n\n* 🕵️‍♂️ When the user uploads a file, it's checked\n* ☢️ Uploaded and infected files will be deleted and a notification will be shown and/or sent via email\n* 🔎 Background Job to scan all files\n* ❓ Use ClamAV (open source), Kaspersky Scan Engine or an ICAP compatible scanner\n\nThis application inspects files that are uploaded to Nextcloud for viruses before they are written to the Nextcloud storage. If a file is identified as a virus, it is either logged or not uploaded to the server. The application relies on the underlying ClamAV virus scanning engine, which the admin points Nextcloud to when configuring the application. Alternatively, a Kaspersky Scan Engine can be configured, which has to run on a separate server.\nFor this app to be effective, the ClamAV virus definitions should be kept up to date. Also note that enabling this app will impact system performance as additional processing is required for every upload. More information is available in the Antivirus documentation.",
     "homepage": "",
     "licenses": [
@@ -623,7 +623,7 @@
     "hash": "sha256-/R/6YpTbcObBjsYbFmH43Bket844ezKKcZJe3zdQ35g=",
     "url": "https://github.com/nextcloud/files_confidential/releases/download/v2.1.0/files_confidential.tar.gz",
     "version": "2.1.0",
-    "description": "This app allows you to define a set of classification rules that will assign tags files.\nFor each classification rule you can define when the tag will be assigned to a file, based on text\ncontent, BAILS classification metadata or Microsoft Information Purview metadata.",
+    "description": "This app allows you to define a set of classification rules that will assign tags files.\r\nFor each classification rule you can define when the tag will be assigned to a file, based on text\r\ncontent, BAILS classification metadata or Microsoft Information Purview metadata.",
     "homepage": "https://github.com/nextcloud/files_confidential",
     "licenses": [
       "agpl"
@@ -1240,8 +1240,8 @@
     ]
   },
   "integration_mattermost": {
-    "hash": "sha256-l2OgnPlL3F5G4bB/ZKSl80cJuC0QtSz6u8rp/YzvlTQ=",
-    "url": "https://github.com/nextcloud-releases/integration_mattermost/releases/download/v1.0.4/integration_mattermost-v1.0.4.tar.gz",
+    "hash": "sha256-F5/Y4lBwwfwf41hBmZ+OREdRlWSdEYdZLNDEGNJPmNs=",
+    "url": "https://github.com/julien-nc/integration_mattermost/releases/download/v1.0.4-2-nightly/integration_mattermost-1.0.4-2-nightly.tar.gz",
     "version": "1.0.4",
     "description": "Mattermost integration provides a dashboard widget displaying your most important notifications\nand a unified search provider for messages. It also lets you send files to Mattermost from Nextcloud Files.",
     "homepage": "https://github.com/nextcloud/integration_mattermost",
@@ -1603,7 +1603,7 @@
     "hash": "sha256-tzxeffvwMwthvBRG+/cLCXZkVS32rlf5v7XOKTbGoOo=",
     "url": "https://github.com/pulsejet/memories/releases/download/v7.3.1/memories.tar.gz",
     "version": "7.3.1",
-    "description": "# Memories: Photo Management for Nextcloud\n\nMemories is a *batteries-included* photo management solution for Nextcloud with advanced features including:\n\n- **📸 Timeline**: Sort photos and videos by date taken, parsed from Exif data.\n- **⏪ Rewind**: Jump to any time in the past instantly and relive your memories.\n- **🤖 AI Tagging**: Group photos by people and objects, powered by [recognize](https://github.com/nextcloud/recognize) and [facerecognition](https://github.com/matiasdelellis/facerecognition).\n- **🖼️ Albums**: Create albums to group photos and videos together. Then share these albums with others.\n- **🫱🏻‍🫲🏻 External Sharing**: Share photos and videos with people outside of your Nextcloud instance.\n- **📱 Mobile Support**: Work from any device, of any shape and size through the web app.\n- **✏️ Edit Metadata**: Edit dates and other metadata on photos quickly and in bulk.\n- **📦 Archive**: Store photos you don't want to see in your timeline in a separate folder.\n- **📹 Video Transcoding**: Transcode videos and use HLS for maximal performance.\n- **🗺️ Map**: View your photos on a map, tagged with accurate reverse geocoding.\n- **📦 Migration**: Migrate easily from Nextcloud Photos and Google Takeout.\n- **⚡️ Performance**: Do all this very fast.\n\n## 🚀 Installation\n\n1. Install the app from the Nextcloud app store (try a demo [here](https://demo.memories.gallery/apps/memories/)).\n1. Perform the recommended [configuration steps](https://memories.gallery/config/).\n1. Run `php occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos.",
+    "description": "# Memories: Photo Management for Nextcloud\r\n\r\nMemories is a *batteries-included* photo management solution for Nextcloud with advanced features including:\r\n\r\n- **📸 Timeline**: Sort photos and videos by date taken, parsed from Exif data.\r\n- **⏪ Rewind**: Jump to any time in the past instantly and relive your memories.\r\n- **🤖 AI Tagging**: Group photos by people and objects, powered by [recognize](https://github.com/nextcloud/recognize) and [facerecognition](https://github.com/matiasdelellis/facerecognition).\r\n- **🖼️ Albums**: Create albums to group photos and videos together. Then share these albums with others.\r\n- **🫱🏻‍🫲🏻 External Sharing**: Share photos and videos with people outside of your Nextcloud instance.\r\n- **📱 Mobile Support**: Work from any device, of any shape and size through the web app.\r\n- **✏️ Edit Metadata**: Edit dates and other metadata on photos quickly and in bulk.\r\n- **📦 Archive**: Store photos you don't want to see in your timeline in a separate folder.\r\n- **📹 Video Transcoding**: Transcode videos and use HLS for maximal performance.\r\n- **🗺️ Map**: View your photos on a map, tagged with accurate reverse geocoding.\r\n- **📦 Migration**: Migrate easily from Nextcloud Photos and Google Takeout.\r\n- **⚡️ Performance**: Do all this very fast.\r\n\r\n## 🚀 Installation\r\n\r\n1. Install the app from the Nextcloud app store (try a demo [here](https://demo.memories.gallery/apps/memories/)).\r\n1. Perform the recommended [configuration steps](https://memories.gallery/config/).\r\n1. Run `php occ memories:index` to generate metadata indices for existing photos.\r\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos.",
     "homepage": "https://memories.gallery",
     "licenses": [
       "agpl"
