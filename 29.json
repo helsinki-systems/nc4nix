@@ -319,6 +319,16 @@
       "agpl"
     ]
   },
+  "documentserver_community": {
+    "hash": "sha256-mYHs+zVreq8W83Dt+O5HG5U9bVkNf1HEp0+ZHWeYE90=",
+    "url": "https://github.com/chadek/documentserver_community/releases/download/v0.1.18/documentserver_community.tar.gz",
+    "version": "0.1.18",
+    "description": "Document server for OnlyOffice, community edition.\n\nThe community document server is designed to make it easy to get OnlyOffice running in a Nextcloud instance without the need to setup an external document server,\nthe community document server does not support all features of the official OnlyOffice document server and does not provide the same performance and scalability.\n\nIf you are setting up a larger instance or require the additional performance, please see https://onlyoffice.com for options for getting the official document server.\n\nThe community document server will automatically be configured if no other document server is configured for OnlyOffice.\n\nAdditionally, the community document server only supports running on x86-64 Linux servers.",
+    "homepage": "https://github.com/nextcloud/documentserver_community",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "drawio": {
     "hash": "sha256-7ulo+7rHIOCCFt4LhXDFQc+ighMiwfHDwcJuCfCb4CE=",
     "url": "https://github.com/jgraph/drawio-nextcloud/releases/download/v3.0.2/drawio-v3.0.2.tar.gz",
@@ -690,9 +700,9 @@
     ]
   },
   "gdatavaas": {
-    "hash": "sha256-SM9Mpl4guiQ81ly8DZQOGsrlATVYxZMjrA+yq3fybtI=",
-    "url": "https://github.com/GDATASoftwareAG/nextcloud-gdata-antivirus/releases/download/29.1.1/gdatavaas.tar.gz",
-    "version": "29.1.1",
+    "hash": "sha256-nGZGJsa+M/04Sww44q6Ekj3nwPPqIc+W5IVqy4YIG5c=",
+    "url": "https://github.com/GDATASoftwareAG/nextcloud-gdata-antivirus/releases/download/29.2.0/gdatavaas.tar.gz",
+    "version": "29.2.0",
     "description": "The G DATA Antivirus app is an additional layer of security for your Nextcloud server. Easily scan files for malicious content.\n\n* 🚀 **Integration with the Flow App!** Use the tags to trigger flows\n* ☢️ **Blocks uploads of malicious files!** Prevents the upload of malicious files by scanning them on upload\n* 🙋 **User notifications!** Users are notified about the scan results\n* 🕵️‍♂️ **Automatic scans!** Automatically scans all files in the background\n* ⏰ **Customize what should and should not be scanned!** Configuration via Block- and Allowlist\n* ❓ **Use the activity app!** See what happened in your Nextcloud instance\n* ✅ **no additional software required!** The app uses the G DATA Verdict as a Service (VaaS) API to scan files\n\nThis app is based on the G DATA Verdict as a Service (VaaS) API. For more information, visit the [G DATA website](https://www.gdata.de/business/security-services/verdict-as-a-service).\nIf you have any questions about scanning, usage or similar, please feel free to write an e-mail to vaas@gdata.de.",
     "homepage": "https://www.gdata.de/business/security-services/verdict-as-a-service",
     "licenses": [
@@ -1209,6 +1219,16 @@
       "agpl"
     ]
   },
+  "keeweb": {
+    "hash": "sha256-tk+Aoiv1+NMJWwVkY7fsr56rn6dUWl5izx9IWw84NVs=",
+    "url": "https://github.com/jhass/nextcloud-keeweb/releases/download/v0.6.19/keeweb-0.6.19.tar.gz",
+    "version": "0.6.19",
+    "description": "Open Keepass stores inside Nextcloud with Keeweb just by clicking on an *.kdbx file in your Nextcloud.\n        \nWARNING: As of July 2024 KeeWeb itself did not get any new release since 2021 and may contain security issues. You may consider to choose an actively maintained developed app like Passman or Passwords. If this changes in the future, this notice will be updated accordingly.",
+    "homepage": "https://github.com/jhass/nextcloud-keeweb",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "ldap_contacts_backend": {
     "hash": "sha256-e+2Bk2S5kStPPvALlqzfKk+0gq+U/3FCxA9+LTxRfRw=",
     "url": "https://github.com/nextcloud-releases/ldap_contacts_backend/releases/download/v1.9.0/ldap_contacts_backend-v1.9.0.tar.gz",
@@ -1230,9 +1250,9 @@
     ]
   },
   "libresign": {
-    "hash": "sha256-sb12Y8CbYezHF3gLnUwOi07+18G8U79IAkIR8Dsc910=",
-    "url": "https://github.com/LibreSign/libresign/releases/download/v9.2.0/libresign-v9.2.0.tar.gz",
-    "version": "9.2.0",
+    "hash": "sha256-QlUOZ5EOndvPJ32+acNUs/aKqh4OKdPertap4TMS2J0=",
+    "url": "https://github.com/LibreSign/libresign/releases/download/v9.2.2/libresign-v9.2.2.tar.gz",
+    "version": "9.2.2",
     "description": "**This is a libre digital PDF signature app for Nextcloud**\n\n* ✍️ **Sign PDF** documents using digital certificates\n* 🔄 **Hybrid signatures**: You can choose between personal or system-generated digital certificates\n* 👥 **Multiple signers**: Request signature on a document for as many people as you need\n* 📸 **QR Code**: Document validation by QR Code\n* 🔒 **Privacy**: Fully self-hosted document signer\n* 📲 **Connect to your software**: Easily integrate [LibreSign](https://libresign.coop) into your service with our full-fledged\n* 🙋 **Get involved**! We have lots of stuff planned. More informations at [LibreSign](https://github.com/libresign/libresign) repository.\n\n🌍 Help us translate this application on [Transifex](https://app.transifex.com/nextcloud/nextcloud/libresign/)\n\nIf you enjoy this app and want to help maintain its development or want enterprise support, please contact us:\n\n[https://libresign.coop](https://libresign.coop)\n\n## Donation\n\nDeveloped with ❤️ by [LibreCode](https://librecode.coop). Help us transform people and businesses through cooperativism.\n\n* [Donate with GitHub Sponsor: ![Donate using GitHub Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/libresign)",
     "homepage": "https://github.com/LibreSign/libresign",
     "licenses": [
@@ -1270,8 +1290,8 @@
     ]
   },
   "maps": {
-    "hash": "sha256-BmXs6Oepwnm+Cviy4awm3S8P9AiJTt1BnAQNb4TxVYE=",
-    "url": "https://github.com/nextcloud/maps/releases/download/v1.4.0/maps-1.4.0.tar.gz",
+    "hash": "sha256-FmRhpPRpMnCHkJFaVvQuR6Y7Pd7vpP+tUVih919g/fQ=",
+    "url": "https://github.com/nextcloud/maps/releases/download/v1.4.0-1-nightly/maps-1.4.0-1-nightly.tar.gz",
     "version": "1.4.0",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
@@ -1710,9 +1730,9 @@
     ]
   },
   "secrets": {
-    "hash": "sha256-Ivy9cLPbcevldNVjzI0u93U06TPCBLF7Ppyfhd0Omx4=",
-    "url": "https://github.com/theCalcaholic/nextcloud-secrets/releases/download/v2.0.1/secrets.tar.gz",
-    "version": "2.0.1",
+    "hash": "sha256-Jqnr1F6CTGmC+UKmuMzj5K+rhmBQ3TjJu65jlIhPt1k=",
+    "url": "https://github.com/theCalcaholic/nextcloud-secrets/releases/download/v2.0.2/secrets.tar.gz",
+    "version": "2.0.2",
     "description": "Secrets allows users to generate share links for text based data (e.g. passwords, CSV lists, bank accounts...) that can be sent to anyone (including receivers without a Nextcloud account) for retrieval. The data itself will be end-to-end encrypted (so not even Nextcloud can access it) and the encryption key will be part of the share link (the anchor part) - but never be actually sent to the server. Once retrieved, the secret will be deleted from the server, ensuring, that if it arrived at the correct receiver it has been seen by nobody else.",
     "homepage": "",
     "licenses": [
@@ -1940,9 +1960,9 @@
     ]
   },
   "spreed": {
-    "hash": "sha256-MeHPgTv3SlQLRdTg21WO51Uau3Bvb68Emk/3gGJkbL0=",
-    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v19.0.5/spreed-v19.0.5.tar.gz",
-    "version": "19.0.5",
+    "hash": "sha256-5NAnd39vj76v4qiogYU9E7wpbk0bv8sd/91uXEube0g=",
+    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v19.0.6/spreed-v19.0.6.tar.gz",
+    "version": "19.0.6",
     "description": "Chat, video & audio-conferencing using WebRTC\n\n* 💬 **Chat** Nextcloud Talk comes with a simple text chat, allowing you to share or upload files from your Nextcloud Files app or local device and mention other participants.\n* 👥 **Private, group, public and password protected calls!** Invite someone, a whole group or send a public link to invite to a call.\n* 🌐 **Federated chats** Chat with other Nextcloud users on their servers\n* 💻 **Screen sharing!** Share your screen with the participants of your call.\n* 🚀 **Integration with other Nextcloud apps** like Files, Calendar, User status, Dashboard, Flow, Maps, Smart picker, Contacts, Deck, and many more.\n* 🌉 **Sync with other chat solutions** With [Matterbridge](https://github.com/42wim/matterbridge/) being integrated in Talk, you can easily sync a lot of other chat solutions to Nextcloud Talk and vice-versa.",
     "homepage": "https://github.com/nextcloud/spreed",
     "licenses": [
