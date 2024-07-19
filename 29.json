@@ -270,8 +270,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -480,9 +480,9 @@
     ]
   },
   "files_antivirus": {
-    "hash": "sha256-Vqyu05K1SOVHqN8oqIjFiCcnorT88jBV6qbNNIM88GE=",
-    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.5.6/files_antivirus-v5.5.6.tar.gz",
-    "version": "5.5.6",
+    "hash": "sha256-x7u3eWucd6bUggZJ2gPNzij8PVZVmb3ZLjNjX9CdI3w=",
+    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.5.7/files_antivirus-v5.5.7.tar.gz",
+    "version": "5.5.7",
     "description": "Antivirus for files is an antivirus app for Nextcloud.\n\n* 🕵️‍♂️ When the user uploads a file, it's checked\n* ☢️ Uploaded and infected files will be deleted and a notification will be shown and/or sent via email\n* 🔎 Background Job to scan all files\n* ❓ Use ClamAV (open source), Kaspersky Scan Engine or an ICAP compatible scanner\n\nThis application inspects files that are uploaded to Nextcloud for viruses before they are written to the Nextcloud storage. If a file is identified as a virus, it is either logged or not uploaded to the server. The application relies on the underlying ClamAV virus scanning engine, which the admin points Nextcloud to when configuring the application. Alternatively, a Kaspersky Scan Engine can be configured, which has to run on a separate server.\nFor this app to be effective, the ClamAV virus definitions should be kept up to date. Also note that enabling this app will impact system performance as additional processing is required for every upload. More information is available in the Antivirus documentation.",
     "homepage": "",
     "licenses": [
@@ -700,9 +700,9 @@
     ]
   },
   "gdatavaas": {
-    "hash": "sha256-nGZGJsa+M/04Sww44q6Ekj3nwPPqIc+W5IVqy4YIG5c=",
-    "url": "https://github.com/GDATASoftwareAG/nextcloud-gdata-antivirus/releases/download/29.2.0/gdatavaas.tar.gz",
-    "version": "29.2.0",
+    "hash": "sha256-o1cN7kmREx7K4eTl5/nm5a+o3VLGk7DtoavJavIA3VQ=",
+    "url": "https://github.com/GDATASoftwareAG/nextcloud-gdata-antivirus/releases/download/29.2.1/gdatavaas.tar.gz",
+    "version": "29.2.1",
     "description": "The G DATA Antivirus app is an additional layer of security for your Nextcloud server. Easily scan files for malicious content.\n\n* 🚀 **Integration with the Flow App!** Use the tags to trigger flows\n* ☢️ **Blocks uploads of malicious files!** Prevents the upload of malicious files by scanning them on upload\n* 🙋 **User notifications!** Users are notified about the scan results\n* 🕵️‍♂️ **Automatic scans!** Automatically scans all files in the background\n* ⏰ **Customize what should and should not be scanned!** Configuration via Block- and Allowlist\n* ❓ **Use the activity app!** See what happened in your Nextcloud instance\n* ✅ **no additional software required!** The app uses the G DATA Verdict as a Service (VaaS) API to scan files\n\nThis app is based on the G DATA Verdict as a Service (VaaS) API. For more information, visit the [G DATA website](https://www.gdata.de/business/security-services/verdict-as-a-service).\nIf you have any questions about scanning, usage or similar, please feel free to write an e-mail to vaas@gdata.de.",
     "homepage": "https://www.gdata.de/business/security-services/verdict-as-a-service",
     "licenses": [
@@ -915,6 +915,16 @@
     "version": "2.0.7",
     "description": "Discourse integration provides a dashboard widget displaying your important notifications\n    and the ability to find topics and posts with Nextcloud's unified search.",
     "homepage": "https://github.com/nextcloud/integration_discourse",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "integration_docusign": {
+    "hash": "sha256-4G+7u/yLrl+ToQDPr2FwA1AaElVivLP0yBslxW0DLY0=",
+    "url": "https://github.com/nextcloud-releases/integration_docusign/releases/download/v2.0.2/integration_docusign-v2.0.2.tar.gz",
+    "version": "2.0.2",
+    "description": "Sign files via DocuSign Service.",
+    "homepage": "https://github.com/nextcloud/integration_docusign",
     "licenses": [
       "agpl"
     ]
@@ -1290,8 +1300,8 @@
     ]
   },
   "maps": {
-    "hash": "sha256-BmXs6Oepwnm+Cviy4awm3S8P9AiJTt1BnAQNb4TxVYE=",
-    "url": "https://github.com/nextcloud/maps/releases/download/v1.4.0/maps-1.4.0.tar.gz",
+    "hash": "sha256-FmRhpPRpMnCHkJFaVvQuR6Y7Pd7vpP+tUVih919g/fQ=",
+    "url": "https://github.com/nextcloud/maps/releases/download/v1.4.0-1-nightly/maps-1.4.0-1-nightly.tar.gz",
     "version": "1.4.0",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
@@ -1710,9 +1720,9 @@
     ]
   },
   "riotchat": {
-    "hash": "sha256-eHQ/ISwamaN4nJLQzgx699L9DxGNdKqPkCJSKeUW8sE=",
-    "url": "https://github.com/gary-kim/riotchat/releases/download/v0.17.5/riotchat.tar.gz",
-    "version": "0.17.5",
+    "hash": "sha256-qAo4iGA7m2IndY/QaldX1jdRO5B8pSQ9LlinHySyS7o=",
+    "url": "https://github.com/gary-kim/riotchat/releases/download/v0.17.6/riotchat.tar.gz",
+    "version": "0.17.6",
     "description": "Element for Nextcloud allows you to install Element Web easily through Nextcloud and join the Matrix decentralized communication network.\n\nThis app does not include a Matrix server, only the client. You will have to either set up your own Matrix homeserver, rent one, or use a public one.\n\nThis project is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Element or the Element project, or any of its subsidiaries or its affiliates.\n\nThe name Element as well as related names, marks, emblems and images are registered trademarks of their respective owners.\n\nThe upstream project can be found at [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web).",
     "homepage": "https://github.com/gary-kim/riotchat",
     "licenses": [
@@ -1760,9 +1770,9 @@
     ]
   },
   "sentry": {
-    "hash": "sha256-IZql0XynNU2acoRrGa6Wt80WDZ+qTWrkEwYjeTVu2Wg=",
-    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.10.0/sentry-v8.10.0.tar.gz",
-    "version": "8.10.0",
+    "hash": "sha256-Ba9o3MPRJjIqa82WL11CuYOmPU3jLhbXFGGK9Dfu3pg=",
+    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.10.1/sentry-v8.10.1.tar.gz",
+    "version": "8.10.1",
     "description": "A Sentry integration that sends unhandled exceptions to a Sentry instance to aggregate application crashes. You either have to set up your own Sentry instance or use your sentry.io account. See the admin documentation for how to configure this app.",
     "homepage": "https://github.com/ChristophWurst/nextcloud_sentry",
     "licenses": [
@@ -1900,9 +1910,9 @@
     ]
   },
   "sociallogin": {
-    "hash": "sha256-mLZo2XeQ0EghIF7XnMDMx4Ky/M8ROZczE5GhS3SFSl8=",
-    "url": "https://github.com/zorn-v/nextcloud-social-login/releases/download/v5.6.5/release.tar.gz",
-    "version": "5.6.5",
+    "hash": "sha256-GW4wO4eUhgPC6Wq5FtH3UM2pXoWVGCcgLoV47SykAcI=",
+    "url": "https://github.com/zorn-v/nextcloud-social-login/releases/download/v5.6.6/release.tar.gz",
+    "version": "5.6.6",
     "description": "# Social login\n\nMake possible create users and login via Telegram, OAuth or OpenID\n\nFor OAuth you must create app for certain providers. Login button appear at login page if app id specified. Settings are in \"Social login\" section of settings page.\n\n## Installation\n\nLogin to your NextCloud installation as an administrator and under \"Apps\" click \"Download and enable\" next to the \"Social Login\" app.\n\nSee below for setup and configuration instructions.\n\n\n\n## Custom OAuth2/OIDC groups\n\nYou can use groups from your custom provider. For that you should specify \"Groups claim\" in custom OAuth2/OIDC provider settings. That claim should be returned from provider in `id_token` or at user info endpoint. Format should be `array` or comma separated string. Eg (with claim named `roles`)\n\n```json\n{\"roles\": [\"admin\", \"user\"]}\n```\nor\n```json\n{\"roles\": \"admin,user\"}\n```\n\nAlso nested claims is supported. For example `resource_access.client-id.roles` for\n\n```json\n\"resource_access\": {\n   \"client-id\": {\n     \"roles\": [\n       \"client-role-1\",\n       \"client-role-2\"\n     ]\n   }\n}\n```\n\nThere is also support for setting the displayName:\n```\n{\"roles\": [{gid: 1, displayName: \"admin\"}, {gid: 2, displayName: \"user\"}]}\n```\n\n\nYou can use provider groups in two ways:\n\n1. Map provider groups to existing nextcloud groups\n2. Create provider groups in nextcloud and associate it to user (if appropriate option specified)\n\nIf you want sync groups on every login do not forget to check \"Update user profile every login\" setting\n\n## Examples for groups\n\n* You can find example how to configure WSO2IS for return roles claim with OIDC [here](https://medium.com/@dewni.matheesha/claim-mapping-and-retrieving-end-user-information-in-wso2is-cffd5f3937ff)\n* [GitLab OIDC allowing specific GitLab groups](https://github.com/zorn-v/nextcloud-social-login/blob/master/docs/sso/gitlab.md)\n\n## Built-in OAuth providers\n\nYou can copy link of certain login button to get proper \"redirect url\" for OAuth app setting.\n\n* [Google](https://github.com/zorn-v/nextcloud-social-login/blob/master/docs/sso/google.md)\n* [Amazon](https://developer.amazon.com/loginwithamazon/console/site/lwa/overview.html)\n* [Facebook](https://github.com/zorn-v/nextcloud-social-login/blob/master/docs/sso/facebook.md)\n* [Twitter](https://github.com/zorn-v/nextcloud-social-login/blob/master/docs/sso/twitter.md)\n* [GitHub](https://github.com/settings/developers)\n* [Discord](#configure-discord)\n* [Telegram](https://github.com/zorn-v/nextcloud-social-login/blob/master/docs/sso/telegram.md)\n* PlexTv - you can use any title as app id\n* [Codeberg](https://github.com/zorn-v/nextcloud-social-login/blob/master/docs/sso/codeberg.md)\n\nDetails about \"Allow login only from specified domain\" google setting you can find here [#44](https://github.com/zorn-v/nextcloud-social-login/issues/44)\nYou can use comma separated list for multiple domains\n\n## Config\n\nYou can use `'social_login_auto_redirect' => true` setting in `config.php` for auto redirect unauthorized users to social login if only one provider is configured.\nIf you want to temporary disable this function (e.g. for login as local admin), you can add `noredir=1` query parameter in url for login page. Something like `https://cloud.domain.com/login?noredir=1`\n\nTo set options for http client, you can use\n```php\n  'social_login_http_client' => [\n    'timeout' => 45,\n    'proxy' => 'socks4://127.0.0.1:9050', // Check https://curl.se/libcurl/c/CURLOPT_PROXY.html for allowed variants\n  ],\n```\nin `config.php`\n\n### Configurate a provider via CLI\n\nYou can configure everything from commandline by using the occ utility. To setup a oidc-provider replace the variables and URLs with values that match your deployment.\n```bash\nphp occ config:app:set sociallogin custom_providers --value='{\"custom_oidc\": [{\"name\": \"gitlab_oidc\", \"title\": \"Gitlab\", \"authorizeUrl\": \"https://gitlab.my-domain.org/oauth/authorize\", \"tokenUrl\": \"https://gitlab.my-domain.org/oauth/token\", \"userInfoUrl\": \"https://gitlab.my-domain.org/oauth/userinfo\", \"logoutUrl\": \"\", \"clientId\": \"$my_application_id\", \"clientSecret\": \"$my_super_secret_secret\", \"scope\": \"openid\", \"groupsClaim\": \"groups\", \"style\": \"gitlab\", \"defaultGroup\": \"\"}]}'\n```\nto do this with docker you just need to add `docker exec -t -uwww-data CONTAINER_NAME` in front of the command, or run it interactively from `docker exec -it -uwww-data CONTAINER_NAME sh`\n\nTo find out how to configure other providers, just configure them in the GUI and take a look at the database afterwards:\n```\nmysql -u nextcloud -p nextcloud\nPassword: <yourpassword>\n\n> SELECT * FROM oc_appconfig WHERE appid='sociallogin';\n```\n\nOr just run\n\n`docker exec -t -uwww-data CONTAINER_NAME php occ config:app:get sociallogin custom_providers`\n\n### Configure Discord\n\nTo properly configure discord you have to:\n\n1. Create new discord application on [DiscordApp developers](https://discordapp.com/developers/applications/me#top)\n2. Open tab `Settings -> OAuth2 -> General`. In `Redirects` add new redirection link looking like this: `https://nextcloud.mydomain.com/apps/sociallogin/oauth/discord`.\n3. Copy `CLIENT ID` and generate and copy `CLIENT SECRET`\n4. Open in Nextcloud `Settings -> Social Login` and paste `CLIENT ID` into field `App id` and `CLIENT SECRET` into `Secret`.\n5. Select default group for users created this way.\n6. For group mapping check [#395](https://github.com/zorn-v/nextcloud-social-login/pull/395)\n\n## Hint\n\n### About Callback(Reply) Url\nYou can copy link from specific login button on login page and paste it on provider's website as callback url. To make proper button visible, just fill certain provider settings with random data and change it later.\n\nSome users may get strange reply(Callback) url error from provider even if you pasted the right url, that's because your nextcloud server may generate http urls when you are actually using https.\nPlease set 'overwriteprotocol' => 'https', in your config.php file.",
     "homepage": "https://github.com/zorn-v/nextcloud-social-login",
     "licenses": [
@@ -2070,9 +2080,9 @@
     ]
   },
   "timemanager": {
-    "hash": "sha256-OjRMQ+eyrsBsS8CNHr6avbTwNpinVs/nVrWiMnm38Q4=",
-    "url": "https://github.com/te-online/nextcloud-app-releases/raw/main/timemanager/v0.3.14/timemanager.tar.gz",
-    "version": "0.3.14",
+    "hash": "sha256-fpShR1tF6E0zvlZkV4+LmPqlmOjhzhFDpVxEGPuNQo8=",
+    "url": "https://github.com/te-online/nextcloud-app-releases/raw/main/timemanager/v0.3.15/timemanager.tar.gz",
+    "version": "0.3.15",
     "description": "### Time tracking in Nextcloud!\n* 📁 **organize time entries** based on tasks, projects and clients\n* ⏱ **quickly record** a time entry for your latest tasks\n* ✅ **check or uncheck** a time entry (e.g. to save whether you've billed it)\n* 📈 make use of simple, but useful **statistics** and **reports**.\n\n_[View changelog](https://github.com/te-online/timemanager/blob/main/CHANGELOG.md) to see older releases_\n\n📱 **Looking for a mobile companion app?** Try the [Android app (currently in beta)](https://play.google.com/store/apps/details?id=de.jbservices.nc_timemanager_app) made by [@joleaf](https://gitlab.com/joleaf/nc-timemanager-mobile-app)",
     "homepage": "https://github.com/te-online/timemanager",
     "licenses": [
@@ -2200,9 +2210,9 @@
     ]
   },
   "user_saml": {
-    "hash": "sha256-OHIiM4krCTxAN6g+Obn1GONduLmUf0eqrsjjP6ziY2M=",
-    "url": "https://github.com/nextcloud-releases/user_saml/releases/download/v6.1.3/user_saml-v6.1.3.tar.gz",
-    "version": "6.1.3",
+    "hash": "sha256-+oeTDRomjmfSLIM6eyP6MHg+qtOs8IPqIWUzBofahYQ=",
+    "url": "https://github.com/nextcloud-releases/user_saml/releases/download/v6.2.0/user_saml-v6.2.0.tar.gz",
+    "version": "6.2.0",
     "description": "Using the SSO & SAML app of your Nextcloud you can make it easily possible to integrate your existing Single-Sign-On solution with Nextcloud. In addition, you can use the Nextcloud LDAP user provider to keep the convenience for users. (e.g. when sharing)\nThe following providers are supported and tested at the moment:\n\n* **SAML 2.0**\n\t* OneLogin\n\t* Shibboleth\n\t* Active Directory Federation Services (ADFS)\n\n* **Authentication via Environment Variable**\n\t* Kerberos (mod_auth_kerb)\n\t* Any other provider that authenticates using the environment variable\n\nWhile theoretically any other authentication provider implementing either one of those standards is compatible, we like to note that they are not part of any internal test matrix.",
     "homepage": "https://github.com/nextcloud/user_saml",
     "licenses": [
