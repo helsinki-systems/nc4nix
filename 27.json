@@ -600,9 +600,9 @@
     ]
   },
   "files_antivirus": {
-    "hash": "sha256-Vqyu05K1SOVHqN8oqIjFiCcnorT88jBV6qbNNIM88GE=",
-    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.5.6/files_antivirus-v5.5.6.tar.gz",
-    "version": "5.5.6",
+    "hash": "sha256-x7u3eWucd6bUggZJ2gPNzij8PVZVmb3ZLjNjX9CdI3w=",
+    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.5.7/files_antivirus-v5.5.7.tar.gz",
+    "version": "5.5.7",
     "description": "Antivirus for files is an antivirus app for Nextcloud.\n\n* 🕵️‍♂️ When the user uploads a file, it's checked\n* ☢️ Uploaded and infected files will be deleted and a notification will be shown and/or sent via email\n* 🔎 Background Job to scan all files\n* ❓ Use ClamAV (open source), Kaspersky Scan Engine or an ICAP compatible scanner\n\nThis application inspects files that are uploaded to Nextcloud for viruses before they are written to the Nextcloud storage. If a file is identified as a virus, it is either logged or not uploaded to the server. The application relies on the underlying ClamAV virus scanning engine, which the admin points Nextcloud to when configuring the application. Alternatively, a Kaspersky Scan Engine can be configured, which has to run on a separate server.\nFor this app to be effective, the ClamAV virus definitions should be kept up to date. Also note that enabling this app will impact system performance as additional processing is required for every upload. More information is available in the Antivirus documentation.",
     "homepage": "",
     "licenses": [
@@ -880,9 +880,9 @@
     ]
   },
   "gdatavaas": {
-    "hash": "sha256-elvE3ozSgydWoNEDW8GKNtLSftzFhCnasTRve97ROMc=",
-    "url": "https://github.com/GDATASoftwareAG/nextcloud-gdata-antivirus/releases/download/28.2.0/gdatavaas.tar.gz",
-    "version": "28.2.0",
+    "hash": "sha256-ZYixVfR+g7Rmu3cSHxE8JngvhExAtiw83uJypPseXzI=",
+    "url": "https://github.com/GDATASoftwareAG/nextcloud-gdata-antivirus/releases/download/28.2.1/gdatavaas.tar.gz",
+    "version": "28.2.1",
     "description": "The G DATA Antivirus app is an additional layer of security for your Nextcloud server. Easily scan files for malicious content.\n\n* 🚀 **Integration with the Flow App!** Use the tags to trigger flows\n* ☢️ **Blocks uploads of malicious files!** Prevents the upload of malicious files by scanning them on upload\n* 🙋 **User notifications!** Users are notified about the scan results\n* 🕵️‍♂️ **Automatic scans!** Automatically scans all files in the background\n* ⏰ **Customize what should and should not be scanned!** Configuration via Block- and Allowlist\n* ❓ **Use the activity app!** See what happened in your Nextcloud instance\n* ✅ **no additional software required!** The app uses the G DATA Verdict as a Service (VaaS) API to scan files\n\nThis app is based on the G DATA Verdict as a Service (VaaS) API. For more information, visit the [G DATA website](https://www.gdata.de/business/security-services/verdict-as-a-service).\nIf you have any questions about scanning, usage or similar, please feel free to write an e-mail to vaas@gdata.de.",
     "homepage": "https://www.gdata.de/business/security-services/verdict-as-a-service",
     "licenses": [
@@ -1740,9 +1740,9 @@
     ]
   },
   "notes": {
-    "hash": "sha256-av6y5GViTzlHtnUb/OIDw+0wdA/ZRwPYQMU3yDEbMTQ=",
-    "url": "https://github.com/nextcloud-releases/notes/releases/download/v4.10.0/notes.tar.gz",
-    "version": "4.10.0",
+    "hash": "sha256-T7FUmazib5LZVsno/VN/NZYYJetTXcG89njamSgJ6Iw=",
+    "url": "https://github.com/nextcloud-releases/notes/releases/download/v4.10.1/notes-v4.10.1.tar.gz",
+    "version": "4.10.1",
     "description": "The Notes app is a distraction free notes taking app for [Nextcloud](https://www.nextcloud.com/). It provides categories for better organization and supports formatting using [Markdown](https://en.wikipedia.org/wiki/Markdown) syntax. Notes are saved as files in your Nextcloud, so you can view and edit them with every Nextcloud client. Furthermore, a separate [REST API](https://github.com/nextcloud/notes/blob/master/docs/api/README.md) allows for an easy integration into third-party apps (currently, there are notes apps for [Android](https://github.com/nextcloud/notes-android), [iOS](https://github.com/nextcloud/notes-ios) and the [console](https://git.danielmoch.com/nncli/about) which allow convenient access to your Nextcloud notes). Further features include marking notes as favorites.",
     "homepage": "https://github.com/nextcloud/notes",
     "licenses": [
@@ -2220,9 +2220,9 @@
     ]
   },
   "sendentsynchroniser": {
-    "hash": "sha256-RENLFTOmSXblZs103AXCsgN3THuSK15eQr7ss0whxhM=",
-    "url": "https://download.sendent.com/sendentsynchroniser/1.0.8/sendentsynchroniser.tar.gz",
-    "version": "1.0.8",
+    "hash": "sha256-qvWRqvcKtHJKStDys8bWFT2JP/Vl9Uj6xFMNNRhg9us=",
+    "url": "https://download.sendent.com/sendentsynchroniser/1.0.9/sendentsynchroniser.tar.gz",
+    "version": "1.0.9",
     "description": "Say goodbye to manual updates! The Sendent Sync app, designed for the Nextcloud Exchange Connector, enables bi-directional syncing of agendas and contacts between your Microsoft Exchange and Nextcloud Hub. Focus on what truly matters – your work – while your data flows effortlessly.",
     "homepage": "https://www.sendent.com",
     "licenses": [
@@ -2240,9 +2240,9 @@
     ]
   },
   "sentry": {
-    "hash": "sha256-IZql0XynNU2acoRrGa6Wt80WDZ+qTWrkEwYjeTVu2Wg=",
-    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.10.0/sentry-v8.10.0.tar.gz",
-    "version": "8.10.0",
+    "hash": "sha256-Ba9o3MPRJjIqa82WL11CuYOmPU3jLhbXFGGK9Dfu3pg=",
+    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.10.1/sentry-v8.10.1.tar.gz",
+    "version": "8.10.1",
     "description": "A Sentry integration that sends unhandled exceptions to a Sentry instance to aggregate application crashes. You either have to set up your own Sentry instance or use your sentry.io account. See the admin documentation for how to configure this app.",
     "homepage": "https://github.com/ChristophWurst/nextcloud_sentry",
     "licenses": [
@@ -2598,9 +2598,9 @@
     ]
   },
   "timemanager": {
-    "hash": "sha256-OjRMQ+eyrsBsS8CNHr6avbTwNpinVs/nVrWiMnm38Q4=",
-    "url": "https://github.com/te-online/nextcloud-app-releases/raw/main/timemanager/v0.3.14/timemanager.tar.gz",
-    "version": "0.3.14",
+    "hash": "sha256-fpShR1tF6E0zvlZkV4+LmPqlmOjhzhFDpVxEGPuNQo8=",
+    "url": "https://github.com/te-online/nextcloud-app-releases/raw/main/timemanager/v0.3.15/timemanager.tar.gz",
+    "version": "0.3.15",
     "description": "### Time tracking in Nextcloud!\n* 📁 **organize time entries** based on tasks, projects and clients\n* ⏱ **quickly record** a time entry for your latest tasks\n* ✅ **check or uncheck** a time entry (e.g. to save whether you've billed it)\n* 📈 make use of simple, but useful **statistics** and **reports**.\n\n_[View changelog](https://github.com/te-online/timemanager/blob/main/CHANGELOG.md) to see older releases_\n\n📱 **Looking for a mobile companion app?** Try the [Android app (currently in beta)](https://play.google.com/store/apps/details?id=de.jbservices.nc_timemanager_app) made by [@joleaf](https://gitlab.com/joleaf/nc-timemanager-mobile-app)",
     "homepage": "https://github.com/te-online/timemanager",
     "licenses": [
