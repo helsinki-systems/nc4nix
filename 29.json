@@ -83,7 +83,7 @@
     "hash": "sha256-kfdS7M5QQNGYFFMxLuYcAD34pn4yZGJHzsN3BVRPbdU=",
     "url": "https://github.com/nextcloud-releases/assistant/releases/download/v1.1.0/assistant-v1.1.0.tar.gz",
     "version": "1.1.0",
-    "description": "This app brings a user interface to use the Nextcloud text processing feature.\r\n\r\nIt allows users to launch AI tasks, be notified when they finish and see the results.\r\nThe assistant also appears in others apps like Text to easily process parts of a document.\r\n\r\nMore details on the assistant OCS API and frontend integration possibilities in the\r\n[developer doc](https://github.com/nextcloud/assistant/raw/main/docs/developer)\r\n\r\n### How to use it\r\n\r\nA new right header menu entry appears. Once clicked, the assistant is displayed and you can select and task type and\r\nset the input you want to process.\r\n\r\nThe task might run immediately or be scheduled depending on the time estimation given by the AI provider.\r\nOnce a task is scheduled, it will run as a background job. When it is finished, you will receive a notification\r\nfrom which the results can be displayed.\r\n\r\nOther apps can integrate with the assistant. For example, Text will display an inline button besides every paragraph\r\nto directly select a task type to process this paragraph. Selecting a task this way will open the assistant with the task\r\nbeing pre-selected and the input text set.\r\n\r\nMore details and screenshots in the [user doc](https://github.com/nextcloud/assistant/raw/main/docs/user).\r\n\r\n## Features\r\n\r\nIn the assistant, the list of available tasks depends on the available providers installed via other apps.\r\nThis means you have complete freedom over which service/software will actually run your AI tasks.\r\n\r\n### Text processing providers\r\n\r\nSo far, the [Large language model](https://github.com/nextcloud/llm#readme)\r\nand the [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai) apps\r\ninclude text processing providers to:\r\n* Summarize\r\n* Extract topics\r\n* Generate a headline\r\n* Get an answer from a free prompt\r\n* Reformulate (OpenAi/LocalAi only)\r\n* Context writer: Generate text with a specified style. The style can be described or provided via an example text.\r\n\r\n### Text to image (Image generation)\r\n\r\nKnown providers:\r\n* [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai)\r\n* [Text2Image Stable Diffusion](https://apps.nextcloud.com/apps/text2image_stablediffusion)\r\n\r\n### Speech to text (Audio transcription)\r\n\r\nKnown providers:\r\n* [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai)\r\n* [Local Whisper Speech-To-Text](https://apps.nextcloud.com/apps/stt_whisper)",
+    "description": "This app brings a user interface to use the Nextcloud text processing feature.\n\nIt allows users to launch AI tasks, be notified when they finish and see the results.\nThe assistant also appears in others apps like Text to easily process parts of a document.\n\nMore details on the assistant OCS API and frontend integration possibilities in the\n[developer doc](https://github.com/nextcloud/assistant/raw/main/docs/developer)\n\n### How to use it\n\nA new right header menu entry appears. Once clicked, the assistant is displayed and you can select and task type and\nset the input you want to process.\n\nThe task might run immediately or be scheduled depending on the time estimation given by the AI provider.\nOnce a task is scheduled, it will run as a background job. When it is finished, you will receive a notification\nfrom which the results can be displayed.\n\nOther apps can integrate with the assistant. For example, Text will display an inline button besides every paragraph\nto directly select a task type to process this paragraph. Selecting a task this way will open the assistant with the task\nbeing pre-selected and the input text set.\n\nMore details and screenshots in the [user doc](https://github.com/nextcloud/assistant/raw/main/docs/user).\n\n## Features\n\nIn the assistant, the list of available tasks depends on the available providers installed via other apps.\nThis means you have complete freedom over which service/software will actually run your AI tasks.\n\n### Text processing providers\n\nSo far, the [Large language model](https://github.com/nextcloud/llm#readme)\nand the [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai) apps\ninclude text processing providers to:\n* Summarize\n* Extract topics\n* Generate a headline\n* Get an answer from a free prompt\n* Reformulate (OpenAi/LocalAi only)\n* Context writer: Generate text with a specified style. The style can be described or provided via an example text.\n\n### Text to image (Image generation)\n\nKnown providers:\n* [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai)\n* [Text2Image Stable Diffusion](https://apps.nextcloud.com/apps/text2image_stablediffusion)\n\n### Speech to text (Audio transcription)\n\nKnown providers:\n* [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai)\n* [Local Whisper Speech-To-Text](https://apps.nextcloud.com/apps/stt_whisper)",
     "homepage": "https://github.com/nextcloud/assistant",
     "licenses": [
       "agpl"
@@ -170,9 +170,9 @@
     ]
   },
   "certificate24": {
-    "hash": "sha256-2NAY3jev8MTqhPIjQCr/9RrMZBwww55ULR21CO6DDTk=",
-    "url": "https://github.com/strukturag/nextcloud-certificate24/releases/download/v0.3.2/certificate24.tar.gz",
-    "version": "0.3.2",
+    "hash": "sha256-PdW3VZSvSENtjP1R1jo5mWzoU8vd0anzTr66e8MVurM=",
+    "url": "https://github.com/strukturag/nextcloud-certificate24/releases/download/v0.3.3/certificate24.tar.gz",
+    "version": "0.3.3",
     "description": "Certificate24 - Digital Document Signature\n\nWith Certificate24 you can request digital signatures of documents stored in your Nextcloud from other users in Nextcloud or from external users (by email).\n\nSee [the website](https://www.certificate24.com) for further information.",
     "homepage": "https://www.certificate24.com",
     "licenses": [
@@ -270,8 +270,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -380,10 +380,10 @@
     ]
   },
   "electronicsignatures": {
-    "hash": "sha256-24lHlk5qlfR/KWpdd8Bd+INQu++HxNr2NAvpoTCVG+4=",
-    "url": "https://github.com/eideasy/nextcloud-electronic-signatures-plugin/releases/download/v3.0.1/electronicsignatures.tar.gz",
-    "version": "3.0.1",
-    "description": "# Features\n- 🔒🔒 Accept Qualified Electronic Signatures (QES - strongest legal value) in PDF or .asice formats\n- 🔒 Accept Simple Electronic Signatures (sms based signature - simple to sign)\n\n### How it works:\n1. Pick a file\n2. Select \"Signing\" in the file's dropdown menu\n3. Add signers\n4. Signers receive a link on their e-mail\n5. They sign the document\n6. The signed document appears in your Nextcloud instance, next to the original file\n\n# Built on top of eID Easy\nElectronic signatures app uses [eID Easy](https://eideasy.com) as its signing back-end. eID Easy handles the signing process. Refer to [eID Easy's pricing](https://eideasy.com/pricing/) for pricing information.\n\n### Get €10 to try out eID Easy\nFor limited time only, we're offering €10 of credit that you can spend to try out all the eID Easy signing services.\n\nWrite to info@eideasy.com to claim this offer.\n\n# Two levels of electronic signatures\n**Qualified Electronic Signature** - the strongest kind of electronic signature. The signer's identity and approval is linked to the file contents and a timestamp by cryptographic means. The signing time and the document's integrity can be verified to ensure that the document has not been tampered with after signing.\n\n**Simple Electronic Signature** - the simplest kind of electronic signature. eID Easy sends a unique link to the signer's e-mail. The signer opens the link, reviews the file and confirms their approval. A visual signature is added to the file. eId Easy adds a cryptographic e-seal to the file, to ensure that it cannot be modified after signing.\n\n# Pricing\nSee [https://eideasy.com/pricing](https://eideasy.com/pricing) for pricing information.\n\n# Feedback is welcome\nAre you not seeing your preferred signature card / signing app / other QES method? Are we not quite covering your use case? Let us know at info@eideasy.com\n\n# Documentation\n\n## Set up\nSee the following guides:\n[1. Installation](https://docs.eideasy.com/nextcloud/nextcloud-app-installation.html#_1-installation)\n[2. Set up](https://docs.eideasy.com/nextcloud/nextcloud-app-setup.html#_2-set-up)\n[3. Signing a document](https://docs.eideasy.com/nextcloud/nextcloud-app-signing.html#_3-signing-a-document)\n\n[CHANGELOG](https://github.com/eideasy/nextcloud-electronic-signatures-plugin/blob/master/CHANGELOG.md)",
+    "hash": "sha256-jEVp4g31kfwdHp5vk/aGxg7mov9yo1T2q5tlBeSVX6U=",
+    "url": "https://github.com/eideasy/nextcloud-electronic-signatures-plugin/releases/download/v3.0.2/electronicsignatures.tar.gz",
+    "version": "3.0.2",
+    "description": "# Features\n- 🔒🔒 Accept Qualified Electronic Signatures (QES - strongest legal value) in PDF or .asice formats\n- 🔒 Accept Simple Electronic Signatures (sms based signature - simple to sign)\n\n### How it works:\n1. Pick a file\n2. Select \"Signing\" in the file's dropdown menu\n3. Add signers\n4. Signers receive a link on their e-mail\n5. They sign the document\n6. The signed document appears in your Nextcloud instance, next to the original file\n\n# Built on top of eID Easy\nElectronic signatures app uses [eID Easy](https://eideasy.com) as its signing back-end. eID Easy handles the signing process. Refer to [eID Easy's pricing](https://eideasy.com/pricing/) for pricing information.\n\n### Get €10 to try out eID Easy\nFor limited time only, we're offering €10 of credit that you can spend to try out all the eID Easy signing services.\n\nWrite to info@eideasy.com to claim this offer.\n\n# Two levels of electronic signatures\n**Qualified Electronic Signature** - the strongest kind of electronic signature. The signer's identity and approval is linked to the file contents and a timestamp by cryptographic means. The signing time and the document's integrity can be verified to ensure that the document has not been tampered with after signing.\n\n**Simple Electronic Signature** - the simplest kind of electronic signature. eID Easy sends a unique link to the signer's e-mail. The signer opens the link, reviews the file and confirms their approval. A visual signature is added to the file. eId Easy adds a cryptographic e-seal to the file, to ensure that it cannot be modified after signing.\n\n# Pricing\nThe minimum fee is 20 EUR per month +VAT, which includes signatures up to that amount.\nSee [https://eideasy.com/pricing](https://eideasy.com/pricing) for detailed pricing information.\n\n# Feedback is welcome\nAre you not seeing your preferred signature card / signing app / other QES method? Are we not quite covering your use case? Let us know at info@eideasy.com\n\n# Documentation\n\n## Set up\nSee the following guides:\n\n1. [Installation](https://docs.eideasy.com/nextcloud/nextcloud-app-installation.html#_1-installation)\n\n2. [Set up](https://docs.eideasy.com/nextcloud/nextcloud-app-setup.html#_2-set-up)\n\n3. [Signing a document](https://docs.eideasy.com/nextcloud/nextcloud-app-signing.html#_3-signing-a-document)\n\n\n[CHANGELOG](https://github.com/eideasy/nextcloud-electronic-signatures-plugin/blob/master/CHANGELOG.md)",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -1209,6 +1209,16 @@
       "agpl"
     ]
   },
+  "integration_zulip": {
+    "hash": "sha256-2FSiyRqaki8j9J44eYe8ygiMYBCkwuilU8CqHMYiyjc=",
+    "url": "https://github.com/nextcloud-releases/integration_zulip/releases/download/v1.0.0/integration_zulip-v1.0.0.tar.gz",
+    "version": "1.0.0",
+    "description": "Zulip integration lets you send files to Zulip from Nextcloud Files.",
+    "homepage": "https://github.com/nextcloud/integration_zulip",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "inventory": {
     "hash": "sha256-se6iWoLall0CkWhkgnXs1E5iaQXGoc3q1UFxpXHjFWY=",
     "url": "https://github.com/raimund-schluessler/inventory/releases/download/v0.1.2/inventory.tar.gz",
@@ -1300,8 +1310,8 @@
     ]
   },
   "maps": {
-    "hash": "sha256-BmXs6Oepwnm+Cviy4awm3S8P9AiJTt1BnAQNb4TxVYE=",
-    "url": "https://github.com/nextcloud/maps/releases/download/v1.4.0/maps-1.4.0.tar.gz",
+    "hash": "sha256-FmRhpPRpMnCHkJFaVvQuR6Y7Pd7vpP+tUVih919g/fQ=",
+    "url": "https://github.com/nextcloud/maps/releases/download/v1.4.0-1-nightly/maps-1.4.0-1-nightly.tar.gz",
     "version": "1.4.0",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
@@ -1474,6 +1484,16 @@
     "url": "https://github.com/kenda/nextcloud-openhab/releases/download/v0.13.4/openhab.tar.gz",
     "version": "0.13.3",
     "description": "This app renders the available sitemaps of an Openhab server instance. This allows you to display values from your smart home in Nextcloud.",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "openincryptpad": {
+    "hash": "sha256-9iT5Q98/XXDhghqCJLnTV6zTEAISRZWnWvpG88pPVqA=",
+    "url": "https://github.com/cryptpad/nextcloud-open-in-cryptpad/releases/download/v0.3.5/openincryptpad.tar.gz",
+    "version": "0.3.5",
+    "description": "# Open In CryptPad\n\n\"Open in CryptPad\" is a Nextcloud application that allows collaborative editing\nof files. For this it uses a CryptPad instance embedded into the Nextcloud web\ninterface. Currently, only drawio diagrams are supported.\n\n## Importing images from Nextcloud into diagrams\n\nWith this app, you can import images from Nextcloud into\ndiagrams. These images are not embedded, but linked to their\nsource in Nextcloud. **To achieve this, imported images are made\npublic via a secret link to the image.**\n\n## Rights management\n\nWhen using this app, the file permissions are completely handled by\nNextcloud. The right's management of CryptPad is not used for Nextcloud\nfiles edited in CryptPad.\n\n## Installation\n\n### Prerequisites on the CryptPad side\n\nTo embed CryptPad into Nextcloud, the \"Enable remote embedding\" admin setting\nneeds to be enabled. You can find this setting on the \"Administration\" web\ninterface in the \"General\" tab.\n\n### Install from Nextcloud app store\n\n1. Add drawio mimetype to Nextcloud. \"Open in CryptPad\" depends on Nextcloud\n   detecting drawio files correctly. For this you have to create the following\n   files: (**Note:** do this before uploading any drawio files! The mimetype of\n   old files will not be updated by these changes)\n    - `nextcloud/config/mimetypealiases.json`\n\n        ``` json\n        {\n            \"application/x-drawio\": \"image\"\n        }\n        ```\n\n    - `nextcloud/config/mimetypemapping.json`\n\n        ``` json\n        {\n            \"drawio\": [\"application/x-drawio\"]\n        }\n        ```\n2. Open the \"Apps\" page in your Nextcloud web interface and install \"Open in\n   CryptPad\". You can find it in the \"Integration\" category.\n3. Configure \"Open in CryptPad\" in the administration settings of Nextcloud.",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -1839,6 +1859,16 @@
       "agpl"
     ]
   },
+  "sharereview": {
+    "hash": "sha256-FPEAhvOIKGXayiGJ+11OwRFWrPyMCGFg9JLu1BIDRMs=",
+    "url": "https://github.com/Rello/sharereview/releases/download/1.0.1/sharereview-1.0.1.tar.gz",
+    "version": "1.0.1",
+    "description": "- Review and audit all shares within the Nextcloud instance\n- Remove shares\n- Confirm review\n- Audit compliance\n- Show only new shares since last review\n- Assign review to user groups (e.g. audit or risk mgmt)\n\n### Note:\nThe app must be restricted to at least one specific user group in the app store.\nThis prevents accidental exposure of the shared content to all users.",
+    "homepage": "https://github.com/Rello/sharereview",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "side_menu": {
     "hash": "sha256-ALyADeGpvezdozlflke5MWekdBVO4R06pR4GmG3navI=",
     "url": "https://gitnet.fr/deblan/side_menu/releases/download/v3.13.1/side_menu_v3.13.1.tar.gz",
@@ -2200,9 +2230,9 @@
     ]
   },
   "user_oidc": {
-    "hash": "sha256-feBnHhVXR3B6SKPWx2rWDAjEERV1GMQ4NVlmoRLukJE=",
-    "url": "https://github.com/nextcloud-releases/user_oidc/releases/download/v5.0.3/user_oidc-v5.0.3.tar.gz",
-    "version": "5.0.3",
+    "hash": "sha256-Jp3Y6c94d+87gWCl51goI8ZbbNX45RRMaf+njtcZVTs=",
+    "url": "https://github.com/nextcloud-releases/user_oidc/releases/download/v6.0.0/user_oidc-v6.0.0.tar.gz",
+    "version": "6.0.0",
     "description": "Allows flexible configuration of an OIDC server as Nextcloud login user backend.",
     "homepage": "https://github.com/nextcloud/user_oidc",
     "licenses": [
