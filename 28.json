@@ -160,9 +160,9 @@
     ]
   },
   "calendar": {
-    "hash": "sha256-Zxp698f4x3nPRro/gfyR0YoGbeGB44xAtsN4S2Fq/2k=",
-    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v4.7.12/calendar-v4.7.12.tar.gz",
-    "version": "4.7.12",
+    "hash": "sha256-BcAlsrM9AExRau8ub6+V5ctSWTDmzWHekbNlTf+AZxc=",
+    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v4.7.13/calendar-v4.7.13.tar.gz",
+    "version": "4.7.13",
     "description": "The Calendar app is a user interface for Nextcloud's CalDAV server. Easily sync events from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Currently Contacts - more to come.\n* 🌐 **WebCal Support!** Want to see your favorite team’s matchdays in your calendar? No problem!\n* 🙋 **Attendees!** Invite people to your events\n* ⌚️ **Free/Busy!** See when your attendees are available to meet\n* ⏰ **Reminders!** Get alarms for events inside your browser and via email\n* 🔍 Search! Find your events at ease\n* ☑️ Tasks! See tasks with a due date directly in the calendar\n* 🙈 **We’re not reinventing the wheel!** Based on the great [c-dav library](https://github.com/nextcloud/cdav-library), [ical.js](https://github.com/mozilla-comm/ical.js) and [fullcalendar](https://github.com/fullcalendar/fullcalendar) libraries.",
     "homepage": "https://github.com/nextcloud/calendar/",
     "licenses": [
@@ -190,10 +190,10 @@
     ]
   },
   "call_summary_bot": {
-    "hash": "sha256-ecyZOcpDLES10fGOfxphPx49+Y5IcDrtGSwcCxmCykU=",
-    "url": "https://github.com/nextcloud-releases/call_summary_bot/releases/download/v1.1.1/call_summary_bot-v1.1.1.tar.gz",
-    "version": "1.1.1",
-    "description": "- Any message starting with a Markdown todo `- [ ] ` or the keywords `task:` or `todo:` during a call will be recognized as a task\n- You can also post multiple tasks in a single message, just put each on its own line starting with a keyword\n- At the end of the call, the bot will summarize it and list all the attendees as well as the tasks in a markdown chat message",
+    "hash": "sha256-jRiZN3/5T0QGMXjb0933oYWgUrhcrL5sobhXLeRa/lc=",
+    "url": "https://github.com/nextcloud-releases/call_summary_bot/releases/download/v1.2.0/call_summary_bot-v1.2.0.tar.gz",
+    "version": "1.2.0",
+    "description": "- Any message starting with a Markdown todo `- [ ] ` or the keywords `task:` or `todo:` during a call will be recognized as a task\r\n- You can also post multiple tasks in a single message, just put each on its own line starting with a keyword\r\n- At the end of the call, the bot will summarize it and list all the attendees as well as the tasks in a markdown chat message",
     "homepage": "https://github.com/nextcloud/call_summary_bot",
     "licenses": [
       "agpl"
@@ -290,9 +290,9 @@
     ]
   },
   "collectives": {
-    "hash": "sha256-aePEPxohEMRDQd23qEsfaLM0Htoi8hboyEOdwev8yX8=",
-    "url": "https://github.com/nextcloud/collectives/releases/download/v2.12.0/collectives-2.12.0.tar.gz",
-    "version": "2.12.0",
+    "hash": "sha256-oLo1l7EBcOF3QTpRfvDpwmFGkCYM1De/hC0RSe8G3sk=",
+    "url": "https://github.com/nextcloud/collectives/releases/download/v2.13.0/collectives-2.13.0.tar.gz",
+    "version": "2.13.0",
     "description": "Collectives is a Nextcloud App for activist and community projects to organize together.\nCome and gather in collectives to build shared knowledge.\n\n* 👥 **Collective and non-hierarchical workflow by heart**: Collectives are\n  tied to a [Nextcloud Team](https://github.com/nextcloud/circles) and\n  owned by the collective.\n* 📝 **Collaborative page editing** like known from Etherpad thanks to the\n  [Text app](https://github.com/nextcloud/text).\n* 🔤 **Well-known [Markdown](https://en.wikipedia.org/wiki/Markdown) syntax**\n  for page formatting.\n\n## Installation\n\nIn your Nextcloud instance, simply navigate to **»Apps«**, find the\n**»Teams«** and **»Collectives«** apps and enable them.",
     "homepage": "https://github.com/nextcloud/collectives",
     "licenses": [
@@ -313,7 +313,7 @@
     "hash": "sha256-tGYyr8BXRUTPsoLPQqVgdw5rpPZvztuQ/afvQlrzB24=",
     "url": "https://github.com/nextcloud-releases/context_chat/releases/download/v2.2.1/context_chat-v2.2.1.tar.gz",
     "version": "2.2.1",
-    "description": "Ask questions to nextcloud Assistant about the content of your documents.\n\n## Install\n1. Install two other mandatory apps for this app to work as desired in your Nextcloud install from the \"Apps\" page:\n- AppAPI (>= v2.0.x): https://apps.nextcloud.com/apps/app_api\n- Assistant: https://apps.nextcloud.com/apps/assistant (The OCS API or the `occ` commands can also be used to interact with this app but it recommended to do that through a Text Processing OCP API consumer like the Assistant app.)\n2. Install this app (Nextcloud Assistant Context Chat): https://apps.nextcloud.com/apps/context_chat\n3. Install the Context Chat Backend app (https://apps.nextcloud.com/apps/context_chat_backend) from the \"External Apps\" page. It is important to note here that the backend app should have the same major and minor version as this app (context_chat)\n4. Start using Context Chat from the Assistant UI\n\nNote:\nRefer to the [Context Chat Backend's readme](https://github.com/nextcloud/context_chat_backend/?tab=readme-ov-file) and the [AppAPI's documentation](https://cloud-py-api.github.io/app_api/) for help with setup of AppAPI's deploy daemon.",
+    "description": "Ask questions to nextcloud Assistant about the content of your documents.\r\n\r\n## Install\r\n1. Install two other mandatory apps for this app to work as desired in your Nextcloud install from the \"Apps\" page:\r\n- AppAPI (>= v2.0.x): https://apps.nextcloud.com/apps/app_api\r\n- Assistant: https://apps.nextcloud.com/apps/assistant (The OCS API or the `occ` commands can also be used to interact with this app but it recommended to do that through a Text Processing OCP API consumer like the Assistant app.)\r\n2. Install this app (Nextcloud Assistant Context Chat): https://apps.nextcloud.com/apps/context_chat\r\n3. Install the Context Chat Backend app (https://apps.nextcloud.com/apps/context_chat_backend) from the \"External Apps\" page. It is important to note here that the backend app should have the same major and minor version as this app (context_chat)\r\n4. Start using Context Chat from the Assistant UI\r\n\r\nNote:\r\nRefer to the [Context Chat Backend's readme](https://github.com/nextcloud/context_chat_backend/?tab=readme-ov-file) and the [AppAPI's documentation](https://cloud-py-api.github.io/app_api/) for help with setup of AppAPI's deploy daemon.",
     "homepage": "https://github.com/nextcloud/context_chat",
     "licenses": [
       "agpl"
@@ -403,7 +403,7 @@
     "hash": "sha256-Uv5Lj7otf1bP+a6uZHQbr3SYaHamsXNQBjRlRDEt00s=",
     "url": "https://github.com/ayselafsar/dicomviewer/releases/download/v2.1.2/dicomviewer-2.1.2.tar.gz",
     "version": "2.1.2",
-    "description": "DICOM Viewer allows to display and manipulate DICOM images with a streamlined sidebar and viewer.\n\nIt renders DICOM data sets in 2D, 3D, and reconstructed representations; allows for the manipulation, annotation,\nand serialization of observations; supports internationalization, hotkeys, and many more features.\n\nSee [README](https://github.com/ayselafsar/dicomviewer) for a list of full features and future roadmap.",
+    "description": "DICOM Viewer allows to display and manipulate DICOM images with a streamlined sidebar and viewer.\r\n\r\nIt renders DICOM data sets in 2D, 3D, and reconstructed representations; allows for the manipulation, annotation,\r\nand serialization of observations; supports internationalization, hotkeys, and many more features.\r\n\r\nSee [README](https://github.com/ayselafsar/dicomviewer) for a list of full features and future roadmap.",
     "homepage": "https://github.com/ayselafsar/dicomviewer",
     "licenses": [
       "agpl"
@@ -450,9 +450,9 @@
     ]
   },
   "droneci_fast_lane": {
-    "hash": "sha256-Ajezqi9Cc+cLhLWhCZ5SEaVAorENaMAK20h1s+492Bg=",
-    "url": "https://github.com/nextcloud-releases/droneci_fast_lane/releases/download/v1.4.0/droneci_fast_lane-v1.4.0.tar.gz",
-    "version": "1.4.0",
+    "hash": "sha256-Bz05uSgNj0PCOS/D2R8eGEbI3WAJN90bDs2/fs6mXY8=",
+    "url": "https://github.com/nextcloud-releases/droneci_fast_lane/releases/download/v1.5.0/droneci_fast_lane-v1.5.0.tar.gz",
+    "version": "1.5.0",
     "description": "A simple manager to manipulate Drone CI's FIFO queue.",
     "homepage": "",
     "licenses": [
@@ -974,7 +974,7 @@
     "url": "https://github.com/nextcloud-releases/guests/releases/download/v3.0.1/guests-v3.0.1.tar.gz",
     "version": "3.0.1",
     "description": "👥 Allows for better collaboration with external users by allowing users to create guests account.\n\nGuests accounts can be created from the share menu by entering either the recipients email or name and choosing \"create guest account\", once the share is created the guest user will receive an email notification about the mail with a link to set their password.\n\nGuests users can only access files shared to them and cannot create any files outside of shares, additionally, the apps accessible to guest accounts are whitelisted.",
-    "homepage": "",
+    "homepage": "https://github.com/nextcloud/guests/",
     "licenses": [
       "agpl"
     ]
@@ -1033,7 +1033,7 @@
     "hash": "sha256-fJ96PmkRvgmoIYmF7r/zOQ88/tjb6d0+sQ1YbKq8sY8=",
     "url": "https://github.com/nextcloud-releases/impersonate/releases/download/v1.15.0/impersonate-v1.15.0.tar.gz",
     "version": "1.15.0",
-    "description": "By installing the impersonate app of your Nextcloud you enable administrators to impersonate other users on the Nextcloud server. This is especially useful for debugging issues reported by users.\n\nTo impersonate a user an administrator has to simply follow the following four steps:\n\n1. Login as administrator to Nextcloud.\n2. Open users administration interface.\n3. Select the impersonate button on the affected user.\n4. Confirm the impersonation.\n\nThe administrator is then logged-in as the user, to switch back to the regular user account they simply have to press the logout button.\n\n**Note:**\n\n- This app is not compatible with instances that have encryption enabled.\n- While impersonate actions are logged note that actions performed impersonated will be logged as the impersonated user.\n- Impersonating a user is only possible after their first login.\n- You can limit which users/groups can use impersonation in Administration settings > Additional settings.",
+    "description": "By installing the impersonate app of your Nextcloud you enable administrators to impersonate other users on the Nextcloud server. This is especially useful for debugging issues reported by users.\r\n\r\nTo impersonate a user an administrator has to simply follow the following four steps:\r\n\r\n1. Login as administrator to Nextcloud.\r\n2. Open users administration interface.\r\n3. Select the impersonate button on the affected user.\r\n4. Confirm the impersonation.\r\n\r\nThe administrator is then logged-in as the user, to switch back to the regular user account they simply have to press the logout button.\r\n\r\n**Note:**\r\n\r\n- This app is not compatible with instances that have encryption enabled.\r\n- While impersonate actions are logged note that actions performed impersonated will be logged as the impersonated user.\r\n- Impersonating a user is only possible after their first login.\r\n- You can limit which users/groups can use impersonation in Administration settings > Additional settings.",
     "homepage": "https://github.com/nextcloud/impersonate",
     "licenses": [
       "agpl"
@@ -1120,9 +1120,9 @@
     ]
   },
   "integration_excalidraw": {
-    "hash": "sha256-gdpv7R2ct3Cs14lFxzQIdM32RDN8S0p0hZlYTeivHd8=",
-    "url": "https://github.com/nextcloud-releases/integration_excalidraw/releases/download/v2.1.0/integration_excalidraw-v2.1.0.tar.gz",
-    "version": "2.1.0",
+    "hash": "sha256-zleLZUCWIvZIpGfLJC8RhLk5pcFJ/GO5RS/x3kiD83k=",
+    "url": "https://github.com/nextcloud-releases/integration_excalidraw/releases/download/v2.2.0/integration_excalidraw-v2.2.0.tar.gz",
+    "version": "2.2.0",
     "description": "Modern collaborative whiteboard in Nextcloud.\nThis integration app lets users create Excalidraw boards, share board links and open boards directly in Nextcloud.",
     "homepage": "https://github.com/eneiluj/integration_excalidraw",
     "licenses": [
@@ -1140,10 +1140,10 @@
     ]
   },
   "integration_giphy": {
-    "hash": "sha256-yRe/YI8/aDbG6Hkq+UkYuTI5+cTHhEpRe6NWV7m5mKQ=",
-    "url": "https://github.com/nextcloud-releases/integration_giphy/releases/download/v1.0.10/integration_giphy-v1.0.10.tar.gz",
-    "version": "1.0.10",
-    "description": "Giphy integration provides a unified search provider for GIFs. It also provides a link reference provider\n    to render links to GIFs and make it possible to search for GIFs in Talk, Text and potentially anywhere in Nextcloud.",
+    "hash": "sha256-slAefVd7QWyTx2f4w6zuVl3Fa3t3/AVKWzlfstuTFlE=",
+    "url": "https://github.com/nextcloud-releases/integration_giphy/releases/download/v1.0.11/integration_giphy-v1.0.11.tar.gz",
+    "version": "1.0.11",
+    "description": "Giphy integration provides a unified search provider for GIFs. It also provides a link reference provider\r\n    to render links to GIFs and make it possible to search for GIFs in Talk, Text and potentially anywhere in Nextcloud.",
     "homepage": "https://github.com/nextcloud/integration_giphy",
     "licenses": [
       "agpl"
@@ -1200,9 +1200,9 @@
     ]
   },
   "integration_jira": {
-    "hash": "sha256-ebm3RQti518nJpXH8U8bdIJQXtV8EcJ71cGcQUhiP0U=",
-    "url": "https://github.com/nextcloud-releases/integration_jira/releases/download/v1.1.0/integration_jira-v1.1.0.tar.gz",
-    "version": "1.1.0",
+    "hash": "sha256-1LSNPr1o7WJ1TSbkV4vAZNXTIGYZ9NkLNxrEb/1Lp4U=",
+    "url": "https://github.com/nextcloud-releases/integration_jira/releases/download/v1.2.0/integration_jira-v1.2.0.tar.gz",
+    "version": "1.2.0",
     "description": "Jira integration provides a dashboard widget displaying your important notifications,\na unified search provider to search for issues\nand notifications about recent activity related to your assigned issues.",
     "homepage": "https://github.com/nextcloud/integration_jira",
     "licenses": [
@@ -1230,9 +1230,9 @@
     ]
   },
   "integration_mastodon": {
-    "hash": "sha256-TOJdxJEBD2zO5dJWJ+ZaItWpAnZC4qhrtJuICb5wkcY=",
-    "url": "https://github.com/nextcloud-releases/integration_mastodon/releases/download/v2.0.5/integration_mastodon-v2.0.5.tar.gz",
-    "version": "2.0.5",
+    "hash": "sha256-5BVtoce1cWlMNzlfB24d8eQaPVD/Ox1I8/MD6WYreuo=",
+    "url": "https://github.com/nextcloud-releases/integration_mastodon/releases/download/v2.0.6/integration_mastodon-v2.0.6.tar.gz",
+    "version": "2.0.6",
     "description": "Mastodon integration provides dashboard widgets displaying your important notifications and your home timeline.",
     "homepage": "https://github.com/nextcloud/integration_mastodon",
     "licenses": [
@@ -1280,9 +1280,9 @@
     ]
   },
   "integration_nuiteq": {
-    "hash": "sha256-/HFwrNaUPGHWUIW056VTOSMcQ/vJ+4Zt5NXNeGkPYSA=",
-    "url": "https://github.com/nextcloud-releases/integration_nuiteq/releases/download/v1.0.6/integration_nuiteq-v1.0.6.tar.gz",
-    "version": "1.0.6",
+    "hash": "sha256-VZSGLwA+ByUtLzYcmp73kZ24ZibKbavdG/Dq78xZJkA=",
+    "url": "https://github.com/nextcloud-releases/integration_nuiteq/releases/download/v1.0.7/integration_nuiteq-v1.0.7.tar.gz",
+    "version": "1.0.7",
     "description": "NUITEQ Stage creates a natural interaction between participants in a Modern Meeting by merging the experience of creating together on a whiteboard and discussing in a video call and chat. Prepare and upload files and presentations, share them with others in the meeting. Designed for collaboration first to engage team members - NUITEQ Stage is safe, easy and efficient to use.\n\nThis app provides a simple interface to list, create and share NUITEQ Stage whiteboards.",
     "homepage": "https://github.com/nextcloud/integration_nuiteq",
     "licenses": [
@@ -1290,9 +1290,9 @@
     ]
   },
   "integration_onedrive": {
-    "hash": "sha256-iClRL5QYGX5xGlIxy1sIKklE2tHe9CvvqdjtvXx/k24=",
-    "url": "https://github.com/nextcloud-releases/integration_onedrive/releases/download/v3.2.1/integration_onedrive-v3.2.1.tar.gz",
-    "version": "3.2.1",
+    "hash": "sha256-V/70niZ4/SzXw39p27QctDXN/y4j8OSlKtVxSd4goqY=",
+    "url": "https://github.com/nextcloud-releases/integration_onedrive/releases/download/v3.2.2/integration_onedrive-v3.2.2.tar.gz",
+    "version": "3.2.2",
     "description": "Microsoft OneDrive integration allows you to automatically import your OneDrive files into Nextcloud.",
     "homepage": "https://github.com/nextcloud/integration_onedrive",
     "licenses": [
@@ -1340,9 +1340,9 @@
     ]
   },
   "integration_peertube": {
-    "hash": "sha256-n/YCevkTW666Q+H1BUGO8lQjjh28Zfb2Gtat8HVKPyM=",
-    "url": "https://github.com/nextcloud-releases/integration_peertube/releases/download/v1.0.3/integration_peertube-v1.0.3.tar.gz",
-    "version": "1.0.3",
+    "hash": "sha256-8lXjj7n8VrdE/bTCcdzC35B3bnmVR7nTKMQsanitLi8=",
+    "url": "https://github.com/nextcloud-releases/integration_peertube/releases/download/v1.0.4/integration_peertube-v1.0.4.tar.gz",
+    "version": "1.0.4",
     "description": "PeerTube integration provides a smart picker provider to search for videos\nand a link preview widget for video links.",
     "homepage": "https://github.com/julien-nc/integration_peertube",
     "licenses": [
@@ -1360,9 +1360,9 @@
     ]
   },
   "integration_reddit": {
-    "hash": "sha256-pqxc3llSJASNulWkziNbRALmKOSS64Zd1qP1YInbYww=",
-    "url": "https://github.com/nextcloud-releases/integration_reddit/releases/download/v2.0.3/integration_reddit-v2.0.3.tar.gz",
-    "version": "2.0.3",
+    "hash": "sha256-biMc/6aP/prE3NNefi9qpd7tfiGtKRDILT/b5xOfTsY=",
+    "url": "https://github.com/nextcloud-releases/integration_reddit/releases/download/v2.0.4/integration_reddit-v2.0.4.tar.gz",
+    "version": "2.0.4",
     "description": "Reddit integration provides a dashboard widget displaying your recent subscribed news.",
     "homepage": "https://github.com/nextcloud/integration_reddit",
     "licenses": [
@@ -1430,9 +1430,9 @@
     ]
   },
   "integration_zammad": {
-    "hash": "sha256-J3+NQFsGZF9KMIHWbBOaSS1Oass4KDrMjLzuGway5EA=",
-    "url": "https://github.com/nextcloud-releases/integration_zammad/releases/download/v2.0.7/integration_zammad-v2.0.7.tar.gz",
-    "version": "2.0.7",
+    "hash": "sha256-7a4nRCgYZIV3ouy4vQDwalmS6x4s02Owyy7oFDkH/5w=",
+    "url": "https://github.com/nextcloud-releases/integration_zammad/releases/download/v2.1.0/integration_zammad-v2.1.0.tar.gz",
+    "version": "2.1.0",
     "description": "Zammad integration provides a dashboard widget displaying your important notifications,\n\ta search provider for tickets and notifications for new open tickets.",
     "homepage": "https://github.com/nextcloud/integration_zammad",
     "licenses": [
@@ -1530,9 +1530,9 @@
     ]
   },
   "libresign": {
-    "hash": "sha256-8F4HMIpNMS8ZPZeNh391mj2vGvdUCQ5sovoz5aOBa8E=",
-    "url": "https://github.com/LibreSign/libresign/releases/download/v8.2.3/libresign-v8.2.3.tar.gz",
-    "version": "8.2.3",
+    "hash": "sha256-XNw3dT9mOGLZswh9V7iPLWK/OxCy/VmBv3iYKtyFW74=",
+    "url": "https://github.com/LibreSign/libresign/releases/download/v8.2.4/libresign-v8.2.4.tar.gz",
+    "version": "8.2.4",
     "description": "**This is a libre digital PDF signature app for Nextcloud**\n\n* ✍️ **Sign PDF** documents using digital certificates\n* 🔄 **Hybrid signatures**: You can choose between personal or system-generated digital certificates\n* 👥 **Multiple signers**: Request signature on a document for as many people as you need\n* 📸 **QR Code**: Document validation by QR Code\n* 🔒 **Privacy**: Fully self-hosted document signer\n* 📲 **Connect to your software**: Easily integrate [LibreSign](https://libresign.coop) into your service with our full-fledged\n* 🙋 **Get involved**! We have lots of stuff planned. More informations at [LibreSign](https://github.com/libresign/libresign) repository.\n\n🌍 Help us translate this application on [Transifex](https://app.transifex.com/nextcloud/nextcloud/libresign/)\n\nIf you enjoy this app and want to help maintain its development or want enterprise support, please contact us:\n\n[https://libresign.coop](https://libresign.coop)\n\n## Donation\n\nDeveloped with ❤️ by [LibreCode](https://librecode.coop). Help us transform people and businesses through cooperativism.\n\n* [Donate with GitHub Sponsor: ![Donate using GitHub Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/libresign)",
     "homepage": "https://github.com/LibreSign/libresign",
     "licenses": [
@@ -1543,7 +1543,7 @@
     "hash": "sha256-6OF0syz4WT2HHPFRh7ld1TEWHTEi4asxMQoqwf/pgeE=",
     "url": "https://github.com/nextcloud-releases/limit_login_to_ip/releases/download/v4.1.0/limit_login_to_ip-v4.1.0.tar.gz",
     "version": "4.1.0",
-    "description": "This app allows administrators to restrict login to their\nNextcloud server to specific IP ranges. Note that existing sessions will be kept\nopen.\n\nThe allowed IP ranges can be administrated using the OCC command line interface\nor graphically using the admin settings. If you plan to use the OCC tool, the\nfollowing commands would be applicable.\n\nTo allow `127.0.0.0/24`:\n\n- `occ config:app:set limit_login_to_ip whitelisted.ranges --value 127.0.0.0/24`\n\nTo allow `127.0.0.0/24` and also `192.168.0.0/24`:\n\n- `occ config:app:set limit_login_to_ip whitelisted.ranges --value 127.0.0.0/24,192.168.0.0/24`",
+    "description": "This app allows administrators to restrict login to their\r\nNextcloud server to specific IP ranges. Note that existing sessions will be kept\r\nopen.\r\n\r\nThe allowed IP ranges can be administrated using the OCC command line interface\r\nor graphically using the admin settings. If you plan to use the OCC tool, the\r\nfollowing commands would be applicable.\r\n\r\nTo allow `127.0.0.0/24`:\r\n\r\n- `occ config:app:set limit_login_to_ip whitelisted.ranges --value 127.0.0.0/24`\r\n\r\nTo allow `127.0.0.0/24` and also `192.168.0.0/24`:\r\n\r\n- `occ config:app:set limit_login_to_ip whitelisted.ranges --value 127.0.0.0/24,192.168.0.0/24`",
     "homepage": "https://github.com/nextcloud/limit_login_to_ip",
     "licenses": [
       "agpl"
@@ -1600,8 +1600,8 @@
     ]
   },
   "maps": {
-    "hash": "sha256-BmXs6Oepwnm+Cviy4awm3S8P9AiJTt1BnAQNb4TxVYE=",
-    "url": "https://github.com/nextcloud/maps/releases/download/v1.4.0/maps-1.4.0.tar.gz",
+    "hash": "sha256-FmRhpPRpMnCHkJFaVvQuR6Y7Pd7vpP+tUVih919g/fQ=",
+    "url": "https://github.com/nextcloud/maps/releases/download/v1.4.0-1-nightly/maps-1.4.0-1-nightly.tar.gz",
     "version": "1.4.0",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
@@ -1620,9 +1620,9 @@
     ]
   },
   "memegen": {
-    "hash": "sha256-jjutdLlW4RA3IOdYQ/gw0fdyzIVIsBuIHn0iFtbOmos=",
-    "url": "https://github.com/nextcloud-releases/memegen/releases/download/v1.0.8/memegen-v1.0.8.tar.gz",
-    "version": "1.0.8",
+    "hash": "sha256-AuRZcyJcjlaGt/83+0BHqyN7tZwIvxQDUF3JqzSesk8=",
+    "url": "https://github.com/nextcloud-releases/memegen/releases/download/v1.1.0/memegen-v1.1.0.tar.gz",
+    "version": "1.1.0",
     "description": "A tool for picking a meme template and filling in custom text captions using the Smart Picker functionality.",
     "homepage": "https://github.com/nextcloud/memegen",
     "licenses": [
@@ -1683,7 +1683,7 @@
     "hash": "sha256-RnTyQYCbmkHDZhtonpvbKLUM3n93u53IhknyTrNGh9Y=",
     "url": "https://github.com/owncloud/music/releases/download/v2.0.0/music_2.0.0_for_nextcloud.tar.gz",
     "version": "2.0.0",
-    "description": "A stand-alone music player app and a \"lite\" player for the Files app\n\n- On modern browsers, supports audio types .mp3, .ogg, .m4a, .m4b, .flac, .wav, and more\n- Playlist support with import from m3u, m3u8, and pls files\n- Browse by artists, albums, genres, or folders\n- Gapless play\n- Filter the shown content with the search function\n- Play internet radio and podcast channels\n- Setup Last.fm connection to see background information on artists, albums, and songs\n- Control with media control keys on the keyboard or OS\n- The app can handle libraries consisting of thousands of albums and tens of thousands of songs\n- Includes a server backend compatible with the Subsonic and Ampache protocols, allowing playback and browsing of your library on various external apps e.g. on Android or iPhone",
+    "description": "A stand-alone music player app and a \"lite\" player for the Files app\r\n\r\n- On modern browsers, supports audio types .mp3, .ogg, .m4a, .m4b, .flac, .wav, and more\r\n- Playlist support with import from m3u, m3u8, and pls files\r\n- Browse by artists, albums, genres, or folders\r\n- Gapless play\r\n- Filter the shown content with the search function\r\n- Play internet radio and podcast channels\r\n- Setup Last.fm connection to see background information on artists, albums, and songs\r\n- Control with media control keys on the keyboard or OS\r\n- The app can handle libraries consisting of thousands of albums and tens of thousands of songs\r\n- Includes a server backend compatible with the Subsonic and Ampache protocols, allowing playback and browsing of your library on various external apps e.g. on Android or iPhone",
     "homepage": "https://github.com/owncloud/music",
     "licenses": [
       "agpl"
@@ -1750,9 +1750,9 @@
     ]
   },
   "ocs_api_viewer": {
-    "hash": "sha256-SDY7jhwK55WXJDDX4lFU8Rq4MUBh4PG1dFb0cHUcZYM=",
-    "url": "https://github.com/nextcloud-releases/ocs_api_viewer/releases/download/v1.0.6/ocs_api_viewer-v1.0.6.tar.gz",
-    "version": "1.0.6",
+    "hash": "sha256-6jhmEFLJ63vPcjfH3zvm6dTg3moFM/T1374lNd1c7oE=",
+    "url": "https://github.com/nextcloud-releases/ocs_api_viewer/releases/download/v1.0.7/ocs_api_viewer-v1.0.7.tar.gz",
+    "version": "1.0.7",
     "description": "View OCS API specifications for installed apps",
     "homepage": "https://github.com/nextcloud/ocs_api_viewer",
     "licenses": [
@@ -1770,9 +1770,9 @@
     ]
   },
   "oidc": {
-    "hash": "sha256-Z4lZkOx5dG0vj2yXnJu4tgL3G5Kwsw1pqHlgoXsngks=",
-    "url": "https://github.com/H2CK/oidc/releases/download/0.9.1/oidc-0.9.1.tar.gz",
-    "version": "0.9.1",
+    "hash": "sha256-hGIrP2JrWVbJ6MFsn1fTZWrlQXSSjPQSF9vAXzGuzr4=",
+    "url": "https://github.com/H2CK/oidc/releases/download/0.9.2/oidc-0.9.2.tar.gz",
+    "version": "0.9.2",
     "description": "Nextcloud as OpenID Connect Identity Provider\n\nWith this app you can use Nextcloud as OpenID Connect Identity Provider. If other services\nare configured correctly, you are able to access those services with your Nextcloud login.\n\nFull documentation can be found at:\n\n- [User Documentation](https://github.com/H2CK/oidc/wiki#user-documentation)\n- [Developer Documentation](https://github.com/H2CK/oidc/wiki#developer-documentation)",
     "homepage": "https://github.com/H2CK/oidc",
     "licenses": [
@@ -2240,9 +2240,9 @@
     ]
   },
   "sharereview": {
-    "hash": "sha256-FPEAhvOIKGXayiGJ+11OwRFWrPyMCGFg9JLu1BIDRMs=",
-    "url": "https://github.com/Rello/sharereview/releases/download/1.0.1/sharereview-1.0.1.tar.gz",
-    "version": "1.0.1",
+    "hash": "sha256-YRaz04jYm1pM2NLQB+EzQiHfR9ql7BqoMMrxNUXkKgc=",
+    "url": "https://github.com/Rello/sharereview/releases/download/1.0.2/sharereview-1.0.2.tar.gz",
+    "version": "1.0.2",
     "description": "- Review and audit all shares within the Nextcloud instance\n- Remove shares\n- Confirm review\n- Audit compliance\n- Show only new shares since last review\n- Assign review to user groups (e.g. audit or risk mgmt)\n\n### Note:\nThe app must be restricted to at least one specific user group in the app store.\nThis prevents accidental exposure of the shared content to all users.",
     "homepage": "https://github.com/Rello/sharereview",
     "licenses": [
@@ -2473,7 +2473,7 @@
     "hash": "sha256-+fqRRbz4o6mxYbRNcX0aLOClbSYCeuaOLhZJNQNtHtA=",
     "url": "https://github.com/nextcloud-releases/tables/releases/download/v0.7.4/tables-v0.7.4.tar.gz",
     "version": "0.7.4",
-    "description": "Manage data the way you need it.\n\nWith this app you are able to create your own tables with individual columns. You can start with a template or from scratch and add your wanted columns.\nYou can choose from the following column types:\n- Text line or rich text\n- Link to urls or other nextcloud resources\n- Numbers\n- Progress bar\n- Stars rating\n- Yes/No tick\n- Date and/or time\n- (Multi) selection\n\nShare your tables and views with users and groups within your cloud.\n\nHave a good time and manage whatever you want.",
+    "description": "Manage data the way you need it.\r\n\r\nWith this app you are able to create your own tables with individual columns. You can start with a template or from scratch and add your wanted columns.\r\nYou can choose from the following column types:\r\n- Text line or rich text\r\n- Link to urls or other nextcloud resources\r\n- Numbers\r\n- Progress bar\r\n- Stars rating\r\n- Yes/No tick\r\n- Date and/or time\r\n- (Multi) selection\r\n\r\nShare your tables and views with users and groups within your cloud.\r\n\r\nHave a good time and manage whatever you want.",
     "homepage": "https://github.com/nextcloud/tables",
     "licenses": [
       "agpl"
@@ -2620,9 +2620,9 @@
     ]
   },
   "twofactor_nextcloud_notification": {
-    "hash": "sha256-4fXWgDeiup5/Gm9hdZDj/u07rp/Nzwly53aLUT/d0IU=",
-    "url": "https://github.com/nextcloud-releases/twofactor_nextcloud_notification/releases/download/v3.9.0/twofactor_nextcloud_notification-v3.9.0.tar.gz",
-    "version": "3.9.0",
+    "hash": "sha256-P1yomRZJV0p01qXlSbiA9TvV7OuIUNVw/fHNWAdkfTg=",
+    "url": "https://github.com/nextcloud-releases/twofactor_nextcloud_notification/releases/download/v3.10.0/twofactor_nextcloud_notification-v3.10.0.tar.gz",
+    "version": "3.10.0",
     "description": "Allows using any of your logged in devices as second factor",
     "homepage": "https://github.com/nextcloud/twofactor_nextcloud_notification",
     "licenses": [
