@@ -220,9 +220,9 @@
     ]
   },
   "cas": {
-    "hash": "sha256-wJmMEdHkUTtQ6lU2XsgdcS6yP5G1OAHMx58EJ5wrJgM=",
-    "url": "https://github.com/mziech/nextcloud-cas/releases/download/v0.2.12/cas.tar.gz",
-    "version": "0.2.12",
+    "hash": "sha256-xLKK1aoCYSJAjFLF70gpyj/sMJ+XTVGHfLoUFUDAt9k=",
+    "url": "https://github.com/mziech/nextcloud-cas/releases/download/v0.2.13/cas.tar.gz",
+    "version": "0.2.13",
     "description": "This is an very basic and experimental implementation of the CAS server protocol for Nextcloud.\nIt is not another user backend for Nextcloud, instead it allows you to authenticate 3rd-party or\ncustom web applications against the Nextcloud user database.\n        \nIf you are creating a custom application and you want to integrate it seemlessly with Nextcloud login,\nyou can either follow the [CAS protocol specification](https://apereo.github.io/cas/4.2.x/protocol/CAS-Protocol-Specification.html)\nor better use one of the many available CAS client libraries.",
     "homepage": "https://github.com/mziech/nextcloud-cas",
     "licenses": [
@@ -300,10 +300,10 @@
     ]
   },
   "collectives": {
-    "hash": "sha256-aePEPxohEMRDQd23qEsfaLM0Htoi8hboyEOdwev8yX8=",
-    "url": "https://github.com/nextcloud/collectives/releases/download/v2.12.0/collectives-2.12.0.tar.gz",
-    "version": "2.12.0",
-    "description": "Collectives is a Nextcloud App for activist and community projects to organize together.\r\nCome and gather in collectives to build shared knowledge.\r\n\r\n* 👥 **Collective and non-hierarchical workflow by heart**: Collectives are\r\n  tied to a [Nextcloud Team](https://github.com/nextcloud/circles) and\r\n  owned by the collective.\r\n* 📝 **Collaborative page editing** like known from Etherpad thanks to the\r\n  [Text app](https://github.com/nextcloud/text).\r\n* 🔤 **Well-known [Markdown](https://en.wikipedia.org/wiki/Markdown) syntax**\r\n  for page formatting.\r\n\r\n## Installation\r\n\r\nIn your Nextcloud instance, simply navigate to **»Apps«**, find the\r\n**»Teams«** and **»Collectives«** apps and enable them.",
+    "hash": "sha256-oLo1l7EBcOF3QTpRfvDpwmFGkCYM1De/hC0RSe8G3sk=",
+    "url": "https://github.com/nextcloud/collectives/releases/download/v2.13.0/collectives-2.13.0.tar.gz",
+    "version": "2.13.0",
+    "description": "Collectives is a Nextcloud App for activist and community projects to organize together.\nCome and gather in collectives to build shared knowledge.\n\n* 👥 **Collective and non-hierarchical workflow by heart**: Collectives are\n  tied to a [Nextcloud Team](https://github.com/nextcloud/circles) and\n  owned by the collective.\n* 📝 **Collaborative page editing** like known from Etherpad thanks to the\n  [Text app](https://github.com/nextcloud/text).\n* 🔤 **Well-known [Markdown](https://en.wikipedia.org/wiki/Markdown) syntax**\n  for page formatting.\n\n## Installation\n\nIn your Nextcloud instance, simply navigate to **»Apps«**, find the\n**»Teams«** and **»Collectives«** apps and enable them.",
     "homepage": "https://github.com/nextcloud/collectives",
     "licenses": [
       "agpl"
@@ -340,8 +340,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -1063,7 +1063,7 @@
     "hash": "sha256-A1rGJJLaWhiNf9l0YUh6WOB+fKRBRDckE890hq5OB4k=",
     "url": "https://github.com/nextcloud-releases/impersonate/releases/download/v1.14.0/impersonate-v1.14.0.tar.gz",
     "version": "1.14.0",
-    "description": "By installing the impersonate app of your Nextcloud you enable administrators to impersonate other users on the Nextcloud server. This is especially useful for debugging issues reported by users.\r\n\r\nTo impersonate a user an administrator has to simply follow the following four steps:\r\n\r\n1. Login as administrator to Nextcloud.\r\n2. Open users administration interface.\r\n3. Select the impersonate button on the affected user.\r\n4. Confirm the impersonation.\r\n\r\nThe administrator is then logged-in as the user, to switch back to the regular user account they simply have to press the logout button.\r\n\r\n**Note:**\r\n\r\n- This app is not compatible with instances that have encryption enabled.\r\n- While impersonate actions are logged note that actions performed impersonated will be logged as the impersonated user.\r\n- Impersonating a user is only possible after their first login.\r\n- You can limit which users/groups can use impersonation in Administration settings > Additional settings.",
+    "description": "By installing the impersonate app of your Nextcloud you enable administrators to impersonate other users on the Nextcloud server. This is especially useful for debugging issues reported by users.\n\nTo impersonate a user an administrator has to simply follow the following four steps:\n\n1. Login as administrator to Nextcloud.\n2. Open users administration interface.\n3. Select the impersonate button on the affected user.\n4. Confirm the impersonation.\n\nThe administrator is then logged-in as the user, to switch back to the regular user account they simply have to press the logout button.\n\n**Note:**\n\n- This app is not compatible with instances that have encryption enabled.\n- While impersonate actions are logged note that actions performed impersonated will be logged as the impersonated user.\n- Impersonating a user is only possible after their first login.\n- You can limit which users/groups can use impersonation in Administration settings > Additional settings.",
     "homepage": "https://github.com/nextcloud/impersonate",
     "licenses": [
       "agpl"
@@ -1100,9 +1100,9 @@
     ]
   },
   "integration_deepl": {
-    "hash": "sha256-fjoPrC5DD7oKEWYklBZ9VqFQ1fZaJMv+0yUh0FBoJFU=",
-    "url": "https://github.com/nextcloud-releases/integration_deepl/releases/download/v1.1.3/integration_deepl-v1.1.3.tar.gz",
-    "version": "1.1.3",
+    "hash": "sha256-Ynbzy0WWaZDxHLojp3CQTzxg0ANov7Yw+cQd4uv5v1w=",
+    "url": "https://github.com/nextcloud-releases/integration_deepl/releases/download/v1.2.0/integration_deepl-v1.2.0.tar.gz",
+    "version": "1.2.0",
     "description": "Deepl integration providing an translations through deepl.com with Nextcloud\n\n## Ethical AI Rating\n### Rating: 🔴\n\nNegative:\n* the software for training and inferencing of this model is proprietary, limiting running it locally or training by yourself\n* the trained model is not freely available, so the model can not be ran on-premises\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/integration_deepl",
     "licenses": [
@@ -1420,9 +1420,9 @@
     ]
   },
   "integration_youtube": {
-    "hash": "sha256-SJ3HsEfbTW3tRFr4WhZeqqUg8kFVwHosEPXPwt3yUrE=",
-    "url": "https://github.com/nextcloud-releases/integration_youtube/releases/download/v0.2.1/integration_youtube-v0.2.1.tar.gz",
-    "version": "0.2.1",
+    "hash": "sha256-tIy65PM6LvhpRNEVyG0dUoGZeiFqUbcyYrbILcOTlNo=",
+    "url": "https://github.com/nextcloud-releases/integration_youtube/releases/download/v0.3.0/integration_youtube-v0.3.0.tar.gz",
+    "version": "0.3.0",
     "description": "Youtube integration providing an inline video player for link previews, a smart picker and search provider for searching Youtube videos, channels, and playlists.\n\nConfiguration:\n\nSet an API key in the Administration settings -> Connected Accounts -> Youtube Integration section to allow the search and smart picker\n\nNote: The search and smart picker functionality is disabled by default. Users can opt-in to enable them from their respective settings.",
     "homepage": "https://github.com/nextcloud/integration_youtube",
     "licenses": [
@@ -1610,9 +1610,9 @@
     ]
   },
   "memegen": {
-    "hash": "sha256-jjutdLlW4RA3IOdYQ/gw0fdyzIVIsBuIHn0iFtbOmos=",
-    "url": "https://github.com/nextcloud-releases/memegen/releases/download/v1.0.8/memegen-v1.0.8.tar.gz",
-    "version": "1.0.8",
+    "hash": "sha256-AuRZcyJcjlaGt/83+0BHqyN7tZwIvxQDUF3JqzSesk8=",
+    "url": "https://github.com/nextcloud-releases/memegen/releases/download/v1.1.0/memegen-v1.1.0.tar.gz",
+    "version": "1.1.0",
     "description": "A tool for picking a meme template and filling in custom text captions using the Smart Picker functionality.",
     "homepage": "https://github.com/nextcloud/memegen",
     "licenses": [
@@ -2578,9 +2578,9 @@
     ]
   },
   "text_templates": {
-    "hash": "sha256-edexdA06qYHMfvheYaTOek5pDQiMOIkk41kv7fBNZtg=",
-    "url": "https://github.com/nextcloud-releases/text_templates/releases/download/v1.0.5/text_templates-v1.0.5.tar.gz",
-    "version": "1.0.5",
+    "hash": "sha256-47S+aY6jFw6bZQSDRNUPOPlDDE9lq2qaj4kudExOKlo=",
+    "url": "https://github.com/nextcloud-releases/text_templates/releases/download/v1.1.0/text_templates-v1.1.0.tar.gz",
+    "version": "1.1.0",
     "description": "This app adds a smart picker provider to quickly access text templates when using Text, Collectives, Talk, Mail\nor any place where the smart picker is integrated.",
     "homepage": "https://github.com/julien-nc/text_templates",
     "licenses": [
@@ -2588,9 +2588,9 @@
     ]
   },
   "theming_customcss": {
-    "hash": "sha256-RxpRRxdL78XADTpi2h2GOgJHksouiI8INtGyy7oMr/E=",
-    "url": "https://github.com/nextcloud/theming_customcss/releases/download/v1.16.0/theming_customcss.tar.gz",
-    "version": "1.16.0",
+    "hash": "sha256-iUns2lI7SOFMs7aGexIQ4ZGqgRK7S4V19I+5aZFihOo=",
+    "url": "https://github.com/juliushaertl/theming_customcss/releases/download/v1.17.0/theming_customcss.tar.gz",
+    "version": "1.17.0",
     "description": "Adjust the Nextcloud theme with custom CSS",
     "homepage": "",
     "licenses": [
@@ -2778,9 +2778,9 @@
     ]
   },
   "user_oidc": {
-    "hash": "sha256-Jp3Y6c94d+87gWCl51goI8ZbbNX45RRMaf+njtcZVTs=",
-    "url": "https://github.com/nextcloud-releases/user_oidc/releases/download/v6.0.0/user_oidc-v6.0.0.tar.gz",
-    "version": "6.0.0",
+    "hash": "sha256-8e4xQjOWSVAps6dg4jvN3MGVSOhaOgjPHPpTOgXKFJY=",
+    "url": "https://github.com/nextcloud-releases/user_oidc/releases/download/v6.0.1/user_oidc-v6.0.1.tar.gz",
+    "version": "6.0.1",
     "description": "Allows flexible configuration of an OIDC server as Nextcloud login user backend.",
     "homepage": "https://github.com/nextcloud/user_oidc",
     "licenses": [
@@ -2878,9 +2878,9 @@
     ]
   },
   "welcome": {
-    "hash": "sha256-m1Vk1qqZtqQOrhfgVgcj011PM17+sTKLwyGPJUYfsBU=",
-    "url": "https://github.com/nextcloud-releases/welcome/releases/download/v1.1.0/welcome-v1.1.0.tar.gz",
-    "version": "1.1.0",
+    "hash": "sha256-BiSlILY7l2lb1WgdD1xN3djsj7ewB44BAmVXMMguNZk=",
+    "url": "https://github.com/nextcloud-releases/welcome/releases/download/v1.2.0/welcome-v1.2.0.tar.gz",
+    "version": "1.2.0",
     "description": "ℹ A Markdown rendering Dashboard widget to welcome all users.\n\n⚙ Configure via `Settings > Administration > Theming > Welcome widget`\n\n📄 Pick a Markdown document to be rendered in the widget\n\n💡 If no document is chosen, the widget won't be shown\n\n📝 Edit the Markdown document to update the widget in real-time\n\n🖼 Images are also supported\n\n💬 Configure a contact person to directly start a chat with (requires [Nextcloud Talk](https://apps.nextcloud.com/apps/spreed) to be installed)",
     "homepage": "https://github.com/nextcloud/welcome",
     "licenses": [
