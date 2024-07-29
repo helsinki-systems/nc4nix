@@ -60,9 +60,9 @@
     ]
   },
   "appointments": {
-    "hash": "sha256-OffEee9ks4UFAPtrT4MfNpHaat+wj3EOOAcKeVNaoqI=",
-    "url": "https://github.com/SergeyMosin/Appointments/raw/v2.1.6/build/artifacts/appstore/appointments.tar.gz",
-    "version": "2.1.6",
+    "hash": "sha256-8Z0ivKMxSYGodqukxSx971QXWDD7W07CAEDHjWC9YUU=",
+    "url": "https://github.com/SergeyMosin/Appointments/raw/v2.1.7/build/artifacts/appstore/appointments.tar.gz",
+    "version": "2.1.7",
     "description": "Book appointments into your calendar via secure online form. Attendees can confirm or cancel their appointments via an email link.",
     "homepage": "https://www.srgdev.com/lab/nextcloud-appointments/",
     "licenses": [
@@ -1410,9 +1410,9 @@
     ]
   },
   "neon_web": {
-    "hash": "sha256-9WHDGYjDRRx+xWm0hCuXKckqPlqNtzt8FHBM33hegoU=",
-    "url": "https://github.com/provokateurin/neon_web/releases/download/v0.0.4/neon_web.tar.gz",
-    "version": "0.0.4",
+    "hash": "sha256-2TZbqqmcpKKHRYUPXRe+iiBddqeteenCthrjizmFxWM=",
+    "url": "https://github.com/provokateurin/neon_web/releases/download/v0.0.5/neon_web.tar.gz",
+    "version": "0.0.5",
     "description": "A port of https://github.com/nextcloud/neon to a classic Nextcloud server app.",
     "homepage": "",
     "licenses": [
@@ -2235,6 +2235,16 @@
     "version": "2.0.1",
     "description": "This is an app for Nextcloud that offers user management and authentication with\narbitrary SQL queries.\n\nYou can authenticate, create, delete users, change their password or display\nname, basically do (almost) everything that Nextcloud can do with users.\n\nIn contrast to the app *SQL user backend*, you write the SQL queries yourself.\nYou are not limited by assumptions that app authors made about how your db is\nstructured.\n\nThe app uses prepared statements and is written to be secure by default to\nprevent SQL injections. It understands the most popular standards for password\nhash formats: MD5-CRYPT, SHA256-CRYPT, SHA512-CRYPT, BCrypt, Argon2i and\nArgon2id. Because the various formats are recognized on-the-fly your db can can\nhave differing hash string formats at the same time, which eases migration to\nnewer formats.\n\nThis app primarily supports PostgreSQL and MariaDB/MySQL but the underlying PHP\nmechanism also supports Firebird, MS SQL, Oracle DB, ODBC, DB2, SQLite, Informix\nand IBM databases. By using an appropriate DSN you should be able to connect to\nthese databases. This has not been tested, though.",
     "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "user_external": {
+    "hash": "sha256-Wn++1do8vjNfdTAntmIXnJLBf7N7q8h16eKF2KE9R/M=",
+    "url": "https://github.com/nextcloud-releases/user_external/releases/download/v3.4.0/user_external-v3.4.0.tar.gz",
+    "version": "3.4.0",
+    "description": "Use external user authentication methods to give users acces to your Nextcloud instance:\n\n* IMAP\n* SMB\n* FTP\n* WebDAV\n* HTTP BasicAuth\n* SSH\n* XMPP\n\nRead the [documentation](https://github.com/nextcloud/user_external#readme) to learn how to configure it!",
+    "homepage": "https://github.com/nextcloud/user_external/",
     "licenses": [
       "agpl"
     ]
