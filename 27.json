@@ -50,9 +50,9 @@
     ]
   },
   "app_api": {
-    "hash": "sha256-2UpH0KIkH4aCVtYPCsQsNwNaBvsJoFOq7qpNhgICN5U=",
-    "url": "https://github.com/cloud-py-api/app_api/releases/download/v3.0.0/app_api-v3.0.0.tar.gz",
-    "version": "3.0.0",
+    "hash": "sha256-pPwO5/gai3m0UdkiEPt9pDPp33wxDHQkwvII/dXNrAA=",
+    "url": "https://github.com/cloud-py-api/app_api/releases/download/v3.0.1/app_api-v3.0.1.tar.gz",
+    "version": "3.0.1",
     "description": "### Boost your Nextcloud with AppAPI and its specially designed applications.\n\n\nThe AppAPI is a project within the Nextcloud ecosystem designed to streamline and enhance the process of\napplication development, deployment, and management.\n\nIt introduces a new methodology that allows developers to create\napplications using a variety of programming languages, not limited to PHP, which was traditionally used in Nextcloud development.\n\n\n### List of applications that require AppAPI:\n\n- [talk_bot_ai_example](https://github.com/cloud-py-api/talk_bot_ai_example)\n- [upscaler_example](https://github.com/cloud-py-api/upscaler_example)\n- [image_to_text_example](https://github.com/cloud-py-api/file_to_text_example)\n- [ai_image_generator_bot](https://github.com/cloud-py-api/ai_image_generator_bot)\n- [SummarAI](https://github.com/nextcloud/sumupbot)\n\n_If you wish to develop an application, we will gladly help and assist you._\n\n### Support\n\nWe appreciate any support for this project:\n\n- ⭐ Star our work on GitHub\n- ❗ Create an Issue or feature request\n- 💁 Resolve an Issue and create a Pull Request\n- 🧑‍💻 Develop your own application using AppAPI\n\nWe are genuinely excited about the future of the AppAPI project and its potential to transform\nthe way applications are developed and experienced within Nextcloud.\n\nAs we embark on this journey, we warmly invite you - developers, thinkers, creators, and visionaries -\nto join us in shaping a more versatile, stable, and secure app landscape.\n\n*Your insights, suggestions, and contributions are invaluable to us.*",
     "homepage": "https://github.com/cloud-py-api/app_api",
     "licenses": [
@@ -160,9 +160,9 @@
     ]
   },
   "calendar": {
-    "hash": "sha256-qToUgtGGwr8h5me95TxxCk3o/rsYD0yasqV4Kz/pbCA=",
-    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v4.7.14/calendar-v4.7.14.tar.gz",
-    "version": "4.7.14",
+    "hash": "sha256-AcPONkfFTDRd7CQC5d0C7Fr3pKRsQXl8+GhaNlqpgiY=",
+    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v4.7.15/calendar-v4.7.15.tar.gz",
+    "version": "4.7.15",
     "description": "The Calendar app is a user interface for Nextcloud's CalDAV server. Easily sync events from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Currently Contacts - more to come.\n* 🌐 **WebCal Support!** Want to see your favorite team’s matchdays in your calendar? No problem!\n* 🙋 **Attendees!** Invite people to your events\n* ⌚️ **Free/Busy!** See when your attendees are available to meet\n* ⏰ **Reminders!** Get alarms for events inside your browser and via email\n* 🔍 Search! Find your events at ease\n* ☑️ Tasks! See tasks with a due date directly in the calendar\n* 🙈 **We’re not reinventing the wheel!** Based on the great [c-dav library](https://github.com/nextcloud/cdav-library), [ical.js](https://github.com/mozilla-comm/ical.js) and [fullcalendar](https://github.com/fullcalendar/fullcalendar) libraries.",
     "homepage": "https://github.com/nextcloud/calendar/",
     "licenses": [
@@ -1523,7 +1523,7 @@
     "hash": "sha256-6OF0syz4WT2HHPFRh7ld1TEWHTEi4asxMQoqwf/pgeE=",
     "url": "https://github.com/nextcloud-releases/limit_login_to_ip/releases/download/v4.1.0/limit_login_to_ip-v4.1.0.tar.gz",
     "version": "4.1.0",
-    "description": "This app allows administrators to restrict login to their\r\nNextcloud server to specific IP ranges. Note that existing sessions will be kept\r\nopen.\r\n\r\nThe allowed IP ranges can be administrated using the OCC command line interface\r\nor graphically using the admin settings. If you plan to use the OCC tool, the\r\nfollowing commands would be applicable.\r\n\r\nTo allow `127.0.0.0/24`:\r\n\r\n- `occ config:app:set limit_login_to_ip whitelisted.ranges --value 127.0.0.0/24`\r\n\r\nTo allow `127.0.0.0/24` and also `192.168.0.0/24`:\r\n\r\n- `occ config:app:set limit_login_to_ip whitelisted.ranges --value 127.0.0.0/24,192.168.0.0/24`",
+    "description": "This app allows administrators to restrict login to their\nNextcloud server to specific IP ranges. Note that existing sessions will be kept\nopen.\n\nThe allowed IP ranges can be administrated using the OCC command line interface\nor graphically using the admin settings. If you plan to use the OCC tool, the\nfollowing commands would be applicable.\n\nTo allow `127.0.0.0/24`:\n\n- `occ config:app:set limit_login_to_ip whitelisted.ranges --value 127.0.0.0/24`\n\nTo allow `127.0.0.0/24` and also `192.168.0.0/24`:\n\n- `occ config:app:set limit_login_to_ip whitelisted.ranges --value 127.0.0.0/24,192.168.0.0/24`",
     "homepage": "https://github.com/nextcloud/limit_login_to_ip",
     "licenses": [
       "agpl"
@@ -1990,9 +1990,9 @@
     ]
   },
   "polls": {
-    "hash": "sha256-Lya2mkgOIG68owLws561/tdR3WWrj0RI5ZP5FTX7FdI=",
-    "url": "https://github.com/nextcloud/polls/releases/download/v7.1.4/polls.tar.gz",
-    "version": "7.1.4",
+    "hash": "sha256-6vYcZvI0F+imCMRO1XwBcyLmNJR+1miOkR2mpPpYAJE=",
+    "url": "https://github.com/nextcloud/polls/releases/download/v7.2.0/polls.tar.gz",
+    "version": "7.2.0",
     "description": "A polls app, similar to Doodle/Dudle with the possibility to restrict access (members, certain groups/users, hidden and public).",
     "homepage": "https://github.com/nextcloud/polls",
     "licenses": [
@@ -2030,8 +2030,8 @@
     ]
   },
   "pride_flags": {
-    "hash": "sha256-upXvjdWYvUXveYuxBOoclp8vswAS2ld0XrAQoP7xP0I=",
-    "url": "https://git.finally.coffee/finallycoffee/nextcloud-pride-flags/releases/download/1.0.0-rc.0/pride_flags-1.0.0-rc.0.tar.gz",
+    "hash": "sha256-8CeYYPi40vqW4wUJZWDW9hPF1glrADTcCgE2Wv+JadQ=",
+    "url": "https://git.finally.coffee/finallycoffee/nextcloud-pride-flags/releases/download/1.0.0/pride_flags-1.0.0.tar.gz",
     "version": "1.0.0",
     "description": "Allows every user to select their wanted pride flags as backgrounds for primary action buttons and folder icons in the files app.\n\nCurrently supported \"targets\":\n- primary action buttons\n- folder icons in the files app\n\nCurrently supported pride flags:\n- Original 6 color rainbow pride flag\n- Trans pride flag\n- Pansexual pride flag\n- Non-binary pride flag\n- Bisexual pride flag\n- Asexual pride flag\n- Lesbian pride flag\n\nmore flags to follow soon!",
     "homepage": "",

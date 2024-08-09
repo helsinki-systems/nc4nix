@@ -50,9 +50,9 @@
     ]
   },
   "app_api": {
-    "hash": "sha256-2UpH0KIkH4aCVtYPCsQsNwNaBvsJoFOq7qpNhgICN5U=",
-    "url": "https://github.com/cloud-py-api/app_api/releases/download/v3.0.0/app_api-v3.0.0.tar.gz",
-    "version": "3.0.0",
+    "hash": "sha256-pPwO5/gai3m0UdkiEPt9pDPp33wxDHQkwvII/dXNrAA=",
+    "url": "https://github.com/cloud-py-api/app_api/releases/download/v3.0.1/app_api-v3.0.1.tar.gz",
+    "version": "3.0.1",
     "description": "### Boost your Nextcloud with AppAPI and its specially designed applications.\n\n\nThe AppAPI is a project within the Nextcloud ecosystem designed to streamline and enhance the process of\napplication development, deployment, and management.\n\nIt introduces a new methodology that allows developers to create\napplications using a variety of programming languages, not limited to PHP, which was traditionally used in Nextcloud development.\n\n\n### List of applications that require AppAPI:\n\n- [talk_bot_ai_example](https://github.com/cloud-py-api/talk_bot_ai_example)\n- [upscaler_example](https://github.com/cloud-py-api/upscaler_example)\n- [image_to_text_example](https://github.com/cloud-py-api/file_to_text_example)\n- [ai_image_generator_bot](https://github.com/cloud-py-api/ai_image_generator_bot)\n- [SummarAI](https://github.com/nextcloud/sumupbot)\n\n_If you wish to develop an application, we will gladly help and assist you._\n\n### Support\n\nWe appreciate any support for this project:\n\n- ⭐ Star our work on GitHub\n- ❗ Create an Issue or feature request\n- 💁 Resolve an Issue and create a Pull Request\n- 🧑‍💻 Develop your own application using AppAPI\n\nWe are genuinely excited about the future of the AppAPI project and its potential to transform\nthe way applications are developed and experienced within Nextcloud.\n\nAs we embark on this journey, we warmly invite you - developers, thinkers, creators, and visionaries -\nto join us in shaping a more versatile, stable, and secure app landscape.\n\n*Your insights, suggestions, and contributions are invaluable to us.*",
     "homepage": "https://github.com/cloud-py-api/app_api",
     "licenses": [
@@ -110,9 +110,9 @@
     ]
   },
   "bookmarks": {
-    "hash": "sha256-j+phBOocJCC2MFIIUG6PLORhX58Q/I2blceFr2QP+fY=",
-    "url": "https://github.com/nextcloud/bookmarks/releases/download/v14.2.3/bookmarks-14.2.3.tar.gz",
-    "version": "14.2.3",
+    "hash": "sha256-jByO7cJ9oQ4lQopzXCii11wqhg9tIlm/AFFViH+P3O0=",
+    "url": "https://github.com/nextcloud/bookmarks/releases/download/v14.2.4/bookmarks-14.2.4.tar.gz",
+    "version": "14.2.4",
     "description": "- 📂 Sort bookmarks into folders\n- 🏷 Add tags and personal notes\n- ☠ Find broken links and duplicates\n- 📲 Synchronize with all your browsers and devices\n- 📔 Store archived versions of your links in case they are depublished\n- 🔍 Full-text search on site contents\n- 👪 Share bookmarks with other users and via public links\n- ⚛ Generate RSS feeds of your collections\n- 📈 Stats on how often you access which links\n- 🔒 Automatic backups of your bookmarks collection\n- 💼 Built-in Dashboard widgets for frequent and recent links\n\nRequirements:\n - PHP extensions:\n   - intl: *\n   - mbstring: *\n - when using MySQL, use at least v8.0",
     "homepage": "https://github.com/nextcloud/bookmarks",
     "licenses": [
@@ -125,6 +125,16 @@
     "version": "29.0.0",
     "description": "# Breeze Dark\nThis is a breeze dark theme for Nextcloud, based on the Breeze Dark theme made by the KDE Project.\n\n## Usage\n\nAfter you install the theme, you need to enable it. There are two options for this, a global and a personal one.\n\n### Global\n\nWith the global options you can enforce the use of the theme for all users as well as unauthenticated visits. Please note that when the theme is enforced for all users it isn't possible for them to disable the theme or choose a different theme.\n\nThere is also an option to let the theme be enabled / disabled based on the theming preferences reported by browser. When the theme is deactivated using this method, Nextcloud will revert to using the default light theme. This setting only sets the default for when the theme is globally enforced and can be overridden by the user.\n\nYou can also choose whether the login page should be themed. Though this only has an effect if the theme is enforced globally, or during the login phase of a user that has the theme enabled.\n\nYou can find the global options here:\n\n```\nSettings > Administration > Theming > Breeze Dark\n```\n\n### Personal\n\nThe personal option allows each user to enable / disable the theme unless it's being enforced by the global options. They can though choose whether the theme should follow the theming choice reported by the browser. This option is also available when the theme is being enforced globally. If the user hasn't set a preference they will follow the global default. You can find the personal option here:\n\n```\nSettings > Personal > Appearance and accessibility > Breeze Dark\n```\n\n### Custom styling\n\nUnder the Theming section in the admin settings you can add your own custom styling to the theme. Only standard CSS can be used. This custom styling will be applied whenever the theme is enabled and only affects the Breeze Dark theme.",
     "homepage": "https://github.com/mwalbeck/nextcloud-breeze-dark",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "brewmemo": {
+    "hash": "sha256-N9ba/tiaPnz9tTJdkXnp7TgwHqpiWEtbkNfyCyNAgzQ=",
+    "url": "https://gitlab.com/brewcode-de/brewmemo/nextcloud/-/jobs/7533330711/artifacts/raw/brewmemo.tar.gz",
+    "version": "0.1.1",
+    "description": "# BrewMemo\nIf you have ever found yourself wishing for a powerful note-taking app with cross-platform native clients which respects your privacy and allows you to keep your data to yourself, BrewMemo is your prime choice!",
+    "homepage": "https://brewmemo.de",
     "licenses": [
       "agpl"
     ]
@@ -310,8 +320,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -1030,9 +1040,9 @@
     ]
   },
   "integration_google": {
-    "hash": "sha256-HbNb2p4GWWEWFBTAyUVEhQFcuab29MhSWsZFVYPXBNg=",
-    "url": "https://github.com/nextcloud-releases/integration_google/releases/download/v3.0.0/integration_google-v3.0.0.tar.gz",
-    "version": "3.0.0",
+    "hash": "sha256-/1m8If9z5WCXniqFLNu87ZhEE9ALJJTZQ5W30/Y2eVQ=",
+    "url": "https://github.com/nextcloud-releases/integration_google/releases/download/v3.0.1/integration_google-v3.0.1.tar.gz",
+    "version": "3.0.1",
     "description": "Google integration allows you to automatically migrate your Google calendars, contacts, photos and files into Nextcloud.",
     "homepage": "https://github.com/nextcloud/integration_google",
     "licenses": [
@@ -1350,10 +1360,10 @@
     ]
   },
   "limit_login_to_ip": {
-    "hash": "sha256-6OF0syz4WT2HHPFRh7ld1TEWHTEi4asxMQoqwf/pgeE=",
-    "url": "https://github.com/nextcloud-releases/limit_login_to_ip/releases/download/v4.1.0/limit_login_to_ip-v4.1.0.tar.gz",
-    "version": "4.1.0",
-    "description": "This app allows administrators to restrict login to their\r\nNextcloud server to specific IP ranges. Note that existing sessions will be kept\r\nopen.\r\n\r\nThe allowed IP ranges can be administrated using the OCC command line interface\r\nor graphically using the admin settings. If you plan to use the OCC tool, the\r\nfollowing commands would be applicable.\r\n\r\nTo allow `127.0.0.0/24`:\r\n\r\n- `occ config:app:set limit_login_to_ip whitelisted.ranges --value 127.0.0.0/24`\r\n\r\nTo allow `127.0.0.0/24` and also `192.168.0.0/24`:\r\n\r\n- `occ config:app:set limit_login_to_ip whitelisted.ranges --value 127.0.0.0/24,192.168.0.0/24`",
+    "hash": "sha256-9J/hYbmG5Q3chWmdz59un9Z8vizPBWtCrhgwPYygDuk=",
+    "url": "https://github.com/nextcloud-releases/limit_login_to_ip/releases/download/v4.1.1/limit_login_to_ip-v4.1.1.tar.gz",
+    "version": "4.1.1",
+    "description": "This app allows administrators to restrict login to their\nNextcloud server to specific IP ranges. Note that existing sessions will be kept\nopen.\n\nThe allowed IP ranges can be administrated using the OCC command line interface\nor graphically using the admin settings. If you plan to use the OCC tool, the\nfollowing commands would be applicable.\n\nTo allow `127.0.0.0/24`:\n\n- `occ config:app:set limit_login_to_ip whitelisted.ranges --value 127.0.0.0/24`\n\nTo allow `127.0.0.0/24` and also `192.168.0.0/24`:\n\n- `occ config:app:set limit_login_to_ip whitelisted.ranges --value 127.0.0.0/24,192.168.0.0/24`",
     "homepage": "https://github.com/nextcloud/limit_login_to_ip",
     "licenses": [
       "agpl"
@@ -2185,6 +2195,16 @@
     "version": "1.0.2",
     "description": "This app adds a Smart Picker for interfacing with text-to-image providers like the on-premises stable diffusion integration.\n\t\n\tThe Smart Picker enables you to generate an image or multiple images based on a text prompt.\n\t\n\tIf multiple images are requested and/or the generation will take a long time. The user can request to be notified\n\tonce the generated image(s) are ready.",
     "homepage": "https://github.com/nextcloud/text2image_helper",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "text2image_stablediffusion": {
+    "hash": "sha256-d+lm8L174x6oSaUeUTUhFw1sgBktcgOT1PS5o2vCSCs=",
+    "url": "https://github.com/nextcloud/text2image_stablediffusion/releases/download/v1.1.0/text2image_stablediffusion.tar.gz",
+    "version": "1.1.0",
+    "description": "Image generation provider using Stable Diffusion by Stability AI\n\nThe models run completely on your machine. No private data leaves your servers.\n\nAfter installing this app you will need to run\n\n    occ text2image_stablediffusion:download-models\n\n## Ethical AI Rating\n### Rating: 🟢\n\nPositive:\n* the software for training and inference of this model is open source\n* the trained model is freely available, and thus can be ran on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
+    "homepage": "",
     "licenses": [
       "agpl"
     ]
