@@ -60,9 +60,9 @@
     ]
   },
   "appointments": {
-    "hash": "sha256-jEeW2/CecAkWBH9D8T1n1KpLfqKS1qe1pAAz/59jdBU=",
-    "url": "https://github.com/SergeyMosin/Appointments/raw/v2.1.8/build/artifacts/appstore/appointments.tar.gz",
-    "version": "2.1.8",
+    "hash": "sha256-Yeq09QDoXDU+0xTzpfKNWRshI7CevVk7dj/upg7Hb8Y=",
+    "url": "https://github.com/SergeyMosin/Appointments/raw/v2.1.9/build/artifacts/appstore/appointments.tar.gz",
+    "version": "2.1.9",
     "description": "Book appointments into your calendar via secure online form. Attendees can confirm or cancel their appointments via an email link.",
     "homepage": "https://www.srgdev.com/lab/nextcloud-appointments/",
     "licenses": [
@@ -160,9 +160,9 @@
     ]
   },
   "cadviewer": {
-    "hash": "sha256-ald7E7X1JDVYv87y2ohkFUYTIHeKJYqWm1g6pXmyj7E=",
-    "url": "https://github.com/CADViewer/NextCloud/releases/download/cv_nextcloud_v9.71.1/cadviewer-v9.71.1.tar.gz",
-    "version": "9.71.1",
+    "hash": "sha256-BCiv3jop2Y4bHX+j7xWl1RnSt1CCf55aMyiJv54RZRs=",
+    "url": "https://github.com/CADViewer/NextCloud/releases/download/cv_nextcloud_v9.91.2/cadviewer-v9.91.2.tar.gz",
+    "version": "9.91.2",
     "description": "# CADViewer\nCADViewer implements CAD viewing, markup and collaboration on the NextCloud platform for AutoCAD, MicroStation, PDF and advanced raster graphics. Following CADViewer features are available:\n- **AutoCAD**: Support for DWG, DXF and DWF files.\n- **MicroStation**: Support for DGN files.\n- **PDF**: Support for Vector Graphics PDF files. (Use **...** menu)\n- **TIFF**: Support for TIFF format. (Use **...** menu)\n- **PNG, JPG, GIF**: Bitmap support. (Use **...** menu)\n- **SVG**: SVG support. (Use **...** menu)\n- **Annotation**: Full redlining interface of drawings where each user has individually associated redlines.\n- **PDF Collaboration**: Redlines/Annotations on drawings are saved as PDF to the user's *CADViewer-Markup* folder, where the user can then share internally/externally.\n- **Download**: Direct download of SVG or PDF image with/without redlines/annotations.\n- **Printing**: Printing of drawings to printer driver or as PDF.\n- **Measurement**: Global scale matrix preserved in drawing for measurement and calibration methods.\n- **Zoom**: Advanced zoom and pan controls.\n- **Layers**: Retained layer structure for layer management.\n- **Search**: Integrated text search method.\n- **Compare**: Advanced compare of drawings. Compare of different versions of same files in Nextcloud 27+.\n\n## 🌐Online Demo\n- To test the look and feel of [CADViewer](https://cadviewer.com), check out our [Online Demos](https://cadviewer.com/cadviewerdemo/).\n\n## 📦Installation\n1. Install the app from the Nextcloud app store or from CADViewer [GitHub repository](https://github.com/CADViewer/NextCloud/).\n2. Perform the [configuration steps](https://github.com/CADViewer/NextCloud/blob/main/README.md).\n3. **NOTE**: The configuration steps (possible permission settings and ownership for executable, log files, and folders, and .htaccess file modification for rewrite rule) are needed for the back-end CAD conversion to work properly. Without check of settings, no drawings will display!\n4. Simply open your CAD drawings and start collaborate.. 😄 \n5. If you have any issues displaying drawings, see [troubleshooting](https://github.com/CADViewer/NextCloud/blob/main/README.md) , file an [issue report](https://github.com/CADViewer/NextCloud/issues) or [contact us](mailto:developer@tailormade.com).\n6. Software run with all features enabled, but with small canvas watermarks to discurage redistribution of converted drawings. To remove watermarks through a license key, corp or single user(s), [Contact Us!](https://cadviewer.com/contact/).\n7. **NOTE**: The back-end CAD converter is an x86_64 executable, currently ARM architecture is not supported.\n\n## Guides\n1. [Administrator Interface Guide](https://cadviewer.com/cadviewerusermanual/referenceapplications/nextcloud/admin/).\n2. [User Interface Guide](https://cadviewer.com/cadviewerusermanual/referenceapplications/nextcloud/userinterface/).",
     "homepage": "https://www.cadviewer.com",
     "licenses": [
@@ -670,9 +670,9 @@
     ]
   },
   "files_external_ethswarm": {
-    "hash": "sha256-2epDuKt86GNBHpiT5DZ2bCdIa1Ru0WufiNWOQGSY7o0=",
-    "url": "https://github.com/MetaProvide/nextcloud-swarm-plugin/releases/download/v0.4.1/files_external_ethswarm.tar.gz",
-    "version": "0.4.1",
+    "hash": "sha256-DsLZXImNWKeMWyQsiw5kqsIRO5yEXySWNoDhHhiwG0c=",
+    "url": "https://github.com/MetaProvide/nextcloud-swarm-plugin/releases/download/v0.5.0-alpha.3/files_external_ethswarm.tar.gz",
+    "version": "0.5.0",
     "description": "# Nextcloud Swarm Plugin\n\n*Decentralized Sovereign cloud-storage comes to Nextcloud!*\n\nThis plugin brings [Swarm](https://www.ethswarm.org/) to [Nextcloud](https://nextcloud.com) - decentralized file-storage, connected to the blockchain.\n\n## Table of Contents\n\n- [Dependencies](#dependencies)\n- [Setup and Installation](#setup-and-installation)\n- [Usage](#usage)\n\t- [Settings](#settings)\n\t- [Using Swarm](#using-swarm)\n- [License](#license)\n\n## Dependencies\n\nTo use the plugin you need the following\n\n* A Nextcloud instance\n* A Bee node\n\n## Setup and Installation\n\nFor setting up a Bee node please have a look at the [official documentation](https://docs.ethswarm.org/docs/installation/quick-start)\n\nThe following steps explain how to configure a Bee node in Nextcloud.\n\n- Make sure the \"External Storage\" plugin is enabled\n- Install the \"External Storage: Swarm\" app from the Nextcloud App store\n- Navigate to External Storage Administration (Profile menu -> Settings -> External Storage)\n- Add the connection settings for a new Bee node\n- Navigate to Ethswarm Storage Administration (Profile menu -> Settings -> Ethswarm Storage)\n- Configure the Bee node - by default, encryption is active\n- To use a Bee node, it is necessary to [Purchase a Batch of new stamps](https://docs.ethswarm.org/docs/access-the-swarm/keep-your-data-alive) from the funds in the chequebook\n- Once the new batch is purchased, a unique batchId is generated. Once your batch has been purchased, it will take a few minutes for other Bee nodes in the Swarm to catch up and register your batch. Allow some time for your batch to propagate in the network before proceeding to the next step. This is indicated by the checkbox \"Usable\".\n- Uploading files to the swarm costs Bzz, so it is necessary to select a Batch as \"Active\". Only 1 batch is allowed to be Active for a given Bee node. Then click \"Save Settings\".\n\n## Usage\n\nFile handling operations involving the Bee node are integrated in the External Storage (\"Files\") section of Nextcloud.\n\nUsing the plugin, the main file operations that are available in Nextcloud are:\n\n- Upload file(s) to a Bee node\n- Download and view files\n- Copy/Move files from any External Storage to a Bee node\n- Copy files from a Bee node to any External Storage\n\n### Settings\n\nAvailable to users with administrative credentials, the external storage accepts configuration options from two places, the normal External Storage settings, which allows a user to configure the basic connection properties of a Bee node.\n\nSince every operation in Swarm costs money, it is important to view how much money is available to the Bee node directly and also provide a convenient way of handling the payment system in Swarm - all managed directly in Nextcloud. This is in a specific section with more advanced configuration for the Bee node, where the following settings can be viewed and edited:\n\n- Configure which Bee node to manage\n- View current status of the Bee node\n- Option to toggle encryption on and off\n- How much BZZ is available to the node\n- Any purchased stamp batches and the remaining balances\n- Have the option to purchase a new batch of stamps\n- Toggle the batch used for uploading files active/inactive\n\n### Using Swarm\n\nOnce setup and configured, the Bee node is ready to use.\n- Navigate to \"Files\" option on the menu -> \"External Storage\" and then the name of the Bee node.\n- You can then upload files just like you normally would in Nextcloud.\n- Once uploaded, it can be viewed internally or downloaded. It can also be copied to another storage.\n- Files from another Nextcloud storage can also be copied/moved to the Bee node.",
     "homepage": "https://github.com/MetaProvide/nextcloud-swarm-plugin",
     "licenses": [
@@ -690,9 +690,9 @@
     ]
   },
   "files_inotify": {
-    "hash": "sha256-S5+Isj1FuPNN5T+CXErD51ELrCvHMZVsECnDvAA1aUQ=",
-    "url": "https://github.com/icewind1991/files_inotify/releases/download/v0.2.1/files_inotify-v0.2.1.tar.gz",
-    "version": "0.2.1",
+    "hash": "sha256-tiGi4k/S0RfW2z1WHMrKwO49C4Qtwq2nVW9+SSj1/og=",
+    "url": "https://github.com/icewind1991/files_inotify/releases/download/v0.2.2/files_inotify-v0.2.2.tar.gz",
+    "version": "0.2.2",
     "description": "Adds support detecting changes in local external storages with\nocc files_external:notify.\n\nNote that there are scalability limitations to using `inotify` on large folder structures, see the [README](https://github.com/icewind1991/files_inotify/blob/master/README.md) for more information",
     "homepage": "https://github.com/icewind1991/files_inotify",
     "licenses": [
@@ -730,9 +730,9 @@
     ]
   },
   "files_notify_redis": {
-    "hash": "sha256-GY5cJQwzzroT89DopDlLL8/eiixZxMJgpcwp9hL8i5o=",
-    "url": "https://github.com/icewind1991/files_notify_redis/releases/download/v0.3.3/files_notify_redis-v0.3.3.tar.gz",
-    "version": "0.3.3",
+    "hash": "sha256-GPJ1DPqTtH8wcW6fWGe726AZYz/GT/OVEC87KCTpO3k=",
+    "url": "https://github.com/icewind1991/files_notify_redis/releases/download/v0.3.4/files_notify_redis-v0.3.4.tar.gz",
+    "version": "0.3.4",
     "description": "Adds support for handling filesystem notifications for local storages that are pushed into redis",
     "homepage": "https://github.com/icewind1991/files_notify_redis",
     "licenses": [
@@ -780,9 +780,9 @@
     ]
   },
   "files_snapshots": {
-    "hash": "sha256-t0axl8jcWPmtb/9ZCv63iw3kqfu6jee5uSgmtugzIe0=",
-    "url": "https://github.com/icewind1991/files_snapshots/releases/download/v1.0.9/files_snapshots-v1.0.9.tar.gz",
-    "version": "1.0.9",
+    "hash": "sha256-bI9xtfbsAgnny2B9+VqSvUjG1sbe5UoIgtHieXyZGYE=",
+    "url": "https://github.com/icewind1991/files_snapshots/releases/download/v1.0.10/files_snapshots-v1.0.10.tar.gz",
+    "version": "1.0.10",
     "description": "Allows using filesystem snapshots (from btrfs, zfs, etc) as versions trough the Nextcloud web interface. A full description can be found [in the README](https://github.com/icewind1991/files_snapshots)",
     "homepage": "https://github.com/icewind1991/files_snapshots",
     "licenses": [
@@ -790,9 +790,9 @@
     ]
   },
   "files_versions_s3": {
-    "hash": "sha256-3uoWP0le4EzAaheD65iZNQoKlmzc2Dh4ed63I3SwxBk=",
-    "url": "https://github.com/nextcloud-releases/files_versions_s3/releases/download/v0.2.2/files_versions_s3-v0.2.2.tar.gz",
-    "version": "0.2.2",
+    "hash": "sha256-qwFmz/vOoK+M2fvniZ5f4tibGwYGLYcfgDmh2kiWnGE=",
+    "url": "https://github.com/nextcloud-releases/files_versions_s3/releases/download/v0.2.3/files_versions_s3-v0.2.3.tar.gz",
+    "version": "0.2.3",
     "description": "Use S3 object versioning for file versioning.\n\n## Warning\n\nThis app does not include any mechanism for expiring old s3 versions,\nyou should setup your own version expiry (also called \"Lifecycle management\" in S3)\nto prevent versions from taking up an ever increasing amount of space.\n\n## Usage\n\n- install the app\n- check if bucket versioning is enabled for your storage using `occ files_versions_s3:status`\n- enable bucket versioning if not yet enabled using `occ files_versions_s3:enable <id>`",
     "homepage": "https://github.com/nextcloud/files_versions_s3",
     "licenses": [
@@ -950,9 +950,9 @@
     ]
   },
   "group_everyone": {
-    "hash": "sha256-gQvqasxxgLAKFXMqZ1zBRBi0HB34ai7dXfstT3/90X8=",
-    "url": "https://github.com/icewind1991/group_everyone/releases/download/v0.1.15/group_everyone-v0.1.15.tar.gz",
-    "version": "0.1.15",
+    "hash": "sha256-oLk8DBfVLc7aOd+S2LTjVu9EJoz12i1QA6wWJBoh29k=",
+    "url": "https://github.com/icewind1991/group_everyone/releases/download/v0.1.16/group_everyone-v0.1.16.tar.gz",
+    "version": "0.1.16",
     "description": "Adds a virtual \"Everyone\" group.",
     "homepage": "https://github.com/icewind1991/group_everyone",
     "licenses": [
@@ -1190,9 +1190,9 @@
     ]
   },
   "integration_google": {
-    "hash": "sha256-/1m8If9z5WCXniqFLNu87ZhEE9ALJJTZQ5W30/Y2eVQ=",
-    "url": "https://github.com/nextcloud-releases/integration_google/releases/download/v3.0.1/integration_google-v3.0.1.tar.gz",
-    "version": "3.0.1",
+    "hash": "sha256-BKXQGxwbyr6Pw2Ftez08vEJ7e2PI6KUiYRrtFRqyZ0Q=",
+    "url": "https://github.com/nextcloud-releases/integration_google/releases/download/v3.0.2/integration_google-v3.0.2.tar.gz",
+    "version": "3.0.2",
     "description": "Google integration allows you to automatically migrate your Google calendars, contacts, photos and files into Nextcloud.",
     "homepage": "https://github.com/nextcloud/integration_google",
     "licenses": [
@@ -1950,9 +1950,9 @@
     ]
   },
   "permissions_overwrite": {
-    "hash": "sha256-k70NhXADjUpbg1vV/j9xRKzDvQqWRRLiBHcO276QuFM=",
-    "url": "https://github.com/icewind1991/permissions_overwrite/releases/download/v0.1.12/permissions_overwrite-v0.1.12.tar.gz",
-    "version": "0.1.12",
+    "hash": "sha256-qDLmHzLO0PnUT0DSk+U8KvkQKKR/56rZQxuK9FTOtEc=",
+    "url": "https://github.com/icewind1991/permissions_overwrite/releases/download/v0.1.13/permissions_overwrite-v0.1.13.tar.gz",
+    "version": "0.1.13",
     "description": "Allow overwriting external storage permissions.",
     "homepage": "",
     "licenses": [
@@ -2160,9 +2160,9 @@
     ]
   },
   "root_cache_cleaner": {
-    "hash": "sha256-yviqHI5IOH8kupyF4WMAamqI3hkajE/2AmmLrLpDYsI=",
-    "url": "https://github.com/icewind1991/root_cache_cleaner/releases/download/v0.1.7/root_cache_cleaner-v0.1.7.tar.gz",
-    "version": "0.1.7",
+    "hash": "sha256-AvJI7gnAt0ylZCmv7g12TroaQ+u8Vip3kCVwbN/JUV8=",
+    "url": "https://github.com/icewind1991/root_cache_cleaner/releases/download/v0.1.8/root_cache_cleaner-v0.1.8.tar.gz",
+    "version": "0.1.8",
     "description": "Clean duplicate items from the root filecache by deleting user specific entries that got indexed into the root cache by mistake.",
     "homepage": "https://github.com/icewind1991/root_cache_cleaner",
     "licenses": [
@@ -2350,9 +2350,9 @@
     ]
   },
   "smb_test": {
-    "hash": "sha256-lN4lru71xh3sVYcNDYgxgd5XHDyCKOgigGofhUjlHwI=",
-    "url": "https://github.com/icewind1991/smb_test/releases/download/v0.3.9/smb_test-v0.3.9.tar.gz",
-    "version": "0.3.9",
+    "hash": "sha256-cFRCTXPWsHsAGjOR9qGFT3KIUKEFfPlLGMafHJfpeUM=",
+    "url": "https://github.com/icewind1991/smb_test/releases/download/v0.3.10/smb_test-v0.3.10.tar.gz",
+    "version": "0.3.10",
     "description": "Nextcloud app to debug smb connections",
     "homepage": "https://github.com/icewind1991/smb_test",
     "licenses": [
@@ -2370,9 +2370,9 @@
     ]
   },
   "snappymail": {
-    "hash": "sha256-VgMxNpdOGBHcw5Q8fEM2Cb43GysILFF7ba00gEWGLYI=",
-    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.36.4-nextcloud.tar.gz",
-    "version": "2.36.4",
+    "hash": "sha256-BIkVkjJQyVcyg2Wm7wsabaFzzDerSa0qsF3BIM6hN4A=",
+    "url": "https://snappymail.eu/repository/nextcloud/snappymail-2.37.2-nextcloud.tar.gz",
+    "version": "2.37.2",
     "description": "**Lightweight & fast email client.**\n\n- **Dark mode**\n- **Responsive design**\n- **Full Sieve filtering support**\n- **Almost all IMAP features** including advanced searching\n- **Integration with Nextcloud Unified Search**\n- **Integration with other Nextcloud apps** (Contacts, Files and Calendar)\n- **Multiple mail accounts and identities**\n- **Send & receive OpenPGP encrypted/signed emails** (With full HTML support, ECC keys, or plain text with Mailvelope)\n- **Send & receive S/MIME encrypted/signed emails**\n- **Many security features** (Sodium encrypted passwords, Sec-Fetch, TOTP 2FA, DKIM, prevent tracking, etc.)\n- **Kolab integrations**\n\nAfter enabling in Nextcloud, go to Nextcloud admin panel, \"Additional settings\" and you will see a \"SnappyMail webmail\" section.\nThere, click on the link to go to the SnappyMail admin panel.",
     "homepage": "https://snappymail.eu",
     "licenses": [
@@ -2810,9 +2810,9 @@
     ]
   },
   "webapppassword": {
-    "hash": "sha256-rkKknK+iOhCxw7U73eD3dNKHP/YRYmK9Z70b1VlztiQ=",
-    "url": "https://github.com/digital-blueprint/webapppassword/releases/download/v24.6.0/webapppassword.tar.gz",
-    "version": "24.6.0",
+    "hash": "sha256-QOupogjb15dSwgNt0/ghn66JG9SaHrgR7xsOVva4vZU=",
+    "url": "https://github.com/digital-blueprint/webapppassword/releases/download/v24.8.0/webapppassword.tar.gz",
+    "version": "24.8.0",
     "description": "Temporary app password generator and WebDAV/CalDAV CORS header injection to be able to access the\nNextcloud WebDAV/CalDAV service from inside web applications. There also is a files sharing api endpoint with CORS header injection.\n\nThere is an [example implementation](https://github.com/digital-blueprint/webapppassword/blob/main/docs/example/index.html)\nthat uses this app to generate a temporary password and make a WebDAV request to a Nextcloud instance\n([docker container](https://github.com/digital-blueprint/webapppassword/tree/main/docker) included).\n\nSee [Example](https://github.com/digital-blueprint/webapppassword#example) for a Nextcloud WebDAV file picker example\nthat uses this application.",
     "homepage": "https://github.com/digital-blueprint/webapppassword",
     "licenses": [
