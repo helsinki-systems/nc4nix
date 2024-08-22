@@ -60,9 +60,9 @@
     ]
   },
   "appointments": {
-    "hash": "sha256-Yeq09QDoXDU+0xTzpfKNWRshI7CevVk7dj/upg7Hb8Y=",
-    "url": "https://github.com/SergeyMosin/Appointments/raw/v2.1.9/build/artifacts/appstore/appointments.tar.gz",
-    "version": "2.1.9",
+    "hash": "sha256-hDTX/eF0Ob4S59IDW9DAmp6DLg1h21P0vICHo19Vp8E=",
+    "url": "https://github.com/SergeyMosin/Appointments/raw/v2.1.10/build/artifacts/appstore/appointments.tar.gz",
+    "version": "2.1.10",
     "description": "Book appointments into your calendar via secure online form. Attendees can confirm or cancel their appointments via an email link.",
     "homepage": "https://www.srgdev.com/lab/nextcloud-appointments/",
     "licenses": [
@@ -150,9 +150,9 @@
     ]
   },
   "calendar": {
-    "hash": "sha256-AcPONkfFTDRd7CQC5d0C7Fr3pKRsQXl8+GhaNlqpgiY=",
-    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v4.7.15/calendar-v4.7.15.tar.gz",
-    "version": "4.7.15",
+    "hash": "sha256-NwXTuSHl278Q2Wko4DC3rzqvNHnDI513UJ+8/3Rp5/U=",
+    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v4.7.16/calendar-v4.7.16.tar.gz",
+    "version": "4.7.16",
     "description": "The Calendar app is a user interface for Nextcloud's CalDAV server. Easily sync events from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Currently Contacts - more to come.\n* 🌐 **WebCal Support!** Want to see your favorite team’s matchdays in your calendar? No problem!\n* 🙋 **Attendees!** Invite people to your events\n* ⌚️ **Free/Busy!** See when your attendees are available to meet\n* ⏰ **Reminders!** Get alarms for events inside your browser and via email\n* 🔍 Search! Find your events at ease\n* ☑️ Tasks! See tasks with a due date directly in the calendar\n* 🙈 **We’re not reinventing the wheel!** Based on the great [c-dav library](https://github.com/nextcloud/cdav-library), [ical.js](https://github.com/mozilla-comm/ical.js) and [fullcalendar](https://github.com/fullcalendar/fullcalendar) libraries.",
     "homepage": "https://github.com/nextcloud/calendar/",
     "licenses": [
@@ -270,9 +270,9 @@
     ]
   },
   "collectives": {
-    "hash": "sha256-mm147rmCR0DkbadMlikSTHcNfY5ic9i6KvbwjxLV9rk=",
-    "url": "https://github.com/nextcloud/collectives/releases/download/v2.14.0/collectives-2.14.0.tar.gz",
-    "version": "2.14.0",
+    "hash": "sha256-Pitg4+OgCa+KeZFlJTm9WSLClC5suY6IvtNoOGohQy0=",
+    "url": "https://github.com/nextcloud/collectives/releases/download/v2.14.1/collectives-2.14.1.tar.gz",
+    "version": "2.14.1",
     "description": "Collectives is a Nextcloud App for activist and community projects to organize together.\nCome and gather in collectives to build shared knowledge.\n\n* 👥 **Collective and non-hierarchical workflow by heart**: Collectives are\n  tied to a [Nextcloud Team](https://github.com/nextcloud/circles) and\n  owned by the collective.\n* 📝 **Collaborative page editing** like known from Etherpad thanks to the\n  [Text app](https://github.com/nextcloud/text).\n* 🔤 **Well-known [Markdown](https://en.wikipedia.org/wiki/Markdown) syntax**\n  for page formatting.\n\n## Installation\n\nIn your Nextcloud instance, simply navigate to **»Apps«**, find the\n**»Teams«** and **»Collectives«** apps and enable them.",
     "homepage": "https://github.com/nextcloud/collectives",
     "licenses": [
@@ -320,8 +320,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -700,9 +700,9 @@
     ]
   },
   "files_versions_s3": {
-    "hash": "sha256-qwFmz/vOoK+M2fvniZ5f4tibGwYGLYcfgDmh2kiWnGE=",
-    "url": "https://github.com/nextcloud-releases/files_versions_s3/releases/download/v0.2.3/files_versions_s3-v0.2.3.tar.gz",
-    "version": "0.2.3",
+    "hash": "sha256-xPWU6osqh38xBUnR99bDgD5BqHXuMQSH8Jsv87s9y7c=",
+    "url": "https://github.com/nextcloud-releases/files_versions_s3/releases/download/v1.0.0/files_versions_s3-v1.0.0.tar.gz",
+    "version": "1.0.0",
     "description": "Use S3 object versioning for file versioning.\n\n## Warning\n\nThis app does not include any mechanism for expiring old s3 versions,\nyou should setup your own version expiry (also called \"Lifecycle management\" in S3)\nto prevent versions from taking up an ever increasing amount of space.\n\n## Usage\n\n- install the app\n- check if bucket versioning is enabled for your storage using `occ files_versions_s3:status`\n- enable bucket versioning if not yet enabled using `occ files_versions_s3:enable <id>`",
     "homepage": "https://github.com/nextcloud/files_versions_s3",
     "licenses": [
@@ -950,9 +950,9 @@
     ]
   },
   "integration_alephalpha": {
-    "hash": "sha256-f+1zU/vvezRrd4jYPMIA7Gfl/KKi0JKv9MgPqNBB2CA=",
-    "url": "https://github.com/nextcloud-releases/integration_alephalpha/releases/download/v1.0.2/integration_alephalpha-v1.0.2.tar.gz",
-    "version": "1.0.2",
+    "hash": "sha256-krylwWBWiVl/T289m5BCVQzqK8pYuI0MG+VxqgvmS44=",
+    "url": "https://github.com/nextcloud-releases/integration_alephalpha/releases/download/v1.0.4/integration_alephalpha-v1.0.4.tar.gz",
+    "version": "1.0.4",
     "description": "This app implements a free prompt provider which can be used together with the [Gpt Free Prompt app](https://apps.nextcloud.com/apps/gptfreeprompt).\n\n## Ethical AI Rating\n### Rating for Text generation using Aleph Alpha API: 🔴\n\nNegative:\n* the software for training and inference of this model is proprietary, limiting running it locally or training by yourself\n* the trained model is not freely available, so the model can not be run on-premises\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model's performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/integration_alephalpha",
     "licenses": [
@@ -1040,9 +1040,9 @@
     ]
   },
   "integration_gitlab": {
-    "hash": "sha256-FAF5CHwAVm55QS9NO8B5zsvJ0BWa7Mwfw6kYr2js0Es=",
-    "url": "https://github.com/nextcloud-releases/integration_gitlab/releases/download/v3.0.1/integration_gitlab-v3.0.1.tar.gz",
-    "version": "3.0.1",
+    "hash": "sha256-uI3g5biJBBHMz9RxQAWNk+8w+6fWN/JOmGfgD5I/veU=",
+    "url": "https://github.com/nextcloud-releases/integration_gitlab/releases/download/v3.1.0/integration_gitlab-v3.1.0.tar.gz",
+    "version": "3.1.0",
     "description": "GitLab integration provides a dashboard widget displaying your most important notifications\n    and a unified search provider for repositories, issues and merge requests.",
     "homepage": "https://github.com/nextcloud/integration_gitlab",
     "licenses": [
@@ -1110,9 +1110,9 @@
     ]
   },
   "integration_miro": {
-    "hash": "sha256-L1n1UEtMTNPsGXp7yFb8wrjtwUHwLg+itGD4VUIXKCU=",
-    "url": "https://github.com/nextcloud-releases/integration_miro/releases/download/v1.0.4/integration_miro-v1.0.4.tar.gz",
-    "version": "1.0.4",
+    "hash": "sha256-/bK4oR4+YFQhLmWqOlctwrEFfVnoZ/CfEzVX8QqtMeQ=",
+    "url": "https://github.com/nextcloud-releases/integration_miro/releases/download/v1.0.5/integration_miro-v1.0.5.tar.gz",
+    "version": "1.0.5",
     "description": "Miro integration lets users create boards, share board links and open boards directly in Nextcloud.",
     "homepage": "https://github.com/julien-nc/integration_miro",
     "licenses": [
@@ -1280,9 +1280,9 @@
     ]
   },
   "integration_zimbra": {
-    "hash": "sha256-YAmZvgXXe2QVRjQwi4bJ2y1RwJtI0V59196Gm3SxrbQ=",
-    "url": "https://github.com/nextcloud-releases/integration_zimbra/releases/download/v1.0.9/integration_zimbra-v1.0.9.tar.gz",
-    "version": "1.0.9",
+    "hash": "sha256-8n7/+AAeFKMpVTF0U70n44nuaXRHgqRZi+89Llet1l8=",
+    "url": "https://github.com/nextcloud-releases/integration_zimbra/releases/download/v1.0.10/integration_zimbra-v1.0.10.tar.gz",
+    "version": "1.0.10",
     "description": "Zimbra integration into Nextcloud provides a dashboard widget for unread emails,\n one for upcoming events, a search provider for emails and the ability to search for Zimbra contacts in Nextcloud.\n\nNextcloud will suggest your Zimbra contacts addresses when you search for a contact via the top-right contacts menu\nor when you search for someone to share a file to.",
     "homepage": "https://github.com/eneiluj/integration_zimbra",
     "licenses": [
@@ -1300,9 +1300,9 @@
     ]
   },
   "intros": {
-    "hash": "sha256-9emDn7iLiELgeGOxC6zUzNboB7CrPbsdoj7Z5h0Eoqc=",
-    "url": "https://packages.framasoft.org/projects/nextcloud-apps/intros/intros-1.0.0.tar.gz",
-    "version": "1.0.0",
+    "hash": "sha256-i395T35fCKAsPJEudbplfwiTTxyCapL7TLVOM54ImhM=",
+    "url": "https://packages.framasoft.org/projects/nextcloud-apps/intros/intros-1.0.1.tar.gz",
+    "version": "1.0.1",
     "description": "The Intros app helps new users to understand the main Nextcloud apps.\n\n* **Highlights user interface elements** to explain them\n* **Plays tutorials automatically** on the user's first visit to an app\n* **Easy to disable/enable** for each app\n* **Comes with pre-installed tutorials** for Files, Dashboard, Calendar, Talk, Contacts, and the User settings menu.\n* **Admins can define custom tutorials** with JSON files",
     "homepage": "https://framagit.org/framasoft/framaspace/custom-apps/intros",
     "licenses": [
@@ -1710,9 +1710,9 @@
     ]
   },
   "picker": {
-    "hash": "sha256-KLJwGyS72D2kKiqLHmS8npqImkxCn1RK4eXgg+gRI94=",
-    "url": "https://github.com/nextcloud-releases/picker/releases/download/v1.0.8/picker-v1.0.8.tar.gz",
-    "version": "1.0.8",
+    "hash": "sha256-v/CoSNPoiasaEyZRbSnJTwcXBDOjCHvaPVP3f6keoss=",
+    "url": "https://github.com/nextcloud-releases/picker/releases/download/v1.0.10/picker-v1.0.10.tar.gz",
+    "version": "1.0.10",
     "description": "This app provides a page to pick a file, generate a public link and directly browse it.\nIt can be used to integrate Nextcloud in other apps such as a video call software.",
     "homepage": "https://github.com/julien-nc/picker",
     "licenses": [
@@ -1980,9 +1980,9 @@
     ]
   },
   "sharereview": {
-    "hash": "sha256-YRaz04jYm1pM2NLQB+EzQiHfR9ql7BqoMMrxNUXkKgc=",
-    "url": "https://github.com/Rello/sharereview/releases/download/1.0.2/sharereview-1.0.2.tar.gz",
-    "version": "1.0.2",
+    "hash": "sha256-vxestcJQUg4uNGk2yjGScBLg4ZHlrO3JNFOK97B9mDo=",
+    "url": "https://github.com/Rello/sharereview/releases/download/1.1.0/sharereview-1.1.0.tar.gz",
+    "version": "1.1.0",
     "description": "- Review and audit all shares within the Nextcloud instance\n- Remove shares\n- Confirm review\n- Audit compliance\n- Show only new shares since last review\n- Assign review to user groups (e.g. audit or risk mgmt)\n\n### Note:\nThe app must be restricted to at least one specific user group in the app store.\nThis prevents accidental exposure of the shared content to all users.",
     "homepage": "https://github.com/Rello/sharereview",
     "licenses": [
