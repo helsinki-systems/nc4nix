@@ -150,9 +150,9 @@
     ]
   },
   "cadviewer": {
-    "hash": "sha256-0QD9blXZZP+FO33Xpp3GuO+TE7rtl9km02urE3qMSmU=",
-    "url": "https://github.com/CADViewer/NextCloud/releases/download/cv_nextcloud_v10.1.11/cadviewer-v10.1.11.tar.gz",
-    "version": "10.1.11",
+    "hash": "sha256-Mi20rEXt0fIpTjVYhBdhUFvTf6Oh0qeu9249tFkjdQQ=",
+    "url": "https://github.com/CADViewer/NextCloud/releases/download/cv_nextcloud_v10.3.3/cadviewer-v10.3.3.tar.gz",
+    "version": "10.3.3",
     "description": "# CADViewer\nCADViewer implements CAD viewing, markup and collaboration on the NextCloud platform for AutoCAD, MicroStation, PDF and advanced raster graphics. Following CADViewer features are available:\n- **AutoCAD**: Support for DWG, DXF and DWF files.\n- **MicroStation**: Support for DGN files.\n- **PDF**: Support for Vector Graphics PDF files. (Use **...** menu)\n- **TIFF**: Support for TIFF format. (Use **...** menu)\n- **PNG, JPG, GIF**: Bitmap support. (Use **...** menu)\n- **SVG**: SVG support. (Use **...** menu)\n- **Annotation**: Full redlining interface of drawings where each user has individually associated redlines.\n- **PDF Collaboration**: Redlines/Annotations on drawings are saved as PDF to the user's *CADViewer-Markup* folder, where the user can then share internally/externally.\n- **Download**: Direct download of SVG or PDF image with/without redlines/annotations.\n- **Printing**: Printing of drawings to printer driver or as PDF.\n- **Measurement**: Global scale matrix preserved in drawing for measurement and calibration methods.\n- **Zoom**: Advanced zoom and pan controls.\n- **Layers**: Retained layer structure for layer management.\n- **Search**: Integrated text search method.\n- **Compare**: Advanced compare of drawings. Compare of different versions of same files in Nextcloud 27+.\n\n## 🌐Online Demo\n- To test the look and feel of [CADViewer](https://cadviewer.com), check out our [Online Demos](https://cadviewer.com/cadviewerdemo/).\n\n## 📦Installation\n1. Install the app from the Nextcloud app store or from CADViewer [GitHub repository](https://github.com/CADViewer/NextCloud/).\n2. Perform the [configuration steps](https://github.com/CADViewer/NextCloud/blob/main/README.md).\n3. **NOTE**: The configuration steps (possible permission settings and ownership for executable, log files, and folders, and .htaccess file modification for rewrite rule) are needed for the back-end CAD conversion to work properly. Without check of settings, no drawings will display!\n4. Simply open your CAD drawings and start collaborate.. 😄 \n5. If you have any issues displaying drawings, see [troubleshooting](https://github.com/CADViewer/NextCloud/blob/main/README.md) , file an [issue report](https://github.com/CADViewer/NextCloud/issues) or [contact us](mailto:developer@tailormade.com).\n6. Software run with all features enabled, but with small canvas watermarks to discurage redistribution of converted drawings. To remove watermarks through a license key, corp or single user(s), [Contact Us!](https://cadviewer.com/contact/).\n7. **NOTE**: The back-end CAD converter is an x86_64 executable, currently ARM architecture is not supported.\n\n## Guides\n1. [Administrator Interface Guide](https://cadviewer.com/cadviewerusermanual/referenceapplications/nextcloud/admin/).\n2. [User Interface Guide](https://cadviewer.com/cadviewerusermanual/referenceapplications/nextcloud/userinterface/).",
     "homepage": "https://www.cadviewer.com",
     "licenses": [
@@ -370,9 +370,9 @@
     ]
   },
   "deck": {
-    "hash": "sha256-JkqzMNFEBnTE4afQ2cwZrtNqrnEJPxsKTkj7/aVBPOU=",
-    "url": "https://github.com/nextcloud-releases/deck/releases/download/v1.11.5/deck-v1.11.5.tar.gz",
-    "version": "1.11.5",
+    "hash": "sha256-mEQO3zuQMmFxVZec2oFrQ5kNnp/KE067d4H3PaM7EEw=",
+    "url": "https://github.com/nextcloud-releases/deck/releases/download/v1.11.6/deck-v1.11.6.tar.gz",
+    "version": "1.11.6",
     "description": "Deck is a kanban style organization tool aimed at personal planning and project organization for teams integrated with Nextcloud.\n\n\n- 📥 Add your tasks to cards and put them in order\n- 📄 Write down additional notes in Markdown\n- 🔖 Assign labels for even better organization\n- 👥 Share with your team, friends or family\n- 📎 Attach files and embed them in your Markdown description\n- 💬 Discuss with your team using comments\n- ⚡ Keep track of changes in the activity stream\n- 🚀 Get your project organized",
     "homepage": "https://github.com/nextcloud/deck",
     "licenses": [
@@ -1320,8 +1320,8 @@
     ]
   },
   "integration_openproject": {
-    "hash": "sha256-wH7rZhfzQDMiW8NhNG+1fr4Bxdh7W+Fpd19W+CrDY4s=",
-    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.6.4/integration_openproject-2.6.4.tar.gz",
+    "hash": "sha256-EmNCwfP/V57kG5CbgVKIF5i4AWSNpPDuH3kLA5V3Dv0=",
+    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.6.4-20220815-nightly/integration_openproject-2.6.4-20220815-nightly.tar.gz",
     "version": "2.6.4",
     "description": "This application enables seamless integration with open source project management and collaboration software OpenProject.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in OpenProject\n* Find all work packages linked to a file or a folder\n* Create work packages directly in Nextcloud\n* View OpenProject notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n* Link work packages in rich text fields via Smart Picker\n* Preview links to work packages in text fields\n* Link multiple files and folder to a work package at once\n\nOn the OpenProject end, users are able to:\n\n* Link work packages with files and folders in Nextcloud\n* Upload and download files directly to Nextcloud from within a work package\n* Open linked files in Nextcloud to edit them\n* Let OpenProject create shared folders per project\n\nFor more information on how to set up and use the OpenProject application, please refer to [integration setup guide](https://www.openproject.org/docs/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://www.openproject.org/docs/user-guide/nextcloud-integration/).",
     "homepage": "https://github.com/nextcloud/integration_openproject",
@@ -1829,6 +1829,16 @@
       "agpl"
     ]
   },
+  "opencatalogi": {
+    "hash": "sha256-BouOwExVMY1J699aoiAijgodJUuMSfB+E0PJ5w7yrfo=",
+    "url": "https://github.com/ConductionNL/opencatalogi/releases/download/0.1.1-featurenextcloudrelease.77.d3033c3/opencatalogi.tar.gz",
+    "version": "0.6.0",
+    "description": "This application is a full-stack application for maintaining publications, metadata and catalogi. Administration of users and organisations is also included.",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "openhab": {
     "hash": "sha256-pmWE7Z5MFUXALvUaaz/WKh2cDOOENWUiLLjaYbdKavg=",
     "url": "https://github.com/kenda/nextcloud-openhab/releases/download/v0.13.4/openhab.tar.gz",
@@ -1990,9 +2000,9 @@
     ]
   },
   "polls": {
-    "hash": "sha256-6vYcZvI0F+imCMRO1XwBcyLmNJR+1miOkR2mpPpYAJE=",
-    "url": "https://github.com/nextcloud/polls/releases/download/v7.2.0/polls.tar.gz",
-    "version": "7.2.0",
+    "hash": "sha256-tSnR5O+OCYjoPoh2/WX3ntCagw9xanmxCR+DaMnAhJA=",
+    "url": "https://github.com/nextcloud-releases/polls/releases/download/v7.2.1/polls-v7.2.1.tar.gz",
+    "version": "7.2.1",
     "description": "A polls app, similar to Doodle/Dudle with the possibility to restrict access (members, certain groups/users, hidden and public).",
     "homepage": "https://github.com/nextcloud/polls",
     "licenses": [
@@ -2738,9 +2748,9 @@
     ]
   },
   "uppush": {
-    "hash": "sha256-0Ux6smshT+bAnLTpmcHYJEZj3Im8q0p9yrmTut/wm4s=",
-    "url": "https://codeberg.org/NextPush/uppush/archive/1.5.0.tar.gz",
-    "version": "1.4.3",
+    "hash": "sha256-masNvTcduPSr4dri4a98ujdMgU7fZE7blJBR+pd1Zuk=",
+    "url": "https://codeberg.org/NextPush/uppush/archive/1.5.1.tar.gz",
+    "version": "1.5.1",
     "description": "Once the mobile phone is connected with NextPush, push notifications can be forwarded to applications implementing UnifiedPush.\n\nMore information about UnifiedPush at https://unifiedpush.org",
     "homepage": "",
     "licenses": [
