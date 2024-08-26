@@ -350,8 +350,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -375,6 +375,16 @@
     "version": "1.15.0",
     "description": "Enable your users to request an export or deletion of their data. According options are added to the personal settings section. Administrators will be notified by email about the request.",
     "homepage": "https://github.com/nextcloud/data_request",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "dav_push": {
+    "hash": "sha256-WXPAQqkBefFYdBUtrXV9C97HUIEKUGoIOREZsSfcyTI=",
+    "url": "https://github.com/bitfireAT/nc_ext_dav_push/releases/download/v0.0.1/dav_push.tar.gz",
+    "version": "0.0.1",
+    "description": "**This extension is in a very early stage of development. It is for demonstration and testing purposes only. Don't use it on production systems!**\n\nIn proprietary environments, changes in events and contacts are nowadays usually pushed to other clients so that they can update their views almost in real-time.\n\nWebDAV however (and in this context, especially CalDAV and CardDAV) doesn't currently support push notifications of clients when a collection has changed. So clients have to periodically ask the server for changes. This causes unnecessary delays and battery usage.\n\nThe WebDAV-Push standard, which is currently in development, wants to solve this problem with an open protocol, too.\n\nThis is the server part of these efforts to draft a standard and provide a working implementation (server + client) in order to demonstrate it.\n\n\nThe current WebDAV-Push draft is provided by [@bitfireAT](https://github.com/bitfireAT).\n          \nThis Nextcloud extension has been developed by [@verdigado](https://github.com/verdigado).",
+    "homepage": "",
     "licenses": [
       "agpl"
     ]
@@ -1330,8 +1340,8 @@
     ]
   },
   "integration_openproject": {
-    "hash": "sha256-wH7rZhfzQDMiW8NhNG+1fr4Bxdh7W+Fpd19W+CrDY4s=",
-    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.6.4/integration_openproject-2.6.4.tar.gz",
+    "hash": "sha256-EmNCwfP/V57kG5CbgVKIF5i4AWSNpPDuH3kLA5V3Dv0=",
+    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.6.4-20220815-nightly/integration_openproject-2.6.4-20220815-nightly.tar.gz",
     "version": "2.6.4",
     "description": "This application enables seamless integration with open source project management and collaboration software OpenProject.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in OpenProject\n* Find all work packages linked to a file or a folder\n* Create work packages directly in Nextcloud\n* View OpenProject notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n* Link work packages in rich text fields via Smart Picker\n* Preview links to work packages in text fields\n* Link multiple files and folder to a work package at once\n\nOn the OpenProject end, users are able to:\n\n* Link work packages with files and folders in Nextcloud\n* Upload and download files directly to Nextcloud from within a work package\n* Open linked files in Nextcloud to edit them\n* Let OpenProject create shared folders per project\n\nFor more information on how to set up and use the OpenProject application, please refer to [integration setup guide](https://www.openproject.org/docs/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://www.openproject.org/docs/user-guide/nextcloud-integration/).",
     "homepage": "https://github.com/nextcloud/integration_openproject",

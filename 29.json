@@ -339,6 +339,16 @@
       "agpl"
     ]
   },
+  "dav_push": {
+    "hash": "sha256-WXPAQqkBefFYdBUtrXV9C97HUIEKUGoIOREZsSfcyTI=",
+    "url": "https://github.com/bitfireAT/nc_ext_dav_push/releases/download/v0.0.1/dav_push.tar.gz",
+    "version": "0.0.1",
+    "description": "**This extension is in a very early stage of development. It is for demonstration and testing purposes only. Don't use it on production systems!**\n\nIn proprietary environments, changes in events and contacts are nowadays usually pushed to other clients so that they can update their views almost in real-time.\n\nWebDAV however (and in this context, especially CalDAV and CardDAV) doesn't currently support push notifications of clients when a collection has changed. So clients have to periodically ask the server for changes. This causes unnecessary delays and battery usage.\n\nThe WebDAV-Push standard, which is currently in development, wants to solve this problem with an open protocol, too.\n\nThis is the server part of these efforts to draft a standard and provide a working implementation (server + client) in order to demonstrate it.\n\n\nThe current WebDAV-Push draft is provided by [@bitfireAT](https://github.com/bitfireAT).\n          \nThis Nextcloud extension has been developed by [@verdigado](https://github.com/verdigado).",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "deadmanswitch": {
     "hash": "sha256-jOK5LglO3OrAMZATZWxaLhPpTn0Uy4cvi42o6pWAuEQ=",
     "url": "https://github.com/mgundelfinger/deadmanswitch/releases/download/0.0.3/deadmanswitch.tar.gz",
@@ -1170,8 +1180,8 @@
     ]
   },
   "integration_openproject": {
-    "hash": "sha256-EmNCwfP/V57kG5CbgVKIF5i4AWSNpPDuH3kLA5V3Dv0=",
-    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.6.4-20220815-nightly/integration_openproject-2.6.4-20220815-nightly.tar.gz",
+    "hash": "sha256-wH7rZhfzQDMiW8NhNG+1fr4Bxdh7W+Fpd19W+CrDY4s=",
+    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.6.4/integration_openproject-2.6.4.tar.gz",
     "version": "2.6.4",
     "description": "This application enables seamless integration with open source project management and collaboration software OpenProject.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in OpenProject\n* Find all work packages linked to a file or a folder\n* Create work packages directly in Nextcloud\n* View OpenProject notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n* Link work packages in rich text fields via Smart Picker\n* Preview links to work packages in text fields\n* Link multiple files and folder to a work package at once\n\nOn the OpenProject end, users are able to:\n\n* Link work packages with files and folders in Nextcloud\n* Upload and download files directly to Nextcloud from within a work package\n* Open linked files in Nextcloud to edit them\n* Let OpenProject create shared folders per project\n\nFor more information on how to set up and use the OpenProject application, please refer to [integration setup guide](https://www.openproject.org/docs/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://www.openproject.org/docs/user-guide/nextcloud-integration/).",
     "homepage": "https://github.com/nextcloud/integration_openproject",
@@ -1400,8 +1410,8 @@
     ]
   },
   "maps": {
-    "hash": "sha256-FmRhpPRpMnCHkJFaVvQuR6Y7Pd7vpP+tUVih919g/fQ=",
-    "url": "https://github.com/nextcloud/maps/releases/download/v1.4.0-1-nightly/maps-1.4.0-1-nightly.tar.gz",
+    "hash": "sha256-BmXs6Oepwnm+Cviy4awm3S8P9AiJTt1BnAQNb4TxVYE=",
+    "url": "https://github.com/nextcloud/maps/releases/download/v1.4.0/maps-1.4.0.tar.gz",
     "version": "1.4.0",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
