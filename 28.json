@@ -1640,8 +1640,8 @@
     ]
   },
   "maps": {
-    "hash": "sha256-BmXs6Oepwnm+Cviy4awm3S8P9AiJTt1BnAQNb4TxVYE=",
-    "url": "https://github.com/nextcloud/maps/releases/download/v1.4.0/maps-1.4.0.tar.gz",
+    "hash": "sha256-FmRhpPRpMnCHkJFaVvQuR6Y7Pd7vpP+tUVih919g/fQ=",
+    "url": "https://github.com/nextcloud/maps/releases/download/v1.4.0-1-nightly/maps-1.4.0-1-nightly.tar.gz",
     "version": "1.4.0",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
@@ -1895,6 +1895,16 @@
     "version": "0.5.4",
     "description": "OTP Manager is useful for those who use two-factor authentication (2FA) and want to manage their OTP codes securely and easily. \nThis application allows you to synchronise your OTP codes with your personal Nextcloud server so that you can access them from any device.\n\n######\n\nWith OTP Manager, you no longer have to worry about losing your OTP codes or not having access to them when you need them. \nAll you have to do is synchronise your app with your Nextcloud server and you will always have your OTP codes at hand, wherever you are.\n\n######\n\nOTP Manager offers the convenient feature of importing OTP codes from Google Authenticator by scanning the QR code. \nThis means you don't have to worry about having to manually enter every single OTP code, but can simply scan the QR code that the Google app generates when exporting \naccounts, and OTP Manager will automatically import your associated accounts.\n\n######\n\nThis way, the migration from Google Authenticator to OTP Manager will be quick and easy, without having to waste time manually resetting all your OTP codes.\n\n######\n\n**Apps & Extensions**\n* [Official Android App](https://play.google.com/store/apps/details?id=com.convertino.otp_manager)\n* [Official iOS App](https://apps.apple.com/us/app/nextcloud-otp-manager/id6471510170)\n* [Simple Firefox Browser Extension](https://addons.mozilla.org/en-US/firefox/addon/simple-otpmanager-browser/)\n* [Simple Chrome Browser Extension](https://chromewebstore.google.com/detail/simple-otp-manager-browse/meopmcadkhpcpoaigkhkadagiemblecc)",
     "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "ownershiptransfer": {
+    "hash": "sha256-BzbNZ1TEMUufHi69QiGUQbRDvM1CDQ/NxJu9hrL/418=",
+    "url": "https://packages.framasoft.org/projects/nextcloud-apps/ownership-transfer/ownershiptransfer-1.0.0.tar.gz",
+    "version": "1.0.0",
+    "description": "This app helps instance administrator to transfer any user's data to another user.\n\t\t\nAdmins can transfer data from the following apps:\n\n* **Files**: transfer all the files or a specific folder\n* **Calendar**: transfer all the calendars or a specific one\n* **Contacts**: transfer all the contacts or a specific address book",
+    "homepage": "https://framagit.org/framasoft/nextcloud/ownershiptransfer",
     "licenses": [
       "agpl"
     ]
@@ -2330,9 +2340,9 @@
     ]
   },
   "signlive": {
-    "hash": "sha256-9GdqYgTt58eU4+5+kimujvMEDsUqWsGO8wh1znCACHs=",
-    "url": "https://nxextern.intarsys.de/s/jGrixkkjmXo9gBq/download/signlive_2024-08-23_00-56-41.tar.gz",
-    "version": "0.9.6",
+    "hash": "sha256-7AA1UAW1kTtFZE5P/WBtJyM/iwd2CEdyuDZrA+lju6g=",
+    "url": "https://nxextern.intarsys.de/s/AzLMmonNbLjtLGj/download/signlive_2024-08-26_20-01-36.tar.gz",
+    "version": "0.9.7",
     "description": "# Description\n\nWith Sign Live! your create legally binding signatures and seals in the most confidential way conform to eIDAS/ZertES.\nDepending on your installation the documents to be signed will never leave your environment.\n\nYou choose\n\n- whether you work on premise or in the cloud\n- which signature level you achieve (qualified, advanced)\n- which device you use\n\t- remote signature services (D-Trust, Swisscom and coming soon Telesec)\n\t- smartcard, seal card\n\t- soft certificates on client/server side\n\nAll this is achived by integration of the intarsys gears services into Nextcloud via the The Sign Live! app.\n\nGive it a try! Well prepared demo scenarios are available at (https://www.intarsys.de/NextcloudApp).\n\n1. Nothing to install. Use our Nextcloud demo instance and our gears demo instance.\n2. You install the app into your Nextcloud instance and only use our gears demo instance.\n3. You install the app into your Nextcloud instance and gears in your environment and work completely in your environment.\n\nSome devices need additional software/hardware. For details take a look into the documentation.",
     "homepage": "https://www.intarsys.de/NextcloudApp",
     "licenses": [
