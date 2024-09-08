@@ -133,7 +133,7 @@
     "hash": "sha256-jByO7cJ9oQ4lQopzXCii11wqhg9tIlm/AFFViH+P3O0=",
     "url": "https://github.com/nextcloud/bookmarks/releases/download/v14.2.4/bookmarks-14.2.4.tar.gz",
     "version": "14.2.4",
-    "description": "- 📂 Sort bookmarks into folders\r\n- 🏷 Add tags and personal notes\r\n- ☠ Find broken links and duplicates\r\n- 📲 Synchronize with all your browsers and devices\r\n- 📔 Store archived versions of your links in case they are depublished\r\n- 🔍 Full-text search on site contents\r\n- 👪 Share bookmarks with other users and via public links\r\n- ⚛ Generate RSS feeds of your collections\r\n- 📈 Stats on how often you access which links\r\n- 🔒 Automatic backups of your bookmarks collection\r\n- 💼 Built-in Dashboard widgets for frequent and recent links\r\n\r\nRequirements:\r\n - PHP extensions:\r\n   - intl: *\r\n   - mbstring: *\r\n - when using MySQL, use at least v8.0",
+    "description": "- 📂 Sort bookmarks into folders\n- 🏷 Add tags and personal notes\n- ☠ Find broken links and duplicates\n- 📲 Synchronize with all your browsers and devices\n- 📔 Store archived versions of your links in case they are depublished\n- 🔍 Full-text search on site contents\n- 👪 Share bookmarks with other users and via public links\n- ⚛ Generate RSS feeds of your collections\n- 📈 Stats on how often you access which links\n- 🔒 Automatic backups of your bookmarks collection\n- 💼 Built-in Dashboard widgets for frequent and recent links\n\nRequirements:\n - PHP extensions:\n   - intl: *\n   - mbstring: *\n - when using MySQL, use at least v8.0",
     "homepage": "https://github.com/nextcloud/bookmarks",
     "licenses": [
       "agpl"
@@ -250,9 +250,9 @@
     ]
   },
   "cfg_share_links": {
-    "hash": "sha256-JP3WOX68wvAf2bdRmkt1eYoa0nrPD/SMM+VnkcCLwHk=",
-    "url": "https://github.com/jimmyl0l3c/cfg_share_links/releases/download/v5.1.1/cfg_share_links.tar.gz",
-    "version": "5.1.1",
+    "hash": "sha256-hmSLDp4sFx8D3qZGbrt0KFAeaT0YaCUoyXe1qycn5D4=",
+    "url": "https://github.com/jimmyl0l3c/cfg_share_links/releases/download/v5.1.2/cfg_share_links.tar.gz",
+    "version": "5.1.2",
     "description": "App for Nextcloud that adds the ability to specify share tokens when creating new public links and change tokens of existing links.\n\n## Features\n\nSharing sidebar is expanded by new section (Custom public link) that allows you to create public links with custom share tokens.\nYou can also customize share tokens of existing public links.\n\n## Settings\n\nBy going to **Administration settings > Administration > Configurable Share Links** admins can set default labels for custom links and minimal token length.\nDefault label can be: none, same as token or custom (the same custom label for all custom links).",
     "homepage": "https://github.com/jimmyl0l3c/cfg_share_links",
     "licenses": [
@@ -1340,8 +1340,8 @@
     ]
   },
   "integration_openproject": {
-    "hash": "sha256-wH7rZhfzQDMiW8NhNG+1fr4Bxdh7W+Fpd19W+CrDY4s=",
-    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.6.4/integration_openproject-2.6.4.tar.gz",
+    "hash": "sha256-EmNCwfP/V57kG5CbgVKIF5i4AWSNpPDuH3kLA5V3Dv0=",
+    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.6.4-20220815-nightly/integration_openproject-2.6.4-20220815-nightly.tar.gz",
     "version": "2.6.4",
     "description": "This application enables seamless integration with open source project management and collaboration software OpenProject.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in OpenProject\n* Find all work packages linked to a file or a folder\n* Create work packages directly in Nextcloud\n* View OpenProject notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n* Link work packages in rich text fields via Smart Picker\n* Preview links to work packages in text fields\n* Link multiple files and folder to a work package at once\n\nOn the OpenProject end, users are able to:\n\n* Link work packages with files and folders in Nextcloud\n* Upload and download files directly to Nextcloud from within a work package\n* Open linked files in Nextcloud to edit them\n* Let OpenProject create shared folders per project\n\nFor more information on how to set up and use the OpenProject application, please refer to [integration setup guide](https://www.openproject.org/docs/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://www.openproject.org/docs/user-guide/nextcloud-integration/).",
     "homepage": "https://github.com/nextcloud/integration_openproject",
@@ -1650,8 +1650,8 @@
     ]
   },
   "maps": {
-    "hash": "sha256-FmRhpPRpMnCHkJFaVvQuR6Y7Pd7vpP+tUVih919g/fQ=",
-    "url": "https://github.com/nextcloud/maps/releases/download/v1.4.0-1-nightly/maps-1.4.0-1-nightly.tar.gz",
+    "hash": "sha256-BmXs6Oepwnm+Cviy4awm3S8P9AiJTt1BnAQNb4TxVYE=",
+    "url": "https://github.com/nextcloud/maps/releases/download/v1.4.0/maps-1.4.0.tar.gz",
     "version": "1.4.0",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
@@ -1870,9 +1870,9 @@
     ]
   },
   "openconnector": {
-    "hash": "sha256-GpFT8eIGU/TV2UEKACwfFkfkSLKBoAESCJbbfotrVxM=",
-    "url": "https://github.com/ConductionNL/openconnector/releases/download/v0.1.4/openconnector-0.1.4.tar.gz",
-    "version": "0.1.4",
+    "hash": "sha256-o18N373FsmjRQ7HUW/q/vlLtP2lpx60D1HuKb8FCu2U=",
+    "url": "https://github.com/ConductionNL/openconnector/releases/download/v0.1.6/openconnector-0.1.6.tar.gz",
+    "version": "0.1.6",
     "description": "📰 Bringing Gateway and Service bus functionality to nextcloud\n\nThe OpenConnector Nextcloud app provides a ESB-framework to work together in an (open) data ecosystem\n\n- 📲 Synchronize your data sources \n- 📰 Send cloud events\n- 🆓 Map and translate API calls",
     "homepage": "https://github.com/ConductionNL/OpenConnector",
     "licenses": [
@@ -1920,9 +1920,9 @@
     ]
   },
   "openregister": {
-    "hash": "sha256-OGWGFgCZCq7F2icn/ja+eql/pk7x+NHSA3bvijJ7g+I=",
-    "url": "https://github.com/ConductionNL/openregister/releases/download/v0.1.4/openregister-0.1.4.tar.gz",
-    "version": "0.1.4",
+    "hash": "sha256-MhxKSvWmW9ZUD8VzAK3Mw85or2kN/GLSK7K6IRzJIhU=",
+    "url": "https://github.com/ConductionNL/openregister/releases/download/v0.1.7/openregister-0.1.7.tar.gz",
+    "version": "0.1.7",
     "description": "📰 An OpenRegister App for Nextcloud\n\nThe OpenRegister Nextcloud app provides a framework for federated registers to work together in an open data ecosystem\n\n- 📲 Synchronize your sources with multiple registers\n- 🔄 Automatic publications of your open data\n- 🆓 Free and open source under EUPL\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://conduction.gitbook.io/openregister-nextcloud/installatie)\n\nThe Roadmap is available [here](https://github.com/orgs/OpenRegister/projects/1/views/2)\n\nCreate a [bug report](https://github.com/OpenRegister/.github/issues/new/choose)\n\nCreate a [feature request](https://github.com/OpenRegister/.github/issues/new/choose)",
     "homepage": "https://github.com/ConductionNL/OpenRegister",
     "licenses": [
@@ -2050,9 +2050,9 @@
     ]
   },
   "polls": {
-    "hash": "sha256-tSnR5O+OCYjoPoh2/WX3ntCagw9xanmxCR+DaMnAhJA=",
-    "url": "https://github.com/nextcloud-releases/polls/releases/download/v7.2.1/polls-v7.2.1.tar.gz",
-    "version": "7.2.1",
+    "hash": "sha256-TBCNr57MKEe8OSXEqWohZH9zuCwFTMDnwnZ1nFZ+FWY=",
+    "url": "https://github.com/nextcloud-releases/polls/releases/download/v7.2.2/polls-v7.2.2.tar.gz",
+    "version": "7.2.2",
     "description": "A polls app, similar to Doodle/Dudle with the possibility to restrict access (members, certain groups/users, hidden and public).",
     "homepage": "https://github.com/nextcloud/polls",
     "licenses": [
@@ -2529,6 +2529,16 @@
       "agpl"
     ]
   },
+  "softwarecatalog": {
+    "hash": "sha256-yC/hL6YcbXHYmUmrhXVCe0zjyoupSLLcIp0SNnMMeyM=",
+    "url": "https://github.com/ConductionNL/softwarecatalog/releases/download/v0.1.5/softwarecatalog-0.1.5.tar.gz",
+    "version": "0.1.5",
+    "description": "🗂️ A Nextcloud App for Software Catalogs\n\nThe Software Catalogus Nextcloud app offers a powerful framework for managing and synchronizing software catalogs within a federated, open data environment.\n\n- 🔄 Synchronize your software data with multiple catalogs\n- 📡 Automatically publish and update your software catalog information\n- 🆓 Completely free and open source under the EUPL license\n\n**Note: System Cron is required for this app to function properly**\n\nFind the installation requirements [here](https://conduction.gitbook.io/opencatalogi-nextcloud/install).\n\nView the development roadmap [here](https://github.com/orgs/OpenCatalogi/projects/1/views/2).\n\nSubmit a [bug report](https://github.com/OpenCatalogi/.github/issues/new/choose).\n\nSubmit a [feature request](https://github.com/OpenCatalogi/.github/issues/new/choose).",
+    "homepage": "https://github.com/ConductionNL/SoftwareCatalogus",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "solitaire": {
     "hash": "sha256-9OtXLso8+XmNAv21MhPq+9h0yYPHwwe7o72jmkMRP5w=",
     "url": "https://github.com/derbenx/nextcloud-solitaire/releases/download/v1.0.0b/solitaire.tar.gz",
@@ -2770,9 +2780,9 @@
     ]
   },
   "unsplash": {
-    "hash": "sha256-xfu5m5VOZZ9ATnRg44sw/MTEXitrDFCuAcm+siNilsY=",
-    "url": "https://github.com/nextcloud/unsplash/releases/download/v3.0.0/unsplash.tar.gz",
-    "version": "3.0.0",
+    "hash": "sha256-kNDQk4HYkrBA+o+5/bNYj65ZJbViBjhnbSA87tsu6YE=",
+    "url": "https://github.com/nextcloud/unsplash/releases/download/v3.0.1/unsplash.tar.gz",
+    "version": "3.0.1",
     "description": "Show a new random featured nature photo in your nextcloud. Now with choosable motives!",
     "homepage": "https://github.com/nextcloud/unsplash/",
     "licenses": [
