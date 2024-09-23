@@ -100,9 +100,9 @@
     ]
   },
   "auto_groups": {
-    "hash": "sha256-wyBRPcsSs2s6DBD2VV8hyexhrJ6JvVAB96ihxdXsCfE=",
-    "url": "https://github.com/stjosh/auto_groups/releases/download/v1.5.3/auto_groups-v1.5.3.tar.gz",
-    "version": "1.5.3",
+    "hash": "sha256-jqAhUlDcb9akEoAZ7erXZfg3eJiWtyjjyReUNVUr8+A=",
+    "url": "https://github.com/stjosh/auto_groups/releases/download/v1.6.0/auto_groups-v1.6.0.tar.gz",
+    "version": "1.6.0",
     "description": "Automatically add users to the specified Auto Groups, except those users belonging to one of the specified Override Groups. \nOptionally, the group assignment can be triggered on every successful login, which is useful for external user backends.\n\n## Configuration\n\n- Go to \"Settings > Administration > Additional settings\"\n- Configure the Auto Groups\n- If required, configure the Override Groups (e.g., for Service Accounts)\n- Optionally, enable the Login Hook, which will enforce correct group membership on every successful login\n\nNote that this app prevents group deletions for groups referenced as Auto Groups or Override Groups.\n\n## Comparison to similar Apps\n\n* [Everyone Group](https://apps.nextcloud.com/apps/group_everyone): The \"Everyone Group\" app adds a virtual Group Backend, always returning all users. In contrast, \"Auto Groups\" operates on \"real\" groups in your normal Group Backend. Additionally, it is possible to specify Override Groups which will prevent users from being added to the Auto Group(s).\n* [Default Group](https://apps.nextcloud.com/apps/defaultgroup): \"Auto Groups\" is actually a modernized and maintaned fork of \"Default Group\", which seems to be abandoned since NC12 or so. In terms of functionality, they are almost identical.\n\nIn addition, I plan to add some more features over time, e.g., \"Union Groups\" - see the [Milestone Plans](https://github.com/stjosh/auto_groups/milestones) for more details.",
     "homepage": "https://github.com/stjosh/auto_groups",
     "licenses": [
