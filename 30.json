@@ -640,9 +640,9 @@
     ]
   },
   "forms": {
-    "hash": "sha256-JhLaTXll2kh/TaWXR1DfUCHuxaJlUMU1oY9ry9yoTTg=",
-    "url": "https://github.com/nextcloud-releases/forms/releases/download/v4.3.1/forms-v4.3.1.tar.gz",
-    "version": "4.3.1",
+    "hash": "sha256-iU2bqojO+pvMvKDiw+ANMvsH71Ul+8yQ+uNvJfa1ngc=",
+    "url": "https://github.com/nextcloud-releases/forms/releases/download/v4.3.2/forms-v4.3.2.tar.gz",
+    "version": "4.3.2",
     "description": "**Simple surveys and questionnaires, self-hosted!**\n\n- **📝 Simple design:** No mass of options, only the essentials. Works well on mobile of course.\n- **📊 View & export results:** Results are visualized and can also be exported as CSV in the same format used by Google Forms.\n- **🔒 Data under your control!** Unlike in Google Forms, Typeform, Doodle and others, the survey info and responses are kept private on your instance.\n- **🧑‍💻 Connect to your software:** Easily integrate Forms into your service with our full-fledged [REST-API](https://github.com/nextcloud/forms/blob/main/docs/API.md).\n- **🙋 Get involved!** We have lots of stuff planned like more question types, collaboration on forms, [and much more](https://github.com/nextcloud/forms/milestones)!",
     "homepage": "https://github.com/nextcloud/forms",
     "licenses": [
@@ -720,9 +720,9 @@
     ]
   },
   "gpxpod": {
-    "hash": "sha256-tCiwWa7ZCDI6qGt2rrOsmbX9N0hOfnoRRHl7uM5Lnf4=",
-    "url": "https://github.com/julien-nc/gpxpod/releases/download/v7.0.1/gpxpod-7.0.1.tar.gz",
-    "version": "7.0.1",
+    "hash": "sha256-gyBRA3EW3mjFTBj0sgjYiZjQt04riKJvCoNZJtjN/ck=",
+    "url": "https://github.com/julien-nc/gpxpod/releases/download/v7.0.2/gpxpod-7.0.2.tar.gz",
+    "version": "7.0.2",
     "description": "# GpxPod Nextcloud application\n\nDisplay, analyse, compare and share GPS track files.\n\n🌍 Help us to translate this app on [GpxPod Crowdin project](https://crowdin.com/project/gpxpod).\n\nGpxPod:\n\n* 🗺 can display your gpx/kml/tcx/igc/fit files\n* 📏 supports metric, english and nautical measure systems\n* 🗠 draws interactive chart for elevation, speed, pace or any extension data\n* 🗠 use line gradient color for track lines with speed, elevation, pace or any extension data\n* 🗠 shows track statistics\n* 🖻 displays geotagged pictures\n* 🖧 generates public links pointing to a track/folder\n* 🗠 can correct tracks elevations using SRTM data\n* ⚖ can make global comparison of multiple tracks\n* ⚖ can make visual pair comparison of divergent parts of similar tracks\n* 🀆 allows users to add personal map tile servers\n* 🖍 allows user to manually choose line color for each track\n* 🔒 works with encrypted data folder (server side encryption)\n* 🍂 proudly uses Leaflet and MapLibre GL\n\nLink to Nextcloud application website : https://apps.nextcloud.com/apps/gpxpod\n\n## Install\n\nSee the [AdminDoc](https://gitlab.com/eneiluj/gpxpod-oc/wikis/admindoc) for installation details\n\n## Known issues\n\n* *WARNING*, kml conversion will NOT work with recent kml files using the proprietary \"gx:track\" extension tag.\n\nAny feedback will be appreciated.\n\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://github.com/julien-nc/gpxpod",
     "licenses": [
@@ -1380,9 +1380,9 @@
     ]
   },
   "opencatalogi": {
-    "hash": "sha256-OJ7Y+bYCKJyX++jskzztQDzrP7en0tuSfEA+LhTMalo=",
-    "url": "https://github.com/ConductionNL/opencatalogi/releases/download/v0.6.23/opencatalogi-0.6.23.tar.gz",
-    "version": "0.6.23",
+    "hash": "sha256-Da45hsZ8tgKXQliiLLtkkDqsPOiemMrWth4ifVOBNgI=",
+    "url": "https://github.com/ConductionNL/opencatalogi/releases/download/v0.6.26/opencatalogi-0.6.26.tar.gz",
+    "version": "0.6.26",
     "description": "📰 A OpenCatalogi App for Nextcloud\n\nThe OpenCatalogi Nextcloud app provides a framework for federated catalogi to work together in an open data ecosystem\n\n- 📲 Synchronize your sources with multiple catalogi\n- 🔄 Automatic publications of your open data\n- 🆓 Free and open source under EUPL\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://conduction.gitbook.io/opencatalogi-nextcloud/installatie)\n\nThe Roadmap is available [here](https://github.com/orgs/OpenCatalogi/projects/1/views/2)\n\nCreate a [bug report](https://github.com/OpenCatalogi/.github/issues/new/choose)\n\nCreate a [feature request](https://github.com/OpenCatalogi/.github/issues/new/choose)",
     "homepage": "https://documentatie.opencatalogi.nl/",
     "licenses": [
@@ -2075,6 +2075,16 @@
     "version": "6.1.0",
     "description": "Allows flexible configuration of an OIDC server as Nextcloud login user backend.",
     "homepage": "https://github.com/nextcloud/user_oidc",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "user_pwauth": {
+    "hash": "sha256-YPXiHiZzykcPAOiIi/mCSTuz7O1FM0TtwtScdYiVueM=",
+    "url": "https://r.mateu.be/user_pwauth-2.8.2.tar.gz",
+    "version": "2.8.2",
+    "description": "Allows you to authenticate with the local users from the hosting machine onto your hosted NextCloud instance.",
+    "homepage": "",
     "licenses": [
       "agpl"
     ]
