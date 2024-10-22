@@ -320,8 +320,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -380,9 +380,9 @@
     ]
   },
   "dicomviewer": {
-    "hash": "sha256-pt8nsDDUUSJ0s0HBEBzNKAsBhZFNw5XSDqggoCb0Mhs=",
-    "url": "https://github.com/ayselafsar/dicomviewer/releases/download/v2.2.0/dicomviewer-2.2.0.tar.gz",
-    "version": "2.2.0",
+    "hash": "sha256-/rUSfqXGkhUTo2dF9T61FCUSpiHWVY0Wt4MzmtAD3cU=",
+    "url": "https://github.com/ayselafsar/dicomviewer/releases/download/v2.2.1/dicomviewer-2.2.1.tar.gz",
+    "version": "2.2.1",
     "description": "DICOM Viewer allows to display and manipulate DICOM images with a streamlined sidebar and viewer.\n\nIt renders DICOM data sets in 2D, 3D, and reconstructed representations; allows for the manipulation, annotation,\nand serialization of observations; supports internationalization, hotkeys, and many more features.\n\nSee [README](https://github.com/ayselafsar/dicomviewer) for a list of full features and future roadmap.",
     "homepage": "https://github.com/ayselafsar/dicomviewer",
     "licenses": [
@@ -500,9 +500,9 @@
     ]
   },
   "external": {
-    "hash": "sha256-7DxvOwy+AI/+t559ffqCIDBnyozxQTe1EhvbUhX64UY=",
-    "url": "https://github.com/nextcloud-releases/external/releases/download/v5.4.0/external-v5.4.0.tar.gz",
-    "version": "5.4.0",
+    "hash": "sha256-TngBiV30zDePz4o+ISUztXky5Gh7PGOz0osRrBILIB8=",
+    "url": "https://github.com/nextcloud-releases/external/releases/download/v5.4.1/external-v5.4.1.tar.gz",
+    "version": "5.4.1",
     "description": "This application allows an admin to add additional links into the Nextcloud menus.\nFollowing a link, the external website appears in the Nextcloud frame.\nIt is also possible to add links only for a given language, device type or user group.\n\nMore information is available in the External sites documentation.",
     "homepage": "https://github.com/nextcloud/external",
     "licenses": [
@@ -1660,9 +1660,9 @@
     ]
   },
   "opencatalogi": {
-    "hash": "sha256-Da45hsZ8tgKXQliiLLtkkDqsPOiemMrWth4ifVOBNgI=",
-    "url": "https://github.com/ConductionNL/opencatalogi/releases/download/v0.6.26/opencatalogi-0.6.26.tar.gz",
-    "version": "0.6.26",
+    "hash": "sha256-+iB8QvyQX1AAKhfYSovjva0Y2n5gFOhJowZXRLXdmoI=",
+    "url": "https://github.com/ConductionNL/opencatalogi/releases/download/v0.6.29/opencatalogi-0.6.29.tar.gz",
+    "version": "0.6.29",
     "description": "📰 A OpenCatalogi App for Nextcloud\n\nThe OpenCatalogi Nextcloud app provides a framework for federated catalogi to work together in an open data ecosystem\n\n- 📲 Synchronize your sources with multiple catalogi\n- 🔄 Automatic publications of your open data\n- 🆓 Free and open source under EUPL\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://conduction.gitbook.io/opencatalogi-nextcloud/installatie)\n\nThe Roadmap is available [here](https://github.com/orgs/OpenCatalogi/projects/1/views/2)\n\nCreate a [bug report](https://github.com/OpenCatalogi/.github/issues/new/choose)\n\nCreate a [feature request](https://github.com/OpenCatalogi/.github/issues/new/choose)",
     "homepage": "https://documentatie.opencatalogi.nl/",
     "licenses": [
@@ -1690,10 +1690,10 @@
     ]
   },
   "openincryptpad": {
-    "hash": "sha256-9iT5Q98/XXDhghqCJLnTV6zTEAISRZWnWvpG88pPVqA=",
-    "url": "https://github.com/cryptpad/nextcloud-open-in-cryptpad/releases/download/v0.3.5/openincryptpad.tar.gz",
-    "version": "0.3.5",
-    "description": "# Open In CryptPad\n\n\"Open in CryptPad\" is a Nextcloud application that allows collaborative editing\nof files. For this it uses a CryptPad instance embedded into the Nextcloud web\ninterface. Currently, only drawio diagrams are supported.\n\n## Importing images from Nextcloud into diagrams\n\nWith this app, you can import images from Nextcloud into\ndiagrams. These images are not embedded, but linked to their\nsource in Nextcloud. **To achieve this, imported images are made\npublic via a secret link to the image.**\n\n## Rights management\n\nWhen using this app, the file permissions are completely handled by\nNextcloud. The right's management of CryptPad is not used for Nextcloud\nfiles edited in CryptPad.\n\n## Installation\n\n### Prerequisites on the CryptPad side\n\nTo embed CryptPad into Nextcloud, the \"Enable remote embedding\" admin setting\nneeds to be enabled. You can find this setting on the \"Administration\" web\ninterface in the \"General\" tab.\n\n### Install from Nextcloud app store\n\n1. Add drawio mimetype to Nextcloud. \"Open in CryptPad\" depends on Nextcloud\n   detecting drawio files correctly. For this you have to create the following\n   files: (**Note:** do this before uploading any drawio files! The mimetype of\n   old files will not be updated by these changes)\n    - `nextcloud/config/mimetypealiases.json`\n\n        ``` json\n        {\n            \"application/x-drawio\": \"image\"\n        }\n        ```\n\n    - `nextcloud/config/mimetypemapping.json`\n\n        ``` json\n        {\n            \"drawio\": [\"application/x-drawio\"]\n        }\n        ```\n2. Open the \"Apps\" page in your Nextcloud web interface and install \"Open in\n   CryptPad\". You can find it in the \"Integration\" category.\n3. Configure \"Open in CryptPad\" in the administration settings of Nextcloud.",
+    "hash": "sha256-04dJEH9mwuNGbi2MxPzmcoCwH+p4NRmcHSNX7j7Eyr0=",
+    "url": "https://github.com/cryptpad/nextcloud-open-in-cryptpad/releases/download/v0.3.6/openincryptpad.tar.gz",
+    "version": "0.3.6",
+    "description": "# Open In CryptPad\n\n\"Open in CryptPad\" is a Nextcloud application that allows collaborative editing\nof files. For this it uses a CryptPad instance embedded into the Nextcloud web\ninterface. Currently, only drawio diagrams are supported.\n\n## Importing images from Nextcloud into diagrams\n\nWith this app, you can import images from Nextcloud into\ndiagrams. A copy of the image will be stored inside the `.drawio` file.\n\n## Rights management\n\nWhen using this app, the file permissions are completely handled by\nNextcloud. The right's management of CryptPad is not used for Nextcloud\nfiles edited in CryptPad.\n\n## Installation\n\n### Prerequisites on the CryptPad side\n\nTo embed CryptPad into Nextcloud, the \"Enable remote embedding\" admin setting\nneeds to be enabled. You can find this setting on the \"Administration\" web\ninterface in the \"General\" tab.\n\n### Install from Nextcloud app store\n\n1. Add drawio mimetype to Nextcloud. \"Open in CryptPad\" depends on Nextcloud\n   detecting drawio files correctly. For this you have to create the following\n   files: (**Note:** do this before uploading any drawio files! The mimetype of\n   old files will not be updated by these changes)\n    - `nextcloud/config/mimetypealiases.json`\n\n        ``` json\n        {\n            \"application/x-drawio\": \"image\"\n        }\n        ```\n\n    - `nextcloud/config/mimetypemapping.json`\n\n        ``` json\n        {\n            \"drawio\": [\"application/x-drawio\"]\n        }\n        ```\n2. Open the \"Apps\" page in your Nextcloud web interface and install \"Open in\n   CryptPad\". You can find it in the \"Integration\" category.\n3. Configure \"Open in CryptPad\" in the administration settings of Nextcloud.",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -1720,9 +1720,9 @@
     ]
   },
   "openregister": {
-    "hash": "sha256-Fy6kop9sji4z8ZRlDi0YK9TN7/irydFIDLLJIVRyHms=",
-    "url": "https://github.com/ConductionNL/openregister/releases/download/v0.1.15/openregister-0.1.15.tar.gz",
-    "version": "0.1.15",
+    "hash": "sha256-HoniMty1TdNoZoXmKhjvrkhKBMCqkQE9i0L79E+lQ9k=",
+    "url": "https://github.com/ConductionNL/openregister/releases/download/v0.1.19/openregister-0.1.19.tar.gz",
+    "version": "0.1.19",
     "description": "📰 An OpenRegister App for Nextcloud\n\nThe OpenRegister Nextcloud app provides a framework for federated registers to work together in an open data ecosystem\n\n- 📲 Synchronize your sources with multiple registers\n- 🔄 Automatic publications of your open data\n- 🆓 Free and open source under EUPL\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://conduction.gitbook.io/openregister-nextcloud/installatie)\n\nThe Roadmap is available [here](https://github.com/orgs/OpenRegister/projects/1/views/2)\n\nCreate a [bug report](https://github.com/OpenRegister/.github/issues/new/choose)\n\nCreate a [feature request](https://github.com/OpenRegister/.github/issues/new/choose)",
     "homepage": "https://github.com/ConductionNL/OpenRegister",
     "licenses": [
