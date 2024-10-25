@@ -280,8 +280,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -680,9 +680,9 @@
     ]
   },
   "gdatavaas": {
-    "hash": "sha256-yfHygwECwD8pkRtU7gNou3dXe/9qvEZhfDFrOU3i8nQ=",
-    "url": "https://github.com/GDATASoftwareAG/nextcloud-gdata-antivirus/releases/download/30.1.1/gdatavaas.tar.gz",
-    "version": "30.1.1",
+    "hash": "sha256-uK7cyUE4cXWn1G9keAt5ZmeIi1uY61T429X/HnVuhjA=",
+    "url": "https://github.com/GDATASoftwareAG/nextcloud-gdata-antivirus/releases/download/30.1.2/gdatavaas.tar.gz",
+    "version": "30.1.2",
     "description": "The [G DATA Antivirus app](https://github.com/GDATASoftwareAG/nextcloud-gdata-antivirus) is an additional layer of security for your Nextcloud server. Easily scan files for malicious content.\n\n* 🚀 **Integration with the Flow App!** Use the tags to trigger flows\n* ☢️ **Blocks uploads of malicious files!** Prevents the upload of malicious files by scanning them on upload\n* 🙋 **User notifications!** Users are notified about the scan results\n* 🕵️‍♂️ **Automatic scans!** Automatically scans all files in the background\n* ⏰ **Customize what should and should not be scanned!** Configuration via Block- and Allowlist\n* ❓ **Use the activity app!** See what happened in your Nextcloud instance\n* ✅ **no additional software required!** The app uses the G DATA Verdict as a Service (VaaS) API to scan files\n\n## Getting started\n\nThis app is based on the G DATA Verdict as a Service (VaaS) API. To get started with the app, you must either register via our [registration page](https://vaas.gdata.de/login) or host the backend yourself. If you have any questions about self-hosting the backend, please contact us by email or take a look at [this](https://github.com/GDATASoftwareAG/vaas-helm) repository containing the Helm charts.\n\n![Image](https://raw.githubusercontent.com/GDATASoftwareAG/nextcloud-gdata-antivirus/main/img/vaas-registration.png)\n\nAfter the registration you can use these credentials within your nextcloud installation. To do this go to your Administration Settings.\n\n![Image](https://raw.githubusercontent.com/GDATASoftwareAG/nextcloud-gdata-antivirus/main/img/administration-settings.png)\n\nThere you will find the \"Verdict-as-a-Service\" section under the \"Administration\" section.\n\n![Image](https://raw.githubusercontent.com/GDATASoftwareAG/nextcloud-gdata-antivirus/main/img/verdict-as-a-service-section.png)\n\nPlease make sure the \"Authentication Method\" \"Resource Owner Password Flow\" is selected. Now you can put your credentials into the 'username' and 'password' field and click save afterwards.",
     "homepage": "https://github.com/GDATASoftwareAG/nextcloud-gdata-antivirus",
     "licenses": [
@@ -740,9 +740,9 @@
     ]
   },
   "gpxpod": {
-    "hash": "sha256-Z6qgOvJWMWkxrtn2baeJNhQY+C11qqkGC2M+0K/r+Qg=",
-    "url": "https://github.com/julien-nc/gpxpod/releases/download/v7.0.3/gpxpod-7.0.3.tar.gz",
-    "version": "7.0.3",
+    "hash": "sha256-VcspeY89Gn8z/+MM3hReamTeJX/oRjMPPGytTM4Mub8=",
+    "url": "https://github.com/julien-nc/gpxpod/releases/download/v7.0.4/gpxpod-7.0.4.tar.gz",
+    "version": "7.0.4",
     "description": "# GpxPod Nextcloud application\n\nDisplay, analyse, compare and share GPS track files.\n\n🌍 Help us to translate this app on [GpxPod Crowdin project](https://crowdin.com/project/gpxpod).\n\nGpxPod:\n\n* 🗺 can display your gpx/kml/tcx/igc/fit files\n* 📏 supports metric, english and nautical measure systems\n* 🗠 draws interactive chart for elevation, speed, pace or any extension data\n* 🗠 use line gradient color for track lines with speed, elevation, pace or any extension data\n* 🗠 shows track statistics\n* 🖻 displays geotagged pictures\n* 🖧 generates public links pointing to a track/folder\n* 🗠 can correct tracks elevations using SRTM data\n* ⚖ can make global comparison of multiple tracks\n* ⚖ can make visual pair comparison of divergent parts of similar tracks\n* 🀆 allows users to add personal map tile servers\n* 🖍 allows user to manually choose line color for each track\n* 🔒 works with encrypted data folder (server side encryption)\n* 🍂 proudly uses Leaflet and MapLibre GL\n\nLink to Nextcloud application website : https://apps.nextcloud.com/apps/gpxpod\n\n## Install\n\nSee the [AdminDoc](https://gitlab.com/eneiluj/gpxpod-oc/wikis/admindoc) for installation details\n\n## Known issues\n\n* *WARNING*, kml conversion will NOT work with recent kml files using the proprietary \"gx:track\" extension tag.\n\nAny feedback will be appreciated.\n\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://github.com/julien-nc/gpxpod",
     "licenses": [
@@ -1660,9 +1660,9 @@
     ]
   },
   "repod": {
-    "hash": "sha256-F2S2MqLj4yHlcvQgIJI5LO3xk8TZMMQPf/8iwvCsMCA=",
-    "url": "https://git.crystalyx.net/Xefir/repod/releases/download/3.3.0/repod.tar.gz",
-    "version": "3.3.0",
+    "hash": "sha256-1yhoX56Def3FqJZuYO3sILB5HRTJ44jUqeBrNWW8NEw=",
+    "url": "https://git.crystalyx.net/Xefir/repod/releases/download/3.3.2/repod.tar.gz",
+    "version": "3.3.2",
     "description": "## Features\n- 🔍 Browse and subscribe huge collection of podcasts\n- 🔊 Listen to episodes directly in Nextcloud\n- 🌐 Sync your activity with [AntennaPod](https://antennapod.org/) and [other apps](https://git.crystalyx.net/Xefir/repod#clients-supporting-sync-of-gpoddersync)\n- 📱 Mobile friendly interface\n- 📡 Import and export your subscriptions\n- ➡️ Full features comparison [here](https://git.crystalyx.net/Xefir/repod#comparaison-with-similar-apps-for-nextcloud)\n\n## Requirements\nYou need to have [GPodderSync](https://apps.nextcloud.com/apps/gpoddersync) installed to use this app!",
     "homepage": "https://git.crystalyx.net/Xefir/repod",
     "licenses": [
@@ -1750,10 +1750,10 @@
     ]
   },
   "sfbridge": {
-    "hash": "sha256-TqaqEbZFXgq31KZie3ywDhLjb4pLdI27oS1+ZCpXTBA=",
-    "url": "https://github.com/Rello/sfbridge/releases/download/0.4.0/sfbridge-0.4.0.tar.gz",
-    "version": "0.4.0",
-    "description": "This automation in Nextcloud bridges the gap between financial transactions and Salesforce.\nPaypal or bank transactions like donations or payments can be synchronized with the Salesforce Nonprofit Success Pack (NPSP).\n\n##### Features\n- Paypal: Read transaction history\n- Bank (via API): Read transaction history\n- Salesforce: Create Household/Organization accounts and contact on demand\n- Salesforce: Create/update Opportunities/Payments/Allocations\n- Salesforce: Link Opportunities to Campaigns\n- Nextcloud: Automation via background job\n- Nextcloud: Notifications for new transactions\n\n##### Please check GitHub for details first!",
+    "hash": "sha256-7k37X9pQ2YiZFhhsihwsxuEESvxsHFfdPZxuZ/+ny9I=",
+    "url": "https://github.com/Rello/sfbridge/releases/download/0.5.0/sfbridge-0.5.0.tar.gz",
+    "version": "0.5.0",
+    "description": "This automation in Nextcloud bridges the gap between financial transactions and Salesforce.\nPaypal or bank transactions like donations or payments can be synchronized with the Salesforce Nonprofit Success Pack (NPSP).\n\n##### Features\n- Paypal: Read transaction history\n- Bank (via API): Read transaction history\n- Salesforce: Create Household/Organization accounts and contact on demand\n- Salesforce: Create/update Opportunities/Payments/Allocations\n- Salesforce: Link Opportunities to Campaigns\n- Nextcloud: Automation via background job\n- Nextcloud: Notifications for new transactions\n- Nextcloud: Using Talk room for update history\n\n##### Please check GitHub for details first!",
     "homepage": "https://github.com/Rello/sfbridge",
     "licenses": [
       "agpl"
