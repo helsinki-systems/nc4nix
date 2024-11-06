@@ -550,9 +550,9 @@
     ]
   },
   "files_external_ethswarm": {
-    "hash": "sha256-20R3BMp19Oy6UXIdSeb7pkvh0yYSIoRErCp3loWaZN0=",
-    "url": "https://github.com/MetaProvide/nextcloud-swarm-plugin/releases/download/v0.5.5/files_external_ethswarm.tar.gz",
-    "version": "0.5.5",
+    "hash": "sha256-qjxlf2njDvxuUoRvDZ3AB4ojtbt6rAzChX5rLApVDyo=",
+    "url": "https://github.com/MetaProvide/nextcloud-swarm-plugin/releases/download/v0.5.6/files_external_ethswarm.tar.gz",
+    "version": "0.5.6",
     "description": "*Bring decentralized, sovereign cloud storage to Nextcloud with the Hejbit Swarm plugin!*\n\nThis plugin integrates [Swarm](https://www.ethswarm.org/) (a decentralized, blockchain-connected file storage system) directly into your [Nextcloud ](https://nextcloud.com/)instance.\n\n## **Table of Contents**\n\n- [Dependencies](https://apps.nextcloud.com/apps/files_external_ethswarm#dependencies)\n- [Setup and Installation](https://apps.nextcloud.com/apps/files_external_ethswarm#setup-and-installation)\n- [Usage](https://apps.nextcloud.com/apps/files_external_ethswarm#usage)\n  - [Settings](https://apps.nextcloud.com/apps/files_external_ethswarm#settings)\n  - [Using Swarm](https://apps.nextcloud.com/apps/files_external_ethswarm#using-swarm)\n- Hejbit [License](https://apps.nextcloud.com/apps/files_external_ethswarm#license)\n\n## **Dependencies**\n\nBefore using the plugin, ensure you have the following:\n\n- An active Nextcloud instance (version 28,29 or 30)\n- A valid license and URL to activate the service\n  - [Request Your Free Nextcloud Swarm Plugin Trial License](#)\n\n## **Setup and Installation**\n\nFollow these steps to configure Hejbit Swarm in Nextcloud:\n\n1. Ensure the **External Storage** plugin is enabled.\n2. Install the **External Storage: Hejbit Swarm** app from the Nextcloud App Store.\n3. Navigate to External Storage Administration: Profile menu -> Settings -> External Storage.\n4. Create a new external storage with a folder name of your choice and select *'Swarm'* as the storage type. Then, enter the license key and URL configuration.\n\n## **Usage**\n\nOnce installed, Hejbit integrates Swarm directly with Nextcloud’s \"Files\" section, allowing seamless file operations:\n\n- **Upload:** Transfer files to decentralized storage.\n- **Download:** Retrieve and view files from decentralized storage.\n- **Copy/Move:** Shift files between any external storage and decentralized storage\n\n### **Settings**\n\nUsers with administrative credentials can configure the plugin through the standard External Storage settings. Here, you can input your license key and URL for Hejbit.\n\n### **Using Hejbit Swarm**\n\nOnce setup and configured, the Decentralized Storage is ready to use.\n\n- Access the Decentralized Storage folder under \"All Files\" or via the \"Files\" menu under \"External Storage.\"\n- Once uploaded, it can be viewed internally or downloaded. It can also be copied to another storage.\n- Files from another Nextcloud storage can also be copied/moved to the decentralized storage. Choose the decentralized storage folder as the target Folder.\n- Right-click on a Swarm file to copy the Swarm reference (hash) to your clipboard. Alternatively, click the three dots in the Actions menu and select 'Copy Swarm Reference.' The Swarm reference is the unique address of the file on the Swarm network.\n\n### **Hejbit Licence**\n\nExperience the future of data storage with 5GB of free, decentralized storage on the Ethereum Swarm network. Our plugin seamlessly integrates with your existing Nextcloud interface, providing true data sovereignty without the complexity.\n\n[Get your free licence here!](https://metaprovide.org/hejbit/start) .",
     "homepage": "https://github.com/MetaProvide/nextcloud-swarm-plugin",
     "licenses": [
@@ -930,9 +930,9 @@
     ]
   },
   "integration_github": {
-    "hash": "sha256-ruLN4lw3Vy8OavTYm1g2L9q1wusRP0a+BpvfXkrZI3A=",
-    "url": "https://github.com/nextcloud-releases/integration_github/releases/download/v3.0.0/integration_github-v3.0.0.tar.gz",
-    "version": "3.0.0",
+    "hash": "sha256-pM6ecBrApDHZjd84mCVKyfRHVBcUNkfeu7bggvgITWk=",
+    "url": "https://github.com/nextcloud-releases/integration_github/releases/download/v3.1.0/integration_github-v3.1.0.tar.gz",
+    "version": "3.1.0",
     "description": "GitHub integration provides a dashboard widget displaying your most important notifications\n    and a unified search provider for repositories, issues and pull requests. It also provides a link reference provider\n    to render links to issues, pull requests and comments in Talk and Text.",
     "homepage": "https://github.com/nextcloud/integration_github",
     "licenses": [
@@ -1269,6 +1269,16 @@
       "agpl"
     ]
   },
+  "listman": {
+    "hash": "sha256-21Yrave6Osknd5rPeM/i7DXeZN96DyVtyQBZEjphwow=",
+    "url": "https://dalliance.net/listman/listman-29.0.8.tar.gz",
+    "version": "29.0.8",
+    "description": "This is a simple app for managing mail-lists with the Nextcloud System. Each Nextcloud user may create multiple mail-lists, circulate subscribe forms, send messages to the members of the list etc. It has a separate SMTP configuration visible only to nextcloud admin-users.\\n\\nOnly admins can send to lists, not for a shared discussion.\\n\\nNew in version 20.1.0 - actually works!\\n\\nNew in version 20.1.1 - Import CSV of list-members\\n\\nJuly 2022: New in version 20.2.1 - Option for ssl/tls encryption, page to get HTML of react-widget so it can be embedded elsewhere\\n\\nAugust 2022: New in version 20.2.2 - compatibility fixes for php7.4 and php8.\\n\\nNov 2023: new in version 27.1.2 - fixes for broken scrolling, 27.1.3 - fix scroll in web-view\\n\\n27.1.4 - Fix misc errors from upgrade to PHP8",
+    "homepage": "https://github.com/revpriest/listman",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "login_notes": {
     "hash": "sha256-+2+V81y9VQ6zaQUKYpLEi/4BwjLrnP5n+L1eLiUy9mk=",
     "url": "https://packages.framasoft.org/projects/nextcloud-apps/login-notes/login_notes-1.6.1.tar.gz",
@@ -1470,9 +1480,9 @@
     ]
   },
   "openconnector": {
-    "hash": "sha256-9/bU3B6LoKwvdMZU3z8TuK1T2ks8jdRpn4hyPOxaC+U=",
-    "url": "https://github.com/ConductionNL/openconnector/releases/download/v0.1.14/openconnector-0.1.14.tar.gz",
-    "version": "0.1.14",
+    "hash": "sha256-C/4zr5i4RKEumascSlL0PEDo3kyvQvg1o+CzDzakJ60=",
+    "url": "https://github.com/ConductionNL/openconnector/releases/download/v0.1.15/openconnector-0.1.15.tar.gz",
+    "version": "0.1.15",
     "description": "📰 Bringing Gateway and Service bus functionality to nextcloud\n\nThe OpenConnector Nextcloud app provides a ESB-framework to work together in an (open) data ecosystem\n\n- 📲 Synchronize your data sources \n- 📰 Send cloud events\n- 🆓 Map and translate API calls",
     "homepage": "https://github.com/ConductionNL/OpenConnector",
     "licenses": [
