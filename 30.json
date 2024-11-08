@@ -549,6 +549,16 @@
       "agpl"
     ]
   },
+  "files_emailviewer": {
+    "hash": "sha256-R8tFp8Rye8A2Pyimq1lAZW6k9XLJA/cn85vJWrrGq9I=",
+    "url": "https://github.com/nextcloud-releases/files_emailviewer/releases/download/v0.1.2/files_emailviewer-v0.1.2.tar.gz",
+    "version": "0.1.2",
+    "description": "## Email Viewer integrates the excellent Email to PDF Converter into Nextcloud, enabling you to view .msg and .eml files.\n\n### Requirements\n\n- Nextcloud 28 or newer\n- PDF Viewer for Nextcloud\n- PHP proc_open\n- OpenJDK\n- [wkhtmltopdf](https://wkhtmltopdf.org/)\n- [Email to PDF Converter](https://github.com/nickrussler/email-to-pdf-converter)\n\n### Installation\n\n- Download and enable files_emailviewer\n- Store a copy of the Email to PDF Converter on the server, ensuring that Nextcloud has access to it\n- Set the path to Email to PDF Converter via `occ config:app:set --value /opt/emailconverter-3.0.0-all.jar files_emailviewer binary_path`\n- Upload a .msg or .eml file and view it directly in Nextcloud 🙌\n\n### Outgoing connections\n\n- If the email contains images from external sources, the Email to PDF converter will download the images, requiring external connections\n- The current version does not consider Nextcloud's proxy configuration but should follow the system default",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "files_external_ethswarm": {
     "hash": "sha256-qjxlf2njDvxuUoRvDZ3AB4ojtbt6rAzChX5rLApVDyo=",
     "url": "https://github.com/MetaProvide/nextcloud-swarm-plugin/releases/download/v0.5.6/files_external_ethswarm.tar.gz",
@@ -1140,9 +1150,9 @@
     ]
   },
   "integration_youtube": {
-    "hash": "sha256-tIy65PM6LvhpRNEVyG0dUoGZeiFqUbcyYrbILcOTlNo=",
-    "url": "https://github.com/nextcloud-releases/integration_youtube/releases/download/v0.3.0/integration_youtube-v0.3.0.tar.gz",
-    "version": "0.3.0",
+    "hash": "sha256-8+LC5kB4oSTqnOYCg+TZjVsWVcgCg2p2D5YtD0EOzdU=",
+    "url": "https://github.com/nextcloud-releases/integration_youtube/releases/download/v0.3.1/integration_youtube-v0.3.1.tar.gz",
+    "version": "0.3.1",
     "description": "Youtube integration providing an inline video player for link previews, a smart picker and search provider for searching Youtube videos, channels, and playlists.\n\nConfiguration:\n\nSet an API key in the Administration settings -> Connected Accounts -> Youtube Integration section to allow the search and smart picker\n\nNote: The search and smart picker functionality is disabled by default. Users can opt-in to enable them from their respective settings.",
     "homepage": "https://github.com/nextcloud/integration_youtube",
     "licenses": [
@@ -1250,10 +1260,10 @@
     ]
   },
   "libresign": {
-    "hash": "sha256-an3xbSk4lfOE7ZqhAKpXW47TkO4IkwkRn+k/QUWNSdA=",
-    "url": "https://github.com/LibreSign/libresign/releases/download/v10.0.2/libresign-v10.0.2.tar.gz",
-    "version": "10.0.2",
-    "description": "**This is a libre digital PDF signature app for Nextcloud**\n\n* ✍️ **Sign PDF** documents using digital certificates\n* 🔄 **Hybrid signatures**: You can choose between personal or system-generated digital certificates\n* 👥 **Multiple signers**: Request signature on a document for as many people as you need\n* 📸 **QR Code**: Document validation by QR Code\n* 🔒 **Privacy**: Fully self-hosted document signer\n* 📲 **Connect to your software**: Easily integrate [LibreSign](https://libresign.coop) into your service with our full-fledged\n* 🙋 **Get involved**! We have lots of stuff planned. More informations at [LibreSign](https://github.com/libresign/libresign) repository.\n\n🌍 Help us translate this application on [Transifex](https://app.transifex.com/nextcloud/nextcloud/libresign/)\n\nIf you enjoy this app and want to help maintain its development or want enterprise support, please contact us:\n\n[https://libresign.coop](https://libresign.coop)\n\n## Donation\n\nDeveloped with ❤️ by [LibreCode](https://librecode.coop). Help us transform people and businesses through cooperativism.\n\n* [Donate with GitHub Sponsor: ![Donate using GitHub Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/libresign)",
+    "hash": "sha256-KBXQH2LIFeWBjfPivK/yPdZN2QkfFek83ORW+sFUE0U=",
+    "url": "https://github.com/LibreSign/libresign/releases/download/v10.1.0/libresign-v10.1.0.tar.gz",
+    "version": "10.1.0",
+    "description": "**This is a libre digital PDF signature app for Nextcloud**\n\n* ✍️ **Sign PDF** documents using digital certificates\n* 🔄 **Hybrid signatures**: You can choose between personal or system-generated digital certificates\n* 👥 **Multiple signers**: Request signature on a document for as many people as you need\n* 📸 **QR Code**: Document validation by QR Code\n* 🔒 **Privacy**: Fully self-hosted document signer\n* 📲 **Connect to your software**: Easily integrate [LibreSign](https://libresign.coop) into your service with our full-fledged [REST-API](https://libresign.coop/posts/libresign-api-guide/).\n* 🙋 **Get involved**! We have lots of stuff planned. More information at [LibreSign](https://github.com/libresign/libresign) repository.\n\n🌍 Help us translate this application on [Transifex](https://app.transifex.com/nextcloud/nextcloud/libresign/)\n\nIf you enjoy this app and want to help maintain its development or want enterprise support, please contact us:\n\n[https://libresign.coop](https://libresign.coop)\n\n## Donation\n\nDeveloped with ❤️ by [LibreCode](https://librecode.coop). Help us transform people and businesses through cooperativism.\n\n* [Donate with GitHub Sponsor: ![Donate using GitHub Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/libresign)",
     "homepage": "https://github.com/LibreSign/libresign",
     "licenses": [
       "agpl"
@@ -1740,9 +1750,9 @@
     ]
   },
   "richdocumentscode": {
-    "hash": "sha256-aVgItROMQ0sO6JmJ33PAaxdU2hrCrZBvIADSoNZ2QYw=",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/24.4.802/richdocumentscode.tar.gz",
-    "version": "24.4.802",
+    "hash": "sha256-ylKSLp3BaO+fHdz42/nwfW6R4xr/jdD2a1NDugqnsOI=",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/24.4.902/richdocumentscode.tar.gz",
+    "version": "24.4.902",
     "description": "**This app has to be installed and used together with the [Nextcloud Office](https://apps.nextcloud.com/apps/richdocuments) integration app.**\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\n* This app provides a built-in server with all of the document editing features of Collabora Online.\n* Easy to install, for personal use or for small teams.\n* A bit slower than a standalone server and without the advanced scalability features.\n\n**System Requirements:**\n- Linux running on ```x86-64``` or ```arm64/aarch64```\n- A ```glibc``` based distribution/container (```musl libc``` is **not** supported)\n- Fontconfig (```libfontconfig.so.1```)\n- Additional requirements can be found in [here](https://github.com/CollaboraOnline/richdocumentscode#richdocumentscode)\n\n*The download is rather big so it is possible you will experience a time-out when installing via the web interface.* You can use the OCC command install the built-in server from the command-line instead:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)\n\nAdditional troubleshooting tips can be found [here](https://github.com/CollaboraOnline/richdocumentscode?tab=readme-ov-file#troubleshooting).",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -1750,9 +1760,9 @@
     ]
   },
   "richdocumentscode_arm64": {
-    "hash": "sha256-hhw+g7o7xp+St59Z+HthCCvhvb/NZhV6vAQLlOyrf0s=",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/24.4.802/richdocumentscode_arm64.tar.gz",
-    "version": "24.4.802",
+    "hash": "sha256-ok8w9jvCugyMscs23Yg+xbNsbBRklkbVfj9aERfB8oo=",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/24.4.902/richdocumentscode_arm64.tar.gz",
+    "version": "24.4.902",
     "description": "**This app has to be installed and used together with the [Nextcloud Office](https://apps.nextcloud.com/apps/richdocuments) integration app.**\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\n* This app provides a built-in server with all of the document editing features of Collabora Online.\n* Easy to install, for personal use or for small teams.\n* A bit slower than a standalone server and without the advanced scalability features.\n\n**System Requirements:**\n- Linux running on ```x86-64``` or ```arm64/aarch64```\n- A ```glibc``` based distribution/container (```musl libc``` is **not** supported)\n- Fontconfig (```libfontconfig.so.1```)\n- Additional requirements can be found in [here](https://github.com/CollaboraOnline/richdocumentscode#richdocumentscode)\n\n*The download is rather big so it is possible you will experience a time-out when installing via the web interface.* You can use the OCC command install the built-in server from the command-line instead:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode_arm64\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)\n\nAdditional troubleshooting tips can be found [here](https://github.com/CollaboraOnline/richdocumentscode?tab=readme-ov-file#troubleshooting).",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -1760,9 +1770,9 @@
     ]
   },
   "riotchat": {
-    "hash": "sha256-54tZUV2NVobRsoqiNxs+Fa4Ij5xlI7RnMEBVr34xOzE=",
-    "url": "https://github.com/gary-kim/riotchat/releases/download/v0.18.3/riotchat.tar.gz",
-    "version": "0.18.3",
+    "hash": "sha256-nkMN9SSfO8wXzwgsxRIzuPe/l8tqvk0ZRvwdMN/tOcg=",
+    "url": "https://github.com/gary-kim/riotchat/releases/download/v0.18.4/riotchat.tar.gz",
+    "version": "0.18.4",
     "description": "Element for Nextcloud allows you to install Element Web easily through Nextcloud and join the Matrix decentralized communication network.\n\nThis app does not include a Matrix server, only the client. You will have to either set up your own Matrix homeserver, rent one, or use a public one.\n\nThis project is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Element or the Element project, or any of its subsidiaries or its affiliates.\n\nThe name Element as well as related names, marks, emblems and images are registered trademarks of their respective owners.\n\nThe upstream project can be found at [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web).",
     "homepage": "https://github.com/gary-kim/riotchat",
     "licenses": [
@@ -2030,9 +2040,9 @@
     ]
   },
   "spreed": {
-    "hash": "sha256-mUJmbOMMIkm/83a+7xcW59TTar58D4l0Ek+kZoRdxG8=",
-    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v20.0.1/spreed-v20.0.1.tar.gz",
-    "version": "20.0.1",
+    "hash": "sha256-LSU++gw715ub6OGZBZtL/NnLkoz3c+vR7/2Dii3WnOo=",
+    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v20.0.2/spreed-v20.0.2.tar.gz",
+    "version": "20.0.2",
     "description": "Chat, video & audio-conferencing using WebRTC\n\n* 💬 **Chat** Nextcloud Talk comes with a simple text chat, allowing you to share or upload files from your Nextcloud Files app or local device and mention other participants.\n* 👥 **Private, group, public and password protected calls!** Invite someone, a whole group or send a public link to invite to a call.\n* 🌐 **Federated chats** Chat with other Nextcloud users on their servers\n* 💻 **Screen sharing!** Share your screen with the participants of your call.\n* 🚀 **Integration with other Nextcloud apps** like Files, Calendar, User status, Dashboard, Flow, Maps, Smart picker, Contacts, Deck, and many more.\n* 🌉 **Sync with other chat solutions** With [Matterbridge](https://github.com/42wim/matterbridge/) being integrated in Talk, you can easily sync a lot of other chat solutions to Nextcloud Talk and vice-versa.",
     "homepage": "https://github.com/nextcloud/spreed",
     "licenses": [

@@ -1420,9 +1420,9 @@
     ]
   },
   "integration_youtube": {
-    "hash": "sha256-tIy65PM6LvhpRNEVyG0dUoGZeiFqUbcyYrbILcOTlNo=",
-    "url": "https://github.com/nextcloud-releases/integration_youtube/releases/download/v0.3.0/integration_youtube-v0.3.0.tar.gz",
-    "version": "0.3.0",
+    "hash": "sha256-8+LC5kB4oSTqnOYCg+TZjVsWVcgCg2p2D5YtD0EOzdU=",
+    "url": "https://github.com/nextcloud-releases/integration_youtube/releases/download/v0.3.1/integration_youtube-v0.3.1.tar.gz",
+    "version": "0.3.1",
     "description": "Youtube integration providing an inline video player for link previews, a smart picker and search provider for searching Youtube videos, channels, and playlists.\n\nConfiguration:\n\nSet an API key in the Administration settings -> Connected Accounts -> Youtube Integration section to allow the search and smart picker\n\nNote: The search and smart picker functionality is disabled by default. Users can opt-in to enable them from their respective settings.",
     "homepage": "https://github.com/nextcloud/integration_youtube",
     "licenses": [
@@ -2150,9 +2150,9 @@
     ]
   },
   "richdocumentscode": {
-    "hash": "sha256-aVgItROMQ0sO6JmJ33PAaxdU2hrCrZBvIADSoNZ2QYw=",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/24.4.802/richdocumentscode.tar.gz",
-    "version": "24.4.802",
+    "hash": "sha256-ylKSLp3BaO+fHdz42/nwfW6R4xr/jdD2a1NDugqnsOI=",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/24.4.902/richdocumentscode.tar.gz",
+    "version": "24.4.902",
     "description": "**This app has to be installed and used together with the [Nextcloud Office](https://apps.nextcloud.com/apps/richdocuments) integration app.**\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\n* This app provides a built-in server with all of the document editing features of Collabora Online.\n* Easy to install, for personal use or for small teams.\n* A bit slower than a standalone server and without the advanced scalability features.\n\n**System Requirements:**\n- Linux running on ```x86-64``` or ```arm64/aarch64```\n- A ```glibc``` based distribution/container (```musl libc``` is **not** supported)\n- Fontconfig (```libfontconfig.so.1```)\n- Additional requirements can be found in [here](https://github.com/CollaboraOnline/richdocumentscode#richdocumentscode)\n\n*The download is rather big so it is possible you will experience a time-out when installing via the web interface.* You can use the OCC command install the built-in server from the command-line instead:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)\n\nAdditional troubleshooting tips can be found [here](https://github.com/CollaboraOnline/richdocumentscode?tab=readme-ov-file#troubleshooting).",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -2160,9 +2160,9 @@
     ]
   },
   "richdocumentscode_arm64": {
-    "hash": "sha256-hhw+g7o7xp+St59Z+HthCCvhvb/NZhV6vAQLlOyrf0s=",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/24.4.802/richdocumentscode_arm64.tar.gz",
-    "version": "24.4.802",
+    "hash": "sha256-ok8w9jvCugyMscs23Yg+xbNsbBRklkbVfj9aERfB8oo=",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/24.4.902/richdocumentscode_arm64.tar.gz",
+    "version": "24.4.902",
     "description": "**This app has to be installed and used together with the [Nextcloud Office](https://apps.nextcloud.com/apps/richdocuments) integration app.**\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\n* This app provides a built-in server with all of the document editing features of Collabora Online.\n* Easy to install, for personal use or for small teams.\n* A bit slower than a standalone server and without the advanced scalability features.\n\n**System Requirements:**\n- Linux running on ```x86-64``` or ```arm64/aarch64```\n- A ```glibc``` based distribution/container (```musl libc``` is **not** supported)\n- Fontconfig (```libfontconfig.so.1```)\n- Additional requirements can be found in [here](https://github.com/CollaboraOnline/richdocumentscode#richdocumentscode)\n\n*The download is rather big so it is possible you will experience a time-out when installing via the web interface.* You can use the OCC command install the built-in server from the command-line instead:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode_arm64\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)\n\nAdditional troubleshooting tips can be found [here](https://github.com/CollaboraOnline/richdocumentscode?tab=readme-ov-file#troubleshooting).",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
