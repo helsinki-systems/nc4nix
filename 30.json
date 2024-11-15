@@ -300,8 +300,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -550,10 +550,10 @@
     ]
   },
   "files_emailviewer": {
-    "hash": "sha256-R8tFp8Rye8A2Pyimq1lAZW6k9XLJA/cn85vJWrrGq9I=",
-    "url": "https://github.com/nextcloud-releases/files_emailviewer/releases/download/v0.1.2/files_emailviewer-v0.1.2.tar.gz",
-    "version": "0.1.2",
-    "description": "## Email Viewer integrates the excellent Email to PDF Converter into Nextcloud, enabling you to view .msg and .eml files.\n\n### Requirements\n\n- Nextcloud 28 or newer\n- PDF Viewer for Nextcloud\n- PHP proc_open\n- OpenJDK\n- [wkhtmltopdf](https://wkhtmltopdf.org/)\n- [Email to PDF Converter](https://github.com/nickrussler/email-to-pdf-converter)\n\n### Installation\n\n- Download and enable files_emailviewer\n- Store a copy of the Email to PDF Converter on the server, ensuring that Nextcloud has access to it\n- Set the path to Email to PDF Converter via `occ config:app:set --value /opt/emailconverter-3.0.0-all.jar files_emailviewer binary_path`\n- Upload a .msg or .eml file and view it directly in Nextcloud 🙌\n\n### Outgoing connections\n\n- If the email contains images from external sources, the Email to PDF converter will download the images, requiring external connections\n- The current version does not consider Nextcloud's proxy configuration but should follow the system default",
+    "hash": "sha256-1WAPJ9+80ou3RhtBBFvorlh4c4+6Fox1G4eRJ57U5rc=",
+    "url": "https://github.com/nextcloud-releases/files_emailviewer/releases/download/v0.1.3/files_emailviewer-v0.1.3.tar.gz",
+    "version": "0.1.3",
+    "description": "### Email Viewer integrates the excellent Email to PDF Converter into Nextcloud, enabling you to view .msg and .eml files.\n\n#### Requirements\n\n- Nextcloud 28 or newer\n- PDF Viewer for Nextcloud\n- PHP proc_open\n- OpenJDK\n- [wkhtmltopdf](https://wkhtmltopdf.org/)\n- [Email to PDF Converter](https://github.com/nickrussler/email-to-pdf-converter)\n\n#### Installation\n\n- Download and enable files_emailviewer\n- Store a copy of the Email to PDF Converter on the server, ensuring that Nextcloud has access to it\n- Set the path to Email to PDF Converter via `occ config:app:set --value /opt/emailconverter-3.0.0-all.jar files_emailviewer binary_path`\n- Upload a .msg or .eml file and view it directly in Nextcloud 🙌\n\n#### Outgoing connections\n\n- If the email contains images from external sources, the Email to PDF converter will download the images, requiring external connections\n- The current version does not consider Nextcloud's proxy configuration but should follow the system default",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -2380,9 +2380,9 @@
     ]
   },
   "zaakafhandelapp": {
-    "hash": "sha256-IS67lEhUiGgE9Pyskcj9NaCJsyHnqYZreueRqZgefw0=",
-    "url": "https://github.com/ConductionNL/zaakafhandelapp/releases/download/v0.1.6/zaakafhandelapp-0.1.6.tar.gz",
-    "version": "0.1.6",
+    "hash": "sha256-NFvDWTjuHJTZoQuupVugA+LJfo2kTcFCKaHgJw7NWZU=",
+    "url": "https://github.com/ConductionNL/zaakafhandelapp/releases/download/v0.1.7/zaakafhandelapp-0.1.7.tar.gz",
+    "version": "0.1.7",
     "description": "📰 Brinning Gateway and Service bus functionality to nextcloud\n\nThe OpenCatalogi Nextcloud app provides a framework for federated catalogi to work together in an open data ecosystem\n\n- 📲 Synchronize your data sources \n- 📰 Send cloud eventt\n- 🆓 Map and translate api calls\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://conduction.gitbook.io/opencatalogi-nextcloud/installatie)\n\nThe Roadmap is available [here](https://github.com/orgs/OpenCatalogi/projects/1/views/2)\n\nCreate a [bug report](https://github.com/OpenCatalogi/.github/issues/new/choose)\n\nCreate a [feature request](https://github.com/OpenCatalogi/.github/issues/new/choose)",
     "homepage": "https://github.com/ConductionNL/zaakafhandelapp",
     "licenses": [
