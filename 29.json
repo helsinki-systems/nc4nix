@@ -1069,6 +1069,16 @@
       "agpl"
     ]
   },
+  "integration_documenso": {
+    "hash": "sha256-WrHJvFrNII1+W1pI8mkMB6NDutMvn5Zgvo358Vj6p3k=",
+    "url": "https://github.com/nextcloud-releases/integration_documenso/releases/download/v1.0.4/integration_documenso-v1.0.4.tar.gz",
+    "version": "1.0.3",
+    "description": "Sign files via Documenso Service.",
+    "homepage": "https://github.com/nextcloud/integration_documenso",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "integration_docusign": {
     "hash": "sha256-4G+7u/yLrl+ToQDPr2FwA1AaElVivLP0yBslxW0DLY0=",
     "url": "https://github.com/nextcloud-releases/integration_docusign/releases/download/v2.0.2/integration_docusign-v2.0.2.tar.gz",
@@ -1460,9 +1470,9 @@
     ]
   },
   "libresign": {
-    "hash": "sha256-Ns+lWmxzvTe6GGTf2+OpWG6ChMkV/XOGqzn5ii0nrZ4=",
-    "url": "https://github.com/LibreSign/libresign/releases/download/v9.4.0/libresign-v9.4.0.tar.gz",
-    "version": "9.4.0",
+    "hash": "sha256-l4jfkdJoUpmF2Lu2tdJQZ7Znfh60c/vtkRL2xZj7H6s=",
+    "url": "https://github.com/LibreSign/libresign/releases/download/v9.5.0/libresign-v9.5.0.tar.gz",
+    "version": "9.5.0",
     "description": "**This is a libre digital PDF signature app for Nextcloud**\n\n* ✍️ **Sign PDF** documents using digital certificates\n* 🔄 **Hybrid signatures**: You can choose between personal or system-generated digital certificates\n* 👥 **Multiple signers**: Request signature on a document for as many people as you need\n* 📸 **QR Code**: Document validation by QR Code\n* 🔒 **Privacy**: Fully self-hosted document signer\n* 📲 **Connect to your software**: Easily integrate [LibreSign](https://libresign.coop) into your service with our full-fledged [REST-API](https://libresign.coop/posts/libresign-api-guide/).\n* 🙋 **Get involved**! We have lots of stuff planned. More information at [LibreSign](https://github.com/libresign/libresign) repository.\n\n🌍 Help us translate this application on [Transifex](https://app.transifex.com/nextcloud/nextcloud/libresign/)\n\nIf you enjoy this app and want to help maintain its development or want enterprise support, please contact us:\n\n[https://libresign.coop](https://libresign.coop)\n\n## Donation\n\nDeveloped with ❤️ by [LibreCode](https://librecode.coop). Help us transform people and businesses through cooperativism.\n\n* [Donate with GitHub Sponsor: ![Donate using GitHub Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/libresign)",
     "homepage": "https://github.com/LibreSign/libresign",
     "licenses": [
@@ -1920,9 +1930,9 @@
     ]
   },
   "previewgenerator": {
-    "hash": "sha256-hjlwZfgfoH3iqbtJrPovgBC0Tu/vBhFqC752DZvndFY=",
-    "url": "https://github.com/nextcloud-releases/previewgenerator/releases/download/v5.6.0/previewgenerator-v5.6.0.tar.gz",
-    "version": "5.6.0",
+    "hash": "sha256-kTYmN/tAJwjj2KwnrKVIZa5DhyXHjuNWNskqJZxs4sY=",
+    "url": "https://github.com/nextcloud-releases/previewgenerator/releases/download/v5.7.0/previewgenerator-v5.7.0.tar.gz",
+    "version": "5.7.0",
     "description": "The Preview Generator app allows admins to pre-generate previews. The app listens to edit events and stores this information. Once a cron job is triggered it will generate start preview generation. This means that you can better utilize your system by pre-generating previews when your system is normally idle and thus putting less load on your machine when the requests are actually served.\n\nThe app does not replace on demand preview generation so if a preview is requested before it is pre-generated it will still be shown.\nThe first time you install this app, before using a cron job, you properly want to generate all previews via:\n**./occ preview:generate-all -vvv**\n\n**Important**: To enable pre-generation of previews you must add **php /var/www/nextcloud/occ preview:pre-generate** to a system cron job that runs at times of your choosing.",
     "homepage": "https://github.com/nextcloud/previewgenerator",
     "licenses": [

@@ -350,8 +350,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -2110,9 +2110,9 @@
     ]
   },
   "previewgenerator": {
-    "hash": "sha256-hjlwZfgfoH3iqbtJrPovgBC0Tu/vBhFqC752DZvndFY=",
-    "url": "https://github.com/nextcloud-releases/previewgenerator/releases/download/v5.6.0/previewgenerator-v5.6.0.tar.gz",
-    "version": "5.6.0",
+    "hash": "sha256-kTYmN/tAJwjj2KwnrKVIZa5DhyXHjuNWNskqJZxs4sY=",
+    "url": "https://github.com/nextcloud-releases/previewgenerator/releases/download/v5.7.0/previewgenerator-v5.7.0.tar.gz",
+    "version": "5.7.0",
     "description": "The Preview Generator app allows admins to pre-generate previews. The app listens to edit events and stores this information. Once a cron job is triggered it will generate start preview generation. This means that you can better utilize your system by pre-generating previews when your system is normally idle and thus putting less load on your machine when the requests are actually served.\n\nThe app does not replace on demand preview generation so if a preview is requested before it is pre-generated it will still be shown.\nThe first time you install this app, before using a cron job, you properly want to generate all previews via:\n**./occ preview:generate-all -vvv**\n\n**Important**: To enable pre-generation of previews you must add **php /var/www/nextcloud/occ preview:pre-generate** to a system cron job that runs at times of your choosing.",
     "homepage": "https://github.com/nextcloud/previewgenerator",
     "licenses": [
