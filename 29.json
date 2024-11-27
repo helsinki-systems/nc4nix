@@ -10,9 +10,9 @@
     ]
   },
   "analytics": {
-    "hash": "sha256-d0kt1mGO5eVmj39aqywUBLXmI4x0FgkDqEHFBONugG0=",
-    "url": "https://github.com/Rello/analytics/releases/download/5.0.1/analytics-5.0.1.tar.gz",
-    "version": "5.0.1",
+    "hash": "sha256-0XNPzW0yfNX16sGTVfbaA6KLQaoXgLRFZ1QBImRXoxU=",
+    "url": "https://github.com/Rello/analytics/releases/download/5.1.0/analytics-5.1.0.tar.gz",
+    "version": "5.1.0",
     "description": "Connect data from different sources in one place.\nUse flexible Panoramas and reports with seamless Nextcloud integration.\nVisualize and share anything, from financial analysis to IoT logs.\n\n\n#### Features:\n- Visualization: **Panoramas**, reports, charts, tables, filters\n- Data sources:\n  - csv, spreadsheet, API, import, manual entry\n  - Nextcloud Files, Forms, Tables\n  - external: GitHub, website grabber, JSON\n- Register external data sources from other apps\n- Storage: **real-time** or database\n- Advanced data loads with scheduling\n- Analysis functions: **trend**, dis-/aggregation\n- Thresholds for alerts and color coding\n- Sharing: user, groups, link\n- Integration: Files, Activity, Notifications, Flow, Dashboard, Search, Smart picker, Translation\n- **AI Assistant**: Context Chat integration",
     "homepage": "https://rello.github.io/analytics/",
     "licenses": [
@@ -60,9 +60,9 @@
     ]
   },
   "appointments": {
-    "hash": "sha256-4BAvhYUCiFdKUI9lYZX6kW2TIDm7iYVa7F9178Dqkzk=",
-    "url": "https://github.com/SergeyMosin/Appointments/raw/refs/tags/v2.3.2/build/artifacts/appstore/appointments.tar.gz",
-    "version": "2.3.2",
+    "hash": "sha256-uSa8WQAap1aPhdnKE4pZbAbTlBvgVTmIM07wnlFTAxM=",
+    "url": "https://github.com/SergeyMosin/Appointments/raw/refs/tags/v2.3.3/build/artifacts/appstore/appointments.tar.gz",
+    "version": "2.3.3",
     "description": "Book appointments into your calendar via secure online form. Attendees can confirm or cancel their appointments via an email link.",
     "homepage": "https://www.srgdev.com/lab/nextcloud-appointments/",
     "licenses": [
@@ -330,8 +330,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -650,9 +650,9 @@
     ]
   },
   "files_external_ethswarm": {
-    "hash": "sha256-YBvW//zDMAwLox+vW/Nh7rD7tR8bXz2NvY9O+sJ3JAc=",
-    "url": "https://github.com/MetaProvide/nextcloud-swarm-plugin/releases/download/v0.5.7/files_external_ethswarm.tar.gz",
-    "version": "0.5.7",
+    "hash": "sha256-CyH8idvk7WHz6LUMJFquUvM8j2cZ2b/X8cTe+n20ROo=",
+    "url": "https://github.com/MetaProvide/nextcloud-swarm-plugin/releases/download/v0.5.8/files_external_ethswarm.tar.gz",
+    "version": "0.5.8",
     "description": "*Bring decentralized, sovereign cloud storage to Nextcloud with the Hejbit Swarm plugin!*\n\nThis plugin integrates [Swarm](https://www.ethswarm.org/) (a decentralized, blockchain-connected file storage system) directly into your [Nextcloud ](https://nextcloud.com/)instance.\n\n## **Table of Contents**\n\n- [Dependencies](https://apps.nextcloud.com/apps/files_external_ethswarm#dependencies)\n- [Setup and Installation](https://apps.nextcloud.com/apps/files_external_ethswarm#setup-and-installation)\n- [Usage](https://apps.nextcloud.com/apps/files_external_ethswarm#usage)\n  - [Settings](https://apps.nextcloud.com/apps/files_external_ethswarm#settings)\n  - [Using Swarm](https://apps.nextcloud.com/apps/files_external_ethswarm#using-swarm)\n- Hejbit [License](https://apps.nextcloud.com/apps/files_external_ethswarm#license)\n\n## **Dependencies**\n\nBefore using the plugin, ensure you have the following:\n\n- An active Nextcloud instance (version 28,29 or 30)\n- A valid license and URL to activate the service\n  - [Request Your Free Nextcloud Swarm Plugin Trial License](#)\n\n## **Setup and Installation**\n\nFollow these steps to configure Hejbit Swarm in Nextcloud:\n\n1. Ensure the **External Storage** plugin is enabled.\n2. Install the **External Storage: Hejbit Swarm** app from the Nextcloud App Store.\n3. Navigate to External Storage Administration: Profile menu -> Settings -> External Storage.\n4. Create a new external storage with a folder name of your choice and select *'Swarm'* as the storage type. Then, enter the license key and URL configuration.\n\n## **Usage**\n\nOnce installed, Hejbit integrates Swarm directly with Nextcloud’s \"Files\" section, allowing seamless file operations:\n\n- **Upload:** Transfer files to decentralized storage.\n- **Download:** Retrieve and view files from decentralized storage.\n- **Copy/Move:** Shift files between any external storage and decentralized storage\n\n### **Settings**\n\nUsers with administrative credentials can configure the plugin through the standard External Storage settings. Here, you can input your license key and URL for Hejbit.\n\n### **Using Hejbit Swarm**\n\nOnce setup and configured, the Decentralized Storage is ready to use.\n\n- Access the Decentralized Storage folder under \"All Files\" or via the \"Files\" menu under \"External Storage.\"\n- Once uploaded, it can be viewed internally or downloaded. It can also be copied to another storage.\n- Files from another Nextcloud storage can also be copied/moved to the decentralized storage. Choose the decentralized storage folder as the target Folder.\n- Right-click on a Swarm file to copy the Swarm reference (hash) to your clipboard. Alternatively, click the three dots in the Actions menu and select 'Copy Swarm Reference.' The Swarm reference is the unique address of the file on the Swarm network.\n\n### **Hejbit Licence**\n\nExperience the future of data storage with 5GB of free, decentralized storage on the Ethereum Swarm network. Our plugin seamlessly integrates with your existing Nextcloud interface, providing true data sovereignty without the complexity.\n\n[Get your free licence here!](https://metaprovide.org/hejbit/start) .",
     "homepage": "https://github.com/MetaProvide/nextcloud-swarm-plugin",
     "licenses": [
@@ -695,6 +695,16 @@
     "version": "29.0.1",
     "description": "Allow your users to temporary lock their files to avoid conflicts while working on shared files.",
     "homepage": "https://github.com/nextcloud/files_lock",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "files_mindmap": {
+    "hash": "sha256-USwTVkcEDzmaJMMaztf86yag5t7b79sQW8OOHEw0hec=",
+    "url": "https://github.com/ACTom/files_mindmap/releases/download/v0.0.31/files_mindmap-0.0.31.tar.gz",
+    "version": "0.0.31",
+    "description": "This application enables Nextcloud users to open, save and edit mind map files in the web browser. If enabled, an entry in the New button at the top of the web browser the Mindmap file entry appears. When clicked, a new mindmap file opens in the browser and the file can be saved into the current Nextcloud directory.",
+    "homepage": "https://github.com/ACTom/files_mindmap",
     "licenses": [
       "agpl"
     ]
@@ -930,10 +940,10 @@
     ]
   },
   "groupfolders": {
-    "hash": "sha256-/pREdGW7kM2imVx6Jk5iZ9odQpk/93AwkFECVPJhyuI=",
-    "url": "https://github.com/nextcloud-releases/groupfolders/releases/download/v17.0.5/groupfolders-v17.0.5.tar.gz",
-    "version": "17.0.5",
-    "description": "Admin configured folders shared with everyone in a group.\n\nFolders can be configured from *Group folders* in the admin settings.\n\nAfter a folder is created, the admin can give access to the folder to one or more groups, control their write/sharing permissions and assign a quota for the folder.",
+    "hash": "sha256-Mkt6rp/cFSQE6WnSE1Xds57qcuEfEQj3Y//2E6gVI4o=",
+    "url": "https://github.com/nextcloud-releases/groupfolders/releases/download/v17.0.6/groupfolders-v17.0.6.tar.gz",
+    "version": "17.0.6",
+    "description": "Admin configured folders shared with everyone in a group.\n\nFolders can be configured from *Group folders* in the admin settings.\n\nAfter a folder is created, the admin can give access to the folder to one or more groups, control their write/sharing permissions and assign a quota for the folder.\n\nNote: Encrypting the contents of group folders is currently not supported.",
     "homepage": "https://github.com/nextcloud/groupfolders",
     "licenses": [
       "agpl"
@@ -1470,9 +1480,9 @@
     ]
   },
   "libresign": {
-    "hash": "sha256-cOXetQ59CsaibhLykoVFW6SEVVy2drkv0AzqDoyoG8E=",
-    "url": "https://github.com/LibreSign/libresign/releases/download/v9.7.0/libresign-v9.7.0.tar.gz",
-    "version": "9.7.0",
+    "hash": "sha256-i6OoXAh8YVBMb3c+Bady8EGZZ9cMbCDQU2jANjIll1s=",
+    "url": "https://github.com/LibreSign/libresign/releases/download/v9.7.1/libresign-v9.7.1.tar.gz",
+    "version": "9.7.1",
     "description": "**This is a libre digital PDF signature app for Nextcloud**\n\n* ✍️ **Sign PDF** documents using digital certificates\n* 🔄 **Hybrid signatures**: You can choose between personal or system-generated digital certificates\n* 👥 **Multiple signers**: Request signature on a document for as many people as you need\n* 📸 **QR Code**: Document validation by QR Code\n* 🔒 **Privacy**: Fully self-hosted document signer\n* 📲 **Connect to your software**: Easily integrate [LibreSign](https://libresign.coop) into your service with our full-fledged [REST-API](https://libresign.coop/posts/libresign-api-guide/).\n* 🙋 **Get involved**! We have lots of stuff planned. More information at [LibreSign](https://github.com/libresign/libresign) repository.\n\n🌍 Help us translate this application on [Transifex](https://app.transifex.com/nextcloud/nextcloud/libresign/)\n\nIf you enjoy this app and want to help maintain its development or want enterprise support, please contact us:\n\n[https://libresign.coop](https://libresign.coop)\n\n## Donation\n\nDeveloped with ❤️ by [LibreCode](https://librecode.coop). Help us transform people and businesses through cooperativism.\n\n* [Donate with GitHub Sponsor: ![Donate using GitHub Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/libresign)",
     "homepage": "https://github.com/LibreSign/libresign",
     "licenses": [
@@ -1740,10 +1750,10 @@
     ]
   },
   "openconnector": {
-    "hash": "sha256-zghFbMxr2N7PXh8RSD0a0DvvxxaIQC/kZxeSF2HugAI=",
-    "url": "https://github.com/ConductionNL/openconnector/releases/download/v0.1.18/openconnector-0.1.18.tar.gz",
-    "version": "0.1.18",
-    "description": "📰 Bringing Gateway and Service bus functionality to nextcloud\n\nThe OpenConnector Nextcloud app provides a ESB-framework to work together in an (open) data ecosystem\n\n- 📲 Synchronize your data sources \n- 📰 Send cloud events\n- 🆓 Map and translate API calls",
+    "hash": "sha256-ouQk/69PJOAg30eUNbqV/jBoPRw+X4p6VeYCyOJf+Iw=",
+    "url": "https://github.com/ConductionNL/openconnector/releases/download/v0.1.19/openconnector-0.1.19.tar.gz",
+    "version": "0.1.19",
+    "description": "📰 Bringing Gateway and Service bus functionality to nextcloud\n\nThe OpenConnector Nextcloud app provides a ESB-framework to work together in an (open) data ecosystem\n\n- 📲 Synchronize your data sources\n- 📰 Send cloud events\n- 🆓 Map and translate API calls",
     "homepage": "https://github.com/ConductionNL/OpenConnector",
     "licenses": [
       "agpl"
@@ -2210,9 +2220,9 @@
     ]
   },
   "shifts": {
-    "hash": "sha256-C0n6TZCG8e8RVElOji6KLzj94Sv87XY2uezcmUrA6Og=",
-    "url": "https://github.com/csoc-de/Shifts/releases/download/v1.9.9/shifts-1.9.9.tar.gz",
-    "version": "1.9.9",
+    "hash": "sha256-0OWLW/wHaL1H7wWmi0n2+jQZPYcIYkq6Sys4V3+xwK4=",
+    "url": "https://github.com/csoc-de/Shifts/releases/download/v1.9.10/shifts-1.9.10.tar.gz",
+    "version": "1.9.10",
     "description": "* **Interactions with the Nextcloud Calender app!** Easy integration into the existing Calender of Nextcloud.\n* **Manage and organize your Shifts System!** Customize your Shifts Model with different Shifttypes\n* **Separation of Users by different Nextcloud user Groups!** Divide your Workforce with different Skill-Levels\n\nMore to come:\n* Further maturing of the app\n* Individualisation\n\n\nIf you experience any issues or have any suggestions for improvement, please feel free to use the issue tracker.",
     "homepage": "https://github.com/csoc-de/Shifts",
     "licenses": [
@@ -2860,9 +2870,9 @@
     ]
   },
   "zaakafhandelapp": {
-    "hash": "sha256-Y/rR73NIRz86ZbV4sToCicOXHCPO/VaFlCtQCI524js=",
-    "url": "https://github.com/ConductionNL/zaakafhandelapp/releases/download/v0.1.8/zaakafhandelapp-0.1.8.tar.gz",
-    "version": "0.1.8",
+    "hash": "sha256-+UO7zUPOpgSx/rqjb27feh3Vt/FsEbFyp42MyoibHV0=",
+    "url": "https://github.com/ConductionNL/zaakafhandelapp/releases/download/v0.1.9/zaakafhandelapp-0.1.9.tar.gz",
+    "version": "0.1.9",
     "description": "📰 Brinning Gateway and Service bus functionality to nextcloud\n\nThe OpenCatalogi Nextcloud app provides a framework for federated catalogi to work together in an open data ecosystem\n\n- 📲 Synchronize your data sources \n- 📰 Send cloud eventt\n- 🆓 Map and translate api calls\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://conduction.gitbook.io/opencatalogi-nextcloud/installatie)\n\nThe Roadmap is available [here](https://github.com/orgs/OpenCatalogi/projects/1/views/2)\n\nCreate a [bug report](https://github.com/OpenCatalogi/.github/issues/new/choose)\n\nCreate a [feature request](https://github.com/OpenCatalogi/.github/issues/new/choose)",
     "homepage": "https://github.com/ConductionNL/zaakafhandelapp",
     "licenses": [
