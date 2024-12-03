@@ -300,8 +300,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -1340,9 +1340,9 @@
     ]
   },
   "mail": {
-    "hash": "sha256-aogC0OaShMKiQX6nJ5/i90OZhtm6/BSe9KrcUqZ6dhc=",
-    "url": "https://github.com/nextcloud-releases/mail/releases/download/v4.0.6/mail-stable4.0.tar.gz",
-    "version": "4.0.6",
+    "hash": "sha256-m3S4PWNsToqP0QodpJopt0A7nBVB/3vvZA92C9viiNk=",
+    "url": "https://github.com/nextcloud-releases/mail/releases/download/v4.0.7/mail-stable4.0.tar.gz",
+    "version": "4.0.7",
     "description": "**💌 A mail app for Nextcloud**\n\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://horde.org) libraries.\n- **📬 Want to host your own mail server?** We do not have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!\n\n## Ethical AI Rating\n\n### Priority Inbox\n\nPositive:\n* The software for training and inferencing of this model is open source.\n* The model is created and trained on-premises based on the user's own data.\n* The training data is accessible to the user, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n### Thread Summaries (opt-in)\n\n**Rating:** 🟢/🟡/🟠/🔴\n\nThe rating depends on the installed text processing backend. See [the rating overview](https://docs.nextcloud.com/server/latest/admin_manual/ai/index.html) for details.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/mail#readme",
     "licenses": [
@@ -1405,6 +1405,16 @@
     "version": "0.21.0",
     "description": "A plugin which displays file metadata in the file details sidebar.\n\nSee the [README](https://github.com/gino0631/nextcloud-metadata/blob/master/README.md) for the supported file types and limitations.",
     "homepage": "https://github.com/gino0631/nextcloud-metadata",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "mfazones": {
+    "hash": "sha256-MEFYnf53aCkqmy2TqXuyv8dQ4xudB5LlSQWipt3cPBU=",
+    "url": "https://github.com/SUNET/nextcloud-mfazones/releases/download/v0.2.2/mfazones-0.2.2.tar.gz",
+    "version": "0.2.2",
+    "description": "A plugin to restrict access to files with mfazone tag\n\nThis app will make it possible to designate certain directories as `mfazones` and only users who have a valid MFA token will be able to access them.\n\nThe app uses the workflow engine to enforce the restriction.\n\nSee the [README](https://github.com/SUNET/nextcloud-mfazones/blob/main/README.md) for more information.",
+    "homepage": "",
     "licenses": [
       "agpl"
     ]
@@ -1550,9 +1560,9 @@
     ]
   },
   "openconnector": {
-    "hash": "sha256-/blVhrEomOCqzc18WnjSXsFHFd1acYN0chma843Ywa4=",
-    "url": "https://github.com/ConductionNL/openconnector/releases/download/v0.1.22/openconnector-0.1.22.tar.gz",
-    "version": "0.1.22",
+    "hash": "sha256-xMfMrnen0SRqbU4g9YIPid3yBAW6hQpq8Hg4GWesrwo=",
+    "url": "https://github.com/ConductionNL/openconnector/releases/download/v0.1.23/openconnector-0.1.23.tar.gz",
+    "version": "0.1.23",
     "description": "📰 Bringing Gateway and Service bus functionality to nextcloud\n\nThe OpenConnector Nextcloud app provides a ESB-framework to work together in an (open) data ecosystem\n\n- 📲 Synchronize your data sources\n- 📰 Send cloud events\n- 🆓 Map and translate API calls",
     "homepage": "https://github.com/ConductionNL/OpenConnector",
     "licenses": [
@@ -2119,12 +2129,32 @@
       "agpl"
     ]
   },
+  "stepupauth": {
+    "hash": "sha256-rhtY8Du8okqi7FtTGD8+vJeP9mDV4ej6n7OOteMfofE=",
+    "url": "https://github.com/SUNET/nextcloud-stepupauth/releases/download/v0.2.1/stepupauth-0.2.1.tar.gz",
+    "version": "0.2.1",
+    "description": "The Step Auth App allows SSO accounts to validate a second factor.",
+    "homepage": "https://github.com/SUNET/nextcloud-stepupauth",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "tables": {
     "hash": "sha256-053WH0QI/vhhj7IBWSO0eOM7NyRngSsbUVciykZr8Fo=",
     "url": "https://github.com/nextcloud-releases/tables/releases/download/v0.8.1/tables-v0.8.1.tar.gz",
     "version": "0.8.1",
     "description": "Manage data the way you need it.\n\nWith this app you are able to create your own tables with individual columns. You can start with a template or from scratch and add your wanted columns.\nYou can choose from the following column types:\n- Text line or rich text\n- Link to urls or other nextcloud resources\n- Numbers\n- Progress bar\n- Stars rating\n- Yes/No tick\n- Date and/or time\n- (Multi) selection\n\nShare your tables and views with users and groups within your cloud.\n\nHave a good time and manage whatever you want.",
     "homepage": "https://github.com/nextcloud/tables",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "talk_matterbridge": {
+    "hash": "sha256-Nhm8YFgMoaLNUvv93oK+ty2uLYQRuCLl3K03WuOYHIA=",
+    "url": "https://github.com/nextcloud/talk_matterbridge/releases/download/v1.30.1026000/talk_matterbridge-1.30.1026000.tar.gz",
+    "version": "1.30.1026000",
+    "description": "This app brings the Matterbridge binary to your server to connect Nextcloud Talk with other chat services.\nThis allows admins to easily install and keep updated the Matterbridge binaries through a familiar interface.\n\nThe last number of the version is the shipped Matterbridge binary version.\nBinary is licensed under Apache-2.0 License.",
+    "homepage": "https://github.com/nextcloud/talk_matterbridge",
     "licenses": [
       "agpl"
     ]
@@ -2450,9 +2480,9 @@
     ]
   },
   "zaakafhandelapp": {
-    "hash": "sha256-GVau3i4ep0D6PZT/CP85FVIKiGDJBHPECc7T6Uk6xwA=",
-    "url": "https://github.com/ConductionNL/zaakafhandelapp/releases/download/v/zaakafhandelapp-.tar.gz",
-    "version": "0.1.9",
+    "hash": "sha256-t27tW2SadThoa6xd8YhQMnLNjFMcDau3OCiNiJvt3oo=",
+    "url": "https://github.com/ConductionNL/zaakafhandelapp/releases/download/v0.1.14/zaakafhandelapp-0.1.14.tar.gz",
+    "version": "0.1.14",
     "description": "📰 Brinning Gateway and Service bus functionality to nextcloud\n\nThe OpenCatalogi Nextcloud app provides a framework for federated catalogi to work together in an open data ecosystem\n\n- 📲 Synchronize your data sources \n- 📰 Send cloud eventt\n- 🆓 Map and translate api calls\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://conduction.gitbook.io/opencatalogi-nextcloud/installatie)\n\nThe Roadmap is available [here](https://github.com/orgs/OpenCatalogi/projects/1/views/2)\n\nCreate a [bug report](https://github.com/OpenCatalogi/.github/issues/new/choose)\n\nCreate a [feature request](https://github.com/OpenCatalogi/.github/issues/new/choose)",
     "homepage": "https://github.com/ConductionNL/zaakafhandelapp",
     "licenses": [
