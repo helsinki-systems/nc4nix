@@ -40,9 +40,9 @@
     ]
   },
   "antonyapi": {
-    "hash": "sha256-Y7ds1ekUkfMWK8iXlXPsET1/Fq3ibP1VK/LkM6OQwPs=",
-    "url": "https://www.die-groupware.de/hubfs/download-files/antonyapi-0.0.2.tar.gz",
-    "version": "0.0.2",
+    "hash": "",
+    "url": "https://www.die-groupware.de/hubfs/download-files/antonyapi-0.0.3.tar.gz",
+    "version": "0.0.3",
     "description": "Dieses Plugin erweitert die Funktionen der antony Groupware in Verbindung mit dem Nextcloud-Modul.",
     "homepage": "",
     "licenses": [
@@ -105,6 +105,16 @@
     "version": "1.6.0",
     "description": "Automatically add users to the specified Auto Groups, except those users belonging to one of the specified Override Groups. \nOptionally, the group assignment can be triggered on every successful login, which is useful for external user backends.\n\n## Configuration\n\n- Go to \"Settings > Administration > Additional settings\"\n- Configure the Auto Groups\n- If required, configure the Override Groups (e.g., for Service Accounts)\n- Optionally, enable the Login Hook, which will enforce correct group membership on every successful login\n\nNote that this app prevents group deletions for groups referenced as Auto Groups or Override Groups.\n\n## Comparison to similar Apps\n\n* [Everyone Group](https://apps.nextcloud.com/apps/group_everyone): The \"Everyone Group\" app adds a virtual Group Backend, always returning all users. In contrast, \"Auto Groups\" operates on \"real\" groups in your normal Group Backend. Additionally, it is possible to specify Override Groups which will prevent users from being added to the Auto Group(s).\n* [Default Group](https://apps.nextcloud.com/apps/defaultgroup): \"Auto Groups\" is actually a modernized and maintaned fork of \"Default Group\", which seems to be abandoned since NC12 or so. In terms of functionality, they are almost identical.\n\nIn addition, I plan to add some more features over time, e.g., \"Union Groups\" - see the [Milestone Plans](https://github.com/stjosh/auto_groups/milestones) for more details.",
     "homepage": "https://github.com/stjosh/auto_groups",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "bbb": {
+    "hash": "sha256-vMKqyMm/Zz6W4IF65n8ek5cafgXD881B7Ql1Hfk3h+g=",
+    "url": "https://github.com/littleredbutton/cloud_bbb/releases/download/v2.7.3/bbb-v2.7.3.tar.gz",
+    "version": "2.7.3",
+    "description": "This app allows to create meetings with an external installation of [BigBlueButton](https://bigbluebutton.org).\n\n* **Room setup** Create multiple room configurations with name, welcome message …\n* **Share guest link** Share the room link with all your guests\n* **Share moderator link** Invite moderators to the room\n* **Share rooms** Share rooms with members, groups or circles\n* **Custom presentation** Start a room with a selected presentation from your file browser\n* **Manage recordings** View, share and delete recordings for your rooms\n* **Restrictions** Restrict room creation to certain groups\n* **Activities** Get an overview of your room activities\n\nQuick start guide and further information in our [readme](https://github.com/littleredbutton/cloud_bbb).\nDo you like this application? Give something back to the open source community and checkout our\n[ways to contribute](https://github.com/littleredbutton/cloud_bbb/blob/master/.github/contributing.md).\n\nContributors are welcome! If you have time it would be awesome if you could help to enhance this application.\n\n*This app integrates BigBlueButton and is not endorsed or certified by BigBlueButton Inc. BigBlueButton and the BigBlueButton Logo are trademarks of BigBlueButton Inc.*",
+    "homepage": "https://github.com/littleredbutton/cloud_bbb/",
     "licenses": [
       "agpl"
     ]
@@ -1659,6 +1669,16 @@
       "agpl"
     ]
   },
+  "nextframe": {
+    "hash": "sha256-AnNUSwsOpDJr2nBYbZtDakUPIThJxp/9bc9nQI5tZpE=",
+    "url": "https://github.com/Thesola10/nextcloud-nextframe/releases/download/v0.0.6/nextframe.tar.gz",
+    "version": "0.0.6",
+    "description": "This app creates a simple translucent page with the common HTML components to any Nextcloud view, with a public and logged in variant.\nThis is meant to improve the &quot;togetherness&quot; of non-Nextcloud services.",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "nextpod": {
     "hash": "sha256-N5UobcaV14fYcjzANGycJbjUFWltiFMVDpt2mdH4zx4=",
     "url": "https://github.com/pbek/nextcloud-nextpod/releases/download/v0.7.6/nextpod-nc.tar.gz",
@@ -1700,9 +1720,9 @@
     ]
   },
   "officeonline": {
-    "hash": "sha256-Qsv6li823SWjxNL1zWHTHj4plsK1RmhPW6dbmK2EaAw=",
-    "url": "https://github.com/nextcloud-releases/officeonline/releases/download/v2.3.0/officeonline-v2.3.0.tar.gz",
-    "version": "2.3.0",
+    "hash": "sha256-Jz6bwtbeC1cyZ9hTt4I3hleGzAbvg9sVjgXE+GvfHvU=",
+    "url": "https://github.com/nextcloud-releases/officeonline/releases/download/v2.3.1/officeonline-v2.3.1.tar.gz",
+    "version": "2.3.1",
     "description": "This application can connect to an on-premise/self-hosted Microsoft Office Online Server which has added Nextcloud as a WOPI host.\n\n\t**Note: The cloud-based Office 365 is not supported.**\n\t\t\n\tMicrosoft Official Documentation: [Deploying Office Online Server](https://docs.microsoft.com/en-us/officeonlineserver/deploy-office-online-server)",
     "homepage": "",
     "licenses": [
@@ -1750,9 +1770,9 @@
     ]
   },
   "openconnector": {
-    "hash": "sha256-xMfMrnen0SRqbU4g9YIPid3yBAW6hQpq8Hg4GWesrwo=",
-    "url": "https://github.com/ConductionNL/openconnector/releases/download/v0.1.23/openconnector-0.1.23.tar.gz",
-    "version": "0.1.23",
+    "hash": "sha256-MG4n/fNxWeCY8aiWMYOYUstYcXto6eMZRTwTBWDq39k=",
+    "url": "https://github.com/ConductionNL/openconnector/releases/download/v0.1.24/openconnector-0.1.24.tar.gz",
+    "version": "0.1.24",
     "description": "📰 Bringing Gateway and Service bus functionality to nextcloud\n\nThe OpenConnector Nextcloud app provides a ESB-framework to work together in an (open) data ecosystem\n\n- 📲 Synchronize your data sources\n- 📰 Send cloud events\n- 🆓 Map and translate API calls",
     "homepage": "https://github.com/ConductionNL/OpenConnector",
     "licenses": [
@@ -1800,9 +1820,9 @@
     ]
   },
   "openregister": {
-    "hash": "sha256-g0Lo6lxJCS8FnbDQZc2FPP0V9Tb8pcK28yIEbwaut7M=",
-    "url": "https://github.com/ConductionNL/openregister/releases/download/v0.1.26/openregister-0.1.26.tar.gz",
-    "version": "0.1.26",
+    "hash": "sha256-kE9GSOs5Cxr5V2/iFXSz0qUCPenqwVQJZ3pi7+3Z9VA=",
+    "url": "https://github.com/ConductionNL/openregister/releases/download/v0.1.28/openregister-0.1.28.tar.gz",
+    "version": "0.1.28",
     "description": "📰 An OpenRegister App for Nextcloud\n\nThe OpenRegister Nextcloud app provides a framework for federated registers to work together in an open data ecosystem\n\n- 📲 Synchronize your sources with multiple registers\n- 🔄 Automatic publications of your open data\n- 🆓 Free and open source under EUPL\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://conduction.gitbook.io/openregister-nextcloud/installatie)\n\nThe Roadmap is available [here](https://github.com/orgs/OpenRegister/projects/1/views/2)\n\nCreate a [bug report](https://github.com/OpenRegister/.github/issues/new/choose)\n\nCreate a [feature request](https://github.com/OpenRegister/.github/issues/new/choose)",
     "homepage": "https://github.com/ConductionNL/OpenRegister",
     "licenses": [
@@ -2210,9 +2230,9 @@
     ]
   },
   "sharereview": {
-    "hash": "sha256-uYHbZNEVBulepBmcAAtoxtIQ7Ut5slBA3pCnvs3DegM=",
-    "url": "https://github.com/Rello/sharereview/releases/download/1.3.1/sharereview-1.3.1.tar.gz",
-    "version": "1.3.1",
+    "hash": "sha256-23y3GkeqXDl0vbdXizQB6m5G24JoyqAjpifieUAQ2h8=",
+    "url": "https://github.com/Rello/sharereview/releases/download/1.3.2/sharereview-1.3.2.tar.gz",
+    "version": "1.3.2",
     "description": "This app can be used  for auditing shares within a Nextcloud instance e.g. for data loss prevention.\n\n- Review any file share\n  - files, talk, deck, teams, federation\n  - additional apps (apps can register)\n- Remove shares\n- Confirm current review\n  - show only new shares next time\n- Audit compliance\n- Assign review to user groups (e.g. audit or risk mgmt)\n\nNote:\nThe app must be restricted to at least one specific user group in the app store.\nThis prevents accidental exposure of the shared content to all users.",
     "homepage": "https://github.com/Rello/sharereview",
     "licenses": [
@@ -2580,9 +2600,9 @@
     ]
   },
   "tvshownamer": {
-    "hash": "sha256-vimO/6UpcBLTcA45tSyoaiEoybFXFhJwGy4J9AXep70=",
-    "url": "https://github.com/j4ym0/nextcloud-tv-show-namer/releases/download/1.0.4/tvshownamer.tar.gz",
-    "version": "1.0.4",
+    "hash": "sha256-4LxE88pbB6qVJLQBNSmdLkOsOjIE0RMd0Mw/j/uXsIQ=",
+    "url": "https://github.com/j4ym0/nextcloud-tv-show-namer/releases/download/1.0.5/tvshownamer.tar.gz",
+    "version": "1.0.5",
     "description": "TV show namer organises your TV shows, series and seasons into a standard format. It uses themoviedb.org and thetvdb.com to scrape TV information to organise your files.\n\nRename files from “some.show.s01e03.avi” To “Some Show - S01E01 - Episode Name.avi” easily",
     "homepage": "",
     "licenses": [
@@ -2720,9 +2740,9 @@
     ]
   },
   "user_saml": {
-    "hash": "sha256-xxabQU8kZhgI7Q9D0n7hrFygvfZWZDnAQWnB8+A1xwE=",
-    "url": "https://github.com/nextcloud-releases/user_saml/releases/download/v6.3.0/user_saml-v6.3.0.tar.gz",
-    "version": "6.3.0",
+    "hash": "sha256-qhItx6irMbLequ9epnkCr7XTLJOk4vsqtmR7H9BaSnU=",
+    "url": "https://github.com/nextcloud-releases/user_saml/releases/download/v6.4.0/user_saml-v6.4.0.tar.gz",
+    "version": "6.4.0",
     "description": "Using the SSO & SAML app of your Nextcloud you can make it easily possible to integrate your existing Single-Sign-On solution with Nextcloud. In addition, you can use the Nextcloud LDAP user provider to keep the convenience for users. (e.g. when sharing)\nThe following providers are supported and tested at the moment:\n\n* **SAML 2.0**\n\t* OneLogin\n\t* Shibboleth\n\t* Active Directory Federation Services (ADFS)\n\n* **Authentication via Environment Variable**\n\t* Kerberos (mod_auth_kerb)\n\t* Any other provider that authenticates using the environment variable\n\nWhile theoretically any other authentication provider implementing either one of those standards is compatible, we like to note that they are not part of any internal test matrix.",
     "homepage": "https://github.com/nextcloud/user_saml",
     "licenses": [
@@ -2870,9 +2890,9 @@
     ]
   },
   "yumisign_nextcloud": {
-    "hash": "sha256-4YJLmsxGQUhMEHyznP0inr+Zv6v6ePKhRcTI3PCS5ZQ=",
-    "url": "https://github.com/rcdevs/yumisign_nextcloud/releases/download/1.29.2/yumisign_nextcloud-1.29.2.tar.gz",
-    "version": "1.29.2",
+    "hash": "sha256-4yWVbUcuHH01khW0vQ1rpQQFx8/E480d68AAQoBRt58=",
+    "url": "https://repos.rcdevs.com/direct/Plugins/YumiSign_NextCloud-1.29.4.tar.gz",
+    "version": "1.29.4",
     "description": "# Electronic Signature\nThis YumiSign Plugin for Nextcloud allows users to digitally sign documents directly within the Nextcloud platform. With this plugin, you can securely sign PDFs, Word documents, and other supported file types with ease, ensuring the integrity and authenticity of your documents.\n\n# Features\n\n* Digital signatures for various document types.\n* Support for multiple signature levels (eIDAS compliant).\n* Easy integration with Nextcloud's user interface.\n* Secure signing process with audit trail for document verification.\n\n# Requirements\n* YumiSign account.\n* YumiSign API key.\n* HTTPS access to YumiSign server from your Nextcloud server.\n\n# Installation\n\n1. **Download the Plugin**: First, download the latest version of the YumiSign Plugin from the Nextcloud app store or the official repository.\n1. **Install the Plugin**: Log into your Nextcloud instance as an admin. Navigate to `Apps > App Store`, then upload the downloaded plugin package.\n1. **Enable the Plugin**: Once uploaded, navigate to `Apps > Disabled Apps`. Find the Signature Plugin and click `Enable`.\n\n# Configuration\n\nAfter installation, you may need to configure the plugin to suit your needs:\n\n1. **Access Plugin Settings**: Go to `Settings > Administration > Signature Plugin`.\n1. **Configure Signature Settings**: Set up your signature preferences, including default signature format, security options, and any integration settings with external signature providers.\n1. **Save Changes**: Ensure you save your settings before exiting.\n\n# Usage\nTo sign a document:\n1. **Open the Document**: Navigate to the file within Nextcloud and open it.\n1. **Initiate Signing Process**: Click on the `Sign` button typically located in the document viewer's toolbar.\n1. **Sign the Document**: Follow the on-screen instructions to sign the document. This may involve selecting a signature type, drawing a signature, or using a digital certificate.\n1. **Verify & Save**: Once signed, the document will be automatically saved with a signature. You can also verify the signature through the plugin interface.\n\n# Troubleshooting\n* **Signature not Appearing**: Ensure the document type is supported and that you have completed all signing steps.\n* **Plugin not Loading**: Verify that your Nextcloud and PHP versions meet the plugin’s requirements. Check the Nextcloud log for any error messages.\n* **Issues with External Signatures**: If using external signature services, ensure your API keys and service settings are correctly configured.\n\n# Support\nFor more support and information:\n* Visit the [YumiSign Helpcenter](https://app.yumisign.com/help/).\n* Report issues on the [YumiSign contact page](https://www.yumisign.com/contact-us/).\n\n# Contact us\nPlease contact YumiSign’ sales team [info@yumisign.com](mailto:info@yumisign.com) to purchase e-signature credits.",
     "homepage": "https://www.yumisign.com",
     "licenses": [
