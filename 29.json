@@ -230,9 +230,9 @@
     ]
   },
   "certificate24": {
-    "hash": "sha256-8ZJpZZq0uRwT6EhoPu8Zs4F2vLGj7xKSXe08rYhlwuk=",
-    "url": "https://github.com/strukturag/nextcloud-certificate24/releases/download/v0.3.4/certificate24.tar.gz",
-    "version": "0.3.4",
+    "hash": "sha256-6FsSXJU7JQmSDnBieNoaEFcaCa0fjYQzJ1dUwXQOpV4=",
+    "url": "https://github.com/strukturag/nextcloud-certificate24/releases/download/v0.3.5/certificate24.tar.gz",
+    "version": "0.3.5",
     "description": "Certificate24 - Digital Document Signature\n\nWith Certificate24 you can request digital signatures of documents stored in your Nextcloud from other users in Nextcloud or from external users (by email).\n\nSee [the website](https://www.certificate24.com) for further information.",
     "homepage": "https://www.certificate24.com",
     "licenses": [
@@ -340,8 +340,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -1010,9 +1010,9 @@
     ]
   },
   "htmlviewer": {
-    "hash": "sha256-8DnGRb4fmXEaiJeZEk6NnDxb6JuRU0oyuTLoi1uj1Lk=",
-    "url": "https://git.mdns.eu/api/v4/projects/79/packages/generic/htmlviewer/29.2.0/htmlviewer.tar.gz",
-    "version": "29.2.0",
+    "hash": "sha256-LCUxK0k2TKdphsFVOyOzFgYt64AQOm1awuZ1zA2poXk=",
+    "url": "https://git.mdns.eu/api/v4/projects/79/packages/generic/htmlviewer/29.2.1/htmlviewer.tar.gz",
+    "version": "29.2.1",
     "description": "HTML files can be a great way to illustrate content in an interactive and responsive format.\nThe HTML viewer app enables viewing and editing of static HTML files directly within Nextcloud.\n\n### Security information\nLoading HTML files within the context of Nextcloud carries a risk of exposing user information to third parties, depending on the configuration of the server\nThe HTML viewer app uses the sandbox and CSP features for iframes to disable JavaScript and prevent access to user information and websites outside your Nextcloud, but this can not guarantee that no information is ever transferred to third parties.\n\nAdministrators should also be aware that some users may not be able to differentiate between the content of an HTML file they have opened and the normal user interface of Nextcloud.\n\n### JavaScript\nJavaScript for HTML files is disabled by default. Enabling it is a bad idea and we do not recommend this at all.\nAlthough security features like sandboxing, CSP and CORS limit what can be done, it still means that unknown code is being executed within Nextcloud.\n\nIf you still wish to enable JS, this occ command will enable it:\n```bash\n./occ config:app:set htmlviewer allowJs --value=1\n```\n\n### File Size Limit\nBy default, the app will load HTML files up to 32MB. To change the file size, use this occ command:\n```bash\n ./occ config:app:set htmlviewer maxSize --value=SizeInMegabyte\n```\n\n### Iframe Permissions\nThe app automatically configures the iframe with an CSP for [supported browsers](https://caniuse.com/mdn-api_htmliframeelement_csp) and a sandbox to limit code execution and data access.\nBoth policies can be changed through config settings with the OCC commands shown below.\nPlease be aware that the general CSP of your Nextcloud may still block some access regardless of what CSP and sandbox settings you configure.\n\nTo change the CSP or sandbox settings, use these occ commands:\n```bash\n ./occ config:app:set htmlviewer csp --value=CustomCspSettings\n ./occ config:app:set htmlviewer sandbox --value=CustomSandboxSettings\n```",
     "homepage": "",
     "licenses": [
@@ -1760,9 +1760,9 @@
     ]
   },
   "opencatalogi": {
-    "hash": "sha256-eJPc4ochS36+7B46ekkuoFfh9mWD2GlpIvaIlMaNBz4=",
-    "url": "https://github.com/ConductionNL/opencatalogi/releases/download/v0.6.49/opencatalogi-0.6.49.tar.gz",
-    "version": "0.6.49",
+    "hash": "sha256-Q2AkjdvpNvmWxqcTfZqBGJd+20SDK1V5Tqpm/teWGJk=",
+    "url": "https://github.com/ConductionNL/opencatalogi/releases/download/v0.6.50/opencatalogi-0.6.50.tar.gz",
+    "version": "0.6.50",
     "description": "📰 A OpenCatalogi App for Nextcloud\n\nThe OpenCatalogi Nextcloud app provides a framework for federated catalogi to work together in an open data ecosystem\n\n- 📲 Synchronize your sources with multiple catalogi\n- 🔄 Automatic publications of your open data\n- 🆓 Free and open source under EUPL\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://conduction.gitbook.io/opencatalogi-nextcloud/installatie)\n\nThe Roadmap is available [here](https://github.com/orgs/OpenCatalogi/projects/1/views/2)\n\nCreate a [bug report](https://github.com/OpenCatalogi/.github/issues/new/choose)\n\nCreate a [feature request](https://github.com/OpenCatalogi/.github/issues/new/choose)",
     "homepage": "https://documentatie.opencatalogi.nl/",
     "licenses": [
@@ -1770,9 +1770,9 @@
     ]
   },
   "openconnector": {
-    "hash": "sha256-fbdTQLzbAKXdSZVSf1TapLHoBC1GZ3REJcHfe1flYt8=",
-    "url": "https://github.com/ConductionNL/openconnector/releases/download/v0.1.25/openconnector-0.1.25.tar.gz",
-    "version": "0.1.25",
+    "hash": "sha256-u5hYGU+TAs9j/VvTfwhhfq75NBGMxZtOzejel0aJoUk=",
+    "url": "https://github.com/ConductionNL/openconnector/releases/download/v0.1.26/openconnector-0.1.26.tar.gz",
+    "version": "0.1.26",
     "description": "📰 Bringing Gateway and Service bus functionality to nextcloud\n\nThe OpenConnector Nextcloud app provides a ESB-framework to work together in an (open) data ecosystem\n\n- 📲 Synchronize your data sources\n- 📰 Send cloud events\n- 🆓 Map and translate API calls",
     "homepage": "https://github.com/ConductionNL/OpenConnector",
     "licenses": [
@@ -1820,9 +1820,9 @@
     ]
   },
   "openregister": {
-    "hash": "sha256-EZnPyzHxvheOjy8ZGapJE98qpLDaAjmQOWN5AUsA6rw=",
-    "url": "https://github.com/ConductionNL/openregister/releases/download/v0.1.29/openregister-0.1.29.tar.gz",
-    "version": "0.1.29",
+    "hash": "sha256-VVyd1eAoehFqXmdUDzSgNbrzDZmstHlvHOCPs5SleqM=",
+    "url": "https://github.com/ConductionNL/openregister/releases/download/v0.1.30/openregister-0.1.30.tar.gz",
+    "version": "0.1.30",
     "description": "📰 An OpenRegister App for Nextcloud\n\nThe OpenRegister Nextcloud app provides a framework for federated registers to work together in an open data ecosystem\n\n- 📲 Synchronize your sources with multiple registers\n- 🔄 Automatic publications of your open data\n- 🆓 Free and open source under EUPL\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://conduction.gitbook.io/openregister-nextcloud/installatie)\n\nThe Roadmap is available [here](https://github.com/orgs/OpenRegister/projects/1/views/2)\n\nCreate a [bug report](https://github.com/OpenRegister/.github/issues/new/choose)\n\nCreate a [feature request](https://github.com/OpenRegister/.github/issues/new/choose)",
     "homepage": "https://github.com/ConductionNL/OpenRegister",
     "licenses": [
@@ -2080,9 +2080,9 @@
     ]
   },
   "richdocumentscode": {
-    "hash": "sha256-ylKSLp3BaO+fHdz42/nwfW6R4xr/jdD2a1NDugqnsOI=",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/24.4.902/richdocumentscode.tar.gz",
-    "version": "24.4.902",
+    "hash": "sha256-/isBiN4BC16EmaXAPv3M5O1GhWY5TmMKTGHyArCkWmE=",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/24.4.1002/richdocumentscode.tar.gz",
+    "version": "24.4.1002",
     "description": "**This app has to be installed and used together with the [Nextcloud Office](https://apps.nextcloud.com/apps/richdocuments) integration app.**\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\n* This app provides a built-in server with all of the document editing features of Collabora Online.\n* Easy to install, for personal use or for small teams.\n* A bit slower than a standalone server and without the advanced scalability features.\n\n**System Requirements:**\n- Linux running on ```x86-64``` or ```arm64/aarch64```\n- A ```glibc``` based distribution/container (```musl libc``` is **not** supported)\n- Fontconfig (```libfontconfig.so.1```)\n- Additional requirements can be found in [here](https://github.com/CollaboraOnline/richdocumentscode#richdocumentscode)\n\n*The download is rather big so it is possible you will experience a time-out when installing via the web interface.* You can use the OCC command install the built-in server from the command-line instead:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)\n\nAdditional troubleshooting tips can be found [here](https://github.com/CollaboraOnline/richdocumentscode?tab=readme-ov-file#troubleshooting).",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -2090,9 +2090,9 @@
     ]
   },
   "richdocumentscode_arm64": {
-    "hash": "sha256-ok8w9jvCugyMscs23Yg+xbNsbBRklkbVfj9aERfB8oo=",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/24.4.902/richdocumentscode_arm64.tar.gz",
-    "version": "24.4.902",
+    "hash": "sha256-iHxfPI7Cxx0jBU3bMRA6uxkXmLqQVOSm6/TKrMx4/L0=",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/24.4.1002/richdocumentscode_arm64.tar.gz",
+    "version": "24.4.1002",
     "description": "**This app has to be installed and used together with the [Nextcloud Office](https://apps.nextcloud.com/apps/richdocuments) integration app.**\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\n* This app provides a built-in server with all of the document editing features of Collabora Online.\n* Easy to install, for personal use or for small teams.\n* A bit slower than a standalone server and without the advanced scalability features.\n\n**System Requirements:**\n- Linux running on ```x86-64``` or ```arm64/aarch64```\n- A ```glibc``` based distribution/container (```musl libc``` is **not** supported)\n- Fontconfig (```libfontconfig.so.1```)\n- Additional requirements can be found in [here](https://github.com/CollaboraOnline/richdocumentscode#richdocumentscode)\n\n*The download is rather big so it is possible you will experience a time-out when installing via the web interface.* You can use the OCC command install the built-in server from the command-line instead:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode_arm64\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)\n\nAdditional troubleshooting tips can be found [here](https://github.com/CollaboraOnline/richdocumentscode?tab=readme-ov-file#troubleshooting).",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -2660,9 +2660,9 @@
     ]
   },
   "uppush": {
-    "hash": "sha256-masNvTcduPSr4dri4a98ujdMgU7fZE7blJBR+pd1Zuk=",
-    "url": "https://codeberg.org/NextPush/uppush/archive/1.5.1.tar.gz",
-    "version": "1.5.1",
+    "hash": "sha256-m68CE9E/RRc6LF4EpvzR3bPWJrFJd3T3B1GPFhq+4lU=",
+    "url": "https://codeberg.org/NextPush/uppush/archive/2.0.1.tar.gz",
+    "version": "2.0.1",
     "description": "Once the mobile phone is connected with NextPush, push notifications can be forwarded to applications implementing UnifiedPush.\n\nMore information about UnifiedPush at https://unifiedpush.org",
     "homepage": "",
     "licenses": [
@@ -2870,9 +2870,9 @@
     ]
   },
   "workspace": {
-    "hash": "sha256-VR8fj+im7WsNrD+8/EqAh1/dy48+Ep93EPQs66ftV+c=",
-    "url": "https://github.com/arawa/workspace/releases/download/v3.2.5/workspace-3.2.5.tar.gz",
-    "version": "3.2.5",
+    "hash": "sha256-feCwrugG7Cg1C8sCFA+bV7rmFft2BxQ64zUuaroStAQ=",
+    "url": "https://github.com/arawa/workspace/releases/download/v3.3.0/workspace-3.3.0.tar.gz",
+    "version": "3.3.0",
     "description": "# Description\n\nWorkspace allows managers to :\n- Create shared workspaces\n- Delegate management of each workspace to users (workspace managers) in order for them to:\n    - choose members\n    - create groups\n    - configure advanced permissions on workspace folders\n- All through a simple unified interface, designed to simplify your users' experience and make them autonomous\n\nIt is necessary to install the Group Folders app for the Workspace app to work.\n\n## ⚠️ Warning\n\nWe found an incompatibility with the latest release of Groupfolders.\n\nThese are the compatible versions until we address those issues:\n\n| Workspace | GroupFolders |\n| :---: | :---: |\n| all versions | 16.0.0 to 16.0.9 |\n| all versions | 17.0.0 to 17.0.3 |\n\n# App configuration\n\nBefore using Workspace, you must configure the app, following these important steps:\n\n- Limit the Workspace app to specific groups : in your \"application management\" administrator interface, limit the application to the following groups: \"GeneralManager\" and \"WorkspacesManagers\".\n\n- Configure Groupfolders for Workspace:\n    - In \"Settings\" > \"Group folders\" > \"Group folder admin delegation\" section, add the group \"GeneralManager\" to the **first** field, and the group \"WorkspacesManagers\" to the **second** field\n\nIf you are using a major version of Nextcloud lower than Nextcloud 25, please follow the instructions provided on [GitHub](https://github.com/arawa/workspace). \n\nFor more information, please visit [our website](https://www.arawa.fr/solutions/produits-arawa/arawa-workspace-for-nextcloud/) (french content).\n\nFor more details, please go to the [admin documentation](https://github.com/arawa/workspace/blob/main/README.md#installation), or [user documentation](https://github.com/arawa/workspace/tree/main/docs/user-guide/from-3.X.X).",
     "homepage": "",
     "licenses": [

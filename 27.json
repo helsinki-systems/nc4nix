@@ -2150,9 +2150,9 @@
     ]
   },
   "richdocumentscode": {
-    "hash": "sha256-ylKSLp3BaO+fHdz42/nwfW6R4xr/jdD2a1NDugqnsOI=",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/24.4.902/richdocumentscode.tar.gz",
-    "version": "24.4.902",
+    "hash": "sha256-/isBiN4BC16EmaXAPv3M5O1GhWY5TmMKTGHyArCkWmE=",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/24.4.1002/richdocumentscode.tar.gz",
+    "version": "24.4.1002",
     "description": "**This app has to be installed and used together with the [Nextcloud Office](https://apps.nextcloud.com/apps/richdocuments) integration app.**\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\n* This app provides a built-in server with all of the document editing features of Collabora Online.\n* Easy to install, for personal use or for small teams.\n* A bit slower than a standalone server and without the advanced scalability features.\n\n**System Requirements:**\n- Linux running on ```x86-64``` or ```arm64/aarch64```\n- A ```glibc``` based distribution/container (```musl libc``` is **not** supported)\n- Fontconfig (```libfontconfig.so.1```)\n- Additional requirements can be found in [here](https://github.com/CollaboraOnline/richdocumentscode#richdocumentscode)\n\n*The download is rather big so it is possible you will experience a time-out when installing via the web interface.* You can use the OCC command install the built-in server from the command-line instead:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)\n\nAdditional troubleshooting tips can be found [here](https://github.com/CollaboraOnline/richdocumentscode?tab=readme-ov-file#troubleshooting).",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -2160,9 +2160,9 @@
     ]
   },
   "richdocumentscode_arm64": {
-    "hash": "sha256-ok8w9jvCugyMscs23Yg+xbNsbBRklkbVfj9aERfB8oo=",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/24.4.902/richdocumentscode_arm64.tar.gz",
-    "version": "24.4.902",
+    "hash": "sha256-iHxfPI7Cxx0jBU3bMRA6uxkXmLqQVOSm6/TKrMx4/L0=",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/24.4.1002/richdocumentscode_arm64.tar.gz",
+    "version": "24.4.1002",
     "description": "**This app has to be installed and used together with the [Nextcloud Office](https://apps.nextcloud.com/apps/richdocuments) integration app.**\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\n* This app provides a built-in server with all of the document editing features of Collabora Online.\n* Easy to install, for personal use or for small teams.\n* A bit slower than a standalone server and without the advanced scalability features.\n\n**System Requirements:**\n- Linux running on ```x86-64``` or ```arm64/aarch64```\n- A ```glibc``` based distribution/container (```musl libc``` is **not** supported)\n- Fontconfig (```libfontconfig.so.1```)\n- Additional requirements can be found in [here](https://github.com/CollaboraOnline/richdocumentscode#richdocumentscode)\n\n*The download is rather big so it is possible you will experience a time-out when installing via the web interface.* You can use the OCC command install the built-in server from the command-line instead:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode_arm64\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)\n\nAdditional troubleshooting tips can be found [here](https://github.com/CollaboraOnline/richdocumentscode?tab=readme-ov-file#troubleshooting).",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -2748,9 +2748,9 @@
     ]
   },
   "uppush": {
-    "hash": "sha256-masNvTcduPSr4dri4a98ujdMgU7fZE7blJBR+pd1Zuk=",
-    "url": "https://codeberg.org/NextPush/uppush/archive/1.5.1.tar.gz",
-    "version": "1.5.1",
+    "hash": "sha256-m68CE9E/RRc6LF4EpvzR3bPWJrFJd3T3B1GPFhq+4lU=",
+    "url": "https://codeberg.org/NextPush/uppush/archive/2.0.1.tar.gz",
+    "version": "2.0.1",
     "description": "Once the mobile phone is connected with NextPush, push notifications can be forwarded to applications implementing UnifiedPush.\n\nMore information about UnifiedPush at https://unifiedpush.org",
     "homepage": "",
     "licenses": [
@@ -2978,9 +2978,9 @@
     ]
   },
   "workspace": {
-    "hash": "sha256-VR8fj+im7WsNrD+8/EqAh1/dy48+Ep93EPQs66ftV+c=",
-    "url": "https://github.com/arawa/workspace/releases/download/v3.2.5/workspace-3.2.5.tar.gz",
-    "version": "3.2.5",
+    "hash": "sha256-feCwrugG7Cg1C8sCFA+bV7rmFft2BxQ64zUuaroStAQ=",
+    "url": "https://github.com/arawa/workspace/releases/download/v3.3.0/workspace-3.3.0.tar.gz",
+    "version": "3.3.0",
     "description": "# Description\n\nWorkspace allows managers to :\n- Create shared workspaces\n- Delegate management of each workspace to users (workspace managers) in order for them to:\n    - choose members\n    - create groups\n    - configure advanced permissions on workspace folders\n- All through a simple unified interface, designed to simplify your users' experience and make them autonomous\n\nIt is necessary to install the Group Folders app for the Workspace app to work.\n\n## ⚠️ Warning\n\nWe found an incompatibility with the latest release of Groupfolders.\n\nThese are the compatible versions until we address those issues:\n\n| Workspace | GroupFolders |\n| :---: | :---: |\n| all versions | 16.0.0 to 16.0.9 |\n| all versions | 17.0.0 to 17.0.3 |\n\n# App configuration\n\nBefore using Workspace, you must configure the app, following these important steps:\n\n- Limit the Workspace app to specific groups : in your \"application management\" administrator interface, limit the application to the following groups: \"GeneralManager\" and \"WorkspacesManagers\".\n\n- Configure Groupfolders for Workspace:\n    - In \"Settings\" > \"Group folders\" > \"Group folder admin delegation\" section, add the group \"GeneralManager\" to the **first** field, and the group \"WorkspacesManagers\" to the **second** field\n\nIf you are using a major version of Nextcloud lower than Nextcloud 25, please follow the instructions provided on [GitHub](https://github.com/arawa/workspace). \n\nFor more information, please visit [our website](https://www.arawa.fr/solutions/produits-arawa/arawa-workspace-for-nextcloud/) (french content).\n\nFor more details, please go to the [admin documentation](https://github.com/arawa/workspace/blob/main/README.md#installation), or [user documentation](https://github.com/arawa/workspace/tree/main/docs/user-guide/from-3.X.X).",
     "homepage": "",
     "licenses": [
