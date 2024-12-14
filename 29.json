@@ -130,9 +130,9 @@
     ]
   },
   "bookmarks": {
-    "hash": "sha256-xwyft6RGra/T9l8TSRRmWN50ZrdfTlZy3/pIpq/IzZs=",
-    "url": "https://github.com/nextcloud/bookmarks/releases/download/v14.2.6/bookmarks-14.2.6.tar.gz",
-    "version": "14.2.6",
+    "hash": "sha256-T0XDgDnAAI3ifOwz6BNCtjj6ZDXOhhUSLRIJKdD4qaQ=",
+    "url": "https://github.com/nextcloud/bookmarks/releases/download/v14.2.7/bookmarks-14.2.7.tar.gz",
+    "version": "14.2.7",
     "description": "- 📂 Sort bookmarks into folders\n- 🏷 Add tags and personal notes\n- ☠ Find broken links and duplicates\n- 📲 Synchronize with all your browsers and devices\n- 📔 Store archived versions of your links in case they are depublished\n- 🔍 Full-text search on site contents\n- 👪 Share bookmarks with other users and via public links\n- ⚛ Generate RSS feeds of your collections\n- 📈 Stats on how often you access which links\n- 🔒 Automatic backups of your bookmarks collection\n- 💼 Built-in Dashboard widgets for frequent and recent links\n\nRequirements:\n - PHP extensions:\n   - intl: *\n   - mbstring: *\n - when using MySQL, use at least v8.0",
     "homepage": "https://github.com/nextcloud/bookmarks",
     "licenses": [
@@ -403,7 +403,7 @@
     "hash": "sha256-yhUkB1IodvWOg2fl+gJW3x68YrG0+eyIrrlpXTFVAwE=",
     "url": "https://github.com/nextcloud-releases/deck/releases/download/v1.13.3/deck-v1.13.3.tar.gz",
     "version": "1.13.3",
-    "description": "Deck is a kanban style organization tool aimed at personal planning and project organization for teams integrated with Nextcloud.\n\n\n- 📥 Add your tasks to cards and put them in order\n- 📄 Write down additional notes in Markdown\n- 🔖 Assign labels for even better organization\n- 👥 Share with your team, friends or family\n- 📎 Attach files and embed them in your Markdown description\n- 💬 Discuss with your team using comments\n- ⚡ Keep track of changes in the activity stream\n- 🚀 Get your project organized",
+    "description": "Deck is a kanban style organization tool aimed at personal planning and project organization for teams integrated with Nextcloud.\n\n\n- 📥 Add your tasks to cards and put them in order\n- 📄 Write down additional notes in markdown\n- 🔖 Assign labels for even better organization\n- 👥 Share with your team, friends or family\n- 📎 Attach files and embed them in your markdown description\n- 💬 Discuss with your team using comments\n- ⚡ Keep track of changes in the activity stream\n- 🚀 Get your project organized",
     "homepage": "https://github.com/nextcloud/deck",
     "licenses": [
       "agpl"
@@ -670,9 +670,9 @@
     ]
   },
   "files_external_ethswarm": {
-    "hash": "sha256-CyH8idvk7WHz6LUMJFquUvM8j2cZ2b/X8cTe+n20ROo=",
-    "url": "https://github.com/MetaProvide/nextcloud-swarm-plugin/releases/download/v0.5.8/files_external_ethswarm.tar.gz",
-    "version": "0.5.8",
+    "hash": "sha256-DRqBeQMUDqPurO7r8gjjgwEj6fv0QG+EffYvC+wrbMY=",
+    "url": "https://github.com/MetaProvide/nextcloud-swarm-plugin/releases/download/v0.5.9/files_external_ethswarm.tar.gz",
+    "version": "0.5.9",
     "description": "*Bring decentralized, sovereign cloud storage to Nextcloud with the Hejbit Swarm plugin!*\n\nThis plugin integrates [Swarm](https://www.ethswarm.org/) (a decentralized, blockchain-connected file storage system) directly into your [Nextcloud ](https://nextcloud.com/)instance.\n\n## **Table of Contents**\n\n- [Dependencies](https://apps.nextcloud.com/apps/files_external_ethswarm#dependencies)\n- [Setup and Installation](https://apps.nextcloud.com/apps/files_external_ethswarm#setup-and-installation)\n- [Usage](https://apps.nextcloud.com/apps/files_external_ethswarm#usage)\n  - [Settings](https://apps.nextcloud.com/apps/files_external_ethswarm#settings)\n  - [Using Swarm](https://apps.nextcloud.com/apps/files_external_ethswarm#using-swarm)\n- Hejbit [License](https://apps.nextcloud.com/apps/files_external_ethswarm#license)\n\n## **Dependencies**\n\nBefore using the plugin, ensure you have the following:\n\n- An active Nextcloud instance (version 28,29 or 30)\n- A valid license and URL to activate the service\n  - [Request Your Free Nextcloud Swarm Plugin Trial License](#)\n\n## **Setup and Installation**\n\nFollow these steps to configure Hejbit Swarm in Nextcloud:\n\n1. Ensure the **External Storage** plugin is enabled.\n2. Install the **External Storage: Hejbit Swarm** app from the Nextcloud App Store.\n3. Navigate to External Storage Administration: Profile menu -> Settings -> External Storage.\n4. Create a new external storage with a folder name of your choice and select *'Swarm'* as the storage type. Then, enter the license key and URL configuration.\n\n## **Usage**\n\nOnce installed, Hejbit integrates Swarm directly with Nextcloud’s \"Files\" section, allowing seamless file operations:\n\n- **Upload:** Transfer files to decentralized storage.\n- **Download:** Retrieve and view files from decentralized storage.\n- **Copy/Move:** Shift files between any external storage and decentralized storage\n\n### **Settings**\n\nUsers with administrative credentials can configure the plugin through the standard External Storage settings. Here, you can input your license key and URL for Hejbit.\n\n### **Using Hejbit Swarm**\n\nOnce setup and configured, the Decentralized Storage is ready to use.\n\n- Access the Decentralized Storage folder under \"All Files\" or via the \"Files\" menu under \"External Storage.\"\n- Once uploaded, it can be viewed internally or downloaded. It can also be copied to another storage.\n- Files from another Nextcloud storage can also be copied/moved to the decentralized storage. Choose the decentralized storage folder as the target Folder.\n- Right-click on a Swarm file to copy the Swarm reference (hash) to your clipboard. Alternatively, click the three dots in the Actions menu and select 'Copy Swarm Reference.' The Swarm reference is the unique address of the file on the Swarm network.\n\n### **Hejbit Licence**\n\nExperience the future of data storage with 5GB of free, decentralized storage on the Ethereum Swarm network. Our plugin seamlessly integrates with your existing Nextcloud interface, providing true data sovereignty without the complexity.\n\n[Get your free licence here!](https://metaprovide.org/hejbit/start) .",
     "homepage": "https://github.com/MetaProvide/nextcloud-swarm-plugin",
     "licenses": [
@@ -960,9 +960,9 @@
     ]
   },
   "groupfolders": {
-    "hash": "sha256-LCVfAx4nkbzs8CQzQlm8mlO23MB4/SKr9pFk+K1Pl6M=",
-    "url": "https://github.com/nextcloud-releases/groupfolders/releases/download/v17.0.7/groupfolders-v17.0.7.tar.gz",
-    "version": "17.0.7",
+    "hash": "sha256-YZEc1KJ+kkUBbdgmMT8mNVVdpHeVJbXsF+AqBA9Icac=",
+    "url": "https://github.com/nextcloud-releases/groupfolders/releases/download/v17.0.8/groupfolders-v17.0.8.tar.gz",
+    "version": "17.0.8",
     "description": "Admin configured folders shared with everyone in a group.\n\nFolders can be configured from *Group folders* in the admin settings.\n\nAfter a folder is created, the admin can give access to the folder to one or more groups, control their write/sharing permissions and assign a quota for the folder.",
     "homepage": "https://github.com/nextcloud/groupfolders",
     "licenses": [
@@ -1290,9 +1290,9 @@
     ]
   },
   "integration_openproject": {
-    "hash": "sha256-fzFCii15a7+wKzodECnlkrRunqFKNu4NJq8N46XXft4=",
-    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.7.1/integration_openproject-2.7.1.tar.gz",
-    "version": "2.7.1",
+    "hash": "sha256-8NUbfie1vkVdUksj1M7Pu7zIyB1QuN0DenQcNhO4KFY=",
+    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.7.2-20241213-nightly/integration_openproject-2.7.2-20241213-nightly.tar.gz",
+    "version": "2.7.2",
     "description": "This application enables seamless integration with open source project management and collaboration software OpenProject.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in OpenProject\n* Find all work packages linked to a file or a folder\n* Create work packages directly in Nextcloud\n* View OpenProject notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n* Link work packages in rich text fields via Smart Picker\n* Preview links to work packages in text fields\n* Link multiple files and folder to a work package at once\n\nOn the OpenProject end, users are able to:\n\n* Link work packages with files and folders in Nextcloud\n* Upload and download files directly to Nextcloud from within a work package\n* Open linked files in Nextcloud to edit them\n* Let OpenProject create shared folders per project\n\nFor more information on how to set up and use the OpenProject application, please refer to [integration setup guide](https://www.openproject.org/docs/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://www.openproject.org/docs/user-guide/nextcloud-integration/).",
     "homepage": "https://github.com/nextcloud/integration_openproject",
     "licenses": [
@@ -1500,9 +1500,9 @@
     ]
   },
   "libresign": {
-    "hash": "sha256-5+B0hX+B2Pn6fTNOsVoIbyNiV/W852UsDVqE7Z8f+aI=",
-    "url": "https://github.com/LibreSign/libresign/releases/download/v9.7.3/libresign-v9.7.3.tar.gz",
-    "version": "9.7.3",
+    "hash": "sha256-sT4aRd4zo0vKbUpPe8bvkriTRlHmIb1VJxh6kgNx6UA=",
+    "url": "https://github.com/LibreSign/libresign/releases/download/v9.7.4/libresign-v9.7.4.tar.gz",
+    "version": "9.7.4",
     "description": "**This is a libre digital PDF signature app for Nextcloud**\n\n* ✍️ **Sign PDF** documents using digital certificates\n* 🔄 **Hybrid signatures**: You can choose between personal or system-generated digital certificates\n* 👥 **Multiple signers**: Request signature on a document for as many people as you need\n* 📸 **QR Code**: Document validation by QR Code\n* 🔒 **Privacy**: Fully self-hosted document signer\n* 📲 **Connect to your software**: Easily integrate [LibreSign](https://libresign.coop) into your service with our full-fledged [REST-API](https://libresign.coop/posts/libresign-api-guide/).\n* 🙋 **Get involved**! We have lots of stuff planned. More information at [LibreSign](https://github.com/libresign/libresign) repository.\n\n🌍 Help us translate this application on [Transifex](https://app.transifex.com/nextcloud/nextcloud/libresign/)\n\nIf you enjoy this app and want to help maintain its development or want enterprise support, please contact us:\n\n[https://libresign.coop](https://libresign.coop)\n\n## Donation\n\nDeveloped with ❤️ by [LibreCode](https://librecode.coop). Help us transform people and businesses through cooperativism.\n\n* [Donate with GitHub Sponsor: ![Donate using GitHub Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/libresign)",
     "homepage": "https://github.com/LibreSign/libresign",
     "licenses": [
@@ -1740,9 +1740,9 @@
     ]
   },
   "oidc": {
-    "hash": "sha256-9mytpATh6+aR2IpalZDNa6LO575MroKXxNcHwo8Hn9Q=",
-    "url": "https://github.com/H2CK/oidc/releases/download/1.0.0/oidc-1.0.0.tar.gz",
-    "version": "1.0.0",
+    "hash": "sha256-t1RrmawZKIZYDuu+7sjl5kU1Vl1pjLNuLJpzqhMpr3E=",
+    "url": "https://github.com/H2CK/oidc/releases/download/1.1.0/oidc-1.1.0.tar.gz",
+    "version": "1.1.0",
     "description": "Nextcloud as OpenID Connect Identity Provider\n\nWith this app you can use Nextcloud as OpenID Connect Identity Provider. If other services\nare configured correctly, you are able to access those services with your Nextcloud login.\n\nFull documentation can be found at:\n\n- [User Documentation](https://github.com/H2CK/oidc/wiki#user-documentation)\n- [Developer Documentation](https://github.com/H2CK/oidc/wiki#developer-documentation)",
     "homepage": "https://github.com/H2CK/oidc",
     "licenses": [
@@ -1770,9 +1770,9 @@
     ]
   },
   "opencatalogi": {
-    "hash": "sha256-SLwlKhx9vLvgm7i4voEPlg+8hq4d0kiXl7E5vsCt1kI=",
-    "url": "https://github.com/ConductionNL/opencatalogi/releases/download/v0.6.51/opencatalogi-0.6.51.tar.gz",
-    "version": "0.6.51",
+    "hash": "sha256-Yt+lCyHO8f/NnbNvR5BsOnchSFJ8Hf8l7Eex18+0m+c=",
+    "url": "https://github.com/ConductionNL/opencatalogi/releases/download/v0.6.52/opencatalogi-0.6.52.tar.gz",
+    "version": "0.6.52",
     "description": "📰 A OpenCatalogi App for Nextcloud\n\nThe OpenCatalogi Nextcloud app provides a framework for federated catalogi to work together in an open data ecosystem\n\n- 📲 Synchronize your sources with multiple catalogi\n- 🔄 Automatic publications of your open data\n- 🆓 Free and open source under EUPL\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://conduction.gitbook.io/opencatalogi-nextcloud/installatie)\n\nThe Roadmap is available [here](https://github.com/orgs/OpenCatalogi/projects/1/views/2)\n\nCreate a [bug report](https://github.com/OpenCatalogi/.github/issues/new/choose)\n\nCreate a [feature request](https://github.com/OpenCatalogi/.github/issues/new/choose)",
     "homepage": "https://documentatie.opencatalogi.nl/",
     "licenses": [
@@ -1780,9 +1780,9 @@
     ]
   },
   "openconnector": {
-    "hash": "sha256-sK8ONpmOA5Xxt6vEKf0ct/pHtLdxST6nPNiS/Pv0rSw=",
-    "url": "https://github.com/ConductionNL/openconnector/releases/download/v0.1.27/openconnector-0.1.27.tar.gz",
-    "version": "0.1.27",
+    "hash": "sha256-kaRfxTsh9YcC9QeXBIOM65xo5qof+8H8JC3w2HWwYZA=",
+    "url": "https://github.com/ConductionNL/openconnector/releases/download/v0.1.28/openconnector-0.1.28.tar.gz",
+    "version": "0.1.28",
     "description": "📰 Bringing Gateway and Service bus functionality to nextcloud\n\nThe OpenConnector Nextcloud app provides a ESB-framework to work together in an (open) data ecosystem\n\n- 📲 Synchronize your data sources\n- 📰 Send cloud events\n- 🆓 Map and translate API calls",
     "homepage": "https://github.com/ConductionNL/OpenConnector",
     "licenses": [
@@ -2070,9 +2070,9 @@
     ]
   },
   "repod": {
-    "hash": "sha256-RXMQKvoYmghKFRMA8WOrXyFrKx5ZEFHKzZ0IV1l8ef8=",
-    "url": "https://git.crystalyx.net/Xefir/repod/releases/download/3.4.1/repod.tar.gz",
-    "version": "3.4.1",
+    "hash": "sha256-f/Dx0q50qDdgbU+8eLqN+wF/QXXANGtSpTcF+AGMDLY=",
+    "url": "https://git.crystalyx.net/Xefir/repod/releases/download/3.5.0/repod.tar.gz",
+    "version": "3.5.0",
     "description": "## Features\n- 🔍 Browse and subscribe huge collection of podcasts\n- 🔊 Listen to episodes directly in Nextcloud\n- 🌐 Sync your activity with [AntennaPod](https://antennapod.org/) and [other apps](https://git.crystalyx.net/Xefir/repod#clients-supporting-sync-of-gpoddersync)\n- 📱 Mobile friendly interface\n- 📡 Import and export your subscriptions\n- ➡️ Full features comparison [here](https://git.crystalyx.net/Xefir/repod#comparaison-with-similar-apps-for-nextcloud)\n\n## Requirements\nYou need to have [GPodderSync](https://apps.nextcloud.com/apps/gpoddersync) installed to use this app!",
     "homepage": "https://git.crystalyx.net/Xefir/repod",
     "licenses": [
@@ -2110,9 +2110,9 @@
     ]
   },
   "riotchat": {
-    "hash": "sha256-VMVqyUdmWi8Uxji+XgNJ9niPfzCQ1Gc7MkhKBYEMk5Y=",
-    "url": "https://github.com/gary-kim/riotchat/releases/download/v0.18.5/riotchat.tar.gz",
-    "version": "0.18.5",
+    "hash": "sha256-VGuhetPXZ8Svgp3+PrvX5+JqGzFD5kE5AumHvnZiJ5I=",
+    "url": "https://github.com/gary-kim/riotchat/releases/download/v0.18.6/riotchat.tar.gz",
+    "version": "0.18.6",
     "description": "Element for Nextcloud allows you to install Element Web easily through Nextcloud and join the Matrix decentralized communication network.\n\nThis app does not include a Matrix server, only the client. You will have to either set up your own Matrix homeserver, rent one, or use a public one.\n\nThis project is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Element or the Element project, or any of its subsidiaries or its affiliates.\n\nThe name Element as well as related names, marks, emblems and images are registered trademarks of their respective owners.\n\nThe upstream project can be found at [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web).",
     "homepage": "https://github.com/gary-kim/riotchat",
     "licenses": [
@@ -2520,9 +2520,9 @@
     ]
   },
   "terms_of_service": {
-    "hash": "sha256-XTCHGCjKnqRQLmbJWeWIJaYwSgHhhYoogZYrW6nbZ4w=",
-    "url": "https://github.com/nextcloud-releases/terms_of_service/releases/download/v4.0.0/terms_of_service-v4.0.0.tar.gz",
-    "version": "4.0.0",
+    "hash": "sha256-fe1qhGShQVzcfIHUXdVGn/1mZcH/e4cGko7wfIqSUIw=",
+    "url": "https://github.com/nextcloud-releases/terms_of_service/releases/download/v4.1.0/terms_of_service-v4.1.0.tar.gz",
+    "version": "4.1.0",
     "description": "Requires users to accept the terms of service before accessing data.\nThis product includes GeoLite2 data created by MaxMind, available from [maxmind.com](http://www.maxmind.com)",
     "homepage": "https://github.com/nextcloud/terms_of_service/",
     "licenses": [
@@ -2900,9 +2900,9 @@
     ]
   },
   "yumisign_nextcloud": {
-    "hash": "sha256-yDbFgYEeLMrVRiwanlnyeWQMH6wjJ3u/m/YzchlvVv4=",
-    "url": "https://github.com/YumiSign-Organization/yumisign_nextcloud/releases/download/1.29.5/yumisign_nextcloud-1.29.5.tar.gz",
-    "version": "1.29.5",
+    "hash": "sha256-WJgKuy7SCWlW0kpwtMxqmxcFcl35lpBWdoSl/5OqFI8=",
+    "url": "https://github.com/YumiSign-Organization/yumisign_nextcloud/releases/download/1.29.6/yumisign_nextcloud-1.29.6.tar.gz",
+    "version": "1.29.6",
     "description": "# Electronic Signature\nThis YumiSign Plugin for Nextcloud allows users to digitally sign documents directly within the Nextcloud platform. With this plugin, you can securely sign PDFs, Word documents, and other supported file types with ease, ensuring the integrity and authenticity of your documents.\n\n# Features\n\n* Digital signatures for various document types.\n* Support for multiple signature levels (eIDAS compliant).\n* Easy integration with Nextcloud's user interface.\n* Secure signing process with audit trail for document verification.\n\n# Requirements\n* YumiSign account.\n* YumiSign API key.\n* HTTPS access to YumiSign server from your Nextcloud server.\n\n# Installation\n\n1. **Download the Plugin**: First, download the latest version of the YumiSign Plugin from the Nextcloud app store or the official repository.\n1. **Install the Plugin**: Log into your Nextcloud instance as an admin. Navigate to `Apps > App Store`, then upload the downloaded plugin package.\n1. **Enable the Plugin**: Once uploaded, navigate to `Apps > Disabled Apps`. Find the Signature Plugin and click `Enable`.\n\n# Configuration\n\nAfter installation, you may need to configure the plugin to suit your needs:\n\n1. **Access Plugin Settings**: Go to `Settings > Administration > Signature Plugin`.\n1. **Configure Signature Settings**: Set up your signature preferences, including default signature format, security options, and any integration settings with external signature providers.\n1. **Save Changes**: Ensure you save your settings before exiting.\n\n# Usage\nTo sign a document:\n1. **Open the Document**: Navigate to the file within Nextcloud and open it.\n1. **Initiate Signing Process**: Click on the `Sign` button typically located in the document viewer's toolbar.\n1. **Sign the Document**: Follow the on-screen instructions to sign the document. This may involve selecting a signature type, drawing a signature, or using a digital certificate.\n1. **Verify & Save**: Once signed, the document will be automatically saved with a signature. You can also verify the signature through the plugin interface.\n\n# Troubleshooting\n* **Signature not Appearing**: Ensure the document type is supported and that you have completed all signing steps.\n* **Plugin not Loading**: Verify that your Nextcloud and PHP versions meet the plugin’s requirements. Check the Nextcloud log for any error messages.\n* **Issues with External Signatures**: If using external signature services, ensure your API keys and service settings are correctly configured.\n\n# Support\nFor more support and information:\n* Visit the [YumiSign Helpcenter](https://app.yumisign.com/help/).\n* Report issues on the [YumiSign contact page](https://www.yumisign.com/contact-us/).\n\n# Contact us\nPlease contact YumiSign’ sales team [info@yumisign.com](mailto:info@yumisign.com) to purchase e-signature credits.",
     "homepage": "https://www.yumisign.com",
     "licenses": [
