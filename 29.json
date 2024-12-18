@@ -323,7 +323,7 @@
     "hash": "sha256-tGYyr8BXRUTPsoLPQqVgdw5rpPZvztuQ/afvQlrzB24=",
     "url": "https://github.com/nextcloud-releases/context_chat/releases/download/v2.2.1/context_chat-v2.2.1.tar.gz",
     "version": "2.2.1",
-    "description": "Ask questions to nextcloud Assistant about the content of your documents.\n\n## Install\n1. Install two other mandatory apps for this app to work as desired in your Nextcloud install from the \"Apps\" page:\n- AppAPI (>= v2.0.x): https://apps.nextcloud.com/apps/app_api\n- Assistant: https://apps.nextcloud.com/apps/assistant (The OCS API or the `occ` commands can also be used to interact with this app but it recommended to do that through a Text Processing OCP API consumer like the Assistant app.)\n2. Install this app (Nextcloud Assistant Context Chat): https://apps.nextcloud.com/apps/context_chat\n3. Install the Context Chat Backend app (https://apps.nextcloud.com/apps/context_chat_backend) from the \"External Apps\" page. It is important to note here that the backend app should have the same major and minor version as this app (context_chat)\n4. Start using Context Chat from the Assistant UI\n\nNote:\nRefer to the [Context Chat Backend's readme](https://github.com/nextcloud/context_chat_backend/?tab=readme-ov-file) and the [AppAPI's documentation](https://cloud-py-api.github.io/app_api/) for help with setup of AppAPI's deploy daemon.",
+    "description": "Ask questions to Nextcloud Assistant about the content of your documents.\n\nInstall the given apps for Context Chat to work as desired **in the given order**:\n- [AppAPI from the Apps page](https://apps.nextcloud.com/apps/app_api)\n- [Context Chat Backend (same major and minor version as Context Chat app below) from the External Apps page](https://apps.nextcloud.com/apps/context_chat_backend)\n- [Context Chat (same major and minor version as the backend) from the Apps page](https://apps.nextcloud.com/apps/context_chat)\n- [Assistant from the Apps page](https://apps.nextcloud.com/apps/assistant). The OCS API or the `occ` commands can also be used to interact with this app but it recommended to do that through a Task Processing OCP API consumer like the Assistant app, which is also the officially supported universal UI for all the AI providers.\n- Text2Text Task Processing Provider like [llm2 from the External Apps page](https://apps.nextcloud.com/apps/llm2) or [integration_openai from the Apps page](https://apps.nextcloud.com/apps/integration_openai)\n\nSetup background job workers as described here: https://docs.nextcloud.com/server/latest/admin_manual/ai/overview.html#improve-ai-task-pickup-speed\n\nNote:\nRefer to the [Context Chat Backend's readme](https://github.com/nextcloud/context_chat_backend/?tab=readme-ov-file) and the [AppAPI's documentation](https://cloud-py-api.github.io/app_api/) for help with setup of AppAPI's deploy daemon.",
     "homepage": "https://github.com/nextcloud/context_chat",
     "licenses": [
       "agpl"
@@ -350,8 +350,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -470,9 +470,9 @@
     ]
   },
   "duplicatefinder": {
-    "hash": "sha256-vHvjYP5R9VWlzWH7xI/dj/O99W0csDZau/me8/fTlxw=",
-    "url": "https://github.com/eldertek/duplicatefinder/releases/download/v1.2.6/duplicatefinder-v1.2.6.tar.gz",
-    "version": "1.2.6",
+    "hash": "sha256-xDLDUGhjvGDMukXxhirocnDRnDu/R8BUOLUGquYbv1U=",
+    "url": "https://github.com/eldertek/duplicatefinder/releases/download/v1.2.9/duplicatefinder-v1.2.9.tar.gz",
+    "version": "1.2.9",
     "description": "Are you tired of sifting through piles of files and folders, only to discover multiple copies of the same content cluttering your storage space?",
     "homepage": "",
     "licenses": [
@@ -1540,9 +1540,9 @@
     ]
   },
   "mail": {
-    "hash": "sha256-o1Y5pc6E7PJdEpjH8OsbEbRsRhOALLq1qeTD000UnO8=",
-    "url": "https://github.com/nextcloud-releases/mail/releases/download/v3.7.16/mail-v3.7.16.tar.gz",
-    "version": "3.7.16",
+    "hash": "sha256-59ra95yAOnHG+a6sSK6dJmmZ7qqUqtanfrw1jjpTjQ0=",
+    "url": "https://github.com/nextcloud-releases/mail/releases/download/v3.7.17/mail-v3.7.17.tar.gz",
+    "version": "3.7.17",
     "description": "**💌 A mail app for Nextcloud**\n\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://horde.org) libraries.\n- **📬 Want to host your own mail server?** We do not have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!\n\n## Ethical AI Rating\n\n### Priority Inbox\n\nPositive:\n* The software for training and inferencing of this model is open source.\n* The model is created and trained on-premises based on the user's own data.\n* The training data is accessible to the user, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n### Thread Summaries (opt-in)\n\n**Rating:** 🟢/🟡/🟠/🔴\n\nThe rating depends on the installed text processing backend. See [the rating overview](https://docs.nextcloud.com/server/latest/admin_manual/ai/index.html) for details.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/mail#readme",
     "licenses": [
@@ -1780,9 +1780,9 @@
     ]
   },
   "openconnector": {
-    "hash": "sha256-kaRfxTsh9YcC9QeXBIOM65xo5qof+8H8JC3w2HWwYZA=",
-    "url": "https://github.com/ConductionNL/openconnector/releases/download/v0.1.28/openconnector-0.1.28.tar.gz",
-    "version": "0.1.28",
+    "hash": "sha256-Yl9fua8PKOJVm+XSAaEAsJN/nNbU62gVjCQ2HysQAMw=",
+    "url": "https://github.com/ConductionNL/openconnector/releases/download/v0.1.29/openconnector-0.1.29.tar.gz",
+    "version": "0.1.29",
     "description": "📰 Bringing Gateway and Service bus functionality to nextcloud\n\nThe OpenConnector Nextcloud app provides a ESB-framework to work together in an (open) data ecosystem\n\n- 📲 Synchronize your data sources\n- 📰 Send cloud events\n- 🆓 Map and translate API calls",
     "homepage": "https://github.com/ConductionNL/OpenConnector",
     "licenses": [
@@ -2110,9 +2110,9 @@
     ]
   },
   "riotchat": {
-    "hash": "sha256-VGuhetPXZ8Svgp3+PrvX5+JqGzFD5kE5AumHvnZiJ5I=",
-    "url": "https://github.com/gary-kim/riotchat/releases/download/v0.18.6/riotchat.tar.gz",
-    "version": "0.18.6",
+    "hash": "sha256-xuwXVEThdHHgWGF469AxT/6eZVmmWCsu2WRUgVrcCYc=",
+    "url": "https://github.com/gary-kim/riotchat/releases/download/v0.18.7/riotchat.tar.gz",
+    "version": "0.18.7",
     "description": "Element for Nextcloud allows you to install Element Web easily through Nextcloud and join the Matrix decentralized communication network.\n\nThis app does not include a Matrix server, only the client. You will have to either set up your own Matrix homeserver, rent one, or use a public one.\n\nThis project is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Element or the Element project, or any of its subsidiaries or its affiliates.\n\nThe name Element as well as related names, marks, emblems and images are registered trademarks of their respective owners.\n\nThe upstream project can be found at [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web).",
     "homepage": "https://github.com/gary-kim/riotchat",
     "licenses": [
@@ -2910,9 +2910,9 @@
     ]
   },
   "zaakafhandelapp": {
-    "hash": "sha256-B7zGqmIzR51E5GDLeX3I38DXg88f5gYRhRT3Qa4wF5o=",
-    "url": "https://github.com/ConductionNL/zaakafhandelapp/releases/download/v0.1.20/zaakafhandelapp-0.1.20.tar.gz",
-    "version": "0.1.20",
+    "hash": "sha256-IS8aza1THKAo+zVhHPpANmz9ujE4cHri+p7jFgRO4ws=",
+    "url": "https://github.com/ConductionNL/zaakafhandelapp/releases/download/v0.1.21/zaakafhandelapp-0.1.21.tar.gz",
+    "version": "0.1.21",
     "description": "📰 Brinning Gateway and Service bus functionality to nextcloud\n\nThe OpenCatalogi Nextcloud app provides a framework for federated catalogi to work together in an open data ecosystem\n\n- 📲 Synchronize your data sources \n- 📰 Send cloud eventt\n- 🆓 Map and translate api calls\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://conduction.gitbook.io/opencatalogi-nextcloud/installatie)\n\nThe Roadmap is available [here](https://github.com/orgs/OpenCatalogi/projects/1/views/2)\n\nCreate a [bug report](https://github.com/OpenCatalogi/.github/issues/new/choose)\n\nCreate a [feature request](https://github.com/OpenCatalogi/.github/issues/new/choose)",
     "homepage": "https://github.com/ConductionNL/zaakafhandelapp",
     "licenses": [
