@@ -5,7 +5,7 @@ go 1.20
 require (
 	github.com/hashicorp/go-version v1.7.0
 	github.com/multiformats/go-multihash v0.2.3
-	github.com/nix-community/go-nix v0.0.0-20241207090453-00891a7727c2
+	github.com/nix-community/go-nix v0.0.0-20241220082528-4ad2fe83d684
 )
 
 require (
