@@ -1290,8 +1290,8 @@
     ]
   },
   "integration_openproject": {
-    "hash": "sha256-8NUbfie1vkVdUksj1M7Pu7zIyB1QuN0DenQcNhO4KFY=",
-    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.7.2-20241213-nightly/integration_openproject-2.7.2-20241213-nightly.tar.gz",
+    "hash": "sha256-VYZ6IGmLnZXBZfAmIdgrcLYBtlFUFQ0Y+2AtGdbcJCk=",
+    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.7.2/integration_openproject-2.7.2.tar.gz",
     "version": "2.7.2",
     "description": "This application enables seamless integration with open source project management and collaboration software OpenProject.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in OpenProject\n* Find all work packages linked to a file or a folder\n* Create work packages directly in Nextcloud\n* View OpenProject notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n* Link work packages in rich text fields via Smart Picker\n* Preview links to work packages in text fields\n* Link multiple files and folder to a work package at once\n\nOn the OpenProject end, users are able to:\n\n* Link work packages with files and folders in Nextcloud\n* Upload and download files directly to Nextcloud from within a work package\n* Open linked files in Nextcloud to edit them\n* Let OpenProject create shared folders per project\n\nFor more information on how to set up and use the OpenProject application, please refer to [integration setup guide](https://www.openproject.org/docs/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://www.openproject.org/docs/user-guide/nextcloud-integration/).",
     "homepage": "https://github.com/nextcloud/integration_openproject",
@@ -2160,9 +2160,9 @@
     ]
   },
   "sendent": {
-    "hash": "sha256-xU+sWyUNaPfVgwElExzCkj2SdhZ8NoTKI/chrzlNStM=",
-    "url": "https://download.sendent.com/serverapp/3.0.15/sendent.tar.gz",
-    "version": "3.0.15",
+    "hash": "sha256-2ygero5aD7KbZO8zr1JdwmT6Kw9scDX2mKQN/BLodpE=",
+    "url": "https://download.sendent.com/serverapp/3.0.16/sendent.tar.gz",
+    "version": "3.0.16",
     "description": "Sendent now securely exchanges files and emails, integrating with both Microsoft Outlook and Microsoft Teams. This enhanced capability allows users to seamlessly conduct their work, not only within their preferred email environment but also within the collaborative framework of Microsoft Teams. Whether sharing privacy-sensitive documents, content, or handling attachments that exceed standard email size constraints, Sendent ensures a streamlined and secure communication experience. All files are directed to your Nextcloud instance, empowering you to control and manage access permissions effectively.",
     "homepage": "https://www.sendent.com",
     "licenses": [
@@ -2880,9 +2880,9 @@
     ]
   },
   "workspace": {
-    "hash": "sha256-z6s2T5t+1TSWEY46T/9rOoFATvFsf8m2BNEtMzZR52k=",
-    "url": "https://github.com/arawa/workspace/releases/download/v3.3.1/workspace-3.3.1.tar.gz",
-    "version": "3.3.1",
+    "hash": "sha256-rkuqUPMu8yEiYIZoyLgHPLremMAtLylMpqFi1H2j6eU=",
+    "url": "https://github.com/arawa/workspace/releases/download/v3.3.2/workspace-3.3.2.tar.gz",
+    "version": "3.3.2",
     "description": "# Description\n\nWorkspace allows managers to :\n- Create shared workspaces\n- Delegate management of each workspace to users (workspace managers) in order for them to:\n    - choose members\n    - create groups\n    - configure advanced permissions on workspace folders\n- All through a simple unified interface, designed to simplify your users' experience and make them autonomous\n\nIt is necessary to install the Group Folders app for the Workspace app to work.\n\n## ⚠️ Warning\n\nWe found an incompatibility with the latest release of Groupfolders.\n\nThese are the compatible versions until we address those issues:\n\n| Workspace | GroupFolders |\n| :---: | :---: |\n| all versions | 16.0.0 to 16.0.9 |\n| all versions | 17.0.0 to 17.0.3 |\n\n# App configuration\n\nBefore using Workspace, you must configure the app, following these important steps:\n\n- Limit the Workspace app to specific groups : in your \"application management\" administrator interface, limit the application to the following groups: \"GeneralManager\" and \"WorkspacesManagers\".\n\n- Configure Groupfolders for Workspace:\n    - In \"Settings\" > \"Group folders\" > \"Group folder admin delegation\" section, add the group \"GeneralManager\" to the **first** field, and the group \"WorkspacesManagers\" to the **second** field\n\nIf you are using a major version of Nextcloud lower than Nextcloud 25, please follow the instructions provided on [GitHub](https://github.com/arawa/workspace). \n\nFor more information, please visit [our website](https://www.arawa.fr/solutions/produits-arawa/arawa-workspace-for-nextcloud/) (french content).\n\nFor more details, please go to the [admin documentation](https://github.com/arawa/workspace/blob/main/README.md#installation), or [user documentation](https://github.com/arawa/workspace/tree/main/docs/user-guide/from-3.X.X).",
     "homepage": "",
     "licenses": [
