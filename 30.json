@@ -1130,8 +1130,8 @@
     ]
   },
   "integration_openproject": {
-    "hash": "sha256-VYZ6IGmLnZXBZfAmIdgrcLYBtlFUFQ0Y+2AtGdbcJCk=",
-    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.7.2/integration_openproject-2.7.2.tar.gz",
+    "hash": "sha256-8NUbfie1vkVdUksj1M7Pu7zIyB1QuN0DenQcNhO4KFY=",
+    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.7.2-20241213-nightly/integration_openproject-2.7.2-20241213-nightly.tar.gz",
     "version": "2.7.2",
     "description": "This application enables seamless integration with open source project management and collaboration software OpenProject.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in OpenProject\n* Find all work packages linked to a file or a folder\n* Create work packages directly in Nextcloud\n* View OpenProject notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n* Link work packages in rich text fields via Smart Picker\n* Preview links to work packages in text fields\n* Link multiple files and folder to a work package at once\n\nOn the OpenProject end, users are able to:\n\n* Link work packages with files and folders in Nextcloud\n* Upload and download files directly to Nextcloud from within a work package\n* Open linked files in Nextcloud to edit them\n* Let OpenProject create shared folders per project\n\nFor more information on how to set up and use the OpenProject application, please refer to [integration setup guide](https://www.openproject.org/docs/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://www.openproject.org/docs/user-guide/nextcloud-integration/).",
     "homepage": "https://github.com/nextcloud/integration_openproject",
@@ -1190,9 +1190,9 @@
     ]
   },
   "integration_slack": {
-    "hash": "sha256-xyedcnfNSwxz97hqJs8KMmchNgCi+D0AE6XtrQnOijA=",
-    "url": "https://github.com/nextcloud-releases/integration_slack/releases/download/v2.0.1/integration_slack-v2.0.1.tar.gz",
-    "version": "2.0.1",
+    "hash": "sha256-yCb38bFYVJNGuECUgTpakYhgsAj+4+DvnsyNnJqplvM=",
+    "url": "https://github.com/nextcloud-releases/integration_slack/releases/download/v2.0.2/integration_slack-v2.0.2.tar.gz",
+    "version": "2.0.2",
     "description": "Slack integration lets you send files to Slack from Nextcloud Files.",
     "homepage": "https://github.com/nextcloud/integration_slack",
     "licenses": [
@@ -2233,7 +2233,7 @@
     "hash": "sha256-68/pd/EYg52E/wqXw19hV9V/eKDu3mxM3sMRpSIqUCs=",
     "url": "https://github.com/nextcloud/text2image_stablediffusion/releases/download/v2.0.0/text2image_stablediffusion.tar.gz",
     "version": "2.0.0",
-    "description": "Image generation provider using Stable Diffusion by Stability AI\n\nThe models run completely on your machine. No private data leaves your servers.\n\nAfter installing this app you will need to run\n\n    occ text2image_stablediffusion:download-models\n\n## Ethical AI Rating\n### Rating: 🟢\n\nPositive:\n* the software for training and inference of this model is open source\n* the trained model is freely available, and thus can be ran on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
+    "description": "Image generation provider using Stable Diffusion by Stability AI\r\n\r\nThis app is deprecated in favor of tetx2image_stablediffusion2\r\n\r\nThe models run completely on your machine. No private data leaves your servers.\r\n\r\nAfter installing this app you will need to run\r\n\r\n    occ text2image_stablediffusion:download-models\r\n\r\n## Ethical AI Rating\r\n### Rating: 🟢\r\n\r\nPositive:\r\n* the software for training and inference of this model is open source\r\n* the trained model is freely available, and thus can be ran on-premises\r\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\r\n\r\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -2293,7 +2293,7 @@
     "hash": "sha256-d1oNjHNubG5DxnTvsxMPszqRYX3Ka+majD8sevosins=",
     "url": "https://github.com/nextcloud/translate/releases/download/v2.2.0/translate.tar.gz",
     "version": "2.2.0",
-    "description": "A Machine translation provider using Opus models by University of Helsinki running locally on CPU.\n\nThe models run completely on your machine. No private data leaves your servers.\n\nCurrently supported languages:\n\n* English\n* German\n* French\n* Spanish\n* Chinese\n\nModel size:\n\n * ~1GB per language pair\n * ~10GB in total\n\nAfter installing this app you will need to run\n\n    occ translate:download-models\n\nRequirements:\n\n* x86 CPU\n* GNU lib C (musl is not supported)\n\n#### Nextcloud All-in-One:\nWith Nextcloud AIO, this app is not going to work because AIO uses musl. However you can use [this community container](https://github.com/nextcloud/all-in-one/tree/main/community-containers/libretranslate) as replacement for this app.\n\n## Ethical AI Rating\n### Rating: 🟢\n\nPositive:\n* the software for training and inferencing of this model is open source\n* the trained model is freely available, and thus can be ran on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
+    "description": "A Machine translation provider using Opus models by University of Helsinki running locally on CPU.\r\n\r\nThis app is deprecated in favor of translate2.\r\n\r\nThe models run completely on your machine. No private data leaves your servers.\r\n\r\nCurrently supported languages:\r\n\r\n* English\r\n* German\r\n* French\r\n* Spanish\r\n* Chinese\r\n\r\nModel size:\r\n\r\n * ~1GB per language pair\r\n * ~10GB in total\r\n\r\nAfter installing this app you will need to run\r\n\r\n    occ translate:download-models\r\n\r\nRequirements:\r\n\r\n* x86 CPU\r\n* GNU lib C (musl is not supported)\r\n\r\n#### Nextcloud All-in-One:\r\nWith Nextcloud AIO, this app is not going to work because AIO uses musl. However you can use [this community container](https://github.com/nextcloud/all-in-one/tree/main/community-containers/libretranslate) as replacement for this app.\r\n\r\n## Ethical AI Rating\r\n### Rating: 🟢\r\n\r\nPositive:\r\n* the software for training and inferencing of this model is open source\r\n* the trained model is freely available, and thus can be ran on-premises\r\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\r\n\r\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "",
     "licenses": [
       "agpl"
