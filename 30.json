@@ -60,9 +60,9 @@
     ]
   },
   "approval": {
-    "hash": "sha256-432QQFVcMnEpTgHCk2z0qk+QY4Yzbcz1tcCD+3G5J68=",
-    "url": "https://github.com/nextcloud-releases/approval/releases/download/v2.0.0/approval-v2.0.0.tar.gz",
-    "version": "2.0.0",
+    "hash": "sha256-HT6VfssvY7+5mKiUXyJhqMfBsBWqMxwDFlEl9BrXxBw=",
+    "url": "https://github.com/nextcloud-releases/approval/releases/download/v2.1.0/approval-v2.1.0.tar.gz",
+    "version": "2.1.0",
     "description": "Approve/reject files based on workflows defined by admins.\n\n**Warning**: The DocuSign integration is no longer part of this app\nand can be installed with [this app](https://apps.nextcloud.com/apps/integration_docusign).",
     "homepage": "https://github.com/nextcloud/approval",
     "licenses": [
@@ -70,9 +70,9 @@
     ]
   },
   "approve_links": {
-    "hash": "sha256-hwKN7Fwqdmn0AYwpqDBIAXKjF8afC0VWHoxPNVfY/DQ=",
-    "url": "https://github.com/nextcloud-releases/approve_links/releases/download/v1.0.2/approve_links-v1.0.2.tar.gz",
-    "version": "1.0.2",
+    "hash": "sha256-aPYa+SF6KEO/LSA6AkgMLa0TalGSrdK15l0nzIVG3nw=",
+    "url": "https://github.com/nextcloud-releases/approve_links/releases/download/v1.1.0/approve_links-v1.1.0.tar.gz",
+    "version": "1.1.0",
     "description": "Generate approval links. When they are browsed, approving or rejecting will make a request to a callabck URI.",
     "homepage": "https://github.com/julien-nc/approve_links",
     "licenses": [
@@ -80,9 +80,9 @@
     ]
   },
   "assistant": {
-    "hash": "sha256-R7CwIq39IblveDjo8/MJusPP2SJLtJgUDS/xXmvjx3o=",
-    "url": "https://github.com/nextcloud-releases/assistant/releases/download/v2.1.1/assistant-v2.1.1.tar.gz",
-    "version": "2.1.1",
+    "hash": "sha256-Z6ef+ohbKzpihQVgE5xDsr8vD9AVIp9ihwMw/Pzx900=",
+    "url": "https://github.com/nextcloud-releases/assistant/releases/download/v2.2.0/assistant-v2.2.0.tar.gz",
+    "version": "2.2.0",
     "description": "This app brings a user interface to use the Nextcloud text processing feature.\n\nIt allows users to launch AI tasks, be notified when they finish and see the results.\nThe assistant also appears in others apps like Text to easily process parts of a document.\n\nMore details on the assistant OCS API and frontend integration possibilities in the\n[developer doc](https://github.com/nextcloud/assistant/raw/main/docs/developer)\n\n### How to use it\n\nA new right header menu entry appears. Once clicked, the assistant is displayed and you can select and task type and\nset the input you want to process.\n\nThe task might run immediately or be scheduled depending on the time estimation given by the AI provider.\nOnce a task is scheduled, it will run as a background job. When it is finished, you will receive a notification\nfrom which the results can be displayed.\n\nOther apps can integrate with the assistant. For example, Text will display an inline button besides every paragraph\nto directly select a task type to process this paragraph. Selecting a task this way will open the assistant with the task\nbeing pre-selected and the input text set.\n\nMore details and screenshots in the [user doc](https://github.com/nextcloud/assistant/raw/main/docs/user).\n\n## Features\n\nIn the assistant, the list of available tasks depends on the available providers installed via other apps.\nThis means you have complete freedom over which service/software will actually run your AI tasks.\n\n### Text processing providers\n\nSo far, the [Local Large language model](https://github.com/nextcloud/llm2#readme)\nand the [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai) apps\ninclude text processing providers to:\n* Summarize\n* Extract topics\n* Generate a headline\n* Get an answer from a free prompt\n* Reformulate (OpenAi/LocalAi only)\n* Context writer: Generate text with a specified style. The style can be described or provided via an example text.\n\n### Text to image (Image generation)\n\nKnown providers:\n* [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai)\n* [Text2Image Stable Diffusion](https://apps.nextcloud.com/apps/text2image_stablediffusion)\n\n### Speech to text (Audio transcription)\n\nKnown providers:\n* [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai)\n* [Local Whisper Speech-To-Text](https://apps.nextcloud.com/apps/stt_whisper)\n\nMore details on how to set this up in the [admin docs](https://docs.nextcloud.com/server/latest/admin_manual/ai/index.html)",
     "homepage": "https://github.com/nextcloud/assistant",
     "licenses": [
@@ -280,9 +280,9 @@
     ]
   },
   "contacts": {
-    "hash": "sha256-Slk10WZfUQGsYnruBR5APSiuBd3jh3WG1GIqKhTUdfU=",
-    "url": "https://github.com/nextcloud-releases/contacts/releases/download/v6.1.2/contacts-v6.1.2.tar.gz",
-    "version": "6.1.2",
+    "hash": "sha256-5h94RmmJcM7P0Wjx/hHDbUA55x3H/klOjkmH3qxMbpQ=",
+    "url": "https://github.com/nextcloud-releases/contacts/releases/download/v6.1.3/contacts-v6.1.3.tar.gz",
+    "version": "6.1.3",
     "description": "The Nextcloud contacts app is a user interface for Nextcloud's CardDAV server. Easily sync contacts from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Currently Mail and Calendar – more to come.\n* 🎉 **Never forget a birthday!** You can sync birthdays and other recurring events with your Nextcloud Calendar.\n* 👥 **Sharing of Adressbooks!** You want to share your contacts with your friends or coworkers? No problem!\n* 🙈 **We’re not reinventing the wheel!** Based on the great and open SabreDAV library.",
     "homepage": "https://github.com/nextcloud/contacts#readme",
     "licenses": [
@@ -730,10 +730,10 @@
     ]
   },
   "flow_notifications": {
-    "hash": "sha256-SZIKzxJ63ZXqrOoVnypxCGRx/qd587uonM7jIsvRUmc=",
-    "url": "https://github.com/nextcloud-releases/flow_notifications/releases/download/v1.10.0/flow_notifications-v1.10.0.tar.gz",
-    "version": "1.10.0",
-    "description": "Enable users to configure notifications with customized conditions in their Flow configuration.\n\nUsers are empowered to configure a \"Send a notification\" Flow in their personal settings. They can choose between the events being triggered, and other conditions like filetypes, assigned tags, time ranges and more. They can specify an inscription so that when the notification appears they will have context.\n\n![Notification Flow Configuration](https://raw.githubusercontent.com/nextcloud/flow_notifications/master/screenshots/configuration.png)\n\nWhen an event happens where all conditions are apply, the user will receive a regular Nextcloud notification.\n\n![Flow Notification](https://raw.githubusercontent.com/nextcloud/flow_notifications/master/screenshots/notification.png)",
+    "hash": "sha256-tzVzqORX2ySgiId3N2QEPQiBHbvXJLSi2t4AmP3naCQ=",
+    "url": "https://github.com/nextcloud-releases/flow_notifications/releases/download/v1.10.1/flow_notifications-v1.10.1.tar.gz",
+    "version": "1.10.1",
+    "description": "Enable users to configure notifications with customized conditions in their Flow configuration.\n\nUsers are empowered to configure a \"Send a notification\" Flow in their personal settings. They can choose between the events being triggered, and other conditions like filetypes, assigned tags, time ranges and more. They can specify an inscription so that when the notification appears they will have context.\n\nTo use the `Flow Notifications` app, ensure that the `Notifications` app is installed and enabled. The `Notifications` app provides the necessary APIs for the `Flow Notifications` app to work correctly.\n\n![Notification Flow Configuration](https://raw.githubusercontent.com/nextcloud/flow_notifications/master/screenshots/configuration.png)\n\nWhen an event happens where all conditions are apply, the user will receive a regular Nextcloud notification.\n\n![Flow Notification](https://raw.githubusercontent.com/nextcloud/flow_notifications/master/screenshots/notification.png)",
     "homepage": "https://github.com/nextcloud/flow_notifications",
     "licenses": [
       "agpl"
@@ -910,9 +910,9 @@
     ]
   },
   "impersonate": {
-    "hash": "sha256-lPzWFv00dIKe7S5L4t0edvzMWsV4cqVArdCb3TLgeeM=",
-    "url": "https://github.com/nextcloud-releases/impersonate/releases/download/v1.17.0/impersonate-v1.17.0.tar.gz",
-    "version": "1.17.0",
+    "hash": "sha256-LGA3m4vubYK9QPdv9E0eQ3R0hTLjuTgNcSAq4sZVUNU=",
+    "url": "https://github.com/nextcloud-releases/impersonate/releases/download/v1.17.1/impersonate-v1.17.1.tar.gz",
+    "version": "1.17.1",
     "description": "By installing the impersonate app of your Nextcloud you enable administrators to impersonate other users on the Nextcloud server. This is especially useful for debugging issues reported by users.\n\nTo impersonate a user an administrator has to simply follow the following four steps:\n\n1. Login as administrator to Nextcloud.\n2. Open users administration interface.\n3. Select the impersonate button on the affected user.\n4. Confirm the impersonation.\n\nThe administrator is then logged-in as the user, to switch back to the regular user account they simply have to press the logout button.\n\n**Note:**\n\n- This app is not compatible with instances that have encryption enabled.\n- While impersonate actions are logged note that actions performed impersonated will be logged as the impersonated user.\n- Impersonating a user is only possible after their first login.\n- You can limit which users/groups can use impersonation in Administration settings > Additional settings.",
     "homepage": "https://github.com/nextcloud/impersonate",
     "licenses": [
@@ -990,9 +990,9 @@
     ]
   },
   "integration_excalidraw": {
-    "hash": "sha256-zleLZUCWIvZIpGfLJC8RhLk5pcFJ/GO5RS/x3kiD83k=",
-    "url": "https://github.com/nextcloud-releases/integration_excalidraw/releases/download/v2.2.0/integration_excalidraw-v2.2.0.tar.gz",
-    "version": "2.2.0",
+    "hash": "sha256-uV/Bqo2r4yx9o0Bb4ha4VHxju4Kkzyp40EAg5VfuL1E=",
+    "url": "https://github.com/nextcloud-releases/integration_excalidraw/releases/download/v2.4.0/integration_excalidraw-v2.4.0.tar.gz",
+    "version": "2.4.0",
     "description": "Modern collaborative whiteboard in Nextcloud.\nThis integration app lets users create Excalidraw boards, share board links and open boards directly in Nextcloud.",
     "homepage": "https://github.com/eneiluj/integration_excalidraw",
     "licenses": [
@@ -1120,9 +1120,9 @@
     ]
   },
   "integration_openai": {
-    "hash": "sha256-jAAsX9NA09rM5kWBrlfZXIdkF5Go2CIYAtxzKvYd4nM=",
-    "url": "https://github.com/nextcloud-releases/integration_openai/releases/download/v3.2.0/integration_openai-v3.2.0.tar.gz",
-    "version": "3.2.0",
+    "hash": "sha256-Dc7E5c9/rX4xgk7+spbwNWed57TDaO5oVPW6WDTXz/k=",
+    "url": "https://github.com/nextcloud-releases/integration_openai/releases/download/v3.3.0/integration_openai-v3.3.0.tar.gz",
+    "version": "3.3.0",
     "description": "⚠️ The smart pickers have been removed from this app\nas they are now included in the [Assistant app](https://apps.nextcloud.com/apps/assistant).\n\nThis app implements:\n\n* Text generation providers: Free prompt, Summarize, Headline, Context Write, Chat, and Reformulate (using any available large language model)\n* A Translation provider (using any available language model)\n* A SpeechToText provider (using Whisper)\n* An image generation provider\n\n⚠️ Context Write, Summarize, Headline and Reformulate have mainly been tested with OpenAI.\nThey might work when connecting to other services, without any guarantee.\n\nInstead of connecting to the OpenAI API for these, you can also connect to a self-hosted [LocalAI](https://localai.io) instance or [Ollama](https://ollama.com/) instance\nor to any service that implements an API similar to the OpenAI one, for example: [Plusserver](https://www.plusserver.com/en/ai-platform/) or [MistralAI](https://mistral.ai).\n\n⚠️ This app is mainly tested with OpenAI. We do not guarantee it works perfectly\nwith other services that implement OpenAI-compatible APIs with slight differences.\n\n## Improve AI task pickup speed\n\nTo avoid task processing execution delay, setup at 4 background job workers in the main server (where Nextcloud is installed). The setup process is documented here: https://docs.nextcloud.com/server/latest/admin_manual/ai/overview.html#improve-ai-task-pickup-speed\n\n## Ethical AI Rating\n### Rating for Text generation using ChatGPT via the OpenAI API: 🔴\n\nNegative:\n* The software for training and inference of this model is proprietary, limiting running it locally or training by yourself\n* The trained model is not freely available, so the model can not be run on-premises\n* The training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model's performance and CO2 usage.\n\n\n### Rating for Translation using ChatGPT via the OpenAI API: 🔴\n\nNegative:\n* The software for training and inference of this model is proprietary, limiting running it locally or training by yourself\n* The trained model is not freely available, so the model can not be run on-premises\n* The training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model's performance and CO2 usage.\n\n### Rating for Image generation using DALL·E via the OpenAI API: 🔴\n\nNegative:\n* The software for training and inferencing of this model is proprietary, limiting running it locally or training by yourself\n* The trained model is not freely available, so the model can not be ran on-premises\n* The training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\n\n### Rating for Speech-To-Text using Whisper via the OpenAI API: 🟡\n\nPositive:\n* The software for training and inferencing of this model is open source\n* The trained model is freely available, and thus can run on-premise\n\nNegative:\n* The training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\n### Rating for Text generation via LocalAI: 🟢\n\nPositive:\n* The software for training and inferencing of this model is open source\n* The trained model is freely available, and thus can be ran on-premises\n* The training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n\n### Rating for Image generation using Stable Diffusion via LocalAI : 🟡\n\nPositive:\n* The software for training and inferencing of this model is open source\n* The trained model is freely available, and thus can be ran on-premises\n\nNegative:\n* The training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\n\n### Rating for Speech-To-Text using Whisper via LocalAI: 🟡\n\nPositive:\n* The software for training and inferencing of this model is open source\n* The trained model is freely available, and thus can be ran on-premises\n\nNegative:\n* The training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/integration_openai",
     "licenses": [
@@ -1130,8 +1130,8 @@
     ]
   },
   "integration_openproject": {
-    "hash": "sha256-8NUbfie1vkVdUksj1M7Pu7zIyB1QuN0DenQcNhO4KFY=",
-    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.7.2-20241213-nightly/integration_openproject-2.7.2-20241213-nightly.tar.gz",
+    "hash": "sha256-VYZ6IGmLnZXBZfAmIdgrcLYBtlFUFQ0Y+2AtGdbcJCk=",
+    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.7.2/integration_openproject-2.7.2.tar.gz",
     "version": "2.7.2",
     "description": "This application enables seamless integration with open source project management and collaboration software OpenProject.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in OpenProject\n* Find all work packages linked to a file or a folder\n* Create work packages directly in Nextcloud\n* View OpenProject notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n* Link work packages in rich text fields via Smart Picker\n* Preview links to work packages in text fields\n* Link multiple files and folder to a work package at once\n\nOn the OpenProject end, users are able to:\n\n* Link work packages with files and folders in Nextcloud\n* Upload and download files directly to Nextcloud from within a work package\n* Open linked files in Nextcloud to edit them\n* Let OpenProject create shared folders per project\n\nFor more information on how to set up and use the OpenProject application, please refer to [integration setup guide](https://www.openproject.org/docs/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://www.openproject.org/docs/user-guide/nextcloud-integration/).",
     "homepage": "https://github.com/nextcloud/integration_openproject",
@@ -1160,9 +1160,9 @@
     ]
   },
   "integration_peertube": {
-    "hash": "sha256-MAa85V2ZpcF5di4U1IVsPujKZBYhJcMVs5ZNsWYCuCI=",
-    "url": "https://github.com/nextcloud-releases/integration_peertube/releases/download/v1.1.0/integration_peertube-v1.1.0.tar.gz",
-    "version": "1.1.0",
+    "hash": "sha256-/MVUcIPJV3nRhQgDYPx0snGJTbZTwmBHVPIYjWiAONo=",
+    "url": "https://github.com/nextcloud-releases/integration_peertube/releases/download/v1.2.0/integration_peertube-v1.2.0.tar.gz",
+    "version": "1.2.0",
     "description": "PeerTube integration provides a smart picker provider to search for videos\nand a link preview widget for video links.",
     "homepage": "https://github.com/julien-nc/integration_peertube",
     "licenses": [
@@ -1540,9 +1540,9 @@
     ]
   },
   "ocs_api_viewer": {
-    "hash": "sha256-LaCuq2J6gnEI8EOnIjl34lv3RKMEDQbETLJz48s/DCU=",
-    "url": "https://github.com/nextcloud-releases/ocs_api_viewer/releases/download/v1.0.8/ocs_api_viewer-v1.0.8.tar.gz",
-    "version": "1.0.8",
+    "hash": "sha256-ZOjfqf/2l0PeMw7lKPqAbGLiVYralKoajlx16JhSXWc=",
+    "url": "https://github.com/nextcloud-releases/ocs_api_viewer/releases/download/v1.0.9/ocs_api_viewer-v1.0.9.tar.gz",
+    "version": "1.0.9",
     "description": "View OCS API specifications for installed apps",
     "homepage": "https://github.com/nextcloud/ocs_api_viewer",
     "licenses": [
@@ -1860,9 +1860,9 @@
     ]
   },
   "richdocumentscode": {
-    "hash": "sha256-/isBiN4BC16EmaXAPv3M5O1GhWY5TmMKTGHyArCkWmE=",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/24.4.1002/richdocumentscode.tar.gz",
-    "version": "24.4.1002",
+    "hash": "sha256-exVRrKEWpFOnQS5B9zBv7lpAgVrX/J2MucTp9BlgMco=",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/24.4.1102/richdocumentscode.tar.gz",
+    "version": "24.4.1102",
     "description": "**This app has to be installed and used together with the [Nextcloud Office](https://apps.nextcloud.com/apps/richdocuments) integration app.**\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\n* This app provides a built-in server with all of the document editing features of Collabora Online.\n* Easy to install, for personal use or for small teams.\n* A bit slower than a standalone server and without the advanced scalability features.\n\n**System Requirements:**\n- Linux running on ```x86-64``` or ```arm64/aarch64```\n- A ```glibc``` based distribution/container (```musl libc``` is **not** supported)\n- Fontconfig (```libfontconfig.so.1```)\n- Additional requirements can be found in [here](https://github.com/CollaboraOnline/richdocumentscode#richdocumentscode)\n\n*The download is rather big so it is possible you will experience a time-out when installing via the web interface.* You can use the OCC command install the built-in server from the command-line instead:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)\n\nAdditional troubleshooting tips can be found [here](https://github.com/CollaboraOnline/richdocumentscode?tab=readme-ov-file#troubleshooting).",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -1870,9 +1870,9 @@
     ]
   },
   "richdocumentscode_arm64": {
-    "hash": "sha256-iHxfPI7Cxx0jBU3bMRA6uxkXmLqQVOSm6/TKrMx4/L0=",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/24.4.1002/richdocumentscode_arm64.tar.gz",
-    "version": "24.4.1002",
+    "hash": "sha256-WvIcI+5wADpfkYcLpIS9gpNQrcPmb0tKsHklzQj+o3A=",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/24.4.1102/richdocumentscode_arm64.tar.gz",
+    "version": "24.4.1102",
     "description": "**This app has to be installed and used together with the [Nextcloud Office](https://apps.nextcloud.com/apps/richdocuments) integration app.**\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\n* This app provides a built-in server with all of the document editing features of Collabora Online.\n* Easy to install, for personal use or for small teams.\n* A bit slower than a standalone server and without the advanced scalability features.\n\n**System Requirements:**\n- Linux running on ```x86-64``` or ```arm64/aarch64```\n- A ```glibc``` based distribution/container (```musl libc``` is **not** supported)\n- Fontconfig (```libfontconfig.so.1```)\n- Additional requirements can be found in [here](https://github.com/CollaboraOnline/richdocumentscode#richdocumentscode)\n\n*The download is rather big so it is possible you will experience a time-out when installing via the web interface.* You can use the OCC command install the built-in server from the command-line instead:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode_arm64\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)\n\nAdditional troubleshooting tips can be found [here](https://github.com/CollaboraOnline/richdocumentscode?tab=readme-ov-file#troubleshooting).",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -2010,9 +2010,9 @@
     ]
   },
   "sketch_picker": {
-    "hash": "sha256-6od9e9SaEiKR8XjXlr4eW1LKBpOttcWlrEJG+gRDmJ4=",
-    "url": "https://github.com/nextcloud-releases/sketch_picker/releases/download/v2.0.0/sketch_picker-v2.0.0.tar.gz",
-    "version": "2.0.0",
+    "hash": "sha256-fvtllj3Ld9aVh0+OSlgdpJ0AcmngsTZCdQdiFe2NTKM=",
+    "url": "https://github.com/nextcloud-releases/sketch_picker/releases/download/v2.1.0/sketch_picker-v2.1.0.tar.gz",
+    "version": "2.1.0",
     "description": "This app adds a smart picker provider to quickly draw sketches and insert them in your current context.",
     "homepage": "https://github.com/julien-nc/sketch_picker",
     "licenses": [
@@ -2040,9 +2040,9 @@
     ]
   },
   "sms_relentless": {
-    "hash": "sha256-HfJpAuLp1p5HWr8YWEHv0ZhU8apDHagusWwZEy4xCDk=",
-    "url": "https://git.doublebastion.com/releases/sms-relentless/1.3.9/sms_relentless.tar.gz",
-    "version": "1.3.9",
+    "hash": "sha256-yyTNlPmlJTanWK+bffreVqLlGHpcx0Pkz8AUb34rbEs=",
+    "url": "https://git.doublebastion.com/releases/sms-relentless/1.4.0/sms_relentless.tar.gz",
+    "version": "1.4.0",
     "description": "This application allows sending and receiving SMS and MMS messages in Nextcloud. An SMS/MMS enabled phone number acquired from \nTelnyx, Plivo, Twilio or Flowroute is needed. Detailed instructions on how to configure and use this application can be found on the 'Admin documentation' page.\n\n### Features:\n\n* 🚀 Use one or multiple local phone numbers in countries of your choice, to send and receive SMS/MMS messages with your browser, on any device connected to the Internet.\n\n* 📑 Sent and received SMS/MMS messages are stored in the database per sending/receiving user and can be viewed in paginated tables with filters for every column.\n\n* 🖼️  Up to 10 files of various formats, including jpeg, png and gif, can be sent as MMS messages from MMS enabled phone numbers. Files included in incoming MMS messages are not downloaded automatically. They are stored as URL links to the actual files, so that the receivers can download them only if they trust the senders.\n\n* 📔 SMS/MMS messages older than a specified number of days can be deleted in bulk with one click and they are automatically archived in csv files stored in Nextcloud, before being removed from the database. This makes them available for future analysis.\n\n* 💻 Sending SMS/MMS messages to thousands of recipients can be achieved by uploading a txt/csv file containing the recipients' phone numbers and the same SMS/MMS is sent automatically to all. The time interval between two consecutive messages is configurable.\n\n* 👤 The Display Name of Nextcloud users can be prepended to their messages, to make the origin of messages clearer.\n\n* ⚠️  Admins can restrict the use of specific phone numbers to specific groups or users.\n\n* ✉️  Auto-replies in 'daily mode' and 'vacation mode' can be configured for any controlled phone number.\n\n* 🔏 SMS/MMS messages coming from Telnyx, Plivo and Twilio are checked for authenticity by verifying the SMS provider's signature.\n\n* 📧 Users receive notifications in Nextcloud and (optionally) emails when new SMS/MMS messages arrive.\n\n* 📄 Each sent message receives a delivery receipt displayed in the Sent SMS Messages table.\n\n* 🎎 Messages exchanged between pairs of numbers are organized into conversations on a separate page where each conversation can be viewed, tagged and archived.\n\n* 📞 It can be used with regular 'long code' (10-digit) phone numbers, but also with 'toll-free' numbers and 'short codes'. Users see a list with their current phone numbers and can set them as Sender IDs. Setting alphanumeric Sender IDs is also possible.\n\n* 📱 If Nextcloud is accessed in Firefox for mobile (version 123.0 or newer), it can be used directly on mobile devices.\n\n* 💵 It allows checking the current Telnyx/Plivo/Twilio balance by selecting the provider on the left panel.\n\n* 💰 The only ongoing cost is about $1 per month (depending on the country) for an SMS/MMS enabled phone number located in a country chosen by the user. No contracts.\n\n* 💸 Low prices per SMS: starting from $0.0040 per sent message and $0.0040 per received message (Telnyx), or $0.0085 per sent message and $0.0085 per received message (Plivo), or $0.0109 per sent message and 0.0079 per received message (Twilio), or $0.0055 per sent message and 0.0040 per received message (Flowroute) in the USA.\n\nWe have no affiliation with Telnyx, Plivo, Twilio or Flowroute.\n\n### Documentation\n\n* [Admin documentation](https://www.doublebastion.com/install-nextcloud/#install-sms-relentless)\n\n### Donations\n\n* 🎁 [Donate](https://www.doublebastion.com/donations/)",
     "homepage": "https://www.doublebastion.com/sms-relentless/",
     "licenses": [
@@ -2200,9 +2200,9 @@
     ]
   },
   "talk_matterbridge": {
-    "hash": "sha256-Nhm8YFgMoaLNUvv93oK+ty2uLYQRuCLl3K03WuOYHIA=",
-    "url": "https://github.com/nextcloud/talk_matterbridge/releases/download/v1.30.1026000/talk_matterbridge-1.30.1026000.tar.gz",
-    "version": "1.30.1026000",
+    "hash": "sha256-C7gAhNK2fMy6ls9baHpIIk3V2Sv2ePI9U52TCIqmX84=",
+    "url": "https://github.com/nextcloud/talk_matterbridge/releases/download/v1.31.1026000/talk_matterbridge-1.31.1026000.tar.gz",
+    "version": "1.31.1026000",
     "description": "This app brings the Matterbridge binary to your server to connect Nextcloud Talk with other chat services.\nThis allows admins to easily install and keep updated the Matterbridge binaries through a familiar interface.\n\nThe last number of the version is the shipped Matterbridge binary version.\nBinary is licensed under Apache-2.0 License.",
     "homepage": "https://github.com/nextcloud/talk_matterbridge",
     "licenses": [
@@ -2240,9 +2240,9 @@
     ]
   },
   "text_templates": {
-    "hash": "sha256-47S+aY6jFw6bZQSDRNUPOPlDDE9lq2qaj4kudExOKlo=",
-    "url": "https://github.com/nextcloud-releases/text_templates/releases/download/v1.1.0/text_templates-v1.1.0.tar.gz",
-    "version": "1.1.0",
+    "hash": "sha256-ZzfpuMFkGIhxoqHEHlMaqOOMCOeZtb0fls3Eouqg7SA=",
+    "url": "https://github.com/nextcloud-releases/text_templates/releases/download/v1.2.0/text_templates-v1.2.0.tar.gz",
+    "version": "1.2.0",
     "description": "This app adds a smart picker provider to quickly access text templates when using Text, Collectives, Talk, Mail\nor any place where the smart picker is integrated.",
     "homepage": "https://github.com/julien-nc/text_templates",
     "licenses": [
@@ -2250,9 +2250,9 @@
     ]
   },
   "theming_customcss": {
-    "hash": "sha256-iUns2lI7SOFMs7aGexIQ4ZGqgRK7S4V19I+5aZFihOo=",
-    "url": "https://github.com/juliushaertl/theming_customcss/releases/download/v1.17.0/theming_customcss.tar.gz",
-    "version": "1.17.0",
+    "hash": "sha256-MsF+im9yCt7bRNIE8ait0wxcVzMXsHMNbp+IIzY/zJI=",
+    "url": "https://github.com/nextcloud-releases/theming_customcss/releases/download/v1.18.0/theming_customcss.tar.gz",
+    "version": "1.18.0",
     "description": "Adjust the Nextcloud theme with custom CSS",
     "homepage": "",
     "licenses": [
@@ -2560,9 +2560,9 @@
     ]
   },
   "zaakafhandelapp": {
-    "hash": "sha256-zs8Wc20Q3itQA1u2CKPLtkePBUe2r1YmsqahotfMsm8=",
-    "url": "https://github.com/ConductionNL/zaakafhandelapp/releases/download/v0.1.23/zaakafhandelapp-0.1.23.tar.gz",
-    "version": "0.1.23",
+    "hash": "sha256-CuqH9Mi3ue6hFeGezPqn5XLU2V7E2AtQaiFCEixQJy4=",
+    "url": "https://github.com/ConductionNL/zaakafhandelapp/releases/download/v0.1.24/zaakafhandelapp-0.1.24.tar.gz",
+    "version": "0.1.24",
     "description": "📰 Brinning Gateway and Service bus functionality to nextcloud\n\nThe OpenCatalogi Nextcloud app provides a framework for federated catalogi to work together in an open data ecosystem\n\n- 📲 Synchronize your data sources \n- 📰 Send cloud eventt\n- 🆓 Map and translate api calls\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://conduction.gitbook.io/opencatalogi-nextcloud/installatie)\n\nThe Roadmap is available [here](https://github.com/orgs/OpenCatalogi/projects/1/views/2)\n\nCreate a [bug report](https://github.com/OpenCatalogi/.github/issues/new/choose)\n\nCreate a [feature request](https://github.com/OpenCatalogi/.github/issues/new/choose)",
     "homepage": "https://github.com/ConductionNL/zaakafhandelapp",
     "licenses": [
