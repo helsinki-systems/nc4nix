@@ -200,9 +200,9 @@
     ]
   },
   "call_summary_bot": {
-    "hash": "sha256-ykmictGBA78PouotY15cw+xUj1u5NP0DWpzWVNlckk8=",
-    "url": "https://github.com/nextcloud-releases/call_summary_bot/releases/download/v2.0.0/call_summary_bot-v2.0.0.tar.gz",
-    "version": "2.0.0",
+    "hash": "sha256-p4ovk6Hsy4+eqTormtrSMywBGWr7LRHMEosKUOo05uo=",
+    "url": "https://github.com/nextcloud-releases/call_summary_bot/releases/download/v2.0.1/call_summary_bot-v2.0.1.tar.gz",
+    "version": "2.0.1",
     "description": "### Before a call\n\n- The bot can be used to also collect agenda points and topics with the following keywords:\n  - `- agenda`\n  - `- topic`\n  - `- top`\n- You can also post multiple tasks in a single message, just put each on its own line starting with a keyword\n\n### During a call\n\n- Any message starting with a Markdown checkbox or a keyword during a call will be recognized and used in the summary:\n  - Open todos: `- [ ]`, `- todo:`, `- task:`\n  - Solved todos: `- [x]`\n  - Notes: `- note:`\n  - Reports: `- report:`\n  - Decisions: `- decision:`\n- You can also post multiple tasks in a single message, just put each on its own line starting with a keyword\n- At the end of the call, the bot will summarize it and list all the attendees as well as the tasks in a markdown chat message",
     "homepage": "https://github.com/nextcloud/call_summary_bot",
     "licenses": [
@@ -350,8 +350,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -380,9 +380,9 @@
     ]
   },
   "dav_push": {
-    "hash": "sha256-WXPAQqkBefFYdBUtrXV9C97HUIEKUGoIOREZsSfcyTI=",
-    "url": "https://github.com/bitfireAT/nc_ext_dav_push/releases/download/v0.0.1/dav_push.tar.gz",
-    "version": "0.0.1",
+    "hash": "sha256-XRDZHZFHQ1GChWE7Ps5lqhf7aPO4qZtWGoz8wBFQl/g=",
+    "url": "https://github.com/bitfireAT/nc_ext_dav_push/releases/download/v0.0.2/dav_push.tar.gz",
+    "version": "0.0.2",
     "description": "**This extension is in a very early stage of development. It is for demonstration and testing purposes only. Don't use it on production systems!**\n\nIn proprietary environments, changes in events and contacts are nowadays usually pushed to other clients so that they can update their views almost in real-time.\n\nWebDAV however (and in this context, especially CalDAV and CardDAV) doesn't currently support push notifications of clients when a collection has changed. So clients have to periodically ask the server for changes. This causes unnecessary delays and battery usage.\n\nThe WebDAV-Push standard, which is currently in development, wants to solve this problem with an open protocol, too.\n\nThis is the server part of these efforts to draft a standard and provide a working implementation (server + client) in order to demonstrate it.\n\n\nThe current WebDAV-Push draft is provided by [@bitfireAT](https://github.com/bitfireAT).\n          \nThis Nextcloud extension has been developed by [@verdigado](https://github.com/verdigado).",
     "homepage": "",
     "licenses": [
@@ -1310,8 +1310,8 @@
     ]
   },
   "integration_openproject": {
-    "hash": "sha256-VYZ6IGmLnZXBZfAmIdgrcLYBtlFUFQ0Y+2AtGdbcJCk=",
-    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.7.2/integration_openproject-2.7.2.tar.gz",
+    "hash": "sha256-8NUbfie1vkVdUksj1M7Pu7zIyB1QuN0DenQcNhO4KFY=",
+    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.7.2-20241213-nightly/integration_openproject-2.7.2-20241213-nightly.tar.gz",
     "version": "2.7.2",
     "description": "This application enables seamless integration with open source project management and collaboration software OpenProject.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in OpenProject\n* Find all work packages linked to a file or a folder\n* Create work packages directly in Nextcloud\n* View OpenProject notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n* Link work packages in rich text fields via Smart Picker\n* Preview links to work packages in text fields\n* Link multiple files and folder to a work package at once\n\nOn the OpenProject end, users are able to:\n\n* Link work packages with files and folders in Nextcloud\n* Upload and download files directly to Nextcloud from within a work package\n* Open linked files in Nextcloud to edit them\n* Let OpenProject create shared folders per project\n\nFor more information on how to set up and use the OpenProject application, please refer to [integration setup guide](https://www.openproject.org/docs/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://www.openproject.org/docs/user-guide/nextcloud-integration/).",
     "homepage": "https://github.com/nextcloud/integration_openproject",
@@ -1430,9 +1430,9 @@
     ]
   },
   "integration_zulip": {
-    "hash": "sha256-YN1GmdHaYgIGHRkH0iwDMiodplYVln5WzJsHkzr0X/0=",
-    "url": "https://github.com/nextcloud-releases/integration_zulip/releases/download/v1.0.5/integration_zulip-v1.0.5.tar.gz",
-    "version": "1.0.5",
+    "hash": "sha256-zez8NpCgh+CHsis8ryjL82/zRHWLPIDsXKxH5DnnUdo=",
+    "url": "https://github.com/nextcloud-releases/integration_zulip/releases/download/v1.1.0/integration_zulip-v1.1.0.tar.gz",
+    "version": "1.1.0",
     "description": "This integration allows you to send Nextcloud files to your Zulip chat instance as uploaded files, public shared links, or internal shared links.\n\n## 🔧 Configuration\n\n### User settings\n\nAccount configuration happens in the \"Connected accounts\" user settings section.\nIt requires you to specify the URL of your Zulip instance, as well as the email address and API key associated with your Zulip account in that instance.\nThese values can be found in and copied from your Zulip account's `zuliprc` file located in **Personal settings > Account & privacy > API key**.\n\nIf those settings are not configured, a link to the \"Connected accounts\" user settings page will be displayed when attempting to send a file to a Zulip user/topic.\nThe context menu to send a file can be accessed by right clicking on the file/folder to be shared or selecting them and clicking on the \"Actions\" button.",
     "homepage": "https://github.com/nextcloud/integration_zulip",
     "licenses": [
@@ -1840,9 +1840,9 @@
     ]
   },
   "openotp_auth": {
-    "hash": "sha256-bfTEoV53tAnubYkz6keIm1mv9s12d+TlU9j98KIuwQ4=",
-    "url": "https://github.com/rcdevs/nextcloud_openotp_auth/releases/download/1.29.3/openotp_auth-1.29.3.tar.gz",
-    "version": "1.29.3",
+    "hash": "sha256-poB9HBBPjXv/l5i1r6lupBFXjeKKZguBAO5XupSEPvE=",
+    "url": "https://github.com/RCDevs-Security-Organization/nextcloud_openotp_auth/releases/download/1.29.4/openotp_auth-1.29.4.tar.gz",
+    "version": "1.29.4",
     "description": "**RCDevs OpenOTP Application enables two-factor authentication for your users using your personal Cloud.**\n\nIt is versatile, device-independent and based on opened security standards.\n\nOpenOTP provides fine-grained user identity and access management (IAM), one-time passwords authentication technologies (OTP) and Universal Second Factor Authentification (U2F) including among others extensive authentication policies for your AD / LDAP users.\n\nIt is enterprise-ready with strong support for:\n\n* high-availability\n* load-balancing\n* multi-tenancy\n* geolocalization\n* delegated administration\n* contextual authentication with IP address and device fingerprint\n* push Login technology with Mobile Phone\n* voice biometrics technology\n* easy installation, update and configuration in RCDevs WebADM\n* ... and much more.",
     "homepage": "https://github.com/rcdevs/nextcloud_openotp_auth",
     "licenses": [
@@ -2390,9 +2390,9 @@
     ]
   },
   "sociallogin": {
-    "hash": "sha256-QCpXuOjUy0dpCUYh4rc3mHLtZUk/D4uLfHqDqDzwbxk=",
-    "url": "https://github.com/zorn-v/nextcloud-social-login/releases/download/v5.8.1/release.tar.gz",
-    "version": "5.8.1",
+    "hash": "sha256-RVPUVQUJwQqrlJhJAkWvu8UErUJIAQulMV+7m9be/Mg=",
+    "url": "https://github.com/zorn-v/nextcloud-social-login/releases/download/v5.8.2/release.tar.gz",
+    "version": "5.8.2",
     "description": "# Social login\n\nMake possible create users and login via Telegram, OAuth or OpenID\n\nFor OAuth you must create app for certain providers. Login button appear at login page if app id specified. Settings are in \"Social login\" section of settings page.\n\n## Installation\n\nLogin to your NextCloud installation as an administrator and under \"Apps\" click \"Download and enable\" next to the \"Social Login\" app.\n\nSee below for setup and configuration instructions.\n\n\n\n## Custom OAuth2/OIDC groups\n\nYou can use groups from your custom provider. For that you should specify \"Groups claim\" in custom OAuth2/OIDC provider settings. That claim should be returned from provider in `id_token` or at user info endpoint. Format should be `array` or comma separated string. Eg (with claim named `roles`)\n\n```json\n{\"roles\": [\"admin\", \"user\"]}\n```\nor\n```json\n{\"roles\": \"admin,user\"}\n```\n\nAlso nested claims is supported. For example `resource_access.client-id.roles` for\n\n```json\n\"resource_access\": {\n   \"client-id\": {\n     \"roles\": [\n       \"client-role-1\",\n       \"client-role-2\"\n     ]\n   }\n}\n```\n\nThere is also support for setting the displayName:\n```\n{\"roles\": [{gid: 1, displayName: \"admin\"}, {gid: 2, displayName: \"user\"}]}\n```\n\n\nYou can use provider groups in two ways:\n\n1. Map provider groups to existing nextcloud groups\n2. Create provider groups in nextcloud and associate it to user (if appropriate option specified)\n\nIf you want sync groups on every login do not forget to check \"Update user profile every login\" setting\n\n## Examples for groups\n\n* You can find example how to configure WSO2IS for return roles claim with OIDC [here](https://medium.com/@dewni.matheesha/claim-mapping-and-retrieving-end-user-information-in-wso2is-cffd5f3937ff)\n* [GitLab OIDC allowing specific GitLab groups](https://github.com/zorn-v/nextcloud-social-login/blob/master/docs/sso/gitlab.md)\n\n## Built-in OAuth providers\n\nYou can copy link of certain login button to get proper \"redirect url\" for OAuth app setting.\n\n* [Google](https://github.com/zorn-v/nextcloud-social-login/blob/master/docs/sso/google.md)\n* [Amazon](https://developer.amazon.com/loginwithamazon/console/site/lwa/overview.html)\n* [Facebook](https://github.com/zorn-v/nextcloud-social-login/blob/master/docs/sso/facebook.md)\n* [Twitter](https://github.com/zorn-v/nextcloud-social-login/blob/master/docs/sso/twitter.md)\n* [GitHub](https://github.com/settings/developers)\n* [Discord](#configure-discord)\n* [Telegram](https://github.com/zorn-v/nextcloud-social-login/blob/master/docs/sso/telegram.md)\n* PlexTv - you can use any title as app id\n* [Codeberg](https://github.com/zorn-v/nextcloud-social-login/blob/master/docs/sso/codeberg.md)\n\nDetails about \"Allow login only from specified domain\" google setting you can find here [#44](https://github.com/zorn-v/nextcloud-social-login/issues/44)\nYou can use comma separated list for multiple domains\n\n## Config\n\nYou can use `'social_login_auto_redirect' => true` setting in `config.php` for auto redirect unauthorized users to social login if only one provider is configured.\nIf you want to temporary disable this function (e.g. for login as local admin), you can add `noredir=1` query parameter in url for login page. Something like `https://cloud.domain.com/login?noredir=1`\n\nTo set options for http client, you can use\n```php\n  'social_login_http_client' => [\n    'timeout' => 45,\n    'proxy' => 'socks4://127.0.0.1:9050', // Check https://curl.se/libcurl/c/CURLOPT_PROXY.html for allowed variants\n  ],\n```\nin `config.php`\n\n### Configurate a provider via CLI\n\nYou can configure everything from commandline by using the occ utility. To setup a oidc-provider replace the variables and URLs with values that match your deployment.\n```bash\nphp occ config:app:set sociallogin custom_providers --value='{\"custom_oidc\": [{\"name\": \"gitlab_oidc\", \"title\": \"Gitlab\", \"authorizeUrl\": \"https://gitlab.my-domain.org/oauth/authorize\", \"tokenUrl\": \"https://gitlab.my-domain.org/oauth/token\", \"userInfoUrl\": \"https://gitlab.my-domain.org/oauth/userinfo\", \"logoutUrl\": \"\", \"clientId\": \"$my_application_id\", \"clientSecret\": \"$my_super_secret_secret\", \"scope\": \"openid\", \"groupsClaim\": \"groups\", \"style\": \"gitlab\", \"defaultGroup\": \"\"}]}'\n```\nto do this with docker you just need to add `docker exec -t -uwww-data CONTAINER_NAME` in front of the command, or run it interactively from `docker exec -it -uwww-data CONTAINER_NAME sh`\n\nTo find out how to configure other providers, just configure them in the GUI and take a look at the database afterwards:\n```\nmysql -u nextcloud -p nextcloud\nPassword: <yourpassword>\n\n> SELECT * FROM oc_appconfig WHERE appid='sociallogin';\n```\n\nOr just run\n\n`docker exec -t -uwww-data CONTAINER_NAME php occ config:app:get sociallogin custom_providers`\n\n### Configure Discord\n\nTo properly configure discord you have to:\n\n1. Create new discord application on [DiscordApp developers](https://discordapp.com/developers/applications/me#top)\n2. Open tab `Settings -> OAuth2 -> General`. In `Redirects` add new redirection link looking like this: `https://nextcloud.mydomain.com/apps/sociallogin/oauth/discord`.\n3. Copy `CLIENT ID` and generate and copy `CLIENT SECRET`\n4. Open in Nextcloud `Settings -> Social Login` and paste `CLIENT ID` into field `App id` and `CLIENT SECRET` into `Secret`.\n5. Select default group for users created this way.\n6. For group mapping check [#395](https://github.com/zorn-v/nextcloud-social-login/pull/395)\n\n## Hint\n\n### About Callback(Reply) Url\nYou can copy link from specific login button on login page and paste it on provider's website as callback url. To make proper button visible, just fill certain provider settings with random data and change it later.\n\nSome users may get strange reply(Callback) url error from provider even if you pasted the right url, that's because your nextcloud server may generate http urls when you are actually using https.\nPlease set 'overwriteprotocol' => 'https', in your config.php file.",
     "homepage": "https://github.com/zorn-v/nextcloud-social-login",
     "licenses": [
@@ -2750,9 +2750,9 @@
     ]
   },
   "user_oidc": {
-    "hash": "sha256-JPgcRKfuPzEz3mOiv5QRqfIuIWJdZVz8g7oPMCsN39A=",
-    "url": "https://github.com/nextcloud-releases/user_oidc/releases/download/v6.2.0/user_oidc-v6.2.0.tar.gz",
-    "version": "6.2.0",
+    "hash": "sha256-sF0YJcrQ+PDJnxQcyCnJY3C3VfUlXX2FOSsgIORA8Qw=",
+    "url": "https://github.com/nextcloud-releases/user_oidc/releases/download/v6.2.1/user_oidc-v6.2.1.tar.gz",
+    "version": "6.2.1",
     "description": "Allows flexible configuration of an OIDC server as Nextcloud login user backend.",
     "homepage": "https://github.com/nextcloud/user_oidc",
     "licenses": [
@@ -2910,10 +2910,10 @@
     ]
   },
   "workspace": {
-    "hash": "sha256-rkuqUPMu8yEiYIZoyLgHPLremMAtLylMpqFi1H2j6eU=",
-    "url": "https://github.com/arawa/workspace/releases/download/v3.3.2/workspace-3.3.2.tar.gz",
-    "version": "3.3.2",
-    "description": "# Description\n\nWorkspace allows managers to :\n- Create shared workspaces\n- Delegate management of each workspace to users (workspace managers) in order for them to:\n    - choose members\n    - create groups\n    - configure advanced permissions on workspace folders\n- All through a simple unified interface, designed to simplify your users' experience and make them autonomous\n\nIt is necessary to install the Group Folders app for the Workspace app to work.\n\n## ⚠️ Warning\n\nWe found an incompatibility with the latest release of Groupfolders.\n\nThese are the compatible versions until we address those issues:\n\n| Workspace | GroupFolders |\n| :---: | :---: |\n| all versions | 16.0.0 to 16.0.9 |\n| all versions | 17.0.0 to 17.0.3 |\n\n# App configuration\n\nBefore using Workspace, you must configure the app, following these important steps:\n\n- Limit the Workspace app to specific groups : in your \"application management\" administrator interface, limit the application to the following groups: \"GeneralManager\" and \"WorkspacesManagers\".\n\n- Configure Groupfolders for Workspace:\n    - In \"Settings\" > \"Group folders\" > \"Group folder admin delegation\" section, add the group \"GeneralManager\" to the **first** field, and the group \"WorkspacesManagers\" to the **second** field\n\nIf you are using a major version of Nextcloud lower than Nextcloud 25, please follow the instructions provided on [GitHub](https://github.com/arawa/workspace). \n\nFor more information, please visit [our website](https://www.arawa.fr/solutions/produits-arawa/arawa-workspace-for-nextcloud/) (french content).\n\nFor more details, please go to the [admin documentation](https://github.com/arawa/workspace/blob/main/README.md#installation), or [user documentation](https://github.com/arawa/workspace/tree/main/docs/user-guide/from-3.X.X).",
+    "hash": "sha256-vDs6IwrRzGdRJN1D2E1LAZWFpXvcS6kIukDd/o7pvfs=",
+    "url": "https://github.com/arawa/workspace/releases/download/v4.0.0/workspace-4.0.0.tar.gz",
+    "version": "4.0.0",
+    "description": "# Description\n\nWorkspace allows managers to :\n- Create shared workspaces\n- Delegate management of each workspace to users (workspace managers) in order for them to:\n    - choose members\n    - create groups\n    - configure advanced permissions on workspace folders\n- All through a simple unified interface, designed to simplify your users' experience and make them autonomous\n\nIt is necessary to install the Group Folders app for the Workspace app to work.\n\n# App configuration\n\nBefore using Workspace, you must configure the app, following these important steps:\n\n- Limit the Workspace app to specific groups : in your \"application management\" administrator interface, limit the application to the following groups: \"GeneralManager\" and \"WorkspacesManagers\".\n\n- Configure Groupfolders for Workspace:\n    - In \"Settings\" > \"Group folders\" > \"Group folder admin delegation\" section, add the group \"GeneralManager\" to the **first** field, and the group \"WorkspacesManagers\" to the **second** field\n\nIf you are using a major version of Nextcloud lower than Nextcloud 25, please follow the instructions provided on [GitHub](https://github.com/arawa/workspace). \n\nFor more information, please visit [our website](https://www.arawa.fr/solutions/produits-arawa/arawa-workspace-for-nextcloud/) (french content).\n\nFor more details, please go to the [admin documentation](https://github.com/arawa/workspace/blob/main/README.md#installation), or [user documentation](https://github.com/arawa/workspace/tree/main/docs/user-guide/from-3.X.X).",
     "homepage": "",
     "licenses": [
       "agpl"
