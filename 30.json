@@ -290,9 +290,9 @@
     ]
   },
   "context_chat": {
-    "hash": "sha256-SOVOZb6+tTnU0ccSN3Q9WymSaWNvam4stJBNOWQzJVU=",
-    "url": "https://github.com/nextcloud-releases/context_chat/releases/download/v4.0.3/context_chat-v4.0.3.tar.gz",
-    "version": "4.0.3",
+    "hash": "sha256-9TgW6r9qPl/550O/QVezEPAJf8PAeepo9Yi+Mj9SmIk=",
+    "url": "https://github.com/nextcloud-releases/context_chat/releases/download/v4.0.4/context_chat-v4.0.4.tar.gz",
+    "version": "4.0.4",
     "description": "Ask questions to Nextcloud Assistant about the content of your documents.\n\nInstall the given apps for Context Chat to work as desired **in the given order**:\n- [AppAPI from the Apps page](https://apps.nextcloud.com/apps/app_api)\n- [Context Chat Backend (same major and minor version as Context Chat app below) from the External Apps page](https://apps.nextcloud.com/apps/context_chat_backend)\n- [Context Chat (same major and minor version as the backend) from the Apps page](https://apps.nextcloud.com/apps/context_chat)\n- [Assistant from the Apps page](https://apps.nextcloud.com/apps/assistant). The OCS API or the `occ` commands can also be used to interact with this app but it recommended to do that through a Task Processing OCP API consumer like the Assistant app, which is also the officially supported universal UI for all the AI providers.\n- Text2Text Task Processing Provider like [llm2 from the External Apps page](https://apps.nextcloud.com/apps/llm2) or [integration_openai from the Apps page](https://apps.nextcloud.com/apps/integration_openai)\n\nSetup background job workers as described here: https://docs.nextcloud.com/server/latest/admin_manual/ai/overview.html#improve-ai-task-pickup-speed\n\nNote:\nRefer to the [Context Chat Backend's readme](https://github.com/nextcloud/context_chat_backend/?tab=readme-ov-file) and the [AppAPI's documentation](https://cloud-py-api.github.io/app_api/) for help with setup of AppAPI's deploy daemon.",
     "homepage": "https://github.com/nextcloud/context_chat",
     "licenses": [
@@ -310,9 +310,9 @@
     ]
   },
   "cospend": {
-    "hash": "sha256-eqqnbav+b8GN8UvL0CtgQxZjHoZu1x66B0Ev5lu1aCk=",
-    "url": "https://github.com/julien-nc/cospend-nc/releases/download/v3.0.10/cospend-3.0.10.tar.gz",
-    "version": "3.0.10",
+    "hash": "sha256-rfbmlxiZ0sQxidFZ68/icFzHmLoYxLAmH20Nejj1Hv8=",
+    "url": "https://github.com/julien-nc/cospend-nc/releases/download/v3.0.11/cospend-3.0.11.tar.gz",
+    "version": "3.0.11",
     "description": "# Nextcloud Cospend 💰\n\nNextcloud Cospend is a group/shared budget manager. It was inspired by the great [IHateMoney](https://github.com/spiral-project/ihatemoney/).\n\nYou can use it when you share a house, when you go on vacation with friends, whenever you share expenses with a group of people.\n\nIt lets you create projects with members and bills. Each member has a balance computed from the project bills. Balances are not an absolute amount of money at members disposal but rather a relative information showing if a member has spent more for the group than the group has spent for her/him, independently of exactly who spent money for whom. This way you can see who owes the group and who the group owes. Ultimately you can ask for a settlement plan telling you which payments to make to reset members balances.\n\nProject members are independent from Nextcloud users. Projects can be shared with other Nextcloud users or via public links.\n\n[MoneyBuster](https://gitlab.com/eneiluj/moneybuster) Android client is [available in F-Droid](https://f-droid.org/packages/net.eneiluj.moneybuster/) and on the [Play store](https://play.google.com/store/apps/details?id=net.eneiluj.moneybuster).\n\n[PayForMe](https://github.com/mayflower/PayForMe) iOS client is currently under developpement!\n\nThe private and public APIs are documented using [the Nextcloud OpenAPI extractor](https://github.com/nextcloud/openapi-extractor/). This documentation can be accessed directly in Nextcloud. All you need is to install Cospend (>= v1.6.0) and use the [the OCS API Viewer app](https://apps.nextcloud.com/apps/ocs_api_viewer) to browse the OpenAPI documentation.\n\n## Features\n\n* ✎ Create/edit/delete projects, members, bills, bill categories, currencies\n* ⚖ Check member balances\n* 🗠 Display project statistics\n* ♻ Display settlement plan\n* Move bills from one project to another\n* Move bills to trash before actually deleting them\n* Archive old projects before deleting them\n* 🎇 Automatically create reimbursement bills from settlement plan\n* 🗓 Create recurring bills (day/week/month/year)\n* 📊 Optionally provide custom amount for each member in new bills\n* 🔗 Link personal files to bills (picture of physical receipt for example)\n* 👩 Public links for people outside Nextcloud (can be password protected)\n* 👫 Share projects with Nextcloud users/groups/circles\n* 🖫 Import/export projects as csv (compatible with csv files from IHateMoney and SplitWise)\n* 🔗 Generate link/QRCode to easily add projects in MoneyBuster\n* 🗲 Implement Nextcloud notifications and activity stream\n\nThis app usually support the 2 or 3 last major versions of Nextcloud.\n\nThis app is under development.\n\n🌍 Help us to translate this app on [Nextcloud-Cospend/MoneyBuster Crowdin project](https://crowdin.com/project/moneybuster).\n\n⚒ Check out other ways to help in the [contribution guidelines](https://github.com/julien-nc/cospend-nc/blob/master/CONTRIBUTING.md).\n\n## Documentation\n\n* [User documentation](https://github.com/julien-nc/cospend-nc/blob/master/docs/user.md)\n* [Admin documentation](https://github.com/julien-nc/cospend-nc/blob/master/docs/admin.md)\n* [Developer documentation](https://github.com/julien-nc/cospend-nc/blob/master/docs/dev.md)\n* [CHANGELOG](https://github.com/julien-nc/cospend-nc/blob/master/CHANGELOG.md#change-log)\n* [AUTHORS](https://github.com/julien-nc/cospend-nc/blob/master/AUTHORS.md#authors)\n\n## Known issues\n\n* It does not make you rich\n\nAny feedback will be appreciated.\n\n\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://github.com/julien-nc/cospend-nc",
     "licenses": [
@@ -320,8 +320,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -670,9 +670,9 @@
     ]
   },
   "files_mindmap": {
-    "hash": "sha256-vrOF0kdxpNW7ulD1SkOdz44e2uYXdZuDec/4sC5N4JA=",
-    "url": "https://github.com/ACTom/files_mindmap/releases/download/v0.0.32/files_mindmap-0.0.32.tar.gz",
-    "version": "0.0.32",
+    "hash": "sha256-SRHkK3oaSEBsrQPhjgWy9WSliubYkrOc89lix5O/fZM=",
+    "url": "https://github.com/ACTom/files_mindmap/releases/download/v0.0.33/files_mindmap-0.0.33.tar.gz",
+    "version": "0.0.33",
     "description": "This application enables Nextcloud users to open, save and edit mind map files in the web browser. If enabled, an entry in the New button at the top of the web browser the Mindmap file entry appears. When clicked, a new mindmap file opens in the browser and the file can be saved into the current Nextcloud directory.",
     "homepage": "https://github.com/ACTom/files_mindmap",
     "licenses": [
@@ -875,6 +875,16 @@
     "version": "0.1.16",
     "description": "Adds a virtual \"Everyone\" group.",
     "homepage": "https://github.com/icewind1991/group_everyone",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "groupfolder_tags": {
+    "hash": "sha256-Jzn9eAaNDuGgekv8zOnja0Y3lW/v0E1sGzGYnbtkDVc=",
+    "url": "https://github.com/verdigado/groupfolder_tags/releases/download/v1.0.0/groupfolder_tags.tar.gz",
+    "version": "1.0.0",
+    "description": "Without this app if you wanted to automate/script the creation and updates of groupfolders you couldn't attach metadata to that groupfolder to recognize them in your script in the future.\n\t\tYou had to create your own database to map from your own unique key to the groupfolder id or encode that information in the user-visible groupfolder name.\n\t\tNo more: With this app you can add key-value tags to your groupfolders (only visible to admins) making it trivially easy to recognize them again in your automations.\n\t\tThis was created for the (yet to launch) organization_folders groupfolder management app, but was kept generic to allow it to be used by your custom automations.\n\t\tThis app does not provide a frontend and does nothing on it's own, it is designed to be used in conjunction with other apps/scripts.",
+    "homepage": "https://github.com/verdigado/groupfolder_tags",
     "licenses": [
       "agpl"
     ]
@@ -1350,9 +1360,9 @@
     ]
   },
   "libresign": {
-    "hash": "sha256-1DZ9zOpB9a2tszlv/tXtA2RubeMdmbtf9EnkHaoBv3E=",
-    "url": "https://github.com/LibreSign/libresign/releases/download/v10.6.0/libresign-v10.6.0.tar.gz",
-    "version": "10.6.0",
+    "hash": "sha256-wwYsA6nn2TscKbW9xIZDoFXybTUGK8pngrz9OGs60tY=",
+    "url": "https://github.com/LibreSign/libresign/releases/download/v10.6.1/libresign-v10.6.1.tar.gz",
+    "version": "10.6.1",
     "description": "**This is a libre digital PDF signature app for Nextcloud**\n\n* ✍️ **Sign PDF** documents using digital certificates\n* 🔄 **Hybrid signatures**: You can choose between personal or system-generated digital certificates\n* 👥 **Multiple signers**: Request signature on a document for as many people as you need\n* 📸 **QR Code**: Document validation by QR Code\n* 🔒 **Privacy**: Fully self-hosted document signer\n* 📲 **Connect to your software**: Easily integrate [LibreSign](https://libresign.coop) into your service with our full-fledged [REST-API](https://libresign.coop/posts/libresign-api-guide/).\n* 🙋 **Get involved**! We have lots of stuff planned. More information at [LibreSign](https://github.com/libresign/libresign) repository.\n\n🌍 Help us translate this application on [Transifex](https://app.transifex.com/nextcloud/nextcloud/libresign/)\n\nIf you enjoy this app and want to help maintain its development or want enterprise support, please contact us:\n\n[https://libresign.coop](https://libresign.coop)\n\n## Donation\n\nDeveloped with ❤️ by [LibreCode](https://librecode.coop). Help us transform people and businesses through cooperativism.\n\n* [Donate with GitHub Sponsor: ![Donate using GitHub Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/libresign)",
     "homepage": "https://github.com/LibreSign/libresign",
     "licenses": [
@@ -1660,9 +1670,9 @@
     ]
   },
   "openotp_auth": {
-    "hash": "sha256-WYP2Num8WB1c0y0V0nAOd0asOPhJv6PhNCAeFCyZsJ0=",
-    "url": "https://github.com/RCDevs-Security-Organization/nextcloud_openotp_auth/releases/download/1.30.3/openotp_auth-1.30.3.tar.gz",
-    "version": "1.30.3",
+    "hash": "sha256-16BLYngwdfSYGaTfFsRaXIKhD466Ah5HzEmbI+EKA5c=",
+    "url": "https://github.com/RCDevs-Security-Organization/nextcloud_openotp_auth/releases/download/1.30.4/openotp_auth-1.30.4.tar.gz",
+    "version": "1.30.4",
     "description": "**RCDevs OpenOTP Application enables two-factor authentication for your users using your personal Cloud.**\n\nIt is versatile, device-independent and based on opened security standards.\n\nOpenOTP provides fine-grained user identity and access management (IAM), one-time passwords authentication technologies (OTP) and Universal Second Factor Authentification (U2F) including among others extensive authentication policies for your AD / LDAP users.\n\nIt is enterprise-ready with strong support for:\n\n* high-availability\n* load-balancing\n* multi-tenancy\n* geolocalization\n* delegated administration\n* contextual authentication with IP address and device fingerprint\n* push Login technology with Mobile Phone\n* voice biometrics technology\n* easy installation, update and configuration in RCDevs WebADM\n* ... and much more.",
     "homepage": "https://github.com/rcdevs/nextcloud_openotp_auth",
     "licenses": [
