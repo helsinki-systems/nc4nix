@@ -1670,9 +1670,9 @@
     ]
   },
   "openotp_auth": {
-    "hash": "sha256-16BLYngwdfSYGaTfFsRaXIKhD466Ah5HzEmbI+EKA5c=",
-    "url": "https://github.com/RCDevs-Security-Organization/nextcloud_openotp_auth/releases/download/1.30.4/openotp_auth-1.30.4.tar.gz",
-    "version": "1.30.4",
+    "hash": "sha256-bvHKGMqEvOO7FWY51G0AJA4oG82yuhuW7WRrokypnBA=",
+    "url": "https://github.com/RCDevs-Security-Organization/nextcloud_openotp_auth/releases/download/1.30.5/openotp_auth-1.30.5.tar.gz",
+    "version": "1.30.5",
     "description": "**RCDevs OpenOTP Application enables two-factor authentication for your users using your personal Cloud.**\n\nIt is versatile, device-independent and based on opened security standards.\n\nOpenOTP provides fine-grained user identity and access management (IAM), one-time passwords authentication technologies (OTP) and Universal Second Factor Authentification (U2F) including among others extensive authentication policies for your AD / LDAP users.\n\nIt is enterprise-ready with strong support for:\n\n* high-availability\n* load-balancing\n* multi-tenancy\n* geolocalization\n* delegated administration\n* contextual authentication with IP address and device fingerprint\n* push Login technology with Mobile Phone\n* voice biometrics technology\n* easy installation, update and configuration in RCDevs WebADM\n* ... and much more.",
     "homepage": "https://github.com/rcdevs/nextcloud_openotp_auth",
     "licenses": [
@@ -1935,6 +1935,16 @@
     "version": "0.1.8",
     "description": "Clean duplicate items from the root filecache by deleting user specific entries that got indexed into the root cache by mistake.",
     "homepage": "https://github.com/icewind1991/root_cache_cleaner",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "scim_client": {
+    "hash": "sha256-cOTBCAfpjYsTy6trwOPLlgghOmBAJHgphOUtqmFjfwg=",
+    "url": "https://github.com/nextcloud-releases/scim_client/releases/download/v1.0.1/scim_client-v1.0.1.tar.gz",
+    "version": "1.0.1",
+    "description": "Use Nextcloud as an identity provider for external services using the [SCIM](https://scim.cloud/) standard.\n\nSimply add your SCIM servers in the admin settings, and the app will automatically sync all Nextcloud users and groups to your servers.",
+    "homepage": "https://github.com/nextcloud/scim_client",
     "licenses": [
       "agpl"
     ]
