@@ -2020,9 +2020,9 @@
     ]
   },
   "previewgenerator": {
-    "hash": "sha256-kTYmN/tAJwjj2KwnrKVIZa5DhyXHjuNWNskqJZxs4sY=",
-    "url": "https://github.com/nextcloud-releases/previewgenerator/releases/download/v5.7.0/previewgenerator-v5.7.0.tar.gz",
-    "version": "5.7.0",
+    "hash": "sha256-dPUvtVFtSqlG9M1RXZ8u7nL3wgK5yFU2/pL9pFLjisc=",
+    "url": "https://github.com/nextcloud-releases/previewgenerator/releases/download/v5.8.0/previewgenerator-v5.8.0.tar.gz",
+    "version": "5.8.0",
     "description": "The Preview Generator app allows admins to pre-generate previews. The app listens to edit events and stores this information. Once a cron job is triggered it will generate start preview generation. This means that you can better utilize your system by pre-generating previews when your system is normally idle and thus putting less load on your machine when the requests are actually served.\n\nThe app does not replace on demand preview generation so if a preview is requested before it is pre-generated it will still be shown.\nThe first time you install this app, before using a cron job, you properly want to generate all previews via:\n**./occ preview:generate-all -vvv**\n\n**Important**: To enable pre-generation of previews you must add **php /var/www/nextcloud/occ preview:pre-generate** to a system cron job that runs at times of your choosing.",
     "homepage": "https://github.com/nextcloud/previewgenerator",
     "licenses": [
@@ -2409,10 +2409,20 @@
       "agpl"
     ]
   },
+  "socialsharing_bluesky": {
+    "hash": "sha256-yfMqf5iOiVYj1K+lR8SIZUYDlPbhWv3GSJcU5ecgfCM=",
+    "url": "https://github.com/nextcloud-releases/socialsharing/releases/download/v3.3.0/socialsharing_bluesky-v3.3.0.tar.gz",
+    "version": "3.3.0",
+    "description": "Enable direct sharing of files via Bluesky, using shared links. \n\t\nThis app always links to bsky.app. Using other domains is not possible with this app.",
+    "homepage": "https://github.com/nextcloud/socialsharing",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "socialsharing_diaspora": {
-    "hash": "sha256-+Dy7J1RGixVVV5ZtFhPSuUT1N4Frz9svV60YKd/DdqU=",
-    "url": "https://github.com/nextcloud-releases/socialsharing/releases/download/v3.2.0/socialsharing_diaspora-v3.2.0.tar.gz",
-    "version": "3.2.0",
+    "hash": "sha256-dajr+qr5p9FAkYHDtNE+dqf8NNk+Y477t9+btFQcvdc=",
+    "url": "https://github.com/nextcloud-releases/socialsharing/releases/download/v3.3.0/socialsharing_diaspora-v3.3.0.tar.gz",
+    "version": "3.3.0",
     "description": "Enable direct sharing of files via Diaspora, using shared links.",
     "homepage": "https://github.com/nextcloud/socialsharing",
     "licenses": [
@@ -2420,9 +2430,9 @@
     ]
   },
   "socialsharing_email": {
-    "hash": "sha256-jZfyjDGZc5K7whoCOeHZyRNlv/Im/Btm/wbpjygRxks=",
-    "url": "https://github.com/nextcloud-releases/socialsharing/releases/download/v3.2.0/socialsharing_email-v3.2.0.tar.gz",
-    "version": "3.2.0",
+    "hash": "sha256-uqNEbcUkokiotV5sRpp3vJC3MHOsxHpSvB+V7DvMLM4=",
+    "url": "https://github.com/nextcloud-releases/socialsharing/releases/download/v3.3.0/socialsharing_email-v3.3.0.tar.gz",
+    "version": "3.3.0",
     "description": "Enable direct sharing of files via email, using shared links.",
     "homepage": "https://github.com/nextcloud/socialsharing",
     "licenses": [
@@ -2430,9 +2440,9 @@
     ]
   },
   "socialsharing_facebook": {
-    "hash": "sha256-J7mPAh1iz50kaSPddUqoX93fhrlH7reJUhxK6YEfwBs=",
-    "url": "https://github.com/nextcloud-releases/socialsharing/releases/download/v3.2.0/socialsharing_facebook-v3.2.0.tar.gz",
-    "version": "3.2.0",
+    "hash": "sha256-pEnugSgAY+1/tJn9hRjNHxIR/EhpT+XJl/W+jof4sxc=",
+    "url": "https://github.com/nextcloud-releases/socialsharing/releases/download/v3.3.0/socialsharing_facebook-v3.3.0.tar.gz",
+    "version": "3.3.0",
     "description": "Enable direct sharing of files via Facebook, using shared links.",
     "homepage": "https://github.com/nextcloud/socialsharing",
     "licenses": [
@@ -2440,9 +2450,9 @@
     ]
   },
   "socialsharing_telegram": {
-    "hash": "sha256-iGoCPY+aHdgG9hd12qT1aesndDIH0fQe3qu1RKUJSDA=",
-    "url": "https://github.com/nextcloud-releases/socialsharing/releases/download/v3.2.0/socialsharing_telegram-v3.2.0.tar.gz",
-    "version": "3.2.0",
+    "hash": "sha256-ASxHEZeHokci13eEePRdEM3jomOla2sPYh0olA4U4oE=",
+    "url": "https://github.com/nextcloud-releases/socialsharing/releases/download/v3.3.0/socialsharing_telegram-v3.3.0.tar.gz",
+    "version": "3.3.0",
     "description": "Enable direct sharing of files via Telegram, using shared links.",
     "homepage": "https://github.com/nextcloud/socialsharing",
     "licenses": [
@@ -2450,10 +2460,20 @@
     ]
   },
   "socialsharing_twitter": {
-    "hash": "sha256-r6TeGg6nh2r/y6t6kfomw4KvynoEzEoJ4r0Al/IHjp0=",
-    "url": "https://github.com/nextcloud-releases/socialsharing/releases/download/v3.2.0/socialsharing_twitter-v3.2.0.tar.gz",
-    "version": "3.2.0",
+    "hash": "sha256-gFIMeoQQLOxiZFrm1d54zNWCO9oHvxGHXzwYByGEEDg=",
+    "url": "https://github.com/nextcloud-releases/socialsharing/releases/download/v3.3.0/socialsharing_twitter-v3.3.0.tar.gz",
+    "version": "3.3.0",
     "description": "Enable direct sharing of files via Twitter, using shared links.",
+    "homepage": "https://github.com/nextcloud/socialsharing",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "socialsharing_whatsapp": {
+    "hash": "sha256-av5X3C4McV0JjTJ2/wjgZlzh7HXLJYLpAvaf+N1eNNo=",
+    "url": "https://github.com/nextcloud-releases/socialsharing/releases/download/v3.3.0/socialsharing_whatsapp-v3.3.0.tar.gz",
+    "version": "3.3.0",
+    "description": "Enable direct sharing of files via WhatsApp, using shared links.",
     "homepage": "https://github.com/nextcloud/socialsharing",
     "licenses": [
       "agpl"
@@ -2830,9 +2850,9 @@
     ]
   },
   "webapppassword": {
-    "hash": "sha256-rA4wbS8uUMd0VOK73fTeItW0yAWNzeR4R34KKAbJCkI=",
-    "url": "https://github.com/digital-blueprint/webapppassword/releases/download/v24.9.0/webapppassword.tar.gz",
-    "version": "24.9.0",
+    "hash": "sha256-uWsve/eiMwyFTsA35w53cf7jkYg3dopiP2Kzmvrx0OU=",
+    "url": "https://github.com/digital-blueprint/webapppassword/releases/download/v25.2.0/webapppassword.tar.gz",
+    "version": "25.2.0",
     "description": "Temporary app password generator and WebDAV/CalDAV CORS header injection to be able to access the\nNextcloud WebDAV/CalDAV service from inside web applications. There also is a files sharing api endpoint with CORS header injection.\n\nThere is an [example implementation](https://github.com/digital-blueprint/webapppassword/blob/main/docs/example/index.html)\nthat uses this app to generate a temporary password and make a WebDAV request to a Nextcloud instance\n([docker container](https://github.com/digital-blueprint/webapppassword/tree/main/docker) included).\n\nSee [Example](https://github.com/digital-blueprint/webapppassword#example) for a Nextcloud WebDAV file picker example\nthat uses this application.",
     "homepage": "https://github.com/digital-blueprint/webapppassword",
     "licenses": [
