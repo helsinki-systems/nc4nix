@@ -320,8 +320,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -590,10 +590,10 @@
     ]
   },
   "files_autorename": {
-    "hash": "sha256-xgq41+GTNhtpXod43b4PNRalC3b2JGXsUOhoIirZfbg=",
-    "url": "https://github.com/powerflo/files_autorename/releases/download/v1.0.0/files_autorename-1.0.0.tar.gz",
-    "version": "1.0.0",
-    "description": "AutoRename is a Nextcloud app that renames and organizes newly added or moved files based on user-defined rules.  \n\tBy placing a `.rename.conf` file in a folder, users can specify regex-based patterns to rename or move files.  \n\n\tRenaming is handled by a background job that runs every few minutes, so changes may not be immediate.\n\n\tFeatures:  \n\t- Define renaming and moving rules with regex  \n\t- Automatically process newly added or moved files  \n\t- Organize files into subfolders dynamically",
+    "hash": "sha256-ogaXXhss4wtNrK3qms6IXDpXUQgps4zdApbK9XHQNck=",
+    "url": "https://github.com/powerflo/files_autorename/releases/download/v1.1.0/files_autorename-1.1.0.tar.gz",
+    "version": "1.1.0",
+    "description": "AutoRename is a Nextcloud app that renames and organizes newly added or moved files based on user-defined rules.  \n\tBy placing a `.rename.conf` file in a folder, users can specify regex-based patterns to rename or move files.  \n\n\tRenaming is handled by a background job that runs every few minutes, so changes may not be immediate.\n\n\tFeatures:  \n\t- Define renaming and moving rules with regular expressions  \n\t- Automatically process newly added or moved files  \n\t- Organize files into subfolders dynamically",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -2595,6 +2595,16 @@
     "version": "1.6.0",
     "description": "An app to trigger automatic conversion of travel documents to calendar events. It uses kitinerary to extract the information and is compatible with the KDE itinerary mobile application.",
     "homepage": "https://github.com/mcmic/workflow_kitinerary",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "workflow_media_converter": {
+    "hash": "sha256-pIYUVhPkCxktL406MJRTdNFj6tTq79hkUQbGefj4YSk=",
+    "url": "https://github.com/cwilby/nextcloud-workflow-media-converter/releases/download/v1.12.1/workflow_media_converter.tar.gz",
+    "version": "1.12.0",
+    "description": "A dedicated media conversion manager for Nextcloud that allows you to automate media conversion.\n\n**Features**\n * Convert video/audio between formats supported by FFmpeg.\n * Complete control of the conversion process.\n * Automatically convert media as it is uploaded.\n * Create batch jobs to convert existing media.",
+    "homepage": "https://github.com/cwilby/nextcloud-workflow-media-converter",
     "licenses": [
       "agpl"
     ]
