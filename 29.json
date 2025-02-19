@@ -1520,10 +1520,10 @@
     ]
   },
   "ldap_write_support": {
-    "hash": "sha256-pOwSMfjPaBnYTpXDBmPIZ+bWhOD7Yk0JuQa+5eQ1qH4=",
-    "url": "https://github.com/nextcloud-releases/ldap_write_support/releases/download/v1.11.0/ldap_write_support-v1.11.0.tar.gz",
-    "version": "1.11.0",
-    "description": "The write support for LDAP enriches the LDAP backend with capabilities to manage the directory from Nextcloud.\n* create, edit and delete users\n* create, modify memberships and delete groups\n* prevent fallback to the local database backend (optional)\n* auto generate a user ID (optional)\n* and more behavioral switches",
+    "hash": "sha256-rIei76JhP8nT/NkOf/Tp+570W676y5iXtNROzKUw8Jc=",
+    "url": "https://github.com/nextcloud-releases/ldap_write_support/releases/download/v1.11.1/ldap_write_support-v1.11.1.tar.gz",
+    "version": "1.11.1",
+    "description": "The write support for LDAP enriches the LDAP backend with capabilities to manage the directory from Nextcloud.\n* create, edit and delete users\n* create, modify memberships and delete groups\n* prevent fallback to the local database backend (optional)\n* auto generate a user id (optional)\n* and more behavioral switches",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -1810,9 +1810,9 @@
     ]
   },
   "opencatalogi": {
-    "hash": "sha256-tF7uBK/OfWKeHXZpQwq1PgyPATiJyRIxAR3ANpCa8Jk=",
-    "url": "https://github.com/ConductionNL/opencatalogi/releases/download/v0.6.63/opencatalogi-0.6.63.tar.gz",
-    "version": "0.6.63",
+    "hash": "sha256-aHePFxPP38t/NJJZMzTPttpEIGbMiNZjSU5GzM+bv3s=",
+    "url": "https://github.com/ConductionNL/opencatalogi/releases/download/v0.6.64/opencatalogi-0.6.64.tar.gz",
+    "version": "0.6.64",
     "description": "📰 A OpenCatalogi App for Nextcloud\n\nThe OpenCatalogi Nextcloud app provides a framework for federated catalogi to work together in an open data ecosystem\n\n- 📲 Synchronize your sources with multiple catalogi\n- 🔄 Automatic publications of your open data\n- 🆓 Free and open source under EUPL\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://conduction.gitbook.io/opencatalogi-nextcloud/installatie)\n\nThe Roadmap is available [here](https://github.com/orgs/OpenCatalogi/projects/1/views/2)\n\nCreate a [bug report](https://github.com/OpenCatalogi/.github/issues/new/choose)\n\nCreate a [feature request](https://github.com/OpenCatalogi/.github/issues/new/choose)",
     "homepage": "https://documentatie.opencatalogi.nl/",
     "licenses": [
@@ -1870,9 +1870,9 @@
     ]
   },
   "openregister": {
-    "hash": "sha256-LzRxjztzSErmzcxexR6YsCjVoUsR527EelC3B6MwjAs=",
-    "url": "https://github.com/ConductionNL/openregister/releases/download/v0.1.47/openregister-0.1.47.tar.gz",
-    "version": "0.1.47",
+    "hash": "sha256-33OSgkmbNSMKxP5PxuLUWGDmdNy39eUjtJp6mub61ME=",
+    "url": "https://github.com/ConductionNL/openregister/releases/download/v0.1.49/openregister-0.1.49.tar.gz",
+    "version": "0.1.49",
     "description": "📰 An OpenRegister App for Nextcloud\n\nThe OpenRegister Nextcloud app provides a framework for federated registers to work together in an open data ecosystem\n\n- 📲 Synchronize your sources with multiple registers\n- 🔄 Automatic publications of your open data\n- 🆓 Free and open source under EUPL\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://conduction.gitbook.io/openregister-nextcloud/installatie)\n\nThe Roadmap is available [here](https://github.com/orgs/OpenRegister/projects/1/views/2)\n\nCreate a [bug report](https://github.com/OpenRegister/.github/issues/new/choose)\n\nCreate a [feature request](https://github.com/OpenRegister/.github/issues/new/choose)",
     "homepage": "https://github.com/ConductionNL/OpenRegister",
     "licenses": [
@@ -2960,9 +2960,9 @@
     ]
   },
   "workspace": {
-    "hash": "sha256-vDs6IwrRzGdRJN1D2E1LAZWFpXvcS6kIukDd/o7pvfs=",
-    "url": "https://github.com/arawa/workspace/releases/download/v4.0.0/workspace-4.0.0.tar.gz",
-    "version": "4.0.0",
+    "hash": "sha256-QOuH1AcFrRMsUQfiwSMOFgPUtiWiapG4srozzw5M9ns=",
+    "url": "https://github.com/arawa/workspace/releases/download/v4.0.1/workspace-4.0.1.tar.gz",
+    "version": "4.0.1",
     "description": "# Description\n\nWorkspace allows managers to :\n- Create shared workspaces\n- Delegate management of each workspace to users (workspace managers) in order for them to:\n    - choose members\n    - create groups\n    - configure advanced permissions on workspace folders\n- All through a simple unified interface, designed to simplify your users' experience and make them autonomous\n\nIt is necessary to install the Group Folders app for the Workspace app to work.\n\n# App configuration\n\nBefore using Workspace, you must configure the app, following these important steps:\n\n- Limit the Workspace app to specific groups : in your \"application management\" administrator interface, limit the application to the following groups: \"GeneralManager\" and \"WorkspacesManagers\".\n\n- Configure Groupfolders for Workspace:\n    - In \"Settings\" > \"Group folders\" > \"Group folder admin delegation\" section, add the group \"GeneralManager\" to the **first** field, and the group \"WorkspacesManagers\" to the **second** field\n\nIf you are using a major version of Nextcloud lower than Nextcloud 25, please follow the instructions provided on [GitHub](https://github.com/arawa/workspace). \n\nFor more information, please visit [our website](https://www.arawa.fr/solutions/produits-arawa/arawa-workspace-for-nextcloud/) (french content).\n\nFor more details, please go to the [admin documentation](https://github.com/arawa/workspace/blob/main/README.md#installation), or [user documentation](https://github.com/arawa/workspace/tree/main/docs/user-guide/from-3.X.X).",
     "homepage": "",
     "licenses": [
