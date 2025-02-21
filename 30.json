@@ -630,10 +630,10 @@
     ]
   },
   "files_emailviewer": {
-    "hash": "sha256-1WAPJ9+80ou3RhtBBFvorlh4c4+6Fox1G4eRJ57U5rc=",
-    "url": "https://github.com/nextcloud-releases/files_emailviewer/releases/download/v0.1.3/files_emailviewer-v0.1.3.tar.gz",
-    "version": "0.1.3",
-    "description": "### Email Viewer integrates the excellent Email to PDF Converter into Nextcloud, enabling you to view .msg and .eml files.\n\n#### Requirements\n\n- Nextcloud 28 or newer\n- PDF Viewer for Nextcloud\n- PHP proc_open\n- OpenJDK\n- [wkhtmltopdf](https://wkhtmltopdf.org/)\n- [Email to PDF Converter](https://github.com/nickrussler/email-to-pdf-converter)\n\n#### Installation\n\n- Download and enable files_emailviewer\n- Store a copy of the Email to PDF Converter on the server, ensuring that Nextcloud has access to it\n- Set the path to Email to PDF Converter via `occ config:app:set --value /opt/emailconverter-3.0.0-all.jar files_emailviewer binary_path`\n- Upload a .msg or .eml file and view it directly in Nextcloud 🙌\n\n#### Outgoing connections\n\n- If the email contains images from external sources, the Email to PDF converter will download the images, requiring external connections\n- The current version does not consider Nextcloud's proxy configuration but should follow the system default",
+    "hash": "sha256-BC2mQhckHucpyOI3JADECHTdWIVRe3rlM81CuBBl7D8=",
+    "url": "https://github.com/nextcloud-releases/files_emailviewer/releases/download/v0.1.4/files_emailviewer-v0.1.4.tar.gz",
+    "version": "0.1.4",
+    "description": "### Email Viewer integrates the excellent Email to PDF Converter into Nextcloud, enabling you to view .msg and .eml files.\n\n#### Requirements\n\n- Nextcloud 28 or newer\n- Viewer and PDF Viewer for Nextcloud\n- PHP proc_open\n- [Email to PDF Converter](https://github.com/nickrussler/email-to-pdf-converter) (requires OpenJDK and [wkhtmltopdf](https://wkhtmltopdf.org/))\n\n#### Installation\n\n- Download and enable files_emailviewer\n- Store a copy of the Email to PDF Converter on the server, ensuring that Nextcloud has access to it\n- Set the path to Email to PDF Converter via `occ config:app:set --value /opt/emailconverter-3.0.0-all.jar files_emailviewer binary_path`\n- Upload a .msg or .eml file and view it directly in Nextcloud 🙌\n\n#### Outgoing connections\n\n- If the email contains images from external sources, the Email to PDF converter will download the images, requiring external connections\n- The current version does not consider Nextcloud's proxy configuration but should follow the system default",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -1383,7 +1383,7 @@
     "hash": "sha256-Y/PfAAbwj8LStOqj7eMIbf2jQSm0DxamEgrHIslaeqs=",
     "url": "https://github.com/nextcloud-releases/ldap_write_support/releases/download/v1.12.1/ldap_write_support-v1.12.1.tar.gz",
     "version": "1.12.1",
-    "description": "The write support for LDAP enriches the LDAP backend with capabilities to manage the directory from Nextcloud.\n* create, edit and delete users\n* create, modify memberships and delete groups\n* prevent fallback to the local database backend (optional)\n* auto generate a user id (optional)\n* and more behavioral switches",
+    "description": "The write support for LDAP enriches the LDAP backend with capabilities to manage the directory from Nextcloud.\n* create, edit and delete users\n* create, modify memberships and delete groups\n* prevent fallback to the local database backend (optional)\n* auto generate a user ID (optional)\n* and more behavioral switches",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -1690,9 +1690,9 @@
     ]
   },
   "openincryptpad": {
-    "hash": "sha256-04dJEH9mwuNGbi2MxPzmcoCwH+p4NRmcHSNX7j7Eyr0=",
-    "url": "https://github.com/cryptpad/nextcloud-open-in-cryptpad/releases/download/v0.3.6/openincryptpad.tar.gz",
-    "version": "0.3.6",
+    "hash": "sha256-5WH/yblALlYHaCnGn7zFTj22/AUCpSmPqlo+3wyKEbE=",
+    "url": "https://github.com/cryptpad/nextcloud-open-in-cryptpad/releases/download/v0.3.7/openincryptpad.tar.gz",
+    "version": "0.3.7",
     "description": "# Open In CryptPad\n\n\"Open in CryptPad\" is a Nextcloud application that allows collaborative editing\nof files. For this it uses a CryptPad instance embedded into the Nextcloud web\ninterface. Currently, only drawio diagrams are supported.\n\n## Importing images from Nextcloud into diagrams\n\nWith this app, you can import images from Nextcloud into\ndiagrams. A copy of the image will be stored inside the `.drawio` file.\n\n## Rights management\n\nWhen using this app, the file permissions are completely handled by\nNextcloud. The right's management of CryptPad is not used for Nextcloud\nfiles edited in CryptPad.\n\n## Installation\n\n### Prerequisites on the CryptPad side\n\nTo embed CryptPad into Nextcloud, the \"Enable remote embedding\" admin setting\nneeds to be enabled. You can find this setting on the \"Administration\" web\ninterface in the \"General\" tab.\n\n### Install from Nextcloud app store\n\n1. Add drawio mimetype to Nextcloud. \"Open in CryptPad\" depends on Nextcloud\n   detecting drawio files correctly. For this you have to create the following\n   files: (**Note:** do this before uploading any drawio files! The mimetype of\n   old files will not be updated by these changes)\n    - `nextcloud/config/mimetypealiases.json`\n\n        ``` json\n        {\n            \"application/x-drawio\": \"image\"\n        }\n        ```\n\n    - `nextcloud/config/mimetypemapping.json`\n\n        ``` json\n        {\n            \"drawio\": [\"application/x-drawio\"]\n        }\n        ```\n2. Open the \"Apps\" page in your Nextcloud web interface and install \"Open in\n   CryptPad\". You can find it in the \"Integration\" category.\n3. Configure \"Open in CryptPad\" in the administration settings of Nextcloud.",
     "homepage": "",
     "licenses": [
