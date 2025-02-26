@@ -80,9 +80,9 @@
     ]
   },
   "assistant": {
-    "hash": "sha256-tSfSn3N7zLDE3UA+X1yyWZD2bs4Ff1MtSMjQjwZmjj8=",
-    "url": "https://github.com/nextcloud-releases/assistant/releases/download/v2.3.0/assistant-v2.3.0.tar.gz",
-    "version": "2.3.0",
+    "hash": "sha256-GNA0dV2f+hFCXKbnjY6cgjRGkSwunhzhnEetXrxZdhY=",
+    "url": "https://github.com/nextcloud-releases/assistant/releases/download/v2.4.0/assistant-v2.4.0.tar.gz",
+    "version": "2.4.0",
     "description": "This app brings a user interface to use the Nextcloud text processing feature.\n\nIt allows users to launch AI tasks, be notified when they finish and see the results.\nThe assistant also appears in others apps like Text to easily process parts of a document.\n\nMore details on the assistant OCS API and frontend integration possibilities in the\n[developer doc](https://github.com/nextcloud/assistant/raw/main/docs/developer)\n\n### How to use it\n\nA new right header menu entry appears. Once clicked, the assistant is displayed and you can select and task type and\nset the input you want to process.\n\nThe task might run immediately or be scheduled depending on the time estimation given by the AI provider.\nOnce a task is scheduled, it will run as a background job. When it is finished, you will receive a notification\nfrom which the results can be displayed.\n\nOther apps can integrate with the assistant. For example, Text will display an inline button besides every paragraph\nto directly select a task type to process this paragraph. Selecting a task this way will open the assistant with the task\nbeing pre-selected and the input text set.\n\nMore details and screenshots in the [user doc](https://github.com/nextcloud/assistant/raw/main/docs/user).\n\n## Features\n\nIn the assistant, the list of available tasks depends on the available providers installed via other apps.\nThis means you have complete freedom over which service/software will actually run your AI tasks.\n\n### Text processing providers\n\nSo far, the [Local Large language model](https://github.com/nextcloud/llm2#readme)\nand the [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai) apps\ninclude text processing providers to:\n* Summarize\n* Extract topics\n* Generate a headline\n* Get an answer from a free prompt\n* Reformulate (OpenAi/LocalAi only)\n* Context writer: Generate text with a specified style. The style can be described or provided via an example text.\n\n### Text to image (Image generation)\n\nKnown providers:\n* [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai)\n* [Text2Image Stable Diffusion](https://apps.nextcloud.com/apps/text2image_stablediffusion)\n\n### Speech to text (Audio transcription)\n\nKnown providers:\n* [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai)\n* [Local Whisper Speech-To-Text](https://apps.nextcloud.com/apps/stt_whisper)\n\nMore details on how to set this up in the [admin docs](https://docs.nextcloud.com/server/latest/admin_manual/ai/index.html)",
     "homepage": "https://github.com/nextcloud/assistant",
     "licenses": [
@@ -320,8 +320,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -480,9 +480,9 @@
     ]
   },
   "epubviewer": {
-    "hash": "sha256-G0PvMcVC11qQhi0e/kjjPBZmCDZUjHoVo/3EqnNNKYw=",
-    "url": "https://github.com/devnoname120/epubviewer/releases/download/1.7.0/epubviewer-1.7.0.tar.gz",
-    "version": "1.7.0",
+    "hash": "sha256-+aabxiyhtJGJUQkgz+4WTnOno01kiWHuvvjMK3FOGZQ=",
+    "url": "https://github.com/devnoname120/epubviewer/releases/download/1.7.2/epubviewer-1.7.2.tar.gz",
+    "version": "1.7.2",
     "description": "# EPUB Viewer\nEPUB Viewer is an ebook reader based on pure javascript renderers. It works for publications formatted according to the following standards:\n\n - [EPUB]\n - [PDF]\n - [CBR and CBZ] ('comics')\n\nEPUB files are displayed using the futurepress [epub.js] renderer to provide near-native looks, especially when used full-screen. Turn pages by pressing the left/right hand side of the screen/window or using the cursor keys (if you have those), use the sidebar to browse through chapters or bookmarks and add annotations.\n\nPDF is handled by Mozilla's [pdf.js] renderer in combination with a custom reader app to enable side-by-side display, batch search and more. Controls are like those used in the Epub renderer with a few exceptions, e.g. night mode has not been implemented yet.\n\nCBR and CBZ are supported using a custom renderer inspired by [balaclark]'s work. As with Epub, books can be navigated using the keyboard as well as mouse or touch navigation. Reader generates a visual index of all pages, show in the sidebar (thumbnail generation can be disabled for low-memory and/or -speed devices). As CBx files are often of varying quality, a set of image enhancement filters are provided.\n\nSee [README] for more exhaustive information on features and potential misfeatures of this app.\n\n   [epub.js]: https://github.com/futurepress/epub.js\n   [EPUB]: http://idpf.org/epub\n   [CBR and CBZ]: https://wiki.mobileread.com/wiki/CBR_and_CBZ\n   [balaclark]: https://github.com/balaclark/HTML5-Comic-Book-Reader\n   [PDF]: https://en.wikipedia.org/wiki/Portable_Document_Format\n   [pdf.js]: https://github.com/mozilla/pdf.js\n   [README]: https://github.com/devnoname120/epubviewer#readme",
     "homepage": "https://github.com/devnoname120/epubviewer",
     "licenses": [
@@ -780,9 +780,9 @@
     ]
   },
   "forms": {
-    "hash": "sha256-8/iPZxbVEI0noo63xVS4HogNBoY9vMhY3gmWqysLfaE=",
-    "url": "https://github.com/nextcloud-releases/forms/releases/download/v4.3.8/forms-v4.3.8.tar.gz",
-    "version": "4.3.8",
+    "hash": "sha256-7/AxmS3QxPpiSb9QoeRe37dPTNM11hjiYIF+Yn0DgW8=",
+    "url": "https://github.com/nextcloud-releases/forms/releases/download/v5.0.0/forms-v5.0.0.tar.gz",
+    "version": "5.0.0",
     "description": "**Simple surveys and questionnaires, self-hosted!**\n\n- **📝 Simple design:** No mass of options, only the essentials. Works well on mobile of course.\n- **📊 View & export results:** Results are visualized and can also be exported as CSV in the same format used by Google Forms.\n- **🔒 Data under your control!** Unlike in Google Forms, Typeform, Doodle and others, the survey info and responses are kept private on your instance.\n- **🧑‍💻 Connect to your software:** Easily integrate Forms into your service with our full-fledged [REST-API](https://github.com/nextcloud/forms/blob/main/docs/API.md).\n- **🙋 Get involved!** We have lots of stuff planned like more question types, collaboration on forms, [and much more](https://github.com/nextcloud/forms/milestones)!",
     "homepage": "https://github.com/nextcloud/forms",
     "licenses": [
@@ -920,9 +920,9 @@
     ]
   },
   "groupquota": {
-    "hash": "sha256-Xjx+cqRistGlEFTKVAQUm05S1JaKnfKtZAMwFkvgSdA=",
-    "url": "https://github.com/nextcloud-releases/groupquota/releases/download/v0.2.1/groupquota-v0.2.1.tar.gz",
-    "version": "0.2.1",
+    "hash": "sha256-ElN6D8zVf7K36eZfiTrzZiSclTWokZbKFLD2RDwtKw8=",
+    "url": "https://github.com/nextcloud-releases/groupquota/releases/download/v0.2.2/groupquota-v0.2.2.tar.gz",
+    "version": "0.2.2",
     "description": "Allow setting a disk quota for an entire group.\n\nNote: configuring quota is only possible trough the API, no admin interface is currently available.",
     "homepage": "https://github.com/nextcloud/groupquota",
     "licenses": [
@@ -1040,9 +1040,9 @@
     ]
   },
   "integration_dropbox": {
-    "hash": "sha256-V1DGcR9SEmYIEXjE1HM+KDeISgBA7ykXyt2whwgkLPE=",
-    "url": "https://github.com/nextcloud-releases/integration_dropbox/releases/download/v3.0.3/integration_dropbox-v3.0.3.tar.gz",
-    "version": "3.0.3",
+    "hash": "sha256-2Id4QHSlHnyoQTvKNCqtktdQZBcS5gaCDYy8E3qPJKU=",
+    "url": "https://github.com/nextcloud-releases/integration_dropbox/releases/download/v3.1.0/integration_dropbox-v3.1.0.tar.gz",
+    "version": "3.1.0",
     "description": "Dropbox integration allows you to automatically import your Dropbox files into Nextcloud.",
     "homepage": "https://github.com/nextcloud/integration_dropbox",
     "licenses": [
@@ -1360,9 +1360,9 @@
     ]
   },
   "larpingapp": {
-    "hash": "sha256-sRBZzolSdryqL0Mzx9kKLl8rV6CQ8tCSkZQlLgZB2Zw=",
-    "url": "https://github.com/ConductionNL/larpingapp/releases/download/v0.1.21/larpingapp-0.1.21.tar.gz",
-    "version": "0.1.21",
+    "hash": "sha256-VwULciU+L0/Y1OMOx82M2LoNomn+vkSdrOSlrecGqWU=",
+    "url": "https://github.com/ConductionNL/larpingapp/releases/download/v0.1.22/larpingapp-0.1.22.tar.gz",
+    "version": "0.1.22",
     "description": "📰 A management tool for larp organisation\n\nLarping provides a tool to manage your setting\n\n- 📲 Create skills, items, conditions\n- 🔄 Manage characters\n- 🆓 Automatically calculate abilities and XP\n- Manage backgrounds, approve characters\n- Handle event subscription and experience score\n\nRequirements can be found [here](https://conduction.gitbook.io/opencatalogi-nextcloud/installatie)\nThe Roadmap is available [here](https://github.com/orgs/OpenCatalogi/projects/1/views/2)\nCreate a [bug report](https://github.com/OpenCatalogi/.github/issues/new/choose)\nCreate a [feature request](https://github.com/OpenCatalogi/.github/issues/new/choose)",
     "homepage": "https://github.com/ConductionNL/LarpingNextApp",
     "licenses": [
@@ -1430,9 +1430,9 @@
     ]
   },
   "mail": {
-    "hash": "sha256-Oz00ydia0qpl1vZ3nE0FYmh3eJvF4ChhJK2LKUN5O0o=",
-    "url": "https://github.com/nextcloud-releases/mail/releases/download/v4.2.0/mail-v4.2.0.tar.gz",
-    "version": "4.2.0",
+    "hash": "sha256-WcUdf2EjNQNHzSpt2nBu72x+34UE/VDaXUkRdU9Kydc=",
+    "url": "https://github.com/nextcloud-releases/mail/releases/download/v4.2.2/mail-stable4.2.tar.gz",
+    "version": "4.2.2",
     "description": "**💌 A mail app for Nextcloud**\n\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://horde.org) libraries.\n- **📬 Want to host your own mail server?** We do not have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!\n\n## Ethical AI Rating\n\n### Priority Inbox\n\nPositive:\n* The software for training and inferencing of this model is open source.\n* The model is created and trained on-premises based on the user's own data.\n* The training data is accessible to the user, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n### Thread Summaries (opt-in)\n\n**Rating:** 🟢/🟡/🟠/🔴\n\nThe rating depends on the installed text processing backend. See [the rating overview](https://docs.nextcloud.com/server/latest/admin_manual/ai/index.html) for details.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/mail#readme",
     "licenses": [
@@ -1660,9 +1660,9 @@
     ]
   },
   "opencatalogi": {
-    "hash": "sha256-aHePFxPP38t/NJJZMzTPttpEIGbMiNZjSU5GzM+bv3s=",
-    "url": "https://github.com/ConductionNL/opencatalogi/releases/download/v0.6.64/opencatalogi-0.6.64.tar.gz",
-    "version": "0.6.64",
+    "hash": "sha256-Cg+zhjS/xg9bzDDQVl2J4IRyj3q9kLKfQ7sAIiznIsM=",
+    "url": "https://github.com/ConductionNL/opencatalogi/releases/download/v0.6.65/opencatalogi-0.6.65.tar.gz",
+    "version": "0.6.65",
     "description": "📰 A OpenCatalogi App for Nextcloud\n\nThe OpenCatalogi Nextcloud app provides a framework for federated catalogi to work together in an open data ecosystem\n\n- 📲 Synchronize your sources with multiple catalogi\n- 🔄 Automatic publications of your open data\n- 🆓 Free and open source under EUPL\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://conduction.gitbook.io/opencatalogi-nextcloud/installatie)\n\nThe Roadmap is available [here](https://github.com/orgs/OpenCatalogi/projects/1/views/2)\n\nCreate a [bug report](https://github.com/OpenCatalogi/.github/issues/new/choose)\n\nCreate a [feature request](https://github.com/OpenCatalogi/.github/issues/new/choose)",
     "homepage": "https://documentatie.opencatalogi.nl/",
     "licenses": [
@@ -1670,9 +1670,9 @@
     ]
   },
   "openconnector": {
-    "hash": "sha256-S9r2GlPgAkDbDToOWEUGcNz+9S6hyFFNWaQr+zohnKY=",
-    "url": "https://github.com/ConductionNL/openconnector/releases/download/v0.1.45/openconnector-0.1.45.tar.gz",
-    "version": "0.1.45",
+    "hash": "sha256-I3aPC+haUe/NSEtCQn6901/TkTDDZ64YWQCBaMxXrto=",
+    "url": "https://github.com/ConductionNL/openconnector/releases/download/v0.1.46/openconnector-0.1.46.tar.gz",
+    "version": "0.1.46",
     "description": "📰 Bringing Gateway and Service bus functionality to nextcloud\n\nThe OpenConnector Nextcloud app provides a ESB-framework to work together in an (open) data ecosystem\n\n- 📲 Synchronize your data sources\n- 📰 Send cloud events\n- 🆓 Map and translate API calls",
     "homepage": "https://github.com/ConductionNL/OpenConnector",
     "licenses": [
@@ -1820,9 +1820,9 @@
     ]
   },
   "polls": {
-    "hash": "sha256-ZNDHpjpcQdzM/7CPPhHbaNuSNGcVdz7j8YVVoNoMAu4=",
-    "url": "https://github.com/nextcloud-releases/polls/releases/download/v7.3.1/polls-v7.3.1.tar.gz",
-    "version": "7.3.1",
+    "hash": "sha256-sN/LzW3uw4NAy14ZtTeZZGz338LU2N+5S7FESqt9HUg=",
+    "url": "https://github.com/nextcloud-releases/polls/releases/download/v7.3.2/polls-v7.3.2.tar.gz",
+    "version": "7.3.2",
     "description": "A polls app, similar to Doodle/Dudle with the possibility to restrict access (members, certain groups/users, hidden and public).",
     "homepage": "https://github.com/nextcloud/polls",
     "licenses": [
@@ -2045,6 +2045,16 @@
     "version": "1.18.0",
     "description": "The Sharepoint Backend allows administrators to add Sharepoint document libraries as folders in Nextcloud. This offers an easy way for users to access Sharepoint data in the same place where they find their other files, facilitating collaboration and sharing within and across the borders of the organization. Users can use the desktop client, mobile apps or web interface and comment, tag, share and collaboratively edit files on Sharepoint just like with any other data on Nextcloud.\n\nSupports Sharepoint 2013, 2016 and 365. Nextcloud accesses Sharepoint through the Sharepoint REST API and uses NTLM authentication. Nextcloud respects file access permissions associated with its configured user credentials. Versioning and sharing are handled by Nextcloud.\n\nLearn more about External Storage and Sharepoint on [https://nextcloud.com/storage/](https://nextcloud.com/storage/)",
     "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "sharerenamer": {
+    "hash": "sha256-ClHTSmeQySQd5f898sqQdFzxF1mjEoDrniLcOnR6yl4=",
+    "url": "https://github.com/JonathanTreffler/sharerenamer/releases/download/v3.5.0/sharerenamer.tar.gz",
+    "version": "3.5.0",
+    "description": "**NOTE: You don't need this app anymore after updating to Nextcloud 31 (Hub 10) as the share renaming feature is now integrated natively into the Nextcloud core (you just need to enable it in the admin settings)**\n\nThis app allows you to customize your share tokens, so your links can be like https://your-nextcloud.com/s/mysharedlink instead of https://your-nextcloud.com/s/qPv1SwbU5M2YEoJZ. Just share a file or folder normally and customize the link in the sharerenamer tab in the sidebar.\n\nPlease be aware that this is a potential security risk: links could be guessed! We discourage using this app on large instances that host sensitive data! We also encourage you to password protect such shared links.",
+    "homepage": "https://github.com/JonathanTreffler/sharerenamer",
     "licenses": [
       "agpl"
     ]
@@ -2510,9 +2520,9 @@
     ]
   },
   "user_oidc": {
-    "hash": "sha256-w4KDkToF5WzeiUezMD7V7fTS36OnPe96DUpFNN4+G2o=",
-    "url": "https://github.com/nextcloud-releases/user_oidc/releases/download/v6.3.0/user_oidc-v6.3.0.tar.gz",
-    "version": "6.3.0",
+    "hash": "sha256-2FeFmqD53eUujA80s6cec53U5XL6CXSh5h3XM0N8Afk=",
+    "url": "https://github.com/nextcloud-releases/user_oidc/releases/download/v6.3.1/user_oidc-v6.3.1.tar.gz",
+    "version": "6.3.1",
     "description": "Allows flexible configuration of an OIDC server as Nextcloud login user backend.",
     "homepage": "https://github.com/nextcloud/user_oidc",
     "licenses": [
