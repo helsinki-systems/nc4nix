@@ -100,9 +100,9 @@
     ]
   },
   "auto_groups": {
-    "hash": "sha256-jqAhUlDcb9akEoAZ7erXZfg3eJiWtyjjyReUNVUr8+A=",
-    "url": "https://github.com/stjosh/auto_groups/releases/download/v1.6.0/auto_groups-v1.6.0.tar.gz",
-    "version": "1.6.0",
+    "hash": "sha256-HfFpzx+r7UDR5vJUBd6VszDLYCRTaAndAx783GLyu9c=",
+    "url": "https://github.com/stjosh/auto_groups/releases/download/v1.6.1/auto_groups-v1.6.1.tar.gz",
+    "version": "1.6.1",
     "description": "Automatically add users to the specified Auto Groups, except those users belonging to one of the specified Override Groups. \nOptionally, the group assignment can be triggered on every successful login, which is useful for external user backends.\n\n## Configuration\n\n- Go to \"Settings > Administration > Additional settings\"\n- Configure the Auto Groups\n- If required, configure the Override Groups (e.g., for Service Accounts)\n- Optionally, enable the Login Hook, which will enforce correct group membership on every successful login\n\nNote that this app prevents group deletions for groups referenced as Auto Groups or Override Groups.\n\n## Comparison to similar Apps\n\n* [Everyone Group](https://apps.nextcloud.com/apps/group_everyone): The \"Everyone Group\" app adds a virtual Group Backend, always returning all users. In contrast, \"Auto Groups\" operates on \"real\" groups in your normal Group Backend. Additionally, it is possible to specify Override Groups which will prevent users from being added to the Auto Group(s).\n* [Default Group](https://apps.nextcloud.com/apps/defaultgroup): \"Auto Groups\" is actually a modernized and maintaned fork of \"Default Group\", which seems to be abandoned since NC12 or so. In terms of functionality, they are almost identical.\n\nIn addition, I plan to add some more features over time, e.g., \"Union Groups\" - see the [Milestone Plans](https://github.com/stjosh/auto_groups/milestones) for more details.",
     "homepage": "https://github.com/stjosh/auto_groups",
     "licenses": [
@@ -153,7 +153,7 @@
     "hash": "sha256-8dyhJdjQFUnKM0pmzV+nqQzniwLm7t+mzhdhT3LTqaI=",
     "url": "https://gitlab.com/brewcode-de/brewmemo/nextcloud/-/jobs/7806470497/artifacts/raw/brewmemo.tar.gz",
     "version": "0.2.0",
-    "description": "BrewMemo is a fast note-taking app with beautifully designed mobile clients.\n\nYour notes are stored securely in your Nextcloud, without any vendor lock-in.\n\nThe [iOS App](https://apps.apple.com/de/app/brewmemo/id6514303780?l=en-GB) is available *now* in the App Store, and the Android app will follow soon.\n\n## Current features:\n\n||Nextcloud|iOS|\n|-|-|-|\n|Markdown Editor|✅|✅|\n|WYSIWYG Editor|soon|✅|\n|Pinning and tagging of notes|soon|✅|\n|Different themes and color styles|planned|✅|\n|Export notes to PDF and TXT/Markdown|planned|✅|\n|and many more to come|||",
+    "description": "BrewMemo is a fast note-taking app with beautifully designed mobile clients.\n\nYour notes are stored securely in your Nextcloud, without any vendor lock-in.\n\nThe [iOS App](https://apps.apple.com/de/app/brewmemo/id6514303780?l=en-GB) is available *now* in the App Store, and the Android app will follow soon.\n\n## Current features:\n\n||Nextcloud|iOS|\n|-|-|-|\n|Markdown Editor|✅|✅|\n|WYSIWYG Editor|✅|✅|\n|Pinning and tagging of notes|soon|✅|\n|Different themes and color styles|planned|✅|\n|Export notes to PDF and TXT/Markdown|planned|✅|\n|and many more to come|||",
     "homepage": "https://brewmemo.de/en/?source=nextcloud",
     "licenses": [
       "agpl"
@@ -1370,8 +1370,8 @@
     ]
   },
   "integration_openproject": {
-    "hash": "sha256-j01bvd0+AJ50CR8DhOlB/3niRni3zJvUXH0Tq6yi0/U=",
-    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.8.0/integration_openproject-2.8.0.tar.gz",
+    "hash": "sha256-Seb34sg2uEaROCJv+o5ijacNzGwuPxy9mWYC6vEbAcc=",
+    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.8.0-20250221-nightly/integration_openproject-2.8.0-20250221-nightly.tar.gz",
     "version": "2.8.0",
     "description": "This application enables seamless integration with open source project management and collaboration software OpenProject.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in OpenProject\n* Find all work packages linked to a file or a folder\n* Create work packages directly in Nextcloud\n* View OpenProject notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n* Link work packages in rich text fields via Smart Picker\n* Preview links to work packages in text fields\n* Link multiple files and folder to a work package at once\n\nOn the OpenProject end, users are able to:\n\n* Link work packages with files and folders in Nextcloud\n* Upload and download files directly to Nextcloud from within a work package\n* Open linked files in Nextcloud to edit them\n* Let OpenProject create shared folders per project\n\nFor more information on how to set up and use the OpenProject application, please refer to [integration setup guide](https://www.openproject.org/docs/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://www.openproject.org/docs/user-guide/nextcloud-integration/).",
     "homepage": "https://github.com/nextcloud/integration_openproject",
@@ -1880,8 +1880,8 @@
     ]
   },
   "oidc_login": {
-    "hash": "sha256-DrbaKENMz2QJfbDKCMrNGEZYpUEvtcsiqw9WnveaPZA=",
-    "url": "https://github.com/pulsejet/nextcloud-oidc-login/releases/download/v3.2.0/oidc_login.tar.gz",
+    "hash": "sha256-woQF1njswomAppneDp0qhhwacKzgusnKconCtSrwT5A=",
+    "url": "https://github.com/pulsejet/nextcloud-oidc-login/releases/download/v3.2.1/oidc_login.tar.gz",
     "version": "3.2.0",
     "description": "# OpenID Connect Login\n\nProvides user creation and login via one single OpenID Connect provider. Even though this is a fork of [nextcloud-social-login](https://github.com/zorn-v/nextcloud-social-login), it fundamentally differs in two ways - aims for simplistic, single provider login (and hence is very minimalistic), and it supports having LDAP as the primary user backend. This way, you can use OpenID Connect to login to Nextcloud while maintaining an LDAP backend with attributes with the LDAP plugin.\n\n### Features\n\n- Automatic [Identity provider endpoints discovery](https://openid.net/specs/openid-connect-discovery-1_0.html)\n- User creation at first login\n- User profile update at login (name, email, avatar, groups etc.)\n- Group creation\n- Automatic redirection from the nextcloud login page to the Identity Provider login page\n- WebDAV endpoints `Bearer` and `Basic` authentication",
     "homepage": "https://github.com/pulsejet/nextcloud-single-openid-connect",
@@ -1900,9 +1900,9 @@
     ]
   },
   "opencatalogi": {
-    "hash": "sha256-Btvk5rT7z/Ow0ocVOeuDmT6EMbtLeKZSTM4GGVdr/oE=",
-    "url": "https://github.com/ConductionNL/opencatalogi/releases/download/v0.6.66/opencatalogi-0.6.66.tar.gz",
-    "version": "0.6.66",
+    "hash": "sha256-CB8+BLZ2EMDBnU60j5da7hTt/EofX0a41jeNKIx2Ma8=",
+    "url": "https://github.com/ConductionNL/opencatalogi/releases/download/v0.6.69/opencatalogi-0.6.69.tar.gz",
+    "version": "0.6.69",
     "description": "📰 A OpenCatalogi App for Nextcloud\n\nThe OpenCatalogi Nextcloud app provides a framework for federated catalogi to work together in an open data ecosystem\n\n- 📲 Synchronize your sources with multiple catalogi\n- 🔄 Automatic publications of your open data\n- 🆓 Free and open source under EUPL\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://conduction.gitbook.io/opencatalogi-nextcloud/installatie)\n\nThe Roadmap is available [here](https://github.com/orgs/OpenCatalogi/projects/1/views/2)\n\nCreate a [bug report](https://github.com/OpenCatalogi/.github/issues/new/choose)\n\nCreate a [feature request](https://github.com/OpenCatalogi/.github/issues/new/choose)",
     "homepage": "https://documentatie.opencatalogi.nl/",
     "licenses": [
@@ -1910,9 +1910,9 @@
     ]
   },
   "openconnector": {
-    "hash": "sha256-DkThFkbAT7uB5W8SIGaGkrsEIBDnivSNbGwt+BUfDnE=",
-    "url": "https://github.com/ConductionNL/openconnector/releases/download/v0.1.50/openconnector-0.1.50.tar.gz",
-    "version": "0.1.50",
+    "hash": "sha256-TS96QhIJzatspXcr8Q1Vb1xpA19qIgOut3y4Y+emon4=",
+    "url": "https://github.com/ConductionNL/openconnector/releases/download/v0.1.52/openconnector-0.1.52.tar.gz",
+    "version": "0.1.52",
     "description": "📰 Bringing Gateway and Service bus functionality to nextcloud\n\nThe OpenConnector Nextcloud app provides a ESB-framework to work together in an (open) data ecosystem\n\n- 📲 Synchronize your data sources\n- 📰 Send cloud events\n- 🆓 Map and translate API calls",
     "homepage": "https://github.com/ConductionNL/OpenConnector",
     "licenses": [
@@ -1960,9 +1960,9 @@
     ]
   },
   "openregister": {
-    "hash": "sha256-Hs6gIFCu/aDSLrfbSvCWfOTxI0sXzZbONYZle5cu+M0=",
-    "url": "https://github.com/ConductionNL/openregister/releases/download/v0.1.50/openregister-0.1.50.tar.gz",
-    "version": "0.1.50",
+    "hash": "sha256-W/hUvT4Li0CJK1uPRWg8l1Z4dp3NrW23WNj265vkjpM=",
+    "url": "https://github.com/ConductionNL/openregister/releases/download/v0.1.51/openregister-0.1.51.tar.gz",
+    "version": "0.1.51",
     "description": "📰 An OpenRegister App for Nextcloud\n\nThe OpenRegister Nextcloud app provides a framework for federated registers to work together in an open data ecosystem\n\n- 📲 Synchronize your sources with multiple registers\n- 🔄 Automatic publications of your open data\n- 🆓 Free and open source under EUPL\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://conduction.gitbook.io/openregister-nextcloud/installatie)\n\nThe Roadmap is available [here](https://github.com/orgs/OpenRegister/projects/1/views/2)\n\nCreate a [bug report](https://github.com/OpenRegister/.github/issues/new/choose)\n\nCreate a [feature request](https://github.com/OpenRegister/.github/issues/new/choose)",
     "homepage": "https://github.com/ConductionNL/OpenRegister",
     "licenses": [

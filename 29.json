@@ -100,9 +100,9 @@
     ]
   },
   "auto_groups": {
-    "hash": "sha256-jqAhUlDcb9akEoAZ7erXZfg3eJiWtyjjyReUNVUr8+A=",
-    "url": "https://github.com/stjosh/auto_groups/releases/download/v1.6.0/auto_groups-v1.6.0.tar.gz",
-    "version": "1.6.0",
+    "hash": "sha256-HfFpzx+r7UDR5vJUBd6VszDLYCRTaAndAx783GLyu9c=",
+    "url": "https://github.com/stjosh/auto_groups/releases/download/v1.6.1/auto_groups-v1.6.1.tar.gz",
+    "version": "1.6.1",
     "description": "Automatically add users to the specified Auto Groups, except those users belonging to one of the specified Override Groups. \nOptionally, the group assignment can be triggered on every successful login, which is useful for external user backends.\n\n## Configuration\n\n- Go to \"Settings > Administration > Additional settings\"\n- Configure the Auto Groups\n- If required, configure the Override Groups (e.g., for Service Accounts)\n- Optionally, enable the Login Hook, which will enforce correct group membership on every successful login\n\nNote that this app prevents group deletions for groups referenced as Auto Groups or Override Groups.\n\n## Comparison to similar Apps\n\n* [Everyone Group](https://apps.nextcloud.com/apps/group_everyone): The \"Everyone Group\" app adds a virtual Group Backend, always returning all users. In contrast, \"Auto Groups\" operates on \"real\" groups in your normal Group Backend. Additionally, it is possible to specify Override Groups which will prevent users from being added to the Auto Group(s).\n* [Default Group](https://apps.nextcloud.com/apps/defaultgroup): \"Auto Groups\" is actually a modernized and maintaned fork of \"Default Group\", which seems to be abandoned since NC12 or so. In terms of functionality, they are almost identical.\n\nIn addition, I plan to add some more features over time, e.g., \"Union Groups\" - see the [Milestone Plans](https://github.com/stjosh/auto_groups/milestones) for more details.",
     "homepage": "https://github.com/stjosh/auto_groups",
     "licenses": [
@@ -150,10 +150,10 @@
     ]
   },
   "brewmemo": {
-    "hash": "sha256-8dyhJdjQFUnKM0pmzV+nqQzniwLm7t+mzhdhT3LTqaI=",
-    "url": "https://gitlab.com/brewcode-de/brewmemo/nextcloud/-/jobs/7806470497/artifacts/raw/brewmemo.tar.gz",
-    "version": "0.2.0",
-    "description": "BrewMemo is a fast note-taking app with beautifully designed mobile clients.\n\nYour notes are stored securely in your Nextcloud, without any vendor lock-in.\n\nThe [iOS App](https://apps.apple.com/de/app/brewmemo/id6514303780?l=en-GB) is available *now* in the App Store, and the Android app will follow soon.\n\n## Current features:\n\n||Nextcloud|iOS|\n|-|-|-|\n|Markdown Editor|✅|✅|\n|WYSIWYG Editor|soon|✅|\n|Pinning and tagging of notes|soon|✅|\n|Different themes and color styles|planned|✅|\n|Export notes to PDF and TXT/Markdown|planned|✅|\n|and many more to come|||",
+    "hash": "sha256-6xmD+TWFgM0xnS+Vekc486pzSNSO3LJPWzmGtvfrSqQ=",
+    "url": "https://gitlab.com/brewcode-de/brewmemo/nextcloud/-/jobs/9265647300/artifacts/raw/brewmemo.tar.gz",
+    "version": "0.3.0",
+    "description": "BrewMemo is a fast note-taking app with beautifully designed mobile clients.\n\nYour notes are stored securely in your Nextcloud, without any vendor lock-in.\n\nThe [iOS App](https://apps.apple.com/de/app/brewmemo/id6514303780?l=en-GB) is available *now* in the App Store, and the Android app will follow soon.\n\n## Current features:\n\n||Nextcloud|iOS|\n|-|-|-|\n|Markdown Editor|✅|✅|\n|WYSIWYG Editor|✅|✅|\n|Pinning and tagging of notes|soon|✅|\n|Different themes and color styles|planned|✅|\n|Export notes to PDF and TXT/Markdown|planned|✅|\n|and many more to come|||",
     "homepage": "https://brewmemo.de/en/?source=nextcloud",
     "licenses": [
       "agpl"
@@ -350,8 +350,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -840,9 +840,9 @@
     ]
   },
   "forms": {
-    "hash": "sha256-8/iPZxbVEI0noo63xVS4HogNBoY9vMhY3gmWqysLfaE=",
-    "url": "https://github.com/nextcloud-releases/forms/releases/download/v4.3.8/forms-v4.3.8.tar.gz",
-    "version": "4.3.8",
+    "hash": "sha256-TPyz/cZvFnd35Blzlewgva6WO0PmAEAtI4hNpkACQcc=",
+    "url": "https://github.com/nextcloud-releases/forms/releases/download/v4.3.9/forms-v4.3.9.tar.gz",
+    "version": "4.3.9",
     "description": "**Simple surveys and questionnaires, self-hosted!**\n\n- **📝 Simple design:** No mass of options, only the essentials. Works well on mobile of course.\n- **📊 View & export results:** Results are visualized and can also be exported as CSV in the same format used by Google Forms.\n- **🔒 Data under your control!** Unlike in Google Forms, Typeform, Doodle and others, the survey info and responses are kept private on your instance.\n- **🧑‍💻 Connect to your software:** Easily integrate Forms into your service with our full-fledged [REST-API](https://github.com/nextcloud/forms/blob/main/docs/API.md).\n- **🙋 Get involved!** We have lots of stuff planned like more question types, collaboration on forms, [and much more](https://github.com/nextcloud/forms/milestones)!",
     "homepage": "https://github.com/nextcloud/forms",
     "licenses": [
@@ -880,9 +880,9 @@
     ]
   },
   "geoblocker": {
-    "hash": "sha256-gCxyzUUIwBS0/VStBdY9whAnXj/L8xNw8iK8TMNfpiA=",
-    "url": "https://github.com/HomeITAdmin/nextcloud_geoblocker/releases/download/0.5.15/geoblocker.tar.gz",
-    "version": "0.5.15",
+    "hash": "sha256-vhOIVV3NqMBZSEIM9XGOByzywxUKqn6N1mr+SHIaiPk=",
+    "url": "https://github.com/HomeITAdmin/nextcloud_geoblocker/releases/download/0.5.16/geoblocker.tar.gz",
+    "version": "0.5.16",
     "description": "This is a front end to geo localization services, that allows blocking (beta), delaying (beta) and logging of login attempts from specified countries.\nLogin attempts from local network IP addresses are never blocked, delayed or logged.\nIn the current implementation the login page is normally shown to everybody independent of the country. Also login attempts with a non existing user are failing as usual independent of the country.\nWrong Nextcloud configuration (especially in container) can lead to all access seems to come from local network IP address.\nDetermination of the country from IP address is only as good as the chosen service.\n\nCountries can be specified using allowlisting or blocklisting.\n\nCurrently available localization services are:\n- Geoiplookup (local programm on the host)\n- MaxMind GeoLite2 (local database accessed via PHP API)\n- Data from Regional Internet Registries (Nextcloud SQL database build up with data downloaded from the RIRs FTP servers)\n\nFor help how to set up the localization services please have a look at the GitHub repository (homepage on the right side).",
     "homepage": "https://github.com/HomeITAdmin/nextcloud_geoblocker/",
     "licenses": [
@@ -1320,8 +1320,8 @@
     ]
   },
   "integration_openproject": {
-    "hash": "sha256-Seb34sg2uEaROCJv+o5ijacNzGwuPxy9mWYC6vEbAcc=",
-    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.8.0-20250221-nightly/integration_openproject-2.8.0-20250221-nightly.tar.gz",
+    "hash": "sha256-j01bvd0+AJ50CR8DhOlB/3niRni3zJvUXH0Tq6yi0/U=",
+    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.8.0/integration_openproject-2.8.0.tar.gz",
     "version": "2.8.0",
     "description": "This application enables seamless integration with open source project management and collaboration software OpenProject.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in OpenProject\n* Find all work packages linked to a file or a folder\n* Create work packages directly in Nextcloud\n* View OpenProject notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n* Link work packages in rich text fields via Smart Picker\n* Preview links to work packages in text fields\n* Link multiple files and folder to a work package at once\n\nOn the OpenProject end, users are able to:\n\n* Link work packages with files and folders in Nextcloud\n* Upload and download files directly to Nextcloud from within a work package\n* Open linked files in Nextcloud to edit them\n* Let OpenProject create shared folders per project\n\nFor more information on how to set up and use the OpenProject application, please refer to [integration setup guide](https://www.openproject.org/docs/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://www.openproject.org/docs/user-guide/nextcloud-integration/).",
     "homepage": "https://github.com/nextcloud/integration_openproject",
@@ -1530,9 +1530,9 @@
     ]
   },
   "libresign": {
-    "hash": "sha256-wxV+NvDADMqCQCA9Jrqc4p1GAhcD0VqoVOnOS9jJyvI=",
-    "url": "https://github.com/LibreSign/libresign/releases/download/v9.9.2/libresign-v9.9.2.tar.gz",
-    "version": "9.9.2",
+    "hash": "sha256-RUa753JACUbdmySHga3an8cgAhpgqv/HLR/fxluofwU=",
+    "url": "https://github.com/LibreSign/libresign/releases/download/v9.9.3/libresign-v9.9.3.tar.gz",
+    "version": "9.9.3",
     "description": "**This is a libre digital PDF signature app for Nextcloud**\n\n* ✍️ **Sign PDF** documents using digital certificates\n* 🔄 **Hybrid signatures**: You can choose between personal or system-generated digital certificates\n* 👥 **Multiple signers**: Request signature on a document for as many people as you need\n* 📸 **QR Code**: Document validation by QR Code\n* 🔒 **Privacy**: Fully self-hosted document signer\n* 📲 **Connect to your software**: Easily integrate [LibreSign](https://libresign.coop) into your service with our full-fledged [REST-API](https://libresign.coop/posts/libresign-api-guide/).\n* 🙋 **Get involved**! We have lots of stuff planned. More information at [LibreSign](https://github.com/libresign/libresign) repository.\n\n🌍 Help us translate this application on [Transifex](https://app.transifex.com/nextcloud/nextcloud/libresign/)\n\nIf you enjoy this app and want to help maintain its development or want enterprise support, please contact us:\n\n[https://libresign.coop](https://libresign.coop)\n\n## Donation\n\nDeveloped with ❤️ by [LibreCode](https://librecode.coop). Help us transform people and businesses through cooperativism.\n\n* [Donate with GitHub Sponsor: ![Donate using GitHub Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/libresign)",
     "homepage": "https://github.com/LibreSign/libresign",
     "licenses": [
@@ -1620,9 +1620,9 @@
     ]
   },
   "memories": {
-    "hash": "sha256-iFkVSNPH+BEuLNOERuk8fs/RuxnvjYpv9WZjF8KyEDI=",
-    "url": "https://github.com/pulsejet/memories/releases/download/v7.5.1/memories.tar.gz",
-    "version": "7.5.1",
+    "hash": "sha256-BfxJDCGsiRJrZWkNJSQF3rSFm/G3zzQn7C6DCETSzw4=",
+    "url": "https://github.com/pulsejet/memories/releases/download/v7.5.2/memories.tar.gz",
+    "version": "7.5.2",
     "description": "# Memories: Photo Management for Nextcloud\n\nMemories is a *batteries-included* photo management solution for Nextcloud with advanced features including:\n\n- **📸 Timeline**: Sort photos and videos by date taken, parsed from Exif data.\n- **⏪ Rewind**: Jump to any time in the past instantly and relive your memories.\n- **🤖 AI Tagging**: Group photos by people and objects, powered by [recognize](https://github.com/nextcloud/recognize) and [facerecognition](https://github.com/matiasdelellis/facerecognition).\n- **🖼️ Albums**: Create albums to group photos and videos together. Then share these albums with others.\n- **🫱🏻‍🫲🏻 External Sharing**: Share photos and videos with people outside of your Nextcloud instance.\n- **📱 Mobile Support**: Work from any device, of any shape and size through the web app.\n- **✏️ Edit Metadata**: Edit dates and other metadata on photos quickly and in bulk.\n- **📦 Archive**: Store photos you don't want to see in your timeline in a separate folder.\n- **📹 Video Transcoding**: Transcode videos and use HLS for maximal performance.\n- **🗺️ Map**: View your photos on a map, tagged with accurate reverse geocoding.\n- **📦 Migration**: Migrate easily from Nextcloud Photos and Google Takeout.\n- **⚡️ Performance**: Do all this very fast.\n\n## 🚀 Installation\n\n1. Install the app from the Nextcloud app store (try a demo [here](https://demo.memories.gallery/apps/memories/)).\n1. Perform the recommended [configuration steps](https://memories.gallery/config/).\n1. Run `php occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos.",
     "homepage": "https://memories.gallery",
     "licenses": [
@@ -1790,8 +1790,8 @@
     ]
   },
   "oidc_login": {
-    "hash": "sha256-DrbaKENMz2QJfbDKCMrNGEZYpUEvtcsiqw9WnveaPZA=",
-    "url": "https://github.com/pulsejet/nextcloud-oidc-login/releases/download/v3.2.0/oidc_login.tar.gz",
+    "hash": "sha256-woQF1njswomAppneDp0qhhwacKzgusnKconCtSrwT5A=",
+    "url": "https://github.com/pulsejet/nextcloud-oidc-login/releases/download/v3.2.1/oidc_login.tar.gz",
     "version": "3.2.0",
     "description": "# OpenID Connect Login\n\nProvides user creation and login via one single OpenID Connect provider. Even though this is a fork of [nextcloud-social-login](https://github.com/zorn-v/nextcloud-social-login), it fundamentally differs in two ways - aims for simplistic, single provider login (and hence is very minimalistic), and it supports having LDAP as the primary user backend. This way, you can use OpenID Connect to login to Nextcloud while maintaining an LDAP backend with attributes with the LDAP plugin.\n\n### Features\n\n- Automatic [Identity provider endpoints discovery](https://openid.net/specs/openid-connect-discovery-1_0.html)\n- User creation at first login\n- User profile update at login (name, email, avatar, groups etc.)\n- Group creation\n- Automatic redirection from the nextcloud login page to the Identity Provider login page\n- WebDAV endpoints `Bearer` and `Basic` authentication",
     "homepage": "https://github.com/pulsejet/nextcloud-single-openid-connect",
@@ -1810,9 +1810,9 @@
     ]
   },
   "opencatalogi": {
-    "hash": "sha256-Btvk5rT7z/Ow0ocVOeuDmT6EMbtLeKZSTM4GGVdr/oE=",
-    "url": "https://github.com/ConductionNL/opencatalogi/releases/download/v0.6.66/opencatalogi-0.6.66.tar.gz",
-    "version": "0.6.66",
+    "hash": "sha256-CB8+BLZ2EMDBnU60j5da7hTt/EofX0a41jeNKIx2Ma8=",
+    "url": "https://github.com/ConductionNL/opencatalogi/releases/download/v0.6.69/opencatalogi-0.6.69.tar.gz",
+    "version": "0.6.69",
     "description": "📰 A OpenCatalogi App for Nextcloud\n\nThe OpenCatalogi Nextcloud app provides a framework for federated catalogi to work together in an open data ecosystem\n\n- 📲 Synchronize your sources with multiple catalogi\n- 🔄 Automatic publications of your open data\n- 🆓 Free and open source under EUPL\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://conduction.gitbook.io/opencatalogi-nextcloud/installatie)\n\nThe Roadmap is available [here](https://github.com/orgs/OpenCatalogi/projects/1/views/2)\n\nCreate a [bug report](https://github.com/OpenCatalogi/.github/issues/new/choose)\n\nCreate a [feature request](https://github.com/OpenCatalogi/.github/issues/new/choose)",
     "homepage": "https://documentatie.opencatalogi.nl/",
     "licenses": [
@@ -1820,9 +1820,9 @@
     ]
   },
   "openconnector": {
-    "hash": "sha256-DkThFkbAT7uB5W8SIGaGkrsEIBDnivSNbGwt+BUfDnE=",
-    "url": "https://github.com/ConductionNL/openconnector/releases/download/v0.1.50/openconnector-0.1.50.tar.gz",
-    "version": "0.1.50",
+    "hash": "sha256-TS96QhIJzatspXcr8Q1Vb1xpA19qIgOut3y4Y+emon4=",
+    "url": "https://github.com/ConductionNL/openconnector/releases/download/v0.1.52/openconnector-0.1.52.tar.gz",
+    "version": "0.1.52",
     "description": "📰 Bringing Gateway and Service bus functionality to nextcloud\n\nThe OpenConnector Nextcloud app provides a ESB-framework to work together in an (open) data ecosystem\n\n- 📲 Synchronize your data sources\n- 📰 Send cloud events\n- 🆓 Map and translate API calls",
     "homepage": "https://github.com/ConductionNL/OpenConnector",
     "licenses": [
@@ -1870,9 +1870,9 @@
     ]
   },
   "openregister": {
-    "hash": "sha256-Hs6gIFCu/aDSLrfbSvCWfOTxI0sXzZbONYZle5cu+M0=",
-    "url": "https://github.com/ConductionNL/openregister/releases/download/v0.1.50/openregister-0.1.50.tar.gz",
-    "version": "0.1.50",
+    "hash": "sha256-W/hUvT4Li0CJK1uPRWg8l1Z4dp3NrW23WNj265vkjpM=",
+    "url": "https://github.com/ConductionNL/openregister/releases/download/v0.1.51/openregister-0.1.51.tar.gz",
+    "version": "0.1.51",
     "description": "📰 An OpenRegister App for Nextcloud\n\nThe OpenRegister Nextcloud app provides a framework for federated registers to work together in an open data ecosystem\n\n- 📲 Synchronize your sources with multiple registers\n- 🔄 Automatic publications of your open data\n- 🆓 Free and open source under EUPL\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://conduction.gitbook.io/openregister-nextcloud/installatie)\n\nThe Roadmap is available [here](https://github.com/orgs/OpenRegister/projects/1/views/2)\n\nCreate a [bug report](https://github.com/OpenRegister/.github/issues/new/choose)\n\nCreate a [feature request](https://github.com/OpenRegister/.github/issues/new/choose)",
     "homepage": "https://github.com/ConductionNL/OpenRegister",
     "licenses": [
