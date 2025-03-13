@@ -230,10 +230,10 @@
     ]
   },
   "cfg_share_links": {
-    "hash": "sha256-gfzvyQeQwS0jKqVaSU5oOqupNSjdfafdzhny9VUWGOQ=",
-    "url": "https://github.com/jimmyl0l3c/cfg_share_links/releases/download/v6.1.1/cfg_share_links.tar.gz",
-    "version": "6.1.1",
-    "description": "App for Nextcloud that adds the ability to specify share tokens when creating new public links and change tokens of existing links.\n\n## Features\n\nSharing sidebar is expanded by new section (Custom public link) that allows you to create public links with custom share tokens.\nYou can also customize share tokens of existing public links.\n\n## Settings\n\nBy going to **Administration settings > Administration > Configurable Share Links** admins can set default labels for custom links and minimal token length.\nDefault label can be: none, same as token or custom (the same custom label for all custom links).",
+    "hash": "sha256-LoVDBVhbnq/yO8G4UfktMNHMtSvMGqrzgeJNxFcVya8=",
+    "url": "https://github.com/jimmyl0l3c/cfg_share_links/releases/download/v7.0.1/cfg_share_links.tar.gz",
+    "version": "7.0.1",
+    "description": "# NOTE\n\n⚠️ **Since Nextcloud 31 (Hub 10) you can specify custom share tokens in Nextcloud without 3rd party apps. It is disabled by default,\nbut can be enabled in admin settings. This app will no longer be maintained.**\n\n## About the app\n\nApp for Nextcloud that adds the ability to specify share tokens when creating new public links and change tokens of existing links.\n\n## Features\n\nSharing sidebar is expanded by new section (Custom public link) that allows you to create public links with custom share tokens.\nYou can also customize share tokens of existing public links.\n\n## Settings\n\nBy going to **Administration settings > Administration > Configurable Share Links** admins can set default labels for custom links and minimal token length.\nDefault label can be: none, same as token or custom (the same custom label for all custom links).",
     "homepage": "https://github.com/jimmyl0l3c/cfg_share_links",
     "licenses": [
       "agpl"
@@ -680,9 +680,9 @@
     ]
   },
   "files_linkeditor": {
-    "hash": "sha256-DcsDID6az8A84Ouiz6wxJ33QHaTw1OIoiats5bLwDLA=",
-    "url": "https://github.com/te-online/nextcloud-app-releases/raw/main/files_linkeditor/v1.1.21/files_linkeditor.tar.gz",
-    "version": "1.1.21",
+    "hash": "sha256-qPx+l32ICvXivXIR1BwcUNDczRXuCMNCVvM7jh3iSLE=",
+    "url": "https://github.com/te-online/nextcloud-app-releases/raw/main/files_linkeditor/v1.1.22/files_linkeditor.tar.gz",
+    "version": "1.1.22",
     "description": "### External web links in Nextcloud!\n* ✍️ **create and edit** .URL and .webloc links in the file view\n* 🌍 **open links** by clicking them and confirming you want to go to the external site\n* 📤 **works in public shares** so you can share links easily with others\n* 🔄 **sync your links** as .URL and .webloc are web links as created on most operating systems.\n\n_[View changelog](https://github.com/te-online/files_linkeditor/blob/main/CHANGELOG.md)_",
     "homepage": "https://github.com/te-online/files_linkeditor",
     "licenses": [
@@ -969,6 +969,16 @@
       "agpl"
     ]
   },
+  "iframewidget": {
+    "hash": "sha256-E0EdLr3vRQ04Zg5rVjvnXVPwLc7mHrcf88lNLjHoLvM=",
+    "url": "https://github.com/IT-BAER/nc-iframewidget/releases/download/v0.6.1/nc-iframewidget.tar.gz",
+    "version": "0.6.1",
+    "description": "Dashboard Widget that allows displaying external Websites in an iFrame",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "imageconverter": {
     "hash": "sha256-w1e3AHfUSNfpeMLxGnQsQ/eiRf8bPaCSwGHIgjwqIKM=",
     "url": "https://github.com/major-mayer/imageconverter/releases/download/v.2.0.4/imageconverter.tar.gz",
@@ -1200,8 +1210,8 @@
     ]
   },
   "integration_openproject": {
-    "hash": "sha256-6NECpxC4K7bmNz/P/rTOHHoGJh4Tut4ajCfsPsES7sU=",
-    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.8.1/integration_openproject-2.8.1.tar.gz",
+    "hash": "sha256-f0q9NilNZoh8LFHYbsZ8Tohrwvb4ICgZp+ZVRtW0W/U=",
+    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.8.1-20250305-nightly/integration_openproject-2.8.1-20250305-nightly.tar.gz",
     "version": "2.8.1",
     "description": "This application enables seamless integration with open source project management and collaboration software OpenProject.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in OpenProject\n* Find all work packages linked to a file or a folder\n* Create work packages directly in Nextcloud\n* View OpenProject notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n* Link work packages in rich text fields via Smart Picker\n* Preview links to work packages in text fields\n* Link multiple files and folder to a work package at once\n\nOn the OpenProject end, users are able to:\n\n* Link work packages with files and folders in Nextcloud\n* Upload and download files directly to Nextcloud from within a work package\n* Open linked files in Nextcloud to edit them\n* Let OpenProject create shared folders per project\n\nFor more information on how to set up and use the OpenProject application, please refer to [integration setup guide](https://www.openproject.org/docs/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://www.openproject.org/docs/user-guide/nextcloud-integration/).",
     "homepage": "https://github.com/nextcloud/integration_openproject",
@@ -1440,9 +1450,9 @@
     ]
   },
   "mail": {
-    "hash": "sha256-ruxKcB6a8oil/TWHIkRR2jpHf/+68FJ83Ai4ODh4hI0=",
-    "url": "https://github.com/nextcloud-releases/mail/releases/download/v4.2.4/mail-stable4.2.tar.gz",
-    "version": "4.2.4",
+    "hash": "sha256-M9pAracYFkZeSCa8rEVcQqE0AAywt2ye7w9rimkljco=",
+    "url": "https://github.com/nextcloud-releases/mail/releases/download/v4.2.5/mail-stable4.2.tar.gz",
+    "version": "4.2.5",
     "description": "**💌 A mail app for Nextcloud**\n\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://horde.org) libraries.\n- **📬 Want to host your own mail server?** We do not have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!\n\n## Ethical AI Rating\n\n### Priority Inbox\n\nPositive:\n* The software for training and inferencing of this model is open source.\n* The model is created and trained on-premises based on the user's own data.\n* The training data is accessible to the user, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n### Thread Summaries (opt-in)\n\n**Rating:** 🟢/🟡/🟠/🔴\n\nThe rating depends on the installed text processing backend. See [the rating overview](https://docs.nextcloud.com/server/latest/admin_manual/ai/index.html) for details.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/mail#readme",
     "licenses": [
@@ -1690,9 +1700,9 @@
     ]
   },
   "openconnector": {
-    "hash": "sha256-NezCo5EwL7ruLikb7RG7k6/nqFGe4PEqA1vAgx2JojA=",
-    "url": "https://github.com/ConductionNL/openconnector/releases/download/v0.1.58/openconnector-0.1.58.tar.gz",
-    "version": "0.1.58",
+    "hash": "sha256-xcU6w3bivowNNXgmWwf92+oreQtxmTUHgWkWsQMz3qI=",
+    "url": "https://github.com/ConductionNL/openconnector/releases/download/v0.1.59/openconnector-0.1.59.tar.gz",
+    "version": "0.1.59",
     "description": "📰 Bringing Gateway and Service bus functionality to nextcloud\n\nThe OpenConnector Nextcloud app provides a ESB-framework to work together in an (open) data ecosystem\n\n- 📲 Synchronize your data sources\n- 📰 Send cloud events\n- 🆓 Map and translate API calls",
     "homepage": "https://github.com/ConductionNL/OpenConnector",
     "licenses": [
@@ -2120,9 +2130,9 @@
     ]
   },
   "side_menu": {
-    "hash": "sha256-qX0L3y7OHlh2Tmc5uc2aOj+QY0J/kHIFiBoH09/kL30=",
-    "url": "https://gitnet.fr/deblan/side_menu/releases/download/v4.1.0/side_menu_v4.1.0.tar.gz",
-    "version": "4.1.0",
+    "hash": "sha256-Q4rxsXqzDwW6jiIvSuPA0bYprckb9gIkatlTtRJOjaw=",
+    "url": "https://gitnet.fr/deblan/side_menu/releases/download/v4.1.1/side_menu_v4.1.1.tar.gz",
+    "version": "4.1.1",
     "description": "Custom menu allows you to modify the position of the main menu by creating a panel on the left of the interface or with a big menu on the top.\nYou can also define apps that must be displayed in the top menu. Fully customisable.\n\nThis application is rather suitable for instances that activate a lot of applications.\n\nUse the shortcut `Ctrl`+`o` to open and to hide the side menu. Use `tab` to navigate.\n\nYou can customize colors depending of the theme (Dark theme and Breeze Dark).\n\nYou can report a bug or request a feature by opening an issue.\n\nRequirements:\n\n* PHP >= 8.1\n* App `theming` enabled\n\nIf you like this application and if you want to support the development:\n\n* [Buy me a coffee](https://www.buymeacoffee.com/deblan)\n* [Donate with liberapay](https://liberapay.com/deblan)\n* [Leave a comment](https://apps.nextcloud.com/apps/side_menu#comments)\n\nNotice\n------\n\nBecause I believe in a free and decentralized Internet, [Gitnet](https://gitnet.fr) is **self-hosted at home**.\nIn case of downtime, you can download **Custom Menu** from [here](https://kim.deblan.fr/~side_menu/).",
     "homepage": "https://gitnet.fr/deblan/side_menu",
     "licenses": [
@@ -2340,9 +2350,9 @@
     ]
   },
   "spreed": {
-    "hash": "sha256-+MYplCq6Kx1UiEz+Isbit7kQNhe4dncy6W+y7eMzuiA=",
-    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v20.1.4/spreed-v20.1.4.tar.gz",
-    "version": "20.1.4",
+    "hash": "sha256-Ld/1UKhch7QYsfxGHpcjviGPna3moMsLCOMOGi937SI=",
+    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v20.1.5/spreed-v20.1.5.tar.gz",
+    "version": "20.1.5",
     "description": "Chat, video & audio-conferencing using WebRTC\n\n* 💬 **Chat** Nextcloud Talk comes with a simple text chat, allowing you to share or upload files from your Nextcloud Files app or local device and mention other participants.\n* 👥 **Private, group, public and password protected calls!** Invite someone, a whole group or send a public link to invite to a call.\n* 🌐 **Federated chats** Chat with other Nextcloud users on their servers\n* 💻 **Screen sharing!** Share your screen with the participants of your call.\n* 🚀 **Integration with other Nextcloud apps** like Files, Calendar, User status, Dashboard, Flow, Maps, Smart picker, Contacts, Deck, and many more.\n* 🌉 **Sync with other chat solutions** With [Matterbridge](https://github.com/42wim/matterbridge/) being integrated in Talk, you can easily sync a lot of other chat solutions to Nextcloud Talk and vice-versa.",
     "homepage": "https://github.com/nextcloud/spreed",
     "licenses": [
