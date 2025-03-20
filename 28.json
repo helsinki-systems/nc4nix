@@ -2780,9 +2780,9 @@
     ]
   },
   "thesearchpage": {
-    "hash": "sha256-QXLEPGUZTnVyEB+fpqprj2jNMPKoIqSqLEpXEuSoOD0=",
-    "url": "https://github.com/callmemagnus/nextcloud-searchpage/releases/download/v1.2.9/thesearchpage.tar.gz",
-    "version": "1.2.9",
+    "hash": "sha256-m1droAFp+fZEw1Eevj0a2kp03q2unDg4MRKNz5keHuM=",
+    "url": "https://github.com/callmemagnus/nextcloud-searchpage/releases/download/v1.2.10/thesearchpage.tar.gz",
+    "version": "1.2.10",
     "description": "🔎 A Search Page for your Nextcloud instance\n\n- [Changelog](https://raw.githubusercontent.com/callmemagnus/nextcloud-searchpage/main/CHANGELOG.md)\n- [Help translate this application](https://app.transifex.com/nextcloud/nextcloud/thesearchpage/)\n\nIt works like the existing search widget, uses the same sources to query BUT\ndisplays the results in a more readable and browsable fashion.\n\nThe content of the results depends on the other applications installed on\nyour Nextcloud instance. Every Nextcloud application can become a search\nprovider and get its results displayed by this application.\n\nOut of the Nextcloud box, you usually get the following providers:\n\n- Apps -- searches for match for in installed application names\n- Files -- searches on path and filename\n- Tags\n- Comments\n- Settings\n\nBecause of its design, the results depend on the implementation of the providers\nin respective application.\n\nKnown issues with other applications:\n\n- users -- [by design(?), it always returns an empty array](https://github.com/nextcloud/server/issues/41274) (it is hidden/disabled in this application)\n- fulltextsearch -- does not seem to AND the query terms, OR is usually less relevant\n- news -- does not provide a direct link to a feed item.\n\n\nDon't hesitate to leave a comment here or a rating!",
     "homepage": "https://github.com/callmemagnus/nextcloud-searchpage",
     "licenses": [
