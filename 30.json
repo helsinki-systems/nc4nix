@@ -310,9 +310,9 @@
     ]
   },
   "context_chat": {
-    "hash": "sha256-WJ8ZfM7a3qH5rcWL+1BRuHjKP7pb6WQQDOQvgMGFgz0=",
-    "url": "https://github.com/nextcloud-releases/context_chat/releases/download/v4.4.0/context_chat-v4.4.0.tar.gz",
-    "version": "4.4.0",
+    "hash": "sha256-rhY/wJsQDnKszeLazYGuC3Ey11Zm2cCu6Yi26+C8dDc=",
+    "url": "https://github.com/nextcloud-releases/context_chat/releases/download/v4.4.1/context_chat-v4.4.1.tar.gz",
+    "version": "4.4.1",
     "description": "Ask questions to Nextcloud Assistant about the content of your documents.\n\nInstall the given apps for Context Chat to work as desired **in the given order**:\n- [AppAPI from the Apps page](https://apps.nextcloud.com/apps/app_api)\n- [Context Chat Backend (same major and minor version as Context Chat app below) from the External Apps page](https://apps.nextcloud.com/apps/context_chat_backend)\n- [Context Chat (same major and minor version as the backend) from the Apps page](https://apps.nextcloud.com/apps/context_chat)\n- [Assistant from the Apps page](https://apps.nextcloud.com/apps/assistant). The OCS API or the `occ` commands can also be used to interact with this app but it recommended to do that through a Task Processing OCP API consumer like the Assistant app, which is also the officially supported universal UI for all the AI providers.\n- Text2Text Task Processing Provider like [llm2 from the External Apps page](https://apps.nextcloud.com/apps/llm2) or [integration_openai from the Apps page](https://apps.nextcloud.com/apps/integration_openai)\n\nSetup background job workers as described here: https://docs.nextcloud.com/server/latest/admin_manual/ai/overview.html#improve-ai-task-pickup-speed\n\nNote:\nRefer to the [Context Chat Backend's readme](https://github.com/nextcloud/context_chat_backend/?tab=readme-ov-file) and the [AppAPI's documentation](https://cloud-py-api.github.io/app_api/) for help with setup of AppAPI's deploy daemon.",
     "homepage": "https://github.com/nextcloud/context_chat",
     "licenses": [
@@ -2570,9 +2570,9 @@
     ]
   },
   "softwarecatalog": {
-    "hash": "sha256-HfZYgzGAwFbhzoV/1g+KVFaWZUjWuW/Kr6l1D63JB2k=",
-    "url": "https://github.com/ConductionNL/softwarecatalog/releases/download/v0.1.28/softwarecatalog-0.1.28.tar.gz",
-    "version": "0.1.28",
+    "hash": "sha256-do8Q4uhxXalD6TySsYJtKsAj/HZU24R5DE6fmfY6MlI=",
+    "url": "https://github.com/ConductionNL/softwarecatalog/releases/download/v0.1.29/softwarecatalog-0.1.29.tar.gz",
+    "version": "0.1.29",
     "description": "🗂️ A Nextcloud App for Software Catalogs\n\nThe Software Catalogus Nextcloud app offers a powerful framework for managing and synchronizing software catalogs within a federated, open data environment.\n\n- 🔄 Synchronize your software data with multiple catalogs\n- 📡 Automatically publish and update your software catalog information\n- 🆓 Completely free and open source under the EUPL license\n\n**Note: System Cron is required for this app to function properly**\n\nFind the installation requirements [here](https://conduction.gitbook.io/opencatalogi-nextcloud/install).\n\nView the development roadmap [here](https://github.com/orgs/OpenCatalogi/projects/1/views/2).\n\nSubmit a [bug report](https://github.com/OpenCatalogi/.github/issues/new/choose).\n\nSubmit a [feature request](https://github.com/OpenCatalogi/.github/issues/new/choose).",
     "homepage": "https://github.com/ConductionNL/SoftwareCatalogus",
     "licenses": [
