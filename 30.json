@@ -340,8 +340,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -360,8 +360,8 @@
     ]
   },
   "dashy": {
-    "hash": "sha256-7hVqRTvq1pNyujM63JlOKwmGpnstlkTiwxWqXM9+De4=",
-    "url": "https://github.com/SchBenedikt/dashy/releases/download/v0.2/dashy1.1.1.tar.gz",
+    "hash": "sha256-r+E+l1xffZT1y41uRjl71orPXTuw5SoD3c2L4l4BWF4=",
+    "url": "https://github.com/SchBenedikt/dashy/releases/download/v0.2/Dashy_v1.1.0_clean.tar.gz",
     "version": "1.1.0",
     "description": "dashy",
     "homepage": "",
@@ -610,10 +610,10 @@
     ]
   },
   "fairmeeting": {
-    "hash": "sha256-unWKxtnkMPxSk5ayJtvTDAvHH6upLCJQBV8fvMohePo=",
-    "url": "https://github.com/fairkom/nextcloud-fairmeeting-integration/releases/download/v0.21.0/fairmeeting.tar.gz",
-    "version": "0.21.0",
-    "description": "This app integrates the Jitsi based fairmeeting video conferencing service into Nextcloud. fairmeeting is hosted in the EU, thus fully GDPR compliant. We have set fairmeeting.net as the default Jitsi server, as meet.jit.si requires additional login or a token and is limited to 5 minutes in embedded conferences since 2023. \nFeatures:\n- 🎬 Full-featured online video conferences in nextcloud\n- 🔗 Sharable conference room links\n- 🔎 Integrated into global Nextcloud search\n- ✅ Audio and video test before joining a conference\n- 💯 Supports hundreds of users\n- 🖼 Customizable background images\n- 👏 Emoji reactions and animated GIF interactions\n- 👩🏼‍🏫 Organiser is moderator and can assign moderation rights\n- ➕ Option to open meetings **in a new browser tab** instead of embedded\n\nVideo conferencing is based on the Jitsi framework, see their [documentation](https://github.com/nextcloud/jitsi). fairmeeting is hosted by [fairkom](https://fairkom.eu/en) on a scalable kubernetes cluster, see their [info page](https://fairkom.eu/en/fairmeeting) and [FAQs](https://git.fairkom.net/hosting/fairmeeting/-/wikis/home). The app is based on the Jitsi app by Michael Weimann.",
+    "hash": "sha256-gcIrUw5lUfC9/8+b5n644GoCUqJUVnOWL2iDJI86ZRI=",
+    "url": "https://github.com/fairkom/nextcloud-fairmeeting-integration/releases/download/v0.22.3/fairmeeting.tar.gz",
+    "version": "0.22.3",
+    "description": "This app integrates the Jitsi based fairmeeting video conferencing service into Nextcloud. fairmeeting is hosted in the EU, thus fully GDPR compliant. We have set fairmeeting.net as the default Jitsi server, as meet.jit.si requires additional login or a token and is limited to 5 minutes in embedded conferences since 2023. \nFeatures:\n- 🎬 Full-featured online video conferences in nextcloud\n- 🔗 Sharable conference room links\n- 🔎 Integrated into global Nextcloud search\n- ✅ Audio and video test before joining a conference\n- 💯 Supports hundreds of users\n- 🖼 Customizable background images\n- 👏 Emoji reactions and animated GIF interactions\n- 👩🏼‍🏫 Organiser is moderator and can assign moderation rights\n- ➕ Option to open meetings **in a new browser tab** instead of embedded\n- 😸 fairmeeting fair use is one hour for private conferences, or get a [pro plan](https://fairkom.eu/en/fairmeeting) or configure your own Jitsi server\t    \n\nVideo conferencing is based on the Jitsi framework, see their [documentation](https://github.com/nextcloud/jitsi). fairmeeting is hosted by [fairkom](https://fairkom.eu/en) on a scalable kubernetes cluster, see their [info page](https://fairkom.eu/en/fairmeeting) and [FAQs](https://git.fairkom.net/hosting/fairmeeting/-/wikis/home). This Nextcloud app is based on the [Jitsi app](https://github.com/nextcloud/jitsi).",
     "homepage": "https://fairkom.eu/en/fairmeeting",
     "licenses": [
       "agpl"
@@ -650,9 +650,9 @@
     ]
   },
   "files_antivirus": {
-    "hash": "sha256-jDh6NudBHMtX47KtHP3gokBtB6MaoIsELpWKPGaK63g=",
-    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.6.3/files_antivirus-v5.6.3.tar.gz",
-    "version": "5.6.3",
+    "hash": "sha256-6bP8vT3egx2kEdIaci1n1iDvI7pPX3yZDE02LylMRc8=",
+    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v5.6.4/files_antivirus-v5.6.4.tar.gz",
+    "version": "5.6.4",
     "description": "Antivirus for files is an antivirus app for Nextcloud.\n\n* 🕵️‍♂️ When the user uploads a file, it's checked\n* ☢️ Uploaded and infected files will be deleted and a notification will be shown and/or sent via email\n* 🔎 Background Job to scan all files\n* ❓ Use ClamAV (open source), Kaspersky Scan Engine or an ICAP compatible scanner\n\nThis application inspects files that are uploaded to Nextcloud for viruses before they are written to the Nextcloud storage. If a file is identified as a virus, it is either logged or not uploaded to the server. The application relies on the underlying ClamAV virus scanning engine, which the admin points Nextcloud to when configuring the application. Alternatively, a Kaspersky Scan Engine can be configured, which has to run on a separate server.\nFor this app to be effective, the ClamAV virus definitions should be kept up to date. Also note that enabling this app will impact system performance as additional processing is required for every upload. More information is available in the Antivirus documentation.",
     "homepage": "",
     "licenses": [
@@ -1540,9 +1540,9 @@
     ]
   },
   "ldap_contacts_backend": {
-    "hash": "sha256-rAuYj0nwWuXgghB9TMbpVKj8OE4r7/LJIXJtxIEZvCE=",
-    "url": "https://github.com/nextcloud-releases/ldap_contacts_backend/releases/download/v1.10.0/ldap_contacts_backend-v1.10.0.tar.gz",
-    "version": "1.10.0",
+    "hash": "sha256-A4SaOuFgLuuXZdOQK0rEE/8t/MDsHOhW6l4Rx71fVPc=",
+    "url": "https://github.com/nextcloud-releases/ldap_contacts_backend/releases/download/v1.10.1/ldap_contacts_backend-v1.10.1.tar.gz",
+    "version": "1.10.1",
     "description": "Adds a virtual address book and lets import contacts to user&#39;s individual one.\n\n![Copy found LDAP contact to address book](https://raw.githubusercontent.com/nextcloud/ldap_contacts_backend/master/screenshots/contactsmenu-with-action.png)\n\nIn order to configure an LDAP backend, run\n\n``php\nphp occ ldap_contacts:add --interactive $ADDRESSBOOKNAME\n``\n\nWhere $ADDRESSBOOKNAME is a name you like to identify the virtual addressbook with. The interactive mode leads you through the configuration, but you can also use the `--help` flag to see all the options.\n\nGiven that the configuration is correct, you and your users will be able to search through the LDAP contacts via the global contacts menu. An import action allows to copy the contact over to the best fitting existing addressbook. A redirect takes you the contacts app with the newly created card open.",
     "homepage": "",
     "licenses": [
@@ -2080,9 +2080,9 @@
     ]
   },
   "polls": {
-    "hash": "sha256-pGXydde3kLTHgA3vgq2NG1YsyWkda/z8frMFbHdxetQ=",
-    "url": "https://github.com/nextcloud-releases/polls/releases/download/v8.1.4/polls-v8.1.4.tar.gz",
-    "version": "8.1.4",
+    "hash": "sha256-trBymt8Okw1ak4/I6udXcplceMcCuAYuzW9a2iOrDVc=",
+    "url": "https://github.com/nextcloud-releases/polls/releases/download/v8.2.2/polls-v8.2.2.tar.gz",
+    "version": "8.2.2",
     "description": "A polls app, similar to Doodle/DuD-Poll with the possibility to restrict access (members, certain groups/users, hidden and public).",
     "homepage": "https://github.com/nextcloud/polls",
     "licenses": [
@@ -2570,9 +2570,9 @@
     ]
   },
   "softwarecatalog": {
-    "hash": "sha256-BfsJDoZbg8QkQAymtL6hrKE72RGrsTAvwsYnqwDf3ck=",
-    "url": "https://github.com/ConductionNL/softwarecatalog/releases/download/v0.1.33/softwarecatalog-0.1.33.tar.gz",
-    "version": "0.1.33",
+    "hash": "sha256-BXhEiOzLz4+Mqh0zm45b+vH8KjTeidYuRS6PUqA8meg=",
+    "url": "https://github.com/ConductionNL/softwarecatalog/releases/download/v0.1.34/softwarecatalog-0.1.34.tar.gz",
+    "version": "0.1.34",
     "description": "🗂️ A Nextcloud App for Software Catalogs\n\nThe Software Catalogus Nextcloud app offers a powerful framework for managing and synchronizing software catalogs within a federated, open data environment.\n\n- 🔄 Synchronize your software data with multiple catalogs\n- 📡 Automatically publish and update your software catalog information\n- 🆓 Completely free and open source under the EUPL license\n\n**Note: System Cron is required for this app to function properly**\n\nFind the installation requirements [here](https://conduction.gitbook.io/opencatalogi-nextcloud/install).\n\nView the development roadmap [here](https://github.com/orgs/OpenCatalogi/projects/1/views/2).\n\nSubmit a [bug report](https://github.com/OpenCatalogi/.github/issues/new/choose).\n\nSubmit a [feature request](https://github.com/OpenCatalogi/.github/issues/new/choose).",
     "homepage": "https://github.com/ConductionNL/SoftwareCatalogus",
     "licenses": [
