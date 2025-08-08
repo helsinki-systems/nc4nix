@@ -80,9 +80,9 @@
     ]
   },
   "assistant": {
-    "hash": "sha256-ph7x8ai+QsLf4PboxC1/iAMy5LNrJ5m/3VIdw0OvPcw=",
-    "url": "https://github.com/nextcloud-releases/assistant/releases/download/v2.5.0/assistant-v2.5.0.tar.gz",
-    "version": "2.5.0",
+    "hash": "sha256-t3zUQDTc22uRAd1rb0wpzGNGIZPOd7IrRrf5IST0Kx0=",
+    "url": "https://github.com/nextcloud-releases/assistant/releases/download/v2.6.0/assistant-v2.6.0.tar.gz",
+    "version": "2.6.0",
     "description": "This app brings a user interface to use the Nextcloud text processing feature.\n\nIt allows users to launch AI tasks, be notified when they finish and see the results.\nThe assistant also appears in others apps like Text to easily process parts of a document.\n\nMore details on the assistant OCS API and frontend integration possibilities in the\n[developer doc](https://github.com/nextcloud/assistant/raw/main/docs/developer)\n\n### How to use it\n\nA new right header menu entry appears. Once clicked, the assistant is displayed and you can select and task type and\nset the input you want to process.\n\nThe task might run immediately or be scheduled depending on the time estimation given by the AI provider.\nOnce a task is scheduled, it will run as a background job. When it is finished, you will receive a notification\nfrom which the results can be displayed.\n\nOther apps can integrate with the assistant. For example, Text will display an inline button besides every paragraph\nto directly select a task type to process this paragraph. Selecting a task this way will open the assistant with the task\nbeing pre-selected and the input text set.\n\nMore details and screenshots in the [user doc](https://github.com/nextcloud/assistant/raw/main/docs/user).\n\n## Features\n\nIn the assistant, the list of available tasks depends on the available providers installed via other apps.\nThis means you have complete freedom over which service/software will actually run your AI tasks.\n\n### Text processing providers\n\nSo far, the [Local Large language model](https://github.com/nextcloud/llm2#readme)\nand the [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai) apps\ninclude text processing providers to:\n* Summarize\n* Extract topics\n* Generate a headline\n* Get an answer from a free prompt\n* Reformulate (OpenAi/LocalAi only)\n* Context writer: Generate text with a specified style. The style can be described or provided via an example text.\n\n### Text to image (Image generation)\n\nKnown providers:\n* [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai)\n* [Text2Image Stable Diffusion](https://apps.nextcloud.com/apps/text2image_stablediffusion)\n\n### Speech to text (Audio transcription)\n\nKnown providers:\n* [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai)\n* [Local Whisper Speech-To-Text](https://apps.nextcloud.com/apps/stt_whisper)\n\nMore details on how to set this up in the [admin docs](https://docs.nextcloud.com/server/latest/admin_manual/ai/index.html)",
     "homepage": "https://github.com/nextcloud/assistant",
     "licenses": [
@@ -350,9 +350,9 @@
     ]
   },
   "dashy": {
-    "hash": "sha256-r+E+l1xffZT1y41uRjl71orPXTuw5SoD3c2L4l4BWF4=",
-    "url": "https://github.com/SchBenedikt/dashy/releases/download/v0.2/Dashy_v1.1.0_clean.tar.gz",
-    "version": "1.1.0",
+    "hash": "sha256-ZdHQbs8ufQZh5WU2RQ5ZPS7cI6Hvh4HO8UI0Uki0MFQ=",
+    "url": "https://github.com/SchBenedikt/dashy/releases/download/v1.2.0/dashy.tar.gz",
+    "version": "1.2.0",
     "description": "dashy",
     "homepage": "",
     "licenses": [
@@ -1510,8 +1510,8 @@
     ]
   },
   "maps": {
-    "hash": "sha256-E0S/CwXyye19lcuiONEQCyHJqlL0ZG1A9Q7oOTEZH1g=",
-    "url": "https://github.com/nextcloud/maps/releases/download/v1.6.0-3-nightly/maps-1.6.0-3-nightly.tar.gz",
+    "hash": "sha256-IupRymjs955TiUutzoTTMeESNfBmAp51l+oBaZwfdN0=",
+    "url": "https://github.com/nextcloud/maps/releases/download/v1.6.0/maps-1.6.0.tar.gz",
     "version": "1.6.0",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
@@ -1600,10 +1600,10 @@
     ]
   },
   "ncgrisbi": {
-    "hash": "sha256-brCyh2j3U0en0uZExB3byAh4ipNXrO9RSBSxTXKi6Ec=",
-    "url": "https://github.com/medismail/ncgrisbi/releases/download/v0.1.2/ncgrisbi_0.1.2.tar.gz",
-    "version": "0.1.2",
-    "description": "# Nextcloud Grisbi Account Manager:\n- * Open gsb file\n- * Accounts Overview\n- * Show Transactions\n- * Support Encryption\n- * and many others useful tools.",
+    "hash": "sha256-bwsdVlFCmZnYlnaB+zTdqoGHDQayPWLIzOKrJiP8mbs=",
+    "url": "https://github.com/medismail/ncgrisbi/releases/download/v0.2.1/ncgrisbi_0.2.1.tar.gz",
+    "version": "0.2.1",
+    "description": "# Nextcloud Grisbi Account Manager:\n- * Open gsb file\n- * Accounts Overview\n- * Show Transactions\n- * Add Transactions\n- * Support Encryption\n- * and many others useful views.",
     "homepage": "https://github.com/medismail/ncgrisbi",
     "licenses": [
       "AGPL-3.0-only"
@@ -1650,9 +1650,9 @@
     ]
   },
   "notify_push": {
-    "hash": "sha256-nxbmzRaW4FYmwTF27P9K7SebKYiL5KOMdyU5unif+NQ=",
-    "url": "https://github.com/nextcloud-releases/notify_push/releases/download/v1.1.0/notify_push-v1.1.0.tar.gz",
-    "version": "1.1.0",
+    "hash": "sha256-hfuvooAK9dfcKor8TmCGxF5baJzV/fEzRDXbviUByOo=",
+    "url": "https://github.com/nextcloud-releases/notify_push/releases/download/v1.1.1/notify_push-v1.1.1.tar.gz",
+    "version": "1.1.1",
     "description": "Push update support for desktop app.\n\nOnce the app is installed, the push binary needs to be setup. You can either use the setup wizard with `occ notify_push:setup` or see the [README](http://github.com/nextcloud/notify_push) for detailed setup instructions",
     "homepage": "",
     "licenses": [
@@ -1900,9 +1900,9 @@
     ]
   },
   "photo_frames": {
-    "hash": "sha256-QeiSLbn4HslolFQUVKG6nc/kgRejpOJ2Swuc6XGv7IQ=",
-    "url": "https://github.com/jeppester/nextcloud-photo-frames/releases/download/1.3.3/photo_frames.tar.gz",
-    "version": "1.3.3",
+    "hash": "sha256-vj4Q+paMLunM4zawtH5TuyT1Amxcu5JjhbTAkRd4g+8=",
+    "url": "https://github.com/jeppester/nextcloud-photo-frames/releases/download/1.4.1/photo_frames.tar.gz",
+    "version": "1.4.1",
     "description": "Generate easily sharable photo frame URLs for your Nextcloud albums.\n\nThe possiblities are endless:\n\n- Turn any android device into a smart photo frame (with the help of a kiosk browser)\n- Co-create photo frames with Nextcloud's collaborative albums\n- Share photo frames across households",
     "homepage": "",
     "licenses": [
