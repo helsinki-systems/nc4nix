@@ -1023,7 +1023,7 @@
     "hash": "sha256-OUZsjf5i/ihzihybiM+HNQwiYOOw+/QgnIOsm+ipuOk=",
     "url": "https://github.com/nextcloud-releases/groupfolders/releases/download/v18.1.4/groupfolders-v18.1.4.tar.gz",
     "version": "18.1.4",
-    "description": "Admin configured folders shared with everyone in a team.\n\nFolders can be configured from *Team folders* in the admin settings.\n\nAfter a folder is created, the admin can give access to the folder to one or more teams, control their write/sharing permissions and assign a quota for the folder.",
+    "description": "Admin configured folders shared with everyone in a team.\n\nFolders can be configured from *Team folders* in the admin settings.\n\nAfter a folder is created, the admin can give access to the folder to one or more teams, control their write/sharing permissions and assign a quota for the folder.\nAs of Hub 10/Nextcloud 31, the admin needs to be a part of the team to be able to assign it a Teamfolder.",
     "homepage": "https://github.com/nextcloud/groupfolders",
     "licenses": [
       "agpl"
@@ -1040,9 +1040,9 @@
     ]
   },
   "guests": {
-    "hash": "sha256-ZpkXm3jBX0lh9whsilvpY0G3j7P0zCDneM+sbhjM+II=",
-    "url": "https://github.com/nextcloud-releases/guests/releases/download/v4.4.1/guests-v4.4.1.tar.gz",
-    "version": "4.4.1",
+    "hash": "sha256-ZtzxEUDoPhKNFM2q2YIiE+pe0FRoWsPJ6pd5aJYJATU=",
+    "url": "https://github.com/nextcloud-releases/guests/releases/download/v4.5.0/guests-v4.5.0.tar.gz",
+    "version": "4.5.0",
     "description": "👥 Allows for better collaboration with external users by allowing users to create guests account.\n\nGuests accounts can be created from the share menu by entering either the recipients email or name and choosing \"create guest account\", once the share is created the guest user will receive an email notification about the mail with a link to set their password.\n\nGuests users can only access files shared to them and cannot create any files outside of shares, additionally, the apps accessible to guest accounts are whitelisted.",
     "homepage": "https://github.com/nextcloud/guests/",
     "licenses": [
@@ -2570,9 +2570,9 @@
     ]
   },
   "softwarecatalog": {
-    "hash": "sha256-8PL8z6cVOJxsuoGDa9VQloZ+YQNO+jX0ianYk1UD+I0=",
-    "url": "https://github.com/ConductionNL/softwarecatalog/releases/download/v0.1.43/softwarecatalog-0.1.43.tar.gz",
-    "version": "0.1.43",
+    "hash": "sha256-jit42jea4wTlIBz4mISCi02eQq/xp5RzSQR+lK5zRKk=",
+    "url": "https://github.com/ConductionNL/softwarecatalog/releases/download/v0.1.44/softwarecatalog-0.1.44.tar.gz",
+    "version": "0.1.44",
     "description": "🗂️ A Nextcloud App for Software Catalogs\n\nThe Software Catalogus Nextcloud app offers a powerful framework for managing and synchronizing software catalogs within a federated, open data environment.\n\n- 🔄 Synchronize your software data with multiple catalogs\n- 📡 Automatically publish and update your software catalog information\n- 🆓 Completely free and open source under the EUPL license\n\n**Note: System Cron is required for this app to function properly**\n\nFind the installation requirements [here](https://conduction.gitbook.io/opencatalogi-nextcloud/install).\n\nView the development roadmap [here](https://github.com/orgs/OpenCatalogi/projects/1/views/2).\n\nSubmit a [bug report](https://github.com/OpenCatalogi/.github/issues/new/choose).\n\nSubmit a [feature request](https://github.com/OpenCatalogi/.github/issues/new/choose).",
     "homepage": "https://github.com/ConductionNL/SoftwareCatalogus",
     "licenses": [
