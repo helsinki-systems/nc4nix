@@ -30,9 +30,9 @@
     ]
   },
   "announcementcenter": {
-    "hash": "sha256-uHSe+IggFYt3g6Pv3YahXpDFjcgpQnHQsgQGN89ThVo=",
-    "url": "https://github.com/nextcloud-releases/announcementcenter/releases/download/v7.1.4/announcementcenter-v7.1.4.tar.gz",
-    "version": "7.1.4",
+    "hash": "sha256-/ydM3zzi//JdL1n4CDrPR19+pl9uL1bp4EvhBYfy9r0=",
+    "url": "https://github.com/nextcloud-releases/announcementcenter/releases/download/v7.2.1/announcementcenter-v7.2.1.tar.gz",
+    "version": "7.2.1",
     "description": "Announce your maintenance window 🎛️, introduce a new colleague 👤 or make sure everyone knows about the big event next month 📅\n\n🖌️ Markdown support\n\n📑 Comments including @-mentions\n\n👪 Group permissions\n\n⭕ Dashboard integration\n\n⚡ Activities integration\n\n🔔 Notifications integration",
     "homepage": "https://github.com/nextcloud/announcementcenter",
     "licenses": [
@@ -90,9 +90,9 @@
     ]
   },
   "attendance": {
-    "hash": "sha256-ZEc5BcJZVSBRUjjAf6EN1Ljb4ahzq4K0WnLfa17tJ8U=",
-    "url": "https://github.com/luflow/attendance/releases/download/v1.0.2/attendance.tar.gz",
-    "version": "1.0.2",
+    "hash": "sha256-juGRI5vSwKg3U1HsnjG8EEk5QR9plezyX6brW7v5rqk=",
+    "url": "https://github.com/luflow/attendance/releases/download/v1.1.2/attendance.tar.gz",
+    "version": "1.1.1",
     "description": "A small Nextcloud app for managing event attendance with advance RSVP functionality. \n\n**For Administrators:**\n- Create and manage appointments with name, description, and date/time\n- Track responses with detailed attendance summaries organized by user groups\n- Identify non-responders to follow up\n- Toggle between upcoming and past appointments\n\n**For All Users:**\n- Easy RSVP with Yes/No/Maybe responses to any appointment\n- Add optional comments with your response\n- Update responses anytime until the event date\n- Quick access via dashboard widget\n\n**Group-Based Organization:**\n- Statistics automatically organized by Nextcloud user groups\n- See which group members haven't responded yet\n- Complete admin visibility into attendance across all groups\n\nPerfect for organizations, teams, and communities that need to coordinate attendance for meetings, events, and activities.",
     "homepage": "https://krautnerds.de",
     "licenses": [
@@ -190,9 +190,9 @@
     ]
   },
   "call_summary_bot": {
-    "hash": "sha256-KdBKNHBBb6SI8d8LKk/54GRUX5D7Gubv0h9AT6j142A=",
-    "url": "https://github.com/nextcloud-releases/call_summary_bot/releases/download/v3.0.1/call_summary_bot-v3.0.1.tar.gz",
-    "version": "3.0.1",
+    "hash": "sha256-lMFdoP4pKJPIHQYrJ9ZUorSuBkJMUqZZdqOxKEDsxv8=",
+    "url": "https://github.com/nextcloud-releases/call_summary_bot/releases/download/v3.1.0/call_summary_bot-v3.1.0.tar.gz",
+    "version": "3.1.0",
     "description": "### Before a call\n\n- The bot can be used to also collect agenda points and topics with the following keywords:\n  - `- agenda`\n  - `- topic`\n  - `- top`\n- You can also post multiple tasks in a single message, just put each on its own line starting with a keyword\n\n### During a call\n\n- Any message starting with a Markdown checkbox or a keyword during a call will be recognized and used in the summary:\n  - Open todos: `- [ ]`, `- todo:`, `- task:`\n  - Solved todos: `- [x]`\n  - Notes: `- note:`\n  - Reports: `- report:`\n  - Decisions: `- decision:`\n- You can also post multiple tasks in a single message, just put each on its own line starting with a keyword\n- At the end of the call, the bot will summarize it and list all the attendees as well as the tasks in a markdown chat message",
     "homepage": "https://github.com/nextcloud/call_summary_bot",
     "licenses": [
@@ -290,9 +290,9 @@
     ]
   },
   "command_bot": {
-    "hash": "sha256-lDJ72793vt2yGAmDxzBMvZJ9E0SDFdosGaeTGJ0AQzw=",
-    "url": "https://github.com/nextcloud-releases/command_bot/releases/download/v1.0.1/command_bot.tar.gz",
-    "version": "1.0.1",
+    "hash": "sha256-dwt/s0PYnMHLrc5hkBv44A8cieZsVM6j7/koa0jyyuU=",
+    "url": "https://github.com/nextcloud-releases/command_bot/releases/download/v1.0.2/command_bot.tar.gz",
+    "version": "1.0.2",
     "description": "Send `!command` for a list of known commands",
     "homepage": "https://github.com/nextcloud/command_bot",
     "licenses": [
@@ -565,6 +565,16 @@
     "version": "0.22.3",
     "description": "This app integrates the Jitsi based fairmeeting video conferencing service into Nextcloud. fairmeeting is hosted in the EU, thus fully GDPR compliant. We have set fairmeeting.net as the default Jitsi server, as meet.jit.si requires additional login or a token and is limited to 5 minutes in embedded conferences since 2023. \nFeatures:\n- 🎬 Full-featured online video conferences in nextcloud\n- 🔗 Sharable conference room links\n- 🔎 Integrated into global Nextcloud search\n- ✅ Audio and video test before joining a conference\n- 💯 Supports hundreds of users\n- 🖼 Customizable background images\n- 👏 Emoji reactions and animated GIF interactions\n- 👩🏼‍🏫 Organiser is moderator and can assign moderation rights\n- ➕ Option to open meetings **in a new browser tab** instead of embedded\n- 😸 fairmeeting fair use is one hour for private conferences, or get a [pro plan](https://fairkom.eu/en/fairmeeting) or configure your own Jitsi server\t    \n\nVideo conferencing is based on the Jitsi framework, see their [documentation](https://github.com/nextcloud/jitsi). fairmeeting is hosted by [fairkom](https://fairkom.eu/en) on a scalable kubernetes cluster, see their [info page](https://fairkom.eu/en/fairmeeting) and [FAQs](https://git.fairkom.net/hosting/fairmeeting/-/wikis/home). This Nextcloud app is based on the [Jitsi app](https://github.com/nextcloud/jitsi).",
     "homepage": "https://fairkom.eu/en/fairmeeting",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "familytree": {
+    "hash": "sha256-X3/rRGrrRWRBYGFVpWbEK4QfwGo6tV29SLs7IFRSMsQ=",
+    "url": "https://github.com/derbenx/nextcloud-familytree/releases/download/1.3.6/familytree.tar.gz",
+    "version": "1.3.6",
+    "description": "# familytree\nA Nextcloud app that lets you build your own family tree, freestyle. All done in your browser, no database required.",
+    "homepage": "https://github.com/derbenx/nextcloud-familytree",
     "licenses": [
       "agpl"
     ]
@@ -1050,9 +1060,9 @@
     ]
   },
   "integration_discourse": {
-    "hash": "sha256-hw9hIW9rG8Ih2BY/R3Lyy+fdOalwekphZ4607OFkRSs=",
-    "url": "https://github.com/nextcloud-releases/integration_discourse/releases/download/v2.3.0/integration_discourse-v2.3.0.tar.gz",
-    "version": "2.3.0",
+    "hash": "sha256-urCqYT1XSUVUJnIsfoxC63rytpuWnxJaBASDWpuN2Z4=",
+    "url": "https://github.com/nextcloud-releases/integration_discourse/releases/download/v2.4.0/integration_discourse-v2.4.0.tar.gz",
+    "version": "2.4.0",
     "description": "Discourse integration provides a dashboard widget displaying your important notifications\n    and the ability to find topics and posts with Nextcloud's unified search.",
     "homepage": "https://github.com/nextcloud/integration_discourse",
     "licenses": [
@@ -1090,9 +1100,9 @@
     ]
   },
   "integration_excalidraw": {
-    "hash": "sha256-uV/Bqo2r4yx9o0Bb4ha4VHxju4Kkzyp40EAg5VfuL1E=",
-    "url": "https://github.com/nextcloud-releases/integration_excalidraw/releases/download/v2.4.0/integration_excalidraw-v2.4.0.tar.gz",
-    "version": "2.4.0",
+    "hash": "sha256-ykwqdUpU7+JpbiQY5CgKD0lZzBA1vefTZQfeJ5MGiuM=",
+    "url": "https://github.com/nextcloud-releases/integration_excalidraw/releases/download/v2.4.1/integration_excalidraw-v2.4.1.tar.gz",
+    "version": "2.4.1",
     "description": "Modern collaborative whiteboard in Nextcloud.\nThis integration app lets users create Excalidraw boards, share board links and open boards directly in Nextcloud.",
     "homepage": "https://github.com/eneiluj/integration_excalidraw",
     "licenses": [
@@ -1240,8 +1250,8 @@
     ]
   },
   "integration_openproject": {
-    "hash": "sha256-YgQCxwmo0Cz+TdtPtjbu31LRsmeV0yaw09toj68t8zc=",
-    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.9.2-20250724-nightly/integration_openproject-2.9.2-20250724-nightly.tar.gz",
+    "hash": "sha256-S6aqgZV1Xt+tLZAqExVfsSKoKYRjXBbP+E4xzGjy/sc=",
+    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.9.2/integration_openproject-2.9.2.tar.gz",
     "version": "2.9.2",
     "description": "This application enables seamless integration with open source project management and collaboration software OpenProject.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in OpenProject\n* Find all work packages linked to a file or a folder\n* Create work packages directly in Nextcloud\n* View OpenProject notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n* Link work packages in rich text fields via Smart Picker\n* Preview links to work packages in text fields\n* Link multiple files and folder to a work package at once\n\nOn the OpenProject end, users are able to:\n\n* Link work packages with files and folders in Nextcloud\n* Upload and download files directly to Nextcloud from within a work package\n* Open linked files in Nextcloud to edit them\n* Let OpenProject create shared folders per project\n\nFor more information on how to set up and use the OpenProject application, please refer to [integration setup guide](https://www.openproject.org/docs/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://www.openproject.org/docs/user-guide/nextcloud-integration/).",
     "homepage": "https://github.com/nextcloud/integration_openproject",
@@ -1280,9 +1290,9 @@
     ]
   },
   "integration_peertube": {
-    "hash": "sha256-/MVUcIPJV3nRhQgDYPx0snGJTbZTwmBHVPIYjWiAONo=",
-    "url": "https://github.com/nextcloud-releases/integration_peertube/releases/download/v1.2.0/integration_peertube-v1.2.0.tar.gz",
-    "version": "1.2.0",
+    "hash": "sha256-TDf+OsSbFXDY9msa8tEwT7EZTUtaB2uCVykUYKshj5Y=",
+    "url": "https://github.com/nextcloud-releases/integration_peertube/releases/download/v1.3.0/integration_peertube-v1.3.0.tar.gz",
+    "version": "1.3.0",
     "description": "PeerTube integration provides a smart picker provider to search for videos\nand a link preview widget for video links.",
     "homepage": "https://github.com/julien-nc/integration_peertube",
     "licenses": [
@@ -1320,9 +1330,9 @@
     ]
   },
   "integration_tmdb": {
-    "hash": "sha256-Ofc1MMocZFzgW0mjiqCkDNDcrFwkOLlfJRH5Szreb7w=",
-    "url": "https://github.com/nextcloud-releases/integration_tmdb/releases/download/v2.1.0/integration_tmdb-v2.1.0.tar.gz",
-    "version": "2.1.0",
+    "hash": "sha256-HgL5Wr2Z+rEJgy9PtumS8X+LPFimc/nRI1U1aWHdzck=",
+    "url": "https://github.com/nextcloud-releases/integration_tmdb/releases/download/v2.2.0/integration_tmdb-v2.2.0.tar.gz",
+    "version": "2.2.0",
     "description": "TMDB integration provides a smart picker provider to search for movies, series or actors and link previews for them.",
     "homepage": "https://github.com/julien-nc/integration_tmdb",
     "licenses": [
@@ -1940,10 +1950,10 @@
     ]
   },
   "polls": {
-    "hash": "sha256-eAzMzMnSQvXnWc2asMFevs39vwwyWIhuHjPw5Snga8w=",
-    "url": "https://github.com/nextcloud-releases/polls/releases/download/v8.3.8/polls-v8.3.8.tar.gz",
-    "version": "8.3.8",
-    "description": "A polls app, similar to Doodle/Dudle with the possibility to restrict access (members, certain groups/users, hidden and public).",
+    "hash": "sha256-ib8fhoShdXaoHGra1erisE19w45D9HJ6KFMDMIcV8IE=",
+    "url": "https://github.com/nextcloud-releases/polls/releases/download/v8.3.10/polls-v8.3.10.tar.gz",
+    "version": "8.3.10",
+    "description": "A polls app, similar to Doodle/DuD-Poll with the possibility to restrict access (members, certain groups/users, hidden and public).",
     "homepage": "https://github.com/nextcloud/polls",
     "licenses": [
       "agpl"
@@ -2010,10 +2020,10 @@
     ]
   },
   "recognize": {
-    "hash": "sha256-G7SDE72tszifozfT3vNxHW6WmMqQKhrSayQVANQaMbs=",
-    "url": "https://github.com/nextcloud/recognize/releases/download/v9.0.3/recognize-9.0.3.tar.gz",
-    "version": "9.0.3",
-    "description": "Smart media tagging and face recognition with on-premises machine learning models.\nThis app goes through your media collection and adds fitting tags, automatically categorizing your photos and music.\n\n* 📷 👪 Recognizes faces from contact photos\n* 📷 🏔 Recognizes animals, landscapes, food, vehicles, buildings and other objects\n* 📷 🗼 Recognizes landmarks and monuments\n* 👂 🎵 Recognizes music genres\n* 🎥 🤸 Recognizes human actions on video\n\n⚡ Tagging works via Nextcloud's Collaborative Tags\n  * 👂 listen to your tagged music with the audioplayer app\n  * 📷 view your tagged photos and videos with the photos app\n\nModel sizes:\n\n * Object recognition: 1GB\n * Landmark recognition: 300MB\n * Video action recognition: 50MB\n * Music genre recognition: 50MB\n\n## Ethical AI Rating\n### Rating for Photo object detection: 🟢\n\nPositive:\n* the software for training and inference of this model is open source\n* the trained model is freely available, and thus can be run on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n### Rating for Photo face recognition: 🟢\n\nPositive:\n* the software for training and inference of this model is open source\n* the trained model is freely available, and thus can be run on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n### Rating for Video action recognition: 🟢\n\nPositive:\n* the software for training and inferencing of this model is open source\n* the trained model is freely available, and thus can be ran on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n## Ethical AI Rating\n### Rating Music genre recognition: 🟡\n\nPositive:\n* the software for training and inference of this model is open source\n* the trained model is freely available, and thus can be run on-premises\n\nNegative:\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).\n\nAfter installation, you can enable tagging in the admin settings.\n\nRequirements:\n- php 7.4 and above\n- App \"collaborative tags\" enabled\n- For native speed:\n  - Processor: x86 64-bit (with support for AVX instructions)\n  - System with glibc (usually the norm on Linux; FreeBSD, Alpine linux and thus also the official Nextcloud Docker container and Nextcloud AIO are *not* such systems)\n- For sub-native speed (using WASM mode)\n  - Processor: x86 64-bit, arm64, armv7l (no AVX needed)\n  - System with glibc or musl (incl. Alpine linux and thus also the official Nextcloud Docker container and also Nextcloud AIO)\n- ~4GB of free RAM (if you're cutting it close, make sure you have some swap available)\n\nThe app does not send any sensitive data to cloud providers or similar services. All processing is done on your Nextcloud machine, using Tensorflow.js running in Node.js.",
+    "hash": "sha256-uWmmBCg2Um/3iYJjSebgMee+40EuGYQel4X3pWJUzKo=",
+    "url": "https://github.com/nextcloud/recognize/releases/download/v9.0.5/recognize-9.0.5.tar.gz",
+    "version": "9.0.5",
+    "description": "Smart media tagging and face recognition with on-premises machine learning models.\nThis app goes through your media collection and adds fitting tags, automatically categorizing your photos and music.\n\n* 📷 👪 Recognizes faces from contact photos\n* 📷 🏔 Recognizes animals, landscapes, food, vehicles, buildings and other objects\n* 📷 🗼 Recognizes landmarks and monuments\n* 👂 🎵 Recognizes music genres\n* 🎥 🤸 Recognizes human actions on video\n\n⚡ Tagging works via Nextcloud's Collaborative Tags\n  * 👂 listen to your tagged music with the audioplayer app\n  * 📷 view your tagged photos and videos with the photos app\n\nModel sizes:\n\n * Object recognition: 1GB\n * Landmark recognition: 300MB\n * Video action recognition: 50MB\n * Music genre recognition: 50MB\n\n## Ethical AI Rating\n### Rating for Photo object detection: 🟢\n\nPositive:\n* the software for training and inference of this model is open source\n* the trained model is freely available, and thus can be run on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n### Rating for Photo face recognition: 🟢\n\nPositive:\n* the software for training and inference of this model is open source\n* the trained model is freely available, and thus can be run on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n### Rating for Video action recognition: 🟢\n\nPositive:\n* the software for training and inferencing of this model is open source\n* the trained model is freely available, and thus can be ran on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n## Ethical AI Rating\n### Rating Music genre recognition: 🟡\n\nPositive:\n* the software for training and inference of this model is open source\n* the trained model is freely available, and thus can be run on-premises\n\nNegative:\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).\n\nAfter installation, you can enable tagging in the admin settings.\n\nRequirements:\n- php 7.4 and above\n- App \"collaborative tags\" enabled\n- For native speed:\n  - Processor: x86 64-bit (with support for AVX instructions)\n  - System with glibc (usually the norm on Linux; FreeBSD, Alpine linux and thus also the official Nextcloud Docker container and Nextcloud AIO are *not* such systems)\n- For sub-native speed (using WASM mode)\n  - Processor: x86 64-bit, arm64, armv7l (no AVX needed)\n  - System with glibc or musl (incl. Alpine linux and thus also the official Nextcloud Docker container and also Nextcloud AIO)\n- ~4GB of free RAM (if you're cutting it close, make sure you have some swap available)\n- This app is currently incompatible with the *Suspicious Login* app due to a dependency conflict (ie. you can only have one of the two installed)\n\nThe app does not send any sensitive data to cloud providers or similar services. All processing is done on your Nextcloud machine, using Tensorflow.js running in Node.js.",
     "homepage": "https://github.com/nextcloud/recognize",
     "licenses": [
       "agpl"
@@ -2500,9 +2510,9 @@
     ]
   },
   "twofactor_email": {
-    "hash": "sha256-Z38sglqYgmsJ99zbm50W8Ipur413kSW6X8/t/tFmMdA=",
-    "url": "https://github.com/nursoda/twofactor_email/releases/download/2.8.0/twofactor_email.tar.gz",
-    "version": "2.8.0",
+    "hash": "sha256-rn5nkXS8hHjYy3cFa6wdvtnoj8xCx09n1wd9pgS+fss=",
+    "url": "https://github.com/nursoda/twofactor_email/releases/download/2.8.1/twofactor_email.tar.gz",
+    "version": "2.8.1",
     "description": "This app allows users to set up email as a second factor for web logins. It requires that an email address is set in 'Personal info'. It currently cannot be used on first login when two-factor authentication is enforced (not implemented yet).",
     "homepage": "https://github.com/nursoda/twofactor_email",
     "licenses": [
@@ -2640,9 +2650,9 @@
     ]
   },
   "users_picker": {
-    "hash": "sha256-uf87DWkqUETHFVvRVlsRjBjKM38SxEBAJlYC0Okc7xk=",
-    "url": "https://github.com/nextcloud-releases/users_picker/releases/download/v1.2.0/users_picker-v1.2.0.tar.gz",
-    "version": "1.2.0",
+    "hash": "sha256-JWUDKyX+qLK2rTiQWQptwLk08FGdF8cP5plhQDZCMrs=",
+    "url": "https://github.com/nextcloud-releases/users_picker/releases/download/v1.2.1/users_picker-v1.2.1.tar.gz",
+    "version": "1.2.1",
     "description": "This app adds ability to search for user profiles via smart picker and link previews for them.",
     "homepage": "https://github.com/nextcloud/users_picker",
     "licenses": [
