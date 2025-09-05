@@ -80,9 +80,9 @@
     ]
   },
   "assistant": {
-    "hash": "sha256-Z0sHPIABP9M4gcbTc25l/Qvx8Z0DsfMAq1ubL6Fnzrk=",
-    "url": "https://github.com/nextcloud-releases/assistant/releases/download/v2.6.1/assistant-v2.6.1.tar.gz",
-    "version": "2.6.1",
+    "hash": "sha256-wPXI9/eGcfxBZ5BA2AHj0uHGJXsR+kND1okobhXxhaA=",
+    "url": "https://github.com/nextcloud-releases/assistant/releases/download/v2.7.1/assistant-v2.7.1.tar.gz",
+    "version": "2.7.1",
     "description": "This app brings a user interface to use the Nextcloud text processing feature.\n\nIt allows users to launch AI tasks, be notified when they finish and see the results.\nThe assistant also appears in others apps like Text to easily process parts of a document.\n\nMore details on the assistant OCS API and frontend integration possibilities in the\n[developer doc](https://github.com/nextcloud/assistant/raw/main/docs/developer)\n\n### How to use it\n\nA new right header menu entry appears. Once clicked, the assistant is displayed and you can select and task type and\nset the input you want to process.\n\nThe task might run immediately or be scheduled depending on the time estimation given by the AI provider.\nOnce a task is scheduled, it will run as a background job. When it is finished, you will receive a notification\nfrom which the results can be displayed.\n\nOther apps can integrate with the assistant. For example, Text will display an inline button besides every paragraph\nto directly select a task type to process this paragraph. Selecting a task this way will open the assistant with the task\nbeing pre-selected and the input text set.\n\nMore details and screenshots in the [user doc](https://github.com/nextcloud/assistant/raw/main/docs/user).\n\n## Features\n\nIn the assistant, the list of available tasks depends on the available providers installed via other apps.\nThis means you have complete freedom over which service/software will actually run your AI tasks.\n\n### Text processing providers\n\nSo far, the [Local Large language model](https://github.com/nextcloud/llm2#readme)\nand the [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai) apps\ninclude text processing providers to:\n* Summarize\n* Extract topics\n* Generate a headline\n* Get an answer from a free prompt\n* Reformulate (OpenAi/LocalAi only)\n* Context writer: Generate text with a specified style. The style can be described or provided via an example text.\n\n### Text to image (Image generation)\n\nKnown providers:\n* [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai)\n* [Text2Image Stable Diffusion](https://apps.nextcloud.com/apps/text2image_stablediffusion)\n\n### Speech to text (Audio transcription)\n\nKnown providers:\n* [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai)\n* [Local Whisper Speech-To-Text](https://apps.nextcloud.com/apps/stt_whisper)\n\nMore details on how to set this up in the [admin docs](https://docs.nextcloud.com/server/latest/admin_manual/ai/index.html)",
     "homepage": "https://github.com/nextcloud/assistant",
     "licenses": [
@@ -980,9 +980,9 @@
     ]
   },
   "guests": {
-    "hash": "sha256-ZtzxEUDoPhKNFM2q2YIiE+pe0FRoWsPJ6pd5aJYJATU=",
-    "url": "https://github.com/nextcloud-releases/guests/releases/download/v4.5.0/guests-v4.5.0.tar.gz",
-    "version": "4.5.0",
+    "hash": "sha256-xO5V7atju6XmpAXtnVxpnQZQOtfB2BJU2nM9DbSP27A=",
+    "url": "https://github.com/nextcloud-releases/guests/releases/download/v4.5.1/guests-v4.5.1.tar.gz",
+    "version": "4.5.1",
     "description": "👥 Allows for better collaboration with external users by allowing users to create guests account.\n\nGuests accounts can be created from the share menu by entering either the recipients email or name and choosing \"create guest account\", once the share is created the guest user will receive an email notification about the mail with a link to set their password.\n\nGuests users can only access files shared to them and cannot create any files outside of shares, additionally, the apps accessible to guest accounts are whitelisted.",
     "homepage": "https://github.com/nextcloud/guests/",
     "licenses": [
@@ -1420,9 +1420,9 @@
     ]
   },
   "journeys": {
-    "hash": "sha256-k5y3W3u5lk1Q/okniPj9YmbpIwG2Q5WRjdotyYzCfyE=",
-    "url": "https://github.com/thrillfall/journeys/releases/download/0.4.2/journeys.tar.gz",
-    "version": "0.4.2",
+    "hash": "sha256-j0iTiJ6BNSNsZIUC2RDdGg2cr9nmRrT9cM/2zsQAGHw=",
+    "url": "https://github.com/thrillfall/journeys/releases/download/0.4.3/journeys.tar.gz",
+    "version": "0.4.3",
     "description": "# Journeys: Automatic Photo Album Creation for Nextcloud\n\nAutomatically cluster your images into journeys (vacations/trips) and create albums for each journey.  \n**Requires the Memories app.**\n\n## ✨ Features\n- **🗺️ Location & Time Clustering:** Group images by when and where they were taken\n- **🗂️ Album Creation:** Albums are created automatically for each journey\n- **⚙️ Customizable:** Control minimum cluster size, time gap, and distance thresholds\n\n## 🚀 OCC Command Usage\n\n    php occ journeys:cluster-create-albums <user> [maxTimeGap] [maxDistanceKm] [minClusterSize]\n\n**Arguments:**\n- `user` — The user to cluster images for (**required**)\n- `maxTimeGap` — Max allowed time gap in hours (optional, default: 24)\n- `maxDistanceKm` — Optional Maximum allowed distance in kilometers between consecutive images in a cluster (default: 50.0)\n- `minClusterSize` — Minimum images per cluster (optional, default: 3)\n\n**How time gap influences clustering:**  \nThe `maxTimeGap` defines the largest allowed time (in hours) between two consecutive images for them to be grouped into the same journey. If the gap between two images exceeds this value, a new journey (album) is started. Smaller values create more, shorter journeys; larger values group more images together.\n\n**Example:**\n\n    php occ journeys:cluster-create-albums admin 24 100 5",
     "homepage": "",
     "licenses": [
@@ -1540,8 +1540,8 @@
     ]
   },
   "maps": {
-    "hash": "sha256-IupRymjs955TiUutzoTTMeESNfBmAp51l+oBaZwfdN0=",
-    "url": "https://github.com/nextcloud/maps/releases/download/v1.6.0/maps-1.6.0.tar.gz",
+    "hash": "sha256-E0S/CwXyye19lcuiONEQCyHJqlL0ZG1A9Q7oOTEZH1g=",
+    "url": "https://github.com/nextcloud/maps/releases/download/v1.6.0-3-nightly/maps-1.6.0-3-nightly.tar.gz",
     "version": "1.6.0",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
@@ -1810,9 +1810,9 @@
     ]
   },
   "openincryptpad": {
-    "hash": "sha256-N6Fm/m1vZs7M4FBFG0IBLzDbhsvwT6DQrPobBabEOqU=",
-    "url": "https://github.com/cryptpad/nextcloud-open-in-cryptpad/releases/download/v0.4.0/openincryptpad.tar.gz",
-    "version": "0.4.0",
+    "hash": "sha256-qmHCq5CLDZbT2BZuavAUOzlmZZYyh9W3tmB7UKdKlwg=",
+    "url": "https://github.com/cryptpad/nextcloud-open-in-cryptpad/releases/download/v0.4.1/openincryptpad.tar.gz",
+    "version": "0.4.1",
     "description": "# Open In CryptPad\n\n\"Open in CryptPad\" is a Nextcloud application that allows collaborative editing\nof files. For this it uses a CryptPad instance embedded into the Nextcloud web\ninterface. Currently, only drawio diagrams are supported.\n\n## Importing images from Nextcloud into diagrams\n\nWith this app, you can import images from Nextcloud into\ndiagrams. A copy of the image will be stored inside the `.drawio` file.\n\n## Rights management\n\nWhen using this app, the file permissions are completely handled by\nNextcloud. The right's management of CryptPad is not used for Nextcloud\nfiles edited in CryptPad.\n\n## Installation\n\n### Prerequisites on the CryptPad side\n\nTo embed CryptPad into Nextcloud, the \"Enable remote embedding\" admin setting\nneeds to be enabled. You can find this setting on the \"Administration\" web\ninterface in the \"General\" tab.\n\n### Install from Nextcloud app store\n\n1. Add drawio mimetype to Nextcloud. \"Open in CryptPad\" depends on Nextcloud\n   detecting drawio files correctly. For this you have to create the following\n   files: (**Note:** do this before uploading any drawio files! The mimetype of\n   old files will not be updated by these changes)\n    - `nextcloud/config/mimetypealiases.json`\n\n        ``` json\n        {\n            \"application/x-drawio\": \"image\"\n        }\n        ```\n\n    - `nextcloud/config/mimetypemapping.json`\n\n        ``` json\n        {\n            \"drawio\": [\"application/x-drawio\"]\n        }\n        ```\n2. Open the \"Apps\" page in your Nextcloud web interface and install \"Open in\n   CryptPad\". You can find it in the \"Integration\" category.\n3. Configure \"Open in CryptPad\" in the administration settings of Nextcloud.",
     "homepage": "",
     "licenses": [
@@ -1970,9 +1970,9 @@
     ]
   },
   "polls": {
-    "hash": "sha256-9JIvHPyVSUB/uQiAs2RaaHRoElJALYeULRX74+8bY5I=",
-    "url": "https://github.com/nextcloud-releases/polls/releases/download/v8.4.3/polls-v8.4.3.tar.gz",
-    "version": "8.4.3",
+    "hash": "sha256-+QJcBhJaWIi5A2J7zqTAg8Fi26krtxNDcUKkcHEmzx0=",
+    "url": "https://github.com/nextcloud-releases/polls/releases/download/v8.4.5/polls-v8.4.5.tar.gz",
+    "version": "8.4.5",
     "description": "A polls app, similar to Doodle/DuD-Poll with the possibility to restrict access (members, certain groups/users, hidden and public).",
     "homepage": "https://github.com/nextcloud/polls",
     "licenses": [
@@ -1990,9 +1990,9 @@
     ]
   },
   "previewgenerator": {
-    "hash": "sha256-+vJ1h/wxOOwmWmj6gSfXv7UgsRjwelboFQwHpE53efY=",
-    "url": "https://github.com/nextcloud-releases/previewgenerator/releases/download/v5.9.0/previewgenerator-v5.9.0.tar.gz",
-    "version": "5.9.0",
+    "hash": "sha256-4enkStAbo4dnMvPtVzOHzgKaeTKmEObBGOfrVAKvACI=",
+    "url": "https://github.com/nextcloud-releases/previewgenerator/releases/download/v5.10.0/previewgenerator-v5.10.0.tar.gz",
+    "version": "5.10.0",
     "description": "The Preview Generator app allows admins to pre-generate previews. The app listens to edit events and stores this information. Once a cron job is triggered it will generate start preview generation. This means that you can better utilize your system by pre-generating previews when your system is normally idle and thus putting less load on your machine when the requests are actually served.\n\nThe app does not replace on demand preview generation so if a preview is requested before it is pre-generated it will still be shown.\nThe first time you install this app, before using a cron job, you properly want to generate all previews via:\n**./occ preview:generate-all -vvv**\n\n**Important**: To enable pre-generation of previews you must add **php /var/www/nextcloud/occ preview:pre-generate** to a system cron job that runs at times of your choosing.",
     "homepage": "https://github.com/nextcloud/previewgenerator",
     "licenses": [
