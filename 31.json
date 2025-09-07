@@ -340,8 +340,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -1250,8 +1250,8 @@
     ]
   },
   "integration_openproject": {
-    "hash": "sha256-S6aqgZV1Xt+tLZAqExVfsSKoKYRjXBbP+E4xzGjy/sc=",
-    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.9.2/integration_openproject-2.9.2.tar.gz",
+    "hash": "sha256-YgQCxwmo0Cz+TdtPtjbu31LRsmeV0yaw09toj68t8zc=",
+    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.9.2-20250724-nightly/integration_openproject-2.9.2-20250724-nightly.tar.gz",
     "version": "2.9.2",
     "description": "This application enables seamless integration with open source project management and collaboration software OpenProject.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in OpenProject\n* Find all work packages linked to a file or a folder\n* Create work packages directly in Nextcloud\n* View OpenProject notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n* Link work packages in rich text fields via Smart Picker\n* Preview links to work packages in text fields\n* Link multiple files and folder to a work package at once\n\nOn the OpenProject end, users are able to:\n\n* Link work packages with files and folders in Nextcloud\n* Upload and download files directly to Nextcloud from within a work package\n* Open linked files in Nextcloud to edit them\n* Let OpenProject create shared folders per project\n\nFor more information on how to set up and use the OpenProject application, please refer to [integration setup guide](https://www.openproject.org/docs/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://www.openproject.org/docs/user-guide/nextcloud-integration/).",
     "homepage": "https://github.com/nextcloud/integration_openproject",
@@ -1420,9 +1420,9 @@
     ]
   },
   "journeys": {
-    "hash": "sha256-j0iTiJ6BNSNsZIUC2RDdGg2cr9nmRrT9cM/2zsQAGHw=",
-    "url": "https://github.com/thrillfall/journeys/releases/download/0.4.3/journeys.tar.gz",
-    "version": "0.4.3",
+    "hash": "sha256-H2wbMGRx+cOs2CoHrbzfmzAc6d68tJiXxSKSWu9uXMA=",
+    "url": "https://github.com/thrillfall/journeys/releases/download/0.5.1/journeys.tar.gz",
+    "version": "0.5.1",
     "description": "# Journeys: Automatic Photo Album Creation for Nextcloud\n\nAutomatically cluster your images into journeys (vacations/trips) and create albums for each journey.  \n**Requires the Memories app.**\n\n## ✨ Features\n- **🗺️ Location & Time Clustering:** Group images by when and where they were taken\n- **🗂️ Album Creation:** Albums are created automatically for each journey\n- **⚙️ Customizable:** Control minimum cluster size, time gap, and distance thresholds\n\n## 🚀 OCC Command Usage\n\n    php occ journeys:cluster-create-albums <user> [maxTimeGap] [maxDistanceKm] [minClusterSize]\n\n**Arguments:**\n- `user` — The user to cluster images for (**required**)\n- `maxTimeGap` — Max allowed time gap in hours (optional, default: 24)\n- `maxDistanceKm` — Optional Maximum allowed distance in kilometers between consecutive images in a cluster (default: 50.0)\n- `minClusterSize` — Minimum images per cluster (optional, default: 3)\n\n**How time gap influences clustering:**  \nThe `maxTimeGap` defines the largest allowed time (in hours) between two consecutive images for them to be grouped into the same journey. If the gap between two images exceeds this value, a new journey (album) is started. Smaller values create more, shorter journeys; larger values group more images together.\n\n**Example:**\n\n    php occ journeys:cluster-create-albums admin 24 100 5",
     "homepage": "",
     "licenses": [
@@ -1590,9 +1590,9 @@
     ]
   },
   "metavox": {
-    "hash": "sha256-1UX04zGE+uI1Jtdpd7XJ66gEIVsrfIdcXtmWsFmc8VU=",
-    "url": "https://github.com/nextcloud/metavox/releases/download/v.1.0.5/metavox-1.0.5.tar.gz",
-    "version": "1.0.5",
+    "hash": "sha256-fSzjwRF5pUmTwKAK5kAo5IRM9Vvpzi/gO4pJ9camajU=",
+    "url": "https://github.com/nextcloud/metavox/releases/download/v.1.0.6/metavox-1.0.6.tar.gz",
+    "version": "1.0.6",
     "description": "A customizable metadata app that allows you to define your own metadata fields for files.\n          \n      The goal of MetaVox is to enrich digital documents with contextual metadata — such as topic, author intent, relevance, or classification — in a way that is:\n      \n      - **Structured** and machine-readable  \n      - **Non-intrusive** (no changes to file content)  \n      - **Compatible** with existing Nextcloud workflows  \n      - **Designed for flexible use across education, government, and other document-driven environments**",
     "homepage": "https://github.com/nextcloud/metavox",
     "licenses": [
@@ -1970,9 +1970,9 @@
     ]
   },
   "polls": {
-    "hash": "sha256-+QJcBhJaWIi5A2J7zqTAg8Fi26krtxNDcUKkcHEmzx0=",
-    "url": "https://github.com/nextcloud-releases/polls/releases/download/v8.4.5/polls-v8.4.5.tar.gz",
-    "version": "8.4.5",
+    "hash": "sha256-63UaqEbhNBm+LPbreeKvm0SgImrXolNTQ+S/pzpuTy4=",
+    "url": "https://github.com/nextcloud-releases/polls/releases/download/v8.4.6/polls-v8.4.6.tar.gz",
+    "version": "8.4.6",
     "description": "A polls app, similar to Doodle/DuD-Poll with the possibility to restrict access (members, certain groups/users, hidden and public).",
     "homepage": "https://github.com/nextcloud/polls",
     "licenses": [
