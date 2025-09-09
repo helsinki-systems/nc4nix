@@ -9,6 +9,16 @@
       "agpl"
     ]
   },
+  "agenda_bot": {
+    "hash": "sha256-RHXwPlq3dAUB9OkIo8jWQ8X1c+ca0sFodUj1FzSunDg=",
+    "url": "https://github.com/LexioJ/agenda_bot/releases/download/v1.3.4/agenda_bot-1.3.4.tar.gz",
+    "version": "1.3.4",
+    "description": "### 🚀 Meeting Management for Nextcloud Talk\n\nTired of unproductive meetings that run overtime? The Agenda Bot transforms chaotic discussions into structured, efficient sessions with intelligent automation and real-time insights.\n\n### ✨ Key Features\n\n#### 🎯 Effortless Agenda Creation\n- Natural language: `agenda: Project review (15 min)` \n- Multiple formats: `topic:`, `item:`, `add:`, `insert:`\n- Create multiple items at once from structured lists\n- Smart time parsing: `(5 min)`, `(1h)`, `(90 min)`, `(2 hours)`\n- Automatic positioning or manual `#2.` syntax\n\n#### ⏰ Intelligent Time Management\n- Background monitoring tracks time automatically\n- Smart warnings at 80%, 100%, and overtime thresholds  \n- Call-aware notifications (only during active meetings)\n- Visual progress tracking with ➡️ ✅ 📍 indicators\n\n#### 🔥 Seamless Meeting Flow\n- **`done:` command** - Complete current item and auto-advance!\n- Real-time status shows actual vs. planned time\n- Automatic progression through agenda items\n- Live updates for all participants\n\n#### 🔐 Smart Permission System\n- Role-based access: Owners, Moderators, Users, Guests\n- Flexible control: Who can add, manage, or view items\n- Guest moderator support for external facilitators\n\n#### 📊 Meeting Analytics & Insights\n- Completion tracking with timing statistics\n- Efficiency reports: On-time 👍 vs. overtime ⏰ \n- Comprehensive summaries with actionable data\n- Optional cleanup of completed items\n\n### 💫 Why Using Agenda Bot?\n\n- ✅ **Boost Productivity** - Stay focused with structured agendas\n- ✅ **Save Time** - Automated tracking and progress management  \n- ✅ **Improve Accountability** - Clear completion tracking\n- ✅ **Reduce Overruns** - Smart time warnings keep meetings on track\n- ✅ **Easy Setup** - Works instantly in any Talk room\n\n### 🏆 Perfect For\n- Team standups and regular check-ins\n- Project planning sessions\n- Client meetings with tight schedules  \n- Board meetings requiring structure\n- Training sessions with timed modules\n\nStart having better meetings - Add the Agenda Bot to your Talk rooms and experience the difference!",
+    "homepage": "https://github.com/lexioj/agenda_bot",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "analytics": {
     "hash": "sha256-Kvof4F8vhC/xJFh/IKnlQO8V20lcYirh7YJOK4MS2+I=",
     "url": "https://github.com/Rello/analytics/releases/download/5.8.0/analytics-5.8.0.tar.gz",
@@ -80,9 +90,9 @@
     ]
   },
   "assistant": {
-    "hash": "sha256-wPXI9/eGcfxBZ5BA2AHj0uHGJXsR+kND1okobhXxhaA=",
-    "url": "https://github.com/nextcloud-releases/assistant/releases/download/v2.7.1/assistant-v2.7.1.tar.gz",
-    "version": "2.7.1",
+    "hash": "sha256-BSvnF+MxhSJ4rTXqt6RbQYAVXEfrTspfCllZ6v0ys5M=",
+    "url": "https://github.com/nextcloud-releases/assistant/releases/download/v2.8.0/assistant-v2.8.0.tar.gz",
+    "version": "2.8.0",
     "description": "This app brings a user interface to use the Nextcloud text processing feature.\n\nIt allows users to launch AI tasks, be notified when they finish and see the results.\nThe assistant also appears in others apps like Text to easily process parts of a document.\n\nMore details on the assistant OCS API and frontend integration possibilities in the\n[developer doc](https://github.com/nextcloud/assistant/raw/main/docs/developer)\n\n### How to use it\n\nA new right header menu entry appears. Once clicked, the assistant is displayed and you can select and task type and\nset the input you want to process.\n\nThe task might run immediately or be scheduled depending on the time estimation given by the AI provider.\nOnce a task is scheduled, it will run as a background job. When it is finished, you will receive a notification\nfrom which the results can be displayed.\n\nOther apps can integrate with the assistant. For example, Text will display an inline button besides every paragraph\nto directly select a task type to process this paragraph. Selecting a task this way will open the assistant with the task\nbeing pre-selected and the input text set.\n\nMore details and screenshots in the [user doc](https://github.com/nextcloud/assistant/raw/main/docs/user).\n\n## Features\n\nIn the assistant, the list of available tasks depends on the available providers installed via other apps.\nThis means you have complete freedom over which service/software will actually run your AI tasks.\n\n### Text processing providers\n\nSo far, the [Local Large language model](https://github.com/nextcloud/llm2#readme)\nand the [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai) apps\ninclude text processing providers to:\n* Summarize\n* Extract topics\n* Generate a headline\n* Get an answer from a free prompt\n* Reformulate (OpenAi/LocalAi only)\n* Context writer: Generate text with a specified style. The style can be described or provided via an example text.\n\n### Text to image (Image generation)\n\nKnown providers:\n* [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai)\n* [Text2Image Stable Diffusion](https://apps.nextcloud.com/apps/text2image_stablediffusion)\n\n### Speech to text (Audio transcription)\n\nKnown providers:\n* [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai)\n* [Local Whisper Speech-To-Text](https://apps.nextcloud.com/apps/stt_whisper)\n\nMore details on how to set this up in the [admin docs](https://docs.nextcloud.com/server/latest/admin_manual/ai/index.html)",
     "homepage": "https://github.com/nextcloud/assistant",
     "licenses": [
@@ -160,9 +170,9 @@
     ]
   },
   "calendar": {
-    "hash": "sha256-KT0xFtZVByn2fZ87nb6hOw+AQW6h61/yt1mUbDN2PU0=",
-    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v5.5.2/calendar-v5.5.2.tar.gz",
-    "version": "5.5.2",
+    "hash": "sha256-ypbIquAMVJ5h6RArBwOVre+o76Jrel0H+D9thbtmTg0=",
+    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v5.5.3/calendar-v5.5.3.tar.gz",
+    "version": "5.5.3",
     "description": "A Calendar app for Nextcloud. Easily sync events from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Like Contacts, Talk, Tasks, Deck and Circles\n* 🌐 **WebCal Support!** Want to see your favorite team's matchdays in your calendar? No problem!\n* 🙋 **Attendees!** Invite people to your events\n* ⌚ **Free/Busy!** See when your attendees are available to meet\n* ⏰ **Reminders!** Get alarms for events inside your browser and via email\n* 🔍 **Search!** Find your events at ease\n* ☑️ **Tasks!** See tasks or Deck cards with a due date directly in the calendar\n* 🔈 **Talk rooms!** Create an associated Talk room when booking a meeting with just one click\n* 📆 **Appointment booking** Send people a link so they can book an appointment with you [using this app](https://apps.nextcloud.com/apps/appointments)\n* 📎 **Attachments!** Add, upload and view event attachments\n* 🙈 **We’re not reinventing the wheel!** Based on the great [c-dav library](https://github.com/nextcloud/cdav-library), [ical.js](https://github.com/mozilla-comm/ical.js) and [fullcalendar](https://github.com/fullcalendar/fullcalendar) libraries.",
     "homepage": "https://github.com/nextcloud/calendar/",
     "licenses": [
@@ -1200,9 +1210,9 @@
     ]
   },
   "integration_notion": {
-    "hash": "sha256-nqSXFEYU58TqfWk7ALMZVZcZxL2r9k0W+igcMOG3ZgE=",
-    "url": "https://github.com/nextcloud-releases/integration_notion/releases/download/v1.2.0/integration_notion-v1.2.0.tar.gz",
-    "version": "1.2.0",
+    "hash": "sha256-Z1Z1Y1w3vudNaY7iiLnOnHlfS4k9FGRXrtcPuHQwmrY=",
+    "url": "https://github.com/nextcloud-releases/integration_notion/releases/download/v1.3.1/integration_notion-v1.3.1.tar.gz",
+    "version": "1.3.1",
     "description": "Notion integration adds ability to search in Notion and render its links.",
     "homepage": "https://github.com/nextcloud/integration_notion",
     "licenses": [
@@ -1250,8 +1260,8 @@
     ]
   },
   "integration_openproject": {
-    "hash": "sha256-YgQCxwmo0Cz+TdtPtjbu31LRsmeV0yaw09toj68t8zc=",
-    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.9.2-20250724-nightly/integration_openproject-2.9.2-20250724-nightly.tar.gz",
+    "hash": "sha256-S6aqgZV1Xt+tLZAqExVfsSKoKYRjXBbP+E4xzGjy/sc=",
+    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.9.2/integration_openproject-2.9.2.tar.gz",
     "version": "2.9.2",
     "description": "This application enables seamless integration with open source project management and collaboration software OpenProject.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in OpenProject\n* Find all work packages linked to a file or a folder\n* Create work packages directly in Nextcloud\n* View OpenProject notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n* Link work packages in rich text fields via Smart Picker\n* Preview links to work packages in text fields\n* Link multiple files and folder to a work package at once\n\nOn the OpenProject end, users are able to:\n\n* Link work packages with files and folders in Nextcloud\n* Upload and download files directly to Nextcloud from within a work package\n* Open linked files in Nextcloud to edit them\n* Let OpenProject create shared folders per project\n\nFor more information on how to set up and use the OpenProject application, please refer to [integration setup guide](https://www.openproject.org/docs/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://www.openproject.org/docs/user-guide/nextcloud-integration/).",
     "homepage": "https://github.com/nextcloud/integration_openproject",
@@ -1420,9 +1430,9 @@
     ]
   },
   "journeys": {
-    "hash": "sha256-rZ6hgCpZu6hYx6MqqgRG5t8qaSvZ5/CfKIZCNiMaEYc=",
-    "url": "https://github.com/thrillfall/journeys/releases/download/0.5.2/journeys.tar.gz",
-    "version": "0.5.2",
+    "hash": "sha256-I9UP7EYfRuIVlE4In9Oc8JPVklBfaadEKCNulXNmrwk=",
+    "url": "https://github.com/thrillfall/journeys/releases/download/0.5.4/journeys.tar.gz",
+    "version": "0.5.4",
     "description": "# Journeys: Automatic Photo Album Creation for Nextcloud\n\nAutomatically cluster your images into journeys (vacations/trips) and create albums for each journey.  \n**Requires the Memories app.**\n\n## ✨ Features\n- **🗺️ Location & Time Clustering:** Group images by when and where they were taken\n- **🗂️ Album Creation:** Albums are created automatically for each journey\n- **⚙️ Customizable:** Control minimum cluster size, time gap, and distance thresholds\n\n## 🚀 OCC Command Usage\n\n    php occ journeys:cluster-create-albums <user> [maxTimeGap] [maxDistanceKm] [minClusterSize]\n\n**Arguments:**\n- `user` — The user to cluster images for (**required**)\n- `maxTimeGap` — Max allowed time gap in hours (optional, default: 24)\n- `maxDistanceKm` — Optional Maximum allowed distance in kilometers between consecutive images in a cluster (default: 50.0)\n- `minClusterSize` — Minimum images per cluster (optional, default: 3)\n\n**How time gap influences clustering:**  \nThe `maxTimeGap` defines the largest allowed time (in hours) between two consecutive images for them to be grouped into the same journey. If the gap between two images exceeds this value, a new journey (album) is started. Smaller values create more, shorter journeys; larger values group more images together.\n\n**Example:**\n\n    php occ journeys:cluster-create-albums admin 24 100 5",
     "homepage": "",
     "licenses": [
@@ -1510,9 +1520,9 @@
     ]
   },
   "mail": {
-    "hash": "sha256-eWgswJhhZR7/Z2FOC211A+Qs9tf6HKZcZbJ5xW1CaPA=",
-    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.3.3/mail-v5.3.3.tar.gz",
-    "version": "5.3.3",
+    "hash": "sha256-ckDv5RXWcVo0KBXaDR48fZ2cANjj+82+E4OuyVkL0zA=",
+    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.4.0/mail-v5.4.0.tar.gz",
+    "version": "5.4.0",
     "description": "**💌 A mail app for Nextcloud**\n\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://www.horde.org) libraries.\n- **📬 Want to host your own mail server?** We do not have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!\n\n## Ethical AI Rating\n\n### Priority Inbox\n\nPositive:\n* The software for training and inferencing of this model is open source.\n* The model is created and trained on-premises based on the user's own data.\n* The training data is accessible to the user, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n### Thread Summaries (opt-in)\n\n**Rating:** 🟢/🟡/🟠/🔴\n\nThe rating depends on the installed text processing backend. See [the rating overview](https://docs.nextcloud.com/server/latest/admin_manual/ai/index.html) for details.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/mail#readme",
     "licenses": [
@@ -1540,8 +1550,8 @@
     ]
   },
   "maps": {
-    "hash": "sha256-E0S/CwXyye19lcuiONEQCyHJqlL0ZG1A9Q7oOTEZH1g=",
-    "url": "https://github.com/nextcloud/maps/releases/download/v1.6.0-3-nightly/maps-1.6.0-3-nightly.tar.gz",
+    "hash": "sha256-IupRymjs955TiUutzoTTMeESNfBmAp51l+oBaZwfdN0=",
+    "url": "https://github.com/nextcloud/maps/releases/download/v1.6.0/maps-1.6.0.tar.gz",
     "version": "1.6.0",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
