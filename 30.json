@@ -310,9 +310,9 @@
     ]
   },
   "contacts": {
-    "hash": "sha256-IMsG4/kNyj2+ocHtsEnQ/1y+KhglWJTg0s5Wsig/X2o=",
-    "url": "https://github.com/nextcloud-releases/contacts/releases/download/v7.2.6/contacts-v7.2.6.tar.gz",
-    "version": "7.2.6",
+    "hash": "sha256-noH1E63LLbpjpKrpra12uzMfQYTghC4GRTHOu2rH6uY=",
+    "url": "https://github.com/nextcloud-releases/contacts/releases/download/v7.3.0/contacts-v7.3.0.tar.gz",
+    "version": "7.3.0",
     "description": "The Nextcloud contacts app is a user interface for Nextcloud's CardDAV server. Easily sync contacts from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Currently Mail and Calendar – more to come.\n* 🎉 **Never forget a birthday!** You can sync birthdays and other recurring events with your Nextcloud Calendar.\n* 👥 **Sharing of Adressbooks!** You want to share your contacts with your friends or coworkers? No problem!\n* 🙈 **We’re not reinventing the wheel!** Based on the great and open SabreDAV library.",
     "homepage": "https://github.com/nextcloud/contacts#readme",
     "licenses": [
@@ -350,8 +350,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -630,9 +630,9 @@
     ]
   },
   "familybudget": {
-    "hash": "sha256-SM34POZ1Vgd+bIZ9XZVW5RX/KoXndvgbpww3Bts901M=",
-    "url": "https://github.com/holger-dev/familybudget-nc/releases/download/familybudget-010/familybudget-0.1.3.tar.gz",
-    "version": "0.1.3",
+    "hash": "sha256-JR2qhD6hqzDY0eTW+zt2YbPwjr9elCoXwXKuPIYbA7I=",
+    "url": "https://github.com/holger-dev/familybudget-nc/releases/download/familybudget-024/familybudget-0.2.4.tar.gz",
+    "version": "0.2.4",
     "description": "Native Nextcloud-App zur Verwaltung von Familienausgaben mit Multi-User-Support,\n        Kategorien, Einladungen und monatlicher Auswertung inkl. Split.",
     "homepage": "https://heidkamp.dev",
     "licenses": [
@@ -1040,10 +1040,10 @@
     ]
   },
   "groupfolders": {
-    "hash": "sha256-OUZsjf5i/ihzihybiM+HNQwiYOOw+/QgnIOsm+ipuOk=",
-    "url": "https://github.com/nextcloud-releases/groupfolders/releases/download/v18.1.4/groupfolders-v18.1.4.tar.gz",
-    "version": "18.1.4",
-    "description": "Admin configured folders shared with everyone in a team.\n\nFolders can be configured from *Team folders* in the admin settings.\n\nAfter a folder is created, the admin can give access to the folder to one or more teams, control their write/sharing permissions and assign a quota for the folder.\nAs of Hub 10/Nextcloud 31, the admin needs to be a part of the team to be able to assign it a Teamfolder.",
+    "hash": "sha256-4PXcDsFfpE5T2/C48p+RFnQG4S1bI0OWRWekznPdeIc=",
+    "url": "https://github.com/nextcloud-releases/groupfolders/releases/download/v18.1.5/groupfolders-v18.1.5.tar.gz",
+    "version": "18.1.5",
+    "description": "Admin configured folders shared with everyone in a group.\n\nFolders can be configured from *Group folders* in the admin settings.\n\nAfter a folder is created, the admin can give access to the folder to one or more groups, control their write/sharing permissions and assign a quota for the folder.",
     "homepage": "https://github.com/nextcloud/groupfolders",
     "licenses": [
       "agpl"
@@ -1520,10 +1520,10 @@
     ]
   },
   "journeys": {
-    "hash": "sha256-I9UP7EYfRuIVlE4In9Oc8JPVklBfaadEKCNulXNmrwk=",
-    "url": "https://github.com/thrillfall/journeys/releases/download/0.5.4/journeys.tar.gz",
-    "version": "0.5.4",
-    "description": "# Journeys: Automatic Photo Album Creation for Nextcloud\n\nAutomatically cluster your images into journeys (vacations/trips) and create albums for each journey.  \n**Requires the Memories app.**\n\n## ✨ Features\n- **🗺️ Location & Time Clustering:** Group images by when and where they were taken\n- **🗂️ Album Creation:** Albums are created automatically for each journey\n- **⚙️ Customizable:** Control minimum cluster size, time gap, and distance thresholds\n\n## 🚀 OCC Command Usage\n\n    php occ journeys:cluster-create-albums <user> [maxTimeGap] [maxDistanceKm] [minClusterSize]\n\n**Arguments:**\n- `user` — The user to cluster images for (**required**)\n- `maxTimeGap` — Max allowed time gap in hours (optional, default: 24)\n- `maxDistanceKm` — Optional Maximum allowed distance in kilometers between consecutive images in a cluster (default: 50.0)\n- `minClusterSize` — Minimum images per cluster (optional, default: 3)\n\n**How time gap influences clustering:**  \nThe `maxTimeGap` defines the largest allowed time (in hours) between two consecutive images for them to be grouped into the same journey. If the gap between two images exceeds this value, a new journey (album) is started. Smaller values create more, shorter journeys; larger values group more images together.\n\n**Example:**\n\n    php occ journeys:cluster-create-albums admin 24 100 5",
+    "hash": "sha256-cD3pJ27sbkeIdhMs8Ga2rxOzFPIzRdjyAWHH2Sonj6E=",
+    "url": "https://github.com/thrillfall/journeys/releases/download/0.5.6/journeys.tar.gz",
+    "version": "0.5.6",
+    "description": "# Automatic Photo Album Creation for Nextcloud\n\nAutomatically cluster your images into journeys (vacations/trips) and create albums for each journey.  \n**Requires the Memories app!**\n\n## ✨ Features\n- **🗺️ Location & Time Clustering:** Group images by when and where they were taken\n- **🗂️ Album Creation:** Albums are created automatically for each journey\n- **⚙️ Customizable:** Control minimum cluster size, time gap, and distance thresholds\n\n## 🚀 OCC Command Usage\n\n    php occ journeys:cluster-create-albums <user>\n\n## 🏠 Using your home location (default)\nJourneys segments the timeline into **near home** and **away from home** and applies sensible defaults for each to capture local days vs. trips.\n\n## ⏰ Runs automatically\nA background job runs **daily** to cluster newly added photos, and you’ll receive a **notification** whenever new albums are created.\n\n## 🏷️ How album names are created\nAlbum titles are generated from the **resolved place name** and the **date range** of the cluster, e.g. `Iceland — Aug 12–19, 2024`.",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -2060,10 +2060,10 @@
     ]
   },
   "pax_fax": {
-    "hash": "sha256-M/cCP1+eFxAADVSct6JH1qMBVuhzsIi85rkD2tANKKE=",
-    "url": "https://git.doublebastion.com/releases/pax-fax/1.2.0/pax_fax.tar.gz",
-    "version": "1.2.0",
-    "description": "This application allows sending and receiving faxes in Nextcloud. A Phaxio or Sinch account and a real fax number acquired from Phaxio or Sinch are needed. \nComplete instructions on how to configure and use this application are detailed in the 'Admin documentation' linked on this page.\n\n### Features:\n\n* 🚀 Multiple documents can be sent in one fax call (up to 20 separate files with a cumulative size of up to 20 MB).\n\n* 📠 A fax can be sent to multiple fax numbers at once (up to 15 different fax numbers).\n\n* 📄 Users can send as fax any document in any of the following formats: pdf, doc, docx, odt, jpeg/jpg, png, tiff/tif, txt, html.\n\n* 📰 All incoming faxes are received as pdf documents and stored in a Nextcloud folder.\n\n* 📧 Users receive notifications and (optionally) emails when new faxes arrive.\n\n* 🔍 All the sent and received faxes are stored in specific Nextcloud folders, so that they can be searched by caller/callee phone number or date.\n\n* 💻 When they want to send a fax, users can upload files from their computer or choose them directly from Nextcloud.\n\n* 🔏 When using Phaxio, incoming fax requests are checked for authenticity and integrity by verifying Phaxio's signature.\n\n* 💵 Current Phaxio balance can be always checked by pressing a button on the left panel.\n\n* 💰 The only ongoing cost is $0.91 per month (Sinch) or $2 per month (Phaxio) for a fax number located in USA or Canada (Phaxio) or in USA, Canada or other countries (Sinch), in a city chosen by the user. No contracts.\n\n* 💸 Straightforward pricing: $0.07 per sent/received page for faxes to/from USA and Canada and $0.1 per sent/received page for faxes to/from other countries.\n\nWe have no affiliation with Phaxio or Sinch.\n\n### Documentation\n\n* [Admin documentation](https://www.doublebastion.com/install-nextcloud/#install-pax-fax)\n\n### Donations\n\n* 🎁 [Donate](https://www.doublebastion.com/donations/)",
+    "hash": "sha256-U6ApEdbV4MvhS4bqIT2bgyvH2gSh+lvtWaYkybTmDjE=",
+    "url": "https://git.doublebastion.com/releases/pax-fax/1.2.1/pax_fax.tar.gz",
+    "version": "1.2.1",
+    "description": "This application allows sending and receiving faxes in Nextcloud. A Phaxio or Sinch account and a real fax number acquired from Phaxio or Sinch are needed. \nComplete instructions on how to configure and use this application are detailed in the 'Admin documentation' linked on this page.\n\n### Features:\n\n* 🚀 Multiple documents can be sent in one fax call (up to 20 separate files with a cumulative size of up to 20 MB).\n\n* 📠 A fax can be sent to multiple fax numbers at once (up to 15 different fax numbers).\n\n* 📄 Users can send as fax any document in any of the following formats: pdf, doc, docx, odt, jpeg/jpg, png, tiff/tif, txt, html.\n\n* 📰 All incoming faxes are received as pdf documents and stored in a Nextcloud folder.\n\n* 📧 Users receive notifications and (optionally) emails when new faxes arrive.\n\n* 🔍 All the sent and received faxes are stored in specific Nextcloud folders, so that they can be searched by caller/callee phone number or date.\n\n* 💻 When they want to send a fax, users can upload files from their computer or choose them directly from Nextcloud.\n\n* 🔏 When using Phaxio, incoming fax requests are checked for authenticity and integrity by verifying Phaxio's signature.\n\n* 💵 Current Phaxio balance can be always checked by pressing a button on the left panel.\n\n* 💰 The only ongoing cost is $0.94 per month (Sinch) or $2 per month (Phaxio) for a fax number located in USA or Canada (Phaxio) or in USA, Canada or other countries (Sinch), in a city chosen by the user. No contracts.\n\n* 💸 Straightforward pricing: $0.045 per sent/received page for faxes to/from USA and Canada (Sinch) or $0.07 per sent/received page for faxes to/from USA and Canada and $0.1 per sent/received page for faxes to/from other countries (Phaxio).\n\nWe have no affiliation with Phaxio or Sinch.\n\n### Documentation\n\n* [Admin documentation](https://www.doublebastion.com/install-nextcloud/#install-pax-fax)\n\n### Donations\n\n* 🎁 [Donate](https://www.doublebastion.com/donations/)",
     "homepage": "https://www.doublebastion.com/pax-fax/",
     "licenses": [
       "agpl"
