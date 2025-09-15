@@ -270,9 +270,9 @@
     ]
   },
   "churchtools_integration": {
-    "hash": "sha256-SNPbj/JLmzD6Oop6n6FRkNYlEMw/CPULjDvs5WPVTps=",
-    "url": "https://github.com/devdot/nextcloud-churchtools/releases/download/v0.2.2/churchtools_integration_v0.2.2.tar.gz",
-    "version": "0.2.2",
+    "hash": "sha256-LRfp+klgbFkExXxc+dfrfE4eyPD1zaFqmCFHM5RzYdM=",
+    "url": "https://github.com/devdot/nextcloud-churchtools/releases/download/v0.2.3/churchtools_integration_v0.2.3.tar.gz",
+    "version": "0.2.3",
     "description": "Improve integration with your ChurchTools instance beyond the available OAuth2 SSO. Manage group folders, update stale users",
     "homepage": "",
     "licenses": [
@@ -1103,16 +1103,16 @@
     "hash": "sha256-IoTLT7UsnUaNz5GYH0Lv9lC7xAUREBcg76rXdrCXMUA=",
     "url": "https://git.mdns.eu/api/v4/projects/79/packages/generic/htmlviewer/30.0.0/htmlviewer.tar.gz",
     "version": "30.0.0",
-    "description": "HTML files can be a great way to illustrate content in an interactive and responsive format.\nThe HTML viewer app enables viewing and editing of static HTML files directly within Nextcloud.\n\n### Security information\nLoading HTML files within the context of Nextcloud carries a risk of exposing user information to third parties, depending on the configuration of the server\nThe HTML viewer app uses the sandbox and CSP features for iframes to disable JavaScript and prevent access to user information and websites outside your Nextcloud, but this can not guarantee that no information is ever transferred to third parties.\n\nAdministrators should also be aware that some users may not be able to differentiate between the content of an HTML file they have opened and the normal user interface of Nextcloud.\n\n### JavaScript\nJavaScript for HTML files is disabled by default. Enabling it is a bad idea and we do not recommend this at all.\nAlthough security features like sandboxing, CSP and CORS limit what can be done, it still means that unknown code is being executed within Nextcloud.\n\nIf you still wish to enable JS, this occ command will enable it:\n```bash\n./occ config:app:set htmlviewer allowJs --value=1\n```\n\n### File Size Limit\nBy default, the app will load HTML files up to 32MB. To change the file size, use this occ command:\n```bash\n ./occ config:app:set htmlviewer maxSize --value=SizeInMegabyte\n```\n\n### Iframe Permissions\nThe app automatically configures the iframe with an CSP for [supported browsers](https://caniuse.com/mdn-api_htmliframeelement_csp) and a sandbox to limit code execution and data access.\nBoth policies can be changed through config settings with the OCC commands shown below.\nPlease be aware that the general CSP of your Nextcloud may still block some access regardless of what CSP and sandbox settings you configure.\n\nTo change the CSP or sandbox settings, use these occ commands:\n```bash\n ./occ config:app:set htmlviewer csp --value=CustomCspSettings\n ./occ config:app:set htmlviewer sandbox --value=CustomSandboxSettings\n```",
+    "description": "HTML files can be a great way to illustrate content in an interactive and responsive format.\nThe HTML viewer app enables viewing and editing of static HTML files directly within Nextcloud.\n\n### Security information\nLoading HTML files within the context of Nextcloud carries a risk of exposing user information to third parties, depending on the configuration of the server\nThe HTML viewer app uses the sandbox and CSP features for iframes to disable JavaScript and prevent access to user information and websites outside your Nextcloud, but this can not guarantee that no information is ever transferred to third parties.\n\nAdministrators should also be aware that some users may not be able to differentiate between the content of an HTML file they have opened and the normal user interface of Nextcloud.\n\n### JavaScript\nJavaScript for HTML files is disabled by default. Enabling it is a bad idea and we do not recommend this at all.\nAlthough security features like sandboxing, CSP and CORS limit what can be done, it still means that unknown code is being executed within Nextcloud.\n\nIf you still wish to enable JS, this occ command will enable it:\n```bash\n./occ config:app:set htmlviewer allowJs --value=1\n```\n\n**Note:** If you set a custom CSP or Sandbox value, this feature may not work if your CSP/Sandbox values do not allow JS execution.\nHowever, you must still enable this feature if you use a custom CSO/Sandbox if you want to allow JS.\n\n### File Size Limit\nBy default, the app will load HTML files up to 32MB. To change the file size, use this occ command:\n```bash\n ./occ config:app:set htmlviewer maxSize --value=SizeInMegabyte\n```\n\n### Iframe Permissions\nThe app automatically configures the iframe with an CSP for [supported browsers](https://caniuse.com/mdn-api_htmliframeelement_csp) and a sandbox to limit code execution and data access.\nBoth policies can be changed through config settings with the OCC commands shown below.\nPlease be aware that the general CSP of your Nextcloud may still block some access regardless of what CSP and sandbox settings you configure.\n\nTo change the CSP or sandbox settings, use these occ commands:\n```bash\n ./occ config:app:set htmlviewer csp --value=CustomCspSettings\n ./occ config:app:set htmlviewer sandbox --value=CustomSandboxSettings\n```\n\n### Links\nBy default, links in the HTML files can only be opened with CRTL+click.\nLinks with the `target=\"_blank\"` attribute can be enabled by setting a custom sandbox value that includes the permission `allow-popups`.\nOtherwise, the \"newTabLinks\" feature can be enabled to set the permissions automatically and convert any links without `target=\"_blank\"` to include it.\n\n```bash\n./occ config:app:set htmlviewer newTabLinks --value=true --type=boolean\n```",
     "homepage": "",
     "licenses": [
       "agpl"
     ]
   },
   "iframewidget": {
-    "hash": "sha256-u/Prbpr0QUJoDkqpMh4V4AahByLGfxKcbsHqC9B7tz0=",
-    "url": "https://github.com/IT-BAER/nc-iframewidget/releases/download/v0.7.6/nc-iframewidget.tar.gz",
-    "version": "0.7.6",
+    "hash": "sha256-cHIfTCq3GuZ4/H+brr2eucO9gp+y0glvFkPtHAj1278=",
+    "url": "https://github.com/IT-BAER/nc-iframewidget/releases/download/v0.7.7/nc-iframewidget.tar.gz",
+    "version": "0.7.7",
     "description": "**🔲 iFrame Widget for Nextcloud Dashboard**\n\nThis app adds a customizable iFrame widget to your Nextcloud dashboard, allowing you to embed external websites directly within Nextcloud.\n\n## ✨ Features\n\n- **🌐 Embed any website** directly in your Nextcloud dashboard\n- **🎨 Customize appearance** with custom titles and icons\n- **🎭 SimpleIcons integration** using the `si:` prefix for thousands of brand icons\n- **🖌️ Colorize icons** with a built-in color picker\n- **📏 Adjustable height** for perfect layout integration\n- **📱 Responsive design** with extra-wide display option (2 columns)\n\n## 🛠️ Configuration\n\nThe widget is highly customizable with options for:\n- Custom title and icon\n- Icon coloring\n- iFrame height\n- Wide display mode\n\n## 🔒 CSP Configuration\n\nIf you encounter Content Security Policy errors, you may need to adjust your Nextcloud configuration to allow embedding specific websites. See the full documentation on GitHub for details.\n\n## 💻 Compatibility\n- Nextcloud 30 & 31",
     "homepage": "",
     "licenses": [
@@ -1360,9 +1360,9 @@
     ]
   },
   "integration_openproject": {
-    "hash": "sha256-YgQCxwmo0Cz+TdtPtjbu31LRsmeV0yaw09toj68t8zc=",
-    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.9.2-20250724-nightly/integration_openproject-2.9.2-20250724-nightly.tar.gz",
-    "version": "2.9.2",
+    "hash": "sha256-GeltF7BStUuI+UopCTX76g+1qkA6LiscvHbS/ffp2ys=",
+    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.10.0-20250915-nightly/integration_openproject-2.10.0-20250915-nightly.tar.gz",
+    "version": "2.10.0",
     "description": "This application enables seamless integration with open source project management and collaboration software OpenProject.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in OpenProject\n* Find all work packages linked to a file or a folder\n* Create work packages directly in Nextcloud\n* View OpenProject notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n* Link work packages in rich text fields via Smart Picker\n* Preview links to work packages in text fields\n* Link multiple files and folder to a work package at once\n\nOn the OpenProject end, users are able to:\n\n* Link work packages with files and folders in Nextcloud\n* Upload and download files directly to Nextcloud from within a work package\n* Open linked files in Nextcloud to edit them\n* Let OpenProject create shared folders per project\n\nFor more information on how to set up and use the OpenProject application, please refer to [integration setup guide](https://www.openproject.org/docs/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://www.openproject.org/docs/user-guide/nextcloud-integration/).",
     "homepage": "https://github.com/nextcloud/integration_openproject",
     "licenses": [
@@ -1540,9 +1540,9 @@
     ]
   },
   "journeys": {
-    "hash": "sha256-cD3pJ27sbkeIdhMs8Ga2rxOzFPIzRdjyAWHH2Sonj6E=",
-    "url": "https://github.com/thrillfall/journeys/releases/download/0.5.6/journeys.tar.gz",
-    "version": "0.5.6",
+    "hash": "sha256-tadGIN2HAAqxyqzffwNsxA+bm0QCfqK8c1wWrhxOlbQ=",
+    "url": "https://github.com/thrillfall/journeys/releases/download/0.5.7/journeys.tar.gz",
+    "version": "0.5.7",
     "description": "# Automatic Photo Album Creation for Nextcloud\n\nAutomatically cluster your images into journeys (vacations/trips) and create albums for each journey.  \n**Requires the Memories app!**\n\n## ✨ Features\n- **🗺️ Location & Time Clustering:** Group images by when and where they were taken\n- **🗂️ Album Creation:** Albums are created automatically for each journey\n- **⚙️ Customizable:** Control minimum cluster size, time gap, and distance thresholds\n\n## 🚀 OCC Command Usage\n\n    php occ journeys:cluster-create-albums <user>\n\n## 🏠 Using your home location (default)\nJourneys segments the timeline into **near home** and **away from home** and applies sensible defaults for each to capture local days vs. trips.\n\n## ⏰ Runs automatically\nA background job runs **daily** to cluster newly added photos, and you’ll receive a **notification** whenever new albums are created.\n\n## 🏷️ How album names are created\nAlbum titles are generated from the **resolved place name** and the **date range** of the cluster, e.g. `Iceland — Aug 12–19, 2024`.",
     "homepage": "",
     "licenses": [
@@ -1580,9 +1580,9 @@
     ]
   },
   "koreader_companion": {
-    "hash": "sha256-rQa35dBo1MW8dTKLAUeiSK7eL1bcX6Pf6gZfHqhXSVM=",
-    "url": "https://github.com/international-omelette/nextcloud-koreader-companion/releases/download/v1.1.5/koreader_companion.tar.gz",
-    "version": "1.1.5",
+    "hash": "sha256-Y1wcxtliraZJWsTKwWzBr7xa3aOwP80A9/0ZEwbEJyU=",
+    "url": "https://github.com/international-omelette/nextcloud-koreader-companion/releases/download/v1.1.9/koreader_companion.tar.gz",
+    "version": "1.1.9",
     "description": "Transform your Nextcloud into an authenticated OPDS ebook library with full KOReader sync support. Access your ebooks from any OPDS-compatible reader and keep your reading progress synchronized across devices.",
     "homepage": "",
     "licenses": [
@@ -1620,9 +1620,9 @@
     ]
   },
   "libresign": {
-    "hash": "sha256-l0gu4nysTb8g8wuUIxc4ImIQLs3N5xsd91VravRdKZk=",
-    "url": "https://github.com/LibreSign/libresign/releases/download/v10.10.0/libresign-v10.10.0.tar.gz",
-    "version": "10.10.0",
+    "hash": "sha256-KsrRaOdB2eH6epO24of2ob/eQDNSza5lmPf074rlWro=",
+    "url": "https://github.com/LibreSign/libresign/releases/download/v10.10.1/libresign-v10.10.1.tar.gz",
+    "version": "10.10.1",
     "description": "**This is a libre digital PDF signature app for Nextcloud**\n\n* ✍️ **Sign PDF** documents using digital certificates\n* 🔄 **Hybrid signatures**: You can choose between personal or system-generated digital certificates\n* 👥 **Multiple signers**: Request signature on a document for as many people as you need\n* 📸 **QR Code**: Document validation by QR Code\n* 🔒 **Privacy**: Fully self-hosted document signer\n* 📲 **Connect to your software**: Easily integrate [LibreSign](https://libresign.coop) into your service with our full-fledged [REST-API](https://libresign.coop/posts/libresign-api-guide/).\n* 🙋 **Get involved**! We have lots of stuff planned. More information at [LibreSign](https://github.com/libresign/libresign) repository.\n\n🌍 Help us translate this application on [Transifex](https://app.transifex.com/nextcloud/nextcloud/libresign/)\n\nIf you enjoy this app and want to help maintain its development or want enterprise support, please contact us:\n\n[https://libresign.coop](https://libresign.coop)\n\n## Donation\n\nDeveloped with ❤️ by [LibreCode](https://librecode.coop). Help us transform people and businesses through cooperativism.\n\n* [Donate with GitHub Sponsor: ![Donate using GitHub Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/libresign)",
     "homepage": "https://github.com/LibreSign/libresign",
     "licenses": [
@@ -1700,8 +1700,8 @@
     ]
   },
   "maps": {
-    "hash": "sha256-E0S/CwXyye19lcuiONEQCyHJqlL0ZG1A9Q7oOTEZH1g=",
-    "url": "https://github.com/nextcloud/maps/releases/download/v1.6.0-3-nightly/maps-1.6.0-3-nightly.tar.gz",
+    "hash": "sha256-IupRymjs955TiUutzoTTMeESNfBmAp51l+oBaZwfdN0=",
+    "url": "https://github.com/nextcloud/maps/releases/download/v1.6.0/maps-1.6.0.tar.gz",
     "version": "1.6.0",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
@@ -2360,9 +2360,9 @@
     ]
   },
   "sendent": {
-    "hash": "sha256-PhH2+WRj9HA1SS+h9f+JbZxgmaqN6LCKA3+ufNugVTo=",
-    "url": "https://download.sendent.com/serverapp/3.0.21/sendent.tar.gz",
-    "version": "3.0.21",
+    "hash": "sha256-y0QEvMdSvkzZsay4YHR92wquH7SMjx6LJksynt5O0nY=",
+    "url": "https://download.sendent.com/serverapp/3.1.0/sendent.tar.gz",
+    "version": "3.1.0",
     "description": "Sendent now securely exchanges files and emails, integrating with both Microsoft Outlook and Microsoft Teams. This enhanced capability allows users to seamlessly conduct their work, not only within their preferred email environment but also within the collaborative framework of Microsoft Teams. Whether sharing privacy-sensitive documents, content, or handling attachments that exceed standard email size constraints, Sendent ensures a streamlined and secure communication experience. All files are directed to your Nextcloud instance, empowering you to control and manage access permissions effectively.",
     "homepage": "https://www.sendent.com",
     "licenses": [
@@ -2650,9 +2650,9 @@
     ]
   },
   "softwarecatalog": {
-    "hash": "sha256-95ocjJDz6WxfHP7Mtr3vaFb9jGoiOkn/mJSeTPGInVY=",
-    "url": "https://github.com/ConductionNL/softwarecatalog/releases/download/v0.1.76/softwarecatalog-0.1.76.tar.gz",
-    "version": "0.1.76",
+    "hash": "sha256-aSvaCyKCsnDJpn1iGFuOQpbmuaEhJr/ufPwJeRdx3bQ=",
+    "url": "https://github.com/ConductionNL/softwarecatalog/releases/download/v0.1.77/softwarecatalog-0.1.77.tar.gz",
+    "version": "0.1.77",
     "description": "🗂️ A Nextcloud App for Software Catalogs\n\nThe Software Catalogus Nextcloud app offers a powerful framework for managing and synchronizing software catalogs within a federated, open data environment.\n\n- 🔄 Synchronize your software data with multiple catalogs\n- 📡 Automatically publish and update your software catalog information\n- 🆓 Completely free and open source under the EUPL license\n\n**Note: System Cron is required for this app to function properly**\n\nFind the installation requirements [here](https://conduction.gitbook.io/opencatalogi-nextcloud/install).\n\nView the development roadmap [here](https://github.com/orgs/OpenCatalogi/projects/1/views/2).\n\nSubmit a [bug report](https://github.com/OpenCatalogi/.github/issues/new/choose).\n\nSubmit a [feature request](https://github.com/OpenCatalogi/.github/issues/new/choose).",
     "homepage": "https://github.com/ConductionNL/SoftwareCatalogus",
     "licenses": [
@@ -2850,9 +2850,9 @@
     ]
   },
   "twofactor_email": {
-    "hash": "sha256-rn5nkXS8hHjYy3cFa6wdvtnoj8xCx09n1wd9pgS+fss=",
-    "url": "https://github.com/nursoda/twofactor_email/releases/download/2.8.1/twofactor_email.tar.gz",
-    "version": "2.8.1",
+    "hash": "sha256-zk5DYNwoIRTIWrchWDiCHuvAST2kuIoow6VaHAAzYog=",
+    "url": "https://github.com/nursoda/twofactor_email/releases/download/2.8.2/twofactor_email.tar.gz",
+    "version": "2.8.2",
     "description": "This app allows users to set up email as a second factor for web logins. It requires that an email address is set in 'Personal info'. It currently cannot be used on first login when two-factor authentication is enforced (not implemented yet).",
     "homepage": "https://github.com/nursoda/twofactor_email",
     "licenses": [
