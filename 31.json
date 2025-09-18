@@ -10,9 +10,9 @@
     ]
   },
   "agenda_bot": {
-    "hash": "sha256-smXJ9z/PxgEdVyvO20N91LotXQQpc/tcKsI6BidDlKg=",
-    "url": "https://github.com/LexioJ/agenda_bot/releases/download/v1.4.0/agenda_bot-1.4.0.tar.gz",
-    "version": "1.4.0",
+    "hash": "sha256-YlO+hH6SC+iJAmPz8UZfPbwKq3USQyHzaBnwU4f1h4w=",
+    "url": "https://github.com/LexioJ/agenda_bot/releases/download/v1.4.1/agenda_bot-1.4.1.tar.gz",
+    "version": "1.4.1",
     "description": "### 🚀 Meeting Manager for Nextcloud Talk\n\nTired of unproductive meetings that run overtime? The Agenda Bot transforms chaotic discussions into structured, efficient sessions with intelligent automation and real-time insights.\n**⚠️ Requires Nextcloud Talk app to be installed and enabled**\n\n### ✨ Key Features\n\n#### 🎯 Effortless Agenda Creation\n- Natural language: `agenda: Project review (15 min)` \n- Multiple formats: `topic:`, `item:`, `add:`, `insert:`\n- Create multiple items at once from structured lists\n- Smart time parsing: `(5 min)`, `(1h)`, `(90 min)`, `(2 hours)`\n- Automatic positioning or manual `#2.` syntax\n\n#### ⏰ Intelligent Time Management\n- Background monitoring tracks time automatically\n- Smart warnings at 80%, 100%, and overtime thresholds  \n- Call-aware notifications (only during active meetings)\n- Custom time monitoring configuration per room\n- Visual progress tracking with ✅ 📍 🗣️ indicators\n\n#### 🔥 Seamless Meeting Flow\n- **`done:` command** - Complete current item and auto-advance!\n- Real-time status shows actual vs. planned time\n- Automatic progression through agenda items\n- Live updates for all participants\n\n#### ⚙️ Room-Level Bot Configuration (NEW in v1.4.0!)\n- **Time Monitoring**: Custom warning thresholds and overtime alerts per room\n- **Auto-behaviors**: Control automatic start, cleanup, and summary generation\n- **Response-behaviors**: Choose between full responses or minimal emoji-only mode\n- **Agenda Limits**: Configure max agenda items, max bulk additions, and default durations\n- **Custom Emojis**: Personalize agenda item status indicators\n\n#### 🔐 Smart Permission System\n- Role-based access: Owners, Moderators, Users, Guests\n- Flexible control: Who can add, manage, or view items\n- Guest moderator support for external facilitators\n\n#### 📊 Meeting Analytics & Insights\n- Completion tracking with timing statistics\n- Efficiency reports: On-time 👍 vs. overtime ⏰ \n- Comprehensive summaries with actionable data\n- Optional cleanup of completed items\n\n### 💫 Why Using Agenda Bot?\n\n- ✅ **Boost Productivity** - Stay focused with structured agendas\n- ✅ **Save Time** - Automated tracking and progress management  \n- ✅ **Improve Accountability** - Clear completion tracking\n- ✅ **Reduce Overruns** - Smart time warnings keep meetings on track\n- ✅ **Easy Setup** - Works instantly in any Talk room\n\n### 🏆 Perfect For\n- Team standups and regular check-ins\n- Project planning sessions\n- Client meetings with tight schedules  \n- Board meetings requiring structure\n- Training sessions with timed modules\n\n#### Start having better meetings - Add the Agenda Bot to your Talk rooms and experience the difference!",
     "homepage": "https://github.com/lexioj/agenda_bot",
     "licenses": [
@@ -20,9 +20,9 @@
     ]
   },
   "analytics": {
-    "hash": "sha256-Kvof4F8vhC/xJFh/IKnlQO8V20lcYirh7YJOK4MS2+I=",
-    "url": "https://github.com/Rello/analytics/releases/download/5.8.0/analytics-5.8.0.tar.gz",
-    "version": "5.8.0",
+    "hash": "sha256-pmKmAk+KAZGI8mK0MwdWvKWD7qjq6stkuPOYRU6hN9M=",
+    "url": "https://github.com/Rello/analytics/releases/download/6.0.0/analytics-6.0.0.tar.gz",
+    "version": "6.0.0",
     "description": "Connect data from different sources in one place.\nUse flexible Panoramas and reports with seamless Nextcloud integration.\nVisualize and share anything, from financial analysis to IoT logs.\n\n\n#### Features:\n- Visualization: **Panoramas**, reports, charts, tables, filters\n- Data sources:\n  - csv, spreadsheet, API, import, manual entry\n  - Nextcloud Files, Forms, Tables\n  - external: GitHub, website grabber, JSON\n- Register external data sources from other apps\n- Storage: **real-time** or database\n- Advanced data loads with scheduling\n- Analysis functions: **trend**, dis-/aggregation\n- Thresholds for alerts and color coding\n- Sharing: user, groups, link\n- Integration: Files, Activity, Notifications, Flow, Dashboard, Search, Smart picker, Translation\n- **AI Assistant**: Context Chat integration",
     "homepage": "https://rello.github.io/analytics/",
     "licenses": [
@@ -130,9 +130,9 @@
     ]
   },
   "autocurrency": {
-    "hash": "sha256-UGd456G70Yb8KoR7qlzooagnTM+wN0PtWhcIll5C1eM=",
-    "url": "https://github.com/chenasraf/nextcloud-autocurrency/releases/download/v1.0.1/autocurrency-v1.0.1.tar.gz",
-    "version": "1.0.1",
+    "hash": "sha256-ALHHG6LsXPVdNXwIG/vLdD4SrZfPkE6VjmlIjMHz0Tw=",
+    "url": "https://github.com/chenasraf/nextcloud-autocurrency/releases/download/v1.0.2/autocurrency-v1.0.2.tar.gz",
+    "version": "1.0.2",
     "description": "This NextCloud app automatically fetches currency information for your Cospend projects, and fills\nthem up using the main currency as base. No more manually updating exchange rates!\n\n\nIt will automatically run once a day by default and use your currency names to fetch the correct\nrate.\n\n\nInterval for fetch may be adjusted in the admin settings \"Auto Currency\" section.\n\n\n> **Note**: This is a companion app to [Cospend](https://apps.nextcloud.com/apps/cospend).\n>\n> Without Cospend, this app will not work.",
     "homepage": "https://github.com/chenasraf/nextcloud-autocurrency",
     "licenses": [
@@ -215,6 +215,16 @@
     "version": "0.8.7",
     "description": "This app will make previews of &quot;RAW&quot; files from cameras in Nextcloud.",
     "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "carnet": {
+    "hash": "sha256-a3hJv/JmxB+yRvfUp9nSmcwkU6M4U+eXhMgnpp+R84s=",
+    "url": "https://github.com/CarnetApp/CarnetNextcloud/releases/download/v0.25.10/carnet-nc-v0.25.10.tar.gz",
+    "version": "0.25.10",
+    "description": "Carnet is a powerful note taking app which purpose is not only to write your shopping list but can also be used to write longer texts, stories, etc. Carnet is available on Android and Linux, on your web browser, Windows and\nMac, with sync capabilities\n- Complete editor : bold/italic/underline/color/highlight\n- Import from Google Keep (only on desktop, then sync on mobile)\n- Insert images / review\n- Open HTML format\n- Organize with folders and choose root storage folder depending on your needs\n- Keywords\n- Quickly see your recent notes\n- Search amount your notes\n- Protect the app with a pin code (no encryption) on android\n- Statistics : words/sentences/characters\n- Sync with ownCloud/NextCloud\n- Online editor as a ownCloud/NextCloud App",
+    "homepage": "https://github.com/CarnetApp/CarnetNextcloud",
     "licenses": [
       "agpl"
     ]
@@ -990,10 +1000,10 @@
     ]
   },
   "groupfolders": {
-    "hash": "sha256-0z6zxuBNvEhPAtCUUDtb0BOMSS+xT/rN7H2PQQ/BLPE=",
-    "url": "https://github.com/nextcloud-releases/groupfolders/releases/download/v19.1.3/groupfolders-v19.1.3.tar.gz",
-    "version": "19.1.3",
-    "description": "Admin configured folders shared with everyone in a group.\n\nFolders can be configured from *Group folders* in the admin settings.\n\nAfter a folder is created, the admin can give access to the folder to one or more groups, control their write/sharing permissions and assign a quota for the folder.",
+    "hash": "sha256-sj+5a/+xjJXwzc6is9mERQrZD2edVOQ7leUsjFbkn/w=",
+    "url": "https://github.com/nextcloud-releases/groupfolders/releases/download/v19.1.5/groupfolders-v19.1.5.tar.gz",
+    "version": "19.1.5",
+    "description": "Admin configured folders shared with everyone in a team.\n\nFolders can be configured from *Team folders* in the admin settings.\n\nAfter a folder is created, the admin can give access to the folder to one or more teams, control their write/sharing permissions and assign a quota for the folder.\nAs of Hub 10/Nextcloud 31, the admin needs to be a part of the team to be able to assign it a Teamfolder.",
     "homepage": "https://github.com/nextcloud/groupfolders",
     "licenses": [
       "agpl"
@@ -1010,9 +1020,9 @@
     ]
   },
   "guests": {
-    "hash": "sha256-xO5V7atju6XmpAXtnVxpnQZQOtfB2BJU2nM9DbSP27A=",
-    "url": "https://github.com/nextcloud-releases/guests/releases/download/v4.5.1/guests-v4.5.1.tar.gz",
-    "version": "4.5.1",
+    "hash": "sha256-8cUoXYP37EJ6R2q4JNStDkm28AanK+XTuwHDOaREYjk=",
+    "url": "https://github.com/nextcloud-releases/guests/releases/download/v4.5.2/guests-v4.5.2.tar.gz",
+    "version": "4.5.2",
     "description": "👥 Allows for better collaboration with external users by allowing users to create guests account.\n\nGuests accounts can be created from the share menu by entering either the recipients email or name and choosing \"create guest account\", once the share is created the guest user will receive an email notification about the mail with a link to set their password.\n\nGuests users can only access files shared to them and cannot create any files outside of shares, additionally, the apps accessible to guest accounts are whitelisted.",
     "homepage": "https://github.com/nextcloud/guests/",
     "licenses": [
@@ -1290,8 +1300,8 @@
     ]
   },
   "integration_openproject": {
-    "hash": "sha256-GeltF7BStUuI+UopCTX76g+1qkA6LiscvHbS/ffp2ys=",
-    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.10.0-20250915-nightly/integration_openproject-2.10.0-20250915-nightly.tar.gz",
+    "hash": "sha256-3l2PPfQtMKoMXjYDaFei59+QiLo5qdPgmZNnEVuoLaw=",
+    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.10.0-20250918-nightly/integration_openproject-2.10.0-20250918-nightly.tar.gz",
     "version": "2.10.0",
     "description": "This application enables seamless integration with open source project management and collaboration software OpenProject.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in OpenProject\n* Find all work packages linked to a file or a folder\n* Create work packages directly in Nextcloud\n* View OpenProject notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n* Link work packages in rich text fields via Smart Picker\n* Preview links to work packages in text fields\n* Link multiple files and folder to a work package at once\n\nOn the OpenProject end, users are able to:\n\n* Link work packages with files and folders in Nextcloud\n* Upload and download files directly to Nextcloud from within a work package\n* Open linked files in Nextcloud to edit them\n* Let OpenProject create shared folders per project\n\nFor more information on how to set up and use the OpenProject application, please refer to [integration setup guide](https://www.openproject.org/docs/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://www.openproject.org/docs/user-guide/nextcloud-integration/).",
     "homepage": "https://github.com/nextcloud/integration_openproject",
@@ -1600,8 +1610,8 @@
     ]
   },
   "maps": {
-    "hash": "sha256-E0S/CwXyye19lcuiONEQCyHJqlL0ZG1A9Q7oOTEZH1g=",
-    "url": "https://github.com/nextcloud/maps/releases/download/v1.6.0-3-nightly/maps-1.6.0-3-nightly.tar.gz",
+    "hash": "sha256-IupRymjs955TiUutzoTTMeESNfBmAp51l+oBaZwfdN0=",
+    "url": "https://github.com/nextcloud/maps/releases/download/v1.6.0/maps-1.6.0.tar.gz",
     "version": "1.6.0",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
@@ -1650,9 +1660,9 @@
     ]
   },
   "metavox": {
-    "hash": "sha256-fSzjwRF5pUmTwKAK5kAo5IRM9Vvpzi/gO4pJ9camajU=",
-    "url": "https://github.com/nextcloud/metavox/releases/download/v.1.0.6/metavox-1.0.6.tar.gz",
-    "version": "1.0.6",
+    "hash": "sha256-+nspsEgV4ao8M6QNuCg0wNRYESK2PGqBKgZkiIOW8kE=",
+    "url": "https://github.com/nextcloud/metavox/releases/download/v1.1.1/metavox-1.1.1.tar.gz",
+    "version": "1.1.1",
     "description": "A customizable metadata app that allows you to define your own metadata fields for files.\n          \n      The goal of MetaVox is to enrich digital documents with contextual metadata — such as topic, author intent, relevance, or classification — in a way that is:\n      \n      - **Structured** and machine-readable  \n      - **Non-intrusive** (no changes to file content)  \n      - **Compatible** with existing Nextcloud workflows  \n      - **Designed for flexible use across education, government, and other document-driven environments**",
     "homepage": "https://github.com/nextcloud/metavox",
     "licenses": [
@@ -2220,9 +2230,9 @@
     ]
   },
   "sendentsynchroniser": {
-    "hash": "sha256-q2RrQcfywWLUXl5GFBhVkIsioWiPm2DQRmMLkMlSKnY=",
-    "url": "https://download.sendent.com/sendentsynchroniser/1.0.11/sendentsynchroniser.tar.gz",
-    "version": "1.0.11",
+    "hash": "sha256-u2kZC0KU1kqtwzmyrtwWH8hV5hm0nFVFeduN7H7atK4=",
+    "url": "https://download.sendent.com/sendentsynchroniser/1.1.0/sendentsynchroniser.tar.gz",
+    "version": "1.1.0",
     "description": "Say goodbye to manual updates! The Sendent Sync app, designed for the Nextcloud Exchange Connector, enables bi-directional syncing of agendas and contacts between your Microsoft Exchange and Nextcloud Hub. Focus on what truly matters – your work – while your data flows effortlessly.",
     "homepage": "https://www.sendent.com",
     "licenses": [
@@ -2460,9 +2470,9 @@
     ]
   },
   "spreed": {
-    "hash": "sha256-c1dalC22xUNIsLNw9QhZUwvhlNypMnH9UvymlmW6ZFw=",
-    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v21.1.4/spreed-v21.1.4.tar.gz",
-    "version": "21.1.4",
+    "hash": "sha256-rpYU0ngtjBuOH6c3fSYRCcbLj9VC26GECXbzSGweMro=",
+    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v21.1.5/spreed-v21.1.5.tar.gz",
+    "version": "21.1.5",
     "description": "Chat, video & audio-conferencing using WebRTC\n\n* 💬 **Chat** Nextcloud Talk comes with a simple text chat, allowing you to share or upload files from your Nextcloud Files app or local device and mention other participants.\n* 👥 **Private, group, public and password protected calls!** Invite someone, a whole group or send a public link to invite to a call.\n* 🌐 **Federated chats** Chat with other Nextcloud users on their servers\n* 💻 **Screen sharing!** Share your screen with the participants of your call.\n* 🚀 **Integration with other Nextcloud apps** like Files, Calendar, User status, Dashboard, Flow, Maps, Smart picker, Contacts, Deck, and many more.\n* 🌉 **Sync with other chat solutions** With [Matterbridge](https://github.com/42wim/matterbridge/) being integrated in Talk, you can easily sync a lot of other chat solutions to Nextcloud Talk and vice-versa.",
     "homepage": "https://github.com/nextcloud/spreed",
     "licenses": [
