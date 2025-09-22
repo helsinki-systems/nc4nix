@@ -330,9 +330,9 @@
     ]
   },
   "contacts": {
-    "hash": "sha256-8orrc4MdIHcfHQqP/6EFZrtZP+gaZGZqZxMLPdoyJKY=",
-    "url": "https://github.com/nextcloud-releases/contacts/releases/download/v7.3.1/contacts-v7.3.1.tar.gz",
-    "version": "7.3.1",
+    "hash": "sha256-WPswtqD9vOLZCnKMHv9hA3NbAthj50zaxc3ocXK4POY=",
+    "url": "https://github.com/nextcloud-releases/contacts/releases/download/v7.3.2/contacts-v7.3.2.tar.gz",
+    "version": "7.3.2",
     "description": "The Nextcloud contacts app is a user interface for Nextcloud's CardDAV server. Easily sync contacts from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Currently Mail and Calendar – more to come.\n* 🎉 **Never forget a birthday!** You can sync birthdays and other recurring events with your Nextcloud Calendar.\n* 👥 **Sharing of Adressbooks!** You want to share your contacts with your friends or coworkers? No problem!\n* 🙈 **We’re not reinventing the wheel!** Based on the great and open SabreDAV library.",
     "homepage": "https://github.com/nextcloud/contacts#readme",
     "licenses": [
@@ -370,8 +370,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -600,10 +600,10 @@
     ]
   },
   "familybudget": {
-    "hash": "sha256-tmnyYnJdY7MwzyM4O1FKT8Vw0ei0YFkSdw4FNMpJQOc=",
-    "url": "https://github.com/holger-dev/familybudget-nc/releases/download/familybudget-030/familybudget-0.3.0.tar.gz",
-    "version": "0.3.0",
-    "description": "Native Nextcloud-App zur Verwaltung von Familienausgaben mit Multi-User-Support,\n        Kategorien, Einladungen und monatlicher Auswertung inkl. Split.",
+    "hash": "sha256-I7aKhBnupXPARB490i6kZxbSVC/3dtFyAhmnJnt+nM4=",
+    "url": "https://github.com/holger-dev/familybudget-nc/releases/download/familybudget-031/familybudget-0.3.1.tar.gz",
+    "version": "0.3.1",
+    "description": "Native Nextcloud-App zur Verwaltung von Familienausgaben mit Multi-User-Support,\n        Kategorien, Einladungen und monatlicher Auswertung inkl. Split.\n\n        Info: Läuft direkt in eurer Nextcloud-Instanz; unterstützt Nextcloud 27–31.\n        Projekt in aktiver Entwicklung – Feedback und Issues willkommen.",
     "homepage": "https://heidkamp.dev",
     "licenses": [
       "agpl"
@@ -640,9 +640,9 @@
     ]
   },
   "files_antivirus": {
-    "hash": "sha256-+Oq66oKp5yIbZRo/yBKYZh6kPXnHwfu1UreNOXuJgCk=",
-    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v6.0.4/files_antivirus-v6.0.4.tar.gz",
-    "version": "6.0.4",
+    "hash": "sha256-te8uEYMrw31KPYBjzA6afzOP0c9fQESK3oOA1w0NtX8=",
+    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v6.0.5/files_antivirus-v6.0.5.tar.gz",
+    "version": "6.0.5",
     "description": "Antivirus for files is an antivirus app for Nextcloud.\n\n* 🕵️‍♂️ When the user uploads a file, it's checked\n* ☢️ Uploaded and infected files will be deleted and a notification will be shown and/or sent via email\n* 🔎 Background Job to scan all files\n* ❓ Use ClamAV (open source), Kaspersky Scan Engine or an ICAP compatible scanner\n\nThis application inspects files that are uploaded to Nextcloud for viruses before they are written to the Nextcloud storage. If a file is identified as a virus, it is either logged or not uploaded to the server. The application relies on the underlying ClamAV virus scanning engine, which the admin points Nextcloud to when configuring the application. Alternatively, a Kaspersky Scan Engine can be configured, which has to run on a separate server.\nFor this app to be effective, the ClamAV virus definitions should be kept up to date. Also note that enabling this app will impact system performance as additional processing is required for every upload. More information is available in the Antivirus documentation.",
     "homepage": "",
     "licenses": [
@@ -670,9 +670,9 @@
     ]
   },
   "files_autorename": {
-    "hash": "sha256-CTgq30lu0EG5Dhjll+kV5w9bBPs9udmVW5znCtoj9eQ=",
-    "url": "https://github.com/powerflo/files_autorename/releases/download/v2.1.4/files_autorename-2.1.4.tar.gz",
-    "version": "2.1.4",
+    "hash": "sha256-xoeXLxH5dXptvUfyIjTe0dDpIScA4mTaZj79H9UiIFg=",
+    "url": "https://github.com/powerflo/files_autorename/releases/download/v2.2.1/files_autorename-2.2.1.tar.gz",
+    "version": "2.2.1",
     "description": "AutoRename is a Nextcloud app that renames and organizes newly added or moved files based on user-defined rules.\nBy placing a `.rename.conf` file in a folder, users can specify regex-based patterns to rename or move files.\n\nRenaming is handled by a background job that runs every few minutes, so changes may not be immediate.\n\nFeatures:\n- 📝 Define renaming rules using powerful regular expressions.\n- 📂 Move files to subfolders specified in the new name (e.g., `subfolder/new_name`).\n- 📅 Insert metadata like dates, EXIF data, or file modification times into filenames using [placeholders](https://github.com/powerflo/files_autorename/tree/main?tab=readme-ov-file#what-placeholders-can-i-use-in-the-replacement-string).\n- 🔍 Extract [text from PDFs](https://github.com/powerflo/files_autorename/tree/main?tab=readme-ov-file#pdfPatternMatch) for custom filenames.\n- 🔄 Transform filenames to [uppercase or lowercase](https://github.com/powerflo/files_autorename/tree/main?tab=readme-ov-file#how-do-i-rename-files-with-upperlowercase-changes).\n\nQuick Start\n\n1. Place a `.rename.conf` file in the desired folder.\n2. Add a rule like this:\n    ```\n    ^Invoice_(\\d{4})_(\\d{2})\\.pdf$:Invoices/$1/$2/$0\n    ```\n3. Upload a matching file (e.g., `Invoice_2025_04.pdf`) — it will be renamed to `Invoices/2025/04/Invoice_2025_04.pdf` during the next background job run.\n\nCheck out the [full documentation on GitHub](https://github.com/powerflo/files_autorename).",
     "homepage": "",
     "licenses": [
@@ -710,9 +710,9 @@
     ]
   },
   "files_emailviewer": {
-    "hash": "sha256-BC2mQhckHucpyOI3JADECHTdWIVRe3rlM81CuBBl7D8=",
-    "url": "https://github.com/nextcloud-releases/files_emailviewer/releases/download/v0.1.4/files_emailviewer-v0.1.4.tar.gz",
-    "version": "0.1.4",
+    "hash": "sha256-5i7a6C821Aii4uJdYOrRCr78+4qsQKGy86XfiC+g7mY=",
+    "url": "https://github.com/nextcloud-releases/files_emailviewer/releases/download/v0.1.5/files_emailviewer-v0.1.5.tar.gz",
+    "version": "0.1.5",
     "description": "### Email Viewer integrates the excellent Email to PDF Converter into Nextcloud, enabling you to view .msg and .eml files.\n\n#### Requirements\n\n- Nextcloud 28 or newer\n- Viewer and PDF Viewer for Nextcloud\n- PHP proc_open\n- [Email to PDF Converter](https://github.com/nickrussler/email-to-pdf-converter) (requires OpenJDK and [wkhtmltopdf](https://wkhtmltopdf.org/))\n\n#### Installation\n\n- Download and enable files_emailviewer\n- Store a copy of the Email to PDF Converter on the server, ensuring that Nextcloud has access to it\n- Set the path to Email to PDF Converter via `occ config:app:set --value /opt/emailconverter-3.0.0-all.jar files_emailviewer binary_path`\n- Upload a .msg or .eml file and view it directly in Nextcloud 🙌\n\n#### Outgoing connections\n\n- If the email contains images from external sources, the Email to PDF converter will download the images, requiring external connections\n- The current version does not consider Nextcloud's proxy configuration but should follow the system default",
     "homepage": "",
     "licenses": [
@@ -1050,9 +1050,9 @@
     ]
   },
   "iframewidget": {
-    "hash": "sha256-GwP7ZUr18bqbUztEEBA7Mbu67p4tTgJ3Ot9VaW4cu1I=",
-    "url": "https://github.com/IT-BAER/nc-iframewidget/releases/download/v0.8.0/nc-iframewidget.tar.gz",
-    "version": "0.8.0",
+    "hash": "sha256-BLTKBSYPRarvu6i6m4kF4p/mYz3SAUNxueNzjFdljlo=",
+    "url": "https://github.com/IT-BAER/nc-iframewidget/releases/download/v0.8.1/nc-iframewidget.tar.gz",
+    "version": "0.8.1",
     "description": "**🔲 iFrame Widget for Nextcloud Dashboard**\n\nThis app adds customizable iFrame widgets to your Nextcloud dashboard, allowing you to embed external websites directly within Nextcloud.\n\n## ✨ Features\n\n- **🌐 Embed any website** directly in your Nextcloud dashboard\n- **🎨 Customize appearance** with custom titles and icons\n- **🎭 SimpleIcons integration** using the `si:` prefix for thousands of brand icons\n- **🖌️ Colorize icons** with a built-in color picker\n- **📏 Adjustable height** for perfect layout integration\n- **📱 Responsive design** with extra-wide display option (2 columns)\n- **👤 Personal widgets** for individual user customization\n- **👥 Group-based widgets** for targeted content delivery\n- **🔧 Admin controls** for global and group-specific configurations\n\n## 🛠️ Configuration\n\nThe widget supports three types of configurations:\n\n### 🌍 Global Widgets\nSet up widgets that appear on all users' dashboards.\n\n### 👤 Personal Widgets\nAllow each user to create their own personalized widgets.\n\n### 👥 Group Widgets\nCreate widgets that are only visible to specific user groups.\n\n## 🔒 CSP Configuration\n\nIf you encounter Content Security Policy errors, you may need to adjust your Nextcloud configuration to allow embedding specific websites. See the full documentation on GitHub for details.\n\n## 💻 Compatibility\n- Nextcloud 30 & 31",
     "homepage": "",
     "licenses": [
@@ -1610,8 +1610,8 @@
     ]
   },
   "maps": {
-    "hash": "sha256-IupRymjs955TiUutzoTTMeESNfBmAp51l+oBaZwfdN0=",
-    "url": "https://github.com/nextcloud/maps/releases/download/v1.6.0/maps-1.6.0.tar.gz",
+    "hash": "sha256-E0S/CwXyye19lcuiONEQCyHJqlL0ZG1A9Q7oOTEZH1g=",
+    "url": "https://github.com/nextcloud/maps/releases/download/v1.6.0-3-nightly/maps-1.6.0-3-nightly.tar.gz",
     "version": "1.6.0",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
@@ -2360,9 +2360,9 @@
     ]
   },
   "sms_relentless": {
-    "hash": "sha256-aWWDTDMFj5NDbai0N8aqOnb025xMHVm/SP0O1SiTuEg=",
-    "url": "https://git.doublebastion.com/releases/sms-relentless/1.4.2/sms_relentless.tar.gz",
-    "version": "1.4.2",
+    "hash": "sha256-Rcxxu49NAuznZFCGjUiPsLHZxX/NkXxJ2ok1/qfodcM=",
+    "url": "https://git.doublebastion.com/releases/sms-relentless/1.4.3/sms_relentless.tar.gz",
+    "version": "1.4.3",
     "description": "This application allows sending and receiving SMS and MMS messages in Nextcloud. An SMS/MMS enabled phone number acquired from \nTelnyx, Plivo, Twilio or Flowroute is needed. Detailed instructions on how to configure and use this application can be found on the 'Admin documentation' page.\n\n### Features:\n\n* 🚀 Use one or multiple local phone numbers in countries of your choice, to send and receive SMS/MMS messages with your browser, on any device connected to the Internet.\n\n* 📑 Sent and received SMS/MMS messages are stored in the database per sending/receiving user and can be viewed in paginated tables with filters for every column.\n\n* 🖼️  Up to 10 files of various formats, including jpeg, png and gif, can be sent as MMS messages from MMS enabled phone numbers. Files included in incoming MMS messages are not downloaded automatically. They are stored as URL links to the actual files, so that the receivers can download them only if they trust the senders.\n\n* 📔 SMS/MMS messages older than a specified number of days can be deleted in bulk with one click and they are automatically archived in csv files stored in Nextcloud, before being removed from the database. This makes them available for future analysis.\n\n* 💻 Sending SMS/MMS messages to thousands of recipients can be achieved by uploading a txt/csv file containing the recipients' phone numbers and the same SMS/MMS is sent automatically to all. The time interval between two consecutive messages is configurable.\n\n* 👤 The Display Name of Nextcloud users can be prepended to their messages, to make the origin of messages clearer.\n\n* ⚠️  Admins can restrict the use of specific phone numbers to specific groups or users.\n\n* ✉️  Auto-replies in 'daily mode' and 'vacation mode' can be configured for any controlled phone number.\n\n* 🔏 SMS/MMS messages coming from Telnyx, Plivo and Twilio are checked for authenticity by verifying the SMS provider's signature.\n\n* 📧 Users receive notifications in Nextcloud and (optionally) emails when new SMS/MMS messages arrive.\n\n* 📄 Each sent message receives a delivery receipt displayed in the Sent SMS Messages table.\n\n* 🎎 Messages exchanged between pairs of numbers are organized into conversations on a separate page where each conversation can be viewed, tagged and archived.\n\n* 📞 It can be used with regular 'long code' (10-digit) phone numbers, but also with 'toll-free' numbers and 'short codes'. Users see a list with their current phone numbers and can set them as Sender IDs. Setting alphanumeric Sender IDs is also possible.\n\n* 📱 If Nextcloud is accessed in Firefox for mobile (version 123.0 or newer), it can be used directly on mobile devices.\n\n* 💵 It allows checking the current Telnyx/Plivo/Twilio balance by selecting the provider on the left panel.\n\n* 💰 The only ongoing cost is about $1 per month (depending on the country) for an SMS/MMS enabled phone number located in a country chosen by the user. No contracts.\n\n* 💸 Low prices per SMS: starting from $0.0040 per sent message and $0.0040 per received message (Telnyx), or $0.0085 per sent message and $0.0085 per received message (Plivo), or $0.0109 per sent message and 0.0079 per received message (Twilio), or $0.0055 per sent message and 0.0040 per received message (Flowroute) in the USA.\n\nWe have no affiliation with Telnyx, Plivo, Twilio or Flowroute.\n\n### Documentation\n\n* [Admin documentation](https://www.doublebastion.com/install-nextcloud/#install-sms-relentless)\n\n### Donations\n\n* 🎁 [Donate](https://www.doublebastion.com/donations/)",
     "homepage": "https://www.doublebastion.com/sms-relentless/",
     "licenses": [
@@ -2700,9 +2700,9 @@
     ]
   },
   "user_oidc": {
-    "hash": "sha256-24wih8ntMeAl4UpbFg0tX1YbHioEgd2BQ6CSrEPkULA=",
-    "url": "https://github.com/nextcloud-releases/user_oidc/releases/download/v7.4.0/user_oidc-v7.4.0.tar.gz",
-    "version": "7.4.0",
+    "hash": "sha256-F92W+jiK8OJ7o/Q4tVsbAfxOSH3uhxkvjomm1ZkTZXM=",
+    "url": "https://github.com/nextcloud-releases/user_oidc/releases/download/v8.0.0/user_oidc-v8.0.0.tar.gz",
+    "version": "8.0.0",
     "description": "Allows flexible configuration of an OIDC server as Nextcloud login user backend.",
     "homepage": "https://github.com/nextcloud/user_oidc",
     "licenses": [
