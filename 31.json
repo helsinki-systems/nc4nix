@@ -170,9 +170,9 @@
     ]
   },
   "calendar": {
-    "hash": "sha256-d1hwp/7P+S2tT/Qay5FypGIa/H1OGGROKXv1bF90TL4=",
-    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v5.5.4/calendar-v5.5.4.tar.gz",
-    "version": "5.5.4",
+    "hash": "sha256-YWoaCt8X4yCDtAoFw6/AxtaHYQKrX6jKnrDR1pEDLfM=",
+    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v5.5.5/calendar-v5.5.5.tar.gz",
+    "version": "5.5.5",
     "description": "A Calendar app for Nextcloud. Easily sync events from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Like Contacts, Talk, Tasks, Deck and Circles\n* 🌐 **WebCal Support!** Want to see your favorite team's matchdays in your calendar? No problem!\n* 🙋 **Attendees!** Invite people to your events\n* ⌚ **Free/Busy!** See when your attendees are available to meet\n* ⏰ **Reminders!** Get alarms for events inside your browser and via email\n* 🔍 **Search!** Find your events at ease\n* ☑️ **Tasks!** See tasks or Deck cards with a due date directly in the calendar\n* 🔈 **Talk rooms!** Create an associated Talk room when booking a meeting with just one click\n* 📆 **Appointment booking** Send people a link so they can book an appointment with you [using this app](https://apps.nextcloud.com/apps/appointments)\n* 📎 **Attachments!** Add, upload and view event attachments\n* 🙈 **We’re not reinventing the wheel!** Based on the great [c-dav library](https://github.com/nextcloud/cdav-library), [ical.js](https://github.com/mozilla-comm/ical.js) and [fullcalendar](https://github.com/fullcalendar/fullcalendar) libraries.",
     "homepage": "https://github.com/nextcloud/calendar/",
     "licenses": [
@@ -340,9 +340,9 @@
     ]
   },
   "context_chat": {
-    "hash": "sha256-rhY/wJsQDnKszeLazYGuC3Ey11Zm2cCu6Yi26+C8dDc=",
-    "url": "https://github.com/nextcloud-releases/context_chat/releases/download/v4.4.1/context_chat-v4.4.1.tar.gz",
-    "version": "4.4.1",
+    "hash": "sha256-TVih3IAogjfUL33HKon0zxR1+0iIA4WoVJk3QY+eJbE=",
+    "url": "https://github.com/nextcloud-releases/context_chat/releases/download/v4.5.0/context_chat-v4.5.0.tar.gz",
+    "version": "4.5.0",
     "description": "Ask questions to Nextcloud Assistant about the content of your documents.\n\nInstall the given apps for Context Chat to work as desired **in the given order**:\n- [AppAPI from the Apps page](https://apps.nextcloud.com/apps/app_api)\n- [Context Chat Backend (same major and minor version as Context Chat app below) from the External Apps page](https://apps.nextcloud.com/apps/context_chat_backend)\n- [Context Chat (same major and minor version as the backend) from the Apps page](https://apps.nextcloud.com/apps/context_chat)\n- [Assistant from the Apps page](https://apps.nextcloud.com/apps/assistant). The OCS API or the `occ` commands can also be used to interact with this app but it recommended to do that through a Task Processing OCP API consumer like the Assistant app, which is also the officially supported universal UI for all the AI providers.\n- Text2Text Task Processing Provider like [llm2 from the External Apps page](https://apps.nextcloud.com/apps/llm2) or [integration_openai from the Apps page](https://apps.nextcloud.com/apps/integration_openai)\n\nSetup background job workers as described here: https://docs.nextcloud.com/server/latest/admin_manual/ai/overview.html#improve-ai-task-pickup-speed\n\nNote:\nRefer to the [Context Chat Backend's readme](https://github.com/nextcloud/context_chat_backend/?tab=readme-ov-file) and the [AppAPI's documentation](https://cloud-py-api.github.io/app_api/) for help with setup of AppAPI's deploy daemon.",
     "homepage": "https://github.com/nextcloud/context_chat",
     "licenses": [
@@ -630,9 +630,9 @@
     ]
   },
   "files_accesscontrol": {
-    "hash": "sha256-6pJ1eQWPUaTP/io6w/6YGiDwJxaOFxHkp+XzjS8YCg8=",
-    "url": "https://github.com/nextcloud-releases/files_accesscontrol/releases/download/v2.0.0/files_accesscontrol-v2.0.0.tar.gz",
-    "version": "2.0.0",
+    "hash": "sha256-0r3s4W1lnThDIv1cb2Ypyc6DVLiIlseAZ55EnLc1t5E=",
+    "url": "https://github.com/nextcloud-releases/files_accesscontrol/releases/download/v2.0.1/files_accesscontrol-v2.0.1.tar.gz",
+    "version": "2.0.1",
     "description": "Nextcloud's File Access Control app enables administrators to protect data from unauthorized access or modifications.\n\n## How it works\nThe administrator can create and manage a set of rule groups. Each of the rule groups consists of one or more rules. If all rules of a group hold true, the group matches the request and access is being denied or the upload is blocked. The rules criteria range from IP address, MIME type and request time to group membership, tags, user agent and more.\n\nAn example would be to deny access to MS Excel/XLSX files owned by the \"Human Resources\" group accessed from an IP not on the internal company network or to block uploads of files bigger than 512 mb by students in the \"1st year\" group.\n\nLearn more about File Access Control on [https://nextcloud.com/workflow](https://nextcloud.com/workflow)",
     "homepage": "https://github.com/nextcloud/files_accesscontrol",
     "licenses": [
@@ -1300,8 +1300,8 @@
     ]
   },
   "integration_openproject": {
-    "hash": "sha256-3l2PPfQtMKoMXjYDaFei59+QiLo5qdPgmZNnEVuoLaw=",
-    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.10.0-20250918-nightly/integration_openproject-2.10.0-20250918-nightly.tar.gz",
+    "hash": "sha256-qIfA6YvXAuMfPdyZ+pV6m4G2UbV5gnDFMVKBHQrGUMo=",
+    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.10.0-20250923-nightly/integration_openproject-2.10.0-20250923-nightly.tar.gz",
     "version": "2.10.0",
     "description": "This application enables seamless integration with open source project management and collaboration software OpenProject.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in OpenProject\n* Find all work packages linked to a file or a folder\n* Create work packages directly in Nextcloud\n* View OpenProject notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n* Link work packages in rich text fields via Smart Picker\n* Preview links to work packages in text fields\n* Link multiple files and folder to a work package at once\n\nOn the OpenProject end, users are able to:\n\n* Link work packages with files and folders in Nextcloud\n* Upload and download files directly to Nextcloud from within a work package\n* Open linked files in Nextcloud to edit them\n* Let OpenProject create shared folders per project\n\nFor more information on how to set up and use the OpenProject application, please refer to [integration setup guide](https://www.openproject.org/docs/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://www.openproject.org/docs/user-guide/nextcloud-integration/).",
     "homepage": "https://github.com/nextcloud/integration_openproject",
@@ -1580,9 +1580,9 @@
     ]
   },
   "mail": {
-    "hash": "sha256-Hz4vEGjLUklGO29jSWFWHa3NC1KkQOryRKxhM7BvyuA=",
-    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.5.1/mail-v5.5.1.tar.gz",
-    "version": "5.5.1",
+    "hash": "sha256-YYaP0DQ+EAh0/ucSvn6RV9eTg1FDxkOapVp7uWykHmw=",
+    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.5.2/mail-v5.5.2.tar.gz",
+    "version": "5.5.2",
     "description": "**💌 A mail app for Nextcloud**\n\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://www.horde.org) libraries.\n- **📬 Want to host your own mail server?** We do not have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!\n\n## Ethical AI Rating\n\n### Priority Inbox\n\nPositive:\n* The software for training and inferencing of this model is open source.\n* The model is created and trained on-premises based on the user's own data.\n* The training data is accessible to the user, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n### Thread Summaries (opt-in)\n\n**Rating:** 🟢/🟡/🟠/🔴\n\nThe rating depends on the installed text processing backend. See [the rating overview](https://docs.nextcloud.com/server/latest/admin_manual/ai/index.html) for details.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/mail#readme",
     "licenses": [
@@ -1610,8 +1610,8 @@
     ]
   },
   "maps": {
-    "hash": "sha256-E0S/CwXyye19lcuiONEQCyHJqlL0ZG1A9Q7oOTEZH1g=",
-    "url": "https://github.com/nextcloud/maps/releases/download/v1.6.0-3-nightly/maps-1.6.0-3-nightly.tar.gz",
+    "hash": "sha256-IupRymjs955TiUutzoTTMeESNfBmAp51l+oBaZwfdN0=",
+    "url": "https://github.com/nextcloud/maps/releases/download/v1.6.0/maps-1.6.0.tar.gz",
     "version": "1.6.0",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
@@ -2240,9 +2240,9 @@
     ]
   },
   "sentry": {
-    "hash": "sha256-+m8IJ4ECSbJI+X3oVlqfrphpw1e7qqrKDqiFPR4Vtd0=",
-    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.15.15/sentry-v8.15.15.tar.gz",
-    "version": "8.15.15",
+    "hash": "sha256-BOxj0mXo7/Z+kzabiF7qHl6QUXpgD6qmM/YEzvYz+Mw=",
+    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.16.0/sentry-v8.16.0.tar.gz",
+    "version": "8.16.0",
     "description": "A Sentry integration that sends unhandled exceptions to a Sentry instance to aggregate application crashes. You either have to set up your own Sentry instance or use your sentry.io account. See the admin documentation for how to configure this app.",
     "homepage": "https://github.com/ChristophWurst/nextcloud_sentry",
     "licenses": [
@@ -2810,9 +2810,9 @@
     ]
   },
   "whiteboard": {
-    "hash": "sha256-CrgZAgaLkRzz/w0QJmPyUKe8yMfk2c5P7nsYcBmxyt4=",
-    "url": "https://github.com/nextcloud-releases/whiteboard/releases/download/v1.2.0/whiteboard-v1.2.0.tar.gz",
-    "version": "1.2.0",
+    "hash": "sha256-/tzGi1uq+1L74cLzGTdrnl+A9SMUrXOoyJPmijCOAN0=",
+    "url": "https://github.com/nextcloud-releases/whiteboard/releases/download/v1.2.1/whiteboard-v1.2.1.tar.gz",
+    "version": "1.2.1",
     "description": "The official whiteboard app for Nextcloud. It allows users to create and share whiteboards with other users and collaborate in real-time.\n\n**Whiteboard requires a separate collaboration server to work.** Please see the [documentation](https://github.com/nextcloud/whiteboard?tab=readme-ov-file#backend) on how to install it.\n\n- 🎨 Drawing shapes, writing text, connecting elements\n- 📝 Real-time collaboration\n- 🖼️ Add images with drag and drop\n- 📊 Easily add mermaid diagrams\n- ✨ Use the Smart Picker to embed other elements from Nextcloud\n- 📦 Image export\n- 💪 Strong foundation: We use Excalidraw as our base library",
     "homepage": "https://github.com/nextcloud/whiteboard",
     "licenses": [
