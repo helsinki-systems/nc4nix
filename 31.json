@@ -10,9 +10,9 @@
     ]
   },
   "agenda_bot": {
-    "hash": "sha256-wFV1bYRTLuVQggK8c98LMhbHFWO+qUiYSBMHhwhjUKo=",
-    "url": "https://github.com/LexioJ/agenda_bot/releases/download/v1.5.0/agenda_bot-1.5.0.tar.gz",
-    "version": "1.5.0",
+    "hash": "sha256-wFmBDc9FMehBpEXsnebYppuRNqATjze/TVRTybQVnV0=",
+    "url": "https://github.com/LexioJ/agenda_bot/releases/download/v1.5.1/agenda_bot-1.5.1.tar.gz",
+    "version": "1.5.1",
     "description": "### 🚀 Meeting Manager for Nextcloud Talk\n\nTired of unproductive meetings that run overtime? The Agenda Bot transforms chaotic discussions into structured, efficient sessions with intelligent automation and real-time insights.\n**⚠️ Requires Nextcloud Talk app to be installed and enabled**\n\n### ✨ Key Features\n\n#### 🎯 Effortless Agenda Creation\n- Natural language: `agenda: Project review (15 min)` \n- Multiple formats: `topic:`, `item:`, `add:`, `insert:`\n- Create multiple items at once from structured lists\n- Smart time parsing: `(5 min)`, `(1h)`, `(90 min)`, `(2 hours)`\n- Automatic positioning or manual `#2.` syntax\n\n#### ⏰ Intelligent Time Management\n- Background monitoring tracks time automatically\n- Smart warnings at 80%, 100%, and overtime thresholds  \n- Call-aware notifications (only during active meetings)\n- Custom time monitoring configuration per room\n- Visual progress tracking with ✅ 📍 🗣️ indicators\n\n#### 🔥 Seamless Meeting Flow\n- **`done:` command** - Complete current item and auto-advance!\n- Real-time status shows actual vs. planned time\n- Automatic progression through agenda items\n- Live updates for all participants\n\n#### ⚙️ Room-Level Bot Configuration\n- **Time Monitoring**: Custom warning thresholds and overtime alerts per room\n- **Auto-behaviors**: Control automatic start, cleanup, and summary generation\n- **Response-behaviors**: Choose between full responses or minimal emoji-only mode\n- **Agenda Limits**: Configure max agenda items, max bulk additions, and default durations\n- **Custom Emojis**: Personalize agenda item status indicators\n\n#### 🌍 Multi-Language Support (NEW in v1.5.0!)\n- **German Language Variants**: Support for both informal (Du) and formal (Sie) German communication\n- **Automatic Migration**: Seamless upgrade handling with intelligent migration framework\n- **Professional Settings**: Perfect for corporate environments requiring formal language\n- **User Choice**: Select the communication style that fits your team culture\n\n#### 🔐 Smart Permission System\n- Role-based access: Owners, Moderators, Users, Guests\n- Flexible control: Who can add, manage, or view items\n- Guest moderator support for external facilitators\n\n#### 📊 Meeting Analytics & Insights\n- Completion tracking with timing statistics\n- Efficiency reports: On-time 👍 vs. overtime ⏰ \n- Comprehensive summaries with actionable data\n- Optional cleanup of completed items\n\n### 💫 Why Using Agenda Bot?\n\n- ✅ **Boost Productivity** - Stay focused with structured agendas\n- ✅ **Save Time** - Automated tracking and progress management  \n- ✅ **Improve Accountability** - Clear completion tracking\n- ✅ **Reduce Overruns** - Smart time warnings keep meetings on track\n- ✅ **Easy Setup** - Works instantly in any Talk room\n\n### 🏆 Perfect For\n- Team standups and regular check-ins\n- Project planning sessions\n- Client meetings with tight schedules  \n- Board meetings requiring structure\n- Training sessions with timed modules\n\n#### Start having better meetings - Add the Agenda Bot to your Talk rooms and experience the difference!",
     "homepage": "https://github.com/lexioj/agenda_bot",
     "licenses": [
@@ -2150,9 +2150,9 @@
     ]
   },
   "richdocumentscode": {
-    "hash": "sha256-g6zhuJpVDuFAUNd6zwfYFVx8CA6+A7bswxfxyLj00ZI=",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/25.4.503/richdocumentscode.tar.gz",
-    "version": "25.4.503",
+    "hash": "sha256-y5zNEAGF5Xw1Ba7jHGimzAEK6bk6gWYiVgxofbONEc4=",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/25.4.504/richdocumentscode.tar.gz",
+    "version": "25.4.504",
     "description": "**This app has to be installed and used together with the [Nextcloud Office](https://apps.nextcloud.com/apps/richdocuments) integration app.**\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\n* This app provides a built-in server with all of the document editing features of Collabora Online.\n* Easy to install, for personal use or for small teams.\n* A bit slower than a standalone server and without the advanced scalability features.\n\n**System Requirements:**\n- Linux running on ```x86-64``` or ```arm64/aarch64```\n- A ```glibc``` based distribution/container (```musl libc``` is **not** supported)\n- Fontconfig (```libfontconfig.so.1```)\n- Additional requirements can be found in [here](https://github.com/CollaboraOnline/richdocumentscode#richdocumentscode)\n\n*The download is rather big so it is possible you will experience a time-out when installing via the web interface.* You can use the OCC command install the built-in server from the command-line instead:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)\n\nAdditional troubleshooting tips can be found [here](https://github.com/CollaboraOnline/richdocumentscode?tab=readme-ov-file#troubleshooting).",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -2160,9 +2160,9 @@
     ]
   },
   "richdocumentscode_arm64": {
-    "hash": "sha256-QszpjcNrsXAKCXR6VXwb9mqyw0i8Oly7SQ/hTrwcx8U=",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/25.4.503/richdocumentscode_arm64.tar.gz",
-    "version": "25.4.503",
+    "hash": "sha256-NDPDv6ut89rQ1DBObPjWX8m33mrp08JBht6FNrTrYzA=",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/25.4.504/richdocumentscode_arm64.tar.gz",
+    "version": "25.4.504",
     "description": "**This app has to be installed and used together with the [Nextcloud Office](https://apps.nextcloud.com/apps/richdocuments) integration app.**\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\n* This app provides a built-in server with all of the document editing features of Collabora Online.\n* Easy to install, for personal use or for small teams.\n* A bit slower than a standalone server and without the advanced scalability features.\n\n**System Requirements:**\n- Linux running on ```x86-64``` or ```arm64/aarch64```\n- A ```glibc``` based distribution/container (```musl libc``` is **not** supported)\n- Fontconfig (```libfontconfig.so.1```)\n- Additional requirements can be found in [here](https://github.com/CollaboraOnline/richdocumentscode#richdocumentscode)\n\n*The download is rather big so it is possible you will experience a time-out when installing via the web interface.* You can use the OCC command install the built-in server from the command-line instead:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode_arm64\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)\n\nAdditional troubleshooting tips can be found [here](https://github.com/CollaboraOnline/richdocumentscode?tab=readme-ov-file#troubleshooting).",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -2490,9 +2490,9 @@
     ]
   },
   "talk_matterbridge": {
-    "hash": "sha256-C7gAhNK2fMy6ls9baHpIIk3V2Sv2ePI9U52TCIqmX84=",
-    "url": "https://github.com/nextcloud/talk_matterbridge/releases/download/v1.31.1026000/talk_matterbridge-1.31.1026000.tar.gz",
-    "version": "1.31.1026000",
+    "hash": "sha256-ZDKaErnxuNYg0GDgJT/2JLR8mXd0seVB8Q4DJKOUXag=",
+    "url": "https://github.com/nextcloud/talk_matterbridge/releases/download/v1.32.1026000/talk_matterbridge-1.32.1026000.tar.gz",
+    "version": "1.32.1026000",
     "description": "This app brings the Matterbridge binary to your server to connect Nextcloud Talk with other chat services.\nThis allows admins to easily install and keep updated the Matterbridge binaries through a familiar interface.\n\nThe last number of the version is the shipped Matterbridge binary version.\nBinary is licensed under Apache-2.0 License.",
     "homepage": "https://github.com/nextcloud/talk_matterbridge",
     "licenses": [
