@@ -10,9 +10,9 @@
     ]
   },
   "agenda_bot": {
-    "hash": "sha256-wFmBDc9FMehBpEXsnebYppuRNqATjze/TVRTybQVnV0=",
-    "url": "https://github.com/LexioJ/agenda_bot/releases/download/v1.5.1/agenda_bot-1.5.1.tar.gz",
-    "version": "1.5.1",
+    "hash": "sha256-dQY2rEuW1wf/5Voj70OV6RrZ9X4nrd9V2fWzpEln8L4=",
+    "url": "https://github.com/LexioJ/agenda_bot/releases/download/v1.6.0/agenda_bot-1.6.0.tar.gz",
+    "version": "1.6.0",
     "description": "### 🚀 Meeting Manager for Nextcloud Talk\n\nTired of unproductive meetings that run overtime? The Agenda Bot transforms chaotic discussions into structured, efficient sessions with intelligent automation and real-time insights.\n**⚠️ Requires Nextcloud Talk app to be installed and enabled**\n\n### ✨ Key Features\n\n#### 🎯 Effortless Agenda Creation\n- Natural language: `agenda: Project review (15 min)` \n- Multiple formats: `topic:`, `item:`, `add:`, `insert:`\n- Create multiple items at once from structured lists\n- Smart time parsing: `(5 min)`, `(1h)`, `(90 min)`, `(2 hours)`\n- Automatic positioning or manual `#2.` syntax\n\n#### ⏰ Intelligent Time Management\n- Background monitoring tracks time automatically\n- Smart warnings at 80%, 100%, and overtime thresholds  \n- Call-aware notifications (only during active meetings)\n- Custom time monitoring configuration per room\n- Visual progress tracking with ✅ 📍 🗣️ indicators\n\n#### 🔥 Seamless Meeting Flow\n- **`done:` command** - Complete current item and auto-advance!\n- Real-time status shows actual vs. planned time\n- Automatic progression through agenda items\n- Live updates for all participants\n\n#### ⚙️ Room-Level Bot Configuration\n- **Time Monitoring**: Custom warning thresholds and overtime alerts per room\n- **Auto-behaviors**: Control automatic start, cleanup, and summary generation\n- **Response-behaviors**: Choose between full responses or minimal emoji-only mode\n- **Agenda Limits**: Configure max agenda items, max bulk additions, and default durations\n- **Custom Emojis**: Personalize agenda item status indicators\n\n#### 🌍 Multi-Language Support (NEW in v1.5.0!)\n- **German Language Variants**: Support for both informal (Du) and formal (Sie) German communication\n- **Automatic Migration**: Seamless upgrade handling with intelligent migration framework\n- **Professional Settings**: Perfect for corporate environments requiring formal language\n- **User Choice**: Select the communication style that fits your team culture\n\n#### 🔐 Smart Permission System\n- Role-based access: Owners, Moderators, Users, Guests\n- Flexible control: Who can add, manage, or view items\n- Guest moderator support for external facilitators\n\n#### 📊 Meeting Analytics & Insights\n- Completion tracking with timing statistics\n- Efficiency reports: On-time 👍 vs. overtime ⏰ \n- Comprehensive summaries with actionable data\n- Optional cleanup of completed items\n\n### 💫 Why Using Agenda Bot?\n\n- ✅ **Boost Productivity** - Stay focused with structured agendas\n- ✅ **Save Time** - Automated tracking and progress management  \n- ✅ **Improve Accountability** - Clear completion tracking\n- ✅ **Reduce Overruns** - Smart time warnings keep meetings on track\n- ✅ **Easy Setup** - Works instantly in any Talk room\n\n### 🏆 Perfect For\n- Team standups and regular check-ins\n- Project planning sessions\n- Client meetings with tight schedules  \n- Board meetings requiring structure\n- Training sessions with timed modules\n\n#### Start having better meetings - Add the Agenda Bot to your Talk rooms and experience the difference!",
     "homepage": "https://github.com/lexioj/agenda_bot",
     "licenses": [
@@ -410,10 +410,10 @@
     ]
   },
   "dav_push": {
-    "hash": "sha256-+Ji6xYFudC5ds4YLJnzZ34v7Ct615CdtkZPyq8iTsdA=",
-    "url": "https://github.com/bitfireAT/nc_ext_dav_push/releases/download/v0.0.3/dav_push.tar.gz",
-    "version": "0.0.3",
-    "description": "**This extension is in a very early stage of development. It is for demonstration and testing purposes only. Don't use it on production systems!**\n\nIn proprietary environments, changes in events and contacts are nowadays usually pushed to other clients so that they can update their views almost in real-time.\n\nWebDAV however (and in this context, especially CalDAV and CardDAV) doesn't currently support push notifications of clients when a collection has changed. So clients have to periodically ask the server for changes. This causes unnecessary delays and battery usage.\n\nThe WebDAV-Push standard, which is currently in development, wants to solve this problem with an open protocol, too.\n\nThis is the server part of these efforts to draft a standard and provide a working implementation (server + client) in order to demonstrate it.\n\n\nThe current WebDAV-Push draft is provided by [@bitfireAT](https://github.com/bitfireAT).\n          \nThis Nextcloud extension has been developed by [@verdigado](https://github.com/verdigado).",
+    "hash": "sha256-73Wf6vP0m/jK0bwAdnuoMMAX5oh16DPViTFqjCX/rhI=",
+    "url": "https://github.com/bitfireAT/nc_ext_dav_push/releases/download/v1.0.0/dav_push.tar.gz",
+    "version": "1.0.0",
+    "description": "In proprietary environments, changes in events and contacts are nowadays usually pushed to other clients so that they can update their views almost in real-time.\n\nWebDAV however (and in this context, especially CalDAV and CardDAV) doesn't currently support push notifications of clients when a collection has changed. So clients have to periodically ask the server for changes. This causes unnecessary delays and battery usage.\n\nThe WebDAV-Push standard, which is currently in development, wants to solve this problem with an open protocol, too.\n\nThis is the server part of these efforts to draft a standard and provide a working implementation (server + client) in order to demonstrate it.\n\n\nThe current WebDAV-Push draft is provided by [@bitfireAT](https://github.com/bitfireAT).\n          \nThis Nextcloud extension has been developed by [@verdigado](https://github.com/verdigado).",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -930,9 +930,9 @@
     ]
   },
   "geoblocker": {
-    "hash": "sha256-aefnLs8lWEHv8FKLYejg1WV0IVrTxkEhTUbnVe6y3bo=",
-    "url": "https://github.com/HomeITAdmin/nextcloud_geoblocker/releases/download/0.5.17/geoblocker.tar.gz",
-    "version": "0.5.17",
+    "hash": "sha256-wH2bZaPbFnkmSDvVef6r9/pBJODD488ajxzQ2Vg8oHE=",
+    "url": "https://github.com/HomeITAdmin/nextcloud_geoblocker/releases/download/0.5.18/geoblocker.tar.gz",
+    "version": "0.5.18",
     "description": "This is a front end to geo localization services, that allows blocking (beta), delaying (beta) and logging of login attempts from specified countries.\nLogin attempts from local network IP addresses are never blocked, delayed or logged.\nIn the current implementation the login page is normally shown to everybody independent of the country. Also login attempts with a non existing user are failing as usual independent of the country.\nWrong Nextcloud configuration (especially in container) can lead to all access seems to come from local network IP address.\nDetermination of the country from IP address is only as good as the chosen service.\n\nCountries can be specified using allowlisting or blocklisting.\n\nCurrently available localization services are:\n- Geoiplookup (local programm on the host)\n- MaxMind GeoLite2 (local database accessed via PHP API)\n- Data from Regional Internet Registries (Nextcloud SQL database build up with data downloaded from the RIRs FTP servers)\n\nFor help how to set up the localization services please have a look at the GitHub repository (homepage on the right side).",
     "homepage": "https://github.com/HomeITAdmin/nextcloud_geoblocker/",
     "licenses": [

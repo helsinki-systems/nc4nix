@@ -370,8 +370,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -413,7 +413,7 @@
     "hash": "sha256-+Ji6xYFudC5ds4YLJnzZ34v7Ct615CdtkZPyq8iTsdA=",
     "url": "https://github.com/bitfireAT/nc_ext_dav_push/releases/download/v0.0.3/dav_push.tar.gz",
     "version": "0.0.3",
-    "description": "**This extension is in a very early stage of development. It is for demonstration and testing purposes only. Don't use it on production systems!**\n\nIn proprietary environments, changes in events and contacts are nowadays usually pushed to other clients so that they can update their views almost in real-time.\n\nWebDAV however (and in this context, especially CalDAV and CardDAV) doesn't currently support push notifications of clients when a collection has changed. So clients have to periodically ask the server for changes. This causes unnecessary delays and battery usage.\n\nThe WebDAV-Push standard, which is currently in development, wants to solve this problem with an open protocol, too.\n\nThis is the server part of these efforts to draft a standard and provide a working implementation (server + client) in order to demonstrate it.\n\n\nThe current WebDAV-Push draft is provided by [@bitfireAT](https://github.com/bitfireAT).\n          \nThis Nextcloud extension has been developed by [@verdigado](https://github.com/verdigado).",
+    "description": "In proprietary environments, changes in events and contacts are nowadays usually pushed to other clients so that they can update their views almost in real-time.\n\nWebDAV however (and in this context, especially CalDAV and CardDAV) doesn't currently support push notifications of clients when a collection has changed. So clients have to periodically ask the server for changes. This causes unnecessary delays and battery usage.\n\nThe WebDAV-Push standard, which is currently in development, wants to solve this problem with an open protocol, too.\n\nThis is the server part of these efforts to draft a standard and provide a working implementation (server + client) in order to demonstrate it.\n\n\nThe current WebDAV-Push draft is provided by [@bitfireAT](https://github.com/bitfireAT).\n          \nThis Nextcloud extension has been developed by [@verdigado](https://github.com/verdigado).",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -960,9 +960,9 @@
     ]
   },
   "geoblocker": {
-    "hash": "sha256-aefnLs8lWEHv8FKLYejg1WV0IVrTxkEhTUbnVe6y3bo=",
-    "url": "https://github.com/HomeITAdmin/nextcloud_geoblocker/releases/download/0.5.17/geoblocker.tar.gz",
-    "version": "0.5.17",
+    "hash": "sha256-wH2bZaPbFnkmSDvVef6r9/pBJODD488ajxzQ2Vg8oHE=",
+    "url": "https://github.com/HomeITAdmin/nextcloud_geoblocker/releases/download/0.5.18/geoblocker.tar.gz",
+    "version": "0.5.18",
     "description": "This is a front end to geo localization services, that allows blocking (beta), delaying (beta) and logging of login attempts from specified countries.\nLogin attempts from local network IP addresses are never blocked, delayed or logged.\nIn the current implementation the login page is normally shown to everybody independent of the country. Also login attempts with a non existing user are failing as usual independent of the country.\nWrong Nextcloud configuration (especially in container) can lead to all access seems to come from local network IP address.\nDetermination of the country from IP address is only as good as the chosen service.\n\nCountries can be specified using allowlisting or blocklisting.\n\nCurrently available localization services are:\n- Geoiplookup (local programm on the host)\n- MaxMind GeoLite2 (local database accessed via PHP API)\n- Data from Regional Internet Registries (Nextcloud SQL database build up with data downloaded from the RIRs FTP servers)\n\nFor help how to set up the localization services please have a look at the GitHub repository (homepage on the right side).",
     "homepage": "https://github.com/HomeITAdmin/nextcloud_geoblocker/",
     "licenses": [
@@ -1720,8 +1720,8 @@
     ]
   },
   "maps": {
-    "hash": "sha256-E0S/CwXyye19lcuiONEQCyHJqlL0ZG1A9Q7oOTEZH1g=",
-    "url": "https://github.com/nextcloud/maps/releases/download/v1.6.0-3-nightly/maps-1.6.0-3-nightly.tar.gz",
+    "hash": "sha256-IupRymjs955TiUutzoTTMeESNfBmAp51l+oBaZwfdN0=",
+    "url": "https://github.com/nextcloud/maps/releases/download/v1.6.0/maps-1.6.0.tar.gz",
     "version": "1.6.0",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
