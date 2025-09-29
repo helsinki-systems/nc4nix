@@ -1,8 +1,8 @@
 {
   "afterlogic": {
-    "hash": "sha256-bsSBYWQcMEhXZpwvzg8qqgXukws6cKeSz7z3bdUE4Bo=",
-    "url": "https://afterlogic.com/download/nextcloud/afterlogic-nextcloud-2012.tar.gz",
-    "version": "2.0.12",
+    "hash": "sha256-x/rhkOGuG+0Z+dXDmxvVZXAzmReZspjr4kdDmP5Rz6M=",
+    "url": "https://afterlogic.com/download/nextcloud/afterlogic-nextcloud-2013.tar.gz",
+    "version": "2.0.13",
     "description": "Afterlogic WebMail",
     "homepage": "https://afterlogic.org/webmail-lite",
     "licenses": [
@@ -120,10 +120,10 @@
     ]
   },
   "autocurrency": {
-    "hash": "sha256-bza8UZ5dy3arDGu+9GWwCddMbktr1aZP3PS2e3x5CD0=",
-    "url": "https://github.com/chenasraf/nextcloud-autocurrency/releases/download/v1.0.3/autocurrency-v1.0.3.tar.gz",
-    "version": "1.0.3",
-    "description": "This NextCloud app automatically fetches currency information for your Cospend projects, and fills\nthem up using the main currency as base. No more manually updating exchange rates!\n\n\nIt will automatically run once a day by default and use your currency names to fetch the correct\nrate.\n\n\nInterval for fetch may be adjusted in the admin settings \"Auto Currency\" section.\n\n\n> **Note**: This is a companion app to [Cospend](https://apps.nextcloud.com/apps/cospend).\n>\n> Without Cospend, this app will not work.",
+    "hash": "sha256-/2bkUQZkTBD9v/l2Cnl2AnNf9sJFLrqd6JdMNuDxKNM=",
+    "url": "https://github.com/chenasraf/nextcloud-autocurrency/releases/download/v1.1.0/autocurrency-v1.1.0.tar.gz",
+    "version": "1.1.0",
+    "description": "This NextCloud app automatically fetches currency information for your Cospend projects, and fills\nthem up using the main currency as base. No more manually updating exchange rates!\n\n\nYou can also view the history of currency rates fetched in the past, and see how they changed over time.\n\n\nIt will automatically run once a day by default and use your currency names to fetch the correct\nrate.\n\n\nInterval for fetch may be adjusted in the admin settings \"Auto Currency\" section.\n\n\n> **Note**: This is a companion app to [Cospend](https://apps.nextcloud.com/apps/cospend).\n>\n> Without Cospend, this app will not work.",
     "homepage": "https://github.com/chenasraf/nextcloud-autocurrency",
     "licenses": [
       "agpl"
@@ -560,9 +560,9 @@
     ]
   },
   "empleados": {
-    "hash": "sha256-IWBzsUamuDbkezKlP4iNxjD8PFej5G3MM5QLSsOSt3Q=",
-    "url": "https://github.com/Destripador/empleados/releases/download/v1.0.1-beta/empleados.tar.gz",
-    "version": "1.0.1",
+    "hash": "sha256-E9rOOFviOL2wAuAA7yp6XKyDP/S11ozivl0e1HvN/EY=",
+    "url": "https://github.com/Destripador/empleados/releases/download/v1.0.4/empleados-1.0.4.tar.gz",
+    "version": "1.0.4",
     "description": "Módulo de gestión de empleados para Nextcloud. Permite administrar información de los empleados, equipos de trabajo, puestos, ausencias y vacaciones. Desarrollado para integrarse con Nextcloud y facilitar la administración de recursos humanos.",
     "homepage": "https://github.com/Destripador/empleados",
     "licenses": [
@@ -1060,9 +1060,9 @@
     ]
   },
   "groupfolders": {
-    "hash": "sha256-rM1kYCe8lzTyeKzOgO1pSUci+6Giysq6VuXE5Hsq6qo=",
-    "url": "https://github.com/nextcloud-releases/groupfolders/releases/download/v18.1.6/groupfolders-v18.1.6.tar.gz",
-    "version": "18.1.6",
+    "hash": "sha256-pe0hls6qtPeIDiHHWzJxAg7FviRXTT3U1FsAeWTzJQw=",
+    "url": "https://github.com/nextcloud-releases/groupfolders/releases/download/v18.1.7/groupfolders-v18.1.7.tar.gz",
+    "version": "18.1.7",
     "description": "Admin configured folders shared with everyone in a team.\n\nFolders can be configured from *Team folders* in the admin settings.\n\nAfter a folder is created, the admin can give access to the folder to one or more teams, control their write/sharing permissions and assign a quota for the folder.\nAs of Hub 10/Nextcloud 31, the admin needs to be a part of the team to be able to assign it a Teamfolder.",
     "homepage": "https://github.com/nextcloud/groupfolders",
     "licenses": [
@@ -1560,10 +1560,10 @@
     ]
   },
   "journeys": {
-    "hash": "sha256-7iTa/YAeRqFg2rxAPhRnFBvp/DF/dUtAKuN94GfZTh8=",
-    "url": "https://github.com/thrillfall/journeys/releases/download/0.7.1/journeys.tar.gz",
-    "version": "0.7.1",
-    "description": "# Automatic Photo Album Creation for Nextcloud\n\nAutomatically cluster your images into journeys (vacations/trips) and create albums for each journey.\n**Requires the Memories app!**\n\n## ✨ Features\n- **🗺️ Location & Time Clustering:** Group images by when and where they were taken\n- **🗂️ Album Creation:** Albums are created automatically for each journey\n- **⚙️ Customizable:** Control minimum cluster size, time gap, and distance thresholds\n- **🎥 (NEW) Video Rendering:** Turn journey albums into MP4 highlight reels (requires `ffmpeg` on the server)\n\n## 🚀 OCC Command Usage\n\n    php occ journeys:cluster-create-albums <user>\n\n## 🏠 Using your home location (default)\nJourneys segments the timeline into **near home** and **away from home** and applies sensible defaults for each to capture local days vs. trips.\n\n## ⏰ Runs automatically\nA background job runs **daily** to cluster newly added photos, and you’ll receive a **notification** whenever new albums are created.\n\n## 🏷️ How album names are created\nAlbum titles are generated from the **resolved place name** and the **date range** of the cluster, e.g. `Iceland — Aug 12–19, 2024`.",
+    "hash": "sha256-9zBISB3AYEOIeHT5oT9xNGgshSfnNOri6Dfw41Okf9g=",
+    "url": "https://github.com/thrillfall/journeys/releases/download/0.7.2/journeys.tar.gz",
+    "version": "0.7.2",
+    "description": "# Automatic Photo Album Creation for Nextcloud\n\nAutomatically cluster your images into journeys (vacations/trips) and create albums for each journey.\n**Requires the Memories app!**\n\n## ✨ Features\n- **🗺️ Location & Time Clustering:** Group images by when and where they were taken\n- **🗂️ Album Creation:** Albums are created automatically for each journey\n- **⚙️ Customizable:** Control minimum cluster size, time gap, and distance thresholds\n- **🎥 Video Rendering:** Turn journey albums into MP4 highlight reels (requires `ffmpeg` on the server)\n\n## 🚀 OCC Command Usage\n\n    php occ journeys:cluster-create-albums <user>\n\n## 🏠 Using your home location (default)\nJourneys segments the timeline into **near home** and **away from home** and applies sensible defaults for each to capture local days vs. trips.\n\n## ⏰ Runs automatically\nA background job runs **daily** to cluster newly added photos, and you’ll receive a **notification** whenever new albums are created.\n\n## 🏷️ How album names are created\nAlbum titles are generated from the **resolved place name** and the **date range** of the cluster, e.g. `Iceland — Aug 12–19, 2024`.",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -1690,9 +1690,9 @@
     ]
   },
   "mail": {
-    "hash": "sha256-zL5fkfSZNnQcbbvDb+xOmeqp4yG+dIe81MyywunmXjk=",
-    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.5.5/mail-v5.5.5.tar.gz",
-    "version": "5.5.5",
+    "hash": "sha256-7quVg4jNTt1R+rH6/D3lDVOL+i+i+BQAGYg0z5kLapE=",
+    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.5.6/mail-v5.5.6.tar.gz",
+    "version": "5.5.6",
     "description": "**💌 A mail app for Nextcloud**\n\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://www.horde.org) libraries.\n- **📬 Want to host your own mail server?** We do not have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!\n\n## Ethical AI Rating\n\n### Priority Inbox\n\nPositive:\n* The software for training and inferencing of this model is open source.\n* The model is created and trained on-premises based on the user's own data.\n* The training data is accessible to the user, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n### Thread Summaries (opt-in)\n\n**Rating:** 🟢/🟡/🟠/🔴\n\nThe rating depends on the installed text processing backend. See [the rating overview](https://docs.nextcloud.com/server/latest/admin_manual/ai/index.html) for details.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/mail#readme",
     "licenses": [
@@ -2370,9 +2370,9 @@
     ]
   },
   "secrets": {
-    "hash": "sha256-Vs2eT3BJQ2m5+xh79Fmt8wX/D+fH6R42oLRkhDKE5PE=",
-    "url": "https://github.com/theCalcaholic/nextcloud-secrets/releases/download/v2.1.3/secrets.tar.gz",
-    "version": "2.1.2",
+    "hash": "sha256-nKTVSbaXOqGNXdtb1PD/OyoI4KF5R9CWJWjuONECmE0=",
+    "url": "https://github.com/theCalcaholic/nextcloud-secrets/releases/download/v2.1.4/secrets.tar.gz",
+    "version": "2.1.4",
     "description": "Secrets allows users to generate share links for text based data (e.g. passwords, CSV lists, bank accounts...) that can be sent to anyone (including receivers without a Nextcloud account) for retrieval. The data itself will be end-to-end encrypted (so not even Nextcloud can access it) and the encryption key will be part of the share link (the anchor part) - but never be actually sent to the server. Once retrieved, the secret will be deleted from the server, ensuring, that if it arrived at the correct receiver it has been seen by nobody else.\n\nSecrets now comes with a cli that can be used to automate the provisioning of secret shares: https://github.com/theCalcaholic/nextcloud-secrets/releases",
     "homepage": "",
     "licenses": [
