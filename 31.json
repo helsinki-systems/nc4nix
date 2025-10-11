@@ -400,8 +400,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -1000,9 +1000,9 @@
     ]
   },
   "gpoddersync": {
-    "hash": "sha256-PyyqE2mCClEQkW2cg3541VboCDtxKN2lwPRVRE9ewJs=",
-    "url": "https://github.com/thrillfall/nextcloud-gpodder/releases/download/3.12.0/gpoddersync.tar.gz",
-    "version": "3.12.0",
+    "hash": "sha256-anBa8RiQ4oEM95fp08elIMu3jO0pIelRp35JxK7UflQ=",
+    "url": "https://github.com/thrillfall/nextcloud-gpodder/releases/download/3.13.1/gpoddersync.tar.gz",
+    "version": "3.13.1",
     "description": "Expose GPodder API to sync podcast consumer apps like AntennaPod",
     "homepage": "https://github.com/thrillfall/nextcloud-gpodder",
     "licenses": [
@@ -1010,9 +1010,9 @@
     ]
   },
   "gpxpod": {
-    "hash": "sha256-VcspeY89Gn8z/+MM3hReamTeJX/oRjMPPGytTM4Mub8=",
-    "url": "https://github.com/julien-nc/gpxpod/releases/download/v7.0.4/gpxpod-7.0.4.tar.gz",
-    "version": "7.0.4",
+    "hash": "sha256-sd1afhMhNnJeFxlsZcwTZUZmftCfRgk8dqwMIcTb2R0=",
+    "url": "https://github.com/julien-nc/gpxpod/releases/download/v7.1.0/gpxpod-7.1.0.tar.gz",
+    "version": "7.1.0",
     "description": "# GpxPod Nextcloud application\n\nDisplay, analyse, compare and share GPS track files.\n\n🌍 Help us to translate this app on [GpxPod Crowdin project](https://crowdin.com/project/gpxpod).\n\nGpxPod:\n\n* 🗺 can display your gpx/kml/tcx/igc/fit files\n* 📏 supports metric, english and nautical measure systems\n* 🗠 draws interactive chart for elevation, speed, pace or any extension data\n* 🗠 use line gradient color for track lines with speed, elevation, pace or any extension data\n* 🗠 shows track statistics\n* 🖻 displays geotagged pictures\n* 🖧 generates public links pointing to a track/folder\n* 🗠 can correct tracks elevations using SRTM data\n* ⚖ can make global comparison of multiple tracks\n* ⚖ can make visual pair comparison of divergent parts of similar tracks\n* 🀆 allows users to add personal map tile servers\n* 🖍 allows user to manually choose line color for each track\n* 🔒 works with encrypted data folder (server side encryption)\n* 🍂 proudly uses Leaflet and MapLibre GL\n\nLink to Nextcloud application website : https://apps.nextcloud.com/apps/gpxpod\n\n## Install\n\nSee the [AdminDoc](https://gitlab.com/eneiluj/gpxpod-oc/wikis/admindoc) for installation details\n\n## Known issues\n\n* *WARNING*, kml conversion will NOT work with recent kml files using the proprietary \"gx:track\" extension tag.\n\nAny feedback will be appreciated.\n\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://github.com/julien-nc/gpxpod",
     "licenses": [
@@ -1540,9 +1540,9 @@
     ]
   },
   "journeys": {
-    "hash": "sha256-YNwqSlHHzfOQzM4W0GbS6G+q8vONzrUh5m5qUT01R18=",
-    "url": "https://github.com/thrillfall/journeys/releases/download/0.7.5/journeys.tar.gz",
-    "version": "0.7.4",
+    "hash": "sha256-s/ZQNnSqyqLal12z7S+H6KBtY9TXKU1W0UAAMDYcqzg=",
+    "url": "https://github.com/thrillfall/journeys/releases/download/0.7.6/journeys.tar.gz",
+    "version": "0.7.6",
     "description": "# Automatic Photo Album Creation for Nextcloud\n\nAutomatically cluster your images into journeys (vacations/trips) and create albums for each journey.\n**Requires the Memories app!**\n\n## ✨ Features\n- **🗺️ Location & Time Clustering:** Group images by when and where they were taken\n- **🗂️ Album Creation:** Albums are created automatically for each journey\n- **⚙️ Customizable:** Control minimum cluster size, time gap, and distance thresholds\n- **🎥 Video Rendering:** Turn journey albums into MP4 highlight reels (requires `ffmpeg` on the server)\n\n## 🚀 OCC Command Usage\n\n    php occ journeys:cluster-create-albums <user>\n\n## 🏠 Using your home location (default)\nJourneys segments the timeline into **near home** and **away from home** and applies sensible defaults for each to capture local days vs. trips.\n\n## ⏰ Runs automatically\nA background job runs **daily** to cluster newly added photos, and you’ll receive a **notification** whenever new albums are created.\n\n## 🏷️ How album names are created\nAlbum titles are generated from the **resolved place name** and the **date range** of the cluster, e.g. `Iceland — Aug 12–19, 2024`.",
     "homepage": "",
     "licenses": [
@@ -1600,9 +1600,9 @@
     ]
   },
   "libresign": {
-    "hash": "sha256-Ntp+ztdVegSTViz/pKxp6X9QBYHS7DldPZue9HPzfNY=",
-    "url": "https://github.com/LibreSign/libresign/releases/download/v11.4.1/libresign-v11.4.1.tar.gz",
-    "version": "11.4.1",
+    "hash": "sha256-JTRfe/WIaS6aI7BDapw6LR2pXBKgV5CKs98XP0tJpkw=",
+    "url": "https://github.com/LibreSign/libresign/releases/download/v11.5.0/libresign-v11.5.0.tar.gz",
+    "version": "11.5.0",
     "description": "**This is a libre digital PDF signature app for Nextcloud**\n\n* ✍️ **Sign PDF** documents using digital certificates\n* 🔄 **Hybrid signatures**: You can choose between personal or system-generated digital certificates\n* 👥 **Multiple signers**: Request signature on a document for as many people as you need\n* 📸 **QR Code**: Document validation by QR Code\n* 🔒 **Privacy**: Fully self-hosted document signer\n* 📲 **Connect to your software**: Easily integrate [LibreSign](https://libresign.coop) into your service with our full-fledged [REST-API](https://libresign.coop/posts/libresign-api-guide/).\n* 🙋 **Get involved**! We have lots of stuff planned. More information at [LibreSign](https://github.com/libresign/libresign) repository.\n\n🌍 Help us translate this application on [Transifex](https://app.transifex.com/nextcloud/nextcloud/libresign/)\n\nIf you enjoy this app and want to help maintain its development or want enterprise support, please contact us:\n\n[https://libresign.coop](https://libresign.coop)\n\n## Donation\n\nDeveloped with ❤️ by [LibreCode](https://librecode.coop). Help us transform people and businesses through cooperativism.\n\n* [Donate with GitHub Sponsor: ![Donate using GitHub Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/libresign)",
     "homepage": "https://github.com/LibreSign/libresign",
     "licenses": [
@@ -1670,8 +1670,8 @@
     ]
   },
   "maps": {
-    "hash": "sha256-E0S/CwXyye19lcuiONEQCyHJqlL0ZG1A9Q7oOTEZH1g=",
-    "url": "https://github.com/nextcloud/maps/releases/download/v1.6.0-3-nightly/maps-1.6.0-3-nightly.tar.gz",
+    "hash": "sha256-IupRymjs955TiUutzoTTMeESNfBmAp51l+oBaZwfdN0=",
+    "url": "https://github.com/nextcloud/maps/releases/download/v1.6.0/maps-1.6.0.tar.gz",
     "version": "1.6.0",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
@@ -2200,9 +2200,9 @@
     ]
   },
   "repod": {
-    "hash": "sha256-UC2yVV9Tsh0Qm29BPJ89cC53kO/A943+SeMPVPITkII=",
-    "url": "https://git.crystalyx.net/Xefir/repod/releases/download/3.8.0/repod.tar.gz",
-    "version": "3.8.0",
+    "hash": "sha256-k+Y+KMQ15AEJ5hk5GlGg3vOKKRgEql49hrLCoammwoE=",
+    "url": "https://git.crystalyx.net/Xefir/repod/releases/download/3.8.1/repod.tar.gz",
+    "version": "3.8.1",
     "description": "## Features\n- 🔍 Browse and subscribe huge collection of podcasts\n- 🔊 Listen to episodes directly in Nextcloud\n- 🌐 Sync your activity with [AntennaPod](https://antennapod.org/) and [other apps](https://git.crystalyx.net/Xefir/repod#clients-supporting-sync-of-gpoddersync)\n- 📱 Mobile friendly interface\n- 📡 Import and export your subscriptions\n- ➡️ Full features comparison [here](https://git.crystalyx.net/Xefir/repod#comparaison-with-similar-apps-for-nextcloud)\n\n## Requirements\nYou need to have [GPodderSync](https://apps.nextcloud.com/apps/gpoddersync) installed to use this app!",
     "homepage": "https://git.crystalyx.net/Xefir/repod",
     "licenses": [
