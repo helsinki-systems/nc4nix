@@ -200,10 +200,10 @@
     ]
   },
   "calendar": {
-    "hash": "sha256-G/cGq9rxdP9bJEMXSf2Vc+cECDPAS4Gbg/YPGiD4xAY=",
-    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v5.5.6/calendar-v5.5.6.tar.gz",
-    "version": "5.5.6",
-    "description": "The Calendar app is a user interface for Nextcloud's CalDAV server. Easily sync events from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Currently Contacts - more to come.\n* 🌐 **WebCal Support!** Want to see your favorite team’s matchdays in your calendar? No problem!\n* 🙋 **Attendees!** Invite people to your events\n* ⌚️ **Free/Busy!** See when your attendees are available to meet\n* ⏰ **Reminders!** Get alarms for events inside your browser and via email\n* 🔍 Search! Find your events at ease\n* ☑️ Tasks! See tasks with a due date directly in the calendar\n* 🙈 **We’re not reinventing the wheel!** Based on the great [c-dav library](https://github.com/nextcloud/cdav-library), [ical.js](https://github.com/mozilla-comm/ical.js) and [fullcalendar](https://github.com/fullcalendar/fullcalendar) libraries.",
+    "hash": "sha256-mbv/3DkjDmnKAaz9ZeV2qSEC2DVu+PAg/XQI0qDRjfs=",
+    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v5.5.7/calendar-v5.5.7.tar.gz",
+    "version": "5.5.7",
+    "description": "A Calendar app for Nextcloud. Easily sync events from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Like Contacts, Talk, Tasks, Deck and Circles\n* 🌐 **WebCal Support!** Want to see your favorite team's matchdays in your calendar? No problem!\n* 🙋 **Attendees!** Invite people to your events\n* ⌚ **Free/Busy!** See when your attendees are available to meet\n* ⏰ **Reminders!** Get alarms for events inside your browser and via email\n* 🔍 **Search!** Find your events at ease\n* ☑️ **Tasks!** See tasks or Deck cards with a due date directly in the calendar\n* 🔈 **Talk rooms!** Create an associated Talk room when booking a meeting with just one click\n* 📆 **Appointment booking** Send people a link so they can book an appointment with you [using this app](https://apps.nextcloud.com/apps/appointments)\n* 📎 **Attachments!** Add, upload and view event attachments\n* 🙈 **We’re not reinventing the wheel!** Based on the great [c-dav library](https://github.com/nextcloud/cdav-library), [ical.js](https://github.com/mozilla-comm/ical.js) and [fullcalendar](https://github.com/fullcalendar/fullcalendar) libraries.",
     "homepage": "https://github.com/nextcloud/calendar/",
     "licenses": [
       "agpl"
@@ -573,7 +573,7 @@
     "hash": "sha256-Wojv/UzDT9v9bVaC8K7GqaQYVTE4GoRG2ztHALZktLk=",
     "url": "https://github.com/nextcloud-releases/end_to_end_encryption/releases/download/v1.17.0/end_to_end_encryption-v1.17.0.tar.gz",
     "version": "1.17.0",
-    "description": "Provides the necessary endpoint to enable end-to-end encryption.\n\n**Notice:** E2EE is currently not compatible to be used together with server-side encryption",
+    "description": "This app provides all the necessary APIs to implement End-to-End encryption on the client side.\nAdditionally it implements Secure FileDrop and makes sure that End-to-End encrypted files are neither accessible via the web interface nor other WebDAV clients.",
     "homepage": "https://github.com/nextcloud/end_to_end_encryption",
     "licenses": [
       "agpl"
@@ -680,9 +680,9 @@
     ]
   },
   "files_antivirus": {
-    "hash": "sha256-TwGLCsuNKHAgKM60GkrEw2uyfufJCa0+8isEW3LPdZ0=",
-    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v6.0.6/files_antivirus-v6.0.6.tar.gz",
-    "version": "6.0.6",
+    "hash": "sha256-JfxyXs3X4Ta+/dNqnqCJbCo2lslu83VrWRef+wZVLyY=",
+    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v6.0.7/files_antivirus-v6.0.7.tar.gz",
+    "version": "6.0.7",
     "description": "Antivirus for files is an antivirus app for Nextcloud.\n\n* 🕵️‍♂️ When the user uploads a file, it's checked\n* ☢️ Uploaded and infected files will be deleted and a notification will be shown and/or sent via email\n* 🔎 Background Job to scan all files\n* ❓ Use ClamAV (open source), Kaspersky Scan Engine or an ICAP compatible scanner\n\nThis application inspects files that are uploaded to Nextcloud for viruses before they are written to the Nextcloud storage. If a file is identified as a virus, it is either logged or not uploaded to the server. The application relies on the underlying ClamAV virus scanning engine, which the admin points Nextcloud to when configuring the application. Alternatively, a Kaspersky Scan Engine can be configured, which has to run on a separate server.\nFor this app to be effective, the ClamAV virus definitions should be kept up to date. Also note that enabling this app will impact system performance as additional processing is required for every upload. More information is available in the Antivirus documentation.",
     "homepage": "",
     "licenses": [
@@ -1000,8 +1000,8 @@
     ]
   },
   "gpoddersync": {
-    "hash": "sha256-anBa8RiQ4oEM95fp08elIMu3jO0pIelRp35JxK7UflQ=",
-    "url": "https://github.com/thrillfall/nextcloud-gpodder/releases/download/3.13.1/gpoddersync.tar.gz",
+    "hash": "sha256-xMSo5D3w/qIMxLclSTmBPVBHwNkyTbluqlXWtdbLUYk=",
+    "url": "https://github.com/thrillfall/nextcloud-gpodder/releases/download/3.13.2/gpoddersync.tar.gz",
     "version": "3.13.1",
     "description": "Expose GPodder API to sync podcast consumer apps like AntennaPod",
     "homepage": "https://github.com/thrillfall/nextcloud-gpodder",
@@ -1060,10 +1060,10 @@
     ]
   },
   "groupfolders": {
-    "hash": "sha256-4q/7Hyy66bdpRG7iYHsrJaGle6+eCRkGihGnl4EQ2mA=",
-    "url": "https://github.com/nextcloud-releases/groupfolders/releases/download/v19.1.7/groupfolders-v19.1.7.tar.gz",
-    "version": "19.1.7",
-    "description": "Admin configured folders shared with everyone in a team.\n\nFolders can be configured from *Team folders* in the admin settings.\n\nAfter a folder is created, the admin can give access to the folder to one or more teams, control their write/sharing permissions and assign a quota for the folder.\nAs of Hub 10/Nextcloud 31, the admin needs to be a part of the team to be able to assign it a Teamfolder.",
+    "hash": "sha256-eng9qg6yZsRj1N+ycl2l2AjFwbLrdGGMcUjiP4bqA3E=",
+    "url": "https://github.com/nextcloud-releases/groupfolders/releases/download/v19.1.8/groupfolders-v19.1.8.tar.gz",
+    "version": "19.1.8",
+    "description": "Admin configured folders shared with everyone in a group.\n\nFolders can be configured from *Group folders* in the admin settings.\n\nAfter a folder is created, the admin can give access to the folder to one or more groups, control their write/sharing permissions and assign a quota for the folder.\n\nNote: Encrypting the contents of group folders is currently not supported.",
     "homepage": "https://github.com/nextcloud/groupfolders",
     "licenses": [
       "agpl"
@@ -1540,9 +1540,9 @@
     ]
   },
   "journeys": {
-    "hash": "sha256-FzCMFDHCjQuicey+6EMRT1gkLeW1LHbXo/08qZPRzV8=",
-    "url": "https://github.com/thrillfall/journeys/releases/download/0.7.8/journeys.tar.gz",
-    "version": "0.7.8",
+    "hash": "sha256-pJe8AEbmphXOAWkJv2hNVz5YSPk9g7l8L6YMZFL2Pns=",
+    "url": "https://github.com/thrillfall/journeys/releases/download/0.7.9/journeys.tar.gz",
+    "version": "0.7.9",
     "description": "# Automatic Photo Album Creation for Nextcloud\n\nAutomatically cluster your images into journeys (vacations/trips) and create albums for each journey.\n**Requires the Memories app!**\n\n## ✨ Features\n- **🗺️ Location & Time Clustering:** Group images by when and where they were taken\n- **🗂️ Album Creation:** Albums are created automatically for each journey\n- **⚙️ Customizable:** Control minimum cluster size, time gap, and distance thresholds\n- **🎥 Video Rendering:** Turn journey albums into MP4 highlight reels (requires `ffmpeg` on the server)\n\n## 🚀 OCC Command Usage\n\n    php occ journeys:cluster-create-albums <user>\n\n## 🏠 Using your home location (default)\nJourneys segments the timeline into **near home** and **away from home** and applies sensible defaults for each to capture local days vs. trips.\n\n## ⏰ Runs automatically\nA background job runs **daily** to cluster newly added photos, and you’ll receive a **notification** whenever new albums are created.\n\n## 🏷️ How album names are created\nAlbum titles are generated from the **resolved place name** and the **date range** of the cluster, e.g. `Iceland — Aug 12–19, 2024`.",
     "homepage": "",
     "licenses": [
@@ -1640,9 +1640,9 @@
     ]
   },
   "mail": {
-    "hash": "sha256-hdyLCIBbshegX6iTKot2+En6dLMas1LjqdF8o+GloH0=",
-    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.5.8/mail-v5.5.8.tar.gz",
-    "version": "5.5.8",
+    "hash": "sha256-R3sGIJm5bPuFrkguXXGDjaTVB2XZgqCeT59n05VcxNw=",
+    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.5.9/mail-v5.5.9.tar.gz",
+    "version": "5.5.9",
     "description": "**💌 A mail app for Nextcloud**\n\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://www.horde.org) libraries.\n- **📬 Want to host your own mail server?** We do not have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!\n\n## Ethical AI Rating\n\n### Priority Inbox\n\nPositive:\n* The software for training and inferencing of this model is open source.\n* The model is created and trained on-premises based on the user's own data.\n* The training data is accessible to the user, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n### Thread Summaries (opt-in)\n\n**Rating:** 🟢/🟡/🟠/🔴\n\nThe rating depends on the installed text processing backend. See [the rating overview](https://docs.nextcloud.com/server/latest/admin_manual/ai/index.html) for details.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/mail#readme",
     "licenses": [
@@ -1670,8 +1670,8 @@
     ]
   },
   "maps": {
-    "hash": "sha256-E0S/CwXyye19lcuiONEQCyHJqlL0ZG1A9Q7oOTEZH1g=",
-    "url": "https://github.com/nextcloud/maps/releases/download/v1.6.0-3-nightly/maps-1.6.0-3-nightly.tar.gz",
+    "hash": "sha256-IupRymjs955TiUutzoTTMeESNfBmAp51l+oBaZwfdN0=",
+    "url": "https://github.com/nextcloud/maps/releases/download/v1.6.0/maps-1.6.0.tar.gz",
     "version": "1.6.0",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
@@ -2149,6 +2149,16 @@
       "gpl3"
     ]
   },
+  "privacyidea": {
+    "hash": "sha256-Tf+Zy+bdUSXmYW/GxPRnOLmA1ig5CIzsp6AbcCSKaCQ=",
+    "url": "https://github.com/privacyidea/privacyidea-nextcloud-app/releases/download/v1.1.0/privacyidea.tar.gz",
+    "version": "1.1.0",
+    "description": "This module adds flexible, enterprise-grade multi-factor authentication to Nextcloud.\n        It enables Nextcloud to perform MFA against the privacyIDEA server, that runs in your network.\n        Users can authenticate with classic OTP tokens, and Challenge-Response tokens like E-Mail,\n        SMS, PUSH, or WebAuthn devices.",
+    "homepage": "https://privacyidea.org",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "qownnotesapi": {
     "hash": "sha256-zaASURjhqeiz8eYc0HmhYDOF5Z+kIjhggEcJFe96GA8=",
     "url": "https://github.com/pbek/qownnotesapi/releases/download/v25.8.0/qownnotesapi-nc.tar.gz",
@@ -2540,9 +2550,9 @@
     ]
   },
   "softwarecatalog": {
-    "hash": "sha256-Dpxj08dFPFNS03AzxFGHQqJDuW2SecEvVWcXo5DdkZc=",
-    "url": "https://github.com/ConductionNL/softwarecatalog/releases/download/v0.1.102/softwarecatalog-0.1.102.tar.gz",
-    "version": "0.1.102",
+    "hash": "sha256-XXJp7HEAFgWlycds8/nQ4RYqe4ceblCK3MKIIwLEE/0=",
+    "url": "https://github.com/ConductionNL/softwarecatalog/releases/download/v0.1.103/softwarecatalog-0.1.103.tar.gz",
+    "version": "0.1.103",
     "description": "🗂️ A Nextcloud App for Software Catalogs\n\nThe Software Catalogus Nextcloud app offers a powerful framework for managing and synchronizing software catalogs within a federated, open data environment.\n\n- 🔄 Synchronize your software data with multiple catalogs\n- 📡 Automatically publish and update your software catalog information\n- 🆓 Completely free and open source under the EUPL license\n\n**Note: System Cron is required for this app to function properly**\n\nFind the installation requirements [here](https://conduction.gitbook.io/opencatalogi-nextcloud/install).\n\nView the development roadmap [here](https://github.com/orgs/OpenCatalogi/projects/1/views/2).\n\nSubmit a [bug report](https://github.com/OpenCatalogi/.github/issues/new/choose).\n\nSubmit a [feature request](https://github.com/OpenCatalogi/.github/issues/new/choose).",
     "homepage": "https://github.com/ConductionNL/SoftwareCatalogus",
     "licenses": [
