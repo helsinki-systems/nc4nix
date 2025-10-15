@@ -90,9 +90,9 @@
     ]
   },
   "assistant": {
-    "hash": "sha256-BSvnF+MxhSJ4rTXqt6RbQYAVXEfrTspfCllZ6v0ys5M=",
-    "url": "https://github.com/nextcloud-releases/assistant/releases/download/v2.8.0/assistant-v2.8.0.tar.gz",
-    "version": "2.8.0",
+    "hash": "sha256-hbgxD6VC5ihk/2QQNX7T+Bx94g4+bBsYI4ElUBZhYCo=",
+    "url": "https://github.com/nextcloud-releases/assistant/releases/download/v2.9.0/assistant-v2.9.0.tar.gz",
+    "version": "2.9.0",
     "description": "This app brings a user interface to use the Nextcloud text processing feature.\n\nIt allows users to launch AI tasks, be notified when they finish and see the results.\nThe assistant also appears in others apps like Text to easily process parts of a document.\n\nMore details on the assistant OCS API and frontend integration possibilities in the\n[developer doc](https://github.com/nextcloud/assistant/raw/main/docs/developer)\n\n### How to use it\n\nA new right header menu entry appears. Once clicked, the assistant is displayed and you can select and task type and\nset the input you want to process.\n\nThe task might run immediately or be scheduled depending on the time estimation given by the AI provider.\nOnce a task is scheduled, it will run as a background job. When it is finished, you will receive a notification\nfrom which the results can be displayed.\n\nOther apps can integrate with the assistant. For example, Text will display an inline button besides every paragraph\nto directly select a task type to process this paragraph. Selecting a task this way will open the assistant with the task\nbeing pre-selected and the input text set.\n\nMore details and screenshots in the [user doc](https://github.com/nextcloud/assistant/raw/main/docs/user).\n\n## Features\n\nIn the assistant, the list of available tasks depends on the available providers installed via other apps.\nThis means you have complete freedom over which service/software will actually run your AI tasks.\n\n### Text processing providers\n\nSo far, the [Local Large language model](https://github.com/nextcloud/llm2#readme)\nand the [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai) apps\ninclude text processing providers to:\n* Summarize\n* Extract topics\n* Generate a headline\n* Get an answer from a free prompt\n* Reformulate (OpenAi/LocalAi only)\n* Context writer: Generate text with a specified style. The style can be described or provided via an example text.\n\n### Text to image (Image generation)\n\nKnown providers:\n* [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai)\n* [Text2Image Stable Diffusion](https://apps.nextcloud.com/apps/text2image_stablediffusion)\n\n### Speech to text (Audio transcription)\n\nKnown providers:\n* [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai)\n* [Local Whisper Speech-To-Text](https://apps.nextcloud.com/apps/stt_whisper)\n\nMore details on how to set this up in the [admin docs](https://docs.nextcloud.com/server/latest/admin_manual/ai/index.html)",
     "homepage": "https://github.com/nextcloud/assistant",
     "licenses": [
@@ -260,9 +260,9 @@
     ]
   },
   "certificate24": {
-    "hash": "sha256-hGPXgrE/huEi9jr261yagAEU/UuWtrzuU+snBJbqHP4=",
-    "url": "https://github.com/strukturag/nextcloud-certificate24/releases/download/v0.3.7/certificate24.tar.gz",
-    "version": "0.3.7",
+    "hash": "sha256-qX4HPRpVLhIstMPagh7pOIVtX5FvwCa1Ofjf1htPmR8=",
+    "url": "https://github.com/strukturag/nextcloud-certificate24/releases/download/v0.3.8/certificate24.tar.gz",
+    "version": "0.3.8",
     "description": "Certificate24 - Digital Document Signature\n\nWith Certificate24 you can request digital signatures of documents stored in your Nextcloud from other users in Nextcloud or from external users (by email).\n\nSee [the website](https://www.certificate24.com) for further information.",
     "homepage": "https://www.certificate24.com",
     "licenses": [
@@ -350,9 +350,9 @@
     ]
   },
   "contacts": {
-    "hash": "sha256-E9CV7fJzIFmSyfdUxQrol9mr/VJKxEJTqsaSWbHw3yg=",
-    "url": "https://github.com/nextcloud-releases/contacts/releases/download/v7.3.3/contacts-v7.3.3.tar.gz",
-    "version": "7.3.3",
+    "hash": "sha256-J5ce01iRxpx4g24W5NAt7PgNX2hDjmA9VUzQAkLUrFE=",
+    "url": "https://github.com/nextcloud-releases/contacts/releases/download/v7.3.4/contacts-v7.3.4.tar.gz",
+    "version": "7.3.4",
     "description": "The Nextcloud contacts app is a user interface for Nextcloud's CardDAV server. Easily sync contacts from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Currently Mail and Calendar – more to come.\n* 🎉 **Never forget a birthday!** You can sync birthdays and other recurring events with your Nextcloud Calendar.\n* 👥 **Sharing of Adressbooks!** You want to share your contacts with your friends or coworkers? No problem!\n* 🙈 **We’re not reinventing the wheel!** Based on the great and open SabreDAV library.",
     "homepage": "https://github.com/nextcloud/contacts#readme",
     "licenses": [
@@ -1290,9 +1290,9 @@
     ]
   },
   "integration_homeassistant": {
-    "hash": "sha256-C083NROJzU9EFMwt4uW9zOFYgwe1GM9RXkjx/ksrpVk=",
-    "url": "https://github.com/poulou0/nextcloud-homeassistant-integration/releases/download/v0.0.6/integration_homeassistant.tar.gz",
-    "version": "0.0.6",
+    "hash": "sha256-HtEIRhBSKXP9G/YTdESf0aKpnEx1JoO69OK+KMmqlAw=",
+    "url": "https://github.com/poulou0/nextcloud-homeassistant-integration/releases/download/v0.0.7/integration_homeassistant.tar.gz",
+    "version": "0.0.7",
     "description": "A jinja2 template and a YAML widget for a home-assistant instance.\n\nVideo examples can be found here:\n* [Jinja2 template widget](https://youtu.be/XE_LRTAfVjA)\n* [YAML widget](https://youtu.be/PjWH53rqYe8)",
     "homepage": "https://github.com/poulou0/nextcloud-homeassistant-integration",
     "licenses": [
@@ -1740,8 +1740,8 @@
     ]
   },
   "maps": {
-    "hash": "sha256-IupRymjs955TiUutzoTTMeESNfBmAp51l+oBaZwfdN0=",
-    "url": "https://github.com/nextcloud/maps/releases/download/v1.6.0/maps-1.6.0.tar.gz",
+    "hash": "sha256-E0S/CwXyye19lcuiONEQCyHJqlL0ZG1A9Q7oOTEZH1g=",
+    "url": "https://github.com/nextcloud/maps/releases/download/v1.6.0-3-nightly/maps-1.6.0-3-nightly.tar.gz",
     "version": "1.6.0",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
@@ -2140,9 +2140,9 @@
     ]
   },
   "pdf_downloader": {
-    "hash": "sha256-w4DHY+NDzl3djVQMhy5qZ56oeU8lGqnd6/3X7n19ULw=",
-    "url": "https://github.com/rotdrop/nextcloud-app-pdf-downloader/releases/download/v1.2.8/pdf_downloader.tar.gz",
-    "version": "1.2.8",
+    "hash": "sha256-pNiBYj7yBbdDddvDP9aAPi0wIB+dmIphrZgAf0C00Kw=",
+    "url": "https://github.com/rotdrop/nextcloud-app-pdf-downloader/releases/download/v1.2.9/pdf_downloader.tar.gz",
+    "version": "1.2.9",
     "description": "Recursively convert entire directory trees to PDF and provide the resulting document as download",
     "homepage": "",
     "licenses": [
@@ -2690,9 +2690,9 @@
     ]
   },
   "softwarecatalog": {
-    "hash": "sha256-XXJp7HEAFgWlycds8/nQ4RYqe4ceblCK3MKIIwLEE/0=",
-    "url": "https://github.com/ConductionNL/softwarecatalog/releases/download/v0.1.103/softwarecatalog-0.1.103.tar.gz",
-    "version": "0.1.103",
+    "hash": "sha256-gOitrZ3SNCpTflxSHVm6A2EdWDuG+Oizmo52l/pNOaA=",
+    "url": "https://github.com/ConductionNL/softwarecatalog/releases/download/v0.1.104/softwarecatalog-0.1.104.tar.gz",
+    "version": "0.1.104",
     "description": "🗂️ A Nextcloud App for Software Catalogs\n\nThe Software Catalogus Nextcloud app offers a powerful framework for managing and synchronizing software catalogs within a federated, open data environment.\n\n- 🔄 Synchronize your software data with multiple catalogs\n- 📡 Automatically publish and update your software catalog information\n- 🆓 Completely free and open source under the EUPL license\n\n**Note: System Cron is required for this app to function properly**\n\nFind the installation requirements [here](https://conduction.gitbook.io/opencatalogi-nextcloud/install).\n\nView the development roadmap [here](https://github.com/orgs/OpenCatalogi/projects/1/views/2).\n\nSubmit a [bug report](https://github.com/OpenCatalogi/.github/issues/new/choose).\n\nSubmit a [feature request](https://github.com/OpenCatalogi/.github/issues/new/choose).",
     "homepage": "https://github.com/ConductionNL/SoftwareCatalogus",
     "licenses": [
@@ -2860,9 +2860,9 @@
     ]
   },
   "timetracker": {
-    "hash": "sha256-O4EUsRBaXhqKo30V4ve053RzssNaq9R4JwBjrekzqGE=",
-    "url": "https://mtier.org/timetracker/timetracker-0.0.85.tar.gz",
-    "version": "0.0.85",
+    "hash": "sha256-oV4+5fGqEBUqvW0fw1WXFOPCfZEMfPETu1/sI9id+1w=",
+    "url": "https://mtier.org/timetracker/timetracker-0.0.86.tar.gz",
+    "version": "0.0.86",
     "description": "Track your time spent with different tasks each day using this time tracker app! Features include:\n\n# Adding entries\nWith the integrated timer, you only need to press start and stop! Times will be stored automatically, with 1-second-precision. Forgot to press start? Just use the manual editor, to add entries from the past. Or edit existing ones in case you need to change something!\n\n# Projects, Clients and Tags\nAssign tasks to projects and clients! This allows you to display aggregated durations for each project or client, or filter for tasks by projects or clients. You need some more categorization? That's what tags are made for! Create tags to categorize tasks independently from projects or clients.\n\n# Lost track of your work time?\nNo problem! Just use the Dashboard view to display a nice donut / pie chart of your tasks! Or filter for tasks in the Reports or Timeline view to display total or aggregated values.\n\nThis app is still under development, so stay tuned for updates and additional features! If you have any suggestions, bug reports or feature requests, feel free to head over to our [GitHub project page](https://github.com/mtierltd/timetracker) and search through the existing issues, maybe your topic is already under discussion! And if it's not, feel free to file a new issue for it.\n\nAnd for now, start making your time tracking easier by using this app!",
     "homepage": "",
     "licenses": [
@@ -2930,8 +2930,8 @@
     ]
   },
   "uniteos_notifier": {
-    "hash": "sha256-zLeWoJS6WeBbpv8Z1f60kmWyXz97WBMp379UdK7TZZ8=",
-    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/1.0.2/uniteos_notifier.tar.gz",
+    "hash": "sha256-2l9rUcDRT7ym0nPsyLB8k3oB5Wm1AV5Qnz2zairgl4Y=",
+    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/main/uniteos_notifier.tar.gz",
     "version": "1.0.2",
     "description": "This app allows forwarding Nextcloud events for a deeper integration into UniteOS developed by wechange eG by presenting a selected set of events as user notifications.",
     "homepage": "",
@@ -2990,9 +2990,9 @@
     ]
   },
   "user_oidc": {
-    "hash": "sha256-F92W+jiK8OJ7o/Q4tVsbAfxOSH3uhxkvjomm1ZkTZXM=",
-    "url": "https://github.com/nextcloud-releases/user_oidc/releases/download/v8.0.0/user_oidc-v8.0.0.tar.gz",
-    "version": "8.0.0",
+    "hash": "sha256-e4RnB1CQkQRv4Nl/9oHg0XBhuhrSzqGGsnXSsd0HwbY=",
+    "url": "https://github.com/nextcloud-releases/user_oidc/releases/download/v8.1.0/user_oidc-v8.1.0.tar.gz",
+    "version": "8.1.0",
     "description": "Allows flexible configuration of an OIDC server as Nextcloud login user backend.",
     "homepage": "https://github.com/nextcloud/user_oidc",
     "licenses": [
