@@ -949,6 +949,16 @@
       "agpl"
     ]
   },
+  "integration_itop": {
+    "hash": "sha256-ce5xh9aCWNIXw9453o7RS7xXAZT1iKLlD5N/KEdAYsM=",
+    "url": "https://github.com/lexioj/integration_itop/releases/download/v1.3.1/integration_itop-1.3.1.tar.gz",
+    "version": "1.3.1",
+    "description": "### 🚀 Complete iTop ITSM Integration for Nextcloud\n\nSeamlessly connect your Nextcloud collaboration platform with iTop IT Service Management system. This comprehensive integration brings ITSM functionality directly into your daily workflow without leaving Nextcloud.\n**⚠️ Requires iTop server with REST API enabled**\n\n### ✨ Key Features\n\n#### 📊 Dual Dashboard Widgets\n- **Portal Widget**: Personal ticket queue for all users with status breakdown (Open, Pending, Resolved)\n  - View 4 most recent tickets (Incidents + User Requests)\n  - Visual status indicators and priority badges\n  - Responsive design for mobile/desktop\n- **Agent Widget**: Comprehensive operational dashboard for IT agents only\n  - **My Work**: Assigned incidents and requests with real-time counts\n  - **Team Queue**: Team-wide ticket distribution and workload overview\n  - **Change Management**: Upcoming changes with time windows and types\n  - Automatic visibility control based on user profile (agents vs portal users)\n\n#### 🔗 Dynamic Reference Provider\n- **Rich Link Previews**: Paste iTop ticket links in Talk, Deck, or Collectives for instant rich previews\n- **Detailed Information**: View ticket status, priority, assignee, and description at a glance  \n- **Smart Navigation**: Direct links to full ticket details in iTop\n- **Universal Compatibility**: Works across all Nextcloud apps that support rich content\n\n#### 🔍 Unified Search Integration\n- **Quick Access**: Search your iTop tickets directly from Nextcloud's search bar\n- **Smart Results**: Filter by ticket type (Incidents, User Requests) with status indicators\n- **Personal Scope**: Only shows tickets you created or are assigned to\n- **Real-time Status**: Live priority and status badges in search results\n\n#### 🎯 Smart Picker & Content Integration  \n- **Content Creation**: Insert iTop references while writing in Text app or chatting in Talk\n- **Quick Browse**: Access recent tickets and CIs with smart suggestions\n- **Rich Insertion**: Add links that automatically become interactive previews\n- **Context Aware**: Relevant suggestions based on your current work\n\n#### ⚙️ Professional Settings Interface\n- **Personal Dashboard**: Real-time status with connection indicator and ticket counts\n- **Secure Authentication**: Token-based setup with one-time personal token validation\n- **User Profile Display**: See your iTop identity (name, email, organization)\n- **Notification Control**: Configure alerts for new assignments and updates\n\n#### 🛠️ Enterprise Admin Panel\n- **Centralized Configuration**: System-wide settings with encrypted token storage\n- **Connection Testing**: Real-time validation of iTop server connectivity  \n- **User Monitoring**: Track connected users and system health\n\n#### 🔐 Security & Architecture\n- **Dual-Token Security**: Separate application and personal tokens for maximum security\n- **Data Isolation**: All queries filtered by Person ID - users only see their own data\n- **Portal User Support**: Works with SAML/external authentication via Portal Personal Tokens\n- **No Data Storage**: Personal tokens used once for verification, then discarded\n\n### 🏢 Perfect For\n- IT teams managing incidents and service requests\n- Help desk agents tracking assigned tickets  \n- End users checking their request status\n- Organizations using both Nextcloud and iTop ITSM\n\n### 🔧 Technical Requirements\n- **iTop Server**: Version 1.3+ with REST API enabled\n- **Nextcloud**: Version 30.0 or higher\n- **PHP**: 8.1 or higher\n- **Optional**: [iTop Portal Personal Tokens Extension](https://github.com/LexioJ/itop-portal-personal-tokens) for enhanced Portal user support\n\n#### Start streamlining your ITSM workflow - Connect iTop with Nextcloud and experience unified IT service management!",
+    "homepage": "https://github.com/lexioj/integration_itop",
+    "licenses": [
+      "AGPL-3.0-or-later"
+    ]
+  },
   "integration_jira": {
     "hash": "sha256-kxjxl5cVvd3NW5PBz4zN2H8CaVl/alQu+3Qb094g5zY=",
     "url": "https://github.com/nextcloud-releases/integration_jira/releases/download/v1.4.0/integration_jira-v1.4.0.tar.gz",
@@ -1880,10 +1890,10 @@
     ]
   },
   "sharereview": {
-    "hash": "sha256-pfUyAWad90an1YkiRM7n42oorwyOnXkcm7hcmVHfjxs=",
-    "url": "https://github.com/Rello/sharereview/releases/download/1.5.0/sharereview-1.5.0.tar.gz",
-    "version": "1.5.0",
-    "description": "This app can be used for auditing shares within a Nextcloud instance e.g. for data loss prevention.\nShare status can be exported for documentation.\n\n- Review any file share\n  - files, talk, deck, teams, federation\n  - app specific shares (if implemented by other apps)\n- Remove shares\n- Confirm current review\n  - show only new shares next time\n- Audit compliance\n- Assign review to user groups (e.g. audit or risk mgmt)\n- Export as CSV or PDF\n\nNote:\nThe app must be restricted to at least one specific user group in the app store.\nThis prevents accidental exposure of the shared content to all users.",
+    "hash": "sha256-YQu5aVCz0QGo/XL/bXq/QfXRRbZpobOq4AxV1VQ38nY=",
+    "url": "https://github.com/Rello/sharereview/releases/download/1.6.0/sharereview-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "description": "This app can be used for auditing shares within a Nextcloud instance e.g. for data loss prevention.\nShare status can be exported for documentation.\n\n- Review any file share\n  - files, talk, deck, teams, federation\n  - app specific shares (if implemented by other apps)\n- Remove shares\n- Confirm current review\n  - show only new shares next time\n- Audit compliance\n- Assign review to user groups (e.g. audit or risk mgmt)\n- Export as CSV or PDF (manual or regular background job)\n\nNote:\nThe app must be restricted to at least one specific user group in the app store.\nThis prevents accidental exposure of the shared content to all users.",
     "homepage": "https://github.com/Rello/sharereview",
     "licenses": [
       "agpl"
@@ -2100,9 +2110,9 @@
     ]
   },
   "tasks": {
-    "hash": "sha256-h3u9xR3zguKvVWXA7CNSde2sEdvgsT18cYAHp8dKPSg=",
-    "url": "https://github.com/nextcloud/tasks/releases/download/v0.17.0/tasks.tar.gz",
-    "version": "0.17.0",
+    "hash": "sha256-I5QdNavgv74FSuXwFWNz/++LOY9Z8kNZhEKf2k118L8=",
+    "url": "https://github.com/nextcloud/tasks/releases/download/v0.17.1/tasks.tar.gz",
+    "version": "0.17.1",
     "description": "Once enabled, a new Tasks menu will appear in your Nextcloud apps menu. From there you can add and delete tasks, edit their title, description, start and due dates and mark them as important. Tasks can be shared between users. Tasks can be synchronized using CalDav (each task list is linked to an Nextcloud calendar, to sync it to your local client: Thunderbird, Evolution, KDE Kontact, iCal … - just add the calendar as a remote calendar in your client). You can download your tasks as ICS files using the download button for each calendar.",
     "homepage": "https://github.com/nextcloud/tasks/",
     "licenses": [
