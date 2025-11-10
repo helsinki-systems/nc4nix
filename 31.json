@@ -160,9 +160,9 @@
     ]
   },
   "autocurrency": {
-    "hash": "sha256-y6bSKj0XJa+GaaSx2WpwNDiXST54gI89VMr0owJG2io=",
-    "url": "https://github.com/chenasraf/nextcloud-autocurrency/releases/download/v1.4.1/autocurrency-v1.4.1.tar.gz",
-    "version": "1.4.1",
+    "hash": "sha256-r+CySkRCBQAdmIO9uLkxZSqNGufl6ARIRTSBGpp2owA=",
+    "url": "https://github.com/chenasraf/nextcloud-autocurrency/releases/download/v1.4.2/autocurrency-v1.4.2.tar.gz",
+    "version": "1.4.2",
     "description": "This NextCloud app automatically fetches currency information for your Cospend projects, and fills\nthem up using the main currency as base. No more manually updating exchange rates!\n\n\nYou can also view the history of currency rates fetched in the past, and see how they changed over time.\n\n\nIt will automatically run once a day by default and use your currency names to fetch the correct\nrate.\n\n\nInterval for fetch may be adjusted in the admin settings \"Auto Currency\" section.\n\n\n> **Note**: This is a companion app to [Cospend](https://apps.nextcloud.com/apps/cospend).\n>\n> Without Cospend, this app will not work.",
     "homepage": "https://github.com/chenasraf/nextcloud-autocurrency",
     "licenses": [
@@ -539,6 +539,16 @@
       "agpl"
     ]
   },
+  "edusign": {
+    "hash": "sha256-hlc2E6au7ayJRaipEGbcKBcbt5nIblPiTh0z7MRgEjE=",
+    "url": "https://github.com/SUNET/nextcloud-edusign/releases/download/v0.0.4/edusign-0.0.4.tar.gz",
+    "version": "0.0.4",
+    "description": "Edusign integration for Nextcloud",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "eidlogin": {
     "hash": "sha256-2eT6zwLL0JP3Z9rMRuV8yJUSfXEr8QFRu+APKAHjVGE=",
     "url": "https://github.com/eid-login/eid-login-nextcloud/releases/download/1.0.19/eidlogin.tar.gz",
@@ -770,10 +780,10 @@
     ]
   },
   "files_external_ethswarm": {
-    "hash": "sha256-vPIqweQiDZqchB8sCIoqlIItu9nYa2eHXgqttYHLExQ=",
-    "url": "https://github.com/MetaProvide/nextcloud-swarm-plugin/releases/download/v1.0.1/files_external_ethswarm.tar.gz",
-    "version": "1.0.1",
-    "description": "*Bring decentralized, sovereign cloud storage to Nextcloud with the HejBit Swarm plugin!*\n\nThis plugin integrates [Swarm](https://www.ethswarm.org/) (a decentralized, blockchain-connected file storage system) directly into your [Nextcloud ](https://nextcloud.com/)instance.\n\n## Table of Contents\n\n- Dependencies\n- Setup and Installation\n- Usage\n  - Settings\n  - Using HejBit Swarm\n  - Additional Integration with Moodle\n- HejBit Free Trial\n- License\n\n\n## Dependencies\n\nBefore using the plugin, ensure you have the following:\n\n- An active Nextcloud instance (version 30, 31 or 32)\n- A valid Access Key and URL to activate the service\n  - [Get Your Free Trial for the Nextcloud Swarm Plugin](https://app.hejbit.com)\n\n## Setup and Installation\n\nFollow these steps to configure HejBit Swarm in Nextcloud:\n\n1. Ensure the **External Storage** plugin is enabled.\n2. Install the **External Storage: HejBit Swarm** app from the Nextcloud App Store.\n3. Navigate to External Storage Administration: Profile menu -> Settings -> External Storage.\n4. Create a new external storage with a folder name of your choice and select *'HejBit-Swarm'* as the storage type. Then, enter the Access Key and URL configuration.\n\n## Usage\n\nOnce installed, HejBit integrates Swarm directly with Nextcloud’s \"Files\" section, allowing seamless file operations:\n\n- **Upload:** Transfer files to decentralized storage.\n- **Download/View:** Retrieve and view files from decentralized storage.\n- **Copy/Move:** Shift files between any external storage and decentralized storage.\n- **Rename:** Change file names as needed.\n- **Archive/Restore:** Manage your files by archiving or restoring them.\n- **Hide/Show:** Control the visibility of files in your storage.\n- **View Swarm Reference:** Access the unique Swarm reference for each file.\n- **Export all Swarm References:** Backup all your Swarm references easily.\n\nAdditionally, we have introduced a HejBit Feedback button that appears in the bottom left corner when you are inside a HejBit folder. This feature allows users to easily send feedback regarding general inquiries, ideas, or issues directly from the plugin.\n\n### Settings\n\nUsers with administrative credentials can configure the plugin through the standard External Storage settings. Here, you can input your Access Key and URL for HejBit.\n\n### Using HejBit Swarm\n\nOnce setup and configured, the Decentralized Storage is ready to use.\n\n- Access the Decentralized Storage folder under \"All Files\" or via the \"Files\" menu under \"External Storage.\"\n- Once uploaded, it can be viewed internally or downloaded. It can also be copied to another storage.\n- Files from another Nextcloud storage can also be copied/moved to the decentralized storage. Choose the decentralized storage folder as the target Folder.\n- To access a file's Swarm reference (its unique swarm network address), you have two options: right-click directly on the file and select the reference option, or use the three-dot Actions menu and choose 'View Swarm Reference.' Both methods will display the hash, which you can then copy to your clipboard for sharing or future access.\n- To effectively organize your files, you can utilize the Archive and Restore features for both folders and individual files, allowing for better management of your storage.\n- For a comprehensive backup of all your Swarm hashes, you can easily export all Swarm references directly from the menu located in the root HejBit Swarm folder.\n- We encourage you to share your thoughts and experiences with us! A **HejBit Feedback** button is conveniently located in the bottom left corner when you are inside a HejBit folder. This feature allows you to provide feedback on any inquiries, suggestions, or issues you may encounter, helping us enhance your experience and improve the plugin for all users.\n\n\n\n\n### Additional Integration with Moodle\n\nYou can also enhance your experience by integrating the HejBit Swarm plugin with the **Moodle Nextcloud plugin**. This integration allows users to access decentralized storage directly within the Moodle environment, providing a seamless experience for educational content management. For more information on how to set up this integration, visit the [Moodle Nextcloud repository documentation](https://docs.moodle.org/405/en/Nextcloud_repository).\n\nFor detailed guidance on using the integrated features, please refer to the [Metaprovide Learning Platform](https://learning.metaprovide.org/login/index.php).\n\n## HejBit Free Trial\n\nExperience the future of data storage with 5GB of free, decentralized storage on the Ethereum Swarm network. This offer is available as a 14-day free trial, allowing you to explore the capabilities of our plugin without any commitment. HejBit seamlessly integrates with your existing Nextcloud interface, providing true data sovereignty without the complexity. Enjoy the benefits of decentralized storage and take control of your data today!\n[Get your Free Trial here!](https://app.hejbit.com)\n\n## License\n\nThis program is licensed under the AGPLv3 or later.",
+    "hash": "sha256-2sRblPgoydIvJ65y0mMIqDdH+K8xvanPTt+wYr49Dlk=",
+    "url": "https://github.com/MetaProvide/nextcloud-swarm-plugin/releases/download/v1.0.2/files_external_ethswarm.tar.gz",
+    "version": "1.0.2",
+    "description": "*Bring decentralized, sovereign cloud storage to Nextcloud with the HejBit Swarm plugin!*\n\nThis plugin integrates [Swarm](https://www.ethswarm.org/) (a decentralized, blockchain-connected file storage system) directly into your [Nextcloud ](https://nextcloud.com/)instance.\n\n## Table of Contents\n\n- Dependencies\n- Setup and Installation\n- Usage\n  - Settings\n  - Using HejBit Swarm\n  - Additional Integration with Moodle\n- HejBit Free Trial\n- License\n\n\n## Dependencies\n\nBefore using the plugin, ensure you have the following:\n\n- An active Nextcloud instance (version 31 or 32)\n- A valid Access Key and URL to activate the service\n  - [Get Your Free Trial for the Nextcloud Swarm Plugin](https://app.hejbit.com)\n\n## Setup and Installation\n\nFollow these steps to configure HejBit Swarm in Nextcloud:\n\n1. Ensure the **External Storage** plugin is enabled.\n2. Install the **External Storage: HejBit Swarm** app from the Nextcloud App Store.\n3. Navigate to External Storage Administration: Profile menu -> Settings -> External Storage.\n4. Create a new external storage with a folder name of your choice and select *'HejBit-Swarm'* as the storage type. Then, enter the Access Key and URL configuration.\n\n## Usage\n\nOnce installed, HejBit integrates Swarm directly with Nextcloud’s \"Files\" section, allowing seamless file operations:\n\n- **Upload:** Transfer files to decentralized storage.\n- **Download/View:** Retrieve and view files from decentralized storage.\n- **Copy/Move:** Shift files between any external storage and decentralized storage.\n- **Rename:** Change file names as needed.\n- **Archive/Restore:** Manage your files by archiving or restoring them.\n- **Hide/Show:** Control the visibility of files in your storage.\n- **View Swarm Reference:** Access the unique Swarm reference for each file.\n- **Export all Swarm References:** Backup all your Swarm references easily.\n\nAdditionally, we have introduced a HejBit Feedback button that appears in the bottom left corner when you are inside a HejBit folder. This feature allows users to easily send feedback regarding general inquiries, ideas, or issues directly from the plugin.\n\n### Settings\n\nUsers with administrative credentials can configure the plugin through the standard External Storage settings. Here, you can input your Access Key and URL for HejBit.\n\n### Using HejBit Swarm\n\nOnce setup and configured, the Decentralized Storage is ready to use.\n\n- Access the Decentralized Storage folder under \"All Files\" or via the \"Files\" menu under \"External Storage.\"\n- Once uploaded, it can be viewed internally or downloaded. It can also be copied to another storage.\n- Files from another Nextcloud storage can also be copied/moved to the decentralized storage. Choose the decentralized storage folder as the target Folder.\n- To access a file's Swarm reference (its unique swarm network address), you have two options: right-click directly on the file and select the reference option, or use the three-dot Actions menu and choose 'View Swarm Reference.' Both methods will display the hash, which you can then copy to your clipboard for sharing or future access.\n- To effectively organize your files, you can utilize the Archive and Restore features for both folders and individual files, allowing for better management of your storage.\n- For a comprehensive backup of all your Swarm hashes, you can easily export all Swarm references directly from the menu located in the root HejBit Swarm folder.\n- We encourage you to share your thoughts and experiences with us! A **HejBit Feedback** button is conveniently located in the bottom left corner when you are inside a HejBit folder. This feature allows you to provide feedback on any inquiries, suggestions, or issues you may encounter, helping us enhance your experience and improve the plugin for all users.\n\n\n\n\n### Additional Integration with Moodle\n\nYou can also enhance your experience by integrating the HejBit Swarm plugin with the **Moodle Nextcloud plugin**. This integration allows users to access decentralized storage directly within the Moodle environment, providing a seamless experience for educational content management. For more information on how to set up this integration, visit the [Moodle Nextcloud repository documentation](https://docs.moodle.org/405/en/Nextcloud_repository).\n\nFor detailed guidance on using the integrated features, please refer to the [Metaprovide Learning Platform](https://learning.metaprovide.org/login/index.php).\n\n## HejBit Free Trial\n\nExperience the future of data storage with 5GB of free, decentralized storage on the Ethereum Swarm network. This offer is available as a 14-day free trial, allowing you to explore the capabilities of our plugin without any commitment. HejBit seamlessly integrates with your existing Nextcloud interface, providing true data sovereignty without the complexity. Enjoy the benefits of decentralized storage and take control of your data today!\n[Get your Free Trial here!](https://app.hejbit.com)\n\n## License\n\nThis program is licensed under the AGPLv3 or later.",
     "homepage": "https://github.com/MetaProvide/nextcloud-swarm-plugin",
     "licenses": [
       "agpl"
@@ -1290,9 +1300,9 @@
     ]
   },
   "integration_jira": {
-    "hash": "sha256-kxjxl5cVvd3NW5PBz4zN2H8CaVl/alQu+3Qb094g5zY=",
-    "url": "https://github.com/nextcloud-releases/integration_jira/releases/download/v1.4.0/integration_jira-v1.4.0.tar.gz",
-    "version": "1.4.0",
+    "hash": "sha256-k4Sv2OFWe6Og7j4vhYmMU/6OPh+cDX3d0pa36nayOrA=",
+    "url": "https://github.com/nextcloud-releases/integration_jira/releases/download/v1.4.1/integration_jira-v1.4.1.tar.gz",
+    "version": "1.4.1",
     "description": "Jira integration provides a dashboard widget displaying your important notifications,\na unified search provider to search for issues\nand notifications about recent activity related to your assigned issues.",
     "homepage": "https://github.com/nextcloud/integration_jira",
     "licenses": [
@@ -1350,9 +1360,9 @@
     ]
   },
   "integration_nuiteq": {
-    "hash": "sha256-E1qrjS6Gca9Ib1PGaYt+EAMj3xvZ2eHqcZd0SxicNG0=",
-    "url": "https://github.com/nextcloud-releases/integration_nuiteq/releases/download/v1.1.0/integration_nuiteq-v1.1.0.tar.gz",
-    "version": "1.1.0",
+    "hash": "sha256-yTe436UcHU8lTxZsfAkMghR+drWETlMXybdNvrwJJt4=",
+    "url": "https://github.com/nextcloud-releases/integration_nuiteq/releases/download/v1.1.1/integration_nuiteq-v1.1.1.tar.gz",
+    "version": "1.1.1",
     "description": "NUITEQ Stage creates a natural interaction between participants in a Modern Meeting by merging the experience of creating together on a whiteboard and discussing in a video call and chat. Prepare and upload files and presentations, share them with others in the meeting. Designed for collaboration first to engage team members - NUITEQ Stage is safe, easy and efficient to use.\n\nThis app provides a simple interface to list, create and share NUITEQ Stage whiteboards.",
     "homepage": "https://github.com/nextcloud/integration_nuiteq",
     "licenses": [
@@ -1390,8 +1400,8 @@
     ]
   },
   "integration_openproject": {
-    "hash": "sha256-UfrfgQP7n0u26qCxcrsl3N9c5jMsydHXil1k22t0rH0=",
-    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.10.1/integration_openproject-2.10.1.tar.gz",
+    "hash": "sha256-W3F1n9G1hdXx4vixIUp+CKjZfTPohZJ90XH7J8aKZxU=",
+    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.10.1-20251029-nightly/integration_openproject-2.10.1-20251029-nightly.tar.gz",
     "version": "2.10.1",
     "description": "This application enables seamless integration with open source project management and collaboration software OpenProject.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in OpenProject\n* Find all work packages linked to a file or a folder\n* Create work packages directly in Nextcloud\n* View OpenProject notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n* Link work packages in rich text fields via Smart Picker\n* Preview links to work packages in text fields\n* Link multiple files and folder to a work package at once\n\nOn the OpenProject end, users are able to:\n\n* Link work packages with files and folders in Nextcloud\n* Upload and download files directly to Nextcloud from within a work package\n* Open linked files in Nextcloud to edit them\n* Let OpenProject create shared folders per project\n\nFor more information on how to set up and use the OpenProject application, please refer to [integration setup guide](https://www.openproject.org/docs/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://www.openproject.org/docs/user-guide/nextcloud-integration/).",
     "homepage": "https://github.com/nextcloud/integration_openproject",
@@ -1410,10 +1420,10 @@
     ]
   },
   "integration_overleaf": {
-    "hash": "sha256-Ch6nVF/U0NwhHX0vsJTuAvKApJHoZwf1NZXRHXscRZk=",
-    "url": "https://github.com/nextcloud-releases/integration_overleaf/releases/download/v1.0.2/integration_overleaf-v1.0.2.tar.gz",
-    "version": "1.0.2",
-    "description": "App to edit latex files using overleaf.",
+    "hash": "sha256-pKWzZNQ/IrZhqvyTo1ksZrE3ylgQv3PyuoINfJdonZw=",
+    "url": "https://github.com/nextcloud-releases/integration_overleaf/releases/download/v1.1.0/integration_overleaf-v1.1.0.tar.gz",
+    "version": "1.1.0",
+    "description": "App to edit LaTeX files using Overleaf.",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -1440,9 +1450,9 @@
     ]
   },
   "integration_reddit": {
-    "hash": "sha256-lZcr9drKwhqsX99wyIchmOfyOjZerlmUBox2opXHpP0=",
-    "url": "https://github.com/nextcloud-releases/integration_reddit/releases/download/v2.1.0/integration_reddit-v2.1.0.tar.gz",
-    "version": "2.1.0",
+    "hash": "sha256-tbWetJA+7YSvYrp+RnugUONyLk7dp5GJnEKd0uynPVg=",
+    "url": "https://github.com/nextcloud-releases/integration_reddit/releases/download/v2.1.1/integration_reddit-v2.1.1.tar.gz",
+    "version": "2.1.1",
     "description": "Reddit integration provides a dashboard widget displaying your recent subscribed news.",
     "homepage": "https://github.com/nextcloud/integration_reddit",
     "licenses": [
@@ -1920,9 +1930,9 @@
     ]
   },
   "oidc": {
-    "hash": "sha256-yJ8ZiXHxiHmPzXLwIycN+K2gpoIFJTeTAdLryNAd9gc=",
-    "url": "https://github.com/H2CK/oidc/releases/download/1.12.1/oidc-1.12.1.tar.gz",
-    "version": "1.12.1",
+    "hash": "sha256-dOZM/Ent3NS9Gk2hfEpQYIXJ/Pz1o+9+xj0YLxb9NsM=",
+    "url": "https://github.com/H2CK/oidc/releases/download/1.13.0/oidc-1.13.0.tar.gz",
+    "version": "1.13.0",
     "description": "Nextcloud as OpenID Connect Identity Provider\n\nWith this app you can use Nextcloud as OpenID Connect Identity Provider. If other services\nare configured correctly, you are able to access those services with your Nextcloud login.\n\nFull documentation can be found at:\n\n- [User Documentation](https://github.com/H2CK/oidc/wiki#user-documentation)\n- [Developer Documentation](https://github.com/H2CK/oidc/wiki#developer-documentation)",
     "homepage": "https://github.com/H2CK/oidc",
     "licenses": [
@@ -2130,9 +2140,9 @@
     ]
   },
   "photo_frames": {
-    "hash": "sha256-iEao34vHkFksYnyEt7p/++GuM0pAK5T7ErKLOCtf8fQ=",
-    "url": "https://github.com/jeppester/nextcloud-photo-frames/releases/download/1.5.0/photo_frames.tar.gz",
-    "version": "1.5.0",
+    "hash": "sha256-EdK/CBTkCuGJBa7jhuIda4hsJudClX13y944CRu/Av0=",
+    "url": "https://github.com/jeppester/nextcloud-photo-frames/releases/download/1.5.1/photo_frames.tar.gz",
+    "version": "1.5.1",
     "description": "Generate easily sharable photo frame URLs for your Nextcloud albums.\n\nThe possiblities are endless:\n\n- Turn any android device into a smart photo frame (with the help of a kiosk browser)\n- Co-create photo frames with Nextcloud's collaborative albums\n- Share photo frames across households",
     "homepage": "",
     "licenses": [
@@ -2230,10 +2240,10 @@
     ]
   },
   "recognize": {
-    "hash": "sha256-7EK4QIM9/Qbku2cTOmMcz6ywqKT9l2Ot1DYsdAXOo2E=",
-    "url": "https://github.com/nextcloud/recognize/releases/download/v9.0.7/recognize-9.0.7.tar.gz",
-    "version": "9.0.7",
-    "description": "Smart media tagging and face recognition with on-premises machine learning models.\nThis app goes through your media collection and adds fitting tags, automatically categorizing your photos and music.\n\n* 📷 👪 Recognizes faces\n* 📷 🏔 Recognizes animals, landscapes, food, vehicles, buildings and other objects\n* 📷 🗼 Recognizes landmarks and monuments\n* 👂 🎵 Recognizes music genres\n* 🎥 🤸 Recognizes human actions on video\n\n⚡ Tagging works via Nextcloud's Collaborative Tags\n  * 👂 listen to your tagged music with the audioplayer app\n  * 📷 view your tagged photos and videos with the photos app\n\nModel sizes:\n\n * Object recognition: 1GB\n * Landmark recognition: 300MB\n * Video action recognition: 50MB\n * Music genre recognition: 50MB\n\n## Ethical AI Rating\n### Rating for Photo object detection: 🟢\n\nPositive:\n* the software for training and inference of this model is open source\n* the trained model is freely available, and thus can be run on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n### Rating for Photo face recognition: 🟢\n\nPositive:\n* the software for training and inference of this model is open source\n* the trained model is freely available, and thus can be run on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n### Rating for Video action recognition: 🟢\n\nPositive:\n* the software for training and inferencing of this model is open source\n* the trained model is freely available, and thus can be ran on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n## Ethical AI Rating\n### Rating Music genre recognition: 🟡\n\nPositive:\n* the software for training and inference of this model is open source\n* the trained model is freely available, and thus can be run on-premises\n\nNegative:\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).\n\nAfter installation, you can enable tagging in the admin settings.\n\nRequirements:\n- App \"collaborative tags\" enabled\n- For native speed:\n  - Processor: x86 64-bit (with support for AVX instructions)\n  - System with glibc (usually the norm on Linux; FreeBSD, Alpine linux and thus also the official Nextcloud Docker container and Nextcloud AIO are *not* such systems)\n- For sub-native speed (using WASM mode)\n  - Processor: x86 64-bit, arm64, armv7l (no AVX needed)\n  - System with glibc or musl (incl. Alpine linux and thus also the official Nextcloud Docker container and also Nextcloud AIO)\n- ~4GB of free RAM (if you're cutting it close, make sure you have some swap available)\n\nThe app does not send any sensitive data to cloud providers or similar services. All processing is done on your Nextcloud machine, using Tensorflow.js running in Node.js.",
+    "hash": "sha256-AoVNlUaBV1Qez3OSE8ggouuFULSqTk92iy6ma15I1cM=",
+    "url": "https://github.com/nextcloud/recognize/releases/download/v9.0.8/recognize-9.0.8.tar.gz",
+    "version": "9.0.8",
+    "description": "Smart media tagging and face recognition with on-premises machine learning models.\nThis app goes through your media collection and adds fitting tags, automatically categorizing your photos and music.\n\n* 📷 👪 Recognizes faces from contact photos\n* 📷 🏔 Recognizes animals, landscapes, food, vehicles, buildings and other objects\n* 📷 🗼 Recognizes landmarks and monuments\n* 👂 🎵 Recognizes music genres\n* 🎥 🤸 Recognizes human actions on video\n\n⚡ Tagging works via Nextcloud's Collaborative Tags\n  * 👂 listen to your tagged music with the audioplayer app\n  * 📷 view your tagged photos and videos with the photos app\n\nModel sizes:\n\n * Object recognition: 1GB\n * Landmark recognition: 300MB\n * Video action recognition: 50MB\n * Music genre recognition: 50MB\n\n## Ethical AI Rating\n### Rating for Photo object detection: 🟢\n\nPositive:\n* the software for training and inference of this model is open source\n* the trained model is freely available, and thus can be run on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n### Rating for Photo face recognition: 🟢\n\nPositive:\n* the software for training and inference of this model is open source\n* the trained model is freely available, and thus can be run on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n### Rating for Video action recognition: 🟢\n\nPositive:\n* the software for training and inferencing of this model is open source\n* the trained model is freely available, and thus can be ran on-premises\n* the training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n## Ethical AI Rating\n### Rating Music genre recognition: 🟡\n\nPositive:\n* the software for training and inference of this model is open source\n* the trained model is freely available, and thus can be run on-premises\n\nNegative:\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).\n\nAfter installation, you can enable tagging in the admin settings.\n\nRequirements:\n- php 7.4 and above\n- App \"collaborative tags\" enabled\n- For native speed:\n  - Processor: x86 64-bit (with support for AVX instructions)\n  - System with glibc (usually the norm on Linux; FreeBSD, Alpine linux and thus also the official Nextcloud Docker container and Nextcloud AIO are *not* such systems)\n- For sub-native speed (using WASM mode)\n  - Processor: x86 64-bit, arm64, armv7l (no AVX needed)\n  - System with glibc or musl (incl. Alpine linux and thus also the official Nextcloud Docker container and also Nextcloud AIO)\n- ~4GB of free RAM (if you're cutting it close, make sure you have some swap available)\n- This app is currently incompatible with the *Suspicious Login* app due to a dependency conflict (ie. you can only have one of the two installed)\n\nThe app does not send any sensitive data to cloud providers or similar services. All processing is done on your Nextcloud machine, using Tensorflow.js running in Node.js.",
     "homepage": "https://github.com/nextcloud/recognize",
     "licenses": [
       "agpl"
@@ -2380,9 +2390,9 @@
     ]
   },
   "sentry": {
-    "hash": "sha256-MaeHzJds/c8FvHcor1ppCruxpVZoC9goV77ZZ1F8Uk0=",
-    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.16.3/sentry-v8.16.3.tar.gz",
-    "version": "8.16.3",
+    "hash": "sha256-xpnpdxxUsBwruJYeoAKemJqNbTLttlLAmnqTQ5ovc7Y=",
+    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.16.4/sentry-v8.16.4.tar.gz",
+    "version": "8.16.4",
     "description": "A Sentry integration that sends unhandled exceptions to a Sentry instance to aggregate application crashes. You either have to set up your own Sentry instance or use your sentry.io account. See the admin documentation for how to configure this app.",
     "homepage": "https://github.com/ChristophWurst/nextcloud_sentry",
     "licenses": [
@@ -2740,10 +2750,10 @@
     ]
   },
   "threedviewer": {
-    "hash": "sha256-4ncmz8B3y5GowiOAStN+BuvQzF6vcAk3nmx1zLkBsO0=",
-    "url": "https://github.com/maz1987in/3Dviewer-Nextcloud/releases/download/v1.8.0/threedviewer-v1.8.0.tar.gz",
-    "version": "1.8.0",
-    "description": "A comprehensive 3D model viewer that allows you to view, interact with, and analyze 3D models directly within Nextcloud. Supports 10+ formats including GLB, GLTF, OBJ, STL, PLY, FBX, 3MF, and 3DS with full material and texture support.\n\n**📦 Format Support:**\n- 🎨 Multi-format support: GLB, GLTF, OBJ+MTL, STL, PLY, FBX, 3MF, 3DS, DAE, X3D, VRML\n- 📁 Multi-file models: Full support for OBJ+MTL+textures and GLTF+bins+images\n- 🗜️ Compression: DRACO geometry and KTX2/Basis texture compression (needs more work)\n\n**🎮 Interactive Features:**\n- 🎯 3D Camera Controller: Intuitive circular controller for precise camera navigation\n- 🔄 Model comparison: Side-by-side viewing with synchronized controls\n- 📝 Annotations: Add notes and markers to specific points on models (always readable, faces camera)\n- 📏 Measurements: Distance and angle measurement tools (with billboard text)\n- 🧭 Face labels: Orientation markers (TOP, BOTTOM, FRONT, BACK, LEFT, RIGHT)\n- 👁️ Camera projection toggle: Switch between perspective and orthographic views\n\n**⚡ Export & Tools:**\n- 📷 Screenshot capture: Take high-quality PNG/JPEG screenshots of your models\n- 💾 Export models to GLB, STL, and OBJ formats\n- 📊 Model statistics panel with detailed information\n- 🔲 Wireframe and bounding box visualization\n- 📐 Dynamic grid system that adapts to model size and position\n- ❓ Help panel with comprehensive in-app documentation\n\n**🚀 Performance & UX:**\n- 🖼️ Progressive texture loading for improved performance\n- 💿 Dependency caching using IndexedDB for faster multi-file loading\n- ⚙️ Performance modes with visual quality overlay\n- 📦 Code splitting and dynamic imports\n- 🌓 Light and dark theme support with RTL layout\n- 🔗 Works with public shares and authenticated users\n- ♿ Accessibility features with keyboard navigation and ARIA labels\n\nBuilt with Three.js for high-performance WebGL rendering. ✨",
+    "hash": "sha256-6YAi2HbkidakBToQhD3mHfBdW6OsXvVUOt9Eu2ZsmnE=",
+    "url": "https://github.com/maz1987in/3Dviewer-Nextcloud/releases/download/v1.9.0/threedviewer-v1.9.0.tar.gz",
+    "version": "1.9.0",
+    "description": "A comprehensive 3D model viewer that allows you to view, interact with, and analyze 3D models directly within Nextcloud. Supports 10+ formats including GLB, GLTF, OBJ, STL, PLY, FBX, 3MF, and 3DS with full material and texture support.\n\n**📦 Format Support:**\n- 🎨 Multi-format support: GLB, GLTF, OBJ+MTL, STL, PLY, FBX, 3MF, 3DS, DAE, X3D, VRML\n- 📁 Multi-file models: Full support for OBJ+MTL+textures and GLTF+bins+images\n- 🗜️ Compression: DRACO geometry and KTX2/Basis texture compression (needs more work)\n\n**🎮 Interactive Features:**\n- 🎯 3D Camera Controller: Intuitive circular controller for precise camera navigation\n- 🔄 Model comparison: Side-by-side viewing with synchronized controls\n- 📝 Annotations: Add notes and markers to specific points on models (always readable, faces camera)\n- 📏 Measurements: Distance and angle measurement tools (with billboard text)\n- 🧭 Face labels: Orientation markers (TOP, BOTTOM, FRONT, BACK, LEFT, RIGHT)\n- 👁️ Camera projection toggle: Switch between perspective and orthographic views\n\n**⚡ Export & Tools:**\n- 📷 Screenshot capture: Take high-quality PNG/JPEG screenshots of your models\n- 💾 Export models to GLB, STL, and OBJ formats\n- 🖨️ Slicer integration: Send models directly to PrusaSlicer, Cura, BambuStudio, OrcaSlicer, Simplify3D, and Eufy Studio\n- 📊 Model statistics panel with detailed information\n- 🔲 Wireframe and bounding box visualization\n- 📐 Dynamic grid system that adapts to model size and position\n- ❓ Help panel with comprehensive in-app documentation\n\n**🚀 Performance & UX:**\n- 🖼️ Progressive texture loading for improved performance\n- 💿 Dependency caching using IndexedDB for faster multi-file loading\n- ⚙️ Performance modes with visual quality overlay\n- 📦 Code splitting and dynamic imports\n- 🌓 Light and dark theme support with RTL layout\n- 🔗 Works with public shares and authenticated users\n- ♿ Accessibility features with keyboard navigation and ARIA labels\n\nBuilt with Three.js for high-performance WebGL rendering. ✨",
     "homepage": "https://github.com/maz1987in/3Dviewer-Nextcloud",
     "licenses": [
       "agpl"
@@ -2790,9 +2800,9 @@
     ]
   },
   "twofactor_admin": {
-    "hash": "sha256-zZvH7xfSooKBG4CKvSuf8D/6KnKEunLa+DRLAkWGoow=",
-    "url": "https://github.com/nextcloud-releases/twofactor_admin/releases/download/v4.8.0/twofactor_admin.tar.gz",
-    "version": "4.8.0",
+    "hash": "sha256-mxbjJ4y98RMK63BZdxy8StGmxyPLKFEioDvDB5mADb8=",
+    "url": "https://github.com/nextcloud-releases/twofactor_admin/releases/download/v4.9.0/twofactor_admin.tar.gz",
+    "version": "4.9.0",
     "description": "This two-factor auth (2FA) provider for Nextcloud allows admins to generate a one-time\n\t\tcode for users to log into a 2FA protected account. This is helpful in situations where\n\t\tusers have lost access to their other 2FA methods or mandatory 2FA without any previously\n\t\tenabled 2FA provider.",
     "homepage": "",
     "licenses": [
@@ -3070,9 +3080,9 @@
     ]
   },
   "workspace": {
-    "hash": "sha256-Be/bJLGhvSiXJqbI91XZll++hTK3kkZIlpwECnCopZ4=",
-    "url": "https://github.com/arawa/workspace/releases/download/v4.0.6/workspace-4.0.6.tar.gz",
-    "version": "4.0.6",
+    "hash": "sha256-OVUOYVUbAoQqZG/F7as+MDIHTnPNRaN7VfFMnbtyThA=",
+    "url": "https://github.com/arawa/workspace/releases/download/v4.1.0/workspace-4.1.0.tar.gz",
+    "version": "4.1.0",
     "description": "# Description\n\nWorkspace allows managers to :\n- Create shared workspaces\n- Delegate management of each workspace to users (workspace managers) in order for them to:\n    - choose members\n    - create groups\n    - configure advanced permissions on workspace folders\n- All through a simple unified interface, designed to simplify your users' experience and make them autonomous\n\nIt is necessary to install the Group Folders app for the Workspace app to work.\n\n# App configuration\n\nBefore using Workspace, you must configure the app, following these important steps:\n\n- Limit the Workspace app to specific groups : in your \"application management\" administrator interface, limit the application to the following groups: \"GeneralManager\" and \"WorkspacesManagers\".\n\n- Configure Groupfolders for Workspace:\n    - In \"Settings\" > \"Group folders\" > \"Group folder admin delegation\" section, add the group \"GeneralManager\" to the **first** field, and the group \"WorkspacesManagers\" to the **second** field\n\nIf you are using a major version of Nextcloud lower than Nextcloud 25, please follow the instructions provided on [GitHub](https://github.com/arawa/workspace). \n\nFor more information, please visit [our website](https://www.arawa.fr/solutions/produits-arawa/arawa-workspace-for-nextcloud/) (french content).\n\nFor more details, please go to the [admin documentation](https://github.com/arawa/workspace/blob/main/README.md#installation), or [user documentation](https://github.com/arawa/workspace/tree/main/docs/user-guide/from-3.X.X).",
     "homepage": "",
     "licenses": [
