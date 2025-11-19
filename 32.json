@@ -670,9 +670,9 @@
     ]
   },
   "forum": {
-    "hash": "sha256-TKy/i+6TUBtqhfzOQqDq0j01rV3CjCgTjD+YtcR2D8w=",
-    "url": "https://github.com/chenasraf/nextcloud-forum/releases/download/v0.3.0/forum-v0.3.0.tar.gz",
-    "version": "0.3.0",
+    "hash": "sha256-tSN8HarsA1srIQ2FzeRfVpKrTshc9ewGZ2qYAv11so0=",
+    "url": "https://github.com/chenasraf/nextcloud-forum/releases/download/v0.4.0/forum-v0.4.0.tar.gz",
+    "version": "0.4.0",
     "description": "Create discussions, share ideas, and collaborate with your community directly in Nextcloud.\n\n**⚠️ Early Development Notice:**\nThis app is in early stages of development. While functional, you may encounter bugs or incomplete features. Please report any issues on GitHub and consider backing up your data regularly.\n\n**Key Features:**\n- **Thread-based Discussions** - Create and reply to organized discussion threads\n- **Category Organization** - Structure your forum with customizable categories and headers\n- **Rich Text Formatting** - Use BBCode for formatting posts with bold, italic, links, images, code blocks and more\n- **File Attachments** - Attach files from your Nextcloud storage to posts\n- **Post Reactions** - React to posts with emoji reactions\n- **Read/Unread Tracking** - Keep track of which threads you've read\n- **Search** - Find discussions quickly with built-in search\n- **User Profiles** - View user post history and statistics\n- **Role-Based Permissions** - Control access and moderation with flexible roles\n- **Admin Tools** - Manage categories, roles, BBCodes, and forum settings\n- **Moderation Tools** - Pin, lock, and manage threads and posts\n\n**Perfect For:**\n- Team discussions and collaboration\n- Community forums\n- Support channels\n- Knowledge bases\n- Project discussions\n- Internal communication\n\nThe forum integrates seamlessly with your Nextcloud instance, using your existing users and groups for authentication and access control.",
     "homepage": "https://github.com/chenasraf/nextcloud-forum",
     "licenses": [
@@ -1280,9 +1280,9 @@
     ]
   },
   "journeys": {
-    "hash": "sha256-6xf0vwU7L55L5njNbXIM5u4gYo4eDDXEJe0yGhzYqOE=",
-    "url": "https://github.com/thrillfall/journeys/releases/download/0.12.0/journeys.tar.gz",
-    "version": "0.12.0",
+    "hash": "sha256-0HvhqqRoAoyEbhfNh1wCNGQzZiE+VBIdtmP7LzW7uCY=",
+    "url": "https://github.com/thrillfall/journeys/releases/download/0.13.0/journeys.tar.gz",
+    "version": "0.13.0",
     "description": "# Automatic Photo Album Creation for Nextcloud\n\nAutomatically cluster your images into journeys (vacations/trips) and create albums for each journey.\n**Requires the Memories app!**\n\n## ✨ Features\n- **🗺️ Location & Time Clustering:** Group images by when and where they were taken\n- **🗂️ Album Creation:** Albums are created automatically for each journey\n- **⚙️ Customizable:** Control minimum cluster size, time gap, and distance thresholds\n- **🎥 Video Rendering:** Turn journey albums into MP4 highlight reels (requires `ffmpeg` on the server)\n\n## 🚀 OCC Command Usage\n\n    php occ journeys:cluster-create-albums <user>\n\n## 🏠 Using your home location (default)\nJourneys segments the timeline into **near home** and **away from home** and applies sensible defaults for each to capture local days vs. trips.\n\n## ⏰ Runs automatically\nA background job runs **daily** to cluster newly added photos, and you’ll receive a **notification** whenever new albums are created.\n\n## 🏷️ How album names are created\nAlbum titles are generated from the **resolved place name** and the **date range** of the cluster, e.g. `Iceland — Aug 12–19, 2024`.",
     "homepage": "",
     "licenses": [
@@ -2240,9 +2240,9 @@
     ]
   },
   "threedviewer": {
-    "hash": "sha256-TnfvkLn/+3dEPVUKQLoFRQL4zTQz2MVTNEzrDAS9D0A=",
-    "url": "https://github.com/maz1987in/3Dviewer-Nextcloud/releases/download/v1.9.1/threedviewer-v1.9.1.tar.gz",
-    "version": "1.9.1",
+    "hash": "sha256-0cngzX/gvKLyBMWrKNaD39ph86V7Jtkuy9yxxu9FamI=",
+    "url": "https://github.com/maz1987in/3Dviewer-Nextcloud/releases/download/v1.9.3/threedviewer-v1.9.3.tar.gz",
+    "version": "1.9.3",
     "description": "A comprehensive 3D model viewer that allows you to view, interact with, and analyze 3D models directly within Nextcloud. Supports 10+ formats including GLB, GLTF, OBJ, STL, PLY, FBX, 3MF, and 3DS with full material and texture support.\n\n**📦 Format Support:**\n- 🎨 Multi-format support: GLB, GLTF, OBJ+MTL, STL, PLY, FBX, 3MF, 3DS, DAE, X3D, VRML\n- 📁 Multi-file models: Full support for OBJ+MTL+textures and GLTF+bins+images\n- 🗜️ Compression: DRACO geometry and KTX2/Basis texture compression (needs more work)\n\n**🎮 Interactive Features:**\n- 🎯 3D Camera Controller: Intuitive circular controller for precise camera navigation\n- 🔄 Model comparison: Side-by-side viewing with synchronized controls\n- 📝 Annotations: Add notes and markers to specific points on models (always readable, faces camera)\n- 📏 Measurements: Distance and angle measurement tools (with billboard text)\n- 🧭 Face labels: Orientation markers (TOP, BOTTOM, FRONT, BACK, LEFT, RIGHT)\n- 👁️ Camera projection toggle: Switch between perspective and orthographic views\n\n**⚡ Export & Tools:**\n- 📷 Screenshot capture: Take high-quality PNG/JPEG screenshots of your models\n- 💾 Export models to GLB, STL, and OBJ formats\n- 🖨️ Slicer integration: Send models directly to PrusaSlicer, Cura, BambuStudio, OrcaSlicer, Simplify3D, and Eufy Studio\n- 📊 Model statistics panel with detailed information\n- 🔲 Wireframe and bounding box visualization\n- 📐 Dynamic grid system that adapts to model size and position\n- ❓ Help panel with comprehensive in-app documentation\n\n**🚀 Performance & UX:**\n- 🖼️ Progressive texture loading for improved performance\n- 💿 Dependency caching using IndexedDB for faster multi-file loading\n- ⚙️ Performance modes with visual quality overlay\n- 📦 Code splitting and dynamic imports\n- 🌓 Light and dark theme support with RTL layout\n- 🔗 Works with public shares and authenticated users\n- ♿ Accessibility features with keyboard navigation and ARIA labels\n\nBuilt with Three.js for high-performance WebGL rendering. ✨",
     "homepage": "https://github.com/maz1987in/3Dviewer-Nextcloud",
     "licenses": [
@@ -2485,6 +2485,16 @@
     "version": "3.0.0",
     "description": "Pass files on to external scripts depending on a defined set of rules.",
     "homepage": "https://github.com/nextcloud/workflow_script",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "workflow_xopp2pdf_converter": {
+    "hash": "sha256-HYk/9u7lIB6IdU09SpyIBlEXmFaRHQ2FAYzkIYsoMaw=",
+    "url": "https://github.com/MineErich/workflow_xopp2pdf_converter/releases/download/v1.0.0/workflow_xopp2pdf_converter.tar.gz",
+    "version": "1.0.0",
+    "description": "Convert Xournal (.xoj) and Xournalpp (.xopp) files into PDFs. Based on admin defined rules, a background job file be set up when a matching file was created or written, or was assigned a tag. Then, Xournal++ is being utilized for converting the document.",
+    "homepage": "https://github.com/MineErich/workflow_xopp2pdf_converter",
     "licenses": [
       "agpl"
     ]
