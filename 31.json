@@ -50,10 +50,10 @@
     ]
   },
   "announcementbanner": {
-    "hash": "sha256-G9ScqM4masSwdr83k6J8O2um0EmuFLLdUMy2/mm2Gps=",
-    "url": "https://github.com/mohamedsakhri/nextcloud-announcementbanner/releases/download/v1.0.0/announcementbanner-1.0.0.tar.gz",
-    "version": "1.0.0",
-    "description": "The Announcement Banner app displays a customizable notification bar on every Nextcloud page, with your own message, a visual theme to highlight the type of announcement, and an optional link for more details. It offers a real-time preview of the banner, and your changes are shown to all users once they are saved.",
+    "hash": "sha256-aEZpq1pyGspUhAKDeseIdZ6uhcMwmUjaEHj9GcheWZA=",
+    "url": "https://github.com/mohamedsakhri/nextcloud-announcementbanner/releases/download/v1.0.1/announcementbanner-1.0.1.tar.gz",
+    "version": "1.0.1",
+    "description": "Post an announcement banner across every Nextcloud page to keep everyone informed.\n\n\n**Features**\n * Global banner visible on all pages with themed variants (info, success, warning, danger).\n * Optional dismiss button so users can hide the banner when allowed.\n * Optional \"read more\" link with custom label and URL.\n * Live preview in admin settings before publishing to everyone.\n * Changes take effect immediately after saving.",
     "homepage": "https://github.com/mohamedsakhri/nextcloud-announcementbanner",
     "licenses": [
       "gpl3"
@@ -120,9 +120,9 @@
     ]
   },
   "attendance": {
-    "hash": "sha256-cVkWgAbtKfc3h7nbebFv42TbnuUhhyYo+8dbr9GbMoc=",
-    "url": "https://github.com/luflow/attendance/releases/download/v1.3.0/attendance.tar.gz",
-    "version": "1.3.0",
+    "hash": "sha256-jst1DugU74FXNWpJvbJ+kbpscgThv5eawf92EjJyHLI=",
+    "url": "https://github.com/luflow/attendance/releases/download/v1.4.0/attendance.tar.gz",
+    "version": "1.4.0",
     "description": "A small Nextcloud app for managing event attendance with advance RSVP functionality and real-time check-in capabilities. \n\n**For Administrators:**\n- Create and manage appointments with name, description, and date/time\n- Track responses with detailed attendance summaries organized by user groups\n- Identify non-responders to follow up\n- Toggle between upcoming and past appointments\n- **Check-in Management:** Dedicated interface to track actual attendance during events\n- **Bulk Operations:** Mark multiple users as present/absent with bulk check-in actions\n- **Admin Comments:** Add check-in specific comments for detailed attendance tracking\n- **Group Whitelisting:** Configure which user groups are included in attendance statistics and check-in lists\n\n**For All Users:**\n- Easy RSVP with Yes/No/Maybe responses to any appointment\n- Add optional comments with your response\n- Update responses anytime until the event date\n- Quick access via dashboard widget\n\n**Group-Based Organization:**\n- Statistics automatically organized by Nextcloud user groups\n- See which group members haven't responded yet\n- Complete admin visibility into attendance across all groups\n- **Filtered Check-in:** Search and filter users by name or group during check-in process\n\nPerfect for organizations, teams, and communities that need to coordinate attendance for meetings, events, and activities with both advance planning and real-time attendance tracking.",
     "homepage": "https://krautnerds.de",
     "licenses": [
@@ -970,9 +970,9 @@
     ]
   },
   "forum": {
-    "hash": "sha256-7cRfqDs5qv2jbXKS9RnojO4t+rzAHe4l5ZbCjhFGqY0=",
-    "url": "https://github.com/chenasraf/nextcloud-forum/releases/download/v0.13.1/forum-v0.13.1.tar.gz",
-    "version": "0.13.1",
+    "hash": "sha256-wP0sC7WEFP1dUkZOqRvitcHk1+OkJjMyWt2slmEQGyA=",
+    "url": "https://github.com/chenasraf/nextcloud-forum/releases/download/v0.14.0/forum-v0.14.0.tar.gz",
+    "version": "0.14.0",
     "description": "Create discussions, share ideas and collaborate with your community directly in Nextcloud.\n\n**⚠️ Early Development Notice:**\nThis app is in early stages of development. While functional, you may encounter bugs or incomplete features. Please report any issues on GitHub and consider backing up your data regularly.\n\n**Key features:**\n- **Thread-based Discussions** - Create and reply to organized discussion threads\n- **Category Organization** - Structure your forum with customizable categories and headers\n- **Rich Text Formatting** - Use BBCode for formatting posts with bold, italic, links, images, code blocks and more\n- **File Attachments** - Attach files from your Nextcloud storage to posts\n- **Post Reactions** - React to posts with emoji reactions\n- **Read/Unread Tracking** - Keep track of which threads you've read\n- **Search** - Find discussions quickly with built-in search\n- **User Profiles** - View user post history and statistics\n- **Role-Based Permissions** - Control access and moderation with flexible roles\n- **Guest Access**: Optional public access for unauthenticated users with configurable permissions\n- **Admin Tools** - Manage categories, roles, BBCodes and forum settings\n- **Moderation Tools** - Pin, lock and manage threads and posts\n\n**Perfect for:**\n- Team discussions and collaboration\n- Community forums\n- Support channels\n- Knowledge bases\n- Project discussions\n- Internal communication\n\nThe forum integrates seamlessly with your Nextcloud instance, using your existing users and groups for authentication and access control.",
     "homepage": "https://github.com/chenasraf/nextcloud-forum",
     "licenses": [
@@ -1530,10 +1530,10 @@
     ]
   },
   "integration_watsonx": {
-    "hash": "sha256-1i3S4dwFXWsuXdHsf9cG1ivXVKgl+sy2gqFzZfj2MWM=",
-    "url": "https://github.com/nextcloud-releases/integration_watsonx/releases/download/v1.0.5/integration_watsonx-v1.0.5.tar.gz",
-    "version": "1.0.5",
-    "description": "⚠ This app is still in early development\nand has only been tested with IBM watsonx.ai as a Service.\n\nThis app implements the following text generation providers\nusing any freely-available large language model:\nFree prompt, Summarize, Headline, Context Write, Chat, and Reformulate.\n\nYou can connect to the watsonx.ai service provided by IBM\nor to a self-hosted cluster running IBM Software Hub and related services.\n\n## Improve AI task pickup speed\n\nTo avoid task processing execution delay, setup at 4 background job workers in the main server (where Nextcloud is installed). The setup process is documented here: https://docs.nextcloud.com/server/latest/admin_manual/ai/overview.html#improve-ai-task-pickup-speed\n\n## Ethical AI Rating\n\n### Rating for Text generation via IBM watsonx.ai: 🟠\n\nPositive:\n* The provided foundation models are freely available, and thus can be ran on-premises\n\nNegative:\n* The software for training and inference of models is proprietary, limiting modifications to the API or other functionality\n* Some foundation models are trained on data that is not freely available, limiting the ability to fine tune them\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
+    "hash": "sha256-Ww55/GpuZVeIE4H6EgOOWUjz7/gXdpcfCw787Q4HVK0=",
+    "url": "https://github.com/nextcloud-releases/integration_watsonx/releases/download/v1.1.0/integration_watsonx-v1.1.0.tar.gz",
+    "version": "1.1.0",
+    "description": "⚠ This app is still in early development\nand has only been tested with IBM watsonx.ai as a Service.\n\nThis app implements the following text generation providers\nusing any freely-available large language model:\nFree prompt, Summarize, Headline, Context Write, Chat, and Reformulate.\n\nYou can connect to the watsonx.ai service provided by IBM Cloud,\nor to a self-hosted cluster running IBM Software Hub and related services\n([IBM Cloud Pak for Data](https://www.ibm.com/docs/en/cloud-paks/cp-data/5.0.x) is also required in this case).\n\n## Improve AI task pickup speed\n\nTo avoid task processing execution delay, setup at 4 background job workers in the main server (where Nextcloud is installed).\nRefer to the [admin documentation](https://docs.nextcloud.com/server/latest/admin_manual/ai/overview.html#improve-ai-task-pickup-speed) for the setup process.\n\n## Ethical AI Rating\n\n### Rating for Text generation via IBM watsonx.ai: 🟠\n\nPositive:\n* The provided foundation models are freely available, and thus can be ran on-premises\n\nNegative:\n* The software for training and inference of models is proprietary, limiting modifications to the API or other functionality\n* Some foundation models are trained on data that is not freely available, limiting the ability to fine tune them\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/integration_watsonx",
     "licenses": [
       "agpl"
@@ -1620,9 +1620,9 @@
     ]
   },
   "journeys": {
-    "hash": "sha256-LyoIanDFJHtxLcVnFAtAyCvJ0HyRSKXjOTRc/A9gl74=",
-    "url": "https://github.com/thrillfall/journeys/releases/download/0.15.1/journeys.tar.gz",
-    "version": "0.15.1",
+    "hash": "sha256-NLslmwWS8KMJfbmZlbUbKFK9GKp1h3ZSgsljeoIxq/8=",
+    "url": "https://github.com/thrillfall/journeys/releases/download/0.16.0/journeys.tar.gz",
+    "version": "0.16.0",
     "description": "# Automatic Photo Album Creation for Nextcloud\n\nAutomatically cluster your images into journeys (vacations/trips) and create albums for each journey.\n**Requires the Memories app!**\n\n## ✨ Features\n- **🗺️ Location & Time Clustering:** Group images by when and where they were taken\n- **🗂️ Album Creation:** Albums are created automatically for each journey\n- **⚙️ Customizable:** Control minimum cluster size, time gap, and distance thresholds\n- **🎥 Video Rendering:** Turn journey albums into MP4 highlight reels (requires `ffmpeg` on the server)\n\n## 🚀 OCC Command Usage\n\n    php occ journeys:cluster-create-albums <user>\n\n## 🏠 Using your home location (default)\nJourneys segments the timeline into **near home** and **away from home** and applies sensible defaults for each to capture local days vs. trips.\n\n## ⏰ Runs automatically\nA background job runs **daily** to cluster newly added photos, and you’ll receive a **notification** whenever new albums are created.\n\n## 🏷️ How album names are created\nAlbum titles are generated from the **resolved place name** and the **date range** of the cluster, e.g. `Iceland — Aug 12–19, 2024`.",
     "homepage": "",
     "licenses": [
@@ -1960,9 +1960,9 @@
     ]
   },
   "oidc": {
-    "hash": "sha256-RFlPJFwqv7TEoTZUc2vhP4AB7hh619EQ7vRdM+HDoBw=",
-    "url": "https://github.com/H2CK/oidc/releases/download/1.13.1/oidc-1.13.1.tar.gz",
-    "version": "1.13.1",
+    "hash": "sha256-c6jG/1qcW49s4uyuPkOtfF/1Xv6VL7xWLjTFQYGjg8w=",
+    "url": "https://github.com/H2CK/oidc/releases/download/1.14.0/oidc-1.14.0.tar.gz",
+    "version": "1.14.0",
     "description": "Nextcloud as OpenID Connect Identity Provider\n\nWith this app you can use Nextcloud as OpenID Connect Identity Provider. If other services\nare configured correctly, you are able to access those services with your Nextcloud login.\n\nFull documentation can be found at:\n\n- [User Documentation](https://github.com/H2CK/oidc/wiki#user-documentation)\n- [Developer Documentation](https://github.com/H2CK/oidc/wiki#developer-documentation)",
     "homepage": "https://github.com/H2CK/oidc",
     "licenses": [
@@ -2170,9 +2170,9 @@
     ]
   },
   "photo_frames": {
-    "hash": "sha256-q1hSetU+7pV5y/EO5/qqgiz/KT1J6Vk3VsJLdo4Ry+4=",
-    "url": "https://github.com/jeppester/nextcloud-photo-frames/releases/download/1.6.1/photo_frames.tar.gz",
-    "version": "1.6.1",
+    "hash": "sha256-9zW/oijDVaeB19uF43SUAP8lRFeg8o0YbErV861Y+vs=",
+    "url": "https://github.com/jeppester/nextcloud-photo-frames/releases/download/1.6.2/photo_frames.tar.gz",
+    "version": "1.6.2",
     "description": "Generate easily sharable photo frame URLs for your Nextcloud albums.\n\nThe possiblities are endless:\n\n- Turn any android device into a smart photo frame (with the help of a kiosk browser)\n- Co-create photo frames with Nextcloud's collaborative albums\n- Share photo frames across households",
     "homepage": "",
     "licenses": [
@@ -2380,9 +2380,9 @@
     ]
   },
   "scim_client": {
-    "hash": "sha256-MDU9xihw/Ts7lncvnM2xbCklir6dWlPZEQ6KeJwOloI=",
-    "url": "https://github.com/nextcloud-releases/scim_client/releases/download/v1.0.6/scim_client-v1.0.6.tar.gz",
-    "version": "1.0.6",
+    "hash": "sha256-9GZ+XS31BXzBRABAXfh6rmC8lxZRUugsCYXfoGKUH3Q=",
+    "url": "https://github.com/nextcloud-releases/scim_client/releases/download/v1.1.0/scim_client-v1.1.0.tar.gz",
+    "version": "1.1.0",
     "description": "Use Nextcloud as an identity provider for external services using the [SCIM](https://scim.cloud/) standard.\n\nSimply add your SCIM servers in the admin settings, and the app will automatically sync all Nextcloud users and groups to your servers.",
     "homepage": "https://github.com/nextcloud/scim_client",
     "licenses": [
@@ -2490,9 +2490,9 @@
     ]
   },
   "shiftsnext": {
-    "hash": "sha256-TxwD/1XNPOkw9YjBvPcAD6EEd6uIvX0i78hdwrYwkzk=",
-    "url": "https://github.com/csoc-de/shiftsnext/releases/download/v2.1.0/shiftsnext.tar.gz",
-    "version": "2.1.0",
+    "hash": "sha256-qQ/tBaB8953AtcBOGqb1mCpeV1CvXe4GXynA2IMfFds=",
+    "url": "https://github.com/csoc-de/shiftsnext/releases/download/v2.2.0/shiftsnext.tar.gz",
+    "version": "2.2.0",
     "description": "Manage your shifts and sync them to your calendar",
     "homepage": "https://github.com/csoc-de/shiftsnext",
     "licenses": [
@@ -2650,9 +2650,9 @@
     ]
   },
   "softwarecatalog": {
-    "hash": "sha256-9IHuuUv/7EMoXkn+eTDPsw1T3QAopbkVmiAq/sJURMs=",
-    "url": "https://github.com/ConductionNL/softwarecatalog/releases/download/v0.1.112/softwarecatalog-0.1.112.tar.gz",
-    "version": "0.1.112",
+    "hash": "sha256-LB0tZSfALDL4hgtRA3DwEkRtA2ZZTztMYa5tEncC7c8=",
+    "url": "https://github.com/ConductionNL/softwarecatalog/releases/download/v0.1.114/softwarecatalog-0.1.114.tar.gz",
+    "version": "0.1.114",
     "description": "🗂️ A Nextcloud App for Software Catalogs\n\nThe Software Catalogus Nextcloud app offers a powerful framework for managing and synchronizing software catalogs within a federated, open data environment.\n\n- 🔄 Synchronize your software data with multiple catalogs\n- 📡 Automatically publish and update your software catalog information\n- 🆓 Completely free and open source under the EUPL license\n\n**Note: System Cron is required for this app to function properly**\n\nFind the installation requirements [here](https://conduction.gitbook.io/opencatalogi-nextcloud/install).\n\nView the development roadmap [here](https://github.com/orgs/OpenCatalogi/projects/1/views/2).\n\nSubmit a [bug report](https://github.com/OpenCatalogi/.github/issues/new/choose).\n\nSubmit a [feature request](https://github.com/OpenCatalogi/.github/issues/new/choose).",
     "homepage": "https://github.com/ConductionNL/SoftwareCatalogus",
     "licenses": [
@@ -2790,9 +2790,9 @@
     ]
   },
   "threedviewer": {
-    "hash": "sha256-JM30tI2qWVxDLEQ/k4Wwo8Db3TZoVoRs8lQ3g762nbk=",
-    "url": "https://github.com/maz1987in/3Dviewer-Nextcloud/releases/download/v1.9.7/threedviewer-v1.9.7.tar.gz",
-    "version": "1.9.7",
+    "hash": "sha256-pr0pzmIDrzUYPIZ9YzFg3QNceaaiCoz4bEum9mlpM+E=",
+    "url": "https://github.com/maz1987in/3Dviewer-Nextcloud/releases/download/v1.9.8/threedviewer-v1.9.8.tar.gz",
+    "version": "1.9.8",
     "description": "A comprehensive 3D model viewer that allows you to view, interact with, and analyze 3D models directly within Nextcloud. Supports 10+ formats including GLB, GLTF, OBJ, STL, PLY, FBX, 3MF, and 3DS with full material and texture support.\n\n**📦 Format Support:**\n- 🎨 Multi-format support: GLB, GLTF, OBJ+MTL, STL, PLY, FBX, 3MF, 3DS, DAE, X3D, VRML\n- 📁 Multi-file models: Full support for OBJ+MTL+textures and GLTF+bins+images\n- 🗜️ Compression: DRACO geometry and KTX2/Basis texture compression (needs more work)\n\n**🎮 Interactive Features:**\n- 🎯 3D Camera Controller: Intuitive circular controller for precise camera navigation\n- 🔄 Model comparison: Side-by-side viewing with synchronized controls\n- 📝 Annotations: Add notes and markers to specific points on models (always readable, faces camera)\n- 📏 Measurements: Distance and angle measurement tools (with billboard text)\n- 🧭 Face labels: Orientation markers (TOP, BOTTOM, FRONT, BACK, LEFT, RIGHT)\n- 👁️ Camera projection toggle: Switch between perspective and orthographic views\n\n**⚡ Export & Tools:**\n- 📷 Screenshot capture: Take high-quality PNG/JPEG screenshots of your models\n- 💾 Export models to GLB, STL, and OBJ formats\n- 🖨️ Slicer integration: Send models directly to PrusaSlicer, Cura, BambuStudio, OrcaSlicer, Simplify3D, Eufy Studio, and AnycubicSlicer\n- 📊 Model statistics panel with detailed information\n- 🔲 Wireframe and bounding box visualization\n- 📐 Dynamic grid system that adapts to model size and position\n- ❓ Help panel with comprehensive in-app documentation\n\n**🚀 Performance & UX:**\n- 🖼️ Progressive texture loading for improved performance\n- 💿 Dependency caching using IndexedDB for faster multi-file loading\n- ⚙️ Performance modes with visual quality overlay\n- 📦 Code splitting and dynamic imports\n- 🌓 Light and dark theme support with RTL layout\n- 🔗 Works with public shares and authenticated users\n- ♿ Accessibility features with keyboard navigation and ARIA labels\n\nBuilt with Three.js for high-performance WebGL rendering. ✨",
     "homepage": "https://github.com/maz1987in/3Dviewer-Nextcloud",
     "licenses": [
@@ -2810,9 +2810,9 @@
     ]
   },
   "timesheet": {
-    "hash": "sha256-JlOD1UoVXFQiKgPTL+aO7t9AHDt8xJuTaJS1LG9Irlk=",
-    "url": "https://github.com/Repa1253/timesheet/releases/download/1.0.1/timesheet-1.0.1.tar.gz",
-    "version": "1.0.1",
+    "hash": "sha256-f9RfH8zU2ARr9A583XJPFGFpceM7z1eevqeacovP9pg=",
+    "url": "https://github.com/Repa1253/timesheet/releases/download/1.0.2/timesheet-1.0.2.tar.gz",
+    "version": "1.0.2",
     "description": "Erfassen, prüfen und überblicken von Arbeitszeiten direkt in Nextcloud.",
     "homepage": "",
     "licenses": [
@@ -3010,9 +3010,9 @@
     ]
   },
   "users_picker": {
-    "hash": "sha256-JWUDKyX+qLK2rTiQWQptwLk08FGdF8cP5plhQDZCMrs=",
-    "url": "https://github.com/nextcloud-releases/users_picker/releases/download/v1.2.1/users_picker-v1.2.1.tar.gz",
-    "version": "1.2.1",
+    "hash": "sha256-pZEK54CVSo/vMgwxh0TflH/Jbsp5Gd/Z44UX5xIEJbc=",
+    "url": "https://github.com/nextcloud-releases/users_picker/releases/download/v1.2.2/users_picker-v1.2.2.tar.gz",
+    "version": "1.2.2",
     "description": "This app adds ability to search for user profiles via smart picker and link previews for them.",
     "homepage": "https://github.com/nextcloud/users_picker",
     "licenses": [
