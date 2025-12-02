@@ -110,9 +110,9 @@
     ]
   },
   "assistant": {
-    "hash": "sha256-hbgxD6VC5ihk/2QQNX7T+Bx94g4+bBsYI4ElUBZhYCo=",
-    "url": "https://github.com/nextcloud-releases/assistant/releases/download/v2.9.0/assistant-v2.9.0.tar.gz",
-    "version": "2.9.0",
+    "hash": "sha256-DzYwrVxxu4Yu8mnR7ZKpTIVVp3YWVkKWd0ZWbGKQgE4=",
+    "url": "https://github.com/nextcloud-releases/assistant/releases/download/v2.10.0/assistant-v2.10.0.tar.gz",
+    "version": "2.10.0",
     "description": "This app brings a user interface to use the Nextcloud text processing feature.\n\nIt allows users to launch AI tasks, be notified when they finish and see the results.\nThe assistant also appears in others apps like Text to easily process parts of a document.\n\nMore details on the assistant OCS API and frontend integration possibilities in the\n[developer doc](https://github.com/nextcloud/assistant/raw/main/docs/developer)\n\n### How to use it\n\nA new right header menu entry appears. Once clicked, the assistant is displayed and you can select and task type and\nset the input you want to process.\n\nThe task might run immediately or be scheduled depending on the time estimation given by the AI provider.\nOnce a task is scheduled, it will run as a background job. When it is finished, you will receive a notification\nfrom which the results can be displayed.\n\nOther apps can integrate with the assistant. For example, Text will display an inline button besides every paragraph\nto directly select a task type to process this paragraph. Selecting a task this way will open the assistant with the task\nbeing pre-selected and the input text set.\n\nMore details and screenshots in the [user doc](https://github.com/nextcloud/assistant/raw/main/docs/user).\n\n## Features\n\nIn the assistant, the list of available tasks depends on the available providers installed via other apps.\nThis means you have complete freedom over which service/software will actually run your AI tasks.\n\n### Text processing providers\n\nSo far, the [Local Large language model](https://github.com/nextcloud/llm2#readme)\nand the [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai) apps\ninclude text processing providers to:\n* Summarize\n* Extract topics\n* Generate a headline\n* Get an answer from a free prompt\n* Reformulate (OpenAi/LocalAi only)\n* Context writer: Generate text with a specified style. The style can be described or provided via an example text.\n\n### Text to image (Image generation)\n\nKnown providers:\n* [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai)\n* [Text2Image Stable Diffusion](https://apps.nextcloud.com/apps/text2image_stablediffusion)\n\n### Speech to text (Audio transcription)\n\nKnown providers:\n* [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai)\n* [Local Whisper Speech-To-Text](https://apps.nextcloud.com/apps/stt_whisper)\n\nMore details on how to set this up in the [admin docs](https://docs.nextcloud.com/server/latest/admin_manual/ai/index.html)",
     "homepage": "https://github.com/nextcloud/assistant",
     "licenses": [
@@ -370,9 +370,9 @@
     ]
   },
   "contacts": {
-    "hash": "sha256-5Za0sTodxsRyon5KKC1oWC/kK6ZRsglEkecjckO8NNk=",
-    "url": "https://github.com/nextcloud-releases/contacts/releases/download/v7.3.7/contacts-v7.3.7.tar.gz",
-    "version": "7.3.7",
+    "hash": "sha256-hUYfZ3EX0sLOWoaH7NGpashgKS8gf0YPpwwEniJL0jk=",
+    "url": "https://github.com/nextcloud-releases/contacts/releases/download/v7.3.8/contacts-v7.3.8.tar.gz",
+    "version": "7.3.8",
     "description": "The Nextcloud contacts app is a user interface for Nextcloud's CardDAV server. Easily sync contacts from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Currently Mail and Calendar – more to come.\n* 🎉 **Never forget a birthday!** You can sync birthdays and other recurring events with your Nextcloud Calendar.\n* 👥 **Sharing of Adressbooks!** You want to share your contacts with your friends or coworkers? No problem!\n* 🙈 **We’re not reinventing the wheel!** Based on the great and open SabreDAV library.",
     "homepage": "https://github.com/nextcloud/contacts#readme",
     "licenses": [
@@ -410,8 +410,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -420,10 +420,10 @@
     ]
   },
   "cristal": {
-    "hash": "sha256-Lqgx4E9SDaueo+fa4n6OI7fI2WlzmWypjyOwlxZ7nxU=",
-    "url": "https://github.com/xwiki-contrib/cristal-integration-nextcloud/releases/download/0.0.1/cristal-integration-nextcloud-0.0.1-2.tar.gz",
-    "version": "1.0.0",
-    "description": "Integrates the [Cristal UI](cristal.xwiki.org) in Nextcloud.",
+    "hash": "sha256-P7/KozLWpNauvTFJZo99pRPxB037DP2p//T9fAqXdSQ=",
+    "url": "https://github.com/xwiki-contrib/cristal-integration-nextcloud/releases/download/0.0.2/cristal.tar.gz",
+    "version": "0.0.2",
+    "description": "Integrates the [Cristal UI](https://cristal.xwiki.org) in Nextcloud.",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -1220,9 +1220,9 @@
     ]
   },
   "integration_deepl": {
-    "hash": "sha256-WjTg/+ckoZ/xFrfN0LaLvWIM/JbbnfvVO4EbnRnvB60=",
-    "url": "https://github.com/nextcloud-releases/integration_deepl/releases/download/v2.0.0/integration_deepl-v2.0.0.tar.gz",
-    "version": "2.0.0",
+    "hash": "sha256-o50BZEMtN81UuemxP4+lJt1uI/40EwXiHfaf8FtvkbM=",
+    "url": "https://github.com/nextcloud-releases/integration_deepl/releases/download/v2.1.0/integration_deepl-v2.1.0.tar.gz",
+    "version": "2.1.0",
     "description": "Deepl integration providing an translations through deepl.com with Nextcloud\n\nThis app integrates with [Nextcloud Assistant](https://apps.nextcloud.com/apps/assistant) to offer translation services We recommend to install Assistant additionally and activate Deepl as translation provider in the Artifical Intelligence admin settings.\n\nThis app also integrates with the translation API of Nextcloud server to offer translation services without Assistant. Currently this is available in Text and Talk.\n\nTo run translations and any other Task Processing tasks synchronously, run the following command in a background process (10 is the interval in seconds when the process should relaunch to use the latest php changes):\n\n```sh\nset -e; while true; do occ background-job:worker -v -t 10 \"OC\\TaskProcessing\\SynchronousBackgroundJob\"; done\n```\n\n## Ethical AI Rating\n### Rating: 🔴\n\nNegative:\n* the software for training and inferencing of this model is proprietary, limiting running it locally or training by yourself\n* the trained model is not freely available, so the model can not be ran on-premises\n* the training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/integration_deepl",
     "licenses": [
@@ -1440,8 +1440,8 @@
     ]
   },
   "integration_openproject": {
-    "hash": "sha256-W3F1n9G1hdXx4vixIUp+CKjZfTPohZJ90XH7J8aKZxU=",
-    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.10.1-20251029-nightly/integration_openproject-2.10.1-20251029-nightly.tar.gz",
+    "hash": "sha256-UfrfgQP7n0u26qCxcrsl3N9c5jMsydHXil1k22t0rH0=",
+    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.10.1/integration_openproject-2.10.1.tar.gz",
     "version": "2.10.1",
     "description": "This application enables seamless integration with open source project management and collaboration software OpenProject.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in OpenProject\n* Find all work packages linked to a file or a folder\n* Create work packages directly in Nextcloud\n* View OpenProject notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n* Link work packages in rich text fields via Smart Picker\n* Preview links to work packages in text fields\n* Link multiple files and folder to a work package at once\n\nOn the OpenProject end, users are able to:\n\n* Link work packages with files and folders in Nextcloud\n* Upload and download files directly to Nextcloud from within a work package\n* Open linked files in Nextcloud to edit them\n* Let OpenProject create shared folders per project\n\nFor more information on how to set up and use the OpenProject application, please refer to [integration setup guide](https://www.openproject.org/docs/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://www.openproject.org/docs/user-guide/nextcloud-integration/).",
     "homepage": "https://github.com/nextcloud/integration_openproject",
@@ -1730,9 +1730,9 @@
     ]
   },
   "mail": {
-    "hash": "sha256-k++QW9jc/CCZZ0BtIBCwapCSs0pfiEQEMMruPd/3wqk=",
-    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.6.1/mail-v5.6.1.tar.gz",
-    "version": "5.6.1",
+    "hash": "sha256-DupEVIglWrH6XTOvO1dCMnbCGc/xRlsrXMpGBk6rAmM=",
+    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.6.2/mail-v5.6.2.tar.gz",
+    "version": "5.6.2",
     "description": "**💌 A mail app for Nextcloud**\n\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://www.horde.org) libraries.\n- **📬 Want to host your own mail server?** We do not have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!\n\n## Ethical AI Rating\n\n### Priority Inbox\n\nPositive:\n* The software for training and inferencing of this model is open source.\n* The model is created and trained on-premises based on the user's own data.\n* The training data is accessible to the user, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n### Thread Summaries (opt-in)\n\n**Rating:** 🟢/🟡/🟠/🔴\n\nThe rating depends on the installed text processing backend. See [the rating overview](https://docs.nextcloud.com/server/latest/admin_manual/ai/index.html) for details.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/mail#readme",
     "licenses": [
@@ -2400,11 +2400,11 @@
     ]
   },
   "scores": {
-    "hash": "sha256-SLoJy9aRvXT7o0BViw2tlBrfPm8+3ZVsRztQynnguCA=",
-    "url": "https://github.com/micheledimeo/Scores/releases/download/v0.9.8/scores-0.9.8.tar.gz",
-    "version": "0.9.8",
-    "description": "Display and play MusicXML and related music notation formats inside Nextcloud using OpenSheetMusicDisplay.\n\nFeatures:\n- 🎼 Sheet Music Display: Render MusicXML, compressed MusicXML (.mxl), and other formats\n- ▶️ Advanced Playback: Play, pause, stop, and loop with real-time cursor tracking\n- 🎚️ Instrument Mixer: Individual volume control for each instrument/channel\n- 🎵 Tempo & Volume Control: Precise BPM adjustment (40-240) and master volume\n- 📊 Progress Tracking: Visual progress bar with time and measure indicators\n- ⌨️ Keyboard Shortcuts: Space (play/pause), arrows (navigate), +/- (zoom)\n- 🔍 Smart Search: Real-time search across all scores and folders\n- 📱 Responsive Design: Adaptive layout with collapsible sidebar",
-    "homepage": "https://github.com/micheledimeo/scores",
+    "hash": "sha256-A4/QZxmvHkCEXr9/l6VJX1wr2SrlSdW/+4tlDkuOlyc=",
+    "url": "https://github.com/micheledimeo/Scores/releases/download/v0.9.12/scores-0.9.12.tar.gz",
+    "version": "0.9.12",
+    "description": "Display, play, and manage MusicXML files directly in Nextcloud using OpenSheetMusicDisplay.\n\nFeatures:\n- 🎼 Sheet Music Display: Render MusicXML, compressed MusicXML (.mxl), and other formats\n- ▶️ Advanced Playback: Play, pause, stop, and loop with real-time cursor tracking\n- 🎚️ Instrument Mixer: Individual volume control for each instrument/channel with solo/mute\n- 🎵 Tempo & Volume Control: Precise BPM adjustment (40-240) and master volume with numeric inputs\n- 📊 Progress Tracking: Visual progress bar with time and measure indicators\n- ⌨️ Keyboard Shortcuts: Space (play/pause), F (return to start), arrows (navigate/zoom)\n- 🔍 Smart Search: Real-time search with match counter across all scores and folders\n- 📁 Folder Navigation: Organized folder tree with expandable/collapsible folders and file counts\n- 📝 Smart File Display: Automatic left truncation for files in folders to show instrument names\n- 🌍 Internationalization: Full i18n support with translation system\n- 🔄 Files App Integration: Upload and share scores using Nextcloud Files app\n- 🎯 Admin Settings: Configure multiple scores folder paths with folder browser\n- 📱 Responsive Design: Adaptive layout with collapsible sidebar, optimized for mobile\n\nSupported Formats:\n- MusicXML (.xml, .musicxml, .mxml)\n- MusicXML Compressed (.mxl)\n- MEI (Music Encoding Initiative)\n- Guitar Pro files (.gp, .gp3, .gp4, .gp5, .gpx)\n\nUsage:\n1. Navigate to the Scores app in Nextcloud\n2. Use the search box to find scores, or browse the folder tree\n3. Click on a score file to open it with playback controls\n4. Use keyboard shortcuts: Space (play/pause), F (return to start), arrows (navigate/zoom)\n\nAdmin Configuration:\nAdministrators can configure score folder paths in Scores Settings. Add one or more folder paths using the folder browser. Paths are relative to each user's home directory. Leave empty to scan all user files.\n\nCompatibility:\n- Nextcloud: 28.x - 33.x\n- PHP: 8.1 - 8.4\n- Browsers: Chrome, Firefox, Safari (including iOS/iPadOS 17.0+)\n\nBuilt with OpenSheetMusicDisplay (https://opensheetmusicdisplay.org/)",
+    "homepage": "https://github.com/micheledimeo/Scores",
     "licenses": [
       "agpl"
     ]
@@ -2820,9 +2820,9 @@
     ]
   },
   "timesheet": {
-    "hash": "sha256-f9RfH8zU2ARr9A583XJPFGFpceM7z1eevqeacovP9pg=",
-    "url": "https://github.com/Repa1253/timesheet/releases/download/1.0.2/timesheet-1.0.2.tar.gz",
-    "version": "1.0.2",
+    "hash": "sha256-G5+e/dK0EMKf3PW2tIi6phz/7v87W6l294mKHbfrrL0=",
+    "url": "https://github.com/Repa1253/timesheet/releases/download/1.0.3/timesheet-1.0.3.tar.gz",
+    "version": "1.0.3",
     "description": "Erfassen, prüfen und überblicken von Arbeitszeiten direkt in Nextcloud.",
     "homepage": "",
     "licenses": [
@@ -2900,8 +2900,8 @@
     ]
   },
   "uniteos_notifier": {
-    "hash": "sha256-8GJMpu0aFiP9I1MSgNVJohEntNvIXKC9tSDXsR6Qyv4=",
-    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/main/uniteos_notifier.tar.gz",
+    "hash": "sha256-y2Grzus55kMVYJJyynNBezvngzn31u3mFhS9ihSYBHQ=",
+    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/1.0.4/uniteos_notifier.tar.gz",
     "version": "1.0.4",
     "description": "This app allows forwarding Nextcloud events for a deeper integration into UniteOS developed by wechange eG by presenting a selected set of events as user notifications.",
     "homepage": "",
