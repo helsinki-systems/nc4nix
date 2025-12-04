@@ -520,9 +520,9 @@
     ]
   },
   "done": {
-    "hash": "sha256-0SE9cKsnTb3+K4kb7hW5GKiUgrcKOJ460H2nrQ4CI1M=",
-    "url": "https://github.com/the-done/done-nextcloud/releases/download/v1.1.0/done.tar.gz",
-    "version": "1.1.0",
+    "hash": "sha256-3Z2iPsy3oAfYjRPy/KdKFDinXlVLvHObLChztPK6Dfk=",
+    "url": "https://github.com/the-done/done-nextcloud/releases/download/v1.2.0/done.tar.gz",
+    "version": "1.2.0",
     "description": "Done is a Nextcloud app for managing employees, projects, and time reports in distributed teams.\n        It provides flexible data structures, powerful analytics, and a fully customizable interface — built to make team utilization and workload tracking effortless.\n\n👥 Employees\n\n📁 Projects\n\n🕒 Time Reports\n\n👩‍💻 Teams\n\n🧭 Directions\n\n⚙️ Customization & Access Control",
     "homepage": "",
     "licenses": [
@@ -1250,9 +1250,9 @@
     ]
   },
   "integration_docusign": {
-    "hash": "sha256-PWCkMRQd4tw+9ZUdPHv0yVw/hydOZVQHCQpT9fkMtXY=",
-    "url": "https://github.com/nextcloud-releases/integration_docusign/releases/download/v2.0.6/integration_docusign-v2.0.6.tar.gz",
-    "version": "2.0.6",
+    "hash": "sha256-MvKo5J/domuPCSXUUn7nz6Q5en1R24sB3ZokV7UE7Aw=",
+    "url": "https://github.com/nextcloud-releases/integration_docusign/releases/download/v3.0.0/integration_docusign-v3.0.0.tar.gz",
+    "version": "3.0.0",
     "description": "Sign files via DocuSign Service.",
     "homepage": "https://github.com/nextcloud/integration_docusign",
     "licenses": [
@@ -1440,8 +1440,8 @@
     ]
   },
   "integration_openproject": {
-    "hash": "sha256-UfrfgQP7n0u26qCxcrsl3N9c5jMsydHXil1k22t0rH0=",
-    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.10.1/integration_openproject-2.10.1.tar.gz",
+    "hash": "sha256-W3F1n9G1hdXx4vixIUp+CKjZfTPohZJ90XH7J8aKZxU=",
+    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.10.1-20251029-nightly/integration_openproject-2.10.1-20251029-nightly.tar.gz",
     "version": "2.10.1",
     "description": "This application enables seamless integration with open source project management and collaboration software OpenProject.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in OpenProject\n* Find all work packages linked to a file or a folder\n* Create work packages directly in Nextcloud\n* View OpenProject notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n* Link work packages in rich text fields via Smart Picker\n* Preview links to work packages in text fields\n* Link multiple files and folder to a work package at once\n\nOn the OpenProject end, users are able to:\n\n* Link work packages with files and folders in Nextcloud\n* Upload and download files directly to Nextcloud from within a work package\n* Open linked files in Nextcloud to edit them\n* Let OpenProject create shared folders per project\n\nFor more information on how to set up and use the OpenProject application, please refer to [integration setup guide](https://www.openproject.org/docs/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://www.openproject.org/docs/user-guide/nextcloud-integration/).",
     "homepage": "https://github.com/nextcloud/integration_openproject",
@@ -1520,9 +1520,9 @@
     ]
   },
   "integration_tmdb": {
-    "hash": "sha256-ZS/3A0Jr3wbys1vU5orTS8QIbiF5GYXtVrone8OPBnA=",
-    "url": "https://github.com/nextcloud-releases/integration_tmdb/releases/download/v2.2.1/integration_tmdb-v2.2.1.tar.gz",
-    "version": "2.2.1",
+    "hash": "sha256-4IHRe/A7fAwK+3p1W+aXkSN0fsF9xfSSpexoyP/B46s=",
+    "url": "https://github.com/nextcloud-releases/integration_tmdb/releases/download/v2.2.2/integration_tmdb-v2.2.2.tar.gz",
+    "version": "2.2.2",
     "description": "TMDB integration provides a smart picker provider to search for movies, series or actors and link previews for them.",
     "homepage": "https://github.com/julien-nc/integration_tmdb",
     "licenses": [
@@ -1630,9 +1630,9 @@
     ]
   },
   "journeys": {
-    "hash": "sha256-NLslmwWS8KMJfbmZlbUbKFK9GKp1h3ZSgsljeoIxq/8=",
-    "url": "https://github.com/thrillfall/journeys/releases/download/0.16.0/journeys.tar.gz",
-    "version": "0.16.0",
+    "hash": "sha256-lGRLO+boWT9qjbtYSmU98BCxmEdpG2n9qHRSt2UETFQ=",
+    "url": "https://github.com/thrillfall/journeys/releases/download/0.17.1/journeys.tar.gz",
+    "version": "0.17.1",
     "description": "# Automatic Photo Album Creation for Nextcloud\n\nAutomatically cluster your images into journeys (vacations/trips) and create albums for each journey.\n**Requires the Memories app!**\n\n## ✨ Features\n- **🗺️ Location & Time Clustering:** Group images by when and where they were taken\n- **🗂️ Album Creation:** Albums are created automatically for each journey\n- **⚙️ Customizable:** Control minimum cluster size, time gap, and distance thresholds\n- **🎥 Video Rendering:** Turn journey albums into MP4 highlight reels (requires `ffmpeg` on the server)\n\n## 🚀 OCC Command Usage\n\n    php occ journeys:cluster-create-albums <user>\n\n## 🏠 Using your home location (default)\nJourneys segments the timeline into **near home** and **away from home** and applies sensible defaults for each to capture local days vs. trips.\n\n## ⏰ Runs automatically\nA background job runs **daily** to cluster newly added photos, and you’ll receive a **notification** whenever new albums are created.\n\n## 🏷️ How album names are created\nAlbum titles are generated from the **resolved place name** and the **date range** of the cluster, e.g. `Iceland — Aug 12–19, 2024`.",
     "homepage": "",
     "licenses": [
@@ -1760,8 +1760,8 @@
     ]
   },
   "maps": {
-    "hash": "sha256-E0S/CwXyye19lcuiONEQCyHJqlL0ZG1A9Q7oOTEZH1g=",
-    "url": "https://github.com/nextcloud/maps/releases/download/v1.6.0-3-nightly/maps-1.6.0-3-nightly.tar.gz",
+    "hash": "sha256-IupRymjs955TiUutzoTTMeESNfBmAp51l+oBaZwfdN0=",
+    "url": "https://github.com/nextcloud/maps/releases/download/v1.6.0/maps-1.6.0.tar.gz",
     "version": "1.6.0",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
@@ -1970,9 +1970,9 @@
     ]
   },
   "oidc": {
-    "hash": "sha256-RFlPJFwqv7TEoTZUc2vhP4AB7hh619EQ7vRdM+HDoBw=",
-    "url": "https://github.com/H2CK/oidc/releases/download/1.13.1/oidc-1.13.1.tar.gz",
-    "version": "1.13.1",
+    "hash": "sha256-Mv1z4RqArByDeYlhW9vv5L+ebR6TNeT4Kkv7bmSrjsk=",
+    "url": "https://github.com/H2CK/oidc/releases/download/1.14.2/oidc-1.14.2.tar.gz",
+    "version": "1.14.2",
     "description": "Nextcloud as OpenID Connect Identity Provider\n\nWith this app you can use Nextcloud as OpenID Connect Identity Provider. If other services\nare configured correctly, you are able to access those services with your Nextcloud login.\n\nFull documentation can be found at:\n\n- [User Documentation](https://github.com/H2CK/oidc/wiki#user-documentation)\n- [Developer Documentation](https://github.com/H2CK/oidc/wiki#developer-documentation)",
     "homepage": "https://github.com/H2CK/oidc",
     "licenses": [
@@ -2660,9 +2660,9 @@
     ]
   },
   "softwarecatalog": {
-    "hash": "sha256-LB0tZSfALDL4hgtRA3DwEkRtA2ZZTztMYa5tEncC7c8=",
-    "url": "https://github.com/ConductionNL/softwarecatalog/releases/download/v0.1.114/softwarecatalog-0.1.114.tar.gz",
-    "version": "0.1.114",
+    "hash": "sha256-cmZhdvN5HhuNTYRL2njmlnxRH4tNB/N7wfmqs0+P1d4=",
+    "url": "https://github.com/ConductionNL/softwarecatalog/releases/download/v0.1.115/softwarecatalog-0.1.115.tar.gz",
+    "version": "0.1.115",
     "description": "🗂️ A Nextcloud App for Software Catalogs\n\nThe Software Catalogus Nextcloud app offers a powerful framework for managing and synchronizing software catalogs within a federated, open data environment.\n\n- 🔄 Synchronize your software data with multiple catalogs\n- 📡 Automatically publish and update your software catalog information\n- 🆓 Completely free and open source under the EUPL license\n\n**Note: System Cron is required for this app to function properly**\n\nFind the installation requirements [here](https://conduction.gitbook.io/opencatalogi-nextcloud/install).\n\nView the development roadmap [here](https://github.com/orgs/OpenCatalogi/projects/1/views/2).\n\nSubmit a [bug report](https://github.com/OpenCatalogi/.github/issues/new/choose).\n\nSubmit a [feature request](https://github.com/OpenCatalogi/.github/issues/new/choose).",
     "homepage": "https://github.com/ConductionNL/SoftwareCatalogus",
     "licenses": [
@@ -2670,8 +2670,8 @@
     ]
   },
   "souvenirs": {
-    "hash": "sha256-BiRZcnjB6eS0bausiLvtM9YoIcEepmT+Eu3/4P23av0=",
-    "url": "https://github.com/zorgluf/souvenirs-nextcloud/releases/download/v1.12.0/souvenirs.tar.gz",
+    "hash": "sha256-M4gDpEDaxiSI59cLZIsLXLJGb++3m1v8SiXUkvFqLSk=",
+    "url": "https://github.com/zorgluf/souvenirs-nextcloud/releases/download/v1.12.1/souvenirs.tar.gz",
     "version": "1.12.0",
     "description": "View and share albums made by the [Souvenirs android application](https://github.com/zorgluf/souvenirs-android).\n    \\nThis application is just a viewer. No album creation or edition features are available for the moment. You will need to create albums using the android app and sync them to your nextcloud server.",
     "homepage": "https://github.com/zorgluf/souvenirs-nextcloud",
