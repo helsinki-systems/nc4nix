@@ -110,9 +110,9 @@
     ]
   },
   "attendance": {
-    "hash": "sha256-r4UvL7Uze1315HEpqXTcu+BE5D7rCzBhm2xYFIZvdi4=",
-    "url": "https://github.com/luflow/attendance/releases/download/v1.8.1/attendance.tar.gz",
-    "version": "1.8.1",
+    "hash": "sha256-ILwM3+1FR1Fga0muMgK3F/1h2fcuji0vQDSlW7+nNQg=",
+    "url": "https://github.com/luflow/attendance/releases/download/v1.9.0/attendance.tar.gz",
+    "version": "1.9.0",
     "description": "A small Nextcloud app for managing event attendance with advance RSVP functionality and real-time check-in capabilities. \n\n**For Administrators:**\n- Create and manage appointments with name, description (with Markdown support), and date/time\n- Track responses with detailed attendance summaries organized by user groups\n- **Unanswered View:** Dedicated section to quickly identify appointments without responses\n- **Reminder System:** Automated Nextcloud notifications for upcoming appointments\n- **Check-in Management:** Dedicated interface to track actual attendance during events\n- **Bulk Operations:** Mark multiple users as present/absent with bulk check-in actions\n- **Admin Comments:** Add check-in specific comments for detailed attendance tracking\n- **Group Whitelisting:** Configure which user groups are included in attendance statistics and check-in lists\n- **Export Functionality:** Export all appointment data to ODS spreadsheet format for further analysis\n- **Granular Permissions:** Control who can view response overviews, comments, manage appointments, and access check-in features\n\n**For All Users:**\n- Easy RSVP with Yes/No/Maybe responses to any appointment\n- Add optional comments with your response\n- Update responses anytime until the event date\n- Quick access via dashboard widget\n- Share appointment links for easy access\n\n**Group-Based Organization:**\n- Statistics automatically organized by Nextcloud user groups\n- See which group members haven't responded yet\n- Complete visibility into attendance across all groups\n- **Filtered Check-in:** Search and filter users by name or group during check-in process\n\nPerfect for organizations, teams, and communities that want to coordinate attendance for meetings, events, and activities with both advance planning and real-time attendance tracking.",
     "homepage": "https://krautnerds.de",
     "licenses": [
@@ -860,9 +860,9 @@
     ]
   },
   "groupfolders": {
-    "hash": "sha256-Ztca0HURID1eLkERbNDR0/vG+CNQAXntiIwcjiSmiPU=",
-    "url": "https://github.com/nextcloud-releases/groupfolders/releases/download/v20.1.4/groupfolders-v20.1.4.tar.gz",
-    "version": "20.1.4",
+    "hash": "sha256-D8NzAIlF8ObpH1P7LGKpc5AjYQ6NaNjz9y7gxfUFSu0=",
+    "url": "https://github.com/nextcloud-releases/groupfolders/releases/download/v20.1.5/groupfolders-v20.1.5.tar.gz",
+    "version": "20.1.5",
     "description": "Admin configured folders shared with everyone in a team.\n\nFolders can be configured from *Team folders* in the admin settings.\n\nAfter a folder is created, the admin can give access to the folder to one or more teams, control their write/sharing permissions and assign a quota for the folder.",
     "homepage": "https://github.com/nextcloud/groupfolders",
     "licenses": [
@@ -1669,6 +1669,16 @@
       "agpl"
     ]
   },
+  "openincryptpad": {
+    "hash": "sha256-gRl7SJ19RFlSY8Y/DOGqVsbwyQYqF5hfrvBtHO6q5T0=",
+    "url": "https://github.com/cryptpad/nextcloud-open-in-cryptpad/releases/download/v0.4.3/openincryptpad.tar.gz",
+    "version": "0.4.3",
+    "description": "# Open In CryptPad\n\n\"Open in CryptPad\" is a Nextcloud application that allows collaborative editing\nof files. For this it uses a CryptPad instance embedded into the Nextcloud web\ninterface. Currently, only drawio diagrams are supported.\n\n## Importing images from Nextcloud into diagrams\n\nWith this app, you can import images from Nextcloud into\ndiagrams. A copy of the image will be stored inside the `.drawio` file.\n\n## Rights management\n\nWhen using this app, the file permissions are completely handled by\nNextcloud. The right's management of CryptPad is not used for Nextcloud\nfiles edited in CryptPad.\n\n## Installation\n\n### Prerequisites on the CryptPad side\n\nTo embed CryptPad into Nextcloud, the \"Enable remote embedding\" admin setting\nneeds to be enabled. You can find this setting on the \"Administration\" web\ninterface in the \"General\" tab.\n\n### Install from Nextcloud app store\n\n1. Add drawio mimetype to Nextcloud. \"Open in CryptPad\" depends on Nextcloud\n   detecting drawio files correctly. For this you have to create the following\n   files: (**Note:** do this before uploading any drawio files! The mimetype of\n   old files will not be updated by these changes)\n    - `nextcloud/config/mimetypealiases.json`\n\n        ``` json\n        {\n            \"application/x-drawio\": \"image\"\n        }\n        ```\n\n    - `nextcloud/config/mimetypemapping.json`\n\n        ``` json\n        {\n            \"drawio\": [\"application/x-drawio\"]\n        }\n        ```\n2. Open the \"Apps\" page in your Nextcloud web interface and install \"Open in\n   CryptPad\". You can find it in the \"Integration\" category.\n3. Configure \"Open in CryptPad\" in the administration settings of Nextcloud.",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "openotp_auth": {
     "hash": "sha256-RPmlnMXqtgE52SDr+fPotbbTmw98jgXTD3dZzDAvzQg=",
     "url": "https://github.com/RCDevs-Security-Organization/nextcloud_openotp_auth/releases/download/1.32.0/openotp_auth-1.32.0.tar.gz",
@@ -2000,9 +2010,9 @@
     ]
   },
   "sentry": {
-    "hash": "sha256-RACauLEcfrNjLf8SpA9Z3fs8gihBsO6Fq33VUMSmYvY=",
-    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.16.7/sentry-v8.16.7.tar.gz",
-    "version": "8.16.7",
+    "hash": "sha256-myy7g0UW17/zhfC9DF11kxLSAFh805hWxDhtGSC6j/I=",
+    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.16.9/sentry-v8.16.9.tar.gz",
+    "version": "8.16.9",
     "description": "A Sentry integration that sends unhandled exceptions to a Sentry instance to aggregate application crashes. You either have to set up your own Sentry instance or use your sentry.io account. See the admin documentation for how to configure this app.",
     "homepage": "https://github.com/ChristophWurst/nextcloud_sentry",
     "licenses": [
@@ -2040,9 +2050,9 @@
     ]
   },
   "sharereview": {
-    "hash": "sha256-MZs7pcI5HuI9KnZzevpVSz0KlZh0A2vRNXFHlX8SreQ=",
-    "url": "https://github.com/nextcloud/sharereview/releases/download/2.0.1/sharereview-2.0.1.tar.gz",
-    "version": "2.0.1",
+    "hash": "sha256-QgxPvRc9H/W1j7MBIXAJ7WOSQ6bJnpQYWGQQFzMLMnA=",
+    "url": "https://github.com/nextcloud/sharereview/releases/download/2.1.0/sharereview-2.1.0.tar.gz",
+    "version": "2.1.0",
     "description": "This app can be used for auditing shares within a Nextcloud instance e.g. for data loss prevention.\nShare status can be exported for documentation.\n\n- Review any file share\n  - files, talk, deck, teams, federation\n  - app specific shares (if implemented by other apps)\n- Remove shares\n- Confirm current review\n  - show only new shares next time\n- Audit compliance\n- Assign review to user groups (e.g. audit or risk mgmt)\n- Export as CSV or PDF (manual or regular background job)\n\nNote:\nThe app must be restricted to at least one specific user group in the app store.\nThis prevents accidental exposure of the shared content to all users.",
     "homepage": "https://github.com/nextcloud/sharereview",
     "licenses": [
@@ -2200,9 +2210,9 @@
     ]
   },
   "softwarecatalog": {
-    "hash": "sha256-7CyVlw3tClM2KyZ5j/JBcvq9UDaIAgLvK8IdMcpNaCU=",
-    "url": "https://github.com/ConductionNL/softwarecatalog/releases/download/v0.1.121/softwarecatalog-0.1.121.tar.gz",
-    "version": "0.1.121",
+    "hash": "sha256-g2HY7JiSn2jAT6ouFVdEX28u4qdqDLzT0d12WpQSANI=",
+    "url": "https://github.com/ConductionNL/softwarecatalog/releases/download/v0.1.125/softwarecatalog-0.1.125.tar.gz",
+    "version": "0.1.125",
     "description": "🗂️ A Nextcloud App for Software Catalogs\n\nThe Software Catalogus Nextcloud app offers a powerful framework for managing and synchronizing software catalogs within a federated, open data environment.\n\n- 🔄 Synchronize your software data with multiple catalogs\n- 📡 Automatically publish and update your software catalog information\n- 🆓 Completely free and open source under the EUPL license\n\n**Note: System Cron is required for this app to function properly**\n\nFind the installation requirements [here](https://conduction.gitbook.io/opencatalogi-nextcloud/install).\n\nView the development roadmap [here](https://github.com/orgs/OpenCatalogi/projects/1/views/2).\n\nSubmit a [bug report](https://github.com/OpenCatalogi/.github/issues/new/choose).\n\nSubmit a [feature request](https://github.com/OpenCatalogi/.github/issues/new/choose).",
     "homepage": "https://github.com/ConductionNL/SoftwareCatalogus",
     "licenses": [
@@ -2290,9 +2300,9 @@
     ]
   },
   "text_templates": {
-    "hash": "sha256-bDX8FaMMpu4ZTt4l9I66dYRVFYcocsBbpIUIOZyqzac=",
-    "url": "https://github.com/nextcloud-releases/text_templates/releases/download/v1.2.1/text_templates-v1.2.1.tar.gz",
-    "version": "1.2.1",
+    "hash": "sha256-pC0Tc8al7nMLiQKzraCGC2W+NZNkJcEOcRWmebFtG+k=",
+    "url": "https://github.com/nextcloud-releases/text_templates/releases/download/v1.3.0/text_templates-v1.3.0.tar.gz",
+    "version": "1.3.0",
     "description": "This app adds a smart picker provider to quickly access text templates when using Text, Collectives, Talk, Mail\nor any place where the smart picker is integrated.",
     "homepage": "https://github.com/julien-nc/text_templates",
     "licenses": [
@@ -2430,8 +2440,8 @@
     ]
   },
   "uniteos_notifier": {
-    "hash": "sha256-y2Grzus55kMVYJJyynNBezvngzn31u3mFhS9ihSYBHQ=",
-    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/1.0.4/uniteos_notifier.tar.gz",
+    "hash": "sha256-8GJMpu0aFiP9I1MSgNVJohEntNvIXKC9tSDXsR6Qyv4=",
+    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/main/uniteos_notifier.tar.gz",
     "version": "1.0.4",
     "description": "This app allows forwarding Nextcloud events for a deeper integration into UniteOS developed by wechange eG by presenting a selected set of events as user notifications.",
     "homepage": "",
@@ -2540,9 +2550,9 @@
     ]
   },
   "welcome": {
-    "hash": "sha256-tiSkoIiqGrkawpzWgNvTIgGwzM4OjYVKNp42A+6UmlE=",
-    "url": "https://github.com/nextcloud-releases/welcome/releases/download/v1.3.0/welcome-v1.3.0.tar.gz",
-    "version": "1.3.0",
+    "hash": "sha256-9HZEccQuRg2mbTQ8K4DxxhdCK+PUInrE0V+Apg1hUdo=",
+    "url": "https://github.com/nextcloud-releases/welcome/releases/download/v1.4.0/welcome-v1.4.0.tar.gz",
+    "version": "1.4.0",
     "description": "ℹ A Markdown rendering Dashboard widget to welcome all users.\n\n⚙ Configure via `Settings > Administration > Theming > Welcome widget`\n\n📄 Pick a Markdown document to be rendered in the widget\n\n💡 If no document is chosen, the widget won't be shown\n\n📝 Edit the Markdown document to update the widget in real-time\n\n🖼 Images are also supported\n\n💬 Configure a contact person to directly start a chat with (requires [Nextcloud Talk](https://apps.nextcloud.com/apps/spreed) to be installed)",
     "homepage": "https://github.com/nextcloud/welcome",
     "licenses": [
