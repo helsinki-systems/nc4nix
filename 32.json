@@ -100,9 +100,9 @@
     ]
   },
   "assistant": {
-    "hash": "sha256-DzYwrVxxu4Yu8mnR7ZKpTIVVp3YWVkKWd0ZWbGKQgE4=",
-    "url": "https://github.com/nextcloud-releases/assistant/releases/download/v2.10.0/assistant-v2.10.0.tar.gz",
-    "version": "2.10.0",
+    "hash": "sha256-PHqgzgPA8GJvJOwqIuHv1RxbUMk5Pq9eZgiPGyHU5+8=",
+    "url": "https://github.com/nextcloud-releases/assistant/releases/download/v2.11.0/assistant-v2.11.0.tar.gz",
+    "version": "2.11.0",
     "description": "This app brings a user interface to use the Nextcloud text processing feature.\n\nIt allows users to launch AI tasks, be notified when they finish and see the results.\nThe assistant also appears in others apps like Text to easily process parts of a document.\n\nMore details on the assistant OCS API and frontend integration possibilities in the\n[developer doc](https://github.com/nextcloud/assistant/raw/main/docs/developer)\n\n### How to use it\n\nA new right header menu entry appears. Once clicked, the assistant is displayed and you can select and task type and\nset the input you want to process.\n\nThe task might run immediately or be scheduled depending on the time estimation given by the AI provider.\nOnce a task is scheduled, it will run as a background job. When it is finished, you will receive a notification\nfrom which the results can be displayed.\n\nOther apps can integrate with the assistant. For example, Text will display an inline button besides every paragraph\nto directly select a task type to process this paragraph. Selecting a task this way will open the assistant with the task\nbeing pre-selected and the input text set.\n\nMore details and screenshots in the [user doc](https://github.com/nextcloud/assistant/raw/main/docs/user).\n\n## Features\n\nIn the assistant, the list of available tasks depends on the available providers installed via other apps.\nThis means you have complete freedom over which service/software will actually run your AI tasks.\n\n### Text processing providers\n\nSo far, the [Local Large language model](https://github.com/nextcloud/llm2#readme)\nand the [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai) apps\ninclude text processing providers to:\n* Summarize\n* Extract topics\n* Generate a headline\n* Get an answer from a free prompt\n* Reformulate (OpenAi/LocalAi only)\n* Context writer: Generate text with a specified style. The style can be described or provided via an example text.\n\n### Text to image (Image generation)\n\nKnown providers:\n* [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai)\n* [Text2Image Stable Diffusion](https://apps.nextcloud.com/apps/text2image_stablediffusion)\n\n### Speech to text (Audio transcription)\n\nKnown providers:\n* [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai)\n* [Local Whisper Speech-To-Text](https://apps.nextcloud.com/apps/stt_whisper)\n\nMore details on how to set this up in the [admin docs](https://docs.nextcloud.com/server/latest/admin_manual/ai/index.html)",
     "homepage": "https://github.com/nextcloud/assistant",
     "licenses": [
@@ -110,9 +110,9 @@
     ]
   },
   "attendance": {
-    "hash": "sha256-ILwM3+1FR1Fga0muMgK3F/1h2fcuji0vQDSlW7+nNQg=",
-    "url": "https://github.com/luflow/attendance/releases/download/v1.9.0/attendance.tar.gz",
-    "version": "1.9.0",
+    "hash": "sha256-bFrCqWaN2OtSXVHTIBqqHy6pvjpnMksMvw7r7xgDtDc=",
+    "url": "https://github.com/luflow/attendance/releases/download/v1.10.0/attendance.tar.gz",
+    "version": "1.10.0",
     "description": "A small Nextcloud app for managing event attendance with advance RSVP functionality and real-time check-in capabilities. \n\n**For Administrators:**\n- Create and manage appointments with name, description (with Markdown support), and date/time\n- Track responses with detailed attendance summaries organized by user groups\n- **Unanswered View:** Dedicated section to quickly identify appointments without responses\n- **Reminder System:** Automated Nextcloud notifications for upcoming appointments\n- **Check-in Management:** Dedicated interface to track actual attendance during events\n- **Bulk Operations:** Mark multiple users as present/absent with bulk check-in actions\n- **Admin Comments:** Add check-in specific comments for detailed attendance tracking\n- **Group Whitelisting:** Configure which user groups are included in attendance statistics and check-in lists\n- **Export Functionality:** Export all appointment data to ODS spreadsheet format for further analysis\n- **Granular Permissions:** Control who can view response overviews, comments, manage appointments, and access check-in features\n\n**For All Users:**\n- Easy RSVP with Yes/No/Maybe responses to any appointment\n- Add optional comments with your response\n- Update responses anytime until the event date\n- Quick access via dashboard widget\n- Share appointment links for easy access\n\n**Group-Based Organization:**\n- Statistics automatically organized by Nextcloud user groups\n- See which group members haven't responded yet\n- Complete visibility into attendance across all groups\n- **Filtered Check-in:** Search and filter users by name or group during check-in process\n\nPerfect for organizations, teams, and communities that want to coordinate attendance for meetings, events, and activities with both advance planning and real-time attendance tracking.",
     "homepage": "https://krautnerds.de",
     "licenses": [
@@ -733,16 +733,16 @@
     "hash": "sha256-yCyGcCHTmgSjZ7U3h79jeYW69oIIVF4kd5wGxDBmK2s=",
     "url": "https://github.com/nextcloud-releases/forms/releases/download/v5.2.3/forms-v5.2.3.tar.gz",
     "version": "5.2.3",
-    "description": "**Simple surveys and questionnaires, self-hosted!**\n\n- **📝 Simple design:** No mass of options, only the essentials. Works well on mobile of course.\n- **📊 View & export results:** Results are visualized and can also be exported as CSV in the same format used by Google Forms.\n- **🔒 Data under your control!** Unlike in Google Forms, Typeform, Doodle and others, the survey info and responses are kept private on your instance.\n- **🧑‍💻 Connect to your software:** Easily integrate Forms into your service with our full-fledged [REST-API](https://github.com/nextcloud/forms/blob/main/docs/API_v3.md).\n- **🙋 Get involved!** We have lots of stuff planned like more question types, collaboration on forms, [and much more](https://github.com/nextcloud/forms/milestones)!",
+    "description": "**Simple surveys and questionnaires, self-hosted!**\n\n- **📝 Simple design:** No mass of options, only the essentials. Works well on mobile of course.\n- **📊 View & export results:** Results are visualized and can also be exported as CSV in the same format used by Google Forms.\n- **🔒 Data under your control!** Unlike in Google Forms, Typeform, Doodle and others, the survey info and responses are kept private on your instance.\n- **🧑‍💻 Connect to your software:** Easily integrate Forms into your service with our full-fledged [REST-API](https://github.com/nextcloud/forms/blob/main/docs/API.md).\n- **🙋 Get involved!** We have lots of stuff planned like more question types, collaboration on forms, [and much more](https://github.com/nextcloud/forms/milestones)!",
     "homepage": "https://github.com/nextcloud/forms",
     "licenses": [
       "agpl"
     ]
   },
   "forum": {
-    "hash": "sha256-acLRE+uyjtyDUpYOGlSMSJwSBanq8+lu3E9rdR/xNX0=",
-    "url": "https://github.com/chenasraf/nextcloud-forum/releases/download/v0.15.0/forum-v0.15.0.tar.gz",
-    "version": "0.15.0",
+    "hash": "sha256-B6xI8UwXJjdXBZoMw+QGRSBGr3ExDHkHEWDR2R6E00E=",
+    "url": "https://github.com/chenasraf/nextcloud-forum/releases/download/v0.16.0/forum-v0.16.0.tar.gz",
+    "version": "0.16.0",
     "description": "Create discussions, share ideas and collaborate with your community directly in Nextcloud.\n\n**⚠️ Early Development Notice:**\nThis app is in early stages of development. While functional, you may encounter bugs or incomplete features. Please report any issues on GitHub and consider backing up your data regularly.\n\n**Key features:**\n- **Thread-based Discussions** - Create and reply to organized discussion threads\n- **Category Organization** - Structure your forum with customizable categories and headers\n- **Rich Text Formatting** - Use BBCode for formatting posts with bold, italic, links, images, code blocks and more\n- **File Attachments** - Attach files from your Nextcloud storage to posts\n- **Post Reactions** - React to posts with emoji reactions\n- **Read/Unread Tracking** - Keep track of which threads you've read\n- **Search** - Find discussions quickly with built-in search\n- **User Profiles** - View user post history and statistics\n- **Role-Based Permissions** - Control access and moderation with flexible roles\n- **Guest Access**: Optional public access for unauthenticated users with configurable permissions\n- **Admin Tools** - Manage categories, roles, BBCodes and forum settings\n- **Moderation Tools** - Pin, lock and manage threads and posts\n\n**Perfect for:**\n- Team discussions and collaboration\n- Community forums\n- Support channels\n- Knowledge bases\n- Project discussions\n- Internal communication\n\nThe forum integrates seamlessly with your Nextcloud instance, using your existing users and groups for authentication and access control.",
     "homepage": "https://github.com/chenasraf/nextcloud-forum",
     "licenses": [
@@ -1170,8 +1170,8 @@
     ]
   },
   "integration_openproject": {
-    "hash": "sha256-UfrfgQP7n0u26qCxcrsl3N9c5jMsydHXil1k22t0rH0=",
-    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.10.1/integration_openproject-2.10.1.tar.gz",
+    "hash": "sha256-W3F1n9G1hdXx4vixIUp+CKjZfTPohZJ90XH7J8aKZxU=",
+    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.10.1-20251029-nightly/integration_openproject-2.10.1-20251029-nightly.tar.gz",
     "version": "2.10.1",
     "description": "This application enables seamless integration with open source project management and collaboration software OpenProject.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in OpenProject\n* Find all work packages linked to a file or a folder\n* Create work packages directly in Nextcloud\n* View OpenProject notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n* Link work packages in rich text fields via Smart Picker\n* Preview links to work packages in text fields\n* Link multiple files and folder to a work package at once\n\nOn the OpenProject end, users are able to:\n\n* Link work packages with files and folders in Nextcloud\n* Upload and download files directly to Nextcloud from within a work package\n* Open linked files in Nextcloud to edit them\n* Let OpenProject create shared folders per project\n\nFor more information on how to set up and use the OpenProject application, please refer to [integration setup guide](https://www.openproject.org/docs/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://www.openproject.org/docs/user-guide/nextcloud-integration/).",
     "homepage": "https://github.com/nextcloud/integration_openproject",
@@ -1360,9 +1360,9 @@
     ]
   },
   "journeys": {
-    "hash": "sha256-4CmBId7gtlGBuE0G42bOBm5dLwGU3dQgWwTouy0LHb4=",
-    "url": "https://github.com/thrillfall/journeys/releases/download/0.18.1/journeys.tar.gz",
-    "version": "0.18.1",
+    "hash": "sha256-UYFPXmYQtHRXe216XZ2zQ5FeayhRUrDmrpLOQ+GzCCg=",
+    "url": "https://github.com/thrillfall/journeys/releases/download/0.18.3/journeys.tar.gz",
+    "version": "0.18.3",
     "description": "# Automatic Photo Album Creation for Nextcloud\n\nAutomatically cluster your images into journeys (vacations/trips) and create albums for each journey.\n**Requires the Memories app!**\n\n## ✨ Features\n- **🗺️ Location & Time Clustering:** Group images by when and where they were taken\n- **🗂️ Album Creation:** Albums are created automatically for each journey\n- **⚙️ Customizable:** Control minimum cluster size, time gap, and distance thresholds\n- **🎥 Video Rendering:** Turn journey albums into MP4 highlight reels (requires `ffmpeg` on the server)\n\n## 🚀 OCC Command Usage\n\n    php occ journeys:cluster-create-albums <user>\n\n## 🏠 Using your home location (default)\nJourneys segments the timeline into **near home** and **away from home** and applies sensible defaults for each to capture local days vs. trips.\n\n## ⏰ Runs automatically\nA background job runs **daily** to cluster newly added photos, and you’ll receive a **notification** whenever new albums are created.\n\n## 🏷️ How album names are created\nAlbum titles are generated from the **resolved place name** and the **date range** of the cluster, e.g. `Iceland — Aug 12–19, 2024`.",
     "homepage": "",
     "licenses": [
@@ -1450,9 +1450,9 @@
     ]
   },
   "mail": {
-    "hash": "sha256-id64DLHNDI7WdxUd0NCinUKHLMyae7tpRURHodU9/Kg=",
-    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.6.3/mail-v5.6.3.tar.gz",
-    "version": "5.6.3",
+    "hash": "sha256-NKfGt1KNri30fB4WeIhcnOjWooRJ8GCY9nCbl2X66W8=",
+    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.6.4/mail-v5.6.4.tar.gz",
+    "version": "5.6.4",
     "description": "**💌 A mail app for Nextcloud**\n\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://www.horde.org) libraries.\n- **📬 Want to host your own mail server?** We do not have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!\n\n## Ethical AI Rating\n\n### Priority Inbox\n\nPositive:\n* The software for training and inferencing of this model is open source.\n* The model is created and trained on-premises based on the user's own data.\n* The training data is accessible to the user, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n### Thread Summaries (opt-in)\n\n**Rating:** 🟢/🟡/🟠/🔴\n\nThe rating depends on the installed text processing backend. See [the rating overview](https://docs.nextcloud.com/server/latest/admin_manual/ai/index.html) for details.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/mail#readme",
     "licenses": [
@@ -1780,9 +1780,9 @@
     ]
   },
   "photo_frames": {
-    "hash": "sha256-9zW/oijDVaeB19uF43SUAP8lRFeg8o0YbErV861Y+vs=",
-    "url": "https://github.com/jeppester/nextcloud-photo-frames/releases/download/1.6.2/photo_frames.tar.gz",
-    "version": "1.6.2",
+    "hash": "sha256-9rU+rFDTQqL5c43A2PexN10KWa88BUc6TPV15EbUYAo=",
+    "url": "https://github.com/jeppester/nextcloud-photo-frames/releases/download/1.6.3/photo_frames.tar.gz",
+    "version": "1.6.3",
     "description": "Generate easily sharable photo frame URLs for your Nextcloud albums.\n\nThe possiblities are endless:\n\n- Turn any android device into a smart photo frame (with the help of a kiosk browser)\n- Co-create photo frames with Nextcloud's collaborative albums\n- Share photo frames across households",
     "homepage": "",
     "licenses": [
@@ -1970,10 +1970,10 @@
     ]
   },
   "scores": {
-    "hash": "sha256-A4/QZxmvHkCEXr9/l6VJX1wr2SrlSdW/+4tlDkuOlyc=",
-    "url": "https://github.com/micheledimeo/Scores/releases/download/v0.9.12/scores-0.9.12.tar.gz",
-    "version": "0.9.12",
-    "description": "Display, play, and manage MusicXML files directly in Nextcloud using OpenSheetMusicDisplay.\n\nFeatures:\n- 🎼 Sheet Music Display: Render MusicXML, compressed MusicXML (.mxl), and other formats\n- ▶️ Advanced Playback: Play, pause, stop, and loop with real-time cursor tracking\n- 🎚️ Instrument Mixer: Individual volume control for each instrument/channel with solo/mute\n- 🎵 Tempo & Volume Control: Precise BPM adjustment (40-240) and master volume with numeric inputs\n- 📊 Progress Tracking: Visual progress bar with time and measure indicators\n- ⌨️ Keyboard Shortcuts: Space (play/pause), F (return to start), arrows (navigate/zoom)\n- 🔍 Smart Search: Real-time search with match counter across all scores and folders\n- 📁 Folder Navigation: Organized folder tree with expandable/collapsible folders and file counts\n- 📝 Smart File Display: Automatic left truncation for files in folders to show instrument names\n- 🌍 Internationalization: Full i18n support with translation system\n- 🔄 Files App Integration: Upload and share scores using Nextcloud Files app\n- 🎯 Admin Settings: Configure multiple scores folder paths with folder browser\n- 📱 Responsive Design: Adaptive layout with collapsible sidebar, optimized for mobile\n\nSupported Formats:\n- MusicXML (.xml, .musicxml, .mxml)\n- MusicXML Compressed (.mxl)\n- MEI (Music Encoding Initiative)\n- Guitar Pro files (.gp, .gp3, .gp4, .gp5, .gpx)\n\nUsage:\n1. Navigate to the Scores app in Nextcloud\n2. Use the search box to find scores, or browse the folder tree\n3. Click on a score file to open it with playback controls\n4. Use keyboard shortcuts: Space (play/pause), F (return to start), arrows (navigate/zoom)\n\nAdmin Configuration:\nAdministrators can configure score folder paths in Scores Settings. Add one or more folder paths using the folder browser. Paths are relative to each user's home directory. Leave empty to scan all user files.\n\nCompatibility:\n- Nextcloud: 28.x - 33.x\n- PHP: 8.1 - 8.4\n- Browsers: Chrome, Firefox, Safari (including iOS/iPadOS 17.0+)\n\nBuilt with OpenSheetMusicDisplay (https://opensheetmusicdisplay.org/)",
+    "hash": "sha256-DGiRy9oJuVf3yB3l53iQyWZ3yKvY7beQVNTsEZeeRl8=",
+    "url": "https://github.com/micheledimeo/Scores/releases/download/v0.9.17/scores-0.9.17.tar.gz",
+    "version": "0.9.17",
+    "description": "Display and play MusicXML and related music notation formats inside Nextcloud using OpenSheetMusicDisplay.\n\nFeatures:\n- 🎼 Sheet Music Display: Render MusicXML, compressed MusicXML (.mxl), and other formats\n- ▶️ Advanced Playback: Play, pause, stop, and loop with real-time cursor tracking\n- 🎚️ Instrument Mixer: Individual volume control for each instrument/channel\n- 🎵 Tempo & Volume Control: Precise BPM adjustment (40-240) and master volume\n- 📊 Progress Tracking: Visual progress bar with time and measure indicators\n- ⌨️ Keyboard Shortcuts: Space (play/pause), arrows (navigate), +/- (zoom)\n- 🔍 Smart Search: Real-time search across all scores and folders\n- 📱 Responsive Design: Adaptive layout with collapsible sidebar",
     "homepage": "https://github.com/micheledimeo/Scores",
     "licenses": [
       "agpl"
@@ -2060,9 +2060,9 @@
     ]
   },
   "shiftsnext": {
-    "hash": "sha256-qQ/tBaB8953AtcBOGqb1mCpeV1CvXe4GXynA2IMfFds=",
-    "url": "https://github.com/csoc-de/shiftsnext/releases/download/v2.2.0/shiftsnext.tar.gz",
-    "version": "2.2.0",
+    "hash": "sha256-3YWsLQpnoR2s+uSpFeevGTRwL1PCWOLE+L0aZtLtaak=",
+    "url": "https://github.com/csoc-de/shiftsnext/releases/download/v2.3.0/shiftsnext.tar.gz",
+    "version": "2.3.0",
     "description": "Manage your shifts and sync them to your calendar",
     "homepage": "https://github.com/csoc-de/shiftsnext",
     "licenses": [
@@ -2370,10 +2370,10 @@
     ]
   },
   "timesheet": {
-    "hash": "sha256-IiJYYWFNGaNES6LX9L/8sdMY9KnazIHVHmWgXoieFhk=",
-    "url": "https://github.com/Repa1253/timesheet/releases/download/1.0.4/timesheet-1.0.4.tar.gz",
-    "version": "1.0.4",
-    "description": "Simple time tracking app for employees and HR inside Nextcloud.\n\n\t\tEmployees can enter their daily working hours, see monthly totals and overtime.\n\t\tHR users get an overview of all employees, including targets, balances and rule violations.",
+    "hash": "sha256-uUQxrey2f25r2HRzfCjRld9TmRWFZJgvxQuRNpFy0uM=",
+    "url": "https://github.com/Repa1253/timesheet/releases/download/1.0.5/timesheet-1.0.5.tar.gz",
+    "version": "1.0.5",
+    "description": "Simple time tracking app for employees and HR inside Nextcloud.\n\nEmployees can enter their daily working hours, see monthly totals and overtime.\nHR users get an overview of all employees, including targets, balances and rule violations.\nWhen a federal state is specified, the monthly view displays the public holidays for that federal state in the calendar (currently only German federal states are supported).",
     "homepage": "",
     "licenses": [
       "agpl"
