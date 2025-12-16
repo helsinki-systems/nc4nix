@@ -170,9 +170,9 @@
     ]
   },
   "autocurrency": {
-    "hash": "sha256-3gYEbUWi726DdaG1LGsba2pw6zrrK01ZfGdPeYcb4vM=",
-    "url": "https://github.com/chenasraf/nextcloud-autocurrency/releases/download/v1.6.1/autocurrency-v1.6.1.tar.gz",
-    "version": "1.6.1",
+    "hash": "sha256-vprJHoG4mqN9ZVXeygwY7Dk0s8oLFODu1cv0ioIicvY=",
+    "url": "https://github.com/chenasraf/nextcloud-autocurrency/releases/download/v1.6.2/autocurrency-v1.6.2.tar.gz",
+    "version": "1.6.2",
     "description": "This NextCloud app automatically fetches currency information for your Cospend projects, and fills\nthem up using the main currency as base. No more manually updating exchange rates!\n\n\nYou can also view the history of currency rates fetched in the past, and see how they changed over time.\n\n\nIt will automatically run once a day by default and use your currency names to fetch the correct\nrate.\n\n\nInterval for fetch may be adjusted in the admin settings \"Auto Currency\" section.\n\n\n> **Note**: This is a companion app to [Cospend](https://apps.nextcloud.com/apps/cospend).\n>\n> Without Cospend, this app will not work.",
     "homepage": "https://github.com/chenasraf/nextcloud-autocurrency",
     "licenses": [
@@ -1080,9 +1080,9 @@
     ]
   },
   "gpxpod": {
-    "hash": "sha256-sd1afhMhNnJeFxlsZcwTZUZmftCfRgk8dqwMIcTb2R0=",
-    "url": "https://github.com/julien-nc/gpxpod/releases/download/v7.1.0/gpxpod-7.1.0.tar.gz",
-    "version": "7.1.0",
+    "hash": "sha256-QeUsmW/ACkaD/7iJF3FQ5BlVZKYk4vCsspdZA+GjhAo=",
+    "url": "https://github.com/julien-nc/gpxpod/releases/download/v7.2.1/gpxpod-7.2.1.tar.gz",
+    "version": "7.2.1",
     "description": "# GpxPod Nextcloud application\n\nDisplay, analyse, compare and share GPS track files.\n\n🌍 Help us to translate this app on [GpxPod Crowdin project](https://crowdin.com/project/gpxpod).\n\nGpxPod:\n\n* 🗺 can display your gpx/kml/tcx/igc/fit files\n* 📏 supports metric, english and nautical measure systems\n* 🗠 draws interactive chart for elevation, speed, pace or any extension data\n* 🗠 use line gradient color for track lines with speed, elevation, pace or any extension data\n* 🗠 shows track statistics\n* 🖻 displays geotagged pictures\n* 🖧 generates public links pointing to a track/folder\n* 🗠 can correct tracks elevations using SRTM data\n* ⚖ can make global comparison of multiple tracks\n* ⚖ can make visual pair comparison of divergent parts of similar tracks\n* 🀆 allows users to add personal map tile servers\n* 🖍 allows user to manually choose line color for each track\n* 🔒 works with encrypted data folder (server side encryption)\n* 🍂 proudly uses Leaflet and MapLibre GL\n\nLink to Nextcloud application website : https://apps.nextcloud.com/apps/gpxpod\n\n## Install\n\nSee the [AdminDoc](https://gitlab.com/eneiluj/gpxpod-oc/wikis/admindoc) for installation details\n\n## Known issues\n\n* *WARNING*, kml conversion will NOT work with recent kml files using the proprietary \"gx:track\" extension tag.\n\nAny feedback will be appreciated.\n\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://github.com/julien-nc/gpxpod",
     "licenses": [
@@ -1630,9 +1630,9 @@
     ]
   },
   "journeys": {
-    "hash": "sha256-UYFPXmYQtHRXe216XZ2zQ5FeayhRUrDmrpLOQ+GzCCg=",
-    "url": "https://github.com/thrillfall/journeys/releases/download/0.18.3/journeys.tar.gz",
-    "version": "0.18.3",
+    "hash": "sha256-Pgm9MdaBZyefG+SCxlp7BoVXcmEbw/uMF50du1JfOmw=",
+    "url": "https://github.com/thrillfall/journeys/releases/download/0.19.1/journeys.tar.gz",
+    "version": "0.19.1",
     "description": "# Automatic Photo Album Creation for Nextcloud\n\nAutomatically cluster your images into journeys (vacations/trips) and create albums for each journey.\n**Requires the Memories app!**\n\n## ✨ Features\n- **🗺️ Location & Time Clustering:** Group images by when and where they were taken\n- **🗂️ Album Creation:** Albums are created automatically for each journey\n- **⚙️ Customizable:** Control minimum cluster size, time gap, and distance thresholds\n- **🎥 Video Rendering:** Turn journey albums into MP4 highlight reels (requires `ffmpeg` on the server)\n\n## 🚀 OCC Command Usage\n\n    php occ journeys:cluster-create-albums <user>\n\n## 🏠 Using your home location (default)\nJourneys segments the timeline into **near home** and **away from home** and applies sensible defaults for each to capture local days vs. trips.\n\n## ⏰ Runs automatically\nA background job runs **daily** to cluster newly added photos, and you’ll receive a **notification** whenever new albums are created.\n\n## 🏷️ How album names are created\nAlbum titles are generated from the **resolved place name** and the **date range** of the cluster, e.g. `Iceland — Aug 12–19, 2024`.",
     "homepage": "",
     "licenses": [
@@ -2660,9 +2660,9 @@
     ]
   },
   "softwarecatalog": {
-    "hash": "sha256-jqninbIuHRWWLU+GWUQYPMWQnykXvgXGE1gatfKWo2I=",
-    "url": "https://github.com/ConductionNL/softwarecatalog/releases/download/v0.1.127/softwarecatalog-0.1.127.tar.gz",
-    "version": "0.1.127",
+    "hash": "sha256-RNQO9zlQWzNtz0AgcgEe4uzpQTwVxTQgGfpmRHXMzyw=",
+    "url": "https://github.com/ConductionNL/softwarecatalog/releases/download/v0.1.128/softwarecatalog-0.1.128.tar.gz",
+    "version": "0.1.128",
     "description": "🗂️ A Nextcloud App for Software Catalogs\n\nThe Software Catalogus Nextcloud app offers a powerful framework for managing and synchronizing software catalogs within a federated, open data environment.\n\n- 🔄 Synchronize your software data with multiple catalogs\n- 📡 Automatically publish and update your software catalog information\n- 🆓 Completely free and open source under the EUPL license\n\n**Note: System Cron is required for this app to function properly**\n\nFind the installation requirements [here](https://conduction.gitbook.io/opencatalogi-nextcloud/install).\n\nView the development roadmap [here](https://github.com/orgs/OpenCatalogi/projects/1/views/2).\n\nSubmit a [bug report](https://github.com/OpenCatalogi/.github/issues/new/choose).\n\nSubmit a [feature request](https://github.com/OpenCatalogi/.github/issues/new/choose).",
     "homepage": "https://github.com/ConductionNL/SoftwareCatalogus",
     "licenses": [
