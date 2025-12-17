@@ -110,9 +110,9 @@
     ]
   },
   "assistant": {
-    "hash": "sha256-PHqgzgPA8GJvJOwqIuHv1RxbUMk5Pq9eZgiPGyHU5+8=",
-    "url": "https://github.com/nextcloud-releases/assistant/releases/download/v2.11.0/assistant-v2.11.0.tar.gz",
-    "version": "2.11.0",
+    "hash": "sha256-JBqW1pULoDvD66zCV7uw2Tm7s7bKdYVi6igUXCD5WXg=",
+    "url": "https://github.com/nextcloud-releases/assistant/releases/download/v2.12.0/assistant-v2.12.0.tar.gz",
+    "version": "2.12.0",
     "description": "This app brings a user interface to use the Nextcloud text processing feature.\n\nIt allows users to launch AI tasks, be notified when they finish and see the results.\nThe assistant also appears in others apps like Text to easily process parts of a document.\n\nMore details on the assistant OCS API and frontend integration possibilities in the\n[developer doc](https://github.com/nextcloud/assistant/raw/main/docs/developer)\n\n### How to use it\n\nA new right header menu entry appears. Once clicked, the assistant is displayed and you can select and task type and\nset the input you want to process.\n\nThe task might run immediately or be scheduled depending on the time estimation given by the AI provider.\nOnce a task is scheduled, it will run as a background job. When it is finished, you will receive a notification\nfrom which the results can be displayed.\n\nOther apps can integrate with the assistant. For example, Text will display an inline button besides every paragraph\nto directly select a task type to process this paragraph. Selecting a task this way will open the assistant with the task\nbeing pre-selected and the input text set.\n\nMore details and screenshots in the [user doc](https://github.com/nextcloud/assistant/raw/main/docs/user).\n\n## Features\n\nIn the assistant, the list of available tasks depends on the available providers installed via other apps.\nThis means you have complete freedom over which service/software will actually run your AI tasks.\n\n### Text processing providers\n\nSo far, the [Local Large language model](https://github.com/nextcloud/llm2#readme)\nand the [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai) apps\ninclude text processing providers to:\n* Summarize\n* Extract topics\n* Generate a headline\n* Get an answer from a free prompt\n* Reformulate (OpenAi/LocalAi only)\n* Context writer: Generate text with a specified style. The style can be described or provided via an example text.\n\n### Text to image (Image generation)\n\nKnown providers:\n* [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai)\n* [Text2Image Stable Diffusion](https://apps.nextcloud.com/apps/text2image_stablediffusion)\n\n### Speech to text (Audio transcription)\n\nKnown providers:\n* [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai)\n* [Local Whisper Speech-To-Text](https://apps.nextcloud.com/apps/stt_whisper)\n\nMore details on how to set this up in the [admin docs](https://docs.nextcloud.com/server/latest/admin_manual/ai/index.html)",
     "homepage": "https://github.com/nextcloud/assistant",
     "licenses": [
@@ -210,9 +210,9 @@
     ]
   },
   "calendar": {
-    "hash": "sha256-GcoHXCAsyoWyXT5/55+Eu/G1D4pZe2A8iR1wRo9S/9s=",
-    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v5.5.9/calendar-v5.5.9.tar.gz",
-    "version": "5.5.9",
+    "hash": "sha256-dChMn8lILZK50UTnInkl8YN/GvjT7U6PqJHpR/73vZI=",
+    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v5.5.10/calendar-v5.5.10.tar.gz",
+    "version": "5.5.10",
     "description": "A Calendar app for Nextcloud. Easily sync events from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Like Contacts, Talk, Tasks, Deck and Circles\n* 🌐 **WebCal Support!** Want to see your favorite team's matchdays in your calendar? No problem!\n* 🙋 **Attendees!** Invite people to your events\n* ⌚ **Free/Busy!** See when your attendees are available to meet\n* ⏰ **Reminders!** Get alarms for events inside your browser and via email\n* 🔍 **Search!** Find your events at ease\n* ☑️ **Tasks!** See tasks or Deck cards with a due date directly in the calendar\n* 🔈 **Talk rooms!** Create an associated Talk room when booking a meeting with just one click\n* 📆 **Appointment booking** Send people a link so they can book an appointment with you [using this app](https://apps.nextcloud.com/apps/appointments)\n* 📎 **Attachments!** Add, upload and view event attachments\n* 🙈 **We’re not reinventing the wheel!** Based on the great [c-dav library](https://github.com/nextcloud/cdav-library), [ical.js](https://github.com/mozilla-comm/ical.js) and [fullcalendar](https://github.com/fullcalendar/fullcalendar) libraries.",
     "homepage": "https://github.com/nextcloud/calendar/",
     "licenses": [
@@ -370,9 +370,9 @@
     ]
   },
   "contacts": {
-    "hash": "sha256-hUYfZ3EX0sLOWoaH7NGpashgKS8gf0YPpwwEniJL0jk=",
-    "url": "https://github.com/nextcloud-releases/contacts/releases/download/v7.3.8/contacts-v7.3.8.tar.gz",
-    "version": "7.3.8",
+    "hash": "sha256-543zSjxmqSnBPypr8Wdp4SH8zamXDCMl20B5nYxvgIM=",
+    "url": "https://github.com/nextcloud-releases/contacts/releases/download/v7.3.9/contacts-v7.3.9.tar.gz",
+    "version": "7.3.9",
     "description": "The Nextcloud contacts app is a user interface for Nextcloud's CardDAV server. Easily sync contacts from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Currently Mail and Calendar – more to come.\n* 🎉 **Never forget a birthday!** You can sync birthdays and other recurring events with your Nextcloud Calendar.\n* 👥 **Sharing of Adressbooks!** You want to share your contacts with your friends or coworkers? No problem!\n* 🙈 **We’re not reinventing the wheel!** Based on the great and open SabreDAV library.",
     "homepage": "https://github.com/nextcloud/contacts#readme",
     "licenses": [
@@ -980,9 +980,9 @@
     ]
   },
   "forum": {
-    "hash": "sha256-avDilKMFNDTjd+c4dqYlWul/FaOMghUO3Qd+IXis8wU=",
-    "url": "https://github.com/chenasraf/nextcloud-forum/releases/download/v0.18.0/forum-v0.18.0.tar.gz",
-    "version": "0.18.0",
+    "hash": "sha256-idME5Sm7GYwK46hlBg6CX9oNjzH0Q3l+39OrKWT7vlw=",
+    "url": "https://github.com/chenasraf/nextcloud-forum/releases/download/v0.18.1/forum-v0.18.1.tar.gz",
+    "version": "0.18.1",
     "description": "Create discussions, share ideas and collaborate with your community directly in Nextcloud.\n\n**⚠️ Early Development Notice:**\nThis app is in early stages of development. While functional, you may encounter bugs or incomplete features. Please report any issues on GitHub and consider backing up your data regularly.\n\n**Key features:**\n- **Thread-based Discussions** - Create and reply to organized discussion threads\n- **Category Organization** - Structure your forum with customizable categories and headers\n- **Rich Text Formatting** - Use BBCode for formatting posts with bold, italic, links, images, code blocks and more\n- **File Attachments** - Attach files from your Nextcloud storage to posts\n- **Post Reactions** - React to posts with emoji reactions\n- **Read/Unread Tracking** - Keep track of which threads you've read\n- **Search** - Find discussions quickly with built-in search\n- **User Profiles** - View user post history and statistics\n- **Role-Based Permissions** - Control access and moderation with flexible roles\n- **Guest Access**: Optional public access for unauthenticated users with configurable permissions\n- **Admin Tools** - Manage categories, roles, BBCodes and forum settings\n- **Moderation Tools** - Pin, lock and manage threads and posts\n\n**Perfect for:**\n- Team discussions and collaboration\n- Community forums\n- Support channels\n- Knowledge bases\n- Project discussions\n- Internal communication\n\nThe forum integrates seamlessly with your Nextcloud instance, using your existing users and groups for authentication and access control.",
     "homepage": "https://github.com/chenasraf/nextcloud-forum",
     "licenses": [
@@ -1630,9 +1630,9 @@
     ]
   },
   "journeys": {
-    "hash": "sha256-Pgm9MdaBZyefG+SCxlp7BoVXcmEbw/uMF50du1JfOmw=",
-    "url": "https://github.com/thrillfall/journeys/releases/download/0.19.1/journeys.tar.gz",
-    "version": "0.19.1",
+    "hash": "sha256-4lmHUsHBSC5sdE7VyfqdqFPCmrYSP3fJgpiQXWHgwa8=",
+    "url": "https://github.com/thrillfall/journeys/releases/download/0.19.3/journeys.tar.gz",
+    "version": "0.19.3",
     "description": "# Automatic Photo Album Creation for Nextcloud\n\nAutomatically cluster your images into journeys (vacations/trips) and create albums for each journey.\n**Requires the Memories app!**\n\n## ✨ Features\n- **🗺️ Location & Time Clustering:** Group images by when and where they were taken\n- **🗂️ Album Creation:** Albums are created automatically for each journey\n- **⚙️ Customizable:** Control minimum cluster size, time gap, and distance thresholds\n- **🎥 Video Rendering:** Turn journey albums into MP4 highlight reels (requires `ffmpeg` on the server)\n\n## 🚀 OCC Command Usage\n\n    php occ journeys:cluster-create-albums <user>\n\n## 🏠 Using your home location (default)\nJourneys segments the timeline into **near home** and **away from home** and applies sensible defaults for each to capture local days vs. trips.\n\n## ⏰ Runs automatically\nA background job runs **daily** to cluster newly added photos, and you’ll receive a **notification** whenever new albums are created.\n\n## 🏷️ How album names are created\nAlbum titles are generated from the **resolved place name** and the **date range** of the cluster, e.g. `Iceland — Aug 12–19, 2024`.",
     "homepage": "",
     "licenses": [
@@ -1730,9 +1730,9 @@
     ]
   },
   "mail": {
-    "hash": "sha256-NKfGt1KNri30fB4WeIhcnOjWooRJ8GCY9nCbl2X66W8=",
-    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.6.4/mail-v5.6.4.tar.gz",
-    "version": "5.6.4",
+    "hash": "sha256-09cHSwrHODzvp+aOZN+WlKgG2nrdCGgjmSWpvmdlvGw=",
+    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.6.5/mail-v5.6.5.tar.gz",
+    "version": "5.6.5",
     "description": "**💌 A mail app for Nextcloud**\n\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://www.horde.org) libraries.\n- **📬 Want to host your own mail server?** We do not have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!\n\n## Ethical AI Rating\n\n### Priority Inbox\n\nPositive:\n* The software for training and inferencing of this model is open source.\n* The model is created and trained on-premises based on the user's own data.\n* The training data is accessible to the user, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n### Thread Summaries (opt-in)\n\n**Rating:** 🟢/🟡/🟠/🔴\n\nThe rating depends on the installed text processing backend. See [the rating overview](https://docs.nextcloud.com/server/latest/admin_manual/ai/index.html) for details.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/mail#readme",
     "licenses": [
@@ -1760,8 +1760,8 @@
     ]
   },
   "maps": {
-    "hash": "sha256-IupRymjs955TiUutzoTTMeESNfBmAp51l+oBaZwfdN0=",
-    "url": "https://github.com/nextcloud/maps/releases/download/v1.6.0/maps-1.6.0.tar.gz",
+    "hash": "sha256-E0S/CwXyye19lcuiONEQCyHJqlL0ZG1A9Q7oOTEZH1g=",
+    "url": "https://github.com/nextcloud/maps/releases/download/v1.6.0-3-nightly/maps-1.6.0-3-nightly.tar.gz",
     "version": "1.6.0",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
@@ -1960,9 +1960,9 @@
     ]
   },
   "officeonline": {
-    "hash": "sha256-UoBHQfclI9fQu6tXDJsw1dbnW48q8lWyDa8A79J483c=",
-    "url": "https://github.com/nextcloud-releases/officeonline/releases/download/v3.1.0/officeonline-v3.1.0.tar.gz",
-    "version": "3.1.0",
+    "hash": "sha256-OSrOJNoZImVTvG8Vb+7ZUc4UTtJ9luWFXXpP5oPDQlw=",
+    "url": "https://github.com/nextcloud-releases/officeonline/releases/download/v3.1.1/officeonline-v3.1.1.tar.gz",
+    "version": "3.1.1",
     "description": "This application can connect to an on-premise/self-hosted Microsoft Office Online Server which has added Nextcloud as a WOPI host.\n\n\t**Note: The cloud-based Office 365 is not supported.**\n\n\tMicrosoft Official Documentation: [Deploying Office Online Server](https://docs.microsoft.com/en-us/officeonlineserver/deploy-office-online-server)",
     "homepage": "",
     "licenses": [
@@ -2200,9 +2200,9 @@
     ]
   },
   "polls": {
-    "hash": "sha256-texrfkRr18HMRp2cIgpW/PRrRT4Bu/CjqH9arttv3hA=",
-    "url": "https://github.com/nextcloud-releases/polls/releases/download/v8.5.0/polls-v8.5.0.tar.gz",
-    "version": "8.5.0",
+    "hash": "sha256-VSCk0fuIRTxKQtnPT/T7JzT9vDbdxz2Yq5tlrdL91A0=",
+    "url": "https://github.com/nextcloud-releases/polls/releases/download/v8.6.0/polls-v8.6.0.tar.gz",
+    "version": "8.6.0",
     "description": "A polls app, similar to Doodle/DuD-Poll with the possibility to restrict access (members, certain groups/users, hidden and public).",
     "homepage": "https://github.com/nextcloud/polls",
     "licenses": [
@@ -2660,9 +2660,9 @@
     ]
   },
   "softwarecatalog": {
-    "hash": "sha256-RNQO9zlQWzNtz0AgcgEe4uzpQTwVxTQgGfpmRHXMzyw=",
-    "url": "https://github.com/ConductionNL/softwarecatalog/releases/download/v0.1.128/softwarecatalog-0.1.128.tar.gz",
-    "version": "0.1.128",
+    "hash": "sha256-sskXeW8HQFkf3HDhH6fzc0oYvcLnJjV1GXVaghXi5HA=",
+    "url": "https://github.com/ConductionNL/softwarecatalog/releases/download/v0.1.130/softwarecatalog-0.1.130.tar.gz",
+    "version": "0.1.130",
     "description": "🗂️ A Nextcloud App for Software Catalogs\n\nThe Software Catalogus Nextcloud app offers a powerful framework for managing and synchronizing software catalogs within a federated, open data environment.\n\n- 🔄 Synchronize your software data with multiple catalogs\n- 📡 Automatically publish and update your software catalog information\n- 🆓 Completely free and open source under the EUPL license\n\n**Note: System Cron is required for this app to function properly**\n\nFind the installation requirements [here](https://conduction.gitbook.io/opencatalogi-nextcloud/install).\n\nView the development roadmap [here](https://github.com/orgs/OpenCatalogi/projects/1/views/2).\n\nSubmit a [bug report](https://github.com/OpenCatalogi/.github/issues/new/choose).\n\nSubmit a [feature request](https://github.com/OpenCatalogi/.github/issues/new/choose).",
     "homepage": "https://github.com/ConductionNL/SoftwareCatalogus",
     "licenses": [
@@ -2820,9 +2820,9 @@
     ]
   },
   "timesheet": {
-    "hash": "sha256-uUQxrey2f25r2HRzfCjRld9TmRWFZJgvxQuRNpFy0uM=",
-    "url": "https://github.com/Repa1253/timesheet/releases/download/1.0.5/timesheet-1.0.5.tar.gz",
-    "version": "1.0.5",
+    "hash": "sha256-A4nnxQhAmysL26ewnp/0WvbBIy1yZqf9MO3wi1GhB2Y=",
+    "url": "https://github.com/Repa1253/timesheet/releases/download/1.0.6/timesheet-1.0.6.tar.gz",
+    "version": "1.0.6",
     "description": "Simple time tracking app for employees and HR inside Nextcloud.\n\nEmployees can enter their daily working hours, see monthly totals and overtime.\nHR users get an overview of all employees, including targets, balances and rule violations.\nWhen a federal state is specified, the monthly view displays the public holidays for that federal state in the calendar (currently only German federal states are supported).",
     "homepage": "",
     "licenses": [
@@ -2960,9 +2960,9 @@
     ]
   },
   "user_oidc": {
-    "hash": "sha256-e4RnB1CQkQRv4Nl/9oHg0XBhuhrSzqGGsnXSsd0HwbY=",
-    "url": "https://github.com/nextcloud-releases/user_oidc/releases/download/v8.1.0/user_oidc-v8.1.0.tar.gz",
-    "version": "8.1.0",
+    "hash": "sha256-DDijFnQIxKLmGjQF2AdFfqQuoWu6qAr61yKN9Of89ko=",
+    "url": "https://github.com/nextcloud-releases/user_oidc/releases/download/v8.2.2/user_oidc-v8.2.2.tar.gz",
+    "version": "8.2.2",
     "description": "Allows flexible configuration of an OIDC server as Nextcloud login user backend.",
     "homepage": "https://github.com/nextcloud/user_oidc",
     "licenses": [
