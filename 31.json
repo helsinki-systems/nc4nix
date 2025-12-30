@@ -20,10 +20,10 @@
     ]
   },
   "agora": {
-    "hash": "sha256-OlszOZYyf3IRwUNL/vwUqssMcciEzu8aEl4KBygfx1g=",
-    "url": "https://github.com/vinimoz/agora/releases/download/v1.5.5/agora.tar.gz",
-    "version": "1.5.5",
-    "description": "**Agora** is a **Nextcloud app for participatory democracy**, inspired by [Decidim](https://decidim.org) and built on [Nextcloud Polls](https://github.com/nextcloud/polls).\n\t\tIt enables communities and organizations to collaborate on **proposals, debates, petitions, and projects** in a transparent and structured way.\n\n\t\t### ✨ Key Features\n\t\t- 💬 Comments and discussions\n\t\t- 👍 Supports (likes/upvotes)\n\t\t- 🧩 Custom inquiry families and types\n\t\t- 🧾 Multiple inquiry formats (proposals, debates, petitions, projects…)\n\t\t- 📂 Categorization and filtering by family or location\n\t\t- 🧱 Scalable architecture and modern UX\n\t\t- 🔒 Secure and private — all data stays on your Nextcloud server\n\t\t- 🔗 Integration with Forms, Polls, Deck, and more\n\n\t\t### 🧭 Coming Next\n\t\t- 🗣 Structured debates and multi-thread replies\n\t\t- 🏛 Collectives and referendums",
+    "hash": "sha256-7WVfMDH+wZGCMMdRaL7UpteTBCsP2J0ZbQOQFkASIX4=",
+    "url": "https://github.com/vinimoz/agora/releases/download/v1.6.0/agora.tar.gz",
+    "version": "1.6.0",
+    "description": "**Agora** is a **Nextcloud app for participatory democracy**, inspired by [Decidim](https://decidim.org) and built on [Nextcloud Polls](https://github.com/nextcloud/polls).\n\t\tIt enables communities and organizations to collaborate on **proposals, debates, petitions, and projects** in a transparent and structured way.\n\n\t\t### ✨ Key Features\n\t\t- 💬 Comments and discussions\n\t\t- 👍 Supports (likes/upvotes)\n        - 👍 Supports (likes/neutral/against)\n\t\t- 🧩 Custom inquiry families and types\n\t\t- 🧾 Multiple inquiry formats (proposals, debates, petitions, projects…)\n\t\t- 📂 Categorization and filtering by family or location\n\t\t- 🧱 Scalable architecture and modern UX\n\t\t- 🔒 Secure and private — all data stays on your Nextcloud server\n\t\t- 🔗 Integration with Forms, Polls, Deck, Collectives,...\n\t\t- 🏛 Collectives desgin UX\n\n\t\t### 🧭 Coming Next\n\t\t- 🗣 Structured debates and multi-thread replies\n\t\t- 🏛 Collectives and referendums",
     "homepage": "https://github.com/vinimoz/agora",
     "licenses": [
       "AGPL-3.0-or-later"
@@ -120,9 +120,9 @@
     ]
   },
   "astrolabe": {
-    "hash": "sha256-mJzVLLVY5eL9FQzUnnP7Gc+Vg3CsAJ4l93msfjKr4kI=",
-    "url": "https://github.com/cbcoutinho/nextcloud-mcp-server/releases/download/astrolabe-v0.6.0/astrolabe-0.6.0.tar.gz",
-    "version": "0.6.0",
+    "hash": "sha256-AV2vhT73L45+bEBzqx2g5oDDLOQn7NfZIU4dOgcOEZQ=",
+    "url": "https://github.com/cbcoutinho/nextcloud-mcp-server/releases/download/astrolabe-v0.7.1/astrolabe-0.7.1.tar.gz",
+    "version": "0.7.1",
     "description": "# Astrolabe - Semantic Search for Nextcloud\n\nFind your content by meaning, not just keywords. Astrolabe brings AI-powered semantic search to your Nextcloud, helping you discover documents, notes, calendar events, and files through natural language.\n\n## Features\n\n- **Semantic Search**: Search across Notes, Files, Calendar, Deck, and more using natural language queries\n- **Unified Search Integration**: Results appear in Nextcloud's global search bar alongside traditional results\n- **Background Indexing**: Your content is automatically indexed for instant semantic search\n- **Vector Visualization**: Explore your content in an interactive 2D visualization showing semantic relationships\n- **Hybrid Search**: Combines semantic understanding with keyword matching for best results\n\n## How It Works\n\nAstrolabe connects to a semantic search service that understands the meaning of your content. Instead of exact keyword matches, you can search for concepts - ask \"meeting notes from last week\" or \"recipes with chicken\" and find relevant documents even if they don't contain those exact words.\n\n## Getting Started\n\n1. Install and enable the app\n2. Grant background access to allow indexing of your content\n3. Start searching with natural language in Nextcloud's search bar\n\nSee [documentation](https://github.com/cbcoutinho/nextcloud-mcp-server) for configuration details.",
     "homepage": "",
     "licenses": [
@@ -130,11 +130,11 @@
     ]
   },
   "attendance": {
-    "hash": "sha256-Y0/QO3eOitC5cxp122d+gsT1MuH78vU2r2AFmR0tXw0=",
-    "url": "https://github.com/luflow/attendance/releases/download/v1.13.2/attendance.tar.gz",
-    "version": "1.13.2",
-    "description": "A small Nextcloud app for managing event attendance with advance RSVP functionality and real-time check-in capabilities. \n\n**For Administrators:**\n- Create and manage appointments with name, description (with Markdown support), and date/time\n- Track responses with detailed attendance summaries organized by user groups\n- **Unanswered View:** Dedicated section to quickly identify appointments without responses\n- **Reminder System:** Automated Nextcloud notifications for upcoming appointments\n- **Check-in Management:** Dedicated interface to track actual attendance during events\n- **Bulk Operations:** Mark multiple users as present/absent with bulk check-in actions\n- **Admin Comments:** Add check-in specific comments for detailed attendance tracking\n- **Group Whitelisting:** Configure which user groups are included in attendance statistics and check-in lists\n- **Export Functionality:** Export all appointment data to ODS spreadsheet format for further analysis\n- **Granular Permissions:** Control who can view response overviews, comments, manage appointments, and access check-in features\n\n**For All Users:**\n- Easy RSVP with Yes/No/Maybe responses to any appointment\n- Add optional comments with your response\n- Update responses anytime until the event date\n- Quick access via dashboard widget\n- Share appointment links for easy access\n\n**Group-Based Organization:**\n- Statistics automatically organized by Nextcloud user groups\n- See which group members haven't responded yet\n- Complete visibility into attendance across all groups\n- **Filtered Check-in:** Search and filter users by name or group during check-in process\n\nPerfect for organizations, teams, and communities that want to coordinate attendance for meetings, events, and activities with both advance planning and real-time attendance tracking.",
-    "homepage": "https://krautnerds.de",
+    "hash": "sha256-wuFwqPGhJU0z2YxoWhoO3TiG9PPa+nugwdaJr7tTH/g=",
+    "url": "https://github.com/luflow/attendance/releases/download/v1.17.0/attendance.tar.gz",
+    "version": "1.17.0",
+    "description": "A small Nextcloud app for managing event attendance with advance RSVP functionality and real-time check-in capabilities.\n\n**For Administrators:**\n- **Appointment Management:** Create and manage appointments with name, description (with Markdown support), and date/time\n- **Visibility Control:** Restrict appointments to specific users or groups\n- **Response Tracking:** Track responses with detailed attendance summaries organized by user groups\n- **Unanswered View:** Dedicated section to quickly identify appointments without responses\n- **Reminder System:** Automated Nextcloud notifications for upcoming appointments\n- **New Appointment Notifications:** Optional notifications when new appointments are created\n- **Check-in Management:** Dedicated interface to track actual attendance during events\n- **Bulk Operations:** Mark multiple users as present/absent with bulk check-in actions\n- **Admin Comments:** Add check-in specific comments for detailed attendance tracking\n- **Group Whitelisting:** Configure which user groups are included in attendance statistics and check-in lists\n- **Export Functionality:** Export all appointment data to ODS spreadsheet format for further analysis\n- **Granular Permissions:** Control who can view response overviews, comments, manage appointments, and access check-in features\n\n**For All Users:**\n- **Easy RSVP:** Respond with Yes/No/Maybe to any appointment\n- **Comments:** Add optional comments with your response\n- **Flexible Updates:** Update responses anytime until the event date\n- **Dashboard Widget:** Quick access via dashboard widget\n- **Share Links:** Share appointment links for easy access\n- **Calendar Subscription:** Subscribe to appointments via iCal feed in Google Calendar, Apple Calendar, or any calendar app\n- **Quick Subscribe:** One-click buttons to add feed to Google Calendar or Apple Calendar\n\n**Group-Based Organization:**\n- **Group Statistics:** Statistics automatically organized by Nextcloud user groups\n- **Missing Responses:** See which group members haven't responded yet\n- **Full Visibility:** Complete visibility into attendance across all groups\n- **Filtered Check-in:** Search and filter users by name or group during check-in process\n\nPerfect for organizations, teams, and communities that want to coordinate attendance for meetings, events, and activities with both advance planning and real-time attendance tracking.",
+    "homepage": "https://anwesenheit.app",
     "licenses": [
       "AGPL-3.0-or-later"
     ]
@@ -180,9 +180,9 @@
     ]
   },
   "autocurrency": {
-    "hash": "sha256-/FE11NoGhroQxAJ4ivt2Jy0W/CDnVQiE9Z0kj0cDWi4=",
-    "url": "https://github.com/chenasraf/nextcloud-autocurrency/releases/download/v1.6.4/autocurrency-v1.6.4.tar.gz",
-    "version": "1.6.4",
+    "hash": "sha256-83K7aw3E+jZzYpvUJl6cnng7gBaj0QCeBjSW9og0DHE=",
+    "url": "https://github.com/chenasraf/nextcloud-autocurrency/releases/download/v1.6.5/autocurrency-v1.6.5.tar.gz",
+    "version": "1.6.5",
     "description": "This NextCloud app automatically fetches currency information for your Cospend projects, and fills\nthem up using the main currency as base. No more manually updating exchange rates!\n\n\nYou can also view the history of currency rates fetched in the past, and see how they changed over time.\n\n\nIt will automatically run once a day by default and use your currency names to fetch the correct\nrate.\n\n\nInterval for fetch may be adjusted in the admin settings \"Auto Currency\" section.\n\n\n> **Note**: This is a companion app to [Cospend](https://apps.nextcloud.com/apps/cospend).\n>\n> Without Cospend, this app will not work.",
     "homepage": "https://github.com/chenasraf/nextcloud-autocurrency",
     "licenses": [
@@ -220,9 +220,9 @@
     ]
   },
   "calendar": {
-    "hash": "sha256-dChMn8lILZK50UTnInkl8YN/GvjT7U6PqJHpR/73vZI=",
-    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v5.5.10/calendar-v5.5.10.tar.gz",
-    "version": "5.5.10",
+    "hash": "sha256-BkbbhQ3hsVhFa1gE7OYSu5CH0JjmNJGFe6NEZ5fit10=",
+    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v5.5.11/calendar-v5.5.11.tar.gz",
+    "version": "5.5.11",
     "description": "A Calendar app for Nextcloud. Easily sync events from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Like Contacts, Talk, Tasks, Deck and Circles\n* 🌐 **WebCal Support!** Want to see your favorite team's matchdays in your calendar? No problem!\n* 🙋 **Attendees!** Invite people to your events\n* ⌚ **Free/Busy!** See when your attendees are available to meet\n* ⏰ **Reminders!** Get alarms for events inside your browser and via email\n* 🔍 **Search!** Find your events at ease\n* ☑️ **Tasks!** See tasks or Deck cards with a due date directly in the calendar\n* 🔈 **Talk rooms!** Create an associated Talk room when booking a meeting with just one click\n* 📆 **Appointment booking** Send people a link so they can book an appointment with you [using this app](https://apps.nextcloud.com/apps/appointments)\n* 📎 **Attachments!** Add, upload and view event attachments\n* 🙈 **We’re not reinventing the wheel!** Based on the great [c-dav library](https://github.com/nextcloud/cdav-library), [ical.js](https://github.com/mozilla-comm/ical.js) and [fullcalendar](https://github.com/fullcalendar/fullcalendar) libraries.",
     "homepage": "https://github.com/nextcloud/calendar/",
     "licenses": [
@@ -420,8 +420,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -445,6 +445,16 @@
     "version": "1.8.0",
     "description": "# Description\n\nThis app allows to edit Nextcloud's default CSP policy.",
     "homepage": "https://framagit.org/framasoft/nextcloud/csp_editor",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "dashlink": {
+    "hash": "sha256-cuYAzeJhLMSy+edkdDLlVYlRVPhzbiNE1B8CrQYo8Tw=",
+    "url": "https://github.com/lexioj/dashlink/releases/download/v1.1.0/dashlink-1.1.0.tar.gz",
+    "version": "1.1.0",
+    "description": "DashLink provides a dashboard widget that displays external website links configured by administrators.\n\nCore Features:\n- Dashboard widget displaying external links (max 10 visible)\n- Custom icon/logo upload for each link (PNG, JPG, GIF, SVG, WebP up to 2MB)\n- Group-based visibility control (show links to specific user groups)\n- Three modular hover animation effects (Blur Overlay, 3D Card Flip, Slide Panel)\n- Responsive grid layout (1-2 columns) with full dark mode support\n\nAdmin Panel:\n- Complete CRUD operations for link management\n- Drag & drop reordering with visual position badges\n- Export/Import links to/from JSON with icon URL support\n- Automatic icon downloading from external URLs during import\n- Duplicate detection on import (by title or URL)\n- Live preview panel with group filter simulation\n- Modern Nextcloud UI (toggle switches, modals, autocomplete pickers)",
+    "homepage": "https://github.com/lexioj/dashlink",
     "licenses": [
       "agpl"
     ]
@@ -537,6 +547,16 @@
     "homepage": "",
     "licenses": [
       "MIT"
+    ]
+  },
+  "doom_nextcloud": {
+    "hash": "sha256-EyUr5QhuAplvNwoSFsNhvq2a1rJipbF0+At/ELY/1dw=",
+    "url": "https://github.com/YvesCesar/doom_nextcloud/releases/download/v1.0.1/doom_nextcloud.tar.gz",
+    "version": "1.0.1",
+    "description": "Allows to play Doom on NextCloud. Doom is one of the most influential games in video game history.  \n\t\tCreated by id Software, it popularized the first-person shooter (FPS) genre by placing the player in the role of a space marine fighting demons and hellish creatures inside futuristic bases on Mars.\n\t\tWhen enabled, you can access the game in the specific tab in the top menu. Just press play and start playing.",
+    "homepage": "",
+    "licenses": [
+      "agpl"
     ]
   },
   "drawio": {
@@ -780,9 +800,9 @@
     ]
   },
   "files_bpm": {
-    "hash": "sha256-nN0Tf39lUuJ+zZCNUX4O7TJOIyFvCRigEM+Ue+wnLVM=",
-    "url": "https://github.com/kirstenhh/nc-bpm-app/releases/download/v1.7.1/files_bpm-v1.7.1.tar.gz",
-    "version": "1.7.1",
+    "hash": "sha256-/5PVKGkgQ3BuauhoFtcxQOYrODmfOO2KRtjYeKsM6eY=",
+    "url": "https://github.com/kirstenhh/nc-bpm-app/releases/download/v1.7.3/files_bpm-v1.7.3.tar.gz",
+    "version": "1.7.3",
     "description": "A BPMN 2.0/DMN 1.3 Viewer and Editor",
     "homepage": "https://github.com/kirstenhh/nc-bpm-app/",
     "licenses": [
@@ -990,11 +1010,21 @@
     ]
   },
   "forum": {
-    "hash": "sha256-wtrJA5351BrORMEAdTCkYV1gvi/xDhJqdfkcxitV2IA=",
-    "url": "https://github.com/chenasraf/nextcloud-forum/releases/download/v0.19.1/forum-v0.19.1.tar.gz",
-    "version": "0.19.1",
+    "hash": "sha256-0hIwRiCA5RLsfIE351BAJHGU4bNy+IyNlXn8sBbNO4c=",
+    "url": "https://github.com/chenasraf/nextcloud-forum/releases/download/v0.19.2/forum-v0.19.2.tar.gz",
+    "version": "0.19.2",
     "description": "Create discussions, share ideas and collaborate with your community directly in Nextcloud.\n\n**⚠️ Early Development Notice:**\nThis app is in early stages of development. While functional, you may encounter bugs or incomplete features. Please report any issues on GitHub and consider backing up your data regularly.\n\n**Key features:**\n- **Thread-based Discussions** - Create and reply to organized discussion threads\n- **Category Organization** - Structure your forum with customizable categories and headers\n- **Rich Text Formatting** - Use BBCode for formatting posts with bold, italic, links, images, code blocks and more\n- **File Attachments** - Attach files from your Nextcloud storage to posts\n- **Post Reactions** - React to posts with emoji reactions\n- **Read/Unread Tracking** - Keep track of which threads you've read\n- **Search** - Find discussions quickly with built-in search\n- **User Profiles** - View user post history and statistics\n- **Role-Based Permissions** - Control access and moderation with flexible roles\n- **Guest Access**: Optional public access for unauthenticated users with configurable permissions\n- **Admin Tools** - Manage categories, roles, BBCodes and forum settings\n- **Moderation Tools** - Pin, lock and manage threads and posts\n\n**Perfect for:**\n- Team discussions and collaboration\n- Community forums\n- Support channels\n- Knowledge bases\n- Project discussions\n- Internal communication\n\nThe forum integrates seamlessly with your Nextcloud instance, using your existing users and groups for authentication and access control.",
     "homepage": "https://github.com/chenasraf/nextcloud-forum",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "frontend_insight": {
+    "hash": "sha256-CxECH2mwGs/3uTnrEO97zZikB5ZhjAZD3n+v2jSZQkg=",
+    "url": "https://github.com/callmemagnus/nextcloud-frontend-insight/releases/download/v1.0.0/frontend_insight.tar.gz",
+    "version": "1.0.0",
+    "description": "🔍 **Capture and analyze JavaScript errors from your users' browsers in real-time!**\n\nFrontendInsight gives you **visibility into frontend issues that would otherwise go unnoticed**.\n\n✨ **Key Features:**\n• 🐛 Automatic tracking of client-side errors and unhandled promise rejections\n• 📊 Browse events with advanced filtering and sorting\n• ⏰ Configurable data retention policies with automatic cleanup\n• 👥 Restrict reported events browsing to specific user groups\n• 🛡️ Built-in rate limiting to prevent abuse\n• 🚀 Modern UI built with Svelte 5\n\n**Identify and fix frontend bugs before they impact your users' experience!**",
+    "homepage": "https://github.com/callmemagnus/nextcloud-frontend-insight/",
     "licenses": [
       "agpl"
     ]
@@ -1020,9 +1050,9 @@
     ]
   },
   "fulltextsearch_sql": {
-    "hash": "sha256-T+LK6Svd48j9aK53s/HyRQ8wW+OqK2prY14dJpHMLlg=",
-    "url": "https://github.com/jplitza/fulltextsearch_sql/releases/download/v1.2.1/fulltextsearch_sql.tar.gz",
-    "version": "1.2.1",
+    "hash": "sha256-4yhJOx+hxhA+G5QAa8MOaKpHGlx27ZM3AhHE2KKuaSE=",
+    "url": "https://github.com/jplitza/fulltextsearch_sql/releases/download/v1.3.2/fulltextsearch_sql.tar.gz",
+    "version": "1.3.2",
     "description": "Makes the _Full text search_ app work without any additional services.\n\nIt uses the Nextcloud MySQL or PostgreSQL database backend as search provider.\n\nCurrently can not index office document formats, but does work with PDFs (if they contain text/have been OCR'ed).\n\n**Warning:** This app will store all indexed content in your Nextcloud database *twice* (roughly) - once as plain text and once as searchable index. This means that your database can easily grow hundreds of megabytes or even gigabytes in size if you have much indexable content (e.g. documents).",
     "homepage": "https://github.com/jplitza/fulltextsearch_sql",
     "licenses": [
@@ -1090,9 +1120,9 @@
     ]
   },
   "gpxpod": {
-    "hash": "sha256-QeUsmW/ACkaD/7iJF3FQ5BlVZKYk4vCsspdZA+GjhAo=",
-    "url": "https://github.com/julien-nc/gpxpod/releases/download/v7.2.1/gpxpod-7.2.1.tar.gz",
-    "version": "7.2.1",
+    "hash": "sha256-mD25Z21PabdWhxl1GyD0/dRsuryXgCfF9m34WrVXV18=",
+    "url": "https://github.com/julien-nc/gpxpod/releases/download/v7.2.4/gpxpod-7.2.4.tar.gz",
+    "version": "7.2.4",
     "description": "# GpxPod Nextcloud application\n\nDisplay, analyse, compare and share GPS track files.\n\n🌍 Help us to translate this app on [GpxPod Crowdin project](https://crowdin.com/project/gpxpod).\n\nGpxPod:\n\n* 🗺 can display your gpx/kml/tcx/igc/fit files\n* 📏 supports metric, english and nautical measure systems\n* 🗠 draws interactive chart for elevation, speed, pace or any extension data\n* 🗠 use line gradient color for track lines with speed, elevation, pace or any extension data\n* 🗠 shows track statistics\n* 🖻 displays geotagged pictures\n* 🖧 generates public links pointing to a track/folder\n* 🗠 can correct tracks elevations using SRTM data\n* ⚖ can make global comparison of multiple tracks\n* ⚖ can make visual pair comparison of divergent parts of similar tracks\n* 🀆 allows users to add personal map tile servers\n* 🖍 allows user to manually choose line color for each track\n* 🔒 works with encrypted data folder (server side encryption)\n* 🍂 proudly uses Leaflet and MapLibre GL\n\nLink to Nextcloud application website : https://apps.nextcloud.com/apps/gpxpod\n\n## Install\n\nSee the [AdminDoc](https://gitlab.com/eneiluj/gpxpod-oc/wikis/admindoc) for installation details\n\n## Known issues\n\n* *WARNING*, kml conversion will NOT work with recent kml files using the proprietary \"gx:track\" extension tag.\n\nAny feedback will be appreciated.\n\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://github.com/julien-nc/gpxpod",
     "licenses": [
@@ -1770,8 +1800,8 @@
     ]
   },
   "maps": {
-    "hash": "sha256-E0S/CwXyye19lcuiONEQCyHJqlL0ZG1A9Q7oOTEZH1g=",
-    "url": "https://github.com/nextcloud/maps/releases/download/v1.6.0-3-nightly/maps-1.6.0-3-nightly.tar.gz",
+    "hash": "sha256-IupRymjs955TiUutzoTTMeESNfBmAp51l+oBaZwfdN0=",
+    "url": "https://github.com/nextcloud/maps/releases/download/v1.6.0/maps-1.6.0.tar.gz",
     "version": "1.6.0",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
@@ -1820,9 +1850,9 @@
     ]
   },
   "metavox": {
-    "hash": "sha256-AUOLepyJFmak8tD1idSgYHcTRGsHTIhWjL1fHYkdZqM=",
-    "url": "https://github.com/nextcloud/metavox/releases/download/v1.3.0/metavox-1.3.0.tar.gz",
-    "version": "1.3.0",
+    "hash": "sha256-LF55+MGmpvEPtAO2yWtLdmAM3UBbB7jGtjS3is4Vl5U=",
+    "url": "https://github.com/nextcloud/metavox/releases/download/v1.4.1/metavox-1.4.1.tar.gz",
+    "version": "1.4.1",
     "description": "A customizable metadata app that allows you to define your own metadata fields for files.\n\n  The goal of MetaVox is to enrich digital documents with contextual metadata — such as topic, author intent, relevance, or classification — in a way that is:\n\n  • Structured and machine-readable  \n  • Non-intrusive (no changes to file content)  \n  • Compatible with existing Nextcloud workflows  \n  • Designed for flexible use across education, government, and other document-driven environments",
     "homepage": "https://github.com/nextcloud/metavox",
     "licenses": [
@@ -1850,10 +1880,10 @@
     ]
   },
   "music": {
-    "hash": "sha256-dFY3/jlZc0uuE3d26A/kBjZ7FtM1BJdc1Wq8SrlsnME=",
-    "url": "https://github.com/owncloud/music/releases/download/v2.4.1/music_2.4.1_for_nextcloud.tar.gz",
-    "version": "2.4.1",
-    "description": "A stand-alone music player app and a \"lite\" player for the Files app\n\n- On modern browsers, supports audio types .mp3, .ogg, .m4a, .m4b, .flac, .wav, and more\n- Playlist support with import from .m3u, .m3u8, .pls, and .wpl files\n- Show lyrics from the file metadata or .lrc files\n- Browse by artists, albums, genres, or folders\n- Gapless play\n- Filter the shown content with the search function\n- Advanced search to freely use and combine dozens of search criteria\n- Play internet radio and podcast channels\n- Setup Last.fm connection to see background information on artists, albums, and songs\n- Control with media control keys on the keyboard or OS\n- The app can handle libraries consisting of thousands of albums and tens of thousands of songs\n- Includes a server backend compatible with the Subsonic and Ampache protocols, allowing playback and browsing of your library on dozens of external apps on Android, iOS, Windows, Linux, etc.\n- Widget for the Nextcloud Dashboard",
+    "hash": "sha256-UhWEOzBkaeOTJQI6ypTGoIsiAWfuJy5DmUFeicabYPU=",
+    "url": "https://github.com/owncloud/music/releases/download/v2.5.0/music_2.5.0_for_nextcloud.tar.gz",
+    "version": "2.5.0",
+    "description": "A stand-alone music player app and a \"lite\" player for the Files app\n\n- On modern browsers, supports audio types .mp3, .ogg, .m4a, .m4b, .flac, .wav, and more\n- Playlist support with import from .m3u, .m3u8, .pls, and .wpl files\n- Show lyrics from the file metadata or .lrc files\n- Browse by artists, albums, genres, or folders\n- Gapless play\n- Filter the shown content with the search function\n- Advanced search to freely use and combine dozens of search criteria\n- Play internet radio and podcast channels\n- Setup Last.fm connection to scrobble plays and/or see background information on artists, albums, and songs\n- Control with media control keys on the keyboard or OS\n- The app can handle libraries consisting of thousands of albums and tens of thousands of songs\n- Includes a server backend compatible with the Subsonic and Ampache protocols, allowing playback and browsing of your library on dozens of external apps on Android, iOS, Windows, Linux, etc.\n- Widget for the Nextcloud Dashboard",
     "homepage": "https://github.com/owncloud/music",
     "licenses": [
       "agpl"
@@ -2450,9 +2480,9 @@
     ]
   },
   "sentry": {
-    "hash": "sha256-uexqHHIzfQeqhl5YrcolJvVZmICTsttLxquWCWG3QcQ=",
-    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.16.11/sentry-v8.16.11.tar.gz",
-    "version": "8.16.11",
+    "hash": "sha256-t296wCRSqSMc8sjPjyb2+lhYmjyx29zpAFdbDoQGMKY=",
+    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.16.12/sentry-v8.16.12.tar.gz",
+    "version": "8.16.12",
     "description": "A Sentry integration that sends unhandled exceptions to a Sentry instance to aggregate application crashes. You either have to set up your own Sentry instance or use your sentry.io account. See the admin documentation for how to configure this app.",
     "homepage": "https://github.com/ChristophWurst/nextcloud_sentry",
     "licenses": [
@@ -2510,9 +2540,9 @@
     ]
   },
   "shiftsnext": {
-    "hash": "sha256-/A686zEgSs6n2uROgQGFkyryKobhS4mYBJqfKuaD6bs=",
-    "url": "https://github.com/csoc-de/shiftsnext/releases/download/v2.4.1/shiftsnext.tar.gz",
-    "version": "2.4.1",
+    "hash": "sha256-+8eR8yW2rVsi1Dj1rwCU1jhKNxviJf+gggHgb2JUDOk=",
+    "url": "https://github.com/csoc-de/shiftsnext/releases/download/v2.5.0/shiftsnext.tar.gz",
+    "version": "2.5.0",
     "description": "Manage your shifts and sync them to your calendar",
     "homepage": "https://github.com/csoc-de/shiftsnext",
     "licenses": [
@@ -2670,9 +2700,9 @@
     ]
   },
   "softwarecatalog": {
-    "hash": "sha256-tpl9yoQytoispFY4l80cmsgi59TUy1WPbjt+WCWdpTk=",
-    "url": "https://github.com/ConductionNL/softwarecatalog/releases/download/v0.1.132/softwarecatalog-0.1.132.tar.gz",
-    "version": "0.1.132",
+    "hash": "sha256-wN0ANUVAe6YCYS6FsZSgDp4Zk5W+u9cyxEWo2TdUQ5w=",
+    "url": "https://github.com/ConductionNL/softwarecatalog/releases/download/v0.1.133/softwarecatalog-0.1.133.tar.gz",
+    "version": "0.1.133",
     "description": "🗂️ A Nextcloud App for Software Catalogs\n\nThe Software Catalogus Nextcloud app offers a powerful framework for managing and synchronizing software catalogs within a federated, open data environment.\n\n- 🔄 Synchronize your software data with multiple catalogs\n- 📡 Automatically publish and update your software catalog information\n- 🆓 Completely free and open source under the EUPL license\n\n**Note: System Cron is required for this app to function properly**\n\nFind the installation requirements [here](https://conduction.gitbook.io/opencatalogi-nextcloud/install).\n\nView the development roadmap [here](https://github.com/orgs/OpenCatalogi/projects/1/views/2).\n\nSubmit a [bug report](https://github.com/OpenCatalogi/.github/issues/new/choose).\n\nSubmit a [feature request](https://github.com/OpenCatalogi/.github/issues/new/choose).",
     "homepage": "https://github.com/ConductionNL/SoftwareCatalogus",
     "licenses": [
@@ -2810,10 +2840,10 @@
     ]
   },
   "threedviewer": {
-    "hash": "sha256-FX8/AEdplNUInjeaQMjl+dDps1bQare8wwBgkDYLS+s=",
-    "url": "https://github.com/maz1987in/3Dviewer-Nextcloud/releases/download/v2.2.0/threedviewer-v2.2.0.tar.gz",
-    "version": "2.2.0",
-    "description": "A comprehensive 3D model viewer that allows you to view, interact with, and analyze 3D models directly within Nextcloud. Supports 10+ formats including GLB, GLTF, OBJ, STL, PLY, FBX, 3MF, and 3DS with full material and texture support.\n\n**📦 Format Support:**\n- 🎨 Multi-format support: GLB, GLTF, OBJ+MTL, STL, PLY, FBX, 3MF, 3DS, DAE, X3D, VRML\n- 🚀 Enhanced loaders: Significantly improved FBX, VRML, and DAE loaders with better material and texture support\n- 📁 Multi-file models: Full support for OBJ+MTL+textures and GLTF+bins+images\n- 🗜️ Compression: DRACO geometry and KTX2/Basis texture compression (needs more work)\n- 🔧 Centralized format definitions: Single source of truth for all format definitions ensuring consistency\n- ✅ Format sync validation: Automated tests ensure format consistency across backend, frontend, and MIME registration\n- 📦 Bundle budget enforcement: Automated bundle size checking with historical tracking and CI integration\n\n**🎮 Interactive Features:**\n- 🎯 3D Camera Controller: Enhanced intuitive circular controller for precise camera navigation with improved controls\n- 🔄 Model comparison: Side-by-side viewing with synchronized controls\n- 📝 Annotations: Add notes and markers to specific points on models (always readable, faces camera) with customizable visual sizing controls\n- 📏 Measurements: Distance and angle measurement tools (with billboard text) with per-user sizing controls for point size, line thickness, and label width\n- 🎬 Animation Controls: Play/pause controls for animated models with loop toggle support\n- 🧭 Face labels: Orientation markers (TOP, BOTTOM, FRONT, BACK, LEFT, RIGHT)\n- 👁️ Camera projection toggle: Switch between perspective and orthographic views\n- ⚙️ Personal Settings: User-specific preferences and settings page in Nextcloud personal settings\n\n**📂 File Browser:**\n- 🗂️ Smart navigation: Toggle between Viewer, Folders, Type, Date, and Favorites modes\n- 📋 List and Grid views: Switch between compact list view and grid view with customizable default preference\n- ⚙️ Default view setting: Set your preferred view mode (Grid/List) in Personal Settings\n- ⌨️ Keyboard navigation: Full keyboard support for list view (Arrow keys, Home, End, Enter, Space)\n- 🍞 Breadcrumb navigation: Easy navigation back through folder/type/date hierarchies\n- 🔄 Lazy loading: Fast navigation with on-demand data loading\n\n**⚡ Export & Tools:**\n- 📷 Screenshot capture: Take high-quality PNG/JPEG screenshots of your models\n- 💾 Export models to GLB, STL, and OBJ formats\n- 🖨️ Slicer integration: Send models directly to PrusaSlicer, Cura, BambuStudio, OrcaSlicer, Simplify3D, Eufy Studio, and AnycubicSlicer with enhanced security (file size limits, MIME validation, rolling expiration)\n- 📊 Model statistics panel with detailed information\n- 🔲 Wireframe and bounding box visualization\n- 📐 Dynamic grid system that adapts to model size and position\n- ❓ Help panel with comprehensive in-app documentation\n\n**🚀 Performance & UX:**\n- 🖼️ Progressive texture loading for improved performance\n- 💿 Dependency caching using IndexedDB for faster multi-file loading with live cache statistics (size, entries, hit rate)\n- ⚙️ Performance modes with visual quality overlay and automatic suggestions for large models\n- 📊 Performance scaling: Automatic performance mode suggestions based on model complexity (triangle count thresholds)\n- 📦 Code splitting and dynamic imports\n- 🌓 Light and dark theme support with RTL layout\n- 🔗 Works with public shares and authenticated users\n- ♿ Accessibility features with keyboard navigation and ARIA labels\n\nBuilt with Three.js for high-performance WebGL rendering. ✨",
+    "hash": "sha256-kJjBYawHTMj76W13QoZ+IDGhWZKfroh/7JZH6vLKp6Q=",
+    "url": "https://github.com/maz1987in/3Dviewer-Nextcloud/releases/download/v2.3.0/threedviewer-v2.3.0.tar.gz",
+    "version": "2.3.0",
+    "description": "A comprehensive 3D model viewer that allows you to view, interact with, and analyze 3D models directly within Nextcloud. Supports 10+ formats including GLB, GLTF, OBJ, STL, PLY, FBX, 3MF, and 3DS with full material and texture support.\n\n**📦 Format Support:**\n- 🎨 Multi-format support: GLB, GLTF, OBJ+MTL, STL, PLY, FBX, 3MF, 3DS, DAE, X3D, VRML\n- 🚀 Enhanced loaders: Significantly improved FBX, VRML, and DAE loaders with better material and texture support\n- 📁 Multi-file models: Full support for OBJ+MTL+textures and GLTF+bins+images\n- 🗜️ Compression: DRACO geometry and KTX2/Basis texture compression (needs more work)\n- 🔧 Centralized format definitions: Single source of truth for all format definitions ensuring consistency\n- ✅ Format sync validation: Automated tests ensure format consistency across backend, frontend, and MIME registration\n- 📦 Bundle budget enforcement: Automated bundle size checking with historical tracking and CI integration\n - 🛠️ G-code toolpaths: Support for `.gcode`, `.gco`, `.nc`, `.acode` with 3D toolpath visualization (smooth rainbow gradient coloring, travel/retraction filtering, automatic layer detection)\n - 🧩 Extended G-code ecosystem: Recognizes additional variants `.g`, `.gx` (FlashForge), `.g3drem` (Dremel), `.makerbot`, `.thing` with proper MIME mappings\n\n**🎮 Interactive Features:**\n- 🎯 3D Camera Controller: Enhanced intuitive circular controller for precise camera navigation with improved controls\n- 🔄 Model comparison: Side-by-side viewing with synchronized controls\n- 📝 Annotations: Add notes and markers to specific points on models (always readable, faces camera) with customizable visual sizing controls\n- 📏 Measurements: Distance and angle measurement tools (with billboard text) with per-user sizing controls for point size, line thickness, and label width\n- 🎬 Animation Controls: Play/pause controls for animated models with loop toggle support\n- 🧭 Face labels: Orientation markers (TOP, BOTTOM, FRONT, BACK, LEFT, RIGHT)\n- 👁️ Camera projection toggle: Switch between perspective and orthographic views\n- ⚙️ Personal Settings: User-specific preferences and settings page in Nextcloud personal settings\n\n**📂 File Browser:**\n- 🗂️ Smart navigation: Toggle between Viewer, Folders, Type, Date, and Favorites modes\n- 📋 List and Grid views: Switch between compact list view and grid view with customizable default preference\n- ⚙️ Default view setting: Set your preferred view mode (Grid/List) in Personal Settings\n- ⌨️ Keyboard navigation: Full keyboard support for list view (Arrow keys, Home, End, Enter, Space)\n- 🍞 Breadcrumb navigation: Easy navigation back through folder/type/date hierarchies\n- 🔄 Lazy loading: Fast navigation with on-demand data loading\n\n**⚡ Export & Tools:**\n- 📷 Screenshot capture: Take high-quality PNG/JPEG screenshots of your models\n- 💾 Export models to GLB, STL, and OBJ formats\n- 🖨️ Slicer integration: Send models directly to PrusaSlicer, Cura, BambuStudio, OrcaSlicer, Simplify3D, Eufy Studio, and AnycubicSlicer with enhanced security (file size limits, MIME validation, rolling expiration)\n- 📊 Model statistics panel with detailed information\n- 🔲 Wireframe and bounding box visualization\n- 📐 Dynamic grid system that adapts to model size and position\n- ❓ Help panel with comprehensive in-app documentation\n\n**🚀 Performance & UX:**\n- 🖼️ Progressive texture loading for improved performance\n- 💿 Dependency caching using IndexedDB for faster multi-file loading with live cache statistics (size, entries, hit rate)\n- ⚙️ Performance modes with visual quality overlay and automatic suggestions for large models\n- 📊 Performance scaling: Automatic performance mode suggestions based on model complexity (triangle count thresholds)\n- 📦 Code splitting and dynamic imports\n - 📱 Mobile-optimized UI: Responsive toolbar (icons-only on small screens), full-screen help panel with sticky header, and performance stats hidden by default on mobile (≤768px)\n- 🌓 Light and dark theme support with RTL layout\n- 🔗 Works with public shares and authenticated users\n- ♿ Accessibility features with keyboard navigation and ARIA labels\n\nBuilt with Three.js for high-performance WebGL rendering. ✨",
     "homepage": "https://github.com/maz1987in/3Dviewer-Nextcloud",
     "licenses": [
       "agpl"
@@ -2830,8 +2860,8 @@
     ]
   },
   "timesheet": {
-    "hash": "sha256-I8/1/elNYiLbCRYbYL/c4xvb5wOlBgriJAg1BL55g/0=",
-    "url": "https://github.com/Repa1253/timesheet/releases/download/1.0.7/timesheet-1.0.7.tar.gz",
+    "hash": "sha256-A4nnxQhAmysL26ewnp/0WvbBIy1yZqf9MO3wi1GhB2Y=",
+    "url": "https://github.com/Repa1253/timesheet/releases/download/1.0.6/timesheet-1.0.6.tar.gz",
     "version": "1.0.6",
     "description": "Simple time tracking app for employees and HR inside Nextcloud.\n\nEmployees can enter their daily working hours, see monthly totals and overtime.\nHR users get an overview of all employees, including targets, balances and rule violations.\nWhen a federal state is specified, the monthly view displays the public holidays for that federal state in the calendar (currently only German federal states are supported).",
     "homepage": "",
