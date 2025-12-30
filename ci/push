@@ -7,7 +7,9 @@
 set -euo pipefail
 
 # Set up SSH
-eval "$(ssh-agent -s)"
+tmp="$(mktemp -d)"
+trap 'set +e; kill $SSH_AGENT_PID; rm -r $tmp' INT TERM EXIT
+eval "$(HOME="${tmp}" ssh-agent -s)"
 echo "${SSH_PRIVATE_KEY}" | tr -d '\r' | ssh-add - > /dev/null
 unset SSH_PRIVATE_KEY
 
