@@ -480,9 +480,9 @@
     ]
   },
   "doom_nextcloud": {
-    "hash": "sha256-QtSPuMjbIeug+jExEW8dg4EtB7HZ5ko0fVQSVHkgLqw=",
-    "url": "https://github.com/YvesCesar/doom_nextcloud/releases/download/v1.0.3/doom_nextcloud.tar.gz",
-    "version": "1.0.3",
+    "hash": "sha256-4rvT1sGI1sW6VwVPQH3qpIXsfergRNcTUMRXrONodvk=",
+    "url": "https://github.com/YvesCesar/doom_nextcloud/releases/download/v1.0.4/doom_nextcloud.tar.gz",
+    "version": "1.0.4",
     "description": "Allows to play Doom on NextCloud. Doom is one of the most influential games in video game history.  \n\t\tCreated by id Software, it popularized the first-person shooter (FPS) genre by placing the player in the role of a space marine fighting demons and hellish creatures inside futuristic bases on Mars.\n\t\tWhen enabled, you can access the game in the specific tab in the top menu. Just press play and start playing.",
     "homepage": "",
     "licenses": [
@@ -630,9 +630,9 @@
     ]
   },
   "files_autorename": {
-    "hash": "sha256-MG4CIaLhaFOTdutyJcVVHNEWBrBO9vLCQfLMM0ZdyW8=",
-    "url": "https://github.com/powerflo/files_autorename/releases/download/v2.2.3/files_autorename-2.2.3.tar.gz",
-    "version": "2.2.3",
+    "hash": "sha256-8nCX8lkWYOedHCL7WD35qsjSyqrWiKXEmFvU8aNvU5c=",
+    "url": "https://github.com/powerflo/files_autorename/releases/download/v2.3.0/files_autorename-2.3.0.tar.gz",
+    "version": "2.3.0",
     "description": "AutoRename is a Nextcloud app that renames and organizes newly added or moved files based on user-defined rules.\nBy placing a `.rename.conf` file in a folder, users can specify regex-based patterns to rename or move files.\n\nRenaming is handled by a background job that runs every few minutes, so changes may not be immediate.\n\nFeatures:\n- 📝 Define renaming rules using powerful regular expressions.\n- 📂 Move files to subfolders specified in the new name (e.g., `subfolder/new_name`).\n- 📅 Insert metadata like dates, EXIF data, or file modification times into filenames using [placeholders](https://github.com/powerflo/files_autorename/tree/main?tab=readme-ov-file#what-placeholders-can-i-use-in-the-replacement-string).\n- 🔍 Extract [text from PDFs](https://github.com/powerflo/files_autorename/tree/main?tab=readme-ov-file#pdfPatternMatch) for custom filenames.\n- 🔄 Transform filenames to [uppercase or lowercase](https://github.com/powerflo/files_autorename/tree/main?tab=readme-ov-file#how-do-i-rename-files-with-upperlowercase-changes).\n\nQuick Start\n\n1. Place a `.rename.conf` file in the desired folder.\n2. Add a rule like this:\n    ```\n    ^Invoice_(\\d{4})_(\\d{2})\\.pdf$:Invoices/$1/$2/$0\n    ```\n3. Upload a matching file (e.g., `Invoice_2025_04.pdf`) — it will be renamed to `Invoices/2025/04/Invoice_2025_04.pdf` during the next background job run.\n\nCheck out the [full documentation on GitHub](https://github.com/powerflo/files_autorename).",
     "homepage": "",
     "licenses": [
@@ -2420,9 +2420,9 @@
     ]
   },
   "thesearchpage": {
-    "hash": "sha256-5vxFKIzrc7eA01kuVf82mRBDpwHDz66X2WsxOvwO1as=",
-    "url": "https://github.com/callmemagnus/nextcloud-searchpage/releases/download/v1.2.16/thesearchpage.tar.gz",
-    "version": "1.2.16",
+    "hash": "sha256-fzW9OY8kxlmgrz9fDazNX7xSAAHwqKeXRl/YW2w0fh4=",
+    "url": "https://github.com/callmemagnus/nextcloud-searchpage/releases/download/v2.0.1/thesearchpage.tar.gz",
+    "version": "2.0.1",
     "description": "🔎 A Search Page for your Nextcloud instance\n\n- [Changelog](https://raw.githubusercontent.com/callmemagnus/nextcloud-searchpage/main/CHANGELOG.md)\n- [Help translate this application](https://app.transifex.com/nextcloud/nextcloud/thesearchpage/)\n\nIt works like the existing search widget, uses the same sources to query BUT\ndisplays the results in a more readable and browsable fashion.\n\nThe content of the results depends on the other applications installed on\nyour Nextcloud instance. Every Nextcloud application can become a search\nprovider and get its results displayed by this application.\n\nOut of the Nextcloud box, you usually get the following providers:\n\n- Apps -- searches for match for in installed application names\n- Files -- searches on path and filename\n- Tags\n- Comments\n- Settings\n\nBecause of its design, the results depend on the implementation of the providers\nin respective application.\n\nKnown issues with other applications:\n\n- users -- [by design(?), it always returns an empty array](https://github.com/nextcloud/server/issues/41274) (it is hidden/disabled in this application)\n- fulltextsearch -- does not seem to AND the query terms, OR is usually less relevant\n- news -- does not provide a direct link to a feed item.\n\n\nDon't hesitate to leave a comment here or a rating!",
     "homepage": "https://github.com/callmemagnus/nextcloud-searchpage",
     "licenses": [
