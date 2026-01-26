@@ -1,8 +1,8 @@
 {
   "admincockpit": {
-    "hash": "sha256-HyRGyzfOpakY1V/f9LJpmqKMRxdVsU4xUhfITwZecPg=",
-    "url": "https://github.com/zomtec2311/admincockpit/releases/download/1.1.0/admincockpit-1.1.0.tar.gz",
-    "version": "1.1.0",
+    "hash": "sha256-fPji4GV6a1zlVwKDXm/BiAM/o8MNlH2bb7x8dHeNhoI=",
+    "url": "https://github.com/zomtec2311/admincockpit/releases/download/1.1.1/admincockpit-1.1.1.tar.gz",
+    "version": "1.1.1",
     "description": "**AdminCockpit is an administration tool for Nextcloud**\n- ✅ All important administration pages at a glance\n- ✅ No more clicking back and forth in the menus\n- ✅ Modern and compact look\n- ✅ Intuitive operation without a page-long manual\n- ✅ send notification to users and groups",
     "homepage": "https://github.com/zomtec2311/admincockpit",
     "licenses": [
@@ -190,9 +190,9 @@
     ]
   },
   "autocurrency": {
-    "hash": "sha256-aMrCydEhxRo8Ptj37UNkzjEtMyBwtK9pE6+ZBWS1b+c=",
-    "url": "https://github.com/chenasraf/nextcloud-autocurrency/releases/download/v1.6.6/autocurrency-v1.6.6.tar.gz",
-    "version": "1.6.6",
+    "hash": "sha256-WGiScHmXc2vACGBWK44zSG1BFNKHqfevdGhap1iqTo8=",
+    "url": "https://github.com/chenasraf/nextcloud-autocurrency/releases/download/v1.6.7/autocurrency-v1.6.7.tar.gz",
+    "version": "1.6.7",
     "description": "This NextCloud app automatically fetches currency information for your Cospend projects, and fills\nthem up using the main currency as base. No more manually updating exchange rates!\n\n\nYou can also view the history of currency rates fetched in the past, and see how they changed over time.\n\n\nIt will automatically run once a day by default and use your currency names to fetch the correct\nrate.\n\n\nInterval for fetch may be adjusted in the admin settings \"Auto Currency\" section.\n\n\n> **Note**: This is a companion app to [Cospend](https://apps.nextcloud.com/apps/cospend).\n>\n> Without Cospend, this app will not work.",
     "homepage": "https://github.com/chenasraf/nextcloud-autocurrency",
     "licenses": [
@@ -227,6 +227,16 @@
     "homepage": "https://github.com/nextcloud/bookmarks",
     "licenses": [
       "agpl"
+    ]
+  },
+  "bookshelfs": {
+    "hash": "sha256-QlSnvXTG8Z3jmfwCVWdOsGs/7eKh3tXyrWimJPnUG3k=",
+    "url": "https://github.com/JeCheeseSmith/bookshelfs/releases/download/v0.1.1/bookshelfs-0.1.1.tar.gz",
+    "version": "0.1.1",
+    "description": "In this app you can easily add e-books and arrange them in a virtual shelf to keep track of what you've been reading. Order books dynamically, assign them a style and link to your files, all in Nextcloud. Show off!",
+    "homepage": "",
+    "licenses": [
+      "AGPL-3.0-or-later"
     ]
   },
   "brewmemo": {
@@ -450,8 +460,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -1049,10 +1059,20 @@
       "agpl"
     ]
   },
+  "formvox": {
+    "hash": "sha256-baanS4hKERMtRTW8G3DjJu3qpUTzW0s6mehN7EwAUmo=",
+    "url": "https://github.com/nextcloud/formvox/releases/download/v0.2.2/formvox-0.2.2.tar.gz",
+    "version": "0.2.2",
+    "description": "**⚠️ EVALUATION VERSION - NOT FOR PRODUCTION USE**\n\nThis is an evaluation version intended for testing and demonstration purposes only. Do not use in production environments.\n\n---\n\nFormVox is a file-based forms and polls app for Nextcloud. Unlike traditional form apps, FormVox stores everything in .fvform files - no database tables needed.\n\n**📋 Requirements:**\n* PHP 8.1 or higher\n* Nextcloud 28-32\n\n**Features:**\n* 100% file-based storage (.fvform files)\n* Multiple question types: text, textarea, single/multiple choice, dropdown, date, time, number, scale, rating, file upload, matrix\n* Conditional logic (branching)\n* Quiz mode with scoring\n* Export to CSV, JSON, Excel\n* Per-form branding with visual page builder\n* Answer piping (use previous answers in later questions)\n* Charts and visualizations in Results view\n* Password protection and expiration for public links\n\n**Unique Benefits:**\n* One file contains everything (definition + responses)\n* Works with Nextcloud's versioning\n* End-to-end encryption compatible\n* No database migrations needed\n* Native Nextcloud sharing integration\n\n**Perfect for:**\n* Surveys and feedback forms\n* Quizzes and assessments\n* Event registrations\n* Data collection with privacy requirements\n\nBuilt with Vue 3 and modern web technologies for a smooth, secure experience.",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "forum": {
-    "hash": "sha256-eGjqPXT6W9X5VbausfX4iWK9BIt2l0+FlJNOJDQdro4=",
-    "url": "https://github.com/chenasraf/nextcloud-forum/releases/download/v0.21.1/forum-v0.21.1.tar.gz",
-    "version": "0.21.1",
+    "hash": "sha256-9tj/38yjnW7qz299Xv5DUqb83tUpWiWs0I+RJKIICGc=",
+    "url": "https://github.com/chenasraf/nextcloud-forum/releases/download/v0.21.3/forum-v0.21.3.tar.gz",
+    "version": "0.21.3",
     "description": "Create discussions, share ideas and collaborate with your community directly in Nextcloud.\n\n**⚠️ Early Development Notice:**\nThis app is in early stages of development. While functional, you may encounter bugs or incomplete features. Please report any issues on GitHub and consider backing up your data regularly.\n\n**Key features:**\n- **Thread-based Discussions** - Create and reply to organized discussion threads\n- **Category Organization** - Structure your forum with customizable categories and headers\n- **Rich Text Formatting** - Use BBCode for formatting posts with bold, italic, links, images, code blocks and more\n- **File Attachments** - Attach files from your Nextcloud storage to posts\n- **Post Reactions** - React to posts with emoji reactions\n- **Read/Unread Tracking** - Keep track of which threads you've read\n- **Search** - Find discussions quickly with built-in search\n- **User Profiles** - View user post history and statistics\n- **Role-Based Permissions** - Control access and moderation with flexible roles\n- **Guest Access**: Optional public access for unauthenticated users with configurable permissions\n- **Admin Tools** - Manage categories, roles, BBCodes and forum settings\n- **Moderation Tools** - Pin, lock and manage threads and posts\n\n**Perfect for:**\n- Team discussions and collaboration\n- Community forums\n- Support channels\n- Knowledge bases\n- Project discussions\n- Internal communication\n\nThe forum integrates seamlessly with your Nextcloud instance, using your existing users and groups for authentication and access control.",
     "homepage": "https://github.com/chenasraf/nextcloud-forum",
     "licenses": [
@@ -1520,8 +1540,8 @@
     ]
   },
   "integration_openproject": {
-    "hash": "sha256-4X9Z4Yw0GAY5wHcu1otfAkt5xKccwWMF4yC56QiTm58=",
-    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.11.0-20260119-nightly/integration_openproject-2.11.0-20260119-nightly.tar.gz",
+    "hash": "sha256-GxZoP/etQoIDZ2TAEsRxHXnAJ/aFmwKzxIIBBSwnO6M=",
+    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v2.11.0/integration_openproject-2.11.0.tar.gz",
     "version": "2.11.0",
     "description": "This application enables seamless integration with open source project management and collaboration software OpenProject.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in OpenProject\n* Find all work packages linked to a file or a folder\n* Create work packages directly in Nextcloud\n* View OpenProject notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n* Link work packages in rich text fields via Smart Picker\n* Preview links to work packages in text fields\n* Link multiple files and folder to a work package at once\n\nOn the OpenProject end, users are able to:\n\n* Link work packages with files and folders in Nextcloud\n* Upload and download files directly to Nextcloud from within a work package\n* Open linked files in Nextcloud to edit them\n* Let OpenProject create shared folders per project\n\nFor more information on how to set up and use the OpenProject application, please refer to [integration setup guide](https://www.openproject.org/docs/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://www.openproject.org/docs/user-guide/nextcloud-integration/).",
     "homepage": "https://github.com/nextcloud/integration_openproject",
@@ -1840,8 +1860,8 @@
     ]
   },
   "maps": {
-    "hash": "sha256-E0S/CwXyye19lcuiONEQCyHJqlL0ZG1A9Q7oOTEZH1g=",
-    "url": "https://github.com/nextcloud/maps/releases/download/v1.6.0-3-nightly/maps-1.6.0-3-nightly.tar.gz",
+    "hash": "sha256-IupRymjs955TiUutzoTTMeESNfBmAp51l+oBaZwfdN0=",
+    "url": "https://github.com/nextcloud/maps/releases/download/v1.6.0/maps-1.6.0.tar.gz",
     "version": "1.6.0",
     "description": "**The whole world fits inside your cloud!**\n\n- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨\n- **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.\n- **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).\n- **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!\n- **🙋 Contacts on the map:** See where your friends live and plan your next visit.\n- **📱 Devices:** Lost your phone? Check the map!\n- **〰 Tracks:** Load GPS tracks or past trips. Recording with [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/) or [OwnTracks](https://owntracks.org) is planned.",
     "homepage": "https://github.com/nextcloud/maps",
@@ -1880,9 +1900,9 @@
     ]
   },
   "memories": {
-    "hash": "sha256-ORv+6XkN+qTk5bXMFKv2Mv/jU+7F12IbWE9JjV2ot9o=",
-    "url": "https://github.com/pulsejet/memories/releases/download/v7.7.0/memories.tar.gz",
-    "version": "7.7.0",
+    "hash": "sha256-lD50xKxHYc04G6r4caAKzRcTl0Q2VSWUXHRETUCF1dg=",
+    "url": "https://github.com/pulsejet/memories/releases/download/v7.8.1/memories.tar.gz",
+    "version": "7.8.1",
     "description": "# Memories: Photo Management for Nextcloud\n\nMemories is a *batteries-included* photo management solution for Nextcloud with advanced features including:\n\n- **📸 Timeline**: Sort photos and videos by date taken, parsed from Exif data.\n- **⏪ Rewind**: Jump to any time in the past instantly and relive your memories.\n- **🤖 AI Tagging**: Group photos by people and objects, powered by [recognize](https://github.com/nextcloud/recognize) and [facerecognition](https://github.com/matiasdelellis/facerecognition).\n- **🖼️ Albums**: Create albums to group photos and videos together. Then share these albums with others.\n- **🫱🏻‍🫲🏻 External Sharing**: Share photos and videos with people outside of your Nextcloud instance.\n- **📱 Mobile Support**: Work from any device, of any shape and size through the web app.\n- **✏️ Edit Metadata**: Edit dates and other metadata on photos quickly and in bulk.\n- **📦 Archive**: Store photos you don't want to see in your timeline in a separate folder.\n- **📹 Video Transcoding**: Transcode videos and use HLS for maximal performance.\n- **🗺️ Map**: View your photos on a map, tagged with accurate reverse geocoding.\n- **📦 Migration**: Migrate easily from Nextcloud Photos and Google Takeout.\n- **⚡️ Performance**: Do all this very fast.\n\n## 🚀 Installation\n\n1. Install the app from the Nextcloud app store (try a demo [here](https://demo.memories.gallery/apps/memories/)).\n1. Perform the recommended [configuration steps](https://memories.gallery/config/).\n1. Run `php occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos.",
     "homepage": "https://memories.gallery",
     "licenses": [
@@ -1900,9 +1920,9 @@
     ]
   },
   "metavox": {
-    "hash": "sha256-wzS6ISfCSmQO+72hwVSYGV8nC7Bh51qH2xkm87xMXHs=",
-    "url": "https://github.com/nextcloud/metavox/releases/download/v1.4.7/metavox-1.4.7.tar.gz",
-    "version": "1.4.7",
+    "hash": "sha256-TehYn19iMIJrLDhCiRD7rpbmj7/ZZJODNW1ttKBwzEc=",
+    "url": "https://github.com/nextcloud/metavox/releases/download/v1.4.8/metavox-1.4.8.tar.gz",
+    "version": "1.4.8",
     "description": "A customizable metadata app that allows you to define your own metadata fields for files.\n\n  The goal of MetaVox is to enrich digital documents with contextual metadata — such as topic, author intent, relevance, or classification — in a way that is:\n\n  • Structured and machine-readable  \n  • Non-intrusive (no changes to file content)  \n  • Compatible with existing Nextcloud workflows  \n  • Designed for flexible use across education, government, and other document-driven environments",
     "homepage": "https://github.com/nextcloud/metavox",
     "licenses": [
@@ -2060,9 +2080,9 @@
     ]
   },
   "oidc": {
-    "hash": "sha256-QQgs77308YFIiLDQDLdexeJnLTjSnqUya2z0Es/mJsk=",
-    "url": "https://github.com/H2CK/oidc/releases/download/1.14.7/oidc-1.14.7.tar.gz",
-    "version": "1.14.7",
+    "hash": "sha256-QsGI0mQVl5hx7nQ0Y4e27yT1HLH0DqvZEX27fojlIac=",
+    "url": "https://github.com/H2CK/oidc/releases/download/1.15.0/oidc-1.15.0.tar.gz",
+    "version": "1.15.0",
     "description": "Nextcloud as OpenID Connect Identity Provider\n\nWith this app you can use Nextcloud as OpenID Connect Identity Provider. If other services\nare configured correctly, you are able to access those services with your Nextcloud login.\n\nFull documentation can be found at:\n\n- [User Documentation](https://github.com/H2CK/oidc/wiki#user-documentation)\n- [Developer Documentation](https://github.com/H2CK/oidc/wiki#developer-documentation)",
     "homepage": "https://github.com/H2CK/oidc",
     "licenses": [
@@ -2590,9 +2610,9 @@
     ]
   },
   "shiftsnext": {
-    "hash": "sha256-WvcCcETKW5Jg57OmFaGIMIHcgHnEeYOQQYdRFyNFSmw=",
-    "url": "https://github.com/csoc-de/shiftsnext/releases/download/v2.7.4/shiftsnext.tar.gz",
-    "version": "2.7.4",
+    "hash": "sha256-JeEAQuzISJE9wOrPHt6f2wYeQTvs0EVt7c82fRRVIQQ=",
+    "url": "https://github.com/csoc-de/shiftsnext/releases/download/v2.7.5/shiftsnext.tar.gz",
+    "version": "2.7.5",
     "description": "Manage your shifts and sync them to your calendar",
     "homepage": "https://github.com/csoc-de/shiftsnext",
     "licenses": [
@@ -2970,9 +2990,9 @@
     ]
   },
   "twofactor_email": {
-    "hash": "sha256-9ddpWwvE4Lpsbhonr+U6OJW+vxztQkDtl2bw1OSt9Hw=",
-    "url": "https://github.com/nursoda/twofactor_email/releases/download/2.8.3/twofactor_email.tar.gz",
-    "version": "2.8.3",
+    "hash": "sha256-my6EVul3sDxj5AP+aew+gI6iW5UUMHGRzryWnZUycEI=",
+    "url": "https://github.com/nursoda/twofactor_email/releases/download/2.8.4/twofactor_email.tar.gz",
+    "version": "2.8.4",
     "description": "This app allows users to set up email as a second factor for web logins. It requires that an email address is set in 'Personal info'. It currently cannot be used on first login when two-factor authentication is enforced (not implemented yet).",
     "homepage": "https://github.com/nursoda/twofactor_email",
     "licenses": [
