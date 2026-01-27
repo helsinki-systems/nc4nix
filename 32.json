@@ -120,9 +120,9 @@
     ]
   },
   "astrolabe": {
-    "hash": "sha256-OtFM3TeYkS4RaNA2OqjYh+LZvaOlHhCOveMWtoPFMqg=",
-    "url": "https://github.com/cbcoutinho/nextcloud-mcp-server/releases/download/astrolabe-v0.8.3/astrolabe-0.8.3.tar.gz",
-    "version": "0.8.3",
+    "hash": "sha256-nOPAmCBUFiNatJRS/3loXl7wXVFq4fjcMDmbjfWp6oY=",
+    "url": "https://github.com/cbcoutinho/nextcloud-mcp-server/releases/download/astrolabe-v0.9.0/astrolabe-0.9.0.tar.gz",
+    "version": "0.9.0",
     "description": "# Astrolabe - Semantic Search for Nextcloud\n\nFind your content by meaning, not just keywords. Astrolabe brings AI-powered semantic search to your Nextcloud, helping you discover documents, notes, calendar events, and files through natural language.\n\n## Features\n\n- **Semantic Search**: Search across Notes, Files, Calendar, Deck, and more using natural language queries\n- **Unified Search Integration**: Results appear in Nextcloud's global search bar alongside traditional results\n- **Background Indexing**: Your content is automatically indexed for instant semantic search\n- **Vector Visualization**: Explore your content in an interactive 2D visualization showing semantic relationships\n- **Hybrid Search**: Combines semantic understanding with keyword matching for best results\n\n## How It Works\n\nAstrolabe connects to a semantic search service that understands the meaning of your content. Instead of exact keyword matches, you can search for concepts - ask \"meeting notes from last week\" or \"recipes with chicken\" and find relevant documents even if they don't contain those exact words.\n\n## Getting Started\n\n1. Install and enable the app\n2. Grant background access to allow indexing of your content\n3. Start searching with natural language in Nextcloud's search bar\n\nSee [documentation](https://github.com/cbcoutinho/nextcloud-mcp-server) for configuration details.",
     "homepage": "",
     "licenses": [
@@ -220,10 +220,10 @@
     ]
   },
   "bookshelfs": {
-    "hash": "sha256-QlSnvXTG8Z3jmfwCVWdOsGs/7eKh3tXyrWimJPnUG3k=",
-    "url": "https://github.com/JeCheeseSmith/bookshelfs/releases/download/v0.1.1/bookshelfs-0.1.1.tar.gz",
+    "hash": "sha256-mwcqLRAooi7gY+5lorAyPQEAJ9Y8TAaXAwE94N0VAs4=",
+    "url": "https://github.com/JeCheeseSmith/bookshelfs/releases/download/v0.1.2/bookshelfs-0.1.2.tar.gz",
     "version": "0.1.1",
-    "description": "In this app you can easily add e-books and arrange them in a virtual shelf to keep track of what you've been reading. Order books dynamically, assign them a style and link to your files, all in Nextcloud. Show off!",
+    "description": "Your virtual bookshelf. Arrange e-books in a virtual shelf to keep track of what you've been reading. Order books dynamically, assign them a style and link to your files.",
     "homepage": "",
     "licenses": [
       "AGPL-3.0-or-later"
@@ -505,6 +505,16 @@
     "version": "1.16.3",
     "description": "Deck is a kanban style organization tool aimed at personal planning and project organization for teams integrated with Nextcloud.\n\n\n- 📥 Add your tasks to cards and put them in order\n- 📄 Write down additional notes in Markdown\n- 🔖 Assign labels for even better organization\n- 👥 Share with your team, friends or family\n- 📎 Attach files and embed them in your Markdown description\n- 💬 Discuss with your team using comments\n- ⚡ Keep track of changes in the activity stream\n- 🚀 Get your project organized",
     "homepage": "https://github.com/nextcloud/deck",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "digitalsignage": {
+    "hash": "sha256-I/ofXP/oFzUw7l2bsiqc6kAUM7lrVwIXwHsjsaSN8Ug=",
+    "url": "https://github.com/lmaertin/nextcloud-digitalsignage/releases/download/v0.0.4/digitalsignage-0.0.4.tar.gz",
+    "version": "0.0.4",
+    "description": "Digital Signage displays calendar events from your Nextcloud calendar and images from a folder in a full-screen presentation.\n\nFeatures:\n- Calendar events from your Nextcloud calendar\n- Image slideshow from a Nextcloud folder\n- Weather information (external API)\n- Configurable display settings\n- Public share for display without login\n\nSupported languages:\n- English (en)\n- Deutsch (de)",
+    "homepage": "https://github.com/lmaertin/nextcloud-digitalsignage",
     "licenses": [
       "agpl"
     ]
@@ -920,9 +930,9 @@
     ]
   },
   "formvox": {
-    "hash": "sha256-baanS4hKERMtRTW8G3DjJu3qpUTzW0s6mehN7EwAUmo=",
-    "url": "https://github.com/nextcloud/formvox/releases/download/v0.2.2/formvox-0.2.2.tar.gz",
-    "version": "0.2.2",
+    "hash": "sha256-yMn+etaqMGhBK0jSZuzbY2YrbF3uxAl+N0mfBuaMEwc=",
+    "url": "https://github.com/nextcloud/formvox/releases/download/v0.2.3/formvox-0.2.3.tar.gz",
+    "version": "0.2.3",
     "description": "**⚠️ EVALUATION VERSION - NOT FOR PRODUCTION USE**\n\nThis is an evaluation version intended for testing and demonstration purposes only. Do not use in production environments.\n\n---\n\nFormVox is a file-based forms and polls app for Nextcloud. Unlike traditional form apps, FormVox stores everything in .fvform files - no database tables needed.\n\n**📋 Requirements:**\n* PHP 8.1 or higher\n* Nextcloud 28-32\n\n**Features:**\n* 100% file-based storage (.fvform files)\n* Multiple question types: text, textarea, single/multiple choice, dropdown, date, time, number, scale, rating, file upload, matrix\n* Conditional logic (branching)\n* Quiz mode with scoring\n* Export to CSV, JSON, Excel\n* Per-form branding with visual page builder\n* Answer piping (use previous answers in later questions)\n* Charts and visualizations in Results view\n* Password protection and expiration for public links\n\n**Unique Benefits:**\n* One file contains everything (definition + responses)\n* Works with Nextcloud's versioning\n* End-to-end encryption compatible\n* No database migrations needed\n* Native Nextcloud sharing integration\n\n**Perfect for:**\n* Surveys and feedback forms\n* Quizzes and assessments\n* Event registrations\n* Data collection with privacy requirements\n\nBuilt with Vue 3 and modern web technologies for a smooth, secure experience.",
     "homepage": "",
     "licenses": [
@@ -1520,9 +1530,9 @@
     ]
   },
   "intravox": {
-    "hash": "sha256-2oDFTO5DHjVxp3wT6jzxbwM2zncxv8lPNYtgeBANI1E=",
-    "url": "https://github.com/nextcloud/IntraVox/releases/download/v0.9.6/intravox-0.9.6.tar.gz",
-    "version": "0.9.6",
+    "hash": "sha256-pu3vleg+2voCtjULYIwGIrcxGDT82crRAnOFGkdQt8E=",
+    "url": "https://github.com/nextcloud/IntraVox/releases/download/v0.9.7/intravox-0.9.7.tar.gz",
+    "version": "0.9.7",
     "description": "**⚠️ EVALUATION VERSION - NOT FOR PRODUCTION USE**\n\nThis is an evaluation version intended for testing and demonstration purposes only. Do not use in production environments.\n\n---\n\nIntraVox brings SharePoint-style page creation to Nextcloud with a powerful drag-and-drop interface.\n\n**📋 Requirements:**\n* **GroupFolders app must be installed and enabled BEFORE installing IntraVox!**\n* PHP 8.1 or higher\n* Nextcloud 32\n\n**Features:**\n* Create rich, interactive pages with a visual editor\n* Flexible grid layout system (1-5 columns)\n* Drag-and-drop widget placement\n* Multiple widget types: text, images, headings, links, files\n* Secure JSON-based storage preventing code injection\n* Integration with Nextcloud Files\n* Top navigation bar button for easy access\n* Default homepage for quick start\n\n**Perfect for:**\n* Company intranets and knowledge bases\n* Team collaboration spaces\n* Internal documentation and wikis\n* SharePoint migrations to Nextcloud\n\nBuilt with Vue 3 and modern web technologies for a smooth, secure experience.",
     "homepage": "https://github.com/nextcloud/intravox",
     "licenses": [
@@ -1620,9 +1630,9 @@
     ]
   },
   "limit_login_to_ip": {
-    "hash": "sha256-4Aly727RKY3XEdcDvSPHhrfH9dkgeikK7DYYa73B8rI=",
-    "url": "https://github.com/nextcloud-releases/limit_login_to_ip/releases/download/v4.2.0/limit_login_to_ip-v4.2.0.tar.gz",
-    "version": "4.2.0",
+    "hash": "sha256-xJ7sCtfqRwkKGpAf2vE+ABnZfeCySMtq1XtLE8e7dLg=",
+    "url": "https://github.com/nextcloud-releases/limit_login_to_ip/releases/download/v4.3.0/limit_login_to_ip-v4.3.0.tar.gz",
+    "version": "4.3.0",
     "description": "This app allows administrators to restrict login to their\nNextcloud server to specific IP ranges. Note that existing sessions will be kept\nopen.\n\nThe allowed IP ranges can be administrated using the OCC command line interface\nor graphically using the admin settings. If you plan to use the OCC tool, the\nfollowing commands would be applicable.\n\nTo allow `127.0.0.0/24`:\n\n- `occ config:app:set limit_login_to_ip whitelisted.ranges --value 127.0.0.0/24`\n\nTo allow `127.0.0.0/24` and also `192.168.0.0/24`:\n\n- `occ config:app:set limit_login_to_ip whitelisted.ranges --value 127.0.0.0/24,192.168.0.0/24`",
     "homepage": "https://github.com/nextcloud/limit_login_to_ip",
     "licenses": [
@@ -1650,9 +1660,9 @@
     ]
   },
   "mail": {
-    "hash": "sha256-jX1BfCl156SWMY49iD8iOnUusLa0zCK3a7Ea0217h8I=",
-    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.6.8/mail-v5.6.8.tar.gz",
-    "version": "5.6.8",
+    "hash": "sha256-QjX1PcfQabxZ5NcMauU8G0xU3eaJs8lQHRJ0VM/m3BE=",
+    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.6.9/mail-v5.6.9.tar.gz",
+    "version": "5.6.9",
     "description": "**💌 A mail app for Nextcloud**\n\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://www.horde.org) libraries.\n- **📬 Want to host your own mail server?** We do not have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!\n\n## Ethical AI Rating\n\n### Priority Inbox\n\nPositive:\n* The software for training and inferencing of this model is open source.\n* The model is created and trained on-premises based on the user's own data.\n* The training data is accessible to the user, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n### Thread Summaries (opt-in)\n\n**Rating:** 🟢/🟡/🟠/🔴\n\nThe rating depends on the installed text processing backend. See [the rating overview](https://docs.nextcloud.com/server/latest/admin_manual/ai/index.html) for details.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/mail#readme",
     "licenses": [
@@ -2290,9 +2300,9 @@
     ]
   },
   "shiftsnext": {
-    "hash": "sha256-JeEAQuzISJE9wOrPHt6f2wYeQTvs0EVt7c82fRRVIQQ=",
-    "url": "https://github.com/csoc-de/shiftsnext/releases/download/v2.7.5/shiftsnext.tar.gz",
-    "version": "2.7.5",
+    "hash": "sha256-ib8+ZwoErpaNVCQNmA5CcLaFVZ0rUCKEhZ1oA2bKm6s=",
+    "url": "https://github.com/csoc-de/shiftsnext/releases/download/v2.7.6/shiftsnext.tar.gz",
+    "version": "2.7.6",
     "description": "Manage your shifts and sync them to your calendar",
     "homepage": "https://github.com/csoc-de/shiftsnext",
     "licenses": [
@@ -2690,8 +2700,8 @@
     ]
   },
   "uniteos_notifier": {
-    "hash": "sha256-y2Grzus55kMVYJJyynNBezvngzn31u3mFhS9ihSYBHQ=",
-    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/1.0.4/uniteos_notifier.tar.gz",
+    "hash": "sha256-8GJMpu0aFiP9I1MSgNVJohEntNvIXKC9tSDXsR6Qyv4=",
+    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/main/uniteos_notifier.tar.gz",
     "version": "1.0.4",
     "description": "This app allows forwarding Nextcloud events for a deeper integration into UniteOS developed by wechange eG by presenting a selected set of events as user notifications.",
     "homepage": "",
@@ -2760,9 +2770,9 @@
     ]
   },
   "user_saml": {
-    "hash": "sha256-FWC1n/23XmqGKmq+BDkdor6IbkN8Q7IYyayHqtdnlFg=",
-    "url": "https://github.com/nextcloud-releases/user_saml/releases/download/v7.1.1/user_saml-v7.1.1.tar.gz",
-    "version": "7.1.1",
+    "hash": "sha256-L/QoJpXFUpTY4TXPeRfRxe2xtBCiTiEm8lSj+zq6DEM=",
+    "url": "https://github.com/nextcloud-releases/user_saml/releases/download/v7.1.2/user_saml-v7.1.2.tar.gz",
+    "version": "7.1.2",
     "description": "Using the SSO & SAML app of your Nextcloud you can make it easily possible to integrate your existing Single-Sign-On solution with Nextcloud. In addition, you can use the Nextcloud LDAP user provider to keep the convenience for users. (e.g. when sharing)\nThe following providers are supported and tested at the moment:\n\n* **SAML 2.0**\n\t* OneLogin\n\t* Shibboleth\n\t* Active Directory Federation Services (ADFS)\n\n* **Authentication via Environment Variable**\n\t* Kerberos (mod_auth_kerb)\n\t* Any other provider that authenticates using the environment variable\n\nWhile theoretically any other authentication provider implementing either one of those standards is compatible, we like to note that they are not part of any internal test matrix.",
     "homepage": "https://github.com/nextcloud/user_saml",
     "licenses": [
