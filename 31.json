@@ -250,9 +250,9 @@
     ]
   },
   "budget": {
-    "hash": "sha256-rCzH4VPNtWEioW83hhgftIqek4P/CjkRFzKwFqgiOU4=",
-    "url": "https://github.com/otherworld-dev/budget/releases/download/v2.0.4/budget.tar.gz",
-    "version": "2.0.4",
+    "hash": "sha256-jZy/QboxYYHGkPWh15KJDX+hBEN6qMndg09Ha5d0BCE=",
+    "url": "https://github.com/otherworld-dev/budget/releases/download/v2.0.5/budget.tar.gz",
+    "version": "2.0.5",
     "description": "**⚠️ Beta: This app is currently in testing. Data loss is possible. Please backup your data regularly and report any issues.**\n\n# Budget - Financial Tracking for Nextcloud\n\nTrack your spending habits, manage savings, and forecast future account balances with intelligent analysis of your financial history.\n\n## Features\n\n* **Import Bank Statements**: Support for CSV, OFX, and QIF formats\n* **Smart Categorization**: Automatic vendor matching and transaction categorization\n* **Auto-Categorization Rules**: Apply rules to existing transactions anytime with preview\n* **Split Transactions**: Allocate single transactions across multiple categories\n* **Transfer Detection**: Automatic matching of transfers between accounts\n* **Budget Tracking**: Set spending limits with alerts when approaching or exceeding budgets\n* **Balance Forecasting**: Predict future balances based on historical data\n* **Recurring Bills**: Track bills with due date monitoring and Nextcloud notifications\n* **Recurring Income**: Track expected income sources with receipt tracking\n* **Split Expenses**: Share expenses with contacts and track who owes whom\n* **Debt Payoff Planner**: Plan repayment using avalanche or snowball strategies\n* **Savings Goals**: Set targets with progress tracking and achievement forecasting\n* **Pension Tracker**: Track retirement accounts with growth projections\n* **Net Worth History**: Track assets and liabilities over time\n* **Year-over-Year Reports**: Compare spending across multiple years\n* **Multi-Account Support**: Manage multiple bank accounts and currencies\n* **Custom Categories**: Create your own category hierarchy\n* **Reports & Charts**: Visualize your financial data with interactive charts\n\n## Requirements\n\n* Nextcloud 30 or higher\n* PHP 8.1 or higher",
     "homepage": "",
     "licenses": [
@@ -1290,10 +1290,10 @@
     ]
   },
   "iframewidget": {
-    "hash": "sha256-zZdZqsy36CWnPlz3bliGxCME/Ckg9xge9RyQWBv1R2M=",
-    "url": "https://github.com/IT-BAER/nc-iframewidget/releases/download/v0.9.1/iframewidget-v0.9.1.tar.gz",
-    "version": "0.9.1",
-    "description": "**🔲 iFrame Widget for Nextcloud Dashboard**\n\nThis app adds customizable iFrame widgets to your Nextcloud dashboard, allowing you to embed external websites directly within Nextcloud.\n\n## ✨ Features\n\n- **Embed any website** directly in your Nextcloud dashboard\n- **Customize appearance** with custom titles and icons\n- **SimpleIcons integration** using the `si:` prefix for thousands of brand icons\n- **Colorize icons** with a built-in color picker\n- **Adjustable height** for perfect layout integration\n- **Responsive design** with extra-wide display option (2 columns)\n- **Personal widgets** for individual user customization\n- **Group-based widgets** for targeted content delivery\n- **Admin controls** for global and group-specific configurations\n- **Multiple widget slots** up to 5 public and 5 group widgets\n- **Iframe security controls** with sandbox and allow attribute customization\n\n## 🛠️ Configuration\n\nThe widget supports three types of configurations:\n\n### 🌍 Global/Public Widgets (5 slots)\nSet up widgets that appear on all users' dashboards.\n\n### 👤 Personal Widgets (1 per user)\nAllow each user to create their own personalized widgets.\n\n### 👥 Group Widgets (5 slots per group)\nCreate widgets that are only visible to specific user groups.\n\n## 🔒 CSP Configuration\n\nIf you encounter Content Security Policy errors, you may need to adjust your Nextcloud configuration to allow embedding specific websites. See the full documentation on GitHub for details.\n\n## 💻 Compatibility\n- Nextcloud 30+",
+    "hash": "sha256-Qo7sL3bQQQmAJ6iUMHpVFVbtHCPT+p5NA73R+7aB/Mg=",
+    "url": "https://github.com/IT-BAER/nc-iframewidget/releases/download/v0.9.2/iframewidget-v0.9.2.tar.gz",
+    "version": "0.9.2",
+    "description": "**🔲 iFrame Widget for Nextcloud Dashboard**\n\nThis app adds customizable iFrame widgets to your Nextcloud dashboard, allowing you to embed external websites directly within Nextcloud.\n\n## ✨ Features\n\n- **Embed any website** directly in your Nextcloud dashboard\n- **Customize appearance** with custom titles and icons\n- **SimpleIcons integration** using the `si:` prefix for thousands of brand icons\n- **Colorize icons** with a built-in color picker\n- **Adjustable height** for perfect layout integration\n- **Responsive design** with extra-wide display option (2 columns)\n- **Personal widgets** for individual user customization\n- **Group-based widgets** for targeted content delivery\n- **Admin controls** for global and group-specific configurations\n- **Multiple widget slots** up to 5 public and 5 group widgets\n- **Iframe security controls** with sandbox and allow attribute customization\n\n## 🛠️ Configuration\n\nThe widget supports three types of configurations:\n\n### 🌍 Global/Public Widgets (5 slots)\nSet up widgets that appear on all users' dashboards.\n\n### 👤 Personal Widgets (1 per user)\nAllow each user to create their own personalized widgets.\n\n### 👥 Group Widgets (5 slots per group)\nCreate widgets that are only visible to specific user groups.\n\n## 🔒 CSP Configuration\n\nIf you encounter Content Security Policy errors, this app now adjusts CSP via the Nextcloud PHP CSP API based on the configured widget URLs. Avoid adding a second CSP header at the web server level, as browsers apply the strictest policy. See the full documentation on GitHub for details.\n\n## 💻 Compatibility\n- Nextcloud 30+",
     "homepage": "https://github.com/IT-BAER/nc-iframewidget",
     "licenses": [
       "agpl"
@@ -2010,9 +2010,9 @@
     ]
   },
   "nextpod": {
-    "hash": "sha256-2IvsEv3teTGITE6ilaN3RHUtNpxDk3iCLEq5sAmJ+Y4=",
-    "url": "https://github.com/pbek/nextcloud-nextpod/releases/download/v0.7.8/nextpod-nc.tar.gz",
-    "version": "0.7.8",
+    "hash": "sha256-DKH2B3Z7MaJjnScEDwT11ergm8R5p/YsAlHk09tSNLw=",
+    "url": "https://github.com/pbek/nextcloud-nextpod/releases/download/v0.7.9/nextpod-nc.tar.gz",
+    "version": "0.7.9",
     "description": "This Nextcloud app lets you visualize your podcast subscriptions and episode downloads from\n[GPodderSync](https://apps.nextcloud.com/apps/gpoddersync), which acts as a basic gpodder.net\napi to sync podcast consumer apps (podcatchers) like AntennaPod.\n\nYou need to have [GPodderSync](https://apps.nextcloud.com/apps/gpoddersync) installed to use this app!",
     "homepage": "https://github.com/pbek/nextcloud-nextpod",
     "licenses": [
@@ -2370,9 +2370,9 @@
     ]
   },
   "qownnotesapi": {
-    "hash": "sha256-zaASURjhqeiz8eYc0HmhYDOF5Z+kIjhggEcJFe96GA8=",
-    "url": "https://github.com/pbek/qownnotesapi/releases/download/v25.8.0/qownnotesapi-nc.tar.gz",
-    "version": "25.8.0",
+    "hash": "sha256-bY/y33IpyIjMiX//Ea916DrXwM9iyOYys4MxdzCMlUM=",
+    "url": "https://github.com/pbek/qownnotesapi/releases/download/v26.2.1/qownnotesapi-nc.tar.gz",
+    "version": "26.2.1",
     "description": "QOwnNotesAPI is the Nextcloud/ownCloud API for [QOwnNotes](http://www.qownnotes.org), the open source notepad for Linux, macOS and Windows, that works together with the notes application of Nextcloud/ownCloud.\n\nThe only purpose of this App is to provide API access to your Nextcloud/ownCloud server for your QOwnNotes desktop installation, you cannot use this App for anything else, if you don't have QOwnNotes installed on your desktop computer!",
     "homepage": "https://github.com/pbek/qownnotesapi",
     "licenses": [
@@ -3170,9 +3170,9 @@
     ]
   },
   "webapppassword": {
-    "hash": "sha256-K7XWVAk4dov5izvJdCmVonGyY49GaHFZ3SCTtBe24xg=",
-    "url": "https://github.com/digital-blueprint/webapppassword/releases/download/v26.2.0/webapppassword.tar.gz",
-    "version": "26.2.0",
+    "hash": "sha256-AE/OLlG+eUexCaufbZ4wS7lrUTEx2i3htREOGuwC7sE=",
+    "url": "https://github.com/digital-blueprint/webapppassword/releases/download/v26.2.1/webapppassword.tar.gz",
+    "version": "26.2.1",
     "description": "Temporary app password generator and WebDAV/CalDAV CORS header injection to be able to access the\nNextcloud WebDAV/CalDAV service from inside web applications. There also is a files sharing api endpoint with CORS header injection.\n\nThere is an [example implementation](https://github.com/digital-blueprint/webapppassword/blob/main/docs/example/index.html)\nthat uses this app to generate a temporary password and make a WebDAV request to a Nextcloud instance\n([docker container](https://github.com/digital-blueprint/webapppassword/tree/main/docker) included).\n\nSee [Example](https://github.com/digital-blueprint/webapppassword#example) for a Nextcloud WebDAV file picker example\nthat uses this application.",
     "homepage": "https://github.com/digital-blueprint/webapppassword",
     "licenses": [
