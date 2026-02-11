@@ -450,8 +450,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -709,6 +709,16 @@
       "agpl"
     ]
   },
+  "fairmeeting": {
+    "hash": "sha256-VFnqhUChHv0EtDAGC666CcPGOsIJJL7qvTh8ajkcFCc=",
+    "url": "https://github.com/fairkom/nextcloud-fairmeeting-integration/releases/download/v0.22.5/fairmeeting.tar.gz",
+    "version": "0.22.5",
+    "description": "This app integrates the Jitsi based fairmeeting video conferencing service into Nextcloud. fairmeeting is hosted in the EU, thus fully GDPR compliant. We have set fairmeeting.net as the default Jitsi server, as meet.jit.si requires additional login or a token and is limited to 5 minutes in embedded conferences since 2023. \nFeatures:\n- 🎬 Full-featured online video conferences in nextcloud\n- 🔗 Sharable conference room links\n- 🔎 Integrated into global Nextcloud search\n- ✅ Audio and video test before joining a conference\n- 💯 Supports hundreds of users\n- 🖼 Customizable background images\n- 👏 Emoji reactions and animated GIF interactions\n- 👩🏼‍🏫 Organiser is moderator and can assign moderation rights\n- ➕ Option to open meetings **in a new browser tab** instead of embedded\n- 😸 fairmeeting fair use is one hour for private conferences, or get a [pro plan](https://fairkom.eu/en/fairmeeting) or configure your own Jitsi server\t    \n\nVideo conferencing is based on the Jitsi framework, see their [documentation](https://github.com/nextcloud/jitsi). fairmeeting is hosted by [fairkom](https://fairkom.eu/en) on a scalable kubernetes cluster, see their [info page](https://fairkom.eu/en/fairmeeting) and [FAQs](https://git.fairkom.net/hosting/fairmeeting/-/wikis/home). This Nextcloud app is based on the [Jitsi app](https://github.com/nextcloud/jitsi).",
+    "homepage": "https://fairkom.eu/en/fairmeeting",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "familybudget": {
     "hash": "sha256-3pPR3Dd+yBQVeN4s1mNXdJJuQlKCBtl/CHJZD+93CgQ=",
     "url": "https://github.com/holger-dev/familybudget-nc/releases/download/v0.3.5/familybudget-v0.3.5.tar.gz",
@@ -960,9 +970,9 @@
     ]
   },
   "formvox": {
-    "hash": "sha256-MjQyz9ZBTSspdD55lhteispWBKeE4VOpXJxNY/V7a94=",
-    "url": "https://github.com/nextcloud/formvox/releases/download/v0.2.9/formvox-0.2.9.tar.gz",
-    "version": "0.2.9",
+    "hash": "sha256-Y5tTh8/88KH3kxo14rjYZyrM0BUIlbIGqZr3+gKDGr0=",
+    "url": "https://github.com/nextcloud/formvox/releases/download/v0.2.10/formvox-0.2.10.tar.gz",
+    "version": "0.2.10",
     "description": "**⚠️ EVALUATION VERSION - NOT FOR PRODUCTION USE**\n\nThis is an evaluation version intended for testing and demonstration purposes only. Do not use in production environments.\n\n---\n\nFormVox is a file-based forms and polls app for Nextcloud. Unlike traditional form apps, FormVox stores everything in .fvform files - no database tables needed.\n\n**📋 Requirements:**\n* PHP 8.2 or higher\n* Nextcloud 28-32\n\n**Features:**\n* 100% file-based storage (.fvform files)\n* Multiple question types: text, textarea, single/multiple choice, dropdown, date, time, number, scale, rating, file upload, matrix\n* Conditional logic (branching)\n* Quiz mode with scoring\n* Export to CSV, JSON, Excel\n* Per-form branding with visual page builder\n* Answer piping (use previous answers in later questions)\n* Charts and visualizations in Results view\n* Password protection and expiration for public links\n\n**Unique Benefits:**\n* One file contains everything (definition + responses)\n* Works with Nextcloud's versioning\n* End-to-end encryption compatible\n* No database migrations needed\n* Native Nextcloud sharing integration\n\n**Perfect for:**\n* Surveys and feedback forms\n* Quizzes and assessments\n* Event registrations\n* Data collection with privacy requirements\n\nBuilt with Vue 3 and modern web technologies for a smooth, secure experience.",
     "homepage": "https://github.com/nextcloud/formvox",
     "licenses": [
@@ -970,9 +980,9 @@
     ]
   },
   "forum": {
-    "hash": "sha256-dUFFgON6uM3O9JP+zR6nmxKwQEgxnC92WlrEZBINkGw=",
-    "url": "https://github.com/chenasraf/nextcloud-forum/releases/download/v0.22.6/forum-v0.22.6.tar.gz",
-    "version": "0.22.6",
+    "hash": "sha256-3UoGqCRiM/wdiGUBnGtkIdpnbCDircGJVctXrHEZ+BU=",
+    "url": "https://github.com/chenasraf/nextcloud-forum/releases/download/v0.22.8/forum-v0.22.8.tar.gz",
+    "version": "0.22.8",
     "description": "Create discussions, share ideas and collaborate with your community directly in Nextcloud.\n\n**⚠️ Early Development Notice:**\nThis app is in early stages of development. While functional, you may encounter bugs or incomplete features. Please report any issues on GitHub and consider backing up your data regularly.\n\n**Key features:**\n- **Thread-based Discussions** - Create and reply to organized discussion threads\n- **Category Organization** - Structure your forum with customizable categories and headers\n- **Rich Text Formatting** - Use BBCode for formatting posts with bold, italic, links, images, code blocks and more\n- **File Attachments** - Attach files from your Nextcloud storage to posts\n- **Post Reactions** - React to posts with emoji reactions\n- **Read/Unread Tracking** - Keep track of which threads you've read\n- **Search** - Find discussions quickly with built-in search\n- **User Profiles** - View user post history and statistics\n- **Role-Based Permissions** - Control access and moderation with flexible roles\n- **Guest Access**: Optional public access for unauthenticated users with configurable permissions\n- **Admin Tools** - Manage categories, roles, BBCodes and forum settings\n- **Moderation Tools** - Pin, lock and manage threads and posts\n\n**Perfect for:**\n- Team discussions and collaboration\n- Community forums\n- Support channels\n- Knowledge bases\n- Project discussions\n- Internal communication\n\nThe forum integrates seamlessly with your Nextcloud instance, using your existing users and groups for authentication and access control.",
     "homepage": "https://github.com/chenasraf/nextcloud-forum",
     "licenses": [
@@ -1610,9 +1620,9 @@
     ]
   },
   "journeys": {
-    "hash": "sha256-oxylLZ3a0htqzMoC4xMi1dEVwewVNGGpQJC0mmo1lh4=",
-    "url": "https://github.com/thrillfall/journeys/releases/download/0.19.6/journeys.tar.gz",
-    "version": "0.19.6",
+    "hash": "sha256-xQhfwyHPSPDdpOD8XuZ83HDRsqWZZgX3JG3KGtpl6DY=",
+    "url": "https://github.com/thrillfall/journeys/releases/download/0.20.0/journeys.tar.gz",
+    "version": "0.20.0",
     "description": "# Automatic Photo Album Creation for Nextcloud\n\nAutomatically cluster your images into journeys (vacations/trips) and create albums for each journey.\n**Requires the Memories app!**\n\n## ✨ Features\n- **🗺️ Location & Time Clustering:** Group images by when and where they were taken\n- **🗂️ Album Creation:** Albums are created automatically for each journey\n- **⚙️ Customizable:** Control minimum cluster size, time gap, and distance thresholds\n- **🎥 Video Rendering:** Turn journey albums into MP4 highlight reels (requires `ffmpeg` on the server)\n\n## 🚀 OCC Command Usage\n\n    php occ journeys:cluster-create-albums <user>\n\n## 🏠 Using your home location (default)\nJourneys segments the timeline into **near home** and **away from home** and applies sensible defaults for each to capture local days vs. trips.\n\n## ⏰ Runs automatically\nA background job runs **daily** to cluster newly added photos, and you’ll receive a **notification** whenever new albums are created.\n\n## 🏷️ How album names are created\nAlbum titles are generated from the **resolved place name** and the **date range** of the cluster, e.g. `Iceland — Aug 12–19, 2024`.",
     "homepage": "",
     "licenses": [
@@ -1730,8 +1740,8 @@
     ]
   },
   "mail_roundcube_bridge": {
-    "hash": "sha256-pGMU0lBmo0E3zlk59pwQyEm8FfIAZTlmnW3duszcg70=",
-    "url": "https://github.com/Gecka-Apps/nextcloud-roundcube-bridge/releases/download/1.0.0/mail_roundcube_bridge.tar.gz",
+    "hash": "",
+    "url": "https://github.com/Gecka-Apps/nextcloud-roundcube-bridge/releases/download/v1.0.0-rc1/mail_roundcube_bridge.tar.gz",
     "version": "1.0.0",
     "description": "Provides a communication bridge between RoundCube (embedded via mail_roundcube app) and Nextcloud services.\n\n**Features:**\n- Attach files from Nextcloud to emails\n- Save email attachments to Nextcloud\n- Insert public share links into emails\n- Add calendar invitations (.ics) to Nextcloud Calendar\n\n**Requirements:**\n- mail_roundcube app must be installed\n- NextBridge plugin must be installed in RoundCube\n\nSee [NextBridge](https://github.com/Gecka-Apps/NextBridge) for the RoundCube plugin.",
     "homepage": "https://github.com/Gecka-Apps/nextcloud-roundcube-bridge",
@@ -1940,9 +1950,9 @@
     ]
   },
   "opencatalogi": {
-    "hash": "sha256-cXLWgfXHOqA121BwV/mVxHsI4i0dFS3F15X2rNMQDD8=",
-    "url": "https://github.com/ConductionNL/opencatalogi/releases/download/v0.7.7/opencatalogi-0.7.7.tar.gz",
-    "version": "0.7.7",
+    "hash": "sha256-WD4vB2A9xfbqKZoOss7pwoJ5HxX/r+csOhNbplihIYk=",
+    "url": "https://github.com/ConductionNL/opencatalogi/releases/download/v0.7.8/opencatalogi-0.7.8.tar.gz",
+    "version": "0.7.8",
     "description": "📰 A OpenCatalogi App for Nextcloud\n\nThe OpenCatalogi Nextcloud app provides a framework for federated catalogi to work together in an open data ecosystem\n\n- 📲 Synchronize your sources with multiple catalogi\n- 🔄 Automatic publications of your open data\n- 🆓 Free and open source under EUPL\n- ⚙️ Automatically installs and enables [OpenRegister](https://apps.nextcloud.com/apps/openregister) (required dependency)\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://conduction.gitbook.io/opencatalogi-nextcloud/installatie)\n\nThe Roadmap is available [here](https://github.com/orgs/OpenCatalogi/projects/1/views/2)\n\nCreate a [bug report](https://github.com/OpenCatalogi/.github/issues/new/choose)\n\nCreate a [feature request](https://github.com/OpenCatalogi/.github/issues/new/choose)",
     "homepage": "https://documentatie.opencatalogi.nl/",
     "licenses": [
@@ -1990,9 +2000,9 @@
     ]
   },
   "openregister": {
-    "hash": "sha256-f4t+FR9rn8O3goi6BQLKF1yxXo41nc1HyC1gzZjW6ek=",
-    "url": "https://github.com/ConductionNL/openregister/releases/download/v0.2.10/openregister-0.2.10.tar.gz",
-    "version": "0.2.10",
+    "hash": "sha256-z+In4F7R48NmWPO/PsICdt0W5ILGT9dcl6nh8EzAYJc=",
+    "url": "https://github.com/ConductionNL/openregister/releases/download/v0.2.11/openregister-0.2.11.tar.gz",
+    "version": "0.2.11",
     "description": "📰 An OpenRegister App for Nextcloud\n\nThe OpenRegister Nextcloud app provides a framework for federated registers to work together in an open data ecosystem\n\n- 📲 Synchronize your sources with multiple registers\n- 🔄 Automatic publications of your open data\n- 🆓 Free and open source under EUPL\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://conduction.gitbook.io/openregister-nextcloud/installatie)\n\nThe Roadmap is available [here](https://github.com/orgs/OpenRegister/projects/1/views/2)\n\nCreate a [bug report](https://github.com/OpenRegister/.github/issues/new/choose)\n\nCreate a [feature request](https://github.com/OpenRegister/.github/issues/new/choose)",
     "homepage": "https://github.com/ConductionNL/OpenRegister",
     "licenses": [
@@ -2280,9 +2290,9 @@
     ]
   },
   "secrets": {
-    "hash": "sha256-9FGUu6KaINJ6ZsAtfdTeO5G95JhZYQCZPJgYIN6/dTo=",
-    "url": "https://github.com/theCalcaholic/nextcloud-secrets/releases/download/v2.1.5/secrets.tar.gz",
-    "version": "2.1.4",
+    "hash": "sha256-HhkBaCXwPJ4exZgvXQn6Ny11+CTgAWBpEpskZL68HFQ=",
+    "url": "https://github.com/theCalcaholic/nextcloud-secrets/releases/download/v2.1.6/secrets.tar.gz",
+    "version": "2.1.6",
     "description": "Secrets allows users to generate share links for text based data (e.g. passwords, CSV lists, bank accounts...) that can be sent to anyone (including receivers without a Nextcloud account) for retrieval. The data itself will be end-to-end encrypted (so not even Nextcloud can access it) and the encryption key will be part of the share link (the anchor part) - but never be actually sent to the server. Once retrieved, the secret will be deleted from the server, ensuring, that if it arrived at the correct receiver it has been seen by nobody else.\n\nSecrets now comes with a cli that can be used to automate the provisioning of secret shares: https://github.com/theCalcaholic/nextcloud-secrets/releases",
     "homepage": "",
     "licenses": [
@@ -2430,9 +2440,9 @@
     ]
   },
   "sociallogin": {
-    "hash": "sha256-1wyQlxuyYFbAB9KLq2VSWZ/8zbdGmzq7UlkAYuZUgJc=",
-    "url": "https://github.com/zorn-v/nextcloud-social-login/releases/download/v6.3.0/release.tar.gz",
-    "version": "6.3.0",
+    "hash": "sha256-BBl1zvZvggoznheW/p7re3/8dUYyybOhCYVLNLnAA64=",
+    "url": "https://github.com/zorn-v/nextcloud-social-login/releases/download/v6.3.1/release.tar.gz",
+    "version": "6.3.1",
     "description": "# Social Login\n\nMake it possible to create users and log in via Telegram, OAuth, or OpenID.\n\nFor OAuth, you must create an app with certain providers. Login buttons will appear on the login page if an app ID is specified. Settings are located in the \"Social login\" section of the settings page.\n\n## Installation\n\nLog in to your Nextcloud installation as an administrator. Under \"Apps\", click \"Download and enable\" next to the \"Social Login\" app.\n\nSee below for setup and configuration instructions.\n\n## Custom OAuth2/OIDC Groups\n\nYou can use groups from your custom provider. For this, specify the \"Groups claim\" in the custom OAuth2/OIDC provider settings. This claim should be returned from the provider in the `id_token` or at the user info endpoint. The format should be an `array` or a comma-separated string. E.g., (with a claim named `roles`):\n\n```json\n{\"roles\": [\"admin\", \"user\"]}\n```\nor\n```json\n{\"roles\": \"admin,user\"}\n```\n\nNested claims are also supported. For example, `resource_access.client-id.roles` for:\n\n```json\n\"resource_access\": {\n   \"client-id\": {\n     \"roles\": [\n       \"client-role-1\",\n       \"client-role-2\"\n     ]\n   }\n}\n```\n\n**DisplayName** support is also available:\n```json\n{\"roles\": [{\"gid\": 1, \"displayName\": \"admin\"}, {\"gid\": 2, \"displayName\": \"user\"}]}\n```\n\nYou can use provider groups in two ways:\n\n1. Map provider groups to existing Nextcloud groups.\n2. Create provider groups in Nextcloud and associate them with users (if the appropriate option is enabled).\n\nTo sync groups on every login, ensure the \"Update user profile every login\" setting is checked.\n\n## Examples for Groups\n\n* Configure WSO2IS to return a roles claim with OIDC [here](https://medium.com/@dewni.matheesha/claim-mapping-and-retrieving-end-user-information-in-wso2is-cffd5f3937ff).\n* [GitLab OIDC configuration to allow specific GitLab groups](https://github.com/zorn-v/nextcloud-social-login/blob/master/docs/sso/gitlab.md).\n\n## Built-in OAuth Providers\n\nCopy the link from a specific login button to get the correct \"redirect URL\" for OAuth app settings.\n\n* [Amazon](https://developer.amazon.com/loginwithamazon/console/site/lwa/overview.html)\n* [Apple](https://github.com/zorn-v/nextcloud-social-login/blob/master/docs/sso/apple.md)\n* [Codeberg](https://github.com/zorn-v/nextcloud-social-login/blob/master/docs/sso/codeberg.md)\n* [Discord](#configure-discord)\n* [Facebook](https://github.com/zorn-v/nextcloud-social-login/blob/master/docs/sso/facebook.md)\n* [GitHub](https://github.com/settings/developers)\n* [GitLab](https://github.com/zorn-v/nextcloud-social-login/blob/master/docs/sso/gitlab.md)\n* [Google](https://github.com/zorn-v/nextcloud-social-login/blob/master/docs/sso/google.md)\n* [Keycloak](https://github.com/zorn-v/nextcloud-social-login/blob/master/docs/sso/keycloak.md)\n* [Mail.ru](https://github.com/zorn-v/nextcloud-social-login/blob/master/docs/sso/mailru.md)\n* **PlexTv**: Use any title as the app ID.\n* [Telegram](https://github.com/zorn-v/nextcloud-social-login/blob/master/docs/sso/telegram.md)\n* [Twitter](https://github.com/zorn-v/nextcloud-social-login/blob/master/docs/sso/twitter.md)\n\nFor details about Google's \"Allow login only from specified domain\" setting, see [#44](https://github.com/zorn-v/nextcloud-social-login/issues/44). Use a comma-separated list for multiple domains.\n\n## Configuration\n\nAdd `'social_login_auto_redirect' => true` to `config.php` to automatically redirect unauthorized users to social login if only one provider is configured. To temporarily disable this (e.g., for local admin login), add `noredir=1` to the login URL: `https://cloud.domain.com/login?noredir=1`.\n\nConfigure HTTP client options using:\n```php\n  'social_login_http_client' => [\n    'timeout' => 45,\n    'proxy' => 'socks4://127.0.0.1:9050', // See <https://curl.se/libcurl/c/CURLOPT_PROXY.html> for allowed formats\n  ],\n```\nin `config.php`.\n\n### Configure a Provider via CLI\n\nUse the `occ` utility to configure providers via the command line. Replace variables and URLs with your deployment values:\n```bash\nphp occ config:app:set sociallogin custom_providers --value='{\"custom_oidc\": [{\"name\": \"gitlab_oidc\", \"title\": \"Gitlab\", \"authorizeUrl\": \"https://gitlab.my-domain.org/oauth/authorize\", \"tokenUrl\": \"https://gitlab.my-domain.org/oauth/token\", \"userInfoUrl\": \"https://gitlab.my-domain.org/oauth/userinfo\", \"logoutUrl\": \"\", \"clientId\": \"$my_application_id\", \"clientSecret\": \"$my_super_secret_secret\", \"scope\": \"openid\", \"groupsClaim\": \"groups\", \"style\": \"gitlab\", \"defaultGroup\": \"\"}]}'\n```\nFor Docker, prepend `docker exec -t -uwww-data CONTAINER_NAME` to the command or run interactively via `docker exec -it -uwww-data CONTAINER_NAME sh`.\n\nTo inspect configurations:\n```sql\nmysql -u nextcloud -p nextcloud\nPassword: <yourpassword>\n\n> SELECT * FROM oc_appconfig WHERE appid='sociallogin';\n```\nOr run:\n```bash\ndocker exec -t -uwww-data CONTAINER_NAME php occ config:app:get sociallogin custom_providers\n```\n\n### Configure Discord\n\n1. Create a Discord application at [Discord Developer Portal](https://discord.com/developers/applications).\n2. Navigate to `Settings > OAuth2 > General`. Add a redirect URL: `https://nextcloud.mydomain.com/apps/sociallogin/oauth/discord`.\n3. Copy the `CLIENT ID` and generate a `CLIENT SECRET`.\n4. In Nextcloud, go to `Settings > Social Login`. Paste the `CLIENT ID` into \"App id\" and `CLIENT SECRET` into \"Secret\".\n5. Select a default group for new users.\n6. For group mapping, see [#395](https://github.com/zorn-v/nextcloud-social-login/pull/395).\n\n## Hint\n\n### Callback (Reply) URL\nCopy the link from a login button on the Nextcloud login page and use it as the callback URL on your provider's site. To make the button visible temporarily, fill provider settings with placeholder data and update later.\n\nIf you encounter callback URL errors despite correct settings, ensure your Nextcloud server generates HTTPS URLs by adding `'overwriteprotocol' => 'https'` to `config.php`.",
     "homepage": "https://github.com/zorn-v/nextcloud-social-login",
     "licenses": [
@@ -2740,9 +2750,9 @@
     ]
   },
   "twofactor_gateway": {
-    "hash": "sha256-y9tG1CcEAHapiPJV47WUqwfhGP87OGVt5Iz4zsWmrak=",
-    "url": "https://github.com/nextcloud-releases/twofactor_gateway/releases/download/v2.2.0/twofactor_gateway-v2.2.0.tar.gz",
-    "version": "2.2.0",
+    "hash": "sha256-MDYnZacKCLbwT7+tQx/saefPDqpYylotY1+swlZOOEQ=",
+    "url": "https://github.com/nextcloud-releases/twofactor_gateway/releases/download/v2.2.1/twofactor_gateway-v2.2.1.tar.gz",
+    "version": "2.2.1",
     "description": "A set of Nextcloud two-factor providers to send authentication codes via Signal, SMS, Telegram, WhatsApp and XMPP.",
     "homepage": "https://github.com/nextcloud/twofactor_gateway",
     "licenses": [
