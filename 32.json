@@ -649,6 +649,16 @@
       "agpl"
     ]
   },
+  "electronicsignatures": {
+    "hash": "sha256-1a3EpN+zS5dmi6QImIb/goNuHxfba0P7Zg5SCgsZvLE=",
+    "url": "https://github.com/eideasy/nextcloud-electronic-signatures-plugin/releases/download/v3.0.6/electronicsignatures.tar.gz",
+    "version": "3.0.6",
+    "description": "# Features\n- 🔒🔒 Accept Qualified Electronic Signatures (QES - strongest legal value) and Advanced Electronic Signatures (AdES) in PDF or .asice formats\n- 🔒 Accept Simple Electronic Signatures (sms based signature - simple to sign)\n\n### How it works:\n1. Pick a file\n2. Select \"Signing\" in the file's dropdown menu\n3. Add signers\n4. Signers receive a link on their e-mail\n5. They sign the document\n6. The signed document appears in your Nextcloud instance, next to the original file\n\n# Built on top of eID Easy\nElectronic signatures app uses [eID Easy](https://eideasy.com) as its signing back-end. eID Easy handles the signing process. Refer to [eID Easy's pricing](https://eideasy.com/pricing/) for pricing information.\n\n# Three levels of electronic signatures\n**Qualified Electronic Signature** - A Qualified Electronic Signature (QES) is the most secure and legally recognized form of digital signature. It’s equivalent to a handwritten signature in the European Union and can replace paper-based signatures in most legal contexts.\nQES ensures the highest level of security with strict identity verification, multi-factor authentication, and compliance with international standards, making it the ideal choice for businesses needing legally binding, tamper-proof digital signatures.\n\n**Advanced Electronic Signature** – An Advanced Electronic Signature (AdES) offers higher security and legal validity than a Simple Electronic Signature (SES), without the complexity of a Qualified Electronic Signature (QES). It uniquely identifies the signer, ensures they control the signing process, and guarantees the signed data hasn’t been tampered with.\n\n**Simple Electronic Signature** - A Simple Electronic Signature is any form of digital consent or agreement that links a person to a document or message. It is the most accessible and widely used type of eSignature.\n\n\n# Pricing\n\nEvery business is different — [talk to our experts](https://www.eideasy.com/book-a-call) to get a custom quote based on your location, use case, and volume.\nWhether you're serving one country or many, we offer flexible pricing that aligns with your compliance needs, usage volume, and geographic coverage.\n\n# Feedback is welcome\neID Easy connects your business to [80+ identity methods](https://www.eideasy.com/supported-methods), Qualified Trust Service Providers (QTSPs), and Certificate Authorities worldwide — all through a single, secure API.\nIf you’re not seeing your preferred method, let us know at info@eideasy.com.\n\n# Documentation\n\n## Set up\nSee the following guides:\n\n1. [Installation](https://docs.eideasy.com/nextcloud/nextcloud-app-installation.html#_1-installation)\n\n2. [Set up](https://docs.eideasy.com/nextcloud/nextcloud-app-setup.html#_2-set-up)\n\n3. [Signing a document](https://docs.eideasy.com/nextcloud/nextcloud-app-signing.html#_3-signing-a-document)\n\n\n[CHANGELOG](https://github.com/eideasy/nextcloud-electronic-signatures-plugin/blob/master/CHANGELOG.md)",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "emailbridge": {
     "hash": "sha256-NEk0eNYXBTs/vjuc82HpaSsouhfLTkYuKKjKVw5jyes=",
     "url": "https://github.com/Vince2956/emailbridge/releases/download/v1.0.0-beta/emailbridge.tar.gz",
@@ -1120,9 +1130,9 @@
     ]
   },
   "groupfolders": {
-    "hash": "sha256-Hbi3Qr9SHvqcZSooZn/Pu3BhGsyZjSS4Wh6MCGho534=",
-    "url": "https://github.com/nextcloud-releases/groupfolders/releases/download/v20.1.10/groupfolders-v20.1.10.tar.gz",
-    "version": "20.1.10",
+    "hash": "sha256-2XVU9QF2XCWvP5Xe+4eOIaIsWePkRTT+Oypx/fDB+Jo=",
+    "url": "https://github.com/nextcloud-releases/groupfolders/releases/download/v20.1.11/groupfolders-v20.1.11.tar.gz",
+    "version": "20.1.11",
     "description": "Team Folders (formerly \"Group Folders\") allows administrators to create and manage shared folders that are accessible\n\t\t\tto selected teams within Nextcloud.\n\n\t\t\tAdmins can configure folders from the Team Folders section in the admin settings, where they can grant access to one\n\t\t\tor more teams, set custom permissions (such as read, write, and sharing rights), and assign storage quotas to each\n\t\t\tfolder.\n\n\t\t\tAs of Hub 10/Nextcloud 31, admins must be members of a team to assign it a Team Folder. The app supports advanced\n\t\t\tfeatures such as quota management, granular access control, and integration with Nextcloud’s trash and versioning\n\t\t\tsystems.",
     "homepage": "https://github.com/nextcloud/groupfolders",
     "licenses": [
@@ -1720,9 +1730,9 @@
     ]
   },
   "mail": {
-    "hash": "sha256-7d95EVvFsfv66clvBjBhS0/O0b/nWyRopx/CL9XkqDg=",
-    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.6.12/mail-v5.6.12.tar.gz",
-    "version": "5.6.12",
+    "hash": "sha256-K1BPRiSHe3QMb8qiEqybXiVHA5WrExdK+OTDyyrdZ+E=",
+    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.7.0/mail-v5.7.0.tar.gz",
+    "version": "5.7.0",
     "description": "**💌 A mail app for Nextcloud**\n\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://www.horde.org) libraries.\n- **📬 Want to host your own mail server?** We do not have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!\n\n## Ethical AI Rating\n\n### Priority Inbox\n\nPositive:\n* The software for training and inferencing of this model is open source.\n* The model is created and trained on-premises based on the user's own data.\n* The training data is accessible to the user, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n### Thread Summaries (opt-in)\n\n**Rating:** 🟢/🟡/🟠/🔴\n\nThe rating depends on the installed text processing backend. See [the rating overview](https://docs.nextcloud.com/server/latest/admin_manual/ai/index.html) for details.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/mail#readme",
     "licenses": [
@@ -1740,8 +1750,8 @@
     ]
   },
   "mail_roundcube_bridge": {
-    "hash": "sha256-pGMU0lBmo0E3zlk59pwQyEm8FfIAZTlmnW3duszcg70=",
-    "url": "https://github.com/Gecka-Apps/nextcloud-roundcube-bridge/releases/download/1.0.0/mail_roundcube_bridge.tar.gz",
+    "hash": "",
+    "url": "https://github.com/Gecka-Apps/nextcloud-roundcube-bridge/releases/download/v1.0.0-rc1/mail_roundcube_bridge.tar.gz",
     "version": "1.0.0",
     "description": "Provides a communication bridge between RoundCube (embedded via mail_roundcube app) and Nextcloud services.\n\n**Features:**\n- Attach files from Nextcloud to emails\n- Save email attachments to Nextcloud\n- Insert public share links into emails\n- Add calendar invitations (.ics) to Nextcloud Calendar\n\n**Requirements:**\n- mail_roundcube app must be installed\n- NextBridge plugin must be installed in RoundCube\n\nSee [NextBridge](https://github.com/Gecka-Apps/NextBridge) for the RoundCube plugin.",
     "homepage": "https://github.com/Gecka-Apps/nextcloud-roundcube-bridge",
@@ -1847,6 +1857,16 @@
     "homepage": "",
     "licenses": [
       "agpl"
+    ]
+  },
+  "nextledger": {
+    "hash": "sha256-2ry+t0vLxMOSvBSS4XMlJKaMlul3rCSOAGvPwMRkaOM=",
+    "url": "https://github.com/holger-dev/nextledger/releases/download/v1.0.5/nextledger.tar.gz",
+    "version": "1.1.0",
+    "description": "NextLedger provides bookkeeping, customer management, invoicing, offers,\n    and annual profit/loss reports inside Nextcloud.",
+    "homepage": "https://github.com/holger-dev/nextledger",
+    "licenses": [
+      "AGPL-3.0-or-later"
     ]
   },
   "nextpod": {
@@ -2790,8 +2810,8 @@
     ]
   },
   "uniteos_notifier": {
-    "hash": "sha256-y2Grzus55kMVYJJyynNBezvngzn31u3mFhS9ihSYBHQ=",
-    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/1.0.4/uniteos_notifier.tar.gz",
+    "hash": "sha256-8GJMpu0aFiP9I1MSgNVJohEntNvIXKC9tSDXsR6Qyv4=",
+    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/main/uniteos_notifier.tar.gz",
     "version": "1.0.4",
     "description": "This app allows forwarding Nextcloud events for a deeper integration into UniteOS developed by wechange eG by presenting a selected set of events as user notifications.",
     "homepage": "",
