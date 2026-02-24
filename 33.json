@@ -279,6 +279,16 @@
       "agpl"
     ]
   },
+  "contractmanager": {
+    "hash": "sha256-s+ckeRknD+8LFG36H78snxpNZAYPnvdEAljhshk9qNo=",
+    "url": "https://github.com/cpcMomentum/contractmanager/releases/download/v0.1.5/contractmanager-v0.1.5.tar.gz",
+    "version": "0.1.5",
+    "description": "# ContractManager\n\nVerwalten Sie Ihre Verträge zentral in Nextcloud:\n\n- **Vertragsübersicht** mit allen wichtigen Daten\n- **Automatische Erinnerungen** vor Kündigungsfristen\n- **Kategorien** zur Organisation\n- **Archiv** für beendete Verträge\n- **Dateianhänge** aus Nextcloud Files\n\nBehalten Sie den Überblick über Laufzeiten, Kosten und Kündigungsfristen.",
+    "homepage": "",
+    "licenses": [
+      "AGPL-3.0-or-later"
+    ]
+  },
   "cookbook": {
     "hash": "sha256-oiG3oAxc5tWqQepVN5ubMqOeglDT+mpkDs6UttgzuhE=",
     "url": "https://github.com/christianlupus-nextcloud/cookbook-releases/releases/download/v0.11.6/cookbook-0.11.6.tar.gz",
@@ -300,8 +310,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -630,9 +640,9 @@
     ]
   },
   "forum": {
-    "hash": "sha256-JpiHv+cKS/t03mNuEIJxoOKceUuuw0du/NcM2XMMWUs=",
-    "url": "https://github.com/chenasraf/nextcloud-forum/releases/download/v0.23.0/forum-v0.23.0.tar.gz",
-    "version": "0.23.0",
+    "hash": "sha256-qrVdnZI8oceA3nPL43tOwY+peJAuyNNMt1P0dyCb0j0=",
+    "url": "https://github.com/chenasraf/nextcloud-forum/releases/download/v0.23.1/forum-v0.23.1.tar.gz",
+    "version": "0.23.1",
     "description": "Create discussions, share ideas and collaborate with your community directly in Nextcloud.\n\n**⚠️ Early Development Notice:**\nThis app is in early stages of development. While functional, you may encounter bugs or incomplete features. Please report any issues on GitHub and consider backing up your data regularly.\n\n**Key features:**\n- **Thread-based Discussions** - Create and reply to organized discussion threads\n- **Category Organization** - Structure your forum with customizable categories and headers\n- **Rich Text Formatting** - Use BBCode for formatting posts with bold, italic, links, images, code blocks and more\n- **File Attachments** - Attach files from your Nextcloud storage to posts\n- **Post Reactions** - React to posts with emoji reactions\n- **Read/Unread Tracking** - Keep track of which threads you've read\n- **Search** - Find discussions quickly with built-in search\n- **User Profiles** - View user post history and statistics\n- **Role-Based Permissions** - Control access and moderation with flexible roles\n- **Guest Access**: Optional public access for unauthenticated users with configurable permissions\n- **Admin Tools** - Manage categories, roles, BBCodes and forum settings\n- **Moderation Tools** - Pin, lock and manage threads and posts\n\n**Perfect for:**\n- Team discussions and collaboration\n- Community forums\n- Support channels\n- Knowledge bases\n- Project discussions\n- Internal communication\n\nThe forum integrates seamlessly with your Nextcloud instance, using your existing users and groups for authentication and access control.",
     "homepage": "https://github.com/chenasraf/nextcloud-forum",
     "licenses": [
@@ -640,9 +650,9 @@
     ]
   },
   "frontend_insight": {
-    "hash": "sha256-gq3gm8Cqcx+8ckBL32uyvEw9iedcjka9pwW6GnKnmDc=",
-    "url": "https://github.com/callmemagnus/nextcloud-frontend-insight/releases/download/v1.1.3/frontend_insight.tar.gz",
-    "version": "1.1.3",
+    "hash": "sha256-R1T3xxEjd0iyPg9tFbvNwx0VqrXW3qbnC3S45UQuRAw=",
+    "url": "https://github.com/callmemagnus/nextcloud-frontend-insight/releases/download/v1.1.4/frontend_insight.tar.gz",
+    "version": "1.1.4",
     "description": "🔍 **Capture and analyze JavaScript errors from your users' browsers in real-time!**\n\nFrontendInsight gives you **visibility into frontend issues that would otherwise go unnoticed**.\n\n✨ **Key Features:**\n• 🐛 Automatic tracking of client-side errors and unhandled promise rejections\n• 📊 Browse events with advanced filtering and sorting\n• ⏰ Configurable data retention policies with automatic cleanup\n• 👥 Restrict reported events browsing to specific user groups\n• 🛡️ Built-in rate limiting to prevent abuse\n• 🚀 Modern UI built with Svelte 5\n\n**Identify and fix frontend bugs before they impact your users' experience!**",
     "homepage": "https://github.com/callmemagnus/nextcloud-frontend-insight/",
     "licenses": [
@@ -1179,6 +1189,16 @@
       "agpl"
     ]
   },
+  "listman": {
+    "hash": "sha256-amTQ5fEHdDBf1GJLWTdRexmkXJxkAsYf+jxlkIb6bb8=",
+    "url": "https://dalliance.net/listman/listman-33.0.0.tar.gz",
+    "version": "33.0.0",
+    "description": "This is a simple app for managing mail-lists with the Nextcloud System. Each Nextcloud user may create multiple mail-lists, circulate subscribe forms, send messages to the members of the list etc. It has a separate SMTP configuration visible only to nextcloud admin-users.\\n\\nOnly admins can send to lists, not for a shared discussion.\\n\\nNew in version 31.0.1 - fixed bugs to allow working with Nextcloud31.\\n\\nNew in version 32.0.2 - Allow share links to be hidden.\\n\\nNew in version 33.0.0 - Version Bump for new Nextcloud.",
+    "homepage": "https://github.com/revpriest/listman",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "logcleaner": {
     "hash": "sha256-IfXa+Xe6OaTygFvX+5uvY55FgtTmJsEjFBLr8gu8NY8=",
     "url": "https://github.com/zomtec2311/logcleaner/releases/download/1.3.1/logcleaner_1.3.1.tar.gz",
@@ -1217,6 +1237,16 @@
     "homepage": "https://github.com/nextcloud/metavox",
     "licenses": [
       "AGPL-3.0-or-later"
+    ]
+  },
+  "music": {
+    "hash": "sha256-n1HsKmkXL8YSQywGlt3f9lqSDBYcxi3VWO8K9b0PZqY=",
+    "url": "https://github.com/nc-music/music/releases/download/v3.0.0/nc-music-3.0.0.tar.gz",
+    "version": "3.0.0",
+    "description": "A stand-alone music player app and a \"lite\" player for the Files app\n\n- On modern browsers, supports audio types .mp3, .ogg, .m4a, .m4b, .flac, .wav, and more\n- Playlist support with import from .m3u, .m3u8, .pls, and .wpl files\n- Show lyrics from the file metadata or .lrc files\n- Browse by artists, albums, genres, or folders\n- Gapless play\n- Filter the shown content with the search function\n- Advanced search to freely use and combine dozens of search criteria\n- Play internet radio and podcast channels\n- Setup Last.fm connection to scrobble plays and/or see background information on artists, albums, and songs\n- Control with media control keys on the keyboard or OS\n- The app can handle libraries consisting of thousands of albums and tens of thousands of songs\n- Includes a server backend compatible with the Subsonic and Ampache protocols, allowing playback and browsing of your library on dozens of external apps on Android, iOS, Windows, Linux, etc.\n- Widget for the Nextcloud Dashboard",
+    "homepage": "https://github.com/nc-music/music",
+    "licenses": [
+      "agpl"
     ]
   },
   "nextpod": {
@@ -1760,9 +1790,9 @@
     ]
   },
   "thesearchpage": {
-    "hash": "sha256-Y97kKxL9APLlrx/VGhnqgkFSPyjzCIaAzw/yd9KaWnQ=",
-    "url": "https://github.com/callmemagnus/nextcloud-searchpage/releases/download/v2.1.0/thesearchpage.tar.gz",
-    "version": "2.1.0",
+    "hash": "sha256-6b11ECSIm0rCKbYWw9JzR3A9hFf3q0iFBwB2VXuY4aE=",
+    "url": "https://github.com/callmemagnus/nextcloud-searchpage/releases/download/v2.1.1/thesearchpage.tar.gz",
+    "version": "2.1.1",
     "description": "🔎 A Search Page for your Nextcloud instance\n\n- [Changelog](https://raw.githubusercontent.com/callmemagnus/nextcloud-searchpage/main/CHANGELOG.md)\n- [Help translate this application](https://app.transifex.com/nextcloud/nextcloud/thesearchpage/)\n\nIt works like the existing search widget, uses the same sources to query BUT\ndisplays the results in a more readable and browsable fashion.\n\nThe content of the results depends on the other applications installed on\nyour Nextcloud instance. Every Nextcloud application can become a search\nprovider and get its results displayed by this application.\n\nOut of the Nextcloud box, you usually get the following providers:\n\n- Apps -- searches for match for in installed application names\n- Files -- searches on path and filename\n- Tags\n- Comments\n- Settings\n\nBecause of its design, the results depend on the implementation of the providers\nin respective application.\n\nKnown issues with other applications:\n\n- users -- [by design(?), it always returns an empty array](https://github.com/nextcloud/server/issues/41274) (it is hidden/disabled in this application)\n- fulltextsearch -- does not seem to AND the query terms, OR is usually less relevant\n- news -- does not provide a direct link to a feed item.\n\n\nDon't hesitate to leave a comment here or a rating!",
     "homepage": "https://github.com/callmemagnus/nextcloud-searchpage",
     "licenses": [
@@ -1899,6 +1929,16 @@
       "agpl"
     ]
   },
+  "user_usage_report": {
+    "hash": "sha256-WngMo0y0S5k29+oC2qyiuvX04Hx7tfD+S/4hp+TPmdo=",
+    "url": "https://github.com/nextcloud-releases/user_usage_report/releases/download/v4.0.0/user_usage_report-v4.0.0.tar.gz",
+    "version": "4.0.0",
+    "description": "Provides a command which generates a report about all the users and their usage:\n\n```\n$ sudo -u www-data ./occ usage-report:generate admin\n\"admin\",\"2017-09-18T09:00:01+00:00\",5368709120,786432000,12,1,1,2\n```\n\nTo include the header of the fields in the CSV use the `--verbose` option:\n\n```\n$ sudo -u www-data ./occ usage-report:generate --verbose admin\n\"user-id\",\"date as 'c'\",\"assigned quota (5 GB)\",\"used quota (500 MB)\",number of files,number of shares,number of uploads,number of downloads\n\"admin\",\"2017-09-18T09:00:01+00:00\",5368709120,786432000,12,1,1,2\n```",
+    "homepage": "https://github.com/nextcloud/user_usage_report",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "users_picker": {
     "hash": "sha256-pZEK54CVSo/vMgwxh0TflH/Jbsp5Gd/Z44UX5xIEJbc=",
     "url": "https://github.com/nextcloud-releases/users_picker/releases/download/v1.2.2/users_picker-v1.2.2.tar.gz",
@@ -1967,6 +2007,16 @@
     "homepage": "https://github.com/nextcloud/workflow_script",
     "licenses": [
       "agpl"
+    ]
+  },
+  "worktime": {
+    "hash": "sha256-x97Dbgb4FX9tYljn+KmovORxbrXJ7/zFt69dAqVof2g=",
+    "url": "https://github.com/cpcMomentum/worktime/releases/download/v0.1.1/worktime-v0.1.1.tar.gz",
+    "version": "0.1.1",
+    "description": "# WorkTime - Arbeitszeiterfassung für Nextcloud\n\nGesetzeskonforme Arbeitszeiterfassung für kleine Unternehmen in Deutschland.\n\n## Features\n\n- **Zeiterfassung** mit Start, Ende und Pause\n- **Automatische Pausenberechnung** nach §4 ArbZG\n- **Überstundenkonto** mit Soll/Ist-Vergleich\n- **Projektbezogene Erfassung** für bessere Auswertung\n- **Urlaubsverwaltung** mit Resturlaub-Anzeige\n- **Abwesenheiten** (Urlaub, Krankheit, Sonderurlaub, Freizeitausgleich)\n- **Deutsche Feiertage** automatisch nach Bundesland\n- **Monatsübersicht** mit PDF-Export\n- **Team-Übersicht** für Vorgesetzte\n- **Genehmigungsworkflow** für Abwesenheiten\n\nBehalten Sie den Überblick über Arbeitszeiten, Überstunden und Urlaub.",
+    "homepage": "",
+    "licenses": [
+      "AGPL-3.0-or-later"
     ]
   },
   "zaakafhandelapp": {
