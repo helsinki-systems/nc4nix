@@ -380,9 +380,9 @@
     ]
   },
   "collectives": {
-    "hash": "sha256-E40twWESLa11AuIfTjpqE2RF3WT9cZB4PgSyJDJFmeQ=",
-    "url": "https://github.com/nextcloud/collectives/releases/download/v3.6.1/collectives-3.6.1.tar.gz",
-    "version": "3.6.1",
+    "hash": "sha256-a8sMBDFa6FEZV60WjyApx/qF9Vv8WUcQnhz9GFtvfEg=",
+    "url": "https://github.com/nextcloud/collectives/releases/download/v4.0.0/collectives-4.0.0.tar.gz",
+    "version": "4.0.0",
     "description": "Collectives is a Nextcloud App for activist and community projects to organize together.\nCome and gather in collectives to build shared knowledge.\n\n* 👥 **Collective and non-hierarchical workflow by heart**: Collectives are\n  tied to a [Nextcloud Team](https://github.com/nextcloud/circles) and\n  owned by the collective.\n* 📝 **Collaborative page editing** like known from Etherpad thanks to the\n  [Text app](https://github.com/nextcloud/text).\n* 🔤 **Well-known [Markdown](https://en.wikipedia.org/wiki/Markdown) syntax**\n  for page formatting.\n\n## Installation\n\nIn your Nextcloud instance, simply navigate to **»Apps«**, find the\n**»Teams«** and **»Collectives«** apps and enable them.",
     "homepage": "https://github.com/nextcloud/collectives",
     "licenses": [
@@ -500,9 +500,9 @@
     ]
   },
   "data_request": {
-    "hash": "sha256-eT8axFSwwVQRcz2KoCy2KdXBLCsfmE2fxwt6lKZF1Ag=",
-    "url": "https://github.com/nextcloud-releases/data_request/releases/download/v4.0.0/data_request-v4.0.0.tar.gz",
-    "version": "4.0.0",
+    "hash": "sha256-tadS6Nbc82u4XVQXpeuqpmI49bhN6PGknrWAgXj5/m0=",
+    "url": "https://github.com/nextcloud-releases/data_request/releases/download/v4.0.1/data_request-v4.0.1.tar.gz",
+    "version": "4.0.1",
     "description": "Enable your users to request an export or deletion of their data. According options are added to the personal settings section. Administrators will be notified by email about the request.",
     "homepage": "https://github.com/nextcloud/data_request",
     "licenses": [
@@ -830,9 +830,9 @@
     ]
   },
   "files_confidential": {
-    "hash": "sha256-FwOvdJMiJJfzO/Pb15FdubyIv4RfeXzAsLHbSc9ARaI=",
-    "url": "https://github.com/nextcloud-releases/files_confidential/releases/download/v4.0.0/files_confidential-v4.0.0.tar.gz",
-    "version": "4.0.0",
+    "hash": "sha256-ld7muRmppV8buTVhJAGTLzUMEh+u4EGO5TlSUjlQCLU=",
+    "url": "https://github.com/nextcloud-releases/files_confidential/releases/download/v4.1.0/files_confidential-v4.1.0.tar.gz",
+    "version": "4.1.0",
     "description": "This app allows you to define a set of classification rules that will assign tags files.\nFor each classification rule you can define when the tag will be assigned to a file, based on text\ncontent, BAILS classification metadata or Microsoft Information Purview metadata.",
     "homepage": "https://github.com/nextcloud/files_confidential",
     "licenses": [
@@ -1135,6 +1135,16 @@
     "version": "0.1.19",
     "description": "Adds a virtual \"Everyone\" group.",
     "homepage": "https://github.com/icewind1991/group_everyone",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "groupfolder_filesystem_snapshots": {
+    "hash": "sha256-1ATEF93ypWXC9PUXPlaaJuPdyD6FjmWfYfsXrBoy8no=",
+    "url": "https://git.verdigado.com/verdigado-public/nextcloud_groupfolder_filesystem_snapshots/releases/download/1.4.3/groupfolder_filesystem_snapshots.tar.gz",
+    "version": "1.4.3",
+    "description": "App proving a PHP API for other apps, that allows (partially) restoring a groupfolder to a previous snapshot in the filesystem. Requires a filesystem with snapshot support (tested with and made for ZFS). It is made for other apps to integrate with, IT DOES NOT WORK STANDALONE",
+    "homepage": "",
     "licenses": [
       "agpl"
     ]
@@ -1450,9 +1460,9 @@
     ]
   },
   "integration_openai": {
-    "hash": "sha256-OimO9pyuv2O+NCvImAoarr8/aQr313duHmItr82PQLQ=",
-    "url": "https://github.com/nextcloud-releases/integration_openai/releases/download/v3.10.0/integration_openai-v3.10.0.tar.gz",
-    "version": "3.10.0",
+    "hash": "sha256-91/93BQyZVUrE21krXBTLp1nbdyoNxfDyDODf2hgdIM=",
+    "url": "https://github.com/nextcloud-releases/integration_openai/releases/download/v3.10.1/integration_openai-v3.10.1.tar.gz",
+    "version": "3.10.1",
     "description": "⚠️ The smart pickers have been removed from this app\nas they are now included in the [Assistant app](https://apps.nextcloud.com/apps/assistant).\n\nThis app implements:\n\n* Text generation providers: Free prompt, Summarize, Headline, Context Write, Chat, and Reformulate (using any available large language model)\n* A Translation provider (using any available language model)\n* A SpeechToText provider (using Whisper)\n* An image generation provider\n\n⚠️ Context Write, Summarize, Headline and Reformulate have mainly been tested with OpenAI.\nThey might work when connecting to other services, without any guarantee.\n\nInstead of connecting to the OpenAI API for these, you can also connect to a self-hosted [LocalAI](https://localai.io) instance or [Ollama](https://ollama.com/) instance\nor to any service that implements an API similar to the OpenAI one, for example:\n[IONOS AI Model Hub](https://docs.ionos.com/cloud/ai/ai-model-hub), [Plusserver](https://www.plusserver.com/en/ai-platform/) or [MistralAI](https://mistral.ai).\n\n⚠️ This app is mainly tested with OpenAI. We do not guarantee it works perfectly\nwith other services that implement OpenAI-compatible APIs with slight differences.\n\n## Improve AI task pickup speed\n\nTo avoid task processing execution delay, setup at 4 background job workers in the main server (where Nextcloud is installed). The setup process is documented here: https://docs.nextcloud.com/server/latest/admin_manual/ai/overview.html#improve-ai-task-pickup-speed\n\n## Ethical AI Rating\n### Rating for Text generation using ChatGPT via the OpenAI API: 🔴\n\nNegative:\n* The software for training and inference of this model is proprietary, limiting running it locally or training by yourself\n* The trained model is not freely available, so the model can not be run on-premises\n* The training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model's performance and CO2 usage.\n\n\n### Rating for Translation using ChatGPT via the OpenAI API: 🔴\n\nNegative:\n* The software for training and inference of this model is proprietary, limiting running it locally or training by yourself\n* The trained model is not freely available, so the model can not be run on-premises\n* The training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model's performance and CO2 usage.\n\n### Rating for Image generation using DALL·E via the OpenAI API: 🔴\n\nNegative:\n* The software for training and inferencing of this model is proprietary, limiting running it locally or training by yourself\n* The trained model is not freely available, so the model can not be ran on-premises\n* The training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\n\n### Rating for Speech-To-Text using Whisper via the OpenAI API: 🟡\n\nPositive:\n* The software for training and inferencing of this model is open source\n* The trained model is freely available, and thus can run on-premise\n\nNegative:\n* The training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\n### Rating for Text-To-Speech via the OpenAI API: 🔴\n\nNegative:\n* The software for training and inferencing of this model is proprietary, limiting running it locally or training by yourself\n* The trained model is not freely available, so the model can not be ran on-premises\n* The training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\n### Rating for Text generation via LocalAI: 🟢\n\nPositive:\n* The software for training and inferencing of this model is open source\n* The trained model is freely available, and thus can be ran on-premises\n* The training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n\n### Rating for Image generation using Stable Diffusion via LocalAI : 🟡\n\nPositive:\n* The software for training and inferencing of this model is open source\n* The trained model is freely available, and thus can be ran on-premises\n\nNegative:\n* The training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\n\n### Rating for Speech-To-Text using Whisper via LocalAI: 🟡\n\nPositive:\n* The software for training and inferencing of this model is open source\n* The trained model is freely available, and thus can be ran on-premises\n\nNegative:\n* The training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/integration_openai",
     "licenses": [
@@ -1890,9 +1900,9 @@
     ]
   },
   "nextledger": {
-    "hash": "sha256-MdnSjWYCEBBWmEoGRTHbdBPhg2NEWYTXJU/lIqcRM4w=",
-    "url": "https://github.com/holger-dev/nextledger/releases/download/v1.5.0/nextledger.tar.gz",
-    "version": "1.5.0",
+    "hash": "sha256-b/+V1bRfe+IaqwFXNYU6uUt6lH86zSaUICYyGtS4xBg=",
+    "url": "https://github.com/holger-dev/nextledger/releases/download/v1.5.1/nextledger.tar.gz",
+    "version": "1.5.1",
     "description": "NextLedger provides bookkeeping, customer management, invoicing, offers,\n    and annual profit/loss reports inside Nextcloud.",
     "homepage": "https://github.com/holger-dev/nextledger",
     "licenses": [
@@ -1990,9 +2000,9 @@
     ]
   },
   "onlyoffice": {
-    "hash": "sha256-lAe1J2QKsEWS4l4QOiISDi9iyVCEyO8tS94aNMjUUR4=",
-    "url": "https://github.com/ONLYOFFICE/onlyoffice-nextcloud/releases/download/v9.12.0/onlyoffice.tar.gz",
-    "version": "9.12.0",
+    "hash": "sha256-est6QHoBQRX1ounlwifjgELJ4f0wHz+FCMc8pMQ///s=",
+    "url": "https://github.com/ONLYOFFICE/onlyoffice-nextcloud/releases/download/v9.13.0/onlyoffice.tar.gz",
+    "version": "9.13.0",
     "description": "The ONLYOFFICE app for Nextcloud brings powerful document editing and collaboration tools directly to your Nextcloud environment. With this integration, you can seamlessly create, edit, and co-author text documents, spreadsheets, presentations, and PDFs, as well as build and fill out PDF forms.\n\nCollaborate with your team in real time, make use of Track Changes, version history, comments, integrated chat, and more. Work together on files with federated cloud sharing. Flexible access permissions allow you to control who can view, edit, or comment, ensuring secure role-based collaboration tailored to your needs. Documents can also be protected with watermarks, password settings, and encryption for added security.\n\nThe app offers support for over 50 file formats, including DOCX, XLSX, PPTX, PDF, RTF, TXT, CSV, ODT, ODS, ODP, EPUB, FB2, HTML, HWP, HWPX, Pages, Numbers, Keynote, etc. Seamless desktop and mobile app integration means you'll have access to your Nextcloud files wherever you go.\n\nFurthermore, you can seamlessly connect any AI assistant, including local ones, directly to the editors to work faster and more efficient. This allows you to leverage various AI models for tasks like chatbot interactions, translations, OCR, and more.\n\nWhether you’re working with internal teams or external collaborators, the ONLYOFFICE app for Nextcloud enhances productivity, simplifies workflows, and ensures your files remain secure.",
     "homepage": "https://www.onlyoffice.com",
     "licenses": [
@@ -2380,9 +2390,9 @@
     ]
   },
   "sendent": {
-    "hash": "sha256-zatssZeVtu53yTPpHZhHmeoJCZBnCvTkSvvey/JnfbA=",
-    "url": "https://download.sendent.com/serverapp/3.1.2/sendent.tar.gz",
-    "version": "3.1.2",
+    "hash": "sha256-EeE7B1+RI78O/sJp1gM7AeD437HBRPMtKo5YuaSOT+s=",
+    "url": "https://download.sendent.com/serverapp/4.0.0/sendent.tar.gz",
+    "version": "4.0.0",
     "description": "Sendent now securely exchanges files and emails, integrating with both Microsoft Outlook and Microsoft Teams. This enhanced capability allows users to seamlessly conduct their work, not only within their preferred email environment but also within the collaborative framework of Microsoft Teams. Whether sharing privacy-sensitive documents, content, or handling attachments that exceed standard email size constraints, Sendent ensures a streamlined and secure communication experience. All files are directed to your Nextcloud instance, empowering you to control and manage access permissions effectively.",
     "homepage": "https://www.sendent.com",
     "licenses": [
@@ -2390,9 +2400,9 @@
     ]
   },
   "sendentsynchroniser": {
-    "hash": "sha256-KIyTAL+nSE71qdLcJ19OzxHuzCFGgj54PAySrPpbAj8=",
-    "url": "https://download.sendent.com/sendentsynchroniser/1.1.4/sendentsynchroniser.tar.gz",
-    "version": "1.1.4",
+    "hash": "sha256-B3ZE/AXX20TFUHFhB2XC1zko69pQNFOxQIeGL6Utzpo=",
+    "url": "https://download.sendent.com/sendentsynchroniser/1.1.5/sendentsynchroniser.tar.gz",
+    "version": "1.1.5",
     "description": "Say goodbye to manual updates! The Sendent Sync app, designed for the Nextcloud Exchange Connector, enables bi-directional syncing of agendas and contacts between your Microsoft Exchange and Nextcloud Hub. Focus on what truly matters – your work – while your data flows effortlessly.",
     "homepage": "https://www.sendent.com",
     "licenses": [
@@ -2450,9 +2460,9 @@
     ]
   },
   "shiftsnext": {
-    "hash": "sha256-Nm5EJUdpAm1ttv43HDVNZvis6Sjseuw2s9FpOBNI1VE=",
-    "url": "https://github.com/csoc-de/shiftsnext/releases/download/v2.9.0/shiftsnext.tar.gz",
-    "version": "2.9.0",
+    "hash": "sha256-Qq1W4SoP4wGMdhI4nTFMoViUyWxkWoT0bc5kgKISbgs=",
+    "url": "https://github.com/csoc-de/shiftsnext/releases/download/v2.10.0/shiftsnext.tar.gz",
+    "version": "2.10.0",
     "description": "Manage your shifts and sync them to your calendar",
     "homepage": "https://github.com/csoc-de/shiftsnext",
     "licenses": [
@@ -2850,8 +2860,8 @@
     ]
   },
   "uniteos_notifier": {
-    "hash": "sha256-y2Grzus55kMVYJJyynNBezvngzn31u3mFhS9ihSYBHQ=",
-    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/1.0.4/uniteos_notifier.tar.gz",
+    "hash": "sha256-8GJMpu0aFiP9I1MSgNVJohEntNvIXKC9tSDXsR6Qyv4=",
+    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/main/uniteos_notifier.tar.gz",
     "version": "1.0.4",
     "description": "This app allows forwarding Nextcloud events for a deeper integration into UniteOS developed by wechange eG by presenting a selected set of events as user notifications.",
     "homepage": "",
@@ -2970,9 +2980,9 @@
     ]
   },
   "whiteboard": {
-    "hash": "sha256-thJL8fZCh7pIOt+GZT5TNVlVshyaxkPufIcHUdiVeRY=",
-    "url": "https://github.com/nextcloud-releases/whiteboard/releases/download/v1.5.6/whiteboard-v1.5.6.tar.gz",
-    "version": "1.5.6",
+    "hash": "sha256-h+CuftR+iLuRuEVVccp89fA34JYSbCkwobjBytwgwg0=",
+    "url": "https://github.com/nextcloud-releases/whiteboard/releases/download/v1.5.7/whiteboard-v1.5.7.tar.gz",
+    "version": "1.5.7",
     "description": "The official whiteboard app for Nextcloud. It allows users to create and share whiteboards with other users and collaborate in real-time.\n\n**Whiteboard requires a separate collaboration server to work.** Please see the [documentation](https://github.com/nextcloud/whiteboard?tab=readme-ov-file#backend) on how to install it.\n\n- 🎨 Drawing shapes, writing text, connecting elements\n- 📝 Real-time collaboration\n- 🖼️ Add images with drag and drop\n- 📊 Easily add mermaid diagrams\n- ✨ Use the Smart Picker to embed other elements from Nextcloud\n- 📦 Image export\n- 💪 Strong foundation: We use Excalidraw as our base library",
     "homepage": "https://github.com/nextcloud/whiteboard",
     "licenses": [
