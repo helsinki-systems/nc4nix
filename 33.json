@@ -320,8 +320,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -390,10 +390,10 @@
     ]
   },
   "drawio": {
-    "hash": "sha256-5/Y12wXoQVCWinZZuItPHNdxRzF754wL0EhoFD1Tpfw=",
-    "url": "https://github.com/jgraph/drawio-nextcloud/releases/download/v4.0.1/drawio-v4.0.1.tar.gz",
-    "version": "4.0.1",
-    "description": "Integrates draw.io diagrams editor with Nextcloud",
+    "hash": "sha256-lYiM7ZHcXxiryVv0jrNlAWFcQq9l/lUxU5ug/JY2zCA=",
+    "url": "https://github.com/jgraph/drawio-nextcloud/releases/download/v4.0.3/drawio-v4.0.3.tar.gz",
+    "version": "4.0.3",
+    "description": "Integrates the draw.io (diagrams.net) editor into Nextcloud, letting users create and edit diagrams and whiteboards directly from the Files app.\n\n**Key features:**\n\n- **Real-time collaboration** — multiple users can edit the same diagram simultaneously (requires Autosave and the official diagrams.net server)\n- **Whiteboards** — freeform .dwb whiteboard files alongside traditional .drawio diagrams\n- **Dark mode** — automatic or manual dark theme support\n- **Diagram previews** — PNG thumbnails shown in the Nextcloud file list\n- **Public sharing** — edit or view diagrams via Nextcloud public share links\n- **File versioning** — access previous diagram revisions through Nextcloud's version history\n- **Self-hosting** — optionally use your own draw.io server instead of the official one\n- **Offline mode** — work without an internet connection using a bundled draw.io instance\n- **Multilingual** — translated into 99 languages\n- **Admin controls** — configure theme, language, autosave, libraries, and more from the admin settings panel",
     "homepage": "https://github.com/jgraph/drawio-nextcloud",
     "licenses": [
       "agpl"
@@ -565,6 +565,16 @@
     "version": "0.2.5",
     "description": "Adds support detecting changes in local external storages with\nocc files_external:notify.\n\nNote that there are scalability limitations to using `inotify` on large folder structures, see the [README](https://github.com/icewind1991/files_inotify/blob/master/README.md) for more information",
     "homepage": "https://github.com/icewind1991/files_inotify",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "files_linkeditor": {
+    "hash": "sha256-yT3b0K31PfK8ApI23yQAZRfTiWyFZnBVlTi+/sZCv+Y=",
+    "url": "https://github.com/te-online/nextcloud-app-releases/raw/main/files_linkeditor/v1.1.24/files_linkeditor.tar.gz",
+    "version": "1.1.24",
+    "description": "### External web links in Nextcloud!\n* ✍️ **create and edit** .URL and .webloc links in the file view\n* 🌍 **open links** by clicking them and confirming you want to go to the external site\n* 📤 **works in public shares** so you can share links easily with others\n* 🔄 **sync your links** as .URL and .webloc are web links as created on most operating systems.\n\n_[View changelog](https://github.com/te-online/files_linkeditor/blob/main/CHANGELOG.md)_",
+    "homepage": "https://github.com/te-online/files_linkeditor",
     "licenses": [
       "agpl"
     ]
@@ -1200,8 +1210,8 @@
     ]
   },
   "libresign": {
-    "hash": "sha256-ALkO+oIG9pP5Wjim+3dKnGPOUsRqgPx3q5ivQ46cSXE=",
-    "url": "https://github.com/LibreSign/libresign/releases/download/v13.0.3/libresign-v13.0.3.tar.gz",
+    "hash": "sha256-Ttn9geqJrcSCPMuiMCjsw/fUjSmta55CYSIHP9n+nxw=",
+    "url": "https://github.com/LibreSign/libresign/releases/download/nightly/libresign-nightly.tar.gz",
     "version": "13.0.3",
     "description": "**This is a libre digital PDF signature app for Nextcloud**\n\n* ✍️ **Sign PDF** documents using digital certificates\n* 🔄 **Hybrid signatures**: You can choose between personal or system-generated digital certificates\n* 👥 **Multiple signers**: Request signature on a document for as many people as you need\n* 📸 **QR Code**: Document validation by QR Code\n* 🔒 **Privacy**: Fully self-hosted document signer\n* 📲 **Connect to your software**: Easily integrate [LibreSign](https://libresign.coop) into your service with our full-fledged [REST-API](https://libresign.coop/posts/libresign-api-guide/).\n* 🙋 **Get involved**! We have lots of stuff planned. More information at [LibreSign](https://github.com/libresign/libresign) repository.\n\n🌍 Help us translate this application on [Transifex](https://app.transifex.com/nextcloud/nextcloud/libresign/)\n\nIf you enjoy this app and want to help maintain its development or want enterprise support, please contact us:\n\n[https://libresign.coop](https://libresign.coop)\n\n## Donation\n\nDeveloped with ❤️ by [LibreCode](https://librecode.coop). Help us transform people and businesses through cooperativism.\n\n* [Donate with GitHub Sponsor: ![Donate using GitHub Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/libresign)",
     "homepage": "https://github.com/LibreSign/libresign",
@@ -1389,10 +1399,20 @@
       "agpl"
     ]
   },
+  "passwords": {
+    "hash": "sha256-I7ez9A5j7kXgMxywXVZP4CuirU69zhoHEjTCJMvue+I=",
+    "url": "https://git.mdns.eu/api/v4/projects/45/packages/generic/passwords/2026.2.0/passwords.tar.gz",
+    "version": "2026.2.20",
+    "description": "Passwords is the most advanced password manager for Nextcloud and allows you to manage and store your passwords safely in your own cloud.\nThe intuitive and modern web interface of the app makes it easy to update and add new passwords from anywhere.\nIncluded security checks help you to keep your online accounts safe and up-to-date.\nYou can also share passwords with other Nextcloud users.\n\n**Features**\n * Intuitive and modern user interface\n * Password security monitor\n * Secure encryption\n * Folders &amp; tags\n * Sharing\n * Dashboard Widget\n * API for apps\n * Extensive handbook\n * Import &amp; Export\n * Browser extensions &amp; Apps\n * ... and many more to come\n\n**Support**\n * [Official Chat](https://matrix.to/#/#nextcloud-passwords:chat.passwordsapp.org)\n * [Official Forum](https://help.nextcloud.com/tag/passwords-app)\n * [User Handbook](https://git.mdns.eu/nextcloud/passwords/-/wikis/Users/Index)\n * [Administrator Handbook](https://git.mdns.eu/nextcloud/passwords/-/wikis/Administrators/Index)\n\n**Apps & Extensions**\n * [Official Firefox Add-On](https://addons.mozilla.org/de/firefox/addon/nextcloud-passwords?utm_source=app&utm_medium=nc-apps)\n * [Official Chrome Extension](https://chrome.google.com/webstore/detail/nextcloud-passwords/mhajlicjhgoofheldnmollgbgjheenbi)\n * [Official Microsoft Edge Extension](https://microsoftedge.microsoft.com/addons/detail/cjmlcljdpphgdfpkngjcmeepdpcgpffk)\n * [Android App](https://play.google.com/store/apps/details?id=de.jbservices.nc_passwords_app) by [joleaf](https://gitlab.com/joleaf/nc-passwords-app)\n * [Android App](https://play.google.com/store/apps/details?id=com.hegocre.nextcloudpasswords) by [hegocre](https://github.com/hegocre/NextcloudPasswords)\n * [Windows App (WIP)](https://www.microsoft.com/store/apps/9NXVZ0ZP6D5Z) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [Linux App (WIP)](https://gitlab.com/j0chn/nextcloud_password_client/-/tree/main#linux) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [macOS App (WIP)](https://gitlab.com/j0chn/nextcloud_password_client/-/tree/main#mac-os) by [j0chn](https://gitlab.com/j0chn/nextcloud_password_client)\n * [iOS App](https://apps.apple.com/app/id1546212226) by [Johannes Schliephake](https://github.com/johannes-schliephake/nextcloud-passwords-ios)",
+    "homepage": "https://passwordsapp.org/",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "passwords_handbook": {
-    "hash": "sha256-3ttI6PxqWSJ/RKu0OLP5Tvys8s7dZIZDhUsLPL81UbQ=",
-    "url": "https://git.mdns.eu/api/v4/projects/58/packages/generic/passwords-handbook/2025.12.1/passwords-handbook.tar.gz",
-    "version": "2025.12.21",
+    "hash": "sha256-x+USqOXNDlMpjQrtmJr1In/l4jBpLmzvYqE7u1zd5Hc=",
+    "url": "https://git.mdns.eu/api/v4/projects/58/packages/generic/passwords-handbook/2026.2.0/passwords-handbook.tar.gz",
+    "version": "2026.2.20",
     "description": "With this app you can host the in app user handbook for the Passwords app for Nextcloud on your own Nextcloud instance instead of using the sources on Github or a custom server.\nThis improves user privacy and enables using the handbook in networks where Github may not be available.",
     "homepage": "",
     "licenses": [
@@ -1670,9 +1690,9 @@
     ]
   },
   "side_menu": {
-    "hash": "sha256-5VdQ413swQxdQ0SkGajlPpQy0lWtQEWXPI9OvRbcxUk=",
-    "url": "https://gitnet.fr/deblan/side_menu/releases/download/v5.2.0/side_menu_v5.2.0.tar.gz",
-    "version": "5.2.0",
+    "hash": "sha256-pvWyAbfr34JN32qrFRCI4/q77DuXyFJQiYekxQWqUlo=",
+    "url": "https://gitnet.fr/deblan/side_menu/releases/download/v5.2.1/side_menu_v5.2.1.tar.gz",
+    "version": "5.2.1",
     "description": "Custom menu allows you to modify the position of the main menu by creating a panel on the left of the interface or with a big menu on the top.\nYou can also define apps that must be displayed in the top menu. Fully customisable.\n\nThis application is rather suitable for instances that activate a lot of applications.\n\nUse the shortcut `Ctrl`+`o` to open and to hide the side menu. Use `tab` to navigate.\n\nYou can customize colors depending of the theme.\n\nTo report a bug or request a feature, please open an issue.\n\nRequirements:\n\n* PHP >= 8.1\n\nIf you like this application and if you want to support the development:\n\n* [Buy me a coffee](https://www.buymeacoffee.com/deblan)\n* [Donate with liberapay](https://liberapay.com/deblan)\n* [Leave a comment](https://apps.nextcloud.com/apps/side_menu#comments)\n\nNotice\n------\n\nBecause I believe in a free and decentralized Internet, [Gitnet](https://gitnet.fr) is **self-hosted at home**.\nIn case of downtime, you can download **Custom Menu** from [here](https://kim.deblan.fr/~side_menu/).",
     "homepage": "https://gitnet.fr/deblan/side_menu",
     "licenses": [
