@@ -350,9 +350,9 @@
     ]
   },
   "chores": {
-    "hash": "sha256-rKWGU+32gHJ8KRIp+RSCR9OqCtkDMMOX43JinYIL7MU=",
-    "url": "https://teo.sinyax.net/cdn/chores_0.0.7.tar.gz",
-    "version": "0.0.7",
+    "hash": "sha256-UEws//kBbzchRxqv/2dAHrJR9cMUxp8vtHNqUrnmo38=",
+    "url": "https://teo.sinyax.net/cdn/chores_0.0.8.tar.gz",
+    "version": "0.0.8",
     "description": "Track chores and receive points for doing them!\n\nCreate a team and invite other Nextcloud users from the same server, the total\npoints for each member are tracked.\n\nChores can be set to automatically repeat based on a schedule.",
     "homepage": "https://sr.ht/~cypheon/nextcloud-chores/",
     "licenses": [
@@ -939,6 +939,16 @@
       "agpl"
     ]
   },
+  "files_sharing_raw": {
+    "hash": "sha256-0CaccFRacdOv/sr0gdVgplkL2xbvZOuaKxRI8noXY1E=",
+    "url": "https://github.com/ernolf/files_sharing_raw/releases/download/v0.5.0/files_sharing_raw-0.5.0.tar.gz",
+    "version": "0.5.0",
+    "description": "Raw Fileserver simply returns any requested file, so you can link directly to a file itself (i.e. without any of NextCloud's interface around it). This enables you to host static web pages, rss feeds, images or other files, for example to link/embed them elsewhere on the web.\n\nFor security and privacy, the content is served with a [Content-Security-Policy][] header.\n\n[Content-Security-Policy]: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy\n\nThe Content-Security-Policy (CSP) is configurable via the system config key `raw_csp`, allowing different policies per share token, path, file extension, or MIME type (with a safe hardcoded fallback).\n\n## Usage\n\nThe common usage is to first share a file and enable public access through a link. In the Advanced settings of this share (in the right sidebar), the Raw link must be enabled. If the share link is `https://my-nextcloud/s/aBc123DeF456xyZ`, then this app will provide access to the raw file at `https://my-nextcloud/raw/aBc123DeF456xyZ`.  If the share is a folder, the files within it are accessible as e.g. `https://my-nextcloud/raw/aBc123DeF456xyZ/path/to/file`.\n\nA user can also access their own private files. For example, a file named `test.html` in anansi's Documents folder would be available at `https://my-nextcloud/raw/u/anansi/Documents/test.html`.\n\nTokens must be explicitly allowed for raw access. This can be done either via the UI in the share's advanced settings, or by whitelisting them in the config.php file.\n\n## Caching and conditional requests\n\n`files_sharing_raw` supports conditional requests and cache validation:\n\n- **ETags (`ETag` / `If-None-Match`)**: The app generates an `ETag` (preferred: mtime+size; fallback: content hash). If the client sends `If-None-Match` and the tag matches, the server responds with `304 Not Modified` and no body.\n- **Last-Modified (`Last-Modified` / `If-Modified-Since`)**: When possible the app sets the `Last-Modified` header from the file's modification time (mtime). `If-Modified-Since` is honored when `If-None-Match` is not present. For convenience the server accepts either an RFC-style HTTP-date or a plain Unix timestamp in `If-Modified-Since`.\n- **Cookie behavior**: The app removes PHP-set `Set-Cookie` headers for the current response to avoid sending cookies to clients.",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "files_snapshots": {
     "hash": "sha256-SEKTNi1XV4+napTyxSABO5bp0WXP3DoROJZcnG+rx6c=",
     "url": "https://github.com/icewind1991/files_snapshots/releases/download/v1.0.14/files_snapshots-v1.0.14.tar.gz",
@@ -1120,9 +1130,9 @@
     ]
   },
   "group_default_quota": {
-    "hash": "sha256-XRZLMu5IVCKU4B2Qlz+jSGB6UgMIvoaZBp917bSDdmA=",
-    "url": "https://github.com/icewind1991/group_default_quota/releases/download/v0.1.13/group_default_quota-v0.1.13.tar.gz",
-    "version": "0.1.13",
+    "hash": "sha256-mSmiQhmhTbuNchv1RF6rbxwZAUhYr22z5fCsGA9fh0E=",
+    "url": "https://github.com/icewind1991/group_default_quota/releases/download/v0.1.14/group_default_quota-v0.1.14.tar.gz",
+    "version": "0.1.14",
     "description": "Allow setting the default quota for users based on their group membership.",
     "homepage": "https://github.com/icewind1991/group_default_quota",
     "licenses": [
@@ -1203,7 +1213,7 @@
     "hash": "sha256-k7btbGGz5FH/kCCwJCLza0jHT65S1FPt8qgPhHuQVM0=",
     "url": "https://git.mdns.eu/api/v4/projects/79/packages/generic/htmlviewer/32.0.0/htmlviewer.tar.gz",
     "version": "32.0.0",
-    "description": "HTML files can be a great way to illustrate content in an interactive and responsive format.\nThe HTML viewer app enables viewing and editing of static HTML files directly within Nextcloud.\n\n### Security information\nLoading HTML files within the context of Nextcloud carries a risk of exposing user information to third parties, depending on the configuration of the server\nThe HTML viewer app uses the sandbox and CSP features for iframes to disable JavaScript and prevent access to user information and websites outside your Nextcloud, but this can not guarantee that no information is ever transferred to third parties.\n\nAdministrators should also be aware that some users may not be able to differentiate between the content of an HTML file they have opened and the normal user interface of Nextcloud.\n\n### JavaScript\nJavaScript for HTML files is disabled by default. Enabling it is a bad idea and we do not recommend this at all.\nAlthough security features like sandboxing, CSP and CORS limit what can be done, it still means that unknown code is being executed within Nextcloud.\n\nIf you still wish to enable JS, this occ command will enable it:\n```bash\n./occ config:app:set htmlviewer allowJs --value=1\n```\n\n**Note:** If you set a custom CSP or Sandbox value, this feature may not work if your CSP/Sandbox values do not allow JS execution.\nHowever, you must still enable this feature if you use a custom CSO/Sandbox if you want to allow JS.\n\n### File Size Limit\nBy default, the app will load HTML files up to 32MB. To change the file size, use this occ command:\n```bash\n ./occ config:app:set htmlviewer maxSize --value=SizeInMegabyte\n```\n\n### Iframe Permissions\nThe app automatically configures the iframe with an CSP for [supported browsers](https://caniuse.com/mdn-api_htmliframeelement_csp) and a sandbox to limit code execution and data access.\nBoth policies can be changed through config settings with the OCC commands shown below.\nPlease be aware that the general CSP of your Nextcloud may still block some access regardless of what CSP and sandbox settings you configure.\n\nTo change the CSP or sandbox settings, use these occ commands:\n```bash\n ./occ config:app:set htmlviewer csp --value=CustomCspSettings\n ./occ config:app:set htmlviewer sandbox --value=CustomSandboxSettings\n```\n\n### Links\nBy default, links in the HTML files can only be opened with CRTL+click.\nLinks with the `target=\"_blank\"` attribute can be enabled by setting a custom sandbox value that includes the permission `allow-popups`.\nOtherwise, the \"newTabLinks\" feature can be enabled to set the permissions automatically and convert any links without `target=\"_blank\"` to include it.\n\n```bash\n./occ config:app:set htmlviewer newTabLinks --value=true --type=boolean\n```",
+    "description": "HTML files can be a great way to illustrate content in an interactive and responsive format.\nThe HTML viewer app enables viewing and editing of static HTML files directly within Nextcloud.\n\n## Security information\n\nLoading HTML files within the context of Nextcloud carries a risk of exposing user information to third parties, depending on the configuration of the server.\nThe HTML viewer app uses the sandbox and CSP features for iframes to disable JavaScript and prevent access to user information and websites outside your Nextcloud, but this can not guarantee\nthat no information is ever transferred to third parties.\n\nAdministrators should also be aware that some users may not be able to differentiate between the content of an HTML file they have opened and the normal user interface of Nextcloud.\n\n## Support\n- [Matrix Chat](https://matrix.to/#/#htmlviewer:chat.passwordsapp.org)\n\n## Settings\n\n#### Enable Links\n\nBy default, links in the HTML files can only be opened with CRTL+click.\nLinks with the `target=\"_blank\"` attribute can be enabled by setting a custom sandbox value that includes the permission `allow-popups`.\nOtherwise, the \"newTabLinks\" feature can be enabled to set the permissions automatically and convert any links without `target=\"_blank\"` to include it.\n\n```bash\n./occ config:app:set htmlviewer newTabLinks --value=true --type=boolean\n```\n\n#### Enable JavaScript\n\nJavaScript for HTML files is disabled by default. Enabling it is a bad idea and we do not recommend this at all.\nAlthough security features like sandboxing, CSP and CORS limit what can be done, it still means that unknown code is being executed within Nextcloud.\n\nIf you still wish to enable JS, this occ command will enable it:\n\n```bash\n./occ config:app:set htmlviewer allowJs --value=true --type=boolean\n```\n\n**Note:** If you set a custom CSP or Sandbox value, this feature may not work if your CSP/Sandbox values do not allow JS execution.\nHowever, you must still enable this feature if you use a custom CSO/Sandbox if you want to allow JS.\n\n#### Set File Size Limit\n\nBy default, the app will load HTML files up to 32MB. To change the file size, use this occ command:\n\n```bash\n./occ config:app:set htmlviewer maxSize --value=SizeInMegabyte\n```\n\n#### Change CSP and Iframe Permissions\n\nThe app automatically configures the iframe with an CSP for [supported browsers](https://caniuse.com/mdn-api_htmliframeelement_csp) and a sandbox to limit code execution and data access.\nBoth policies can be changed through config settings with the OCC commands shown below.\nPlease be aware that the general CSP of your Nextcloud may still block some access regardless of what CSP and sandbox settings you configure.\n\nTo change the CSP or sandbox settings, use these occ commands:\n\n```bash\n./occ config:app:set htmlviewer csp --value=YourCustomCSP\n./occ config:app:set htmlviewer sandbox --value=YourCustomSandbox\n```\n\n[Documentation of CSP directives.](https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Content-Security-Policy#directives)\n[Documentation of Sandbox permissions.](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/iframe#sandbox)",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -1719,6 +1729,16 @@
       "agpl"
     ]
   },
+  "lettermaker": {
+    "hash": "sha256-bYgXRsy+x27DJlHkTKlw6hze2ZV5aO2B/3SyNWGY3YU=",
+    "url": "https://oa-web.de/lettermaker/v1/lettermaker.tar.gz",
+    "version": "1.0.0",
+    "description": "📪 Create professional letters and matching envelopes in PDF format using HTML-based templates. Easily add and customize sender and recipient details, subject line, date, and body text to generate ready-to-print documents.\n\n## Features\n- 📄 Generate letters as PDF \n- ✉️ Generate envelopes as PDF (with or without custom stamps)\n- 👨‍💻 Manage templates as an Admin\n\n> To use the Stamp feature in combination with the default templates, please select the format **\"Seiko SLP-Stamp 1 42x36\"** when purchasing*. \n\n## Templates\nCheckout the GitHub-Repository https://github.com/ole-am/LetterMaker or the Admin-Panel to learn how to create custom templates. \n\n*(\"Seiko\" is a trademark of Seiko Epson Corporation. The LetterMaker-App is not affiliated with or endorsed by Seiko in any way).",
+    "homepage": "https://github.com/ole-am/LetterMaker",
+    "licenses": [
+      "AGPL-3.0-or-later"
+    ]
+  },
   "libresign": {
     "hash": "sha256-SdAtiKPiyXxmGCwBxlRihmaPMH2te9UkjLNkhntrwaQ=",
     "url": "https://github.com/LibreSign/libresign/releases/download/v12.2.3/libresign-v12.2.3.tar.gz",
@@ -1770,9 +1790,9 @@
     ]
   },
   "mail": {
-    "hash": "sha256-Aq+ISmrPNlH42KNqkxAqoTEgML2l36lhsAMS0GUYb+c=",
-    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.7.1/mail-v5.7.1.tar.gz",
-    "version": "5.7.1",
+    "hash": "sha256-hgUi6sDZsFiOLe2mprrrIPHXTPEtBiNXShqsxtB0uzI=",
+    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.7.2/mail-v5.7.2.tar.gz",
+    "version": "5.7.2",
     "description": "**💌 A mail app for Nextcloud**\n\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://www.horde.org) libraries.\n- **📬 Want to host your own mail server?** We do not have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!\n\n## Ethical AI Rating\n\n### Priority Inbox\n\nPositive:\n* The software for training and inferencing of this model is open source.\n* The model is created and trained on-premises based on the user's own data.\n* The training data is accessible to the user, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n### Thread Summaries (opt-in)\n\n**Rating:** 🟢/🟡/🟠/🔴\n\nThe rating depends on the installed text processing backend. See [the rating overview](https://docs.nextcloud.com/server/latest/admin_manual/ai/index.html) for details.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/mail#readme",
     "licenses": [
@@ -2079,6 +2099,16 @@
       "agpl"
     ]
   },
+  "otpmanager": {
+    "hash": "sha256-on3f89sUzQsn9PO6SNTi5HN0Zv4Z5NFPsFGjdAcwJPM=",
+    "url": "https://github.com/matteo-convertino/otpmanager-nextcloud/releases/download/v1.0.1/otpmanager-1.0.1.tar.gz",
+    "version": "1.0.1",
+    "description": "OTP Manager is useful for those who use two-factor authentication (2FA) and want to manage their OTP codes securely and easily.\nThis application allows you to synchronise your OTP codes with your personal Nextcloud server so that you can access them from any device.\n\n######\n\nWith OTP Manager, you no longer have to worry about losing your OTP codes or not having access to them when you need them.\nAll you have to do is synchronise your app with your Nextcloud server and you will always have your OTP codes at hand, wherever you are.\n\n######\n\nOTP Manager offers the convenient feature of importing OTP codes from Google Authenticator by scanning the QR code.\nThis means you don't have to worry about having to manually enter every single OTP code, but can simply scan the QR code that the Google app generates when exporting\naccounts, and OTP Manager will automatically import your associated accounts.\n\n######\n\nThis way, the migration from Google Authenticator to OTP Manager will be quick and easy, without having to waste time manually resetting all your OTP codes.\n\n######\n\n**Apps & Extensions**\n* [Official Android App](https://play.google.com/store/apps/details?id=com.convertino.otp_manager)\n* [Simple Firefox Browser Extension](https://addons.mozilla.org/en-US/firefox/addon/simple-otpmanager-browser/)\n* [Simple Chrome Browser Extension](https://chromewebstore.google.com/detail/simple-otp-manager-browse/meopmcadkhpcpoaigkhkadagiemblecc)",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "ownershiptransfer": {
     "hash": "sha256-oMZXn9gPb1rxI2M7pGB6fwXzrcDw1rsz+EN3Qg+GopI=",
     "url": "https://packages.framasoft.org/projects/nextcloud-apps/ownership-transfer/ownershiptransfer-1.3.0.tar.gz",
@@ -2305,6 +2335,16 @@
     "version": "0.20.0",
     "description": "Element for Nextcloud allows you to install Element Web easily through Nextcloud and join the Matrix decentralized communication network.\n\nThis app does not include a Matrix server, only the client. You will have to either set up your own Matrix homeserver, rent one, or use a public one.\n\nThis project is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Element or the Element project, or any of its subsidiaries or its affiliates.\n\nThe name Element as well as related names, marks, emblems and images are registered trademarks of their respective owners.\n\nThe upstream project can be found at [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web).",
     "homepage": "https://github.com/gary-kim/riotchat",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "roll_dice_bot": {
+    "hash": "sha256-IkgUKjPqTBfzcXibhxtBTujYU+p5PHOFXnX/GoZVk0w=",
+    "url": "https://github.com/nextcloud-releases/roll_dice_bot/releases/download/v1.0.0/roll_dice_bot.tar.gz",
+    "version": "1.0.0",
+    "description": "Supports multiple dice rolls as well as dice with other side count",
+    "homepage": "https://github.com/nextcloud/roll_dice_bot",
     "licenses": [
       "agpl"
     ]
@@ -2649,6 +2689,16 @@
       "agpl"
     ]
   },
+  "synaplan_integration": {
+    "hash": "sha256-gEyTH+sjW/rrJNg7uL3SY6a2AOmW8/8z72DECzYbS4o=",
+    "url": "https://github.com/metadist/synaplan-nextcloud/releases/download/v1.0.0/synaplan_integration.tar.gz",
+    "version": "1.0.0",
+    "description": "Bring Synaplan's AI capabilities directly into Nextcloud:\n\n- **Summarize** documents with one click\n- **Translate** files to multiple languages\n- **Add to Knowledge** — vectorize files into the AI knowledge base\n- **Research Chat** — AI assistant with knowledge group and model selection\n\nRequires a running Synaplan instance and API key.",
+    "homepage": "https://synaplan.com",
+    "licenses": [
+      "Apache-2.0"
+    ]
+  },
   "tables": {
     "hash": "sha256-VjTNJ79LNZ5oBff2mAILiYnGB843V2LgN+Wxb0yG1XU=",
     "url": "https://github.com/nextcloud-releases/tables/releases/download/v1.0.4/tables-v1.0.4.tar.gz",
@@ -2860,8 +2910,8 @@
     ]
   },
   "uniteos_notifier": {
-    "hash": "sha256-8GJMpu0aFiP9I1MSgNVJohEntNvIXKC9tSDXsR6Qyv4=",
-    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/main/uniteos_notifier.tar.gz",
+    "hash": "sha256-y2Grzus55kMVYJJyynNBezvngzn31u3mFhS9ihSYBHQ=",
+    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/1.0.4/uniteos_notifier.tar.gz",
     "version": "1.0.4",
     "description": "This app allows forwarding Nextcloud events for a deeper integration into UniteOS developed by wechange eG by presenting a selected set of events as user notifications.",
     "homepage": "",

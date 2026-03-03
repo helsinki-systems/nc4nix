@@ -240,9 +240,9 @@
     ]
   },
   "chores": {
-    "hash": "sha256-rKWGU+32gHJ8KRIp+RSCR9OqCtkDMMOX43JinYIL7MU=",
-    "url": "https://teo.sinyax.net/cdn/chores_0.0.7.tar.gz",
-    "version": "0.0.7",
+    "hash": "sha256-UEws//kBbzchRxqv/2dAHrJR9cMUxp8vtHNqUrnmo38=",
+    "url": "https://teo.sinyax.net/cdn/chores_0.0.8.tar.gz",
+    "version": "0.0.8",
     "description": "Track chores and receive points for doing them!\n\nCreate a team and invite other Nextcloud users from the same server, the total\npoints for each member are tracked.\n\nChores can be set to automatically repeat based on a schedule.",
     "homepage": "https://sr.ht/~cypheon/nextcloud-chores/",
     "licenses": [
@@ -619,6 +619,16 @@
       "agpl"
     ]
   },
+  "files_sharing_raw": {
+    "hash": "sha256-0CaccFRacdOv/sr0gdVgplkL2xbvZOuaKxRI8noXY1E=",
+    "url": "https://github.com/ernolf/files_sharing_raw/releases/download/v0.5.0/files_sharing_raw-0.5.0.tar.gz",
+    "version": "0.5.0",
+    "description": "Raw Fileserver simply returns any requested file, so you can link directly to a file itself (i.e. without any of NextCloud's interface around it). This enables you to host static web pages, rss feeds, images or other files, for example to link/embed them elsewhere on the web.\n\nFor security and privacy, the content is served with a [Content-Security-Policy][] header.\n\n[Content-Security-Policy]: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy\n\nThe Content-Security-Policy (CSP) is configurable via the system config key `raw_csp`, allowing different policies per share token, path, file extension, or MIME type (with a safe hardcoded fallback).\n\n## Usage\n\nThe common usage is to first share a file and enable public access through a link. In the Advanced settings of this share (in the right sidebar), the Raw link must be enabled. If the share link is `https://my-nextcloud/s/aBc123DeF456xyZ`, then this app will provide access to the raw file at `https://my-nextcloud/raw/aBc123DeF456xyZ`.  If the share is a folder, the files within it are accessible as e.g. `https://my-nextcloud/raw/aBc123DeF456xyZ/path/to/file`.\n\nA user can also access their own private files. For example, a file named `test.html` in anansi's Documents folder would be available at `https://my-nextcloud/raw/u/anansi/Documents/test.html`.\n\nTokens must be explicitly allowed for raw access. This can be done either via the UI in the share's advanced settings, or by whitelisting them in the config.php file.\n\n## Caching and conditional requests\n\n`files_sharing_raw` supports conditional requests and cache validation:\n\n- **ETags (`ETag` / `If-None-Match`)**: The app generates an `ETag` (preferred: mtime+size; fallback: content hash). If the client sends `If-None-Match` and the tag matches, the server responds with `304 Not Modified` and no body.\n- **Last-Modified (`Last-Modified` / `If-Modified-Since`)**: When possible the app sets the `Last-Modified` header from the file's modification time (mtime). `If-Modified-Since` is honored when `If-None-Match` is not present. For convenience the server accepts either an RFC-style HTTP-date or a plain Unix timestamp in `If-Modified-Since`.\n- **Cookie behavior**: The app removes PHP-set `Set-Cookie` headers for the current response to avoid sending cookies to clients.",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "files_versions_s3": {
     "hash": "sha256-V9gEquYrmnYJkE4apS28vImkFycm0w3VsxOMzRyIdT0=",
     "url": "https://github.com/nextcloud-releases/files_versions_s3/releases/download/v1.3.1/files_versions_s3-v1.3.1.tar.gz",
@@ -739,6 +749,16 @@
       "agpl"
     ]
   },
+  "group_default_quota": {
+    "hash": "sha256-mSmiQhmhTbuNchv1RF6rbxwZAUhYr22z5fCsGA9fh0E=",
+    "url": "https://github.com/icewind1991/group_default_quota/releases/download/v0.1.14/group_default_quota-v0.1.14.tar.gz",
+    "version": "0.1.14",
+    "description": "Allow setting the default quota for users based on their group membership.",
+    "homepage": "https://github.com/icewind1991/group_default_quota",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "group_everyone": {
     "hash": "sha256-vvGTcUyNzQ5EIHpt09q0opJ9yplqs66KWmO23S1nu0w=",
     "url": "https://github.com/icewind1991/group_everyone/releases/download/v0.1.19/group_everyone-v0.1.19.tar.gz",
@@ -787,6 +807,16 @@
     "homepage": "",
     "licenses": [
       "Apache-2.0"
+    ]
+  },
+  "htmlviewer": {
+    "hash": "sha256-1Q2ZTm6bTmJvEso1CL4jgcNz0557nne9JAg5qBAdH24=",
+    "url": "https://git.mdns.eu/api/v4/projects/79/packages/generic/htmlviewer/33.0.0/htmlviewer.tar.gz",
+    "version": "33.0.0",
+    "description": "HTML files can be a great way to illustrate content in an interactive and responsive format.\nThe HTML viewer app enables viewing and editing of static HTML files directly within Nextcloud.\n\n## Security information\n\nLoading HTML files within the context of Nextcloud carries a risk of exposing user information to third parties, depending on the configuration of the server.\nThe HTML viewer app uses the sandbox and CSP features for iframes to disable JavaScript and prevent access to user information and websites outside your Nextcloud, but this can not guarantee\nthat no information is ever transferred to third parties.\n\nAdministrators should also be aware that some users may not be able to differentiate between the content of an HTML file they have opened and the normal user interface of Nextcloud.\n\n## Support\n- [Matrix Chat](https://matrix.to/#/#htmlviewer:chat.passwordsapp.org)\n\n## Settings\n\n#### Enable Links\n\nBy default, links in the HTML files can only be opened with CRTL+click.\nLinks with the `target=\"_blank\"` attribute can be enabled by setting a custom sandbox value that includes the permission `allow-popups`.\nOtherwise, the \"newTabLinks\" feature can be enabled to set the permissions automatically and convert any links without `target=\"_blank\"` to include it.\n\n```bash\n./occ config:app:set htmlviewer newTabLinks --value=true --type=boolean\n```\n\n#### Enable JavaScript\n\nJavaScript for HTML files is disabled by default. Enabling it is a bad idea and we do not recommend this at all.\nAlthough security features like sandboxing, CSP and CORS limit what can be done, it still means that unknown code is being executed within Nextcloud.\n\nIf you still wish to enable JS, this occ command will enable it:\n\n```bash\n./occ config:app:set htmlviewer allowJs --value=true --type=boolean\n```\n\n**Note:** If you set a custom CSP or Sandbox value, this feature may not work if your CSP/Sandbox values do not allow JS execution.\nHowever, you must still enable this feature if you use a custom CSO/Sandbox if you want to allow JS.\n\n#### Set File Size Limit\n\nBy default, the app will load HTML files up to 32MB. To change the file size, use this occ command:\n\n```bash\n./occ config:app:set htmlviewer maxSize --value=SizeInMegabyte\n```\n\n#### Change CSP and Iframe Permissions\n\nThe app automatically configures the iframe with an CSP for [supported browsers](https://caniuse.com/mdn-api_htmliframeelement_csp) and a sandbox to limit code execution and data access.\nBoth policies can be changed through config settings with the OCC commands shown below.\nPlease be aware that the general CSP of your Nextcloud may still block some access regardless of what CSP and sandbox settings you configure.\n\nTo change the CSP or sandbox settings, use these occ commands:\n\n```bash\n./occ config:app:set htmlviewer csp --value=YourCustomCSP\n./occ config:app:set htmlviewer sandbox --value=YourCustomSandbox\n```\n\n[Documentation of CSP directives.](https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Content-Security-Policy#directives)\n[Documentation of Sandbox permissions.](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/iframe#sandbox)",
+    "homepage": "",
+    "licenses": [
+      "agpl"
     ]
   },
   "iframewidget": {
@@ -1210,8 +1240,8 @@
     ]
   },
   "libresign": {
-    "hash": "sha256-ALkO+oIG9pP5Wjim+3dKnGPOUsRqgPx3q5ivQ46cSXE=",
-    "url": "https://github.com/LibreSign/libresign/releases/download/v13.0.3/libresign-v13.0.3.tar.gz",
+    "hash": "sha256-Ab6Zivgzq6c8tJDcBk64Bo6PKyywipHZdA6wgNkUzHY=",
+    "url": "https://github.com/LibreSign/libresign/releases/download/nightly/libresign-nightly.tar.gz",
     "version": "13.0.3",
     "description": "**This is a libre digital PDF signature app for Nextcloud**\n\n* ✍️ **Sign PDF** documents using digital certificates\n* 🔄 **Hybrid signatures**: You can choose between personal or system-generated digital certificates\n* 👥 **Multiple signers**: Request signature on a document for as many people as you need\n* 📸 **QR Code**: Document validation by QR Code\n* 🔒 **Privacy**: Fully self-hosted document signer\n* 📲 **Connect to your software**: Easily integrate [LibreSign](https://libresign.coop) into your service with our full-fledged [REST-API](https://libresign.coop/posts/libresign-api-guide/).\n* 🙋 **Get involved**! We have lots of stuff planned. More information at [LibreSign](https://github.com/libresign/libresign) repository.\n\n🌍 Help us translate this application on [Transifex](https://app.transifex.com/nextcloud/nextcloud/libresign/)\n\nIf you enjoy this app and want to help maintain its development or want enterprise support, please contact us:\n\n[https://libresign.coop](https://libresign.coop)\n\n## Donation\n\nDeveloped with ❤️ by [LibreCode](https://librecode.coop). Help us transform people and businesses through cooperativism.\n\n* [Donate with GitHub Sponsor: ![Donate using GitHub Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/libresign)",
     "homepage": "https://github.com/LibreSign/libresign",
@@ -1250,9 +1280,9 @@
     ]
   },
   "mail": {
-    "hash": "sha256-Aq+ISmrPNlH42KNqkxAqoTEgML2l36lhsAMS0GUYb+c=",
-    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.7.1/mail-v5.7.1.tar.gz",
-    "version": "5.7.1",
+    "hash": "sha256-hgUi6sDZsFiOLe2mprrrIPHXTPEtBiNXShqsxtB0uzI=",
+    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.7.2/mail-v5.7.2.tar.gz",
+    "version": "5.7.2",
     "description": "**💌 A mail app for Nextcloud**\n\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://www.horde.org) libraries.\n- **📬 Want to host your own mail server?** We do not have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!\n\n## Ethical AI Rating\n\n### Priority Inbox\n\nPositive:\n* The software for training and inferencing of this model is open source.\n* The model is created and trained on-premises based on the user's own data.\n* The training data is accessible to the user, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n### Thread Summaries (opt-in)\n\n**Rating:** 🟢/🟡/🟠/🔴\n\nThe rating depends on the installed text processing backend. See [the rating overview](https://docs.nextcloud.com/server/latest/admin_manual/ai/index.html) for details.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/mail#readme",
     "licenses": [
@@ -1569,6 +1599,16 @@
       "Apache-2.0"
     ]
   },
+  "roll_dice_bot": {
+    "hash": "sha256-IkgUKjPqTBfzcXibhxtBTujYU+p5PHOFXnX/GoZVk0w=",
+    "url": "https://github.com/nextcloud-releases/roll_dice_bot/releases/download/v1.0.0/roll_dice_bot.tar.gz",
+    "version": "1.0.0",
+    "description": "Supports multiple dice rolls as well as dice with other side count",
+    "homepage": "https://github.com/nextcloud/roll_dice_bot",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "roomvox": {
     "hash": "sha256-DbgBHoYaqerk1+PZLi0dIPHXBfmQo96ZKCVrmtBvkUk=",
     "url": "https://github.com/nextcloud/RoomVox/releases/download/v0.4.0/roomvox-0.4.0.tar.gz",
@@ -1857,6 +1897,16 @@
     "homepage": "https://github.com/SUNET/nextcloud-stepupauth",
     "licenses": [
       "agpl"
+    ]
+  },
+  "synaplan_integration": {
+    "hash": "sha256-gEyTH+sjW/rrJNg7uL3SY6a2AOmW8/8z72DECzYbS4o=",
+    "url": "https://github.com/metadist/synaplan-nextcloud/releases/download/v1.0.0/synaplan_integration.tar.gz",
+    "version": "1.0.0",
+    "description": "Bring Synaplan's AI capabilities directly into Nextcloud:\n\n- **Summarize** documents with one click\n- **Translate** files to multiple languages\n- **Add to Knowledge** — vectorize files into the AI knowledge base\n- **Research Chat** — AI assistant with knowledge group and model selection\n\nRequires a running Synaplan instance and API key.",
+    "homepage": "https://synaplan.com",
+    "licenses": [
+      "Apache-2.0"
     ]
   },
   "tables": {
