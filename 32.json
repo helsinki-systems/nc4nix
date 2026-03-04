@@ -999,6 +999,16 @@
       "agpl"
     ]
   },
+  "folder_protection": {
+    "hash": "sha256-xudd5WMQJQ313298+ZSDpeOIzahgYCBJfDFvHLC/l30=",
+    "url": "https://github.com/kreotropic/folder_protection/releases/download/v2.0.0/folder_protection.tar.gz",
+    "version": "2.0.0",
+    "description": "Prevents specific folders from being moved, copied, or deleted to avoid server performance issues with large folders.",
+    "homepage": "https://github.com/kreotropic/folder_protection",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "forms": {
     "hash": "sha256-pPq35QtolbjBPiaILAvf7RA2uG3otiAyIRcU3AYwb5E=",
     "url": "https://github.com/nextcloud-releases/forms/releases/download/v5.2.4/forms-v5.2.4.tar.gz",
@@ -1030,9 +1040,9 @@
     ]
   },
   "frontend_insight": {
-    "hash": "sha256-R1T3xxEjd0iyPg9tFbvNwx0VqrXW3qbnC3S45UQuRAw=",
-    "url": "https://github.com/callmemagnus/nextcloud-frontend-insight/releases/download/v1.1.4/frontend_insight.tar.gz",
-    "version": "1.1.4",
+    "hash": "sha256-lwXtdNUCWfGkYV7aG2KGafj7YPCB1DE5npe2kTSujXw=",
+    "url": "https://github.com/callmemagnus/nextcloud-frontend-insight/releases/download/v1.1.5/frontend_insight.tar.gz",
+    "version": "1.1.5",
     "description": "🔍 **Capture and analyze JavaScript errors from your users' browsers in real-time!**\n\nFrontendInsight gives you **visibility into frontend issues that would otherwise go unnoticed**.\n\n✨ **Key Features:**\n• 🐛 Automatic tracking of client-side errors and unhandled promise rejections\n• 📊 Browse events with advanced filtering and sorting\n• ⏰ Configurable data retention policies with automatic cleanup\n• 👥 Restrict reported events browsing to specific user groups\n• 🛡️ Built-in rate limiting to prevent abuse\n• 🚀 Modern UI built with Svelte 5\n\n**Identify and fix frontend bugs before they impact your users' experience!**",
     "homepage": "https://github.com/callmemagnus/nextcloud-frontend-insight/",
     "licenses": [
@@ -1367,6 +1377,16 @@
     "homepage": "https://github.com/poulou0/nextcloud-homeassistant-integration",
     "licenses": [
       "agpl"
+    ]
+  },
+  "integration_immich": {
+    "hash": "sha256-bt1fdGaUhRzPmRfqIkN4rklknzipOsGpFZlwZeSSCQw=",
+    "url": "https://github.com/xXRoxXeRXx/integration_immich/releases/download/v1.0.2/integration_immich.tar.gz",
+    "version": "1.0.2",
+    "description": "Seamlessly integrates your [Immich](https://immich.app) photo library into Nextcloud.\n\n**Features:**\n- 🖼️ **Timeline** — lazy-loaded photo & video timeline grouped by date\n- 📁 **Albums** — browse, create, rename and delete Immich albums\n- 👤 **People** — explore your library by recognized person (face recognition)\n- 🗺️ **Map** — interactive map of all geotagged photos\n- 🔍 **Explore** — browse by city, country, state, object or tag\n- 🔎 **Lightbox** — full-screen viewer with keyboard navigation, pinch-to-zoom and EXIF metadata\n- ⭐ **Favorites** — mark and unmark photos as favorites\n- 💾 **Save to Nextcloud** — save Immich originals directly to your Nextcloud Files\n- ⬆️ **Upload to Immich** — send photos and videos from Nextcloud Files to Immich\n- ☑️ **Multi-select** — batch operations across any view",
+    "homepage": "https://github.com/xXRoxXeRXx/integration_immich",
+    "licenses": [
+      "AGPL-3.0-or-later"
     ]
   },
   "integration_itop": {
@@ -1730,13 +1750,13 @@
     ]
   },
   "lettermaker": {
-    "hash": "sha256-bYgXRsy+x27DJlHkTKlw6hze2ZV5aO2B/3SyNWGY3YU=",
-    "url": "https://oa-web.de/lettermaker/v1/lettermaker.tar.gz",
+    "hash": "sha256-0jrhmcCYeP7RJQmGD93t4OnqiusJOniPE/SEYGRFOJA=",
+    "url": "https://github.com/ole-am/LetterMaker/releases/download/v1/lettermaker.tar.gz",
     "version": "1.0.0",
     "description": "📪 Create professional letters and matching envelopes in PDF format using HTML-based templates. Easily add and customize sender and recipient details, subject line, date, and body text to generate ready-to-print documents.\n\n## Features\n- 📄 Generate letters as PDF \n- ✉️ Generate envelopes as PDF (with or without custom stamps)\n- 👨‍💻 Manage templates as an Admin\n\n> To use the Stamp feature in combination with the default templates, please select the format **\"Seiko SLP-Stamp 1 42x36\"** when purchasing*. \n\n## Templates\nCheckout the GitHub-Repository https://github.com/ole-am/LetterMaker or the Admin-Panel to learn how to create custom templates. \n\n*(\"Seiko\" is a trademark of Seiko Epson Corporation. The LetterMaker-App is not affiliated with or endorsed by Seiko in any way).",
     "homepage": "https://github.com/ole-am/LetterMaker",
     "licenses": [
-      "AGPL-3.0-or-later"
+      "agpl"
     ]
   },
   "libresign": {
@@ -1810,8 +1830,8 @@
     ]
   },
   "mail_roundcube_bridge": {
-    "hash": "",
-    "url": "https://github.com/Gecka-Apps/nextcloud-roundcube-bridge/releases/download/v1.0.0-rc1/mail_roundcube_bridge.tar.gz",
+    "hash": "sha256-pGMU0lBmo0E3zlk59pwQyEm8FfIAZTlmnW3duszcg70=",
+    "url": "https://github.com/Gecka-Apps/nextcloud-roundcube-bridge/releases/download/1.0.0/mail_roundcube_bridge.tar.gz",
     "version": "1.0.0",
     "description": "Provides a communication bridge between RoundCube (embedded via mail_roundcube app) and Nextcloud services.\n\n**Features:**\n- Attach files from Nextcloud to emails\n- Save email attachments to Nextcloud\n- Insert public share links into emails\n- Add calendar invitations (.ics) to Nextcloud Calendar\n\n**Requirements:**\n- mail_roundcube app must be installed\n- NextBridge plugin must be installed in RoundCube\n\nSee [NextBridge](https://github.com/Gecka-Apps/NextBridge) for the RoundCube plugin.",
     "homepage": "https://github.com/Gecka-Apps/nextcloud-roundcube-bridge",
@@ -1897,6 +1917,16 @@
     "homepage": "https://github.com/nc-music/music",
     "licenses": [
       "agpl"
+    ]
+  },
+  "musicsheetviewer": {
+    "hash": "sha256-5ydDgbLNmQ4j1PDvk83xP6YKF1JIvsSzi62bC7VNJ/I=",
+    "url": "https://github.com/partitioncloud/nextcloud-musicsheet-viewer/releases/download/v1.2.3/musicsheetviewer.tar.gz",
+    "version": "1.2.3",
+    "description": "Visualize and play music sheets of various formats\n\n- mscz, mscx | MuseScore\n- mxl, musicxml | MusicXML\n- gp, gp3, ... | GuitarPro\n- and many more, see [MuseScore handbook for full list](https://musescore.org/en/handbook/3/file-formats#share-with-other-software) for untested formats.",
+    "homepage": "https://github.com/partitioncloud/nextcloud-musicsheet-viewer",
+    "licenses": [
+      "AGPL-3.0-or-later"
     ]
   },
   "news": {
@@ -2050,9 +2080,9 @@
     ]
   },
   "openhab": {
-    "hash": "sha256-JGoYoBh5Xcc0xXA5pl6sHkR6ddlGrOPCcA51hi39JUo=",
-    "url": "https://github.com/kenda/nextcloud-openhab/releases/download/v0.15.0/openhab.tar.gz",
-    "version": "0.15.0",
+    "hash": "sha256-OqhL8xGCEyA0F7wQR177Li4mY99O35Q8P2nYsgNKTL4=",
+    "url": "https://github.com/kenda/nextcloud-openhab/releases/download/v0.15.1/openhab.tar.gz",
+    "version": "0.15.1",
     "description": "This app renders the available sitemaps of an Openhab server instance. This allows you to display values from your smart home in Nextcloud.",
     "homepage": "",
     "licenses": [
@@ -2087,6 +2117,16 @@
     "homepage": "https://github.com/ConductionNL/OpenRegister",
     "licenses": [
       "agpl"
+    ]
+  },
+  "opsdash": {
+    "hash": "sha256-ApIWd9meKnf4jYw1mVGkDqVm527PI/r1P8bPf4IAdbA=",
+    "url": "https://github.com/blade34242/opsdash-operational-dashboard-nextcloud/releases/download/v0.6.3/opsdash-0.6.3.tar.gz",
+    "version": "0.6.3",
+    "description": "Opsdash turns Nextcloud Calendar activity into an operational cockpit for weekly and monthly planning.\n\nUse it to answer three questions fast:\n- What happened this period?\n- Are we on pace against targets?\n- Where is workload drifting?\n\n### Highlights\n- KPI dashboards for totals, active days, day-of-week patterns, and category mix\n- Calendar and category targets with pacing context\n- Balance/trend widgets for period-over-period comparisons\n- Notes, presets, and profile export/import for repeatable reporting\n- Guided onboarding for quick team setup\n\n### Nextcloud-native\n- Runs fully inside Nextcloud (no external analytics backend)\n- Per-user configuration persisted server-side\n- CSRF-protected write endpoints and standard Nextcloud permission model\n\nOpsdash is built for teams that already plan in calendars and want clear execution visibility without leaving Nextcloud.",
+    "homepage": "https://github.com/blade34242/opsdash-operational-dashboard-nextcloud",
+    "licenses": [
+      "AGPL-3.0-or-later"
     ]
   },
   "organization_folders": {
@@ -2400,9 +2440,9 @@
     ]
   },
   "scim_client": {
-    "hash": "sha256-nPB5t6bnJpWGoL9TNtMwIu7d6R9YDUBL95Ouaq28lZg=",
-    "url": "https://github.com/nextcloud-releases/scim_client/releases/download/v1.2.0/scim_client-v1.2.0.tar.gz",
-    "version": "1.2.0",
+    "hash": "sha256-hIKZdN7D5rnT7Bv5YvTReV3oucXhze1IxijK2dT6Dv0=",
+    "url": "https://github.com/nextcloud-releases/scim_client/releases/download/v1.2.1/scim_client-v1.2.1.tar.gz",
+    "version": "1.2.1",
     "description": "Use Nextcloud as an identity provider for external services using the [SCIM](https://scim.cloud/) standard.\n\nSimply add your SCIM servers in the admin settings, and the app will automatically sync all Nextcloud users and groups to your servers.",
     "homepage": "https://github.com/nextcloud/scim_client",
     "licenses": [
@@ -2700,9 +2740,9 @@
     ]
   },
   "tables": {
-    "hash": "sha256-VjTNJ79LNZ5oBff2mAILiYnGB843V2LgN+Wxb0yG1XU=",
-    "url": "https://github.com/nextcloud-releases/tables/releases/download/v1.0.4/tables-v1.0.4.tar.gz",
-    "version": "1.0.4",
+    "hash": "sha256-8TA8HIQjdYcIzRoEIBAAR6T83sylZ9ysRbwwsWHrLqA=",
+    "url": "https://github.com/nextcloud-releases/tables/releases/download/v1.0.5/tables-v1.0.5.tar.gz",
+    "version": "1.0.5",
     "description": "Manage data the way you need it.\n\nWith this app you are able to create your own tables with individual columns. You can start with a template or from scratch and add your wanted columns.\nYou can choose from the following column types:\n- Text line or rich text\n- Link to urls or other nextcloud resources\n- Numbers\n- Progress bar\n- Stars rating\n- Yes/No tick\n- Date and/or time\n- (Multi) selection\n- Users, groups and teams\n\nShare your tables and views with users and groups within your cloud.\n\nHave a good time and manage whatever you want.",
     "homepage": "https://github.com/nextcloud/tables",
     "licenses": [
@@ -2760,10 +2800,10 @@
     ]
   },
   "theming_customcss": {
-    "hash": "sha256-tDU6GIGX5PFr6+iBYjUl4iGcZKUmc/3MUBt5xD561uw=",
-    "url": "https://github.com/nextcloud-releases/theming_customcss/releases/download/v1.19.0/theming_customcss.tar.gz",
-    "version": "1.19.0",
-    "description": "Adjust the Nextcloud theme with custom CSS",
+    "hash": "sha256-Fgu31s+K4MFUgvNe9mAVHi9C0iJnv40v1onUMk+lFZk=",
+    "url": "https://github.com/nextcloud/theming_customcss/releases/download/v1.20.0/theming_customcss.tar.gz",
+    "version": "1.20.0",
+    "description": "This app allows admins to customize the appearance of their Nextcloud instance by adding their own CSS rules.\n\nThe rules can be added in the admin settings in the \"Theming\" section. This allows you to easily adjust the look and feel of your Nextcloud instance without having to modify any files on the server.",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -2780,9 +2820,9 @@
     ]
   },
   "thesearchpage": {
-    "hash": "sha256-6b11ECSIm0rCKbYWw9JzR3A9hFf3q0iFBwB2VXuY4aE=",
-    "url": "https://github.com/callmemagnus/nextcloud-searchpage/releases/download/v2.1.1/thesearchpage.tar.gz",
-    "version": "2.1.1",
+    "hash": "sha256-jAXfXEsb1MLIBypwYJypqAiynIeqDs/dL1LI6JdfRAc=",
+    "url": "https://github.com/callmemagnus/nextcloud-searchpage/releases/download/v2.1.2/thesearchpage.tar.gz",
+    "version": "2.1.2",
     "description": "🔎 A Search Page for your Nextcloud instance\n\n- [Changelog](https://raw.githubusercontent.com/callmemagnus/nextcloud-searchpage/main/CHANGELOG.md)\n- [Help translate this application](https://app.transifex.com/nextcloud/nextcloud/thesearchpage/)\n\nIt works like the existing search widget, uses the same sources to query BUT\ndisplays the results in a more readable and browsable fashion.\n\nThe content of the results depends on the other applications installed on\nyour Nextcloud instance. Every Nextcloud application can become a search\nprovider and get its results displayed by this application.\n\nOut of the Nextcloud box, you usually get the following providers:\n\n- Apps -- searches for match for in installed application names\n- Files -- searches on path and filename\n- Tags\n- Comments\n- Settings\n\nBecause of its design, the results depend on the implementation of the providers\nin respective application.\n\nKnown issues with other applications:\n\n- users -- [by design(?), it always returns an empty array](https://github.com/nextcloud/server/issues/41274) (it is hidden/disabled in this application)\n- fulltextsearch -- does not seem to AND the query terms, OR is usually less relevant\n- news -- does not provide a direct link to a feed item.\n\n\nDon't hesitate to leave a comment here or a rating!",
     "homepage": "https://github.com/callmemagnus/nextcloud-searchpage",
     "licenses": [
