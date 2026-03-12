@@ -400,9 +400,9 @@
     ]
   },
   "collectives": {
-    "hash": "sha256-a8sMBDFa6FEZV60WjyApx/qF9Vv8WUcQnhz9GFtvfEg=",
-    "url": "https://github.com/nextcloud/collectives/releases/download/v4.0.0/collectives-4.0.0.tar.gz",
-    "version": "4.0.0",
+    "hash": "sha256-BYgY9kC91ftpw/eXlFT5ryNhjz138pzPoIh89k46GZ8=",
+    "url": "https://github.com/nextcloud/collectives/releases/download/v4.1.0/collectives-4.1.0.tar.gz",
+    "version": "4.1.0",
     "description": "Collectives is a Nextcloud App for activist and community projects to organize together.\nCome and gather in collectives to build shared knowledge.\n\n* 👥 **Collective and non-hierarchical workflow by heart**: Collectives are\n  tied to a [Nextcloud Team](https://github.com/nextcloud/circles) and\n  owned by the collective.\n* 📝 **Collaborative page editing** like known from Etherpad thanks to the\n  [Text app](https://github.com/nextcloud/text).\n* 🔤 **Well-known [Markdown](https://en.wikipedia.org/wiki/Markdown) syntax**\n  for page formatting.\n\n## Installation\n\nIn your Nextcloud instance, simply navigate to **»Apps«**, find the\n**»Teams«** and **»Collectives«** apps and enable them.",
     "homepage": "https://github.com/nextcloud/collectives",
     "licenses": [
@@ -699,6 +699,16 @@
       "agpl"
     ]
   },
+  "eimzo_sign": {
+    "hash": "sha256-WSVP16XEXKlQqCtYYiycThmRkIrRj/VYdLz2/PEdqVk=",
+    "url": "https://github.com/Phoenix4575/eimzo-sign/releases/download/v0.2.3/eimzo_sign-0.2.3.tar.gz",
+    "version": "0.2.3",
+    "description": "Adds PKCS#7 digital signature support to Nextcloud Files using E-IMZO — the official Uzbekistan public key infrastructure.\n\n**Features:**\n- Sign any file directly from the Files context menu\n- Signed PDFs automatically receive a QR stamp with a public verification link\n- Server-side PKCS#7 verification via E-IMZO Hub (OCSP + RFC 3161 timestamping)\n- Tamper-evident audit log with file hash, signature hash, signer identity\n- Admin settings: QR position, size, color, custom metadata lines\n- Multilingual: English, Russian, Uzbek\n- CSV export of audit log for compliance reporting\n\n**Requirements:**\n- E-IMZO desktop client installed on the user's machine (https://e-imzo.uz)\n- Optionally: E-IMZO Hub server for server-side verification",
+    "homepage": "https://uzcloud.uz/",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "electronicsignatures": {
     "hash": "sha256-1a3EpN+zS5dmi6QImIb/goNuHxfba0P7Zg5SCgsZvLE=",
     "url": "https://github.com/eideasy/nextcloud-electronic-signatures-plugin/releases/download/v3.0.6/electronicsignatures.tar.gz",
@@ -980,9 +990,9 @@
     ]
   },
   "files_sharing_raw": {
-    "hash": "sha256-jJQfOMLyEnMcUoHGpw4je+Yu7H7ShrgF1s9tVVNGBnY=",
-    "url": "https://github.com/ernolf/files_sharing_raw/releases/download/v0.5.1/files_sharing_raw-0.5.1.tar.gz",
-    "version": "0.5.1",
+    "hash": "sha256-fWXeRxajd01cBVSJeisUm/Lldx/AayqYZVDGoqVo8CA=",
+    "url": "https://github.com/ernolf/files_sharing_raw/releases/download/v0.5.2/files_sharing_raw-0.5.2.tar.gz",
+    "version": "0.5.2",
     "description": "Raw Fileserver (**`files_sharing_raw`**) serves files **as-is** so you can link directly to the file itself (i.e. without any of Nextcloud's UI). This makes it easy to host static web pages, RSS feeds, images, or other assets and embed/link them elsewhere.\n\n## Design goals\n\n* **Minimal**: deliver bytes, not UI.\n* **Fast**: keep server work low (good for assets).\n* **Quiet failures**: plain 404 Not found (text/plain) for invalid/missing public shares (no Nextcloud HTML error pages), ideal for asset fetches.\n* **Privacy-friendly**: **cookie-free responses** (best effort).\n* **Allowlist-gated:** public raw access is opt-in — only explicitly enabled public share tokens are served.\n* **Secure by default**: strict CSP with optional per-scope overrides. *)\n* **Streaming by default**: for normal `GET` (`200`) responses, the body is streamed whenever possible instead of loading the entire file into memory.\n\n*) For security and privacy, the content is served with a configurable [Content-Security-Policy][] (CSP) header, allowing different policies per share token, path, file extension, or MIME type (with a safe hardcoded fallback).\n\n[Content-Security-Policy]: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy\n\n## Usage\n\nThe common usage is to first share a file and enable public access through a link. In the Advanced settings of this share (in the right sidebar), the Raw link must be enabled. If the share link is `https://my-nextcloud/s/aBc123DeF456xyZ`, then this app will provide access to the raw file at `https://my-nextcloud/raw/aBc123DeF456xyZ`. If the share is a folder, the files within it are accessible as e.g. `https://my-nextcloud/raw/aBc123DeF456xyZ/path/to/file`.\n\nA user can also access their own private files. For example, a file named `test.html` in anansi's Documents folder would be available at `https://my-nextcloud/raw/u/anansi/Documents/test.html`.",
     "homepage": "https://github.com/ernolf/files_sharing_raw",
     "licenses": [
@@ -1060,9 +1070,9 @@
     ]
   },
   "formvox": {
-    "hash": "sha256-3magHbV83hf2It5qYomyebX3PcvszLcbzgdikJinrZA=",
-    "url": "https://github.com/nextcloud/formvox/releases/download/v0.3.3/formvox-0.3.3.tar.gz",
-    "version": "0.3.3",
+    "hash": "sha256-3KWXneqvdvfDYc2YXR0p05fcrU8EPHWhcILw0qxqWoM=",
+    "url": "https://github.com/nextcloud/formvox/releases/download/v0.3.5/formvox-0.3.5.tar.gz",
+    "version": "0.3.5",
     "description": "**⚠️ EVALUATION VERSION - NOT FOR PRODUCTION USE**\n\nThis is an evaluation version intended for testing and demonstration purposes only. Do not use in production environments.\n\n---\n\nFormVox is a file-based forms and polls app for Nextcloud. Unlike traditional form apps, FormVox stores everything in .fvform files - no database tables needed.\n\n**📋 Requirements:**\n* PHP 8.2 or higher\n* Nextcloud 28-33\n\n**Features:**\n* 100% file-based storage (.fvform files)\n* Multiple question types: text, textarea, single/multiple choice, dropdown, date, time, number, scale, rating, file upload, matrix\n* Conditional logic (branching)\n* Quiz mode with scoring\n* Export to CSV, JSON, Excel\n* Per-form branding with visual page builder\n* Answer piping (use previous answers in later questions)\n* Charts and visualizations in Results view\n* Password protection and expiration for public links\n\n**Unique Benefits:**\n* One file contains everything (definition + responses)\n* Works with Nextcloud's versioning\n* End-to-end encryption compatible\n* No database migrations needed\n* Native Nextcloud sharing integration\n\n**Perfect for:**\n* Surveys and feedback forms\n* Quizzes and assessments\n* Event registrations\n* Data collection with privacy requirements\n\nBuilt with Vue 3 and modern web technologies for a smooth, secure experience.",
     "homepage": "https://github.com/nextcloud/formvox",
     "licenses": [
@@ -1890,8 +1900,8 @@
     ]
   },
   "mail_roundcube_bridge": {
-    "hash": "",
-    "url": "https://github.com/Gecka-Apps/nextcloud-roundcube-bridge/releases/download/v1.0.0-rc1/mail_roundcube_bridge.tar.gz",
+    "hash": "sha256-pGMU0lBmo0E3zlk59pwQyEm8FfIAZTlmnW3duszcg70=",
+    "url": "https://github.com/Gecka-Apps/nextcloud-roundcube-bridge/releases/download/1.0.0/mail_roundcube_bridge.tar.gz",
     "version": "1.0.0",
     "description": "Provides a communication bridge between RoundCube (embedded via mail_roundcube app) and Nextcloud services.\n\n**Features:**\n- Attach files from Nextcloud to emails\n- Save email attachments to Nextcloud\n- Insert public share links into emails\n- Add calendar invitations (.ics) to Nextcloud Calendar\n\n**Requirements:**\n- mail_roundcube app must be installed\n- NextBridge plugin must be installed in RoundCube\n\nSee [NextBridge](https://github.com/Gecka-Apps/NextBridge) for the RoundCube plugin.",
     "homepage": "https://github.com/Gecka-Apps/nextcloud-roundcube-bridge",
@@ -2540,9 +2550,9 @@
     ]
   },
   "sendent": {
-    "hash": "sha256-ZpIUtgSs65JbHhPPjN2DA6hPSRy1YQV3sHD8UCL7p1Y=",
-    "url": "https://download.sendent.com/serverapp/4.0.2/sendent.tar.gz",
-    "version": "4.0.2",
+    "hash": "sha256-jF4rY6hnRrA4V6UOejJY2f5Bhr0DlPyqOpoc9nlArP8=",
+    "url": "https://download.sendent.com/serverapp/4.0.4/sendent.tar.gz",
+    "version": "4.0.4",
     "description": "Sendent now securely exchanges files and emails, integrating with both Microsoft Outlook and Microsoft Teams. This enhanced capability allows users to seamlessly conduct their work, not only within their preferred email environment but also within the collaborative framework of Microsoft Teams. Whether sharing privacy-sensitive documents, content, or handling attachments that exceed standard email size constraints, Sendent ensures a streamlined and secure communication experience. All files are directed to your Nextcloud instance, empowering you to control and manage access permissions effectively.",
     "homepage": "https://www.sendent.com",
     "licenses": [
@@ -2560,9 +2570,9 @@
     ]
   },
   "sentry": {
-    "hash": "sha256-Op6tjCwJYozNi5HMn3jBqDM8UMEBr9fwMqeLGfoKb3g=",
-    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.17.1/sentry-v8.17.1.tar.gz",
-    "version": "8.17.1",
+    "hash": "sha256-GlMkpBln/hOjLs8kxd5tegJxqrrD0UN1TyOuRBczvKQ=",
+    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.18.0/sentry-v8.18.0.tar.gz",
+    "version": "8.18.0",
     "description": "A Sentry integration that sends unhandled exceptions to a Sentry instance to aggregate application crashes. You either have to set up your own Sentry instance or use your sentry.io account. See the admin documentation for how to configure this app.",
     "homepage": "https://github.com/ChristophWurst/nextcloud_sentry",
     "licenses": [
