@@ -10,9 +10,9 @@
     ]
   },
   "aiquila": {
-    "hash": "sha256-lEezmvwKFHgaODYwk2Zs3Z3QMfTM/KLZmP2pWn7nFaM=",
-    "url": "https://github.com/elgorro/aiquila/releases/download/nc-v0.1.57/aiquila.tar.gz",
-    "version": "0.1.57",
+    "hash": "sha256-6REegzl8ua1vTcsX5fruN0jQkt2Tr6NMoyaMhvbgILo=",
+    "url": "https://github.com/elgorro/aiquila/releases/download/nc-v0.1.58/aiquila.tar.gz",
+    "version": "0.1.58",
     "description": "**AIquila** brings [Claude AI](https://www.anthropic.com/claude) capabilities directly into your [Nextcloud](https://nextcloud.com) instance — private, self-hosted, and under your control.\n\n> **Early Release** — This app is under active development. Features and APIs may change. Feedback and contributions are welcome.\n\n### Features\n\n- **Chat** — Converse with Claude about your files and documents\n- **Summarize** — Generate concise summaries of any document\n- **Create & Edit** — Draft, rewrite, and refine content with AI assistance\n- **Text Tools** — Spellcheck, rephrase, and improve your writing\n\n### Resources\n\n- [Documentation](https://github.com/elgorro/aiquila/blob/main/docs/README.md)\n- [Source Code](https://github.com/elgorro/aiquila)\n- [Report Issues](https://github.com/elgorro/aiquila/issues)\n- [Discussions](https://github.com/elgorro/aiquila/discussions)\n\n---\n\nBuilt with [Claude](https://www.anthropic.com/claude) by [Anthropic](https://www.anthropic.com). Made possible by the [Nextcloud](https://nextcloud.com) platform and its open-source community. Thank you.",
     "homepage": "https://github.com/elgorro/aiquila",
     "licenses": [
@@ -100,9 +100,9 @@
     ]
   },
   "arbeitszeitcheck": {
-    "hash": "sha256-BgmzqEFit/PILExClVzQNFT8NGE8PtWQrSHijF97zlM=",
-    "url": "https://github.com/aSoftwareByDesignRepository/ArbeitszeitCheck/releases/download/v1.1.2/arbeitszeitcheck.tar.gz",
-    "version": "1.1.2",
+    "hash": "sha256-yOy6ZqZNKsprZmJeHAKGroL85KwSLUDMRR0/CThXdKo=",
+    "url": "https://github.com/aSoftwareByDesignRepository/ArbeitszeitCheck/releases/download/v1.1.3/arbeitszeitcheck.tar.gz",
+    "version": "1.1.3",
     "description": "# ArbeitszeitCheck\n\nTime tracking focused on German working time law (ArbZG) and GDPR. Record work\ntimes, enforce breaks and rest periods, and monitor compliance – fully self‑hosted\nin your Nextcloud instance.\n\n## Features\n\n- **ArbZG-aware rules** – maximum hours, breaks, rest periods, Sundays/holidays\n- **Compliance monitoring** – automatic violation detection and reports\n- **Self‑service dashboards** – employee, team and manager views\n- **Absences & leave** – approval workflows and reporting\n- **Exports & audit log** – e.g. for DATEV and internal audits\n- 100% self‑hosted – no data leaves your server\n\n## Requirements\n\n- Nextcloud 32–36\n- PHP 8.1–8.4",
     "homepage": "https://software-by-design.de",
     "licenses": [
@@ -559,6 +559,16 @@
       "agpl"
     ]
   },
+  "files_antivirus": {
+    "hash": "sha256-heiz+a4oenQllSepLA+z1zNGx1JnJRj5dAa9LxEu+ZM=",
+    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v6.2.0/files_antivirus-v6.2.0.tar.gz",
+    "version": "6.2.0",
+    "description": "Antivirus for files is an antivirus app for Nextcloud.\n\n* 🕵️‍♂️ When the user uploads a file, it's checked\n* ☢️ Uploaded and infected files will be deleted and a notification will be shown and/or sent via email\n* 🔎 Background Job to scan all files\n* ❓ Use ClamAV (open source), Kaspersky Scan Engine or an ICAP compatible scanner\n\nThis application inspects files that are uploaded to Nextcloud for viruses before they are written to the Nextcloud storage. If a file is identified as a virus, it is either logged or not uploaded to the server. The application relies on the underlying ClamAV virus scanning engine, which the admin points Nextcloud to when configuring the application. Alternatively, a Kaspersky Scan Engine can be configured, which has to run on a separate server.\nFor this app to be effective, the ClamAV virus definitions should be kept up to date. Also note that enabling this app will impact system performance as additional processing is required for every upload. More information is available in the Antivirus documentation.",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "files_automatedtagging": {
     "hash": "sha256-A9cjrz0sJKMA+LinBiyUWJ5UOgvyfiJ3dLLP2NKBy50=",
     "url": "https://github.com/nextcloud-releases/files_automatedtagging/releases/download/v4.0.0/files_automatedtagging-v4.0.0.tar.gz",
@@ -750,9 +760,9 @@
     ]
   },
   "forum": {
-    "hash": "sha256-qrVdnZI8oceA3nPL43tOwY+peJAuyNNMt1P0dyCb0j0=",
-    "url": "https://github.com/chenasraf/nextcloud-forum/releases/download/v0.23.1/forum-v0.23.1.tar.gz",
-    "version": "0.23.1",
+    "hash": "sha256-w/22UQmsMYlhgsicLykfsjgkgsOev2ajKq5DFsMXH78=",
+    "url": "https://github.com/chenasraf/nextcloud-forum/releases/download/v0.24.0/forum-v0.24.0.tar.gz",
+    "version": "0.24.0",
     "description": "Create discussions, share ideas and collaborate with your community directly in Nextcloud.\n\n**⚠️ Early Development Notice:**\nThis app is in early stages of development. While functional, you may encounter bugs or incomplete features. Please report any issues on GitHub and consider backing up your data regularly.\n\n**Key features:**\n- **Thread-based Discussions** - Create and reply to organized discussion threads\n- **Category Organization** - Structure your forum with customizable categories and headers\n- **Rich Text Formatting** - Use BBCode for formatting posts with bold, italic, links, images, code blocks and more\n- **File Attachments** - Attach files from your Nextcloud storage to posts\n- **Post Reactions** - React to posts with emoji reactions\n- **Read/Unread Tracking** - Keep track of which threads you've read\n- **Search** - Find discussions quickly with built-in search\n- **User Profiles** - View user post history and statistics\n- **Role-Based Permissions** - Control access and moderation with flexible roles\n- **Guest Access**: Optional public access for unauthenticated users with configurable permissions\n- **Admin Tools** - Manage categories, roles, BBCodes and forum settings\n- **Moderation Tools** - Pin, lock and manage threads and posts\n\n**Perfect for:**\n- Team discussions and collaboration\n- Community forums\n- Support channels\n- Knowledge bases\n- Project discussions\n- Internal communication\n\nThe forum integrates seamlessly with your Nextcloud instance, using your existing users and groups for authentication and access control.",
     "homepage": "https://github.com/chenasraf/nextcloud-forum",
     "licenses": [
@@ -795,6 +805,16 @@
     "version": "1.3.5",
     "description": "Makes the _Full text search_ app work without any additional services.\n\nIt uses the Nextcloud MySQL or PostgreSQL database backend as search provider.\n\nCurrently can not index office document formats, but does work with PDFs (if they contain text/have been OCR'ed).\n\n**Warning:** This app will store all indexed content in your Nextcloud database *twice* (roughly) - once as plain text and once as searchable index. This means that your database can easily grow hundreds of megabytes or even gigabytes in size if you have much indexable content (e.g. documents).",
     "homepage": "https://github.com/jplitza/fulltextsearch_sql",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "geoblocker": {
+    "hash": "sha256-UWaBF9AoFkqMyidcfICKtZDTWTR6SUAMi46e8vXlqWQ=",
+    "url": "https://github.com/HomeITAdmin/nextcloud_geoblocker/releases/download/0.5.20/geoblocker.tar.gz",
+    "version": "0.5.20",
+    "description": "This is a front end to geo localization services, that allows blocking (beta), delaying (beta) and logging of login attempts from specified countries.\nLogin attempts from local network IP addresses are never blocked, delayed or logged.\nIn the current implementation the login page is normally shown to everybody independent of the country. Also login attempts with a non existing user are failing as usual independent of the country.\nWrong Nextcloud configuration (especially in container) can lead to all access seems to come from local network IP address.\nDetermination of the country from IP address is only as good as the chosen service.\n\nCountries can be specified using allowlisting or blocklisting.\n\nCurrently available localization services are:\n- Geoiplookup (local programm on the host)\n- MaxMind GeoLite2 (local database accessed via PHP API)\n- Data from Regional Internet Registries (Nextcloud SQL database build up with data downloaded from the RIRs FTP servers)\n\nFor help how to set up the localization services please have a look at the GitHub repository (homepage on the right side).",
+    "homepage": "https://github.com/HomeITAdmin/nextcloud_geoblocker/",
     "licenses": [
       "agpl"
     ]
@@ -1360,8 +1380,8 @@
     ]
   },
   "libresign": {
-    "hash": "sha256-rjyCZX1+vEs2TmMGQs8hI3ty4DbMNH5tBggvhklttiQ=",
-    "url": "https://github.com/LibreSign/libresign/releases/download/v13.1.3/libresign-v13.1.3.tar.gz",
+    "hash": "sha256-niiARnHlsgfMN3q6k2yePsOT0/uLmAZApDUH22SUOGk=",
+    "url": "https://github.com/LibreSign/libresign/releases/download/nightly/libresign-nightly.tar.gz",
     "version": "13.1.3",
     "description": "**This is a libre digital PDF signature app for Nextcloud**\n\n* ✍️ **Sign PDF** documents using digital certificates\n* 🔄 **Hybrid signatures**: You can choose between personal or system-generated digital certificates\n* 👥 **Multiple signers**: Request signature on a document for as many people as you need\n* 📸 **QR Code**: Document validation by QR Code\n* 🔒 **Privacy**: Fully self-hosted document signer\n* 📲 **Connect to your software**: Easily integrate [LibreSign](https://libresign.coop) into your service with our full-fledged [REST-API](https://libresign.coop/posts/libresign-api-guide/).\n* 🙋 **Get involved**! We have lots of stuff planned. More information at [LibreSign](https://github.com/libresign/libresign) repository.\n\n🌍 Help us translate this application on [Transifex](https://app.transifex.com/nextcloud/nextcloud/libresign/)\n\nIf you enjoy this app and want to help maintain its development or want enterprise support, please contact us:\n\n[https://libresign.coop](https://libresign.coop)\n\n## Donation\n\nDeveloped with ❤️ by [LibreCode](https://librecode.coop). Help us transform people and businesses through cooperativism.\n\n* [Donate with GitHub Sponsor: ![Donate using GitHub Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/libresign)",
     "homepage": "https://github.com/LibreSign/libresign",
@@ -1400,9 +1420,9 @@
     ]
   },
   "logcleaner": {
-    "hash": "sha256-c8ThkqVxMeQ9yXFW2Ke+RCQ83LjOXU9+GUP83KHPnZ8=",
-    "url": "https://github.com/zomtec2311/logcleaner/releases/download/1.3.3/logcleaner_1.3.3.tar.gz",
-    "version": "1.3.3",
+    "hash": "sha256-yvbCyLCJKO7ohHtfRwLLz+5UPQols9aw0pxkoDtvSEU=",
+    "url": "https://github.com/zomtec2311/logcleaner/releases/download/1.3.4/logcleaner_1.3.4.tar.gz",
+    "version": "1.3.4",
     "description": "**Administration tool for cleaning up the log file**\n\n- 🛡️ Only accessible for administration.\n- 🎨 Error levels with different colors.\n- ⚙️ Number of displayed log entries can be set.\n- 🛠️ After correcting a log entry it can be deleted from the log file.\n- ⏩ One click deletion of all duplicates within the log file.\n- 🗑️ Empty the log file without using shell commands.\n- 📜 View datails of log entries.\n- 🔍 Find solutions on the internet by various search engines.",
     "homepage": "https://github.com/zomtec2311/logcleaner",
     "licenses": [
@@ -1835,6 +1855,16 @@
     "version": "0.9.17",
     "description": "Display and play MusicXML and related music notation formats inside Nextcloud using OpenSheetMusicDisplay.\n\nFeatures:\n- 🎼 Sheet Music Display: Render MusicXML, compressed MusicXML (.mxl), and other formats\n- ▶️ Advanced Playback: Play, pause, stop, and loop with real-time cursor tracking\n- 🎚️ Instrument Mixer: Individual volume control for each instrument/channel\n- 🎵 Tempo & Volume Control: Precise BPM adjustment (40-240) and master volume\n- 📊 Progress Tracking: Visual progress bar with time and measure indicators\n- ⌨️ Keyboard Shortcuts: Space (play/pause), arrows (navigate), +/- (zoom)\n- 🔍 Smart Search: Real-time search across all scores and folders\n- 📱 Responsive Design: Adaptive layout with collapsible sidebar",
     "homepage": "https://github.com/micheledimeo/Scores",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "secrets": {
+    "hash": "sha256-EMPEUmrppPc8aNPRZCJ+ijGLsHkgb18dlaP0DrtH3a0=",
+    "url": "https://github.com/theCalcaholic/nextcloud-secrets/releases/download/v2.1.7/secrets.tar.gz",
+    "version": "2.1.7",
+    "description": "Secrets allows users to generate share links for text based data (e.g. passwords, CSV lists, bank accounts...) that can be sent to anyone (including receivers without a Nextcloud account) for retrieval. The data itself will be end-to-end encrypted (so not even Nextcloud can access it) and the encryption key will be part of the share link (the anchor part) - but never be actually sent to the server. Once retrieved, the secret will be deleted from the server, ensuring, that if it arrived at the correct receiver it has been seen by nobody else.\n\nSecrets now comes with a cli that can be used to automate the provisioning of secret shares: https://github.com/theCalcaholic/nextcloud-secrets/releases",
+    "homepage": "",
     "licenses": [
       "agpl"
     ]
