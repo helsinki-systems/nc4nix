@@ -9,6 +9,16 @@
       "agpl"
     ]
   },
+  "agora": {
+    "hash": "sha256-G6xhx9weS6oG2aiQxSNYsQl6plJHmE9z3VxAVgl+xLM=",
+    "url": "https://github.com/vinimoz/agora/releases/download/v1.7.0/agora.tar.gz",
+    "version": "1.7.0",
+    "description": "**Agora** is a **Nextcloud app for participatory democracy**, inspired by [Decidim](https://decidim.org) and built on [Nextcloud Polls](https://github.com/nextcloud/polls).\n\t\tIt enables communities and organizations to collaborate on **proposals, debates, petitions, and projects** in a transparent and structured way.\n\n\t\t### ✨ Key Features\n\t\t- 💬 Comments and discussions\n\t\t- 👍 Supports (likes/upvotes)\n        - 👍 Supports (likes/neutral/against)\n        - 🧩 Custom inquiry families and types\n        - 🧾 Multiple inquiry formats (proposals, debates, petitions, projects…)\n        - 📂 Categorization and filtering by family or location\n        - 🧱 Scalable architecture and modern UX\n        - 🔒 Secure and private — all data stays on your Nextcloud server\n        - 🔗 Integration with Forms, Polls, Deck, Collectives,...\n        - 🏛 Collectives desgin UX\n        - 🗣 Real debate features (structured replies, multi-thread discussions)  \n        - 📜 Project law reading with article-level comments and supports  \n        - 🧰 Template for different goal, democraty, university, company, custom \n\n        ### 🧭 Coming Next\n        - 🏛 Collectives → Submit group of inquiries to Polls application for consultation or referendum  \n        - 🧮 Quorums and workflow automation  \n        - 🧰 Better permission control and moderation tools",
+    "homepage": "https://github.com/vinimoz/agora",
+    "licenses": [
+      "AGPL-3.0-or-later"
+    ]
+  },
   "aiquila": {
     "hash": "sha256-HqpprjwfBz2flYmPs3WnV0PaO2BTq7nUwUGIf67SjDM=",
     "url": "https://github.com/elgorro/aiquila/releases/download/nc-v0.1.60/aiquila.tar.gz",
@@ -30,9 +40,9 @@
     ]
   },
   "analytics": {
-    "hash": "sha256-DvrHwIOjjx/JbcpuCKO6Q3cne3XB4qHOLbeyQZq5Xag=",
-    "url": "https://github.com/Rello/analytics/releases/download/6.1.0/analytics-6.1.0.tar.gz",
-    "version": "6.1.0",
+    "hash": "sha256-fu7I9GnB2zafOsB01RcGf4FED/maOYl2tk4BhpMCdQA=",
+    "url": "https://github.com/Rello/analytics/releases/download/6.2.0/analytics-6.2.0.tar.gz",
+    "version": "6.2.0",
     "description": "Connect data from different sources in one place and turn it into shareable insights. Analytics lets teams build flexible panoramas, dashboards, and reports with seamless Nextcloud integration.\n\n## Why Analytics\n- **Centralize data**: combine CSV, spreadsheets, APIs, and Nextcloud apps in one place.\n- **Analyze faster**: use charts, tables, filters, and panoramas to explore data quickly.\n- **Share securely**: collaborate with users, groups, or share links with fine-grained access.\n- **Automate updates**: schedule data loads and keep reports current.\n\n#### Features:\n- **Visualization**: panoramas, reports, charts, tables, filters\n- **Data sources**:\n  - CSV, spreadsheets, API, imports, manual entry\n  - External sources: GitHub, website grabber, JSON\n- **Extensible**: register custom data sources from other apps\n- **Storage**: real-time or database\n- **Automation**: scheduled data loads\n- **Functions**: trend calculations, dis-/aggregation\n- **Alerts**: thresholds for notifications and color coding\n- **Integration**: Files, Activity, Notifications, Flow, Dashboard, Search, Smart picker, Translation\n- **AI Assistant**: Context Chat integration",
     "homepage": "https://rello.github.io/analytics/",
     "licenses": [
@@ -340,8 +350,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -619,6 +629,16 @@
       "agpl"
     ]
   },
+  "files_external_ethswarm": {
+    "hash": "sha256-NFjWMjraBQrECaeDzhM9cRRobMpg+xF7Xz3lEuianwQ=",
+    "url": "https://github.com/MetaProvide/nextcloud-swarm-plugin/releases/download/v1.0.3/files_external_ethswarm.tar.gz",
+    "version": "1.0.3",
+    "description": "*Bring decentralized, sovereign cloud storage to Nextcloud with the HejBit Swarm plugin!*\n\nThis plugin integrates [Swarm](https://www.ethswarm.org/) (a decentralized, blockchain-connected file storage system) directly into your [Nextcloud ](https://nextcloud.com/)instance.\n\n## Table of Contents\n\n- Dependencies\n- Setup and Installation\n- Usage\n  - Settings\n  - Using HejBit Swarm\n  - Additional Integration with Moodle\n- HejBit Free Trial\n- License\n\n\n## Dependencies\n\nBefore using the plugin, ensure you have the following:\n\n- An active Nextcloud instance (version 32 or 33)\n- A valid Access Key and URL to activate the service\n  - [Get Your Free Trial for the Nextcloud Swarm Plugin](https://app.hejbit.com)\n\n## Setup and Installation\n\nFollow these steps to configure HejBit Swarm in Nextcloud:\n\n1. Ensure the **External Storage** plugin is enabled.\n2. Install the **External Storage: HejBit Swarm** app from the Nextcloud App Store.\n3. Navigate to External Storage Administration: Profile menu -> Settings -> External Storage.\n4. Create a new external storage with a folder name of your choice and select *'HejBit-Swarm'* as the storage type. Then, enter the Access Key and URL configuration.\n\n## Usage\n\nOnce installed, HejBit integrates Swarm directly with Nextcloud’s \"Files\" section, allowing seamless file operations:\n\n- **Upload:** Transfer files to decentralized storage.\n- **Download/View:** Retrieve and view files from decentralized storage.\n- **Copy/Move:** Shift files between any external storage and decentralized storage.\n- **Rename:** Change file names as needed.\n- **Archive/Restore:** Manage your files by archiving or restoring them.\n- **Hide/Show:** Control the visibility of files in your storage.\n- **View Swarm Reference:** Access the unique Swarm reference for each file.\n- **Export all Swarm References:** Backup all your Swarm references easily.\n\nAdditionally, we have introduced a HejBit Feedback button that appears in the bottom left corner when you are inside a HejBit folder. This feature allows users to easily send feedback regarding general inquiries, ideas, or issues directly from the plugin.\n\n### Settings\n\nUsers with administrative credentials can configure the plugin through the standard External Storage settings. Here, you can input your Access Key and URL for HejBit.\n\n### Using HejBit Swarm\n\nOnce setup and configured, the Decentralized Storage is ready to use.\n\n- Access the Decentralized Storage folder under \"All Files\" or via the \"Files\" menu under \"External Storage.\"\n- Once uploaded, it can be viewed internally or downloaded. It can also be copied to another storage.\n- Files from another Nextcloud storage can also be copied/moved to the decentralized storage. Choose the decentralized storage folder as the target Folder.\n- To access a file's Swarm reference (its unique swarm network address), you have two options: right-click directly on the file and select the reference option, or use the three-dot Actions menu and choose 'View Swarm Reference.' Both methods will display the hash, which you can then copy to your clipboard for sharing or future access.\n- To effectively organize your files, you can utilize the Archive and Restore features for both folders and individual files, allowing for better management of your storage.\n- For a comprehensive backup of all your Swarm hashes, you can easily export all Swarm references directly from the menu located in the root HejBit Swarm folder.\n- We encourage you to share your thoughts and experiences with us! A **HejBit Feedback** button is conveniently located in the bottom left corner when you are inside a HejBit folder. This feature allows you to provide feedback on any inquiries, suggestions, or issues you may encounter, helping us enhance your experience and improve the plugin for all users.\n\n\n\n\n### Additional Integration with Moodle\n\nYou can also enhance your experience by integrating the HejBit Swarm plugin with the **Moodle Nextcloud plugin**. This integration allows users to access decentralized storage directly within the Moodle environment, providing a seamless experience for educational content management. For more information on how to set up this integration, visit the [Moodle Nextcloud repository documentation](https://docs.moodle.org/405/en/Nextcloud_repository).\n\nFor detailed guidance on using the integrated features, please refer to the [Metaprovide Learning Platform](https://learning.metaprovide.org/login/index.php).\n\n## HejBit Free Trial\n\nExperience the future of data storage with 5GB of free, decentralized storage on the Ethereum Swarm network. This offer is available as a 14-day free trial, allowing you to explore the capabilities of our plugin without any commitment. HejBit seamlessly integrates with your existing Nextcloud interface, providing true data sovereignty without the complexity. Enjoy the benefits of decentralized storage and take control of your data today!\n[Get your Free Trial here!](https://app.hejbit.com)\n\n## License\n\nThis program is licensed under the AGPLv3 or later.",
+    "homepage": "https://github.com/MetaProvide/nextcloud-swarm-plugin",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "files_fulltextsearch": {
     "hash": "sha256-5KaE6PSdDaxuEliFtr3zjnFNnRzUhsJU/8M7dvtUwEs=",
     "url": "https://github.com/nextcloud-releases/files_fulltextsearch/releases/download/33.0.0/files_fulltextsearch-33.0.0.tar.gz",
@@ -760,9 +780,9 @@
     ]
   },
   "forum": {
-    "hash": "sha256-w/22UQmsMYlhgsicLykfsjgkgsOev2ajKq5DFsMXH78=",
-    "url": "https://github.com/chenasraf/nextcloud-forum/releases/download/v0.24.0/forum-v0.24.0.tar.gz",
-    "version": "0.24.0",
+    "hash": "sha256-2CylCBmxzSHyOSPIgcz9DiwGnPsf2EAviRc605rwwpU=",
+    "url": "https://github.com/chenasraf/nextcloud-forum/releases/download/v0.25.0/forum-v0.25.0.tar.gz",
+    "version": "0.25.0",
     "description": "Create discussions, share ideas and collaborate with your community directly in Nextcloud.\n\n**⚠️ Early Development Notice:**\nThis app is in early stages of development. While functional, you may encounter bugs or incomplete features. Please report any issues on GitHub and consider backing up your data regularly.\n\n**Key features:**\n- **Thread-based Discussions** - Create and reply to organized discussion threads\n- **Category Organization** - Structure your forum with customizable categories and headers\n- **Rich Text Formatting** - Use BBCode for formatting posts with bold, italic, links, images, code blocks and more\n- **File Attachments** - Attach files from your Nextcloud storage to posts\n- **Post Reactions** - React to posts with emoji reactions\n- **Read/Unread Tracking** - Keep track of which threads you've read\n- **Search** - Find discussions quickly with built-in search\n- **User Profiles** - View user post history and statistics\n- **Role-Based Permissions** - Control access and moderation with flexible roles\n- **Guest Access**: Optional public access for unauthenticated users with configurable permissions\n- **Admin Tools** - Manage categories, roles, BBCodes and forum settings\n- **Moderation Tools** - Pin, lock and manage threads and posts\n\n**Perfect for:**\n- Team discussions and collaboration\n- Community forums\n- Support channels\n- Knowledge bases\n- Project discussions\n- Internal communication\n\nThe forum integrates seamlessly with your Nextcloud instance, using your existing users and groups for authentication and access control.",
     "homepage": "https://github.com/chenasraf/nextcloud-forum",
     "licenses": [
@@ -830,9 +850,9 @@
     ]
   },
   "gpxpod": {
-    "hash": "sha256-xbxScbnFFbQ64+nO+evMHTrboQ6u1T/ec7w4rwPAhDs=",
-    "url": "https://github.com/julien-nc/gpxpod/releases/download/v8.1.0/gpxpod-8.1.0.tar.gz",
-    "version": "8.1.0",
+    "hash": "sha256-vKOoiLC4RNV0Xb8yerQzFZZz3rjKx2XFWl00pP9av18=",
+    "url": "https://github.com/julien-nc/gpxpod/releases/download/v8.2.1/gpxpod-8.2.1.tar.gz",
+    "version": "8.2.1",
     "description": "# GpxPod Nextcloud application\n\nDisplay, analyse, compare and share GPS track files.\n\n🌍 Help us to translate this app on [GpxPod Crowdin project](https://crowdin.com/project/gpxpod).\n\nGpxPod:\n\n* 🗺 can display your gpx/kml/tcx/igc/fit files\n* 📏 supports metric, english and nautical measure systems\n* 🗠 draws interactive chart for elevation, speed, pace or any extension data\n* 🗠 use line gradient color for track lines with speed, elevation, pace or any extension data\n* 🗠 shows track statistics\n* 🖻 displays geotagged pictures\n* 🖧 generates public links pointing to a track/folder\n* 🗠 can correct tracks elevations using SRTM data\n* ⚖ can make global comparison of multiple tracks\n* ⚖ can make visual pair comparison of divergent parts of similar tracks\n* 🀆 allows users to add personal map tile servers\n* 🖍 allows user to manually choose line color for each track\n* 🔒 works with encrypted data folder (server side encryption)\n* 🍂 proudly uses Leaflet and MapLibre GL\n\nLink to Nextcloud application website : https://apps.nextcloud.com/apps/gpxpod\n\n## Install\n\nSee the [AdminDoc](https://gitlab.com/eneiluj/gpxpod-oc/wikis/admindoc) for installation details\n\n## Known issues\n\n* *WARNING*, kml conversion will NOT work with recent kml files using the proprietary \"gx:track\" extension tag.\n\nAny feedback will be appreciated.\n\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://github.com/julien-nc/gpxpod",
     "licenses": [
@@ -1170,9 +1190,9 @@
     ]
   },
   "integration_overleaf": {
-    "hash": "sha256-pKWzZNQ/IrZhqvyTo1ksZrE3ylgQv3PyuoINfJdonZw=",
-    "url": "https://github.com/nextcloud-releases/integration_overleaf/releases/download/v1.1.0/integration_overleaf-v1.1.0.tar.gz",
-    "version": "1.1.0",
+    "hash": "sha256-uXuqlX6833c7RhKvOrfKlXgUyK+OnZhZGQ9nc02IR3s=",
+    "url": "https://github.com/nextcloud-releases/integration_overleaf/releases/download/v2.0.1/integration_overleaf-v2.0.1.tar.gz",
+    "version": "2.0.1",
     "description": "App to edit LaTeX files using Overleaf.",
     "homepage": "",
     "licenses": [
@@ -1400,9 +1420,9 @@
     ]
   },
   "linkboard": {
-    "hash": "sha256-ipsllr2PcNki9UAagRhZHJpR5CGlJmZYtjgBMm5IwRs=",
-    "url": "https://github.com/tschuegy/linkboard-nextcloud/releases/download/v1.5.0/linkboard.tar.gz",
-    "version": "1.5.0",
+    "hash": "sha256-cAxA+me2cpypnsaHZdkZTgxSbFMiwiREUjXblOAUZ8M=",
+    "url": "https://github.com/tschuegy/linkboard-nextcloud/releases/download/v1.5.4/linkboard.tar.gz",
+    "version": "1.5.4",
     "description": "**LinkBoard** – A beautiful, customizable service dashboard for your homelab.\n\nOrganize your services in categories, monitor their status,\nand access everything from within Nextcloud.\n\n### Features\n- 🏠 Personal dashboard with service tiles grouped by category\n- 🎨 Dark/Light mode with customizable backgrounds\n- 🖼️ Flexible icon system (upload, URL, Material Design Icons)\n- 📋 YAML & JSON import/export (Gethomepage compatible)\n- 🔍 Quick search across all services\n- 📂 Nested categories with drag & drop grouping\n- ✏️ Inline editing with drag & drop sorting\n- 🩺 Service health checks with status indicators\n- 📈 Status history with response time charts and uptime tracking\n- 📊 Widget system for live data from external APIs\n\nEach user gets their own personal dashboard – up to 500 services.",
     "homepage": "https://github.com/tschuegy/linkboard-nextcloud",
     "licenses": [
@@ -2215,6 +2235,16 @@
     "version": "1.0.8",
     "description": "Monitor and enforce user data transfer quotas (upload and download) with configurable limits and notifications",
     "homepage": "https://github.com/Bruce-Matrix/transfer_quota_monitor",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "twofactor_admin": {
+    "hash": "sha256-tZG2NCd4WxnPwf1KJq5mBX7Zfy0rDjigJGOw2qypUlU=",
+    "url": "https://github.com/nextcloud-releases/twofactor_admin/releases/download/v4.11.0/twofactor_admin-v4.11.0.tar.gz",
+    "version": "4.11.0",
+    "description": "This two-factor auth (2FA) provider for Nextcloud allows admins to generate a one-time\n\t\tcode for users to log into a 2FA protected account. This is helpful in situations where\n\t\tusers have lost access to their other 2FA methods or mandatory 2FA without any previously\n\t\tenabled 2FA provider.",
+    "homepage": "",
     "licenses": [
       "agpl"
     ]
