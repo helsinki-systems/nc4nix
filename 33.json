@@ -1,8 +1,8 @@
 {
   "admincockpit": {
-    "hash": "sha256-z+8yI4di63TZmd5waf0XFpWqNgKYFqnGfY42rCYpa7g=",
-    "url": "https://github.com/zomtec2311/admincockpit/releases/download/1.2.1/admincockpit-1.2.1.tar.gz",
-    "version": "1.2.1",
+    "hash": "sha256-3Q21K/2e84CjI2c/tHOM73ALbseaHslt78GN0k67xtM=",
+    "url": "https://github.com/zomtec2311/admincockpit/releases/download/1.2.2/admincockpit-1.2.2.tar.gz",
+    "version": "1.2.2",
     "description": "**AdminCockpit is an administration tool for Nextcloud**\n- ✅ All important administration pages at a glance\n- ✅ No more clicking back and forth in the menus\n- ✅ Modern and compact look\n- ✅ Intuitive operation without a page-long manual\n- ✅ send notification to users and groups",
     "homepage": "https://github.com/zomtec2311/admincockpit",
     "licenses": [
@@ -20,10 +20,10 @@
     ]
   },
   "aiquila": {
-    "hash": "sha256-eeFFVxDol7S1KUEwJn38UYQooSY6r+E4dbPgv/4kMZs=",
-    "url": "https://github.com/elgorro/aiquila/releases/download/nc-v0.1.65/aiquila.tar.gz",
-    "version": "0.1.65",
-    "description": "**AIquila** brings [Claude AI](https://www.anthropic.com/claude) capabilities directly into your [Nextcloud](https://nextcloud.com) instance — private, self-hosted, and under your control.\n\n> **Early Release** — This app is under active development. Features and APIs may change. Feedback and contributions are welcome.\n\n### Features\n\n- **Chat** — Converse with Claude about your files and documents\n- **Summarize** — Generate concise summaries of any document\n- **Create & Edit** — Draft, rewrite, and refine content with AI assistance\n- **Text Tools** — Spellcheck, rephrase, and improve your writing\n\n### Resources\n\n- [Documentation](https://github.com/elgorro/aiquila/blob/main/docs/README.md)\n- [Source Code](https://github.com/elgorro/aiquila)\n- [Report Issues](https://github.com/elgorro/aiquila/issues)\n- [Discussions](https://github.com/elgorro/aiquila/discussions)\n\n---\n\nBuilt with [Claude](https://www.anthropic.com/claude) by [Anthropic](https://www.anthropic.com). Made possible by the [Nextcloud](https://nextcloud.com) platform and its open-source community. Thank you.",
+    "hash": "sha256-C4+FBefWrQNee879WhVs9ssdJLlScdYjQBWGh0k1Iq4=",
+    "url": "https://github.com/elgorro/aiquila/releases/download/nc-v0.1.68/aiquila.tar.gz",
+    "version": "0.1.68",
+    "description": "**AIquila** connects your [Nextcloud](https://nextcloud.com) with [Claude AI](https://www.anthropic.com/claude) — private, self-hosted, and under your control.\n\n### Nextcloud App\n\n- **Chat** — Converse with Claude about your files and documents\n- **Summarize** — Generate concise summaries of any document\n- **Create & Edit** — Draft, rewrite, and refine content with AI assistance\n- **Text Tools** — Spellcheck, rephrase, and improve your writing\n\n### MCP Server\n\nAIquila includes a [Model Context Protocol](https://modelcontextprotocol.io) server with 100+ tools that gives Claude Desktop, Claude Code, Claude.ai, and the Claude mobile app direct access to your Nextcloud:\n\n- **Files** — Browse, read, write, search, and share\n- **Calendar & Tasks** — View, create, and manage events and to-dos\n- **Contacts & Mail** — Read and manage address books, accounts, and messages\n- **Notes & Recipes** — Create and edit Markdown notes and recipes\n- **Bookmarks & Maps** — Manage bookmarks, GPS tracks, favorites, and photos\n\n### Resources\n\n- [Documentation](https://github.com/elgorro/aiquila/blob/main/docs/README.md)\n- [Source Code](https://github.com/elgorro/aiquila)\n- [Report Issues](https://github.com/elgorro/aiquila/issues)\n- [Discussions](https://github.com/elgorro/aiquila/discussions)\n\n---\n\nMade possible by [Claude](https://www.anthropic.com/claude) from [Anthropic](https://www.anthropic.com) and the [Nextcloud](https://nextcloud.com) open-source community.",
     "homepage": "https://github.com/elgorro/aiquila",
     "licenses": [
       "AGPL-3.0-or-later"
@@ -165,6 +165,16 @@
     "version": "0.3.0",
     "description": "Have previews for your audio files.\n\nThis preview provider creates previews of audio files in waveforms, created out\nof the audio content. This app needs a local copy of [audiowaveform](https://github.com/bbc/audiowaveform),\nan open source library by the BBC.\n\nSupported formats: **flac**, **ogg**, **opus**, **mp3**, **wav**",
     "homepage": "https://codeberg.org/Blizzz/audiowaveform_preview_provider",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "auto_groups": {
+    "hash": "sha256-LxH/LcuCFQMtz/mAtfMhEWLhqDNUPQM1KwFv70uH+GU=",
+    "url": "https://github.com/jo23sh/auto_groups/releases/download/v1.7.0/auto_groups-v1.7.0.tar.gz",
+    "version": "1.7.0",
+    "description": "Automatically add users to the specified Auto Groups, except those users belonging to one of the specified Override Groups. \nOptionally, the group assignment can be triggered on every successful login, which is useful for external user backends.\n\n## Configuration\n\n- Go to \"Settings > Administration > Additional settings\"\n- Configure the Auto Groups\n- If required, configure the Override Groups (e.g., for Service Accounts)\n- Optionally, enable the Login Hook, which will enforce correct group membership on every successful login\n\nNote that this app prevents group deletions for groups referenced as Auto Groups or Override Groups.\n\n## Comparison to similar Apps\n\n* [Everyone Group](https://apps.nextcloud.com/apps/group_everyone): The \"Everyone Group\" app adds a virtual Group Backend, always returning all users. In contrast, \"Auto Groups\" operates on \"real\" groups in your normal Group Backend. Additionally, it is possible to specify Override Groups which will prevent users from being added to the Auto Group(s).\n* [Default Group](https://apps.nextcloud.com/apps/defaultgroup): \"Auto Groups\" is actually a modernized and maintaned fork of \"Default Group\", which seems to be abandoned since NC12 or so. In terms of functionality, they are almost identical.",
+    "homepage": "https://github.com/stjosh/auto_groups",
     "licenses": [
       "agpl"
     ]
@@ -1460,11 +1470,21 @@
     ]
   },
   "logcleaner": {
-    "hash": "sha256-yvbCyLCJKO7ohHtfRwLLz+5UPQols9aw0pxkoDtvSEU=",
-    "url": "https://github.com/zomtec2311/logcleaner/releases/download/1.3.4/logcleaner_1.3.4.tar.gz",
-    "version": "1.3.4",
+    "hash": "sha256-PAf38nCR9i0CxaNmbtCgDdGetYLcsOWYyFQ/EejlitY=",
+    "url": "https://github.com/zomtec2311/logcleaner/releases/download/1.3.5/logcleaner_1.3.5.tar.gz",
+    "version": "1.3.5",
     "description": "**Administration tool for cleaning up the log file**\n\n- 🛡️ Only accessible for administration.\n- 🎨 Error levels with different colors.\n- ⚙️ Number of displayed log entries can be set.\n- 🛠️ After correcting a log entry it can be deleted from the log file.\n- ⏩ One click deletion of all duplicates within the log file.\n- 🗑️ Empty the log file without using shell commands.\n- 📜 View datails of log entries.\n- 🔍 Find solutions on the internet by various search engines.",
     "homepage": "https://github.com/zomtec2311/logcleaner",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "login_notes": {
+    "hash": "sha256-54H/Wol6eMLSr3GVL0jDpx8ipN0AlG+JXkrmCsj9VFU=",
+    "url": "https://packages.framasoft.org/projects/nextcloud-apps/login-notes/login_notes-1.8.0.tar.gz",
+    "version": "1.8.0",
+    "description": "This app will show admin defined notes the log-in page",
+    "homepage": "https://framagit.org/framasoft/nextcloud/login-notes",
     "licenses": [
       "agpl"
     ]
@@ -1660,9 +1680,9 @@
     ]
   },
   "orchestrascoresmanager": {
-    "hash": "sha256-CAuyQjPfVI1u5tti9LhHNziH+oVWUwCgpBCmhIU/klg=",
-    "url": "https://github.com/Bibo-Joshi/orchestrascoresmanager/releases/download/0.6.0-rc1/orchestrascoresmanager-0.6.0-rc1.tar.gz",
-    "version": "0.6.0",
+    "hash": "sha256-4qXC5zx0GFLrqk8+dgqXy40A4lGq6pOt3AFSEdiAjl4=",
+    "url": "https://github.com/Bibo-Joshi/orchestrascoresmanager/releases/download/0.6.1-rc1/orchestrascoresmanager-0.6.1-rc1.tar.gz",
+    "version": "0.6.1",
     "description": "⚠️ Early development phase – expect rough edges and breaking changes. Source code and issue tracker at https://github.com/Bibo-Joshi/orchestrascoresmanager\n\nOrchestra Scores Manager lets you maintain a structured database of your orchestra's sheet music (scores) inside Nextcloud.\n\nKey features:\n- Manage individual scores with rich metadata (composer, arranger, publisher, year, difficulty, and more)\n- Organize scores into score books and folder collections\n- Track version history of folder collections\n- Build and manage setlists\n- Categorize scores with tags\n- Add comments to scores",
     "homepage": "https://github.com/Bibo-Joshi/orchestrascoresmanager",
     "licenses": [
@@ -1720,9 +1740,9 @@
     ]
   },
   "phonetrack": {
-    "hash": "sha256-+JPK8Eh7RFHMreCdlA1F1jBUD04Fw0R952TBHOUXDQ0=",
-    "url": "https://github.com/julien-nc/phonetrack/releases/download/v1.0.1/phonetrack-1.0.1.tar.gz",
-    "version": "1.0.1",
+    "hash": "sha256-AbQD26tChH+A8jlLh9TUEnqBxVtIeEeq6gmM7YTmwdc=",
+    "url": "https://github.com/julien-nc/phonetrack/releases/download/v1.1.0/phonetrack-1.1.0.tar.gz",
+    "version": "1.1.0",
     "description": "# PhoneTrack Nextcloud application\n\n📱 PhoneTrack is a Nextcloud application to track and store mobile device's locations.\n\n🗺 It receives information from mobile phone's logging apps and displays it dynamically on a map.\n\n🌍 Help us to translate this app on [PhoneTrack Crowdin project](https://crowdin.com/project/phonetrack).\n\n⚒ Check out other ways to help in the [contribution guidelines](https://gitlab.com/eneiluj/phonetrack-oc/blob/master/CONTRIBUTING.md).\n\nHow to use PhoneTrack :\n\n- Create a tracking session.\n- Give the logging link\\* to the mobile devices. Choose the [logging method](https://github.com/julien-nc/phonetrack/blob/main/doc/user.md#logging-methods) you prefer.\n- Watch the session's devices location in real time (or not) in PhoneTrack or share it with public pages.\n\n(\\*) Don't forget to set the device name in the link (rather than in the logging app settings). Replace \"yourname\" with the desired device name.\nSetting the device name in logging app settings only works with Owntracks, Traccar and OpenGTS.\n\nOn PhoneTrack main page, while watching a session, you can :\n\n- 📍 Display location history\n- ⛛ Filter points\n- ✎ Manually edit/add/delete points\n- ✎ Edit devices (rename, change colour/shape, move to another session)\n- ⛶ Define geofencing zones for devices\n- ⚇ Define proximity alerts for device pairs\n- 🖧 Share a session to other Nextcloud users or with a public link (read-only)\n- 🔗 Generate public share links with optional restrictions (filters, device name, last positions only, geofencing simplification)\n- 🖫 Import/export a session in GPX format (one file with one track per device or one file per device)\n- 🗠 Display sessions statistics\n- 🔒 [Reserve a device name](https://github.com/julien-nc/phonetrack/blob/main/doc/user.md#device-name-reservation) to make sure only authorized user can log with this name\n- 🗓 Toggle session auto export and auto purge (daily/weekly/monthly)\n- ◔ Choose what to do when point number quota is reached (block logging or delete oldest point)\n\nPublic page and public filtered page work like main page except there is only one session displayed, everything is read-only and there is no need to be logged in.\n\nThis app is under development.\n\n## Install\n\nSee the [AdminDoc](https://gitlab.com/eneiluj/phonetrack-oc/wikis/admindoc) for installation details.\n\nCheck [CHANGELOG](https://gitlab.com/eneiluj/phonetrack-oc/blob/master/CHANGELOG.md#change-log) file to see what's new and what's coming in next release.\n\nCheck [AUTHORS](https://gitlab.com/eneiluj/phonetrack-oc/blob/master/AUTHORS.md#authors) file to see complete list of authors.\n\n## Known issues\n\n- PhoneTrack **now works** with Nextcloud group restriction activated. See [admindoc](https://github.com/julien-nc/phonetrack/blob/main/doc/admin.md#issue-with-phonetrack-restricted-to-some-groups-in-nextcloud).\n\nAny feedback will be appreciated.\n\n\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://github.com/julien-nc/phonetrack",
     "licenses": [
@@ -1899,6 +1919,16 @@
       "agpl"
     ]
   },
+  "schoolplanner": {
+    "hash": "sha256-mKLm/t/nd6yFICbr7VHpXQiHzsPbO5DP1S/+81pDF3o=",
+    "url": "https://github.com/holger-dev/schoolplanner/releases/download/v1.0.0/schoolplanner.tar.gz",
+    "version": "1.0.0",
+    "description": "Plan courses, lessons and lesson flow elements inside Nextcloud and publish selected content to an external web server.",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "scim_client": {
     "hash": "sha256-hIKZdN7D5rnT7Bv5YvTReV3oucXhze1IxijK2dT6Dv0=",
     "url": "https://github.com/nextcloud-releases/scim_client/releases/download/v1.2.1/scim_client-v1.2.1.tar.gz",
@@ -1950,9 +1980,9 @@
     ]
   },
   "sentry": {
-    "hash": "sha256-GlMkpBln/hOjLs8kxd5tegJxqrrD0UN1TyOuRBczvKQ=",
-    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.18.0/sentry-v8.18.0.tar.gz",
-    "version": "8.18.0",
+    "hash": "sha256-Iek+ocXMZh3QfCbYpeJ7LR5wrABqD5K/TGNUIolAIMk=",
+    "url": "https://github.com/ChristophWurst/nextcloud_sentry/releases/download/v8.18.1/sentry-v8.18.1.tar.gz",
+    "version": "8.18.1",
     "description": "A Sentry integration that sends unhandled exceptions to a Sentry instance to aggregate application crashes. You either have to set up your own Sentry instance or use your sentry.io account. See the admin documentation for how to configure this app.",
     "homepage": "https://github.com/ChristophWurst/nextcloud_sentry",
     "licenses": [
@@ -2007,6 +2037,16 @@
     "homepage": "https://gitnet.fr/deblan/side_menu",
     "licenses": [
       "agpl"
+    ]
+  },
+  "simpledms_integration": {
+    "hash": "sha256-pcwOAdDMFqjgLAxaxvUA1ptednGGujeJ0qNur+ArhZQ=",
+    "url": "https://github.com/simpledms/nextcloud-integration/releases/download/v1.0.0/simpledms_integration-v1.0.0.tar.gz",
+    "version": "1.0.0",
+    "description": "[SimpleDMS](https://simpledms.eu) integration that adds a files context menu action to upload a file from Nextcloud to SimpleDMS.",
+    "homepage": "https://simpledms.eu",
+    "licenses": [
+      "AGPL-3.0-only"
     ]
   },
   "sip_trip_phone": {
@@ -2145,6 +2185,16 @@
     "version": "0.1.139",
     "description": "🗂️ A Nextcloud App for Software Catalogs\n\nThe Software Catalogus Nextcloud app offers a powerful framework for managing and synchronizing software catalogs within a federated, open data environment.\n\n- 🔄 Synchronize your software data with multiple catalogs\n- 📡 Automatically publish and update your software catalog information\n- 🆓 Completely free and open source under the EUPL license\n\n**Note: System Cron is required for this app to function properly**\n\nFind the installation requirements [here](https://conduction.gitbook.io/opencatalogi-nextcloud/install).\n\nView the development roadmap [here](https://github.com/orgs/OpenCatalogi/projects/1/views/2).\n\nSubmit a [bug report](https://github.com/OpenCatalogi/.github/issues/new/choose).\n\nSubmit a [feature request](https://github.com/OpenCatalogi/.github/issues/new/choose).",
     "homepage": "https://github.com/ConductionNL/SoftwareCatalogus",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "spiresearch": {
+    "hash": "sha256-PVmRww4FFgmJYy3FU4lHs82eNYHRiMJsDh6ALJhco+Q=",
+    "url": "https://gitlab.com/api/v4/projects/76392015/packages/generic/spiresearch/1.0.0/spiresearch-1.0.0.tar.gz",
+    "version": "1.0.0",
+    "description": "Add semantic search provided by Spire SE, a semantic search engine currently in development.\n\t\tContact at info+app@spire-se.eu",
+    "homepage": "",
     "licenses": [
       "agpl"
     ]
