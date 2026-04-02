@@ -20,9 +20,9 @@
     ]
   },
   "aiquila": {
-    "hash": "sha256-1psrOg8jkVHHfHuskSzNWBILsDru/c7bZ0tjSzCM9Nk=",
-    "url": "https://github.com/elgorro/aiquila/releases/download/nc-v0.2.10/aiquila.tar.gz",
-    "version": "0.2.10",
+    "hash": "sha256-A3/We94VvVFhMwoCv4nhx1FTsJy3lOLWZTiDkCIK2BY=",
+    "url": "https://github.com/elgorro/aiquila/releases/download/nc-v0.2.11/aiquila.tar.gz",
+    "version": "0.2.11",
     "description": "**AIquila** connects your [Nextcloud](https://nextcloud.com) with [Claude AI](https://www.anthropic.com/claude) — private, self-hosted, and under your control.\n\n### Nextcloud App\n\n- **Chat** — Converse with Claude about your files and documents\n- **Summarize** — Generate concise summaries of any document\n- **Create & Edit** — Draft, rewrite, and refine content with AI assistance\n- **Text Tools** — Spellcheck, rephrase, and improve your writing\n\n### MCP Server\n\nAIquila includes a [Model Context Protocol](https://modelcontextprotocol.io) server with 100+ tools that gives Claude Desktop, Claude Code, Claude.ai, and the Claude mobile app direct access to your Nextcloud:\n\n- **Files** — Browse, read, write, search, and share\n- **Calendar & Tasks** — View, create, and manage events and to-dos\n- **Contacts & Mail** — Read and manage address books, accounts, and messages\n- **Notes & Recipes** — Create and edit Markdown notes and recipes\n- **Bookmarks & Maps** — Manage bookmarks, GPS tracks, favorites, and photos\n\n### Resources\n\n- [Documentation](https://github.com/elgorro/aiquila/blob/main/docs/README.md)\n- [Source Code](https://github.com/elgorro/aiquila)\n- [Report Issues](https://github.com/elgorro/aiquila/issues)\n- [Discussions](https://github.com/elgorro/aiquila/discussions)\n\n---\n\nMade possible by [Claude](https://www.anthropic.com/claude) from [Anthropic](https://www.anthropic.com) and the [Nextcloud](https://nextcloud.com) open-source community.",
     "homepage": "https://github.com/elgorro/aiquila",
     "licenses": [
@@ -450,9 +450,9 @@
     ]
   },
   "done": {
-    "hash": "sha256-OTY26yVgnisFvl4TFzn1WfzKDWOFz5tYCgwYDCnDLsM=",
-    "url": "https://github.com/the-done/done-nextcloud/releases/download/v1.6.0/done.tar.gz",
-    "version": "1.6.0",
+    "hash": "sha256-UPuCUBCTxt7p9wO7G1MCkQGgG6uOzgT5v9nCdJ+cSD0=",
+    "url": "https://github.com/the-done/done-nextcloud/releases/download/v1.7.0/done.tar.gz",
+    "version": "1.7.0",
     "description": "Done is a Nextcloud app for managing employees, projects, and time reports in distributed teams.\n        It provides flexible data structures, powerful analytics, and a fully customizable interface — built to make team utilization and workload tracking effortless.\n\n👥 Employees\n\n📁 Projects\n\n🕒 Time Reports\n\n👩‍💻 Teams\n\n🧭 Directions\n\n⚙️ Customization & Access Control",
     "homepage": "",
     "licenses": [
@@ -820,9 +820,9 @@
     ]
   },
   "forum": {
-    "hash": "sha256-Ppiuw883tUMz+sAxkxT52RM6mn7+yfuyjlfrgbRtOqs=",
-    "url": "https://github.com/chenasraf/nextcloud-forum/releases/download/v0.36.0/forum-v0.36.0.tar.gz",
-    "version": "0.36.0",
+    "hash": "sha256-aE2yEz5Q/8iQz1j6OiIcQcDmg1DFtw6JfPNfKI8tUOM=",
+    "url": "https://github.com/chenasraf/nextcloud-forum/releases/download/v0.37.0/forum-v0.37.0.tar.gz",
+    "version": "0.37.0",
     "description": "Create discussions, share ideas, and collaborate with your community directly in Nextcloud.\n\n**Key features:**\n- **Threaded Discussions** - Create and reply to organized discussion threads with pagination\n- **Category Organization** - Structure your forum with customizable categories, headers, colors, and drag-and-drop reordering\n- **Rich Text Formatting** - BBCode formatting with built-in and custom tags, toolbar with overflow menu\n- **File Attachments** - Attach files from your Nextcloud storage or upload via drag-and-drop\n- **Notifications** - Subscribe to threads and get notified on replies and @mentions\n- **Post Reactions** - React to posts with emoji reactions\n- **Read/Unread Tracking** - Track unread posts at thread and category level\n- **Bookmarks** - Save threads for quick access\n- **Search** - Advanced search with boolean operators and category filtering\n- **User Profiles** - View post history, statistics, and role badges\n- **Roles and Teams** - Fine-grained permissions per role or Nextcloud Team, per category\n- **Guest Access** - Optional public access for unauthenticated visitors with configurable permissions\n- **Edit History** - View post revision history with configurable visibility and per-account privacy controls\n- **Reusable Templates** - Save and insert frequently used content snippets\n- **Signatures** - BBCode-formatted signatures on posts\n- **Thread Drafts** - Auto-saved drafts per category\n- **Dashboard Widgets** - Recent activity, top threads, and top categories on the Nextcloud dashboard\n- **Direct Post Links** - Link directly to a specific post within a thread\n- **Moderation Tools** - Pin, lock, hide, and move threads; review and restore deleted content\n- **Management Tools** - Manage categories, roles, BBCodes, and forum settings with granular permissions\n- **Server Administration** - Repair seeds, rebuild statistics, and assign roles from the Nextcloud admin panel\n\n**Perfect for:**\n- Team discussions and collaboration\n- Community forums\n- Support channels\n- Knowledge bases\n- Project discussions\n- Internal communication\n\nThe forum integrates seamlessly with your Nextcloud instance, using your existing accounts and teams for authentication and access control.",
     "homepage": "https://github.com/chenasraf/nextcloud-forum",
     "licenses": [
@@ -885,6 +885,16 @@
     "version": "0.5.20",
     "description": "This is a front end to geo localization services, that allows blocking (beta), delaying (beta) and logging of login attempts from specified countries.\nLogin attempts from local network IP addresses are never blocked, delayed or logged.\nIn the current implementation the login page is normally shown to everybody independent of the country. Also login attempts with a non existing user are failing as usual independent of the country.\nWrong Nextcloud configuration (especially in container) can lead to all access seems to come from local network IP address.\nDetermination of the country from IP address is only as good as the chosen service.\n\nCountries can be specified using allowlisting or blocklisting.\n\nCurrently available localization services are:\n- Geoiplookup (local programm on the host)\n- MaxMind GeoLite2 (local database accessed via PHP API)\n- Data from Regional Internet Registries (Nextcloud SQL database build up with data downloaded from the RIRs FTP servers)\n\nFor help how to set up the localization services please have a look at the GitHub repository (homepage on the right side).",
     "homepage": "https://github.com/HomeITAdmin/nextcloud_geoblocker/",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "gestion": {
+    "hash": "sha256-GDNLsC9/nwycaw8ro+Efdr9bqVJTGd9ogJvP2B1yoBQ=",
+    "url": "https://github.com/baimard/gestion/releases/download/2.8.11/gestion-2.8.11.tar.gz",
+    "version": "2.8.11",
+    "description": "# Company Management with Gestion\nGestion is a Nextcloud application designed to simplify invoicing for freelancers and micro-enterprises.\n\nKey Features:\n* Add and manage customer profiles\n* Create and customize product entries\n* Generate quotes and invoices in PDF format\n* Send PDFs directly via email from the application\n* Store generated documents securely within your Nextcloud instance\n* Track your business activities efficiently\n\n✨ The PDF generation system has been recently redesigned to improve layout, styling, and compatibility.\n\nThis application is tailored to meet the invoicing needs of small businesses, particularly within the French market. It offers a user-friendly interface and integrates seamlessly with Nextcloud's ecosystem.\n\nA presentation video is available in the user documentation to guide you through the application's features.\n\nIf you require adaptations of this application to comply with your country's regulations, please open an issue on the GitHub repository.\n\n[![Donate](https://img.shields.io/badge/Donate-Buy%20me%20a%20coffee-yellow.svg)](https://www.buymeacoffee.com/benjaminaimard)",
+    "homepage": "https://github.com/baimard/gestion",
     "licenses": [
       "agpl"
     ]
@@ -980,9 +990,9 @@
     ]
   },
   "iframewidget": {
-    "hash": "sha256-MLOg2LxMC80IueVf0TDRQvnhpgO7HxsOgYgfcMbQktI=",
-    "url": "https://github.com/IT-BAER/nc-iframewidget/releases/download/v0.9.3/iframewidget.tar.gz",
-    "version": "0.9.3",
+    "hash": "sha256-orWUi6Lduf9oihbAxP/AU8Sssqk9pSjwsvDScmhG0K0=",
+    "url": "https://github.com/IT-BAER/nc-iframewidget/releases/download/v0.9.5/iframewidget.tar.gz",
+    "version": "0.9.5",
     "description": "**🔲 iFrame Widget for Nextcloud Dashboard**\n\nThis app adds customizable iFrame widgets to your Nextcloud dashboard, allowing you to embed external websites directly within Nextcloud.\n\n## ✨ Features\n\n- **Embed any website** directly in your Nextcloud dashboard\n- **Customize appearance** with custom titles and icons\n- **SimpleIcons integration** using the `si:` prefix for thousands of brand icons\n- **Colorize icons** with a built-in color picker\n- **Adjustable height** for perfect layout integration\n- **Responsive design** with extra-wide display option (2 columns)\n- **Personal widgets** for individual user customization\n- **Group-based widgets** for targeted content delivery\n- **Admin controls** for global and group-specific configurations\n- **Multiple widget slots** up to 5 public and 5 group widgets\n- **Iframe security controls** with sandbox and allow attribute customization\n\n## 🛠️ Configuration\n\nThe widget supports three types of configurations:\n\n### 🌍 Global/Public Widgets (5 slots)\nSet up widgets that appear on all users' dashboards.\n\n### 👤 Personal Widgets (1 per user)\nAllow each user to create their own personalized widgets.\n\n### 👥 Group Widgets (5 slots per group)\nCreate widgets that are only visible to specific user groups.\n\n## 🔒 CSP Configuration\n\nIf you encounter Content Security Policy errors, this app now adjusts CSP via the Nextcloud PHP CSP API based on the configured widget URLs. Avoid adding a second CSP header at the web server level, as browsers apply the strictest policy. See the full documentation on GitHub for details.\n\n## 💻 Compatibility\n- Nextcloud 30+",
     "homepage": "https://github.com/IT-BAER/nc-iframewidget",
     "licenses": [
@@ -1050,9 +1060,9 @@
     ]
   },
   "integration_documenso": {
-    "hash": "sha256-sCugQLzPODwzIgZK2lEOb+wc9SXW0xq+mTdCAUAx1B4=",
-    "url": "https://github.com/nextcloud-releases/integration_documenso/releases/download/v2.0.0/integration_documenso-v2.0.0.tar.gz",
-    "version": "2.0.0",
+    "hash": "sha256-neAhXnR/F+tZ+pfVeEEKceZOYFXRKvmydnpfsxJQYG8=",
+    "url": "https://github.com/nextcloud-releases/integration_documenso/releases/download/v2.1.0/integration_documenso-v2.1.0.tar.gz",
+    "version": "2.1.0",
     "description": "Sign files via Documenso Service.",
     "homepage": "https://github.com/nextcloud/integration_documenso",
     "licenses": [
@@ -1240,8 +1250,8 @@
     ]
   },
   "integration_openproject": {
-    "hash": "sha256-6HjJ2+kW1rURJxzMapB8vEd82z1tMgmTtnbDGCs4Oj8=",
-    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v3.0.0-20260311-nightly/integration_openproject-3.0.0-20260311-nightly.tar.gz",
+    "hash": "sha256-ovcCA1Vi6RRe4y4MJtqjzLn13upvFTzGcH8NNF71DkY=",
+    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v3.0.0/integration_openproject-3.0.0.tar.gz",
     "version": "3.0.0",
     "description": "This application enables seamless integration with open source project management and collaboration software OpenProject.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in OpenProject\n* Find all work packages linked to a file or a folder\n* Create work packages directly in Nextcloud\n* View OpenProject notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n* Link work packages in rich text fields via Smart Picker\n* Preview links to work packages in text fields\n* Link multiple files and folder to a work package at once\n\nOn the OpenProject end, users are able to:\n\n* Link work packages with files and folders in Nextcloud\n* Upload and download files directly to Nextcloud from within a work package\n* Open linked files in Nextcloud to edit them\n* Let OpenProject create shared folders per project\n\nFor more information on how to set up and use the OpenProject application, please refer to [integration setup guide](https://www.openproject.org/docs/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://www.openproject.org/docs/user-guide/nextcloud-integration/).",
     "homepage": "https://github.com/nextcloud/integration_openproject",
@@ -1480,8 +1490,8 @@
     ]
   },
   "libresign": {
-    "hash": "sha256-yKG0X2gjb0hCtvnWkUOwSmfuBIsDtvyFDtWOs19vCfQ=",
-    "url": "https://github.com/LibreSign/libresign/releases/download/nightly/libresign-nightly.tar.gz",
+    "hash": "sha256-j4fV3ZskIsJh26DW56fi+hN3sQZeTKXqnVM6IZR+3gU=",
+    "url": "https://github.com/LibreSign/libresign/releases/download/v13.2.0/libresign-v13.2.0.tar.gz",
     "version": "13.2.0",
     "description": "**This is a libre digital PDF signature app for Nextcloud**\n\n* ✍️ **Sign PDF** documents using digital certificates\n* 🔄 **Hybrid signatures**: You can choose between personal or system-generated digital certificates\n* 👥 **Multiple signers**: Request signature on a document for as many people as you need\n* 📸 **QR Code**: Document validation by QR Code\n* 🔒 **Privacy**: Fully self-hosted document signer\n* 📲 **Connect to your software**: Easily integrate [LibreSign](https://libresign.coop) into your service with our full-fledged [REST-API](https://libresign.coop/posts/libresign-api-guide/).\n* 🙋 **Get involved**! We have lots of stuff planned. More information at [LibreSign](https://github.com/libresign/libresign) repository.\n\n🌍 Help us translate this application on [Transifex](https://app.transifex.com/nextcloud/nextcloud/libresign/)\n\nIf you enjoy this app and want to help maintain its development or want enterprise support, please contact us:\n\n[https://libresign.coop](https://libresign.coop)\n\n## Donation\n\nDeveloped with ❤️ by [LibreCode](https://librecode.coop). Help us transform people and businesses through cooperativism.\n\n* [Donate with GitHub Sponsor: ![Donate using GitHub Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/libresign)",
     "homepage": "https://github.com/LibreSign/libresign",
@@ -1580,11 +1590,11 @@
     ]
   },
   "metavox": {
-    "hash": "sha256-I+NXel0zggZttX8JKU9/ll1WJEsvfRHkZET1dkNh0oU=",
-    "url": "https://github.com/nextcloud/metavox/releases/download/v1.8.3/metavox-1.8.3.tar.gz",
-    "version": "1.8.3",
-    "description": "A customizable metadata app that allows you to define your own metadata fields for files.\n\n  The goal of MetaVox is to enrich digital documents with contextual metadata — such as topic, author intent, relevance, or classification — in a way that is:\n\n  • Structured and machine-readable  \n  • Non-intrusive (no changes to file content)  \n  • Compatible with existing Nextcloud workflows  \n  • Designed for flexible use across education, government, and other document-driven environments",
-    "homepage": "https://github.com/nextcloud/metavox",
+    "hash": "sha256-Z3jBP8L4C/RK+9eJknz3TNrruuhJ7wQkcwoTYdd9zk8=",
+    "url": "https://github.com/nextcloud/metavox/releases/download/v2.0.2/metavox-2.0.2.tar.gz",
+    "version": "2.0.2",
+    "description": "MetaVox adds SharePoint-style metadata management to Nextcloud Team Folders. Define custom metadata fields and edit them inline — directly in the file list.\n\n**Key Features:**\n\n- **Inline grid editing** — Double-click any cell to edit metadata. Supports text, numbers, dates, dropdowns, multi-select, checkboxes, URLs, user pickers, and file links.\n- **Views** — Save predefined column, filter, and sort combinations as tabs. Switch between views with one click.\n- **Real-time collaboration** — Cell locking prevents concurrent edits. Changes sync instantly via WebSocket (notify_push).\n- **Client-side filter and sort** — Instant filtering and sorting with zero server calls.\n- **AI metadata autofill** — AI reads file content and suggests metadata values.\n- **Bulk editing** — Edit metadata for multiple files at once.\n- **Backup and restore** — Automated daily backups with manual restore.\n- **Flow integration** — Automate actions based on metadata values.\n- **Nextcloud 31, 32, and 33** support with automatic feature detection.",
+    "homepage": "https://voxcloud.nl",
     "licenses": [
       "AGPL-3.0-or-later"
     ]
@@ -1605,6 +1615,16 @@
     "version": "1.2.5",
     "description": "Visualize and play music sheets of various formats\n\n- mscz, mscx | MuseScore\n- mxl, musicxml | MusicXML\n- gp, gp3, ... | GuitarPro\n- and many more, see [MuseScore handbook for full list](https://musescore.org/en/handbook/3/file-formats#share-with-other-software) for untested formats.",
     "homepage": "https://github.com/partitioncloud/nextcloud-musicsheet-viewer",
+    "licenses": [
+      "AGPL-3.0-or-later"
+    ]
+  },
+  "ncc_backend_4mc": {
+    "hash": "sha256-DCUW5U1ktAmri20TgD46W66ohYXDy4ibV4lm+2botvE=",
+    "url": "https://github.com/nc-connector/Server_Backend/releases/download/v1.0.0/ncc_backend_4mc-1.0.0.tar.gz",
+    "version": "1.0.0",
+    "description": "# NC Connector for mail integration\n\nNC Connector brings secure sharing, Talk meetings, and intelligent attachment handling directly into Thunderbird and Outlook Classic. This keeps daily work inside the familiar mail and calendar workflow instead of constantly moving back to the browser.\n\n## What NC Connector simplifies\n\n- Share files securely directly from the email workflow\n- Create and maintain Talk rooms directly from calendar events\n- Move attachments above a defined size into Nextcloud when appropriate\n- Insert links, passwords, and expiry dates in a clean and consistent way\n\n## Feature set\n\n### Share files securely\n\n- Guided share dialog with expiry date, permissions, and note\n- Password-protected shares\n- Formatted share block with link, password, rights, and expiry date\n- Optional separate password delivery\n\n### Handle attachments intelligently\n\n- Optionally route files through NC Connector by default\n- Offer uploads above a configurable file-size threshold\n- Clear user decision instead of uncontrolled automation\n- ZIP-download and download-link workflows for external recipients\n\n### Create Talk meetings from the calendar\n\n- Create and update Talk rooms from events\n- Manage room type, lobby, password, and moderation\n- Keep title and meeting link synchronized with the event\n- Clean up data for moved or deleted appointments\n\n## Backend note\n\nNC Connector also works directly in the mail client.  \nWith the optional Nextcloud backend, administrators additionally get central policies, Seat assignment, separate password delivery, and custom templates and branding for shares and Talk invitations.\n\nThat makes NC Connector suitable both for individual users and for organizations that want to manage mail and calendar workflows centrally.\n\n## Mail clients\n\n- Thunderbird: [https://addons.thunderbird.net/thunderbird/addon/nc4tb/](https://addons.thunderbird.net/thunderbird/addon/nc4tb/)\n- Outlook Classic: [https://github.com/nc-connector/NC_Connector_for_Outlook/releases/latest](https://github.com/nc-connector/NC_Connector_for_Outlook/releases/latest)\n\n## More information\n\n- Homepage: [https://nc-connector.de](https://nc-connector.de)\n- Contact: [https://nc-connector.de/kontakt/](https://nc-connector.de/kontakt/)",
+    "homepage": "https://nc-connector.de",
     "licenses": [
       "AGPL-3.0-or-later"
     ]
@@ -2290,9 +2310,9 @@
     ]
   },
   "spreed": {
-    "hash": "sha256-xVM+SjXyc9qzO1UQ5qfZVLD+zr5brP65u4+B3YtiicA=",
-    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v23.0.2/spreed-v23.0.2.tar.gz",
-    "version": "23.0.2",
+    "hash": "sha256-iObSHHRSihndCZ8568GEdXZ94lyzi3a+1z5dU+SjPII=",
+    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v23.0.3/spreed-v23.0.3.tar.gz",
+    "version": "23.0.3",
     "description": "Chat, video & audio-conferencing using WebRTC\n\n* 💬 **Chat** Nextcloud Talk comes with a simple text chat, allowing you to share or upload files from your Nextcloud Files app or local device and mention other participants.\n* 👥 **Private, group, public and password protected calls!** Invite someone, a whole group or send a public link to invite to a call.\n* 🌐 **Federated chats** Chat with other Nextcloud users on their servers\n* 💻 **Screen sharing!** Share your screen with the participants of your call.\n* 🚀 **Integration with other Nextcloud apps** like Files, Calendar, User status, Dashboard, Flow, Maps, Smart picker, Contacts, Deck, and many more.\n* 🌉 **Sync with other chat solutions** With [Matterbridge](https://github.com/42wim/matterbridge/) being integrated in Talk, you can easily sync a lot of other chat solutions to Nextcloud Talk and vice-versa.",
     "homepage": "https://github.com/nextcloud/spreed",
     "licenses": [
@@ -2385,6 +2405,16 @@
     "version": "2.1.2",
     "description": "🔎 A Search Page for your Nextcloud instance\n\n- [Changelog](https://raw.githubusercontent.com/callmemagnus/nextcloud-searchpage/main/CHANGELOG.md)\n- [Help translate this application](https://app.transifex.com/nextcloud/nextcloud/thesearchpage/)\n\nIt works like the existing search widget, uses the same sources to query BUT\ndisplays the results in a more readable and browsable fashion.\n\nThe content of the results depends on the other applications installed on\nyour Nextcloud instance. Every Nextcloud application can become a search\nprovider and get its results displayed by this application.\n\nOut of the Nextcloud box, you usually get the following providers:\n\n- Apps -- searches for match for in installed application names\n- Files -- searches on path and filename\n- Tags\n- Comments\n- Settings\n\nBecause of its design, the results depend on the implementation of the providers\nin respective application.\n\nKnown issues with other applications:\n\n- users -- [by design(?), it always returns an empty array](https://github.com/nextcloud/server/issues/41274) (it is hidden/disabled in this application)\n- fulltextsearch -- does not seem to AND the query terms, OR is usually less relevant\n- news -- does not provide a direct link to a feed item.\n\n\nDon't hesitate to leave a comment here or a rating!",
     "homepage": "https://github.com/callmemagnus/nextcloud-searchpage",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "threedviewer": {
+    "hash": "sha256-zoLBrc1l33VMJWoX8MN0rVJxXpmwkIXkomWlAD9Q0Fk=",
+    "url": "https://github.com/maz1987in/3Dviewer-Nextcloud/releases/download/v3.0.0/threedviewer-v3.0.0.tar.gz",
+    "version": "3.0.0",
+    "description": "A comprehensive 3D model viewer that allows you to view, interact with, and analyze 3D models directly within Nextcloud. Supports 10+ formats including GLB, GLTF, OBJ, STL, PLY, FBX, 3MF, and 3DS with full material and texture support.\n\n**📦 Format Support:**\n- 🎨 Multi-format support: GLB, GLTF, OBJ+MTL, STL, PLY, FBX, 3MF, 3DS, DAE, X3D, VRML\n- 🚀 Enhanced loaders: Significantly improved FBX, VRML, and DAE loaders with better material and texture support\n- 📁 Multi-file models: Full support for OBJ+MTL+textures and GLTF+bins+images\n- 🗜️ Compression: DRACO geometry and KTX2/Basis texture compression (needs more work)\n- 🔧 Centralized format definitions: Single source of truth for all format definitions ensuring consistency\n- ✅ Format sync validation: Automated tests ensure format consistency across backend, frontend, and MIME registration\n- 📦 Bundle budget enforcement: Automated bundle size checking with historical tracking and CI integration\n - 🛠️ G-code toolpaths: Support for `.gcode`, `.gco`, `.nc`, `.acode` with 3D toolpath visualization (smooth rainbow gradient coloring, travel/retraction filtering, automatic layer detection)\n - 🧩 Extended G-code ecosystem: Recognizes additional variants `.g`, `.gx` (FlashForge), `.g3drem` (Dremel), `.makerbot`, `.thing` with proper MIME mappings\n\n**🎮 Interactive Features:**\n- 🎯 3D Camera Controller: Enhanced intuitive circular controller for precise camera navigation with improved controls\n- 🔄 Model comparison: Side-by-side viewing with synchronized controls\n- 📝 Annotations: Add notes and markers to specific points on models (always readable, faces camera) with customizable visual sizing controls\n- 📏 Measurements: Distance and angle measurement tools (with billboard text) with per-user sizing controls for point size, line thickness, and label width\n- 🎬 Animation Controls: Play/pause controls for animated models with loop toggle support\n- 🧭 Face labels: Orientation markers (TOP, BOTTOM, FRONT, BACK, LEFT, RIGHT)\n- 👁️ Camera projection toggle: Switch between perspective and orthographic views\n- ⚙️ Personal Settings: User-specific preferences and settings page in Nextcloud personal settings\n\n**📂 File Browser:**\n- 🗂️ Smart navigation: Toggle between Viewer, Folders, Type, Date, and Favorites modes\n- 📋 List and Grid views: Switch between compact list view and grid view with customizable default preference\n- ⚙️ Default view setting: Set your preferred view mode (Grid/List) in Personal Settings\n- ⌨️ Keyboard navigation: Full keyboard support for list view (Arrow keys, Home, End, Enter, Space)\n- 🍞 Breadcrumb navigation: Easy navigation back through folder/type/date hierarchies\n- 🔄 Lazy loading: Fast navigation with on-demand data loading\n\n**⚡ Export & Tools:**\n- 📷 Screenshot capture: Take high-quality PNG/JPEG screenshots of your models\n- 💾 Export models to GLB, STL, and OBJ formats\n- 🖨️ Slicer integration: Send models directly to PrusaSlicer, Cura, BambuStudio, OrcaSlicer, Simplify3D, Eufy Studio, and AnycubicSlicer with enhanced security (file size limits, MIME validation, rolling expiration)\n- 📊 Model statistics panel with detailed information\n- 🔲 Wireframe and bounding box visualization\n- 📐 Dynamic grid system that adapts to model size and position\n- ❓ Help panel with comprehensive in-app documentation\n\n**🚀 Performance & UX:**\n- 🖼️ Automatic thumbnails: Smart thumbnail generation with content-aware cropping (configurable in settings)\n- 🖼️ Progressive texture loading for improved performance\n- 💿 Dependency caching using IndexedDB for faster multi-file loading with live cache statistics (size, entries, hit rate)\n- ⚙️ Performance modes with visual quality overlay and automatic suggestions for large models\n- 📊 Performance scaling: Automatic performance mode suggestions based on model complexity (triangle count thresholds)\n- 📦 Code splitting and dynamic imports\n - 📱 Mobile-optimized UI: Responsive toolbar (icons-only on small screens), full-screen help panel with sticky header, and performance stats hidden by default on mobile (≤768px)\n- 🌓 Light and dark theme support with RTL layout\n- 🔗 Works with public shares and authenticated users\n- ♿ Accessibility features with keyboard navigation and ARIA labels\n\nBuilt with Three.js for high-performance WebGL rendering. ✨",
+    "homepage": "https://github.com/maz1987in/3Dviewer-Nextcloud",
     "licenses": [
       "agpl"
     ]
