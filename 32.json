@@ -1100,9 +1100,9 @@
     ]
   },
   "forum": {
-    "hash": "sha256-RJiTRqIs3kpt9g8Qoh5Y7nnThcRBtghnDxBQXLYtbyo=",
-    "url": "https://github.com/chenasraf/nextcloud-forum/releases/download/v0.37.1/forum-v0.37.1.tar.gz",
-    "version": "0.37.1",
+    "hash": "sha256-Dd8DaA8WKLU0sN05veNAjquQXGtGaUfl9mrdjJ4SCtY=",
+    "url": "https://github.com/chenasraf/nextcloud-forum/releases/download/v0.38.0/forum-v0.38.0.tar.gz",
+    "version": "0.38.0",
     "description": "Create discussions, share ideas, and collaborate with your community directly in Nextcloud.\n\n**Key features:**\n- **Threaded Discussions** - Create and reply to organized discussion threads with pagination\n- **Category Organization** - Structure your forum with customizable categories, headers, colors, and drag-and-drop reordering\n- **Rich Text Formatting** - BBCode formatting with built-in and custom tags, toolbar with overflow menu\n- **File Attachments** - Attach files from your Nextcloud storage or upload via drag-and-drop\n- **Notifications** - Subscribe to threads and get notified on replies and @mentions\n- **Post Reactions** - React to posts with emoji reactions\n- **Read/Unread Tracking** - Track unread posts at thread and category level\n- **Bookmarks** - Save threads for quick access\n- **Search** - Advanced search with boolean operators and category filtering\n- **User Profiles** - View post history, statistics, and role badges\n- **Roles and Teams** - Fine-grained permissions per role or Nextcloud Team, per category\n- **Guest Access** - Optional public access for unauthenticated visitors with configurable permissions\n- **Edit History** - View post revision history with configurable visibility and per-account privacy controls\n- **Reusable Templates** - Save and insert frequently used content snippets\n- **Signatures** - BBCode-formatted signatures on posts\n- **Thread Drafts** - Auto-saved drafts per category\n- **Dashboard Widgets** - Recent activity, top threads, and top categories on the Nextcloud dashboard\n- **Direct Post Links** - Link directly to a specific post within a thread\n- **Moderation Tools** - Pin, lock, hide, and move threads; review and restore deleted content\n- **Management Tools** - Manage categories, roles, BBCodes, and forum settings with granular permissions\n- **Server Administration** - Repair seeds, rebuild statistics, and assign roles from the Nextcloud admin panel\n\n**Perfect for:**\n- Team discussions and collaboration\n- Community forums\n- Support channels\n- Knowledge bases\n- Project discussions\n- Internal communication\n\nThe forum integrates seamlessly with your Nextcloud instance, using your existing accounts and teams for authentication and access control.",
     "homepage": "https://github.com/chenasraf/nextcloud-forum",
     "licenses": [
@@ -1295,6 +1295,16 @@
     "version": "4.6.0",
     "description": "👥 Allows for better collaboration with external users by allowing users to create guests account.\n\nGuests accounts can be created from the share menu by entering either the recipients email or name and choosing \"create guest account\", once the share is created the guest user will receive an email notification about the mail with a link to set their password.\n\nGuests users can only access files shared to them and cannot create any files outside of shares, additionally, the apps accessible to guest accounts are whitelisted.",
     "homepage": "https://github.com/nextcloud/guests/",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "hideuseremails": {
+    "hash": "sha256-WAqHwdnZUlr/ZYKJkCIvnaNEuzPkheSqY5wFtQs2OFo=",
+    "url": "https://github.com/simo-bimo/nextcloud-hide-user-emails/releases/download/v0.1.1/hideuseremails-v0.1.1.tar.gz",
+    "version": "0.1.1",
+    "description": "# Hide User Emails\nA nextcloud app that hides user emails from appearing in the interface. They are hidden in share search results, talk user lists and the contacts app. This does not make it impossible to deduce email addresses - they are still loaded by the backend, it simply hides them in the interface so they are not immediately obvious.",
+    "homepage": "https://github.com/simo-bimo/nextcloud-hide-user-emails",
     "licenses": [
       "agpl"
     ]
@@ -2470,9 +2480,9 @@
     ]
   },
   "profile_fields": {
-    "hash": "sha256-bfSyNMxA7+do4FN/edTHO4cWIBayr8xgg8AU6UOuVQQ=",
-    "url": "https://github.com/LibreCodeCoop/profile_fields/releases/download/v1.0.0/profile_fields-v1.0.0.tar.gz",
-    "version": "1.0.0",
+    "hash": "sha256-UaBr2x4zrSuCa5RdzjDOXcO9uD/sdZheW0B8qf6ULPA=",
+    "url": "https://github.com/LibreCodeCoop/profile_fields/releases/download/v1.0.1/profile_fields-v1.0.1.tar.gz",
+    "version": "1.0.1",
     "description": "Profile fields lets organizations extend Nextcloud user profiles with customizable fields, per-field access control, and integration-friendly APIs.\n\nCreate custom fields for support regions, product specialties, escalation aliases, customer segments, internal access levels, and any other organization-specific context that does not belong in the default profile.\n\nEach field is governed by edit and visibility rules so teams can combine self-service updates with admin-managed data, keeping sensitive operational context accurate without losing usability for employees, partners, and support teams.\n\n## Donation\n\nDeveloped with ❤️ by [LibreCode](https://librecode.coop). Ongoing maintenance, bug fixes, and long-term sustainability depend on community support.\n\n* [Sponsor LibreSign on GitHub (monthly recurring support is especially welcome): ![Donate using GitHub Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/LibreSign)",
     "homepage": "https://librecode.coop",
     "licenses": [
@@ -3180,9 +3190,9 @@
     ]
   },
   "twofactor_email": {
-    "hash": "sha256-2FLgUsdN459qdsWYW264CQ1/nEneAiiCCIkBY62eu3o=",
-    "url": "https://github.com/nursoda/twofactor_email/releases/download/2.8.5/twofactor_email.tar.gz",
-    "version": "2.8.5",
+    "hash": "sha256-9TfmDZlZkWk5d3wR65VpJpIsmBViZGNT/niuhMI0/ic=",
+    "url": "https://github.com/nursoda/twofactor_email/releases/download/2.8.6/twofactor_email.tar.gz",
+    "version": "2.8.6",
     "description": "This app allows users to set up email as a second factor for web logins. It requires that an email address is set in 'Personal info'. It currently cannot be used on first login when two-factor authentication is enforced (not implemented yet).",
     "homepage": "https://github.com/nursoda/twofactor_email",
     "licenses": [
@@ -3211,7 +3221,7 @@
   },
   "uniteos_notifier": {
     "hash": "sha256-LsBLP487Lv+65767TGGXHbVikMm8OfhpuUd5m7jXWHM=",
-    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/main/uniteos_notifier.tar.gz",
+    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/1.0.5/uniteos_notifier.tar.gz",
     "version": "1.0.5",
     "description": "This app allows forwarding Nextcloud events for a deeper integration into UniteOS developed by wechange eG by presenting a selected set of events as user notifications.",
     "homepage": "",

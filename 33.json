@@ -30,9 +30,9 @@
     ]
   },
   "aiquila": {
-    "hash": "sha256-A3/We94VvVFhMwoCv4nhx1FTsJy3lOLWZTiDkCIK2BY=",
-    "url": "https://github.com/elgorro/aiquila/releases/download/nc-v0.2.11/aiquila.tar.gz",
-    "version": "0.2.11",
+    "hash": "sha256-jCVtMBcVs4A8pdpju3U8BlUILnuBTJR5E7/3ctbTBz8=",
+    "url": "https://github.com/elgorro/aiquila/releases/download/nc-v0.2.13/aiquila.tar.gz",
+    "version": "0.2.13",
     "description": "**AIquila** connects your [Nextcloud](https://nextcloud.com) with [Claude AI](https://www.anthropic.com/claude) — private, self-hosted, and under your control.\n\n### Nextcloud App\n\n- **Chat** — Converse with Claude about your files and documents\n- **Summarize** — Generate concise summaries of any document\n- **Create & Edit** — Draft, rewrite, and refine content with AI assistance\n- **Text Tools** — Spellcheck, rephrase, and improve your writing\n\n### MCP Server\n\nAIquila includes a [Model Context Protocol](https://modelcontextprotocol.io) server with 100+ tools that gives Claude Desktop, Claude Code, Claude.ai, and the Claude mobile app direct access to your Nextcloud:\n\n- **Files** — Browse, read, write, search, and share\n- **Calendar & Tasks** — View, create, and manage events and to-dos\n- **Contacts & Mail** — Read and manage address books, accounts, and messages\n- **Notes & Recipes** — Create and edit Markdown notes and recipes\n- **Bookmarks & Maps** — Manage bookmarks, GPS tracks, favorites, and photos\n\n### Resources\n\n- [Documentation](https://github.com/elgorro/aiquila/blob/main/docs/README.md)\n- [Source Code](https://github.com/elgorro/aiquila)\n- [Report Issues](https://github.com/elgorro/aiquila/issues)\n- [Discussions](https://github.com/elgorro/aiquila/discussions)\n\n---\n\nMade possible by [Claude](https://www.anthropic.com/claude) from [Anthropic](https://www.anthropic.com) and the [Nextcloud](https://nextcloud.com) open-source community.",
     "homepage": "https://github.com/elgorro/aiquila",
     "licenses": [
@@ -380,8 +380,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-y60Qr3TMtOBvWgqihos6sDMioT60dcx7pOyMcAlQUlE=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/2129524508/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-d3h1B5RtDQia0/OCX+RAWHCVk8P6wThLz2jQ+NtNMwg=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/6680301612/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.7",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -830,9 +830,9 @@
     ]
   },
   "forum": {
-    "hash": "sha256-RJiTRqIs3kpt9g8Qoh5Y7nnThcRBtghnDxBQXLYtbyo=",
-    "url": "https://github.com/chenasraf/nextcloud-forum/releases/download/v0.37.1/forum-v0.37.1.tar.gz",
-    "version": "0.37.1",
+    "hash": "sha256-Dd8DaA8WKLU0sN05veNAjquQXGtGaUfl9mrdjJ4SCtY=",
+    "url": "https://github.com/chenasraf/nextcloud-forum/releases/download/v0.38.0/forum-v0.38.0.tar.gz",
+    "version": "0.38.0",
     "description": "Create discussions, share ideas, and collaborate with your community directly in Nextcloud.\n\n**Key features:**\n- **Threaded Discussions** - Create and reply to organized discussion threads with pagination\n- **Category Organization** - Structure your forum with customizable categories, headers, colors, and drag-and-drop reordering\n- **Rich Text Formatting** - BBCode formatting with built-in and custom tags, toolbar with overflow menu\n- **File Attachments** - Attach files from your Nextcloud storage or upload via drag-and-drop\n- **Notifications** - Subscribe to threads and get notified on replies and @mentions\n- **Post Reactions** - React to posts with emoji reactions\n- **Read/Unread Tracking** - Track unread posts at thread and category level\n- **Bookmarks** - Save threads for quick access\n- **Search** - Advanced search with boolean operators and category filtering\n- **User Profiles** - View post history, statistics, and role badges\n- **Roles and Teams** - Fine-grained permissions per role or Nextcloud Team, per category\n- **Guest Access** - Optional public access for unauthenticated visitors with configurable permissions\n- **Edit History** - View post revision history with configurable visibility and per-account privacy controls\n- **Reusable Templates** - Save and insert frequently used content snippets\n- **Signatures** - BBCode-formatted signatures on posts\n- **Thread Drafts** - Auto-saved drafts per category\n- **Dashboard Widgets** - Recent activity, top threads, and top categories on the Nextcloud dashboard\n- **Direct Post Links** - Link directly to a specific post within a thread\n- **Moderation Tools** - Pin, lock, hide, and move threads; review and restore deleted content\n- **Management Tools** - Manage categories, roles, BBCodes, and forum settings with granular permissions\n- **Server Administration** - Repair seeds, rebuild statistics, and assign roles from the Nextcloud admin panel\n\n**Perfect for:**\n- Team discussions and collaboration\n- Community forums\n- Support channels\n- Knowledge bases\n- Project discussions\n- Internal communication\n\nThe forum integrates seamlessly with your Nextcloud instance, using your existing accounts and teams for authentication and access control.",
     "homepage": "https://github.com/chenasraf/nextcloud-forum",
     "licenses": [
@@ -975,6 +975,16 @@
     "version": "4.6.0",
     "description": "👥 Allows for better collaboration with external users by allowing users to create guests account.\n\nGuests accounts can be created from the share menu by entering either the recipients email or name and choosing \"create guest account\", once the share is created the guest user will receive an email notification about the mail with a link to set their password.\n\nGuests users can only access files shared to them and cannot create any files outside of shares, additionally, the apps accessible to guest accounts are whitelisted.",
     "homepage": "https://github.com/nextcloud/guests/",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "hideuseremails": {
+    "hash": "sha256-WAqHwdnZUlr/ZYKJkCIvnaNEuzPkheSqY5wFtQs2OFo=",
+    "url": "https://github.com/simo-bimo/nextcloud-hide-user-emails/releases/download/v0.1.1/hideuseremails-v0.1.1.tar.gz",
+    "version": "0.1.1",
+    "description": "# Hide User Emails\nA nextcloud app that hides user emails from appearing in the interface. They are hidden in share search results, talk user lists and the contacts app. This does not make it impossible to deduce email addresses - they are still loaded by the backend, it simply hides them in the interface so they are not immediately obvious.",
+    "homepage": "https://github.com/simo-bimo/nextcloud-hide-user-emails",
     "licenses": [
       "agpl"
     ]
@@ -1489,6 +1499,16 @@
       "agpl"
     ]
   },
+  "learning": {
+    "hash": "sha256-kKU7dFTZX3X8skBH30WhiUrPAYYM37onHtlNPRWPq5Y=",
+    "url": "https://github.com/andremadstop/learning-nc/releases/download/v4.1.0/learning-4.1.0.tar.gz",
+    "version": "4.1.0",
+    "description": "**Learning** is a self-hosted learning platform for Nextcloud. Your questions, progress, and student data never leave your server.\n\nBuilt for IT certification bootcamps (CompTIA, Cisco, AWS) but works for any subject. Instructors create courses, track student progress, and identify at-risk learners. Students drill with scientifically-backed spaced repetition and hands-on simulations.\n\n## Why Learning?\n\n- **Your data stays on your server** — no cloud dependency, full GDPR compliance\n- **FSRS adaptive scheduling** — cards are prioritized by memory strength, not rigid intervals\n- **9 interactive IT simulators** — CLI terminals, firewall builders, DNS resolvers, subnet calculators, network topology placement\n- **AI tutor (optional)** — answers questions by citing your uploaded course materials\n\n## For Instructors\n\n- Course management with pool assignment and student enrollment\n- **At-risk warnings** — automatic detection of struggling students\n- **Chapter heatmaps** — see where the class struggles at a glance\n- Curriculum scoping, exam scheduling, and leaderboards\n- Campaign selection — choose which story scenarios are available per course\n\n## For Learners\n\n- **Smart Queue** — one-click review of all due cards, sorted by urgency\n- **Training &amp; Exam Mode** — practice or simulate timed exams\n- **PBQ Simulations** — performance-based questions with interactive CLI, drag-and-drop placement, and wiring tasks\n- **Story Campaigns** — learn through real IT incident scenarios (WannaCry, SolarWinds, Log4Shell)\n- **Live Duels &amp; Sprint** — real-time multiplayer quiz battles via Server-Sent Events\n- **Gamification** — XP, levels, streaks, 10 badges, seasonal league\n\n## AI Features (optional)\n\nRequires a Google Gemini API key. Without it, the app is fully functional — AI features are simply hidden. Each user must explicitly opt in before any data is sent to the API.\n\n- **VirtuProf** — AI learning assistant with RAG-powered answers and source citations\n- **Question Generator** — create flashcards from pasted text\n- **Note Generator** — AI-powered topic summaries saved to Nextcloud Files\n\n## Question Types\n\n- Multiple Choice, Free Text with fuzzy matching, PBQ Simulations\n- CSV/JSON import &amp; export, pool sharing, multi-language translations\n\n## Technical\n\n- Vue 3, Vite, Pinia — modern frontend stack\n- 763 unit tests, PHPStan Level 5, 4-gate CI pipeline\n- Native Nextcloud integration: Dashboard widgets, Notifications, Talk, Files\n- AGPL-3.0 — fully open source\n\n## Requirements\n\n- Nextcloud 33+\n- PHP 8.1+\n- PostgreSQL 13+ or MySQL 8+",
+    "homepage": "https://github.com/andremadstop/learning-nc",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "lettermaker": {
     "hash": "sha256-0jrhmcCYeP7RJQmGD93t4OnqiusJOniPE/SEYGRFOJA=",
     "url": "https://github.com/ole-am/LetterMaker/releases/download/v1/lettermaker.tar.gz",
@@ -1500,8 +1520,8 @@
     ]
   },
   "libresign": {
-    "hash": "sha256-mQFYXHk2PfjcqQoa1Hw/NOsSmxOg//u3sNGHHg362uE=",
-    "url": "https://github.com/LibreSign/libresign/releases/download/nightly/libresign-nightly.tar.gz",
+    "hash": "sha256-j4fV3ZskIsJh26DW56fi+hN3sQZeTKXqnVM6IZR+3gU=",
+    "url": "https://github.com/LibreSign/libresign/releases/download/v13.2.0/libresign-v13.2.0.tar.gz",
     "version": "13.2.0",
     "description": "**This is a libre digital PDF signature app for Nextcloud**\n\n* ✍️ **Sign PDF** documents using digital certificates\n* 🔄 **Hybrid signatures**: You can choose between personal or system-generated digital certificates\n* 👥 **Multiple signers**: Request signature on a document for as many people as you need\n* 📸 **QR Code**: Document validation by QR Code\n* 🔒 **Privacy**: Fully self-hosted document signer\n* 📲 **Connect to your software**: Easily integrate [LibreSign](https://libresign.coop) into your service with our full-fledged [REST-API](https://libresign.coop/posts/libresign-api-guide/).\n* 🙋 **Get involved**! We have lots of stuff planned. More information at [LibreSign](https://github.com/libresign/libresign) repository.\n\n🌍 Help us translate this application on [Transifex](https://app.transifex.com/nextcloud/nextcloud/libresign/)\n\nIf you enjoy this app and want to help maintain its development or want enterprise support, please contact us:\n\n[https://libresign.coop](https://libresign.coop)\n\n## Donation\n\nDeveloped with ❤️ by [LibreCode](https://librecode.coop). Help us transform people and businesses through cooperativism.\n\n* [Donate with GitHub Sponsor: ![Donate using GitHub Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/libresign)",
     "homepage": "https://github.com/LibreSign/libresign",
@@ -1900,9 +1920,9 @@
     ]
   },
   "profile_fields": {
-    "hash": "sha256-bfSyNMxA7+do4FN/edTHO4cWIBayr8xgg8AU6UOuVQQ=",
-    "url": "https://github.com/LibreCodeCoop/profile_fields/releases/download/v1.0.0/profile_fields-v1.0.0.tar.gz",
-    "version": "1.0.0",
+    "hash": "sha256-UaBr2x4zrSuCa5RdzjDOXcO9uD/sdZheW0B8qf6ULPA=",
+    "url": "https://github.com/LibreCodeCoop/profile_fields/releases/download/v1.0.1/profile_fields-v1.0.1.tar.gz",
+    "version": "1.0.1",
     "description": "Profile fields lets organizations extend Nextcloud user profiles with customizable fields, per-field access control, and integration-friendly APIs.\n\nCreate custom fields for support regions, product specialties, escalation aliases, customer segments, internal access levels, and any other organization-specific context that does not belong in the default profile.\n\nEach field is governed by edit and visibility rules so teams can combine self-service updates with admin-managed data, keeping sensitive operational context accurate without losing usability for employees, partners, and support teams.\n\n## Donation\n\nDeveloped with ❤️ by [LibreCode](https://librecode.coop). Ongoing maintenance, bug fixes, and long-term sustainability depend on community support.\n\n* [Sponsor LibreSign on GitHub (monthly recurring support is especially welcome): ![Donate using GitHub Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/LibreSign)",
     "homepage": "https://librecode.coop",
     "licenses": [
@@ -2490,9 +2510,9 @@
     ]
   },
   "twofactor_email": {
-    "hash": "sha256-2FLgUsdN459qdsWYW264CQ1/nEneAiiCCIkBY62eu3o=",
-    "url": "https://github.com/nursoda/twofactor_email/releases/download/2.8.5/twofactor_email.tar.gz",
-    "version": "2.8.5",
+    "hash": "sha256-9TfmDZlZkWk5d3wR65VpJpIsmBViZGNT/niuhMI0/ic=",
+    "url": "https://github.com/nursoda/twofactor_email/releases/download/2.8.6/twofactor_email.tar.gz",
+    "version": "2.8.6",
     "description": "This app allows users to set up email as a second factor for web logins. It requires that an email address is set in 'Personal info'. It currently cannot be used on first login when two-factor authentication is enforced (not implemented yet).",
     "homepage": "https://github.com/nursoda/twofactor_email",
     "licenses": [
