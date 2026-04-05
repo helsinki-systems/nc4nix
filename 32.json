@@ -160,9 +160,9 @@
     ]
   },
   "attendance": {
-    "hash": "sha256-ABuD8J2i5T4gW0IP9vMhvAAeqXVrc16rCGFIsZcAX4w=",
-    "url": "https://github.com/luflow/attendance/releases/download/v1.33.0/attendance.tar.gz",
-    "version": "1.33.0",
+    "hash": "sha256-Li3B/LXKdDttJV1KiJwaQMMSVTEcrhe+KtEO0kA1ma8=",
+    "url": "https://github.com/luflow/attendance/releases/download/v1.34.0/attendance.tar.gz",
+    "version": "1.34.0",
     "description": "A small Nextcloud app for managing event attendance with advance RSVP functionality and real-time check-in capabilities.\n\n**For Administrators:**\n- **Appointment Management:** Create and manage appointments with name, description (with Markdown support), and date/time\n- **Visibility Control:** Restrict appointments to specific users or groups\n- **Response Tracking:** Track responses with detailed attendance summaries organized by user groups\n- **Unanswered View:** Dedicated section to quickly identify appointments without responses\n- **Reminder System:** Automated Nextcloud notifications for upcoming appointments\n- **New Appointment Notifications:** Optional notifications when new appointments are created\n- **Check-in Management:** Dedicated interface to track actual attendance during events\n- **Bulk Operations:** Mark multiple users as present/absent with bulk check-in actions\n- **Admin Comments:** Add check-in specific comments for detailed attendance tracking\n- **Group Whitelisting:** Configure which user groups are included in attendance statistics and check-in lists\n- **Export Functionality:** Export all appointment data to ODS spreadsheet format for further analysis\n- **Granular Permissions:** Control who can view response overviews, comments, manage appointments, and access check-in features\n\n**For All Users:**\n- **Easy RSVP:** Respond with Yes/No/Maybe to any appointment\n- **Comments:** Add optional comments with your response\n- **Flexible Updates:** Update responses anytime until the event date\n- **Dashboard Widget:** Quick access via dashboard widget\n- **Share Links:** Share appointment links for easy access\n- **Calendar Subscription:** Subscribe to appointments via iCal feed in Google Calendar, Apple Calendar, or any calendar app\n- **Quick Subscribe:** One-click buttons to add feed to Google Calendar or Apple Calendar\n\n**Group-Based Organization:**\n- **Group Statistics:** Statistics automatically organized by Nextcloud user groups\n- **Missing Responses:** See which group members haven't responded yet\n- **Full Visibility:** Complete visibility into attendance across all groups\n- **Filtered Check-in:** Search and filter users by name or group during check-in process\n\nPerfect for organizations, teams, and communities that want to coordinate attendance for meetings, events, and activities with both advance planning and real-time attendance tracking.",
     "homepage": "https://anwesenheit.app",
     "licenses": [
@@ -370,8 +370,8 @@
     ]
   },
   "chores": {
-    "hash": "sha256-x95pWVl5+EJAMWAPdA9aFbvNCNz+PBmBvC5GrJOHUtA=",
-    "url": "https://teo.sinyax.net/cdn/chores_0.1.0.tar.gz",
+    "hash": "sha256-kDuNNmSoz80b1fUA2wKnHjGQD05oBo1Q+NC4Crf8G20=",
+    "url": "https://teo.sinyax.net/cdn/chores_0.0.8-17-gf14ef6e.tar.gz",
     "version": "0.1.0",
     "description": "Track chores and receive points for doing them!\n\nCreate a team and invite other Nextcloud users from the same server, the total\npoints for each member are tracked.\n\nChores can be set to automatically repeat based on a schedule.",
     "homepage": "https://sr.ht/~cypheon/nextcloud-chores/",
@@ -2040,9 +2040,9 @@
     ]
   },
   "metavox": {
-    "hash": "sha256-ktlttAEdfrudlGMBQfFDmIAiYrMnHHNfblJWKz7W8Lk=",
-    "url": "https://github.com/nextcloud/metavox/releases/download/v2.0.4/metavox-2.0.4.tar.gz",
-    "version": "2.0.4",
+    "hash": "sha256-M4OL1q4sQtDbqyEQQ2oqnfp1OmLMpQdUghCQU38gnmM=",
+    "url": "https://github.com/nextcloud/metavox/releases/download/v2.0.5/metavox-2.0.5.tar.gz",
+    "version": "2.0.5",
     "description": "MetaVox adds SharePoint-style metadata management to Nextcloud Team Folders. Define custom metadata fields and edit them inline — directly in the file list. Your files stay untouched: metadata is stored separately, never modifying file content.\n\n**10+ field types:** text, number, date, checkbox, dropdown, multi-select, URL, user picker, file link, and more.\n\n**Key Features:**\n\n- **Inline grid editing** — Double-click any cell to edit. Changes appear instantly for all users.\n- **Views** — Save column, filter, and sort combinations as tabs. Switch views with one click.\n- **Real-time collaboration** — Cell locking prevents concurrent edits. Syncs via WebSocket (notify_push).\n- **Client-side filter and sort** — Instant filtering with zero server calls.\n- **AI metadata autofill** — AI reads file content and suggests metadata values.\n- **Bulk editing** — Edit metadata for multiple files at once.\n- **Backup and restore** — Automated daily backups with one-click restore.\n- **Flow integration** — Automate actions based on metadata values (notifications, access control, retention).\n- **REST API** — Full OCS API for external integrations and bulk operations.\n\n**Ideal for:** SharePoint migrations, document classification, curriculum tagging, policy management, and research annotation. Used by universities, government organizations, and enterprises.\n\nSupports **Nextcloud 31, 32, and 33** with automatic feature detection.",
     "homepage": "https://voxcloud.nl",
     "licenses": [
@@ -2640,13 +2640,13 @@
     ]
   },
   "samewindow": {
-    "hash": "sha256-9638HcmpM0AwffrX8yf8oZ/UlEe6s1n+DjJ2hO+jwWo=",
-    "url": "https://github.com/IT-BAER/nc-samewindow/releases/download/v1.0.2/nc-samewindow.tar.gz",
-    "version": "1.0.2",
-    "description": "**🔗 Same Window for Nextcloud**\n\nThis app ensures that all links on frontend widgets open in the same window/tab instead of opening new windows or tabs in the browser. This provides a more seamless user experience by keeping users within the current Nextcloud interface.\n\n## ✨ Features\n\n- **🔗 Automatic link modification** - Converts all widget links to open in the same window\n- **⌨️ Modifier key support** - Ctrl/Cmd/Shift+click and middle-click still open new tabs/windows\n- **🎯 Widget-only targeting** - Only affects links within widgets, not navigation elements\n- **⚡ Dynamic content support** - Works with content loaded via AJAX through mutation observers\n- **🚫 No configuration required** - Works out of the box with no admin settings needed\n\n## 🛠️ How it Works\n\nThe app automatically detects links with `target=\"_blank\"` or `target=\"_new\"` attributes within widget areas and modifies their behavior to open in the same window. Users can still override this behavior using:\n- **Middle-click** - Opens in new tab\n\n## 💻 Compatibility\n- Nextcloud 28, 29, 30, 31 & 32",
+    "hash": "sha256-eXP5vCwT0Yll43Toqae347sLVnZoKYacA4bcQN8mLlo=",
+    "url": "https://github.com/IT-BAER/nc-samewindow/releases/download/v1.0.3/samewindow.tar.gz",
+    "version": "1.0.3",
+    "description": "**🔗 Same Window for Nextcloud**\n\nThis app ensures that all links on frontend widgets open in the same window/tab instead of opening new windows or tabs in the browser. This provides a more seamless user experience by keeping users within the current Nextcloud interface.\n\n## ✨ Features\n\n- **🔗 Automatic link modification** - Converts all widget links to open in the same window\n- **⌨️ Modifier key support** - Ctrl/Cmd/Shift+click and middle-click still open new tabs/windows\n- **🎯 Widget-only targeting** - Only affects links within widgets, not navigation elements\n- **⚡ Dynamic content support** - Works with content loaded via AJAX through mutation observers\n- **🚫 No configuration required** - Works out of the box with no admin settings needed\n\n## 🛠️ How it Works\n\nThe app automatically detects links with `target=\"_blank\"` or `target=\"_new\"` attributes within widget areas and modifies their behavior to open in the same window. Users can still override this behavior using:\n- **Middle-click** - Opens in new tab\n\n## 💻 Compatibility\n- Nextcloud 28, 29, 30, 31, 32 & 33",
     "homepage": "",
     "licenses": [
-      "agpl"
+      "AGPL-3.0-or-later"
     ]
   },
   "santacloud": {
@@ -2780,9 +2780,9 @@
     ]
   },
   "side_menu": {
-    "hash": "sha256-skUCzklTCKmUsCLWrUAQA2xQXE/KpoRz9fQ2H65sf4I=",
-    "url": "https://gitnet.fr/deblan/side_menu/releases/download/v5.2.2/side_menu_v5.2.2.tar.gz",
-    "version": "5.2.2",
+    "hash": "sha256-ZhkI4CC79d6lvy7xI8zRE7kxElGh2BEk7YZbagptg5Y=",
+    "url": "https://gitnet.fr/deblan/side_menu/releases/download/v5.3.0/side_menu_v5.3.0.tar.gz",
+    "version": "5.3.0",
     "description": "Custom menu allows you to modify the position of the main menu by creating a panel on the left of the interface or with a big menu on the top.\nYou can also define apps that must be displayed in the top menu. Fully customisable.\n\nThis application is rather suitable for instances that activate a lot of applications.\n\nUse the shortcut `Ctrl`+`o` to open and to hide the side menu. Use `tab` to navigate.\n\nYou can customize colors depending of the theme.\n\nTo report a bug or request a feature, please open an issue.\n\nRequirements:\n\n* PHP >= 8.1\n\nIf you like this application and if you want to support the development:\n\n* [Buy me a coffee](https://www.buymeacoffee.com/deblan)\n* [Donate with liberapay](https://liberapay.com/deblan)\n* [Leave a comment](https://apps.nextcloud.com/apps/side_menu#comments)\n\nNotice\n------\n\nBecause I believe in a free and decentralized Internet, [Gitnet](https://gitnet.fr) is **self-hosted at home**.\nIn case of downtime, you can download **Custom Menu** from [here](https://kim.deblan.fr/~side_menu/).",
     "homepage": "https://gitnet.fr/deblan/side_menu",
     "licenses": [
@@ -3221,7 +3221,7 @@
   },
   "uniteos_notifier": {
     "hash": "sha256-LsBLP487Lv+65767TGGXHbVikMm8OfhpuUd5m7jXWHM=",
-    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/1.0.5/uniteos_notifier.tar.gz",
+    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/main/uniteos_notifier.tar.gz",
     "version": "1.0.5",
     "description": "This app allows forwarding Nextcloud events for a deeper integration into UniteOS developed by wechange eG by presenting a selected set of events as user notifications.",
     "homepage": "",
