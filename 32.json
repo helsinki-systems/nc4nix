@@ -130,9 +130,9 @@
     ]
   },
   "arbeitszeitcheck": {
-    "hash": "sha256-WhzMieQ9JUCurCZ7udFWg17n0ZCHZl/heg106Wj2eu4=",
-    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-arbeitszeitcheck/releases/download/v1.2.5/arbeitszeitcheck-1.2.5.tar.gz",
-    "version": "1.2.5",
+    "hash": "sha256-nmN/PU2J0W7momjJBrTSATGxT2Vm+5MR26fYwVmnHEs=",
+    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-arbeitszeitcheck/releases/download/v1.2.6/arbeitszeitcheck-1.2.6.tar.gz",
+    "version": "1.2.6",
     "description": "# ArbeitszeitCheck\n\nTime tracking focused on German working time law (ArbZG) and GDPR. Record work\ntimes, enforce breaks and rest periods, and monitor compliance – fully self‑hosted\nin your Nextcloud instance.\n\n## Features\n\n- **ArbZG-aware rules** – maximum hours, breaks, rest periods, Sundays/holidays\n- **Compliance monitoring** – automatic violation detection and reports\n- **Self‑service dashboards** – employee, team and manager views\n- **Absences & leave** – approval workflows and reporting\n- **Exports & audit log** – e.g. for DATEV and internal audits\n- 100% self‑hosted – no data leaves your server\n\n## Requirements\n\n- Nextcloud 32–36\n- PHP 8.1–8.4",
     "homepage": "https://software-by-design.de",
     "licenses": [
@@ -1160,9 +1160,9 @@
     ]
   },
   "formvox": {
-    "hash": "sha256-G6nL2m16mPP5LILWEnry2BcNmKKEa3xjLpX/9q6grTY=",
-    "url": "https://github.com/nextcloud/formvox/releases/download/v1.1.2/formvox-1.1.2.tar.gz",
-    "version": "1.1.2",
+    "hash": "sha256-awPK8eZeS0yxxtb14pMBNnD2CfPL6VR0MKq91VI49ew=",
+    "url": "https://github.com/nextcloud/formvox/releases/download/v1.1.4/formvox-1.1.4.tar.gz",
+    "version": "1.1.4",
     "description": "FormVox is a file-based forms and polls app for Nextcloud. Unlike traditional form apps, FormVox stores everything in .fvform files — no database tables needed.\n\n**Features:**\n* 100% file-based storage (.fvform files)\n* Question types: text, textarea, single/multiple choice, dropdown, date, time, number, scale, rating, file upload, matrix, table\n* Conditional logic and page routing\n* Quiz mode with scoring\n* Export to CSV, JSON, and ODT (with custom template support)\n* Import from Microsoft Forms\n* Per-form branding with visual page builder\n* Answer piping (use previous answers in later questions)\n* Charts and visualizations in Results view\n* Webhooks and REST API for integrations\n* Collaborative editing with real-time presence indicators\n* Notifications on new responses\n* Password protection and expiration for public links\n* Multi-language: English, Dutch, German, French\n\n**Unique Benefits:**\n* One file contains everything (definition + responses)\n* Works with Nextcloud's versioning and sharing\n* End-to-end encryption compatible\n* No database migrations needed\n\n**Perfect for:**\n* Surveys and feedback forms\n* Quizzes and assessments\n* Event registrations\n* Expense declarations\n* Data collection with privacy requirements",
     "homepage": "https://voxcloud.nl",
     "licenses": [
@@ -1370,9 +1370,9 @@
     ]
   },
   "hfivep": {
-    "hash": "sha256-ZHZKqRnQLPICvohf7hiuCVwuIRjzJQklnd4FzaypaCk=",
+    "hash": "sha256-gOCpuLdKYW2zsV7wjwhjr9XPiY8MGJDNiMbM4IrML2c=",
     "url": "https://repo.fairkom.net/nextcloud-apps/h5p/h5p.tar.gz",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "This app can play h5p files, which is a format for interactive educational content. Just upload an .h5p file and either left-click it in the files view or open the context menu and choose \"Open in h5p Player\".\n\nOnly h5p files that bundle all required libraries are supported.\n\nThis app uses the library h5p-standalone (https://github.com/tunapanda/h5p-standalone) for playing the h5p content.",
     "homepage": "https://fairkom.eu",
     "licenses": [
@@ -2170,9 +2170,9 @@
     ]
   },
   "ncc_backend_4mc": {
-    "hash": "sha256-DCUW5U1ktAmri20TgD46W66ohYXDy4ibV4lm+2botvE=",
-    "url": "https://github.com/nc-connector/Server_Backend/releases/download/v1.0.0/ncc_backend_4mc-1.0.0.tar.gz",
-    "version": "1.0.0",
+    "hash": "sha256-EuHvrqOok/CBrij4FMyY1uC3AZqVD76MT/E8CB7sobo=",
+    "url": "https://github.com/nc-connector/Server_Backend/releases/download/v1.0.1/ncc_backend_4mc-1.0.1.tar.gz",
+    "version": "1.0.1",
     "description": "# NC Connector for mail integration\n\nNC Connector brings secure sharing, Talk meetings, and intelligent attachment handling directly into Thunderbird and Outlook Classic. This keeps daily work inside the familiar mail and calendar workflow instead of constantly moving back to the browser.\n\n## What NC Connector simplifies\n\n- Share files securely directly from the email workflow\n- Create and maintain Talk rooms directly from calendar events\n- Move attachments above a defined size into Nextcloud when appropriate\n- Insert links, passwords, and expiry dates in a clean and consistent way\n\n## Feature set\n\n### Share files securely\n\n- Guided share dialog with expiry date, permissions, and note\n- Password-protected shares\n- Formatted share block with link, password, rights, and expiry date\n- Optional separate password delivery\n\n### Handle attachments intelligently\n\n- Optionally route files through NC Connector by default\n- Offer uploads above a configurable file-size threshold\n- Clear user decision instead of uncontrolled automation\n- ZIP-download and download-link workflows for external recipients\n\n### Create Talk meetings from the calendar\n\n- Create and update Talk rooms from events\n- Manage room type, lobby, password, and moderation\n- Keep title and meeting link synchronized with the event\n- Clean up data for moved or deleted appointments\n\n## Backend note\n\nNC Connector also works directly in the mail client.  \nWith the optional Nextcloud backend, administrators additionally get central policies, Seat assignment, separate password delivery, and custom templates and branding for shares and Talk invitations.\n\nThat makes NC Connector suitable both for individual users and for organizations that want to manage mail and calendar workflows centrally.\n\n## Mail clients\n\n- Thunderbird: [https://addons.thunderbird.net/thunderbird/addon/nc4tb/](https://addons.thunderbird.net/thunderbird/addon/nc4tb/)\n- Outlook Classic: [https://github.com/nc-connector/NC_Connector_for_Outlook/releases/latest](https://github.com/nc-connector/NC_Connector_for_Outlook/releases/latest)\n\n## More information\n\n- Homepage: [https://nc-connector.de](https://nc-connector.de)\n- Contact: [https://nc-connector.de/kontakt/](https://nc-connector.de/kontakt/)",
     "homepage": "https://nc-connector.de",
     "licenses": [
@@ -2390,11 +2390,11 @@
     ]
   },
   "opsdash": {
-    "hash": "sha256-gYpv0ywky/+M73dStE+VlhoMrPGfLGEy1SP9xKCdR78=",
-    "url": "https://file493.gellert-innovation.com/downloads/opsdash-0.7.4.tar.gz",
-    "version": "0.7.4",
-    "description": "Opsdash is an independent third-party app for Nextcloud Calendar that turns calendar activity into an operational cockpit for weekly and monthly planning.\n\nOpsdash is not affiliated with, endorsed by, sponsored by, or officially maintained by Nextcloud GmbH or the Nextcloud project.\n\nUse it to answer three questions fast:\n- What happened this period?\n- Are we on pace against targets?\n- Where is workload drifting?\n\n### Highlights\n- KPI dashboards for totals, active days, day-of-week patterns, and category mix\n- Calendar and category targets with pacing context\n- Balance/trend widgets for period-over-period comparisons\n- Notes, presets, and profile export/import for repeatable reporting\n- Guided onboarding for quick team setup\n- Short demo video (WEBM): https://file493.gellert-innovation.com/downloads/opsdash-public/opsdash-marketplace-demo-1920x1080.webm\n\n### Runs inside Nextcloud\n- Runs fully inside Nextcloud (no external analytics backend)\n- Per-user configuration persisted server-side\n- CSRF-protected write endpoints and standard Nextcloud permission model\n\nOpsdash is built for teams that already plan in calendars and want clear execution visibility without leaving Nextcloud.",
-    "homepage": "https://github.com/blade34242/opsdash-operational-dashboard-nextcloud",
+    "hash": "sha256-ZbaQnj7NhQnC41LKW1N//CR2PzF+t7Ogd1eh8YFAXxE=",
+    "url": "https://forgejodev.gellert-innovation.com/blade34242/opsdash-app/releases/download/v0.7.5/opsdash-0.7.5.tar.gz",
+    "version": "0.7.5",
+    "description": "Opsdash is an independent third-party app for Nextcloud Calendar that turns calendar activity into an operational cockpit for weekly and monthly planning.\n\nOpsdash is not affiliated with, endorsed by, sponsored by, or officially maintained by Nextcloud GmbH or the Nextcloud project.\n\nUse it to answer three questions fast:\n- What happened this period?\n- Are we on pace against targets?\n- Where is workload drifting?\n\n### Highlights\n- KPI dashboards for totals, active days, day-of-week patterns, and category mix\n- Calendar and category targets with pacing context\n- Balance/trend widgets for period-over-period comparisons\n- Notes, presets, and profile export/import for repeatable reporting\n- Guided onboarding for quick team setup\n\n### Runs inside Nextcloud\n- Runs fully inside Nextcloud (no external analytics backend)\n- Per-user configuration persisted server-side\n- CSRF-protected write endpoints and standard Nextcloud permission model\n\nOpsdash is built for teams that already plan in calendars and want clear execution visibility without leaving Nextcloud.",
+    "homepage": "https://forgejodev.gellert-innovation.com/blade34242/opsdash-app",
     "licenses": [
       "AGPL-3.0-or-later"
     ]
@@ -2450,9 +2450,9 @@
     ]
   },
   "pantry": {
-    "hash": "sha256-3tBZxjfG+j1sQZmQWSdbGIHm6aalclzC0MJ4i7+KnQA=",
-    "url": "https://github.com/chenasraf/nextcloud-pantry/releases/download/v0.10.0/pantry-v0.10.0.tar.gz",
-    "version": "0.10.0",
+    "hash": "sha256-O82sD62+6h7Ju9dAeLzCr/MEN90zMgEwaqEpuVN3ho8=",
+    "url": "https://github.com/chenasraf/nextcloud-pantry/releases/download/v0.10.1/pantry-v0.10.1.tar.gz",
+    "version": "0.10.1",
     "description": "Pantry helps households stay organized in Nextcloud.\n\n- **Houses** group members and their shared data. A person can belong to multiple houses and switch between them freely.\n- **Checklists** support recurring items (e.g. milk every week) that automatically reappear when due. Share lists with the whole household so everyone knows what to pick up.\n- **Photo boards** let you keep shared reference photos organized in folders — the right brand of dog food, a favorite recipe card, a product label, and so on.\n- **Notes wall** gives the household a lightweight shared space for reminders, pinned messages, and quick notes with customizable colors.\n- **Notifications** keep everyone in the loop when photos are uploaded or notes are added or edited.\n\nAll data is scoped to a house; members only see the houses they belong to.\n\n**Mobile apps:** [Android (Google Play)](https://play.google.com/store/apps/details?id=dev.casraf.pantry) | [iOS (App Store)](https://apps.apple.com/us/app/pantry-for-nextcloud/id6762161619)",
     "homepage": "https://github.com/chenasraf/nextcloud-pantry",
     "licenses": [
@@ -3180,9 +3180,9 @@
     ]
   },
   "teamhub": {
-    "hash": "sha256-G9N8/I9Ff47YyWWVK8FxsVJQDMD5V52cV1YTi25wlZk=",
-    "url": "https://github.com/JustinDoek/Nextcloud-Teamhub/releases/download/v3.12.0/teamhub.tar.gz",
-    "version": "3.12.0",
+    "hash": "sha256-8xXmTThX3L3c/+NEcJsV/LRBgCH6aTwaYI919+ce/cc=",
+    "url": "https://github.com/JustinDoek/Nextcloud-Teamhub/releases/download/v3.13/teamhub.tar.gz",
+    "version": "3.13.0",
     "description": "TeamHub started as a visual mock up to discus team based working in Nextcloud and grew into a workspace built on top of Nextcloud Teams (Circles).\n\nEach team gets a shared home with:\n- **Messages** — post announcements, questions and polls to your team\n- **Activity feed** — a single view of recent file, calendar, task and member changes across all shared resources\n- **App tabs** — quick-links to the team's shared Talk chat, Files folder, Calendar and Deck board\n- **Sidebar widgets** — upcoming calendar events, open Deck tasks, Pages, and the activity snapshot\n- **Team management** — invite members by user, group, email or federated account; manage roles and pending requests\n- **Customizable view** — users can create their own layout\n- **Integrations** — developers can integrate their app with teamhub\n\nTeamHub works entirely within your Nextcloud instance and does not require any external services.",
     "homepage": "https://tldr.host/teamhub",
     "licenses": [
@@ -3371,7 +3371,7 @@
   },
   "uniteos_notifier": {
     "hash": "sha256-LsBLP487Lv+65767TGGXHbVikMm8OfhpuUd5m7jXWHM=",
-    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/main/uniteos_notifier.tar.gz",
+    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/1.0.5/uniteos_notifier.tar.gz",
     "version": "1.0.5",
     "description": "This app allows forwarding Nextcloud events for a deeper integration into UniteOS developed by wechange eG by presenting a selected set of events as user notifications.",
     "homepage": "",
@@ -3430,9 +3430,9 @@
     ]
   },
   "user_oidc": {
-    "hash": "sha256-P72eIQJbmojdrJudh+e2dI3OZXjdUFZmgBvZqTCZ9a8=",
-    "url": "https://github.com/nextcloud-releases/user_oidc/releases/download/v8.10.0/user_oidc-v8.10.0.tar.gz",
-    "version": "8.10.0",
+    "hash": "sha256-Sc7R/hkjAvRUC4aUOLbMucoNabcXt27XB1pwqlz2Zv0=",
+    "url": "https://github.com/nextcloud-releases/user_oidc/releases/download/v8.10.1/user_oidc-v8.10.1.tar.gz",
+    "version": "8.10.1",
     "description": "Allows flexible configuration of an OIDC server as Nextcloud login user backend.",
     "homepage": "https://github.com/nextcloud/user_oidc",
     "licenses": [
