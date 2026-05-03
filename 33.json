@@ -250,9 +250,9 @@
     ]
   },
   "budget": {
-    "hash": "sha256-C44avZGOCiS2iYaaWy9z0jC9rsd3qMEnErNQOSQNVlc=",
-    "url": "https://github.com/otherworld-dev/budget/releases/download/v2.17.1/budget.tar.gz",
-    "version": "2.17.1",
+    "hash": "sha256-Fyh36S/YCMKoC/L936E+xBocnq2ILJV1nAmnyo2cgdE=",
+    "url": "https://github.com/otherworld-dev/budget/releases/download/v2.17.2/budget.tar.gz",
+    "version": "2.17.2",
     "description": "**⚠️ Beta: This app is currently in testing. Data loss is possible. Please backup your data regularly and report any issues.**\n\n# Budget - Financial Tracking for Nextcloud\n\nTrack your spending habits, manage savings, and forecast future account balances with intelligent analysis of your financial history.\n\n## Features\n\n* **Import Bank Statements**: Support for CSV, OFX, and QIF formats\n* **Smart Categorization**: Automatic vendor matching and transaction categorization\n* **Auto-Categorization Rules**: Apply rules to existing transactions anytime with preview\n* **Split Transactions**: Allocate single transactions across multiple categories\n* **Transfer Detection**: Automatic matching of transfers between accounts\n* **Budget Tracking**: Set spending limits with alerts when approaching or exceeding budgets\n* **Balance Forecasting**: Predict future balances based on historical data\n* **Recurring Bills**: Track bills with due date monitoring and Nextcloud notifications\n* **Recurring Income**: Track expected income sources with receipt tracking\n* **Split Expenses**: Share expenses with contacts and track who owes whom\n* **Debt Payoff Planner**: Plan repayment using avalanche or snowball strategies\n* **Savings Goals**: Set targets with progress tracking and achievement forecasting\n* **Pension Tracker**: Track retirement accounts with growth projections\n* **Net Worth History**: Track assets and liabilities over time\n* **Year-over-Year Reports**: Compare spending across multiple years\n* **Multi-Account Support**: Manage multiple bank accounts and currencies\n* **Custom Categories**: Create your own category hierarchy\n* **Reports & Charts**: Visualize your financial data with interactive charts\n\n## Documentation\n\nFull user documentation: https://github.com/otherworld-dev/budget/tree/master/docs\n\n## Requirements\n\n* Nextcloud 30 or higher\n* PHP 8.1 or higher\n* PHP BCMath extension (`php-bcmath`)",
     "homepage": "",
     "licenses": [
@@ -430,18 +430,18 @@
     ]
   },
   "countdown": {
-    "hash": "sha256-rUJit7AhOrjCQTwyxkurNm+fifpoNXerohuuRMaRjkM=",
-    "url": "https://github.com/infinit7even/countdown/releases/download/v1.1.91/countdown.tar.gz",
-    "version": "1.1.91",
-    "description": "**Your most anticipated releases, in one place.**\n\n**Built for Nextcloud**, this app keeps all your data fully private. Your events and most anticipated releases stay exclusively on your instance — no tracking, no profiling, no third-party access.\n\n## ✨ Features\n\n* 🕒 **Hyped Tracking**: Manage countdowns for games, movies, series, and personal events.\n* 📊 **Dashboard Widget**: View all your upcoming releases directly on your Nextcloud Dashboard.\n* 🔄 **Smart Recurrence**: Repeat events daily, weekly, monthly, or yearly (perfect for weekly show releases!).\n* 🔔 **Stay Notified**: Receive automatic alerts via Nextcloud Activity and System Notifications when a timer expires.\n* 🖼️ **Dual Layout**: Switch between **Stacked** (compact) and **Grid** (side-by-side) views to fit your style.\n* 📱 **PWA Ready**: Install the app on your phone or desktop for a native-like, full-screen experience.\n* 💻 **OCC Integration**: Administrators can manage countdowns using the OCC command line interface.\n* ✏️ **Custom Completion**: Choose between default, random, or custom messages when a countdown finishes.\n* 🗞️ **News Center**: Stay updated with the latest features and changes directly inside the app.\n* 🎮 **Easter Eggs**: Discover secrets hidden inside the app inspired by pop culture!\n\nOrganize events by creation date, follow recurring schedules, and access everything instantly. Designed to feel natural in both **Light and Dark themes**.\n\n## 🔔 How Notifications Work\n\nCountdown uses the **Nextcloud Background Job** system to send notifications server-side. This ensures you receive alerts even when the app is not open, including on the **Nextcloud mobile app**.\nNotifications are checked every **5 minutes** by a background job (`TimerJob`). For reliable delivery, your Nextcloud instance should use **System Cron** mode.\n\n## ⚙️ Configuring Notifications (CRON)\nTo configure automatic notification sending via crontab, read the [user documentation](https://github.com/infinit7even/countdown/blob/master/README.md#how-notifications-work)",
+    "hash": "sha256-4RVP3Cz7g1uk6iyTyRVZ/jYOuyirY/gCiqAqFQstKyI=",
+    "url": "https://github.com/infinit7even/countdown/releases/download/v1.2.10/countdown.tar.gz",
+    "version": "1.2.10",
+    "description": "**Your most anticipated releases, in one place.**\n\n**Built for Nextcloud**, this app keeps all your data fully private. Your events and most anticipated releases stay exclusively on your instance — no tracking, no profiling, no third-party access.\n\n## ✨ Features\n\n* 🕒 **Hyped Tracking**: Manage countdowns for games, movies, series, and personal events.\n* 📊 **Dashboard Widget**: View all your upcoming releases directly on your Nextcloud Dashboard.\n* 🔄 **Smart Recurrence**: Repeat events daily, weekly, monthly, or yearly (perfect for weekly show releases!).\n* 🔔 **Stay Notified**: Receive automatic alerts via Nextcloud Activity and System Notifications when a timer expires.\n* 🖼️ **Dual Layout**: Switch between **Stacked** (compact) and **Grid** (side-by-side) views to fit your style.\n* 📱 **PWA Ready**: Install the app on your phone or desktop for a native-like, full-screen experience.\n* 💻 **OCC Integration**: Administrators can manage countdowns using the OCC command line interface.\n* ✏️ **Custom Completion**: Choose between default, random, or custom messages when a countdown finishes.\n* 🗞️ **News Center**: Stay updated with the latest features and changes directly inside the app.\n* 🎮 **Easter Eggs**: Discover secrets hidden inside the app inspired by pop culture!\n\nOrganize events by creation date, follow recurring schedules, and access everything instantly. Designed to feel natural in both **Light and Dark themes**.\n\n## 🔔 How Notifications Work\n\nCountdown uses the **Nextcloud Background Job** system to send notifications server-side. This ensures you receive alerts even when the app is not open, including on the **Nextcloud mobile app**.\nNotifications are checked every **5 minutes** by a background job (`TimerJob`). For reliable delivery, your Nextcloud instance should use **System Cron** mode.\n\n## ⚙️ Configuring Notifications (CRON)\nTo configure automatic notification sending via crontab, read the [user documentation](https://github.com/infinit7even/countdown/blob/master/README.md#-how-notifications-work)",
     "homepage": "https://github.com/infinit7even/countdown",
     "licenses": [
       "AGPL-3.0-or-later"
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-Xf9lVXyP/2VqmCDzvk0lUuUFETM/ufOhIdAg5NajkiA=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/14003187896/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-mxAwLyOutS4qvONHO1mL2jpsOyd+Uj3WynjZIxSa88I=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/14002170576/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.11",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -1400,8 +1400,8 @@
     ]
   },
   "integration_openproject": {
-    "hash": "sha256-6HjJ2+kW1rURJxzMapB8vEd82z1tMgmTtnbDGCs4Oj8=",
-    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v3.0.0-20260311-nightly/integration_openproject-3.0.0-20260311-nightly.tar.gz",
+    "hash": "sha256-ovcCA1Vi6RRe4y4MJtqjzLn13upvFTzGcH8NNF71DkY=",
+    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v3.0.0/integration_openproject-3.0.0.tar.gz",
     "version": "3.0.0",
     "description": "This application enables seamless integration with open source project management and collaboration software OpenProject.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in OpenProject\n* Find all work packages linked to a file or a folder\n* Create work packages directly in Nextcloud\n* View OpenProject notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n* Link work packages in rich text fields via Smart Picker\n* Preview links to work packages in text fields\n* Link multiple files and folder to a work package at once\n\nOn the OpenProject end, users are able to:\n\n* Link work packages with files and folders in Nextcloud\n* Upload and download files directly to Nextcloud from within a work package\n* Open linked files in Nextcloud to edit them\n* Let OpenProject create shared folders per project\n\nFor more information on how to set up and use the OpenProject application, please refer to [integration setup guide](https://www.openproject.org/docs/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://www.openproject.org/docs/user-guide/nextcloud-integration/).",
     "homepage": "https://github.com/nextcloud/integration_openproject",
@@ -1670,9 +1670,9 @@
     ]
   },
   "learning": {
-    "hash": "sha256-EI0PfMRCXOS+P2K/NfqURTjb8PnbdHOxVv0gN21Bn6Q=",
-    "url": "https://github.com/andremadstop/learning-nc/releases/download/v4.4.2/learning-4.4.2.tar.gz",
-    "version": "4.4.2",
+    "hash": "sha256-wgI9HHXXVlqJSdl6rQXJQs6jgnNXBfmZwhP9fzvxJog=",
+    "url": "https://github.com/andremadstop/learning-nc/releases/download/v4.4.3/learning-4.4.3.tar.gz",
+    "version": "4.4.3",
     "description": "**Learning** is a self-hosted learning platform for Nextcloud. Your questions, progress, and student data never leave your server.\n\nBuilt for IT certification bootcamps (CompTIA, Cisco, AWS) but works for any subject. Instructors create courses, track student progress, and identify at-risk learners. Students drill with scientifically-backed spaced repetition and hands-on simulations.\n\n## Why Learning?\n\n- **Your data stays on your server** — no cloud dependency, full GDPR compliance\n- **FSRS adaptive scheduling** — cards are prioritized by memory strength, not rigid intervals\n- **9 interactive IT simulators** — CLI terminals, firewall builders, DNS resolvers, subnet calculators, network topology placement\n- **AI tutor (optional)** — answers questions by citing your uploaded course materials\n\n## For Instructors\n\n- Course management with pool assignment and student enrollment\n- **At-risk warnings** — automatic detection of struggling students\n- **Chapter heatmaps** — see where the class struggles at a glance\n- **Curriculum timeline** — plan course schedule with milestones\n- **Admin dashboard** — CSV export, course archiving, cohort merging\n- Campaign selection — choose which story scenarios are available per course\n\n## For Learners\n\n- **Smart Queue** — one-click review of all due cards, sorted by urgency\n- **Training &amp; Exam Mode** — practice or simulate timed exams\n- **PBQ Simulations** — performance-based questions with interactive CLI, drag-and-drop placement, and wiring tasks\n- **Story Campaigns** — learn through real IT incident scenarios (WannaCry, SolarWinds, Log4Shell)\n- **Live Duels &amp; Sprint** — real-time multiplayer quiz battles via Server-Sent Events\n- **Gamification** — XP, levels, streaks, 10 badges, seasonal league\n- **Maintenance Mode** — long-term retention schedule after course ends\n- **Trouble-spot cheat sheet** — export your weakest topics for exam prep\n\n## AI Features (optional)\n\nRequires a Google Gemini API key. Without it, the app is fully functional — AI features are simply hidden. Each user must explicitly opt in before any data is sent to the API.\n\n- **VirtuProf** — AI learning assistant with RAG-powered answers and source citations\n- **Question Generator** — create flashcards from pasted text\n- **Note Generator** — AI-powered topic summaries saved to Nextcloud Files\n\n## Question Types\n\n- Multiple Choice, Free Text with fuzzy matching, PBQ Simulations\n- CSV/JSON import &amp; export, pool sharing, multi-language translations\n\n## Technical\n\n- Vue 3, Vite, Pinia — modern frontend stack\n- 961 unit tests, PHPStan Level 5, 4-gate CI pipeline\n- Native Nextcloud integration: Dashboard widgets, Notifications, Talk, Files\n- AGPL-3.0 — fully open source\n\n## Requirements\n\n- Nextcloud 29–33\n- PHP 8.1+\n- PostgreSQL 13+ or MySQL 8+\n\n**Looking for pilot partners!** If you run Nextcloud at a school, university, or training provider — we'd love your feedback. Demo available.",
     "homepage": "https://github.com/andremadstop/learning-nc",
     "licenses": [
@@ -1810,9 +1810,9 @@
     ]
   },
   "metavox": {
-    "hash": "sha256-MV4cp9nGxBRZQtELFDCTfRYo3v0AONOOsIffLZUHlDY=",
-    "url": "https://github.com/nextcloud/metavox/releases/download/v2.0.7/metavox-2.0.7.tar.gz",
-    "version": "2.0.7",
+    "hash": "sha256-9iq3XFZ0eVTGp5b/kcp+c8uam9tLxs/ns7/+I3HP6b4=",
+    "url": "https://github.com/nextcloud/metavox/releases/download/v2.0.8/metavox-2.0.8.tar.gz",
+    "version": "2.0.8",
     "description": "MetaVox adds SharePoint-style metadata management to Nextcloud Team Folders. Define custom metadata fields and edit them inline — directly in the file list. Your files stay untouched: metadata is stored separately, never modifying file content.\n\n**10+ field types:** text, number, date, checkbox, dropdown, multi-select, URL, user picker, file link, and more.\n\n**Key Features:**\n\n- **Inline grid editing** — Double-click any cell to edit. Changes appear instantly for all users.\n- **Views** — Save column, filter, and sort combinations as tabs. Switch views with one click.\n- **Real-time collaboration** — Cell locking prevents concurrent edits. Syncs via WebSocket (notify_push).\n- **Client-side filter and sort** — Instant filtering with zero server calls.\n- **AI metadata autofill** — AI reads file content and suggests metadata values.\n- **Bulk editing** — Edit metadata for multiple files at once.\n- **Backup and restore** — Automated daily backups with one-click restore.\n- **Flow integration** — Automate actions based on metadata values (notifications, access control, retention).\n- **REST API** — Full OCS API for external integrations and bulk operations.\n\n**Ideal for:** SharePoint migrations, document classification, curriculum tagging, policy management, and research annotation. Used by universities, government organizations, and enterprises.\n\nSupports **Nextcloud 31, 32, and 33** with automatic feature detection.",
     "homepage": "https://voxcloud.nl",
     "licenses": [
@@ -2150,9 +2150,9 @@
     ]
   },
   "projectcheck": {
-    "hash": "sha256-Zvtjc1fwNROQfgqKXAQnG+PMJtRyjQq51nbtE2gUJcs=",
-    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-projectcheck/releases/download/v2.0.28/projectcheck-2.0.28.tar.gz",
-    "version": "2.0.28",
+    "hash": "sha256-wcg5wh3smXyWGgkdGkiw5JKlzUe1NV/KtQkSWX3hPWg=",
+    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-projectcheck/releases/download/v2.0.29/projectcheck-2.0.29.tar.gz",
+    "version": "2.0.29",
     "description": "A comprehensive project management application for IT projects with time tracking and budget control.\n\t\tFeatures include:\n\t\t- Project creation and management\n\t\t- Team member assignment and role management\n\t\t- Budget tracking and consumption monitoring\n\t\t- Project status management\n\t\t- Search and filtering capabilities\n\t\t- Real-time budget calculations",
     "homepage": "https://software-by-design.de",
     "licenses": [

@@ -270,9 +270,9 @@
     ]
   },
   "budget": {
-    "hash": "sha256-C44avZGOCiS2iYaaWy9z0jC9rsd3qMEnErNQOSQNVlc=",
-    "url": "https://github.com/otherworld-dev/budget/releases/download/v2.17.1/budget.tar.gz",
-    "version": "2.17.1",
+    "hash": "sha256-Fyh36S/YCMKoC/L936E+xBocnq2ILJV1nAmnyo2cgdE=",
+    "url": "https://github.com/otherworld-dev/budget/releases/download/v2.17.2/budget.tar.gz",
+    "version": "2.17.2",
     "description": "**⚠️ Beta: This app is currently in testing. Data loss is possible. Please backup your data regularly and report any issues.**\n\n# Budget - Financial Tracking for Nextcloud\n\nTrack your spending habits, manage savings, and forecast future account balances with intelligent analysis of your financial history.\n\n## Features\n\n* **Import Bank Statements**: Support for CSV, OFX, and QIF formats\n* **Smart Categorization**: Automatic vendor matching and transaction categorization\n* **Auto-Categorization Rules**: Apply rules to existing transactions anytime with preview\n* **Split Transactions**: Allocate single transactions across multiple categories\n* **Transfer Detection**: Automatic matching of transfers between accounts\n* **Budget Tracking**: Set spending limits with alerts when approaching or exceeding budgets\n* **Balance Forecasting**: Predict future balances based on historical data\n* **Recurring Bills**: Track bills with due date monitoring and Nextcloud notifications\n* **Recurring Income**: Track expected income sources with receipt tracking\n* **Split Expenses**: Share expenses with contacts and track who owes whom\n* **Debt Payoff Planner**: Plan repayment using avalanche or snowball strategies\n* **Savings Goals**: Set targets with progress tracking and achievement forecasting\n* **Pension Tracker**: Track retirement accounts with growth projections\n* **Net Worth History**: Track assets and liabilities over time\n* **Year-over-Year Reports**: Compare spending across multiple years\n* **Multi-Account Support**: Manage multiple bank accounts and currencies\n* **Custom Categories**: Create your own category hierarchy\n* **Reports & Charts**: Visualize your financial data with interactive charts\n\n## Documentation\n\nFull user documentation: https://github.com/otherworld-dev/budget/tree/master/docs\n\n## Requirements\n\n* Nextcloud 30 or higher\n* PHP 8.1 or higher\n* PHP BCMath extension (`php-bcmath`)",
     "homepage": "",
     "licenses": [
@@ -510,10 +510,10 @@
     ]
   },
   "countdown": {
-    "hash": "sha256-rUJit7AhOrjCQTwyxkurNm+fifpoNXerohuuRMaRjkM=",
-    "url": "https://github.com/infinit7even/countdown/releases/download/v1.1.91/countdown.tar.gz",
-    "version": "1.1.91",
-    "description": "**Your most anticipated releases, in one place.**\n\n**Built for Nextcloud**, this app keeps all your data fully private. Your events and most anticipated releases stay exclusively on your instance — no tracking, no profiling, no third-party access.\n\n## ✨ Features\n\n* 🕒 **Hyped Tracking**: Manage countdowns for games, movies, series, and personal events.\n* 📊 **Dashboard Widget**: View all your upcoming releases directly on your Nextcloud Dashboard.\n* 🔄 **Smart Recurrence**: Repeat events daily, weekly, monthly, or yearly (perfect for weekly show releases!).\n* 🔔 **Stay Notified**: Receive automatic alerts via Nextcloud Activity and System Notifications when a timer expires.\n* 🖼️ **Dual Layout**: Switch between **Stacked** (compact) and **Grid** (side-by-side) views to fit your style.\n* 📱 **PWA Ready**: Install the app on your phone or desktop for a native-like, full-screen experience.\n* 💻 **OCC Integration**: Administrators can manage countdowns using the OCC command line interface.\n* ✏️ **Custom Completion**: Choose between default, random, or custom messages when a countdown finishes.\n* 🗞️ **News Center**: Stay updated with the latest features and changes directly inside the app.\n* 🎮 **Easter Eggs**: Discover secrets hidden inside the app inspired by pop culture!\n\nOrganize events by creation date, follow recurring schedules, and access everything instantly. Designed to feel natural in both **Light and Dark themes**.\n\n## 🔔 How Notifications Work\n\nCountdown uses the **Nextcloud Background Job** system to send notifications server-side. This ensures you receive alerts even when the app is not open, including on the **Nextcloud mobile app**.\nNotifications are checked every **5 minutes** by a background job (`TimerJob`). For reliable delivery, your Nextcloud instance should use **System Cron** mode.\n\n## ⚙️ Configuring Notifications (CRON)\nTo configure automatic notification sending via crontab, read the [user documentation](https://github.com/infinit7even/countdown/blob/master/README.md#how-notifications-work)",
+    "hash": "sha256-4RVP3Cz7g1uk6iyTyRVZ/jYOuyirY/gCiqAqFQstKyI=",
+    "url": "https://github.com/infinit7even/countdown/releases/download/v1.2.10/countdown.tar.gz",
+    "version": "1.2.10",
+    "description": "**Your most anticipated releases, in one place.**\n\n**Built for Nextcloud**, this app keeps all your data fully private. Your events and most anticipated releases stay exclusively on your instance — no tracking, no profiling, no third-party access.\n\n## ✨ Features\n\n* 🕒 **Hyped Tracking**: Manage countdowns for games, movies, series, and personal events.\n* 📊 **Dashboard Widget**: View all your upcoming releases directly on your Nextcloud Dashboard.\n* 🔄 **Smart Recurrence**: Repeat events daily, weekly, monthly, or yearly (perfect for weekly show releases!).\n* 🔔 **Stay Notified**: Receive automatic alerts via Nextcloud Activity and System Notifications when a timer expires.\n* 🖼️ **Dual Layout**: Switch between **Stacked** (compact) and **Grid** (side-by-side) views to fit your style.\n* 📱 **PWA Ready**: Install the app on your phone or desktop for a native-like, full-screen experience.\n* 💻 **OCC Integration**: Administrators can manage countdowns using the OCC command line interface.\n* ✏️ **Custom Completion**: Choose between default, random, or custom messages when a countdown finishes.\n* 🗞️ **News Center**: Stay updated with the latest features and changes directly inside the app.\n* 🎮 **Easter Eggs**: Discover secrets hidden inside the app inspired by pop culture!\n\nOrganize events by creation date, follow recurring schedules, and access everything instantly. Designed to feel natural in both **Light and Dark themes**.\n\n## 🔔 How Notifications Work\n\nCountdown uses the **Nextcloud Background Job** system to send notifications server-side. This ensures you receive alerts even when the app is not open, including on the **Nextcloud mobile app**.\nNotifications are checked every **5 minutes** by a background job (`TimerJob`). For reliable delivery, your Nextcloud instance should use **System Cron** mode.\n\n## ⚙️ Configuring Notifications (CRON)\nTo configure automatic notification sending via crontab, read the [user documentation](https://github.com/infinit7even/countdown/blob/master/README.md#-how-notifications-work)",
     "homepage": "https://github.com/infinit7even/countdown",
     "licenses": [
       "AGPL-3.0-or-later"
@@ -2140,9 +2140,9 @@
     ]
   },
   "metavox": {
-    "hash": "sha256-MV4cp9nGxBRZQtELFDCTfRYo3v0AONOOsIffLZUHlDY=",
-    "url": "https://github.com/nextcloud/metavox/releases/download/v2.0.7/metavox-2.0.7.tar.gz",
-    "version": "2.0.7",
+    "hash": "sha256-9iq3XFZ0eVTGp5b/kcp+c8uam9tLxs/ns7/+I3HP6b4=",
+    "url": "https://github.com/nextcloud/metavox/releases/download/v2.0.8/metavox-2.0.8.tar.gz",
+    "version": "2.0.8",
     "description": "MetaVox adds SharePoint-style metadata management to Nextcloud Team Folders. Define custom metadata fields and edit them inline — directly in the file list. Your files stay untouched: metadata is stored separately, never modifying file content.\n\n**10+ field types:** text, number, date, checkbox, dropdown, multi-select, URL, user picker, file link, and more.\n\n**Key Features:**\n\n- **Inline grid editing** — Double-click any cell to edit. Changes appear instantly for all users.\n- **Views** — Save column, filter, and sort combinations as tabs. Switch views with one click.\n- **Real-time collaboration** — Cell locking prevents concurrent edits. Syncs via WebSocket (notify_push).\n- **Client-side filter and sort** — Instant filtering with zero server calls.\n- **AI metadata autofill** — AI reads file content and suggests metadata values.\n- **Bulk editing** — Edit metadata for multiple files at once.\n- **Backup and restore** — Automated daily backups with one-click restore.\n- **Flow integration** — Automate actions based on metadata values (notifications, access control, retention).\n- **REST API** — Full OCS API for external integrations and bulk operations.\n\n**Ideal for:** SharePoint migrations, document classification, curriculum tagging, policy management, and research annotation. Used by universities, government organizations, and enterprises.\n\nSupports **Nextcloud 31, 32, and 33** with automatic feature detection.",
     "homepage": "https://voxcloud.nl",
     "licenses": [
@@ -2600,9 +2600,9 @@
     ]
   },
   "projectcheck": {
-    "hash": "sha256-Zvtjc1fwNROQfgqKXAQnG+PMJtRyjQq51nbtE2gUJcs=",
-    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-projectcheck/releases/download/v2.0.28/projectcheck-2.0.28.tar.gz",
-    "version": "2.0.28",
+    "hash": "sha256-wcg5wh3smXyWGgkdGkiw5JKlzUe1NV/KtQkSWX3hPWg=",
+    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-projectcheck/releases/download/v2.0.29/projectcheck-2.0.29.tar.gz",
+    "version": "2.0.29",
     "description": "A comprehensive project management application for IT projects with time tracking and budget control.\n\t\tFeatures include:\n\t\t- Project creation and management\n\t\t- Team member assignment and role management\n\t\t- Budget tracking and consumption monitoring\n\t\t- Project status management\n\t\t- Search and filtering capabilities\n\t\t- Real-time budget calculations",
     "homepage": "https://software-by-design.de",
     "licenses": [
