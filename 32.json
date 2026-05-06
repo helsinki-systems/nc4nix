@@ -150,9 +150,9 @@
     ]
   },
   "astrolabe": {
-    "hash": "sha256-qyO6hLtx2lU9UZzd0temuvcROHlrVPFNe20TUGg8Py0=",
-    "url": "https://github.com/cbcoutinho/astrolabe/releases/download/v0.13.12/astrolabe-0.13.12.tar.gz",
-    "version": "0.13.12",
+    "hash": "sha256-JYgl4lshZEYnYMnbxe8cI7YmZV7QeSv1finPLl1Is2I=",
+    "url": "https://github.com/cbcoutinho/astrolabe/releases/download/v0.13.13/astrolabe-0.13.13.tar.gz",
+    "version": "0.13.13",
     "description": "# Astrolabe - Semantic Search for Nextcloud\n\nFind your content by meaning, not just keywords. Astrolabe brings AI-powered semantic search to your Nextcloud, helping you discover documents, notes, calendar events, and files through natural language.\n\n## Features\n\n- **Semantic Search**: Search across Notes, Files, Calendar, Deck, and more using natural language queries\n- **Unified Search Integration**: Results appear in Nextcloud's global search bar alongside traditional results\n- **Background Indexing**: Your content is automatically indexed for instant semantic search\n- **Vector Visualization**: Explore your content in an interactive 2D visualization showing semantic relationships\n- **Hybrid Search**: Combines semantic understanding with keyword matching for best results\n\n## How It Works\n\nAstrolabe connects to a semantic search service that understands the meaning of your content. Instead of exact keyword matches, you can search for concepts - ask \"meeting notes from last week\" or \"recipes with chicken\" and find relevant documents even if they don't contain those exact words.\n\n## Getting Started\n\n1. Install and enable the app\n2. Grant background access to allow indexing of your content\n3. Start searching with natural language in Nextcloud's search bar\n\nSee [documentation](https://github.com/cbcoutinho/nextcloud-mcp-server) for configuration details.",
     "homepage": "",
     "licenses": [
@@ -200,9 +200,9 @@
     ]
   },
   "auto_groups": {
-    "hash": "sha256-LxH/LcuCFQMtz/mAtfMhEWLhqDNUPQM1KwFv70uH+GU=",
-    "url": "https://github.com/jo23sh/auto_groups/releases/download/v1.7.0/auto_groups-v1.7.0.tar.gz",
-    "version": "1.7.0",
+    "hash": "sha256-g0P8OgGcESPbUbWNw1lSeV4RMt3Duh+zayjU5wsFfIc=",
+    "url": "https://github.com/jo23sh/auto_groups/releases/download/v1.7.1/auto_groups-v1.7.1.tar.gz",
+    "version": "1.7.1",
     "description": "Automatically add users to the specified Auto Groups, except those users belonging to one of the specified Override Groups. \nOptionally, the group assignment can be triggered on every successful login, which is useful for external user backends.\n\n## Configuration\n\n- Go to \"Settings > Administration > Additional settings\"\n- Configure the Auto Groups\n- If required, configure the Override Groups (e.g., for Service Accounts)\n- Optionally, enable the Login Hook, which will enforce correct group membership on every successful login\n\nNote that this app prevents group deletions for groups referenced as Auto Groups or Override Groups.\n\n## Comparison to similar Apps\n\n* [Everyone Group](https://apps.nextcloud.com/apps/group_everyone): The \"Everyone Group\" app adds a virtual Group Backend, always returning all users. In contrast, \"Auto Groups\" operates on \"real\" groups in your normal Group Backend. Additionally, it is possible to specify Override Groups which will prevent users from being added to the Auto Group(s).\n* [Default Group](https://apps.nextcloud.com/apps/defaultgroup): \"Auto Groups\" is actually a modernized and maintaned fork of \"Default Group\", which seems to be abandoned since NC12 or so. In terms of functionality, they are almost identical.",
     "homepage": "https://github.com/stjosh/auto_groups",
     "licenses": [
@@ -290,9 +290,9 @@
     ]
   },
   "calendar": {
-    "hash": "sha256-TpteTzNuf3KfAWqWaqzChT6HgX/As9G+umy+bX06H+c=",
-    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v6.2.3/calendar-v6.2.3.tar.gz",
-    "version": "6.2.3",
+    "hash": "sha256-0sY/rFpYF0ZTUtdvO4E3U9ouSTENgIC61gS22+q19jA=",
+    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v6.2.4/calendar-v6.2.4.tar.gz",
+    "version": "6.2.4",
     "description": "A Calendar app for Nextcloud. Easily sync events from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Like Contacts, Talk, Tasks, Deck and Circles\n* 🌐 **WebCal Support!** Want to see your favorite team's matchdays in your calendar? No problem!\n* 🙋 **Attendees!** Invite people to your events\n* ⌚ **Free/Busy!** See when your attendees are available to meet\n* ⏰ **Reminders!** Get alarms for events inside your browser and via email\n* 🔍 **Search!** Find your events at ease\n* ☑️ **Tasks!** See tasks or Deck cards with a due date directly in the calendar\n* 🔈 **Talk rooms!** Create an associated Talk room when booking a meeting with just one click\n* 📆 **Appointment booking** Send people a link so they can book an appointment with you [using this app](https://apps.nextcloud.com/apps/appointments)\n* 📎 **Attachments!** Add, upload and view event attachments\n* 🙈 **We’re not reinventing the wheel!** Based on the great [c-dav library](https://github.com/nextcloud/cdav-library), [ical.js](https://github.com/mozilla-comm/ical.js) and [fullcalendar](https://github.com/fullcalendar/fullcalendar) libraries.",
     "homepage": "https://github.com/nextcloud/calendar/",
     "licenses": [
@@ -440,11 +440,11 @@
     ]
   },
   "collectives": {
-    "hash": "sha256-hCH/P5at2pKCdBhCWoqaT0wrGkeRXcyNvno/b44+2DA=",
-    "url": "https://github.com/nextcloud/collectives/releases/download/v4.3.0/collectives-4.3.0.tar.gz",
-    "version": "4.3.0",
-    "description": "Collectives is a Nextcloud App for activist and community projects to organize together.\nCome and gather in collectives to build shared knowledge.\n\n* 👥 **Collective and non-hierarchical workflow by heart**: Collectives are\n  tied to a [Nextcloud Team](https://github.com/nextcloud/circles) and\n  owned by the collective.\n* 📝 **Collaborative page editing** like known from Etherpad thanks to the\n  [Text app](https://github.com/nextcloud/text).\n* 🔤 **Well-known [Markdown](https://en.wikipedia.org/wiki/Markdown) syntax**\n  for page formatting.\n\n## Installation\n\nIn your Nextcloud instance, simply navigate to **»Apps«**, find the\n**»Teams«** and **»Collectives«** apps and enable them.",
-    "homepage": "https://github.com/nextcloud/collectives",
+    "hash": "sha256-lXBo+5m5P0lULxg64LEO5bW8lQqsDH/fohAaioOo5JI=",
+    "url": "https://github.com/nextcloud/collectives/releases/download/v4.4.0/collectives-4.4.0.tar.gz",
+    "version": "4.4.0",
+    "description": "Your space to collaboratively write and organize. Collectives is designed for groups and communities\nto structure shared knowledge.\n\n* **👥 Group-owned, non-hierarchical at its core**: Each collective is backed by a\n  [Nextcloud Team](https://docs.nextcloud.com/server/latest/user_manual/en/groupware/contacts.html#teams) - its\n  content is owned by the group, not a single user.\n* **📝 Collaborative page editing** thanks to the [Text app](https://github.com/nextcloud/text).\n* **🔤 Well-known [Markdown](https://en.wikipedia.org/wiki/Markdown) syntax** for page formatting.\n* **🔎 Full-text search** with automatic indexing to find content straight away.",
+    "homepage": "https://collectives.cloud/",
     "licenses": [
       "agpl"
     ]
@@ -520,8 +520,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-mxAwLyOutS4qvONHO1mL2jpsOyd+Uj3WynjZIxSa88I=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/14002170576/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-Xf9lVXyP/2VqmCDzvk0lUuUFETM/ufOhIdAg5NajkiA=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/14003187896/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.11",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -950,9 +950,9 @@
     ]
   },
   "files_bpm": {
-    "hash": "sha256-/5PVKGkgQ3BuauhoFtcxQOYrODmfOO2KRtjYeKsM6eY=",
-    "url": "https://github.com/kirstenhh/nc-bpm-app/releases/download/v1.7.3/files_bpm-v1.7.3.tar.gz",
-    "version": "1.7.3",
+    "hash": "sha256-JuzO/fZApD5tSJ5M0K3j+InuRS0EUqAr8U5MV30Leps=",
+    "url": "https://github.com/kirstenhh/nc-bpm-app/releases/download/v1.8.0/files_bpm-v1.8.0.tar.gz",
+    "version": "1.8.0",
     "description": "A BPMN 2.0/DMN 1.3 Viewer and Editor",
     "homepage": "https://github.com/kirstenhh/nc-bpm-app/",
     "licenses": [
@@ -1170,11 +1170,11 @@
     ]
   },
   "formvox": {
-    "hash": "sha256-ftdypthIXIUF7VHnxCJ63c8PKSKPcvTswCcVtnt3Djg=",
-    "url": "https://github.com/nextcloud/formvox/releases/download/v1.1.5/formvox-1.1.5.tar.gz",
-    "version": "1.1.5",
+    "hash": "sha256-2Pj2WbStzQZ/QiBm1HYnmWsY3jrMrcJ64eGOpIme3PM=",
+    "url": "https://github.com/nextcloud/formvox/releases/download/v1.2.0/formvox-1.2.0.tar.gz",
+    "version": "1.2.0",
     "description": "FormVox is a file-based forms and polls app for Nextcloud. Unlike traditional form apps, FormVox stores everything in .fvform files — no database tables needed.\n\n**Features:**\n* 100% file-based storage (.fvform files)\n* Question types: text, textarea, single/multiple choice, dropdown, date, time, number, scale, rating, file upload, matrix, table\n* Conditional logic and page routing\n* Quiz mode with scoring\n* Export to CSV, JSON, and ODT (with custom template support)\n* Import from Microsoft Forms\n* Per-form branding with visual page builder\n* Answer piping (use previous answers in later questions)\n* Charts and visualizations in Results view\n* Webhooks and REST API for integrations\n* Collaborative editing with real-time presence indicators\n* Notifications on new responses\n* Password protection and expiration for public links\n* Multi-language: English, Dutch, German, French\n\n**Unique Benefits:**\n* One file contains everything (definition + responses)\n* Works with Nextcloud's versioning and sharing\n* End-to-end encryption compatible\n* No database migrations needed\n\n**Perfect for:**\n* Surveys and feedback forms\n* Quizzes and assessments\n* Event registrations\n* Expense declarations\n* Data collection with privacy requirements",
-    "homepage": "https://voxcloud.nl",
+    "homepage": "https://voxcommons.com",
     "licenses": [
       "agpl"
     ]
@@ -1370,9 +1370,9 @@
     ]
   },
   "guests": {
-    "hash": "sha256-SRZm8wclh2iYhevcMehpWpS8ryQa7cLptNGflGY8420=",
-    "url": "https://github.com/nextcloud-releases/guests/releases/download/v4.7.0/guests-v4.7.0.tar.gz",
-    "version": "4.7.0",
+    "hash": "sha256-zbc4hb9nJ/KT6/pVstdWQGZZ3EBywbFNPaWm3RuAkFc=",
+    "url": "https://github.com/nextcloud-releases/guests/releases/download/v4.7.1/guests-v4.7.1.tar.gz",
+    "version": "4.7.1",
     "description": "👥 Allows for better collaboration with external users by allowing users to create guests account.\n\nGuests accounts can be created from the share menu by entering either the recipients email or name and choosing \"create guest account\", once the share is created the guest user will receive an email notification about the mail with a link to set their password.\n\nGuests users can only access files shared to them and cannot create any files outside of shares, additionally, the apps accessible to guest accounts are whitelisted.",
     "homepage": "https://github.com/nextcloud/guests/",
     "licenses": [
@@ -1910,11 +1910,11 @@
     ]
   },
   "introvox": {
-    "hash": "sha256-+ueL2aPnNnHplj+/JdERDI6iWTN2AXT/DiA9la36KWw=",
-    "url": "https://github.com/nextcloud/IntroVox/releases/download/v1.4.2/introvox-1.4.2.tar.gz",
-    "version": "1.4.2",
+    "hash": "sha256-tYIoq6JoW1y1yAeGhjMDqGqC2lbU1PuE/EDcvlLOdJg=",
+    "url": "https://github.com/nextcloud/IntroVox/releases/download/v1.4.3/introvox-1.4.3.tar.gz",
+    "version": "1.4.3",
     "description": "IntroVox provides a user-friendly guided tour that helps new users get started with Nextcloud.\n\n**Features:**\n* Interactive step-by-step tour through Nextcloud's main features\n* Full admin interface for customizing tour steps per language\n* Multi-language support (6 languages: EN, NL, DE, DA, FR, SV)\n* Import/export functionality for easy tour configuration sharing\n* Global enable/disable control for administrators\n* Language-specific tour availability management\n* Group-based visibility for individual steps\n* Personal settings for users to restart or permanently disable the tour\n* Admin statistics dashboard with wizard usage metrics\n* Optional anonymous telemetry reporting\n* Automatically adapts to your Nextcloud theme (light, dark, high contrast)\n* Privacy-focused: tour completion status stored locally\n\n**Perfect for:**\n* Nextcloud administrators who want to improve user onboarding\n* Organizations deploying Nextcloud to new users\n* Multi-language organizations with diverse user bases\n* Anyone who wants to help users discover Nextcloud features\n\nBuilt with Vue 3 and Shepherd.js for a smooth, modern user experience.",
-    "homepage": "https://voxcloud.nl",
+    "homepage": "https://voxcommons.com",
     "licenses": [
       "agpl"
     ]
@@ -1930,10 +1930,10 @@
     ]
   },
   "journeys": {
-    "hash": "sha256-6sIR7DgE3MzLx2/m+GeXsgD3DH9BgzcM5HicDbNPdek=",
-    "url": "https://github.com/thrillfall/journeys/releases/download/0.23.2/journeys.tar.gz",
-    "version": "0.23.2",
-    "description": "# Automatic Photo Album Creation for Nextcloud\n\nAutomatically cluster your images into journeys (vacations/trips) and create albums for each journey.\n**Requires the Memories app!**\n\n## ✨ Features\n- **🗺️ Location & Time Clustering:** Group images by when and where they were taken\n- **🗂️ Album Creation:** Albums are created automatically for each journey\n- **⚙️ Customizable:** Control minimum cluster size, time gap, and distance thresholds\n- **🎥 Video Rendering:** Turn journey albums into MP4 highlight reels. Renders run as background jobs (the settings page returns instantly) and land in `Documents/Journeys Movies/`. Requires `ffmpeg` on the server.\n- **📚 Mobile-friendly journey browser:** Compact card list with year, month and location filters plus a `▶ Watch` shortcut to existing rendered videos — built for instances with many journeys.\n- **🧵 Smart Merging:** Adjacent clusters in the same country (within one week) are automatically stitched together, so multi-city road trips and long vacations with rest days stay as one journey\n\n## 🚀 OCC Command Usage\n\n    php occ journeys:cluster-create-albums <user>\n\n## 🏠 Using your home location (default)\nJourneys segments the timeline into **near home** and **away from home** and applies sensible defaults for each to capture local days vs. trips.\n\n## ⏰ Runs automatically\nA background job runs **daily** to cluster newly added photos, and you’ll receive a **notification** whenever new albums are created.\n\n## 🏷️ How album names are created\nAlbum titles are generated from the **resolved place name** and the **date range** of the cluster, e.g. `Iceland — Aug 12–19, 2024`.",
+    "hash": "sha256-Lr2tGJDdimoE5M3em7w3H/Iduz1inFZoAy8zE/Djp1E=",
+    "url": "https://github.com/thrillfall/journeys/releases/download/0.23.5/journeys.tar.gz",
+    "version": "0.23.5",
+    "description": "# Automatic Photo Album Creation for Nextcloud\n\nAutomatically cluster your images into journeys (vacations/trips) and create albums for each journey.\n**Requires the Memories app!**\n\n## ✨ Features\n- **🗺️ Location & Time Clustering:** Group images by when and where they were taken\n- **🗂️ Album Creation:** Albums are created automatically for each journey\n- **⚙️ Customizable:** Control minimum cluster size, time gap, and distance thresholds\n- **🎥 Video Rendering:** Turn journey albums into MP4 highlight reels. Renders run as background jobs (the settings page returns instantly) and land in `Documents/Journeys Movies/`. Per-location subtitles fade in/out as the journey moves between places. Requires `ffmpeg` on the server.\n- **📚 Mobile-friendly journey browser:** Compact card list with year, month and location filters plus a `▶ Watch` shortcut to existing rendered videos — built for instances with many journeys.\n- **🧵 Smart Merging:** Adjacent clusters in the same country (within one week) are automatically stitched together, so multi-city road trips and long vacations with rest days stay as one journey\n\n## 🚀 OCC Command Usage\n\n    php occ journeys:cluster-create-albums <user>\n\n## 🏠 Using your home location (default)\nJourneys segments the timeline into **near home** and **away from home** and applies sensible defaults for each to capture local days vs. trips.\n\n## ⏰ Runs automatically\nA background job runs **daily** to cluster newly added photos, and you’ll receive a **notification** whenever new albums are created.\n\n## 🏷️ How album names are created\nAlbum titles are generated from the **resolved place name** and the **date range** of the cluster, e.g. `Iceland — Aug 12–19, 2024`.",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -2180,9 +2180,9 @@
     ]
   },
   "ncc_backend_4mc": {
-    "hash": "sha256-EuHvrqOok/CBrij4FMyY1uC3AZqVD76MT/E8CB7sobo=",
-    "url": "https://github.com/nc-connector/Server_Backend/releases/download/v1.0.1/ncc_backend_4mc-1.0.1.tar.gz",
-    "version": "1.0.1",
+    "hash": "sha256-7sUCCcQJms3QOVdFPVb14lFpIBJPJi51N2FTPOE8hVY=",
+    "url": "https://github.com/nc-connector/Server_Backend/releases/download/v1.1.0/ncc_backend_4mc-1.1.0.tar.gz",
+    "version": "1.1.0",
     "description": "# NC Connector for mail integration\n\nNC Connector brings secure sharing, Talk meetings, and intelligent attachment handling directly into Thunderbird and Outlook Classic. This keeps daily work inside the familiar mail and calendar workflow instead of constantly moving back to the browser.\n\n## What NC Connector simplifies\n\n- Share files securely directly from the email workflow\n- Create and maintain Talk rooms directly from calendar events\n- Move attachments above a defined size into Nextcloud when appropriate\n- Insert links, passwords, and expiry dates in a clean and consistent way\n\n## Feature set\n\n### Share files securely\n\n- Guided share dialog with expiry date, permissions, and note\n- Password-protected shares\n- Formatted share block with link, password, rights, and expiry date\n- Optional separate password delivery\n\n### Handle attachments intelligently\n\n- Optionally route files through NC Connector by default\n- Offer uploads above a configurable file-size threshold\n- Clear user decision instead of uncontrolled automation\n- ZIP-download and download-link workflows for external recipients\n\n### Create Talk meetings from the calendar\n\n- Create and update Talk rooms from events\n- Manage room type, lobby, password, and moderation\n- Keep title and meeting link synchronized with the event\n- Clean up data for moved or deleted appointments\n\n## Backend note\n\nNC Connector also works directly in the mail client.  \nWith the optional Nextcloud backend, administrators additionally get central policies, Seat assignment, separate password delivery, and custom templates and branding for shares and Talk invitations.\n\nThat makes NC Connector suitable both for individual users and for organizations that want to manage mail and calendar workflows centrally.\n\n## Mail clients\n\n- Thunderbird: [https://addons.thunderbird.net/thunderbird/addon/nc4tb/](https://addons.thunderbird.net/thunderbird/addon/nc4tb/)\n- Outlook Classic: [https://github.com/nc-connector/NC_Connector_for_Outlook/releases/latest](https://github.com/nc-connector/NC_Connector_for_Outlook/releases/latest)\n\n## More information\n\n- Homepage: [https://nc-connector.de](https://nc-connector.de)\n- Contact: [https://nc-connector.de/kontakt/](https://nc-connector.de/kontakt/)",
     "homepage": "https://nc-connector.de",
     "licenses": [
@@ -2210,9 +2210,9 @@
     ]
   },
   "nextledger": {
-    "hash": "sha256-STxFlC6VL0RSfiI8tX5qOuawKydcfcbInCbtAY6SdLk=",
-    "url": "https://github.com/holger-dev/nextledger/releases/download/v1.6.1/nextledger.tar.gz",
-    "version": "1.6.1",
+    "hash": "sha256-sfngP2vNZ9hQFmKtzCSaJtLLehYQdmG/uRGAmHsCSk4=",
+    "url": "https://github.com/holger-dev/nextledger/releases/download/v1.6.3/nextledger.tar.gz",
+    "version": "1.6.3",
     "description": "NextLedger provides bookkeeping, customer management, invoicing, offers,\n    and annual profit/loss reports inside Nextcloud.",
     "homepage": "https://github.com/holger-dev/nextledger",
     "licenses": [
@@ -2250,9 +2250,9 @@
     ]
   },
   "notify_push": {
-    "hash": "sha256-Oan4xADU0teC5Lue9RwRkfkDKc0APb9nqar+s/Y9MPw=",
-    "url": "https://github.com/nextcloud-releases/notify_push/releases/download/v1.3.1/notify_push-v1.3.1.tar.gz",
-    "version": "1.3.1",
+    "hash": "sha256-5jYWUC/k0b0qbwrdHuyOgpGkb6LTDilRWKXrXizFQ+w=",
+    "url": "https://github.com/nextcloud-releases/notify_push/releases/download/v1.3.2/notify_push-v1.3.2.tar.gz",
+    "version": "1.3.2",
     "description": "Push update support for desktop app.\n\nOnce the app is installed, the push binary needs to be setup. You can either use the setup wizard with `occ notify_push:setup` or see the [README](http://github.com/nextcloud/notify_push) for detailed setup instructions",
     "homepage": "",
     "licenses": [
@@ -2270,9 +2270,9 @@
     ]
   },
   "ocs_api_viewer": {
-    "hash": "sha256-mauaiAAf4XeUnsS4XVNKXNpeKtneHge7J9cq+gjB09U=",
-    "url": "https://github.com/nextcloud-releases/ocs_api_viewer/releases/download/v1.0.11/ocs_api_viewer-v1.0.11.tar.gz",
-    "version": "1.0.11",
+    "hash": "sha256-Nfy44MjAAIlkxr215fXRhfc+X+ZcJrkUaMbtrtvzDqA=",
+    "url": "https://github.com/nextcloud-releases/ocs_api_viewer/releases/download/v1.0.12/ocs_api_viewer-v1.0.12.tar.gz",
+    "version": "1.0.12",
     "description": "View OCS API specifications for installed apps",
     "homepage": "https://github.com/nextcloud/ocs_api_viewer",
     "licenses": [
@@ -2430,9 +2430,9 @@
     ]
   },
   "otpmanager": {
-    "hash": "sha256-dDDVid0g7zvHracbkybyyieispvYFrSOBdXrA/citMc=",
-    "url": "https://github.com/matteo-convertino/otpmanager-nextcloud/releases/download/v1.1.4/otpmanager-1.1.4.tar.gz",
-    "version": "1.1.4",
+    "hash": "sha256-RCklhcnESuZ691FJbbUETOq711nP12itdysCRjtctXE=",
+    "url": "https://github.com/matteo-convertino/otpmanager-nextcloud/releases/download/v1.1.5/otpmanager-1.1.5.tar.gz",
+    "version": "1.1.5",
     "description": "OTP Manager is useful for those who use two-factor authentication (2FA) and want to manage their OTP codes securely and easily.\nThis application allows you to synchronise your OTP codes with your personal Nextcloud server so that you can access them from any device.\n\n######\n\nWith OTP Manager, you no longer have to worry about losing your OTP codes or not having access to them when you need them.\nAll you have to do is synchronise your app with your Nextcloud server and you will always have your OTP codes at hand, wherever you are.\n\n######\n\nOTP Manager offers the convenient feature of importing OTP codes from Google Authenticator by scanning the QR code.\nThis means you don't have to worry about having to manually enter every single OTP code, but can simply scan the QR code that the Google app generates when exporting\naccounts, and OTP Manager will automatically import your associated accounts.\n\n######\n\nThis way, the migration from Google Authenticator to OTP Manager will be quick and easy, without having to waste time manually resetting all your OTP codes.\n\n######\n\n**Apps & Extensions**\n* [Official Android App](https://play.google.com/store/apps/details?id=com.convertino.otp_manager)\n* [Simple Firefox Browser Extension](https://addons.mozilla.org/en-US/firefox/addon/simple-otpmanager-browser/)\n* [Simple Chrome Browser Extension](https://chromewebstore.google.com/detail/simple-otp-manager-browse/meopmcadkhpcpoaigkhkadagiemblecc)",
     "homepage": "",
     "licenses": [
@@ -2540,9 +2540,9 @@
     ]
   },
   "picker": {
-    "hash": "sha256-F6IHlU96yNQqkRdZSf2vVbwGZgpgWUJBzKO6ec8qzPQ=",
-    "url": "https://github.com/nextcloud-releases/picker/releases/download/v1.0.14/picker-v1.0.14.tar.gz",
-    "version": "1.0.14",
+    "hash": "sha256-9JcQ2UYOwkI0WmqbV4UZHqoH/O39jLX7/t2/DGLBfLE=",
+    "url": "https://github.com/nextcloud-releases/picker/releases/download/v1.0.15/picker-v1.0.15.tar.gz",
+    "version": "1.0.15",
     "description": "This app provides a page to pick a file, generate a public link and directly browse it.\nIt can be used to integrate Nextcloud in other apps such as a video call software.",
     "homepage": "https://github.com/julien-nc/picker",
     "licenses": [
@@ -2600,9 +2600,9 @@
     ]
   },
   "projectcheck": {
-    "hash": "sha256-wcg5wh3smXyWGgkdGkiw5JKlzUe1NV/KtQkSWX3hPWg=",
-    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-projectcheck/releases/download/v2.0.29/projectcheck-2.0.29.tar.gz",
-    "version": "2.0.29",
+    "hash": "sha256-MJszJwhFoppKqXDO0Xrjqip6VE+dkuipH3L6uyQ6cTo=",
+    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-projectcheck/releases/download/v2.0.31/projectcheck-2.0.31.tar.gz",
+    "version": "2.0.31",
     "description": "A comprehensive project management application for IT projects with time tracking and budget control.\n\t\tFeatures include:\n\t\t- Project creation and management\n\t\t- Team member assignment and role management\n\t\t- Budget tracking and consumption monitoring\n\t\t- Project status management\n\t\t- Search and filtering capabilities\n\t\t- Real-time budget calculations",
     "homepage": "https://software-by-design.de",
     "licenses": [
@@ -2830,9 +2830,9 @@
     ]
   },
   "sendent": {
-    "hash": "sha256-08ykY2XkmDtPi0QT5Nxr3IGBPJl/it4R55LQvdhnoto=",
-    "url": "https://download.sendent.com/serverapp/4.2.5/sendent.tar.gz",
-    "version": "4.2.5",
+    "hash": "sha256-UF5+2bbZDn1aRlA/08yGP73FME67/Ppf/FaSqqIrq/k=",
+    "url": "https://download.sendent.com/serverapp/4.2.7/sendent.tar.gz",
+    "version": "4.2.7",
     "description": "Sendent now securely exchanges files and emails, integrating with both Microsoft Outlook and Microsoft Teams. This enhanced capability allows users to seamlessly conduct their work, not only within their preferred email environment but also within the collaborative framework of Microsoft Teams. Whether sharing privacy-sensitive documents, content, or handling attachments that exceed standard email size constraints, Sendent ensures a streamlined and secure communication experience. All files are directed to your Nextcloud instance, empowering you to control and manage access permissions effectively.",
     "homepage": "https://www.sendent.com",
     "licenses": [
@@ -3190,9 +3190,9 @@
     ]
   },
   "teamhub": {
-    "hash": "sha256-+UmN4WL6Rt+y2J8ShkH9efZG5nSpRH7US06q7GjN/GI=",
-    "url": "https://github.com/JustinDoek/Nextcloud-Teamhub/releases/download/v3.23/teamhub.tar.gz",
-    "version": "3.23.0",
+    "hash": "sha256-eJinJmD+VFgWTl3M1RDQMk19O7nrIbmZDVPf98gmzoA=",
+    "url": "https://github.com/JustinDoek/Nextcloud-Teamhub/releases/download/3.24/teamhub.tar.gz",
+    "version": "3.24.0",
     "description": "TeamHub started as a visual mock up to discus team based working in Nextcloud and grew into a workspace built on top of Nextcloud Teams (Circles).\n\nEach team gets a shared home with:\n- **Messages** — post announcements, questions and polls to your team\n- **Activity feed** — a single view of recent file, calendar, task and member changes across all shared resources\n- **App tabs** — quick-links to the team's shared Talk chat, Files folder, Calendar and Deck board\n- **Sidebar widgets** — upcoming calendar events, open Deck tasks, Pages, and the activity snapshot\n- **Team management** — invite members by user, group, email or federated account; manage roles and pending requests\n- **Customizable view** — users can create their own layout\n- **Integrations** — developers can integrate their app with teamhub\n\nTeamHub works entirely within your Nextcloud instance and does not require any external services.",
     "homepage": "https://tldr.host/teamhub",
     "licenses": [
@@ -3520,9 +3520,9 @@
     ]
   },
   "weekplanner": {
-    "hash": "sha256-9Llafb0CNctpAdxl2mCeuPswNAEwpo/b5ZH9Cec24EQ=",
-    "url": "https://github.com/sorenjohanson/weekplanner-nextcloud/releases/download/v1.8.1/weekplanner-v1.8.1.tar.gz",
-    "version": "1.8.1",
+    "hash": "sha256-mUexc9QKtDCkV8lWYwrnDrJqpdsEPOZcLoAt0aTkn44=",
+    "url": "https://github.com/sorenjohanson/weekplanner-nextcloud/releases/download/v1.8.3/weekplanner-v1.8.3.tar.gz",
+    "version": "1.8.3",
     "description": "**Your week, at a glance — self-hosted and distraction-free!**\n\nA simple weekly planner inspired by [Tweek](https://tweek.so), living right inside your Nextcloud.\n\n- **🗓️ Weekly overview:** See all your tasks laid out across the seven days of the week in one clean view.\n- **🖱️ Drag & drop:** Effortlessly reschedule tasks by dragging them from one day to another — no friction, no hassle.\n- **✅ Tick things off:** Mark tasks as done and get that satisfying sense of progress throughout your week.\n- **🔒 Your data stays yours:** Unlike Tweek, Todoist, or other cloud-based planners, all your tasks remain on your own Nextcloud instance.\n- **📱 Mobile friendly:** The interface works well on smaller screens so you can plan on the go.\n- **🧩 Nextcloud native:** Fully integrated into the Nextcloud navigation — no external accounts, no third-party sync, no tracking.",
     "homepage": "https://github.com/sorenjohanson/weekplanner-nextcloud",
     "licenses": [
