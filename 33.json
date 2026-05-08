@@ -50,9 +50,9 @@
     ]
   },
   "ak_language_switcher": {
-    "hash": "sha256-OpLIW4M48INp4OKIPH6QYwpvVznsXXgRf4uDyLSFbwM=",
-    "url": "https://github.com/sashd3/ak-language-switcher/releases/download/v1.0.1/ak_language_switcher-1.0.1.tar.gz",
-    "version": "1.0.1",
+    "hash": "sha256-tGviOh2o4bCtlH0WFWB24guJSOszfR+n+2ajS4XjsGQ=",
+    "url": "https://github.com/sashd3/ak-language-switcher/releases/download/v1.0.2/ak_language_switcher-1.0.2.tar.gz",
+    "version": "1.0.2",
     "description": "A Language Switcher App for Nextcloud\n\nAdds a language switcher dropdown to the header bar, allowing users to change the interface language on the fly.\n\n**Features**\n\n- Switch language directly from the header bar — no need to visit settings\n- Works for logged-in users — saves the selected language as user preference\n- Works on public share pages — visitors can choose their language via session cookie\n- Admin settings — choose from 6 icon styles, adjust size, stroke width and color\n- Language filter — admins can restrict which languages are available\n- Supports 100+ languages out of the box\n- Compatible with Nextcloud 27–33\n- Full dark mode support\n\n**Requirements**\n\n- Nextcloud 27 or newer\n- PHP intl extension recommended for native language names\n\n[Report a bug](https://github.com/sashd3/ak-language-switcher/issues/new?template=bug_report.md)\n\n[Request a feature](https://github.com/sashd3/ak-language-switcher/issues/new?template=feature_request.md)\n\n[Buy me a slice of pizza](https://www.buymeacoffee.com/sas4)\n\n[Support on Liberapay](https://liberapay.com/aarekraft.dev)",
     "homepage": "https://aarekraft.dev",
     "licenses": [
@@ -1100,9 +1100,9 @@
     ]
   },
   "guests": {
-    "hash": "sha256-zbc4hb9nJ/KT6/pVstdWQGZZ3EBywbFNPaWm3RuAkFc=",
-    "url": "https://github.com/nextcloud-releases/guests/releases/download/v4.7.1/guests-v4.7.1.tar.gz",
-    "version": "4.7.1",
+    "hash": "sha256-aBboQIdgC5/zkHkSAQ/d1RQSzg7qHawldFws7CwRiFk=",
+    "url": "https://github.com/nextcloud-releases/guests/releases/download/v4.7.2/guests-v4.7.2.tar.gz",
+    "version": "4.7.2",
     "description": "👥 Allows for better collaboration with external users by allowing users to create guests account.\n\nGuests accounts can be created from the share menu by entering either the recipients email or name and choosing \"create guest account\", once the share is created the guest user will receive an email notification about the mail with a link to set their password.\n\nGuests users can only access files shared to them and cannot create any files outside of shares, additionally, the apps accessible to guest accounts are whitelisted.",
     "homepage": "https://github.com/nextcloud/guests/",
     "licenses": [
@@ -1610,9 +1610,9 @@
     ]
   },
   "intravox": {
-    "hash": "sha256-JO6twvrT/NuFHNmfoy+LUneEd7TJdez+2D4Mm+P1QS4=",
-    "url": "https://github.com/nextcloud/IntraVox/releases/download/v1.3.0/intravox-1.3.0.tar.gz",
-    "version": "1.3.0",
+    "hash": "sha256-QOLbbYDF8fUlLrVweaXVPZMB/d/IjyVHuW3hUH9Tbcw=",
+    "url": "https://github.com/nextcloud/IntraVox/releases/download/v1.3.4/intravox-1.3.4.tar.gz",
+    "version": "1.3.4",
     "description": "IntraVox transforms Nextcloud into a full-featured intranet platform. Build professional pages with a visual drag-and-drop editor — no coding required. A complete, open-source alternative to SharePoint.\n\n**Page editor:**\n* Drag-and-drop widget placement with flexible grid layouts (1–5 columns)\n* 7 ready-made page templates to get started quickly\n* Collapsible sections, sticky toolbar, and row duplication\n* Draft/Published workflow with page locking to prevent conflicts\n\n**Rich widget library:**\n* Text (with tables and markdown), images, video, links, files, dividers\n* Calendar widget with multi-calendar merged view and recurring events\n* People widget with user profiles, filters, and birthday tracking\n* News widget with list, grid, and carousel layouts\n\n**Collaboration & engagement:**\n* Emoji reactions and threaded comments on pages\n* Version history with one-click restore\n* Personal RSS feed for following page updates\n* Public sharing with optional password protection\n\n**Content management:**\n* Multi-language support with per-language content folders\n* Navigation editor with megamenu and sidebar options\n* Full export/import to ZIP — including Confluence HTML import\n* Demo content to get started in minutes\n\n**Enterprise ready:**\n* Department-based access control via GroupFolders ACL\n* Nextcloud Unified Search integration (Ctrl+K)\n* Seamless theming, users, groups, and files integration\n\n**Requirements:**\n* Nextcloud 32 or 33\n* PHP 8.2 or higher\n* GroupFolders app (installed and enabled)\n\n**Ideal for:**\n* Company intranets and news portals\n* Department knowledge bases\n* Internal communication and documentation\n* SharePoint-to-Nextcloud migrations",
     "homepage": "https://voxcloud.nl",
     "licenses": [
@@ -1659,6 +1659,16 @@
       "agpl"
     ]
   },
+  "keeweb": {
+    "hash": "sha256-/ORLxxwPBd6lEvYeZpEWr4jqFyU5rPMvc5v1hrfT8cA=",
+    "url": "https://github.com/jhass/nextcloud-keeweb/releases/download/v0.6.23/keeweb-0.6.23.tar.gz",
+    "version": "0.6.23",
+    "description": "Open Keepass stores inside Nextcloud with Keeweb just by clicking on an *.kdbx file in your Nextcloud.\n        \nWARNING: As of September 2025 KeeWeb itself did not get any new release since 2021 and may contain security issues. You may consider to choose an actively maintained developed app like Passman or Passwords. If this changes in the future, this notice will be updated accordingly.",
+    "homepage": "https://github.com/jhass/nextcloud-keeweb",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "ldap_contacts_backend": {
     "hash": "sha256-hhwZCAPh6bjNrwoYWLY8q+S49uMinmmdSDSR4N86eXY=",
     "url": "https://github.com/nextcloud-releases/ldap_contacts_backend/releases/download/v1.13.0/ldap_contacts_backend-v1.13.0.tar.gz",
@@ -1680,13 +1690,23 @@
     ]
   },
   "learning": {
-    "hash": "sha256-wgI9HHXXVlqJSdl6rQXJQs6jgnNXBfmZwhP9fzvxJog=",
-    "url": "https://github.com/andremadstop/learning-nc/releases/download/v4.4.3/learning-4.4.3.tar.gz",
-    "version": "4.4.3",
+    "hash": "sha256-Vyni8ftlijp0oLu0tcP/S4b+4lWeXmsRbUOhVYLiUPw=",
+    "url": "https://github.com/andremadstop/learning-nc/releases/download/v4.4.4/learning-4.4.4.tar.gz",
+    "version": "4.4.4",
     "description": "**Learning** is a self-hosted learning platform for Nextcloud. Your questions, progress, and student data never leave your server.\n\nBuilt for IT certification bootcamps (CompTIA, Cisco, AWS) but works for any subject. Instructors create courses, track student progress, and identify at-risk learners. Students drill with scientifically-backed spaced repetition and hands-on simulations.\n\n## Why Learning?\n\n- **Your data stays on your server** — no cloud dependency, full GDPR compliance\n- **FSRS adaptive scheduling** — cards are prioritized by memory strength, not rigid intervals\n- **9 interactive IT simulators** — CLI terminals, firewall builders, DNS resolvers, subnet calculators, network topology placement\n- **AI tutor (optional)** — answers questions by citing your uploaded course materials\n\n## For Instructors\n\n- Course management with pool assignment and student enrollment\n- **At-risk warnings** — automatic detection of struggling students\n- **Chapter heatmaps** — see where the class struggles at a glance\n- **Curriculum timeline** — plan course schedule with milestones\n- **Admin dashboard** — CSV export, course archiving, cohort merging\n- Campaign selection — choose which story scenarios are available per course\n\n## For Learners\n\n- **Smart Queue** — one-click review of all due cards, sorted by urgency\n- **Training &amp; Exam Mode** — practice or simulate timed exams\n- **PBQ Simulations** — performance-based questions with interactive CLI, drag-and-drop placement, and wiring tasks\n- **Story Campaigns** — learn through real IT incident scenarios (WannaCry, SolarWinds, Log4Shell)\n- **Live Duels &amp; Sprint** — real-time multiplayer quiz battles via Server-Sent Events\n- **Gamification** — XP, levels, streaks, 10 badges, seasonal league\n- **Maintenance Mode** — long-term retention schedule after course ends\n- **Trouble-spot cheat sheet** — export your weakest topics for exam prep\n\n## AI Features (optional)\n\nRequires a Google Gemini API key. Without it, the app is fully functional — AI features are simply hidden. Each user must explicitly opt in before any data is sent to the API.\n\n- **VirtuProf** — AI learning assistant with RAG-powered answers and source citations\n- **Question Generator** — create flashcards from pasted text\n- **Note Generator** — AI-powered topic summaries saved to Nextcloud Files\n\n## Question Types\n\n- Multiple Choice, Free Text with fuzzy matching, PBQ Simulations\n- CSV/JSON import &amp; export, pool sharing, multi-language translations\n\n## Technical\n\n- Vue 3, Vite, Pinia — modern frontend stack\n- 961 unit tests, PHPStan Level 5, 4-gate CI pipeline\n- Native Nextcloud integration: Dashboard widgets, Notifications, Talk, Files\n- AGPL-3.0 — fully open source\n\n## Requirements\n\n- Nextcloud 29–33\n- PHP 8.1+\n- PostgreSQL 13+ or MySQL 8+\n\n**Looking for pilot partners!** If you run Nextcloud at a school, university, or training provider — we'd love your feedback. Demo available.",
     "homepage": "https://github.com/andremadstop/learning-nc",
     "licenses": [
       "agpl"
+    ]
+  },
+  "legal_advice": {
+    "hash": "sha256-TIB6ZeohNe1SmQEGso22IAge0KVvv/RtojfTnr6tPdA=",
+    "url": "https://github.com/lgomezd10/legal-advise/releases/download/v0.1.8/legal_advice.tar.gz",
+    "version": "0.1.8",
+    "description": "Aplicacion nativa de Nextcloud para registrar, enrutar, gestionar y resolver consultas legales con integracion opcional con Tasks.",
+    "homepage": "https://github.com/lgomezd10/legal-advise",
+    "licenses": [
+      "AGPL-3.0-or-later"
     ]
   },
   "lettermaker": {
@@ -2000,19 +2020,19 @@
     ]
   },
   "opsdash": {
-    "hash": "sha256-iJ6qYf6yuWdJ4rzM5xP+sxvDSSRGg9uQmmXaFQBgl2U=",
-    "url": "https://forgejodev.gellert-innovation.com/blade34242/opsdash-app/releases/download/v0.7.6/opsdash-0.7.6.tar.gz",
-    "version": "0.7.6",
+    "hash": "sha256-bPCnNgYBgdNBq2Pl4kJtzR+4QvEmlYEHomjJOYmngJI=",
+    "url": "https://forgejodev.gellert-innovation.com/blade34242/opsdash-app/releases/download/v0.8.0/opsdash-0.8.0.tar.gz",
+    "version": "0.8.0",
     "description": "Opsdash is an independent third-party app for Nextcloud Calendar that turns calendar activity into an operational cockpit for weekly and monthly planning.\n\nOpsdash is not affiliated with, endorsed by, sponsored by, or officially maintained by Nextcloud GmbH or the Nextcloud project.\n\nUse it to answer three questions fast:\n- What happened this period?\n- Are we on pace against targets?\n- Where is workload drifting?\n\n### Highlights\n- KPI dashboards for totals, active days, day-of-week patterns, and category mix\n- Calendar and category targets with pacing context\n- Balance/trend widgets for period-over-period comparisons\n- Notes, presets, and profile export/import for repeatable reporting\n- Guided onboarding for quick team setup\n\n### Runs inside Nextcloud\n- Runs fully inside Nextcloud (no external analytics backend)\n- Per-user configuration persisted server-side\n- CSRF-protected write endpoints and standard Nextcloud permission model\n\nOpsdash is built for teams that already plan in calendars and want clear execution visibility without leaving Nextcloud.",
-    "homepage": "https://forgejodev.gellert-innovation.com/blade34242/opsdash-app",
+    "homepage": "https://gellert-innovation.com/",
     "licenses": [
       "AGPL-3.0-or-later"
     ]
   },
   "orchestrascoresmanager": {
-    "hash": "sha256-ApHpx2jTn4l6dHhi+9Zzc21gdJr75HQ3EVkfIALc9yw=",
-    "url": "https://github.com/Bibo-Joshi/orchestrascoresmanager/releases/download/0.7.0/orchestrascoresmanager-0.7.0.tar.gz",
-    "version": "0.7.0",
+    "hash": "sha256-+79CL+UGjkToXHYx0o+Xmn5vXMuNKEoZMQC1OQwtxvQ=",
+    "url": "https://github.com/Bibo-Joshi/orchestrascoresmanager/releases/download/0.8.0/orchestrascoresmanager-0.8.0.tar.gz",
+    "version": "0.8.0",
     "description": "⚠️ Early development phase – expect rough edges and breaking changes.\n\nOrchestra Scores Manager lets you maintain a structured database of your orchestra's sheet music (scores) inside Nextcloud.\n\nKey features:\n- Manage individual scores with rich metadata (composer, arranger, publisher, year, difficulty, and more)\n- Organize scores into score books and folder collections\n- Track version history of folder collections\n- Build and manage setlists\n- Categorize scores with tags\n- Add comments to scores",
     "homepage": "https://github.com/Bibo-Joshi/orchestrascoresmanager",
     "licenses": [
@@ -2040,9 +2060,9 @@
     ]
   },
   "pantry": {
-    "hash": "sha256-V6V63kNOK4MlblbLHXBFKeD+fCwxtSnIYTky13zySCQ=",
-    "url": "https://github.com/chenasraf/nextcloud-pantry/releases/download/v0.10.2/pantry-v0.10.2.tar.gz",
-    "version": "0.10.2",
+    "hash": "sha256-vJ6wFVWtepI3NfcWqatfHvnWLg8tPEPseco6HcKy2y8=",
+    "url": "https://github.com/chenasraf/nextcloud-pantry/releases/download/v0.10.3/pantry-v0.10.3.tar.gz",
+    "version": "0.10.3",
     "description": "Pantry helps households stay organized in Nextcloud.\n\n- **Houses** group members and their shared data. A person can belong to multiple houses and switch between them freely.\n- **Checklists** support recurring items (e.g. milk every week) that automatically reappear when due. Share lists with the whole household so everyone knows what to pick up.\n- **Photo boards** let you keep shared reference photos organized in folders — the right brand of dog food, a favorite recipe card, a product label, and so on.\n- **Notes wall** gives the household a lightweight shared space for reminders, pinned messages, and quick notes with customizable colors.\n- **Notifications** keep everyone in the loop when photos are uploaded or notes are added or edited.\n\nAll data is scoped to a house; members only see the houses they belong to.\n\n**Mobile apps:** [Android (Google Play)](https://play.google.com/store/apps/details?id=dev.casraf.pantry) | [iOS (App Store)](https://apps.apple.com/us/app/pantry-for-nextcloud/id6762161619)",
     "homepage": "https://github.com/chenasraf/nextcloud-pantry",
     "licenses": [
@@ -2170,9 +2190,9 @@
     ]
   },
   "projectcheck": {
-    "hash": "sha256-MJszJwhFoppKqXDO0Xrjqip6VE+dkuipH3L6uyQ6cTo=",
-    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-projectcheck/releases/download/v2.0.31/projectcheck-2.0.31.tar.gz",
-    "version": "2.0.31",
+    "hash": "sha256-V6InZ2mWoLR+HX0RQCKYB1lYo6P2wXuVQuh2vQWDs+I=",
+    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-projectcheck/releases/download/v2.0.32/projectcheck-2.0.32.tar.gz",
+    "version": "2.0.32",
     "description": "A comprehensive project management application for IT projects with time tracking and budget control.\n\t\tFeatures include:\n\t\t- Project creation and management\n\t\t- Team member assignment and role management\n\t\t- Budget tracking and consumption monitoring\n\t\t- Project status management\n\t\t- Search and filtering capabilities\n\t\t- Real-time budget calculations",
     "homepage": "https://software-by-design.de",
     "licenses": [
@@ -2643,7 +2663,7 @@
     "hash": "sha256-Dv3EqYfxq2xFiVh/tH7CzalaMyAPwg9fIAq2YoDdifg=",
     "url": "https://github.com/merlin1de/starrate/releases/download/v1.3.4/starrate.tar.gz",
     "version": "1.3.4",
-    "description": "StarRate is a professional photo rating and culling tool for photographers, seamlessly integrated into Nextcloud.\n\nRate photos with 1–5 stars and color labels, flag picks and rejects with keyboard shortcuts, and share a guest gallery link with your client or model. They pick their favorites in the browser — no Nextcloud account required. Leave comments on individual images for feedback rounds, and export the final rating list as CSV when you're done.\n\n**Ratings are written as XMP metadata directly into the JPEG file.** Open it in Lightroom Classic, digiKam, F-Stop or Darktable — the stars are already there. No re-export, no sidecar files. **Coming from Lightroom?** Import your existing XMP ratings with one `occ` command — your years of curation travel with you.\n\n**Features:**\n- Star ratings (0–5) + color labels (Red/Yellow/Green/Blue/Purple) + Pick/Reject flags\n- XMP metadata written into JPEG — compatible with Lightroom Classic, digiKam, F-Stop, Darktable\n- Import existing XMP ratings from Lightroom/digiKam via `occ starrate:import-xmp` (with `--recursive` for whole folder trees)\n- Comments on individual images — for client feedback rounds or personal notes, optional in guest galleries\n- Export the rating list as CSV (filename, stars, color, pick/reject) — download or copy to clipboard\n- Guest share links for clients and models (no Nextcloud login required), with optional password, expiry, and export permission\n- Keyboard shortcuts like Lightroom: 0–5 stars, 6–9 colors, P/X pick/reject\n- Batch rating and batch pick/reject with Shift+click / Ctrl+click / Ctrl+A\n- Combinable filters: stars, color, Pick/Reject, unrated\n- Recursive folder view — browse a whole folder tree as a flat stream or grouped by folder depth\n- Full-screen loupe view with zoom up to 400%, pan, pinch-to-zoom\n- Dark professional UI theme optimized for photo work\n- English and German",
+    "description": "StarRate is a professional photo rating and culling tool for photographers, seamlessly integrated into Nextcloud.\n\nRate photos with 1–5 stars and color labels, flag picks and rejects with keyboard shortcuts, and share a guest gallery link with your client or model. They pick their favorites in the browser — no Nextcloud account required. Leave comments on individual images for feedback rounds, and export the final rating list as CSV when you're done.\n\n**Ratings are written as XMP metadata directly into the JPEG file.** Open it in Lightroom Classic, digiKam, F-Stop or Darktable — the stars are already there. No re-export, no sidecar files. **Coming from Lightroom?** Import your existing XMP ratings with one `occ` command — your years of curation travel with you.\n\n**Browse a whole folder tree at once.** Recursive folder view flattens nested directories into a single sortable, filterable grid — perfect for working through an entire shoot week or a multi-event archive without clicking into every subfolder.\n\n**Built for client presentations.** Slideshow mode in the loupe auto-advances through filtered images at a configurable interval — pre-filter to your three-star picks, hand over the keyboard, and let it run.\n\n**Features:**\n- Star ratings (0–5) + color labels (Red/Yellow/Green/Blue/Purple) + Pick/Reject flags\n- **Recursive folder view** — browse an entire folder tree as a flat stream or grouped by folder depth (1.3.0+)\n- **Loupe slideshow mode** — auto-advance with configurable interval, ideal for client presentations (1.3.2+)\n- XMP metadata written into JPEG — Lightroom / Bridge / digiKam compatible\n- Configurable XMP label language: Lightroom (German localization) or Bridge / digiKam / English tools (1.3.3+)\n- Self-healing XMP read on loupe open — externally-edited files (Lightroom, digiKam) sync their new ratings the next time you click into them, no manual `occ` run needed (1.3.3+)\n- Import existing XMP ratings from Lightroom/digiKam via `occ starrate:import-xmp` (with `--recursive` for whole folder trees)\n- Comments on individual images — for client feedback rounds or personal notes, optional in guest galleries\n- Export the rating list as CSV (filename, stars, color, pick/reject) — download or copy to clipboard\n- Guest share links for clients and models (no Nextcloud login required), with optional password, expiry, and per-share permissions (rate / pick / export / comments / recursive)\n- Keyboard shortcuts like Lightroom: 0–5 stars, 6–9 colors, P/X pick/reject, S slideshow\n- Batch rating and batch pick/reject with Shift+click / Ctrl+click / Ctrl+A\n- Combinable filters: stars, color, Pick/Reject, unrated\n- Full-screen loupe view with zoom up to 400%, pan, pinch-to-zoom\n- Dark professional UI theme optimized for photo work\n- English and German",
     "homepage": "https://github.com/merlin1de/starrate",
     "licenses": [
       "agpl"
@@ -2700,9 +2720,9 @@
     ]
   },
   "teamhub": {
-    "hash": "sha256-9Q73ZguTrKZkjhaF7uj2P7VCbwTD/DczzwQJDKBjDb0=",
-    "url": "https://github.com/JustinDoek/Nextcloud-Teamhub/releases/download/v3.27.2/teamhub.tar.gz",
-    "version": "3.27.4",
+    "hash": "sha256-8WnRVz1UE6aBKRIOEHHeZwCtCppXoUNNVOXmGtfLDuM=",
+    "url": "https://github.com/JustinDoek/Nextcloud-Teamhub/releases/download/v3.28/teamhub.tar.gz",
+    "version": "3.28.0",
     "description": "TeamHub started as a visual mock up to discus team based working in Nextcloud and grew into a workspace built on top of Nextcloud Teams (Circles).\n\nEach team gets a shared home with:\n- **Messages** — post announcements, questions and polls to your team\n- **Activity feed** — a single view of recent file, calendar, task and member changes across all shared resources\n- **App tabs** — quick-links to the team's shared Talk chat, Files folder, Calendar and Deck board\n- **Sidebar widgets** — upcoming calendar events, open Deck tasks, Pages, and the activity snapshot\n- **Team management** — invite members by user, group, email or federated account; manage roles and pending requests\n- **Customizable view** — users can create their own layout\n- **Integrations** — developers can integrate their app with teamhub\n\nTeamHub works entirely within your Nextcloud instance and does not require any external services.",
     "homepage": "https://tldr.host/teamhub",
     "licenses": [
