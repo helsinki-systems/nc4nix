@@ -280,9 +280,9 @@
     ]
   },
   "cage": {
-    "hash": "sha256-ypVXMZc81Sm3DV4JxywYK2gD8pCnRfE85QgJEBI71Fc=",
-    "url": "https://github.com/j-suchy/nextcloud-cage/releases/download/v0.1.0/cage-0.1.0.tar.gz",
-    "version": "0.1.0",
+    "hash": "sha256-oFiWcYzg3snUn/TpZ7Oq5oiHc4a7XdQfIdZW+PWe+vo=",
+    "url": "https://github.com/j-suchy/nextcloud-cage/releases/download/v0.1.1/cage-0.1.1.tar.gz",
+    "version": "0.1.1",
     "description": "cage (Client-side age Encryption) is a secure file viewer/editor for [age](https://age-encryption.org/) encrypted files.\n\nFeatures:\n- Auto-detection of age files based on file extension (.age)\n- Client-side encryption/decryption using the age standard\n- Passphrase-based encryption with scrypt key derivation\n- Auto-lock timer to protect sensitive data\n- Mnemonic passphrase generation\n- Zero server-side access to plaintext content\n\nSecurity:\n- All encryption/decryption happens in the browser\n- Passphrase stored in memory only, never sent to server\n- Auto-lock clears passphrase and removes decrypted content from DOM",
     "homepage": "https://github.com/j-suchy/nextcloud-cage",
     "licenses": [
@@ -390,8 +390,8 @@
     ]
   },
   "chores": {
-    "hash": "sha256-x95pWVl5+EJAMWAPdA9aFbvNCNz+PBmBvC5GrJOHUtA=",
-    "url": "https://teo.sinyax.net/cdn/chores_0.1.0.tar.gz",
+    "hash": "sha256-kDuNNmSoz80b1fUA2wKnHjGQD05oBo1Q+NC4Crf8G20=",
+    "url": "https://teo.sinyax.net/cdn/chores_0.0.8-17-gf14ef6e.tar.gz",
     "version": "0.1.0",
     "description": "Track chores and receive points for doing them!\n\nCreate a team and invite other Nextcloud users from the same server, the total\npoints for each member are tracked.\n\nChores can be set to automatically repeat based on a schedule.",
     "homepage": "https://sr.ht/~cypheon/nextcloud-chores/",
@@ -520,8 +520,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-mxAwLyOutS4qvONHO1mL2jpsOyd+Uj3WynjZIxSa88I=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/14002170576/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-Xf9lVXyP/2VqmCDzvk0lUuUFETM/ufOhIdAg5NajkiA=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/14003187896/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.11",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -2020,9 +2020,9 @@
     ]
   },
   "linkboard": {
-    "hash": "sha256-3DrpBGM13jTsui4jFljFHSvBvfRYEkbsrdfI8ycWgI8=",
-    "url": "https://github.com/tschuegy/linkboard-nextcloud/releases/download/v1.6.9/linkboard.tar.gz",
-    "version": "1.6.9",
+    "hash": "sha256-FL6ROQcU8wRcB5KUbkJvT86DyJFLN4EZCh91AolbuLI=",
+    "url": "https://github.com/tschuegy/linkboard-nextcloud/releases/download/v1.6.10/linkboard.tar.gz",
+    "version": "1.6.10",
     "description": "**LinkBoard** – A beautiful, customizable service dashboard for your homelab.\n\nOrganize your services in categories, monitor their status,\nand access everything from within Nextcloud.\n\n### Features\n- 🏠 Personal dashboard with service tiles grouped by category\n- 🎨 Dark/Light mode with customizable backgrounds\n- 🖼️ Flexible icon system (upload, URL, Material Design Icons)\n- 📋 YAML & JSON import/export (Gethomepage compatible)\n- 🔍 Quick search across all services\n- 📂 Nested categories with drag & drop grouping\n- ✏️ Inline editing with drag & drop sorting\n- 🩺 Service health checks with status indicators\n- 📈 Status history with response time charts and uptime tracking\n- 📊 Widget system for live data from external APIs\n\nEach user gets their own personal dashboard – up to 500 services.",
     "homepage": "https://github.com/tschuegy/linkboard-nextcloud",
     "licenses": [
@@ -2150,9 +2150,9 @@
     ]
   },
   "metavox": {
-    "hash": "sha256-9iq3XFZ0eVTGp5b/kcp+c8uam9tLxs/ns7/+I3HP6b4=",
-    "url": "https://github.com/nextcloud/metavox/releases/download/v2.0.8/metavox-2.0.8.tar.gz",
-    "version": "2.0.8",
+    "hash": "sha256-nqHzYXde3pqaWsV0kuYsQuVR1Q8q87yPHyDVyp4GWco=",
+    "url": "https://github.com/nextcloud/metavox/releases/download/v2.1.0/metavox-2.1.0.tar.gz",
+    "version": "2.1.0",
     "description": "MetaVox adds SharePoint-style metadata management to Nextcloud Team Folders. Define custom metadata fields and edit them inline — directly in the file list. Your files stay untouched: metadata is stored separately, never modifying file content.\n\n**10+ field types:** text, number, date, checkbox, dropdown, multi-select, URL, user picker, file link, and more.\n\n**Key Features:**\n\n- **Inline grid editing** — Double-click any cell to edit. Changes appear instantly for all users.\n- **Views** — Save column, filter, and sort combinations as tabs. Switch views with one click.\n- **Real-time collaboration** — Cell locking prevents concurrent edits. Syncs via WebSocket (notify_push).\n- **Client-side filter and sort** — Instant filtering with zero server calls.\n- **AI metadata autofill** — AI reads file content and suggests metadata values.\n- **Bulk editing** — Edit metadata for multiple files at once.\n- **Backup and restore** — Automated daily backups with one-click restore.\n- **Flow integration** — Automate actions based on metadata values (notifications, access control, retention).\n- **REST API** — Full OCS API for external integrations and bulk operations.\n\n**Ideal for:** SharePoint migrations, document classification, curriculum tagging, policy management, and research annotation. Used by universities, government organizations, and enterprises.\n\nSupports **Nextcloud 31, 32, and 33** with automatic feature detection.",
     "homepage": "https://voxcloud.nl",
     "licenses": [
@@ -2320,9 +2320,9 @@
     ]
   },
   "oidc_groups_mapping": {
-    "hash": "sha256-+J/JydgDGVhWmSyyOIagUR9a0oX/X2GUtzZ7VgXdGOs=",
-    "url": "https://github.com/strobelpierre/nextcloud_oidc_groups_mapping/releases/download/v1.1.0/oidc_groups_mapping.tar.gz",
-    "version": "1.1.0",
+    "hash": "sha256-rmWwRs8NAdVgsEO8UNPKYy0Z4tet1P1XN+3Fde9+Rx8=",
+    "url": "https://github.com/strobelpierre/nextcloud_oidc_groups_mapping/releases/download/v1.1.1/oidc_groups_mapping.tar.gz",
+    "version": "1.1.1",
     "description": "Map multiple OIDC token claims to Nextcloud groups using configurable rules.\n\n**Admin UI** — visual rule editor with drag-and-drop reorder, raw JSON editor, and claim simulator.\n**5 rule types** — direct, prefix, map, conditional, template.\n**REST API** — manage rules programmatically via OCS endpoints.\n**OCC commands** — list, set, and test rules from the CLI.\n**Dark mode** — full support for Nextcloud dark and light themes.\n\nWorks with any identity provider through the user_oidc app.\nRequires user_oidc to be installed and enabled.",
     "homepage": "https://github.com/strobelpierre/nextcloud_oidc_groups_mapping",
     "licenses": [
@@ -3210,9 +3210,9 @@
     ]
   },
   "teamhub": {
-    "hash": "sha256-1YdIvwdi3xuXNdBXpqNXWpJBnMSWfUiL8fbn9pHVmCE=",
-    "url": "https://github.com/JustinDoek/Nextcloud-Teamhub/releases/download/v3.36.5/teamhub.tar.gz",
-    "version": "3.36.5",
+    "hash": "sha256-h0SuSyy25NI4/AAMujNa0E5KYhw/mZKaQ9b5w3p+5nI=",
+    "url": "https://github.com/JustinDoek/Nextcloud-Teamhub/releases/download/v3.36.8/teamhub.tar.gz",
+    "version": "3.36.8",
     "description": "TeamHub started as a visual mock up to discus team based working in Nextcloud and grew into a workspace built on top of Nextcloud Teams (Circles).\n\nEach team gets a shared home with:\n- **Messages** — post announcements, questions and polls to your team\n- **Activity feed** — a single view of recent file, calendar, task and member changes across all shared resources\n- **App tabs** — quick-links to the team's shared Talk chat, Files folder, Calendar and Deck board\n- **Sidebar widgets** — upcoming calendar events, open Deck tasks, Pages, and the activity snapshot\n- **Team management** — invite members by user, group, email or federated account; manage roles and pending requests\n- **Customizable view** — users can create their own layout\n- **Integrations** — developers can integrate their app with teamhub\n\nTeamHub works entirely within your Nextcloud instance and does not require any external services.",
     "homepage": "https://tldr.host/teamhub",
     "licenses": [
@@ -3370,11 +3370,11 @@
     ]
   },
   "twofactor_email": {
-    "hash": "sha256-ypYaA5LDy6baWrV9NIuQNYSy0zxnp6MDv17O5pT4uQ4=",
-    "url": "https://github.com/nursoda/twofactor_email/releases/download/2.8.8/twofactor_email.tar.gz",
-    "version": "2.8.8",
-    "description": "This app allows users to set up email as a second factor for web logins. It requires that an email address is set in 'Personal info'. It currently cannot be used on first login when two-factor authentication is enforced (not implemented yet).",
-    "homepage": "https://github.com/nursoda/twofactor_email",
+    "hash": "sha256-XBVB00kydGNB9aPgSA4FNEEiGHvEaHt5Jb3hYe/cTiQ=",
+    "url": "https://github.com/datenschutz-individuell/twofactor_email/releases/download/3.0.10/twofactor_email.tar.gz",
+    "version": "3.0.10",
+    "description": "### A Two-Factor-Auth Provider using email\n\nNextcloud supports web logins with a second factor (two-factor authentication,\n2FA). To support a certain type of 2FA, a \"2FA provider\" server app must be\ninstalled. 2FA kicks in after the primary authentication stage (typically\nusername and password) were successful. This provider challenges the user to\nenter a randomly generated authentication code (aka one-time password, OTP,\ncurrently 6 digits). It sends that code to the user's primary email address\nand expects the user to enter it on an additional 2nd step web login page.\n\n### Installation, activation and usage\n\nAs with any 2FA provider, two-factor email must be installed and enabled by a\nNextcloud server admin. Additionally, the Nextcloud must have a working email\nserver configured.\n\nThe user may set up any of the installed providers or even multiple. This\nprovider uses email to send the code and thus can only be enabled if an email\naddress is set in 'Personal info'. Mind that a user may not be able to log in\nif that email address is invalid (or email server setup of the Nextcloud is\nnot working properly).\n\nAdmins with console access may enable and disable this provider for specified\nusers via \"occ\" command. Admins may also enforce 2FA for all users (or specific\ngroups) via \"Admin Settings\". This is a Nextcloud feature and not specific to\nthis provider. If enforced, users with no 2FA are prompted to enable any\ninstalled provider (if they support that feature). This provider supports it\nsince v3. If the admin installs this provider and enforces 2FA, it should be\nensured that each user does have a valid email address.\n\nMind that, once a user enabled any 2FA provider, they can no longer use their\npassword in applications that don't support the web based 2FA login flow. For\nsuch applications, the user needs to create and use app passwords (to be found\nat the bottom of \"Personal Settings/Security\").",
+    "homepage": "https://github.com/datenschutz-individuell/twofactor_email",
     "licenses": [
       "agpl"
     ]
@@ -3430,11 +3430,11 @@
     ]
   },
   "urbanduplicati": {
-    "hash": "sha256-93tKX8S2nSDIVnYF78l31AO/wGqta1HNB3VqrtoJyXI=",
-    "url": "https://github.com/UrbanTechIO/urbanduplicati/releases/download/v1.1.2/urbanduplicati-1.1.2.tar.gz",
-    "version": "1.1.2",
-    "description": "Find and remove duplicate photos and videos in your Nextcloud.",
-    "homepage": "",
+    "hash": "sha256-1VJE9/cP8nmUVhY94aqN4qCzNIMugQTB3+jo9IBFkjg=",
+    "url": "https://github.com/UrbanTechIO/urbanduplicati/releases/download/v1.1.4/urbanduplicati-1.1.4.tar.gz",
+    "version": "1.1.4",
+    "description": "<p>Dupli scans your Nextcloud files using perceptual hashing and a BK-tree index to find visually identical or near-identical images and videos — even when they have different filenames, were re-saved at different quality levels, or have minor edits.</p>\n\n<h3>Key Features</h3>\n<ul>\n  <li><strong>Perceptual hash scanning</strong> — Finds duplicates that are visually identical even across JPEG re-saves or video transcodes, not just byte-for-byte copies.</li>\n  <li><strong>BK-tree algorithm</strong> — Sub-linear search for near-duplicate matching; scales efficiently to tens of thousands of files.</li>\n  <li><strong>Grouped results</strong> — Duplicates are shown in side-by-side groups with thumbnails, file sizes, and paths so you can instantly decide what to keep.</li>\n  <li><strong>Smart bulk delete</strong> — Set rules to auto-keep files from a preferred folder and process thousands of groups in one click.</li>\n  <li><strong>Protection rules</strong> — Mark specific folders or albums as protected so Dupli never deletes the copy you care about.</li>\n  <li><strong>Dry run mode</strong> — Preview exactly which files would be deleted before committing.</li>\n  <li><strong>Per-file selection</strong> — Manually choose which copy to keep in each group when automatic rules are not enough.</li>\n  <li><strong>Stop anytime</strong> — Cancel a running bulk delete mid-way; completed deletions are done, in-progress work stops cleanly.</li>\n  <li><strong>Live progress</strong> — Real-time progress bar shows groups processed and storage freed.</li>\n  <li><strong>Trash bin bypass</strong> — Skip the Nextcloud trash bin for direct permanent deletion, essential for large video files on network storage.</li>\n  <li><strong>Admin panel</strong> — Administrators can configure global scan settings from the Nextcloud administration panel.</li>\n</ul>\n\n<h3>How to Use</h3>\n<ol>\n  <li><strong>Start a scan</strong> — Navigate to Dupli in the left sidebar and click New Scan. Choose the folder to scan or your entire Nextcloud.</li>\n  <li><strong>Review duplicate groups</strong> — When the scan finishes, open it to see all duplicate groups with side-by-side thumbnails, file sizes, and paths.</li>\n  <li><strong>Set your rules</strong> — Choose which folder takes priority, whether to protect shared or album files, and how to handle unprotected groups.</li>\n  <li><strong>Bulk delete</strong> — Click Delete Duplicates. Progress is shown in real time and you can stop at any point.</li>\n</ol>\n\n<h3>Requirements</h3>\n<ul>\n  <li>Nextcloud 25 or newer</li>\n  <li>PHP 8.0 or newer</li>\n  <li>ImageMagick or GD PHP extension (for image perceptual hashing)</li>\n  <li>FFmpeg on the server (optional, for video thumbnail extraction)</li>\n</ul>",
+    "homepage": "https://github.com/UrbanTechIO/urbanduplicati",
     "licenses": [
       "agpl"
     ]
