@@ -100,9 +100,9 @@
     ]
   },
   "appointments": {
-    "hash": "sha256-GNYIO/3oSCcsLpbjfVqrdHb549JNuRL1sNRj6xvURBY=",
-    "url": "https://raw.githubusercontent.com/SergeyMosin/Appointments/refs/tags/v2.7.2/build/artifacts/appstore/appointments.tar.gz",
-    "version": "2.7.2",
+    "hash": "sha256-6E/G7IyAXUBKVwMrbgBqbs4dwU4pWivzV0VQHvnF5xA=",
+    "url": "https://raw.githubusercontent.com/SergeyMosin/Appointments/refs/tags/v2.7.3/build/artifacts/appstore/appointments.tar.gz",
+    "version": "2.7.3",
     "description": "Book appointments into your calendar via secure online form. Attendees can confirm or cancel their appointments via an email link.",
     "homepage": "https://www.srgdev.com/lab/nextcloud-appointments/",
     "licenses": [
@@ -330,9 +330,9 @@
     ]
   },
   "checksum": {
-    "hash": "sha256-hOxl6JySlNzBIbBItAoYsx2sGqF5nm1mryv/jZkrWzk=",
-    "url": "https://github.com/westberliner/checksum/releases/download/v2.1.1/checksum.tar.gz",
-    "version": "2.1.1",
+    "hash": "sha256-6qPZvsml3LBYuuDnMwHg4WssxyQjr6op3AKlsMBLCGk=",
+    "url": "https://github.com/westberliner/checksum/releases/download/v2.1.2/checksum.tar.gz",
+    "version": "2.1.2",
     "description": "Allows users to create a hash checksum of a file.\n        Possible algorithms are md5, sha1, sha256, sha384, sha512, sha3-256, sha3-512 and crc32.\n\n        Just open the details view of the file (Sidebar). There should be a new tab called \"Checksum\".\n        Select a algorithm and it will try to generate a hash.\n        If you want an other algorithm, just click on the reload button.",
     "homepage": "https://github.com/westberliner/checksum/",
     "licenses": [
@@ -440,8 +440,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-Xf9lVXyP/2VqmCDzvk0lUuUFETM/ufOhIdAg5NajkiA=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/14003187896/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-mxAwLyOutS4qvONHO1mL2jpsOyd+Uj3WynjZIxSa88I=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/14002170576/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.11",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -1420,8 +1420,8 @@
     ]
   },
   "integration_openproject": {
-    "hash": "sha256-6HjJ2+kW1rURJxzMapB8vEd82z1tMgmTtnbDGCs4Oj8=",
-    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v3.0.0-20260311-nightly/integration_openproject-3.0.0-20260311-nightly.tar.gz",
+    "hash": "sha256-ovcCA1Vi6RRe4y4MJtqjzLn13upvFTzGcH8NNF71DkY=",
+    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v3.0.0/integration_openproject-3.0.0.tar.gz",
     "version": "3.0.0",
     "description": "This application enables seamless integration with open source project management and collaboration software OpenProject.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in OpenProject\n* Find all work packages linked to a file or a folder\n* Create work packages directly in Nextcloud\n* View OpenProject notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n* Link work packages in rich text fields via Smart Picker\n* Preview links to work packages in text fields\n* Link multiple files and folder to a work package at once\n\nOn the OpenProject end, users are able to:\n\n* Link work packages with files and folders in Nextcloud\n* Upload and download files directly to Nextcloud from within a work package\n* Open linked files in Nextcloud to edit them\n* Let OpenProject create shared folders per project\n\nFor more information on how to set up and use the OpenProject application, please refer to [integration setup guide](https://www.openproject.org/docs/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://www.openproject.org/docs/user-guide/nextcloud-integration/).",
     "homepage": "https://github.com/nextcloud/integration_openproject",
@@ -1770,9 +1770,9 @@
     ]
   },
   "logcleaner": {
-    "hash": "sha256-O5KQtQueER5rX1h2Pesg5VYFweGUJf72XF00xr5fkdY=",
-    "url": "https://github.com/zomtec2311/logcleaner/releases/download/1.4.5/logcleaner_1.4.5.tar.gz",
-    "version": "1.4.5",
+    "hash": "sha256-v5kU8UUTss+tbLhQP7aFT6bPVqia60ES7WKAFiGrJP0=",
+    "url": "https://github.com/zomtec2311/logcleaner/releases/download/1.4.6/logcleaner_1.4.6.tar.gz",
+    "version": "1.4.6",
     "description": "**Administration tool for cleaning up the log file**\n\n- 🛡️ Only accessible for administration.\n- 🎨 Error levels with different colors.\n- ⚙️ Number of displayed log entries can be set.\n- 🛠️ After correcting a log entry it can be deleted from the log file.\n- ⏩ One click deletion of all duplicates within the log file.\n- 🗑️ Empty the log file without using shell commands.\n- 📜 View datails of log entries.\n- 🔍 Find solutions on the internet by various search engines.",
     "homepage": "https://github.com/zomtec2311/logcleaner",
     "licenses": [
@@ -2065,6 +2065,16 @@
     "version": "1.4.0",
     "description": "This app helps instance administrator to transfer any user's data to another user.\n\nAdmins can transfer data from the following apps:\n\n* **Files**: transfer all the files or a specific folder\n* **Calendar**: transfer all the calendars or a specific one\n* **Contacts**: transfer all the contacts or a specific address book",
     "homepage": "https://framagit.org/framasoft/nextcloud/ownershiptransfer",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "pandoc": {
+    "hash": "sha256-Uw2QcBHOpfG2HnAGfmE/Qyr1GnxgD1o95m1iDMKWr9E=",
+    "url": "https://github.com/mejo-/pandoc/releases/download/v0.9.2/pandoc-0.9.2.tar.gz",
+    "version": "0.9.2",
+    "description": "Allows to convert text files from one markup to\n        another using Pandoc. It requires [Pandoc](https://pandoc.org/) to\n        be installed on the Nextcloud host.",
+    "homepage": "https://github.com/mejo-/pandoc",
     "licenses": [
       "agpl"
     ]
@@ -2470,9 +2480,9 @@
     ]
   },
   "shopping_list": {
-    "hash": "sha256-MJGqOvgTeXY9me/rNGtmk+WS30LU2F/O9XwPwoU1b4o=",
-    "url": "https://github.com/otherworld-dev/Shopping-List/releases/download/v1.1.0/shopping_list.tar.gz",
-    "version": "1.1.0",
+    "hash": "sha256-eyswgh2AMtMHq+lM3XxjUOWzx/8LEi0AtyHecSD6yhk=",
+    "url": "https://github.com/otherworld-dev/Shopping-List/releases/download/v1.2.0/shopping_list-1.2.0.tar.gz",
+    "version": "1.2.0",
     "description": "Manage shared shopping lists between household members. Create multiple lists, categorize items by shop area, tag items, and collaborate in real-time.",
     "homepage": "",
     "licenses": [
@@ -3030,9 +3040,9 @@
     ]
   },
   "weekplanner": {
-    "hash": "sha256-9t8nXBGiVbhvtDBi7YRuyVLMQI3X5hbV/y4lN4TEr0M=",
-    "url": "https://github.com/sorenjohanson/weekplanner-nextcloud/releases/download/v1.9.2/weekplanner-v1.9.2.tar.gz",
-    "version": "1.9.2",
+    "hash": "sha256-YTW5cWlHQVkipsV3T7JA1ZmdTE9W2Oe0GrUIWHrpCho=",
+    "url": "https://github.com/sorenjohanson/weekplanner-nextcloud/releases/download/v1.9.3/weekplanner-v1.9.3.tar.gz",
+    "version": "1.9.3",
     "description": "**Your week, at a glance — self-hosted and distraction-free!**\n\nA simple weekly planner inspired by [Tweek](https://tweek.so), living right inside your Nextcloud.\n\n- **🗓️ Weekly overview:** See all your tasks laid out across the seven days of the week in one clean view.\n- **🖱️ Drag & drop:** Effortlessly reschedule tasks by dragging them from one day to another — no friction, no hassle.\n- **✅ Tick things off:** Mark tasks as done and get that satisfying sense of progress throughout your week.\n- **🔒 Your data stays yours:** Unlike Tweek, Todoist, or other cloud-based planners, all your tasks remain on your own Nextcloud instance.\n- **📱 Mobile friendly:** The interface works well on smaller screens so you can plan on the go.\n- **🧩 Nextcloud native:** Fully integrated into the Nextcloud navigation — no external accounts, no third-party sync, no tracking.",
     "homepage": "https://github.com/sorenjohanson/weekplanner-nextcloud",
     "licenses": [
