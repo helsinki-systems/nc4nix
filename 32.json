@@ -270,9 +270,9 @@
     ]
   },
   "budget": {
-    "hash": "sha256-NazJe8GD0yG6AsfVtcb9TfxRhvuEAgxv/5vKRea4nvY=",
-    "url": "https://github.com/otherworld-dev/budget/releases/download/v2.18.1/budget.tar.gz",
-    "version": "2.18.1",
+    "hash": "sha256-JbMK5vJFd5bMql49mZAAmyTZJnPwn//jaJxQxdGYS9o=",
+    "url": "https://github.com/otherworld-dev/budget/releases/download/v2.19.0/budget.tar.gz",
+    "version": "2.19.0",
     "description": "**⚠️ Beta: This app is currently in testing. Data loss is possible. Please backup your data regularly and report any issues.**\n\n# Budget - Financial Tracking for Nextcloud\n\nTrack your spending habits, manage savings, and forecast future account balances with intelligent analysis of your financial history.\n\n## Features\n\n* **Import Bank Statements**: Support for CSV, OFX, and QIF formats\n* **Smart Categorization**: Automatic vendor matching and transaction categorization\n* **Auto-Categorization Rules**: Apply rules to existing transactions anytime with preview\n* **Split Transactions**: Allocate single transactions across multiple categories\n* **Transfer Detection**: Automatic matching of transfers between accounts\n* **Budget Tracking**: Set spending limits with alerts when approaching or exceeding budgets\n* **Balance Forecasting**: Predict future balances based on historical data\n* **Recurring Bills**: Track bills with due date monitoring and Nextcloud notifications\n* **Recurring Income**: Track expected income sources with receipt tracking\n* **Split Expenses**: Share expenses with contacts and track who owes whom\n* **Debt Payoff Planner**: Plan repayment using avalanche or snowball strategies\n* **Savings Goals**: Set targets with progress tracking and achievement forecasting\n* **Pension Tracker**: Track retirement accounts with growth projections\n* **Net Worth History**: Track assets and liabilities over time\n* **Year-over-Year Reports**: Compare spending across multiple years\n* **Multi-Account Support**: Manage multiple bank accounts and currencies\n* **Custom Categories**: Create your own category hierarchy\n* **Reports & Charts**: Visualize your financial data with interactive charts\n\n## Documentation\n\nFull user documentation: https://github.com/otherworld-dev/budget/tree/master/docs\n\n## Requirements\n\n* Nextcloud 30 or higher\n* PHP 8.1 or higher\n* PHP BCMath extension (`php-bcmath`)",
     "homepage": "",
     "licenses": [
@@ -310,9 +310,9 @@
     ]
   },
   "calendar_resource_management": {
-    "hash": "sha256-FB7/cDx8P4bWtVhIE1qyMCTJbGLPWoT7b+d1lH+muaQ=",
-    "url": "https://github.com/nextcloud-releases/calendar_resource_management/releases/download/v0.12.0/calendar_resource_management-v0.12.0.tar.gz",
-    "version": "0.12.0",
+    "hash": "sha256-/Ft9GLKLQvCyRt6gOR10c4c60uwdn5ycVRlFqzf4cvY=",
+    "url": "https://github.com/nextcloud-releases/calendar_resource_management/releases/download/v0.12.1/calendar_resource_management-v0.12.1.tar.gz",
+    "version": "0.12.1",
     "description": "Management for calendar resources and rooms",
     "homepage": "",
     "licenses": [
@@ -370,10 +370,10 @@
     ]
   },
   "chamade_talk": {
-    "hash": "sha256-RqMxW1r1GXeS1vGTiIYQEtCsog9N6kY6IyLezzZrIzs=",
-    "url": "https://chamade.io/static/chamade_talk-2.5.0.tar.gz",
-    "version": "2.5.0",
-    "description": "[Chamade](https://chamade.io) is a voice and chat gateway that gives AI agents a single API across every major meeting platform. This addon bridges Nextcloud Talk into that gateway — your agent joins your Talk rooms as a regular bot, reads and replies in chat, and on calls listens and speaks through Talk's High-Performance Backend.\n\n### Features\n- **Free during early access**: no credit card required\n- **Chat and voice**: message your agent or talk to it in voice calls (voice requires [High Performance Backend](https://nextcloud.com/talk/#scalability))\n- **Built-in STT + TTS**: speech recognition and synthesis run server-side on the gateway, using your own ElevenLabs or Deepgram API key configured in the Chamade dashboard. No per-minute charge on the addon side.\n- **Owner-scoped bots**: each bot is tied to the Nextcloud user who authorized it\n- **Room authorization**: bots only respond in DMs from their owner or in rooms where `/activate` was used\n- **Automatic event fallback**: if your Nextcloud doesn't dispatch `BotInvokeEvent` (observed on some managed hosts), the gateway transparently falls back to OCS chat polling, with no behavior change for the agent\n- **Text-only fallback**: works without HPB (chat only, no voice)\n- **HMAC-secured**: all communication between Chamade and this addon is authenticated\n\n### Connect your agent\nChamade exposes a hosted **MCP server** (Model Context Protocol) at `https://mcp.chamade.io/mcp/`. Point any Streamable HTTP MCP client — Claude Desktop, Claude Code, Cursor, Windsurf, or any other compliant client — at that URL with your Chamade API key, and your agent immediately gains tools to join Talk DMs, send messages, and participate in voice calls, exactly like a human user. No custom integration code required. Agents that do not speak MCP can use the [Chamade REST API](https://chamade.io/docs) instead.\n\n### One integration, every platform\nOnce connected to Chamade, the same agent simultaneously reaches:\n- Microsoft Teams — meetings and direct messages\n- Google Meet — meetings\n- Zoom — meetings\n- Discord — voice channels and direct messages\n- Telegram — groups and direct messages\n- WhatsApp — direct messages (Cloud API)\n- Slack — channels and direct messages\n- SIP / PSTN — inbound and outbound phone calls\n- Nextcloud Talk — via this addon\n\nYour agent can bridge a Talk conversation to any of these, or simply be reachable from all of them at once with the same identity and memory.\n\n### Setup\n1. Install this addon on your Nextcloud instance\n2. In your Chamade dashboard, click \"Connect Nextcloud Talk\"\n3. Approve the authorization request on your Nextcloud instance\n4. Hook your agent up to `https://mcp.chamade.io/mcp/` (MCP) or the REST API\n5. Start chatting with your agent in Talk",
+    "hash": "sha256-xU6vh/pir3cW4UrzQFGE5sUCjDr3C8Ju9E9ZbcA3xB8=",
+    "url": "https://chamade.io/static/chamade_talk-3.0.0.tar.gz",
+    "version": "3.0.0",
+    "description": "[Chamade](https://chamade.io) is a voice and chat gateway that gives AI agents a single API across every major meeting platform. This addon bridges Nextcloud Talk into that gateway — your agent joins your Talk rooms as a regular bot, reads and replies in chat, and on calls listens and speaks through Talk's High-Performance Backend.\n\n### Features\n- **Optional end-to-end encryption (chat)**: messages between you and your AI agent are sealed with x25519 (NaCl sealed-box). The Chamade gateway only relays opaque ciphertext and never holds the private keys; verify your agent's identity once via a fingerprint shown in the Chamade dashboard. Chat-only in this release — call audio still flows through the standard High-Performance Backend path.\n- **Free during early access**: no credit card required\n- **Chat and voice**: message your agent or talk to it in voice calls (voice requires [High Performance Backend](https://nextcloud.com/talk/#scalability))\n- **Built-in STT + TTS**: speech recognition and synthesis run server-side on the gateway, using your own ElevenLabs or Deepgram API key configured in the Chamade dashboard. No per-minute charge on the addon side.\n- **Owner-scoped bots**: each bot is tied to the Nextcloud user who authorized it\n- **Room authorization**: bots only respond in DMs from their owner or in rooms where `/activate` was used\n- **Automatic event fallback**: if your Nextcloud doesn't dispatch `BotInvokeEvent` (observed on some managed hosts), the gateway transparently falls back to OCS chat polling, with no behavior change for the agent\n- **Text-only fallback**: works without HPB (chat only, no voice)\n- **HMAC-secured**: all communication between Chamade and this addon is authenticated\n\n### Connect your agent\nChamade exposes a hosted **MCP server** (Model Context Protocol) at `https://mcp.chamade.io/mcp/`. Point any Streamable HTTP MCP client — Claude Desktop, Claude Code, Cursor, Windsurf, or any other compliant client — at that URL with your Chamade API key, and your agent immediately gains tools to join Talk DMs, send messages, and participate in voice calls, exactly like a human user. No custom integration code required. Agents that do not speak MCP can use the [Chamade REST API](https://chamade.io/docs) instead.\n\n### One integration, every platform\nOnce connected to Chamade, the same agent simultaneously reaches:\n- Microsoft Teams — meetings and direct messages\n- Google Meet — meetings\n- Zoom — meetings\n- Discord — voice channels and direct messages\n- Telegram — groups and direct messages\n- WhatsApp — direct messages (Cloud API)\n- Slack — channels and direct messages\n- SIP / PSTN — inbound and outbound phone calls\n- Nextcloud Talk — via this addon\n\nYour agent can bridge a Talk conversation to any of these, or simply be reachable from all of them at once with the same identity and memory.\n\n### Setup\n1. Install this addon on your Nextcloud instance\n2. In your Chamade dashboard, click \"Connect Nextcloud Talk\"\n3. Approve the authorization request on your Nextcloud instance\n4. Hook your agent up to `https://mcp.chamade.io/mcp/` (MCP) or the REST API\n5. Start chatting with your agent in Talk",
     "homepage": "https://chamade.io",
     "licenses": [
       "AGPL-3.0-or-later"
@@ -390,8 +390,8 @@
     ]
   },
   "chores": {
-    "hash": "sha256-kDuNNmSoz80b1fUA2wKnHjGQD05oBo1Q+NC4Crf8G20=",
-    "url": "https://teo.sinyax.net/cdn/chores_0.0.8-17-gf14ef6e.tar.gz",
+    "hash": "sha256-x95pWVl5+EJAMWAPdA9aFbvNCNz+PBmBvC5GrJOHUtA=",
+    "url": "https://teo.sinyax.net/cdn/chores_0.1.0.tar.gz",
     "version": "0.1.0",
     "description": "Track chores and receive points for doing them!\n\nCreate a team and invite other Nextcloud users from the same server, the total\npoints for each member are tracked.\n\nChores can be set to automatically repeat based on a schedule.",
     "homepage": "https://sr.ht/~cypheon/nextcloud-chores/",
@@ -520,8 +520,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-mxAwLyOutS4qvONHO1mL2jpsOyd+Uj3WynjZIxSa88I=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/14002170576/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-Xf9lVXyP/2VqmCDzvk0lUuUFETM/ufOhIdAg5NajkiA=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/14003187896/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.11",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -2030,9 +2030,9 @@
     ]
   },
   "linkboard": {
-    "hash": "sha256-FL6ROQcU8wRcB5KUbkJvT86DyJFLN4EZCh91AolbuLI=",
-    "url": "https://github.com/tschuegy/linkboard-nextcloud/releases/download/v1.6.10/linkboard.tar.gz",
-    "version": "1.6.10",
+    "hash": "sha256-qnlDaN5m9Jo3+A3ovB5iyek4D8dZRAxr/+1iownocHg=",
+    "url": "https://github.com/tschuegy/linkboard-nextcloud/releases/download/v1.6.11/linkboard.tar.gz",
+    "version": "1.6.11",
     "description": "**LinkBoard** – A beautiful, customizable service dashboard for your homelab.\n\nOrganize your services in categories, monitor their status,\nand access everything from within Nextcloud.\n\n### Features\n- 🏠 Personal dashboard with service tiles grouped by category\n- 🎨 Dark/Light mode with customizable backgrounds\n- 🖼️ Flexible icon system (upload, URL, Material Design Icons)\n- 📋 YAML & JSON import/export (Gethomepage compatible)\n- 🔍 Quick search across all services\n- 📂 Nested categories with drag & drop grouping\n- ✏️ Inline editing with drag & drop sorting\n- 🩺 Service health checks with status indicators\n- 📈 Status history with response time charts and uptime tracking\n- 📊 Widget system for live data from external APIs\n\nEach user gets their own personal dashboard – up to 500 services.",
     "homepage": "https://github.com/tschuegy/linkboard-nextcloud",
     "licenses": [
@@ -2060,9 +2060,9 @@
     ]
   },
   "logcleaner": {
-    "hash": "sha256-v5kU8UUTss+tbLhQP7aFT6bPVqia60ES7WKAFiGrJP0=",
-    "url": "https://github.com/zomtec2311/logcleaner/releases/download/1.4.6/logcleaner_1.4.6.tar.gz",
-    "version": "1.4.6",
+    "hash": "sha256-zQmH+H0QZlP8IaH+lEp/i3p3eQjUnxccyVYKSu3Zb4g=",
+    "url": "https://github.com/zomtec2311/logcleaner/releases/download/1.4.7/logcleaner_1.4.7.tar.gz",
+    "version": "1.4.7",
     "description": "**Administration tool for cleaning up the log file**\n\n- 🛡️ Only accessible for administration.\n- 🎨 Error levels with different colors.\n- ⚙️ Number of displayed log entries can be set.\n- 🛠️ After correcting a log entry it can be deleted from the log file.\n- ⏩ One click deletion of all duplicates within the log file.\n- 🗑️ Empty the log file without using shell commands.\n- 📜 View datails of log entries.\n- 🔍 Find solutions on the internet by various search engines.",
     "homepage": "https://github.com/zomtec2311/logcleaner",
     "licenses": [
@@ -2480,9 +2480,9 @@
     ]
   },
   "pantry": {
-    "hash": "sha256-vJ6wFVWtepI3NfcWqatfHvnWLg8tPEPseco6HcKy2y8=",
-    "url": "https://github.com/chenasraf/nextcloud-pantry/releases/download/v0.10.3/pantry-v0.10.3.tar.gz",
-    "version": "0.10.3",
+    "hash": "sha256-XPTDLikCYtLazjtAwkgoh2luKZ/88tVGMzC65/x8IbI=",
+    "url": "https://github.com/chenasraf/nextcloud-pantry/releases/download/v0.11.0/pantry-v0.11.0.tar.gz",
+    "version": "0.11.0",
     "description": "Pantry helps households stay organized in Nextcloud.\n\n- **Houses** group members and their shared data. A person can belong to multiple houses and switch between them freely.\n- **Checklists** support recurring items (e.g. milk every week) that automatically reappear when due. Share lists with the whole household so everyone knows what to pick up.\n- **Photo boards** let you keep shared reference photos organized in folders — the right brand of dog food, a favorite recipe card, a product label, and so on.\n- **Notes wall** gives the household a lightweight shared space for reminders, pinned messages, and quick notes with customizable colors.\n- **Notifications** keep everyone in the loop when photos are uploaded or notes are added or edited.\n\nAll data is scoped to a house; members only see the houses they belong to.\n\n**Mobile apps:** [Android (Google Play)](https://play.google.com/store/apps/details?id=dev.casraf.pantry) | [iOS (App Store)](https://apps.apple.com/us/app/pantry-for-nextcloud/id6762161619)",
     "homepage": "https://github.com/chenasraf/nextcloud-pantry",
     "licenses": [
@@ -2940,9 +2940,9 @@
     ]
   },
   "shopping_list": {
-    "hash": "sha256-eyswgh2AMtMHq+lM3XxjUOWzx/8LEi0AtyHecSD6yhk=",
-    "url": "https://github.com/otherworld-dev/Shopping-List/releases/download/v1.2.0/shopping_list-1.2.0.tar.gz",
-    "version": "1.2.0",
+    "hash": "sha256-wmOSvKcdb+PSDoOYxfUzy9HGYOp+/jo+Ys4bYnzVTE4=",
+    "url": "https://github.com/otherworld-dev/Shopping-List/releases/download/v1.3.0/shopping_list-1.3.0.tar.gz",
+    "version": "1.3.0",
     "description": "Manage shared shopping lists between household members. Create multiple lists, categorize items by shop area, tag items, and collaborate in real-time.",
     "homepage": "",
     "licenses": [
@@ -3220,9 +3220,9 @@
     ]
   },
   "teamhub": {
-    "hash": "sha256-h0SuSyy25NI4/AAMujNa0E5KYhw/mZKaQ9b5w3p+5nI=",
-    "url": "https://github.com/JustinDoek/Nextcloud-Teamhub/releases/download/v3.36.8/teamhub.tar.gz",
-    "version": "3.36.8",
+    "hash": "sha256-q+C4YtrBHS73aWTvrGZxPNXHGj6UH+XCO3App+E/d6A=",
+    "url": "https://github.com/JustinDoek/Nextcloud-Teamhub/releases/download/v3.39/teamhub.tar.gz",
+    "version": "3.39.0",
     "description": "TeamHub started as a visual mock up to discus team based working in Nextcloud and grew into a workspace built on top of Nextcloud Teams (Circles).\n\nEach team gets a shared home with:\n- **Messages** — post announcements, questions and polls to your team\n- **Activity feed** — a single view of recent file, calendar, task and member changes across all shared resources\n- **App tabs** — quick-links to the team's shared Talk chat, Files folder, Calendar and Deck board\n- **Sidebar widgets** — upcoming calendar events, open Deck tasks, Pages, and the activity snapshot\n- **Team management** — invite members by user, group, email or federated account; manage roles and pending requests\n- **Customizable view** — users can create their own layout\n- **Integrations** — developers can integrate their app with teamhub\n\nTeamHub works entirely within your Nextcloud instance and does not require any external services.",
     "homepage": "https://tldr.host/teamhub",
     "licenses": [
@@ -3297,6 +3297,16 @@
     "homepage": "https://github.com/maz1987in/3Dviewer-Nextcloud",
     "licenses": [
       "agpl"
+    ]
+  },
+  "tickbuddy": {
+    "hash": "sha256-Hsylt75lhoj+z4idPMfEVrKO6wI22dy5VyYnH2K6kg4=",
+    "url": "https://github.com/martinhammer/tickbuddy/releases/download/v1.0.2/tickbuddy-v1.0.2.tar.gz",
+    "version": "1.0.2",
+    "description": "Tickbuddy is a daily habit tracker also known as a one bit journal. \n\nThe application enables users to record whether a specific event has occurred or not on daily basis. The events can be arbitrary habits or occurrences such as doing sports, smoking, taking out trash, etc. These events are tracked over time, and longer term statistics and patterns can be analysed. The idea is to encourage healthy habits, get over bad ones, or simply to keep track of things over time.\n\nTickbuddy was inspired by the Android app Tickmate, which is no longer actively maintained. Tickbuddy comes with its own Android companion app Tickdroid which can be found on the F-Droid app store.",
+    "homepage": "https://github.com/martinhammer/tickbuddy",
+    "licenses": [
+      "AGPL-3.0-or-later"
     ]
   },
   "time_archive": {
@@ -3560,9 +3570,9 @@
     ]
   },
   "weekplanner": {
-    "hash": "sha256-YTW5cWlHQVkipsV3T7JA1ZmdTE9W2Oe0GrUIWHrpCho=",
-    "url": "https://github.com/sorenjohanson/weekplanner-nextcloud/releases/download/v1.9.3/weekplanner-v1.9.3.tar.gz",
-    "version": "1.9.3",
+    "hash": "sha256-qphLq9aL0jNrVmuRIAn6Oif/0R2ySRc4leqAOWysxkg=",
+    "url": "https://github.com/sorenjohanson/weekplanner-nextcloud/releases/download/v1.10.0/weekplanner-v1.10.0.tar.gz",
+    "version": "1.10.0",
     "description": "**Your week, at a glance — self-hosted and distraction-free!**\n\nA simple weekly planner inspired by [Tweek](https://tweek.so), living right inside your Nextcloud.\n\n- **🗓️ Weekly overview:** See all your tasks laid out across the seven days of the week in one clean view.\n- **🖱️ Drag & drop:** Effortlessly reschedule tasks by dragging them from one day to another — no friction, no hassle.\n- **✅ Tick things off:** Mark tasks as done and get that satisfying sense of progress throughout your week.\n- **🔒 Your data stays yours:** Unlike Tweek, Todoist, or other cloud-based planners, all your tasks remain on your own Nextcloud instance.\n- **📱 Mobile friendly:** The interface works well on smaller screens so you can plan on the go.\n- **🧩 Nextcloud native:** Fully integrated into the Nextcloud navigation — no external accounts, no third-party sync, no tracking.",
     "homepage": "https://github.com/sorenjohanson/weekplanner-nextcloud",
     "licenses": [
@@ -3580,9 +3590,9 @@
     ]
   },
   "whiteboard": {
-    "hash": "sha256-h+CuftR+iLuRuEVVccp89fA34JYSbCkwobjBytwgwg0=",
-    "url": "https://github.com/nextcloud-releases/whiteboard/releases/download/v1.5.7/whiteboard-v1.5.7.tar.gz",
-    "version": "1.5.7",
+    "hash": "sha256-1XNolzWSdWvN8sriDNyLcShbHevMEkkBnrnYBnNRJw0=",
+    "url": "https://github.com/nextcloud-releases/whiteboard/releases/download/v1.5.8/whiteboard-v1.5.8.tar.gz",
+    "version": "1.5.8",
     "description": "The official whiteboard app for Nextcloud. It allows users to create and share whiteboards with other users and collaborate in real-time.\n\n**Whiteboard requires a separate collaboration server to work.** Please see the [documentation](https://github.com/nextcloud/whiteboard?tab=readme-ov-file#backend) on how to install it.\n\n- 🎨 Drawing shapes, writing text, connecting elements\n- 📝 Real-time collaboration\n- 🖼️ Add images with drag and drop\n- 📊 Easily add mermaid diagrams\n- ✨ Use the Smart Picker to embed other elements from Nextcloud\n- 📦 Image export\n- 💪 Strong foundation: We use Excalidraw as our base library",
     "homepage": "https://github.com/nextcloud/whiteboard",
     "licenses": [
