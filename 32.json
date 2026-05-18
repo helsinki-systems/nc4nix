@@ -150,9 +150,9 @@
     ]
   },
   "astrolabe": {
-    "hash": "sha256-fKbO1ep3KicsV2PQ//yZhNCYvFkLtshzf215hj6Yk2A=",
-    "url": "https://github.com/cbcoutinho/astrolabe/releases/download/v0.14.0/astrolabe-0.14.0.tar.gz",
-    "version": "0.14.0",
+    "hash": "sha256-UuPaJRAJnPGTid1/Pb2O0C6BROuDrTug1oEbyznqwoI=",
+    "url": "https://github.com/cbcoutinho/astrolabe/releases/download/v0.14.1/astrolabe-0.14.1.tar.gz",
+    "version": "0.14.1",
     "description": "# Astrolabe - Semantic Search for Nextcloud\n\nFind your content by meaning, not just keywords. Astrolabe brings AI-powered semantic search to your Nextcloud, helping you discover documents, notes, calendar events, and files through natural language.\n\n## Features\n\n- **Semantic Search**: Search across Notes, Files, Calendar, Deck, and more using natural language queries\n- **Unified Search Integration**: Results appear in Nextcloud's global search bar alongside traditional results\n- **Background Indexing**: Your content is automatically indexed for instant semantic search\n- **Vector Visualization**: Explore your content in an interactive 2D visualization showing semantic relationships\n- **Hybrid Search**: Combines semantic understanding with keyword matching for best results\n\n## How It Works\n\nAstrolabe connects to a semantic search service that understands the meaning of your content. Instead of exact keyword matches, you can search for concepts - ask \"meeting notes from last week\" or \"recipes with chicken\" and find relevant documents even if they don't contain those exact words.\n\n## Getting Started\n\n1. Install and enable the app\n2. Grant background access to allow indexing of your content\n3. Start searching with natural language in Nextcloud's search bar\n\nSee [documentation](https://github.com/cbcoutinho/nextcloud-mcp-server) for configuration details.",
     "homepage": "",
     "licenses": [
@@ -270,9 +270,9 @@
     ]
   },
   "budget": {
-    "hash": "sha256-EU9nVtq6NQHPDQYqcrhjSNxbSEB2HsKjsruzqwRaoNE=",
-    "url": "https://github.com/otherworld-dev/budget/releases/download/v2.20.1/budget.tar.gz",
-    "version": "2.20.1",
+    "hash": "sha256-woVsstRsxaYRCzn48/zquagb6VhsgIIQro6MJLuMju0=",
+    "url": "https://github.com/otherworld-dev/budget/releases/download/v2.21.1/budget.tar.gz",
+    "version": "2.21.1",
     "description": "**⚠️ Beta: This app is currently in testing. Data loss is possible. Please backup your data regularly and report any issues.**\n\n# Budget - Financial Tracking for Nextcloud\n\nTrack your spending habits, manage savings, and forecast future account balances with intelligent analysis of your financial history.\n\n## Features\n\n* **Import Bank Statements**: Support for CSV, OFX, and QIF formats\n* **Smart Categorization**: Automatic vendor matching and transaction categorization\n* **Auto-Categorization Rules**: Apply rules to existing transactions anytime with preview\n* **Split Transactions**: Allocate single transactions across multiple categories\n* **Transfer Detection**: Automatic matching of transfers between accounts\n* **Budget Tracking**: Set spending limits with alerts when approaching or exceeding budgets\n* **Balance Forecasting**: Predict future balances based on historical data\n* **Recurring Bills**: Track bills with due date monitoring and Nextcloud notifications\n* **Recurring Income**: Track expected income sources with receipt tracking\n* **Split Expenses**: Share expenses with contacts and track who owes whom\n* **Debt Payoff Planner**: Plan repayment using avalanche or snowball strategies\n* **Savings Goals**: Set targets with progress tracking and achievement forecasting\n* **Pension Tracker**: Track retirement accounts with growth projections\n* **Net Worth History**: Track assets and liabilities over time\n* **Year-over-Year Reports**: Compare spending across multiple years\n* **Multi-Account Support**: Manage multiple bank accounts and currencies\n* **Custom Categories**: Create your own category hierarchy\n* **Reports & Charts**: Visualize your financial data with interactive charts\n\n## Documentation\n\nFull user documentation: https://github.com/otherworld-dev/budget/tree/master/docs\n\n## Requirements\n\n* Nextcloud 30 or higher\n* PHP 8.1 or higher\n* PHP BCMath extension (`php-bcmath`)",
     "homepage": "",
     "licenses": [
@@ -1090,9 +1090,9 @@
     ]
   },
   "files_sharing_raw": {
-    "hash": "sha256-fWXeRxajd01cBVSJeisUm/Lldx/AayqYZVDGoqVo8CA=",
-    "url": "https://github.com/ernolf/files_sharing_raw/releases/download/v0.5.2/files_sharing_raw-0.5.2.tar.gz",
-    "version": "0.5.2",
+    "hash": "sha256-spyGyTNKVnFrOdzaD9ehF8U6Unci5xTbdmnzSYUwkFc=",
+    "url": "https://github.com/ernolf/files_sharing_raw/releases/download/v0.5.3/files_sharing_raw-0.5.3.tar.gz",
+    "version": "0.5.3",
     "description": "Raw Fileserver (**`files_sharing_raw`**) serves files **as-is** so you can link directly to the file itself (i.e. without any of Nextcloud's UI). This makes it easy to host static web pages, RSS feeds, images, or other assets and embed/link them elsewhere.\n\n## Design goals\n\n* **Minimal**: deliver bytes, not UI.\n* **Fast**: keep server work low (good for assets).\n* **Quiet failures**: plain 404 Not found (text/plain) for invalid/missing public shares (no Nextcloud HTML error pages), ideal for asset fetches.\n* **Privacy-friendly**: **cookie-free responses** (best effort).\n* **Allowlist-gated:** public raw access is opt-in — only explicitly enabled public share tokens are served.\n* **Secure by default**: strict CSP with optional per-scope overrides. *)\n* **Streaming by default**: for normal `GET` (`200`) responses, the body is streamed whenever possible instead of loading the entire file into memory.\n\n*) For security and privacy, the content is served with a configurable [Content-Security-Policy][] (CSP) header, allowing different policies per share token, path, file extension, or MIME type (with a safe hardcoded fallback).\n\n[Content-Security-Policy]: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy\n\n## Usage\n\nThe common usage is to first share a file and enable public access through a link. In the Advanced settings of this share (in the right sidebar), the Raw link must be enabled. If the share link is `https://my-nextcloud/s/aBc123DeF456xyZ`, then this app will provide access to the raw file at `https://my-nextcloud/raw/aBc123DeF456xyZ`. If the share is a folder, the files within it are accessible as e.g. `https://my-nextcloud/raw/aBc123DeF456xyZ/path/to/file`.\n\nA user can also access their own private files. For example, a file named `test.html` in anansi's Documents folder would be available at `https://my-nextcloud/raw/u/anansi/Documents/test.html`.",
     "homepage": "https://github.com/ernolf/files_sharing_raw",
     "licenses": [
@@ -1180,9 +1180,9 @@
     ]
   },
   "formvox": {
-    "hash": "sha256-oRe1UdgMqubaMgwupo6NY+oiA6UT0PzIllhpAIUJ1zY=",
-    "url": "https://github.com/nextcloud/formvox/releases/download/v1.2.1/formvox-1.2.1.tar.gz",
-    "version": "1.2.1",
+    "hash": "sha256-s+V999GOHgLUTqAlEeOoE7ZKbpsJqPQnlkXN4/Yuu00=",
+    "url": "https://github.com/nextcloud/formvox/releases/download/v1.2.2/formvox-1.2.2.tar.gz",
+    "version": "1.2.2",
     "description": "FormVox is a file-based forms and polls app for Nextcloud. Unlike traditional form apps, FormVox stores everything in .fvform files — no database tables needed.\n\n**Features:**\n* 100% file-based storage (.fvform files)\n* Question types: text, textarea, single/multiple choice, dropdown, date, time, number, scale, rating, file upload, matrix, table\n* Conditional logic and page routing\n* Quiz mode with scoring\n* Export to CSV, JSON, and ODT (with custom template support)\n* Import from Microsoft Forms\n* Per-form branding with visual page builder\n* Answer piping (use previous answers in later questions)\n* Charts and visualizations in Results view\n* Webhooks and REST API for integrations\n* Collaborative editing with real-time presence indicators\n* Notifications on new responses\n* Password protection and expiration for public links\n* Multi-language: English, Dutch, German, French\n\n**Unique Benefits:**\n* One file contains everything (definition + responses)\n* Works with Nextcloud's versioning and sharing\n* End-to-end encryption compatible\n* No database migrations needed\n\n**Perfect for:**\n* Surveys and feedback forms\n* Quizzes and assessments\n* Event registrations\n* Expense declarations\n* Data collection with privacy requirements",
     "homepage": "https://voxcloud.nl",
     "licenses": [
@@ -2270,9 +2270,9 @@
     ]
   },
   "notify_push": {
-    "hash": "sha256-5jYWUC/k0b0qbwrdHuyOgpGkb6LTDilRWKXrXizFQ+w=",
-    "url": "https://github.com/nextcloud-releases/notify_push/releases/download/v1.3.2/notify_push-v1.3.2.tar.gz",
-    "version": "1.3.2",
+    "hash": "sha256-gHRegrl1VtJOiB6xLUHtG3sxkCDv7/zhrhQ9B+9i8YI=",
+    "url": "https://github.com/nextcloud-releases/notify_push/releases/download/v1.3.3/notify_push-v1.3.3.tar.gz",
+    "version": "1.3.3",
     "description": "Push update support for desktop app.\n\nOnce the app is installed, the push binary needs to be setup. You can either use the setup wizard with `occ notify_push:setup` or see the [README](http://github.com/nextcloud/notify_push) for detailed setup instructions",
     "homepage": "",
     "licenses": [
@@ -2480,9 +2480,9 @@
     ]
   },
   "pantry": {
-    "hash": "sha256-XPTDLikCYtLazjtAwkgoh2luKZ/88tVGMzC65/x8IbI=",
-    "url": "https://github.com/chenasraf/nextcloud-pantry/releases/download/v0.11.0/pantry-v0.11.0.tar.gz",
-    "version": "0.11.0",
+    "hash": "sha256-hAir0R8xWTLOIJHvwTURr+tnyepAHIQboFuPikGxcMk=",
+    "url": "https://github.com/chenasraf/nextcloud-pantry/releases/download/v0.12.0/pantry-v0.12.0.tar.gz",
+    "version": "0.12.0",
     "description": "Pantry helps households stay organized in Nextcloud.\n\n- **Houses** group members and their shared data. A person can belong to multiple houses and switch between them freely.\n- **Checklists** support recurring items (e.g. milk every week) that automatically reappear when due. Share lists with the whole household so everyone knows what to pick up.\n- **Photo boards** let you keep shared reference photos organized in folders — the right brand of dog food, a favorite recipe card, a product label, and so on.\n- **Notes wall** gives the household a lightweight shared space for reminders, pinned messages, and quick notes with customizable colors.\n- **Notifications** keep everyone in the loop when photos are uploaded or notes are added or edited.\n\nAll data is scoped to a house; members only see the houses they belong to.\n\n**Mobile apps:** [Android (Google Play)](https://play.google.com/store/apps/details?id=dev.casraf.pantry) | [iOS (App Store)](https://apps.apple.com/us/app/pantry-for-nextcloud/id6762161619)",
     "homepage": "https://github.com/chenasraf/nextcloud-pantry",
     "licenses": [
@@ -3220,9 +3220,9 @@
     ]
   },
   "teamhub": {
-    "hash": "sha256-q+C4YtrBHS73aWTvrGZxPNXHGj6UH+XCO3App+E/d6A=",
-    "url": "https://github.com/JustinDoek/Nextcloud-Teamhub/releases/download/v3.39/teamhub.tar.gz",
-    "version": "3.39.0",
+    "hash": "sha256-rtT2P6VKNpWc6/8Sve3N6xwP4vc6vhMxYz0YS4Ng//Q=",
+    "url": "https://github.com/JustinDoek/Nextcloud-Teamhub/releases/download/v3.41/teamhub.tar.gz",
+    "version": "3.41.0",
     "description": "TeamHub started as a visual mock up to discus team based working in Nextcloud and grew into a workspace built on top of Nextcloud Teams (Circles).\n\nEach team gets a shared home with:\n- **Messages** — post announcements, questions and polls to your team\n- **Activity feed** — a single view of recent file, calendar, task and member changes across all shared resources\n- **App tabs** — quick-links to the team's shared Talk chat, Files folder, Calendar and Deck board\n- **Sidebar widgets** — upcoming calendar events, open Deck tasks, Pages, and the activity snapshot\n- **Team management** — invite members by user, group, email or federated account; manage roles and pending requests\n- **Customizable view** — users can create their own layout\n- **Integrations** — developers can integrate their app with teamhub\n\nTeamHub works entirely within your Nextcloud instance and does not require any external services.",
     "homepage": "https://tldr.host/teamhub",
     "licenses": [
@@ -3420,9 +3420,9 @@
     ]
   },
   "uniteos_notifier": {
-    "hash": "sha256-LsBLP487Lv+65767TGGXHbVikMm8OfhpuUd5m7jXWHM=",
-    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/1.0.5/uniteos_notifier.tar.gz",
-    "version": "1.0.5",
+    "hash": "sha256-vaWgvCrCGCfm5ygADrXCKR/nRTU9DFar/FQZg59ajus=",
+    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/1.0.6/uniteos_notifier.tar.gz",
+    "version": "1.0.6",
     "description": "This app allows forwarding Nextcloud events for a deeper integration into UniteOS developed by wechange eG by presenting a selected set of events as user notifications.",
     "homepage": "",
     "licenses": [
@@ -3549,6 +3549,16 @@
       "agpl"
     ]
   },
+  "vinarium": {
+    "hash": "sha256-PdYRCleqBXmVFzPQrud2jlUNpMttv4Ndq75dgaaGkaI=",
+    "url": "https://github.com/cpcMomentum/vinarium/releases/download/v0.1.1/vinarium-v0.1.1.tar.gz",
+    "version": "0.1.1",
+    "description": "# Vinarium - Weinkeller-Verwaltung\n\nNative Nextcloud-App zur privaten Weinverwaltung. Bestand, Lagerposition und Verkostungsnotizen — selbstgehostet, ohne Cloud-Abhängigkeit.\n\n## Features\n\n- **Bestand** — Weingut, Wein, Jahrgang und einzelne Flaschen getrennt erfasst\n- **Lagerposition** — flexibles Regal-Modell (Fach, Ebene, Reihe) per Drag & Drop\n- **Verkostungsnotizen** — pro Flasche mit Datum, Bewertung und Freitext\n- **Trinkfenster** — Hinweis was bald getrunken werden sollte\n- **Barcode-Wiedererkennung** — Nachkäufe per Scan\n- **Filter & Suche** — nach Farbe, Region, Jahrgang, Trinkfenster\n\nIdeal für private Weinsammler mit 50-500 Flaschen.",
+    "homepage": "",
+    "licenses": [
+      "AGPL-3.0-or-later"
+    ]
+  },
   "vulndexbeacon": {
     "hash": "sha256-M8AUOHPoCg2PHBGSBtlkzBtI7UWrW8WLE4yRQI92jM8=",
     "url": "https://github.com/vulndex/beacon-for-nextcloud/releases/download/1.0.5/vulndexbeacon-v1.0.5.tar.gz",
@@ -3670,9 +3680,9 @@
     ]
   },
   "worktime": {
-    "hash": "sha256-08066cc0JClEP4yFlyaRoyw+nuEGJunqskYjEiFBLW8=",
-    "url": "https://github.com/cpcMomentum/worktime/releases/download/v0.6.4/worktime-v0.6.4.tar.gz",
-    "version": "0.6.4",
+    "hash": "sha256-yAuN9laI2LHp7AdU6yFou3GOEpjZleXwg1wRrPLMcDw=",
+    "url": "https://github.com/cpcMomentum/worktime/releases/download/v0.7.1/worktime-v0.7.1.tar.gz",
+    "version": "0.7.1",
     "description": "# WorkTime - Arbeitszeiterfassung für Nextcloud\n\nGesetzeskonforme Arbeitszeiterfassung für kleine Unternehmen in Deutschland.\n\n## Features\n\n- **Zeiterfassung** mit Start, Ende und Pause\n- **Automatische Pausenberechnung** nach §4 ArbZG\n- **Überstundenkonto** mit Soll/Ist-Vergleich\n- **Projektbezogene Erfassung** für bessere Auswertung\n- **Urlaubsverwaltung** mit Resturlaub-Anzeige\n- **Abwesenheiten** (Urlaub, Krankheit, Sonderurlaub, Freizeitausgleich)\n- **Deutsche Feiertage** automatisch nach Bundesland\n- **Monatsübersicht** mit PDF-Export\n- **Team-Übersicht** für Vorgesetzte\n- **Genehmigungsworkflow** für Abwesenheiten\n\nBehalten Sie den Überblick über Arbeitszeiten, Überstunden und Urlaub.",
     "homepage": "",
     "licenses": [
