@@ -150,9 +150,9 @@
     ]
   },
   "astrolabe": {
-    "hash": "sha256-UuPaJRAJnPGTid1/Pb2O0C6BROuDrTug1oEbyznqwoI=",
-    "url": "https://github.com/cbcoutinho/astrolabe/releases/download/v0.14.1/astrolabe-0.14.1.tar.gz",
-    "version": "0.14.1",
+    "hash": "sha256-yhCS6tFxhh84qWCYhnwlFJH0zaBglisKmpLJBhF+qhc=",
+    "url": "https://github.com/cbcoutinho/astrolabe/releases/download/v0.15.0/astrolabe-0.15.0.tar.gz",
+    "version": "0.15.0",
     "description": "# Astrolabe - Semantic Search for Nextcloud\n\nFind your content by meaning, not just keywords. Astrolabe brings AI-powered semantic search to your Nextcloud, helping you discover documents, notes, calendar events, and files through natural language.\n\n## Features\n\n- **Semantic Search**: Search across Notes, Files, Calendar, Deck, and more using natural language queries\n- **Unified Search Integration**: Results appear in Nextcloud's global search bar alongside traditional results\n- **Background Indexing**: Your content is automatically indexed for instant semantic search\n- **Vector Visualization**: Explore your content in an interactive 2D visualization showing semantic relationships\n- **Hybrid Search**: Combines semantic understanding with keyword matching for best results\n\n## How It Works\n\nAstrolabe connects to a semantic search service that understands the meaning of your content. Instead of exact keyword matches, you can search for concepts - ask \"meeting notes from last week\" or \"recipes with chicken\" and find relevant documents even if they don't contain those exact words.\n\n## Getting Started\n\n1. Install and enable the app\n2. Grant background access to allow indexing of your content\n3. Start searching with natural language in Nextcloud's search bar\n\nSee [documentation](https://github.com/cbcoutinho/nextcloud-mcp-server) for configuration details.",
     "homepage": "",
     "licenses": [
@@ -259,6 +259,16 @@
       "AGPL-3.0-or-later"
     ]
   },
+  "budgetcheck": {
+    "hash": "sha256-Ow5ytReWP16sKyTSnA1aAO15hk+bxgjDUnnpNQDFA38=",
+    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-budgetcheck/releases/download/v1.0.9/budgetcheck-1.0.9.tar.gz",
+    "version": "1.0.9",
+    "description": "# BudgetCheck\n\nScoped finance for Nextcloud. Each **workspace** is either a **household** (recurring monthly rhythm with budgets, savings targets, and yearly overview) or a **bounded project** (project window, period overview, optional cap warning).\n\nEvery workspace has its own ledger, categories, members, and tax settings. The **server is the source of truth** for all calculations; amounts are stored in **minor units**, never as floating-point. **Monthly close** produces an immutable snapshot with a verifiable calculation hash; controlled reopen restores editing. Optional **tax-aware** mode supports net or gross entry with deterministic VAT conversion.\n\nThe UI is **workspace-scoped** (household and project totals never mix), targets **WCAG 2.1 AA**, full keyboard use, and responsive layouts from **320px** width.\n\n## Requirements\n\n- Nextcloud 32–33\n- PHP 8.2–8.4\n- MySQL or PostgreSQL",
+    "homepage": "https://nextcloud.software-by-design.de",
+    "licenses": [
+      "AGPL-3.0-or-later"
+    ]
+  },
   "cage": {
     "hash": "sha256-Judc4NG8zK2NI9DYoQ7BK9gBaV6QLob3kyKMId6X63Y=",
     "url": "https://github.com/j-suchy/nextcloud-cage/releases/download/v0.2.1/cage-0.2.1.tar.gz",
@@ -340,8 +350,8 @@
     ]
   },
   "chores": {
-    "hash": "sha256-x95pWVl5+EJAMWAPdA9aFbvNCNz+PBmBvC5GrJOHUtA=",
-    "url": "https://teo.sinyax.net/cdn/chores_0.1.0.tar.gz",
+    "hash": "sha256-kDuNNmSoz80b1fUA2wKnHjGQD05oBo1Q+NC4Crf8G20=",
+    "url": "https://teo.sinyax.net/cdn/chores_0.0.8-17-gf14ef6e.tar.gz",
     "version": "0.1.0",
     "description": "Track chores and receive points for doing them!\n\nCreate a team and invite other Nextcloud users from the same server, the total\npoints for each member are tracked.\n\nChores can be set to automatically repeat based on a schedule.",
     "homepage": "https://sr.ht/~cypheon/nextcloud-chores/",
@@ -1440,8 +1450,8 @@
     ]
   },
   "integration_openproject": {
-    "hash": "sha256-6HjJ2+kW1rURJxzMapB8vEd82z1tMgmTtnbDGCs4Oj8=",
-    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v3.0.0-20260311-nightly/integration_openproject-3.0.0-20260311-nightly.tar.gz",
+    "hash": "sha256-ovcCA1Vi6RRe4y4MJtqjzLn13upvFTzGcH8NNF71DkY=",
+    "url": "https://github.com/nextcloud/integration_openproject/releases/download/v3.0.0/integration_openproject-3.0.0.tar.gz",
     "version": "3.0.0",
     "description": "This application enables seamless integration with open source project management and collaboration software OpenProject.\n\nOn the Nextcloud end, it allows users to:\n\n* Link files and folders with work packages in OpenProject\n* Find all work packages linked to a file or a folder\n* Create work packages directly in Nextcloud\n* View OpenProject notifications via the dashboard\n* Search for work packages using Nextcloud's search bar\n* Link work packages in rich text fields via Smart Picker\n* Preview links to work packages in text fields\n* Link multiple files and folder to a work package at once\n\nOn the OpenProject end, users are able to:\n\n* Link work packages with files and folders in Nextcloud\n* Upload and download files directly to Nextcloud from within a work package\n* Open linked files in Nextcloud to edit them\n* Let OpenProject create shared folders per project\n\nFor more information on how to set up and use the OpenProject application, please refer to [integration setup guide](https://www.openproject.org/docs/system-admin-guide/integrations/nextcloud/) for administrators and [the user guide](https://www.openproject.org/docs/user-guide/nextcloud-integration/).",
     "homepage": "https://github.com/nextcloud/integration_openproject",
@@ -2060,9 +2070,9 @@
     ]
   },
   "openregister": {
-    "hash": "sha256-fXnn+HFynRgOkYEACHJpqvYcgnsA9Qwg4GjqMDwq6mM=",
-    "url": "https://github.com/ConductionNL/openregister/releases/download/v1.0.2/openregister-1.0.2.tar.gz",
-    "version": "1.0.2",
+    "hash": "sha256-PywvmczNin9TrjI+X/PiQoLgUZTfC5l4giCyfE2wtp0=",
+    "url": "https://github.com/ConductionNL/openregister/releases/download/v1.0.3/openregister-1.0.3.tar.gz",
+    "version": "1.0.3",
     "description": "Open Register is the foundation for structured data management in Nextcloud. Define your data models with JSON Schema, store objects in high-performance registers, and let your other apps build on top of a solid, standards-based data layer.\n\n**Key Features**\n\n- **Schema-based registers** — Define data structures with JSON Schema and organize them into registers\n- **Full CRUD API** — Create, read, update, and delete objects through a powerful REST API\n- **Full-text search with faceting** — Search across registers with filters, powered by magic tables or Solr\n- **Role-based access control** — Fine-grained permissions with organization-level multitenancy\n- **Event-driven architecture** — React to data changes with events for tasks, notifications, and integrations\n- **CalDAV tasks and notes** — Attach Nextcloud tasks and comments directly to your data objects\n- **JSON-LD and Linked Data** — Standards-compliant data that connects to the broader open data ecosystem\n- **Source synchronization** — Keep your registers in sync with external data sources\n\nOpen Register powers apps like OpenCatalogi, Procest, Pipelinq, and Software Catalogus, giving them a shared, federated data backbone.\n\nFree and open source under the EUPL license.",
     "homepage": "https://github.com/ConductionNL/OpenRegister",
     "licenses": [
@@ -2940,8 +2950,8 @@
     ]
   },
   "uniteos_notifier": {
-    "hash": "sha256-yoNEdBloqNFtXTZsR4EN1PoTlGRjQKObaZ2B+qSFp4g=",
-    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/main/uniteos_notifier.tar.gz",
+    "hash": "sha256-vaWgvCrCGCfm5ygADrXCKR/nRTU9DFar/FQZg59ajus=",
+    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/1.0.6/uniteos_notifier.tar.gz",
     "version": "1.0.6",
     "description": "This app allows forwarding Nextcloud events for a deeper integration into UniteOS developed by wechange eG by presenting a selected set of events as user notifications.",
     "homepage": "",
@@ -3170,9 +3180,9 @@
     ]
   },
   "worktime": {
-    "hash": "sha256-NxXVROylbj99i3W4oRa0r7pIcwk96mGnrf7U22NPRs4=",
-    "url": "https://github.com/cpcMomentum/worktime/releases/download/v0.7.2/worktime-v0.7.2.tar.gz",
-    "version": "0.7.2",
+    "hash": "sha256-nWD2mc448VmhxUpXb5VzjdHnON4MXSYbByDfi3OAW4k=",
+    "url": "https://github.com/cpcMomentum/worktime/releases/download/v0.7.3/worktime-v0.7.3.tar.gz",
+    "version": "0.7.3",
     "description": "# WorkTime - Arbeitszeiterfassung für Nextcloud\n\nGesetzeskonforme Arbeitszeiterfassung für kleine Unternehmen in Deutschland.\n\n## Erfassung & Berechnung\n\n- **Zeiterfassung** mit Start, Ende und Pause\n- **Automatische Pausenberechnung** nach §4 ArbZG\n- **Überstundenkonto** mit Soll/Ist-Vergleich und Eintrittsdatum-Berücksichtigung\n- **Projektbezogene Erfassung** für bessere Auswertung\n- **Deutsche Feiertage** automatisch nach Bundesland\n\n## Urlaub & Abwesenheiten\n\n- **Urlaubsverwaltung** mit Quoten-Validierung und Resturlaub-Anzeige\n- **Abwesenheiten**: Urlaub, Krankheit, Sonderurlaub, Freizeitausgleich\n- **Jahresübertrag** für Überstunden und Resturlaub vom Vorjahr — automatisch und manuell korrigierbar\n\n## Reporting & Team\n\n- **Monatsübersicht** mit PDF-Export\n- **Team-Übersicht** für Vorgesetzte und HR-Manager\n- **Jahresübersicht** mit allen Mitarbeitern und Übertragswerten\n- **Audit-Log** für vollständiges Änderungsprotokoll (Admin/HR)\n\n## Workflow & Genehmigung\n\n- **Rollenbasierte Berechtigungen** (Admin, HR-Manager, Supervisor, Employee)\n- **Genehmigungsworkflow** für Abwesenheiten mit eingebetteter Zeitanzeige\n- **Kontextuelle Hilfe** mit Info-Icons an allen relevanten Stellen\n\n## Internationalisierung\n\n- **Mehrsprachig**: Deutsch und Englisch\n\nBehalten Sie den Überblick über Arbeitszeiten, Überstunden und Urlaub.",
     "homepage": "",
     "licenses": [
