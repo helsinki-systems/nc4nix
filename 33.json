@@ -100,9 +100,9 @@
     ]
   },
   "appointments": {
-    "hash": "sha256-6E/G7IyAXUBKVwMrbgBqbs4dwU4pWivzV0VQHvnF5xA=",
-    "url": "https://raw.githubusercontent.com/SergeyMosin/Appointments/refs/tags/v2.7.3/build/artifacts/appstore/appointments.tar.gz",
-    "version": "2.7.3",
+    "hash": "sha256-/2CCBlTxP4sLyCN/STTIj/jmDnCzHSe1B+umi6F/kfI=",
+    "url": "https://raw.githubusercontent.com/SergeyMosin/Appointments/refs/tags/v2.7.4/build/artifacts/appstore/appointments.tar.gz",
+    "version": "2.7.4",
     "description": "Book appointments into your calendar via secure online form. Attendees can confirm or cancel their appointments via an email link.",
     "homepage": "https://www.srgdev.com/lab/nextcloud-appointments/",
     "licenses": [
@@ -130,9 +130,9 @@
     ]
   },
   "arbeitszeitcheck": {
-    "hash": "sha256-2h1zxS9Q6gbIruKsJ2XzU9SLeq2UIEn7ED6HaJR/jp8=",
-    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-arbeitszeitcheck/releases/download/v1.5.0/arbeitszeitcheck-1.5.0.tar.gz",
-    "version": "1.5.0",
+    "hash": "sha256-mMoeSuqupLsQ2jULym3kI40nd765AG71NlJltQzN8BE=",
+    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-arbeitszeitcheck/releases/download/v1.5.1/arbeitszeitcheck-1.5.1.tar.gz",
+    "version": "1.5.1",
     "description": "# ArbeitszeitCheck\n\nTime tracking focused on German working time law (ArbZG) and GDPR. Record work\ntimes, enforce breaks and rest periods, and monitor compliance – fully self‑hosted\nin your Nextcloud instance.\n\n## Features\n\n- **ArbZG-aware rules** – maximum hours, breaks, rest periods, Sundays/holidays\n- **Compliance monitoring** – automatic violation detection and reports\n- **Self‑service dashboards** – employee, team and manager views\n- **Absences & leave** – approval workflows and reporting\n- **Exports & audit log** – e.g. for DATEV and internal audits\n- 100% self‑hosted – no data leaves your server\n\n## Requirements\n\n- Nextcloud 32–33\n- PHP 8.1–8.4",
     "homepage": "http://nextcloud.software-by-design.de",
     "licenses": [
@@ -170,10 +170,10 @@
     ]
   },
   "audiocheck": {
-    "hash": "sha256-zfLEzMJSC8O/KUSDO+pcke9oNIu2cZWjPBorjcpPxfA=",
-    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-audiocheck/releases/download/v1.2.1/audiocheck-1.2.1.tar.gz",
-    "version": "1.2.1",
-    "description": "# AudioCheck — your audio library inside Nextcloud\n\nYour MP3s, M4B audiobooks, and lectures already live in Files. AudioCheck indexes the folders you choose, streams with live permission checks, and keeps a **persistent player** while you browse the rest of Nextcloud.\n\n## Why people install it\n\n- **Multi-file audiobooks** — play every `.mp3` in a book as one queue; resume survives reload, new tabs, and other devices\n- **Music library** — tracks, albums, folders, search, and sort\n- **Continue listening** — home shelf, dashboard widget, and saved progress per file\n- **Playlists & Favorites** — build lists from collections; star tracks in Now playing or Browse\n- **Chapters & speed** — chapter jumps on `.m4b`; 0.5×–4.0× speed for audiobooks\n- **Security by design** — single file-access gate; uniform 404 for inaccessible files; no outbound HTTP\n- **Accessible & responsive** — dark-friendly UI, keyboard shortcuts, WCAG 2.1 AA foundations\n\n## Get started in three steps\n\n1. Open **Library**, add your music and audiobook folders, then **Scan now**.\n2. In **Settings**, enable **Resume where you left off** (recommended).\n3. Open **Music** or **Audiobooks** and press **Play** — the mini-player stays visible while you navigate.\n\n## Integrations\n\n- **Files app** — Play in AudioCheck / Play folder as album\n- **Dashboard** — Continue listening widget\n- **CLI** — `occ audiocheck:scan`\n\n## Requirements\n\n- Nextcloud 32–34\n- PHP 8.2–8.5\n- MySQL or PostgreSQL",
+    "hash": "sha256-BPHTF5lsf6HsYH1H6BEHr2vfgVm9v9LCffhkD7JQgu8=",
+    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-audiocheck/releases/download/v1.2.2/audiocheck-1.2.2.tar.gz",
+    "version": "1.2.2",
+    "description": "# AudioCheck — your audio library inside Nextcloud\n\nYour MP3, MP4, M4A, M4B, and other audio files already live in Files. AudioCheck indexes the folders you choose, streams with live permission checks, and keeps a **persistent player** while you browse the rest of Nextcloud.\n\n## Why people install it\n\n- **Multi-file audiobooks** — play every chapter file in a book as one queue; resume is stored on your server per account\n- **Music library** — tracks, albums, folders, search, and sort\n- **Continue listening** — home shelf, dashboard widget, and saved progress per file\n- **Playlists & Favorites** — build lists from collections; star tracks in Now playing or Browse\n- **Chapters & speed** — chapter jumps on M4B; 0.5×–4.0× speed for audiobooks\n- **Security by design** — single file-access gate; uniform 404 for inaccessible files; playback streams only from your Nextcloud files\n- **Accessible & responsive** — keyboard shortcuts, clear sections, focus-friendly controls, and a layout that works on phones and desktops\n\n## Supported formats\n\n**Indexed and streamed:** MP3, MP4/M4A/M4B (including podcasts tagged as video/mp4), OGG, Opus, FLAC, WAV, AAC, and other common `audio/*` types.\n\n**Browser playback** depends on your browser: MP3, M4A, M4B, AAC, OGG, Opus, and WAV usually work; FLAC and some others may need a different browser.\n\n## Get started in three steps\n\n1. Open **Library**, add your music and audiobook folders, then **Scan now**.\n2. In **Settings**, enable **Resume where you left off** (recommended).\n3. Open **Music** or **Audiobooks** and press **Play** — the mini-player stays visible while you navigate.\n\n## Integrations\n\n- **Files app** — Play in AudioCheck / Play folder as album\n- **Dashboard** — Continue listening widget\n- **CLI** — `occ audiocheck:scan`\n\n## Requirements\n\n- Nextcloud 32–34\n- PHP 8.2–8.5\n- MySQL or PostgreSQL",
     "homepage": "https://nextcloud.software-by-design.de",
     "licenses": [
       "AGPL-3.0-or-later"
@@ -270,9 +270,9 @@
     ]
   },
   "budget": {
-    "hash": "sha256-7mFDHG8cCGje8PT7vsl6+qKnaPLIqgHIhR/61V0az3U=",
-    "url": "https://github.com/otherworld-dev/Budget/releases/download/v2.32.0/budget.tar.gz",
-    "version": "2.32.0",
+    "hash": "sha256-HSgn9skA6IsFalJBlC5gnx0tmOFX+cGWyt6tWTytD9A=",
+    "url": "https://github.com/otherworld-dev/Budget/releases/download/v2.33.1/budget.tar.gz",
+    "version": "2.33.1",
     "description": "**⚠️ Beta: This app is currently in testing. Data loss is possible. Please backup your data regularly and report any issues.**\n\n# Budget - Financial Tracking for Nextcloud\n\nTrack your spending habits, manage savings, and forecast future account balances with intelligent analysis of your financial history.\n\n## Features\n\n* **Import Bank Statements**: Support for CSV, OFX, and QIF formats\n* **Smart Categorization**: Automatic vendor matching and transaction categorization\n* **Auto-Categorization Rules**: Apply rules to existing transactions anytime with preview\n* **Split Transactions**: Allocate single transactions across multiple categories\n* **Transfer Detection**: Automatic matching of transfers between accounts\n* **Budget Tracking**: Set spending limits with alerts when approaching or exceeding budgets\n* **Balance Forecasting**: Predict future balances based on historical data\n* **Recurring Bills**: Track bills with due date monitoring and Nextcloud notifications\n* **Recurring Income**: Track expected income sources with receipt tracking\n* **Split Expenses**: Share expenses with contacts and track who owes whom\n* **Debt Payoff Planner**: Plan repayment using avalanche or snowball strategies\n* **Savings Goals**: Set targets with progress tracking and achievement forecasting\n* **Pension Tracker**: Track retirement accounts with growth projections\n* **Net Worth History**: Track assets and liabilities over time\n* **Year-over-Year Reports**: Compare spending across multiple years\n* **Multi-Account Support**: Manage multiple bank accounts and currencies\n* **Custom Categories**: Create your own category hierarchy\n* **Reports & Charts**: Visualize your financial data with interactive charts\n\n## Documentation\n\nFull user documentation: https://github.com/otherworld-dev/budget/tree/master/docs\n\n## Requirements\n\n* Nextcloud 30 or higher\n* PHP 8.1 or higher\n* PHP BCMath extension (`php-bcmath`)",
     "homepage": "",
     "licenses": [
@@ -280,9 +280,9 @@
     ]
   },
   "budgetcheck": {
-    "hash": "sha256-Cw1PbsgQDj6jVAnozi7eqJHpXV6NNB/UqXmnaTYvVk8=",
-    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-budgetcheck/releases/download/v1.0.16/budgetcheck-1.0.16.tar.gz",
-    "version": "1.0.16",
+    "hash": "sha256-6oCgGazSvYKp/aesQGktbNaGbjiIs4QLxQojL2ChyFY=",
+    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-budgetcheck/releases/download/v1.0.17/budgetcheck-1.0.17.tar.gz",
+    "version": "1.0.17",
     "description": "# BudgetCheck\n\nScoped finance for Nextcloud. Each **workspace** is either a **household** (recurring monthly rhythm with budgets, savings targets, and yearly overview) or a **bounded project** (project window, period overview, optional cap warning).\n\nEvery workspace has its own ledger, categories, members, and tax settings. The **server is the source of truth** for all calculations; amounts are stored in **minor units**, never as floating-point. **Monthly close** produces an immutable snapshot with a verifiable calculation hash; controlled reopen restores editing. Optional **tax-aware** mode supports net or gross entry with deterministic VAT conversion.\n\nThe UI is **workspace-scoped** (household and project totals never mix), targets **WCAG 2.1 AA**, full keyboard use, and responsive layouts from **320px** width.\n\n## Requirements\n\n- Nextcloud 32–33\n- PHP 8.2–8.4\n- MySQL or PostgreSQL",
     "homepage": "https://nextcloud.software-by-design.de",
     "licenses": [
@@ -430,9 +430,9 @@
     ]
   },
   "contacts": {
-    "hash": "sha256-TXfLbaHVgh206zzfSVa2qkxxV4sOFDnskquKKLo+ztc=",
-    "url": "https://github.com/nextcloud-releases/contacts/releases/download/v8.7.0/contacts-v8.7.0.tar.gz",
-    "version": "8.7.0",
+    "hash": "sha256-XrXzGAJe+Zu3pon7sDbBbV73u2fKKD4fdfN24X6QdIM=",
+    "url": "https://github.com/nextcloud-releases/contacts/releases/download/v8.7.1/contacts-v8.7.1.tar.gz",
+    "version": "8.7.1",
     "description": "The Nextcloud contacts app is a user interface for Nextcloud's CardDAV server. Easily sync contacts from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Currently Mail and Calendar – more to come.\n* 🎉 **Never forget a birthday!** You can sync birthdays and other recurring events with your Nextcloud Calendar.\n* 👥 **Sharing of Adressbooks!** You want to share your contacts with your friends or coworkers? No problem!\n* 🙈 **We’re not reinventing the wheel!** Based on the great and open SabreDAV library.",
     "homepage": "https://github.com/nextcloud/contacts#readme",
     "licenses": [
@@ -490,8 +490,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-6p0Ivbt8QkfguWXWCMVhKXlyClmHhttaytgmZCucpuc=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/14547147483/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-7MXvmpxaji23Dr3xDVMDPTv32z60krjYR8vUlda/vUE=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/14567082190/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.12",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -1219,6 +1219,16 @@
       "agpl"
     ]
   },
+  "google_synchronization": {
+    "hash": "sha256-hHSBO12IuygxrdWY/eVGGJkNw/2FpKZMUqG4wtBFiMA=",
+    "url": "https://github.com/MarcelRobitaille/nextcloud_google_synchronization/releases/download/v4.2.0/google_synchronization.tar.gz",
+    "version": "4.2.0",
+    "description": "Google Synchronization automatically keeps your Nextcloud calendar up to date with your Google Calendar. Incompatible with Google Integration!",
+    "homepage": "https://github.com/MarcelRobitaille/nextcloud_google_synchronization",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "gpoddersync": {
     "hash": "sha256-9BcXVauZWFlmlXtnwdSo5xISbhhssa7ao5ulKpziOnU=",
     "url": "https://github.com/thrillfall/nextcloud-gpodder/releases/download/3.16.0/gpoddersync.tar.gz",
@@ -1369,6 +1379,16 @@
       "agpl"
     ]
   },
+  "integration_davc": {
+    "hash": "sha256-ngfgD23fG+O+JpChXXV2VOgWJlGTSL7TQ3Q1iQx631Y=",
+    "url": "https://github.com/nextcloud-releases/integration_davc/releases/download/v1.0.2/integration_davc-v1.0.2.tar.gz",
+    "version": "1.0.2",
+    "description": "DAV Connector allows you connect any compatible DAV service to Nextcloud",
+    "homepage": "https://github.com/nextcloud/integration_davc",
+    "licenses": [
+      "AGPL-3.0-or-later"
+    ]
+  },
   "integration_deepl": {
     "hash": "sha256-RHYxxZw/2/uDdZdf8kGYgGBlBi1rfgXUtTtr9lgr/20=",
     "url": "https://github.com/nextcloud-releases/integration_deepl/releases/download/v2.2.0/integration_deepl-v2.2.0.tar.gz",
@@ -1490,9 +1510,9 @@
     ]
   },
   "integration_immich": {
-    "hash": "sha256-ax79aTa7K5Mbn+IiDFkmx48TYFCQwIagjpB3muuGvok=",
-    "url": "https://github.com/xXRoxXeRXx/integration_immich/releases/download/v1.1.5/integration_immich.tar.gz",
-    "version": "1.1.5",
+    "hash": "sha256-2C7qLqpXUodxhELQe9SnWp9/teP9UiE4nkZDWIValMg=",
+    "url": "https://github.com/xXRoxXeRXx/integration_immich/releases/download/v1.1.6/integration_immich.tar.gz",
+    "version": "1.1.6",
     "description": "Seamlessly integrates your [Immich](https://immich.app) photo library into Nextcloud.\n\n**Features:**\n- 🖼️ **Timeline** — lazy-loaded photo & video timeline grouped by date\n- 📁 **Albums** — browse, create, rename and delete Immich albums\n- 👤 **People** — explore your library by recognized person (face recognition)\n- 🗺️ **Map** — interactive map of all geotagged photos\n- 🔍 **Explore** — browse by city, country, state, object or tag\n- 🔎 **Lightbox** — full-screen viewer with keyboard navigation, pinch-to-zoom and EXIF metadata\n- ⭐ **Favorites** — mark and unmark photos as favorites\n- 💾 **Save to Nextcloud** — save Immich originals directly to your Nextcloud Files\n- ⬆️ **Upload to Immich** — send photos and videos from Nextcloud Files to Immich\n- ☑️ **Multi-select** — batch operations across any view",
     "homepage": "https://github.com/xXRoxXeRXx/integration_immich",
     "licenses": [
@@ -2010,9 +2030,9 @@
     ]
   },
   "mail": {
-    "hash": "sha256-D2U8RhEhMxWpb8QJbytntkQ/GmJnisbM7M0A5GA3OFI=",
-    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.9.3/mail-v5.9.3.tar.gz",
-    "version": "5.9.3",
+    "hash": "sha256-acczJ4sYmyLfqJY1RIvl+liFeDvZfZG//0ivRqH64CA=",
+    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.10.0/mail-v5.10.0.tar.gz",
+    "version": "5.10.0",
     "description": "**💌 A mail app for Nextcloud**\n\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://www.horde.org) libraries.\n- **📬 Want to host your own mail server?** We do not have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!\n\n## Ethical AI Rating\n\n### Priority Inbox\n\nPositive:\n* The software for training and inferencing of this model is open source.\n* The model is created and trained on-premises based on the user's own data.\n* The training data is accessible to the user, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n### Thread Summaries (opt-in)\n\n**Rating:** 🟢/🟡/🟠/🔴\n\nThe rating depends on the installed text processing backend. See [the rating overview](https://docs.nextcloud.com/server/latest/admin_manual/ai/index.html) for details.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/mail#readme",
     "licenses": [
@@ -2140,9 +2160,9 @@
     ]
   },
   "mydash": {
-    "hash": "sha256-eXI4UwVZSI0Rzxe6gifYBpvbLW02CALlU7AGMGAKDrs=",
-    "url": "https://codeberg.org/Conduction/launchpad/releases/download/v1.0.9/mydash-1.0.9.tar.gz",
-    "version": "1.0.9",
+    "hash": "sha256-/g3OWXTPmVIXfPdo17n9KKfXlWAo2IG/9BiqSUeTVEc=",
+    "url": "https://codeberg.org/Conduction/launchpad/releases/download/v1.0.10/mydash-1.0.10.tar.gz",
+    "version": "1.0.10",
     "description": "> ⚠️ **Active development — not for production use yet.** This app is under active development. Although it may carry a stable release status, **please do not use it in production environments before 17 June 2026.** See the [app page on conduction.nl](https://conduction.nl/apps/launchpad) for release planning and what this app does.\n\nLaunchPad supercharges the Nextcloud dashboard. Create personalized workspaces with drag-and-drop widgets, custom shortcut tiles, and smart visibility rules — then let admins roll out templates to entire teams.\n\n**Key Features**\n\n- **Drag-and-drop grid layout** — Position and resize widgets freely on a flexible grid\n- **Multiple dashboards** — Create as many dashboards as you need and switch between them\n- **Custom tiles** — Add shortcut cards with icons, colors, and links to your most-used tools\n- **Admin templates** — Pre-configure dashboards and distribute them to user groups with one click\n- **Permission levels** — Choose view-only, add-only, or full customization per template\n- **Conditional visibility** — Show or hide widgets based on group membership, time of day, or date\n- **Widget styling** — Customize colors, borders, and titles for each individual widget\n- **Compulsory widgets** — Admins can pin important widgets that users cannot remove\n- **Full Nextcloud compatibility** — Works with every existing Nextcloud dashboard widget out of the box\n\nPerfect for organizations that want consistent, curated dashboards for their teams while still giving users freedom to personalize.\n\nFree and open source under the EUPL-1.2 license.",
     "homepage": "https://github.com/ConductionNL/mydash",
     "licenses": [
@@ -2150,8 +2170,8 @@
     ]
   },
   "nc_gantt": {
-    "hash": "sha256-r6rWTpFi6LC8930x+vvnddB3xyj37HwnmncUx5EQ1Rg=",
-    "url": "https://codeberg.org/fds2610/NC-Gantt/releases/download/v1.1.1-f27eb10/nc_gantt-1.1.1-f27eb10.tar.gz",
+    "hash": "sha256-p6mz4YeIjEe4OwjRmku82dHBCrh6NrCFq/Kw7QNyjHM=",
+    "url": "https://codeberg.org/fds2610/NC-Gantt/releases/download/v1.1.1-28b03db/nc_gantt-1.1.1-28b03db.tar.gz",
     "version": "1.1.1",
     "description": "Gantt Projects lets you manage multiple projects and subprojects with an interactive Gantt chart view.\n\nFeatures:\n- Create and manage projects with start/end dates\n- Add subprojects, tasks and milestones\n- Share individual projects with users (viewer, editor, admin)\n- Project admin role for delegated management\n- Clean Gantt visualization powered by frappe-gantt\n- Earned Value Management (EVM): PV, EV, AC, SPI, CPI indicators\n- Resource management across projects\n- Baseline comparison and deviation report\n- Nextcloud Deck board integration for subprojects and tasks",
     "homepage": "",
@@ -2380,9 +2400,9 @@
     ]
   },
   "otpmanager": {
-    "hash": "sha256-WtNySF2C2JxdWK48lZYB1VODf4shVbvhlfqiUVFvJpc=",
-    "url": "https://github.com/matteo-convertino/otpmanager-nextcloud/releases/download/v1.1.7/otpmanager-1.1.7.tar.gz",
-    "version": "1.1.7",
+    "hash": "sha256-IgP4yaKCpP4FfIk/ujNp9pk4CHDZgv9QJIc0L998OZY=",
+    "url": "https://github.com/matteo-convertino/otpmanager-nextcloud/releases/download/v1.2.0/otpmanager-1.2.0.tar.gz",
+    "version": "1.2.0",
     "description": "OTP Manager is useful for those who use two-factor authentication (2FA) and want to manage their OTP codes securely and easily.\nThis application allows you to synchronise your OTP codes with your personal Nextcloud server so that you can access them from any device.\n\n######\n\nWith OTP Manager, you no longer have to worry about losing your OTP codes or not having access to them when you need them.\nAll you have to do is synchronise your app with your Nextcloud server and you will always have your OTP codes at hand, wherever you are.\n\n######\n\nOTP Manager offers the convenient feature of importing OTP codes from Google Authenticator by scanning the QR code.\nThis means you don't have to worry about having to manually enter every single OTP code, but can simply scan the QR code that the Google app generates when exporting\naccounts, and OTP Manager will automatically import your associated accounts.\n\n######\n\nThis way, the migration from Google Authenticator to OTP Manager will be quick and easy, without having to waste time manually resetting all your OTP codes.\n\n######\n\n**Apps & Extensions**\n* [Official Android App](https://play.google.com/store/apps/details?id=com.convertino.otp_manager)\n* [Simple Firefox Browser Extension](https://addons.mozilla.org/en-US/firefox/addon/simple-otpmanager-browser/)\n* [Simple Chrome Browser Extension](https://chromewebstore.google.com/detail/simple-otp-manager-browse/meopmcadkhpcpoaigkhkadagiemblecc)",
     "homepage": "",
     "licenses": [
@@ -2410,10 +2430,10 @@
     ]
   },
   "pantry": {
-    "hash": "sha256-k+gLa+bPwwp4q0S6/mVsM4UdrWjXUKiyLKht28WcA6I=",
-    "url": "https://github.com/chenasraf/nextcloud-pantry/releases/download/v0.16.0/pantry-v0.16.0.tar.gz",
-    "version": "0.16.0",
-    "description": "Pantry helps households stay organized in Nextcloud.\n\n- **Houses** group members and their shared data. A person can belong to multiple houses and switch between them freely.\n- **Checklists** support recurring items (e.g. milk every week) that automatically reappear when due. Share lists with the whole household so everyone knows what to pick up.\n- **Photo boards** let you keep shared reference photos organized in folders — the right brand of dog food, a favorite recipe card, a product label, and so on.\n- **Notes wall** gives the household a lightweight shared space for reminders, pinned messages, and quick notes with customizable colors.\n- **Notifications** keep everyone in the loop when photos are uploaded or notes are added or edited.\n\nAll data is scoped to a house; members only see the houses they belong to.\n\nPantry also has companion apps for mobile and desktop that let you manage your lists, photos and notes on the go and keep everything in sync with your Nextcloud instance.\n\n**Companion apps:** [Android (Google Play)](https://play.google.com/store/apps/details?id=dev.casraf.pantry) | [iOS/macOS (App Store)](https://apps.apple.com/us/app/pantry-for-nextcloud/id6762161619)",
+    "hash": "sha256-YlFf/+TrSgxCQKEh7RZsWoO0chm2ts6Y8i+u/owtpzM=",
+    "url": "https://github.com/chenasraf/nextcloud-pantry/releases/download/v0.17.0/pantry-v0.17.0.tar.gz",
+    "version": "0.17.0",
+    "description": "Pantry helps households stay organized in Nextcloud.\n\n- **Houses** group members and their shared data. A person can belong to multiple houses and switch between them freely.\n- **Checklists** support recurring items (e.g. milk every week) that automatically reappear when due. Share lists with the whole household so everyone knows what to pick up.\n- **Photo boards** let you keep shared reference photos organized in folders — the right brand of dog food, a favorite recipe card, a product label, and so on.\n- **Notes wall** gives the household a lightweight shared space for reminders, pinned messages, and quick notes with customizable colors.\n- **Notifications** keep everyone in the loop when photos are uploaded or notes are added or edited.\n\nAll data is scoped to a house; members only see the houses they belong to.\n\nPantry also has companion apps for mobile and desktop that let you manage your lists, photos and notes on the go and keep everything in sync with your Nextcloud instance.\n\n**Companion apps:** Android ([Google Play](https://play.google.com/store/apps/details?id=dev.casraf.pantry), [F-Droid](https://f-droid.org/en/packages/dev.casraf.pantry/)) | iOS/macOS ([App Store](https://apps.apple.com/us/app/pantry-for-nextcloud/id6762161619))",
     "homepage": "https://github.com/chenasraf/nextcloud-pantry",
     "licenses": [
       "agpl"
@@ -2810,10 +2830,10 @@
     ]
   },
   "sharegate": {
-    "hash": "sha256-k4ybrlwBOI9DeWMzoCPbbW60ffTmd2Sr73mfHjC8Eds=",
-    "url": "https://github.com/abitlea/sharegate-nextcloud/releases/download/v1.3.3/sharegate-1.3.3.tar.gz",
-    "version": "1.3.3",
-    "description": "在 Nextcloud 内为网盘文件创建付费外链，买家支付后下载或转存到本站账户。\n\n**管理台四页**：你的共享（文件表）· 付费分享 · 账户绑定 · 收益查看（预览/转存/下载）\n\n- 支付宝当面付（沙箱/生产）或 Mock 开发支付\n- 卖家管理台融入 NC 全局侧栏\n- 无需单独部署 ShareGate 服务\n\n兼容 Nextcloud 28–33。",
+    "hash": "sha256-4zXglAfAonEyibFA3lsShYGHg7E8iJrlf7vSw65z/z8=",
+    "url": "https://github.com/abitlea/sharegate-nextcloud/releases/download/v1.3.4/sharegate-1.3.4.tar.gz",
+    "version": "1.3.4",
+    "description": "Create paid public links for files in Nextcloud. After payment, buyers can download the file or **save it to their account on this server** (same-instance save to cloud).\n\n**Dashboard**: Your shares · Paid shares · Account binding · Revenue (preview, save-to-cloud, and download counts)\n\n- **Save to cloud**: logged-in buyers copy purchased files into their `ShareGate/` folder\n- Alipay Face-to-Face (sandbox or production), Stripe Checkout, and PayPal Checkout\n- Seller dashboard in the Nextcloud sidebar\n- No separate ShareGate server required\n\nCompatible with Nextcloud 28–33.",
     "homepage": "https://github.com/abitlea/sharegate-nextcloud",
     "licenses": [
       "agpl"
@@ -2830,9 +2850,9 @@
     ]
   },
   "sharereview": {
-    "hash": "sha256-HUkq2g3xpVx82JP6eqlIRGp9nEvHRYiUF+iUWif9INQ=",
-    "url": "https://github.com/nextcloud/sharereview/releases/download/2.2.0/sharereview.tar.gz",
-    "version": "2.2.0",
+    "hash": "sha256-Evy18RErAB6lHwvwjwXQWvtuOWh8XL/ALtvhLo60P0g=",
+    "url": "https://github.com/nextcloud/sharereview/releases/download/2.3.0/sharereview.tar.gz",
+    "version": "2.3.0",
     "description": "This app can be used for auditing shares within a Nextcloud instance e.g. for data loss prevention.\nShare status can be exported for documentation.\n\n- Review any file share\n  - files, talk, deck, teams, federation\n  - app specific shares (if implemented by other apps)\n- Remove shares\n- Confirm current review\n  - show only new shares next time\n- Audit compliance\n- Assign review to user groups (e.g. audit or risk mgmt)\n- Export as CSV or PDF (manual or regular background job)\n\nNote:\nThe app must be restricted to at least one specific user group in the app store.\nThis prevents accidental exposure of the shared content to all users.",
     "homepage": "https://github.com/nextcloud/sharereview",
     "licenses": [
@@ -3050,9 +3070,9 @@
     ]
   },
   "spiresearch": {
-    "hash": "sha256-tXJtDbUGNi4N3R94z7dEwSfnU+nHxI9XCvTjfWcublA=",
-    "url": "https://gitlab.com/api/v4/projects/76392015/packages/generic/spiresearch/1.3.0/spiresearch-1.3.0.tar.gz",
-    "version": "1.3.0",
+    "hash": "sha256-GknQXncjtPdhH66f9Xq7mcZO3kzUepv4LUmmLvCylE0=",
+    "url": "https://gitlab.com/api/v4/projects/76392015/packages/generic/spiresearch/1.3.1/spiresearch-1.3.1.tar.gz",
+    "version": "1.3.1",
     "description": "Add semantic search provided by Spire SE, a semantic search engine currently in development.\n\t\tContact at info+app@spire-se.eu",
     "homepage": "",
     "licenses": [
@@ -3470,9 +3490,9 @@
     ]
   },
   "webapppassword": {
-    "hash": "sha256-c6/mhtVPKH3gp8wGCFy+bDXj2v+fckjarhGhpdET+I8=",
-    "url": "https://github.com/digital-blueprint/webapppassword/releases/download/v26.5.0/webapppassword.tar.gz",
-    "version": "26.5.0",
+    "hash": "sha256-AcsfD3bFvcAJlWLCQXDtnB5Ap0CSQsz/fU2wT6qiRcI=",
+    "url": "https://github.com/digital-blueprint/webapppassword/releases/download/v26.6.0/webapppassword.tar.gz",
+    "version": "26.6.0",
     "description": "Temporary app password generator and WebDAV/CalDAV CORS header injection to be able to access the\nNextcloud WebDAV/CalDAV service from inside web applications. There also is a files sharing api endpoint with CORS header injection.\n\nThere is an [example implementation](https://github.com/digital-blueprint/webapppassword/blob/main/docs/example/index.html)\nthat uses this app to generate a temporary password and make a WebDAV request to a Nextcloud instance\n([docker container](https://github.com/digital-blueprint/webapppassword/tree/main/docker) included).\n\nSee [Example](https://github.com/digital-blueprint/webapppassword#example) for a Nextcloud WebDAV file picker example\nthat uses this application.",
     "homepage": "https://github.com/digital-blueprint/webapppassword",
     "licenses": [
