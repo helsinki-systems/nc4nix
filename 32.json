@@ -430,8 +430,8 @@
     ]
   },
   "chores": {
-    "hash": "sha256-kDuNNmSoz80b1fUA2wKnHjGQD05oBo1Q+NC4Crf8G20=",
-    "url": "https://teo.sinyax.net/cdn/chores_0.0.8-17-gf14ef6e.tar.gz",
+    "hash": "sha256-x95pWVl5+EJAMWAPdA9aFbvNCNz+PBmBvC5GrJOHUtA=",
+    "url": "https://teo.sinyax.net/cdn/chores_0.1.0.tar.gz",
     "version": "0.1.0",
     "description": "Track chores and receive points for doing them!\n\nCreate a team and invite other Nextcloud users from the same server, the total\npoints for each member are tracked.\n\nChores can be set to automatically repeat based on a schedule.",
     "homepage": "https://sr.ht/~cypheon/nextcloud-chores/",
@@ -1079,6 +1079,16 @@
       "agpl"
     ]
   },
+  "files_excludedirs": {
+    "hash": "sha256-bBGeHyUeTAqfmi4VJeohXsAOfTEHxtsLa5Wl7RAz+Sk=",
+    "url": "https://github.com/wonx/nextcloud-files-excludedirs/releases/download/v2.0.1/nextcloud-files-excludedirs-v2.0.1.tar.gz",
+    "version": "2.0.1",
+    "description": "This application allows administrators to exclude specific directories and files from being added to the Nextcloud database file cache based on string patterns or glob wildcards.\n\nThis is extremely useful when using External Storages or shared folders that contain massive directories (like snapshot folders, node_modules, or cache folders) which can otherwise severely slow down the synchronization scanner.\n\n**Features:**\n- Universal storage wrapping for local, shared, and external storage mounts.\n- Safe, real-time background file scanner exclusion.\n- Beautiful built-in Web Administration interface to manage patterns, run dry-run previews of affected files, and safely trigger cache purges.\n- Native `occ files_excludedirs:clean-cache` command-line utility for high-speed cache database cleanup.",
+    "homepage": "https://github.com/wonx/nextcloud-files-excludedirs",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "files_external_ethswarm": {
     "hash": "sha256-9aTUigM3ldIb8I7mTdX8ZE6d6TM7JbpTQdt3HskPHyY=",
     "url": "https://github.com/MetaProvide/nextcloud-swarm-plugin/releases/download/v1.0.4/files_external_ethswarm.tar.gz",
@@ -1590,9 +1600,9 @@
     ]
   },
   "integration_davc": {
-    "hash": "sha256-Ix4jK17ZMosCGm2/weMQpWs60Lbg+Wott13lBdJp8bs=",
-    "url": "https://github.com/nextcloud-releases/integration_davc/releases/download/v1.0.3/integration_davc-v1.0.3.tar.gz",
-    "version": "1.0.3",
+    "hash": "sha256-1+bn6Yvf4yl3MbeBU2WlOINcbhtMQS5Zv3THZKtaVaw=",
+    "url": "https://github.com/nextcloud-releases/integration_davc/releases/download/v1.0.4/integration_davc-v1.0.4.tar.gz",
+    "version": "1.0.4",
     "description": "DAV Connector allows you connect any compatible DAV service to Nextcloud",
     "homepage": "https://github.com/nextcloud/integration_davc",
     "licenses": [
@@ -2220,9 +2230,9 @@
     ]
   },
   "mail": {
-    "hash": "sha256-GkLTk3Q1mSUGhU6lsNHmHGkwW6u4XoDCOj405vi8xuY=",
-    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.10.3/mail-v5.10.3.tar.gz",
-    "version": "5.10.3",
+    "hash": "sha256-tB6gzD9LfVFT9PilCO3/6+/Oj2z+cBRpYlDcvlD/Wm4=",
+    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.10.4/mail-v5.10.4.tar.gz",
+    "version": "5.10.4",
     "description": "**💌 A mail app for Nextcloud**\n\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://www.horde.org) libraries.\n- **📬 Want to host your own mail server?** We do not have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!\n\n## Ethical AI Rating\n\n### Priority Inbox\n\nPositive:\n* The software for training and inferencing of this model is open source.\n* The model is created and trained on-premises based on the user's own data.\n* The training data is accessible to the user, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n### Thread Summaries (opt-in)\n\n**Rating:** 🟢/🟡/🟠/🔴\n\nThe rating depends on the installed text processing backend. See [the rating overview](https://docs.nextcloud.com/server/latest/admin_manual/ai/index.html) for details.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/mail#readme",
     "licenses": [
@@ -2380,8 +2390,8 @@
     ]
   },
   "nc_gantt": {
-    "hash": "sha256-r6rWTpFi6LC8930x+vvnddB3xyj37HwnmncUx5EQ1Rg=",
-    "url": "https://codeberg.org/fds2610/NC-Gantt/releases/download/v1.1.1-f27eb10/nc_gantt-1.1.1-f27eb10.tar.gz",
+    "hash": "sha256-p6mz4YeIjEe4OwjRmku82dHBCrh6NrCFq/Kw7QNyjHM=",
+    "url": "https://codeberg.org/fds2610/NC-Gantt/releases/download/v1.1.1-28b03db/nc_gantt-1.1.1-28b03db.tar.gz",
     "version": "1.1.1",
     "description": "Gantt Projects lets you manage multiple projects and subprojects with an interactive Gantt chart view.\n\nFeatures:\n- Create and manage projects with start/end dates\n- Add subprojects, tasks and milestones\n- Share individual projects with users (viewer, editor, admin)\n- Project admin role for delegated management\n- Clean Gantt visualization powered by frappe-gantt\n- Earned Value Management (EVM): PV, EV, AC, SPI, CPI indicators\n- Resource management across projects\n- Baseline comparison and deviation report\n- Nextcloud Deck board integration for subprojects and tasks",
     "homepage": "",
@@ -2520,9 +2530,9 @@
     ]
   },
   "oidc": {
-    "hash": "sha256-jPIkYSod3/aS4rJmj4m8qtEK+FXgvrdWYSmvsNnSUm8=",
-    "url": "https://github.com/H2CK/oidc/releases/download/2.0.1/oidc-2.0.1.tar.gz",
-    "version": "2.0.1",
+    "hash": "sha256-PGxdl1jIPJW2z5me90VXICfwXNZODbi9oGcltXG5/kA=",
+    "url": "https://github.com/H2CK/oidc/releases/download/2.0.2/oidc-2.0.2.tar.gz",
+    "version": "2.0.2",
     "description": "Nextcloud as OpenID Connect Identity Provider\n\nWith this app you can use Nextcloud as OpenID Connect Identity Provider. If other services\nare configured correctly, you are able to access those services with your Nextcloud login.\n\nFull documentation can be found at:\n\n- [User Documentation](https://github.com/H2CK/oidc/wiki#user-documentation)\n- [Developer Documentation](https://github.com/H2CK/oidc/wiki#developer-documentation)",
     "homepage": "https://github.com/H2CK/oidc",
     "licenses": [
@@ -3040,9 +3050,9 @@
     ]
   },
   "salattime": {
-    "hash": "sha256-Bh/P6MnXZdMCQ8pchGscimRAqjLxRTNslyc/ly+HfAc=",
-    "url": "https://github.com/medismail/salattime/releases/download/v0.8.0/salattime_0.8.0.tar.gz",
-    "version": "0.8.0",
+    "hash": "sha256-wj7l7MnR8sIsbeQ5H8YQSk36M1O4TxSvwBMo2sULWek=",
+    "url": "https://github.com/medismail/salattime/releases/download/v0.9.0/salattime_0.9.0.tar.gz",
+    "version": "0.9.0",
     "description": "# Salat Time\n * 5 muslim daily prayer times\n * Hijri date with optional auto adjustment according to local observation capability\n * Qibla direction degrees and according to the sun and/or moon position\n * DAV Calendar Integration for prayer times and hijri date\n * Adhan notification\n * Widget on Dashboard\n * and many others useful informations.",
     "homepage": "https://github.com/medismail/salattime",
     "licenses": [
@@ -3490,9 +3500,9 @@
     ]
   },
   "tasks": {
-    "hash": "sha256-nJFU65dthPRWd/SClKM/suZdYU3ic3QsIcXiPzUkQ6c=",
-    "url": "https://github.com/nextcloud/tasks/releases/download/v0.18.0/tasks.tar.gz",
-    "version": "0.18.0",
+    "hash": "sha256-DJiNUFMcm/okbmwx8/lTaa3eFim6cNFRlJFatW4kaHs=",
+    "url": "https://github.com/nextcloud/tasks/releases/download/v0.18.1/tasks.tar.gz",
+    "version": "0.18.1",
     "description": "Once enabled, a new Tasks menu will appear in your Nextcloud apps menu. From there you can add and delete tasks, edit their title, description, start and due dates and mark them as important. Tasks can be shared between users. Tasks can be synchronized using CalDav (each task list is linked to an Nextcloud calendar, to sync it to your local client: Thunderbird, Evolution, KDE Kontact, iCal … - just add the calendar as a remote calendar in your client). You can download your tasks as ICS files using the download button for each calendar.",
     "homepage": "https://github.com/nextcloud/tasks/",
     "licenses": [
@@ -3500,9 +3510,9 @@
     ]
   },
   "teamhub": {
-    "hash": "sha256-jQgZjL3T754sB9CywfCmB9OFVUH9Vhd4fHvPfE4l1AM=",
-    "url": "https://github.com/JustinDoek/Nextcloud-Teamhub/releases/download/v3.82/teamhub.tar.gz",
-    "version": "3.82.0",
+    "hash": "sha256-OhLDDJH2QEiYi/Sjqy97WJn5MNvMEbblJ/ch/PUPoSM=",
+    "url": "https://github.com/JustinDoek/Nextcloud-Teamhub/releases/download/v3.85/teamhub.tar.gz",
+    "version": "3.85.0",
     "description": "TeamHub started as a visual mock up to discus team based working in Nextcloud and grew into a workspace built on top of Nextcloud Teams (Circles).\n\nEach team gets a shared home with:\n- **Messages** — post announcements, questions and polls to your team\n- **Activity feed** — a single view of recent file, calendar, task and member changes across all shared resources\n- **App tabs** — quick-links to the team's shared Talk chat, Files folder, Calendar and Deck board\n- **Sidebar widgets** — upcoming calendar events, open Deck tasks, Pages, and the activity snapshot\n- **Team management** — invite members by user, group, email or federated account; manage roles and pending requests\n- **Customizable view** — users can create their own layout\n- **Integrations** — developers can integrate their app with teamhub\n\nTeamHub works entirely within your Nextcloud instance and does not require any external services.",
     "homepage": "https://tldr.host/teamhub",
     "licenses": [
@@ -3890,9 +3900,9 @@
     ]
   },
   "weekplanner": {
-    "hash": "sha256-flXqIBJB0v8x6K3phM383BNkcuXGzbX8RPny/XgEB5o=",
-    "url": "https://github.com/sorenjohanson/weekplanner-nextcloud/releases/download/v1.12.1/weekplanner-v1.12.1.tar.gz",
-    "version": "1.12.1",
+    "hash": "sha256-ru/k0NTXNZgsEG0aTOzuMKFcPB8ats9z9kc8fElCnlc=",
+    "url": "https://github.com/sorenjohanson/weekplanner-nextcloud/releases/download/v1.13.0/weekplanner-v1.13.0.tar.gz",
+    "version": "1.13.0",
     "description": "**Your week, at a glance — self-hosted and distraction-free!**\n\nA simple weekly planner inspired by [Tweek](https://tweek.so), living right inside your Nextcloud.\n\n- **🗓️ Weekly overview:** See all your tasks laid out across the seven days of the week in one clean view.\n- **🖱️ Drag & drop:** Effortlessly reschedule tasks by dragging them from one day to another — no friction, no hassle.\n- **✅ Tick things off:** Mark tasks as done and get that satisfying sense of progress throughout your week.\n- **🔒 Your data stays yours:** Unlike Tweek, Todoist, or other cloud-based planners, all your tasks remain on your own Nextcloud instance.\n- **📱 Mobile friendly:** The interface works well on smaller screens so you can plan on the go.\n- **🧩 Nextcloud native:** Fully integrated into the Nextcloud navigation — no external accounts, no third-party sync, no tracking.",
     "homepage": "https://github.com/sorenjohanson/weekplanner-nextcloud",
     "licenses": [
