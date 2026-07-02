@@ -230,9 +230,9 @@
     ]
   },
   "autocurrency": {
-    "hash": "sha256-+mhAytM92dULKFpH67NqxnGydzceubMNBfrSRhGqT9c=",
-    "url": "https://github.com/chenasraf/nextcloud-autocurrency/releases/download/v1.8.2/autocurrency-v1.8.2.tar.gz",
-    "version": "1.8.2",
+    "hash": "sha256-M8opTswMOKEZbKIqGNR1lpAZ7hK7WxFtrD4duI+DV5Y=",
+    "url": "https://github.com/chenasraf/nextcloud-autocurrency/releases/download/v1.8.3/autocurrency-v1.8.3.tar.gz",
+    "version": "1.8.3",
     "description": "This NextCloud app automatically fetches currency information for your Cospend projects, and fills\nthem up using the main currency as base. No more manually updating exchange rates!\n\n\nYou can also view the history of currency rates fetched in the past, and see how they changed over time.\n\n\nIt will automatically run once a day by default and use your currency names to fetch the correct\nrate.\n\n\nInterval for fetch may be adjusted in the admin settings \"Auto Currency\" section.\n\n\n> **Note**: This is a companion app to [Cospend](https://apps.nextcloud.com/apps/cospend).\n>\n> Without Cospend, this app will not work.",
     "homepage": "https://github.com/chenasraf/nextcloud-autocurrency",
     "licenses": [
@@ -479,6 +479,16 @@
       "agpl"
     ]
   },
+  "coremail_sync": {
+    "hash": "sha256-YBhTeRWj1F/Yh2eOFsK6Z3Mb96rq8gzy4+JRDa81aSM=",
+    "url": "https://github.com/zzfqwq/coremail_sync/releases/download/v0.1.0/coremail_sync-0.1.0.tar.gz",
+    "version": "0.1.0",
+    "description": "Synchronizes Coremail contacts and calendars into native Nextcloud Contacts and Calendar.",
+    "homepage": "https://github.com/zzfqwq/coremail_sync",
+    "licenses": [
+      "AGPL-3.0-or-later"
+    ]
+  },
   "cospend": {
     "hash": "sha256-3uphQHtKlW8kXeLA5hMDpT14lEf+tnJyy4hfKioBDSw=",
     "url": "https://github.com/julien-nc/cospend-nc/releases/download/v4.0.2/cospend-4.0.2.tar.gz",
@@ -517,6 +527,16 @@
     "homepage": "",
     "licenses": [
       "AGPL-3.0-or-later"
+    ]
+  },
+  "cristal": {
+    "hash": "sha256-M4ktYw8zDCd88v/HrqNOY62s5QXWWYsEo3zC0eGZ7uY=",
+    "url": "https://github.com/xwiki-contrib/cristal-integration-nextcloud/releases/download/1.6.0/cristal.tar.gz",
+    "version": "1.6.0",
+    "description": "The [Cristal integration](https://github.com/xwiki-contrib/cristal-integration-nextcloud) for Nextcloud adds a modern, wiki-style note-taking interface on top of your Nextcloud files.\n\nCristal is designed for flexibility, a user-friendly UI, and organized knowledge, without lock-in or unnecessary complexity.\n\n## Features\n\nWith the Cristal integration in Nextcloud you can:\n\n* **Write notes and organize your thoughts** in pages.\n* **Structure pages into a hierarchy** (as many levels as you want).\n* **Link pages** together.\n* **Manage your attachments**.\n* **Navigate** with the navigation tree.\n* **Use auto-suggestion** to find content.\n* **Keep your wiki content in Markdown files**.\n\nIf you uninstall Cristal, all your data, pages and attachments, remain accessible in Nextcloud.\n\n## How to start\n\nAdmins logged into the Nextcloud App Store can install Cristal in one click from this page. The installation is done for all the users of the instance. No need for complex configs or setups.\n\n## Contribute to the Cristal integration\n\nCristal is open source and any contributions are welcome!\n\nYou can help improve the application, leave feedback in the comments, report [issues](https://jira.xwiki.org/projects/CRISTALNC/), or [discuss with us](https://dev.xwiki.org/xwiki/bin/view/Community/Chat).\nYou can also fill the [Feedback survey](https://cryptpad.fr/form/#/2/form/view/5-s0TWMJIQ8mFBtRcezNa-YvqtAo5JUvyeeAA5NoMDA/).\n\n## What is Cristal?\n\n[Cristal](https://cristal.xwiki.org/xwiki/bin/view/Main/) is an open-source, modern, modular wiki UI that is able to connect to various back-ends (e.g., a Nextcloud or a [XWiki](https://xwiki.org/xwiki/bin/view/Main/) instance, or GitHub, or a local folder). It focuses on offline editing with sync, and embeddability. This makes your content portable and accessible anywhere: in the browser, on your desktop, or inside another platform.",
+    "homepage": "https://github.com/xwiki-contrib/cristal-integration-nextcloud",
+    "licenses": [
+      "agpl"
     ]
   },
   "cromqr": {
@@ -930,9 +950,9 @@
     ]
   },
   "files_autorename": {
-    "hash": "sha256-9yc9tgB0MTibjgmuZMKMr6XNvkHKQrV1VZHVXbvPvIE=",
-    "url": "https://github.com/powerflo/files_autorename/releases/download/v2.4.1/files_autorename-2.4.1.tar.gz",
-    "version": "2.4.1",
+    "hash": "sha256-lu63gsegrxOixOqz1aT94N5SJSsSR8Iv/AEi7lL8vSE=",
+    "url": "https://github.com/powerflo/files_autorename/releases/download/v2.4.2/files_autorename-2.4.2.1.tar.gz",
+    "version": "2.4.2",
     "description": "AutoRename is a Nextcloud app that renames and organizes newly added or moved files based on user-defined rules.\nBy placing a `.rename.conf` file in a folder, users can specify regex-based patterns to rename or move files.\n\nRenaming is handled by a background job that runs every few minutes, so changes may not be immediate.\n\nFeatures:\n- 📝 Define renaming rules using powerful regular expressions.\n- 📂 Move files to subfolders specified in the new name (e.g., `subfolder/new_name`).\n- 📅 Insert metadata like dates, EXIF data, or file modification times into filenames using [placeholders](https://github.com/powerflo/files_autorename/tree/main?tab=readme-ov-file#what-placeholders-can-i-use-in-the-replacement-string).\n- 🔍 Extract [text from PDFs](https://github.com/powerflo/files_autorename/tree/main?tab=readme-ov-file#pdfPatternMatch) for custom filenames.\n- 🔄 Transform filenames to [uppercase or lowercase](https://github.com/powerflo/files_autorename/tree/main?tab=readme-ov-file#how-do-i-rename-files-with-upperlowercase-changes).\n\nQuick Start\n\n1. Place a `.rename.conf` file in the desired folder.\n2. Add a rule like this:\n    ```\n    ^Invoice_(\\d{4})_(\\d{2})\\.pdf$:Invoices/$1/$2/$0\n    ```\n3. Upload a matching file (e.g., `Invoice_2025_04.pdf`) — it will be renamed to `Invoices/2025/04/Invoice_2025_04.pdf` during the next background job run.\n\nCheck out the [full documentation on GitHub](https://github.com/powerflo/files_autorename).",
     "homepage": "",
     "licenses": [
@@ -1180,9 +1200,9 @@
     ]
   },
   "forum": {
-    "hash": "sha256-+Eq6GYEXYe6/Pz8TaFDPjLEAuuyL9u994I+mk1EgZRw=",
-    "url": "https://github.com/chenasraf/nextcloud-forum/releases/download/v1.2.2/forum-v1.2.2.tar.gz",
-    "version": "1.2.2",
+    "hash": "sha256-dPPcUwD2kSIN3VxSCZpu66dgmN/cipfnXdus1wa/r48=",
+    "url": "https://github.com/chenasraf/nextcloud-forum/releases/download/v1.2.3/forum-v1.2.3.tar.gz",
+    "version": "1.2.3",
     "description": "Create discussions, share ideas, and collaborate with your community directly in Nextcloud.\n\n**Key features:**\n- **Threaded Discussions** - Create and reply to organized discussion threads with pagination\n- **Category Organization** - Structure your forum with customizable categories, headers, colors, and drag-and-drop reordering\n- **Rich Text Formatting** - BBCode formatting with built-in and custom tags, toolbar with overflow menu\n- **File Attachments** - Attach files from your Nextcloud storage or upload via drag-and-drop\n- **Notifications** - Subscribe to threads and get notified on replies and @mentions\n- **Post Reactions** - React to posts with emoji reactions\n- **Read/Unread Tracking** - Track unread posts at thread and category level\n- **Bookmarks** - Save threads for quick access\n- **Search** - Advanced search with boolean operators and category filtering\n- **User Profiles** - View post history, statistics, and role badges\n- **Roles and Teams** - Fine-grained permissions per role or Nextcloud Team, per category\n- **Guest Access** - Optional public access for unauthenticated visitors with configurable permissions\n- **Edit History** - View post revision history with configurable visibility and per-account privacy controls\n- **Reusable Templates** - Save and insert frequently used content snippets\n- **Signatures** - BBCode-formatted signatures on posts\n- **Thread Drafts** - Auto-saved drafts per category\n- **Dashboard Widgets** - Recent activity, top threads, and top categories on the Nextcloud dashboard\n- **Direct Post Links** - Link directly to a specific post within a thread\n- **Moderation Tools** - Pin, lock, hide, and move threads; review and restore deleted content\n- **Management Tools** - Manage categories, roles, BBCodes, and forum settings with granular permissions\n- **Server Administration** - Repair seeds, rebuild statistics, and assign roles from the Nextcloud admin panel\n\n**Perfect for:**\n- Team discussions and collaboration\n- Community forums\n- Support channels\n- Knowledge bases\n- Project discussions\n- Internal communication\n\nThe forum integrates seamlessly with your Nextcloud instance, using your existing accounts and teams for authentication and access control.",
     "homepage": "https://github.com/chenasraf/nextcloud-forum",
     "licenses": [
@@ -1190,9 +1210,9 @@
     ]
   },
   "frontend_insight": {
-    "hash": "sha256-rWrjf0O2fJUYaFd+QeVTkrIyHeD9M7/53oCYhNnWTts=",
-    "url": "https://github.com/callmemagnus/nextcloud-frontend-insight/releases/download/v1.1.6/frontend_insight.tar.gz",
-    "version": "1.1.6",
+    "hash": "sha256-sEXRbFohIJWKsV66GkMcKLz2bIDyJ6C5IH4c1/FCS/M=",
+    "url": "https://github.com/callmemagnus/nextcloud-frontend-insight/releases/download/v1.2.0/frontend_insight.tar.gz",
+    "version": "1.2.0",
     "description": "🔍 **Capture and analyze JavaScript errors from your users' browsers in real-time!**\n\nFrontendInsight gives you **visibility into frontend issues that would otherwise go unnoticed**.\n\n✨ **Key Features:**\n• 🐛 Automatic tracking of client-side errors and unhandled promise rejections\n• 📊 Browse events with advanced filtering and sorting\n• ⏰ Configurable data retention policies with automatic cleanup\n• 👥 Restrict reported events browsing to specific user groups\n• 🛡️ Built-in rate limiting to prevent abuse\n• 🚀 Modern UI built with Svelte 5\n\n**Identify and fix frontend bugs before they impact your users' experience!**",
     "homepage": "https://github.com/callmemagnus/nextcloud-frontend-insight/",
     "licenses": [
@@ -2240,8 +2260,8 @@
     ]
   },
   "nc_gantt": {
-    "hash": "sha256-r6rWTpFi6LC8930x+vvnddB3xyj37HwnmncUx5EQ1Rg=",
-    "url": "https://codeberg.org/fds2610/NC-Gantt/releases/download/v1.1.1-f27eb10/nc_gantt-1.1.1-f27eb10.tar.gz",
+    "hash": "sha256-p6mz4YeIjEe4OwjRmku82dHBCrh6NrCFq/Kw7QNyjHM=",
+    "url": "https://codeberg.org/fds2610/NC-Gantt/releases/download/v1.1.1-28b03db/nc_gantt-1.1.1-28b03db.tar.gz",
     "version": "1.1.1",
     "description": "Gantt Projects lets you manage multiple projects and subprojects with an interactive Gantt chart view.\n\nFeatures:\n- Create and manage projects with start/end dates\n- Add subprojects, tasks and milestones\n- Share individual projects with users (viewer, editor, admin)\n- Project admin role for delegated management\n- Clean Gantt visualization powered by frappe-gantt\n- Earned Value Management (EVM): PV, EV, AC, SPI, CPI indicators\n- Resource management across projects\n- Baseline comparison and deviation report\n- Nextcloud Deck board integration for subprojects and tasks",
     "homepage": "",
@@ -2300,10 +2320,10 @@
     ]
   },
   "nextsnapmail": {
-    "hash": "sha256-Z49i2PpTtgfw754HR089J6KhG1YuDnqqAQvXa9dAb8M=",
-    "url": "https://github.com/oe79/NextSnapMail/releases/download/v0.1.1/nextsnapmail-0.1.1-nextcloud.tar.gz",
-    "version": "0.1.1",
-    "description": "**A SnappyMail fork focused on integration with Nextcloud.**\n\nNextSnapMail is an independent community fork of SnappyMail for the Nextcloud\nuse case. It is not affiliated with, endorsed by, or sponsored by Nextcloud GmbH.\n\n**Lightweight & fast email client.**\n\n- **Dark mode**\n- **Responsive design**\n- **Full Sieve filtering support**\n- **Almost all IMAP features** including advanced searching\n- **Integration with Nextcloud Unified Search**\n- **Integration with other Nextcloud apps** (Contacts, Files and Calendar)\n- **Multiple mail accounts and identities**\n- **Send & receive OpenPGP encrypted/signed emails** (With full HTML support, ECC keys, or plain text with Mailvelope)\n- **Send & receive S/MIME encrypted/signed emails**\n- **Many security features** (Sodium encrypted passwords, Sec-Fetch, TOTP 2FA, DKIM, prevent tracking, etc.)\n- **Kolab integrations**\n\nAfter enabling the app, administrators can configure the integration in the\ndedicated \"NextSnapMail\" section of the Nextcloud administration settings.\nUsers can add their initial mailbox credentials in the dedicated\n\"NextSnapMail\" section of their personal settings.",
+    "hash": "sha256-F/NeVcIYgT932h9xpC7EnRDYbTJWztj5IBe7r5Z6UsI=",
+    "url": "https://github.com/oe79/NextSnapMail/releases/download/v0.1.3/nextsnapmail-0.1.3-nextcloud.tar.gz",
+    "version": "0.1.3",
+    "description": "**A SnappyMail fork focused on integration with Nextcloud.**\n\nNextSnapMail is an independent community fork of SnappyMail for the Nextcloud\nuse case. It is not affiliated with, endorsed by, or sponsored by Nextcloud GmbH.\n\nNextSnapMail is under active development and provided as-is. Please test it\ncarefully before using it in production. Installation and use are at your own\nrisk.\n\n**Lightweight & fast email client.**\n\n- **Dark mode**\n- **Responsive design**\n- **Full Sieve filtering support**\n- **Almost all IMAP features** including advanced searching\n- **Integration with Nextcloud Unified Search**\n- **Integration with other Nextcloud apps** (Contacts, Files and Calendar)\n- **Multiple mail accounts and identities**\n- **Send & receive OpenPGP encrypted/signed emails** (With full HTML support, ECC keys, or plain text with Mailvelope)\n- **Send & receive S/MIME encrypted/signed emails**\n- **Many security features** (Sodium encrypted passwords, Sec-Fetch, TOTP 2FA, DKIM, prevent tracking, etc.)\n- **Kolab integrations**\n\nAfter enabling the app, administrators can configure the integration in the\ndedicated \"NextSnapMail\" section of the Nextcloud administration settings.\nUsers can add their initial mailbox credentials in the dedicated\n\"NextSnapMail\" section of their personal settings.",
     "homepage": "https://github.com/oe79/NextSnapMail",
     "licenses": [
       "AGPL-3.0-only"
@@ -2370,9 +2390,9 @@
     ]
   },
   "oidc": {
-    "hash": "sha256-PGxdl1jIPJW2z5me90VXICfwXNZODbi9oGcltXG5/kA=",
-    "url": "https://github.com/H2CK/oidc/releases/download/2.0.2/oidc-2.0.2.tar.gz",
-    "version": "2.0.2",
+    "hash": "sha256-5CJjNvbZHuadT+7IHMNJSp8r47kZqzQwMey7ccpe/4Y=",
+    "url": "https://github.com/H2CK/oidc/releases/download/2.0.3/oidc-2.0.3.tar.gz",
+    "version": "2.0.3",
     "description": "Nextcloud as OpenID Connect Identity Provider\n\nWith this app you can use Nextcloud as OpenID Connect Identity Provider. If other services\nare configured correctly, you are able to access those services with your Nextcloud login.\n\nFull documentation can be found at:\n\n- [User Documentation](https://github.com/H2CK/oidc/wiki#user-documentation)\n- [Developer Documentation](https://github.com/H2CK/oidc/wiki#developer-documentation)",
     "homepage": "https://github.com/H2CK/oidc",
     "licenses": [
@@ -2453,7 +2473,7 @@
     "hash": "sha256-2UyTJ1n+GrQPpmBb0vvYdb6fmccZREovVRg6/2401g4=",
     "url": "https://codeberg.org/Conduction/openregister/releases/download/v1.1.1/openregister-1.1.1.tar.gz",
     "version": "1.1.1",
-    "description": "> ⚠️ **Active development — not for production use yet.** This app is under active development. Although it may carry a stable release status, **please do not use it in production environments before 12 June 2026.** See the [app page on conduction.nl](https://conduction.nl/apps/openregister) for release planning and what this app does.\n\nOpen Register is the foundation for structured data management in Nextcloud. Define your data models with JSON Schema, store objects in high-performance registers, and let your other apps build on top of a solid, standards-based data layer.\n\n**Key Features**\n\n- **Schema-based registers** — Define data structures with JSON Schema and organize them into registers\n- **Full CRUD API** — Create, read, update, and delete objects through a powerful REST API\n- **Full-text search with faceting** — Search across registers with filters, powered by magic tables or Solr\n- **Role-based access control** — Fine-grained permissions with organization-level multitenancy\n- **Event-driven architecture** — React to data changes with events for tasks, notifications, and integrations\n- **CalDAV tasks and notes** — Attach Nextcloud tasks and comments directly to your data objects\n- **JSON-LD and Linked Data** — Standards-compliant data that connects to the broader open data ecosystem\n- **Source synchronization** — Keep your registers in sync with external data sources\n\nOpen Register powers apps like OpenCatalogi, Procest, Pipelinq, and Software Catalogus, giving them a shared, federated data backbone.\n\nFree and open source under the EUPL license.",
+    "description": "> ⚠️ **Active development — not for production use yet.** This app is under active development. Although it may carry a stable release status, **please do not use it in production environments before 12 June 2026.** See the [app page on conduction.nl](https://conduction.nl/apps/openregister) for release planning and what this app does.\r\n\r\nOpen Register is the foundation for structured data management in Nextcloud. Define your data models with JSON Schema, store objects in high-performance registers, and let your other apps build on top of a solid, standards-based data layer.\r\n\r\n**Key Features**\r\n\r\n- **Schema-based registers** — Define data structures with JSON Schema and organize them into registers\r\n- **Full CRUD API** — Create, read, update, and delete objects through a powerful REST API\r\n- **Full-text search with faceting** — Search across registers with filters, powered by magic tables or Solr\r\n- **Role-based access control** — Fine-grained permissions with organization-level multitenancy\r\n- **Event-driven architecture** — React to data changes with events for tasks, notifications, and integrations\r\n- **CalDAV tasks and notes** — Attach Nextcloud tasks and comments directly to your data objects\r\n- **JSON-LD and Linked Data** — Standards-compliant data that connects to the broader open data ecosystem\r\n- **Source synchronization** — Keep your registers in sync with external data sources\r\n\r\nOpen Register powers apps like OpenCatalogi, Procest, Pipelinq, and Software Catalogus, giving them a shared, federated data backbone.\r\n\r\nFree and open source under the EUPL license.",
     "homepage": "https://github.com/ConductionNL/OpenRegister",
     "licenses": [
       "agpl"
@@ -2625,6 +2645,16 @@
     "version": "9.1.4",
     "description": "A polls app, similar to Doodle/DuD-Poll with the possibility to restrict access (members, certain groups/users, hidden and public).",
     "homepage": "https://github.com/nextcloud/polls",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "preferred_providers": {
+    "hash": "sha256-oOG/JGf5ZX2PqgxMZuOVQfpe21Y/BxCxojhhXdEp9W0=",
+    "url": "https://github.com/nextcloud-releases/preferred_providers/releases/download/v2.0.0/preferred_providers-v2.0.0.tar.gz",
+    "version": "2.0.0",
+    "description": "Registration handling app for Nextcloud partners only",
+    "homepage": "",
     "licenses": [
       "agpl"
     ]
@@ -3270,9 +3300,9 @@
     ]
   },
   "teamhub": {
-    "hash": "sha256-OhLDDJH2QEiYi/Sjqy97WJn5MNvMEbblJ/ch/PUPoSM=",
-    "url": "https://github.com/JustinDoek/Nextcloud-Teamhub/releases/download/v3.85/teamhub.tar.gz",
-    "version": "3.85.0",
+    "hash": "sha256-WL0fXBHOKy4inUtlBhWUIL6d4CjyYPd7Xv7cnuhrSYI=",
+    "url": "https://github.com/JustinDoek/Nextcloud-Teamhub/releases/download/v.387/teamhub.tar.gz",
+    "version": "3.87.0",
     "description": "TeamHub started as a visual mock up to discus team based working in Nextcloud and grew into a workspace built on top of Nextcloud Teams (Circles).\n\nEach team gets a shared home with:\n- **Messages** — post announcements, questions and polls to your team\n- **Activity feed** — a single view of recent file, calendar, task and member changes across all shared resources\n- **App tabs** — quick-links to the team's shared Talk chat, Files folder, Calendar and Deck board\n- **Sidebar widgets** — upcoming calendar events, open Deck tasks, Pages, and the activity snapshot\n- **Team management** — invite members by user, group, email or federated account; manage roles and pending requests\n- **Customizable view** — users can create their own layout\n- **Integrations** — developers can integrate their app with teamhub\n\nTeamHub works entirely within your Nextcloud instance and does not require any external services.",
     "homepage": "https://tldr.host/teamhub",
     "licenses": [
