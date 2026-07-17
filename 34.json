@@ -120,9 +120,9 @@
     ]
   },
   "assistant": {
-    "hash": "sha256-dTOft/FEgkkdPl/Fp7DzSUqKReQwQR/+LDN3vqIHcME=",
-    "url": "https://github.com/nextcloud-releases/assistant/releases/download/v3.4.3/assistant-v3.4.3.tar.gz",
-    "version": "3.4.3",
+    "hash": "sha256-9LBikhcnYtMiy1zHHxFTPe5ekxDny3f8DnStqYFsq4k=",
+    "url": "https://github.com/nextcloud-releases/assistant/releases/download/v3.5.0/assistant-v3.5.0.tar.gz",
+    "version": "3.5.0",
     "description": "This app brings a user interface to use the Nextcloud text processing feature.\n\nIt allows users to launch AI tasks, be notified when they finish and see the results.\nThe assistant also appears in others apps like Text to easily process parts of a document.\n\nMore details on the assistant OCS API and frontend integration possibilities in the\n[developer doc](https://github.com/nextcloud/assistant/raw/main/docs/developer)\n\n### How to use it\n\nA new right header menu entry appears. Once clicked, the assistant is displayed and you can select and task type and\nset the input you want to process.\n\nThe task might run immediately or be scheduled depending on the time estimation given by the AI provider.\nOnce a task is scheduled, it will run as a background job. When it is finished, you will receive a notification\nfrom which the results can be displayed.\n\nOther apps can integrate with the assistant. For example, Text will display an inline button besides every paragraph\nto directly select a task type to process this paragraph. Selecting a task this way will open the assistant with the task\nbeing pre-selected and the input text set.\n\nMore details and screenshots in the [user doc](https://github.com/nextcloud/assistant/raw/main/docs/user).\n\n## Features\n\nIn the assistant, the list of available tasks depends on the available providers installed via other apps.\nThis means you have complete freedom over which service/software will actually run your AI tasks.\n\n### Text processing providers\n\nSo far, the [Local Large language model](https://github.com/nextcloud/llm2#readme)\nand the [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai) apps\ninclude text processing providers to:\n* Summarize\n* Extract topics\n* Generate a headline\n* Get an answer from a free prompt\n* Reformulate (OpenAi/LocalAi only)\n* Context writer: Generate text with a specified style. The style can be described or provided via an example text.\n\n### Text to image (Image generation)\n\nKnown providers:\n* [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai)\n* [Text2Image Stable Diffusion](https://apps.nextcloud.com/apps/text2image_stablediffusion)\n\n### Speech to text (Audio transcription)\n\nKnown providers:\n* [OpenAi/LocalAI integration](https://apps.nextcloud.com/apps/integration_openai)\n* [Local Whisper Speech-To-Text](https://apps.nextcloud.com/apps/stt_whisper)\n\nMore details on how to set this up in the [admin docs](https://docs.nextcloud.com/server/latest/admin_manual/ai/index.html)",
     "homepage": "https://github.com/nextcloud/assistant",
     "licenses": [
@@ -200,9 +200,9 @@
     ]
   },
   "bookmarks": {
-    "hash": "sha256-XM6vxdkgWvnA+jmLl/4+dglQOyhJ/3ntac65/oQLgRM=",
-    "url": "https://github.com/nextcloud/bookmarks/releases/download/v16.2.3/bookmarks-16.2.3.tar.gz",
-    "version": "16.2.3",
+    "hash": "sha256-0jBKcGX6ljlXruILcKlsm7ZBrC5hyDuHp/9lgG0eoBE=",
+    "url": "https://github.com/nextcloud/bookmarks/releases/download/v16.2.4/bookmarks-16.2.4.tar.gz",
+    "version": "16.2.4",
     "description": "- 📂 Sort bookmarks into folders\n- 🏷 Add tags and personal notes\n- ☠ Find broken links and duplicates\n- 📲 Synchronize with all your browsers and devices\n- 📔 Store archived versions of your links in case they are depublished\n- 🔍 Full-text search on site contents\n- 👪 Share bookmarks with other users, groups and teams or via public links\n- ⚛ Generate RSS feeds of your collections\n- 📈 Stats on how often you access which links\n- 🔒 Automatic backups of your bookmarks collection\n- 💼 Built-in Dashboard widgets for frequent and recent links\n\nRequirements:\n - PHP extensions:\n   - intl: *\n   - mbstring: *\n - when using MySQL, use at least v8.0",
     "homepage": "https://github.com/nextcloud/bookmarks",
     "licenses": [
@@ -330,8 +330,8 @@
     ]
   },
   "chores": {
-    "hash": "sha256-x95pWVl5+EJAMWAPdA9aFbvNCNz+PBmBvC5GrJOHUtA=",
-    "url": "https://teo.sinyax.net/cdn/chores_0.1.0.tar.gz",
+    "hash": "sha256-kDuNNmSoz80b1fUA2wKnHjGQD05oBo1Q+NC4Crf8G20=",
+    "url": "https://teo.sinyax.net/cdn/chores_0.0.8-17-gf14ef6e.tar.gz",
     "version": "0.1.0",
     "description": "Track chores and receive points for doing them!\n\nCreate a team and invite other Nextcloud users from the same server, the total\npoints for each member are tracked.\n\nChores can be set to automatically repeat based on a schedule.",
     "homepage": "https://sr.ht/~cypheon/nextcloud-chores/",
@@ -340,9 +340,9 @@
     ]
   },
   "cobudget": {
-    "hash": "sha256-cU9S/1QGwGcRAwpDAwW2ayyPJW+COEYbFRH1Ss7bg0M=",
-    "url": "https://github.com/whollaus/cobudget/releases/download/v0.2.4/cobudget.tar.gz",
-    "version": "0.2.4",
+    "hash": "sha256-tfEdFHqMZWaV5aDge6Wk90u9NlGPMtaCUgY58E756rg=",
+    "url": "https://github.com/whollaus/cobudget/releases/download/v0.2.6/cobudget.tar.gz",
+    "version": "0.2.6",
     "description": "CoBudget is a Nextcloud app for tracking personal and shared household finances.\n\n    Early alpha warning: Features, data structures and workflows can still change. Manual database corrections may be required during the alpha phase.\n\n    It helps you manage payments, budgets, receipts, workspaces, shared areas, settlements and financial insights directly inside Nextcloud.",
     "homepage": "https://github.com/whollaus/cobudget",
     "licenses": [
@@ -400,9 +400,9 @@
     ]
   },
   "contractmanager": {
-    "hash": "sha256-4I/P4WbQWgPSdyp7FQI/788m9FpMEw9kjvr4NCZ9i1o=",
-    "url": "https://github.com/cpcMomentum/contractmanager/releases/download/v1.2.4/contractmanager-v1.2.4.tar.gz",
-    "version": "1.2.4",
+    "hash": "sha256-KIqGTKFYz2WBN2P6QdW7DopGe04EqtgwpVqSvyBW36Q=",
+    "url": "https://github.com/cpcMomentum/contractmanager/releases/download/v1.2.5/contractmanager-v1.2.5.tar.gz",
+    "version": "1.2.5",
     "description": "# Verträge\n\nVerwalten Sie Ihre Verträge zentral in Nextcloud:\n\n- **Vertragsübersicht** mit allen wichtigen Daten\n- **Automatische Erinnerungen** vor Kündigungsfristen\n- **Kategorien** zur Organisation\n- **Archiv** für beendete Verträge\n- **Dateianhänge** aus Nextcloud Files\n\nBehalten Sie den Überblick über Laufzeiten, Kosten und Kündigungsfristen.",
     "homepage": "",
     "licenses": [
@@ -475,6 +475,16 @@
     "version": "1.6.1",
     "description": "The [Cristal integration](https://github.com/xwiki-contrib/cristal-integration-nextcloud) for Nextcloud adds a modern, wiki-style note-taking interface on top of your Nextcloud files.\n\nCristal is designed for flexibility, a user-friendly UI, and organized knowledge, without lock-in or unnecessary complexity.\n\n## Features\n\nWith the Cristal integration in Nextcloud you can:\n\n* **Write notes and organize your thoughts** in pages.\n* **Structure pages into a hierarchy** (as many levels as you want).\n* **Link pages** together.\n* **Manage your attachments**.\n* **Navigate** with the navigation tree.\n* **Use auto-suggestion** to find content.\n* **Keep your wiki content in Markdown files**.\n\nIf you uninstall Cristal, all your data, pages and attachments, remain accessible in Nextcloud.\n\n## How to start\n\nAdmins logged into the Nextcloud App Store can install Cristal in one click from this page. The installation is done for all the users of the instance. No need for complex configs or setups.\n\n## Contribute to the Cristal integration\n\nCristal is open source and any contributions are welcome!\n\nYou can help improve the application, leave feedback in the comments, report [issues](https://jira.xwiki.org/projects/CRISTALNC/), or [discuss with us](https://dev.xwiki.org/xwiki/bin/view/Community/Chat).\nYou can also fill the [Feedback survey](https://cryptpad.fr/form/#/2/form/view/5-s0TWMJIQ8mFBtRcezNa-YvqtAo5JUvyeeAA5NoMDA/).\n\n## What is Cristal?\n\n[Cristal](https://cristal.xwiki.org/xwiki/bin/view/Main/) is an open-source, modern, modular wiki UI that is able to connect to various back-ends (e.g., a Nextcloud or a [XWiki](https://xwiki.org/xwiki/bin/view/Main/) instance, or GitHub, or a local folder). It focuses on offline editing with sync, and embeddability. This makes your content portable and accessible anywhere: in the browser, on your desktop, or inside another platform.",
     "homepage": "https://github.com/xwiki-contrib/cristal-integration-nextcloud",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "cromqr": {
+    "hash": "sha256-Orioe1vIAMdsdAfjQ4TBUdYEYoCFBBMHwoaTq09Ll6U=",
+    "url": "https://github.com/skaife/cromqr/releases/download/v1.0.2/cromqr-1.0.2.tar.gz",
+    "version": "1.0.2",
+    "description": "CromQR is a personal QR code library and generator for Nextcloud.\n\nGenerate QR codes from seven data types — URLs, plain text, contact cards (vCard), Wi-Fi credentials, email addresses, SMS messages, and geographic coordinates. Customize foreground and background colors, preview codes live, and save them to your personal library.\n\n**Features:**\n- 7 QR code types: URL, Text, vCard, Wi-Fi, Email, SMS, Geo\n- Live preview with custom color pickers\n- Personal library with list and grid views\n- Save, edit, and soft-delete library entries\n- Download as SVG or PNG\n- Export directly to Nextcloud Files\n- Per-user isolation — each user has their own private library\n- Fully client-side QR generation — no external services",
+    "homepage": "https://github.com/skaife/cromqr",
     "licenses": [
       "agpl"
     ]
@@ -960,9 +970,9 @@
     ]
   },
   "forms": {
-    "hash": "sha256-Tt2YRX21ncUGiAxdXFG9IhWy6DbsTQEkB5Zfq+5XRNA=",
-    "url": "https://github.com/nextcloud-releases/forms/releases/download/v5.3.3/forms-v5.3.3.tar.gz",
-    "version": "5.3.3",
+    "hash": "sha256-vd6qwBAGUtm+Fbfc/Ei1mtmENX5Zvz5ZlW1MGggytJ0=",
+    "url": "https://github.com/nextcloud-releases/forms/releases/download/v5.3.4/forms-v5.3.4.tar.gz",
+    "version": "5.3.4",
     "description": "**Simple surveys and questionnaires, self-hosted!**\n\n- **📝 Simple design:** No mass of options, only the essentials. Works well on mobile of course.\n- **📊 View & export results:** Results are visualized and can also be exported as CSV in the same format used by Google Forms.\n- **🔒 Data under your control!** Unlike in Google Forms, Typeform, Doodle and others, the survey info and responses are kept private on your instance.\n- **🧑‍💻 Connect to your software:** Easily integrate Forms into your service with our full-fledged [REST-API](https://github.com/nextcloud/forms/blob/main/docs/API_v3.md).\n- **🙋 Get involved!** We have lots of stuff planned like more question types, collaboration on forms, [and much more](https://github.com/nextcloud/forms/milestones)!",
     "homepage": "https://github.com/nextcloud/forms",
     "licenses": [
@@ -1830,9 +1840,9 @@
     ]
   },
   "music": {
-    "hash": "sha256-bQ9NBo5R/en3f68ag+mAsVWuhREjr/ajlKrfLn4Tvtg=",
-    "url": "https://github.com/nc-music/music/releases/download/v3.1.0/nc-music-3.1.0.tar.gz",
-    "version": "3.1.0",
+    "hash": "sha256-H8GsbDCdtHMKqsOVsyZA7nTBdBx0B+sfKdL5QupHEDI=",
+    "url": "https://github.com/nc-music/music/releases/download/v3.1.1/nc-music-3.1.1.tar.gz",
+    "version": "3.1.1",
     "description": "A stand-alone music player app and a \"lite\" player for the Files app\n\n- On modern browsers, supports audio types .mp3, .ogg, .m4a, .m4b, .flac, .wav, and more\n- Playlist support with import from .m3u, .m3u8, .pls, and .wpl files\n- Show lyrics from the file metadata or .lrc files\n- Browse by artists, albums, genres, or folders\n- Gapless play\n- Filter the shown content with the search function\n- Advanced search to freely use and combine dozens of search criteria\n- Play internet radio and podcast channels\n- Setup Last.fm connection to scrobble plays and/or see background information on artists, albums, and songs\n- Control with media control keys on the keyboard or OS\n- The app can handle libraries consisting of thousands of albums and tens of thousands of songs\n- Includes a server backend compatible with the Subsonic and Ampache protocols, allowing playback and browsing of your library on dozens of external apps on Android, iOS, Windows, Linux, etc.\n- Widget for the Nextcloud Dashboard",
     "homepage": "https://github.com/nc-music/music",
     "licenses": [
@@ -1860,9 +1870,9 @@
     ]
   },
   "ncc_backend_4mc": {
-    "hash": "sha256-dlkrZfbEqcJ3/uL2j6jlmEkqcctvG3C1gXtMETyq1dE=",
-    "url": "https://github.com/nc-connector/Server_Backend/releases/download/v1.2.1/ncc_backend_4mc-1.2.1.tar.gz",
-    "version": "1.2.1",
+    "hash": "sha256-Eg4H4KvtDY2p9kuPJKui3pGpcb7AsI0n3JAmFpBqwL0=",
+    "url": "https://github.com/nc-connector/Server_Backend/releases/download/v1.2.2/ncc_backend_4mc-1.2.2.tar.gz",
+    "version": "1.2.2",
     "description": "# NC Connector for mail integration\n\nNC Connector Backend is the central policy and template app for NC Connector mail add-ons.\n\nThe Thunderbird and Outlook Classic add-ons can run without this backend. This app adds central policy control, Seat assignment, managed email signatures, custom templates and password delivery rules for organizations.\n\n## What the backend adds\n\n- Central Share, Talk and email-signature policies for Thunderbird and Outlook Classic\n- Seat assignment for Nextcloud users\n- Group and user overrides for teams with different rules\n- Managed HTML templates for Share blocks, password mails, Talk invitations and email signatures\n- Separate password delivery as plaintext mail or Nextcloud Secret Link\n- Optional Secrets app integration for expiring password links\n- Setup diagnostics for mail clients when backend access is not available\n\n## Share policies\n\nAdmins can define default share folders, share names, permissions, password behavior and expiry days.\n\nLarge attachments can be routed into Nextcloud based on central rules. The mail clients insert clean Share blocks with link, password information, rights and expiry date.\n\n## Password delivery\n\nSeparate password delivery can use two modes:\n\n- Plaintext: send the password in a separate follow-up mail\n- Nextcloud Secret Link: send an expiring Secrets link instead of the raw password\n\nIf the Nextcloud Secrets app is missing or disabled, clients fall back to the existing plaintext password mail behavior.\n\n## Email signatures\n\nThe backend can provide one central HTML signature template for Thunderbird and Outlook Classic.\n\nSignature values can come from Nextcloud user profiles and per-user override fields. Empty placeholders remove their surrounding line or table row before the signature is sent to the mail client.\n\n## Talk meetings\n\nAdmins can define Talk defaults for calendar-based meeting creation, including room type, lobby, visibility, password behavior and invitation templates.\n\n## When this backend is useful\n\nUse this backend when an organization needs central defaults, locked settings, Seat assignment, managed templates, managed signatures or password delivery rules.\n\nSingle users can still use the mail add-ons without this backend.\n\n## Mail clients\n\n- Thunderbird: [https://addons.thunderbird.net/thunderbird/addon/nc4tb/](https://addons.thunderbird.net/thunderbird/addon/nc4tb/)\n- Outlook Classic: [https://github.com/nc-connector/NC_Connector_for_Outlook/releases/latest](https://github.com/nc-connector/NC_Connector_for_Outlook/releases/latest)\n\n## More information\n\n- Homepage: [https://nc-connector.de](https://nc-connector.de)\n- Contact: [https://nc-connector.de/kontakt/](https://nc-connector.de/kontakt/)",
     "homepage": "https://nc-connector.de",
     "licenses": [
@@ -2150,9 +2160,9 @@
     ]
   },
   "projectcheck": {
-    "hash": "sha256-KNJodTc8L0UXhj5XK4zayaEs9apA7YqEUMnzo68m66I=",
-    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-projectcheck/releases/download/v2.0.73/projectcheck-2.0.73.tar.gz",
-    "version": "2.0.73",
+    "hash": "sha256-mnn6kGP5AjXHtKbKe+rVUP4OsQoeJm1+HLVHyPoNs2c=",
+    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-projectcheck/releases/download/v2.0.77/projectcheck-2.0.77.tar.gz",
+    "version": "2.0.77",
     "description": "IT project management with time tracking, budget control, and server-authoritative cost pricing.\n\t\tChoose how hours are priced (project rate, employee master data, or per-person on the project);\n\t\thourly rates on time entries are resolved on the server from effective-dated history.\n\t\tFeatures include project and customer management, team assignment, budget monitoring,\n\t\tWCAG-oriented UI aligned with the Check app family, and append-only rate history.",
     "homepage": "https://nextcloud.software-by-design.de",
     "licenses": [
@@ -2190,9 +2200,9 @@
     ]
   },
   "rechnungswerk": {
-    "hash": "sha256-uhhCWBbbW9YrAQKzkcfUXbmH6NCHULffoM54/PW60Ek=",
-    "url": "https://github.com/cpcMomentum/rechnungswerk/releases/download/v0.1.7/rechnungswerk-v0.1.7.tar.gz",
-    "version": "0.1.7",
+    "hash": "sha256-dRLZA6UKXNgARNoRF4LxEA3gLV5YO2+ZdcmosRsIizs=",
+    "url": "https://github.com/cpcMomentum/rechnungswerk/releases/download/v0.1.8/rechnungswerk-v0.1.8.tar.gz",
+    "version": "0.1.8",
     "description": "# RechnungsWerk\n\nSchlanke Nextcloud-App zum Erstellen von Rechnungen und **E-Rechnungen** (ZUGFeRD/EN16931)\nfür deutsche Unternehmen — mit frei wählbarem Empfänger pro Rechnung und automatischer\nÜbergabe an DATEV, ohne den starren Zwang von DATEV Auftragswesen Next.\n\n## Features\n\n- **Rechnungs-Editor** — Positionen mit Menge, Maßeinheit, Einzelpreis und USt-Satz pro Zeile, Live-Summen\n- **ZUGFeRD-Erzeugung** — eine lesbare PDF, die zugleich eine gültige E-Rechnung ist (PDF/A-3 + EN16931-CII-XML)\n- **Festschreibung** — GoBD-konform: Entwurf → festgeschrieben (unveränderbar) → Storno/Gutschrift\n- **DATEV-Übergabe** — automatisch per Upload Mail beim Festschreiben\n- **Kundenversand** — PDF-Download und In-App-Versand mit Empfängerwahl aus Nextcloud-Kontakten\n- **Produktkatalog** — wiederkehrende Leistungen einmal pflegen\n- **Stammdaten** — Firmendaten, Logo, Standardtexte, Nummernformat, Kleinunternehmer §19",
     "homepage": "",
     "licenses": [
@@ -2385,6 +2395,16 @@
     "version": "1.6.2",
     "description": "Manage shared shopping lists between household members. Create multiple lists, categorize items by shop area, tag items, and collaborate in real-time.\n\nOfficial website: [shoppinglist.otherworld.dev](https://shoppinglist.otherworld.dev/)\n\nOfficial companion Android app: [Google Play](https://play.google.com/store/apps/details?id=dev.otherworld.shoppinglist)",
     "homepage": "https://shoppinglist.otherworld.dev/",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "side_menu": {
+    "hash": "sha256-bhefFh0hDBKolRH3qQ9vzx7GBSpLTjEPlQSc1nVTCGw=",
+    "url": "https://gitnet.fr/deblan/side_menu/releases/download/v6.0.0/side_menu_v6.0.0.tar.gz",
+    "version": "6.0.0",
+    "description": "Custom menu allows you to modify the position of the main menu by creating a panel on the left of the interface or with a big menu on the top.\nYou can also define apps that must be displayed in the top menu. Fully customisable.\n\nThis application is rather suitable for instances that activate a lot of applications.\n\nUse the shortcut `Ctrl`+`o` to open and to hide the side menu. Use `tab` to navigate.\n\nYou can customize colors depending of the theme.\n\nTo report a bug or request a feature, please open an issue.\n\nRequirements:\n\n* PHP >= 8.1\n\nIf you like this application and if you want to support the development:\n\n* [Buy me a coffee](https://www.buymeacoffee.com/deblan)\n* [Donate with liberapay](https://liberapay.com/deblan)\n* [Leave a comment](https://apps.nextcloud.com/apps/side_menu#comments)\n\nNotice\n------\n\nBecause I believe in a free and decentralized Internet, [Gitnet](https://gitnet.fr) is **self-hosted at home**.\nIn case of downtime, you can download **Custom Menu** from [here](https://kim.deblan.fr/~side_menu/).",
+    "homepage": "https://gitnet.fr/deblan/side_menu",
     "licenses": [
       "agpl"
     ]
@@ -2590,9 +2610,9 @@
     ]
   },
   "teamhub": {
-    "hash": "sha256-GLNzfntJWGXS63xLSHIs08whRU/cdA9PG4Nq8FM1s5M=",
-    "url": "https://github.com/JustinDoek/Nextcloud-Teamhub/releases/download/v4.0.1/teamhub.tar.gz",
-    "version": "4.0.1",
+    "hash": "sha256-RljTJYwCGxKasnxVqyR1stM/iTPc/sGUbTsONqH4hzo=",
+    "url": "https://github.com/JustinDoek/Nextcloud-Teamhub/releases/download/v4.10/teamhub.tar.gz",
+    "version": "4.1.0",
     "description": "TeamHub started as a visual mock up to discus team based working in Nextcloud and grew into a workspace built on top of Nextcloud Teams (Circles).\n\nEach team gets a shared home with:\n- **Messages** — post announcements, questions and polls to your team\n- **Activity feed** — a single view of recent file, calendar, task and member changes across all shared resources\n- **App tabs** — quick-links to the team's shared Talk chat, Files folder, Calendar and Deck board\n- **Widgets** — upcoming calendar events, open Deck tasks, Pages, and the activity snapshot and others through integrations\n- **Team management** — invite members by user, group, email or federated account; manage roles and pending requests\n- **Customizable view** — users can create their own layout per team\n- **Integrations** — developers can integrate their app with teamhub\n- **Internal integrations** - Added TeamHub native integrations for Decisions, Precense, Timeline, Budget and Time  \n\nTeamHub works entirely within your Nextcloud instance and does not require any external services.",
     "homepage": "https://tldr.host/teamhub",
     "licenses": [
@@ -2600,9 +2620,9 @@
     ]
   },
   "terms_of_service": {
-    "hash": "sha256-FnGXj+/IQfQeNFKSs0W68ZmjkDrCfGLU00TgZhfSvQ8=",
-    "url": "https://github.com/nextcloud-releases/terms_of_service/releases/download/v4.7.0/terms_of_service-v4.7.0.tar.gz",
-    "version": "4.7.0",
+    "hash": "sha256-JFNqrAtC1fjWFfTZdGrVT57613vS4gxdlEEreBFsNQc=",
+    "url": "https://github.com/nextcloud-releases/terms_of_service/releases/download/v4.7.1/terms_of_service-v4.7.1.tar.gz",
+    "version": "4.7.1",
     "description": "Requires users to accept the terms of service before accessing data.\nThis product includes GeoLite2 data created by MaxMind, available from [maxmind.com](http://www.maxmind.com)",
     "homepage": "https://github.com/nextcloud/terms_of_service/",
     "licenses": [
@@ -2720,9 +2740,9 @@
     ]
   },
   "twofactor_oath": {
-    "hash": "sha256-mJX3jdLE3uhX+QYyHfbHCX04FfncFsCEIZ0JK5nl/vQ=",
-    "url": "https://github.com/ernolf/twofactor_oath/releases/download/v0.2.1/twofactor_oath-0.2.1.tar.gz",
-    "version": "0.2.1",
+    "hash": "sha256-Fq7wykB4v0XkgwSRSOAkZEUnuxJl8tOWYnFPoTzMLaA=",
+    "url": "https://github.com/ernolf/twofactor_oath/releases/download/v0.3.0/twofactor_oath-0.3.0.tar.gz",
+    "version": "0.3.0",
     "description": "Configurable OATH two-factor authentication for Nextcloud, covering all three OATH algorithms in one provider.\n\n- **TOTP** (RFC 6238), **HOTP** (RFC 4226) and **OCRA** challenge-response (RFC 6287), selectable per token\n- Per-token hash algorithm (SHA-1 to SHA-512), digits (4 to 10), TOTP period or HOTP counter, and OCRA suite\n- Custom or random secrets, with clear strength presets (128 to 640 bit) and secrets encrypted at rest\n- A **Strict RFC** switch for safe, interoperable defaults, without losing the freedom to deviate\n- Admin-managed enrollment for whole groups, with **bulk provisioning** (sorting, filtering, live validation), CSV export and paste import\n- One-click **import from the bundled twofactor_totp**, so existing users switch over without being locked out\n- Issuer icon embedded in the QR code, HOTP resynchronisation, and a software OCRA token for testing\n\nBuilt for hardware OATH tokens and elevated requirements, alongside the simple, bundled twofactor_totp app. OATH (one-time passwords) is not the same as FIDO2/WebAuthn. See documentation for when to use which.",
     "homepage": "https://github.com/ernolf/twofactor_oath#readme",
     "licenses": [
@@ -2830,9 +2850,9 @@
     ]
   },
   "user_saml": {
-    "hash": "sha256-LDiWtEaVJbNECJkcn80L4behkUyUsRlDFDd2lk2g+pE=",
-    "url": "https://github.com/nextcloud-releases/user_saml/releases/download/v8.1.4/user_saml-v8.1.4.tar.gz",
-    "version": "8.1.4",
+    "hash": "sha256-HseXj3gaVa1rjJ/C1N6x223yU0usyJ7rt8RqhVMKiDY=",
+    "url": "https://github.com/nextcloud-releases/user_saml/releases/download/v8.2.0/user_saml-v8.2.0.tar.gz",
+    "version": "8.2.0",
     "description": "Using the SSO & SAML app of your Nextcloud you can make it easily possible to integrate your existing Single-Sign-On solution with Nextcloud. In addition, you can use the Nextcloud LDAP user provider to keep the convenience for users. (e.g. when sharing)\nThe following providers are supported and tested at the moment:\n\n* **SAML 2.0**\n\t* OneLogin\n\t* Shibboleth\n\t* Active Directory Federation Services (ADFS)\n\t* Authentik\n\n* **Authentication via Environment Variable**\n\t* Kerberos (mod_auth_kerb)\n\t* Any other provider that authenticates using the environment variable\n\nWhile theoretically any other authentication provider implementing either one of those standards is compatible, we like to note that they are not part of any internal test matrix.",
     "homepage": "https://github.com/nextcloud/user_saml",
     "licenses": [
@@ -3007,6 +3027,16 @@
     "homepage": "https://github.com/nextcloud/xwiki",
     "licenses": [
       "agpl"
+    ]
+  },
+  "zeitwerk": {
+    "hash": "sha256-UjwUwykpbXIP1wU2PcxY8OPkcX4x2rcTQku12VC4jgQ=",
+    "url": "https://github.com/lamanese/worktime/releases/download/v0.14.2/zeitwerk-0.14.2.tar.gz",
+    "version": "0.14.2",
+    "description": "# Zeitwerk - Arbeitszeiterfassung für Nextcloud\n\nGesetzeskonforme Arbeitszeiterfassung für kleine Unternehmen in Deutschland.\n\nEigenständig gepflegter Fork der App WorkTime ([cpcMomentum/worktime](https://github.com/cpcMomentum/worktime), Original von Axel Deffner), erweitert um Aussendienst-Spesen, Extern-Kilometer und persönliche Standard-Vorgaben.\n\n## Erfassung & Berechnung\n\n- **Zeiterfassung** mit Start, Ende und Pause\n- **Automatische Pausenberechnung** nach §4 ArbZG\n- **Überstundenkonto** mit Soll/Ist-Vergleich und Eintrittsdatum-Berücksichtigung\n- **Projektbezogene Erfassung** für bessere Auswertung\n- **Persönliche Standard-Vorgaben**: Standard-Arbeitszeiten sowie — nach Admin-Freigabe — Standard-Projekt und Standard-Beschreibung als Vorbelegung neuer Einträge\n- **Deutsche Feiertage** automatisch nach Bundesland\n\n## Spesen & Kilometer\n\n- **Aussendienst-Spesen**: konfigurierbare Tagespauschale, sobald die Arbeitszeit auf Aussendienst-Projekten eine Stundenschwelle erreicht\n- **Extern-Kilometer**: tageweise Kilometer-Erfassung an externen Tagen (Extern-Projekt oder externer Abwesenheitstyp) mit konfigurierbarem Satz\n- **Auswertung inklusive**: Spesen und Kilometer in Monatsübersicht, Team, Projekt-Auswertung sowie in CSV- und PDF-Exporten\n\n## Urlaub & Abwesenheiten\n\n- **Urlaubsverwaltung** mit Quoten-Validierung und Resturlaub-Anzeige\n- **Abwesenheiten**: Urlaub, Krankheit, Sonderurlaub, Freizeitausgleich\n- **Jahresübertrag** für Überstunden und Resturlaub vom Vorjahr — automatisch und manuell korrigierbar\n\n## Reporting & Team\n\n- **Monatsübersicht** mit PDF-Export (Arbeitszeitnachweis, auch über frei wählbare Zeiträume)\n- **Projekt-Auswertung** für Admin/HR mit CSV- und PDF-Export\n- **Team-Übersicht** für Vorgesetzte und HR-Manager\n- **Jahresübersicht** mit allen Mitarbeitern und Übertragswerten\n- **Audit-Log** für vollständiges Änderungsprotokoll (Admin/HR)\n\n## Workflow & Genehmigung\n\n- **Rollenbasierte Berechtigungen** (Admin, HR-Manager, Supervisor, Employee)\n- **Genehmigungsworkflow** für Abwesenheiten mit eingebetteter Zeitanzeige\n- **Kontextuelle Hilfe** mit Info-Icons an allen relevanten Stellen\n\n## Internationalisierung\n\n- **Mehrsprachig**: Deutsch, Englisch und Tschechisch\n\nBehalten Sie den Überblick über Arbeitszeiten, Überstunden und Urlaub.",
+    "homepage": "",
+    "licenses": [
+      "AGPL-3.0-or-later"
     ]
   }
 }
