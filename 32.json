@@ -1,4 +1,14 @@
 {
+  "admin_audit_http_client": {
+    "hash": "sha256-MbEwfXpeKhH2sFdrRtrBOiSijm9gDV2fpck9gQSYx18=",
+    "url": "https://github.com/ernolf/admin_audit_http_client/releases/download/v1.0.0/admin_audit_http_client-1.0.0.tar.gz",
+    "version": "1.0.0",
+    "description": "Extends admin_audit with logging of all outgoing HTTP requests made by Nextcloud's internal Guzzle-based HTTP client. Logs include method, URI, status code, HTTP version, request and response headers, cURL transfer statistics, and compression metrics. Credential-bearing headers such as Authorization and Cookie are always redacted.\nNo UI, no routes — pure audit logging into per-host JSON and plain-text files below a configurable log directory.",
+    "homepage": "https://github.com/ernolf/admin_audit_http_client",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "admincockpit": {
     "hash": "sha256-A04K4aoj3LnJ2C8mjox3TFwkXM7pZD/uojOvjO5UjMQ=",
     "url": "https://github.com/zomtec2311/admincockpit/releases/download/1.3.2/admincockpit-1.3.2.tar.gz",
@@ -60,9 +70,9 @@
     ]
   },
   "analytics": {
-    "hash": "sha256-RTS2EQzP1/m2hMwiash9ljgJusnJ/5Yx/Iv9dW3XCKE=",
-    "url": "https://github.com/Rello/analytics/releases/download/6.7.0/analytics.tar.gz",
-    "version": "6.7.0",
+    "hash": "sha256-XyW4V1Dv1CFCJIMUsVqgo/obfaz6GWAuHk+r3tmObNY=",
+    "url": "https://github.com/Rello/analytics/releases/download/6.7.1/analytics.tar.gz",
+    "version": "6.7.1",
     "description": "Connect data from different sources in one place and turn it into shareable insights. Analytics lets teams build flexible panoramas, dashboards, and reports with seamless Nextcloud integration.\n\n## Why Analytics\n- **Centralize data**: combine CSV, spreadsheets, APIs, and Nextcloud apps in one place.\n- **Analyze faster**: use charts, tables, filters, and panoramas to explore data quickly.\n- **Share securely**: collaborate with users, groups, or share links with fine-grained access.\n- **Automate updates**: schedule data loads and keep reports current.\n\n#### Features:\n- **Visualization**: panoramas, reports, charts, tables, filters\n- **Data sources**:\n  - CSV, spreadsheets, API, imports, manual entry\n  - External sources: GitHub, website grabber, JSON\n- **Extensible**: register custom data sources from other apps\n- **Storage**: real-time or database\n- **Automation**: scheduled data loads\n- **Functions**: trend calculations, dis-/aggregation\n- **Alerts**: thresholds for notifications and color coding\n- **Integration**: Files, Activity, Notifications, Flow, Dashboard, Search, Smart picker, Translation\n- **AI Assistant**: Context Chat integration",
     "homepage": "https://rello.github.io/analytics/",
     "licenses": [
@@ -160,9 +170,9 @@
     ]
   },
   "arbeitszeitcheck": {
-    "hash": "sha256-2ekKYB59yn4qKe/ubUqvW0yN87deMkqYZp/ecFHfP8M=",
-    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-arbeitszeitcheck/releases/download/v1.5.9/arbeitszeitcheck-1.5.9.tar.gz",
-    "version": "1.5.9",
+    "hash": "sha256-Rh9KGrDN0+dAVOy9QyVE3XQRUrijFwC1AUhmhanqd8s=",
+    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-arbeitszeitcheck/releases/download/v1.5.19/arbeitszeitcheck-1.5.19.tar.gz",
+    "version": "1.5.19",
     "description": "# ArbeitszeitCheck\n\nTime tracking focused on German working time law (ArbZG) and GDPR. Record work\ntimes, enforce breaks and rest periods, and monitor compliance – fully self‑hosted\nin your Nextcloud instance.\n\n## Features\n\n- **ArbZG-aware rules** – maximum hours, breaks, rest periods, Sundays/holidays\n- **Compliance monitoring** – automatic violation detection and reports\n- **Self‑service dashboards** – employee, team and manager views\n- **Absences & leave** – approval workflows and reporting\n- **Exports & audit log** – e.g. for DATEV and internal audits\n- 100% self‑hosted – no data leaves your server\n\n## Requirements\n\n- Nextcloud 32–33\n- PHP 8.1–8.4",
     "homepage": "http://nextcloud.software-by-design.de",
     "licenses": [
@@ -180,9 +190,9 @@
     ]
   },
   "astrolabe": {
-    "hash": "sha256-24zQFeC5ctcjhJKoRUacpPMegk9j1ipDCSImC/tNx7I=",
-    "url": "https://github.com/cbcoutinho/astrolabe/releases/download/v0.37.0/astrolabe-0.37.0.tar.gz",
-    "version": "0.37.0",
+    "hash": "sha256-VRALmlVnD5RkXsTt+SqldWp7SgaqoWAXnOvokslhmoM=",
+    "url": "https://github.com/cbcoutinho/astrolabe/releases/download/v0.38.0/astrolabe-0.38.0.tar.gz",
+    "version": "0.38.0",
     "description": "# Astrolabe - Semantic Search for Nextcloud\n\nFind your content by meaning, not just keywords. Astrolabe brings AI-powered semantic search to your Nextcloud, helping you discover documents, notes, calendar events, and files through natural language.\n\n## Features\n\n- **Semantic Search**: Search across Notes, Files, Calendar, Deck, and more using natural language queries\n- **Unified Search Integration**: Results appear in Nextcloud's global search bar alongside traditional results\n- **Background Indexing**: Your content is automatically indexed for instant semantic search\n- **Vector Visualization**: Explore your content in an interactive 2D visualization showing semantic relationships\n- **Hybrid Search**: Combines semantic understanding with keyword matching for best results\n\n## How It Works\n\nAstrolabe connects to a semantic search service that understands the meaning of your content. Instead of exact keyword matches, you can search for concepts - ask \"meeting notes from last week\" or \"recipes with chicken\" and find relevant documents even if they don't contain those exact words.\n\n## Getting Started\n\n1. Install and enable the app\n2. Grant background access to allow indexing of your content\n3. Start searching with natural language in Nextcloud's search bar\n\nSee [documentation](https://github.com/cbcoutinho/astrolabe) for configuration details.",
     "homepage": "",
     "licenses": [
@@ -190,9 +200,9 @@
     ]
   },
   "attendance": {
-    "hash": "sha256-p2eV3id28qQTcAX6WY+QauQmxpmIl4ovM7L3wlIJk3o=",
-    "url": "https://github.com/luflow/attendance/releases/download/v1.41.1/attendance.tar.gz",
-    "version": "1.41.1",
+    "hash": "sha256-LLwmow2PMc07aITIEdMj2hF4wYGwkhTMowfRNXlFjqQ=",
+    "url": "https://github.com/luflow/attendance/releases/download/v1.41.2/attendance.tar.gz",
+    "version": "1.41.2",
     "description": "A small Nextcloud app for managing event attendance with advance RSVP functionality and real-time check-in capabilities.\n\n**For Administrators:**\n- **Appointment Management:** Create and manage appointments with name, description (with Markdown support), and date/time\n- **Visibility Control:** Restrict appointments to specific users or groups\n- **Response Tracking:** Track responses with detailed attendance summaries organized by user groups\n- **Unanswered View:** Dedicated section to quickly identify appointments without responses\n- **Reminder System:** Automated Nextcloud notifications for upcoming appointments\n- **New Appointment Notifications:** Optional notifications when new appointments are created\n- **Check-in Management:** Dedicated interface to track actual attendance during events\n- **Bulk Operations:** Mark multiple users as present/absent with bulk check-in actions\n- **Admin Comments:** Add check-in specific comments for detailed attendance tracking\n- **Group Whitelisting:** Configure which user groups are included in attendance statistics and check-in lists\n- **Export Functionality:** Export all appointment data to ODS spreadsheet format for further analysis\n- **Granular Permissions:** Control who can view response overviews, comments, manage appointments, and access check-in features\n\n**For All Users:**\n- **Easy RSVP:** Respond with Yes/No/Maybe to any appointment\n- **Comments:** Add optional comments with your response\n- **Flexible Updates:** Update responses anytime until the event date\n- **Dashboard Widget:** Quick access via dashboard widget\n- **Share Links:** Share appointment links for easy access\n- **Calendar Subscription:** Subscribe to appointments via iCal feed in Google Calendar, Apple Calendar, or any calendar app\n- **Quick Subscribe:** One-click buttons to add feed to Google Calendar or Apple Calendar\n\n**Group-Based Organization:**\n- **Group Statistics:** Statistics automatically organized by Nextcloud user groups\n- **Missing Responses:** See which group members haven't responded yet\n- **Full Visibility:** Complete visibility into attendance across all groups\n- **Filtered Check-in:** Search and filter users by name or group during check-in process\n\nPerfect for organizations, teams, and communities that want to coordinate attendance for meetings, events, and activities with both advance planning and real-time attendance tracking.",
     "homepage": "https://anwesenheit.app",
     "licenses": [
@@ -389,6 +399,16 @@
       "agpl"
     ]
   },
+  "capauth": {
+    "hash": "sha256-7LDM5jfrTKbyRrI0hfOiWFQYyA93F5szMHJ0kugLJwA=",
+    "url": "https://github.com/smilinTux/capauth/releases/download/nextcloud-v0.3.0/capauth.tar.gz",
+    "version": "0.3.0",
+    "description": "CapAuth lets you sign in to Nextcloud using your sovereign PGP key.\nNo passwords. No OAuth flows. Just cryptographic proof of identity.\n\n## Features\n\n- **Passwordless PRIMARY login** via PGP challenge-response (no password,\n  no Authentik, no OAuth) — a real Nextcloud user backend, not just a 2FA\n  second factor.\n- **\"Sign in with CapAuth\"** button on the login page.\n- **Bearer token authentication** for API requests.\n- **Auto-provisioning** of users from CapAuth identity claims.\n- **Group synchronisation**: CapAuth teams map to Nextcloud groups.\n\n## How it works\n\nThe client signs a server-issued challenge nonce with their PGP private\nkey. CapAuth verifies the signature against the registered public key and\nissues a Nextcloud session — the private key never leaves the user's device.",
+    "homepage": "https://capauth.io",
+    "licenses": [
+      "AGPL-3.0-or-later"
+    ]
+  },
   "carnet": {
     "hash": "sha256-4gUKXBnG5YlH2lUu5oiRdg643mdWGcCiCKPoMTTzXI0=",
     "url": "https://github.com/CarnetApp/CarnetNextcloud/releases/download/v0.25.13/carnet-nc-v0.25.13.tar.gz",
@@ -580,8 +600,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-6p0Ivbt8QkfguWXWCMVhKXlyClmHhttaytgmZCucpuc=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/14547147483/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-7MXvmpxaji23Dr3xDVMDPTv32z60krjYR8vUlda/vUE=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/14567082190/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.12",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -979,6 +999,16 @@
       "AGPL-3.0-or-later"
     ]
   },
+  "empreintelive": {
+    "hash": "sha256-xIqSy5F9IEF1lHKeICT5/ErlPG66yw/f2DTCpuzGGD0=",
+    "url": "https://github.com/a-missaoui/empreintelive/releases/download/v1.0.0/empreintelive-1.0.0.tar.gz",
+    "version": "1.0.0",
+    "description": "Standalone app that integrates EMPREINTE Live into Nextcloud, sitting alongside\nthe official Calendar (without modifying it): OAuth, API proxy, video meeting\nmanagement (create / update / delete), invitations and settings.",
+    "homepage": "https://github.com/a-missaoui/EmpreinteLive",
+    "licenses": [
+      "AGPL-3.0-or-later"
+    ]
+  },
   "end_to_end_encryption": {
     "hash": "sha256-Tlv1zPWp8mLpZFrsxcbfqqro1tx5XGS+vgxrEYWe054=",
     "url": "https://github.com/nextcloud-releases/end_to_end_encryption/releases/download/v1.18.3/end_to_end_encryption-v1.18.3.tar.gz",
@@ -1357,6 +1387,16 @@
     "homepage": "https://github.com/nextcloud/forms",
     "licenses": [
       "AGPL-3.0-or-later"
+    ]
+  },
+  "formulabase": {
+    "hash": "sha256-IcShom6KA5z4SJTty0kFg26/xPfmfg+yqOoKjlOz8MU=",
+    "url": "https://github.com/ktec-nc-apps/FormulaBase/releases/download/v0.4.6/formulabase-0.4.6.tar.gz",
+    "version": "0.4.6",
+    "description": "FormulaBase is a lightweight personal calculator for the formulas you use again and again — markups, unit conversions, loan payments, mixing ratios, engineering constants, anything.\n\nOrganise your formulas into collections, define each formula's variables once, then open it any time, type in numbers, and read the result live. The math runs entirely in your browser (no eval, no server round-trip).\n\nFeatures:\n- Nearly 3,000 built-in formula templates across 64 categories (physics, geometry, finance, health, chemistry, electricity, astronomy, computing, and many more) — searchable, and ready to drop into your own collections\n- Collections of reusable formulas\n- Named variables with labels, units and default values\n- Safe expression engine: + - * / % ^, parentheses, and functions (sqrt, round, floor, ceil, abs, min, max, pow, log, ln, sin, cos, tan, pi, e)\n- Live result as you type, with unit and decimal-place control\n- Share a collection with other Nextcloud users at three levels (view / edit / delete)\n- Same clean, themable design as RegiBase (light / dark)\n\nMade in Japan.",
+    "homepage": "https://github.com/ktec-nc-apps/FormulaBase",
+    "licenses": [
+      "agpl"
     ]
   },
   "formvox": {
@@ -2549,6 +2589,16 @@
       "AGPL-3.0-or-later"
     ]
   },
+  "nextlibrary": {
+    "hash": "sha256-VmZYUFPYdl7iV0thlCm+wW+6Eh4LT+5y9QbCoj883Rs=",
+    "url": "https://github.com/SafiCeylan/Nextlibrary/releases/download/v1.0.6/nextlibrary-release-1.0.6.tar.gz",
+    "version": "1.0.6",
+    "description": "Knowledge Cards turns your Nextcloud into a small learning library.\n\nGroup pages into **collections**, write them with a rich text editor, and let your\nteam read through them at their own pace. Every page remembers who has read it and\nwhen, so progress is visible at a glance.\n\n- **Collections and pages** — a browsable tree on the left, a reading canvas in the middle, related pages on the right.\n- **Reading progress** — mark pages as read; progress bars and badges show what is left.\n- **Rich editor** — headings, lists, quotes, code blocks, colours, highlights, callouts, images and video embeds.\n- **Roles** — owners and editors write, readers only read. Collections can be public to the instance or private to their members.\n- **Trash bin** — deleted collections and pages can be restored.\n- **Dark mode** and full-text search across pages.",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "nextpod": {
     "hash": "sha256-a/wnfpIBTTqLB18p0afhncMgD8x7UNYmjwv3LqcTd9o=",
     "url": "https://github.com/pbek/nextcloud-nextpod/releases/download/v0.7.11/nextpod-nc.tar.gz",
@@ -3070,9 +3120,9 @@
     ]
   },
   "regibase": {
-    "hash": "sha256-3mxfT507CjaA41J/DIiUC12Qze2MkN+q7ga45N1VE8M=",
-    "url": "https://github.com/ktec-nc-apps/RegiBase/releases/download/v0.12.5/regibase-0.12.5.tar.gz",
-    "version": "0.12.5",
+    "hash": "sha256-6+9b+pE9jvBpnSJKXhdQmf+nYThltc8u6n6QqxytDxU=",
+    "url": "https://github.com/ktec-nc-apps/RegiBase/releases/download/v0.12.6/regibase-0.12.6.tar.gz",
+    "version": "0.12.6",
     "description": "RegiBase is a lightweight personal database for the information you want to keep — credit cards, bank accounts, online accounts, memberships, licenses, contacts and anything else.\n\nDesign your own fields (or start from a template), then browse records as a list, detailed list, spreadsheet-style table (with a frozen first column), cards, or an image gallery.\n\nFeatures:\n- Custom form fields with per-field input rules, built from reusable templates\n- Save your own templates, and edit the built-in ones (per-user override, resettable to default)\n- Duplicate a collection — optionally including all of its records\n- Share a collection with other Nextcloud users at three levels (view / edit / delete), with an optional access password and optional secret-field sharing\n- Optional client-side encryption (AES-GCM) for secret fields — the server never sees the key or the plaintext\n- Nextcloud Tables integration: import a table into a new collection, or export a collection to a new Tables table\n- Import from CSV / JSON (e.g. Google Password Manager), or from your Nextcloud Contacts (including photos)\n- Attach images and files from Nextcloud Files or Notes\n- Move / copy / merge records between collections\n- Password-protected full backup & restore (AES-256 ZIP)\n- Read-only command-line access via occ (list / get / export / find), with opt-in secret decryption\n- Available in 12 languages",
     "homepage": "https://github.com/ktec-nc-apps/RegiBase",
     "licenses": [
@@ -3260,8 +3310,8 @@
     ]
   },
   "secrets": {
-    "hash": "sha256-eHvwI7NnWNHLdHYuNRaF0Izp8iIIn/Z/8DdALIqVdgY=",
-    "url": "https://github.com/theCalcaholic/nextcloud-secrets/releases/download/v3.0.4-rc1/secrets.tar.gz",
+    "hash": "sha256-bkQxbp+TEN2OKwFD01ozZVS9jJAgwWqf3NGv+4cflpk=",
+    "url": "https://github.com/theCalcaholic/nextcloud-secrets/releases/download/v3.0.4/secrets.tar.gz",
     "version": "3.0.4",
     "description": "Secrets allows users to generate share links for text based data (e.g. passwords, CSV lists, bank accounts...) that can be sent to anyone (including receivers without a Nextcloud account) for retrieval. The data itself will be end-to-end encrypted (so not even Nextcloud can access it) and the encryption key will be part of the share link (the anchor part) - but never be actually sent to the server. Once retrieved, the secret will be deleted from the server, ensuring, that if it arrived at the correct receiver it has been seen by nobody else.\n\nSecrets now comes with a cli that can be used to automate the provisioning of secret shares: https://github.com/theCalcaholic/nextcloud-secrets/releases",
     "homepage": "",
@@ -3280,9 +3330,9 @@
     ]
   },
   "sendentsynchroniser": {
-    "hash": "sha256-sn9gny0b7xsqUjAV3ZUPanZZg8xba9xMDUD9REZ6Jrk=",
-    "url": "https://github.com/Sendent-B-V/Sendent-Synchroniser-App-for-Nextcloud/releases/download/Release-2.0.2/sendentsynchroniser.tar.gz",
-    "version": "2.0.2",
+    "hash": "sha256-ZHSdc9ADc+nWFdrCVkZcYNW2hs/rffKQ6c7t5xAFlwI=",
+    "url": "https://github.com/Sendent-B-V/Sendent-Synchroniser-App-for-Nextcloud/releases/download/Release-2.0.3/sendentsynchroniser.tar.gz",
+    "version": "2.0.3",
     "description": "Say goodbye to manual updates! The Sendent Sync app, designed for the Nextcloud Exchange Connector, enables bi-directional syncing of agendas and contacts between your Microsoft Exchange and Nextcloud Hub. Focus on what truly matters – your work – while your data flows effortlessly.",
     "homepage": "https://www.sendent.com",
     "licenses": [
@@ -3600,9 +3650,9 @@
     ]
   },
   "starrate": {
-    "hash": "sha256-ezwcXG6+ohp7PU/QvtePH+S8QXaSPyYcFmkkuFP1CSg=",
-    "url": "https://github.com/merlin1de/starrate/releases/download/v1.3.10/starrate.tar.gz",
-    "version": "1.3.10",
+    "hash": "sha256-+Zfo5tLcfrHQ/zp0+ctdkaAM6yS0xTyPylSv6pC0bqg=",
+    "url": "https://github.com/merlin1de/starrate/releases/download/v1.3.11/starrate.tar.gz",
+    "version": "1.3.11",
     "description": "StarRate is a professional photo rating and culling tool for photographers, seamlessly integrated into Nextcloud.\n\nRate photos with 1–5 stars and color labels, flag picks and rejects with keyboard shortcuts, and share a guest gallery link with your client or model. They pick their favorites in the browser — no Nextcloud account required. Leave comments on individual images for feedback rounds, and export the final rating list as CSV when you're done.\n\n**Ratings are written as XMP metadata directly into the JPEG file.** Open it in Lightroom Classic, digiKam, F-Stop or Darktable — the stars are already there. No re-export, no sidecar files. **Coming from Lightroom?** Import your existing XMP ratings with one `occ` command — your years of curation travel with you.\n\n**Browse a whole folder tree at once.** Recursive folder view flattens nested directories into a single sortable, filterable grid — perfect for working through an entire shoot week or a multi-event archive without clicking into every subfolder.\n\n**Built for client presentations.** Slideshow mode in the loupe auto-advances through filtered images at a configurable interval — pre-filter to your three-star picks, hand over the keyboard, and let it run.\n\n**Read the workflow guide:** [Nextcloud as a photo home — what works today (and what is still missing)](https://whitespace.de/en/artikel/nextcloud-foto-workflow/)\n\n**Features:**\n- Star ratings (0–5) + color labels (Red/Yellow/Green/Blue/Purple) + Pick/Reject flags\n- **Recursive folder view** — browse an entire folder tree as a flat stream or grouped by folder depth (1.3.0+)\n- **Loupe slideshow mode** — auto-advance with configurable interval, ideal for client presentations (1.3.2+)\n- XMP metadata written into JPEG — Lightroom / Bridge / digiKam compatible\n- Configurable XMP label language: Lightroom (German localization) or Bridge / digiKam / English tools (1.3.3+)\n- Self-healing XMP read on loupe open — externally-edited files (Lightroom, digiKam) sync their new ratings the next time you click into them, no manual `occ` run needed (1.3.3+)\n- Import existing XMP ratings from Lightroom/digiKam via `occ starrate:import-xmp` (with `--recursive` for whole folder trees)\n- Comments on individual images — for client feedback rounds or personal notes, optional in guest galleries\n- Export the rating list as CSV (filename, stars, color, pick/reject) — download or copy to clipboard\n- Guest share links for clients and models (no Nextcloud login required), with optional password, expiry, and per-share permissions (rate / pick / export / comments / recursive)\n- Keyboard shortcuts like Lightroom: 0–5 stars, 6–9 colors, P/X pick/reject, S slideshow\n- Batch rating and batch pick/reject with Shift+click / Ctrl+click / Ctrl+A\n- Combinable filters: stars, color, Pick/Reject, unrated\n- Full-screen loupe view with zoom up to 400%, pan, pinch-to-zoom\n- Dark professional UI theme optimized for photo work\n- English and German",
     "homepage": "https://github.com/merlin1de/starrate",
     "licenses": [
@@ -3760,10 +3810,10 @@
     ]
   },
   "ticky_crm": {
-    "hash": "sha256-d59GxLsLdu+HrCGulAArvJPKi3RnlCapp+JdNHP8McQ=",
-    "url": "https://github.com/IdentSpace/ticky_crm/releases/download/v0.2.0/ticky_crm-v0.2.0.tar.gz",
-    "version": "0.2.0",
-    "description": "A modern, open-source CRM built from the ground up for Nextcloud.\n        Ticky CRM provides seamless client management, automated interaction logs, and activity tracking.\n\n        Milestones:\n        - Customer Management (done)\n        - Customer Notes (done)\n        - Contacts Integration (done)\n        - Products (next)\n        - File Integration (next)\n        - Helpdesk (future)\n        - Quotes (future)\n\n        Please note: This project is currently in its early stages of development.\n        We are actively looking for feedback, ideas, and feature suggestions—contributions from the community are highly welcome!",
+    "hash": "sha256-fSjl1FmpcI7oGMYopdoEjexd17kfpNChsyBAGlFbwAo=",
+    "url": "https://github.com/IdentSpace/ticky_crm/releases/download/v0.2.1/ticky_crm-v0.2.1.tar.gz",
+    "version": "0.2.1",
+    "description": "A modern, open-source CRM built from the ground up for Nextcloud.\n        Ticky CRM provides seamless client management, automated interaction logs, and activity tracking.\n\n        Milestones:\n        - Customer Management (done)\n        - Customer Notes (done)\n        - Contacts Integration (done)\n        - Products (next)\n        - File Integration (next)\n        - Deck Integration (next)\n        - Helpdesk (future)\n        - Quotes (future)\n\n        Please note: This project is currently in its early stages of development.\n        We are actively looking for feedback, ideas, and feature suggestions—contributions from the community are highly welcome!",
     "homepage": "https://github.com/IdentSpace/ticky_crm",
     "licenses": [
       "agpl"
@@ -3860,9 +3910,9 @@
     ]
   },
   "twofactor_email": {
-    "hash": "sha256-uiiC21WmQtkB+2JPK2M/X1GlAOteqHe/s6OsGkjNvWA=",
-    "url": "https://github.com/datenschutz-individuell/twofactor_email/releases/download/3.2.0/twofactor_email.tar.gz",
-    "version": "3.2.0",
+    "hash": "sha256-jORToWYRTj5HLmffzuW0toBfnJJWsuCG9LhRDNXDw/8=",
+    "url": "https://github.com/datenschutz-individuell/twofactor_email/releases/download/3.3.0/twofactor_email.tar.gz",
+    "version": "3.3.0",
     "description": "### A Two-Factor-Auth Provider using email\n\nNextcloud supports web logins with a second factor (two-factor authentication,\n2FA). To support a certain type of 2FA, a \"2FA provider\" server app must be\ninstalled. 2FA kicks in after the primary authentication stage (typically\nusername and password) were successful. This provider challenges the user to\nenter a randomly generated authentication code (aka one-time password, OTP,\ndefault: six digits). It sends that code to the user's primary email address\nand expects the user to enter it on an additional second step web login page.\n\n### Installation, activation and usage\n\nAs with any 2FA provider, two-factor email must be installed and enabled by a\nNextcloud server admin. Additionally, the Nextcloud must have a working email\nserver configured.\n\nThe user may set up any of the installed providers or even multiple. This\nprovider uses email to send the code and thus can only be enabled if an email\naddress is set in \"Personal info\". Mind that a user may not be able to log in\nif that email address is invalid (or email server setup of the Nextcloud is\nnot working properly).\n\nAdmins with console access may enable and disable this provider for specified\nusers via \"occ\" command. Admins may also enforce 2FA for all users (or specific\ngroups) via \"Admin Settings\". This is a Nextcloud feature and not specific to\nthis provider. If enforced, users with no 2FA are prompted to enable any\ninstalled provider (if they support that feature). This provider supports it\nsince v3. If the admin installs this provider and enforces 2FA, it should be\nensured that each user does have a valid email address.\n\nMind that, once a user enabled any 2FA provider, they can no longer use their\npassword in applications that don't support the web-based 2FA login flow. For\nsuch applications, the user needs to create and use app passwords (to be found\nat the bottom of \"Personal Settings/Security\").",
     "homepage": "https://github.com/datenschutz-individuell/twofactor_email",
     "licenses": [
@@ -4190,9 +4240,9 @@
     ]
   },
   "worktime": {
-    "hash": "sha256-rOay6XUBG22XTA7oZjvb5CIeszB3kB7RXkT0eqZyIUY=",
-    "url": "https://github.com/cpcMomentum/worktime/releases/download/v0.14.0/worktime-v0.14.0.tar.gz",
-    "version": "0.14.0",
+    "hash": "sha256-cvDeaRVb7pMV4DvspVb+0b++Bki/zv+yUfOKmVOIe4k=",
+    "url": "https://github.com/cpcMomentum/worktime/releases/download/v0.15.0/worktime-v0.15.0.tar.gz",
+    "version": "0.15.0",
     "description": "# WorkTime - Arbeitszeiterfassung für Nextcloud\n\nGesetzeskonforme Arbeitszeiterfassung für kleine Unternehmen in Deutschland.\n\n## Erfassung & Berechnung\n\n- **Zeiterfassung** mit Start, Ende und Pause\n- **Automatische Pausenberechnung** nach §4 ArbZG\n- **Überstundenkonto** mit Soll/Ist-Vergleich und Eintrittsdatum-Berücksichtigung\n- **Projektbezogene Erfassung** für bessere Auswertung\n- **Deutsche Feiertage** automatisch nach Bundesland\n\n## Urlaub & Abwesenheiten\n\n- **Urlaubsverwaltung** mit Quoten-Validierung und Resturlaub-Anzeige\n- **Abwesenheiten**: Urlaub, Krankheit, Sonderurlaub, Freizeitausgleich\n- **Jahresübertrag** für Überstunden und Resturlaub vom Vorjahr — automatisch und manuell korrigierbar\n\n## Reporting & Team\n\n- **Monatsübersicht** mit PDF-Export\n- **Team-Übersicht** für Vorgesetzte und HR-Manager\n- **Jahresübersicht** mit allen Mitarbeitern und Übertragswerten\n- **Audit-Log** für vollständiges Änderungsprotokoll (Admin/HR)\n\n## Workflow & Genehmigung\n\n- **Rollenbasierte Berechtigungen** (Admin, HR-Manager, Supervisor, Employee)\n- **Genehmigungsworkflow** für Abwesenheiten mit eingebetteter Zeitanzeige\n- **Kontextuelle Hilfe** mit Info-Icons an allen relevanten Stellen\n\n## Internationalisierung\n\n- **Mehrsprachig**: Deutsch und Englisch\n\nBehalten Sie den Überblick über Arbeitszeiten, Überstunden und Urlaub.",
     "homepage": "",
     "licenses": [
