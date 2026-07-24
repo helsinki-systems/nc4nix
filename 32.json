@@ -550,9 +550,9 @@
     ]
   },
   "contractmanager": {
-    "hash": "sha256-KIqGTKFYz2WBN2P6QdW7DopGe04EqtgwpVqSvyBW36Q=",
-    "url": "https://github.com/cpcMomentum/contractmanager/releases/download/v1.2.5/contractmanager-v1.2.5.tar.gz",
-    "version": "1.2.5",
+    "hash": "sha256-0DnPVMCgLRYkdry+LwFSA8WhCs1tTuxJgZGqhsyc7EI=",
+    "url": "https://github.com/cpcMomentum/contractmanager/releases/download/v1.2.6/contractmanager-v1.2.6.tar.gz",
+    "version": "1.2.6",
     "description": "# Verträge\n\nVerwalten Sie Ihre Verträge zentral in Nextcloud:\n\n- **Vertragsübersicht** mit allen wichtigen Daten\n- **Automatische Erinnerungen** vor Kündigungsfristen\n- **Kategorien** zur Organisation\n- **Archiv** für beendete Verträge\n- **Dateianhänge** aus Nextcloud Files\n\nBehalten Sie den Überblick über Laufzeiten, Kosten und Kündigungsfristen.",
     "homepage": "",
     "licenses": [
@@ -600,8 +600,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-7MXvmpxaji23Dr3xDVMDPTv32z60krjYR8vUlda/vUE=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/14567082190/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-6p0Ivbt8QkfguWXWCMVhKXlyClmHhttaytgmZCucpuc=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/14547147483/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.12",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -2540,9 +2540,9 @@
     ]
   },
   "ncc_backend_4mc": {
-    "hash": "sha256-Eg4H4KvtDY2p9kuPJKui3pGpcb7AsI0n3JAmFpBqwL0=",
-    "url": "https://github.com/nc-connector/Server_Backend/releases/download/v1.2.2/ncc_backend_4mc-1.2.2.tar.gz",
-    "version": "1.2.2",
+    "hash": "sha256-rkZ7EHdGEIiRH1aJn4g7GAICf4GidA3wroBc+zFL09Y=",
+    "url": "https://github.com/nc-connector/Server_Backend/releases/download/v1.3.0/ncc_backend_4mc-1.3.0.tar.gz",
+    "version": "1.3.0",
     "description": "# NC Connector for mail integration\n\nNC Connector Backend is the central policy and template app for NC Connector mail add-ons.\n\nThe Thunderbird and Outlook Classic add-ons can run without this backend. This app adds central policy control, Seat assignment, managed email signatures, custom templates and password delivery rules for organizations.\n\n## What the backend adds\n\n- Central Share, Talk and email-signature policies for Thunderbird and Outlook Classic\n- Seat assignment for Nextcloud users\n- Group and user overrides for teams with different rules\n- Managed HTML templates for Share blocks, password mails, Talk invitations and email signatures\n- Separate password delivery as plaintext mail or Nextcloud Secret Link\n- Optional Secrets app integration for expiring password links\n- Setup diagnostics for mail clients when backend access is not available\n\n## Share policies\n\nAdmins can define default share folders, share names, permissions, password behavior and expiry days.\n\nLarge attachments can be routed into Nextcloud based on central rules. The mail clients insert clean Share blocks with link, password information, rights and expiry date.\n\n## Password delivery\n\nSeparate password delivery can use two modes:\n\n- Plaintext: send the password in a separate follow-up mail\n- Nextcloud Secret Link: send an expiring Secrets link instead of the raw password\n\nIf the Nextcloud Secrets app is missing or disabled, clients fall back to the existing plaintext password mail behavior.\n\n## Email signatures\n\nThe backend can provide one central HTML signature template for Thunderbird and Outlook Classic.\n\nSignature values can come from Nextcloud user profiles and per-user override fields. Empty placeholders remove their surrounding line or table row before the signature is sent to the mail client.\n\n## Talk meetings\n\nAdmins can define Talk defaults for calendar-based meeting creation, including room type, lobby, visibility, password behavior and invitation templates.\n\n## When this backend is useful\n\nUse this backend when an organization needs central defaults, locked settings, Seat assignment, managed templates, managed signatures or password delivery rules.\n\nSingle users can still use the mail add-ons without this backend.\n\n## Mail clients\n\n- Thunderbird: [https://addons.thunderbird.net/thunderbird/addon/nc4tb/](https://addons.thunderbird.net/thunderbird/addon/nc4tb/)\n- Outlook Classic: [https://github.com/nc-connector/NC_Connector_for_Outlook/releases/latest](https://github.com/nc-connector/NC_Connector_for_Outlook/releases/latest)\n\n## More information\n\n- Homepage: [https://nc-connector.de](https://nc-connector.de)\n- Contact: [https://nc-connector.de/kontakt/](https://nc-connector.de/kontakt/)",
     "homepage": "https://nc-connector.de",
     "licenses": [
@@ -2639,6 +2639,16 @@
       "agpl"
     ]
   },
+  "noteberg": {
+    "hash": "sha256-Q90zIAKB37iag2BEAYGa7e54aMZFBed/fN8lxaUd6Uk=",
+    "url": "https://github.com/thomasleuthold/NoteBerg/releases/download/0.5.37/noteberg_nextcloud-0.5.37.tar.gz",
+    "version": "0.5.37",
+    "description": "NoteBerg is a note-taking app combining handwriting, rich text, and Nextcloud sync.\n\n## Features\n\n### Handwriting & Drawing\n- Handwriting input with active stylus and pressure sensitivity\n- Pen tool with customizable colors, marker/highlighter tool\n- Lasso selection — move, resize, rotate, copy selected strokes\n- Eraser tool, unlimited undo/redo\n- Mark handwritten notes as tasks\n\n### Text Editing\n- Rich text editor (WYSIWYG) with formatting, tables, colors, and font sizes\n- Automatic mode switching between drawing and text editing\n- Task checkboxes inline with notes\n\n### Media & Import/Export\n- PDF import — annotate PDFs with pen and text\n- Image insertion with cropping and perspective correction\n- PDF export with automatic A4 pagination\n\n### Organization\n- Notebooks for hierarchical organization\n- Note overview with thumbnail previews\n- Full-text search across handwriting and typed text\n- Markers tab — browse task markers across all notes\n- Recycle bin with soft delete and permanent deletion\n\n### Sync & Storage\n- Offline-first — all data stored locally in IndexedDB\n- Nextcloud sync via WebDAV with conflict resolution\n\n### UI\n- Dark mode / light mode with system preference detection\n- Background patterns — ruled lines and grid\n- Internationalization — English, German, Spanish, French, Italian, Japanese, Korean, Portuguese, Chinese\n\n### Data & Privacy\n- All note data is stored exclusively on your own Nextcloud server — no third-party services or telemetry\n- Note: uninstalling this app does not delete your note data from the server. Your notes remain in the /NoteBerg/ WebDAV folder and can be re-accessed by reinstalling the app. This is intentional — your data may also have been synced there by the NoteBerg desktop or mobile app.\n\n### Also available on other platforms\n- Android: native app via Google Play open testing: https://play.google.com/store/apps/details?id=eu.noteberg.app\n- Windows: desktop installer from GitHub Releases: https://github.com/thomasleuthold/NoteBerg/releases (unsigned build; Windows may warn about an unknown publisher)",
+    "homepage": "",
+    "licenses": [
+      "MIT"
+    ]
+  },
   "notes": {
     "hash": "sha256-G/npepK65ZAaF8k2ZsSsDzbd/mjGnKpdI2ixi+avf9w=",
     "url": "https://github.com/nextcloud-releases/notes/releases/download/v5.0.2/notes-v5.0.2.tar.gz",
@@ -2650,9 +2660,9 @@
     ]
   },
   "notify_push": {
-    "hash": "sha256-wM2avacA0p1n+3uAP54ACHXbdYrFx2HyNc16Rg+bZrI=",
-    "url": "https://github.com/nextcloud-releases/notify_push/releases/download/v1.3.4/notify_push-v1.3.4.tar.gz",
-    "version": "1.3.4",
+    "hash": "sha256-jyO9TDVc/xUnpUww3GaOY1I5x+rokAxt5FJtMrq1SAY=",
+    "url": "https://github.com/nextcloud-releases/notify_push/releases/download/v1.3.5/notify_push-v1.3.5.tar.gz",
+    "version": "1.3.5",
     "description": "Push update support for desktop app.\n\nOnce the app is installed, the push binary needs to be setup. You can either use the setup wizard with `occ notify_push:setup` or see the [README](http://github.com/nextcloud/notify_push) for detailed setup instructions",
     "homepage": "",
     "licenses": [
@@ -3130,9 +3140,9 @@
     ]
   },
   "regibase": {
-    "hash": "sha256-nsyVv4oLUl4b+4llFJZqqsmOk6ypOHVYVzdDTkS3Skg=",
-    "url": "https://github.com/ktec-nc-apps/RegiBase/releases/download/v0.12.12/regibase-0.12.12.tar.gz",
-    "version": "0.12.12",
+    "hash": "sha256-iaa86jIDj8QTtOah7uZMTit4brxEGkebvB2BAvJXO+U=",
+    "url": "https://github.com/ktec-nc-apps/RegiBase/releases/download/v0.12.14/regibase-0.12.14.tar.gz",
+    "version": "0.12.14",
     "description": "RegiBase is a lightweight personal database for the information you want to keep — credit cards, bank accounts, online accounts, memberships, licenses, contacts and anything else.\n\nDesign your own fields (or start from a template), then browse records as a list, detailed list, spreadsheet-style table (with a frozen first column), cards, or an image gallery.\n\nFeatures:\n- Custom form fields with per-field input rules, built from reusable templates\n- Save your own templates, and edit the built-in ones (per-user override, resettable to default)\n- Duplicate a collection — optionally including all of its records\n- Share a collection with other Nextcloud users at three levels (view / edit / delete), with an optional access password and optional secret-field sharing\n- Optional client-side encryption (AES-GCM) for secret fields — the server never sees the key or the plaintext\n- Nextcloud Tables integration: import a table into a new collection, or export a collection to a new Tables table\n- Import from CSV / JSON (e.g. Google Password Manager), or from your Nextcloud Contacts (including photos)\n- Attach images and files from Nextcloud Files or Notes\n- Move / copy / merge records between collections\n- Password-protected full backup & restore (AES-256 ZIP)\n- Read-only command-line access via occ (list / get / export / find), with opt-in secret decryption\n- Available in 12 languages",
     "homepage": "https://github.com/ktec-nc-apps/RegiBase",
     "licenses": [
@@ -3320,9 +3330,9 @@
     ]
   },
   "secrets": {
-    "hash": "sha256-eHvwI7NnWNHLdHYuNRaF0Izp8iIIn/Z/8DdALIqVdgY=",
-    "url": "https://github.com/theCalcaholic/nextcloud-secrets/releases/download/v3.0.4-rc1/secrets.tar.gz",
-    "version": "3.0.4",
+    "hash": "sha256-COaItXpvV8NWJgxxXpDU8Y2j6kTfv2oMZxZKhPFEaFY=",
+    "url": "https://github.com/theCalcaholic/nextcloud-secrets/releases/download/v3.0.5/secrets.tar.gz",
+    "version": "3.0.5",
     "description": "Secrets allows users to generate share links for text based data (e.g. passwords, CSV lists, bank accounts...) that can be sent to anyone (including receivers without a Nextcloud account) for retrieval. The data itself will be end-to-end encrypted (so not even Nextcloud can access it) and the encryption key will be part of the share link (the anchor part) - but never be actually sent to the server. Once retrieved, the secret will be deleted from the server, ensuring, that if it arrived at the correct receiver it has been seen by nobody else.\n\nSecrets now comes with a cli that can be used to automate the provisioning of secret shares: https://github.com/theCalcaholic/nextcloud-secrets/releases",
     "homepage": "",
     "licenses": [
@@ -3640,9 +3650,9 @@
     ]
   },
   "spiresearch": {
-    "hash": "sha256-GknQXncjtPdhH66f9Xq7mcZO3kzUepv4LUmmLvCylE0=",
-    "url": "https://gitlab.com/api/v4/projects/76392015/packages/generic/spiresearch/1.3.1/spiresearch-1.3.1.tar.gz",
-    "version": "1.3.1",
+    "hash": "sha256-TxGAxhsGa9T3hCU+fu+DEAzosMM2SbzxY/Jl0Av3O1I=",
+    "url": "https://gitlab.com/api/v4/projects/76392015/packages/generic/spiresearch/1.4.0/spiresearch-1.4.0.tar.gz",
+    "version": "1.4.0",
     "description": "Add semantic search provided by Spire SE, a semantic search engine currently in development.\n\t\tContact at info+app@spire-se.eu",
     "homepage": "",
     "licenses": [
@@ -3650,9 +3660,9 @@
     ]
   },
   "spreed": {
-    "hash": "sha256-Px8WFUNSRRWMcR/keUhoss7sjOUfXB9IAKdFKPzuSqs=",
-    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v22.0.15/spreed-v22.0.15.tar.gz",
-    "version": "22.0.15",
+    "hash": "sha256-bYTR4bv0BoNB9syzXRuRYB2TXNqD7shTWrhAd2csVtU=",
+    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v22.0.16/spreed-v22.0.16.tar.gz",
+    "version": "22.0.16",
     "description": "Chat, video & audio-conferencing using WebRTC\n\n* 💬 **Chat** Nextcloud Talk comes with a simple text chat, allowing you to share or upload files from your Nextcloud Files app or local device and mention other participants.\n* 👥 **Private, group, public and password protected calls!** Invite someone, a whole group or send a public link to invite to a call.\n* 🌐 **Federated chats** Chat with other Nextcloud users on their servers\n* 💻 **Screen sharing!** Share your screen with the participants of your call.\n* 🚀 **Integration with other Nextcloud apps** like Files, Calendar, User status, Dashboard, Flow, Maps, Smart picker, Contacts, Deck, and many more.\n* 🌉 **Sync with other chat solutions** With [Matterbridge](https://github.com/42wim/matterbridge/) being integrated in Talk, you can easily sync a lot of other chat solutions to Nextcloud Talk and vice-versa.",
     "homepage": "https://github.com/nextcloud/spreed",
     "licenses": [
@@ -3750,9 +3760,9 @@
     ]
   },
   "text_templates": {
-    "hash": "sha256-P7xBiT0Tli+ClqeLX2j1myXjkv03cHhSiF+/m2k2COI=",
-    "url": "https://github.com/nextcloud-releases/text_templates/releases/download/v1.4.0/text_templates-v1.4.0.tar.gz",
-    "version": "1.4.0",
+    "hash": "sha256-v/323ud0mXm6XdTZ7Kinp7B5PaZnx7OhSxRZ/M0M0yc=",
+    "url": "https://github.com/nextcloud-releases/text_templates/releases/download/v1.5.0/text_templates-v1.5.0.tar.gz",
+    "version": "1.5.0",
     "description": "This app adds a smart picker provider to quickly access text templates when using Text, Collectives, Talk, Mail\nor any place where the smart picker is integrated.",
     "homepage": "https://github.com/julien-nc/text_templates",
     "licenses": [
@@ -3760,9 +3770,9 @@
     ]
   },
   "theming_customcss": {
-    "hash": "sha256-Fgu31s+K4MFUgvNe9mAVHi9C0iJnv40v1onUMk+lFZk=",
-    "url": "https://github.com/nextcloud/theming_customcss/releases/download/v1.20.0/theming_customcss.tar.gz",
-    "version": "1.20.0",
+    "hash": "sha256-gJcQJv0tD7lykS+26cLr5zlujJjajNqITWmTv0ki2T0=",
+    "url": "https://github.com/nextcloud-releases/theming_customcss/releases/download/v1.21.0/theming_customcss-v1.21.0.tar.gz",
+    "version": "1.21.0",
     "description": "This app allows admins to customize the appearance of their Nextcloud instance by adding their own CSS rules.\n\nThe rules can be added in the admin settings in the \"Theming\" section. This allows you to easily adjust the look and feel of your Nextcloud instance without having to modify any files on the server.",
     "homepage": "",
     "licenses": [
@@ -4110,9 +4120,9 @@
     ]
   },
   "vapor": {
-    "hash": "sha256-Hs8Ik09DCQluCeG3EcEU5WBTtTu/XCUmtWb8n6dIVRc=",
-    "url": "https://github.com/wolfravenous/vapor/releases/download/v1.0.2/vapor.tar.gz",
-    "version": "1.0.2",
+    "hash": "sha256-MdI4cYvCmgZqUkGzywxsjUcyywWTGQmOkNwWOqA9xpk=",
+    "url": "https://github.com/wolfravenous/vapor/releases/download/v1.0.3/vapor.tar.gz",
+    "version": "1.0.3",
     "description": "Search for torrents within the app from multiple BT sites;\nControl Aria2 and manage download tasks from the web;\nDownload videos from 700+ video sites (youtube,youku,vimo,dailymotion,twitter,facebook and the likes).",
     "homepage": "https://github.com/wolfravenous/vapor",
     "licenses": [

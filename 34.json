@@ -110,9 +110,9 @@
     ]
   },
   "approval": {
-    "hash": "sha256-oRISepRVrlqrziaTTUb3M9MU1asM0CwjCCXX84FBtAw=",
-    "url": "https://github.com/nextcloud-releases/approval/releases/download/v3.3.0/approval-v3.3.0.tar.gz",
-    "version": "3.3.0",
+    "hash": "sha256-0iRul65XKdHdBYm9hukdCrha2IXiigGJFphJ4T+kaPk=",
+    "url": "https://github.com/nextcloud-releases/approval/releases/download/v3.3.1/approval-v3.3.1.tar.gz",
+    "version": "3.3.1",
     "description": "Approve/reject files based on workflows defined by admins.\n\n**Warning**: The DocuSign integration is no longer part of this app\nand can be installed with [this app](https://apps.nextcloud.com/apps/integration_docusign).",
     "homepage": "https://github.com/nextcloud/approval",
     "licenses": [
@@ -450,9 +450,9 @@
     ]
   },
   "contractmanager": {
-    "hash": "sha256-KIqGTKFYz2WBN2P6QdW7DopGe04EqtgwpVqSvyBW36Q=",
-    "url": "https://github.com/cpcMomentum/contractmanager/releases/download/v1.2.5/contractmanager-v1.2.5.tar.gz",
-    "version": "1.2.5",
+    "hash": "sha256-0DnPVMCgLRYkdry+LwFSA8WhCs1tTuxJgZGqhsyc7EI=",
+    "url": "https://github.com/cpcMomentum/contractmanager/releases/download/v1.2.6/contractmanager-v1.2.6.tar.gz",
+    "version": "1.2.6",
     "description": "# Verträge\n\nVerwalten Sie Ihre Verträge zentral in Nextcloud:\n\n- **Vertragsübersicht** mit allen wichtigen Daten\n- **Automatische Erinnerungen** vor Kündigungsfristen\n- **Kategorien** zur Organisation\n- **Archiv** für beendete Verträge\n- **Dateianhänge** aus Nextcloud Files\n\nBehalten Sie den Überblick über Laufzeiten, Kosten und Kündigungsfristen.",
     "homepage": "",
     "licenses": [
@@ -1010,10 +1010,10 @@
     ]
   },
   "fileviewer": {
-    "hash": "sha256-+/Xpnc6SjLbXFxuUPo3RIunEEfk+d61RsiHKJpY1mP8=",
-    "url": "https://github.com/devnoname120/nextcloud-file-viewer/releases/download/v0.4.0/fileviewer-0.4.0.tar.gz",
-    "version": "0.4.0",
-    "description": "# Universal File Viewer\n\nUniversal File Viewer is a Nextcloud app that registers [Flyfish File Viewer](https://github.com/flyfish-dev/file-viewer) as a handler for\nthe 200+ file types supported by Flyfish.\n\nThe app renders files in a sandboxed iframe. The parent Nextcloud Viewer component\nfetches the selected file with the authenticated Viewer URL and transfers the file\nBlob over a document-bound `MessageChannel`. The default sandbox intentionally does\nnot include `allow-same-origin`. EPUB files use a two-stage bootstrap that commits\nthe renderer to an opaque `blob:null` document before any file bytes are transferred.\nThe renderer cannot read the parent Nextcloud document, while EPUB chapter content\nstays in a nested iframe that allows its own origin but deliberately does not allow\nscripts.\n\n## Supported Formats\n\nUniversal File Viewer uses [Flyfish Viewer](https://github.com/flyfish-dev/file-viewer) and thus supports 200+ formats:\n[supported formats](https://github.com/flyfish-dev/file-viewer/blob/main/README.en.md#supported-formats)\nmatrix.\n\n| Category | Extensions |\n| --- | --- |\n| Word | `docx`, `docm`, `dotx`, `dotm` |\n| Legacy Word | `doc`, `dot` |\n| Compatible documents | `rtf`, `odt` |\n| Excel | `xlsx`, `xltx` |\n| Excel-compatible | `xlsm`, `xlsb`, `xls`, `xlt`, `xltm`, `csv`, `ods`, `fods`, `numbers` |\n| PowerPoint | `pptx`, `pptm`, `potx`, `potm`, `ppsx`, `ppsm`, `odp` |\n| PDF | `pdf` |\n| OFD | `ofd` |\n| Typst | `typ`, `typst` |\n| Archives | `zip`, `zipx`, `7z`, `rar`, `tar`, `gz`, `tgz`, `bz2`, `xz`, `zst`, `cab`, `iso`, `jar`, `apk`, `cbz`, `cbr`, and more |\n| Email | `eml`, `msg`, `mbox` |\n| EDA | `olb`, `dra`, `gds`, `oas`, `oasis` |\n| CAD | `dwg`, `dxf`, `dwf`, `dwfx`, `xps` |\n| Geospatial data | `geojson`, `kml`, `gpx`, `shp` |\n| 3D models | `glb`, `gltf`, `obj`, `stl`, `ply`, `fbx`, `dae`, `3ds`, `3mf`, `amf`, `usd`, `usda`, `usdc`, `usdz`, `kmz`, `pcd`, `wrl`, `vrml`, `xyz`, `vtk`, `vtp`, `step`, `stp`, `iges`, `igs`, `ifc`, `3dm` |\n| XMind mind maps | `xmind` |\n| Excalidraw | `excalidraw` |\n| draw.io | `drawio`, `dio` |\n| Mermaid | `mermaid`, `mmd` |\n| PlantUML | `plantuml`, `puml` |\n| EPUB | `epub` |\n| UMD ebook | `umd` |\n| Markdown | `md`, `markdown` |\n| Images | `gif`, `jpg`, `jpeg`, `bmp`, `tiff`, `tif`, `png`, `svg`, `webp`, `avif`, `ico`, `heic`, `heif`, `jxl` |\n| Source and text | `txt`, `json`, `jsonc`, `json5`, `ipynb`, `js`, `mjs`, `cjs`, `css`, `java`, `py`, `html`, `htm`, `jsx`, `ts`, `tsx`, `xml`, `log`, `vue`, `yaml`, `yml`, `toml`, `ini`, `proto`, `hcl`, `tex`, `gv`, `http`, `sh`, `bash`, `sql`, `go`, `rs`, `rb`, `swift`, `kt`, `react`, `php`, `c`, `cpp`, `cc`, `h`, `hpp`, `cs`, `diff`, `patch`, `bundle`, `bdl` |\n| Audio | `mp3`, `mpeg`, `wav`, `ogg`, `oga`, `opus`, `m4a`, `aac`, `flac`, `weba`, `midi`, `mid` |\n| Video | `mp4`, `webm`, `m3u8` |\n| Fonts, design assets, and data | `ttf`, `otf`, `woff`, `woff2`, `psd`, `ai`, `eps`, `sqlite`, `wasm`, `parquet`, `avro`, `webarchive` |\n\n## File format settings\n\nThe administration page exposes human-readable format groups such as JPEG (`.jpg`,\n`.jpeg`), Markdown (`.md`, `.markdown`), and EPUB (`.epub`). It does not expose raw\nMIME type strings.\n\nUniversal File Viewer keeps Flyfish's supported-extension inventory, then resolves\nthose extensions through Nextcloud's effective extension-to-MIME mapping using\n`OCP\\Files\\IMimeTypeDetector::getAllMappings()`. During installation, upgrades, and\nre-enabling, the app adds fallback mappings for supported extensions that are absent\nfrom both Nextcloud core and the administrator's `mimetypemapping.json`.\nAdministrator entries always win. The app tracks its exact additions, yields when\nNextcloud later gains a core mapping, and removes only unchanged app-owned entries during uninstall. The\nresulting deduplicated MIME types are used internally when registering the Viewer\nhandler.\n\nWhen several supported extensions resolve to the same MIME type, Nextcloud Viewer\ncannot dispatch them independently. The settings page therefore combines them into\none option and lists every affected extension. Shared aliases keep their format name,\nsuch as JPEG, while distinct formats use an explicit label such as `DOC/DOT`. Saved\npreferences use stable app-specific format identifiers; existing `disabled_mimes`\npreferences are migrated against the current Nextcloud mapping.\n\n## Sandbox\n\nThe default sandbox is:\n\n```text\nallow-scripts allow-downloads allow-forms allow-modals allow-popups allow-presentation\n```\n\nFor `.epub` files, an HTTP bootstrap starts with the stricter `allow-scripts`\nsandbox and creates the final renderer Blob from a fixed application template. The\nparent briefly grants `allow-same-origin` only while that already-opaque bootstrap\nnavigates to its `blob:null` URL. A small renderer gate establishes a\ndocument-bound `MessageChannel`; the parent then restores the strict sandbox before\nloading Flyfish or transferring the EPUB. The gate probes whether the browser can\nstill create the readable nested chapter iframe EPUB.js requires. Chromium and\nFirefox pass this probe. Current WebKit/Safari fails closed with an explanatory\nerror instead of retaining an outer sandbox configuration that could become\nsame-origin after a later navigation.\n\nFlyfish and EPUB.js render untrusted chapter content in a nested iframe whose\nsandbox contains `allow-same-origin` but not `allow-scripts`, so chapter scripts and\nevent handlers cannot run. The outer renderer remains opaque and cannot read the\nparent Nextcloud document. Once its final load is confirmed over the bound channel,\nany later outer-frame navigation disconnects and removes the viewer. The browser\ntest suite checks the origin boundary, publisher styling, script isolation,\nfail-closed behavior, and unexpected-navigation handling; Flyfish and EPUB.js\nupgrades should be treated as security-sensitive changes.\n\nOther file types keep the configured outer sandbox unchanged. Switching across the\nEPUB boundary closes the old channel, rotates its token, and replaces the iframe so\nthe browser applies the new origin policy to a fresh document.\n\nParser workers do not run in the parent Nextcloud page. For PDF, DOCX-family,\nPPTX-family, DWG, and spreadsheet files of at least 1 MiB, the frame fetches the\nexact configured bundled worker without credentials, creates a frame-owned `blob:`\nURL, and starts the worker from inside the sandbox. Under the default sandbox these\nworkers have the opaque `null` origin. Libarchive formats use the same frame-owned\n`blob:` isolation model. Smaller spreadsheet files parse on the iframe's main\nthread, which is also sandboxed.\n\nThe only default-page CSP additions are `frame-src 'self' blob:`, and they are added\nonly to responses that dispatch Nextcloud's Viewer-loading event. The app does not\nadd instance-wide worker, connection, WebAssembly-eval, style, image, font, or media\nallowances. The direct iframe response has its own scoped CSP for local assets,\nframe-owned `blob:` workers, renderer-required evaluation and WebAssembly, and the\nconfigured geospatial tile origin. The EPUB bootstrap uses a separate, narrower CSP\nwithout geospatial origins.\n\nIf a deployment needs to trade isolation for non-EPUB compatibility with specific\nbrowser worker or WASM behavior, administrators can override the general sandbox.\nEPUB always uses the hardened bootstrap and does not fall back to a same-origin\nNextcloud document:\n\n```bash\nocc config:app:set fileviewer sandbox --value=\"allow-scripts allow-same-origin allow-downloads allow-forms allow-modals allow-popups allow-presentation\"\n```",
+    "hash": "sha256-RvIeDc//tBMoy2TsNVvpmuBX4dkr/FJ9VyPl/zbCNco=",
+    "url": "https://github.com/devnoname120/nextcloud-file-viewer/releases/download/v0.5.0/fileviewer-0.5.0.tar.gz",
+    "version": "0.5.0",
+    "description": "# Universal File Viewer\n\nUniversal File Viewer is a Nextcloud app that registers [Flyfish File Viewer](https://github.com/flyfish-dev/file-viewer) as a handler for\nthe 200+ file types supported by Flyfish.\n\nThe app renders files in a sandboxed iframe. The parent Nextcloud Viewer component\nfetches the selected file with the authenticated Viewer URL and transfers the file\nBlob over a document-bound `MessageChannel`. The default sandbox intentionally does\nnot include `allow-same-origin`. EPUB files use a two-stage bootstrap that commits\nthe renderer to an opaque `blob:null` document before any file bytes are transferred.\nThe renderer cannot read the parent Nextcloud document, while EPUB chapter content\nstays in a nested iframe that allows its own origin but deliberately does not allow\nscripts.\n\n## Supported Formats\n\nUniversal File Viewer uses [Flyfish Viewer](https://github.com/flyfish-dev/file-viewer) and thus supports 200+ formats:\n[supported formats](https://github.com/flyfish-dev/file-viewer/blob/main/README.en.md#supported-formats)\nmatrix.\n\n| Category | Extensions |\n| --- | --- |\n| Word | `docx`, `docm`, `dotx`, `dotm` |\n| Legacy Word | `doc`, `dot` |\n| Compatible documents | `rtf`, `odt` |\n| Excel | `xlsx`, `xltx` |\n| Excel-compatible | `xlsm`, `xlsb`, `xls`, `xlt`, `xltm`, `csv`, `tsv`, `ods`, `fods`, `numbers` |\n| PowerPoint | `ppt`, `pptx`, `pptm`, `potx`, `potm`, `ppsx`, `ppsm`, `odp` |\n| PDF | `pdf` |\n| OFD | `ofd` |\n| Typst | `typ`, `typst` |\n| Archives | `zip`, `zipx`, `7z`, `rar`, `tar`, `gz`, `tgz`, `bz2`, `xz`, `zst`, `cab`, `iso`, `jar`, `apk`, `cbz`, `cbr`, and more |\n| Email | `eml`, `msg`, `mbox` |\n| EDA | `olb`, `dra`, `gds`, `oas`, `oasis` |\n| CAD | `dwg`, `dxf`, `dwf`, `dwfx`, `xps` |\n| Geospatial data | `geojson`, `kml`, `gpx`, `shp` |\n| 3D models | `glb`, `gltf`, `obj`, `stl`, `ply`, `fbx`, `dae`, `3ds`, `3mf`, `amf`, `usd`, `usda`, `usdc`, `usdz`, `kmz`, `pcd`, `wrl`, `vrml`, `xyz`, `vtk`, `vtp`, `step`, `stp`, `iges`, `igs`, `ifc`, `3dm` |\n| XMind mind maps | `xmind` |\n| Excalidraw | `excalidraw` |\n| draw.io | `drawio`, `dio` |\n| Mermaid | `mermaid`, `mmd` |\n| PlantUML | `plantuml`, `puml` |\n| EPUB | `epub` |\n| UMD ebook | `umd` |\n| Markdown | `md`, `markdown` |\n| Images | `gif`, `jpg`, `jpeg`, `bmp`, `tiff`, `tif`, `png`, `svg`, `webp`, `avif`, `ico`, `heic`, `heif`, `jxl` |\n| Source and text | `txt`, `json`, `jsonc`, `json5`, `ipynb`, `js`, `mjs`, `cjs`, `css`, `java`, `py`, `html`, `htm`, `jsx`, `ts`, `tsx`, `xml`, `log`, `vue`, `yaml`, `yml`, `toml`, `ini`, `proto`, `hcl`, `tex`, `gv`, `http`, `sh`, `bash`, `sql`, `go`, `rs`, `rb`, `swift`, `kt`, `react`, `php`, `c`, `cpp`, `cc`, `h`, `hpp`, `cs`, `diff`, `patch`, `bundle`, `bdl` |\n| Audio | `mp3`, `mpeg`, `wav`, `ogg`, `oga`, `opus`, `m4a`, `aac`, `flac`, `weba`, `midi`, `mid` |\n| Video | `mp4`, `webm`, `m3u8` |\n| Fonts, design assets, and data | `ttf`, `otf`, `woff`, `woff2`, `psd`, `ai`, `eps`, `sqlite`, `wasm`, `parquet`, `avro`, `webarchive` |\n\n## File format settings\n\nThe administration page exposes human-readable format groups such as JPEG (`.jpg`,\n`.jpeg`), Markdown (`.md`, `.markdown`), and EPUB (`.epub`). It does not expose raw\nMIME type strings.\n\nUniversal File Viewer keeps Flyfish's supported-extension inventory, then resolves\nthose extensions through Nextcloud's effective extension-to-MIME mapping using\n`OCP\\Files\\IMimeTypeDetector::getAllMappings()`. During installation, upgrades, and\nre-enabling, the app adds fallback mappings for supported extensions that are absent\nfrom both Nextcloud core and the administrator's `mimetypemapping.json`.\nAdministrator entries always win. The app tracks its exact additions, yields when\nNextcloud later gains a core mapping, and removes only unchanged app-owned entries during uninstall. The\nresulting deduplicated MIME types are used internally when registering the Viewer\nhandler.\n\nWhen several supported extensions resolve to the same MIME type, Nextcloud Viewer\ncannot dispatch them independently. The settings page therefore combines them into\none option and lists every affected extension. Shared aliases keep their format name,\nsuch as JPEG, while distinct formats use an explicit label such as `DOC/DOT`. Saved\npreferences use stable app-specific format identifiers; existing `disabled_mimes`\npreferences are migrated against the current Nextcloud mapping.\n\n## Sandbox\n\nThe default sandbox is:\n\n```text\nallow-scripts allow-downloads allow-forms allow-modals allow-popups allow-presentation\n```\n\nFor `.epub` files, an HTTP bootstrap starts with the stricter `allow-scripts`\nsandbox and creates the final renderer Blob from a fixed application template. The\nparent briefly grants `allow-same-origin` only while that already-opaque bootstrap\nnavigates to its `blob:null` URL. A small renderer gate establishes a\ndocument-bound `MessageChannel`; the parent then restores the strict sandbox before\nloading Flyfish or transferring the EPUB. The gate probes whether the browser can\nstill create the readable nested chapter iframe EPUB.js requires. Chromium and\nFirefox pass this probe. Current WebKit/Safari fails closed with an explanatory\nerror instead of retaining an outer sandbox configuration that could become\nsame-origin after a later navigation.\n\nFlyfish and EPUB.js render untrusted chapter content in a nested iframe whose\nsandbox contains `allow-same-origin` but not `allow-scripts`, so chapter scripts and\nevent handlers cannot run. The outer renderer remains opaque and cannot read the\nparent Nextcloud document. Once its final load is confirmed over the bound channel,\nany later outer-frame navigation disconnects and removes the viewer. The browser\ntest suite checks the origin boundary, publisher styling, script isolation,\nfail-closed behavior, and unexpected-navigation handling; Flyfish and EPUB.js\nupgrades should be treated as security-sensitive changes.\n\nOther file types keep the configured outer sandbox unchanged. Switching across the\nEPUB boundary closes the old channel, rotates its token, and replaces the iframe so\nthe browser applies the new origin policy to a fresh document.\n\nParser workers do not run in the parent Nextcloud page. For PDF, DOCX-family,\nPPTX-family, DWG, STEP/IGES/BREP, and spreadsheet files of at least 1 MiB, the frame fetches the\nexact configured bundled worker without credentials, creates a frame-owned `blob:`\nURL, and starts the worker from inside the sandbox. Under the default sandbox these\nworkers have the opaque `null` origin. Libarchive formats use the same frame-owned\n`blob:` isolation model. Legacy PPT uses Flyfish's asynchronous direct path because\nits integrity-verifying Worker requires Web Crypto, which Chromium does not expose\nto an opaque `blob:null` Worker. Smaller spreadsheet files and legacy PPT parse on\nthe iframe's main thread, which is also sandboxed.\n\nThe only default-page CSP additions are `frame-src 'self' blob:`, and they are added\nonly to responses that dispatch Nextcloud's Viewer-loading event. The app does not\nadd instance-wide worker, connection, WebAssembly-eval, style, image, font, or media\nallowances. The direct iframe response has its own scoped CSP for local assets,\nframe-owned `blob:` workers, renderer-required evaluation and WebAssembly, and the\nconfigured geospatial tile origin. The EPUB bootstrap uses a separate, narrower CSP\nwithout geospatial origins.\n\nIf a deployment needs to trade isolation for non-EPUB compatibility with specific\nbrowser worker or WASM behavior, administrators can override the general sandbox.\nEPUB always uses the hardened bootstrap and does not fall back to a same-origin\nNextcloud document:\n\n```bash\nocc config:app:set fileviewer sandbox --value=\"allow-scripts allow-same-origin allow-downloads allow-forms allow-modals allow-popups allow-presentation\"\n```",
     "homepage": "https://github.com/devnoname120/nextcloud-file-viewer",
     "licenses": [
       "AGPL-3.0-or-later"
@@ -1160,9 +1160,9 @@
     ]
   },
   "groupfolders": {
-    "hash": "sha256-TsxpVaJJtARyUwRu0h9ZpC1QYZ8Izikk8MgdEPXlUrw=",
-    "url": "https://github.com/nextcloud-releases/groupfolders/releases/download/v22.0.3/groupfolders-v22.0.3.tar.gz",
-    "version": "22.0.3",
+    "hash": "sha256-yTcoP+JAq8SaLme7Aq8Usp4/p/oliQv6AL2cuqraeS8=",
+    "url": "https://github.com/nextcloud-releases/groupfolders/releases/download/v22.0.5/groupfolders-v22.0.5.tar.gz",
+    "version": "22.0.5",
     "description": "Team Folders (formerly \"Group Folders\") allows administrators to create and manage shared\nfolders for selected teams within Nextcloud.\n\nAdmins can grant one or more teams access to a folder, configure permissions (such as read,\nwrite, and sharing rights), and assign storage quotas from the Team Folders section (under\nadmin settings). The app also supports advanced permissions and integration with Nextcloud’s\ntrash and versioning systems.\n\nAs of Hub 10 / Nextcloud 31, admins must be members of a team to assign that team to a Team\nFolder.",
     "homepage": "https://github.com/nextcloud/groupfolders",
     "licenses": [
@@ -1533,8 +1533,8 @@
     "hash": "sha256-QPJiLuLflYOAkNhjRk+D0UxLts6o2JvzAthiWUgwF6w=",
     "url": "https://github.com/nextcloud-releases/integration_pexip/releases/download/v2.0.2/integration_pexip-v2.0.2.tar.gz",
     "version": "2.0.2",
-    "description": "The Pexip integration app implements a Smart Picker provider to create\nPexip meetings and immediately get a meeting link.\n\nMore information in the [project's README](https://github.com/julien-nc/integration_pexip/#readme).",
-    "homepage": "https://github.com/julien-nc/integration_pexip",
+    "description": "The Pexip integration app implements a Smart Picker provider to create\nPexip meetings and immediately get a meeting link.\n\nMore information in the [project's README](https://github.com/nextcloud/integration_pexip/#readme).",
+    "homepage": "https://github.com/nextcloud/integration_pexip",
     "licenses": [
       "agpl"
     ]
@@ -1770,8 +1770,8 @@
     ]
   },
   "libresign": {
-    "hash": "sha256-EBy2jZETSon7ZXOPVrp5RDshkZ3211A9qa29fZ2ST5M=",
-    "url": "https://github.com/LibreSign/libresign/releases/download/v14.1.0/libresign-v14.1.0.tar.gz",
+    "hash": "sha256-HoD8Dj3GauNhTNEzN/cKo4Lt2NYCaZ2yUPgawfMvzE8=",
+    "url": "https://github.com/LibreSign/libresign/releases/download/nightly/libresign-nightly.tar.gz",
     "version": "14.1.0",
     "description": "**LibreSign helps organizations manage document signing inside Nextcloud.**\n\nIt is built for teams that need clear signing rules, traceable actions, and workflows that follow internal processes and legal requirements.\n\n**What LibreSign enables**\n\n- Define signing order and signer roles\n- Support internal and external signers\n- Keep a traceable record of requests and validations\n- Use digital certificates for compliant signing workflows\n- Validate documents using QR codes\n- Work directly with Nextcloud files and users\n- Integrate signing with other systems through APIs\n\n**Support LibreSign**\nIf your organization uses LibreSign, support its development:\n\n[![Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/libresign)\n\nFor enterprise support, contact LibreCode:\nhttps://libresign.coop",
     "homepage": "https://github.com/LibreSign/libresign",
@@ -1960,9 +1960,9 @@
     ]
   },
   "ncc_backend_4mc": {
-    "hash": "sha256-Eg4H4KvtDY2p9kuPJKui3pGpcb7AsI0n3JAmFpBqwL0=",
-    "url": "https://github.com/nc-connector/Server_Backend/releases/download/v1.2.2/ncc_backend_4mc-1.2.2.tar.gz",
-    "version": "1.2.2",
+    "hash": "sha256-rkZ7EHdGEIiRH1aJn4g7GAICf4GidA3wroBc+zFL09Y=",
+    "url": "https://github.com/nc-connector/Server_Backend/releases/download/v1.3.0/ncc_backend_4mc-1.3.0.tar.gz",
+    "version": "1.3.0",
     "description": "# NC Connector for mail integration\n\nNC Connector Backend is the central policy and template app for NC Connector mail add-ons.\n\nThe Thunderbird and Outlook Classic add-ons can run without this backend. This app adds central policy control, Seat assignment, managed email signatures, custom templates and password delivery rules for organizations.\n\n## What the backend adds\n\n- Central Share, Talk and email-signature policies for Thunderbird and Outlook Classic\n- Seat assignment for Nextcloud users\n- Group and user overrides for teams with different rules\n- Managed HTML templates for Share blocks, password mails, Talk invitations and email signatures\n- Separate password delivery as plaintext mail or Nextcloud Secret Link\n- Optional Secrets app integration for expiring password links\n- Setup diagnostics for mail clients when backend access is not available\n\n## Share policies\n\nAdmins can define default share folders, share names, permissions, password behavior and expiry days.\n\nLarge attachments can be routed into Nextcloud based on central rules. The mail clients insert clean Share blocks with link, password information, rights and expiry date.\n\n## Password delivery\n\nSeparate password delivery can use two modes:\n\n- Plaintext: send the password in a separate follow-up mail\n- Nextcloud Secret Link: send an expiring Secrets link instead of the raw password\n\nIf the Nextcloud Secrets app is missing or disabled, clients fall back to the existing plaintext password mail behavior.\n\n## Email signatures\n\nThe backend can provide one central HTML signature template for Thunderbird and Outlook Classic.\n\nSignature values can come from Nextcloud user profiles and per-user override fields. Empty placeholders remove their surrounding line or table row before the signature is sent to the mail client.\n\n## Talk meetings\n\nAdmins can define Talk defaults for calendar-based meeting creation, including room type, lobby, visibility, password behavior and invitation templates.\n\n## When this backend is useful\n\nUse this backend when an organization needs central defaults, locked settings, Seat assignment, managed templates, managed signatures or password delivery rules.\n\nSingle users can still use the mail add-ons without this backend.\n\n## Mail clients\n\n- Thunderbird: [https://addons.thunderbird.net/thunderbird/addon/nc4tb/](https://addons.thunderbird.net/thunderbird/addon/nc4tb/)\n- Outlook Classic: [https://github.com/nc-connector/NC_Connector_for_Outlook/releases/latest](https://github.com/nc-connector/NC_Connector_for_Outlook/releases/latest)\n\n## More information\n\n- Homepage: [https://nc-connector.de](https://nc-connector.de)\n- Contact: [https://nc-connector.de/kontakt/](https://nc-connector.de/kontakt/)",
     "homepage": "https://nc-connector.de",
     "licenses": [
@@ -2019,6 +2019,16 @@
       "AGPL-3.0-only"
     ]
   },
+  "noteberg": {
+    "hash": "sha256-Q90zIAKB37iag2BEAYGa7e54aMZFBed/fN8lxaUd6Uk=",
+    "url": "https://github.com/thomasleuthold/NoteBerg/releases/download/0.5.37/noteberg_nextcloud-0.5.37.tar.gz",
+    "version": "0.5.37",
+    "description": "NoteBerg is a note-taking app combining handwriting, rich text, and Nextcloud sync.\n\n## Features\n\n### Handwriting & Drawing\n- Handwriting input with active stylus and pressure sensitivity\n- Pen tool with customizable colors, marker/highlighter tool\n- Lasso selection — move, resize, rotate, copy selected strokes\n- Eraser tool, unlimited undo/redo\n- Mark handwritten notes as tasks\n\n### Text Editing\n- Rich text editor (WYSIWYG) with formatting, tables, colors, and font sizes\n- Automatic mode switching between drawing and text editing\n- Task checkboxes inline with notes\n\n### Media & Import/Export\n- PDF import — annotate PDFs with pen and text\n- Image insertion with cropping and perspective correction\n- PDF export with automatic A4 pagination\n\n### Organization\n- Notebooks for hierarchical organization\n- Note overview with thumbnail previews\n- Full-text search across handwriting and typed text\n- Markers tab — browse task markers across all notes\n- Recycle bin with soft delete and permanent deletion\n\n### Sync & Storage\n- Offline-first — all data stored locally in IndexedDB\n- Nextcloud sync via WebDAV with conflict resolution\n\n### UI\n- Dark mode / light mode with system preference detection\n- Background patterns — ruled lines and grid\n- Internationalization — English, German, Spanish, French, Italian, Japanese, Korean, Portuguese, Chinese\n\n### Data & Privacy\n- All note data is stored exclusively on your own Nextcloud server — no third-party services or telemetry\n- Note: uninstalling this app does not delete your note data from the server. Your notes remain in the /NoteBerg/ WebDAV folder and can be re-accessed by reinstalling the app. This is intentional — your data may also have been synced there by the NoteBerg desktop or mobile app.\n\n### Also available on other platforms\n- Android: native app via Google Play open testing: https://play.google.com/store/apps/details?id=eu.noteberg.app\n- Windows: desktop installer from GitHub Releases: https://github.com/thomasleuthold/NoteBerg/releases (unsigned build; Windows may warn about an unknown publisher)",
+    "homepage": "",
+    "licenses": [
+      "MIT"
+    ]
+  },
   "notes": {
     "hash": "sha256-/54d/UfkYLSPt8Coi4/zcheZx8mKXW34CIrvFEfYFLI=",
     "url": "https://github.com/nextcloud-releases/notes/releases/download/v6.0.1/notes-v6.0.1.tar.gz",
@@ -2030,9 +2040,9 @@
     ]
   },
   "notify_push": {
-    "hash": "sha256-wM2avacA0p1n+3uAP54ACHXbdYrFx2HyNc16Rg+bZrI=",
-    "url": "https://github.com/nextcloud-releases/notify_push/releases/download/v1.3.4/notify_push-v1.3.4.tar.gz",
-    "version": "1.3.4",
+    "hash": "sha256-jyO9TDVc/xUnpUww3GaOY1I5x+rokAxt5FJtMrq1SAY=",
+    "url": "https://github.com/nextcloud-releases/notify_push/releases/download/v1.3.5/notify_push-v1.3.5.tar.gz",
+    "version": "1.3.5",
     "description": "Push update support for desktop app.\n\nOnce the app is installed, the push binary needs to be setup. You can either use the setup wizard with `occ notify_push:setup` or see the [README](http://github.com/nextcloud/notify_push) for detailed setup instructions",
     "homepage": "",
     "licenses": [
@@ -2250,8 +2260,8 @@
     ]
   },
   "profile_fields": {
-    "hash": "sha256-wi4IcfcuZRhgPIT3wzJQd+m7Icm1fDQDm4t+f1wmR7Q=",
-    "url": "https://github.com/LibreCodeCoop/profile_fields/releases/download/nightly/profile_fields-nightly.tar.gz",
+    "hash": "sha256-rwi3ti8J2nZJlxLfft6DZUAHvfyjPkmdH4qygfZ4lI8=",
+    "url": "https://github.com/LibreCodeCoop/profile_fields/releases/download/v4.0.0/profile_fields-v4.0.0.tar.gz",
     "version": "4.0.0",
     "description": "Profile fields lets organizations extend Nextcloud user profiles with customizable fields, per-field access control, and integration-friendly APIs.\n\nCreate custom fields for support regions, product specialties, escalation aliases, customer segments, internal access levels, and any other organization-specific context that does not belong in the default profile.\n\nEach field is governed by edit and visibility rules so teams can combine self-service updates with admin-managed data, keeping sensitive operational context accurate without losing usability for employees, partners, and support teams.\n\n## Donation\n\nDeveloped with ❤️ by [LibreCode](https://librecode.coop). Ongoing maintenance, bug fixes, and long-term sustainability depend on community support.\n\n* [Sponsor LibreSign on GitHub (monthly recurring support is especially welcome): ![Donate using GitHub Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/LibreSign)",
     "homepage": "https://librecode.coop",
@@ -2410,9 +2420,9 @@
     ]
   },
   "secrets": {
-    "hash": "sha256-eHvwI7NnWNHLdHYuNRaF0Izp8iIIn/Z/8DdALIqVdgY=",
-    "url": "https://github.com/theCalcaholic/nextcloud-secrets/releases/download/v3.0.4-rc1/secrets.tar.gz",
-    "version": "3.0.4",
+    "hash": "sha256-COaItXpvV8NWJgxxXpDU8Y2j6kTfv2oMZxZKhPFEaFY=",
+    "url": "https://github.com/theCalcaholic/nextcloud-secrets/releases/download/v3.0.5/secrets.tar.gz",
+    "version": "3.0.5",
     "description": "Secrets allows users to generate share links for text based data (e.g. passwords, CSV lists, bank accounts...) that can be sent to anyone (including receivers without a Nextcloud account) for retrieval. The data itself will be end-to-end encrypted (so not even Nextcloud can access it) and the encryption key will be part of the share link (the anchor part) - but never be actually sent to the server. Once retrieved, the secret will be deleted from the server, ensuring, that if it arrived at the correct receiver it has been seen by nobody else.\n\nSecrets now comes with a cli that can be used to automate the provisioning of secret shares: https://github.com/theCalcaholic/nextcloud-secrets/releases",
     "homepage": "",
     "licenses": [
@@ -2650,9 +2660,9 @@
     ]
   },
   "spreed": {
-    "hash": "sha256-Mh59Quq8LORxUb2tZsKDxx+zz7HeSl+1lAFrnGf54Wc=",
-    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v24.0.2/spreed-v24.0.2.tar.gz",
-    "version": "24.0.2",
+    "hash": "sha256-YfObmXwsAAXOvTCNzjshQ9k1eLhvD0EQEM3bKtMdH5M=",
+    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v24.0.3/spreed-v24.0.3.tar.gz",
+    "version": "24.0.3",
     "description": "Chat, video & audio-conferencing using WebRTC\n\n* 💬 **Chat** Nextcloud Talk comes with a simple text chat, allowing you to share or upload files from your Nextcloud Files app or local device and mention other participants.\n* 👥 **Private, group, public and password protected calls!** Invite someone, a whole group or send a public link to invite to a call.\n* 🌐 **Federated chats** Chat with other Nextcloud users on their servers\n* 💻 **Screen sharing!** Share your screen with the participants of your call.\n* 🚀 **Integration with other Nextcloud apps** like Files, Calendar, User status, Dashboard, Flow, Maps, Smart picker, Contacts, Deck, and many more.\n* 🌉 **Sync with other chat solutions** With [Matterbridge](https://github.com/42wim/matterbridge/) being integrated in Talk, you can easily sync a lot of other chat solutions to Nextcloud Talk and vice-versa.",
     "homepage": "https://github.com/nextcloud/spreed",
     "licenses": [
@@ -2680,9 +2690,9 @@
     ]
   },
   "tables": {
-    "hash": "sha256-ZAvytGd4S5dMNLbWi2bURaBOZRGNk5F+vjqKmRfYSL0=",
-    "url": "https://github.com/nextcloud-releases/tables/releases/download/v2.2.0/tables-v2.2.0.tar.gz",
-    "version": "2.2.0",
+    "hash": "sha256-C4dCB4TV30L6KmD8oiMsblMibQEF5HbBVrRhCWuerEU=",
+    "url": "https://github.com/nextcloud-releases/tables/releases/download/v2.2.1/tables-v2.2.1.tar.gz",
+    "version": "2.2.1",
     "description": "Manage data the way you need it.\n\nWith this app you are able to create your own tables with individual columns. You can start with a template or from scratch and add your wanted columns.\nYou can choose from the following column types:\n- Text line or rich text\n- Link to urls or other nextcloud resources\n- Numbers\n- Progress bar\n- Stars rating\n- Yes/No tick\n- Date and/or time\n- (Multi) selection\n- Users, groups and teams\n\nShare your tables and views with users and groups within your cloud.\n\nHave a good time and manage whatever you want.",
     "homepage": "https://github.com/nextcloud/tables",
     "licenses": [
@@ -2730,11 +2740,21 @@
     ]
   },
   "text_templates": {
-    "hash": "sha256-P7xBiT0Tli+ClqeLX2j1myXjkv03cHhSiF+/m2k2COI=",
-    "url": "https://github.com/nextcloud-releases/text_templates/releases/download/v1.4.0/text_templates-v1.4.0.tar.gz",
-    "version": "1.4.0",
+    "hash": "sha256-v/323ud0mXm6XdTZ7Kinp7B5PaZnx7OhSxRZ/M0M0yc=",
+    "url": "https://github.com/nextcloud-releases/text_templates/releases/download/v1.5.0/text_templates-v1.5.0.tar.gz",
+    "version": "1.5.0",
     "description": "This app adds a smart picker provider to quickly access text templates when using Text, Collectives, Talk, Mail\nor any place where the smart picker is integrated.",
     "homepage": "https://github.com/julien-nc/text_templates",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "theming_customcss": {
+    "hash": "sha256-gJcQJv0tD7lykS+26cLr5zlujJjajNqITWmTv0ki2T0=",
+    "url": "https://github.com/nextcloud-releases/theming_customcss/releases/download/v1.21.0/theming_customcss-v1.21.0.tar.gz",
+    "version": "1.21.0",
+    "description": "This app allows admins to customize the appearance of their Nextcloud instance by adding their own CSS rules.\n\nThe rules can be added in the admin settings in the \"Theming\" section. This allows you to easily adjust the look and feel of your Nextcloud instance without having to modify any files on the server.",
+    "homepage": "",
     "licenses": [
       "agpl"
     ]
@@ -2990,9 +3010,9 @@
     ]
   },
   "vapor": {
-    "hash": "sha256-Hs8Ik09DCQluCeG3EcEU5WBTtTu/XCUmtWb8n6dIVRc=",
-    "url": "https://github.com/wolfravenous/vapor/releases/download/v1.0.2/vapor.tar.gz",
-    "version": "1.0.2",
+    "hash": "sha256-MdI4cYvCmgZqUkGzywxsjUcyywWTGQmOkNwWOqA9xpk=",
+    "url": "https://github.com/wolfravenous/vapor/releases/download/v1.0.3/vapor.tar.gz",
+    "version": "1.0.3",
     "description": "Search for torrents within the app from multiple BT sites;\nControl Aria2 and manage download tasks from the web;\nDownload videos from 700+ video sites (youtube,youku,vimo,dailymotion,twitter,facebook and the likes).",
     "homepage": "https://github.com/wolfravenous/vapor",
     "licenses": [
