@@ -200,9 +200,9 @@
     ]
   },
   "astrolabe": {
-    "hash": "sha256-o9oJVMZAgIcM87uxXTrKxLLzBsuKVSwmD9ypHD223l8=",
-    "url": "https://github.com/cbcoutinho/astrolabe/releases/download/v0.39.0/astrolabe-0.39.0.tar.gz",
-    "version": "0.39.0",
+    "hash": "sha256-jv+gaAl+FVopvDFdQU/Qjhd+A8pm452LUPy//FibRbw=",
+    "url": "https://github.com/cbcoutinho/astrolabe/releases/download/v0.39.1/astrolabe-0.39.1.tar.gz",
+    "version": "0.39.1",
     "description": "# Astrolabe - Semantic Search for Nextcloud\n\nFind your content by meaning, not just keywords. Astrolabe brings AI-powered semantic search to your Nextcloud, helping you discover documents, notes, calendar events, and files through natural language.\n\n## Features\n\n- **Semantic Search**: Search across Notes, Files, Calendar, Deck, and more using natural language queries\n- **Unified Search Integration**: Results appear in Nextcloud's global search bar alongside traditional results\n- **Background Indexing**: Your content is automatically indexed for instant semantic search\n- **Vector Visualization**: Explore your content in an interactive 2D visualization showing semantic relationships\n- **Hybrid Search**: Combines semantic understanding with keyword matching for best results\n\n## How It Works\n\nAstrolabe connects to a semantic search service that understands the meaning of your content. Instead of exact keyword matches, you can search for concepts - ask \"meeting notes from last week\" or \"recipes with chicken\" and find relevant documents even if they don't contain those exact words.\n\n## Getting Started\n\n1. Install and enable the app\n2. Grant background access to allow indexing of your content\n3. Start searching with natural language in Nextcloud's search bar\n\nSee [documentation](https://github.com/cbcoutinho/astrolabe) for configuration details.",
     "homepage": "",
     "licenses": [
@@ -330,9 +330,9 @@
     ]
   },
   "budget": {
-    "hash": "sha256-/S+MuAvkZtrsBfP+8IPS4QbpCTLwPM+5P506+7qv2xc=",
-    "url": "https://github.com/otherworld-dev/Budget/releases/download/v2.39.1/budget.tar.gz",
-    "version": "2.39.1",
+    "hash": "sha256-CkuIk3Bj5a8k26Vrv7v9vCck89m+JIR7BeQ1wp/9GqY=",
+    "url": "https://github.com/otherworld-dev/Budget/releases/download/v2.40.0/budget.tar.gz",
+    "version": "2.40.0",
     "description": "**⚠️ Beta: This app is currently in testing. Data loss is possible. Please backup your data regularly and report any issues.**\n\n# Budget - Financial Tracking for Nextcloud\n\nTrack your spending habits, manage savings, and forecast future account balances with intelligent analysis of your financial history.\n\n## Features\n\n* **Import Bank Statements**: Support for CSV, OFX, and QIF formats\n* **Smart Categorization**: Automatic vendor matching and transaction categorization\n* **Auto-Categorization Rules**: Apply rules to existing transactions anytime with preview\n* **Split Transactions**: Allocate single transactions across multiple categories\n* **Transfer Detection**: Automatic matching of transfers between accounts\n* **Budget Tracking**: Set spending limits with alerts when approaching or exceeding budgets\n* **Balance Forecasting**: Predict future balances based on historical data\n* **Recurring Bills**: Track bills with due date monitoring and Nextcloud notifications\n* **Recurring Income**: Track expected income sources with receipt tracking\n* **Split Expenses**: Share expenses with contacts and track who owes whom\n* **Debt Payoff Planner**: Plan repayment using avalanche or snowball strategies\n* **Savings Goals**: Set targets with progress tracking and achievement forecasting\n* **Pension Tracker**: Track retirement accounts with growth projections\n* **Net Worth History**: Track assets and liabilities over time\n* **Year-over-Year Reports**: Compare spending across multiple years\n* **Multi-Account Support**: Manage multiple bank accounts and currencies\n* **Custom Categories**: Create your own category hierarchy\n* **Reports & Charts**: Visualize your financial data with interactive charts\n\n## Documentation\n\nFull user documentation: https://github.com/otherworld-dev/budget/tree/master/docs\n\n## Requirements\n\n* Nextcloud 30 or higher\n* PHP 8.1 or higher\n* PHP BCMath extension (`php-bcmath`)",
     "homepage": "",
     "licenses": [
@@ -1960,9 +1960,9 @@
     ]
   },
   "integration_openai": {
-    "hash": "sha256-91/93BQyZVUrE21krXBTLp1nbdyoNxfDyDODf2hgdIM=",
-    "url": "https://github.com/nextcloud-releases/integration_openai/releases/download/v3.10.1/integration_openai-v3.10.1.tar.gz",
-    "version": "3.10.1",
+    "hash": "sha256-BWe76pULLPkOVUfGvs6TdQAIBItuqINWdCYQ/QN58qs=",
+    "url": "https://github.com/nextcloud-releases/integration_openai/releases/download/v3.10.2/integration_openai-v3.10.2.tar.gz",
+    "version": "3.10.2",
     "description": "⚠️ The smart pickers have been removed from this app\nas they are now included in the [Assistant app](https://apps.nextcloud.com/apps/assistant).\n\nThis app implements:\n\n* Text generation providers: Free prompt, Summarize, Headline, Context Write, Chat, and Reformulate (using any available large language model)\n* A Translation provider (using any available language model)\n* A SpeechToText provider (using Whisper)\n* An image generation provider\n\n⚠️ Context Write, Summarize, Headline and Reformulate have mainly been tested with OpenAI.\nThey might work when connecting to other services, without any guarantee.\n\nInstead of connecting to the OpenAI API for these, you can also connect to a self-hosted [LocalAI](https://localai.io) instance or [Ollama](https://ollama.com/) instance\nor to any service that implements an API similar to the OpenAI one, for example:\n[IONOS AI Model Hub](https://docs.ionos.com/cloud/ai/ai-model-hub), [Plusserver](https://www.plusserver.com/en/ai-platform/) or [MistralAI](https://mistral.ai).\n\n⚠️ This app is mainly tested with OpenAI. We do not guarantee it works perfectly\nwith other services that implement OpenAI-compatible APIs with slight differences.\n\n## Improve AI task pickup speed\n\nTo avoid task processing execution delay, setup at 4 background job workers in the main server (where Nextcloud is installed). The setup process is documented here: https://docs.nextcloud.com/server/latest/admin_manual/ai/overview.html#improve-ai-task-pickup-speed\n\n## Ethical AI Rating\n### Rating for Text generation using ChatGPT via the OpenAI API: 🔴\n\nNegative:\n* The software for training and inference of this model is proprietary, limiting running it locally or training by yourself\n* The trained model is not freely available, so the model can not be run on-premises\n* The training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model's performance and CO2 usage.\n\n\n### Rating for Translation using ChatGPT via the OpenAI API: 🔴\n\nNegative:\n* The software for training and inference of this model is proprietary, limiting running it locally or training by yourself\n* The trained model is not freely available, so the model can not be run on-premises\n* The training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model's performance and CO2 usage.\n\n### Rating for Image generation using DALL·E via the OpenAI API: 🔴\n\nNegative:\n* The software for training and inferencing of this model is proprietary, limiting running it locally or training by yourself\n* The trained model is not freely available, so the model can not be ran on-premises\n* The training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\n\n### Rating for Speech-To-Text using Whisper via the OpenAI API: 🟡\n\nPositive:\n* The software for training and inferencing of this model is open source\n* The trained model is freely available, and thus can run on-premise\n\nNegative:\n* The training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\n### Rating for Text-To-Speech via the OpenAI API: 🔴\n\nNegative:\n* The software for training and inferencing of this model is proprietary, limiting running it locally or training by yourself\n* The trained model is not freely available, so the model can not be ran on-premises\n* The training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\n### Rating for Text generation via LocalAI: 🟢\n\nPositive:\n* The software for training and inferencing of this model is open source\n* The trained model is freely available, and thus can be ran on-premises\n* The training data is freely available, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n\n### Rating for Image generation using Stable Diffusion via LocalAI : 🟡\n\nPositive:\n* The software for training and inferencing of this model is open source\n* The trained model is freely available, and thus can be ran on-premises\n\nNegative:\n* The training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\n\n### Rating for Speech-To-Text using Whisper via LocalAI: 🟡\n\nPositive:\n* The software for training and inferencing of this model is open source\n* The trained model is freely available, and thus can be ran on-premises\n\nNegative:\n* The training data is not freely available, limiting the ability of external parties to check and correct for bias or optimise the model’s performance and CO2 usage.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/integration_openai",
     "licenses": [
@@ -2310,9 +2310,9 @@
     ]
   },
   "linkboard": {
-    "hash": "sha256-fmD5dAoAEb3fd2mMvUFmf3XFQvq/GGlxnymVmPTNZSs=",
-    "url": "https://github.com/tschuegy/linkboard-nextcloud/releases/download/v1.7.6/linkboard.tar.gz",
-    "version": "1.7.6",
+    "hash": "sha256-yC+WZ2+yBoBRuP+7jsrxwcndpxYP2TL6VaH3kqxtvzI=",
+    "url": "https://github.com/tschuegy/linkboard-nextcloud/releases/download/v1.10.1/linkboard.tar.gz",
+    "version": "1.10.1",
     "description": "**LinkBoard** – A beautiful, customizable service dashboard for your homelab.\n\nOrganize your services in categories, monitor their status,\nand access everything from within Nextcloud.\n\n### Features\n- 🏠 Personal dashboard with service tiles grouped by category\n- 🎨 Dark/Light mode with customizable backgrounds\n- 🖼️ Flexible icon system (upload, URL, Material Design Icons)\n- 📋 YAML & JSON import/export (Gethomepage compatible)\n- 🔍 Quick search across all services\n- 📂 Nested categories with drag & drop grouping\n- ✏️ Inline editing with drag & drop sorting\n- 🩺 Service health checks with status indicators\n- 📈 Status history with response time charts and uptime tracking\n- 📊 Widget system for live data from external APIs\n\nEach user gets their own personal dashboard – up to 500 services.",
     "homepage": "https://github.com/tschuegy/linkboard-nextcloud",
     "licenses": [
@@ -3260,9 +3260,9 @@
     ]
   },
   "safe_html_viewer": {
-    "hash": "sha256-mV9ypKcf3MJSNOBMiijcHt3IjF7VpuZLxl7lnMEAqxU=",
-    "url": "https://github.com/ishizakahiroshi/nextcloud-safe-html-viewer/releases/download/v0.1.2/safe_html_viewer-v0.1.2.tar.gz",
-    "version": "0.1.2",
+    "hash": "sha256-qARZcSsg59gx1NCW9BBZSYcEjUaDP8PCqefFy2+LM3k=",
+    "url": "https://github.com/ishizakahiroshi/nextcloud-safe-html-viewer/releases/download/v0.1.4/safe_html_viewer-v0.1.4.tar.gz",
+    "version": "0.1.4",
     "description": "Adds a **\"Safe HTML preview\"** file action to `.html` / `text/html` files. The file opens in a new tab served under a strict `Content-Security-Policy: sandbox allow-scripts allow-popups` — deliberately **without** `allow-same-origin` — so embedded JavaScript can run (charts, animations, interactive reports) while staying fully isolated from your Nextcloud session, cookies, DOM and same-origin APIs.\n\n**Features**\n\n- One-click sandboxed preview of HTML files right from the Files app\n- Respects Nextcloud permissions: only files visible to the logged-in user can be previewed\n- Best-effort display-time redaction of secrets: email addresses, phone-like strings, IPv4 addresses, private/localhost URLs, and credential-like strings (`password=`, `token=`, `api_key=`, long opaque tokens)\n- The original file is never modified — redaction only affects the served preview\n- No external services, no telemetry; everything runs inside your Nextcloud\n\n**Limitations**: redaction is best-effort pattern matching, intended to reduce accidental secret leakage when sharing HTML documents. It is not a DLP solution and comes with no leak-prevention guarantee — see SECURITY.md in the repository.",
     "homepage": "",
     "licenses": [
@@ -3820,9 +3820,9 @@
     ]
   },
   "threedviewer": {
-    "hash": "sha256-PKjR+01Ezvy4x9fO82hrZ5Vr2orI6ufdhZJTrBL6b8E=",
-    "url": "https://github.com/maz1987in/3Dviewer-Nextcloud/releases/download/v3.3.0/threedviewer-v3.3.0.tar.gz",
-    "version": "3.3.0",
+    "hash": "sha256-8tOOacpRjt7I4jEPCKlN6teH2JSESfNZ/JRopyAxkX8=",
+    "url": "https://github.com/maz1987in/3Dviewer-Nextcloud/releases/download/v3.3.2/threedviewer-v3.3.2.tar.gz",
+    "version": "3.3.2",
     "description": "A comprehensive 3D model viewer that allows you to view, interact with, and analyze 3D models directly within Nextcloud. Supports 20+ formats across mesh, CAD, and BIM families with full material and texture support.\n\n**📦 Format Support:**\n- 🎨 Mesh formats: GLB, GLTF, OBJ+MTL, STL, PLY, FBX, 3MF, 3DS, DAE, X3D, VRML, OFF, AMF\n- 🏗️ CAD formats: STEP (.step/.stp), IGES (.iges/.igs), BREP (.brep/.brp), FCSTD (FreeCAD) — powered by a shared OpenCascade (OCCT) runtime\n- 🏛️ BIM formats: IFC (via web-ifc WASM), BIM (dotbim JSON), 3DM (Rhinoceros via rhino3dm WASM)\n- 🧊 WASM loaders lazy-chunk: a 3–7 MB runtime only downloads when the user opens a file of that format; air-gapped deploys ship their own WASM copies (no CDN required)\n- 🚀 Enhanced loaders: Significantly improved FBX, VRML, and DAE loaders with better material and texture support\n- 📁 Multi-file models: Full support for OBJ+MTL+textures and GLTF+bins+images\n- 🗜️ Compression: DRACO geometry and KTX2/Basis texture compression (needs more work)\n- 🔧 Centralized format definitions: Single source of truth for all format definitions ensuring consistency\n- ✅ Format sync validation: Automated tests ensure format consistency across backend, frontend, and MIME registration\n- 📦 Bundle budget enforcement: Automated bundle size checking with historical tracking and CI integration\n - 🛠️ G-code toolpaths: Support for `.gcode`, `.gco`, `.nc`, `.acode` with 3D toolpath visualization (smooth rainbow gradient coloring, travel/retraction filtering, automatic layer detection)\n - 🧩 Extended G-code ecosystem: Recognizes additional variants `.g`, `.gx` (FlashForge), `.g3drem` (Dremel), `.makerbot`, `.thing` with proper MIME mappings\n\n**🎮 Interactive Features:**\n- 🎯 3D Camera Controller: Enhanced intuitive circular controller for precise camera navigation with improved controls\n- 🔄 Model comparison: Side-by-side viewing with synchronized controls\n- 📝 Annotations: Add notes and markers to specific points on models (always readable, faces camera) with customizable visual sizing controls\n- 📏 Measurements: Distance and angle measurement tools (with billboard text) with per-user sizing controls for point size, line thickness, and label width\n- 🎬 Animation Controls: Play/pause controls for animated models with loop toggle, timeline scrubber, and frame stepping\n- ✂️ Cross-Section: Interactive clipping plane to slice models along X/Y/Z axes for interior inspection\n- 💡 Lighting Presets: Quick-switch between Default, Studio, Outdoor, Dramatic, and Flat lighting setups\n- 🔖 View Bookmarks: Save and restore camera positions with display state (grid, axes, wireframe, background)\n- 💥 Exploded View: Animate multi-mesh models outward from centroid with adjustable factor slider\n- 🧭 Face labels: Orientation markers (TOP, BOTTOM, FRONT, BACK, LEFT, RIGHT)\n- 👁️ Camera projection toggle: Switch between perspective and orthographic views\n- ⚙️ Personal Settings: User-specific preferences and settings page in Nextcloud personal settings\n\n**📂 File Browser:**\n- 🗂️ Smart navigation: Toggle between Viewer, Folders, Type, Date, and Favorites modes\n- 📋 List and Grid views: Switch between compact list view and grid view with customizable default preference\n- ⚙️ Default view setting: Set your preferred view mode (Grid/List) in Personal Settings\n- ⌨️ Keyboard navigation: Full keyboard support for list view (Arrow keys, Home, End, Enter, Space)\n- 🍞 Breadcrumb navigation: Easy navigation back through folder/type/date hierarchies\n- 🔄 Lazy loading: Fast navigation with on-demand data loading\n\n**⚡ Export & Tools:**\n- 📷 Screenshot capture: Take high-quality PNG/JPEG screenshots of your models\n- 💾 Export models to GLB, STL, and OBJ formats\n- 🖨️ Slicer integration: Send models directly to PrusaSlicer, Cura, BambuStudio, OrcaSlicer, Simplify3D, Eufy Studio, and AnycubicSlicer with enhanced security (file size limits, MIME validation, rolling expiration)\n- 📊 Model statistics panel with detailed information\n- 🔲 Wireframe and bounding box visualization\n- 📐 Dynamic grid system that adapts to model size and position\n- ❓ Help panel with comprehensive in-app documentation\n\n**🚀 Performance & UX:**\n- 🖼️ Automatic thumbnails: Smart thumbnail generation with content-aware cropping (configurable in settings)\n- 🖼️ Progressive texture loading for improved performance\n- 💿 Dependency caching using IndexedDB for faster multi-file loading with live cache statistics (size, entries, hit rate)\n- ⚙️ Performance modes with visual quality overlay and automatic suggestions for large models\n- 📊 Performance scaling: Automatic performance mode suggestions based on model complexity (triangle count thresholds)\n- 📦 Code splitting and dynamic imports\n - 📱 Mobile-optimized UI: Responsive toolbar (icons-only on small screens), full-screen help panel with sticky header, and performance stats hidden by default on mobile (≤768px)\n- 🌓 Light and dark theme support with RTL layout\n- 🔗 Works with public shares and authenticated users\n- ♿ Accessibility features with keyboard navigation and ARIA labels\n\nBuilt with Three.js for high-performance WebGL rendering. ✨",
     "homepage": "https://github.com/maz1987in/3Dviewer-Nextcloud",
     "licenses": [
@@ -3960,9 +3960,9 @@
     ]
   },
   "twofactor_oath": {
-    "hash": "sha256-UoXtthjNOUAuwJE5LJGvJszXVNf8qRfB88tizsCl4Ps=",
-    "url": "https://github.com/ernolf/twofactor_oath/releases/download/v0.3.2/twofactor_oath-0.3.2.tar.gz",
-    "version": "0.3.2",
+    "hash": "sha256-NbU04nRUoW5404VfghaU99XRutUG39TP6w2I+yObfuI=",
+    "url": "https://github.com/ernolf/twofactor_oath/releases/download/v0.4.0/twofactor_oath-0.4.0.tar.gz",
+    "version": "0.4.0",
     "description": "Configurable OATH two-factor authentication for Nextcloud, covering all three OATH algorithms in one provider.\n\n- **TOTP** (RFC 6238), **HOTP** (RFC 4226) and **OCRA** challenge-response (RFC 6287), selectable per token\n- Per-token hash algorithm (SHA-1 to SHA-512), digits (4 to 10), TOTP period or HOTP counter, and OCRA suite\n- Custom or random secrets, with clear strength presets (128 to 640 bit) and secrets encrypted at rest\n- A **Strict RFC** switch for safe, interoperable defaults, without losing the freedom to deviate\n- Admin-managed enrollment for whole groups, with **bulk provisioning** (sorting, filtering, live validation), CSV export and paste import\n- One-click **import from the bundled twofactor_totp**, so existing users switch over without being locked out\n- Issuer icon embedded in the QR code, HOTP resynchronisation, and a software OCRA token for testing\n\nBuilt for hardware OATH tokens and elevated requirements, alongside the simple, bundled twofactor_totp app. OATH (one-time passwords) is not the same as FIDO2/WebAuthn. See documentation for when to use which.",
     "homepage": "https://github.com/ernolf/twofactor_oath#readme",
     "licenses": [
@@ -4047,6 +4047,16 @@
     "homepage": "https://github.com/mediabox-cl",
     "licenses": [
       "agpl"
+    ]
+  },
+  "user_lockdown": {
+    "hash": "sha256-IAsk6Y6BamGcmn79QcM/BtcZE5DaQbFYZrLs/CbWFc8=",
+    "url": "https://github.com/RentnerKev/UserLockdown/releases/download/v1.0.0/user_lockdown.tar.gz",
+    "version": "1.0.0",
+    "description": "Restrict selected users to viewing and downloading existing files while administrators retain full control.",
+    "homepage": "https://github.com/RentnerKev/UserLockdown",
+    "licenses": [
+      "AGPL-3.0-or-later"
     ]
   },
   "user_migration": {
