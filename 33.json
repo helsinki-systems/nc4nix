@@ -169,11 +169,21 @@
       "agpl"
     ]
   },
+  "appstore_switcher": {
+    "hash": "sha256-lx7637r2wSTiKd+KyGGVyiz8Oeu3+WhY+Ggwiwn9Ah0=",
+    "url": "https://github.com/zomtec2311/appstore_switcher/releases/download/1.0.0/appstore_switcher-1.0.0.tar.gz",
+    "version": "1.0.0",
+    "description": "**Allows administrators to dynamically switch the app store between the official Nextcloud app store and a custom app store without having to manually edit the config file.**\n\n- 🛡️ Only accessible for administration.\n- ✏️ No manual editing of the config file\n- 👉 Note that this app does not have a direct link, but can be accessed via the administration settings after installation",
+    "homepage": "https://github.com/zomtec2311/appstore_switcher",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "arbeitszeitcheck": {
-    "hash": "sha256-BG7jvWiud3n+hm0lJpXG4CEtwwgnUk4xXugTze/hY5g=",
-    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-arbeitszeitcheck/releases/download/v1.5.23/arbeitszeitcheck-1.5.23.tar.gz",
-    "version": "1.5.23",
-    "description": "# ArbeitszeitCheck\n\nTime tracking focused on German working time law (ArbZG) and GDPR. Record work\ntimes, enforce breaks and rest periods, and monitor compliance – fully self‑hosted\nin your Nextcloud instance.\n\n## Features\n\n- **ArbZG-aware rules** – maximum hours, breaks, rest periods, Sundays/holidays\n- **Compliance monitoring** – automatic violation detection and reports\n- **Self‑service dashboards** – employee, team and manager views\n- **Absences & leave** – approval workflows and reporting\n- **Exports & audit log** – e.g. for DATEV and internal audits\n- 100% self‑hosted – no data leaves your server\n\n## Requirements\n\n- Nextcloud 32–33\n- PHP 8.1–8.4",
+    "hash": "sha256-z9TVi3HF6hsydxurW8SAmZyZIwth8XykYm1EY7wgtnc=",
+    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-arbeitszeitcheck/releases/download/v1.6.2/arbeitszeitcheck-1.6.2.tar.gz",
+    "version": "1.6.2",
+    "description": "# ArbeitszeitCheck\n\nTime tracking for Germany, Austria and Switzerland (DACH). Record work times, enforce\nbreaks and rest periods under ArbZG, AZG/ARG or ArG, and monitor compliance –\nfully self‑hosted in your Nextcloud instance.\n\n## Features\n\n- **Country profiles** – Germany (ArbZG), Austria (AZG/ARG) or Switzerland (ArG) with matching holiday regions\n- **Compliance monitoring** – automatic violation detection and reports\n- **Self‑service dashboards** – employee, team and manager views\n- **Absences & leave** – approval workflows and reporting\n- **Exports & audit log** – e.g. for DATEV and internal audits\n- 100% self‑hosted – no data leaves your server\n\n## Requirements\n\n- Nextcloud 32–33\n- PHP 8.1–8.4",
     "homepage": "http://nextcloud.software-by-design.de",
     "licenses": [
       "AGPL-3.0-or-later"
@@ -320,10 +330,10 @@
     ]
   },
   "budgetcheck": {
-    "hash": "sha256-+CxF5rGEtxB0xMw+a5pQoDQ4WDrrl+MJhTvxUnvMY24=",
-    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-budgetcheck/releases/download/v1.0.29/budgetcheck-1.0.29.tar.gz",
-    "version": "1.0.29",
-    "description": "# BudgetCheck\n\nScoped finance for Nextcloud. Each **workspace** is either a **household** (recurring monthly rhythm with budgets, savings targets, and yearly overview) or a **bounded project** (project window, period overview, optional cap warning).\n\nEvery workspace has its own ledger, categories, members, and tax settings. The **server is the source of truth** for all calculations; amounts are stored in **minor units**, never as floating-point. **Monthly close** produces an immutable snapshot with a verifiable calculation hash; controlled reopen restores editing. Optional **tax-aware** mode supports net or gross entry with deterministic VAT conversion.\n\nThe UI is **workspace-scoped** (household and project totals never mix), targets **WCAG 2.1 AA**, full keyboard use, and responsive layouts from **320px** width.\n\n## Requirements\n\n- Nextcloud 32–33\n- PHP 8.2–8.4\n- MySQL or PostgreSQL",
+    "hash": "sha256-9/Zt69CUgczQJZratCjgNJWukwiviSW2TMpMLBoP+R0=",
+    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-budgetcheck/releases/download/v1.1.2/budgetcheck-1.1.2.tar.gz",
+    "version": "1.1.2",
+    "description": "# BudgetCheck\n\nScoped finance for Nextcloud. Each **workspace** is either a **household** (recurring monthly rhythm with budgets, savings targets, and yearly overview) or a **bounded project** (project window, period overview, optional cap warning).\n\nEvery workspace has its own ledger, categories, members, and tax settings. The **server is the source of truth** for all calculations; amounts are stored in **minor units**, never as floating-point. **Monthly close** produces an immutable snapshot with a verifiable calculation hash; controlled reopen restores editing. Optional **tax-aware** mode supports net or gross entry with deterministic VAT conversion.\n\nThe UI is **workspace-scoped** (household and project totals never mix), targets **WCAG 2.1 AA**, full keyboard use, and responsive layouts from **320px** width.\n\n## Requirements\n\n- Nextcloud 32–34\n- PHP 8.2–8.4\n- MySQL or PostgreSQL",
     "homepage": "https://nextcloud.software-by-design.de",
     "licenses": [
       "AGPL-3.0-or-later"
@@ -440,8 +450,8 @@
     ]
   },
   "chores": {
-    "hash": "sha256-x95pWVl5+EJAMWAPdA9aFbvNCNz+PBmBvC5GrJOHUtA=",
-    "url": "https://teo.sinyax.net/cdn/chores_0.1.0.tar.gz",
+    "hash": "sha256-kDuNNmSoz80b1fUA2wKnHjGQD05oBo1Q+NC4Crf8G20=",
+    "url": "https://teo.sinyax.net/cdn/chores_0.0.8-17-gf14ef6e.tar.gz",
     "version": "0.1.0",
     "description": "Track chores and receive points for doing them!\n\nCreate a team and invite other Nextcloud users from the same server, the total\npoints for each member are tracked.\n\nChores can be set to automatically repeat based on a schedule.",
     "homepage": "https://sr.ht/~cypheon/nextcloud-chores/",
@@ -570,8 +580,8 @@
     ]
   },
   "cpanelmailsync": {
-    "hash": "sha256-7MXvmpxaji23Dr3xDVMDPTv32z60krjYR8vUlda/vUE=",
-    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/14567082190/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
+    "hash": "sha256-6p0Ivbt8QkfguWXWCMVhKXlyClmHhttaytgmZCucpuc=",
+    "url": "https://gitlab.com/ethernet.zero/nextcloud-cpanelmailsync/-/jobs/14547147483/artifacts/raw/build/artifacts/appstore/cpanelmailsync.tar.gz",
     "version": "0.1.12",
     "description": "Manages CPanel mail accounts from Nextcloud user creations, deletions and updates, using the CPanel UAPI.",
     "homepage": "",
@@ -590,9 +600,9 @@
     ]
   },
   "cristal": {
-    "hash": "sha256-LqQFJH2BSGL22mjpZ+5fzrkJSuUbrnRORPwFKSyxi1w=",
-    "url": "https://github.com/xwiki-contrib/cristal-integration-nextcloud/releases/download/1.6.1/cristal.tar.gz",
-    "version": "1.6.1",
+    "hash": "sha256-mbuZH6RSiLwJuIrLIIWFVedrTaYD37fOiA+pG50gl9s=",
+    "url": "https://github.com/xwiki-contrib/cristal-integration-nextcloud/releases/download/1.7.0/cristal.tar.gz",
+    "version": "1.7.0",
     "description": "The [Cristal integration](https://github.com/xwiki-contrib/cristal-integration-nextcloud) for Nextcloud adds a modern, wiki-style note-taking interface on top of your Nextcloud files.\n\nCristal is designed for flexibility, a user-friendly UI, and organized knowledge, without lock-in or unnecessary complexity.\n\n## Features\n\nWith the Cristal integration in Nextcloud you can:\n\n* **Write notes and organize your thoughts** in pages.\n* **Structure pages into a hierarchy** (as many levels as you want).\n* **Link pages** together.\n* **Manage your attachments**.\n* **Navigate** with the navigation tree.\n* **Use auto-suggestion** to find content.\n* **Keep your wiki content in Markdown files**.\n\nIf you uninstall Cristal, all your data, pages and attachments, remain accessible in Nextcloud.\n\n## How to start\n\nAdmins logged into the Nextcloud App Store can install Cristal in one click from this page. The installation is done for all the users of the instance. No need for complex configs or setups.\n\n## Contribute to the Cristal integration\n\nCristal is open source and any contributions are welcome!\n\nYou can help improve the application, leave feedback in the comments, report [issues](https://jira.xwiki.org/projects/CRISTALNC/), or [discuss with us](https://dev.xwiki.org/xwiki/bin/view/Community/Chat).\nYou can also fill the [Feedback survey](https://cryptpad.fr/form/#/2/form/view/5-s0TWMJIQ8mFBtRcezNa-YvqtAo5JUvyeeAA5NoMDA/).\n\n## What is Cristal?\n\n[Cristal](https://cristal.xwiki.org/xwiki/bin/view/Main/) is an open-source, modern, modular wiki UI that is able to connect to various back-ends (e.g., a Nextcloud or a [XWiki](https://xwiki.org/xwiki/bin/view/Main/) instance, or GitHub, or a local folder). It focuses on offline editing with sync, and embeddability. This makes your content portable and accessible anywhere: in the browser, on your desktop, or inside another platform.",
     "homepage": "https://github.com/xwiki-contrib/cristal-integration-nextcloud",
     "licenses": [
@@ -627,6 +637,16 @@
     "homepage": "https://framagit.org/framasoft/nextcloud/csp_editor",
     "licenses": [
       "agpl"
+    ]
+  },
+  "curio": {
+    "hash": "sha256-+YCO8uqHz/VsXDMInLyASGXjtUoLwMm3o9LwyPLsmLI=",
+    "url": "https://github.com/Acknar/Curio/releases/download/v1.0.0/curio-1.0.0.tar.gz",
+    "version": "1.0.0",
+    "description": "Curio turns the images, links, videos and notes you collect into visual boards you can filter, tag and share. Paste a link from Pinterest, Instagram, YouTube or any website and it pulls in the picture, title and a snapshot for you. Upload your own photos, drop in a PDF, or jot a quick note. Everything lands on a board as a tidy, browsable tile.\n\n## Bring everything together\n\nAdd references from wherever you find them:\n\n- Photos and images uploaded straight from your device\n- Links from Pinterest, Instagram, YouTube and any website, with the image, title and a saved snapshot grabbed automatically\n- Videos, either embedded from a provider or uploaded directly\n- PDFs, shown with a page preview\n- Plain text notes for the ideas that do not have a link yet\n\nWhen a page offers more than one image, you choose which one becomes the tile.\n\n## Organize the way you think\n\nSort references into boards, one per project, mood or topic. Tag them with colored labels and group those labels into folders, so a growing collection stays easy to navigate. Filter a board by type or by tag to narrow thousands of references down to the handful you need right now. Hashtags you write in a title or note are matched to your tags automatically.\n\n## See your references your way\n\nSwitch between layouts to suit the work. The vertical masonry view tiles everything by its natural shape, so a board reads like a moodboard rather than a spreadsheet. A jump index lets you move through a long board quickly without losing your place.\n\n## Collaborate\n\nShare a board with anyone on your Nextcloud, with view-only or full edit access. Sharing uses Nextcloud's own sharing and permissions, so collaborators' changes are attributed to them and your server stays in control. Leave comments on a reference to discuss it in context.\n\n## Your data stays yours\n\nOn first launch you choose the Nextcloud folder where Curio keeps its boards. Every reference becomes a real file in your Nextcloud Files, kept in a folder for its board. Drop a file into that folder and it appears on the board; rename or remove it and the board follows. Export or import a board as CSV whenever you like. Nothing is sent to a third party. Your references live on your server, under your control.",
+    "homepage": "https://github.com/Acknar/Curio",
+    "licenses": [
+      "AGPL-3.0-or-later"
     ]
   },
   "custom_public_share": {
@@ -850,10 +870,10 @@
     ]
   },
   "dutycheck": {
-    "hash": "sha256-csTPQ1iAQh0VBqRftGvlYdgqYVzofgL0eGd/jn45C4Q=",
-    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-dutycheck/releases/download/v0.1.17/dutycheck-0.1.17.tar.gz",
-    "version": "0.1.17",
-    "description": "# DutyCheck — duty rosters your team can actually rely on\n\nTired of spreadsheets that drift out of date the moment you publish? DutyCheck brings **shift planning into Nextcloud**: one place for rosters, absences, and the paper trail when someone asks *“who was on duty that night?”*\n\nInstall it, add your people and locations, open a planning period, and start assigning shifts — the interface is built to be **simple on day one** and **strict where it matters** (conflicts and lifecycle rules are enforced on the server, not in someone’s memory).\n\n## Why teams try DutyCheck\n\n- **See problems before you publish** — overlapping shifts and policy conflicts surface while you are still editing, not after the roster goes live\n- **A workflow everyone understands** — draft → validate → publish → close, with clear states so planners and staff know what is official\n- **Self-service for staff** — linked employees can view their roster, request absences, and subscribe to a calendar feed\n- **Audit-ready by design** — snapshots and an activity trail when you need to prove what was planned and when it changed\n- **Built for real devices** — responsive from phone to desktop; interface targets **WCAG 2.1 AA** accessibility\n\n## Great fit if you run\n\nHealthcare rotations, facility coverage, events, logistics, retail shifts, on-call teams — anywhere **people, places, and time** need to line up without guesswork.\n\n## Optional: ArbeitszeitCheck\n\nIf you also use **ArbeitszeitCheck**, DutyCheck can mirror absences automatically (integration is optional and stays off until you enable it).\n\n## Requirements\n\n- Nextcloud 32–33\n- PHP 8.2–8.4\n- MySQL or PostgreSQL",
+    "hash": "sha256-6YbfYv1uSbGyvPMrPDHDyNveTS3b8aRBPUUCm5LkGxg=",
+    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-dutycheck/releases/download/v0.1.36/dutycheck-0.1.36.tar.gz",
+    "version": "0.1.36",
+    "description": "# DutyCheck — duty rosters your team can actually rely on\n\nTired of spreadsheets that drift out of date the moment you publish? DutyCheck brings **shift planning into Nextcloud**: one place for rosters, absences, and the paper trail when someone asks *“who was on duty that night?”*\n\nInstall it, add your people and locations, open a planning period, and start assigning shifts — the interface is built to be **simple on day one** and **strict where it matters** (conflicts and lifecycle rules are enforced on the server, not in someone’s memory).\n\n## Why teams try DutyCheck\n\n- **See problems before you publish** — overlapping shifts and policy conflicts surface while you are still editing, not after the roster goes live\n- **A workflow everyone understands** — open → published → closed, with clear states so planners and staff know what is official\n- **Self-service for staff** — linked employees can view their roster, request absences, and subscribe to a calendar feed\n- **Audit-ready by design** — snapshots and an activity trail when you need to prove what was planned and when it changed\n- **Built for real devices** — responsive from phone to desktop; interface targets **WCAG 2.1 AA** accessibility\n\n## Great fit if you run\n\nHealthcare rotations, facility coverage, events, logistics, retail shifts, on-call teams — anywhere **people, places, and time** need to line up without guesswork.\n\n## Optional: ArbeitszeitCheck\n\nIf you also use **ArbeitszeitCheck**, DutyCheck can mirror absences automatically (integration is optional and stays off until you enable it).\n\n## Requirements\n\n- Nextcloud 32–34\n- PHP 8.2–8.5\n- MySQL or PostgreSQL",
     "homepage": "https://nextcloud.software-by-design.de",
     "licenses": [
       "AGPL-3.0-or-later"
@@ -1015,6 +1035,16 @@
     "version": "2.1.0",
     "description": "A dashboard widget that displays the content from the External sites app on Dashboard.",
     "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "fairmeeting": {
+    "hash": "sha256-AA5sSneANv3OEMKr6l2eCv53+JQwVAfeA66ZxBL+RS4=",
+    "url": "https://github.com/fairkom/nextcloud-fairmeeting-integration/releases/download/v0.23.1/fairmeeting_v0.23.1.tar.gz",
+    "version": "0.23.1",
+    "description": "This app integrates the Jitsi based fairmeeting video conferencing service into Nextcloud. fairmeeting is hosted in the EU, thus fully GDPR compliant. We have set fairmeeting.net as the default Jitsi server, as meet.jit.si requires additional login or a token and is limited to 5 minutes in embedded conferences since 2023. \nFeatures:\n- 🎬 Full-featured online video conferences in nextcloud\n- 🔗 Sharable conference room links\n- 🔎 Integrated into global Nextcloud search\n- ✅ Audio and video test before joining a conference\n- 💯 Supports hundreds of users\n- 🖼 Customizable background images\n- 👏 Emoji reactions and animated GIF interactions\n- 👩🏼‍🏫 Organiser is moderator and can assign moderation rights\n- ➕ Option to open meetings **in a new browser tab** instead of embedded\n- 😸 fairmeeting fair use is one hour for private conferences, or get a [pro plan](https://fairkom.eu/en/fairmeeting) or configure your own Jitsi server\t    \n\nVideo conferencing is based on the Jitsi framework, see their [documentation](https://github.com/nextcloud/jitsi). fairmeeting is hosted by [fairkom](https://fairkom.eu/en) on a scalable kubernetes cluster, see their [info page](https://fairkom.eu/en/fairmeeting) and [FAQs](https://git.fairkom.net/hosting/fairmeeting/-/wikis/home). This Nextcloud app is based on the [Jitsi app](https://github.com/nextcloud/jitsi).",
+    "homepage": "https://fairkom.eu/en/fairmeeting",
     "licenses": [
       "agpl"
     ]
@@ -1440,9 +1470,9 @@
     ]
   },
   "gpxpod": {
-    "hash": "sha256-vKOoiLC4RNV0Xb8yerQzFZZz3rjKx2XFWl00pP9av18=",
-    "url": "https://github.com/julien-nc/gpxpod/releases/download/v8.2.1/gpxpod-8.2.1.tar.gz",
-    "version": "8.2.1",
+    "hash": "sha256-hiVSvdg7Wp3iNDxkP+G/F8dzfysEaUksqcg1vi+tMVY=",
+    "url": "https://github.com/julien-nc/gpxpod/releases/download/v8.3.0/gpxpod-8.3.0.tar.gz",
+    "version": "8.3.0",
     "description": "# GpxPod Nextcloud application\n\nDisplay, analyse, compare and share GPS track files.\n\n🌍 Help us to translate this app on [GpxPod Crowdin project](https://crowdin.com/project/gpxpod).\n\nGpxPod:\n\n* 🗺 can display your gpx/kml/tcx/igc/fit files\n* 📏 supports metric, english and nautical measure systems\n* 🗠 draws interactive chart for elevation, speed, pace or any extension data\n* 🗠 use line gradient color for track lines with speed, elevation, pace or any extension data\n* 🗠 shows track statistics\n* 🖻 displays geotagged pictures\n* 🖧 generates public links pointing to a track/folder\n* 🗠 can correct tracks elevations using SRTM data\n* ⚖ can make global comparison of multiple tracks\n* ⚖ can make visual pair comparison of divergent parts of similar tracks\n* 🀆 allows users to add personal map tile servers\n* 🖍 allows user to manually choose line color for each track\n* 🔒 works with encrypted data folder (server side encryption)\n* 🍂 proudly uses Leaflet and MapLibre GL\n\nLink to Nextcloud application website : https://apps.nextcloud.com/apps/gpxpod\n\n## Install\n\nSee the [AdminDoc](https://gitlab.com/eneiluj/gpxpod-oc/wikis/admindoc) for installation details\n\n## Known issues\n\n* *WARNING*, kml conversion will NOT work with recent kml files using the proprietary \"gx:track\" extension tag.\n\nAny feedback will be appreciated.\n\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://github.com/julien-nc/gpxpod",
     "licenses": [
@@ -2520,9 +2550,9 @@
     ]
   },
   "nextlibrary": {
-    "hash": "sha256-VmZYUFPYdl7iV0thlCm+wW+6Eh4LT+5y9QbCoj883Rs=",
-    "url": "https://github.com/SafiCeylan/Nextlibrary/releases/download/v1.0.6/nextlibrary-release-1.0.6.tar.gz",
-    "version": "1.0.6",
+    "hash": "sha256-ywtTUV1rtN4NPTz9GOdJaFqWQUFY+0ahdUHeCteE5WE=",
+    "url": "https://github.com/SafiCeylan/Nextlibrary/releases/download/v1.0.7/nextlibrary-release-1.0.7.tar.gz",
+    "version": "1.0.7",
     "description": "Knowledge Cards turns your Nextcloud into a small learning library.\n\nGroup pages into **collections**, write them with a rich text editor, and let your\nteam read through them at their own pace. Every page remembers who has read it and\nwhen, so progress is visible at a glance.\n\n- **Collections and pages** — a browsable tree on the left, a reading canvas in the middle, related pages on the right.\n- **Reading progress** — mark pages as read; progress bars and badges show what is left.\n- **Rich editor** — headings, lists, quotes, code blocks, colours, highlights, callouts, images and video embeds.\n- **Roles** — owners and editors write, readers only read. Collections can be public to the instance or private to their members.\n- **Trash bin** — deleted collections and pages can be restored.\n- **Dark mode** and full-text search across pages.",
     "homepage": "",
     "licenses": [
@@ -2770,9 +2800,9 @@
     ]
   },
   "pantry": {
-    "hash": "sha256-l/JeS/nRFrdMttVh0Uy+w5MFAMG8b15/wgObT55O8AU=",
-    "url": "https://github.com/chenasraf/nextcloud-pantry/releases/download/v0.23.0/pantry-v0.23.0.tar.gz",
-    "version": "0.23.0",
+    "hash": "sha256-kPldsAVbpoJ+6kMWmh70j3HBTlzZibtbyr5tvT0ZcaA=",
+    "url": "https://github.com/chenasraf/nextcloud-pantry/releases/download/v0.24.0/pantry-v0.24.0.tar.gz",
+    "version": "0.24.0",
     "description": "Pantry helps households stay organized in Nextcloud.\n\n- **Houses** group members and their shared data. A person can belong to multiple houses and switch between them freely.\n- **Checklists** support recurring items (e.g. milk every week) that automatically reappear when due. Share lists with the whole household so everyone knows what to pick up.\n- **Photo boards** let you keep shared reference photos organized in folders — the right brand of dog food, a favorite recipe card, a product label, and so on.\n- **Notes wall** gives the household a lightweight shared space for reminders, pinned messages, and quick notes with customizable colors.\n- **Notifications** keep everyone in the loop when photos are uploaded or notes are added or edited.\n\nAll data is scoped to a house; members only see the houses they belong to.\n\nPantry also has companion apps for mobile and desktop that let you manage your lists, photos and notes on the go and keep everything in sync with your Nextcloud instance.\n\n**Companion apps:** Android ([Google Play](https://play.google.com/store/apps/details?id=dev.casraf.pantry), [F-Droid](https://f-droid.org/en/packages/dev.casraf.pantry/)) | iOS/macOS ([App Store](https://apps.apple.com/us/app/pantry-for-nextcloud/id6762161619))",
     "homepage": "https://github.com/chenasraf/nextcloud-pantry",
     "licenses": [
@@ -2830,9 +2860,9 @@
     ]
   },
   "phonetrack": {
-    "hash": "sha256-bt/R1kZiTa9pWruKsAU01ni1d0AIy7vAOvIF8zwRhhw=",
-    "url": "https://github.com/julien-nc/phonetrack/releases/download/v1.3.1/phonetrack-1.3.1.tar.gz",
-    "version": "1.3.1",
+    "hash": "sha256-cinP3WFja6QjJYlQZcTKayHTheLjvnKY9s+CIJWKlcQ=",
+    "url": "https://github.com/julien-nc/phonetrack/releases/download/v1.3.2/phonetrack-1.3.2.tar.gz",
+    "version": "1.3.2",
     "description": "# PhoneTrack Nextcloud application\n\n📱 PhoneTrack is a Nextcloud application to track and store mobile device's locations.\n\n🗺 It receives information from mobile phone's logging apps and displays it dynamically on a map.\n\n🌍 Help us to translate this app on [PhoneTrack Crowdin project](https://crowdin.com/project/phonetrack).\n\n⚒ Check out other ways to help in the [contribution guidelines](https://gitlab.com/eneiluj/phonetrack-oc/blob/master/CONTRIBUTING.md).\n\nHow to use PhoneTrack :\n\n- Create a tracking session.\n- Give the logging link\\* to the mobile devices. Choose the [logging method](https://github.com/julien-nc/phonetrack/blob/main/doc/user.md#logging-methods) you prefer.\n- Watch the session's devices location in real time (or not) in PhoneTrack or share it with public pages.\n\n(\\*) Don't forget to set the device name in the link (rather than in the logging app settings). Replace \"yourname\" with the desired device name.\nSetting the device name in logging app settings only works with Owntracks, Traccar and OpenGTS.\n\nOn PhoneTrack main page, while watching a session, you can :\n\n- 📍 Display location history\n- ⛛ Filter points\n- ✎ Manually edit/add/delete points\n- ✎ Edit devices (rename, change colour/shape, move to another session)\n- ⛶ Define geofencing zones for devices\n- ⚇ Define proximity alerts for device pairs\n- 🖧 Share a session to other Nextcloud users or with a public link (read-only)\n- 🔗 Generate public share links with optional restrictions (filters, device name, last positions only, geofencing simplification)\n- 🖫 Import/export a session in GPX format (one file with one track per device or one file per device)\n- 🗠 Display sessions statistics\n- 🔒 [Reserve a device name](https://github.com/julien-nc/phonetrack/blob/main/doc/user.md#device-name-reservation) to make sure only authorized user can log with this name\n- 🗓 Toggle session auto export and auto purge (daily/weekly/monthly)\n- ◔ Choose what to do when point number quota is reached (block logging or delete oldest point)\n\nPublic page and public filtered page work like main page except there is only one session displayed, everything is read-only and there is no need to be logged in.\n\nThis app is under development.\n\n## Install\n\nSee the [AdminDoc](https://gitlab.com/eneiluj/phonetrack-oc/wikis/admindoc) for installation details.\n\nCheck [CHANGELOG](https://gitlab.com/eneiluj/phonetrack-oc/blob/master/CHANGELOG.md#change-log) file to see what's new and what's coming in next release.\n\nCheck [AUTHORS](https://gitlab.com/eneiluj/phonetrack-oc/blob/master/AUTHORS.md#authors) file to see complete list of authors.\n\n## Known issues\n\n- PhoneTrack **now works** with Nextcloud group restriction activated. See [admindoc](https://github.com/julien-nc/phonetrack/blob/main/doc/admin.md#issue-with-phonetrack-restricted-to-some-groups-in-nextcloud).\n\nAny feedback will be appreciated.\n\n\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://github.com/julien-nc/phonetrack",
     "licenses": [
@@ -2930,9 +2960,9 @@
     ]
   },
   "projectcheck": {
-    "hash": "sha256-mnn6kGP5AjXHtKbKe+rVUP4OsQoeJm1+HLVHyPoNs2c=",
-    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-projectcheck/releases/download/v2.0.77/projectcheck-2.0.77.tar.gz",
-    "version": "2.0.77",
+    "hash": "sha256-sTL3KdPaFVdMNXShJ7hqvqDH9nOVV0a+mezZQrnnSbk=",
+    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-projectcheck/releases/download/v2.0.86/projectcheck-2.0.86.tar.gz",
+    "version": "2.0.86",
     "description": "IT project management with time tracking, budget control, and server-authoritative cost pricing.\n\t\tChoose how hours are priced (project rate, employee master data, or per-person on the project);\n\t\thourly rates on time entries are resolved on the server from effective-dated history.\n\t\tFeatures include project and customer management, team assignment, budget monitoring,\n\t\tWCAG-oriented UI aligned with the Check app family, and append-only rate history.",
     "homepage": "https://nextcloud.software-by-design.de",
     "licenses": [
@@ -3010,10 +3040,10 @@
     ]
   },
   "regibase": {
-    "hash": "sha256-VcPwUxMlaMMXLA/Gzlh1HDt5wLknX+RujGJWYL4I2bU=",
-    "url": "https://github.com/ktec-nc-apps/RegiBase/releases/download/v0.15.1/regibase-0.15.1.tar.gz",
-    "version": "0.15.1",
-    "description": "RegiBase is a lightweight personal database for the information you want to keep — credit cards, bank accounts, online accounts, memberships, licenses, contacts and anything else.\n\nDesign your own fields (or start from a template), then browse records as a list, detailed list, spreadsheet-style table (with a frozen first column), cards, or an image gallery.\n\nRegiBase works together with your other Nextcloud apps — Contacts, Tables, Files, Notes and Calendar — using each one when it is installed.\n\nFeatures:\n- Custom form fields with per-field input rules, built from reusable templates\n- Save your own templates, and edit the built-in ones (per-user override, resettable to default)\n- Duplicate a collection — optionally including all of its records\n- Share a collection with other Nextcloud users at three levels (view / edit / delete), with an optional access password and optional secret-field sharing\n- Optional client-side encryption (AES-GCM) for secret fields — the server never sees the key or the plaintext\n- Nextcloud Tables integration: import a table into a new collection, or export a collection to a new Tables table\n- Import from CSV / JSON (e.g. Google Password Manager), or from your Nextcloud Contacts (including photos)\n- Attach images and files from Nextcloud Files or Notes\n- Add reminders to Nextcloud Calendar from date fields, and open addresses in a map (Google Maps / OpenStreetMap / Apple Maps)\n- Move / copy / merge records between collections\n- Password-protected full backup & restore (AES-256 ZIP)\n- Read-only command-line access via occ (list / get / export / find), with opt-in secret decryption\n- Available in 12 languages",
+    "hash": "sha256-gKtzvnnFNAojJHMCICIUdCm9LnkZF8wjgqBlzvzZt8w=",
+    "url": "https://github.com/ktec-nc-apps/RegiBase/releases/download/v0.17.5/regibase.tar.gz",
+    "version": "0.17.5",
+    "description": "RegiBase is a lightweight personal database for the information you want to keep — credit cards, bank accounts, online accounts, memberships, licenses, contacts and anything else.\n\nDesign your own fields (or start from a template), then browse records as a list, a spreadsheet-style table (with a frozen first column), or cards, and choose per field which of those views it appears in.\n\nRegiBase works together with your other Nextcloud apps — Contacts, Tables, Files, Notes and Calendar — using each one when it is installed.\n\nFeatures:\n- Custom form fields with per-field input rules, built from reusable templates\n- Save your own templates, and edit the built-in ones (per-user override, resettable to default)\n- Duplicate a collection — optionally including all of its records\n- Share a collection with Nextcloud users or groups at three levels (view / edit / delete), with an optional access password and optional secret-field sharing\n- Optional client-side encryption (AES-GCM) for secret fields — the server never sees the key or the plaintext\n- Nextcloud Tables integration: import a table into a new collection, or export a collection to a new Tables table\n- Import from CSV / JSON (e.g. Google Password Manager), or from your Nextcloud Contacts (including photos)\n- Attach images and files from Nextcloud Files or Notes\n- Add reminders to Nextcloud Calendar from date fields, and open addresses in a map (Google Maps / Yahoo! Maps / OpenStreetMap / Apple Maps / Bing Maps), configurable per collection\n- Move / copy / merge records between collections\n- Password-protected full backup & restore (AES-256 ZIP)\n- Command-line access via occ — list / get / export / find (with regex), plus master-key management (set / change / remove) — with opt-in secret decryption\n- Available in 12 languages",
     "homepage": "https://github.com/ktec-nc-apps/RegiBase",
     "licenses": [
       "agpl"
@@ -3810,8 +3840,8 @@
     ]
   },
   "uniteos_notifier": {
-    "hash": "sha256-yoNEdBloqNFtXTZsR4EN1PoTlGRjQKObaZ2B+qSFp4g=",
-    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/main/uniteos_notifier.tar.gz",
+    "hash": "sha256-vaWgvCrCGCfm5ygADrXCKR/nRTU9DFar/FQZg59ajus=",
+    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/1.0.6/uniteos_notifier.tar.gz",
     "version": "1.0.6",
     "description": "This app allows forwarding Nextcloud events for a deeper integration into UniteOS developed by wechange eG by presenting a selected set of events as user notifications.",
     "homepage": "",
@@ -3949,6 +3979,16 @@
       "agpl"
     ]
   },
+  "user_vo": {
+    "hash": "sha256-Md09VQFphhwVBEQXo0OpIAPseRwq61wVzFLePiagfVc=",
+    "url": "https://github.com/bkhoesie/user_vo/releases/download/v0.3.3/user_vo.tar.gz",
+    "version": "0.3.3",
+    "description": "Use VereinOnline User Authentication to give VereinOnline users access to your Nextcloud instance.\n\nThe [documentation](https://github.com/bkhoesie/user_vo) describes how this plugin is configured.",
+    "homepage": "https://github.com/bkhoesie/user_vo",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "userrightsoverview": {
     "hash": "sha256-ohWeAyOPdHWsP9LEJp4Gwv23EVseW7MfZ3R1nLVhz8Q=",
     "url": "https://codeberg.org/sarwodwiwaskito/userrightsoverview/releases/download/v1.0.1/userrightsoverview-1.0.1.tar.gz",
@@ -3980,9 +4020,9 @@
     ]
   },
   "vereinsbuchhaltung": {
-    "hash": "sha256-y4NJIz59p2AAHD6ZZsYDeBMDXODOZw5kioFD0qCQDEg=",
-    "url": "https://github.com/AndiMb/nc_vereinsbuchhaltung/releases/download/v0.11.2/vereinsbuchhaltung-0.11.2.tar.gz",
-    "version": "0.11.2",
+    "hash": "sha256-vjZiEWgoiHJU8S6VX1VgRTW2/HL0lZFfKxi7XtG5ww0=",
+    "url": "https://github.com/AndiMb/nc_vereinsbuchhaltung/releases/download/v0.12.0/vereinsbuchhaltung-0.12.0.tar.gz",
+    "version": "0.12.0",
     "description": "**Buchhaltung für Vereine – vollständig in der eigenen Nextcloud.**\n\nFür Kassenwartinnen und Kassenwarte kleiner und mittlerer Vereine, die keine\nBuchhaltungssoftware betreiben und ihre Finanzdaten nicht in eine Cloud eines\nAnbieters geben wollen. Die Daten bleiben, wo eure Nextcloud steht.\n\nMan muss kein Buchhalter sein: im **Einfach-Modus** erfasst man „Einnahme\" oder\n„Ausgabe\" mit Betrag, Datum und Kategorie – die doppelte Buchführung im\nHintergrund erledigt die App. Wer Soll und Haben selbst setzen möchte, schaltet\nin den Experten-Modus um.\n\n## Der Arbeitsablauf\n\n1. **Kontoauszug importieren** – CSV-CAMT aus dem Onlinebanking, wie es\n   Sparkassen, Volksbanken und die meisten anderen Institute anbieten. Bereits\n   vorhandene Umsätze erkennt die App und überspringt sie.\n2. **Umsätze zuordnen** – jede Bankbuchung bekommt ein Gegenkonto. Regeln\n   erledigen wiederkehrende Zuordnungen (Miete, Beiträge, Gebühren) automatisch.\n3. **Belege anhängen** – Foto oder PDF, wahlweise in einem Nextcloud-Ordner\n   eurer Wahl oder app-intern gespeichert.\n4. **Auswerten und berichten** – Kassenbericht für die Mitgliederversammlung,\n   Kurzbericht für die Vorstandssitzung, Exporte für die Kassenprüfung.\n\n## Was die App kann\n\n- **Doppelte Buchführung** mit frei definierbarem Kontenrahmen; ein\n  Standard-Kontenrahmen für Vereine ist mitgeliefert\n- **Kassenbericht** und **Kurzbericht** als druckfertige Seiten (Strg+P), auf\n  Wunsch mit Vereinslogo und Akzentfarbe\n- **Finanzplan** mit Plan-Ist-Vergleich und einfrierbaren Planständen\n- **Gemeinnützigkeit:** Sphären nach dem Vier-Sphären-Modell (ideell,\n  Vermögensverwaltung, Zweckbetrieb, wirtschaftlicher Geschäftsbetrieb) und\n  Rücklagen nach § 62 AO\n- **Offene Posten** – unbezahlte Forderungen mit Fälligkeit im Blick\n- **Mehrjahres-Trend** und Auswertung nach Kostenstellen\n- **Jahresabschluss:** ein festgeschriebenes Geschäftsjahr lässt sich nicht mehr\n  verändern; fortlaufende, lückenlose Buchungsnummern je Jahr\n- **Änderungsprotokoll:** wer hat wann was geändert\n- **Rollen:** Verwalter, Buchhalter und Revisor – die Kassenprüfung bekommt\n  Lesezugriff auf alles, ohne etwas ändern zu können\n- **Für unterwegs:** eigene Ansicht für das Smartphone, Beleg direkt abfotografieren\n- **Kassenprüfung:** alle Belege eines Jahres als ZIP, druckfertige\n  Kurzanleitung für die Prüfperson, Vollständigkeitsprüfung der Buchungsnummern\n\nEin **Beispielverein** lässt sich mit einem Klick anlegen, um alles gefahrlos\nauszuprobieren, und mit einem weiteren Klick wieder entfernen.\n\nBestehende Daten aus „zero Buchhaltung\" können über deren xbuc-Dateien\nübernommen werden.\n\nAusführliches Handbuch auf Deutsch: siehe Dokumentation.",
     "homepage": "https://github.com/AndiMb/nc_vereinsbuchhaltung",
     "licenses": [
