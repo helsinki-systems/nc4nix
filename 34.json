@@ -210,9 +210,9 @@
     ]
   },
   "audiocheck": {
-    "hash": "sha256-XKwiyqrrnZchjESE5Np1yUGmPua6K3ZMeQwBdiEEsNU=",
-    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-audiocheck/releases/download/v1.2.16/audiocheck-1.2.16.tar.gz",
-    "version": "1.2.16",
+    "hash": "sha256-LEgmBYzbZPfA0U3JsNhRReXMIEB1uLGZERIb8jbIK0U=",
+    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-audiocheck/releases/download/v1.2.17/audiocheck-1.2.17.tar.gz",
+    "version": "1.2.17",
     "description": "# AudioCheck — your audio library inside Nextcloud\n\nYour audio files already live in Files. AudioCheck indexes the folders you choose, streams with live permission checks, and keeps a **persistent mini-player** while you browse the rest of Nextcloud.\n\nThe app is **free** under AGPL-3.0-or-later. There is no seat license for this web app in the shipped package.\n\n## What you get\n\n- Separate music and audiobook library roots; collections, albums and folder browsing\n- Multi-file audiobooks as one queue; resume stored on your server per account\n- Durable playback queue; optional resume on open; Continue listening on Home and the dashboard widget\n- Playlists; Favorites synced with Files stars\n- Chapter jumps on M4B (and tagged chapter metadata); playback speed 0.5×–4.0×\n- Files actions: Play in AudioCheck / Play folder as album\n- Browse by artists, authors, genres, series, folders, tags and favorites\n- Optional access restriction (Nextcloud admins always retain access)\n- UI languages: English and German\n- Accessibility foundations aimed at WCAG 2.1 AA (not a third-party certification)\n\n## Formats\n\n**Indexed and streamed on the server:** MP3, MP4/M4A/M4B (including podcasts tagged as video/mp4), OGG, Opus, FLAC, WAV, AAC and other common `audio/*` types.\n\n**Browser playback** depends on the browser: MP3, M4A, M4B, AAC, OGG, Opus and WAV usually work; FLAC and some others may need a different browser.\n\n## Get started\n\n1. Open **Library**, add music and audiobook folders, then **Scan now** (or `occ audiocheck:scan`).\n2. In **Settings**, enable **Resume where you left off** if you want that behaviour.\n3. Open **Music** or **Audiobooks** and press Play — the mini-player stays visible while you navigate.\n\n## Honest limits\n\n- Playback bytes go through a single file-access gate with live permission checks; revoked shares stop playback. The app makes no outbound HTTP calls for playback.\n- Scan depth is capped (32 folder levels). Playlist play/shuffle has a documented track cap (2000).\n- Declared databases: MySQL and PostgreSQL only.\n\n## Requirements\n\n- Nextcloud 32–34\n- PHP 8.2–8.5\n- MySQL or PostgreSQL",
     "homepage": "https://nextcloud.software-by-design.de",
     "licenses": [
@@ -570,9 +570,9 @@
     ]
   },
   "cromqr": {
-    "hash": "sha256-zVUCPfR64jjuUSnyte43KDNkjisl6Upxa6H48J4lO0E=",
-    "url": "https://github.com/skaife/cromqr/releases/download/v1.1.1/cromqr-v1.1.1.tar.gz",
-    "version": "1.1.1",
+    "hash": "sha256-IBNaxU4h7fRgNKvDw6FBgf05Z/qDc08TjBWf8FC5Q4w=",
+    "url": "https://github.com/skaife/cromqr/releases/download/v1.1.2/cromqr-v1.1.2.tar.gz",
+    "version": "1.1.2",
     "description": "CromQR is a personal QR code library and generator for Nextcloud.\n\nGenerate QR codes from seven data types — URLs, plain text, contact cards (vCard), Wi-Fi credentials, email addresses, SMS messages, and geographic coordinates. Customize foreground and background colors, preview codes live, and save them to your personal library.\n\n**Features:**\n- 7 QR code types: URL, Text, vCard, Wi-Fi, Email, SMS, Geo\n- Live preview with custom color pickers\n- Personal library with list and grid views\n- Save, edit, and soft-delete library entries\n- Download as SVG or PNG\n- Export directly to Nextcloud Files\n- Per-user isolation — each user has their own private library\n- Fully client-side QR generation — no external services",
     "homepage": "https://github.com/skaife/cromqr",
     "licenses": [
@@ -1200,9 +1200,9 @@
     ]
   },
   "forum": {
-    "hash": "sha256-+ch1xLSo10O7+hgIf7iAB0EkZkjnNtL/A8CO/nYvOZE=",
-    "url": "https://github.com/chenasraf/nextcloud-forum/releases/download/v1.3.0/forum-v1.3.0.tar.gz",
-    "version": "1.3.0",
+    "hash": "sha256-M4MLSYXKfFOvALIYoUD2sCtBxfDRI1nbdVLO7wDvkvc=",
+    "url": "https://github.com/chenasraf/nextcloud-forum/releases/download/v1.3.1/forum-v1.3.1.tar.gz",
+    "version": "1.3.1",
     "description": "Create discussions, share ideas, and collaborate with your community directly in Nextcloud.\n\n**Key features:**\n- **Threaded Discussions** - Create and reply to organized discussion threads with pagination\n- **Category Organization** - Structure your forum with customizable categories, headers, colors, and drag-and-drop reordering\n- **Rich Text Formatting** - BBCode formatting with built-in and custom tags, toolbar with overflow menu\n- **File Attachments** - Attach files from your Nextcloud storage or upload via drag-and-drop\n- **Notifications** - Subscribe to threads and get notified on replies and @mentions\n- **Post Reactions** - React to posts with emoji reactions\n- **Read/Unread Tracking** - Track unread posts at thread and category level\n- **Bookmarks** - Save threads for quick access\n- **Search** - Advanced search with boolean operators and category filtering\n- **User Profiles** - View post history, statistics, and role badges\n- **Roles and Teams** - Fine-grained permissions per role or Nextcloud Team, per category\n- **Guest Access** - Optional public access for unauthenticated visitors with configurable permissions\n- **Edit History** - View post revision history with configurable visibility and per-account privacy controls\n- **Reusable Templates** - Save and insert frequently used content snippets\n- **Signatures** - BBCode-formatted signatures on posts\n- **Thread Drafts** - Auto-saved drafts per category\n- **Dashboard Widgets** - Recent activity, top threads, and top categories on the Nextcloud dashboard\n- **Direct Post Links** - Link directly to a specific post within a thread\n- **Moderation Tools** - Pin, lock, hide, and move threads; review and restore deleted content\n- **Management Tools** - Manage categories, roles, BBCodes, and forum settings with granular permissions\n- **Server Administration** - Repair seeds, rebuild statistics, and assign roles from the Nextcloud admin panel\n\n**Perfect for:**\n- Team discussions and collaboration\n- Community forums\n- Support channels\n- Knowledge bases\n- Project discussions\n- Internal communication\n\nThe forum integrates seamlessly with your Nextcloud instance, using your existing accounts and teams for authentication and access control.",
     "homepage": "https://github.com/chenasraf/nextcloud-forum",
     "licenses": [
@@ -1260,10 +1260,10 @@
     ]
   },
   "gestion": {
-    "hash": "sha256-Lc3T/jtECb0aROjYQgHtI+DdAgyFkn2EstDh6q0tems=",
-    "url": "https://github.com/baimard/gestion/releases/download/3.2.5/gestion-3.2.5.tar.gz",
-    "version": "3.2.5",
-    "description": "# Run your business with Gestion\nGestion is a Nextcloud application designed to make invoicing simple, secure, and efficient for freelancers, micro-enterprises, and small businesses.\n\nKey Features:\n* Add and manage customer profiles\n* Create and customize product entries\n* Generate professional quotes and invoices in PDF format\n* Generate electronic invoices in the Factur-X format\n* Send PDFs directly by email from the application\n* Store generated documents securely within your Nextcloud instance\n* Track your business activities more efficiently\n\n✨ Electronic invoicing is supported in France. Gestion can generate Factur-X invoices that combine a human-readable PDF with structured electronic invoice data.\n\nFactur-X files can always be generated and downloaded without using an external platform. Each company can also select and configure a compatible approved electronic invoicing platform. Iopole is the first integrated provider and the provider architecture is designed to support additional platforms.\n\nThe PDF generation system has also been redesigned to improve document layout, styling, and compatibility.\n\nGestion integrates seamlessly with the Nextcloud ecosystem and keeps your business data under your control. A presentation video is available in the user documentation to help you discover the application's main features.\n\nIf you require adaptations to comply with your country's regulations, please open an issue on the GitHub repository.\n\n[![Donate](https://img.shields.io/badge/Donate-Buy%20me%20a%20coffee-yellow.svg)](https://www.buymeacoffee.com/benjaminaimard)",
+    "hash": "sha256-RjlpN0v0NRWELbXdZf4MSFlbTf6dIJ79Qf+08zgTObo=",
+    "url": "https://github.com/baimard/gestion/releases/download/3.2.10/gestion-3.2.10.tar.gz",
+    "version": "3.2.10",
+    "description": "# Run your business with Gestion\nGestion is a Nextcloud application designed to make invoicing simple, secure, and efficient for freelancers, micro-enterprises, and small businesses.\n\nKey Features:\n* Add and manage customer profiles\n* Create and customize product entries\n* Generate professional quotes and invoices in PDF format\n* Generate electronic invoices in the Factur-X format\n* Send PDFs directly by email from the application\n* Store generated documents securely within your Nextcloud instance\n* Track your business activities more efficiently\n\n✨ Electronic invoicing is supported in France. Gestion can generate Factur-X invoices that combine a human-readable PDF with structured electronic invoice data.\n\nFactur-X files can always be generated and downloaded without using an external platform. Each company can also select and configure a compatible approved electronic invoicing platform. Iopole is [...]\n\nThe PDF generation system has also been redesigned to improve document layout, styling, and compatibility.\n\nGestion integrates seamlessly with the Nextcloud ecosystem and keeps your business data under your control. A presentation video is available in the user documentation to help you discover the applica[...]\n\nIf you require adaptations to comply with your country's regulations, please open an issue on the GitHub repository.\n\n[![Donate](https://img.shields.io/badge/Donate-Buy%20me%20a%20coffee-yellow.svg)](https://www.buymeacoffee.com/benjaminaimard)",
     "homepage": "https://github.com/baimard/gestion",
     "licenses": [
       "agpl"
@@ -1870,9 +1870,9 @@
     ]
   },
   "intravox": {
-    "hash": "sha256-aENL/CF4zyoMYDrJC9cn0SxWF9K0E/+RgCuqASA2MSg=",
-    "url": "https://github.com/nextcloud/IntraVox/releases/download/v1.9.5/intravox-1.9.5.tar.gz",
-    "version": "1.9.5",
+    "hash": "sha256-rruWMma8jURL+I8WZetByjeaAyMYOZN+6qIFExxcILo=",
+    "url": "https://github.com/nextcloud/IntraVox/releases/download/v1.9.6/intravox-1.9.6.tar.gz",
+    "version": "1.9.6",
     "description": "IntraVox transforms Nextcloud into a full-featured intranet platform. Build professional pages with a visual drag-and-drop editor — no coding required. A complete, open-source alternative to SharePoint.\n\n**Page editor:**\n* Drag-and-drop widget placement with flexible grid layouts (1–5 columns)\n* 7 ready-made page templates to get started quickly\n* Collapsible sections, sticky toolbar, and row duplication\n* Draft/Published workflow with page locking to prevent conflicts\n\n**Rich widget library:**\n* Text (with tables and markdown), images, video, links, files, dividers\n* Calendar widget with multi-calendar merged view and recurring events\n* People widget with user profiles, filters, and birthday tracking\n* News widget with list, grid, and carousel layouts\n* Photo Story widget — photo galleries with EXIF metadata, OpenStreetMap location clustering, and an accessible Apple-style lightbox\n* File Story widget — document libraries with timeline, list, tiles, and grouped layouts; MetaVox-aware filtering; federated-share awareness\n\n**Collaboration & engagement:**\n* Emoji reactions and threaded comments on pages\n* Version history with one-click restore\n* Personal RSS feed for following page updates\n* Public sharing with optional password protection\n\n**Content management:**\n* Multi-language support — admins choose which Transifex-translated languages to enable\n* Navigation editor with megamenu and sidebar options\n* Full export/import to ZIP — including Confluence HTML import\n* Demo content to get started in minutes\n\n**Enterprise ready:**\n* Department-based access control via Team folders ACL\n* Nextcloud Unified Search integration (Ctrl+K)\n* Seamless theming, users, groups, and files integration\n\n**Requirements:**\n* Nextcloud 32, 33, or 34\n* PHP 8.2 or higher\n* Team folders app (installed and enabled)\n\n**Ideal for:**\n* Company intranets and news portals\n* Department knowledge bases\n* Internal communication and documentation\n* SharePoint-to-Nextcloud migrations",
     "homepage": "https://voxcloud.nl",
     "licenses": [
@@ -2010,9 +2010,9 @@
     ]
   },
   "linkboard": {
-    "hash": "sha256-GJ0ide3F/DgaCF9lHj76vF7nVe0/yvP74vY8kTLTc48=",
-    "url": "https://github.com/tschuegy/linkboard-nextcloud/releases/download/v1.11.0/linkboard.tar.gz",
-    "version": "1.11.0",
+    "hash": "sha256-2EfpY8JCtMTAhyc27Ltky/THO/v6T8HD5up9BBriZLo=",
+    "url": "https://github.com/tschuegy/linkboard-nextcloud/releases/download/v1.11.1/linkboard.tar.gz",
+    "version": "1.11.1",
     "description": "**LinkBoard** – A beautiful, customizable service dashboard for your homelab.\n\nOrganize your services in categories, monitor their status,\nand access everything from within Nextcloud.\n\n### Features\n- 🏠 Personal dashboard with service tiles grouped by category\n- 🎨 Dark/Light mode with customizable backgrounds\n- 🖼️ Flexible icon system (upload, URL, Material Design Icons)\n- 📋 YAML & JSON import/export (Gethomepage compatible)\n- 🔍 Quick search across all services\n- 📂 Nested categories with drag & drop grouping\n- ✏️ Inline editing with drag & drop sorting\n- 🩺 Service health checks with status indicators\n- 📈 Status history with response time charts and uptime tracking\n- 📊 Widget system for live data from external APIs\n\nEach user gets their own personal dashboard – up to 500 services.",
     "homepage": "https://github.com/tschuegy/linkboard-nextcloud",
     "licenses": [
@@ -2270,9 +2270,9 @@
     ]
   },
   "noteberg": {
-    "hash": "sha256-Q90zIAKB37iag2BEAYGa7e54aMZFBed/fN8lxaUd6Uk=",
-    "url": "https://github.com/thomasleuthold/NoteBerg/releases/download/0.5.37/noteberg_nextcloud-0.5.37.tar.gz",
-    "version": "0.5.37",
+    "hash": "sha256-iNmJ4JytGZZ3Z8lAvwFXh2wuISvm0bVUHL2x3FGTOpE=",
+    "url": "https://github.com/thomasleuthold/NoteBerg/releases/download/0.5.39/noteberg_nextcloud-0.5.39.tar.gz",
+    "version": "0.5.39",
     "description": "NoteBerg is a note-taking app combining handwriting, rich text, and Nextcloud sync.\n\n## Features\n\n### Handwriting & Drawing\n- Handwriting input with active stylus and pressure sensitivity\n- Pen tool with customizable colors, marker/highlighter tool\n- Lasso selection — move, resize, rotate, copy selected strokes\n- Eraser tool, unlimited undo/redo\n- Mark handwritten notes as tasks\n\n### Text Editing\n- Rich text editor (WYSIWYG) with formatting, tables, colors, and font sizes\n- Automatic mode switching between drawing and text editing\n- Task checkboxes inline with notes\n\n### Media & Import/Export\n- PDF import — annotate PDFs with pen and text\n- Image insertion with cropping and perspective correction\n- PDF export with automatic A4 pagination\n\n### Organization\n- Notebooks for hierarchical organization\n- Note overview with thumbnail previews\n- Full-text search across handwriting and typed text\n- Markers tab — browse task markers across all notes\n- Recycle bin with soft delete and permanent deletion\n\n### Sync & Storage\n- Offline-first — all data stored locally in IndexedDB\n- Nextcloud sync via WebDAV with conflict resolution\n\n### UI\n- Dark mode / light mode with system preference detection\n- Background patterns — ruled lines and grid\n- Internationalization — English, German, Spanish, French, Italian, Japanese, Korean, Portuguese, Chinese\n\n### Data & Privacy\n- All note data is stored exclusively on your own Nextcloud server — no third-party services or telemetry\n- Note: uninstalling this app does not delete your note data from the server. Your notes remain in the /NoteBerg/ WebDAV folder and can be re-accessed by reinstalling the app. This is intentional — your data may also have been synced there by the NoteBerg desktop or mobile app.\n\n### Also available on other platforms\n- Android: native app via Google Play open testing: https://play.google.com/store/apps/details?id=eu.noteberg.app\n- Windows: desktop installer from GitHub Releases: https://github.com/thomasleuthold/NoteBerg/releases (unsigned build; Windows may warn about an unknown publisher)",
     "homepage": "",
     "licenses": [
@@ -2330,9 +2330,9 @@
     ]
   },
   "oidc_login": {
-    "hash": "sha256-5pdHzB57lsJHuOBiYRTONgBZoZgh1EFyE+B16A5/Lds=",
-    "url": "https://github.com/pulsejet/nextcloud-oidc-login/releases/download/v3.3.2/oidc_login.tar.gz",
-    "version": "3.3.2",
+    "hash": "sha256-88asq9LQ1+r9EbEF1owmDcCXcKxzzb+73psx2AQJgL8=",
+    "url": "https://github.com/pulsejet/nextcloud-oidc-login/releases/download/v3.3.3/oidc_login.tar.gz",
+    "version": "3.3.3",
     "description": "# OpenID Connect Login\n\nProvides user creation and login via one single OpenID Connect provider. Even though this is a fork of [nextcloud-social-login](https://github.com/zorn-v/nextcloud-social-login), it fundamentally differs in two ways - aims for simplistic, single provider login (and hence is very minimalistic), and it supports having LDAP as the primary user backend. This way, you can use OpenID Connect to login to Nextcloud while maintaining an LDAP backend with attributes with the LDAP plugin.\n\n### Features\n\n- Automatic [Identity provider endpoints discovery](https://openid.net/specs/openid-connect-discovery-1_0.html)\n- User creation at first login\n- User profile update at login (name, email, avatar, groups etc.)\n- Group creation\n- Automatic redirection from the nextcloud login page to the Identity Provider login page\n- WebDAV endpoints `Bearer` and `Basic` authentication\n- Optional removal of special characters in UID\n- Mapping of multiple names to a single display name\n- Mapping for birthdate",
     "homepage": "https://github.com/pulsejet/nextcloud-single-openid-connect",
     "licenses": [
@@ -2350,9 +2350,9 @@
     ]
   },
   "opencase": {
-    "hash": "sha256-SOncbqPkugOgZVfznd95MsnAiE2YaCyokxe6kO9AnFs=",
-    "url": "https://github.com/lamotech/opencase/releases/download/0.9.4/opencase-0.9.4.tar.gz",
-    "version": "0.9.4",
+    "hash": "sha256-Cx4WO8a/8cBosNyzJtgKYJTMXqhTuxbUKf5v/GUbGWU=",
+    "url": "https://github.com/lamotech/opencase/releases/download/0.9.5/opencase-0.9.5.tar.gz",
+    "version": "0.9.5",
     "description": "OpenCase provides a comprehensive case and document management system\n(ESDH) designed for Danish municipalities, built as a native Nextcloud app.\n\nFeatures:\n- Case management with KLE classification codes\n- Document management with versioning\n- Fine-grained access control based on organisation, classification, and sensitivity\n- Full-text search via Elasticsearch with Danish language support\n- Native integration with Nextcloud Office (Collabora/ONLYOFFICE)\n- Virtual filesystem integration — access case files from Mail, Talk, and other apps\n- Per-user document access overrides\n- Comprehensive REST API",
     "homepage": "",
     "licenses": [
@@ -2560,11 +2560,21 @@
     ]
   },
   "projectcheck": {
-    "hash": "sha256-Pjg9QWuK6FvGzcwd4zhQTehTI2XuNrVnigGUpK+cxBQ=",
-    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-projectcheck/releases/download/v2.0.93/projectcheck-2.0.93.tar.gz",
-    "version": "2.0.93",
+    "hash": "sha256-Q3J6+jNUtirmzURC9I9nTJmKer2eDhRrOPjxP9CL4Zg=",
+    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-projectcheck/releases/download/v2.0.94/projectcheck-2.0.94.tar.gz",
+    "version": "2.0.94",
     "description": "# Projects, time and budgets — in one place.\n\nProjectCheck keeps customers, projects, people, time entries and optional budgets on the Nextcloud you already host. Book time against projects. Resolve hourly rates on the server from dated history. See remaining budget before the month runs away.\n\n**Free web app** (AGPL-3.0-or-later). Companion apps: https://nextcloud.software-by-design.de/\n\n## Why teams install it\n\n- **Run the portfolio** — customers and projects with status, dates, search and sort\n- **Invite the right people** — Nextcloud users with roles and permissions per project\n- **Book and export time** — browse, filter and export entries against projects\n- **Price with a history** — server-side rates from project, employee master data or per-person on the project; append-only rate history\n- **Watch the numbers** — optional budgets and remaining visibility; dashboard overview; files on projects\n\n## Clear limits\n\n- Mobile may preview rates; the server stays authoritative.\n- Prefer `ProjectCheck*` in new integrations — `ProjectControl*` / `OCA.ProjectControl` are deprecated aliases.\n\n## Requirements\n\n- Nextcloud 32–34 · PHP 8.2–8.5 · MySQL/MariaDB or PostgreSQL",
     "homepage": "https://nextcloud.software-by-design.de",
+    "licenses": [
+      "AGPL-3.0-or-later"
+    ]
+  },
+  "proofing_gallery": {
+    "hash": "sha256-9XY0MctjNy5vONWYnmy56u6enW48ZoJajF4oWaf7dOU=",
+    "url": "https://github.com/soerennb/nextcloud-proofing_gallery/releases/download/v0.7.0/proofing_gallery.tar.gz",
+    "version": "0.7.0",
+    "description": "Publish existing Nextcloud folders as customizable client galleries.\nCollect likes, workflow states, comments, annotations, and named selections\nwithout copying or changing original files.",
+    "homepage": "https://soerennb.github.io/nextcloud-proofing_gallery/",
     "licenses": [
       "AGPL-3.0-or-later"
     ]
@@ -2710,9 +2720,9 @@
     ]
   },
   "schwarzes_brett": {
-    "hash": "sha256-Wb/PrYW1T4HQ3fwROqgEnb7dVb8XaOG694jbAlAJsQw=",
-    "url": "https://github.com/eric-wien/schwarzes_brett/releases/download/v1.3.2/schwarzes_brett-v1.3.2.tar.gz",
-    "version": "1.3.2",
+    "hash": "sha256-kWElUKTZISFcS4ydqU5zddEAa6exyl8EXvqLxQwFV5g=",
+    "url": "https://github.com/eric-wien/schwarzes_brett/releases/download/v1.4.0/schwarzes_brett-v1.4.0.tar.gz",
+    "version": "1.4.0",
     "description": "A shared notice board where people can publish notes with categories, dates,\nlocations, images, and links. The five newest notes are also available as a\nNextcloud Dashboard widget.",
     "homepage": "https://github.com/eric-wien/schwarzes_brett",
     "licenses": [
@@ -2800,9 +2810,9 @@
     ]
   },
   "sharepath": {
-    "hash": "",
-    "url": "https://github.com/arundne/nextcloud-sharing-path/releases/download/v0.7.1/sharepath-0.7.1.tar.gz",
-    "version": "0.7.1",
+    "hash": "sha256-j1uWwKSUuUCJplkhNOosC0Wgyg3elELg02gCEFfrJJA=",
+    "url": "https://github.com/arundne/nextcloud-sharing-path/releases/download/v0.7.2/sharepath-0.7.2.tar.gz",
+    "version": "0.7.2",
     "description": "# Sharing Path  [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F1F51I62J)\n\nSharing Path enhance files sharing usage. Easy share, multi-use.\n\nNow you can share your files by path format like below:\n\n`https://youre-domain/nextcloud/apps/sharepath/username/shared-file-stored-path`\n\nIn this way, you can use your nextcloud as CDN origin storage 🌩.\n\n⚠️ **Attention** *Potential security risk: links could be guessed and the files in shared directories can be accessed.*\n\n\n## Disclaimer\n\nThis maintenance fork (v0.7.0+) was modernized with substantial assistance from an AI coding agent (Claude Code) and tested against Nextcloud 33.0.6. The software is provided **\"as is\"** without warranty of any kind; the authors and maintainers accept **no liability** for damages or unintended exposure of files (see AGPL sections 15 and 16). Review before use in critical environments — use at your own risk.\n\n\n## Usage\n\nCheck `Enable sharing path` at `Setting` > `Sharing` first.\n\nThen just share your files or directories(add a share link without `Hide download` or `Password protect` and not expired if expiration date has set), then you can get the url by click `Copy Sharing Path` from more icon `···` dropdown actions menu or right click menu.\n\nThere are some settings in `Settings` > `Sharing`(Administration & Personal) > `Sharing Path` you may need take a look.",
     "homepage": "https://github.com/arundne/nextcloud-sharing-path",
     "licenses": [
@@ -3270,8 +3280,8 @@
     ]
   },
   "uniteos_notifier": {
-    "hash": "sha256-vaWgvCrCGCfm5ygADrXCKR/nRTU9DFar/FQZg59ajus=",
-    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/1.0.6/uniteos_notifier.tar.gz",
+    "hash": "sha256-yoNEdBloqNFtXTZsR4EN1PoTlGRjQKObaZ2B+qSFp4g=",
+    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/main/uniteos_notifier.tar.gz",
     "version": "1.0.6",
     "description": "This app allows forwarding Nextcloud events for a deeper integration into UniteOS developed by wechange eG by presenting a selected set of events as user notifications.",
     "homepage": "",
@@ -3420,9 +3430,9 @@
     ]
   },
   "vereinsbuchhaltung": {
-    "hash": "sha256-hHHR14dBHL4l4r2m4Tjd6cgnSelOoNBm1DZioPbLjCA=",
-    "url": "https://github.com/AndiMb/nc_vereinsbuchhaltung/releases/download/v0.19.2/vereinsbuchhaltung-0.19.2.tar.gz",
-    "version": "0.19.2",
+    "hash": "sha256-PCZGRTyu81cGs75cIt2SvgU40FJvjj19WE17eTDmzTU=",
+    "url": "https://github.com/AndiMb/nc_vereinsbuchhaltung/releases/download/v0.19.3/vereinsbuchhaltung-0.19.3.tar.gz",
+    "version": "0.19.3",
     "description": "**Buchhaltung für Vereine – vollständig in der eigenen Nextcloud.**\n\nFür Kassenwartinnen und Kassenwarte kleiner und mittlerer Vereine, die keine\nBuchhaltungssoftware betreiben und ihre Finanzdaten nicht in eine Cloud eines\nAnbieters geben wollen. Die Daten bleiben, wo eure Nextcloud steht.\n\nMan muss kein Buchhalter sein: im **Einfach-Modus** erfasst man „Einnahme\" oder\n„Ausgabe\" mit Betrag, Datum und Kategorie – die doppelte Buchführung im\nHintergrund erledigt die App. Wer Soll und Haben selbst setzen möchte, schaltet\nin den Experten-Modus um.\n\n**[▶ Die App in zwei Minuten (Video)](https://youtu.be/eaF-tAQ_OOM)** – Kontoauszüge\nimportieren, Umsätze zuordnen, auswerten und den Kassenbericht für die\nMitgliederversammlung erzeugen.\n\n## Der Arbeitsablauf\n\n1. **Kontoauszug importieren** – CSV-CAMT aus dem Onlinebanking, wie es\n   Sparkassen, Volksbanken und die meisten anderen Institute anbieten. Bereits\n   vorhandene Umsätze erkennt die App und überspringt sie.\n2. **Umsätze zuordnen** – jede Bankbuchung bekommt ein Gegenkonto. Regeln\n   erledigen wiederkehrende Zuordnungen (Miete, Beiträge, Gebühren) automatisch.\n3. **Belege anhängen** – Foto oder PDF, wahlweise in einem Nextcloud-Ordner\n   eurer Wahl oder app-intern gespeichert.\n4. **Auswerten und berichten** – Kassenbericht für die Mitgliederversammlung,\n   Kurzbericht für die Vorstandssitzung, Exporte für die Kassenprüfung.\n\n## Was die App kann\n\n- **Doppelte Buchführung** mit frei definierbarem Kontenrahmen; ein\n  Standard-Kontenrahmen für Vereine ist mitgeliefert\n- **Kassenbericht** und **Kurzbericht** als druckfertige Seiten (Strg+P), auf\n  Wunsch mit Vereinslogo und Akzentfarbe\n- **Finanzplan** mit Plan-Ist-Vergleich und einfrierbaren Planständen\n- **Gemeinnützigkeit:** Sphären nach dem Vier-Sphären-Modell (ideell,\n  Vermögensverwaltung, Zweckbetrieb, wirtschaftlicher Geschäftsbetrieb) und\n  Rücklagen nach § 62 AO\n- **Offene Posten** – unbezahlte Forderungen mit Fälligkeit im Blick\n- **Mehrjahres-Trend** und Auswertung nach Kostenstellen\n- **Jahresabschluss:** ein festgeschriebenes Geschäftsjahr lässt sich nicht mehr\n  verändern; fortlaufende, lückenlose Buchungsnummern je Jahr\n- **Änderungsprotokoll:** wer hat wann was geändert\n- **Rollen:** Verwalter, Buchhalter und Revisor – die Kassenprüfung bekommt\n  Lesezugriff auf alles, ohne etwas ändern zu können\n- **Für unterwegs:** eigene Ansicht für das Smartphone, Beleg direkt abfotografieren\n- **Kassenprüfung:** alle Belege eines Jahres als ZIP, druckfertige\n  Kurzanleitung für die Prüfperson, Vollständigkeitsprüfung der Buchungsnummern\n\nEin **Beispielverein** lässt sich mit einem Klick anlegen, um alles gefahrlos\nauszuprobieren, und mit einem weiteren Klick wieder entfernen.\n\nBestehende Daten aus „zero Buchhaltung\" können über deren xbuc-Dateien\nübernommen werden.\n\nAusführliches Handbuch auf Deutsch: siehe Dokumentation.",
     "homepage": "https://github.com/AndiMb/nc_vereinsbuchhaltung",
     "licenses": [
@@ -3495,6 +3505,16 @@
     "version": "1.9.0",
     "description": "An app to trigger automatic conversion of travel documents to calendar events. It uses kitinerary to extract the information and is compatible with the KDE itinerary mobile application.",
     "homepage": "https://github.com/mcmic/workflow_kitinerary",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "workflow_media_converter": {
+    "hash": "sha256-yWntto0FObz4qUDjV1eLq0RigZXOU5LEhLerH9vzTik=",
+    "url": "https://github.com/cwilby/nextcloud-workflow-media-converter/releases/download/v3.1.0/workflow_media_converter.tar.gz",
+    "version": "3.1.0",
+    "description": "A dedicated media conversion manager for Nextcloud that allows you to automate media conversion.\n\n**Features**\n * Convert video/audio between formats supported by FFmpeg.\n * Complete control of the conversion process.\n * Automatically convert media as it is uploaded.\n * Create batch jobs to convert existing media.",
+    "homepage": "https://github.com/cwilby/nextcloud-workflow-media-converter",
     "licenses": [
       "agpl"
     ]
