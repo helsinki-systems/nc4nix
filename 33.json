@@ -50,9 +50,9 @@
     ]
   },
   "aiquila": {
-    "hash": "sha256-UXiTcaQudaYOUkTcFvw7Y+UV3S9ckYWnvpoONU8cKvg=",
-    "url": "https://github.com/elgorro/aiquila/releases/download/nc-v0.4.2/aiquila.tar.gz",
-    "version": "0.4.2",
+    "hash": "sha256-MX31MY0nrUTesj66sHggvlaa6pMJaaeMqG8o3ZpdnwE=",
+    "url": "https://github.com/elgorro/aiquila/releases/download/nc-v0.4.3/aiquila.tar.gz",
+    "version": "0.4.3",
     "description": "**AIquila** connects your [Nextcloud](https://nextcloud.com) with [Claude AI](https://www.anthropic.com/claude) — private, self-hosted, and under your control.\n\n### Nextcloud App\n\n- **Chat** — Converse with Claude about your files and documents\n- **Summarize** — Generate concise summaries of any document\n- **Create & Edit** — Draft, rewrite, and refine content with AI assistance\n- **Text Tools** — Spellcheck, rephrase, and improve your writing\n\n### MCP Server\n\nAIquila includes a [Model Context Protocol](https://modelcontextprotocol.io) server with 100+ tools that gives Claude Desktop, Claude Code, Claude.ai, and the Claude mobile app direct access to your Nextcloud:\n\n- **Files** — Browse, read, write, search, and share\n- **Calendar & Tasks** — View, create, and manage events and to-dos\n- **Contacts & Mail** — Read and manage address books, accounts, and messages\n- **Notes & Recipes** — Create and edit Markdown notes and recipes\n- **Bookmarks & Maps** — Manage bookmarks, GPS tracks, favorites, and photos\n\n### Resources\n\n- [Documentation](https://github.com/elgorro/aiquila/blob/main/docs/README.md)\n- [Source Code](https://github.com/elgorro/aiquila)\n- [Report Issues](https://github.com/elgorro/aiquila/issues)\n- [Discussions](https://github.com/elgorro/aiquila/discussions)\n\n---\n\nMade possible by [Claude](https://www.anthropic.com/claude) from [Anthropic](https://www.anthropic.com) and the [Nextcloud](https://nextcloud.com) open-source community.",
     "homepage": "https://github.com/elgorro/aiquila",
     "licenses": [
@@ -210,9 +210,9 @@
     ]
   },
   "atrium_secureshare": {
-    "hash": "sha256-IN3xGYYjv6TP1WN9n4uoFYGe3e0AVj4mSJcbbtxxEUQ=",
-    "url": "https://github.com/atrium-secureshare/atrium-plugin-nextcloud/releases/download/atrium-secureshare-v0.1.0/atrium_secureshare-0.1.0.tar.gz",
-    "version": "0.1.0",
+    "hash": "sha256-y0vuGQGXLVhn5qJo7gkCOLfE/8d2zM1Zwhm/AlIXs38=",
+    "url": "https://github.com/atrium-secureshare/atrium-plugin-nextcloud/releases/download/atrium-secureshare-v0.1.1/atrium_secureshare-0.1.1.tar.gz",
+    "version": "0.1.1",
     "description": "Integrates Atrium Secureshare into the native Nextcloud sharing sidebar.\nExternal recipients are identified by email address; access is governed by the Atrium gateway\n(identity-bound, MFA via OIDC, mandatory terms-of-service acceptance and a full audit trail).",
     "homepage": "",
     "licenses": [
@@ -2060,9 +2060,9 @@
     ]
   },
   "integration_suitecrm": {
-    "hash": "sha256-Fb45ATPULY0Y4nk5zxUvhmHuG1E5c8QncuMhzzR5Nlw=",
-    "url": "https://github.com/njordium/integration_suitecrm/releases/download/v3.0.2/integration_suitecrm-v3.0.2.tar.gz",
-    "version": "3.0.2",
+    "hash": "sha256-WkvLjKxDnq1XkA38g6duYay0deJttbB2FJuz+T+Us+c=",
+    "url": "https://github.com/njordium/integration_suitecrm/releases/download/v3.2.3/integration_suitecrm-v3.2.3.tar.gz",
+    "version": "3.2.3",
     "description": "Bring SuiteCRM into your Nextcloud dashboard, search bar and notifications area. Signs in once with OAuth2 against a SuiteCRM 8.x instance and then keeps the two systems talking in the background.\n\n## Dashboard widgets\n\nNine widgets, grouped by intent so the dashboard reads like your day rather than a list of modules.\n\n**Schedule.** SuiteCRM Calendar (upcoming Calls and Meetings, with an optional per-user toggle for open Tasks) and SuiteCRM Tasks (open Tasks assigned to you, sorted by due date).\n\n**Workload.** SuiteCRM Cases (open Cases, filtered by SuiteCRM role ACL) and SuiteCRM Pipeline (open Opportunities grouped by sales stage with weighted amounts).\n\n**Activity.** SuiteCRM Activities (recent Calls, Meetings, Tasks and Notes across modules, sorted by date_modified so \"recent\" means \"recently touched\").\n\n**Discovery.** SuiteCRM Contacts, SuiteCRM Accounts and SuiteCRM Leads (recently added records within your ACL, sorted date_entered DESC).\n\n**Quick Actions.** A floating action button on any Nextcloud page for creating a Call, Meeting, Task, Note or Contact without leaving the current view. Toggleable per user.\n\n## Search and notifications\n\nFull-text search across Accounts, Contacts, Opportunities, Cases, Leads, Calls, Meetings, Tasks and Notes, surfaced through Nextcloud's unified search. Background job polls SuiteCRM alerts and pushes them into your Nextcloud notifications area.\n\n## Requirements\n\nSuiteCRM 8.10.x or later with the v8 REST/JSON:API enabled. SuiteCRM 7.x is no longer supported.\n\n## Upgrading from 2.x\n\nThe 3.0.0 release restored the original `integration_suitecrm` app id after the App Store record transfer. A repair step copies admin config and per-user OAuth tokens forward from the 2.x `njordium_suitecrm` install automatically on `occ upgrade`. See `docs/upgrade-2.x-to-3.0.md` in the repository for the manual rollback path if needed.",
     "homepage": "https://github.com/njordium/integration_suitecrm",
     "licenses": [
@@ -3280,10 +3280,10 @@
     ]
   },
   "samewindow": {
-    "hash": "sha256-eXP5vCwT0Yll43Toqae347sLVnZoKYacA4bcQN8mLlo=",
-    "url": "https://github.com/IT-BAER/nc-samewindow/releases/download/v1.0.3/samewindow.tar.gz",
-    "version": "1.0.3",
-    "description": "**🔗 Same Window for Nextcloud**\n\nThis app ensures that all links on frontend widgets open in the same window/tab instead of opening new windows or tabs in the browser. This provides a more seamless user experience by keeping users within the current Nextcloud interface.\n\n## ✨ Features\n\n- **🔗 Automatic link modification** - Converts all widget links to open in the same window\n- **⌨️ Modifier key support** - Ctrl/Cmd/Shift+click and middle-click still open new tabs/windows\n- **🎯 Widget-only targeting** - Only affects links within widgets, not navigation elements\n- **⚡ Dynamic content support** - Works with content loaded via AJAX through mutation observers\n- **🚫 No configuration required** - Works out of the box with no admin settings needed\n\n## 🛠️ How it Works\n\nThe app automatically detects links with `target=\"_blank\"` or `target=\"_new\"` attributes within widget areas and modifies their behavior to open in the same window. Users can still override this behavior using:\n- **Middle-click** - Opens in new tab\n\n## 💻 Compatibility\n- Nextcloud 28, 29, 30, 31, 32 & 33",
+    "hash": "sha256-qVnl1tllATJOaqswDRa4RVKNaaPKCI870p0tvwASDyc=",
+    "url": "https://github.com/IT-BAER/nc-samewindow/releases/download/v1.0.4/samewindow.tar.gz",
+    "version": "1.0.4",
+    "description": "**🔗 Same Window for Nextcloud**\n\nThis app ensures that all links on frontend widgets open in the same window/tab instead of opening new windows or tabs in the browser. This provides a more seamless user experience by keeping users within the current Nextcloud interface.\n\n## ✨ Features\n\n- **🔗 Automatic link modification** - Converts all widget links to open in the same window\n- **⌨️ Modifier key support** - Ctrl/Cmd/Shift+click and middle-click still open new tabs/windows\n- **🎯 Widget-only targeting** - Only affects links within widgets, not navigation elements\n- **⚡ Dynamic content support** - Works with content loaded via AJAX through mutation observers\n- **🚫 No configuration required** - Works out of the box with no admin settings needed\n\n## 🛠️ How it Works\n\nThe app automatically detects links with `target=\"_blank\"` or `target=\"_new\"` attributes within widget areas and modifies their behavior to open in the same window. Users can still override this behavior using:\n- **Middle-click** - Opens in new tab\n\n## 💻 Compatibility\n- Nextcloud 28, 29, 30, 31, 32, 33 & 34",
     "homepage": "",
     "licenses": [
       "AGPL-3.0-or-later"
@@ -3477,6 +3477,16 @@
     "homepage": "https://shoppinglist.otherworld.dev/",
     "licenses": [
       "agpl"
+    ]
+  },
+  "shortcuts": {
+    "hash": "sha256-BIplZD+gjtrWGiZMFYuv7daKM0SPUzFJmiR61dWXCIY=",
+    "url": "https://git.lschaefer.xyz/lukasdotcom/nextcloud-shortcuts/releases/download/v1.0.1/shortcuts-v1.0.1.tar.gz",
+    "version": "1.0.1",
+    "description": "Create shortcuts to files and folders from the Files app.\n\nA shortcut is a small `.nextcloudshortcut` file that stores the target file id. Opening it in Files resolves and opens the original file or folder.\n\nThese files only work in the web version.",
+    "homepage": "https://git.lschaefer.xyz/lukasdotcom/nextcloud-shortcuts",
+    "licenses": [
+      "AGPL-3.0-or-later"
     ]
   },
   "side_menu": {
@@ -3810,9 +3820,9 @@
     ]
   },
   "thesearchpage": {
-    "hash": "sha256-uZ1ixMA0fQFaLnp9aqDA2WhalSE6GydGnxKWlhXfe9k=",
-    "url": "https://github.com/callmemagnus/nextcloud-searchpage/releases/download/v2.4.4/thesearchpage.tar.gz",
-    "version": "2.4.4",
+    "hash": "sha256-71DDmCCENP3FPu1dX/HJ2cfvr31bC1KBuhAojtnaMWQ=",
+    "url": "https://github.com/callmemagnus/nextcloud-searchpage/releases/download/v2.4.5/thesearchpage.tar.gz",
+    "version": "2.4.5",
     "description": "🔎 A Search Page for your Nextcloud instance\n\n- [Changelog](https://raw.githubusercontent.com/callmemagnus/nextcloud-searchpage/main/CHANGELOG.md)\n- [Help translate this application](https://app.transifex.com/nextcloud/nextcloud/thesearchpage/)\n\nIt works like the existing search widget, uses the same sources to query BUT\ndisplays the results in a more readable and browsable fashion.\n\nThe content of the results depends on the other applications installed on\nyour Nextcloud instance. Every Nextcloud application can become a search\nprovider and get its results displayed by this application.\n\nOut of the Nextcloud box, you usually get the following providers:\n\n- Apps -- searches for match for in installed application names\n- Files -- searches on path and filename\n- Tags\n- Comments\n- Settings\n\nBecause of its design, the results depend on the implementation of the providers\nin respective application.\n\nKnown issues with other applications:\n\n- users -- [by design(?), it always returns an empty array](https://github.com/nextcloud/server/issues/41274) (it is hidden/disabled in this application)\n- fulltextsearch -- does not seem to AND the query terms, OR is usually less relevant\n- news -- does not provide a direct link to a feed item.\n\n\nDon't hesitate to leave a comment here or a rating!",
     "homepage": "https://github.com/callmemagnus/nextcloud-searchpage",
     "licenses": [
@@ -4170,10 +4180,10 @@
     ]
   },
   "vereinsbuchhaltung": {
-    "hash": "sha256-PCZGRTyu81cGs75cIt2SvgU40FJvjj19WE17eTDmzTU=",
-    "url": "https://github.com/AndiMb/nc_vereinsbuchhaltung/releases/download/v0.19.3/vereinsbuchhaltung-0.19.3.tar.gz",
-    "version": "0.19.3",
-    "description": "**Buchhaltung für Vereine – vollständig in der eigenen Nextcloud.**\n\nFür Kassenwartinnen und Kassenwarte kleiner und mittlerer Vereine, die keine\nBuchhaltungssoftware betreiben und ihre Finanzdaten nicht in eine Cloud eines\nAnbieters geben wollen. Die Daten bleiben, wo eure Nextcloud steht.\n\nMan muss kein Buchhalter sein: im **Einfach-Modus** erfasst man „Einnahme\" oder\n„Ausgabe\" mit Betrag, Datum und Kategorie – die doppelte Buchführung im\nHintergrund erledigt die App. Wer Soll und Haben selbst setzen möchte, schaltet\nin den Experten-Modus um.\n\n**[▶ Die App in zwei Minuten (Video)](https://youtu.be/eaF-tAQ_OOM)** – Kontoauszüge\nimportieren, Umsätze zuordnen, auswerten und den Kassenbericht für die\nMitgliederversammlung erzeugen.\n\n## Der Arbeitsablauf\n\n1. **Kontoauszug importieren** – CSV-CAMT aus dem Onlinebanking, wie es\n   Sparkassen, Volksbanken und die meisten anderen Institute anbieten. Bereits\n   vorhandene Umsätze erkennt die App und überspringt sie.\n2. **Umsätze zuordnen** – jede Bankbuchung bekommt ein Gegenkonto. Regeln\n   erledigen wiederkehrende Zuordnungen (Miete, Beiträge, Gebühren) automatisch.\n3. **Belege anhängen** – Foto oder PDF, wahlweise in einem Nextcloud-Ordner\n   eurer Wahl oder app-intern gespeichert.\n4. **Auswerten und berichten** – Kassenbericht für die Mitgliederversammlung,\n   Kurzbericht für die Vorstandssitzung, Exporte für die Kassenprüfung.\n\n## Was die App kann\n\n- **Doppelte Buchführung** mit frei definierbarem Kontenrahmen; ein\n  Standard-Kontenrahmen für Vereine ist mitgeliefert\n- **Kassenbericht** und **Kurzbericht** als druckfertige Seiten (Strg+P), auf\n  Wunsch mit Vereinslogo und Akzentfarbe\n- **Finanzplan** mit Plan-Ist-Vergleich und einfrierbaren Planständen\n- **Gemeinnützigkeit:** Sphären nach dem Vier-Sphären-Modell (ideell,\n  Vermögensverwaltung, Zweckbetrieb, wirtschaftlicher Geschäftsbetrieb) und\n  Rücklagen nach § 62 AO\n- **Offene Posten** – unbezahlte Forderungen mit Fälligkeit im Blick\n- **Mehrjahres-Trend** und Auswertung nach Kostenstellen\n- **Jahresabschluss:** ein festgeschriebenes Geschäftsjahr lässt sich nicht mehr\n  verändern; fortlaufende, lückenlose Buchungsnummern je Jahr\n- **Änderungsprotokoll:** wer hat wann was geändert\n- **Rollen:** Verwalter, Buchhalter und Revisor – die Kassenprüfung bekommt\n  Lesezugriff auf alles, ohne etwas ändern zu können\n- **Für unterwegs:** eigene Ansicht für das Smartphone, Beleg direkt abfotografieren\n- **Kassenprüfung:** alle Belege eines Jahres als ZIP, druckfertige\n  Kurzanleitung für die Prüfperson, Vollständigkeitsprüfung der Buchungsnummern\n\nEin **Beispielverein** lässt sich mit einem Klick anlegen, um alles gefahrlos\nauszuprobieren, und mit einem weiteren Klick wieder entfernen.\n\nBestehende Daten aus „zero Buchhaltung\" können über deren xbuc-Dateien\nübernommen werden.\n\nAusführliches Handbuch auf Deutsch: siehe Dokumentation.",
+    "hash": "sha256-zukS8/Gr/zGBI8apppGrHPgbl+s7AuiEUPUiq0zloIQ=",
+    "url": "https://github.com/AndiMb/nc_vereinsbuchhaltung/releases/download/v0.23.1/vereinsbuchhaltung-0.23.1.tar.gz",
+    "version": "0.23.1",
+    "description": "**Buchhaltung für Vereine – vollständig in der eigenen Nextcloud.**\n\nFür Kassenwartinnen und Kassenwarte kleiner und mittlerer Vereine, die keine\nBuchhaltungssoftware betreiben und ihre Finanzdaten nicht in eine Cloud eines\nAnbieters geben wollen. Die Daten bleiben, wo eure Nextcloud steht.\n\nMan muss kein Buchhalter sein: im **Einfach-Modus** erfasst man „Einnahme\" oder\n„Ausgabe\" mit Betrag, Datum und Kategorie – die doppelte Buchführung im\nHintergrund erledigt die App. Wer Soll und Haben selbst setzen möchte, schaltet\nin den Experten-Modus um.\n\n**[▶ Die App in zwei Minuten (Video)](https://youtu.be/eaF-tAQ_OOM)** – Kontoauszüge\nimportieren, Umsätze zuordnen, auswerten und den Kassenbericht für die\nMitgliederversammlung erzeugen.\n\n## Der Arbeitsablauf\n\n1. **Kontoauszug importieren** – CSV-CAMT, CAMT.053 (XML) oder MT940 aus dem\n   Onlinebanking; das Format erkennt die App am Inhalt, die Dateiendung spielt\n   keine Rolle. Bereits vorhandene Umsätze werden erkannt und übersprungen,\n   auch formatübergreifend. Ein Wachordner kann neue Auszüge sogar von allein\n   einlesen, ohne manuellen Import.\n2. **Umsätze zuordnen** – jede Bankbuchung bekommt ein Gegenkonto. Regeln\n   erledigen wiederkehrende Zuordnungen (Miete, Beiträge, Gebühren) automatisch.\n3. **Belege anhängen** – Foto oder PDF, wahlweise in einem Nextcloud-Ordner\n   eurer Wahl oder app-intern gespeichert.\n4. **Auswerten und berichten** – Kassenbericht für die Mitgliederversammlung,\n   Kurzbericht für die Vorstandssitzung, Exporte für die Kassenprüfung.\n\n## Was die App kann\n\n- **Doppelte Buchführung** mit frei definierbarem Kontenrahmen; ein\n  Standard-Kontenrahmen für Vereine ist mitgeliefert\n- **Kassenbericht** und **Kurzbericht** als druckfertige Seiten (Strg+P), auf\n  Wunsch mit Vereinslogo und Akzentfarbe\n- **Finanzplan** mit Plan-Ist-Vergleich und einfrierbaren Planständen\n- **Gemeinnützigkeit:** Sphären nach dem Vier-Sphären-Modell (ideell,\n  Vermögensverwaltung, Zweckbetrieb, wirtschaftlicher Geschäftsbetrieb) und\n  Rücklagen nach § 62 AO\n- **Mitgliedsbeiträge & SEPA-Lastschrift** (optional, bei Bedarf aktivierbar):\n  Mitgliederverwaltung mit CSV-Import, Lastschriftmandate, Beiträge mit\n  individueller Zahlungsfrequenz, SEPA-Sammeleinzug als pain.008-Datei für die\n  Hausbank – eigener Reiter in der Hauptnavigation; wer das Modul nicht\n  braucht, sieht ihn gar nicht\n- **Offene Posten** – unbezahlte Forderungen mit Fälligkeit im Blick\n- **Mehrjahres-Trend** und Auswertung nach Kostenstellen\n- **Jahresabschluss:** ein festgeschriebenes Geschäftsjahr lässt sich nicht mehr\n  verändern; fortlaufende, lückenlose Buchungsnummern je Jahr\n- **Änderungsprotokoll:** wer hat wann was geändert\n- **Rollen:** Verwalter, Buchhalter und Revisor – die Kassenprüfung bekommt\n  Lesezugriff auf alles, ohne etwas ändern zu können\n- **Für unterwegs:** eigene Ansicht für das Smartphone, Beleg direkt abfotografieren\n- **Kassenprüfung:** alle Belege eines Jahres als ZIP, druckfertige\n  Kurzanleitung für die Prüfperson, Vollständigkeitsprüfung der Buchungsnummern\n\nEin **Beispielverein** lässt sich mit einem Klick anlegen, um alles gefahrlos\nauszuprobieren, und mit einem weiteren Klick wieder entfernen.\n\nBestehende Daten aus „zero Buchhaltung\" können über deren xbuc-Dateien\nübernommen werden.\n\nAusführliches Handbuch auf Deutsch: siehe Dokumentation.",
     "homepage": "https://github.com/AndiMb/nc_vereinsbuchhaltung",
     "licenses": [
       "agpl"
