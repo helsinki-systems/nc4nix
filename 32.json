@@ -190,9 +190,9 @@
     ]
   },
   "arbeitszeitcheck": {
-    "hash": "sha256-MK2xfgt6BCtzelflc3+3FrsOAagOGnJeWCmhnXuv62M=",
-    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-arbeitszeitcheck/releases/download/v1.6.8/arbeitszeitcheck-1.6.8.tar.gz",
-    "version": "1.6.8",
+    "hash": "sha256-9TqUSdaSZHdjm+nvByuOgPlHpwLuqZnFy+e9/xL2bKA=",
+    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-arbeitszeitcheck/releases/download/v1.6.9/arbeitszeitcheck-1.6.9.tar.gz",
+    "version": "1.6.9",
     "description": "# Clock in. Stay within the rules you set.\n\nArbeitszeitCheck records clock-in, clock-out and breaks on the Nextcloud you already host. Pick a country profile for Germany (ArbZG), Austria (AZG/ARG) or Switzerland (ArG), match holiday regions, approve absences, run reports (including DATEV) and keep an audit log.\n\nAlso listed as **TimeGuard** in some App Store searches.\n\n**Free web app** (AGPL-3.0-or-later). Companion apps: https://nextcloud.software-by-design.de/\n\n## Why teams install it\n\n- **Start and stop work cleanly** — pauses, resume, manual entries with a reason\n- **Match your country** — DE / AT / CH profiles with Länder, Bundesländer or cantons\n- **See break and rest issues early** — technical checks against the profile you configured\n- **Run absences properly** — vacation, illness, special and unpaid leave with approval; entitlement modes and CSV import via `occ`\n- **Report what happened** — employee, team and manager views; overtime and absence reports; DATEV export\n- **Lock a month when you need to** — optional finalization with snapshot, hash and PDF; admin reopen with a reason\n- **Control access** — open to all users or allow-lists; Nextcloud admins keep access\n\n## Clear limits\n\n- This app is **not legal advice**. You stay responsible for working-time models, collective agreements, configuration and how recorded data is used. Ask counsel when needed.\n- Technical violation reports against your profile are not a third-party certification.\n- Declared databases: MySQL and PostgreSQL. Nextcloud 32–34, PHP 8.1–8.5.\n\n## Requirements\n\n- Nextcloud 32–34 · PHP 8.1–8.5 · MySQL or PostgreSQL",
     "homepage": "http://nextcloud.software-by-design.de",
     "licenses": [
@@ -210,11 +210,21 @@
     ]
   },
   "astrolabe": {
-    "hash": "sha256-NZN6CRZQ6pjoIX4xdRqrr8NmZ5yUF4GQYjdGYsWirck=",
-    "url": "https://github.com/cbcoutinho/astrolabe/releases/download/v0.42.2/astrolabe-0.42.2.tar.gz",
-    "version": "0.42.2",
+    "hash": "sha256-adkBJ8ciC51p1Zl7Izmo6JPy3DBK4wK6o6DTIdbsb80=",
+    "url": "https://github.com/cbcoutinho/astrolabe/releases/download/v0.42.3/astrolabe-0.42.3.tar.gz",
+    "version": "0.42.3",
     "description": "# Astrolabe - Semantic Search for Nextcloud\n\nFind your content by meaning, not just keywords. Astrolabe brings AI-powered semantic search to your Nextcloud, helping you discover documents, notes, calendar events, and files through natural language.\n\n## Features\n\n- **Semantic Search**: Search across Notes, Files, Calendar, Deck, and more using natural language queries\n- **Unified Search Integration**: Results appear in Nextcloud's global search bar alongside traditional results\n- **Background Indexing**: Your content is automatically indexed for instant semantic search\n- **Vector Visualization**: Explore your content in an interactive 2D visualization showing semantic relationships\n- **Hybrid Search**: Combines semantic understanding with keyword matching for best results\n\n## How It Works\n\nAstrolabe connects to a semantic search service that understands the meaning of your content. Instead of exact keyword matches, you can search for concepts - ask \"meeting notes from last week\" or \"recipes with chicken\" and find relevant documents even if they don't contain those exact words.\n\n## Getting Started\n\n1. Install and enable the app\n2. Grant background access to allow indexing of your content\n3. Start searching with natural language in Nextcloud's search bar\n\nSee [documentation](https://github.com/cbcoutinho/astrolabe) for configuration details.",
     "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "asyntai": {
+    "hash": "sha256-2kDgjuFzG5aX7eNLDd+1FOlb/cqyjl9VtBXCUyQv0Lk=",
+    "url": "https://github.com/asyntai/nextcloud-chatbot/releases/download/v1.0.0/asyntai-1.0.0.tar.gz",
+    "version": "1.0.0",
+    "description": "Adds the Asyntai AI assistant to your Nextcloud.\n\nA small chat button sits in the corner of every page. Users click it and ask a\nquestion in their own words. The assistant answers from your own content: your\nhelp pages, your handbook, your policies, your website. It replies in more than\n80 languages.\n\nTypical use: an internal help desk that never sleeps. \"How do I share a folder\nwith someone outside the company?\" \"Where is the travel policy?\" \"Who do I ask\nfor a new laptop?\" The assistant answers, so your team does not have to.\n\n**What the app does**\n\nThe app adds one small loader script to the page. The script waits for the page\nto finish drawing, then loads the assistant. Nextcloud is drawn first, so page\nspeed does not change.\n\n**What the administrator controls**\n\n* The Asyntai widget ID. Leave it empty and the assistant is switched off.\n* Whether logged in users see the assistant.\n* Whether visitors on public share pages and the login page see it.\n* An optional script address, for a self hosted widget.\n\n**Where the data goes**\n\nNextcloud never talks to Asyntai. Only the browser does, and only after the\npage has loaded. No file, no user name and no Nextcloud data is sent by the app.\n\nYou need an Asyntai account for the widget ID. There is a free plan.",
+    "homepage": "https://asyntai.com",
     "licenses": [
       "agpl"
     ]
@@ -230,9 +240,9 @@
     ]
   },
   "audiocheck": {
-    "hash": "sha256-BGCXFqucKCXRIw0D4TN+70zTFdW0g6MYImJBmzOKnOQ=",
-    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-audiocheck/releases/download/v1.2.18/audiocheck-1.2.18.tar.gz",
-    "version": "1.2.18",
+    "hash": "sha256-rNiREPCQtru4e59p/Eg0c6g/ZtrBD28BUW2fYjtf5AY=",
+    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-audiocheck/releases/download/v1.2.19/audiocheck-1.2.19.tar.gz",
+    "version": "1.2.19",
     "description": "# AudioCheck — your audio library inside Nextcloud\n\nYour audio files already live in Files. AudioCheck indexes the folders you choose, streams with live permission checks, and keeps a **persistent mini-player** while you browse the rest of Nextcloud.\n\nThe app is **free** under AGPL-3.0-or-later. There is no seat license for this web app in the shipped package.\n\n## What you get\n\n- Separate music and audiobook library roots; collections, albums and folder browsing\n- Multi-file audiobooks as one queue; resume stored on your server per account\n- Durable playback queue; optional resume on open; Continue listening on Home and the dashboard widget\n- Playlists; Favorites synced with Files stars\n- Chapter jumps on M4B (and tagged chapter metadata); playback speed 0.5×–4.0×\n- Files actions: Play in AudioCheck / Play folder as album\n- Browse by artists, authors, genres, series, folders, tags and favorites\n- Optional access restriction (Nextcloud admins always retain access)\n- UI languages: English and German\n- Accessibility foundations aimed at WCAG 2.1 AA (not a third-party certification)\n\n## Formats\n\n**Indexed and streamed on the server:** MP3, MP4/M4A/M4B (including podcasts tagged as video/mp4), OGG, Opus, FLAC, WAV, AAC and other common `audio/*` types.\n\n**Browser playback** depends on the browser: MP3, M4A, M4B, AAC, OGG, Opus and WAV usually work; FLAC and some others may need a different browser.\n\n## Get started\n\n1. Open **Library**, add music and audiobook folders, then **Scan now** (or `occ audiocheck:scan`).\n2. In **Settings**, enable **Resume where you left off** if you want that behaviour.\n3. Open **Music** or **Audiobooks** and press Play — the mini-player stays visible while you navigate.\n\n## Honest limits\n\n- Playback bytes go through a single file-access gate with live permission checks; revoked shares stop playback. The app makes no outbound HTTP calls for playback.\n- Scan depth is capped (32 folder levels). Playlist play/shuffle has a documented track cap (2000).\n- Declared databases: MySQL and PostgreSQL only.\n\n## Requirements\n\n- Nextcloud 32–34\n- PHP 8.2–8.5\n- MySQL or PostgreSQL",
     "homepage": "https://nextcloud.software-by-design.de",
     "licenses": [
@@ -350,9 +360,9 @@
     ]
   },
   "budgetcheck": {
-    "hash": "sha256-vWyYpF1haE9U7BEBfqxWZbajilAGx6GeHxl42ADFz+c=",
-    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-budgetcheck/releases/download/v1.1.12/budgetcheck-1.1.12.tar.gz",
-    "version": "1.1.12",
+    "hash": "sha256-F/XwkS9/396cup1EH+6ho/rVbE2bL+H6PhqQcsTtwoY=",
+    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-budgetcheck/releases/download/v1.1.13/budgetcheck-1.1.13.tar.gz",
+    "version": "1.1.13",
     "description": "# BudgetCheck\n\nScoped finance for Nextcloud. Each **workspace** is either a **household** (recurring monthly rhythm with budgets, savings targets, and yearly overview) or a **bounded project** (project window, period overview, optional cap warning).\n\nEvery workspace has its own ledger, categories, members, and tax settings. The **server is the source of truth** for all calculations; amounts are stored in **minor units**, never as floating-point. **Monthly close** produces an immutable snapshot with a verifiable calculation hash; controlled reopen restores editing. Optional **tax-aware** mode supports net or gross entry with deterministic VAT conversion.\n\nThe UI is **workspace-scoped** (household and project totals never mix), targets **WCAG 2.1 AA**, full keyboard use, and responsive layouts from **320px** width.\n\n## Requirements\n\n- Nextcloud 32–34\n- PHP 8.2–8.4\n- MySQL or PostgreSQL",
     "homepage": "https://nextcloud.software-by-design.de",
     "licenses": [
@@ -370,9 +380,9 @@
     ]
   },
   "calendar": {
-    "hash": "sha256-g2eJkxTushDijhzOEtjDwiTgOBhF0IthdZXpHTFe21M=",
-    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v6.5.3/calendar-v6.5.3.tar.gz",
-    "version": "6.5.3",
+    "hash": "sha256-Z8d3puqXRAnp0ijCP8YPK+jmddN2UxtrGxJfLwNlc40=",
+    "url": "https://github.com/nextcloud-releases/calendar/releases/download/v6.5.4/calendar-v6.5.4.tar.gz",
+    "version": "6.5.4",
     "description": "A Calendar app for Nextcloud. Easily sync events from various devices with your Nextcloud and edit them online.\n\n* 🚀 **Integration with other Nextcloud apps!** Like Contacts, Talk, Tasks, Deck and Circles\n* 🌐 **WebCal Support!** Want to see your favorite team's matchdays in your calendar? No problem!\n* 🙋 **Attendees!** Invite people to your events\n* ⌚ **Free/Busy!** See when your attendees are available to meet\n* ⏰ **Reminders!** Get alarms for events inside your browser and via email\n* 🔍 **Search!** Find your events at ease\n* ☑️ **Tasks!** See tasks or Deck cards with a due date directly in the calendar\n* 🔈 **Talk rooms!** Create an associated Talk room when booking a meeting with just one click\n* 📆 **Appointment booking** Send people a link so they can book an appointment with you [using this app](https://apps.nextcloud.com/apps/appointments)\n* 📎 **Attachments!** Add, upload and view event attachments\n* 🙈 **We’re not reinventing the wheel!** Based on the great [c-dav library](https://github.com/nextcloud/cdav-library), [ical.js](https://github.com/mozilla-comm/ical.js) and [fullcalendar](https://github.com/fullcalendar/fullcalendar) libraries.",
     "homepage": "https://github.com/nextcloud/calendar/",
     "licenses": [
@@ -390,9 +400,9 @@
     ]
   },
   "calendar_resource_management": {
-    "hash": "sha256-/Ft9GLKLQvCyRt6gOR10c4c60uwdn5ycVRlFqzf4cvY=",
-    "url": "https://github.com/nextcloud-releases/calendar_resource_management/releases/download/v0.12.1/calendar_resource_management-v0.12.1.tar.gz",
-    "version": "0.12.1",
+    "hash": "sha256-6LZTdj8PJ0T3kjH8S6i3s0pS8lxkg6CrSd0JZfCYfnA=",
+    "url": "https://github.com/nextcloud-releases/calendar_resource_management/releases/download/v0.12.2/calendar_resource_management-v0.12.2.tar.gz",
+    "version": "0.12.2",
     "description": "Management for calendar resources and rooms",
     "homepage": "",
     "licenses": [
@@ -940,9 +950,9 @@
     ]
   },
   "dutycheck": {
-    "hash": "sha256-mi4PyIM+02rMPnqcUOuhNE89jYOHtlOUw3X/sQDZ2pw=",
-    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-dutycheck/releases/download/v0.1.42/dutycheck-0.1.42.tar.gz",
-    "version": "0.1.42",
+    "hash": "sha256-1Bstlw3+Jyebbx9/x8snyj0+LNW40GeAgZA+c0Ia3DY=",
+    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-dutycheck/releases/download/v0.1.43/dutycheck-0.1.43.tar.gz",
+    "version": "0.1.43",
     "description": "# Plan shifts. Catch conflicts. Publish with a trail.\n\nDutyCheck builds duty rosters inside your self-hosted Nextcloud. Open a planning period, assign people to locations, see hard blocks and soft warnings while you edit — then publish, close and keep a snapshot when someone asks who was on duty.\n\n**Free web app** (AGPL-3.0-or-later). Companion apps: https://nextcloud.software-by-design.de/\n\n## Why teams install it\n\n- **Edit with confidence** — overlaps, understaffing, short breaks and period totals surface before you publish\n- **A flow everyone understands** — open → published → closed (with reopen); conflict thresholds freeze when the period is created\n- **Fill faster** — employee×day grid and list, shift templates, bulk fill, printable roster with integrity hash\n- **Staff self-service** — my roster, absences, acknowledge, claim open shifts, swap requests, per-person iCal feed\n- **Prove what was planned** — snapshots with hash chain, period audit trail, Activity and Notifications\n- **Stay scoped** — planner vs employee roles, optional location scope, optional companies/workspaces\n- **Optional ArbeitszeitCheck** — mirror absences for conflict checks (off until you enable it; DutyCheck never writes back)\n\n## Clear limits\n\n- HR CSV exports minutes — not salaries.\n- Audit entries are append-only.\n- Conflict checks are ArbZG-oriented and configurable — not a legal certification.\n- Declared databases: MySQL and PostgreSQL.\n\n## Requirements\n\n- Nextcloud 32–34 · PHP 8.2–8.5 · MySQL or PostgreSQL",
     "homepage": "https://nextcloud.software-by-design.de",
     "licenses": [
@@ -1310,9 +1320,9 @@
     ]
   },
   "files_mindmap": {
-    "hash": "sha256-aEZHuvKEt+g5Zd1zvVTQtgdNdACaxZ4xE/qrNiF71/8=",
-    "url": "https://github.com/nextcloud-releases/files_mindmap/releases/download/v0.1.0/files_mindmap-v0.1.0.tar.gz",
-    "version": "0.1.0",
+    "hash": "sha256-1+RlKQqPZcuaQdzzKVnI9eioYxSN7vbMgWzUuaSYpNM=",
+    "url": "https://github.com/nextcloud-releases/files_mindmap/releases/download/v0.1.1/files_mindmap-v0.1.1.tar.gz",
+    "version": "0.1.1",
     "description": "This application enables Nextcloud users to open, save and edit mind map files in the web browser. If enabled, an entry in the \"New\" button at the top of the web browser the mind map file entry appears. When clicked, a new mind map file opens in the browser and the file can be saved into the current Nextcloud folder.",
     "homepage": "https://github.com/nextcloud/files_mindmap",
     "licenses": [
@@ -1350,9 +1360,9 @@
     ]
   },
   "files_sharing_raw": {
-    "hash": "sha256-kpi4vqhP6qXH3VoFyqriNhev7j1X1PKfuoPrvS/VPwQ=",
-    "url": "https://github.com/ernolf/files_sharing_raw/releases/download/v0.7.1/files_sharing_raw-0.7.1.tar.gz",
-    "version": "0.7.1",
+    "hash": "sha256-Dindt+zs0SF53QdIG6ggiyTHo4imKZ+uB8eMGESnnX0=",
+    "url": "https://github.com/ernolf/files_sharing_raw/releases/download/v0.7.2/files_sharing_raw-0.7.2.tar.gz",
+    "version": "0.7.2",
     "description": "Raw Fileserver (**`files_sharing_raw`**) serves files **as-is** so you can link directly to the file itself (i.e. without any of Nextcloud's UI). This makes it easy to host static web pages, RSS feeds, images, or other assets and embed/link them elsewhere.\n\n## Design goals\n\n* **Minimal**: deliver bytes, not UI.\n* **Fast**: keep server work low (good for assets).\n* **Quiet failures**: plain 404 Not found (text/plain) for invalid/missing public shares (no Nextcloud HTML error pages), ideal for asset fetches.\n* **Privacy-friendly**: **cookie-free responses** (best effort).\n* **Allowlist-gated:** public raw access is opt-in — only explicitly enabled public share tokens are served.\n* **Secure by default**: strict CSP with optional per-scope overrides. *)\n* **Streaming by default**: for normal `GET` (`200`) responses, the body is streamed whenever possible instead of loading the entire file into memory.\n\n*) For security and privacy, the content is served with a configurable [Content-Security-Policy][] (CSP) header, allowing different policies per share token, path, file extension, or MIME type (with a safe hardcoded fallback).\n\n[Content-Security-Policy]: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy\n\n## Usage\n\nThe common usage is to first share a file and enable public access through a link. In the Advanced settings of this share (in the right sidebar), the Raw link must be enabled. If the share link is `https://my-nextcloud/s/aBc123DeF456xyZ`, then this app will provide access to the raw file at `https://my-nextcloud/raw/aBc123DeF456xyZ`. If the share is a folder, the files within it are accessible as e.g. `https://my-nextcloud/raw/aBc123DeF456xyZ/path/to/file`.\n\nA user can also access their own private files. For example, a file named `test.html` in anansi's Documents folder would be available at `https://my-nextcloud/raw/u/anansi/Documents/test.html`.",
     "homepage": "https://github.com/ernolf/files_sharing_raw",
     "licenses": [
@@ -2170,9 +2180,9 @@
     ]
   },
   "integration_youtube": {
-    "hash": "sha256-8wffuBDWH8FduYiHgQfgk2v96ngS0TobQDpBxVqKf9c=",
-    "url": "https://github.com/nextcloud-releases/integration_youtube/releases/download/v0.7.0/integration_youtube-v0.7.0.tar.gz",
-    "version": "0.7.0",
+    "hash": "sha256-CQXdZxt9UY87MFJIFemrCalva15zY9rzYngQTYSxQk4=",
+    "url": "https://github.com/nextcloud-releases/integration_youtube/releases/download/v0.7.1/integration_youtube-v0.7.1.tar.gz",
+    "version": "0.7.1",
     "description": "YouTube integration providing an inline video player for link previews, a smart picker and search provider for searching YouTube videos, channels, and playlists.\n\nConfiguration:\n\nSet an API key in the Administration settings -> Connected Accounts -> YouTube Integration section to allow the search and smart picker\n\nNote: The search and smart picker functionality is disabled by default. Users can opt-in to enable them from their respective settings.",
     "homepage": "https://github.com/nextcloud/integration_youtube",
     "licenses": [
@@ -2220,10 +2230,10 @@
     ]
   },
   "intravox": {
-    "hash": "sha256-+lNkP6teqEestp/contM7XkOE6WmS1WYw0tQzM3FmyI=",
-    "url": "https://github.com/nextcloud/IntraVox/releases/download/v2.0.1/intravox-2.0.1.tar.gz",
-    "version": "2.0.1",
-    "description": "IntraVox transforms Nextcloud into a full-featured intranet platform. Build professional pages with a visual drag-and-drop editor — no coding required. A complete, open-source alternative to SharePoint.\n\n**Page editor:**\n* Drag-and-drop widget placement with flexible grid layouts (1–5 columns)\n* 7 ready-made page templates to get started quickly\n* Collapsible sections, sticky toolbar, and row duplication\n* Draft/Published workflow with page locking to prevent conflicts\n\n**Rich widget library:**\n* Text (with tables and markdown), images, video, links, files, dividers\n* Calendar widget with multi-calendar merged view and recurring events\n* People widget with user profiles, filters, and birthday tracking\n* News widget with list, grid, and carousel layouts\n* Photo Story widget — photo galleries with EXIF metadata, OpenStreetMap location clustering, and an accessible Apple-style lightbox\n* File Story widget — document libraries with timeline, list, tiles, and grouped layouts; MetaVox-aware filtering; federated-share awareness\n\n**Collaboration & engagement:**\n* Emoji reactions and threaded comments on pages\n* Version history with one-click restore\n* Personal RSS feed for following page updates\n* Public sharing with optional password protection\n\n**Content management:**\n* Multilingual content — pages link to their versions in other languages, and readers opening a page in a foreign language get a one-click switch to their own; single-language intranets see none of this UI\n* MetaVox metadata as a page sidebar tab — the Team Folder's fields, same behaviour as the Files app (when MetaVox is installed)\n* Multi-language support — admins choose which Transifex-translated languages to enable\n* Navigation editor with megamenu and sidebar options\n* Full export/import to ZIP — including Confluence HTML import\n* Demo content to get started in minutes\n\n**Enterprise ready:**\n* Department-based access control via Team folders ACL\n* Nextcloud Unified Search integration (Ctrl+K)\n* Seamless theming, users, groups, and files integration\n\n**Requirements:**\n* Nextcloud 32, 33, or 34\n* PHP 8.2 or higher\n* Team folders app (installed and enabled)\n\n**Ideal for:**\n* Company intranets and news portals\n* Department knowledge bases\n* Internal communication and documentation\n* SharePoint-to-Nextcloud migrations",
+    "hash": "sha256-cPono66Qy14xRdrlJWvxloQ5Lgys0pXAtfKTkgCt9Aw=",
+    "url": "https://github.com/nextcloud/IntraVox/releases/download/v2.2.0/intravox-2.2.0.tar.gz",
+    "version": "2.2.0",
+    "description": "IntraVox turns Nextcloud into a full intranet: pages built with a visual drag-and-drop editor, no code required.\n\n**Where your content lives**\nIntraVox runs wherever you run Nextcloud — your own hardware, an EU host, on-premises. It is open source, so it can be audited. Your content is not a platform format: pages are plain files and JSON in a folder, which keeps leaving cheap if you ever need to.\n\n**Building pages**\n* Drag-and-drop widgets in flexible grids (1–5 columns), 7 page templates\n* Text with tables and markdown, images, video, links, files\n* Calendar, People, News, Photo Story and File Story widgets\n* Draft/published workflow, scheduled publication, page locking\n\n**Finding your way**\n* A page structure panel that stays open while you navigate, with a table of contents of the page you are reading\n* Navigation editor with mega menu and sidebar options\n* Nextcloud Unified Search integration (Ctrl+K)\n\n**Working together**\n* Reactions, threaded comments and version history with one-click restore\n* Multilingual pages: link language versions, and readers are offered the one in their language\n* Public sharing, with optional password protection\n* Department access control through Team folders ACL\n\n**Requirements:** Nextcloud 32–34, PHP 8.2+, Team folders.",
     "homepage": "https://voxcloud.nl",
     "licenses": [
       "agpl"
@@ -2259,6 +2269,16 @@
       "agpl"
     ]
   },
+  "inventorycheck": {
+    "hash": "sha256-tebGXEWNHx+5RzHk8Fd+6HPoRlbMMZRkKWlrvN8GGVI=",
+    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-inventorycheck/releases/download/v1.3.7/inventorycheck-1.3.7.tar.gz",
+    "version": "1.3.7",
+    "description": "# Stock. Locations. Clear bookings.\n\nInventoryCheck keeps parts and supplies on the Nextcloud you already host: warehouses, vans and site boxes, quantities, and an append-only booking history. See low stock early, print labels, run stocktakes — then optional InventoryCheck Mobile uses the same ledger for shelf and van scanning.\n\n**Free web app** (AGPL-3.0-or-later). Companion apps: https://nextcloud.software-by-design.de/\n\n## Why teams install it\n\n- **Know what is where** — locations (warehouse, shelf, van, site box) and items with SKU, scan code, unit of measure and reorder level\n- **Book without rewriting history** — receive, issue, transfer and adjust as append-only movements; corrections use compensating bookings\n- **Act on low stock** — dashboard signals, movement history and printable labels\n- **Count the shelf** — stocktake campaigns from create → count → close with posted adjustments\n- **Stay scoped** — office / field roles and optional access restriction\n- **Optional mobile** — license surface for mobile seats and paired scan devices\n\n## Clear limits\n\n- Movements are append-only — corrections use compensating bookings.\n- Declared databases: MySQL and PostgreSQL.\n\n## Early release — feedback welcome\n\nThis is the first App Store release. The app is fully functional and tested, but has not yet seen wide real-world use. Bug reports and feature requests are very welcome: https://github.com/aSoftwareByDesignRepository/nextcloud-inventorycheck/issues\n\n## Requirements\n\n- Nextcloud 32–34 · PHP 8.2–8.5 · MySQL or PostgreSQL",
+    "homepage": "https://nextcloud.software-by-design.de",
+    "licenses": [
+      "AGPL-3.0-or-later"
+    ]
+  },
   "jalali_calendar": {
     "hash": "sha256-bf+m4uSEEoBpzsTojslTn6W0eYivBKsFF2TzcbSwDVo=",
     "url": "https://github.com/nsrfth/Jalali-Calendar-By-Naser-Fathi/releases/download/v0.5.0/jalali_calendar.tar.gz",
@@ -2290,9 +2310,9 @@
     ]
   },
   "kanso": {
-    "hash": "sha256-AqZRkMgOLr8La96ls+t0dI5QrDAuOHEMDSRZI98uTNM=",
-    "url": "https://github.com/aktasfatih/kanso/releases/download/v0.9.37/kanso.tar.gz",
-    "version": "0.9.37",
+    "hash": "sha256-d2R03Teh7eZ+smr+CaIPbZmibZGs1Xl1PvS8UQM//d4=",
+    "url": "https://github.com/aktasfatih/kanso/releases/download/v0.11.0/kanso.tar.gz",
+    "version": "0.11.0",
     "description": "Kanso is a kanban board app for Nextcloud, built for speed. Boards, stacks and\ncards with instant drag & drop, optimistic updates and payloads sized for large\nboards (2,000+ cards). Realtime updates via notify_push, with a polling fallback.\n\nRich cards with markdown, labels, due dates, assignees, priorities, checklists,\nparent/child cards and threaded comments with @mentions and watchers. Board\nsharing with per-user and per-group access control.\n\nA review workflow (request review, approve / request changes, customizable\nreview types, and an optional done-gate). A cross-board My Work hub (my tasks,\nreviews, inbox), cross-board Projects, and per-board and per-project analytics\n(velocity, cycle time, throughput). Board, List and Timeline (Gantt) views.\n\nRecurring cards on RRULE schedules, auto-archive rules, WIP limits and stack\nroles, a command palette with full-text search, trash with restore, GitHub\nlinks and webhook, and one-click Import from Deck.",
     "homepage": "https://github.com/aktasfatih/kanso",
     "licenses": [
@@ -2497,6 +2517,16 @@
     "homepage": "https://github.com/Gecka-Apps/nextcloud-roundcube-bridge",
     "licenses": [
       "agpl"
+    ]
+  },
+  "maintenancecheck": {
+    "hash": "sha256-nB8x7NS7uKbZLY/C1lIuPI/NsSk/DvXqEj1T0B206EU=",
+    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-maintenancecheck/releases/download/v1.2.8/maintenancecheck-1.2.8.tar.gz",
+    "version": "1.2.8",
+    "description": "# Know what is due. Close it in the field.\n\nMaintenanceCheck runs recurring and corrective maintenance on the Nextcloud you already host. Put customers, sites and equipment in one register. Schedule by calendar or meter. Turn due visits into work orders with checklists, photos and optional signatures — then hand the office a Servicebericht PDF.\n\n**Free web app** (AGPL-3.0-or-later). Companion apps: https://nextcloud.software-by-design.de/\n\n## Why teams install it\n\n- **See overdue work first** — due board for overdue, today, next 7 days and the weeks ahead, plus open jobs\n- **Finish jobs with evidence** — conditional checklists, photos, optional signature; job kits and skills gates when you need them\n- **Plan the day** — dispatch, day tours, capacity hints, exception board and an ops KPI snapshot (CSV)\n- **Keep the register tidy** — customers, sites, equipment, printable QR stickers\n- **Handle break/fix work** — corrective intake, failure codes, job minutes, comments, docs and warranty end\n- **Support recurring inspections** — obligation packs (incl. DE/EN starters), pass/fail/conditional close, Prüfnachweis PDF\n- **Stay in control** — office vs technician roles, optional allow-list, overdue Nextcloud Notifications\n\n## Clear limits\n\n- Prüfnachweis PDFs are operational evidence packs — not legal certificates. Seeded checklists are templates, not legal advice.\n- Customers here are a field register. Same name in another business app ≠ same record; nothing merges on its own.\n- Optional stock deduction after close stays off by default and never blocks finishing a job.\n\n## Early release — feedback welcome\n\nThis is the first App Store release. The app is fully functional and tested, but has not yet seen wide real-world use. Bug reports and feature requests are very welcome: https://github.com/aSoftwareByDesignRepository/nextcloud-maintenancecheck/issues\n\n## Requirements\n\n- Nextcloud 32–34 · PHP 8.2–8.5 · MySQL/MariaDB or PostgreSQL",
+    "homepage": "https://nextcloud.software-by-design.de",
+    "licenses": [
+      "AGPL-3.0-or-later"
     ]
   },
   "majordomo": {
@@ -2850,9 +2880,9 @@
     ]
   },
   "oidc": {
-    "hash": "sha256-vvSN72HawEHZnOHLDB3zxKwW9ABGUErK41QbgxNjbTw=",
-    "url": "https://github.com/H2CK/oidc/releases/download/2.0.7/oidc-2.0.7.tar.gz",
-    "version": "2.0.7",
+    "hash": "sha256-f+cHt0HXvXxA4qyUf8XV/4S+HCvacbhG0zTZLX9oO80=",
+    "url": "https://github.com/H2CK/oidc/releases/download/2.0.8/oidc-2.0.8.tar.gz",
+    "version": "2.0.8",
     "description": "Nextcloud as OpenID Connect Identity Provider\n\nWith this app you can use Nextcloud as OpenID Connect Identity Provider. If other services\nare configured correctly, you are able to access those services with your Nextcloud login.\n\nFull documentation can be found at:\n\n- [User Documentation](https://github.com/H2CK/oidc/wiki#user-documentation)\n- [Developer Documentation](https://github.com/H2CK/oidc/wiki#developer-documentation)",
     "homepage": "https://github.com/H2CK/oidc",
     "licenses": [
@@ -2885,6 +2915,16 @@
     "version": "3.3.4",
     "description": "# OpenID Connect Login\n\nProvides user creation and login via one single OpenID Connect provider. Even though this is a fork of [nextcloud-social-login](https://github.com/zorn-v/nextcloud-social-login), it fundamentally differs in two ways - aims for simplistic, single provider login (and hence is very minimalistic), and it supports having LDAP as the primary user backend. This way, you can use OpenID Connect to login to Nextcloud while maintaining an LDAP backend with attributes with the LDAP plugin.\n\n### Features\n\n- Automatic [Identity provider endpoints discovery](https://openid.net/specs/openid-connect-discovery-1_0.html)\n- User creation at first login\n- User profile update at login (name, email, avatar, groups etc.)\n- Group creation\n- Automatic redirection from the nextcloud login page to the Identity Provider login page\n- WebDAV endpoints `Bearer` and `Basic` authentication\n- Optional removal of special characters in UID\n- Mapping of multiple names to a single display name\n- Mapping for birthdate",
     "homepage": "https://github.com/pulsejet/nextcloud-single-openid-connect",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "olvid": {
+    "hash": "sha256-qJI3phD1KA0a1vhz3I7QS08FaJ3RyLGbh1nKywpvLbU=",
+    "url": "https://github.com/olvid-io/Nextcloud-App/releases/download/v0.0.2/olvid-0.0.2.tar.gz",
+    "version": "0.0.2",
+    "description": "Use your Nextcloud instance as an Olvid directory.\n\n- 🪄 Magic Links: easily bind you Olvid identity to your Nextcloud account\n- 📑 Directory: Start an Olvid discussion whith any other Nextcloud user in one click\n- 👥 Groups: associate an Olvid discussion with a Nextcloud group\n- ✉️ Security: your messages are steal exchanged using Olvid cryptographic protocols, your Nextcloud server do not store it.",
+    "homepage": "https://olvid.io",
     "licenses": [
       "agpl"
     ]
@@ -3200,9 +3240,9 @@
     ]
   },
   "projectcheck": {
-    "hash": "sha256-eM7e/QKSfBiCoBAfD7+Fa7neg0jA/tdSNaHHAiEh4ek=",
-    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-projectcheck/releases/download/v2.0.97/projectcheck-2.0.97.tar.gz",
-    "version": "2.0.97",
+    "hash": "sha256-6SK6GYq/RmiZaxtSSesOkHj1agLa2JWy+ivLrjew2zA=",
+    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-projectcheck/releases/download/v2.0.98/projectcheck-2.0.98.tar.gz",
+    "version": "2.0.98",
     "description": "# Projects, time and budgets — in one place.\n\nProjectCheck keeps customers, projects, people, time entries and optional budgets on the Nextcloud you already host. Book time against projects. Resolve hourly rates on the server from dated history. See remaining budget before the month runs away.\n\n**Free web app** (AGPL-3.0-or-later). Companion apps: https://nextcloud.software-by-design.de/\n\n## Why teams install it\n\n- **Run the portfolio** — customers and projects with status, dates, search and sort\n- **Invite the right people** — Nextcloud users with roles and permissions per project\n- **Book and export time** — browse, filter and export entries against projects\n- **Price with a history** — server-side rates from project, employee master data or per-person on the project; append-only rate history\n- **Watch the numbers** — optional budgets and remaining visibility; dashboard overview; files on projects\n\n## Clear limits\n\n- Mobile may preview rates; the server stays authoritative.\n- Prefer `ProjectCheck*` in new integrations — `ProjectControl*` / `OCA.ProjectControl` are deprecated aliases.\n\n## Requirements\n\n- Nextcloud 32–34 · PHP 8.2–8.5 · MySQL/MariaDB or PostgreSQL",
     "homepage": "https://nextcloud.software-by-design.de",
     "licenses": [
@@ -3210,9 +3250,9 @@
     ]
   },
   "proofing_gallery": {
-    "hash": "sha256-MfFrZHcR78xuHhyo9twEDZcO776DjbyVBCDStuJx1jI=",
-    "url": "https://github.com/soerennb/nextcloud-proofing_gallery/releases/download/v0.8.0/proofing_gallery.tar.gz",
-    "version": "0.8.0",
+    "hash": "sha256-RwhDkc2rm6voobLuxGHW66Hx0Ivr65zi9UYgHkg5qZQ=",
+    "url": "https://github.com/soerennb/nextcloud-proofing_gallery/releases/download/v0.8.2/proofing_gallery.tar.gz",
+    "version": "0.8.2",
     "description": "Publish existing Nextcloud folders as customizable client galleries.\nCollect likes, workflow states, comments, annotations, and named selections\nwithout copying or changing original files.",
     "homepage": "https://soerennb.github.io/nextcloud-proofing_gallery/",
     "licenses": [
@@ -3253,7 +3293,7 @@
     "hash": "sha256-hIAXU6CuV/MJCq5HMPLDIK/Fitpm0MO1Fk5i39TCI6E=",
     "url": "https://github.com/matiasdelellis/quicknotes/releases/download/v0.8.41/quicknotes.tar.gz",
     "version": "0.8.41",
-    "description": "Quick notes with a basic rich text",
+    "description": "Take quick notes on small cards, organized by colors and tags, with basic rich\ntext — bold, italic, lists — and any file of your Nextcloud attached to them.\n\nNotes can be shared with other people and with groups, and every share says what\nit allows: can view, can edit, or pass the note on. Editing a shared note is real\ncollaboration, and if two people save at once the second one is told rather than\nquietly overwriting the first. The attachments travel with the note: whoever can\nsee it can see them, and images, video and audio open in the Nextcloud viewer.\n\nWhat belongs to the note is the same for everybody — the title, the content, the\ncolour, the attachments. What belongs to you is yours: your pin, your tags, your\nreminder and whether you archived it. Pinning a note somebody shared with you\ndoes not pin it for them, and two people can be reminded of the same note at\ntheir own time.\n\nA reminder arrives as a Nextcloud notification, and can also be published as a\nread-only calendar for the Calendar app and any CalDAV client.",
     "homepage": "https://github.com/matiasdelellis/quicknotes",
     "licenses": [
       "agpl"
@@ -3890,9 +3930,9 @@
     ]
   },
   "tachyon": {
-    "hash": "sha256-h6j8glNd81b9wjhTmdGSn6APgXhmIcj2lZEZGj27yA0=",
-    "url": "https://github.com/kimusan/Tachyon/releases/download/v3.2.3/tachyon-3.2.3-nextcloud.tar.gz",
-    "version": "3.2.3",
+    "hash": "sha256-B+6xHFmNoFRuGvDG37udXsyQVa/7oA4y+D74HWFzxUk=",
+    "url": "https://github.com/kimusan/Tachyon/releases/download/v3.2.4/tachyon-3.2.4-nextcloud.tar.gz",
+    "version": "3.2.4",
     "description": "**Lightweight & fast email client.**\n\n- **Dark mode**\n- **Responsive design**\n- **Full Sieve filtering support**\n- **Almost all IMAP features** including advanced searching\n- **Integration with Nextcloud Unified Search**\n- **Integration with other Nextcloud apps** (Contacts, Files and Calendar)\n- **Multiple mail accounts and identities**\n- **Send & receive OpenPGP encrypted/signed emails** (With full HTML support, ECC keys, or plain text with Mailvelope)\n- **Send & receive S/MIME encrypted/signed emails**\n- **Many security features** (Sodium encrypted passwords, Sec-Fetch, TOTP 2FA, DKIM, prevent tracking, etc.)\n- **Kolab integrations**\n\nAfter enabling in Nextcloud, go to Nextcloud admin panel, \"Additional settings\" and you will see a \"Tachyon webmail\" section.\nThere, click on the link to go to the Tachyon admin panel.",
     "homepage": "https://github.com/kimusan/Tachyon",
     "licenses": [
@@ -3940,9 +3980,9 @@
     ]
   },
   "televisorium": {
-    "hash": "sha256-buGsSFE0cX+2XMFn9sh86rktIICCtim4m6Bf63HRGdc=",
-    "url": "https://github.com/MuhammedKpln/televisorium/releases/download/1.1.0/televisorium-1.1.0.tar.gz",
-    "version": "1.1.0",
+    "hash": "sha256-LQO5aZaH+FqxtmGtD6Y15c7FVqEPJQy+JCkc0Xy2orI=",
+    "url": "https://github.com/MuhammedKpln/televisorium/releases/download/1.1.1/televisorium-1.1.1.tar.gz",
+    "version": "1.1.1",
     "description": "An app to keep track on your watchlist, tv series, movies. Similiar to trakt.tv",
     "homepage": "",
     "licenses": [
@@ -4490,9 +4530,9 @@
     ]
   },
   "worktime": {
-    "hash": "sha256-EtBajUPHbzCxGV8eSp2ongv3ngeE+kTEmaFUtGwUDWc=",
-    "url": "https://github.com/cpcMomentum/worktime/releases/download/v0.16.2/worktime-v0.16.2.tar.gz",
-    "version": "0.16.2",
+    "hash": "sha256-W/bZ58AMjggIZp1EgOUj0quHK84uKL0wCgNh3Op+9eo=",
+    "url": "https://github.com/cpcMomentum/worktime/releases/download/v0.16.3/worktime-v0.16.3.tar.gz",
+    "version": "0.16.3",
     "description": "# WorkTime - Arbeitszeiterfassung für Nextcloud\n\nGesetzeskonforme Arbeitszeiterfassung für kleine Unternehmen in Deutschland.\n\n## Erfassung & Berechnung\n\n- **Zeiterfassung** mit Start, Ende und Pause\n- **Automatische Pausenberechnung** nach §4 ArbZG\n- **Überstundenkonto** mit Soll/Ist-Vergleich und Eintrittsdatum-Berücksichtigung\n- **Projektbezogene Erfassung** für bessere Auswertung\n- **Deutsche Feiertage** automatisch nach Bundesland\n\n## Urlaub & Abwesenheiten\n\n- **Urlaubsverwaltung** mit Quoten-Validierung und Resturlaub-Anzeige\n- **Abwesenheiten**: Urlaub, Krankheit, Sonderurlaub, Freizeitausgleich\n- **Jahresübertrag** für Überstunden und Resturlaub vom Vorjahr — automatisch und manuell korrigierbar\n\n## Reporting & Team\n\n- **Monatsübersicht** mit PDF-Export\n- **Team-Übersicht** für Vorgesetzte und HR-Manager\n- **Jahresübersicht** mit allen Mitarbeitern und Übertragswerten\n- **Audit-Log** für vollständiges Änderungsprotokoll (Admin/HR)\n\n## Workflow & Genehmigung\n\n- **Rollenbasierte Berechtigungen** (Admin, HR-Manager, Supervisor, Employee)\n- **Genehmigungsworkflow** für Abwesenheiten mit eingebetteter Zeitanzeige\n- **Kontextuelle Hilfe** mit Info-Icons an allen relevanten Stellen\n\n## Internationalisierung\n\n- **Mehrsprachig**: Deutsch und Englisch\n\nBehalten Sie den Überblick über Arbeitszeiten, Überstunden und Urlaub.",
     "homepage": "",
     "licenses": [
