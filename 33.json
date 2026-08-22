@@ -10,9 +10,9 @@
     ]
   },
   "admincockpit": {
-    "hash": "sha256-oc4nvNYs0L+n1gNKiLDLvMUC6JKIrUlGqPTHH9VpZIs=",
-    "url": "https://github.com/zomtec2311/admincockpit/releases/download/1.3.6/admincockpit_1.3.6.tar.gz",
-    "version": "1.3.6",
+    "hash": "sha256-pbexPQtT9A26ZP08vFRxFY7UJqG8h4EzJAv5aUykS9k=",
+    "url": "https://github.com/zomtec2311/admincockpit/releases/download/1.3.7/admincockpit_1.3.7.tar.gz",
+    "version": "1.3.7",
     "description": "**AdminCockpit is an administration tool for Nextcloud**\n- ✅ All important administration pages at a glance\n- ✅ No more clicking back and forth in the menus\n- ✅ Modern and compact look\n- ✅ Intuitive operation without a page-long manual\n- ✅ send notification to users and groups",
     "homepage": "https://github.com/zomtec2311/admincockpit",
     "licenses": [
@@ -340,10 +340,10 @@
     ]
   },
   "budget": {
-    "hash": "sha256-953Jt4HP3JrInYSo/yOl+XqM5DYwdsoWTGCxdEATJc8=",
-    "url": "https://github.com/otherworld-dev/Budget/releases/download/v2.41.0/budget.tar.gz",
-    "version": "2.41.0",
-    "description": "**⚠️ Beta: This app is currently in testing. Data loss is possible. Please backup your data regularly and report any issues.**\n\n# Budget - Financial Tracking for Nextcloud\n\nTrack your spending habits, manage savings, and forecast future account balances with intelligent analysis of your financial history.\n\n## Features\n\n* **Import Bank Statements**: Support for CSV, OFX, and QIF formats\n* **Smart Categorization**: Automatic vendor matching and transaction categorization\n* **Auto-Categorization Rules**: Apply rules to existing transactions anytime with preview\n* **Split Transactions**: Allocate single transactions across multiple categories\n* **Transfer Detection**: Automatic matching of transfers between accounts\n* **Budget Tracking**: Set spending limits with alerts when approaching or exceeding budgets\n* **Balance Forecasting**: Predict future balances based on historical data\n* **Recurring Bills**: Track bills with due date monitoring and Nextcloud notifications\n* **Recurring Income**: Track expected income sources with receipt tracking\n* **Split Expenses**: Share expenses with contacts and track who owes whom\n* **Debt Payoff Planner**: Plan repayment using avalanche or snowball strategies\n* **Savings Goals**: Set targets with progress tracking and achievement forecasting\n* **Pension Tracker**: Track retirement accounts with growth projections\n* **Net Worth History**: Track assets and liabilities over time\n* **Year-over-Year Reports**: Compare spending across multiple years\n* **Multi-Account Support**: Manage multiple bank accounts and currencies\n* **Custom Categories**: Create your own category hierarchy\n* **Reports & Charts**: Visualize your financial data with interactive charts\n\n## Documentation\n\nFull user documentation: https://budget.otherworld.dev/docs/\n\n## Requirements\n\n* Nextcloud 30 or higher\n* PHP 8.1 or higher\n* PHP BCMath extension (`php-bcmath`)",
+    "hash": "sha256-xKvl/dFsR8ua7itu/+gF8K/qTJUJfEIeTDh4FjLMomI=",
+    "url": "https://github.com/otherworld-dev/Budget/releases/download/v2.42.0/budget.tar.gz",
+    "version": "2.42.0",
+    "description": "**⚠️ Beta: This app is currently in testing. Data loss is possible. Please backup your data regularly and report any issues.**\n\n# Budget - Financial Tracking for Nextcloud\n\nTrack your spending habits, manage savings, and forecast future account balances with intelligent analysis of your financial history.\n\n## Features\n\n* **Import Bank Statements**: Support for CSV, OFX, QIF and ISO 20022 camt.053 XML formats\n* **Smart Categorization**: Automatic vendor matching and transaction categorization\n* **Auto-Categorization Rules**: Apply rules to existing transactions anytime with preview\n* **Split Transactions**: Allocate single transactions across multiple categories\n* **Transfer Detection**: Automatic matching of transfers between accounts\n* **Budget Tracking**: Set spending limits with alerts when approaching or exceeding budgets\n* **Balance Forecasting**: Predict future balances based on historical data\n* **Recurring Bills**: Track bills with due date monitoring and Nextcloud notifications\n* **Recurring Income**: Track expected income sources with receipt tracking\n* **Split Expenses**: Share expenses with contacts and track who owes whom\n* **Debt Payoff Planner**: Plan repayment using avalanche or snowball strategies\n* **Savings Goals**: Set targets with progress tracking and achievement forecasting\n* **Pension Tracker**: Track retirement accounts with growth projections\n* **Net Worth History**: Track assets and liabilities over time\n* **Year-over-Year Reports**: Compare spending across multiple years\n* **Multi-Account Support**: Manage multiple bank accounts and currencies\n* **Custom Categories**: Create your own category hierarchy\n* **Reports & Charts**: Visualize your financial data with interactive charts\n\n## Documentation\n\nFull user documentation: https://budget.otherworld.dev/docs/\n\n## Requirements\n\n* Nextcloud 30 or higher\n* PHP 8.1 or higher\n* PHP BCMath extension (`php-bcmath`)",
     "homepage": "https://budget.otherworld.dev/",
     "licenses": [
       "AGPL-3.0-or-later"
@@ -365,6 +365,16 @@
     "version": "0.2.1",
     "description": "cage (Client-side age Encryption) is a secure file viewer/editor for [age](https://age-encryption.org/) encrypted files.\n\nFeatures:\n- Auto-detection of age files based on file extension (.age)\n- Client-side encryption/decryption using the age standard\n- Passphrase-based encryption with scrypt key derivation\n- Auto-lock timer to protect sensitive data\n- Mnemonic passphrase generation\n- Zero server-side access to plaintext content\n\nSecurity:\n- All encryption/decryption happens in the browser\n- Passphrase stored in memory only, never sent to server\n- Auto-lock clears passphrase and removes decrypted content from DOM",
     "homepage": "https://github.com/j-suchy/nextcloud-cage",
+    "licenses": [
+      "AGPL-3.0-or-later"
+    ]
+  },
+  "cairn": {
+    "hash": "sha256-yV62D/q0HngjERrZnHRwIpk8c31oRkkJo+CA0XsGrTs=",
+    "url": "https://github.com/LuminaAppsDev/cairn/releases/download/v0.2.3/cairn-0.1.0.tar.gz",
+    "version": "0.1.0",
+    "description": "Cairn is a personal health-data aggregator. A phone app reads the platform health\nstore (Apple HealthKit / Android Health Connect), normalises readings into open\nOpen mHealth / IEEE 1752.1 JSON-Lines files, and syncs them into your own\nNextcloud. Those files are the system of record — there is no central server and\nno proprietary database.\n\nThis app is an optional second frontend over exactly those files. It reads\n`/Cairn/` from your own storage, aggregates server-side, and renders the result.\n\nIt never writes. It creates no folders, stores nothing in the database, runs no\nbackground job, and registers no route other than GET. Deleting it loses nothing,\nbecause it owns nothing.",
+    "homepage": "",
     "licenses": [
       "AGPL-3.0-or-later"
     ]
@@ -480,8 +490,8 @@
     ]
   },
   "chores": {
-    "hash": "sha256-kDuNNmSoz80b1fUA2wKnHjGQD05oBo1Q+NC4Crf8G20=",
-    "url": "https://teo.sinyax.net/cdn/chores_0.0.8-17-gf14ef6e.tar.gz",
+    "hash": "sha256-x95pWVl5+EJAMWAPdA9aFbvNCNz+PBmBvC5GrJOHUtA=",
+    "url": "https://teo.sinyax.net/cdn/chores_0.1.0.tar.gz",
     "version": "0.1.0",
     "description": "Track chores and receive points for doing them!\n\nCreate a team and invite other Nextcloud users from the same server, the total\npoints for each member are tracked.\n\nChores can be set to automatically repeat based on a schedule.",
     "homepage": "https://sr.ht/~cypheon/nextcloud-chores/",
@@ -500,9 +510,9 @@
     ]
   },
   "cobudget": {
-    "hash": "sha256-ya/qB+n8uIZOzgWB/Rl7BqT6qJqBtb4xtadt3D9dnH8=",
-    "url": "https://github.com/whollaus/cobudget/releases/download/v0.3.4/cobudget.tar.gz",
-    "version": "0.3.4",
+    "hash": "sha256-w7YPJwZucrvYbF3VIeZHxTMQuKy8QD/ADPDdFjhctUg=",
+    "url": "https://github.com/whollaus/cobudget/releases/download/v0.3.5/cobudget.tar.gz",
+    "version": "0.3.5",
     "description": "[Early alpha version]\n\n**CoBudget brings personal budgeting and shared expense management into Nextcloud.** Keep track of everyday finances on your own or organize costs together with partners, families, travel groups and project teams.\n\n### Personal finances\n\n- Record income and expenses with categories, payment partners, labels and free-form tags\n- Maintain optional internal address, contact and bank details for payment partners\n- Add receipts, recurring payments and reminders\n- Set budget goals and explore trends, forecasts and detailed financial reports\n- Separate financial contexts with workspaces and move your data using personal exports\n\n### Shared expenses\n\n- Create areas for a household, trip, event, project or any other shared purpose\n- Record who paid and split payments equally, by custom shares or entirely to one member\n- Keep personal shares and outstanding balances visible, then settle an area with a clear history\n- Use area-specific categories and payment partners when needed\n\n### Built for Nextcloud\n\n- Keep your financial data in your own Nextcloud\n- Receive notifications about activity in shared areas\n- Create full administrator backups for disaster recovery",
     "homepage": "https://github.com/whollaus/cobudget",
     "licenses": [
@@ -540,10 +550,10 @@
     ]
   },
   "compact_calendar_widget": {
-    "hash": "sha256-lgvIZUJkM8DXeJV46FJkB0Zqi95TdVNjIDR/alSizmI=",
-    "url": "https://github.com/zomtec2311/compact_calendar_widget/releases/download/1.0.2/compact_calendar_widget_1.0.2.tar.gz",
-    "version": "1.0.2",
-    "description": "**Compact Calendar Widget for Dashboard**\n\nA modern and compact calendar widget for your Nextcloud Dashboard that gives you a quick overview of your upcoming appointments.\n\n- 📅 **Week, Month & Year View:** Switch seamlessly between a weekly bar, monthly grid, and full-year overview.\n- 🎨 **Custom Color Schemes:** Choose between a sleek standard theme and a colorful heat map style.\n- 🚦 **Event Heatmap:** Visual indicators show you at a glance how busy your days are based on appointment count.\n- 💬 **Interactive Popovers:** Hover over any day to instantly view detailed event info, times, and locations.\n- 📱 **Mobile Friendly:** Optimized touch interaction for mobile devices.\n- ⚙️ **Configurable Settings:** Easily customize views, personal calendars selectable, default themes, and counters directly from the widget.\n\n> ℹ️ **Note:** This widget works best when used alongside the official **Nextcloud Calendar** app to unlock its full potential and display all your events smoothly.",
+    "hash": "sha256-+otfIGuZhaHoTlGxTeOKS5Dqi0sIZYhhJQnpZQ+TMoA=",
+    "url": "https://github.com/zomtec2311/compact_calendar_widget/releases/download/1.0.3/compact_calendar_widget_1.0.3.tar.gz",
+    "version": "1.0.3",
+    "description": "**Compact Calendar Widget for Dashboard**\n\nA modern and compact calendar widget for your Nextcloud Dashboard that gives you a quick overview of your upcoming appointments.\n\n- 📅 **Week, Month & Year View:** Switch seamlessly between a weekly bar, monthly grid, and full-year overview.\n- 🎨 **Custom Color Schemes:** Choose between a sleek standard theme and a colorful heat map style.\n- 🚦 **Event Heatmap:** Visual indicators show you at a glance how busy your days are based on appointment count.\n- 💬 **Interactive Popovers:** Hover over any day to instantly view detailed event info, times, and locations.\n- 📱 **Mobile Friendly:** Optimized touch interaction for mobile devices.\n- ⚙️ **Configurable Settings:** Easily customize views, default themes, and counters directly from the widget. Personal calendars are selectable.\n\n> ℹ️ **Note:** This widget works best when used alongside the official **Nextcloud Calendar** app to unlock its full potential and display all your events smoothly.",
     "homepage": "https://github.com/zomtec2311/compact_calendar_widget",
     "licenses": [
       "agpl"
@@ -1800,9 +1810,9 @@
     ]
   },
   "integration_forgejo_gitea": {
-    "hash": "sha256-Xya7wewzOjSGrqp+JdwRm71IdXk9CspFTgvt2Vks4z0=",
-    "url": "https://github.com/njordium/integration_forgejo_gitea/releases/download/v1.3.2/integration_forgejo_gitea.tar.gz",
-    "version": "1.3.2",
+    "hash": "sha256-+N9AR7+nQluL3Qn2IGSbUrq2/uw20rwq1PM1LWP5Rqo=",
+    "url": "https://github.com/njordium/integration_forgejo_gitea/releases/download/v1.3.3/integration_forgejo_gitea-v1.3.3.tar.gz",
+    "version": "1.3.3",
     "description": "Bring the parts of Forgejo or Gitea that people actually check ten times a day into the Nextcloud dashboard. Signs in once with OAuth 2.0 authorization-code grant against your Forgejo or Gitea instance and then keeps the two systems talking in the background.\n\n## Dashboard widgets\n\nEleven widgets, grouped by intent so the dashboard reads like your day rather than a list of API endpoints.\n\n**Overview.** Six KPI tiles in a compact grid — open issues assigned, open issues you opened, open PRs where your review is requested, open PRs you opened, open issues mentioning you, contributions in the last 7 days. Each tile links to the equivalent Forgejo dashboard filter.\n\n**Work queue.** Open Issues, Closed Issues, Open PRs, Closed PRs and Reviews. Each carries a per-widget repository picker (searchable multi-select), a filter (assigned / created / mentioning / all), and a refresh-frequency setting. Rows show number, title, assignee avatar, up to three colour-matched label chips, repo full-name and relative timestamp. A \"Show all\" link at the bottom of each widget lands on the equivalent Forgejo filter page.\n\n**Activity.** Commits (latest commits across your selected repos, with an optional \"only mine\" toggle) and a GitHub-style contribution Heatmap (last 3 or 6 months, user-selectable) plus a stats grid showing total, this week, this month, current streak, longest streak, best day.\n\n**Repositories.** Milestones (open milestones with progress bars across selected repos) and Repo stats (compact per-repo card showing stars, forks, open issues, open PRs, latest release tag).\n\n**Notifications.** Unread Forgejo/Gitea notifications inbox with type icons (issue / PR / commit / repository) and a per-row mark-as-read action.\n\n## Auto-refresh\n\nAll eleven widgets poll in the background at a user-selected cadence (Never / 30s / 1m / 5m default / 15m / 30m / 1h), pause while the browser tab is hidden, and re-fetch once when the tab regains focus. An idle dashboard tab left open in the background does not hammer your Forgejo.\n\n## Brand-aware UX\n\nAdmin picks the instance type (Forgejo or Gitea). Every widget's icon and title switch to match — Forgejo orange horn (CC-BY-SA-4.0, Caesar Schinas), Gitea green tea-cup (CC-BY-4.0) — so a Nextcloud instance connected to Forgejo reads as *Forgejo: Open Issues*, a Gitea one reads *Gitea: Open Issues*.\n\n## Security\n\nOAuth 2.0 authorization-code flow (RFC 6749) is the only connect path. 32-byte session-bound `state` parameter, verified with `hash_equals()`. Access and refresh tokens encrypted at rest via Nextcloud's `ICrypto`. Bearer tokens redacted from log messages. Generic error responses to the browser; upstream detail stays in the server log. Instance URL validated on admin write. Full OWASP Top 10 mapping in `SECURITY.md` in the repository.\n\n## Requirements\n\nAny recent Forgejo (v1.x, all v7+) or Gitea (v1.19+) instance with an OAuth application registered. PHP 8.1+, Nextcloud 30-34.",
     "homepage": "https://github.com/njordium/integration_forgejo_gitea",
     "licenses": [
@@ -1870,9 +1880,9 @@
     ]
   },
   "integration_inspect360": {
-    "hash": "sha256-lIexWMIYVCL2togBpdvIg3LM4pmJeS3IVIh3c5Hkw1g=",
-    "url": "https://github.com/njordium/integration_inspect360/releases/download/v0.4.6/integration_inspect360.tar.gz",
-    "version": "0.4.6",
+    "hash": "sha256-F1HinCS200R0JolEY6C6TrYP3CWlnoVf/tS+ndNxQc0=",
+    "url": "https://github.com/njordium/integration_inspect360/releases/download/v0.4.8/integration_inspect360.tar.gz",
+    "version": "0.4.8",
     "description": "Nextcloud integration app for Njordium Inspect360.\n\n## Dashboard widgets\n\n- **Overview** — four KPI tiles: Approved Vendors, Total Vendors, Pending Review, Total Services. Powered by a single call to /api/v1/suppliers/stats plus a lightweight products count.\n- **Approved Vendors** — list of suppliers with status \"approved\", with country, org number, and regulatory flag chips (Critical, ICT, Data Processor, AML) at a glance.\n- **Added Vendors** — recently added suppliers, sorted by created-at descending.\n- **Assessed** — recent vendor assessments with status, current stage, and colour-coded risk level (low/medium/high/critical).\n\nEach widget carries a per-user refresh cadence (Never / 30s / 1m / 5m default / 15m / 30m / 1h), pauses polling while the browser tab is hidden, and re-fetches on wake so an idle dashboard tab doesn't hammer the API.\n\n## Authentication\n\nSign in with your Inspect360 account from Personal Settings → Connected accounts. The app stores only the returned refresh token (encrypted via Nextcloud's ICrypto) and mints short-lived access tokens on demand for every API call.\n\nOnly Inspect360 accounts without multi-factor authentication are supported in this release — accounts with MFA enforced or MFA-enrolment-required will see a targeted \"not supported yet\" message. Fuller MFA support arrives in a subsequent release.",
     "homepage": "https://github.com/njordium/integration_inspect360",
     "licenses": [
@@ -2220,9 +2230,9 @@
     ]
   },
   "intravox": {
-    "hash": "sha256-NVkiFgjJBH98rudzRv1ZAn1af2q8XwGKhL44q8wytQU=",
-    "url": "https://github.com/nextcloud/IntraVox/releases/download/v2.3.0/intravox-2.3.0.tar.gz",
-    "version": "2.3.0",
+    "hash": "sha256-7c4hh/OpRq1ns3zezx28QlKq5JazgIpRNqLYBBR/Dg0=",
+    "url": "https://github.com/nextcloud/IntraVox/releases/download/v2.3.1/intravox-2.3.1.tar.gz",
+    "version": "2.3.1",
     "description": "IntraVox turns Nextcloud into a full intranet: pages built with a visual drag-and-drop editor, no code required.\n\n**Where your content lives**\nIntraVox runs wherever you run Nextcloud — your own hardware, an EU host, on-premises. It is open source, so it can be audited. Your content is not a platform format: pages are plain files and JSON in a folder, which keeps leaving cheap if you ever need to.\n\n**Building pages**\n* Drag-and-drop widgets in flexible grids (1–5 columns), 7 page templates\n* Text with tables and markdown, images, video, links, files\n* Calendar, People, News, Photo Story and File Story widgets\n* Draft/published workflow, scheduled publication, page locking\n\n**Finding your way**\n* A page structure panel that stays open while you navigate, with a table of contents of the page you are reading\n* Navigation editor with mega menu and sidebar options\n* Nextcloud Unified Search integration (Ctrl+K)\n\n**Working together**\n* Reactions, threaded comments and version history with one-click restore\n* Multilingual pages: link language versions, and readers are offered the one in their language\n* Public sharing, with optional password protection\n* Department access control through Team folders ACL\n\n**Requirements:** Nextcloud 32–34, PHP 8.2+, Team folders.",
     "homepage": "https://voxcloud.nl",
     "licenses": [
@@ -2300,9 +2310,9 @@
     ]
   },
   "kanso": {
-    "hash": "sha256-6RP0Uyt5+qPJXYat+IZAMDoZvIIP8kHhAmvz8rqWskM=",
-    "url": "https://github.com/aktasfatih/kanso/releases/download/v0.12.0/kanso.tar.gz",
-    "version": "0.12.0",
+    "hash": "sha256-uxf7+DhcEBDZmW5hUAVisHYmd9YVdYbJ8n5sqPQnVoI=",
+    "url": "https://github.com/aktasfatih/kanso/releases/download/v0.13.0/kanso.tar.gz",
+    "version": "0.13.0",
     "description": "Kanso is a kanban board app for Nextcloud, built for speed. Boards, stacks and\ncards with instant drag & drop, optimistic updates and payloads sized for large\nboards (2,000+ cards). Realtime updates via notify_push, with a polling fallback.\n\nRich cards with markdown, labels, due dates, assignees, priorities, checklists,\nparent/child cards and threaded comments with @mentions and watchers. Board\nsharing with per-user and per-group access control.\n\nA review workflow (request review, approve / request changes, customizable\nreview types, and an optional done-gate). A cross-board My Work hub (my tasks,\nreviews, inbox), cross-board Projects, and per-board and per-project analytics\n(velocity, cycle time, throughput). Board, List and Timeline (Gantt) views.\n\nRecurring cards on RRULE schedules, auto-archive rules, WIP limits and stack\nroles, a command palette with full-text search, trash with restore, GitHub\nlinks and webhook, and one-click Import from Deck.",
     "homepage": "https://github.com/aktasfatih/kanso",
     "licenses": [
@@ -2380,9 +2390,9 @@
     ]
   },
   "learning": {
-    "hash": "sha256-5aJxohumDm1yMDy2Co5WOEY8R12ruQk3vZ8iiMoYljU=",
-    "url": "https://codeberg.org/andremadstop/learning-nc/releases/download/v5.3.0/learning-5.3.0.tar.gz",
-    "version": "5.3.0",
+    "hash": "sha256-wse6wFht1pc8BOsjKQJ4DyNHpK7VycopPTr5uAEeKgE=",
+    "url": "https://codeberg.org/andremadstop/learning-nc/releases/download/v5.3.1/learning-5.3.1.tar.gz",
+    "version": "5.3.1",
     "description": "**Learning** is a self-hosted learning platform for Nextcloud. Your questions, progress, and student data never leave your server.\n\nBuilt for IT certification bootcamps (CompTIA, Cisco, AWS) but works for any subject. Instructors create courses, track student progress, and identify at-risk learners. Students drill with scientifically-backed spaced repetition and hands-on simulations.\n\n## Why Learning?\n\n- **Your data stays on your server** — no cloud dependency, full GDPR compliance\n- **FSRS adaptive scheduling** — cards are prioritized by memory strength, not rigid intervals\n- **9 interactive IT simulators** — CLI terminals, firewall builders, DNS resolvers, subnet calculators, network topology placement\n- **AI tutor (optional)** — answers questions by citing your uploaded course materials\n- **Verifiable certificates** — issue cryptographically signed, publicly verifiable completion credentials\n\n## For Instructors\n\n- Course management with pool assignment and student enrollment\n- **At-risk warnings** — automatic detection of struggling students\n- **Chapter heatmaps** — see where the class struggles at a glance\n- **Curriculum timeline** — plan course schedule with milestones\n- **Admin dashboard** — CSV export, course archiving, cohort merging\n- Campaign selection — choose which story scenarios are available per course\n\n## Certification &amp; Compliance\n\n- **Signed completion certificates** — every passing learner receives a cryptographically signed (Ed25519) certificate, minted automatically\n- **Public verification portal** — anyone can verify a certificate's authenticity via its permanent URL, no login required\n- **Compliance reports** — organization-wide completion overview for audits and works agreements\n- **Mandatory training &amp; recertification** — assign required courses, track certificate expiry, and automate recertification reminders\n- **Tamper-proof audit trail** — every issuance, revocation, and completion is logged\n\n## For Learners\n\n- **Smart Queue** — one-click review of all due cards, sorted by urgency\n- **Training &amp; Exam Mode** — practice or simulate timed exams\n- **PBQ Simulations** — performance-based questions with interactive CLI, drag-and-drop placement, and wiring tasks\n- **Story Campaigns** — learn through real IT incident scenarios (WannaCry, SolarWinds, Log4Shell)\n- **Live Duels &amp; Sprint** — real-time multiplayer quiz battles via Server-Sent Events\n- **Gamification** — XP, levels, streaks, 10 badges, seasonal league\n- **Maintenance Mode** — long-term retention schedule after course ends\n- **Trouble-spot cheat sheet** — export your weakest topics for exam prep\n\n## AI Features (optional)\n\nRequires a Google Gemini API key. Without it, the app is fully functional — AI features are simply hidden. Each user must explicitly opt in before any data is sent to the API.\n\n- **VirtuProf** — AI learning assistant with RAG-powered answers and source citations\n- **Question Generator** — create flashcards from pasted text\n- **Note Generator** — AI-powered topic summaries saved to Nextcloud Files\n\n## Question Types\n\n- Multiple Choice, Free Text with fuzzy matching, PBQ Simulations\n- CSV/JSON import &amp; export, pool sharing, multi-language translations\n\n## Technical\n\n- Vue 3, Vite, Pinia — modern frontend stack\n- 1220 unit tests, PHPStan Level 5, pre-push quality gates\n- Native Nextcloud integration: Dashboard widgets, Notifications, Talk, Files\n- AGPL-3.0 — fully open source\n\n## Requirements\n\n- Nextcloud 33–35\n- PHP 8.1+\n- PostgreSQL 13+ or MySQL 8+\n\n**Looking for pilot partners!** If you run Nextcloud at a school, university, or training provider — we'd love your feedback. Open an issue with a bit of context and we're happy to walk you through it.",
     "homepage": "https://codeberg.org/andremadstop/learning-nc",
     "licenses": [
@@ -2460,9 +2470,9 @@
     ]
   },
   "logcleaner": {
-    "hash": "sha256-lUZC34BF3gAPRtDsoOUp7+wjlGn/G807pNRBy1MOXI0=",
-    "url": "https://github.com/zomtec2311/logcleaner/releases/download/1.5.7/logcleaner_1.5.7.tar.gz",
-    "version": "1.5.7",
+    "hash": "sha256-V3x7QqnjJupHLR010RYmaf0L/Bo+LWbRfxUaIqcngwc=",
+    "url": "https://github.com/zomtec2311/logcleaner/releases/download/1.5.8/logcleaner_1.5.8.tar.gz",
+    "version": "1.5.8",
     "description": "**Administration tool for cleaning up the log file**\n\n- 🛡️ Only accessible for administration.\n- 🎨 Error levels with different colors.\n- ⚙️ Many settings for every need.\n- 🛠️ After correcting a log entry it can be deleted from the log file.\n- ⏩ One click deletion of all duplicates within the log file.\n- 🗑️ Empty the log file without using shell commands.\n- 📜 View datails of log entries.\n- 🔍 Find solutions on the internet by various search engines.\n- 🔔 Send notifications for new log entries.\n- 📯 Send emails for new log entries.",
     "homepage": "https://github.com/zomtec2311/logcleaner",
     "licenses": [
@@ -3000,9 +3010,9 @@
     ]
   },
   "pantry": {
-    "hash": "sha256-C/ejBie1LNZJ/XE72gEwK3+VhOp77qQG1EAO7R5gyik=",
-    "url": "https://github.com/chenasraf/nextcloud-pantry/releases/download/v0.27.0/pantry-v0.27.0.tar.gz",
-    "version": "0.27.0",
+    "hash": "sha256-qegLsAImX9pM1KjbcFvvZ3xd2csud6t69+hXEoqX8N4=",
+    "url": "https://github.com/chenasraf/nextcloud-pantry/releases/download/v0.28.0/pantry-v0.28.0.tar.gz",
+    "version": "0.28.0",
     "description": "Pantry helps households stay organized in Nextcloud.\n\n- **Houses** group members and their shared data. A person can belong to multiple houses and switch between them freely.\n- **Checklists** support recurring items (e.g. milk every week) that automatically reappear when due. Share lists with the whole household so everyone knows what to pick up.\n- **Photo boards** let you keep shared reference photos organized in folders — the right brand of dog food, a favorite recipe card, a product label, and so on.\n- **Notes wall** gives the household a lightweight shared space for reminders, pinned messages, and quick notes with customizable colors.\n- **Notifications** keep everyone in the loop when photos are uploaded or notes are added or edited.\n\nAll data is scoped to a house; members only see the houses they belong to.\n\nPantry also has companion apps for mobile and desktop that let you manage your lists, photos and notes on the go and keep everything in sync with your Nextcloud instance.\n\n**Companion apps:** Android ([Google Play](https://play.google.com/store/apps/details?id=dev.casraf.pantry), [F-Droid](https://f-droid.org/en/packages/dev.casraf.pantry/)) | iOS/macOS ([App Store](https://apps.apple.com/us/app/pantry-for-nextcloud/id6762161619))",
     "homepage": "https://github.com/chenasraf/nextcloud-pantry",
     "licenses": [
@@ -3270,9 +3280,9 @@
     ]
   },
   "reinhardterp": {
-    "hash": "sha256-P0jJ/PXybKtf3KBACVHB8Vz47gtLbXne8/yPk3RMn7o=",
-    "url": "https://github.com/SchreinereiReinhardt/NextERP/releases/download/v1.9.19/Betrio-1.9.19-store.tar.gz",
-    "version": "1.9.19",
+    "hash": "sha256-Nde3FHgcWWeiK2+y5a+fQJkW2El5yCqbDruRw1EdKjg=",
+    "url": "https://github.com/SchreinereiReinhardt/NextERP/releases/download/v1.9.31/Betrio-1.9.31-store.tar.gz",
+    "version": "1.9.31",
     "description": "Betrio is an ERP and project management solution specifically designed for trades and craft businesses and integrated directly into Nextcloud.\n\nIt combines commercial and operational workflows with the existing Nextcloud environment – from customers and projects to quotations, orders, work reports, time tracking, documents, materials and mobile on-site processes.\n\nFeatures:\n\n- Customer management\n- Project management and digital project files\n- Quotations and orders\n- Work reports with signature and PDF export\n- Time tracking\n- Material and inventory management\n- Documents, photos and project files\n- Appointments and project timeline\n- Cost and project overviews\n- Mobile-optimized interface\n- Camera and barcode functions for on-site work\n- Integration with Nextcloud Files and existing Nextcloud structures\n\nBetrio was developed from the daily practice of a craft business and is especially aimed at trades and craft companies that want to manage their operational workflows directly in Nextcloud.",
     "homepage": "https://www.schreinerei-reinhardt.de",
     "licenses": [
@@ -3870,9 +3880,9 @@
     ]
   },
   "tachyon": {
-    "hash": "sha256-cVTcFqtzGdWILiCu8UTrgknL9yClcGkawKNduvkcG/A=",
-    "url": "https://github.com/kimusan/Tachyon/releases/download/v3.2.6/tachyon-3.2.6-nextcloud.tar.gz",
-    "version": "3.2.6",
+    "hash": "sha256-Rwi6iSrJchfchJ8B/reqJ4jnJbPfbnEP8jSAxLHghbE=",
+    "url": "https://github.com/kimusan/Tachyon/releases/download/v3.2.8/tachyon-3.2.8-nextcloud.tar.gz",
+    "version": "3.2.8",
     "description": "**Lightweight & fast email client.**\n\n- **Dark mode**\n- **Responsive design**\n- **Full Sieve filtering support**\n- **Almost all IMAP features** including advanced searching\n- **Integration with Nextcloud Unified Search**\n- **Integration with other Nextcloud apps** (Contacts, Files and Calendar)\n- **Multiple mail accounts and identities**\n- **Send & receive OpenPGP encrypted/signed emails** (With full HTML support, ECC keys, or plain text with Mailvelope)\n- **Send & receive S/MIME encrypted/signed emails**\n- **Many security features** (Sodium encrypted passwords, Sec-Fetch, TOTP 2FA, DKIM, prevent tracking, etc.)\n- **Kolab integrations**\n\nAfter enabling in Nextcloud, go to Nextcloud admin panel, \"Additional settings\" and you will see a \"Tachyon webmail\" section.\nThere, click on the link to go to the Tachyon admin panel.",
     "homepage": "https://github.com/kimusan/Tachyon",
     "licenses": [
@@ -4140,8 +4150,8 @@
     ]
   },
   "uniteos_notifier": {
-    "hash": "sha256-yoNEdBloqNFtXTZsR4EN1PoTlGRjQKObaZ2B+qSFp4g=",
-    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/main/uniteos_notifier.tar.gz",
+    "hash": "sha256-vaWgvCrCGCfm5ygADrXCKR/nRTU9DFar/FQZg59ajus=",
+    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/1.0.6/uniteos_notifier.tar.gz",
     "version": "1.0.6",
     "description": "This app allows forwarding Nextcloud events for a deeper integration into UniteOS developed by wechange eG by presenting a selected set of events as user notifications.",
     "homepage": "",
@@ -4320,10 +4330,10 @@
     ]
   },
   "vereinsbuchhaltung": {
-    "hash": "sha256-QgzqqfB6kX4vYrgo5oPoUJq7XMOqDQ8jdlnwUWJqtHQ=",
-    "url": "https://github.com/AndiMb/nc_vereinsbuchhaltung/releases/download/v0.24.3/vereinsbuchhaltung-0.24.3.tar.gz",
-    "version": "0.24.3",
-    "description": "**Buchhaltung für Vereine – vollständig in der eigenen Nextcloud.**\n\nFür Kassenwartinnen und Kassenwarte kleiner und mittlerer Vereine, die keine\nBuchhaltungssoftware betreiben und ihre Finanzdaten nicht in eine Cloud eines\nAnbieters geben wollen. Die Daten bleiben, wo eure Nextcloud steht.\n\nMan muss kein Buchhalter sein: im **Einfach-Modus** erfasst man „Einnahme\" oder\n„Ausgabe\" mit Betrag, Datum und Kategorie – die doppelte Buchführung im\nHintergrund erledigt die App. Wer Soll und Haben selbst setzen möchte, schaltet\nin den Experten-Modus um.\n\n**[▶ Die App in zwei Minuten (Video)](https://youtu.be/eaF-tAQ_OOM)** – Kontoauszüge\nimportieren, Umsätze zuordnen, auswerten und den Kassenbericht für die\nMitgliederversammlung erzeugen.\n\n## Der Arbeitsablauf\n\n1. **Kontoauszug importieren** – CSV-CAMT, CAMT.053 (XML) oder MT940 aus dem\n   Onlinebanking; das Format erkennt die App am Inhalt, die Dateiendung spielt\n   keine Rolle. Bereits vorhandene Umsätze werden erkannt und übersprungen,\n   auch formatübergreifend. Ein Wachordner kann neue Auszüge sogar von allein\n   einlesen, ohne manuellen Import.\n2. **Umsätze zuordnen** – jede Bankbuchung bekommt ein Gegenkonto. Regeln\n   erledigen wiederkehrende Zuordnungen (Miete, Beiträge, Gebühren) automatisch.\n3. **Belege anhängen** – Foto oder PDF, wahlweise in einem Nextcloud-Ordner\n   eurer Wahl oder app-intern gespeichert.\n4. **Auswerten und berichten** – Kassenbericht für die Mitgliederversammlung,\n   Kurzbericht für die Vorstandssitzung, Exporte für die Kassenprüfung.\n\n## Was die App kann\n\n- **Doppelte Buchführung** mit frei definierbarem Kontenrahmen; ein\n  Standard-Kontenrahmen für Vereine ist mitgeliefert\n- **Kassenbericht** und **Kurzbericht** als druckfertige Seiten (Strg+P), auf\n  Wunsch mit Vereinslogo und Akzentfarbe\n- **Finanzplan** mit Plan-Ist-Vergleich und einfrierbaren Planständen\n- **Gemeinnützigkeit:** Sphären nach dem Vier-Sphären-Modell (ideell,\n  Vermögensverwaltung, Zweckbetrieb, wirtschaftlicher Geschäftsbetrieb) und\n  Rücklagen nach § 62 AO\n- **Mitgliedsbeiträge & SEPA-Lastschrift** (optional, bei Bedarf aktivierbar):\n  Mitgliederverwaltung mit CSV-Import, Lastschriftmandate, Beiträge mit\n  individueller Zahlungsfrequenz, SEPA-Sammeleinzug als pain.008-Datei für die\n  Hausbank – eigener Reiter in der Hauptnavigation; wer das Modul nicht\n  braucht, sieht ihn gar nicht\n- **Offene Posten** – unbezahlte Forderungen mit Fälligkeit im Blick\n- **Mehrjahres-Trend** und Auswertung nach Kostenstellen\n- **Jahresabschluss:** ein festgeschriebenes Geschäftsjahr lässt sich nicht mehr\n  verändern; fortlaufende, lückenlose Buchungsnummern je Jahr\n- **Änderungsprotokoll:** wer hat wann was geändert\n- **Rollen:** Verwalter, Buchhalter und Revisor – die Kassenprüfung bekommt\n  Lesezugriff auf alles, ohne etwas ändern zu können\n- **Für unterwegs:** eigene Ansicht für das Smartphone, Beleg direkt abfotografieren\n- **Kassenprüfung:** alle Belege eines Jahres als ZIP, druckfertige\n  Kurzanleitung für die Prüfperson, Vollständigkeitsprüfung der Buchungsnummern\n\nEin **Beispielverein** lässt sich mit einem Klick anlegen, um alles gefahrlos\nauszuprobieren, und mit einem weiteren Klick wieder entfernen.\n\nBestehende Daten aus „zero Buchhaltung\" können über deren xbuc-Dateien\nübernommen werden.\n\nAusführliches Handbuch auf Deutsch: siehe Dokumentation.",
+    "hash": "sha256-MahtOSVXTf0MrVzd4sNsb6DzNfvG5MQslnjQZCFasZo=",
+    "url": "https://github.com/AndiMb/nc_vereinsbuchhaltung/releases/download/v0.27.0/vereinsbuchhaltung-0.27.0.tar.gz",
+    "version": "0.27.0",
+    "description": "**Accounting for nonprofit clubs – fully within your own Nextcloud.**\n\nFor treasurers of small and medium-sized clubs who don't run separate\naccounting software and don't want their financial data in some provider's\ncloud. Your data stays wherever your Nextcloud is hosted.\n\nYou don't need to be an accountant: in **simple mode** you record an \"income\"\nor \"expense\" with amount, date and category – the app handles double-entry\nbookkeeping in the background. If you'd rather set debit and credit yourself,\nswitch to expert mode.\n\n**[▶ The app in two minutes (video, German)](https://youtu.be/eaF-tAQ_OOM)** –\nimport bank statements, assign transactions, evaluate and produce the annual\ntreasurer's report.\n\n## The workflow\n\n1. **Import a bank statement** – CSV-CAMT, CAMT.053 (XML) or MT940 from your\n   online banking; the app detects the format from the content, the file\n   extension doesn't matter. Transactions already present are recognized and\n   skipped, even across formats. A watch folder can even pick up new\n   statements on its own, without a manual import.\n2. **Assign transactions** – every bank entry gets a counter-account. Rules\n   handle recurring assignments (rent, membership fees, charges)\n   automatically.\n3. **Attach receipts** – photo or PDF, either in a Nextcloud folder of your\n   choice or stored inside the app.\n4. **Evaluate and report** – treasurer's report for the general assembly,\n   short report for board meetings, exports for the audit.\n\n## What the app can do\n\n- **Double-entry bookkeeping** with a freely definable chart of accounts; a\n  standard chart of accounts for clubs is included\n- **Treasurer's report** and **short report** as print-ready pages (Ctrl+P),\n  optionally with your club's logo and accent color\n- **Financial plan** with plan/actual comparison and freezable plan snapshots\n- **Nonprofit status:** spheres following the German four-sphere model\n  (ideational, asset management, purpose-related business, commercial\n  business) and reserves per § 62 AO\n- **Membership fees & SEPA direct debit** (optional, can be enabled as\n  needed): member management with CSV import, direct debit mandates, fees\n  with individual payment frequency, SEPA batch collection as a pain.008\n  file for your bank – its own tab in the main navigation; if you don't need\n  the module, you never see it\n- **Open items** – keep track of unpaid receivables with due dates\n- **Multi-year trend** and evaluation by cost center\n- **Year-end closing:** a finalized fiscal year can no longer be changed;\n  continuous, gap-free posting numbers per year\n- **Change log:** who changed what, and when\n- **Roles:** administrator, bookkeeper and auditor – the audit role gets\n  read access to everything without being able to change anything\n- **On the go:** dedicated view for smartphones, photograph receipts\n  directly\n- **Annual audit:** all receipts for a year as a ZIP, print-ready quick\n  guide for the auditor, completeness check of posting numbers\n\nA **sample club** can be created with one click to try everything out\nrisk-free, and removed again with another click.\n\nExisting data from \"zero Buchhaltung\" can be taken over via its xbuc files.\n\nFull manual in German and English: see documentation.",
     "homepage": "https://github.com/AndiMb/nc_vereinsbuchhaltung",
     "licenses": [
       "agpl"
