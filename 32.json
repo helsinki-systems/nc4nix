@@ -280,11 +280,11 @@
     ]
   },
   "auto_groups": {
-    "hash": "sha256-+xKIzf7X4CTYVxfXkakfVdnguRzapHBc2hhYyaEkV1o=",
-    "url": "https://github.com/jo23sh/auto_groups/releases/download/v1.7.3/auto_groups-v1.7.3.tar.gz",
-    "version": "1.7.3",
+    "hash": "sha256-ylrJmNiHVsohPuPYX4d9Eib+7L4qUFzBXzJjPT4g0Ck=",
+    "url": "https://github.com/jo23sh/auto_groups/releases/download/v1.8.0/auto_groups-v1.8.0.tar.gz",
+    "version": "1.8.0",
     "description": "Automatically add users to the specified Auto Groups, except those users belonging to one of the specified Override Groups. \nOptionally, the group assignment can be triggered on every successful login, which is useful for external user backends.\n\n## Configuration\n\n- Go to \"Settings > Administration > Additional settings\"\n- Configure the Auto Groups\n- If required, configure the Override Groups (e.g., for Service Accounts)\n- Optionally, enable the Login Hook, which will enforce correct group membership on every successful login\n\nNote that this app prevents group deletions for groups referenced as Auto Groups or Override Groups.\n\n## Comparison to similar Apps\n\n* [Everyone Group](https://apps.nextcloud.com/apps/group_everyone): The \"Everyone Group\" app adds a virtual Group Backend, always returning all users. In contrast, \"Auto Groups\" operates on \"real\" groups in your normal Group Backend. Additionally, it is possible to specify Override Groups which will prevent users from being added to the Auto Group(s).\n* [Default Group](https://apps.nextcloud.com/apps/defaultgroup): \"Auto Groups\" is actually a modernized and maintaned fork of \"Default Group\", which seems to be abandoned since NC12 or so. In terms of functionality, they are almost identical.",
-    "homepage": "https://github.com/stjosh/auto_groups",
+    "homepage": "https://github.com/jo23sh/auto_groups",
     "licenses": [
       "agpl"
     ]
@@ -680,9 +680,9 @@
     ]
   },
   "crate": {
-    "hash": "sha256-sgt4wjq5fQjW6ooVVoqs76OEahisxnPSYPisNIZcgKM=",
-    "url": "https://github.com/megamaced/crate/releases/download/v1.11.0/crate-1.11.0.tar.gz",
-    "version": "1.11.0",
+    "hash": "sha256-x/kArIOmFiKyGWVAY6kESKnSKphtEHib5j4hW/JT8dQ=",
+    "url": "https://github.com/megamaced/crate/releases/download/v1.12.0/crate-1.12.0.tar.gz",
+    "version": "1.12.0",
     "description": "Crate is a personal physical media catalogue for Nextcloud — browse and manage your music, films, books, games and comics in one place, with everything stored on your own server.\n\nAdd items manually or by barcode scan. Pull rich metadata automatically from Discogs (music), TMDB (films), Open Library (books), RAWG (games) and ComicVine (comics). Track market values from Discogs and PriceCharting alongside what you originally paid. Attach the cover art plus two extra user photos per item (receipts, sleevenotes, disc shots).\n\nOwned vs. wanted, playlists, sharing with other Nextcloud users, full CSV and XLSX import / export. There's a native Android companion at https://github.com/megamaced/crate-android.",
     "homepage": "",
     "licenses": [
@@ -690,9 +690,9 @@
     ]
   },
   "cristal": {
-    "hash": "sha256-mbuZH6RSiLwJuIrLIIWFVedrTaYD37fOiA+pG50gl9s=",
-    "url": "https://github.com/xwiki-contrib/cristal-integration-nextcloud/releases/download/1.7.0/cristal.tar.gz",
-    "version": "1.7.0",
+    "hash": "sha256-b8rdOkBBXVsBcnqMKVTJ3fsdBeaDNpa8401RcPHiToI=",
+    "url": "https://github.com/xwiki-contrib/cristal-integration-nextcloud/releases/download/1.8.0/cristal.tar.gz",
+    "version": "1.8.0",
     "description": "The [Cristal integration](https://github.com/xwiki-contrib/cristal-integration-nextcloud) for Nextcloud adds a modern, wiki-style note-taking interface on top of your Nextcloud files.\n\nCristal is designed for flexibility, a user-friendly UI, and organized knowledge, without lock-in or unnecessary complexity.\n\n## Features\n\nWith the Cristal integration in Nextcloud you can:\n\n* **Write notes and organize your thoughts** in pages.\n* **Structure pages into a hierarchy** (as many levels as you want).\n* **Link pages** together.\n* **Manage your attachments**.\n* **Navigate** with the navigation tree.\n* **Use auto-suggestion** to find content.\n* **Keep your wiki content in Markdown files**.\n\nIf you uninstall Cristal, all your data, pages and attachments, remain accessible in Nextcloud.\n\n## How to start\n\nAdmins logged into the Nextcloud App Store can install Cristal in one click from this page. The installation is done for all the users of the instance. No need for complex configs or setups.\n\n## Contribute to the Cristal integration\n\nCristal is open source and any contributions are welcome!\n\nYou can help improve the application, leave feedback in the comments, report [issues](https://jira.xwiki.org/projects/CRISTALNC/), or [discuss with us](https://dev.xwiki.org/xwiki/bin/view/Community/Chat).\nYou can also fill the [Feedback survey](https://cryptpad.fr/form/#/2/form/view/5-s0TWMJIQ8mFBtRcezNa-YvqtAo5JUvyeeAA5NoMDA/).\n\n## What is Cristal?\n\n[Cristal](https://cristal.xwiki.org/xwiki/bin/view/Main/) is an open-source, modern, modular wiki UI that is able to connect to various back-ends (e.g., a Nextcloud or a [XWiki](https://xwiki.org/xwiki/bin/view/Main/) instance, or GitHub, or a local folder). It focuses on offline editing with sync, and embeddability. This makes your content portable and accessible anywhere: in the browser, on your desktop, or inside another platform.",
     "homepage": "https://github.com/xwiki-contrib/cristal-integration-nextcloud",
     "licenses": [
@@ -710,9 +710,9 @@
     ]
   },
   "cryptoinvestmenttracker": {
-    "hash": "sha256-sy5OEpMP5qJPIMWQGyUo9aY6MqhLOfV6fMiCt/c5tsY=",
-    "url": "https://github.com/alibaranb/cryptoInvestmentTracker-nextcloud/releases/download/v1.1.0/cryptoinvestmenttracker-1.1.0.tar.gz",
-    "version": "1.1.0",
+    "hash": "sha256-yv7QcdtYE8iiyRdhGC8wV/sRzXhRKvrk70zAH4Xkopg=",
+    "url": "https://github.com/alibaranb/cryptoInvestmentTracker-nextcloud/releases/download/v1.2.0/cryptoinvestmenttracker-1.2.0.tar.gz",
+    "version": "1.2.0",
     "description": "Track cryptocurrency investments across multiple portfolios.\n\n- Multiple portfolios (e.g. by month, strategy)\n- Live prices from Binance (USDT pairs)\n- Per-coin and per-portfolio profit/loss\n- Per-user data, stored in Nextcloud's database\n- Auto-refresh every 30s\n\nPorted from the standalone WinForms app of the same name.",
     "homepage": "https://github.com/alibaranb/cryptoInvestmentTracker-nextcloud",
     "licenses": [
@@ -870,9 +870,9 @@
     ]
   },
   "diskmap": {
-    "hash": "sha256-35a4s0zPhgciEBpubHpL0j/XGreMI/my7o+zlahnlj0=",
-    "url": "https://github.com/kreotropic/diskmap/releases/download/v0.1.0/diskmap-signed.tar.gz",
-    "version": "0.1.0",
+    "hash": "sha256-W6HFTAuW8GOVTv6VXU/W7Ei/URQKRrsbEqbNnZSvvsc=",
+    "url": "https://github.com/kreotropic/diskmap/releases/download/v0.4.0/diskmap-signed.tar.gz",
+    "version": "0.4.0",
     "description": "DiskMap shows where storage is going across your Nextcloud instance — per user and per team\nfolder — without scanning anything.\n\nNextcloud already tracks aggregated folder sizes in its file cache, updated on every operation.\nDiskMap is a visualizer over data that already exists: it never triggers a filesystem scan.\n\nEach view pairs a WinDirStat-style treemap with an expandable folder tree, kept in sync both\nways: click a tile on the map and the tree opens to that file, click a row in the tree and the\nmap highlights its region.\n\n**For administrators:**\n- Whole-server view: every account, team folder and external storage as a top-level entry,\n  browsable down to individual files.\n- Team folders overview: used space, quota and occupancy, with a files / trash / versions\n  breakdown for each folder.\n\n**For every user:**\n- The same treemap and folder tree over your own storage, with quota occupancy and a\n  files / trash / versions breakdown.\n\nAll figures show the timestamp of the underlying file cache entry, so it's always clear this\nreflects what Nextcloud's cache knows, not a live disk read.",
     "homepage": "https://github.com/kreotropic/diskmap",
     "licenses": [
@@ -1520,10 +1520,10 @@
     ]
   },
   "formvox": {
-    "hash": "sha256-8utqm1Ua0WDodTFZnZPv5BC56tdxl1pd7EqjyN0WXZI=",
-    "url": "https://github.com/nextcloud/formvox/releases/download/v1.4.3/formvox-1.4.3.tar.gz",
-    "version": "1.4.3",
-    "description": "FormVox is a file-based forms and polls app for Nextcloud. Unlike traditional form apps, FormVox stores everything in .fvform files — no database tables needed.\r\n\r\n**Features:**\r\n* 100% file-based storage (.fvform files)\r\n* Question types: text, textarea, single/multiple choice, dropdown, date, time, number, scale, rating, file upload, matrix, table\r\n* Conditional logic and page routing\r\n* Quiz mode with scoring\r\n* Export to CSV, JSON, and ODT (with custom template support)\r\n* Import from Microsoft Forms\r\n* Per-form branding with visual page builder\r\n* Answer piping (use previous answers in later questions)\r\n* Charts and visualizations in Results view\r\n* Webhooks and REST API for integrations\r\n* Collaborative editing with real-time presence indicators\r\n* Notifications on new responses\r\n* Password protection and expiration for public links\r\n* Multi-language: English, Dutch, German, French\r\n\r\n**Unique Benefits:**\r\n* One file contains everything (definition + responses)\r\n* Works with Nextcloud's versioning and sharing\r\n* End-to-end encryption compatible\r\n* No database migrations needed\r\n\r\n**Perfect for:**\r\n* Surveys and feedback forms\r\n* Quizzes and assessments\r\n* Event registrations\r\n* Expense declarations\r\n* Data collection with privacy requirements",
+    "hash": "sha256-b8ueoXxXvY/FP7TMBaBNbIm+Ne3lxGXIrLk8fHHVp60=",
+    "url": "https://github.com/nextcloud/formvox/releases/download/v1.4.4/formvox-1.4.4.tar.gz",
+    "version": "1.4.4",
+    "description": "FormVox is a file-based forms and polls app for Nextcloud. Unlike traditional form apps, FormVox stores everything in .fvform files — no database tables needed.\n\n**Features:**\n* 100% file-based storage (.fvform files)\n* Question types: text, textarea, single/multiple choice, dropdown, date, time, number, scale, rating, file upload, matrix, table\n* Conditional logic and page routing\n* Quiz mode with scoring\n* Export to CSV, JSON, and ODT (with custom template support)\n* Import from Microsoft Forms\n* Per-form branding with visual page builder\n* Answer piping (use previous answers in later questions)\n* Charts and visualizations in Results view\n* Webhooks and REST API for integrations\n* Collaborative editing with real-time presence indicators\n* Notifications on new responses\n* Password protection and expiration for public links\n* Multi-language: English, Dutch, German, French\n\n**Unique Benefits:**\n* One file contains everything (definition + responses)\n* Works with Nextcloud's versioning and sharing\n* End-to-end encryption compatible\n* No database migrations needed\n\n**Perfect for:**\n* Surveys and feedback forms\n* Quizzes and assessments\n* Event registrations\n* Expense declarations\n* Data collection with privacy requirements",
     "homepage": "https://voxcloud.nl",
     "licenses": [
       "agpl"
@@ -1980,9 +1980,9 @@
     ]
   },
   "integration_immich": {
-    "hash": "sha256-PKL0FtM2oVWqlo1lAm3G3pC8Tkfzm/W4ySWAa4HG9R4=",
-    "url": "https://github.com/xXRoxXeRXx/integration_immich/releases/download/v1.4.0/integration_immich.tar.gz",
-    "version": "1.4.0",
+    "hash": "sha256-Mq3Sdr51EY7xlD+BKQF1V2xBoERQFDXdy9B7JqXyryU=",
+    "url": "https://github.com/xXRoxXeRXx/integration_immich/releases/download/v1.5.0/integration_immich.tar.gz",
+    "version": "1.5.0",
     "description": "Seamlessly integrates your [Immich](https://immich.app) photo library into Nextcloud.\n\n**Features:**\n- 🖼️ **Timeline** — lazy-loaded photo & video timeline grouped by date\n- 📁 **Albums** — browse, create, rename and delete Immich albums\n- 👤 **People** — explore your library by recognized person (face recognition)\n- 🗺️ **Map** — interactive map of all geotagged photos\n- 🔍 **Explore** — browse by city, country, state, object or tag\n- 🔎 **Lightbox** — full-screen viewer with keyboard navigation, pinch-to-zoom and EXIF metadata\n- ⭐ **Favorites** — mark and unmark photos as favorites\n- 💾 **Save to Nextcloud** — save Immich originals directly to your Nextcloud Files\n- ⬆️ **Upload to Immich** — send photos and videos from Nextcloud Files to Immich\n- ☑️ **Multi-select** — batch operations across any view",
     "homepage": "https://github.com/xXRoxXeRXx/integration_immich",
     "licenses": [
@@ -2310,9 +2310,9 @@
     ]
   },
   "intravox": {
-    "hash": "",
-    "url": "https://github.com/nextcloud/IntraVox/releases/download/v2.6.2/intravox-2.6.2.tar.gz",
-    "version": "2.6.2",
+    "hash": "sha256-qIECqhJlj303Q+WdIoXt6Z891lPqbZ1f0ONQsqOuHBg=",
+    "url": "https://github.com/nextcloud/IntraVox/releases/download/v2.6.3/intravox-2.6.3.tar.gz",
+    "version": "2.6.3",
     "description": "IntraVox turns Nextcloud into a full intranet: pages built with a visual drag-and-drop editor, no code required.\n\n**Where your content lives**\nIntraVox runs wherever you run Nextcloud — your own hardware, an EU host, on-premises. It is open source, so it can be audited. Your content is not a platform format: pages are plain files and JSON in a folder, which keeps leaving cheap if you ever need to.\n\n**Building pages**\n* Drag-and-drop widgets in flexible grids (1–5 columns), 7 page templates\n* Text with tables and markdown, images, video, links, files\n* Calendar, People, News, Photo Story and File Story widgets\n* Draft/published workflow, scheduled publication, page locking\n\n**Finding your way**\n* A page structure panel that stays open while you navigate, with a table of contents of the page you are reading\n* Navigation editor with mega menu and sidebar options\n* Nextcloud Unified Search integration (Ctrl+K)\n\n**Working together**\n* Reactions, threaded comments and version history with one-click restore\n* Multilingual pages: link language versions, and readers are offered the one in their language\n* Public sharing, with optional password protection\n* Department access control through Team folders ACL\n\n**Requirements:** Nextcloud 32–34, PHP 8.2+, Team folders.",
     "homepage": "https://voxcloud.nl",
     "licenses": [
@@ -2390,9 +2390,9 @@
     ]
   },
   "kanso": {
-    "hash": "sha256-5GzNofm5NZJE8SOB9cJi0iVzlubTmBwZJCCX87Antos=",
-    "url": "https://github.com/aktasfatih/kanso/releases/download/v0.22.0/kanso.tar.gz",
-    "version": "0.22.0",
+    "hash": "sha256-4KqWYibnxCEX9Kh3yppoDSUAqMlRCI3fCajwDJ6e8h4=",
+    "url": "https://github.com/aktasfatih/kanso/releases/download/v0.23.0/kanso.tar.gz",
+    "version": "0.23.0",
     "description": "Kanso is a kanban board app for Nextcloud, built for speed. Boards, stacks and\ncards with instant drag & drop, optimistic updates and payloads sized for large\nboards (2,000+ cards). Realtime updates via notify_push, with a polling fallback.\n\nRich cards with markdown, labels, due dates, assignees, priorities, checklists,\nparent/child cards and threaded comments with @mentions and watchers. Board\nsharing with per-user and per-group access control.\n\nA review workflow (request review, approve / request changes, customizable\nreview types, and an optional done-gate). A cross-board My Work hub (my tasks,\nreviews, inbox), cross-board Projects, and per-board and per-project analytics\n(velocity, cycle time, throughput). Board, List and Timeline (Gantt) views.\n\nRecurring cards on RRULE schedules, auto-archive rules, WIP limits and stack\nroles, a command palette with full-text search, trash with restore, GitHub\nlinks and webhook, and one-click Import from Deck.",
     "homepage": "https://github.com/aktasfatih/kanso",
     "licenses": [
@@ -2650,9 +2650,9 @@
     ]
   },
   "mediafetch": {
-    "hash": "sha256-fORQDin4vw0ju4FyZzjDB1Az/rq6pIiq5gs0fDugLr4=",
-    "url": "https://github.com/Happyfeet01/mediafetch/releases/download/v1.0.0/mediafetch-1.0.0.tar.gz",
-    "version": "1.0.0",
+    "hash": "sha256-auFGttM+n2+mUkGEQIV2Brg1GR3MsZFsAD0rfpHsR2c=",
+    "url": "https://github.com/Happyfeet01/mediafetch/releases/download/mediafetch-v1.0.1/mediafetch-1.0.1.tar.gz",
+    "version": "1.0.1",
     "description": "MediaFetch is a download manager for Nextcloud that combines aria2 and yt-dlp in one web interface.\n\nFeatures include regular HTTP/HTTPS downloads, BitTorrent and magnet downloads through aria2, and media downloads through yt-dlp. Administrators keep control over global downloader settings while every user can configure their own download folders, aria2 options and yt-dlp options.\n\nMediaFetch is based on the original NCDownloader / Net loader project and continues its AGPL-licensed codebase.",
     "homepage": "https://github.com/Happyfeet01/mediafetch",
     "licenses": [
@@ -2780,9 +2780,9 @@
     ]
   },
   "n8n_sync": {
-    "hash": "sha256-U8RGMl8xOKA0DNt6gEx+9cLmJnL7sXK5j44vPI4yKYc=",
-    "url": "https://github.com/kubed-io/nextcloud-n8n/releases/download/v1.0.0/n8n_sync-1.0.0.tar.gz",
-    "version": "1.0.0",
+    "hash": "sha256-ACRkblAQ5bVhTCgUxDiOZmddfHuolMGCoU5tcDd/fVI=",
+    "url": "https://github.com/kubed-io/nextcloud-n8n/releases/download/v1.1.0/n8n_sync-1.1.0.tar.gz",
+    "version": "1.1.0",
     "description": "n8n Sync turns a Nextcloud folder into a live, two-way mirror of your n8n workflows.\n\nBind an n8n **tag** to a folder, and every workflow wearing that tag shows up as a real `.n8n` file — with the n8n icon, its own tags, and its own dates. Edit it in Nextcloud and n8n has it seconds later. Change it in n8n and the file updates itself.\n\nNothing is matched on filename. Every file carries its workflow's id, so renaming, moving, copying, trashing and restoring never break the link — and re-running a sync never duplicates anything.\n\n## ✨ What you can do\n\n- ✨ **Create, read, update and delete** a workflow from either side\n- 🚚 **Move** a workflow — it stays the same workflow — or **copy** it, which is always a new one\n- 🗑️ **Trash, restore and purge**, mirrored into n8n's archive\n- 🏷️ **Re-tag** it from the Files app, from inside the file, or from n8n\n- 🖱️ **Open in n8n** with a click, or open the raw JSON in the text editor\n- ⌨️ **Script all of it** — every admin action has an `occ` command\n\n## 🗑️ The Nextcloud trash *is* n8n's archive\n\nTrash a workflow file and its workflow is **archived** in n8n — hidden, not gone. Restore it and the workflow comes back. Only when you empty the trash is it permanently deleted.\n\nIt works from the other side too: archive a workflow in n8n and its file lands in your Nextcloud trash; unarchive it and the file comes back out. Personal trash and Team Folder trash, both.\n\n## 🏷️ One set of tags, three places to change them\n\nA workflow's tags live in n8n, in the file's own `tags` array, and as Nextcloud's searchable system tags — and all three are kept identical. Change them wherever you happen to be looking and the other two follow, with no \"sync now\" click.\n\nThat means your mirror is as searchable as n8n itself: filter for every `prod` workflow the Nextcloud-native way. 🔍\n\n## 🎨 Honest icons, honest dates\n\nWorkflows register their own mimetype, so they wear the real n8n icon instead of a generic document glyph. And each file carries **the workflow's** created and modified dates rather than the sync's — so Recent, Popular files, and sorting a folder by date all tell you the truth about your automation.\n\n## 🧭 Sync or Link — the folder decides\n\n| Mode | The file holds | Pushes back to n8n? |\n|---|---|---|\n| **Sync** | The full workflow JSON | Yes — fully bidirectional |\n| **Link** | A pointer (id, name, URL) | No — clicking it opens n8n |\n\nMove a sync file out of its folder and it becomes **unmapped**: Nextcloud keeps the full JSON and the workflow's identity, while n8n archives the workflow. Move it back into any mapping and the same workflow is restored — not a fresh copy.\n\n## 💾 And it doubles as a backup\n\nA sync folder holds every one of its workflows in full, so it is also a complete, restorable backup — versioned by Nextcloud, synced to your desktop, and searchable by tag.\n\n📖 **[Full documentation, screenshots and the `occ` reference on GitHub](https://github.com/kubed-io/nextcloud-n8n#readme)**\n\n---\n\nThis is a community integration and is not affiliated with, endorsed by, or sponsored by n8n GmbH. \"n8n\" and the n8n logo are trademarks of n8n GmbH, used here only to identify the service this app integrates with.",
     "homepage": "https://github.com/kubed-io/nextcloud-n8n",
     "licenses": [
@@ -2790,11 +2790,11 @@
     ]
   },
   "nc_gantt": {
-    "hash": "sha256-4ve2GNOK5tWeEY5jsNgpKX5ZHlptoZ2JxXADglGvoFU=",
-    "url": "https://codeberg.org/fds2610/NC-Gantt/releases/download/v1.6.0-2a6745e/nc_gantt-1.6.0-2a6745e.tar.gz",
-    "version": "1.6.0",
-    "description": "Gantt Projects lets you manage multiple projects and subprojects with an interactive Gantt chart view.\n\nFeatures:\n- Create and manage projects with start/end dates\n- Add subprojects, tasks and milestones\n- Share individual projects with users (viewer, editor, admin)\n- Project admin role for delegated management\n- Clean Gantt visualization powered by frappe-gantt\n- Earned Value Management (EVM): PV, EV, AC, SPI, CPI indicators\n- Resource management across projects\n- Baseline comparison and deviation report\n- Nextcloud Deck board integration for subprojects and tasks\n- Export the chart as PNG, SVG or PDF (print dialog)",
-    "homepage": "",
+    "hash": "sha256-dbb0pD8G2JE6O56Ot+xxfjUwQH3NChbpTpgziZrUu3s=",
+    "url": "https://codeberg.org/fds2610/NC-Gantt/releases/download/v1.6.1-d54d955/nc_gantt-1.6.1-d54d955.tar.gz",
+    "version": "1.6.1",
+    "description": "**Plan projects the way project managers actually work — inside your own Nextcloud.**\n\nGantt Projects manages projects, subprojects, tasks and milestones in an interactive Gantt chart with a synced table view. Scheduling, resources, baselines and reporting run entirely on your instance: no external service, no tracking, no data leaving your server.\n\n## ✨ Features\n\n* 📊 **Gantt chart & table view**: Day, week, month and sprint scale with milestone diamonds, progress bars, today line and weekend shading. The table on the left shows exactly the same rows and offers configurable columns, inline editing and full keyboard navigation.\n* 🔗 **Dependencies & scheduling**: n:m dependencies of all four types (FS, SS, FF, SF) with lag and lead time. Moves propagate through the whole chain, cycles are rejected, and predecessors can be typed in MS-Project notation (`12FS+2d`).\n* 🎯 **Critical path**: Forward and backward pass with float computed on the server; the chain that really drives the end date is highlighted in the chart.\n* 📈 **Earned Value Management**: PV, EV, AC, SPI and CPI next to rollup KPIs for progress, effort, budget and risk.\n* 📐 **Baselines & delta report**: Freeze a plan, keep it visible as a second bar, and compare the current schedule against it element by element.\n* 🔮 **What-if simulation**: Play through date shifts without touching the saved plan — ghost bars keep the real dates in view.\n* 👥 **Resources & capacity**: Resource groups, multiple assignees per task with individual effort shares, a day-level capacity grid, a workload chart below the timeline and over-allocation warnings.\n* 📅 **Working calendars**: Week models, regional calendars and holidays — every date calculation in the app counts working days accordingly.\n* 🤝 **Sharing & permissions**: Share individual projects with other users as viewer, editor or project admin; the interface hides what a role may not do.\n* 🗓️ **Calendar feed (ICS)**: Subscribe to project dates and milestones in Thunderbird, Nextcloud Calendar or a mobile app via a per-project token that can be revoked at any time.\n* 🔄 **Import & export**: JSON including resources, capacities and working calendars, CSV for spreadsheets, and the rendered chart as PNG, SVG or PDF.\n* 🃏 **Deck integration**: Link a project to a Nextcloud Deck board and derive task progress from the cards.\n* 🏠 **Dashboard widget**: A compact Gantt of your active projects right on the Nextcloud dashboard.\n* ↩️ **Undo & audit log**: Take back an accidental move including its propagation chain; field changes are recorded.\n* 🔍 **Search & filters**: Find items by title or filter by risk, overdue, over budget, resource or missing Deck link — without losing the time context.\n* 📖 **Glossary**: Around 30 project-management terms with their formulas, built right into the app.\n* 🌐 **Localisation**: English, German, French, Spanish, Italian, Dutch and Brazilian Portuguese.\n\nRequires Nextcloud 31–34 and PHP 8.1 or newer. Works with MySQL, MariaDB, PostgreSQL and SQLite.\n\n## 📚 Documentation\n\n* 🚀 [HOWTO](https://codeberg.org/fds2610/NC-Gantt/src/branch/main/nc_gantt/HOWTO.md) — plan a sample project step by step, from the working calendar to the finished report\n* 📋 [Feature reference](https://codeberg.org/fds2610/NC-Gantt/src/branch/main/nc_gantt/FEATURES.md) — every function with its purpose, input and output\n* 📝 [Changelog](https://codeberg.org/fds2610/NC-Gantt/src/branch/main/nc_gantt/CHANGELOG.md) — what changed in each release\n* 💾 [Installation](https://codeberg.org/fds2610/NC-Gantt/src/branch/main/nc_gantt/INSTALL.md) — setup and update notes\n\n## 🐛 Feedback\n\nBug reports and feature requests are welcome in the [issue tracker](https://codeberg.org/fds2610/NC-Gantt/issues).",
+    "homepage": "https://codeberg.org/fds2610/NC-Gantt",
     "licenses": [
       "agpl"
     ]
@@ -3780,9 +3780,9 @@
     ]
   },
   "shopping_list": {
-    "hash": "sha256-vtn5Cu1GpDbPHpPr773ScCCOlZc4HUEzAZsrnLRveZs=",
-    "url": "https://github.com/otherworld-dev/Shopping-List/releases/download/v1.7.0/shopping_list.tar.gz",
-    "version": "1.7.0",
+    "hash": "sha256-GrJB3hdWmhCWleiQFvzAlI/ZFRAE81PAJMjEgrrGsjo=",
+    "url": "https://github.com/otherworld-dev/Shopping-List/releases/download/v1.7.1/shopping_list.tar.gz",
+    "version": "1.7.1",
     "description": "Manage shared shopping lists between household members. Create multiple lists, categorize items by shop area, tag items, and collaborate in real-time.\n\nOfficial website: [shoppinglist.otherworld.dev](https://shoppinglist.otherworld.dev/)\n\nOfficial companion Android app: [Google Play](https://play.google.com/store/apps/details?id=dev.otherworld.shoppinglist)",
     "homepage": "https://shoppinglist.otherworld.dev/",
     "licenses": [
@@ -3840,9 +3840,9 @@
     ]
   },
   "smartcook": {
-    "hash": "sha256-dLhjyeIbJSD/OwFiF5LcltNYluhejQUmA9VoHZLGvkE=",
-    "url": "https://github.com/gabryk91/smartcook/releases/download/v1.0.101/smartcook-1.0.101.tar.gz",
-    "version": "1.0.101",
+    "hash": "sha256-3h1RCUVtrSjo2KjXunt/3Mn+MfF8TDD7Gsren/euwK4=",
+    "url": "https://github.com/gabryk91/smartcook/releases/download/v1.0.107/smartcook-1.0.107.tar.gz",
+    "version": "1.0.107",
     "description": "SmartCook is a self-hosted recipe manager for Nextcloud with structured ingredients, substitutions, mass editing and reviewable AI refinement. Import recipes from webpages, YouTube videos, public Facebook posts and Reels, text, Markdown, JSON and files; then plan meals, build shopping lists, share recipes and export your collection.",
     "homepage": "https://github.com/gabryk91/smartcook",
     "licenses": [
@@ -3990,9 +3990,9 @@
     ]
   },
   "souvenirs": {
-    "hash": "sha256-t0HeMt6dBWvs5syfVkp4723Ym1/QINU04vLQmEb9Luc=",
-    "url": "https://github.com/zorgluf/souvenirs-nextcloud/releases/download/v2.4.0/souvenirs.tar.gz",
-    "version": "2.4.0",
+    "hash": "sha256-7RPoH1KG1mDctCH/v+/vMnPJcMQ8IiDqnHl0WySWU/s=",
+    "url": "https://github.com/zorgluf/souvenirs-nextcloud/releases/download/v2.4.1/souvenirs.tar.gz",
+    "version": "2.4.1",
     "description": "Relive your memories the way you used to with paper albums: page after page, story after story.\n\n**Souvenirs** lets you craft \"old school\" albums from the photos and videos already stored on your Nextcloud — and share them with the people who matter.\n\n### ✨ What you can do\n\n- 📖 **Browse albums like a book** — turn pages instead of scrolling through photo grids\n- 🎨 **Create and edit albums** right from the web interface: pick your photos, arrange your pages, give each album a name and a date\n- 🎬 **Mix media freely** — photos, videos, audio recordings and even 360° panoramas on the same page\n- 🌐 **Explore panoramas** interactively thanks to the integrated 360° viewer\n- 🔗 **Share with a simple link** — family and friends can enjoy your albums without a Nextcloud account\n- 📱 **Pair with the [Souvenirs Android app](https://github.com/zorgluf/souvenirs-android)** to build albums on the go and sync them with your server\n- ♻️ **Save space** — media already on your server is reused, not duplicated\n\n### 🔒 Your souvenirs, your server\n\nAlbums are stored as plain folders and files on your own Nextcloud. No third-party service, no lock-in: your souvenirs stay yours.",
     "homepage": "https://github.com/zorgluf/souvenirs-nextcloud",
     "licenses": [
@@ -4350,8 +4350,8 @@
     ]
   },
   "uniteos_notifier": {
-    "hash": "sha256-yoNEdBloqNFtXTZsR4EN1PoTlGRjQKObaZ2B+qSFp4g=",
-    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/main/uniteos_notifier.tar.gz",
+    "hash": "sha256-vaWgvCrCGCfm5ygADrXCKR/nRTU9DFar/FQZg59ajus=",
+    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/1.0.6/uniteos_notifier.tar.gz",
     "version": "1.0.6",
     "description": "This app allows forwarding Nextcloud events for a deeper integration into UniteOS developed by wechange eG by presenting a selected set of events as user notifications.",
     "homepage": "",
@@ -4670,9 +4670,9 @@
     ]
   },
   "worktime": {
-    "hash": "sha256-t8nJ4RAUHKwpj/7jv9QCR58XoEbnLioMemucD1XCQtM=",
-    "url": "https://github.com/cpcMomentum/worktime/releases/download/v0.18.0/worktime-v0.18.0.tar.gz",
-    "version": "0.18.0",
+    "hash": "sha256-WKOkT18THc+i4WEIHxj3GnyINDzRn3wpJgDXmyZRTjg=",
+    "url": "https://github.com/cpcMomentum/worktime/releases/download/v0.19.0/worktime-v0.19.0.tar.gz",
+    "version": "0.19.0",
     "description": "# WorkTime - Arbeitszeiterfassung für Nextcloud\n\nGesetzeskonforme Arbeitszeiterfassung für kleine Unternehmen in Deutschland.\n\n## Erfassung & Berechnung\n\n- **Zeiterfassung** mit Start, Ende und Pause\n- **Automatische Pausenberechnung** nach §4 ArbZG\n- **Überstundenkonto** mit Soll/Ist-Vergleich und Eintrittsdatum-Berücksichtigung\n- **Projektbezogene Erfassung** für bessere Auswertung\n- **Deutsche Feiertage** automatisch nach Bundesland\n\n## Urlaub & Abwesenheiten\n\n- **Urlaubsverwaltung** mit Quoten-Validierung und Resturlaub-Anzeige\n- **Abwesenheiten**: Urlaub, Krankheit, Sonderurlaub, Freizeitausgleich\n- **Jahresübertrag** für Überstunden und Resturlaub vom Vorjahr — automatisch und manuell korrigierbar\n\n## Reporting & Team\n\n- **Monatsübersicht** mit PDF-Export\n- **Team-Übersicht** für Vorgesetzte und HR-Manager\n- **Jahresübersicht** mit allen Mitarbeitern und Übertragswerten\n- **Audit-Log** für vollständiges Änderungsprotokoll (Admin/HR)\n\n## Workflow & Genehmigung\n\n- **Rollenbasierte Berechtigungen** (Admin, HR-Manager, Supervisor, Employee)\n- **Genehmigungsworkflow** für Abwesenheiten mit eingebetteter Zeitanzeige\n- **Kontextuelle Hilfe** mit Info-Icons an allen relevanten Stellen\n\n## Internationalisierung\n\n- **Mehrsprachig**: Deutsch und Englisch\n\nBehalten Sie den Überblick über Arbeitszeiten, Überstunden und Urlaub.",
     "homepage": "",
     "licenses": [
@@ -4740,9 +4740,9 @@
     ]
   },
   "zeitwerk": {
-    "hash": "sha256-1kEuRWZBeyMPIUr5Z2QWtwmkYHfT6DV+CFII6vYJMOs=",
-    "url": "https://github.com/lamanese/worktime/releases/download/v0.15.0/zeitwerk-0.15.0.tar.gz",
-    "version": "0.15.0",
+    "hash": "sha256-DoUHEQvXSQbTVH+yy4bZbZ4bZH+BCCvnFBOsGz1Qp44=",
+    "url": "https://github.com/lamanese/worktime/releases/download/v0.17.0/zeitwerk-0.17.0.tar.gz",
+    "version": "0.17.0",
     "description": "# Zeitwerk - Arbeitszeiterfassung für Nextcloud\n\nGesetzeskonforme Arbeitszeiterfassung für kleine Unternehmen in Deutschland.\n\nEigenständig gepflegter Fork der App WorkTime ([cpcMomentum/worktime](https://github.com/cpcMomentum/worktime), Original von Axel Deffner), erweitert um Aussendienst-Spesen, Extern-Kilometer und persönliche Standard-Vorgaben.\n\n## Erfassung & Berechnung\n\n- **Zeiterfassung** mit Start, Ende und Pause\n- **Automatische Pausenberechnung** nach §4 ArbZG\n- **Überstundenkonto** mit Soll/Ist-Vergleich und Eintrittsdatum-Berücksichtigung\n- **Projektbezogene Erfassung** für bessere Auswertung\n- **Persönliche Standard-Vorgaben**: Standard-Arbeitszeiten sowie — nach Admin-Freigabe — Standard-Projekt und Standard-Beschreibung als Vorbelegung neuer Einträge\n- **Deutsche Feiertage** automatisch nach Bundesland\n\n## Spesen & Kilometer\n\n- **Aussendienst-Spesen**: konfigurierbare Tagespauschale, sobald die Arbeitszeit auf Aussendienst-Projekten eine Stundenschwelle erreicht\n- **Extern-Kilometer**: tageweise Kilometer-Erfassung an externen Tagen (Extern-Projekt oder externer Abwesenheitstyp) mit konfigurierbarem Satz\n- **Auswertung inklusive**: Spesen und Kilometer in Monatsübersicht, Team, Projekt-Auswertung sowie in CSV- und PDF-Exporten\n\n## Urlaub & Abwesenheiten\n\n- **Urlaubsverwaltung** mit Quoten-Validierung und Resturlaub-Anzeige\n- **Abwesenheiten**: Urlaub, Krankheit, Sonderurlaub, Freizeitausgleich\n- **Jahresübertrag** für Überstunden und Resturlaub vom Vorjahr — automatisch und manuell korrigierbar\n\n## Reporting & Team\n\n- **Monatsübersicht** mit PDF-Export (Arbeitszeitnachweis, auch über frei wählbare Zeiträume)\n- **Projekt-Auswertung** für Admin/HR mit CSV- und PDF-Export\n- **Team-Übersicht** für Vorgesetzte und HR-Manager\n- **Jahresübersicht** mit allen Mitarbeitern und Übertragswerten\n- **Audit-Log** für vollständiges Änderungsprotokoll (Admin/HR)\n\n## Workflow & Genehmigung\n\n- **Rollenbasierte Berechtigungen** (Admin, HR-Manager, Supervisor, Employee)\n- **Genehmigungsworkflow** für Abwesenheiten mit eingebetteter Zeitanzeige\n- **Kontextuelle Hilfe** mit Info-Icons an allen relevanten Stellen\n\n## Internationalisierung\n\n- **Mehrsprachig**: Deutsch, Englisch und Tschechisch\n\nBehalten Sie den Überblick über Arbeitszeiten, Überstunden und Urlaub.",
     "homepage": "",
     "licenses": [
