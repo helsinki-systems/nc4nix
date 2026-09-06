@@ -200,9 +200,9 @@
     ]
   },
   "astrolabe": {
-    "hash": "sha256-CaA0dH+r3T3/E/KFbk5d3eI8YJhlMZrqUZ0d7QmNFUE=",
-    "url": "https://github.com/cbcoutinho/astrolabe/releases/download/v0.42.8/astrolabe-0.42.8.tar.gz",
-    "version": "0.42.8",
+    "hash": "sha256-1WX6fzmtz5Jga2lNfIUj9XztN4yThnouLIL+kOXe3RM=",
+    "url": "https://github.com/cbcoutinho/astrolabe/releases/download/v0.42.9/astrolabe-0.42.9.tar.gz",
+    "version": "0.42.9",
     "description": "# Astrolabe - Semantic Search for Nextcloud\n\nFind your content by meaning, not just keywords. Astrolabe brings AI-powered semantic search to your Nextcloud, helping you discover documents, notes, calendar events, and files through natural language.\n\n## Features\n\n- **Semantic Search**: Search across Notes, Files, Calendar, Deck, and more using natural language queries\n- **Unified Search Integration**: Results appear in Nextcloud's global search bar alongside traditional results\n- **Background Indexing**: Your content is automatically indexed for instant semantic search\n- **Vector Visualization**: Explore your content in an interactive 2D visualization showing semantic relationships\n- **Hybrid Search**: Combines semantic understanding with keyword matching for best results\n\n## How It Works\n\nAstrolabe connects to a semantic search service that understands the meaning of your content. Instead of exact keyword matches, you can search for concepts - ask \"meeting notes from last week\" or \"recipes with chicken\" and find relevant documents even if they don't contain those exact words.\n\n## Getting Started\n\n1. Install and enable the app\n2. Grant background access to allow indexing of your content\n3. Start searching with natural language in Nextcloud's search bar\n\nSee [documentation](https://github.com/cbcoutinho/astrolabe) for configuration details.",
     "homepage": "",
     "licenses": [
@@ -350,9 +350,9 @@
     ]
   },
   "budget": {
-    "hash": "sha256-ywhvcg+/AtYp+C4A47NmUhVCYmav5fMu3SNUgz7J+bE=",
-    "url": "https://github.com/otherworld-dev/Budget/releases/download/v2.49.0/budget.tar.gz",
-    "version": "2.49.0",
+    "hash": "sha256-TQFbEKBO9CgVI3Ukp/YwFhKJ4/ULrZOzTKKCgs5gcro=",
+    "url": "https://github.com/otherworld-dev/Budget/releases/download/v2.50.0/budget.tar.gz",
+    "version": "2.50.0",
     "description": "**⚠️ Beta: This app is currently in testing. Data loss is possible. Please backup your data regularly and report any issues.**\n\n# Budget - Financial Tracking for Nextcloud\n\nTrack your spending habits, manage savings, and forecast future account balances with intelligent analysis of your financial history.\n\n## Features\n\n* **Import Bank Statements**: Support for CSV, OFX, QIF and ISO 20022 camt.053 XML formats\n* **Smart Categorization**: Automatic vendor matching and transaction categorization\n* **Auto-Categorization Rules**: Apply rules to existing transactions anytime with preview\n* **Split Transactions**: Allocate single transactions across multiple categories\n* **Transfer Detection**: Automatic matching of transfers between accounts\n* **Budget Tracking**: Set spending limits with alerts when approaching or exceeding budgets\n* **Balance Forecasting**: Predict future balances based on historical data\n* **Recurring Bills**: Track bills with due date monitoring and Nextcloud notifications\n* **Recurring Income**: Track expected income sources with receipt tracking\n* **Split Expenses**: Share expenses with contacts and track who owes whom\n* **Debt Payoff Planner**: Plan repayment using avalanche or snowball strategies\n* **Savings Goals**: Set targets with progress tracking and achievement forecasting\n* **Pension Tracker**: Track retirement accounts with growth projections\n* **Net Worth History**: Track assets and liabilities over time\n* **Year-over-Year Reports**: Compare spending across multiple years\n* **Multi-Account Support**: Manage multiple bank accounts and currencies\n* **Custom Categories**: Create your own category hierarchy\n* **Reports & Charts**: Visualize your financial data with interactive charts\n\n## Documentation\n\nFull user documentation: https://budget.otherworld.dev/docs/\n\n## Requirements\n\n* Nextcloud 30 or higher\n* PHP 8.1 or higher\n* PHP BCMath extension (`php-bcmath`)",
     "homepage": "https://budget.otherworld.dev/",
     "licenses": [
@@ -367,6 +367,16 @@
     "homepage": "https://nextcloud.software-by-design.de",
     "licenses": [
       "AGPL-3.0-or-later"
+    ]
+  },
+  "buildiq": {
+    "hash": "sha256-FebSn335TLr5td/Afp9ZRntczOJZqrmCPNBzrviESYw=",
+    "url": "https://github.com/ConductionNL/buildiq/releases/download/v0.7.0/buildiq-0.7.0.tar.gz",
+    "version": "0.7.0",
+    "description": "Buildiq is a citizen-developer app builder for Nextcloud. It lets non-technical users compose apps from the Technical Core — OpenRegister schemas, OpenConnector APIs, Procest workflows, Docudesk documents, NL Design themes — through a visual interface, without scaffolding PHP for each new app.\n\nPer ADR-024 (app manifest), each built app is rendered at runtime by mounting CnAppRoot with the app's manifest, which lives as a JSON blob in Buildiq's own OpenRegister namespace. Per ADR-031 (schema-declarative business logic), behaviour like state machines, aggregations, calculations, and notifications is declared as schema metadata in the register file instead of service code. Built apps are virtual at first (records in Buildiq's register, rendered inside the Buildiq shell at `/apps/buildiq/{slug}`); a Phase-2 export generates a real Nextcloud app from a virtual app.\n\nFree and open source under the EUPL-1.2 license.\n\n**Support:** For support, contact support@conduction.nl.",
+    "homepage": "https://github.com/ConductionNL/buildiq",
+    "licenses": [
+      "EUPL-1.2"
     ]
   },
   "cage": {
@@ -500,8 +510,8 @@
     ]
   },
   "chores": {
-    "hash": "sha256-x95pWVl5+EJAMWAPdA9aFbvNCNz+PBmBvC5GrJOHUtA=",
-    "url": "https://teo.sinyax.net/cdn/chores_0.1.0.tar.gz",
+    "hash": "sha256-kDuNNmSoz80b1fUA2wKnHjGQD05oBo1Q+NC4Crf8G20=",
+    "url": "https://teo.sinyax.net/cdn/chores_0.0.8-17-gf14ef6e.tar.gz",
     "version": "0.1.0",
     "description": "Track chores and receive points for doing them!\n\nCreate a team and invite other Nextcloud users from the same server, the total\npoints for each member are tracked.\n\nChores can be set to automatically repeat based on a schedule.",
     "homepage": "https://sr.ht/~cypheon/nextcloud-chores/",
@@ -610,9 +620,9 @@
     ]
   },
   "contractmanager": {
-    "hash": "sha256-QfQ8DFlReSGvf7eodU3KNFmw1j8JEy6SdmoTnqPmYTE=",
-    "url": "https://github.com/cpcMomentum/contractmanager/releases/download/v1.6.0/contractmanager-v1.6.0.tar.gz",
-    "version": "1.6.0",
+    "hash": "sha256-qXqraMHIjm4EBJDDYdT50PMagdc0lh+0N3haKEUUs+0=",
+    "url": "https://github.com/cpcMomentum/contractmanager/releases/download/v1.7.0/contractmanager-v1.7.0.tar.gz",
+    "version": "1.7.0",
     "description": "# VertragsWerk\n\nVerwalten Sie Ihre Verträge zentral in Nextcloud:\n\n- **Vertragsübersicht** mit allen wichtigen Daten\n- **Automatische Erinnerungen** vor Kündigungsfristen\n- **Kategorien** zur Organisation\n- **Archiv** für beendete Verträge\n- **Dateianhänge** aus Nextcloud Files\n\nBehalten Sie den Überblick über Laufzeiten, Kosten und Kündigungsfristen.",
     "homepage": "",
     "licenses": [
@@ -957,6 +967,16 @@
     "homepage": "",
     "licenses": [
       "agpl"
+    ]
+  },
+  "dossiq": {
+    "hash": "sha256-21iCl5IB4xqXGs/Mbf9qZLtFjYPzL2S9ZObJk0CGCU4=",
+    "url": "https://github.com/ConductionNL/dossiq/releases/download/v0.4.0/dossiq-0.4.0.tar.gz",
+    "version": "0.4.0",
+    "description": "Dossiq brings structured case management to Nextcloud. Define case types, track progress through status lifecycles, manage deadlines, and record formal decisions — all within a clean, intuitive interface.\n\n**Key Features**\n\n- **Configurable case types** — Define workflows with allowed statuses, deadlines, required documents, and custom properties\n- **Status lifecycle** — Visual status timeline with quick transitions and validation rules\n- **Automatic deadlines** — Deadlines calculated from case type durations with countdown tracking and overdue alerts\n- **Tasks and decisions** — Assign tasks to team members and record formal decisions with outcomes\n- **Participant roles** — Handler, advisor, decision-maker — assign the right people to the right roles\n- **Document checklists** — Track required documents at each stage with upload verification\n- **Sub-cases** — Break complex cases into parent-child hierarchies\n- **Confidentiality levels** — Eight levels from public to top secret, with defaults from case type\n- **My Work dashboard** — Personal overview of assigned cases and pending tasks\n- **Standards-aligned** — Built with CMMN 1.1 and ZGW API compatibility in mind\n\n**Requires:** [OpenRegister](https://apps.nextcloud.com/apps/openregister) (install from the [Nextcloud App Store](https://apps.nextcloud.com/apps/openregister)).\n\nFree and open source under the EUPL-1.2 licence.\n\n**Support:** For support, contact support@conduction.nl. For a Service Level Agreement (SLA), contact sales@conduction.nl.",
+    "homepage": "https://github.com/ConductionNL/dossiq",
+    "licenses": [
+      "EUPL-1.2"
     ]
   },
   "dpatracker": {
@@ -1469,6 +1489,16 @@
       "AGPL-3.0-or-later"
     ]
   },
+  "filinq": {
+    "hash": "sha256-3FPptoYWptYw1W8kdrZD3irw3GivNAenL/S/RX/haII=",
+    "url": "https://github.com/ConductionNL/filinq/releases/download/v0.2.0/filinq-0.2.0.tar.gz",
+    "version": "0.2.0",
+    "description": "Document generation, anonymisation, signing, and GDPR/WOO publication consent for Nextcloud\n\nFilinq generates documents from templates bound to Open Register fields, anonymises personal data (PII) in documents through a configurable entity-detection backend, signs outbound documents (eIDAS SES/AdES/QES), and tracks GDPR and Wet Open Overheid (Woo) publication consent — all processed locally on the customer's own Nextcloud instance. It integrates with Open Register via events to enrich documents as they are created and updated.\n\n## Key Features\n\n- Document generation from Twig/HTML templates, output as PDF, ODF (.odt), or HTML, with Open Register field binding\n- PII anonymisation, with entity detection routed through a configurable backend (regex, OpenAnonymiser, Presidio, or an LLM) via Open Register\n- Digital signing with eIDAS signature levels (SES, AdES, QES) and sequential or parallel multi-signer workflows\n- GDPR publication consent tracking with configurable objection periods (Wet Open Overheid, default 4-week objection period)\n- Document metadata enrichment: automatic language detection, keyword extraction, and topic classification\n- OCR text extraction (Tesseract) for scanned and image-based documents\n- Document comparison and document validation/quality checks\n- Folder- and dossier-level batch anonymisation with legal-basis (grondslagen) tracking under Woo Art. 5\n- Event-driven integration with Open Register\n\n**Requires:** [OpenRegister](https://apps.nextcloud.com/apps/openregister) (install from the [Nextcloud App Store](https://apps.nextcloud.com/apps/openregister)).\n\nRequirements can be found [here](https://filinq.conduction.nl)\n\nThe Roadmap is available [here](https://github.com/ConductionNL/filinq/milestones)\n\nCreate a [bug report](https://github.com/ConductionNL/filinq/issues/new)\n\nCreate a [feature request](https://github.com/ConductionNL/filinq/issues/new)\n\n**Support:** For support, contact support@conduction.nl. For a Service Level Agreement (SLA), contact sales@conduction.nl.",
+    "homepage": "https://github.com/ConductionNL/filinq",
+    "licenses": [
+      "EUPL-1.2"
+    ]
+  },
   "fit_tracker": {
     "hash": "sha256-cvJkNSmOUJL7MCuRf8hifUXjYfO6Q1994Ivjidb8tQw=",
     "url": "https://github.com/alesrosina/fit_tracker/releases/download/v1.1.9/fit_tracker-1.1.9.tar.gz",
@@ -1717,6 +1747,16 @@
     "homepage": "",
     "licenses": [
       "AGPL-3.0-or-later"
+    ]
+  },
+  "hermiq": {
+    "hash": "sha256-1MWdo57hUGJm9qUVHXS/qXZ3xsaAToeli5ocR7PQaXI=",
+    "url": "https://github.com/ConductionNL/hermiq/releases/download/v0.2.0/hermiq-0.2.0.tar.gz",
+    "version": "0.2.0",
+    "description": "Hermiq brings autonomous AI agents to Nextcloud. Define an agent, give it tools, and run it on a schedule — daily reports, inbox triage, monitoring, morning briefings — all inside your own Nextcloud, delivered to Nextcloud Talk. Agents, their memory and their self-improving skills are stored as OpenRegister objects, so every run is governed, auditable and multi-tenant.\n\n**Requires:** [OpenRegister](https://apps.nextcloud.com/apps/openregister) 0.2.17-unstable.14 or higher (install/upgrade from the [Nextcloud App Store](https://apps.nextcloud.com/apps/openregister)) — Hermiq's agent engine (chat, scheduled runs, flow-triggered agent actions) calls OpenRegister's `ToolRegistryFacade` and dispatches on its `AgentRunRequestedEvent`, both of which only exist from that OpenRegister version onward; the \"Agent credentials\" Settings section and the personal/organisation credential-resolution precedence additionally need OpenRegister's organisation-scope credential broker, shipped from that same version.",
+    "homepage": "https://github.com/ConductionNL/hermiq",
+    "licenses": [
+      "EUPL-1.2"
     ]
   },
   "hideuseremails": {
@@ -2299,6 +2339,16 @@
       "AGPL-3.0-or-later"
     ]
   },
+  "integriq": {
+    "hash": "sha256-fqmDs3n0lN/GObKhGz5QMA/4eHCT1bhsv0fhDxXcQEg=",
+    "url": "https://github.com/ConductionNL/integriq/releases/download/v0.4.0/integriq-0.4.0.tar.gz",
+    "version": "0.4.0",
+    "description": "Integriq is the integration layer for Nextcloud. It connects REST and SOAP sources — including Dutch government standards such as PDOK, StUF-ZKN/BG, DSO/Omgevingsloket, and Berichtenbox — to typed OpenRegister stores.\n\n- 🔌 Configure sources, endpoints and consumers with shared authentication (API key, OAuth, JWT)\n- 🗺️ Map and transform payloads with the built-in mapping engine\n- ⏱️ Schedule synchronization jobs with webhook, cron, or manual triggers\n- ☁️ Dispatch and receive CloudEvents with dead-letter capture and one-click replay\n- 📋 Apply business rules to endpoint traffic and keep a per-object audit trail",
+    "homepage": "https://github.com/ConductionNL/integriq",
+    "licenses": [
+      "EUPL-1.2"
+    ]
+  },
   "interfonts": {
     "hash": "sha256-ZG9Icc0L7deELIVui73ncHZ/eJpaljt4zA7Ik/0N7no=",
     "url": "https://github.com/solracsf/nc-interfonts/releases/download/v2.1.3/interfonts.tar.gz",
@@ -2390,13 +2440,23 @@
     ]
   },
   "kanso": {
-    "hash": "sha256-icvU7P4p3ZpfjwTIGDkbWk0AbxxUNqk7pgg/kNLVryA=",
-    "url": "https://github.com/aktasfatih/kanso/releases/download/v0.24.1/kanso.tar.gz",
-    "version": "0.24.1",
+    "hash": "sha256-TGPOa5Eqrq+1Jbnxned3Stird7rQ4Ye0NYdVB1/qcWU=",
+    "url": "https://github.com/aktasfatih/kanso/releases/download/v0.25.0/kanso.tar.gz",
+    "version": "0.25.0",
     "description": "Kanso is a kanban board app for Nextcloud, built for speed. Boards, stacks and\ncards with instant drag & drop, optimistic updates and payloads sized for large\nboards (2,000+ cards). Realtime updates via notify_push, with a polling fallback.\n\nRich cards with markdown, labels, due dates, assignees, priorities, checklists,\nparent/child cards and threaded comments with @mentions and watchers. Board\nsharing with per-user and per-group access control.\n\nA review workflow (request review, approve / request changes, customizable\nreview types, and an optional done-gate). A cross-board My Work hub (my tasks,\nreviews, inbox), cross-board Projects, and per-board and per-project analytics\n(velocity, cycle time, throughput). Board, List and Timeline (Gantt) views.\n\nRecurring cards on RRULE schedules, auto-archive rules, WIP limits and stack\nroles, a command palette with full-text search, trash with restore, GitHub\nlinks and webhook, and one-click Import from Deck.",
     "homepage": "https://github.com/aktasfatih/kanso",
     "licenses": [
       "agpl"
+    ]
+  },
+  "keepiq": {
+    "hash": "sha256-MvBaGDtrNznUq49mO7mluqPvm4NQAhmZ7Lsp50HWt1U=",
+    "url": "https://github.com/ConductionNL/keepiq/releases/download/v0.3.0/keepiq-0.3.0.tar.gz",
+    "version": "0.3.0",
+    "description": "A zero-knowledge encrypted secrets manager for Nextcloud — a personal vault for users and a write-without-read credential store for applications, using end-to-end RSA-4096/AES-256 encryption backed by a private Certificate Authority. Your master password is never stored: not even the server administrator can read your secrets.\n\n**Key Features**\n\n- **End-to-end encryption** — RSA-4096 + AES-256 private-key protection with a private Certificate Authority (root + intermediate, auto-renewal)\n- **Personal vault** — folder organisation, fuzzy search, Nextcloud unified search integration\n- **Secret sharing** — share with Nextcloud users and groups, password-protected link sharing, secret requests (write-without-read), temporary ownership delegation\n- **Application management** — register applications with CSR-based onboarding, write-without-read application secrets, OAuth-style application tokens (RFC 7523 JWT Bearer)\n- **Admin settings** — CA health monitoring, password policies, application approval queue\n- **NL Design System ready** — CSS variables, WCAG AA, government theming\n\nFree and open source under the EUPL-1.2 license.\n\n**Support:** For support, contact support@conduction.nl.",
+    "homepage": "https://github.com/ConductionNL/keepiq",
+    "licenses": [
+      "EUPL-1.2"
     ]
   },
   "keeweb": {
@@ -2439,6 +2499,16 @@
       "agpl"
     ]
   },
+  "larpinq": {
+    "hash": "sha256-uPbipfpDmEUzwHBA28kCv7VCLA5/B4gZWa0/nyg3tss=",
+    "url": "https://github.com/ConductionNL/larpinq/releases/download/v0.3.0/larpinq-0.3.0.tar.gz",
+    "version": "0.3.0",
+    "description": "Larpinq is a management tool for LARP (live-action role-play) organisations, built on Nextcloud and OpenRegister.\n\n**Requires:** [OpenRegister](https://apps.nextcloud.com/apps/openregister) (install from the Nextcloud App Store).\n\nLarpinq covers:\n\n- Settings (worlds/campaigns) that scope characters, events and rules, archived rather than deleted when a campaign ends\n- Character sheets with background stories and a game-master approval workflow\n- Players linked to Nextcloud contacts — the person behind the character\n- Game mechanics as typed records: abilities, skills, items, conditions and effects, with a deterministic stat-calculation engine\n- Events with a participant roster, Nextcloud Calendar scheduling, and location/sign-up sidebar tabs\n- Post-event XP awards with a full audit trail and server-enforced prerequisite checks (with GM override)\n- Printable PDF character sheets and per-event GM run-sheets (cast lists), rendered via DocuDesk\n- Group-restricted access: app visibility is limited to an enrolled `larpers` Nextcloud group (the group id is deliberately NOT renamed — see the comment below)\n\nCreate a [bug report](https://github.com/ConductionNL/larpinq/issues)\nCreate a [feature request](https://github.com/ConductionNL/larpinq/issues)\n\n**Support:** For support, contact support@conduction.nl. For a Service Level Agreement (SLA), contact sales@conduction.nl.",
+    "homepage": "https://github.com/ConductionNL/larpinq",
+    "licenses": [
+      "EUPL-1.2"
+    ]
+  },
   "last_opened": {
     "hash": "sha256-1HSOeptaQa2W5Wbx+lEknq/5808oakpBvHKOffdPLkY=",
     "url": "https://github.com/Freundschaft/nextcloud-last-opened-plugin/releases/download/v0.2.1/last_opened-0.2.1.tar.gz",
@@ -2447,6 +2517,16 @@
     "homepage": "https://github.com/Freundschaft/nextcloud-last-opened-plugin",
     "licenses": [
       "AGPL-3.0-or-later"
+    ]
+  },
+  "launchpad": {
+    "hash": "sha256-LiDZhDquQdzhWi5qAQTyuG6BOQFa5jfun4Sdi+JoO5E=",
+    "url": "https://github.com/ConductionNL/launchpad/releases/download/v1.1.0/launchpad-1.1.0.tar.gz",
+    "version": "1.1.0",
+    "description": "LaunchPad supercharges the Nextcloud dashboard. Create personalized workspaces with drag-and-drop widgets, custom shortcut tiles, and smart visibility rules — then let admins roll out templates to entire teams.\n\n**Key Features**\n\n- **Drag-and-drop grid layout** — Position and resize widgets freely on a flexible grid\n- **Multiple dashboards** — Create as many dashboards as you need and switch between them\n- **Custom tiles** — Add shortcut cards with icons, colors, and links to your most-used tools\n- **Admin templates** — Pre-configure dashboards and distribute them to user groups with one click\n- **Permission levels** — Choose view-only, add-only, or full customization per template\n- **Conditional visibility** — Show or hide widgets based on group membership, time of day, or date\n- **Widget styling** — Customize colors, borders, and titles for each individual widget\n- **Compulsory widgets** — Admins can pin important widgets that users cannot remove\n- **Full Nextcloud compatibility** — Works with every existing Nextcloud dashboard widget out of the box\n- **Role-based widget access** — Restrict which widget types a group of users may add, resolved from Nextcloud group membership\n- **Dashboard sharing** — Share a dashboard with specific users or groups, or publish a brute-force-protected read-only public link\n- **Group dashboards** — One shared dashboard per group, in addition to personal dashboards\n\nPerfect for organizations that want consistent, curated dashboards for their teams while still giving users freedom to personalize.\n\nFree and open source under the EUPL-1.2 license.",
+    "homepage": "https://github.com/ConductionNL/launchpad",
+    "licenses": [
+      "EUPL-1.2"
     ]
   },
   "ldap_contacts_backend": {
@@ -2477,6 +2557,16 @@
     "homepage": "https://codeberg.org/andremadstop/learning-nc",
     "licenses": [
       "agpl"
+    ]
+  },
+  "learniq": {
+    "hash": "sha256-m+U+WMzU4zCNVXSl2atb49JLsXAdLJ6Ji83tJw30ExQ=",
+    "url": "https://github.com/ConductionNL/learniq/releases/download/v0.3.0/learniq-0.3.0.tar.gz",
+    "version": "0.3.0",
+    "description": "Learniq is a learning system for Nextcloud: a leerlingvolgsysteem (LVS)-style progress-tracking core for primary, secondary, and higher education, and a leeromgeving / LMS for corporate L&D and government employee training — the same underlying data model serves both.\n\n**v0.1 wedge — Compliance training**\n\n- Annual AVG / BIO / NIS2 / Cyberbeveiligingswet refresher courses\n- Bulk-enrol all employees in mandatory training\n- Capture signed attestations per learner\n- Detect upcoming certificate expiries\n- Real-time coverage percentage per regulation\n- Audit-pack export with immutable evidence log\n- External-training bulk recording with officer verification and linked credential issuance\n- School-year rollover wizard (propose mapping, side-effect-free preview)\n- IMS QTI 2.x / 3.0 and Common Cartridge item-bank import\n- Open Badges 3.0 credential issuance and public verification endpoint\n\n**Later phases**\n\n- K-12 leerlingvolgsysteem (Phase 2): BRON/ROD, UWLR, OSO, Edukoppeling, SchoolID/ECK iD pseudonymisation, OPP cycle, PTA grading, DigiD parent flow — a generic data-exchange job queue with an OSO parent-approval gate already exists, but no BRON/ROD, OSO, or SURFconext OpenConnector adapter is wired yet, so no wire-level exchange runs today\n- Higher education (Phase 2): SURFconext federation, Studielink enrolment, OOAPI 5.0 catalog, eduPersonAffiliation, edubadges\n- Assessment authoring (Phase 3): proctored exams (ProctoringProviderInterface for ProctorU, Honorlock, ExamSoft — interface only, no provider wired), EDCI verifiable credentials\n- cmi5/xAPI learning-record ingest: the xAPI-statement schema and its lifecycle hook exist, but there is no learner-facing LRS ingest endpoint yet and cmi5 AU launch-token minting is a documented, currently-disabled stub (tracked in openspec/changes/cmi5-xapi-lrs-ingest/)\n- AI-assisted features (Phase 5): adaptive learning paths + AI item generation, gated behind EU AI Act high-risk feature flags\n\n**Technical foundations**\n\n- Built on OpenRegister (data layer), OpenConnector (external system adapters), and @conduction/nextcloud-vue\n- Content runtime target: cmi5 + xAPI primary, SCORM 1.2 / 2004 compatibility shim (learner-facing ingest and cmi5 launch not yet wired — see Later phases)\n- Immutable audit trail backs compliance evidence, AVG record-of-processing, and AI Act decision traces\n- Standards-first: 26 standards mapped (SCORM, xAPI, cmi5, LTI, QTI, EDCI, Open Badges 3.0, UWLR, OSO, ROD, Edukoppeling, SchoolID, ECK iD, SURFconext, AVG, EU AI Act, BIO2, NIS2) — most as design target, not all yet implemented\n\nFree and open source under the EUPL-1.2 license.\n\n**Support:** support@conduction.nl",
+    "homepage": "https://github.com/ConductionNL/learniq",
+    "licenses": [
+      "EUPL-1.2"
     ]
   },
   "legal_advice": {
@@ -2820,10 +2910,10 @@
     ]
   },
   "netbase": {
-    "hash": "sha256-JzvYDS6C+dz7kmZJwzdPmRouTGmXHf2bknAfxYOnt4U=",
-    "url": "https://github.com/ktec-nc-apps/NetBase/releases/download/v0.3.3/netbase-0.3.3.tar.gz",
-    "version": "0.3.3",
-    "description": "NetBase turns your Nextcloud into a network console: it finds every device on the LAN, opens each one's own settings page from inside Nextcloud, and keeps the everyday lookup tools on the same screen.\n\nDevice windows are the heart of it. The server fetches a device's own web interface and rewrites every address inside it, so a router, a switch, a printer or a NAS can be signed into and configured from anywhere the Nextcloud is reachable — no VPN, no jump host, no site visit. Firmware can be sent, a configuration restored, a backup taken. Several windows can be open at once.\n\nDiscovery needs no root, no agent and no extra packages: NetBase primes the kernel neighbour table, reads it back, and asks each device for its own name over NetBIOS, mDNS, WS-Discovery and SSDP. MAC addresses are resolved against a bundled IEEE registry of more than 53,000 vendor prefixes, offline.\n\nWhat each part is for:\n- Device windows — a device's own settings page, through Nextcloud, from anywhere\n- LAN sweep and inventory — name, IPv4, MAC, vendor, type and open ports, exportable as CSV\n- DNS — any record type from any resolver, resolver comparison, delegation trace, zone-transfer test\n- Whois — domains and addresses, following IANA referrals, with no whois binary\n- Wake-on-LAN — wake a device by its MAC address\n- TLS and HTTP — certificate, chain and expiry, accepted TLS versions, redirect chain, security headers\n- Mail — SPF, DKIM, DMARC, MTA-STS, DANE and blocklists, plus SMTP/IMAP/POP3 server tests, an open-relay test and a real test message\n- FTP and SFTP — browse a remote server and move files to and from your Nextcloud folders\n- SSH and Telnet — a credential-free probe, and commands or a console on a saved connection\n- Benchmarks — internet speed, LAN throughput over iperf3, resolver comparison, HTTP timing\n- Every result can be copied, downloaded or saved straight into your own Nextcloud files\n\nAccess is per tool. NetBase is an administrator's app, and everything that touches the local network defaults to administrators — but each tool can be opened to named groups or to everyone from Administration settings, so an instance can lend out whois, DNS and the other harmless lookups without lending out the network. Where an account is allowed nothing, NetBase leaves itself out of that account's app menu.\n\nAvailable in twenty languages, and NetBase can be set to a different language from the rest of Nextcloud, per account.",
+    "hash": "sha256-F/yR5fG8D+ekveuOr3PCxDtOEknGvYycuUSASR5H9ZA=",
+    "url": "https://github.com/ktec-nc-apps/NetBase/releases/download/v0.4.0/netbase-0.4.0.tar.gz",
+    "version": "0.4.0",
+    "description": "NetBase turns your Nextcloud into a network console: it finds every device on the LAN, opens each one's own settings page from inside Nextcloud, and keeps the everyday lookup tools on the same screen.\n\nDevice windows are the heart of it. The server fetches a device's own web interface and rewrites every address inside it, so a router, a switch, a printer or a NAS can be signed into and configured from anywhere the Nextcloud is reachable — no VPN, no jump host, no site visit. Firmware can be sent, a configuration restored, a backup taken. Several windows can be open at once.\n\nDiscovery needs no root, no agent and no extra packages: NetBase primes the kernel neighbour table, reads it back, and asks each device for its own name over NetBIOS, mDNS, WS-Discovery and SSDP. It also listens for the announcements devices make, continuously and in the background, so a device sitting on another subnet of the same wire — one nothing here can reach, and which can never answer a question — still appears in the list. MAC addresses are resolved against a bundled IEEE registry of more than 53,000 vendor prefixes, offline.\n\nWhat each part is for:\n- Device windows — a device's own settings page, through Nextcloud, from anywhere\n- LAN sweep and inventory — name, IPv4, MAC, vendor, type and open ports, exportable as CSV\n- DNS — any record type from any resolver, resolver comparison, delegation trace, zone-transfer test\n- Whois — domains and addresses, following IANA referrals, with no whois binary\n- Wake-on-LAN — wake a device by its MAC address\n- TLS and HTTP — certificate, chain and expiry, accepted TLS versions, redirect chain, security headers\n- Mail — SPF, DKIM, DMARC, MTA-STS, DANE and blocklists, plus SMTP/IMAP/POP3 server tests, an open-relay test and a real test message\n- FTP and SFTP — browse a remote server and move files to and from your Nextcloud folders\n- SSH and Telnet — a credential-free probe, and commands or a full terminal on a saved connection\n- Benchmarks — internet speed, LAN throughput over iperf3, resolver comparison, HTTP timing\n- Every result can be copied, downloaded or saved straight into your own Nextcloud files\n\nAccess is per tool. NetBase is an administrator's app, and everything that touches the local network defaults to administrators — but each tool can be opened to named groups or to everyone from Administration settings, so an instance can lend out whois, DNS and the other harmless lookups without lending out the network. Where an account is allowed nothing, NetBase leaves itself out of that account's app menu.\n\nAvailable in twenty languages, and NetBase can be set to a different language from the rest of Nextcloud, per account.",
     "homepage": "https://github.com/ktec-nc-apps/NetBase",
     "licenses": [
       "agpl"
@@ -3020,9 +3110,9 @@
     ]
   },
   "opencatalogi": {
-    "hash": "sha256-KLdaVOSohETO02Q7Qn82hK21/uB/aZPAS+FPQgBX1p0=",
-    "url": "https://github.com/ConductionNL/opencatalogi/releases/download/v2.0.13/opencatalogi-2.0.13.tar.gz",
-    "version": "2.0.13",
+    "hash": "sha256-r2JNjQuNM5JkCrol48Gu+ilsg1wgG/UJNYFTC2nic0Y=",
+    "url": "https://github.com/ConductionNL/opencatalogi/releases/download/v2.1.0/opencatalogi-2.1.0.tar.gz",
+    "version": "2.1.0",
     "description": "OpenCatalogi turns your Nextcloud into a public-facing catalogue of publications, software, and data. Publish once, get discovered everywhere: entries export as DCAT-AP metadata for data.overheid.nl, and Woo (Wet open overheid) disclosure categories get DIWOO sitemaps and robots.txt out of the box.\n\n**Key Features**\n\n- **Catalogues & publications** — Organize publications into catalogs, each with its own scope and access rules\n- **Federated directory** — Synchronize and discover catalogues across Nextcloud instances via the directory sync cron\n- **DCAT-AP & DIWOO export** — Publications are harvested as DCAT-AP metadata and mapped to the DIWOO XML schema for all 17 mandatory Woo information categories\n- **Woo (open government) compliance** — Sitemap, robots.txt, and audit-trail support for Wet open overheid disclosure obligations\n- **Retention lifecycle** — Daily background evaluation of publication retention terms with a review-queue dashboard widget\n- **Content management** — Glossary, themes, pages, and menus for building the public-facing catalogue site\n- **Organization profiles** — Publisher organizations with government identifiers (OIN/TOOI/RSIN/PKI)\n- **AI Chat Companion integration** — MCP tools expose catalogue search and publication lookup to compatible LLM assistants\n- 🆓 Free and open source under the EUPL license\n- ⚙️ Automatically installs and enables [OpenRegister](https://apps.nextcloud.com/apps/openregister) (required dependency)\n\n**System Cron is currently required for this app to work**\n\nRequirements can be found [here](https://opencatalogi.conduction.nl/docs/Installation/)\n\nCreate a [bug report](https://github.com/OpenCatalogi/.github/issues/new/choose)\n\nCreate a [feature request](https://github.com/OpenCatalogi/.github/issues/new/choose)\n\n**Support:** For support, contact support@conduction.nl. For a Service Level Agreement (SLA), contact sales@conduction.nl.",
     "homepage": "https://opencatalogi.conduction.nl/",
     "licenses": [
@@ -3060,9 +3150,9 @@
     ]
   },
   "openregister": {
-    "hash": "sha256-iyywLMIOwTyebU0+gZAnEvodXMdapRQNQlbTrOPQe40=",
-    "url": "https://github.com/ConductionNL/openregister/releases/download/v2.0.12/openregister-2.0.12.tar.gz",
-    "version": "2.0.12",
+    "hash": "sha256-xV+ONOCLYtqU8PmAsPg3vkjq9bABuQsnJ4/YGUh1EBs=",
+    "url": "https://github.com/ConductionNL/openregister/releases/download/v2.1.0/openregister-2.1.0.tar.gz",
+    "version": "2.1.0",
     "description": "Open Register is the foundation for structured data management in Nextcloud. Define your data models with JSON Schema, store objects in high-performance registers, and let your other apps build on top of a solid, standards-based data layer.\n\n**Key Features**\n\n- **Schema-based registers** — Define data structures with JSON Schema and organize them into registers\n- **Full CRUD API** — Create, read, update, and delete objects through a powerful REST API\n- **Full-text search with faceting** — Search across registers with filters, powered by magic tables\n- **Role-based access control** — Fine-grained permissions with organization-level multitenancy\n- **Event-driven architecture** — React to data changes with events for tasks, notifications, and integrations\n- **CalDAV tasks and notes** — Attach Nextcloud tasks and comments directly to your data objects\n- **JSON-LD and Linked Data** — Opt-in read-side JSON-LD output (via `Accept: application/ld+json` content negotiation) with canonical `@id`, schema-derived `@context`, and dereferenceable context documents; Schema.org alignment is per-schema opt-in mapping. Read-side only (no JSON-LD ingest)\n- **Source synchronization** — Keep your registers in sync with external data sources\n\nOpen Register powers apps like OpenCatalogi, Procest, Pipelinq, and Software Catalogus, giving them a shared, federated data backbone.\n\nFree and open source under the EUPL license.",
     "homepage": "https://github.com/ConductionNL/openregister",
     "licenses": [
@@ -3250,9 +3340,9 @@
     ]
   },
   "pipelinq": {
-    "hash": "sha256-s5fJYYW8XceqGmRkLy1AMvIzarSN/Enz/KXlmcWDHvc=",
-    "url": "https://github.com/ConductionNL/pipelinq/releases/download/v0.4.13/pipelinq-0.4.13.tar.gz",
-    "version": "0.4.13",
+    "hash": "sha256-/HFP7sOESYf6DYCtlDIjxJ7ODwH8v6EoG/AoF1BOg1A=",
+    "url": "https://github.com/ConductionNL/pipelinq/releases/download/v0.5.0/pipelinq-0.5.0.tar.gz",
+    "version": "0.5.0",
     "description": "Pipelinq is a lightweight CRM for Nextcloud. Manage clients, track leads through visual pipelines, handle incoming requests, and keep a complete history of every interaction — all without leaving your Nextcloud workspace.\n\n**Key Features**\n\n- **Client management** — Track persons and organizations with contact details, notes, and full history\n- **Contact persons** — Link individuals to organizations with roles like sales manager or project lead\n- **Lead pipeline** — Drag-and-drop kanban board with configurable stages, values, and close probabilities\n- **Request intake** — Capture incoming requests before they become formal cases\n- **Contact moments** — Log calls, emails, visits, and other interactions with clients\n- **My Work queue** — Personal overview of your assigned leads, requests, and follow-ups\n- **Nextcloud Contacts sync** — Two-way sync with the native Contacts app via CardDAV\n- **Duplicate detection** — Provided via OpenRegister master-data management, flagging clients with matching names or emails\n- **Import and export** — vCard contact import and export via Nextcloud Contacts, plus scheduled CSV data exports\n- **Activity and notifications** — Stay updated on assignments, stage changes, and new notes\n\nPairs naturally with [Procest](https://apps.nextcloud.com/apps/procest) for case management. A direct request-to-case handoff bridge is in development (openspec change `semantic-handoff-emit`).\n\n**Requires:** [OpenRegister](https://apps.nextcloud.com/apps/openregister) (install from the [Nextcloud App Store](https://apps.nextcloud.com/apps/openregister)).\n\nFree and open source under the EUPL-1.2 license.\n\n**Support:** For support, contact support@conduction.nl. For a Service Level Agreement (SLA), contact sales@conduction.nl.",
     "homepage": "https://github.com/ConductionNL/pipelinq",
     "licenses": [
@@ -3270,9 +3360,9 @@
     ]
   },
   "portaliq": {
-    "hash": "sha256-2SAsLetWe5LC1iMYF1HJd8ozKqcre4fOKEYcTcAu6Es=",
-    "url": "https://github.com/ConductionNL/portaliq/releases/download/v0.1.12/portaliq-0.1.12.tar.gz",
-    "version": "0.1.12",
+    "hash": "sha256-LdTL8MUpJS6luBaVG4NYYDnDB0KxkSh8/o8gRvQb2gY=",
+    "url": "https://github.com/ConductionNL/portaliq/releases/download/v0.2.0/portaliq-0.2.0.tar.gz",
+    "version": "0.2.0",
     "description": "Portaliq is the fleet's shared external portal. Clients (citizens) and suppliers (companies) get one integrated, white-label portal to see and act on their records across every app — reading data through OpenRegister and rendering each app's registered portal contribution. It owns the external auth edge (DigiD / eHerkenning / eIDAS), the white-label portal shell, the unified inbox, and the portal-contribution registry. Employees stay internal. See ADR-046.",
     "homepage": "https://github.com/ConductionNL/portaliq",
     "licenses": [
@@ -3340,10 +3430,10 @@
     ]
   },
   "proofing_gallery": {
-    "hash": "sha256-AOP9248QivWCJlg6ZvIgUXFwL0+c6XFE9OWgXx1QFNc=",
-    "url": "https://github.com/soerennb/nextcloud-proofing_gallery/releases/download/v0.9.0/proofing_gallery.tar.gz",
-    "version": "0.9.0",
-    "description": "Publish existing Nextcloud folders as customizable client galleries.\nCollect likes, workflow states, comments, annotations, and named selections\nwithout copying or changing original files. Deliver finished work, collect\nclient decisions, receive uploads, or privately release shared and participant\nfolders to event recipients.",
+    "hash": "sha256-kr3A9WydVpqsHturCkG94CblYebtmx3tB1vHh4Ly1iw=",
+    "url": "https://github.com/soerennb/nextcloud-proofing_gallery/releases/download/v0.9.1/proofing_gallery.tar.gz",
+    "version": "0.9.1",
+    "description": "Proofing Gallery turns existing Nextcloud folders and copy-free collections into\nbranded client galleries for photographers, studios, and teams. Original media\nremains in Nextcloud Files; Proofing Gallery adds responsive presentation,\nproofing workflows, and controlled delivery without copying source media into\napp storage.\n\nCreate guided projects for showcases, finished-photo delivery, client\nselections, collaborative proofing, or receiving files. Choose Presentation or\nProofing mode, then configure each public link with its own folder scope,\nlanguage, appearance, password, expiry, downloads, feedback, uploads,\nmetadata, and preview watermark.\n\nClients can like, rate, pick, reject, comment, annotate, and save named\nselections. Owners get culling, review rounds, CSV exports, Adobe-compatible\nXMP sidecars, and explicit promotion of client decisions. Allow individual\nfiles, saved selections, or complete-gallery downloads with original or\nmetadata-free JPEG presets, optional watermarks, and printable contact sheets.\n\nFor schools, sports, and other volume events, release shared, group, and one\nprivate participant folder per recipient through scoped release waves. Import\nrecipients by CSV, use PINs and invitations, schedule or retry releases, rotate\nlinks, and set the wave's download policy without exposing another\nparticipant's files. Guest uploads go to a hidden moderation inbox before\nacceptance.\n\nUse recursive galleries, collections without copying media, video derivatives,\nfilename and metadata search, optional scene search, Live Push, custom domains,\ntemplates, and Nextcloud integrations when enabled. Administrator, gallery,\nlink, and event-wave policies are combined so each public link can only grant\nwhat all applicable policies allow.",
     "homepage": "https://soerennb.github.io/nextcloud-proofing_gallery/",
     "licenses": [
       "AGPL-3.0-or-later"
@@ -3440,9 +3530,9 @@
     ]
   },
   "reinhardterp": {
-    "hash": "sha256-bhVV1AGgC3F+7BMtPzdlEkH/Hj3oV7jyz39FKIJEkBY=",
-    "url": "https://github.com/SchreinereiReinhardt/NextERP/releases/download/v2.4.10/Betrio-2.4.10-store.tar.gz",
-    "version": "2.4.10",
+    "hash": "sha256-U0vmpwlGCFTR//uxTgzwoTesDKc1++9kIPg325zsB+o=",
+    "url": "https://github.com/SchreinereiReinhardt/NextERP/releases/download/v2.4.14/Betrio-2.4.14-store.tar.gz",
+    "version": "2.4.14",
     "description": "Betrio is an ERP and project management solution specifically designed for trades and craft businesses and integrated directly into Nextcloud.\n\nThe app combines commercial and operational workflows within the existing Nextcloud environment – from customers and projects to quotations, orders, invoices, work reports, time tracking, documents, materials, appointments and mobile on-site processes.\n\nFeatures:\n\n- Customer management and CRM\n- Project management and digital project files\n- Quotations\n- Orders\n- Invoices\n- Progress invoices\n- Final invoices\n- Credit notes\n- Payment status\n- Outstanding invoices\n- Payments\n- PDF invoices\n- XRechnung\n- Quotation → order → invoice workflow\n- Work reports with signature and PDF\n- Time tracking\n- Time evaluation\n- Material management\n- Inventory management\n- Documents\n- Photos\n- Project files\n- Appointments\n- Project timeline\n- Cost and project overviews\n- Mobile smartphone interface\n- Camera and barcode functions\n- Integration with Nextcloud Files\n\nA separate Android app, “Betrio Mobile”, is also available in the Google Play Store.\n\nThe invoicing functionality is already usable and is being continuously expanded. In particular, the commercial workflows and connections between quotations, orders, progress and final invoices, payments, credit notes, work reports, time entries and materials are being further developed.\n\nXRechnung is already integrated and continues to be under development and validation.\n\nFurther accounting and data exchange functions, including DATEV, are planned.",
     "homepage": "https://www.schreinerei-reinhardt.de",
     "licenses": [
@@ -4019,6 +4109,16 @@
       "agpl"
     ]
   },
+  "stackiq": {
+    "hash": "sha256-Km2ggOmalDhp+XsVtN8oZCKSF5+MC5C2pJOANWh14CQ=",
+    "url": "https://github.com/ConductionNL/stackiq/releases/download/v0.2.0/stackiq-0.2.0.tar.gz",
+    "version": "0.2.0",
+    "description": "> ⚠️ **Active development — not for production use yet.** This app is under active development. Although it may carry a stable release status, **please do not use it in production environments before 17 June 2026.** See the [app page on conduction.nl](https://conduction.nl/apps/stackiq) for release planning and what this app does.\n\nStackiq brings structured software portfolio management to Nextcloud. Keep track of all the applications, modules, and connections in your organization — and share them across a federated open data network.\n\n**Key Features**\n\n- **Application management** — Register and maintain your organization's software landscape\n- **Module tracking** — Break applications into modules, module versions, and track their relationships\n- **Connection mapping** — Visualize how applications and modules connect to each other\n- **Contract & license administration** — Track contracts with an approval workflow, renewal status, and expiry alerts\n- **GEMMA/ArchiMate standards & compliance** — Maintain a standards register, record compliance claims with evidence, cross-check modules against standards in a compliance matrix, and import/export ArchiMate models\n- **Portfolio roadmap** — See applications in use grouped by lifecycle phase, with end-of-support and phase-out warnings\n- **Federated synchronization** — Share and sync catalog data with other Stackiq instances via OpenCatalogi's directory network (optional; degrades gracefully if OpenCatalogi is not installed)\n- **Automatic user provisioning** — Sync contacts and organizations from your register into Nextcloud accounts and groups\n- **Open data publishing** — Publish selected catalog entries for transparency and reuse, with anonymous self-registration and moderation for new organizations\n\n**Requires:** [OpenRegister](https://apps.nextcloud.com/apps/openregister) (install from the [Nextcloud App Store](https://apps.nextcloud.com/apps/openregister)).\n\nFree and open source under the EUPL license.\n\n**Support:** For support, contact support@conduction.nl. For a Service Level Agreement (SLA), contact sales@conduction.nl.",
+    "homepage": "https://github.com/ConductionNL/stackiq",
+    "licenses": [
+      "EUPL-1.2"
+    ]
+  },
   "starrate": {
     "hash": "sha256-AJambDD1TeWb2Hqj0J35yE7iT2t3gKMzH/fWKGnXWIU=",
     "url": "https://github.com/merlin1de/starrate/releases/download/v1.3.12/starrate.tar.gz",
@@ -4139,6 +4239,16 @@
       "agpl"
     ]
   },
+  "thematiq": {
+    "hash": "sha256-Qc0PtthqCNvTHfYH8Uz2/Iuz0ZcodVzWlpqn/1DTLAw=",
+    "url": "https://github.com/ConductionNL/thematiq/releases/download/v1.2.0/thematiq-1.2.0.tar.gz",
+    "version": "1.2.0",
+    "description": "This app allows you to apply NL Design System design tokens to your Nextcloud instance.\n\nIt ships 43 token sets covering the Dutch national government (Rijkshuisstijl), the\nlarge-city design systems (Utrecht, Amsterdam, Den Haag, Rotterdam), a broad set of\ncommunity-maintained municipality and organization brands, and La Suite numérique\n(Cunningham design system) for European sovereign-workplace (MinBZK/mijn-bureau EDIC)\nbundles. Configure which token set to use in the admin settings.\n\nFira Sans and Inter (both SIL Open Font License 1.1) are bundled and self-hosted — no\nexternal CDN — so the theme works inside Nextcloud's default Content-Security-Policy and\non air-gapped government instances.\n\nFree and open source under the EUPL-1.2 license.\nGratis en open source onder de EUPL-1.2 licentie.",
+    "homepage": "https://github.com/ConductionNL/thematiq",
+    "licenses": [
+      "EUPL-1.2"
+    ]
+  },
   "theming_customcss": {
     "hash": "sha256-gJcQJv0tD7lykS+26cLr5zlujJjajNqITWmTv0ki2T0=",
     "url": "https://github.com/nextcloud-releases/theming_customcss/releases/download/v1.21.0/theming_customcss-v1.21.0.tar.gz",
@@ -4160,9 +4270,9 @@
     ]
   },
   "thesearchpage": {
-    "hash": "sha256-wNEw2EvvUTXeUSTby748Mhj0cDqQZTer21025Mh5umI=",
-    "url": "https://github.com/callmemagnus/nextcloud-searchpage/releases/download/v2.4.7/thesearchpage.tar.gz",
-    "version": "2.4.7",
+    "hash": "sha256-zsWxPGCCeHvolZ0ACwlPg0voyQYlwv7Y4N4Bkkm0L4A=",
+    "url": "https://github.com/callmemagnus/nextcloud-searchpage/releases/download/v2.4.8/thesearchpage.tar.gz",
+    "version": "2.4.8",
     "description": "🔎 A Search Page for your Nextcloud instance\n\n- [Changelog](https://raw.githubusercontent.com/callmemagnus/nextcloud-searchpage/main/CHANGELOG.md)\n- [Help translate this application](https://app.transifex.com/nextcloud/nextcloud/thesearchpage/)\n\nIt works like the existing search widget, uses the same sources to query BUT\ndisplays the results in a more readable and browsable fashion.\n\nThe content of the results depends on the other applications installed on\nyour Nextcloud instance. Every Nextcloud application can become a search\nprovider and get its results displayed by this application.\n\nOut of the Nextcloud box, you usually get the following providers:\n\n- Apps -- searches for match for in installed application names\n- Files -- searches on path and filename\n- Tags\n- Comments\n- Settings\n\nBecause of its design, the results depend on the implementation of the providers\nin respective application.\n\nKnown issues with other applications:\n\n- users -- [by design(?), it always returns an empty array](https://github.com/nextcloud/server/issues/41274) (it is hidden/disabled in this application)\n- fulltextsearch -- does not seem to AND the query terms, OR is usually less relevant\n- news -- does not provide a direct link to a feed item.\n\n\nDon't hesitate to leave a comment here or a rating!",
     "homepage": "https://github.com/callmemagnus/nextcloud-searchpage",
     "licenses": [
@@ -4340,8 +4450,8 @@
     ]
   },
   "uniteos_notifier": {
-    "hash": "sha256-yoNEdBloqNFtXTZsR4EN1PoTlGRjQKObaZ2B+qSFp4g=",
-    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/main/uniteos_notifier.tar.gz",
+    "hash": "sha256-vaWgvCrCGCfm5ygADrXCKR/nRTU9DFar/FQZg59ajus=",
+    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/1.0.6/uniteos_notifier.tar.gz",
     "version": "1.0.6",
     "description": "This app allows forwarding Nextcloud events for a deeper integration into UniteOS developed by wechange eG by presenting a selected set of events as user notifications.",
     "homepage": "",
@@ -4529,6 +4639,16 @@
       "agpl"
     ]
   },
+  "versioniq": {
+    "hash": "sha256-HkDcGyFLbET34haZxMSpX8zAPS5VP9gT7rzGe0T2OR4=",
+    "url": "https://github.com/ConductionNL/versioniq/releases/download/v1.5.0/versioniq-1.5.0.tar.gz",
+    "version": "1.5.0",
+    "description": "> ⚠️ **Active development — not for production use yet.** This app is under active development. Although it may carry a stable release status, **please do not use it in production environments before 12 June 2026.** See [conduction.nl/apps](https://conduction.nl/apps) for release planning and what this app does.\n\nVersioniq gives Nextcloud administrators the ability to roll back apps to previous versions or install specific newer versions. Essential for debugging, testing compatibility, and recovering from broken updates.",
+    "homepage": "",
+    "licenses": [
+      "EUPL-1.2"
+    ]
+  },
   "vinarium": {
     "hash": "sha256-OCu7GghQBw9ksOC6hVmd4BQHEpGekefWvBARs/lBZoU=",
     "url": "https://github.com/cpcMomentum/vinarium/releases/download/v0.5.2/vinarium-v0.5.2.tar.gz",
@@ -4710,9 +4830,9 @@
     ]
   },
   "yoomail": {
-    "hash": "sha256-uvVmDykwHIfPxPAMHoV0zJePYWz7phH7gVK6Xr534hQ=",
-    "url": "https://github.com/ebfming/yoomail/releases/download/1.0/yoomail-0.1.0.tar.gz",
-    "version": "0.1.0",
+    "hash": "sha256-nlqFWS9q6wzFzvVz0vOO/v/YZWmngkpLMZkfNM8o0d4=",
+    "url": "https://github.com/ebfming/yoomail/releases/download/1.2/yoomail-0.2.0.tar.gz",
+    "version": "0.2.0",
     "description": "**🚀 YooMail — A high-performance mail app for Nextcloud**\n\nYooMail is a secondary development (fork) of Nextcloud Mail, focused on **realtime delivery** and **instant reading** of emails.\n\n- **⚡ Realtime email delivery** — A built-in Workerman + IMAP IDLE daemon pushes new emails within seconds; no manual refresh or polling required.\n- **🚀 Instant body caching** — Message bodies are persistently cached after first render, so reopening a message is nearly instant.\n- **📥 Multiple mail accounts** — Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails** — Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **📬 Deep Nextcloud integration** — Contacts, Calendar and Files.\n\n## Base version\n\nThis app is built on top of Nextcloud Mail **5.10.12**, with compatibility fixes for special-use folders (Sent / Deleted / Drafts) on some Chinese mail providers (Tencent ExMail / QQ Mail, NetEase Mail, etc.).",
     "homepage": "https://github.com/ebfming/yoomail#readme",
     "licenses": [
@@ -4720,20 +4840,20 @@
     ]
   },
   "zaakafhandelapp": {
-    "hash": "sha256-pAGhGG19z6K4gzrRYOAe7UINE45a1EKuvOWJFayQNGc=",
-    "url": "https://github.com/ConductionNL/zaakafhandelapp/releases/download/v0.1.30/zaakafhandelapp-0.1.30.tar.gz",
-    "version": "0.1.30",
-    "description": "📰 Brinning Gateway and Service bus functionality to nextcloud\r\n\r\nThe OpenCatalogi Nextcloud app provides a framework for federated catalogi to work together in an open data ecosystem\r\n\r\n- 📲 Synchronize your data sources\r\n- 📰 Send cloud eventt\r\n- 🆓 Map and translate api calls\r\n\r\n**System Cron is currently required for this app to work**\r\n\r\nRequirements can be found [here](https://conduction.gitbook.io/opencatalogi-nextcloud/installatie)\r\n\r\nThe Roadmap is available [here](https://github.com/orgs/OpenCatalogi/projects/1/views/2)\r\n\r\nCreate a [bug report](https://github.com/OpenCatalogi/.github/issues/new/choose)\r\n\r\nCreate a [feature request](https://github.com/OpenCatalogi/.github/issues/new/choose)",
+    "hash": "sha256-+0Wx/h46fXVE4SSruOWPX7gLkDUqCaUq+YE74vtCa1w=",
+    "url": "https://github.com/ConductionNL/zaakafhandelapp/releases/download/v0.3.0/zaakafhandelapp-0.3.0.tar.gz",
+    "version": "0.3.0",
+    "description": "Zaak Afhandel App (ZAA) brings Dutch municipal case handling (*zaakgericht werken*, VNG GEMMA/ZGW) into Nextcloud. Case workers manage zaken from intake through formal closure: zaaktypen, statussen, rollen, besluiten and resultaten; taken (tasks); klanten, personen and organisaties with contactmoment logging; in-case berichten with a message audit trail; a personal werkvoorraad dashboard; and a ZGW (ZRC/ZTC/DRC/BRC) REST API surface. Data, search, RBAC and audit are provided by OpenRegister.\n\n**Requires:** [OpenRegister](https://apps.nextcloud.com/apps/openregister) (install from the [Nextcloud App Store](https://apps.nextcloud.com/apps/openregister)).\n\n- 📁 Cases (zaken) with zaaktypen, statussen, rollen, eigenschappen, besluiten and resultaten\n- ⏸️ Opschorting and verlenging (suspend/extend) on a running case\n- ✅ Tasks (taken) assigned to medewerkers or klanten\n- 👥 Klanten, personen and organisaties with contactmoment logging\n- 💬 In-case messaging (berichten) with a message audit trail\n- 📊 Personal werkvoorraad dashboard with widgets\n- 🔌 ZGW (ZRC/ZTC/DRC/BRC) REST API surface\n\nRequirements can be found [here](https://github.com/ConductionNL/zaakafhandelapp/blob/master/README.md)\n\nCreate a [bug report](https://github.com/ConductionNL/zaakafhandelapp/issues/new/choose)\n\nCreate a [feature request](https://github.com/ConductionNL/zaakafhandelapp/issues/new/choose)",
     "homepage": "https://github.com/ConductionNL/zaakafhandelapp",
     "licenses": [
-      "agpl"
+      "EUPL-1.2"
     ]
   },
   "zeitwerk": {
-    "hash": "sha256-DoUHEQvXSQbTVH+yy4bZbZ4bZH+BCCvnFBOsGz1Qp44=",
-    "url": "https://github.com/lamanese/worktime/releases/download/v0.17.0/zeitwerk-0.17.0.tar.gz",
-    "version": "0.17.0",
-    "description": "# Zeitwerk - Arbeitszeiterfassung für Nextcloud\n\nGesetzeskonforme Arbeitszeiterfassung für kleine Unternehmen in Deutschland.\n\nEigenständig gepflegter Fork der App WorkTime ([cpcMomentum/worktime](https://github.com/cpcMomentum/worktime), Original von Axel Deffner), erweitert um Aussendienst-Spesen, Extern-Kilometer und persönliche Standard-Vorgaben.\n\n## Erfassung & Berechnung\n\n- **Zeiterfassung** mit Start, Ende und Pause\n- **Automatische Pausenberechnung** nach §4 ArbZG\n- **Überstundenkonto** mit Soll/Ist-Vergleich und Eintrittsdatum-Berücksichtigung\n- **Projektbezogene Erfassung** für bessere Auswertung\n- **Persönliche Standard-Vorgaben**: Standard-Arbeitszeiten sowie — nach Admin-Freigabe — Standard-Projekt und Standard-Beschreibung als Vorbelegung neuer Einträge\n- **Deutsche Feiertage** automatisch nach Bundesland\n\n## Spesen & Kilometer\n\n- **Aussendienst-Spesen**: konfigurierbare Tagespauschale, sobald die Arbeitszeit auf Aussendienst-Projekten eine Stundenschwelle erreicht\n- **Extern-Kilometer**: tageweise Kilometer-Erfassung an externen Tagen (Extern-Projekt oder externer Abwesenheitstyp) mit konfigurierbarem Satz\n- **Auswertung inklusive**: Spesen und Kilometer in Monatsübersicht, Team, Projekt-Auswertung sowie in CSV- und PDF-Exporten\n\n## Urlaub & Abwesenheiten\n\n- **Urlaubsverwaltung** mit Quoten-Validierung und Resturlaub-Anzeige\n- **Abwesenheiten**: Urlaub, Krankheit, Sonderurlaub, Freizeitausgleich\n- **Jahresübertrag** für Überstunden und Resturlaub vom Vorjahr — automatisch und manuell korrigierbar\n\n## Reporting & Team\n\n- **Monatsübersicht** mit PDF-Export (Arbeitszeitnachweis, auch über frei wählbare Zeiträume)\n- **Projekt-Auswertung** für Admin/HR mit CSV- und PDF-Export\n- **Team-Übersicht** für Vorgesetzte und HR-Manager\n- **Jahresübersicht** mit allen Mitarbeitern und Übertragswerten\n- **Audit-Log** für vollständiges Änderungsprotokoll (Admin/HR)\n\n## Workflow & Genehmigung\n\n- **Rollenbasierte Berechtigungen** (Admin, HR-Manager, Supervisor, Employee)\n- **Genehmigungsworkflow** für Abwesenheiten mit eingebetteter Zeitanzeige\n- **Kontextuelle Hilfe** mit Info-Icons an allen relevanten Stellen\n\n## Internationalisierung\n\n- **Mehrsprachig**: Deutsch, Englisch und Tschechisch\n\nBehalten Sie den Überblick über Arbeitszeiten, Überstunden und Urlaub.",
+    "hash": "sha256-RUSMIG/Qmeem4fPYPXul6fHfCIVeUg6f5DSt4bK2tYU=",
+    "url": "https://github.com/lamanese/worktime/releases/download/v0.18.1/zeitwerk-0.18.1.tar.gz",
+    "version": "0.18.1",
+    "description": "# Zeitwerk - Arbeitszeiterfassung für Nextcloud\n\nGesetzeskonforme Arbeitszeiterfassung für kleine Unternehmen in Deutschland und der Schweiz.\n\nEigenständig gepflegter Fork der App WorkTime ([cpcMomentum/worktime](https://github.com/cpcMomentum/worktime), Original von Axel Deffner), erweitert um Aussendienst-Spesen, Extern-Kilometer und persönliche Standard-Vorgaben.\n\n## Erfassung & Berechnung\n\n- **Zeiterfassung** mit Start, Ende und Pause\n- **Automatische Pausenberechnung** nach §4 ArbZG\n- **Überstundenkonto** mit Soll/Ist-Vergleich und Eintrittsdatum-Berücksichtigung\n- **Projektbezogene Erfassung** für bessere Auswertung\n- **Persönliche Standard-Vorgaben**: Standard-Arbeitszeiten sowie — nach Admin-Freigabe — Standard-Projekt und Standard-Beschreibung als Vorbelegung neuer Einträge\n- **Feiertage** automatisch für 16 deutsche Bundesländer und 26 Schweizer Kantone\n\n## Spesen & Kilometer\n\n- **Aussendienst-Spesen**: konfigurierbare Tagespauschale, sobald die Arbeitszeit auf Aussendienst-Projekten eine Stundenschwelle erreicht\n- **Extern-Kilometer**: tageweise Kilometer-Erfassung an externen Tagen (Extern-Projekt oder externer Abwesenheitstyp) mit konfigurierbarem Satz\n- **Auswertung inklusive**: Spesen und Kilometer in Monatsübersicht, Team, Projekt-Auswertung sowie in CSV- und PDF-Exporten\n\n## Urlaub & Abwesenheiten\n\n- **Urlaubsverwaltung** mit Quoten-Validierung und Resturlaub-Anzeige\n- **Abwesenheiten**: Urlaub, Krankheit, Sonderurlaub, Freizeitausgleich\n- **Jahresübertrag** für Überstunden und Resturlaub vom Vorjahr — automatisch und manuell korrigierbar\n\n## Reporting & Team\n\n- **Monatsübersicht** mit PDF-Export (Arbeitszeitnachweis, auch über frei wählbare Zeiträume)\n- **Projekt-Auswertung** für Admin/HR mit CSV- und PDF-Export\n- **Team-Übersicht** für Vorgesetzte und HR-Manager\n- **Jahresübersicht** mit allen Mitarbeitern und Übertragswerten\n- **Audit-Log** für vollständiges Änderungsprotokoll (Admin/HR)\n\n## Workflow & Genehmigung\n\n- **Rollenbasierte Berechtigungen** (Admin, HR-Manager, Supervisor, Employee)\n- **Genehmigungsworkflow** für Abwesenheiten mit eingebetteter Zeitanzeige\n- **Kontextuelle Hilfe** mit Info-Icons an allen relevanten Stellen\n\n## Internationalisierung\n\n- **Mehrsprachig**: Deutsch, Englisch und Tschechisch\n\nBehalten Sie den Überblick über Arbeitszeiten, Überstunden und Urlaub.",
     "homepage": "",
     "licenses": [
       "AGPL-3.0-or-later"
