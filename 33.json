@@ -240,9 +240,9 @@
     ]
   },
   "audiocheck": {
-    "hash": "sha256-EZKOjfX0igODHLYkOLaGzM8k5ZvjreN7ftHHhL2WJH8=",
-    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-audiocheck/releases/download/v1.3.5/audiocheck-1.3.5.tar.gz",
-    "version": "1.3.5",
+    "hash": "sha256-CO9IRlIEumpCbpuOu4AkEwCjOeSPFUbLpnPaKJPTLL0=",
+    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-audiocheck/releases/download/v1.3.7/audiocheck-1.3.7.tar.gz",
+    "version": "1.3.7",
     "description": "# AudioCheck — your audio library inside Nextcloud\n\nYour audio files already live in Files. AudioCheck indexes the folders you choose and streams them with live permission checks.\n\nThe app is **free** under AGPL-3.0-or-later. There is no seat license for this web app in the shipped package.\n\n## What you get\n\n- Separate music and audiobook library roots; collections, albums and folder browsing\n- Multi-file audiobooks as one queue; resume stored on your server per account\n- Durable playback queue; optional resume on open; Continue listening on Home and the dashboard widget\n- Playlists; Favorites synced with Files stars\n- Chapter jumps on M4B (and tagged chapter metadata); playback speed 0.5×–4.0×\n- Files actions: Play in AudioCheck / Play folder as album\n- Browse by artists, authors, genres, series, folders, tags and favorites\n- Optional access restriction (Nextcloud admins always retain access)\n- UI languages: German (Sie-Form), English, French, Spanish, Danish, Dutch, Italian, Polish, Swedish, Norwegian Bokmål, and Brazilian Portuguese (every shipped UI string lives in `l10n`)\n- Accessibility foundations aimed at WCAG 2.1 AA (not a third-party certification)\n\n## Formats\n\n**Indexed and streamed on the server:** MP3, MP4/M4A/M4B (including podcasts tagged as video/mp4), OGG, Opus, FLAC, WAV, AAC and other common `audio/*` types.\n\n**Browser playback** depends on the browser: MP3, M4A, M4B, AAC, OGG, Opus and WAV usually work; FLAC and some others may need a different browser.\n\n## Get started\n\n1. Open **Library**, add music and audiobook folders, then **Scan now** (or `occ audiocheck:scan`).\n2. In **Settings**, enable **Resume where you left off** if you want that behaviour.\n3. Open **Music** or **Audiobooks** and press Play.\n\n## Honest limits\n\n- Playback bytes go through a single file-access gate with live permission checks; revoked shares stop playback. The app makes no outbound HTTP calls for playback.\n- After a full browser navigation away from AudioCheck, browsers may require a click to resume audio.\n- Scan depth is capped (32 folder levels). Playlist play/shuffle has a documented track cap (2000).\n- Declared databases: MySQL and PostgreSQL only.\n\n## Requirements\n\n- Nextcloud 32–35\n- PHP 8.2–8.5\n- MySQL or PostgreSQL",
     "homepage": "https://nextcloud.software-by-design.de",
     "licenses": [
@@ -280,9 +280,9 @@
     ]
   },
   "auto_groups": {
-    "hash": "sha256-ylrJmNiHVsohPuPYX4d9Eib+7L4qUFzBXzJjPT4g0Ck=",
-    "url": "https://github.com/jo23sh/auto_groups/releases/download/v1.8.0/auto_groups-v1.8.0.tar.gz",
-    "version": "1.8.0",
+    "hash": "sha256-N+N03DkmjJiKPnyyS2L1KXcbWX/Z6BnbGdKEnbksWJ0=",
+    "url": "https://github.com/jo23sh/auto_groups/releases/download/v1.8.1/auto_groups-v1.8.1.tar.gz",
+    "version": "1.8.1",
     "description": "Automatically add users to the specified Auto Groups, except those users belonging to one of the specified Override Groups. \nOptionally, the group assignment can be triggered on every successful login, which is useful for external user backends.\n\n## Configuration\n\n- Go to \"Settings > Administration > Additional settings\"\n- Configure the Auto Groups\n- If required, configure the Override Groups (e.g., for Service Accounts)\n- Optionally, enable the Login Hook, which will enforce correct group membership on every successful login\n\nNote that this app prevents group deletions for groups referenced as Auto Groups or Override Groups.\n\n## Comparison to similar Apps\n\n* [Everyone Group](https://apps.nextcloud.com/apps/group_everyone): The \"Everyone Group\" app adds a virtual Group Backend, always returning all users. In contrast, \"Auto Groups\" operates on \"real\" groups in your normal Group Backend. Additionally, it is possible to specify Override Groups which will prevent users from being added to the Auto Group(s).\n* [Default Group](https://apps.nextcloud.com/apps/defaultgroup): \"Auto Groups\" is actually a modernized and maintaned fork of \"Default Group\", which seems to be abandoned since NC12 or so. In terms of functionality, they are almost identical.",
     "homepage": "https://github.com/jo23sh/auto_groups",
     "licenses": [
@@ -1050,9 +1050,9 @@
     ]
   },
   "eidlogin": {
-    "hash": "sha256-qLeKpw1iCHMEL2ANnbmzKtIfEqwLbJMp1DEBPnoAhD4=",
-    "url": "https://github.com/eid-login/eid-login-nextcloud/releases/download/1.0.22/eidlogin.tar.gz",
-    "version": "1.0.22",
+    "hash": "sha256-HQvJ5L3bEVXVn6gajpJgaKWeD3KpVrG+f7VEBtjNwIA=",
+    "url": "https://github.com/eid-login/eid-login-nextcloud/releases/download/1.0.23/eidlogin.tar.gz",
+    "version": "1.0.23",
     "description": "The eID-Login App allows to use the German eID-card and similar electronic identity documents for secure and privacy-friendly login to Nextcloud. For this purpose, a so-called eID-Client, such as the AusweisApp2 or the Open eCard App and eID-Service are required. In the default configuration a suitable eID-Service is provided without any additional costs.",
     "homepage": "https://eID.services/eidlogin/nextcloud",
     "licenses": [
@@ -1499,6 +1499,16 @@
       "EUPL-1.2"
     ]
   },
+  "findling": {
+    "hash": "sha256-ihCSJZJdgsOb1fvvvDRUqgD9AuFuC1bh0xoWf1yUMls=",
+    "url": "https://github.com/street1983nk/nextcloud-search/releases/download/v1.0.0/findling.tar.gz",
+    "version": "1.0.0",
+    "description": "Findling finds the contents of your documents from the normal search bar.\n\nThis app never modifies your files, and no content ever leaves your server.\n\nFindling needs two more things to be installed: the app \"AppAPI\" and the\nExternal App \"Findling Backend\", which does the reading and the indexing inside\nyour own instance.\n\nNothing has to be configured. The first index starts on its own and runs as a\nbackground job, and scanned PDFs are read with OCR without a setting being\ntouched. If this server still uses the default AJAX cron, background jobs only\nrun while somebody is using the web interface, and the first index will trickle\nalong accordingly. Switching this instance to the system cron is the difference\nbetween hours and weeks. \"occ findling:index --status\" shows how far it has\ncome.\n\nThe search also finds documents through a paraphrase instead of only exact\nwords: a query that describes a notice period finds the document even if the\nword never occurs in it. The semantic search covers the beginning of each\ndocument, and the full text search still covers everything; that beginning is,\nmeasured, 12.5 percent of an average document of the measurement corpus. What\nit costs in time, measured on the same box: embedding the 51,961 documents ran\nalongside the OCR for the whole run and was finished 52 minutes after it, and\nthe full run took 18 h 04 min for full text and OCR and 18 h 56 min until the\nlast vector.\n\nWhat it costs in memory, measured: On a 4-GB ARM64 box with 51,961 indexed\ndocuments and the semantic search active, the container peaked at 1,813 MB of\nresident anonymous memory, under a hard 2 GB limit enforced by the kernel. That\nis the target hardware and not a stand in, and it was measured on 07.09.2026.\nTwo honest sentences belong next to the number: all four kernel counters for\nmemory pressure are zero, including the one that counts how often the kernel had\nto push the container back against its limit, which stood at 2,796 in the\nprevious measurement of 05.09.2026 with its peak of 1,838 MB; and the largest\npart of this memory is now the optical character recognition, which reads three\nlanguages since 06.09.2026, while the search phase costs 1,125 MB. The report\ndocs/performance.md in the source code carries the method, the curve, the corpus\nand the x86 rehearsal next to it.\n\nPrivacy: everything runs locally in your own instance. No file content ever\nleaves the server, and there is no telemetry of any kind, not even a version\ncheck. What is stored, so that nobody has to guess: the text extracted from\nevery indexed document is kept in the backend app's own volume, because the\nshort excerpts shown under a search result are cut out of it on demand. A\nbackup of that volume therefore contains the text of your indexed documents,\nand the index is not encrypted at rest, which is a matter for the host it runs\non.\n\nThe semantic model ships inside the container image, and nothing is\ndownloaded on first start. Two network libraries, huggingface-hub and\nrequests, came into the container with the embedding library; the build\npipeline starts the image with the network switched off and runs a search\nagainst it, which is the proof that none of this ever needs a connection. No\ntext, no vector and no query leaves the server.",
+    "homepage": "https://github.com/street1983nk/nextcloud-search",
+    "licenses": [
+      "AGPL-3.0-or-later"
+    ]
+  },
   "fit_tracker": {
     "hash": "sha256-cvJkNSmOUJL7MCuRf8hifUXjYfO6Q1994Ivjidb8tQw=",
     "url": "https://github.com/alesrosina/fit_tracker/releases/download/v1.1.9/fit_tracker-1.1.9.tar.gz",
@@ -1709,6 +1719,16 @@
       "agpl"
     ]
   },
+  "groupfolder_tags": {
+    "hash": "sha256-0sfj0f8yq6YEkfLYuRaVim8fIclrMyKOAVeLO0Zi3C0=",
+    "url": "https://github.com/verdigado/groupfolder_tags/releases/download/v1.0.4/groupfolder_tags.tar.gz",
+    "version": "1.0.4",
+    "description": "Without this app if you wanted to automate/script the creation and updates of groupfolders you couldn't attach metadata to that groupfolder to recognize them in your script in the future.\n\t\tYou had to create your own database to map from your own unique key to the groupfolder id or encode that information in the user-visible groupfolder name.\n\t\tNo more: With this app you can add key-value tags to your groupfolders (only visible to admins) making it trivially easy to recognize them again in your automations.\n\t\tThis was created for the organization_folders groupfolder management app, but was kept generic to allow it to be used by your custom automations.\n\t\tThis app does not provide a frontend and does nothing on it's own, it is designed to be used in conjunction with other apps/scripts.",
+    "homepage": "https://github.com/verdigado/groupfolder_tags",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "groupfolders": {
     "hash": "sha256-Hs3WRKLpE96LMzVgcXZg8Lp1g2MJxEY6+Fjohs3Dpow=",
     "url": "https://github.com/nextcloud-releases/groupfolders/releases/download/v21.0.15/groupfolders-v21.0.15.tar.gz",
@@ -1740,10 +1760,10 @@
     ]
   },
   "health": {
-    "hash": "sha256-n/Z87aNv7sC0736KB1lwRT9/QWT4JaC9HSAZ5ytsn/8=",
-    "url": "https://github.com/nextcloud/health/releases/download/v3.1.2/health-3.1.2.tar.gz",
-    "version": "3.1.2",
-    "description": "Health helps users keep an eye on their personal health and wellbeing in everyday life and at work. The app provides a configurable journal for health metrics and habits such as stress, energy, mood, hydration, breaks, movement, sleep, and weight.\n\nUsers decide which areas they want to track and whether they want to receive reminders. Short check-ins, check-outs, and quick entries make the app easy to use with minimal effort. Daily, weekly, and monthly overviews, together with simple statistics, visualize trends, goal progress, and personal developments without providing medical diagnoses or automated health assessments.\n\nHealth is designed with a privacy-first and API-first approach. The Health application and API enforce user isolation so users can access only their own personal Health data. This application-level isolation is not a claim that data is cryptographically hidden from the Nextcloud server operator. The web interface is built on top of Nextcloud APIs, allowing the application to support external clients in the future.",
+    "hash": "sha256-XuizpMJDnVUHZNF1+8ZC64zv9XKCJD4Po0OlMAfmpLc=",
+    "url": "https://github.com/nextcloud/health/releases/download/v3.2.0/health-3.2.0.tar.gz",
+    "version": "3.2.0",
+    "description": "Health helps users track personal health and wellbeing in everyday life and at work. The app provides a configurable journal for metrics and habits such as stress, energy, mood, hydration, breaks, movement, sleep, weight, and more.\n\nUsers choose what they want to track and whether they want reminders. Quick entries, check-ins, and check-outs keep daily use simple, while daily, weekly, and monthly views and statistics show trends and goal progress without medical diagnoses or automated health assessments.\n\nFor even faster mobile entry, Health includes an installable PWA with an offline-first quick-entry interface. It lets users record enabled metrics with large touch-friendly controls and sync changes back to Nextcloud when a connection is available.",
     "homepage": "",
     "licenses": [
       "AGPL-3.0-or-later"
@@ -2360,9 +2380,9 @@
     ]
   },
   "intravox": {
-    "hash": "sha256-ewG6cDOEziw/0CYc/LzTsUFnFve0OJp5tbsz5fWdKAA=",
-    "url": "https://github.com/nextcloud/IntraVox/releases/download/v2.7.0/intravox-2.7.0.tar.gz",
-    "version": "2.7.0",
+    "hash": "sha256-1q35RyOgNcP+K19F6/mMZ2yar0kiiuBZTjVYTQRXusg=",
+    "url": "https://github.com/nextcloud/IntraVox/releases/download/v2.7.1/intravox-2.7.1.tar.gz",
+    "version": "2.7.1",
     "description": "IntraVox turns Nextcloud into a full intranet: pages built with a visual drag-and-drop editor, no code required.\n\n**Where your content lives**\nIntraVox runs wherever you run Nextcloud — your own hardware, an EU host, on-premises. It is open source, so it can be audited. Your content is not a platform format: pages are plain files and JSON in a folder, which keeps leaving cheap if you ever need to.\n\n**Building pages**\n* Drag-and-drop widgets in flexible grids (1–5 columns), 7 page templates\n* Text with tables and markdown, images, video, links, files\n* Calendar, People, News, Photo Story and File Story widgets\n* Draft/published workflow, scheduled publication, page locking\n\n**Finding your way**\n* A page structure panel that stays open while you navigate, with a table of contents of the page you are reading\n* Navigation editor with mega menu and sidebar options\n* Nextcloud Unified Search integration (Ctrl+K)\n\n**Working together**\n* Reactions, threaded comments and version history with one-click restore\n* Multilingual pages: link language versions, and readers are offered the one in their language\n* Public sharing, with optional password protection\n* Department access control through Team folders ACL\n\n**Requirements:** Nextcloud 32–34, PHP 8.2+, Team folders.",
     "homepage": "https://voxcloud.nl",
     "licenses": [
@@ -2740,9 +2760,9 @@
     ]
   },
   "mediafetch": {
-    "hash": "sha256-auFGttM+n2+mUkGEQIV2Brg1GR3MsZFsAD0rfpHsR2c=",
-    "url": "https://github.com/Happyfeet01/mediafetch/releases/download/mediafetch-v1.0.1/mediafetch-1.0.1.tar.gz",
-    "version": "1.0.1",
+    "hash": "sha256-mmPSS+of6KbuG/zbU6MyiBT3NmHuusr2BN0O8GMB1B0=",
+    "url": "https://github.com/Happyfeet01/mediafetch/releases/download/v1.1.0/mediafetch-1.1.0.tar.gz",
+    "version": "1.1.0",
     "description": "MediaFetch is a download manager for Nextcloud that combines aria2 and yt-dlp in one web interface.\n\nFeatures include regular HTTP/HTTPS downloads, BitTorrent and magnet downloads through aria2, and media downloads through yt-dlp. Administrators keep control over global downloader settings while every user can configure their own download folders, aria2 options and yt-dlp options.\n\nMediaFetch is based on the original NCDownloader / Net loader project and continues its AGPL-licensed codebase.",
     "homepage": "https://github.com/Happyfeet01/mediafetch",
     "licenses": [
@@ -3060,9 +3080,9 @@
     ]
   },
   "oidc": {
-    "hash": "sha256-7ne57kd7WhyNr/qjCYek2tptGapn2Rs1GP8Ilenk1rw=",
-    "url": "https://github.com/H2CK/oidc/releases/download/2.1.3/oidc-2.1.3.tar.gz",
-    "version": "2.1.3",
+    "hash": "sha256-HqQsWcpaIzG8cwklfDEIPcvqtfxlcTQXDTNYOhDkn30=",
+    "url": "https://github.com/H2CK/oidc/releases/download/2.2.0/oidc-2.2.0.tar.gz",
+    "version": "2.2.0",
     "description": "Nextcloud as OpenID Connect Identity Provider\n\nWith this app you can use Nextcloud as OpenID Connect Identity Provider. If other services\nare configured correctly, you are able to access those services with your Nextcloud login.\n\nFull documentation can be found at:\n\n- [User Documentation](https://github.com/H2CK/oidc/wiki#user-documentation)\n- [Developer Documentation](https://github.com/H2CK/oidc/wiki#developer-documentation)",
     "homepage": "https://github.com/H2CK/oidc",
     "licenses": [
@@ -3530,9 +3550,9 @@
     ]
   },
   "reinhardterp": {
-    "hash": "sha256-U0vmpwlGCFTR//uxTgzwoTesDKc1++9kIPg325zsB+o=",
-    "url": "https://github.com/SchreinereiReinhardt/NextERP/releases/download/v2.4.14/Betrio-2.4.14-store.tar.gz",
-    "version": "2.4.14",
+    "hash": "sha256-7NTtMfFfAm6Elw3H8kQeHlt/T6gZhckEPMObtimHW00=",
+    "url": "https://github.com/SchreinereiReinhardt/NextERP/releases/download/v2.4.15/Betrio-2.4.15-store.tar.gz",
+    "version": "2.4.15",
     "description": "Betrio is an ERP and project management solution specifically designed for trades and craft businesses and integrated directly into Nextcloud.\n\nThe app combines commercial and operational workflows within the existing Nextcloud environment – from customers and projects to quotations, orders, invoices, work reports, time tracking, documents, materials, appointments and mobile on-site processes.\n\nFeatures:\n\n- Customer management and CRM\n- Project management and digital project files\n- Quotations\n- Orders\n- Invoices\n- Progress invoices\n- Final invoices\n- Credit notes\n- Payment status\n- Outstanding invoices\n- Payments\n- PDF invoices\n- XRechnung\n- Quotation → order → invoice workflow\n- Work reports with signature and PDF\n- Time tracking\n- Time evaluation\n- Material management\n- Inventory management\n- Documents\n- Photos\n- Project files\n- Appointments\n- Project timeline\n- Cost and project overviews\n- Mobile smartphone interface\n- Camera and barcode functions\n- Integration with Nextcloud Files\n\nA separate Android app, “Betrio Mobile”, is also available in the Google Play Store.\n\nThe invoicing functionality is already usable and is being continuously expanded. In particular, the commercial workflows and connections between quotations, orders, progress and final invoices, payments, credit notes, work reports, time entries and materials are being further developed.\n\nXRechnung is already integrated and continues to be under development and validation.\n\nFurther accounting and data exchange functions, including DATEV, are planned.",
     "homepage": "https://www.schreinerei-reinhardt.de",
     "licenses": [
@@ -3630,9 +3650,9 @@
     ]
   },
   "s3_api": {
-    "hash": "sha256-tF9Ol+qzTl2hyAn3VL7yhX2674pvOTRim9kBjigYZog=",
-    "url": "https://github.com/markuman/nextcloud-s3-api/releases/download/v1.5.1/s3_api-1.5.1.tar.gz",
-    "version": "1.5.1",
+    "hash": "sha256-h1u6PC1TnNiKXMmosk+oIEiI2Z84VyQDf3I+KsjMl8M=",
+    "url": "https://github.com/markuman/nextcloud-s3-api/releases/download/v1.5.3/s3_api-1.5.3.tar.gz",
+    "version": "1.5.3",
     "description": "**Point any S3 client at a Nextcloud folder.**\n\nMark a folder as a bucket in your personal settings, create an API key, and use it with the AWS\nCLI, boto3, rclone or any other S3-compatible client. The files stay ordinary Nextcloud files —\nvisible in the web UI, synced by the desktop client, shareable, versioned. Nothing is duplicated\ninto a separate object store.\n\nRather than the handful of calls a file sync needs, this implements the parts that make an S3\nendpoint usable as a real backend:\n\n* Conditional writes (`If-Match` / `If-None-Match`) that serialise concurrent writers, so the\n  store works as a compare-and-swap primitive\n* Multipart uploads, including `UploadPartCopy` for server-side compose\n* Ranged and conditional reads, delimited listings, presigned URLs\n* Streaming uploads — bodies are never buffered in memory, and `aws-chunked` payloads have their\n  per-chunk signature chain verified\n* Correct S3 ETags (content MD5, compound form for multipart) rather than Nextcloud's internal\n  etag, which is too coarse to build a compare-and-swap on\n\nAuthentication is AWS Signature V4, via header or presigned URL. Each API key is scoped to exactly\none bucket and is either readonly or readwrite.\n\nVerified against [walgit](https://github.com/tobi/walgit)'s store contract suite, which exercises\ncompare-and-swap under 32-way concurrency, ranged reads, delimited listings and multipart round\ntrips.\n\n**Note:** every request passes through PHP and Nextcloud's storage layer. This is a convenient way\nto talk S3 to data you already keep in Nextcloud — not a replacement for a high-throughput object\nstore.",
     "homepage": "https://github.com/markuman/nextcloud-s3-api",
     "licenses": [
@@ -3680,9 +3700,9 @@
     ]
   },
   "savapage": {
-    "hash": "sha256-7TGo3K9UMdW3haHiUyjMMUf5RS1uC7uXrBCAHikz0VM=",
-    "url": "https://codeberg.org/Interlunium/nextcloud-savapage/releases/download/1.0.0/savapage-1.0.0.tar.gz",
-    "version": "1.0.0",
+    "hash": "sha256-DqhHrxxHFaBN77TKQ9eMoO4cxC7ebV3FdhjfDnDRrP4=",
+    "url": "https://codeberg.org/Interlunium/nextcloud-savapage/releases/download/1.1.0/savapage-1.1.0.tar.gz",
+    "version": "1.1.0",
     "description": "Allow user to select files to be sent to Savapage printer",
     "homepage": "",
     "licenses": [
@@ -3850,13 +3870,13 @@
     ]
   },
   "shillinq": {
-    "hash": "sha256-AnBKQ7mRSTCL1NhgYuEji8UbtaglvYynVz8e1xI4q2s=",
-    "url": "https://codeberg.org/Conduction/shillinq/releases/download/v0.2.0/shillinq-0.2.0.tar.gz",
-    "version": "0.2.0",
-    "description": "> ⚠️ **Active development — not for production use yet.** This app is under active development. Although it may carry a stable release status, **please do not use it in production environments before 12 June 2026.** See the [app page on conduction.nl](https://conduction.nl/apps/shillinq) for release planning and what this app does.\r\n\r\nComplete open-source business administration suite for freelancers, sole proprietors, SMBs, and corporations. Combines bookkeeping, invoicing, procurement, and contract management into one self-hosted.\r\n\r\n**Key Features**\r\n\r\n- **Vue 2 + Pinia frontend** — Modern reactive UI with state management\r\n- **OpenRegister integration** — Built-in support for the OpenRegister data layer\r\n- **Admin settings** — Pre-wired settings page with version info\r\n- **NL Design System ready** — CSS variables, WCAG AA, government theming\r\n- **Full quality pipeline** — PHPCS, PHPMD, Psalm, PHPStan, ESLint, Stylelint\r\n\r\nFree and open source under the EUPL-1.2 license.\r\n\r\n**Support:** For support, contact support@conduction.nl.",
+    "hash": "sha256-lzoXG7tYDiS7b4KmRmeq8obM52pi8CBoC4hFHO/uwJ0=",
+    "url": "https://github.com/ConductionNL/shillinq/releases/download/v0.4.0/shillinq-0.4.0.tar.gz",
+    "version": "0.4.0",
+    "description": "Complete open-source business administration suite for freelancers, sole proprietors, SMBs, and corporations. Combines bookkeeping, invoicing, procurement, and contract management into one self-hosted.\n\n**Key Features**\n\n- **Vue 2 + Pinia frontend** — Modern reactive UI with state management\n- **OpenRegister integration** — Built-in support for the OpenRegister data layer\n- **Admin settings** — Pre-wired settings page with version info\n- **NL Design System ready** — CSS variables, WCAG AA, government theming\n- **Full quality pipeline** — PHPCS, PHPMD, Psalm, PHPStan, ESLint, Stylelint\n\nFree and open source under the EUPL-1.2 license.\n\n**Support:** For support, contact support@conduction.nl.",
     "homepage": "https://github.com/ConductionNL/shillinq",
     "licenses": [
-      "agpl"
+      "EUPL-1.2"
     ]
   },
   "shopping_list": {
@@ -4160,9 +4180,9 @@
     ]
   },
   "tachyon": {
-    "hash": "sha256-P5+A0IF7YRlPkoiC+sovewpYiTeF66bXznp96LUHjEs=",
-    "url": "https://github.com/kimusan/Tachyon/releases/download/v4.1.0/tachyon-4.1.0-nextcloud.tar.gz",
-    "version": "4.1.0",
+    "hash": "sha256-a7s7iWzmO/JRAShLJP9076EkDhOjEB780n0NUJgdiBk=",
+    "url": "https://github.com/kimusan/Tachyon/releases/download/v4.2.0/tachyon-4.2.0-nextcloud.tar.gz",
+    "version": "4.2.0",
     "description": "**Lightweight & fast email client.**\n\n- **Dark mode**\n- **Responsive design**\n- **Full Sieve filtering support**\n- **Almost all IMAP features** including advanced searching\n- **Integration with Nextcloud Unified Search**\n- **Integration with other Nextcloud apps** (Contacts, Files and Calendar)\n- **Multiple mail accounts and identities**\n- **Send & receive OpenPGP encrypted/signed emails** (With full HTML support, ECC keys, or plain text with Mailvelope)\n- **Send & receive S/MIME encrypted/signed emails**\n- **Many security features** (Sodium encrypted passwords, Sec-Fetch, TOTP 2FA, DKIM, prevent tracking, etc.)\n- **Kolab integrations**\n\nAfter enabling in Nextcloud, go to Nextcloud admin panel, \"Additional settings\" and you will see a \"Tachyon webmail\" section.\nThere, click on the link to go to the Tachyon admin panel.",
     "homepage": "https://tachyonmail.app/",
     "licenses": [
@@ -4630,9 +4650,9 @@
     ]
   },
   "vereinsbuchhaltung": {
-    "hash": "sha256-lLte20aIp6DcHiIr5tiFsG+XFgKbs9B/O/NRTn5WtMg=",
-    "url": "https://github.com/AndiMb/nc_vereinsbuchhaltung/releases/download/v0.31.0/vereinsbuchhaltung-0.31.0.tar.gz",
-    "version": "0.31.0",
+    "hash": "sha256-LJnEJluqMTzcFABtgQTMuELRmZ6ZBpmlVeabKAJABBU=",
+    "url": "https://github.com/AndiMb/nc_vereinsbuchhaltung/releases/download/v0.31.1/vereinsbuchhaltung-0.31.1.tar.gz",
+    "version": "0.31.1",
     "description": "**Accounting for nonprofit clubs – fully within your own Nextcloud.**\n\nFor treasurers of small and medium-sized clubs who don't run separate\naccounting software and don't want their financial data in some provider's\ncloud. Your data stays wherever your Nextcloud is hosted.\n\nYou don't need to be an accountant: in **simple mode** you record an \"income\"\nor \"expense\" with amount, date and category – the app handles double-entry\nbookkeeping in the background. If you'd rather set debit and credit yourself,\nswitch to expert mode.\n\n**[▶ The app in two minutes (video, German)](https://youtu.be/eaF-tAQ_OOM)** –\nimport bank statements, assign transactions, evaluate and produce the annual\ntreasurer's report.\n\n## The workflow\n\n1. **Import a bank statement** – CSV-CAMT, CAMT.053 (XML) or MT940 from your\n   online banking; the app detects the format from the content, the file\n   extension doesn't matter. Transactions already present are recognized and\n   skipped, even across formats. A watch folder can even pick up new\n   statements on its own, without a manual import.\n2. **Assign transactions** – every bank entry gets a counter-account. Rules\n   handle recurring assignments (rent, membership fees, charges)\n   automatically.\n3. **Attach receipts** – photo or PDF, either in a Nextcloud folder of your\n   choice or stored inside the app.\n4. **Evaluate and report** – treasurer's report for the general assembly,\n   short report for board meetings, exports for the audit.\n\n## What the app can do\n\n- **Double-entry bookkeeping** with a freely definable chart of accounts; a\n  standard chart of accounts for clubs is included\n- **Treasurer's report** and **short report** as print-ready pages (Ctrl+P),\n  optionally with your club's logo and accent color\n- **Financial plan** with plan/actual comparison and freezable plan snapshots\n- **Nonprofit status:** spheres following the German four-sphere model\n  (ideational, asset management, purpose-related business, commercial\n  business) and reserves per § 62 AO\n- **Membership fees & SEPA direct debit** (optional, can be enabled as\n  needed): member management with CSV import, direct debit mandates, fees\n  with individual payment frequency, SEPA batch collection as a pain.008\n  file for your bank – its own tab in the main navigation; if you don't need\n  the module, you never see it\n- **Open items** – keep track of unpaid receivables with due dates\n- **Multi-year trend** and result per reporting group\n- **Year-end closing:** a finalized fiscal year can no longer be changed;\n  continuous, gap-free posting numbers per year\n- **Change log:** who changed what, and when\n- **Roles:** administrator, bookkeeper and auditor – the audit role gets\n  read access to everything without being able to change anything\n- **On the go:** dedicated view for smartphones, photograph receipts\n  directly\n- **Annual audit:** all receipts for a year as a ZIP, print-ready quick\n  guide for the auditor, completeness check of posting numbers\n\nA **sample club** can be created with one click to try everything out\nrisk-free, and removed again with another click.\n\nExisting data from \"zero Buchhaltung\" can be taken over via its xbuc files.\n\nFull manual in German and English: see documentation.",
     "homepage": "https://github.com/AndiMb/nc_vereinsbuchhaltung",
     "licenses": [
@@ -4850,9 +4870,9 @@
     ]
   },
   "zeitwerk": {
-    "hash": "sha256-RUSMIG/Qmeem4fPYPXul6fHfCIVeUg6f5DSt4bK2tYU=",
-    "url": "https://github.com/lamanese/worktime/releases/download/v0.18.1/zeitwerk-0.18.1.tar.gz",
-    "version": "0.18.1",
+    "hash": "sha256-DwABDfdd9/K1Ftr7p9IyOGuSl7FQOayjROvUZjCl6RY=",
+    "url": "https://github.com/lamanese/worktime/releases/download/v0.18.2/zeitwerk-0.18.2.tar.gz",
+    "version": "0.18.2",
     "description": "# Zeitwerk - Arbeitszeiterfassung für Nextcloud\n\nGesetzeskonforme Arbeitszeiterfassung für kleine Unternehmen in Deutschland und der Schweiz.\n\nEigenständig gepflegter Fork der App WorkTime ([cpcMomentum/worktime](https://github.com/cpcMomentum/worktime), Original von Axel Deffner), erweitert um Aussendienst-Spesen, Extern-Kilometer und persönliche Standard-Vorgaben.\n\n## Erfassung & Berechnung\n\n- **Zeiterfassung** mit Start, Ende und Pause\n- **Automatische Pausenberechnung** nach §4 ArbZG\n- **Überstundenkonto** mit Soll/Ist-Vergleich und Eintrittsdatum-Berücksichtigung\n- **Projektbezogene Erfassung** für bessere Auswertung\n- **Persönliche Standard-Vorgaben**: Standard-Arbeitszeiten sowie — nach Admin-Freigabe — Standard-Projekt und Standard-Beschreibung als Vorbelegung neuer Einträge\n- **Feiertage** automatisch für 16 deutsche Bundesländer und 26 Schweizer Kantone\n\n## Spesen & Kilometer\n\n- **Aussendienst-Spesen**: konfigurierbare Tagespauschale, sobald die Arbeitszeit auf Aussendienst-Projekten eine Stundenschwelle erreicht\n- **Extern-Kilometer**: tageweise Kilometer-Erfassung an externen Tagen (Extern-Projekt oder externer Abwesenheitstyp) mit konfigurierbarem Satz\n- **Auswertung inklusive**: Spesen und Kilometer in Monatsübersicht, Team, Projekt-Auswertung sowie in CSV- und PDF-Exporten\n\n## Urlaub & Abwesenheiten\n\n- **Urlaubsverwaltung** mit Quoten-Validierung und Resturlaub-Anzeige\n- **Abwesenheiten**: Urlaub, Krankheit, Sonderurlaub, Freizeitausgleich\n- **Jahresübertrag** für Überstunden und Resturlaub vom Vorjahr — automatisch und manuell korrigierbar\n\n## Reporting & Team\n\n- **Monatsübersicht** mit PDF-Export (Arbeitszeitnachweis, auch über frei wählbare Zeiträume)\n- **Projekt-Auswertung** für Admin/HR mit CSV- und PDF-Export\n- **Team-Übersicht** für Vorgesetzte und HR-Manager\n- **Jahresübersicht** mit allen Mitarbeitern und Übertragswerten\n- **Audit-Log** für vollständiges Änderungsprotokoll (Admin/HR)\n\n## Workflow & Genehmigung\n\n- **Rollenbasierte Berechtigungen** (Admin, HR-Manager, Supervisor, Employee)\n- **Genehmigungsworkflow** für Abwesenheiten mit eingebetteter Zeitanzeige\n- **Kontextuelle Hilfe** mit Info-Icons an allen relevanten Stellen\n\n## Internationalisierung\n\n- **Mehrsprachig**: Deutsch, Englisch und Tschechisch\n\nBehalten Sie den Überblick über Arbeitszeiten, Überstunden und Urlaub.",
     "homepage": "",
     "licenses": [
