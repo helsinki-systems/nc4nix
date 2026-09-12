@@ -829,6 +829,16 @@
       "agpl"
     ]
   },
+  "decidiq": {
+    "hash": "sha256-iwI7BC99Jz6a9Ogkp0zk7p8L/nhXFR5pHYKmrwKzu/c=",
+    "url": "https://github.com/ConductionNL/decidiq/releases/download/v1.2.2/decidiq-1.2.2.tar.gz",
+    "version": "1.2.2",
+    "description": "Decidiq manages meetings, agendas, motions, amendments, voting, minutes, and decision tracking with configurable workflows per organization type. It serves 5 governance domains: legislative/democratic bodies, associations/NGOs, corporate governance, corporate operations, and citizen participation.\n\n**Key Features**\n\n- **Meetings & agendas** — Scheduling, agenda items, and per-item dossiers, all as typed OpenRegister objects\n- **Motions & amendments** — Submit, link to an agenda item, and track through a decision\n- **Voting, including proxy voting** — In person, electronic, or by proxy for an absent member; every vote and abstention logged\n- **eIDAS-qualified signatures (QES)** — Minutes and written-procedure resolutions signed and verified under eIDAS Article 25(2), via the OpenConnector e-sign connector\n- **Governance reports & regulator export** — Compliance-ready reporting and export for supervisory bodies\n- **Action items & decisions** — Tracked to completion with a tamper-evident audit trail\n- **AI chat companion (MCP)** — Meetings, action items, and decisions exposed as chat tools under the caller's own role\n- **NL Design System ready** — CSS variables, WCAG AA, government theming\n\nFree and open source under the EUPL-1.2 license.\n\n**Support:** For support, contact support@conduction.nl.",
+    "homepage": "https://github.com/ConductionNL/decidiq",
+    "licenses": [
+      "EUPL-1.2"
+    ]
+  },
   "deck": {
     "hash": "sha256-IxFC2nLtam9010MwQx8/k3DnJxTjDGe4ulx286VUUnk=",
     "url": "https://github.com/nextcloud-releases/deck/releases/download/v1.16.8/deck-v1.16.8.tar.gz",
@@ -1610,9 +1620,9 @@
     ]
   },
   "fulltextsearch_postgresql": {
-    "hash": "sha256-pDRtC+umyFK7d+CEGMRkv6ePvrcjM9TmWlC/M/7mB04=",
-    "url": "https://github.com/Alain-L/fulltextsearch_postgresql/releases/download/v0.1.1/fulltextsearch_postgresql-0.1.1.tar.gz",
-    "version": "0.1.1",
+    "hash": "sha256-fStb1w4NW6C7Z1P3e/znUoUQ7DLlqs0eCEcUSqEPSd8=",
+    "url": "https://github.com/Alain-L/fulltextsearch_postgresql/releases/download/v0.1.2/fulltextsearch_postgresql-0.1.2.tar.gz",
+    "version": "0.1.2",
     "description": "This platform stores the Full text search index in PostgreSQL, the database your Nextcloud\nalready uses, with no other service to install.\n\n- Language-aware indexing, with an accent-folding variant so \"numerisation\" finds\n  \"numérisation\". The app picks up your instance language, and can combine several.\n- The app reads PDF and office formats itself (docx, xlsx, pptx, odt, ods, odp), with no\n  external extraction service.\n- Permissions are indexed with the content: a search only ever returns documents the person\n  running it can access.\n\nRequires the Full text search app (fulltextsearch) and a content provider, usually the one for\nfiles (files_fulltextsearch). The unaccent and pg_trgm PostgreSQL extensions install themselves\nif the database privileges allow; otherwise search stays accent-sensitive until an\nadministrator creates them.",
     "homepage": "https://github.com/Alain-L/fulltextsearch_postgresql",
     "licenses": [
@@ -2370,9 +2380,9 @@
     ]
   },
   "integriq": {
-    "hash": "sha256-M8PlRgaeV8CCXQQ2C+qEoLjKmroTSvAOiWVQn4pB/vo=",
-    "url": "https://github.com/ConductionNL/integriq/releases/download/v0.4.2/integriq-0.4.2.tar.gz",
-    "version": "0.4.2",
+    "hash": "sha256-39MARxbA3oxSE0iWS4xZ5QylULUjXlBAiA5EWvUKVnI=",
+    "url": "https://github.com/ConductionNL/integriq/releases/download/v0.4.4/integriq-0.4.4.tar.gz",
+    "version": "0.4.4",
     "description": "Integriq is the integration layer for Nextcloud. It connects REST and SOAP sources — including Dutch government standards such as PDOK, StUF-ZKN/BG, DSO/Omgevingsloket, and Berichtenbox — to typed OpenRegister stores.\n\n- 🔌 Configure sources, endpoints and consumers with shared authentication (API key, OAuth, JWT)\n- 🗺️ Map and transform payloads with the built-in mapping engine\n- ⏱️ Schedule synchronization jobs with webhook, cron, or manual triggers\n- ☁️ Dispatch and receive CloudEvents with dead-letter capture and one-click replay\n- 📋 Apply business rules to endpoint traffic and keep a per-object audit trail",
     "homepage": "https://github.com/ConductionNL/integriq",
     "licenses": [
@@ -2470,9 +2480,9 @@
     ]
   },
   "kanso": {
-    "hash": "sha256-8u25BtHY0gUMvYZOw6e6zyUEuzpLNlugRHT6WZDGCDg=",
-    "url": "https://github.com/aktasfatih/kanso/releases/download/v0.29.0/kanso.tar.gz",
-    "version": "0.29.0",
+    "hash": "sha256-t0xZTSWnv81MjMJ3EjJjykGfxIK2zwJpZVQxneqFdVo=",
+    "url": "https://github.com/aktasfatih/kanso/releases/download/v0.30.0/kanso.tar.gz",
+    "version": "0.30.0",
     "description": "Kanso is a kanban board app for Nextcloud, built for speed. Boards, stacks and\ncards with instant drag & drop, optimistic updates and payloads sized for large\nboards (2,000+ cards). Realtime updates via notify_push, with a polling fallback.\n\nRich cards with markdown, labels, due dates, assignees, priorities, checklists,\nparent/child cards and threaded comments with @mentions and watchers. Board\nsharing with per-user and per-group access control.\n\nA review workflow (request review, approve / request changes, customizable\nreview types, and an optional done-gate). A cross-board My Work hub (my tasks,\nreviews, inbox), cross-board Projects, and per-board and per-project analytics\n(velocity, cycle time, throughput). Board, List and Timeline (Gantt) views.\n\nRecurring cards on RRULE schedules, auto-archive rules, WIP limits and stack\nroles, a command palette with full-text search, trash with restore, GitHub and\nForgejo links and webhooks, and one-click Import from Deck.",
     "homepage": "https://github.com/aktasfatih/kanso",
     "licenses": [
@@ -2480,9 +2490,9 @@
     ]
   },
   "keepiq": {
-    "hash": "sha256-MvBaGDtrNznUq49mO7mluqPvm4NQAhmZ7Lsp50HWt1U=",
-    "url": "https://github.com/ConductionNL/keepiq/releases/download/v0.3.0/keepiq-0.3.0.tar.gz",
-    "version": "0.3.0",
+    "hash": "sha256-KHIYs8RuLIOevNvZrHUJGuiedmfbJN34eV2jWzu0U9k=",
+    "url": "https://github.com/ConductionNL/keepiq/releases/download/v0.3.2/keepiq-0.3.2.tar.gz",
+    "version": "0.3.2",
     "description": "A zero-knowledge encrypted secrets manager for Nextcloud — a personal vault for users and a write-without-read credential store for applications, using end-to-end RSA-4096/AES-256 encryption backed by a private Certificate Authority. Your master password is never stored: not even the server administrator can read your secrets.\n\n**Key Features**\n\n- **End-to-end encryption** — RSA-4096 + AES-256 private-key protection with a private Certificate Authority (root + intermediate, auto-renewal)\n- **Personal vault** — folder organisation, fuzzy search, Nextcloud unified search integration\n- **Secret sharing** — share with Nextcloud users and groups, password-protected link sharing, secret requests (write-without-read), temporary ownership delegation\n- **Application management** — register applications with CSR-based onboarding, write-without-read application secrets, OAuth-style application tokens (RFC 7523 JWT Bearer)\n- **Admin settings** — CA health monitoring, password policies, application approval queue\n- **NL Design System ready** — CSS variables, WCAG AA, government theming\n\nFree and open source under the EUPL-1.2 license.\n\n**Support:** For support, contact support@conduction.nl.",
     "homepage": "https://github.com/ConductionNL/keepiq",
     "licenses": [
@@ -3040,10 +3050,10 @@
     ]
   },
   "nextsnapmail": {
-    "hash": "sha256-7i9jbVT8tW+rpnxh7dIluQTaYqomCzE+4iMdRICh+es=",
-    "url": "https://github.com/oe79/NextSnapMail/releases/download/v0.1.10/nextsnapmail-0.1.10-nextcloud.tar.gz",
-    "version": "0.1.10",
-    "description": "**A SnappyMail fork focused on integration with Nextcloud.**\n\nNextSnapMail is an independent community fork of SnappyMail for the Nextcloud\nuse case. It is not affiliated with, endorsed by, or sponsored by Nextcloud GmbH.\n\nNextSnapMail is under active development and provided as-is. Please test it\ncarefully before using it in production. Installation and use are at your own\nrisk.\n\n**Lightweight & fast email client.**\n\n- **Dark mode**\n- **Responsive design**\n- **Full Sieve filtering support**\n- **Almost all IMAP features** including advanced searching\n- **Integration with Nextcloud Unified Search**\n- **Integration with other Nextcloud apps** (Contacts, Files and Calendar)\n- **Multiple mail accounts and identities**\n- **Admin-assisted import from existing SnappyMail installations**, including\n  stored mailbox credentials, additional accounts and app data\n- **Admin reset option** to remove NextSnapMail account settings and recreate a\n  clean NextSnapMail data folder when troubleshooting is needed\n- **Send & receive OpenPGP encrypted/signed emails** (With full HTML support, ECC keys, or plain text with Mailvelope)\n- **Send & receive S/MIME encrypted/signed emails**\n- **Many security features** (Sodium encrypted passwords, Sec-Fetch, TOTP 2FA, DKIM, prevent tracking, etc.)\n- **Kolab integrations**\n\nAfter enabling the app, administrators can configure the integration in the\ndedicated \"NextSnapMail\" section of the Nextcloud administration settings.\nUsers can add their initial mailbox credentials in the dedicated\n\"NextSnapMail\" section of their personal settings.\n\nAdministrators can also use the NextSnapMail administration settings to import\ndata from an existing SnappyMail installation or reset NextSnapMail data for\ntroubleshooting.",
+    "hash": "sha256-dtQTx85I/fgR0nyVHr3ruGg376t6UIZJWTreTH2U2+c=",
+    "url": "https://github.com/oe79/NextSnapMail/releases/download/v0.1.11/nextsnapmail-0.1.11-nextcloud.tar.gz",
+    "version": "0.1.11",
+    "description": "**A SnappyMail fork focused on integration with Nextcloud.**\n\nNextSnapMail is an independent community fork of SnappyMail for the Nextcloud\nuse case. It is not affiliated with, endorsed by, or sponsored by Nextcloud GmbH.\n\nNextSnapMail is under active development and provided as-is. Please test it\ncarefully before using it in production. Installation and use are at your own\nrisk.\n\n**Lightweight & fast email client.**\n\n- **Dark mode**\n- **Responsive design**\n- **Full Sieve filtering support**\n- **Almost all IMAP features** including advanced searching\n- **Integration with Nextcloud Unified Search**\n- **Integration with other Nextcloud apps** (Contacts, Files and Calendar)\n- **Multiple mail accounts and identities**\n- **Integrated Gmail / Google OAuth2 login**, including main account setup from\n  the personal settings and additional Gmail accounts from the webmail account\n  menu\n- **Admin-assisted import from existing SnappyMail installations**, including\n  stored mailbox credentials, additional accounts and app data\n- **Admin reset option** to remove NextSnapMail account settings and recreate a\n  clean NextSnapMail data folder when troubleshooting is needed\n- **Send & receive OpenPGP encrypted/signed emails** (With full HTML support, ECC keys, or plain text with Mailvelope)\n- **Send & receive S/MIME encrypted/signed emails**\n- **Many security features** (Sodium encrypted passwords, Sec-Fetch, TOTP 2FA, DKIM, prevent tracking, etc.)\n- **Kolab integrations**\n\nAfter enabling the app, administrators can configure the integration in the\ndedicated \"NextSnapMail\" section of the Nextcloud administration settings.\nUsers can add their initial mailbox credentials in the dedicated\n\"NextSnapMail\" section of their personal settings.\n\nAdministrators can also use the NextSnapMail administration settings to import\ndata from an existing SnappyMail installation or reset NextSnapMail data for\ntroubleshooting.",
     "homepage": "https://github.com/oe79/NextSnapMail",
     "licenses": [
       "AGPL-3.0-only"
@@ -3440,9 +3450,9 @@
     ]
   },
   "pipelinq": {
-    "hash": "sha256-/HFP7sOESYf6DYCtlDIjxJ7ODwH8v6EoG/AoF1BOg1A=",
-    "url": "https://github.com/ConductionNL/pipelinq/releases/download/v0.5.0/pipelinq-0.5.0.tar.gz",
-    "version": "0.5.0",
+    "hash": "sha256-u/aqpEPOz2k8IJILqhs6hoGuAF2yCOjfYtgooPX3yyk=",
+    "url": "https://github.com/ConductionNL/pipelinq/releases/download/v0.5.1/pipelinq-0.5.1.tar.gz",
+    "version": "0.5.1",
     "description": "Pipelinq is a lightweight CRM for Nextcloud. Manage clients, track leads through visual pipelines, handle incoming requests, and keep a complete history of every interaction — all without leaving your Nextcloud workspace.\n\n**Key Features**\n\n- **Client management** — Track persons and organizations with contact details, notes, and full history\n- **Contact persons** — Link individuals to organizations with roles like sales manager or project lead\n- **Lead pipeline** — Drag-and-drop kanban board with configurable stages, values, and close probabilities\n- **Request intake** — Capture incoming requests before they become formal cases\n- **Contact moments** — Log calls, emails, visits, and other interactions with clients\n- **My Work queue** — Personal overview of your assigned leads, requests, and follow-ups\n- **Nextcloud Contacts sync** — Two-way sync with the native Contacts app via CardDAV\n- **Duplicate detection** — Provided via OpenRegister master-data management, flagging clients with matching names or emails\n- **Import and export** — vCard contact import and export via Nextcloud Contacts, plus scheduled CSV data exports\n- **Activity and notifications** — Stay updated on assignments, stage changes, and new notes\n\nPairs naturally with [Procest](https://apps.nextcloud.com/apps/procest) for case management. A direct request-to-case handoff bridge is in development (openspec change `semantic-handoff-emit`).\n\n**Requires:** [OpenRegister](https://apps.nextcloud.com/apps/openregister) (install from the [Nextcloud App Store](https://apps.nextcloud.com/apps/openregister)).\n\nFree and open source under the EUPL-1.2 license.\n\n**Support:** For support, contact support@conduction.nl. For a Service Level Agreement (SLA), contact sales@conduction.nl.",
     "homepage": "https://github.com/ConductionNL/pipelinq",
     "licenses": [
@@ -3640,9 +3650,9 @@
     ]
   },
   "reinhardterp": {
-    "hash": "sha256-i87bK6aBCvW283Kc69KzKIwLJwIMqR40Gb6WpxqhsoE=",
-    "url": "https://github.com/SchreinereiReinhardt/NextERP/releases/download/v2.4.20/Betrio-2.4.20-source.tar.gz",
-    "version": "2.4.20",
+    "hash": "sha256-WyMcxvaXC1e6u6kYvdssfDzz7i2T0ml5IzgJ5YtViwo=",
+    "url": "https://github.com/SchreinereiReinhardt/NextERP/releases/download/v2.4.25/Betrio-2.4.25-source.tar.gz",
+    "version": "2.4.25",
     "description": "Betrio is an ERP and project management solution specifically designed for trades and craft businesses and integrated directly into Nextcloud.\n\nThe app combines commercial and operational workflows within the existing Nextcloud environment – from customers and projects to quotations, orders, invoices, work reports, time tracking, documents, materials, appointments and mobile on-site processes.\n\nFeatures:\n\n- Customer management and CRM\n- Project management and digital project files\n- Quotations\n- Orders\n- Invoices\n- Progress invoices\n- Final invoices\n- Credit notes\n- Payment status\n- Outstanding invoices\n- Payments\n- PDF invoices\n- XRechnung\n- Quotation → order → invoice workflow\n- Work reports with signature and PDF\n- Time tracking\n- Time evaluation\n- Material management\n- Inventory management\n- Documents\n- Photos\n- Project files\n- Appointments\n- Project timeline\n- Cost and project overviews\n- Mobile smartphone interface\n- Camera and barcode functions\n- Integration with Nextcloud Files\n\nA separate Android app, “Betrio Mobile”, is also available in the Google Play Store.\n\nThe invoicing functionality is already usable and is being continuously expanded. In particular, the commercial workflows and connections between quotations, orders, progress and final invoices, payments, credit notes, work reports, time entries and materials are being further developed.\n\nXRechnung is already integrated and continues to be under development and validation.\n\nFurther accounting and data exchange functions, including DATEV, are planned.",
     "homepage": "https://www.schreinerei-reinhardt.de",
     "licenses": [
@@ -3650,9 +3660,9 @@
     ]
   },
   "repod": {
-    "hash": "sha256-xYLY9OiCpsbXwvh39F1VNSQxpB5JtPXQGKJspAo+VqE=",
-    "url": "https://git.crystalyx.net/Xefir/repod/releases/download/4.3.1/repod.tar.gz",
-    "version": "4.3.1",
+    "hash": "sha256-PIgadPKon95tkr+Rrnr2MJUQ6IxqKZHpltdxLLp9aUY=",
+    "url": "https://git.crystalyx.net/Xefir/repod/releases/download/4.3.2/repod.tar.gz",
+    "version": "4.3.2",
     "description": "## Features\n- 🔍 Browse and subscribe huge collection of podcasts\n- 🔊 Listen to episodes directly in Nextcloud\n- 🌐 Sync your activity with [AntennaPod](https://antennapod.org/) and [other apps](https://git.crystalyx.net/Xefir/repod#clients-supporting-sync-of-gpoddersync)\n- 📱 Mobile friendly interface\n- 📡 Import and export your subscriptions\n- ➡️ Full features comparison [here](https://git.crystalyx.net/Xefir/repod#comparaison-with-similar-apps-for-nextcloud)\n\n## Requirements\nYou need to have [GPodderSync](https://apps.nextcloud.com/apps/gpoddersync) installed to use this app!",
     "homepage": "https://git.crystalyx.net/Xefir/repod",
     "licenses": [
@@ -3970,9 +3980,9 @@
     ]
   },
   "shillinq": {
-    "hash": "sha256-lzoXG7tYDiS7b4KmRmeq8obM52pi8CBoC4hFHO/uwJ0=",
-    "url": "https://github.com/ConductionNL/shillinq/releases/download/v0.4.0/shillinq-0.4.0.tar.gz",
-    "version": "0.4.0",
+    "hash": "sha256-JDGZ+JGBryi0e+wTXHkiU02sigxVuRaeQKlCvnpgR7M=",
+    "url": "https://github.com/ConductionNL/shillinq/releases/download/v0.5.0/shillinq-0.5.0.tar.gz",
+    "version": "0.5.0",
     "description": "Complete open-source business administration suite for freelancers, sole proprietors, SMBs, and corporations. Combines bookkeeping, invoicing, procurement, and contract management into one self-hosted.\n\n**Key Features**\n\n- **Vue 2 + Pinia frontend** — Modern reactive UI with state management\n- **OpenRegister integration** — Built-in support for the OpenRegister data layer\n- **Admin settings** — Pre-wired settings page with version info\n- **NL Design System ready** — CSS variables, WCAG AA, government theming\n- **Full quality pipeline** — PHPCS, PHPMD, Psalm, PHPStan, ESLint, Stylelint\n\nFree and open source under the EUPL-1.2 license.\n\n**Support:** For support, contact support@conduction.nl.",
     "homepage": "https://github.com/ConductionNL/shillinq",
     "licenses": [
@@ -3980,9 +3990,9 @@
     ]
   },
   "shopping_list": {
-    "hash": "sha256-GrJB3hdWmhCWleiQFvzAlI/ZFRAE81PAJMjEgrrGsjo=",
-    "url": "https://github.com/otherworld-dev/Shopping-List/releases/download/v1.7.1/shopping_list.tar.gz",
-    "version": "1.7.1",
+    "hash": "sha256-WdQHSsQmkL2P3/aksksCDc3vRHCHA2P9ZjktXtE8HRg=",
+    "url": "https://github.com/otherworld-dev/Shopping-List/releases/download/v1.8.0/shopping_list.tar.gz",
+    "version": "1.8.0",
     "description": "Manage shared shopping lists between household members. Create multiple lists, categorize items by shop area, tag items, and collaborate in real-time.\n\nOfficial website: [shoppinglist.otherworld.dev](https://shoppinglist.otherworld.dev/)\n\nOfficial companion Android app: [Google Play](https://play.google.com/store/apps/details?id=dev.otherworld.shoppinglist)",
     "homepage": "https://shoppinglist.otherworld.dev/",
     "licenses": [
@@ -4360,9 +4370,9 @@
     ]
   },
   "thematiq": {
-    "hash": "sha256-Qc0PtthqCNvTHfYH8Uz2/Iuz0ZcodVzWlpqn/1DTLAw=",
-    "url": "https://github.com/ConductionNL/thematiq/releases/download/v1.2.0/thematiq-1.2.0.tar.gz",
-    "version": "1.2.0",
+    "hash": "sha256-l/yCmyWMFdAC78KjFxZ3D9i1oydqkGVMO1mDHUGO8oY=",
+    "url": "https://github.com/ConductionNL/thematiq/releases/download/v1.2.2/thematiq-1.2.2.tar.gz",
+    "version": "1.2.2",
     "description": "This app allows you to apply NL Design System design tokens to your Nextcloud instance.\n\nIt ships 43 token sets covering the Dutch national government (Rijkshuisstijl), the\nlarge-city design systems (Utrecht, Amsterdam, Den Haag, Rotterdam), a broad set of\ncommunity-maintained municipality and organization brands, and La Suite numérique\n(Cunningham design system) for European sovereign-workplace (MinBZK/mijn-bureau EDIC)\nbundles. Configure which token set to use in the admin settings.\n\nFira Sans and Inter (both SIL Open Font License 1.1) are bundled and self-hosted — no\nexternal CDN — so the theme works inside Nextcloud's default Content-Security-Policy and\non air-gapped government instances.\n\nFree and open source under the EUPL-1.2 license.\nGratis en open source onder de EUPL-1.2 licentie.",
     "homepage": "https://github.com/ConductionNL/thematiq",
     "licenses": [
@@ -4580,8 +4590,8 @@
     ]
   },
   "uniteos_notifier": {
-    "hash": "sha256-vaWgvCrCGCfm5ygADrXCKR/nRTU9DFar/FQZg59ajus=",
-    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/1.0.6/uniteos_notifier.tar.gz",
+    "hash": "sha256-yoNEdBloqNFtXTZsR4EN1PoTlGRjQKObaZ2B+qSFp4g=",
+    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/main/uniteos_notifier.tar.gz",
     "version": "1.0.6",
     "description": "This app allows forwarding Nextcloud events for a deeper integration into UniteOS developed by wechange eG by presenting a selected set of events as user notifications.",
     "homepage": "",
@@ -4760,9 +4770,9 @@
     ]
   },
   "versioniq": {
-    "hash": "sha256-HkDcGyFLbET34haZxMSpX8zAPS5VP9gT7rzGe0T2OR4=",
-    "url": "https://github.com/ConductionNL/versioniq/releases/download/v1.5.0/versioniq-1.5.0.tar.gz",
-    "version": "1.5.0",
+    "hash": "sha256-vigHFYUlbIH56k4PQTTo2G4c3YRn0zsNeX/bdqf+ssU=",
+    "url": "https://github.com/ConductionNL/versioniq/releases/download/v1.5.2/versioniq-1.5.2.tar.gz",
+    "version": "1.5.2",
     "description": "> ⚠️ **Active development — not for production use yet.** This app is under active development. Although it may carry a stable release status, **please do not use it in production environments before 12 June 2026.** See [conduction.nl/apps](https://conduction.nl/apps) for release planning and what this app does.\n\nVersioniq gives Nextcloud administrators the ability to roll back apps to previous versions or install specific newer versions. Essential for debugging, testing compatibility, and recovering from broken updates.",
     "homepage": "",
     "licenses": [
@@ -4920,9 +4930,9 @@
     ]
   },
   "worktimepunch": {
-    "hash": "sha256-3xl0hsb0Nxu7jRNpii29KPrUYO1KQ53g4kd2xw7NKmU=",
-    "url": "https://github.com/Bacaloo/WorkTimePunch/releases/download/v1.1.5/worktimepunch-v1.1.5.tar.gz",
-    "version": "1.1.5",
+    "hash": "sha256-9aiW8QBuE1LEm4VuSawdPYxekQ5Mil+PekwZIrTwspw=",
+    "url": "https://github.com/Bacaloo/WorkTimePunch/releases/download/v1.1.6/worktimepunch-v1.1.6.tar.gz",
+    "version": "1.1.6",
     "description": "Small companion app for WorkTime with guarded activation and Nextcloud top-bar controls.",
     "homepage": "https://github.com/Bacaloo/WorkTimePunch",
     "licenses": [
