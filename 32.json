@@ -53,7 +53,7 @@
     "hash": "sha256-1psrOg8jkVHHfHuskSzNWBILsDru/c7bZ0tjSzCM9Nk=",
     "url": "https://github.com/elgorro/aiquila/releases/download/nc-v0.2.10/aiquila.tar.gz",
     "version": "0.2.10",
-    "description": "**AIquila** connects your [Nextcloud](https://nextcloud.com) with [Claude AI](https://www.anthropic.com/claude) — private, self-hosted, and under your control.\n\n### Nextcloud App\n\n- **Chat** — Converse with Claude about your files and documents\n- **Summarize** — Generate concise summaries of any document\n- **Create & Edit** — Draft, rewrite, and refine content with AI assistance\n- **Text Tools** — Spellcheck, rephrase, and improve your writing\n\n### MCP Server\n\nAIquila includes a [Model Context Protocol](https://modelcontextprotocol.io) server with 100+ tools that gives Claude Desktop, Claude Code, Claude.ai, and the Claude mobile app direct access to your Nextcloud:\n\n- **Files** — Browse, read, write, search, and share\n- **Calendar & Tasks** — View, create, and manage events and to-dos\n- **Contacts & Mail** — Read and manage address books, accounts, and messages\n- **Notes & Recipes** — Create and edit Markdown notes and recipes\n- **Bookmarks & Maps** — Manage bookmarks, GPS tracks, favorites, and photos\n\n### Resources\n\n- [Documentation](https://github.com/elgorro/aiquila/blob/main/docs/README.md)\n- [Source Code](https://github.com/elgorro/aiquila)\n- [Report Issues](https://github.com/elgorro/aiquila/issues)\n- [Discussions](https://github.com/elgorro/aiquila/discussions)\n\n---\n\nMade possible by [Claude](https://www.anthropic.com/claude) from [Anthropic](https://www.anthropic.com) and the [Nextcloud](https://nextcloud.com) open-source community.",
+    "description": "**AIquila** brings AI into your [Nextcloud](https://nextcloud.com) — private, self-hosted, and under your control. You choose which AI provider processes your data, including models running entirely on your own hardware.\n\n### Nextcloud App\n\n- **Chat** — Converse with an AI assistant about your files and documents\n- **Projects** — Scope a conversation to selected folders, so the assistant only sees what you choose\n- **Coworkers** — Save repeatable AI jobs and run them on demand or on a schedule\n- **Summarise & rewrite** — Condense, draft, rephrase and proofread text\n- **Model picker** — Switch provider and model per conversation\n- **Usage metrics** — Token and conversation counters exported via OpenMetrics\n\n### Choose your AI provider\n\nAdmins enable the providers they want, and can restrict them per user or group:\n\n- **Claude (Anthropic)** — The default, and the most deeply integrated: vision, thinking budgets, native MCP connector, and PDF handling with citations.\n- **Hetzner Inference** — OpenAI-compatible API from the German provider Hetzner. Currently an experimental service, free while experimental; Hetzner states it does not store request and response content.\n- **Mistral** — French provider, also supporting the native MCP connector. EU-only processing is available through Mistral's regional inference endpoints.\n- **Local model** — Ollama, LM Studio or llama.cpp on your own hardware. Nothing leaves your infrastructure.\n- **DeepSeek** — OpenAI-compatible API.\n\nAPI keys are stored encrypted, and base URLs are admin-only settings. Provider choice\napplies to chat and to the Nextcloud Assistant integrations alike. Assistant actions\nthat send images need a vision-capable provider.\n\n### MCP Server\n\nAIquila includes a [Model Context Protocol](https://modelcontextprotocol.io) server with 311 tools that gives any MCP client — Claude Desktop, Claude Code, Claude.ai and the Claude mobile app, Cursor, VS Code and others — direct access to your Nextcloud:\n\n- **Files** — Browse, read, write, search, and share\n- **Calendar & Tasks** — View, create, and manage events and to-dos\n- **Contacts & Mail** — Read and manage address books, accounts, and messages\n- **Notes & Recipes** — Create and edit Markdown notes and recipes\n- **Bookmarks & Maps** — Manage bookmarks, GPS tracks, favourites, and photos\n\n### Resources\n\n- [Documentation](https://github.com/elgorro/aiquila/blob/main/docs/README.md)\n- [Source Code](https://github.com/elgorro/aiquila)\n- [Report Issues](https://github.com/elgorro/aiquila/issues)\n- [Discussions](https://github.com/elgorro/aiquila/discussions)\n\n---\n\nBuilt on the [Nextcloud](https://nextcloud.com) open-source community, the [Model Context Protocol](https://modelcontextprotocol.io), and the open and commercial AI providers listed above.",
     "homepage": "https://github.com/elgorro/aiquila",
     "licenses": [
       "AGPL-3.0-or-later"
@@ -190,9 +190,9 @@
     ]
   },
   "arbeitszeitcheck": {
-    "hash": "sha256-qdRDbANgkwgiElPb7eXUUUsC6rQlS3r3hc9peAD4CCw=",
-    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-arbeitszeitcheck/releases/download/v1.7.2/arbeitszeitcheck-1.7.2.tar.gz",
-    "version": "1.7.2",
+    "hash": "sha256-3NRfGG+Di+9y8ZhQnrzOqrmBWgrWXfu3YQoSTtwJBrE=",
+    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-arbeitszeitcheck/releases/download/v1.7.3/arbeitszeitcheck-1.7.3.tar.gz",
+    "version": "1.7.3",
     "description": "# Clock in. Stay within the rules you set.\n\nArbeitszeitCheck records clock-in, clock-out and breaks on the Nextcloud you already host. Pick a country profile for Germany (ArbZG), Austria (AZG/ARG) or Switzerland (ArG), match holiday regions, approve absences, run reports (including DATEV) and keep an audit log.\n\nAlso listed as **TimeGuard** in some App Store searches.\n\n**Free web app** (AGPL-3.0-or-later). Companion apps: https://nextcloud.software-by-design.de/\n\n## Why teams install it\n\n- **Start and stop work cleanly** — pauses, resume, manual entries with a reason\n- **Match your country** — DE / AT / CH profiles with Länder, Bundesländer or cantons\n- **See break and rest issues early** — technical checks against the profile you configured\n- **Run absences properly** — vacation, illness, special and unpaid leave with approval; entitlement modes and CSV import via `occ`\n- **Report what happened** — employee, team and manager views; overtime and absence reports; DATEV export\n- **Lock a month when you need to** — optional finalization with snapshot, hash and PDF; admin reopen with a reason\n- **Control access** — open to all users or allow-lists; Nextcloud admins keep access\n\n## Clear limits\n\n- This app is **not legal advice**. You stay responsible for working-time models, collective agreements, configuration and how recorded data is used. Ask counsel when needed.\n- Technical violation reports against your profile are not a third-party certification.\n- Declared databases: MySQL and PostgreSQL. Nextcloud 32–35, PHP 8.1–8.5.\n\n## Feedback welcome\n\nWe improve this app with real-world use. Bug reports, rough edges, and ideas help — open a GitHub Issue (https://github.com/aSoftwareByDesignRepository/nextcloud-arbeitszeitcheck/issues) or write to info@software-by-design.de. Your feedback directly shapes what we build next.\n\n## Requirements\n\n- Nextcloud 32–35 · PHP 8.1–8.5 · MySQL or PostgreSQL",
     "homepage": "http://nextcloud.software-by-design.de",
     "licenses": [
@@ -510,8 +510,8 @@
     ]
   },
   "chores": {
-    "hash": "sha256-kDuNNmSoz80b1fUA2wKnHjGQD05oBo1Q+NC4Crf8G20=",
-    "url": "https://teo.sinyax.net/cdn/chores_0.0.8-17-gf14ef6e.tar.gz",
+    "hash": "sha256-x95pWVl5+EJAMWAPdA9aFbvNCNz+PBmBvC5GrJOHUtA=",
+    "url": "https://teo.sinyax.net/cdn/chores_0.1.0.tar.gz",
     "version": "0.1.0",
     "description": "Track chores and receive points for doing them!\n\nCreate a team and invite other Nextcloud users from the same server, the total\npoints for each member are tracked.\n\nChores can be set to automatically repeat based on a schedule.",
     "homepage": "https://sr.ht/~cypheon/nextcloud-chores/",
@@ -1680,9 +1680,9 @@
     ]
   },
   "gestion": {
-    "hash": "sha256-4abQ7b6dDH8WPf5ywY2ZimVO+SxAHWRTT22okAuRiMM=",
-    "url": "https://github.com/baimard/gestion/releases/download/3.3.6/gestion-3.3.6.tar.gz",
-    "version": "3.3.6",
+    "hash": "sha256-X7q/3kRxTCCn1To3r6cpS/XmqpznAqDk4/vD/7nKb9A=",
+    "url": "https://github.com/baimard/gestion/releases/download/3.3.7/gestion-3.3.7.tar.gz",
+    "version": "3.3.7",
     "description": "# Run your business with Gestion\nGestion is a Nextcloud application designed to make invoicing simple, secure, and efficient for freelancers, micro-enterprises, and small businesses.\n\nKey Features:\n* Add and manage customer profiles\n* Create and customize product entries\n* Generate professional quotes and invoices in PDF format\n* Generate electronic invoices in the Factur-X format\n* Send PDFs directly by email from the application\n* Store generated documents securely within your Nextcloud instance\n* Track your business activities more efficiently\n\n✨ Electronic invoicing is supported in France. Gestion can generate Factur-X invoices that combine a human-readable PDF with structured electronic invoice data.\n\nFactur-X files can always be generated and downloaded without using an external platform. Each company can also select and configure a compatible approved electronic invoicing platform.\n\nThe PDF generation system has also been redesigned to improve document layout, styling, and compatibility.\n\nGestion integrates seamlessly with the Nextcloud ecosystem and keeps your business data under your control.\n\nIf you require adaptations to comply with your country's regulations, please open an issue on the GitHub repository.\n\n[![Donate](https://img.shields.io/badge/Donate-Buy%20me%20a%20coffee-yellow.svg)](https://www.buymeacoffee.com/benjaminaimard)",
     "homepage": "https://github.com/baimard/gestion",
     "licenses": [
@@ -1800,9 +1800,9 @@
     ]
   },
   "guests": {
-    "hash": "sha256-wXrcJwW68wgA0VEcA/3Uc8ew2NG1lzAQ4aaqI0pT2oE=",
-    "url": "https://github.com/nextcloud-releases/guests/releases/download/v4.9.0/guests-v4.9.0.tar.gz",
-    "version": "4.9.0",
+    "hash": "sha256-FVsiiFpKecrVqQMYXFPyyIt4zDc+KL2TGpafwx33i/c=",
+    "url": "https://github.com/nextcloud-releases/guests/releases/download/v4.10.0/guests-v4.10.0.tar.gz",
+    "version": "4.10.0",
     "description": "👥 Allows for better collaboration with external users by allowing users to create guests account.\n\nGuests accounts can be created from the share menu by entering either the recipients email or name and choosing \"create guest account\", once the share is created the guest user will receive an email notification about the mail with a link to set their password.\n\nGuests users can only access files shared to them and cannot create any files outside of shares, additionally, the apps accessible to guest accounts are whitelisted.",
     "homepage": "https://github.com/nextcloud/guests/",
     "licenses": [
@@ -1850,9 +1850,9 @@
     ]
   },
   "homecheck": {
-    "hash": "sha256-MydBJ22sPMrNTBkRugG6WXUi4GbEe6s8mFitJVOiiA4=",
-    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-homecheck/releases/download/v1.0.42/homecheck-1.0.42.tar.gz",
-    "version": "1.0.42",
+    "hash": "sha256-lk/tSXJHb1u+4PWIYCR+GB78lUfbuqueZ70BaPnruww=",
+    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-homecheck/releases/download/v1.0.43/homecheck-1.0.43.tar.gz",
+    "version": "1.0.43",
     "description": "# HomeCheck — personal app home\n\nArrange the Nextcloud apps you can open as Dashboard-style panes with folders. Reordering saves to your personal layout and updates the top-bar app order (folders stay in HomeCheck only). Hide apps you do not need and restore them anytime.\n\n**Free AGPL web app.** Optional admin seed template for first-time users; every user can fully customise afterwards.\n\n## Highlights\n\n- Dashboard-style panes with folders\n- Drag to rearrange; sync order to the top bar\n- Hide / restore apps from your home\n- Optional start-page CTA and admin seed layout\n- Theme-aware chrome with accessible controls\n\n## Feedback welcome\n\nWe improve this app with real-world use. Bug reports, rough edges, and ideas help — open a GitHub Issue (https://github.com/aSoftwareByDesignRepository/nextcloud-homecheck/issues) or write to info@software-by-design.de. Your feedback directly shapes what we build next.\n\n## Requirements\n\n- Nextcloud 32–34 · PHP 8.2–8.5",
     "homepage": "https://nextcloud.software-by-design.de/",
     "licenses": [
@@ -3720,10 +3720,10 @@
     ]
   },
   "roomvox": {
-    "hash": "sha256-/g0PmhmqtCqtCHMsPaIq53Sg2bpqlQUwII17Cc0TM2Q=",
-    "url": "https://github.com/nextcloud/roomvox/releases/download/v1.4.0/roomvox-1.4.0.tar.gz",
-    "version": "1.4.0",
-    "description": "RoomVox makes it easy to book and manage rooms in your organization. Whether it's meeting rooms, lecture halls, studios, or shared spaces — users simply add a room to their calendar event and RoomVox takes care of the rest.\r\n\r\nNo separate booking portal needed. Rooms appear directly in the calendar app your team already uses.\r\n\r\n**For users:**\r\n* Book rooms directly from your calendar — no extra tools\r\n* Instant confirmation or automatic approval requests\r\n* Email notifications with calendar attachments\r\n\r\n**For admins:**\r\n* Full room management with groups, permissions, and availability rules\r\n* Auto-accept or manager approval workflow per room\r\n* Role-based access control (Viewer / Booker / Manager)\r\n* CSV import/export for easy migration from MS365/Exchange\r\n* Public REST API for displays, kiosks, and digital signage\r\n* Per-room email and SMTP configuration\r\n* Microsoft Exchange bidirectional sync\r\n\r\n**Compatible calendar clients:**\r\n* Nextcloud Calendar\r\n* Apple Calendar (iOS/macOS)\r\n* Microsoft Outlook\r\n* Mozilla Thunderbird\r\n* eM Client",
+    "hash": "sha256-S0lrQWhzdT3fNgGqcpuqJcOmeqFfF8mgbl6IOOpweGA=",
+    "url": "https://github.com/nextcloud/roomvox/releases/download/v1.5.0/roomvox-1.5.0.tar.gz",
+    "version": "1.5.0",
+    "description": "RoomVox makes it easy to book and manage rooms in your organization. Whether it's meeting rooms, lecture halls, studios, or shared spaces — users simply add a room to their calendar event and RoomVox takes care of the rest.\n\nNo separate booking portal needed. Rooms appear directly in the calendar app your team already uses.\n\n**For users:**\n* Book rooms directly from your calendar — no extra tools\n* Instant confirmation or automatic approval requests\n* Email notifications with calendar attachments\n\n**For admins:**\n* Full room management with groups, permissions, and availability rules\n* Auto-accept or manager approval workflow per room\n* Role-based access control (Viewer / Booker / Manager)\n* CSV import/export for easy migration from MS365/Exchange\n* Public REST API for displays, kiosks, and digital signage\n* Per-room email and SMTP configuration\n* Microsoft Exchange bidirectional sync\n\n**Compatible calendar clients:**\n* Nextcloud Calendar\n* Apple Calendar (iOS/macOS)\n* Microsoft Outlook\n* Mozilla Thunderbird\n* eM Client",
     "homepage": "https://voxcloud.nl",
     "licenses": [
       "agpl"
@@ -3800,9 +3800,9 @@
     ]
   },
   "savapage": {
-    "hash": "sha256-DqhHrxxHFaBN77TKQ9eMoO4cxC7ebV3FdhjfDnDRrP4=",
-    "url": "https://codeberg.org/Interlunium/nextcloud-savapage/releases/download/1.1.0/savapage-1.1.0.tar.gz",
-    "version": "1.1.0",
+    "hash": "sha256-b6CnK8LFHmu7LpId3FxJF71FpSXzq0ZG52+1lcZO8X0=",
+    "url": "https://codeberg.org/Interlunium/nextcloud-savapage/releases/download/1.1.1/savapage-1.1.1.tar.gz",
+    "version": "1.1.1",
     "description": "Allow user to select files to be sent to Savapage printer",
     "homepage": "",
     "licenses": [
@@ -4469,6 +4469,16 @@
       "agpl"
     ]
   },
+  "timebox": {
+    "hash": "sha256-WJ8l3TGzoxLcv5LTE3baXvH2x40uygU0moGNTedXe7o=",
+    "url": "https://github.com/MarsDevB/nc_timebox/releases/download/v1.0.0/timebox-1.0.0.tar.gz",
+    "version": "1.0.0",
+    "description": "The TimeBox app lets you create focused time blocks and organize your tasks and calendar events into them. Sort and prioritize your work by dragging items into timeboxes for structured productivity.",
+    "homepage": "https://github.com/MarsDevB/nc_timebox",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "timemanager": {
     "hash": "sha256-HH2mPCqbxicCT2trmH9prO33Be93ZBv30g7Qv3XaP1k=",
     "url": "https://github.com/te-online/nextcloud-app-releases/raw/main/timemanager/v0.3.25/timemanager.tar.gz",
@@ -4590,8 +4600,8 @@
     ]
   },
   "uniteos_notifier": {
-    "hash": "sha256-yoNEdBloqNFtXTZsR4EN1PoTlGRjQKObaZ2B+qSFp4g=",
-    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/main/uniteos_notifier.tar.gz",
+    "hash": "sha256-vaWgvCrCGCfm5ygADrXCKR/nRTU9DFar/FQZg59ajus=",
+    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/1.0.6/uniteos_notifier.tar.gz",
     "version": "1.0.6",
     "description": "This app allows forwarding Nextcloud events for a deeper integration into UniteOS developed by wechange eG by presenting a selected set of events as user notifications.",
     "homepage": "",
@@ -4615,6 +4625,16 @@
     "version": "2.5.0",
     "description": "Once the mobile phone is connected with NextPush, push notifications can be forwarded to applications implementing UnifiedPush.\n\nMore information about UnifiedPush at https://unifiedpush.org",
     "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "uptimekuma": {
+    "hash": "sha256-Ho+UCVPIguGTxNRmRCJCwUy2nBjoq2eqDG0601sJefA=",
+    "url": "https://github.com/zomtec2311/uptimekuma/releases/download/1.0.0/uptimekuma_1.0.0.tar.gz",
+    "version": "1.0.0",
+    "description": "**Manage Uptime Kuma instances and incidents from the Nextcloud administration interface.**\n\n- 🛡️ **Admin Only:** Exclusively accessible for system administrators.\n- 🚦 **Incident Management:** Trigger incidents directly from Nextcloud with custom styles (info, warning, success, danger).\n- 🔄 **Lifecycle Control:** Resolve ongoing incidents or simulate service failures with a single click.\n- 🔑 **Token-Based API:** Secure REST endpoint for external scripts and automation workflows.\n- 🎯 **Granular Access:** Assign individual API tokens to specific jobs for fine-grained authorization.\n- 🤖 **Script Automation:** Easily execute status updates automatically from outside.",
+    "homepage": "https://github.com/zomtec2311/logcleaner",
     "licenses": [
       "agpl"
     ]
