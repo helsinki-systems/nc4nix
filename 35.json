@@ -19,6 +19,16 @@
       "agpl"
     ]
   },
+  "agenda_bot": {
+    "hash": "sha256-V4rZQIckRtSI18HqbACzMXeHxiIfW+XsbgQfkozfl+4=",
+    "url": "https://github.com/LexioJ/agenda_bot/releases/download/v1.7.1/agenda_bot-1.7.1.tar.gz?cb=1790455992-1",
+    "version": "1.7.1",
+    "description": "### 🚀 Meeting Manager for Nextcloud Talk\n\nTired of unproductive meetings that run overtime? The Agenda Bot transforms chaotic discussions into structured, efficient sessions with intelligent automation and real-time insights.\n**⚠️ Requires Nextcloud Talk app to be installed and enabled**\n\n### ✨ Key Features\n\n#### 🎯 Effortless Agenda Creation\n- Natural language: `agenda: Project review (15 min)` \n- Multiple formats: `topic:`, `item:`, `add:`, `insert:`\n- Create multiple items at once from structured lists\n- Smart time parsing: `(5 min)`, `(1h)`, `(90 min)`, `(2 hours)`\n- Automatic positioning or manual `#2.` syntax\n\n#### ⏰ Intelligent Time Management\n- Background monitoring tracks time automatically\n- Smart warnings at 80%, 100%, and overtime thresholds  \n- Call-aware notifications (only during active meetings)\n- Custom time monitoring configuration per room\n- Visual progress tracking with ✅ 📍 🗣️ indicators\n\n#### 🔥 Seamless Meeting Flow\n- **`done:` command** - Complete current item and auto-advance!\n- Real-time status shows actual vs. planned time\n- Automatic progression through agenda items\n- Live updates for all participants\n\n#### ⚙️ Room-Level Bot Configuration\n- **Time Monitoring**: Custom warning thresholds and overtime alerts per room\n- **Auto-behaviors**: Control automatic start, cleanup, and summary generation\n- **Response-behaviors**: Choose between full responses or minimal emoji-only mode\n- **Agenda Limits**: Configure max agenda items, max bulk additions, and default durations\n- **Custom Emojis**: Personalize agenda item status indicators\n\n#### 🌍 Multi-Language Support (NEW in v1.5.0!)\n- **German Language Variants**: Support for both informal (Du) and formal (Sie) German communication\n- **Automatic Migration**: Seamless upgrade handling with intelligent migration framework\n- **Professional Settings**: Perfect for corporate environments requiring formal language\n- **User Choice**: Select the communication style that fits your team culture\n\n#### 🔐 Smart Permission System\n- Role-based access: Owners, Moderators, Users, Guests\n- Flexible control: Who can add, manage, or view items\n- Guest moderator support for external facilitators\n\n#### 📊 Meeting Analytics & Insights\n- Completion tracking with timing statistics\n- Efficiency reports: On-time 👍 vs. overtime ⏰ \n- Comprehensive summaries with actionable data\n- Optional cleanup of completed items\n\n### 💫 Why Using Agenda Bot?\n\n- ✅ **Boost Productivity** - Stay focused with structured agendas\n- ✅ **Save Time** - Automated tracking and progress management  \n- ✅ **Improve Accountability** - Clear completion tracking\n- ✅ **Reduce Overruns** - Smart time warnings keep meetings on track\n- ✅ **Easy Setup** - Works instantly in any Talk room\n\n### 🏆 Perfect For\n- Team standups and regular check-ins\n- Project planning sessions\n- Client meetings with tight schedules  \n- Board meetings requiring structure\n- Training sessions with timed modules\n\n#### Start having better meetings - Add the Agenda Bot to your Talk rooms and experience the difference!",
+    "homepage": "https://github.com/lexioj/agenda_bot",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "agora": {
     "hash": "sha256-NsmbZZmE+iC9195uUS4VdbBeMZbDv8+t6E5LuS22R50=",
     "url": "https://github.com/vinimoz/agora/releases/download/v1.7.12/agora.tar.gz",
@@ -30,10 +40,10 @@
     ]
   },
   "aiquila": {
-    "hash": "sha256-sLkkVSqo+ST6Y4hAv4mW+c+1xJqHz5WjGNloTPjKO8A=",
-    "url": "https://github.com/elgorro/aiquila/releases/download/nc-v0.4.15/aiquila.tar.gz",
-    "version": "0.4.15",
-    "description": "**AIquila** brings AI into your [Nextcloud](https://nextcloud.com) — private, self-hosted, and under your control. You choose which AI provider processes your data, including models running entirely on your own hardware.\n\n### Nextcloud App\n\n- **Chat** — Converse with an AI assistant about your files and documents\n- **Projects** — Scope a conversation to selected folders, so the assistant only sees what you choose\n- **Coworkers** — Save repeatable AI jobs and run them on demand or on a schedule\n- **Summarise & rewrite** — Condense, draft, rephrase and proofread text\n- **Model picker** — Switch provider and model per conversation\n- **Usage metrics** — Token and conversation counters exported via OpenMetrics\n\n### Choose your AI provider\n\nAdmins enable the providers they want, and can restrict them per user or group:\n\n- **Claude (Anthropic)** — The default, and the most deeply integrated: vision, thinking budgets, native MCP connector, and PDF handling with citations.\n- **Hetzner Inference** — OpenAI-compatible API from the German provider Hetzner. Currently an experimental service, free while experimental; Hetzner states it does not store request and response content.\n- **Mistral** — French provider, also supporting the native MCP connector. EU-only processing is available through Mistral's regional inference endpoints.\n- **Local model** — Ollama, LM Studio or llama.cpp on your own hardware. Nothing leaves your infrastructure.\n- **DeepSeek** — OpenAI-compatible API.\n\nAPI keys are stored encrypted, and base URLs are admin-only settings. Provider choice\napplies to chat and to the Nextcloud Assistant integrations alike. Assistant actions\nthat send images need a vision-capable provider.\n\n### MCP Server\n\nAIquila includes a [Model Context Protocol](https://modelcontextprotocol.io) server with 311 tools that gives any MCP client — Claude Desktop, Claude Code, Claude.ai and the Claude mobile app, Cursor, VS Code and others — direct access to your Nextcloud:\n\n- **Files** — Browse, read, write, search, and share\n- **Calendar & Tasks** — View, create, and manage events and to-dos\n- **Contacts & Mail** — Read and manage address books, accounts, and messages\n- **Notes & Recipes** — Create and edit Markdown notes and recipes\n- **Bookmarks & Maps** — Manage bookmarks, GPS tracks, favourites, and photos\n\n### Resources\n\n- [Documentation](https://github.com/elgorro/aiquila/blob/main/docs/README.md)\n- [Source Code](https://github.com/elgorro/aiquila)\n- [Report Issues](https://github.com/elgorro/aiquila/issues)\n- [Discussions](https://github.com/elgorro/aiquila/discussions)\n\n---\n\nBuilt on the [Nextcloud](https://nextcloud.com) open-source community, the [Model Context Protocol](https://modelcontextprotocol.io), and the open and commercial AI providers listed above.",
+    "hash": "sha256-zDCD3yKvpNSWbnuAhPQ95BL3C0azMp2V6xsVOREEQHE=",
+    "url": "https://github.com/elgorro/aiquila/releases/download/nc-v0.4.16/aiquila.tar.gz",
+    "version": "0.4.16",
+    "description": "**AIquila** brings AI into your [Nextcloud](https://nextcloud.com) — private, self-hosted, and under your control. You choose which AI provider processes your data, including models running entirely on your own hardware.\n\n### Nextcloud App\n\n- **Chat** — Converse with an AI assistant about your files and documents\n- **Projects** — Scope a conversation to selected folders, so the assistant only sees what you choose\n- **Coworkers** — Save repeatable AI jobs and run them on demand or on a schedule\n- **Summarise & rewrite** — Condense, draft, rephrase and proofread text\n- **Model picker** — Switch provider and model per conversation\n- **Usage metrics** — Token and conversation counters exported via OpenMetrics\n\n### Choose your AI provider\n\nAdmins enable the providers they want, and can restrict them per user or group:\n\n- **Claude (Anthropic)** — The default, and the most deeply integrated: vision, thinking budgets, native MCP connector, and PDF handling with citations.\n- **Hetzner Inference** — OpenAI-compatible API from the German provider Hetzner. Currently an experimental service, free while experimental; Hetzner states it does not store request and response content.\n- **Mistral** — French provider, also supporting the native MCP connector. EU-only processing is available through Mistral's regional inference endpoints.\n- **Local model** — Ollama, LM Studio or llama.cpp on your own hardware. Nothing leaves your infrastructure.\n- **DeepSeek** — OpenAI-compatible API.\n\nAPI keys are stored encrypted, and base URLs are admin-only settings. Provider choice\napplies to chat and to the Nextcloud Assistant integrations alike. Assistant actions\nthat send images need a vision-capable provider.\n\n### MCP Server\n\nAIquila includes a [Model Context Protocol](https://modelcontextprotocol.io) server with 316 tools that gives any MCP client — Claude Desktop, Claude Code, Claude.ai and the Claude mobile app, Cursor, VS Code and others — direct access to your Nextcloud:\n\n- **Files & sharing** — Browse, read, write, search, share, tag, and restore from trash or older versions\n- **Calendar, Tasks & Contacts** — Events, to-dos and address books over CalDAV and CardDAV, plus Deck boards and Projects\n- **Talk, Mail & Notifications** — Conversations, polls and reactions, mail accounts and messages, notification triage\n- **Photos & Maps** — Albums and metadata, GPS tracks and devices, favourites, and photo geotagging\n- **Notes, News, Recipes & Bookmarks** — Markdown notes, RSS feeds, recipes, and bookmark folders and tags\n- **Coworkers & administration** — Run saved AI jobs, manage users, groups and apps, run `occ`, and check integrity\n\n### Resources\n\n- [Documentation](https://github.com/elgorro/aiquila/blob/main/docs/README.md)\n- [Source Code](https://github.com/elgorro/aiquila)\n- [Report Issues](https://github.com/elgorro/aiquila/issues)\n- [Discussions](https://github.com/elgorro/aiquila/discussions)\n\n---\n\nBuilt on the [Nextcloud](https://nextcloud.com) open-source community, the [Model Context Protocol](https://modelcontextprotocol.io), and the open and commercial AI providers listed above.",
     "homepage": "https://github.com/elgorro/aiquila",
     "licenses": [
       "AGPL-3.0-or-later"
@@ -140,9 +150,9 @@
     ]
   },
   "astrolabe": {
-    "hash": "sha256-wcRJ3l92vvL5nuDZtcI3T3Qp9xdwSkcHS2s31BnEtX4=",
-    "url": "https://github.com/cbcoutinho/astrolabe/releases/download/v0.43.0/astrolabe-0.43.0.tar.gz",
-    "version": "0.43.0",
+    "hash": "sha256-/pkOzO5/TPcTLGRk/pBJd6oAWV0KpJYZK+eWPTwwGAU=",
+    "url": "https://github.com/cbcoutinho/astrolabe/releases/download/v0.43.1/astrolabe-0.43.1.tar.gz",
+    "version": "0.43.1",
     "description": "# Astrolabe - Semantic Search for Nextcloud\n\nFind your content by meaning, not just keywords. Astrolabe brings AI-powered semantic search to your Nextcloud, helping you discover documents, notes, calendar events, and files through natural language.\n\n## Features\n\n- **Semantic Search**: Search across Notes, Files, Calendar, Deck, and more using natural language queries\n- **Unified Search Integration**: Results appear in Nextcloud's global search bar alongside traditional results\n- **Background Indexing**: Your content is automatically indexed for instant semantic search\n- **Vector Visualization**: Explore your content in an interactive 2D visualization showing semantic relationships\n- **Hybrid Search**: Combines semantic understanding with keyword matching for best results\n\n## How It Works\n\nAstrolabe connects to a semantic search service that understands the meaning of your content. Instead of exact keyword matches, you can search for concepts - ask \"meeting notes from last week\" or \"recipes with chicken\" and find relevant documents even if they don't contain those exact words.\n\n## Getting Started\n\n1. Install and enable the app\n2. Grant background access to allow indexing of your content\n3. Start searching with natural language in Nextcloud's search bar\n\nSee [documentation](https://github.com/cbcoutinho/astrolabe) for configuration details.",
     "homepage": "",
     "licenses": [
@@ -180,9 +190,9 @@
     ]
   },
   "audioplayer": {
-    "hash": "sha256-zJmM/q57TykHhBZL73xPHiKgOy8V24u13pumOjb3w3Q=",
-    "url": "https://github.com/Rello/audioplayer/releases/download/3.9.1/audioplayer.tar.gz",
-    "version": "3.9.1",
+    "hash": "sha256-eEHK5ryNVzYJmIcdDDgybikPQnV85DA8N2qaPP/Hy9c=",
+    "url": "https://github.com/Rello/audioplayer/releases/download/4.0.0/audioplayer.tar.gz",
+    "version": "4.0.0",
     "description": "A music player supporting FLAC, MP3, MP4, AIF, and streaming formats, featuring playlist capabilities and SONOS integration.\n\n- Gapless play\n- Waveform visualization\n- Cover or list view by categories\n- Optimized for large audio collections\n- Smart lists and playlists\n- Stream URLs\n- Favorites, search, and collaborative tag integration\n- Specify media folder with exclude option\n- Hardware media keys and Chrome/Android/macOS integration\n- [SONOS player](https://github.com/rello/audioplayer_sonos) via add-on\n- Genre classification using the Recognize app with machine learning\n\nSee [README](https://github.com/rello/audioplayer/blob/master/README.md) file for all supported MIME types and additional information.",
     "homepage": "https://rello.github.io/audioplayer",
     "licenses": [
@@ -507,6 +517,16 @@
     "homepage": "https://github.com/martinhammer/dailyzenquote",
     "licenses": [
       "AGPL-3.0-or-later"
+    ]
+  },
+  "dashlink": {
+    "hash": "sha256-dk2K95Lo5bp13C4z3Mg19oHeqEADKaKhEIUJQtrNr4Q=",
+    "url": "https://github.com/LexioJ/dashlink/releases/download/v1.3.1/dashlink-1.3.1.tar.gz?cb=1790454978-1",
+    "version": "1.3.1",
+    "description": "DashLink provides a dashboard widget that displays external website links configured by administrators or users.\n\nCore Features:\n- Dashboard widget displaying external links (max 10 visible)\n- Custom icon/logo upload for each link (PNG, JPG, GIF, SVG, WebP up to 2MB)\n- Group-based visibility control (show links to specific user groups)\n- Three modular hover animation effects (Blur Overlay, 3D Card Flip, Slide Panel)\n- Responsive grid layout (1-2 columns) with full dark mode support\n- User-private links: users can create personal links visible only to themselves (admin-configurable)\n\nAdmin Panel:\n- Complete CRUD operations for link management\n- Drag & drop reordering with visual position badges\n- Export/Import links to/from JSON with icon URL support\n- Automatic icon downloading from external URLs during import\n- Duplicate detection on import (by title or URL)\n- Live preview panel with group filter simulation\n- Modern Nextcloud UI (toggle switches, modals, autocomplete pickers)\n- Toggle to enable/disable user-private links (disabled by default)\n- Configurable maximum links per user (1-50, default 10)",
+    "homepage": "https://github.com/lexioj/dashlink",
+    "licenses": [
+      "agpl"
     ]
   },
   "data_request": {
@@ -980,10 +1000,10 @@
     ]
   },
   "findling": {
-    "hash": "sha256-PASqxQQu4EEthMImt1qoJZlPnUSkNOL0X/I5XI0z3UM=",
-    "url": "https://github.com/street1983nk/nextcloud-search/releases/download/v1.2.0/findling.tar.gz",
-    "version": "1.2.0",
-    "description": "What Findling does:\n- Full text search in the normal Nextcloud search bar\n- OCR for scanned PDFs and images: nine languages available, German, English and French are the default\n- Semantic search: finds documents through paraphrases\n- Every result is permission-checked by Nextcloud\n- No configuration: the first index run starts on its own\n- Privacy: everything runs locally, no telemetry, nothing leaves your server\n\nTogether with the [Nextcloud MCP Connector](https://apps.nextcloud.com/apps/mcp_connector), Findling forms the retrieval layer for your own RAG: AI assistants search your document contents with exactly the rights of the asking user, and no content leaves your server.\n\nSupported file types:\n- PDF (scanned too), DOCX, PPTX, XLSX, ODT, ODS, ODP\n- HTML, RTF, TXT, Markdown, CSV\n- Images through OCR: JPEG, PNG, TIFF, WebP\n\nRequirements:\n- Nextcloud 33 to 35, apps: AppAPI, Findling Backend (External Apps), Findling\n- RAM: 4 GB is enough, 731.9 MB resident after an index run, under a hard 2 GB limit (measured)\n- CPU: 2 cores are enough, amd64 and arm64\n\nEnterprise support and paid add-ons: request a quote at admin@infranode.dev",
+    "hash": "sha256-ljTRmgLYA/hF9eLehbiOcauC3LEgPEWDOJvKpF7wrEo=",
+    "url": "https://github.com/street1983nk/nextcloud-search/releases/download/v1.3.0/findling.tar.gz",
+    "version": "1.3.0",
+    "description": "What Findling does:\n- Full text search in the normal Nextcloud search bar\n- OCR for scanned PDFs and images: nine languages available, German, English and French are the default\n- Semantic search: finds documents through paraphrases\n- Every result is permission-checked by Nextcloud\n- No configuration: the first index run starts on its own\n- Privacy: everything runs locally, no telemetry, nothing leaves your server\n- Search languages: German and English by default, Spanish, Italian, Dutch and Portuguese available\n\nKnown limitations:\n- Spanish: año and ano are treated as the same word\n- Portuguese: spellings before and after the spelling reform are not unified\n- Compound words are split for German and Dutch only\n- French has no full text analysis chain for document text\n\nTogether with the [Nextcloud MCP Connector](https://apps.nextcloud.com/apps/mcp_connector), Findling forms the retrieval layer for your own RAG: AI assistants search your document contents with exactly the rights of the asking user, and no content leaves your server.\n\nSupported file types:\n- PDF (scanned too), DOCX, PPTX, XLSX, ODT, ODS, ODP\n- HTML, RTF, TXT, Markdown, CSV\n- Images through OCR: JPEG, PNG, TIFF, WebP\n\nRequirements:\n- Nextcloud 33 to 35, apps: AppAPI, Findling Backend (External Apps), Findling\n- RAM: 4 GB is enough, 730.2 MB resident after an index run, under a hard 2 GB limit (measured)\n- CPU: 2 cores are enough, amd64 and arm64\n\nEnterprise support and paid add-ons: request a quote at admin@infranode.dev",
     "homepage": "https://github.com/street1983nk/nextcloud-search",
     "licenses": [
       "AGPL-3.0-or-later"
@@ -1399,6 +1419,16 @@
       "AGPL-3.0-or-later"
     ]
   },
+  "integration_itop": {
+    "hash": "sha256-4adx4gc00j6Ha2S60Wgo0ChVbhlpFepjvZaDdWeAzZo=",
+    "url": "https://github.com/lexioj/integration_itop/releases/download/v1.4.3/integration_itop-1.4.3.tar.gz?cb=1790456470-1",
+    "version": "1.4.3",
+    "description": "### 🚀 Complete iTop ITSM Integration for Nextcloud\n\nSeamlessly connect your Nextcloud collaboration platform with iTop IT Service Management system. This comprehensive integration brings ITSM functionality directly into your daily workflow without leaving Nextcloud.\n**⚠️ Requires iTop server with REST API enabled**\n\n### ✨ Key Features\n\n#### 📊 Dual Dashboard Widgets\n- **Portal Widget**: Personal ticket queue for all users with status breakdown (Open, Pending, Resolved)\n  - View 4 most recent tickets (Incidents + User Requests)\n  - Visual status indicators and priority badges\n  - Responsive design for mobile/desktop\n- **Agent Widget**: Comprehensive operational dashboard for IT agents only\n  - **My Work**: Assigned incidents and requests with real-time counts\n  - **Team Queue**: Team-wide ticket distribution and workload overview\n  - **Change Management**: Upcoming changes with time windows and types\n  - Automatic visibility control based on user profile (agents vs portal users)\n\n#### 🔗 Dynamic Reference Provider\n- **Rich Link Previews**: Paste iTop ticket links in Talk, Deck, or Collectives for instant rich previews\n- **Detailed Information**: View ticket status, priority, assignee, and description at a glance\n- **Smart Navigation**: Direct links to full ticket details in iTop\n- **Universal Compatibility**: Works across all Nextcloud apps that support rich content\n\n#### 🔍 Unified Search Integration\n- **Quick Access**: Search your iTop tickets directly from Nextcloud's search bar\n- **Smart Results**: Filter by ticket type (Incidents, User Requests) with status indicators\n- **CI Browsing**: Search Configuration Items (computers, phones, printers, software, and more)\n- **Custom CI Classes**: Extensible search support for any CI class defined in your iTop CMDB\n- **Personal Scope**: Only shows tickets you created or are assigned to\n- **Real-time Status**: Live priority and status badges in search results\n\n#### 🎯 Smart Picker & Content Integration\n- **Content Creation**: Insert iTop references while writing in Text App or chatting in Talk\n- **Quick Browse**: Access recent tickets and CIs with smart suggestions\n- **Rich Insertion**: Add links that automatically become interactive previews\n- **Context Aware**: Relevant suggestions based on your current work\n\n#### 🔔 Notification System (v1.3.0+)\n- **Portal Notifications**: Stay informed about your tickets - status changes, agent responses, resolutions\n- **Agent Notifications**: Get alerted about assignments, team queue updates, reassignments, and SLA warnings\n- **12 Notification Types**: Granular control with per-type enable/disable for portal and agent notifications\n- **Mandatory/Optional Control**: Administrators can force-certain notifications or let users choose\n- **Configurable Intervals**: Adjust how frequently the system checks for updates\n\n#### 📰 Newsroom Mirroring (v1.4.0)\n- **iTop Newsroom in Nextcloud**: Receive iTop Newsroom announcements as Nextcloud notifications\n- **Opt-in Per User**: Each user independently enables Newsroom mirroring\n- **ActionNewsroom Triggers**: Requires ActionNewsroom extension configured in iTop\n\n#### ⚙️ Professional Settings Interface\n- **Personal Dashboard**: Real-time status with connection indicator and ticket counts\n- **Secure Authentication**: Token-based setup with one-time personal token validation\n- **User Profile Display**: See your iTop identity (name, email, organization)\n- **Notification Control**: Configure alerts for new assignments and updates\n\n#### 🛠️ Enterprise Admin Panel\n- **Centralized Configuration**: System-wide settings with encrypted token storage\n- **Connection Testing**: Real-time validation of iTop server connectivity\n- **Ticket System Detection**: Automatically detects iTop configuration (Helpdesk vs Ticketing mode)\n- **Custom CI Classes**: Add any CI class from your iTop CMDB beyond the 11 built-in types\n- **Icon Management**: Upload custom SVG icons for CI classes, or auto-fetch from iTop datamodel\n- **User Monitoring**: Track connected users and system health\n\n#### 🔐 Security & Architecture\n- **Dual-Token Security**: Separate application and personal tokens for maximum security\n- **Data Isolation**: All queries filtered by Person ID - users only see their own data\n- **Portal User Support**: Works with SAML/external authentication via Portal Personal Tokens\n- **No Data Storage**: Personal tokens used once for verification, then discarded\n\n### 🏢 Perfect For\n- IT teams managing incidents and service requests\n- Help desk agents tracking assigned tickets\n- End users checking their request status\n- Organizations using both Nextcloud and iTop ITSM\n\n### 🔧 Technical Requirements\n- **iTop Server**: Version 3.0 or higher with REST API enabled\n- **Nextcloud**: Version 30.0 or higher\n- **PHP**: 8.1 or higher\n- **Optional**: [iTop Portal Personal Tokens Extension](https://github.com/LexioJ/itop-portal-personal-tokens) for enhanced Portal user support\n\n#### Start streamlining your ITSM workflow - Connect iTop with Nextcloud and experience unified IT service management!",
+    "homepage": "https://github.com/lexioj/integration_itop",
+    "licenses": [
+      "AGPL-3.0-or-later"
+    ]
+  },
   "integration_jira": {
     "hash": "sha256-0GbPERHaakQ7GClEQjNyeyqesMA3UVSTzr1Cf+a+3pU=",
     "url": "https://github.com/nextcloud-releases/integration_jira/releases/download/v1.4.3/integration_jira-v1.4.3.tar.gz",
@@ -1810,8 +1840,8 @@
     ]
   },
   "libresign": {
-    "hash": "sha256-MYSRPCUNHo6N6sx6cfrWk6Pv81MkqoY0+PNJXbN7eJY=",
-    "url": "https://github.com/LibreSign/libresign/releases/download/v15.0.4/libresign-v15.0.4.tar.gz",
+    "hash": "sha256-7bBiVX3hQ2Lm58KFcc2YPV1ECKFH+eDvflB948d7Y6g=",
+    "url": "https://github.com/LibreSign/libresign/releases/download/nightly/libresign-nightly.tar.gz",
     "version": "15.0.4",
     "description": "**LibreSign helps organizations manage document signing inside Nextcloud.**\n\nIt is built for teams that need clear signing rules, traceable actions, and workflows that follow internal processes and legal requirements.\n\nLibreSign has been a verified [Digital Public Good](https://digitalpublicgoods.net/r/libresign) since 2025.\n\n**What LibreSign enables**\n\n- Define signing order and signer roles\n- Support internal and external signers\n- Keep a traceable record of requests and validations\n- Use digital certificates for compliant signing workflows\n- Validate documents using QR codes\n- Work directly with Nextcloud files and users\n- Integrate signing with other systems through APIs\n\n**Support LibreSign**\nIf your organization uses LibreSign, support its development:\n\n[![Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/libresign)\n\nFor enterprise support, contact LibreCode:\nhttps://libresign.coop",
     "homepage": "https://github.com/LibreSign/libresign",
@@ -1919,6 +1949,16 @@
       "AGPL-3.0-or-later"
     ]
   },
+  "meetree": {
+    "hash": "sha256-ddkV3wgiQAhCXfV7DTX0L4LnLLhxLUB4+hsyAlNRTGE=",
+    "url": "https://github.com/dec0de/MeeTree/releases/download/v1.1.33/meetree-1.1.33-appstore.tar.gz",
+    "version": "1.1.33",
+    "description": "MeeTree provides a TreeView/Jreepad-inspired tree note editor with Markdown content preview, native JSON storage, TreePad Lite HJT import/export, and first-pass CherryTree CTD import/export compatibility.",
+    "homepage": "https://github.com/dec0de/MeeTree",
+    "licenses": [
+      "AGPL-3.0-or-later"
+    ]
+  },
   "memegen": {
     "hash": "sha256-Hj5azVZI5GLOA0MwAfHVnapqSSqDMuYFfqDzuK9MgI0=",
     "url": "https://github.com/nextcloud-releases/memegen/releases/download/v2.0.2/memegen-v2.0.2.tar.gz",
@@ -2010,9 +2050,9 @@
     ]
   },
   "netbase": {
-    "hash": "sha256-0R3iyp/pEq/ATchnVJWaas+lKrpHB8QwWjh+bhoyYuc=",
-    "url": "https://github.com/ktec-nc-apps/NetBase/releases/download/v0.6.2/netbase-0.6.2.tar.gz",
-    "version": "0.6.2",
+    "hash": "sha256-ge9Pbq2YhOTfsD8UCYPC5NB1Q11MQ2YgBw9hl/UROM4=",
+    "url": "https://github.com/ktec-nc-apps/NetBase/releases/download/v0.7.1/netbase-0.7.1.tar.gz",
+    "version": "0.7.1",
     "description": "NetBase turns your Nextcloud into a network console: it finds every device on the LAN, opens each one's own settings page from inside Nextcloud, and keeps the everyday lookup tools on the same screen.\n\nDevice windows are the heart of it. The server fetches a device's own web interface and rewrites every address inside it, so a router, a switch, a printer or a NAS can be signed into and configured from anywhere the Nextcloud is reachable — no VPN, no jump host, no site visit. Firmware can be sent, a configuration restored, a backup taken. Several windows can be open at once.\n\nDiscovery needs no root, no agent and no extra packages: NetBase primes the kernel neighbour table, reads it back, and asks each device for its own name over NetBIOS, mDNS, WS-Discovery and SSDP. It also listens for the announcements devices make, continuously and in the background, so a device sitting on another subnet of the same wire — one nothing here can reach, and which can never answer a question — still appears in the list. MAC addresses are resolved against a bundled IEEE registry of more than 53,000 vendor prefixes, offline.\n\nWhat each part is for:\n- Device windows — a device's own settings page, through Nextcloud, from anywhere\n- LAN sweep and inventory — name, IPv4, MAC, vendor, type and open ports, exportable as CSV\n- DNS — any record type from any resolver, resolver comparison, delegation trace, zone-transfer test\n- Whois and free-domain search — look up any domain or address (IANA referrals, no whois binary), or check a name across a whole range of endings at once to find one that is still free\n- Wake-on-LAN — wake a device by its MAC address\n- TLS and HTTP — certificate, chain and expiry, accepted TLS versions, redirect chain, security headers\n- Mail — SPF, DKIM, DMARC, MTA-STS, DANE and blocklists, plus SMTP/IMAP/POP3 server tests, an open-relay test and a real test message\n- FTP and SFTP — browse a remote server and move files to and from your Nextcloud folders\n- SSH and Telnet — a credential-free probe, and commands or a full terminal on a saved connection\n- Benchmarks — internet speed, LAN throughput over iperf3, resolver comparison, HTTP timing\n- Every result can be copied, downloaded or saved straight into your own Nextcloud files\n\nAccess is per tool. NetBase is an administrator's app, and everything that touches the local network defaults to administrators — but each tool can be opened to named groups or to everyone from Administration settings, so an instance can lend out whois, DNS and the other harmless lookups without lending out the network. Where an account is allowed nothing, NetBase leaves itself out of that account's app menu.\n\nAvailable in twenty languages, and NetBase can be set to a different language from the rest of Nextcloud, per account.",
     "homepage": "https://github.com/ktec-nc-apps/NetBase",
     "licenses": [
@@ -2350,9 +2390,9 @@
     ]
   },
   "reinhardterp": {
-    "hash": "sha256-QKV0v8bApz2PrdikKSY4kJ3dFDYJWVqT0ybbt1Yknlg=",
-    "url": "https://github.com/SchreinereiReinhardt/NextERP/releases/download/v2.4.67/Betrio-2.4.67-source.tar.gz",
-    "version": "2.4.67",
+    "hash": "sha256-Ct9DUQ96RyKXFYH94mIsg188oPJtq/Qs4+Z7dp4+iXA=",
+    "url": "https://github.com/SchreinereiReinhardt/NextERP/releases/download/v2.4.93/Betrio-2.4.93-source.tar.gz",
+    "version": "2.4.93",
     "description": "Betrio is an ERP and project management solution designed specifically for trades and craft businesses and integrated directly into Nextcloud.\n\nThe app combines commercial and operational workflows in one central application – from customers and projects to quotations, orders and invoices, as well as work reports, time tracking, materials, documents and mobile on-site processes.\n\nFeatures:\n\n- Customer management and CRM\n- Project management and digital project files\n- Quotations and orders\n- Invoices\n- Progress and final invoices\n- Credit notes and cancellations\n- Payment status and incoming payments\n- Outstanding and overdue receivables\n- PDF invoices\n- XRechnung\n- Invoice audit trail and invoice finalization\n- Quotation → order → invoice workflow\n- Work reports with signature and PDF\n- Time tracking and evaluation\n- Material and inventory management\n- Documents, photos and project files\n- Appointments and project timeline\n- Financial overviews and open items\n- Cash book and tax overviews\n- DATEV EXTF export\n- Mobile smartphone interface\n- Camera and barcode functions\n- Integration with Nextcloud Files\n- German and English user interface\n\nA separate Android app, “Betrio Mobile”, is also available.\n\nBetrio runs directly within your own Nextcloud installation. Customer, project and business data therefore do not need to be moved to a separate ERP cloud to operate Betrio.\n\nThe commercial functions support the workflow from quotation and order through invoicing to payment receipt. Finalized invoices and relevant actions are documented through the invoice audit trail.\n\nA DATEV EXTF export is available for exchanging accounting data.\n\nXRechnung is integrated and continues to be developed and validated.\n\nBetrio does not replace tax or legal advice. Accounting and export functions should be checked against the requirements of your business and, where appropriate, coordinated with your tax adviser before productive use.",
     "homepage": "https://www.schreinerei-reinhardt.de",
     "licenses": [
@@ -2360,9 +2400,9 @@
     ]
   },
   "repod": {
-    "hash": "sha256-PIgadPKon95tkr+Rrnr2MJUQ6IxqKZHpltdxLLp9aUY=",
-    "url": "https://git.crystalyx.net/Xefir/repod/releases/download/4.3.2/repod.tar.gz",
-    "version": "4.3.2",
+    "hash": "sha256-RASx+wMprz5d/ck7oc7ulu03fTt6e2mj5LJRgwF2hCM=",
+    "url": "https://git.crystalyx.net/Xefir/repod/releases/download/4.3.3/repod.tar.gz",
+    "version": "4.3.3",
     "description": "## Features\n- 🔍 Browse and subscribe huge collection of podcasts\n- 🔊 Listen to episodes directly in Nextcloud\n- 🌐 Sync your activity with [AntennaPod](https://antennapod.org/) and [other apps](https://git.crystalyx.net/Xefir/repod#clients-supporting-sync-of-gpoddersync)\n- 📱 Mobile friendly interface\n- 📡 Import and export your subscriptions\n- ➡️ Full features comparison [here](https://git.crystalyx.net/Xefir/repod#comparaison-with-similar-apps-for-nextcloud)\n\n## Requirements\nYou need to have [GPodderSync](https://apps.nextcloud.com/apps/gpoddersync) installed to use this app!",
     "homepage": "https://git.crystalyx.net/Xefir/repod",
     "licenses": [
@@ -2900,8 +2940,8 @@
     ]
   },
   "uniteos_notifier": {
-    "hash": "sha256-yoNEdBloqNFtXTZsR4EN1PoTlGRjQKObaZ2B+qSFp4g=",
-    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/main/uniteos_notifier.tar.gz",
+    "hash": "sha256-vaWgvCrCGCfm5ygADrXCKR/nRTU9DFar/FQZg59ajus=",
+    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/1.0.6/uniteos_notifier.tar.gz",
     "version": "1.0.6",
     "description": "This app allows forwarding Nextcloud events for a deeper integration into UniteOS developed by wechange eG by presenting a selected set of events as user notifications.",
     "homepage": "",
