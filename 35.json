@@ -150,9 +150,9 @@
     ]
   },
   "astrolabe": {
-    "hash": "sha256-/pkOzO5/TPcTLGRk/pBJd6oAWV0KpJYZK+eWPTwwGAU=",
-    "url": "https://github.com/cbcoutinho/astrolabe/releases/download/v0.43.1/astrolabe-0.43.1.tar.gz",
-    "version": "0.43.1",
+    "hash": "sha256-X/9dx+GAPymcPay9sW4ZSlgQ1RY7vfLbNljYjEiRP9M=",
+    "url": "https://github.com/cbcoutinho/astrolabe/releases/download/v0.45.0/astrolabe-0.45.0.tar.gz",
+    "version": "0.45.0",
     "description": "# Astrolabe - Semantic Search for Nextcloud\n\nFind your content by meaning, not just keywords. Astrolabe brings AI-powered semantic search to your Nextcloud, helping you discover documents, notes, calendar events, and files through natural language.\n\n## Features\n\n- **Semantic Search**: Search across Notes, Files, Calendar, Deck, and more using natural language queries\n- **Unified Search Integration**: Results appear in Nextcloud's global search bar alongside traditional results\n- **Background Indexing**: Your content is automatically indexed for instant semantic search\n- **Vector Visualization**: Explore your content in an interactive 2D visualization showing semantic relationships\n- **Hybrid Search**: Combines semantic understanding with keyword matching for best results\n\n## How It Works\n\nAstrolabe connects to a semantic search service that understands the meaning of your content. Instead of exact keyword matches, you can search for concepts - ask \"meeting notes from last week\" or \"recipes with chicken\" and find relevant documents even if they don't contain those exact words.\n\n## Getting Started\n\n1. Install and enable the app\n2. Grant background access to allow indexing of your content\n3. Start searching with natural language in Nextcloud's search bar\n\nSee [documentation](https://github.com/cbcoutinho/astrolabe) for configuration details.",
     "homepage": "",
     "licenses": [
@@ -330,9 +330,9 @@
     ]
   },
   "carfuelmaintance": {
-    "hash": "sha256-4lgOFeLcK7wn2rvylP9POQzZH/CeaE0SoUSXpR7YfW8=",
-    "url": "https://github.com/ricgrangeia/nextcloud-carfuelmaintance/releases/download/v2.0.4/carfuelmaintance-2.0.4.tar.gz",
-    "version": "2.0.4",
+    "hash": "sha256-QsuOZp28il8wg3E6GM0cID6i/tbF05hLFkWVY5KX9kI=",
+    "url": "https://github.com/ricgrangeia/nextcloud-carfuelmaintance/releases/download/v2.0.8/carfuelmaintance-2.0.8.tar.gz",
+    "version": "2.0.8",
     "description": "Log fuel fill-ups, maintenance work, trips and a spare-parts inventory for as\nmany cars as you own, including bifuel vehicles. Fill-ups compute fuel consumption\nand cost automatically per fuel type; maintenance entries support due-date and\ndue-mileage reminders, backed by real Nextcloud notifications. Track total cost of\nownership and per-trip costs (including tolls), and manage a photographed parts\nstock linked to your cars. Includes a token-friendly API so a script or an AI\nassistant can log entries for you.",
     "homepage": "",
     "licenses": [
@@ -700,9 +700,9 @@
     ]
   },
   "end_to_end_encryption": {
-    "hash": "sha256-qfLYRPig+ZkvmHyVfjFRSafUEJrF1q/qU4XqbIf5xp4=",
-    "url": "https://github.com/nextcloud-releases/end_to_end_encryption/releases/download/v2.2.4/end_to_end_encryption-v2.2.4.tar.gz",
-    "version": "2.2.4",
+    "hash": "sha256-lgSxKI9O64Gza2wLh0/Lc0GW6/pjfH38d44L5cBcmzQ=",
+    "url": "https://github.com/nextcloud-releases/end_to_end_encryption/releases/download/v2.3.0/end_to_end_encryption-v2.3.0.tar.gz",
+    "version": "2.3.0",
     "description": "## **End-to-End Encryption**\n\n### For End Users\n\n**Protect your most sensitive files with strong encryption.**\n\nThe End-to-End Encryption app gives you complete control over your data privacy.\nWith this app, you can encrypt specific folders so that only you (and those you trust) can access their contents.\nYour files are encrypted on your device before they reach the server, ensuring that no one—not even the server administrator—can read them.\n\n**Benefits:**\n- 🔒 **True privacy**: Files are encrypted on your device and can only be decrypted by you\n- 📱 **Works across all platforms**: Fully supported on desktop, Android, iOS clients, and as you wish even in the browser\n- 🎯 **Selective encryption**: Choose which folders to encrypt\n- 🛡️ **Secure sharing**: Share encrypted files with other users or even secure public upload using the encrypted file drop\n\n---\n\n### For Administrators\n\n**Enterprise-ready end-to-end encryption infrastructure for your Nextcloud instance.**\n\nThis app provides all the necessary server-side APIs and infrastructure to enable End-to-End encryption (E2EE) for your users.\nIt ensures that encrypted data remains secure throughout its lifecycle on your server.\n\n**Technical highlights:**\n- 🔐 **Complete API suite**: Provides all client-side APIs needed for E2EE implementation\n- 🔒 **Secure FileDrop integration**: Enables secure file sharing with encryption\n- 🛡️ **Zero-knowledge architecture**: Server never has access to encryption keys\n- ⚙️ **Group restrictions**: Limit app usage to specific user groups if needed\n- 🔄 **Background job management**: Automatic rollback handling for failed operations\n\n### Setup\nThis application provides the server-side infrastructure for end-to-end encryption, but it requires client support to function.\nTo enable end-to-end encryption, users will need to install the corresponding client-side app on their devices (desktop, Android, iOS) or use the web client.\n\nUsing the web interface, after enabling it in the personal settings, allows you to encrypt files and folders directly in the browser,\nproviding a seamless experience without needing additional software. But also requires some kind of trust in the server as the code is delivered by the server and could be manipulated.\n\nOnce enable through clients or the web interface, you can create encrypted folders and upload or move files into them.\nThe clients and the web interface will handle the encryption and decryption processes automatically.\n\n⚠️ This comes with some limitations and caveats, as only normal file operations can be handled.\nMeaning that some apps in the web interface do not work with encrypted files.",
     "homepage": "https://github.com/nextcloud/end_to_end_encryption",
     "licenses": [
@@ -880,9 +880,9 @@
     ]
   },
   "files_mindmap": {
-    "hash": "sha256-v2IfK9vQ7GnanPS/haOt9adFBNoBvHaX6C/lpmMpJ1Y=",
-    "url": "https://github.com/nextcloud-releases/files_mindmap/releases/download/v0.1.2/files_mindmap-v0.1.2.tar.gz",
-    "version": "0.1.2",
+    "hash": "sha256-aZgQj8ljAnBkcZMc54VZXsNRknyQmxqhO2t1A3o3ll8=",
+    "url": "https://github.com/nextcloud-releases/files_mindmap/releases/download/v0.1.3/files_mindmap-v0.1.3.tar.gz",
+    "version": "0.1.3",
     "description": "This application enables Nextcloud users to open, save and edit mind map files in the web browser. If enabled, an entry in the \"New\" button at the top of the web browser the mind map file entry appears. When clicked, a new mind map file opens in the browser and the file can be saved into the current Nextcloud folder.",
     "homepage": "https://github.com/nextcloud/files_mindmap",
     "licenses": [
@@ -1860,10 +1860,10 @@
     ]
   },
   "llmchat": {
-    "hash": "sha256-XPSNZfgn029iqBVAgdRutmjpnMyxxunIaqlhKxoxlD0=",
-    "url": "https://github.com/markuman/llmchat/releases/download/2.6.0/llmchat-2.6.0.tar.gz",
-    "version": "2.6.0",
-    "description": "**Privacy-first by architecture. Batteries included. Bring your own LLM.**\n\nA chat interface for large language models where **your browser talks directly to the LLM backend**.\nNextcloud acts only as configuration storage and archive target — it is never a proxy and never sees\nprompts or responses. Not \"we promise not to look\": it structurally cannot.\n\nBecause the requests originate in the browser, `localhost` resolves from the *user's* machine. Your\nNextcloud can live in a datacenter and still talk to an Ollama instance running on your laptop —\nno tunnel, no VPN, no exposed port. No server-side LLM app can do that.\n\nFeatures:\n\n* Bring your own backend: Ollama, llama.cpp, LiteLLM, OpenRouter, vLLM — anything OpenAI-compatible\n* Multiple connections with encrypted API key storage, multiple profiles per connection\n* Profiles carry model, system prompt, temperature, token budget, streaming and reasoning switches\n* Streaming responses with a stop button, edit-and-retry, regenerate — including regenerating the\n  same question with a different profile or model\n* Full-text search across your local chat history\n* Optional agent tools: web search via your own SearXNG, page fetching, clock, and read-only\n  access to your own Nextcloud (Unified Search, Collectives, files, PDF text) — no MCP server,\n  no extra container, no app password needed\n* Skills: Markdown files in your own Files where you write down how a kind of question should be\n  answered, which source to use and how the reply should look. Ships with a weather example that\n  replaces a web search with one API call, fetched by your browser from a host you allowlisted\n* Models can ask you a question in a dialog instead of guessing at an ambiguous requirement\n* File picker in the composer, so a path goes into the prompt without being typed\n* \"LLM Chat\" in the Files menu opens a new chat with that file's path already in the prompt\n* Vision-capable models can be shown an image or a rendered PDF page from your files, behind a\n  per-profile switch that is off by default\n* Approval dialog before any tool call that leaves the browser, on by default\n* Chat history in IndexedDB — local to the browser, by design\n* Archive chats as Markdown files into your Nextcloud files\n* Profile export/import as JSON (never contains secrets)\n\n**Note:** API keys are stored encrypted on the server but are necessarily delivered to the browser,\nsince that is where the request is made. Each user only ever sees their own key.",
+    "hash": "sha256-t1O871KHJ1lmX6dFfI4SCKLVCFsM99e6xm1hriv38Vg=",
+    "url": "https://github.com/markuman/llmchat/releases/download/2.8.0/llmchat-2.8.0.tar.gz",
+    "version": "2.8.0",
+    "description": "**Privacy-first by architecture. Batteries included. Bring your own LLM.**\n\nA chat interface for large language models where **your browser talks directly to the LLM backend**.\nNextcloud acts only as configuration storage and archive target — it is never a proxy and never sees\nprompts or responses. Not \"we promise not to look\": it structurally cannot.\n\nBecause the requests originate in the browser, `localhost` resolves from the *user's* machine. Your\nNextcloud can live in a datacenter and still talk to an Ollama instance running on your laptop —\nno tunnel, no VPN, no exposed port. No server-side LLM app can do that.\n\nFeatures:\n\n* Bring your own backend: Ollama, llama.cpp, LiteLLM, OpenRouter, vLLM — anything OpenAI-compatible\n* Multiple connections with encrypted API key storage, multiple profiles per connection\n* Profiles carry model, system prompt, temperature, token budget, streaming and reasoning switches\n* Streaming responses with a stop button, edit-and-retry, regenerate — including regenerating the\n  same question with a different profile or model\n* Full-text search across your local chat history\n* Optional agent tools: web search via your own SearXNG, page fetching, clock, and read-only\n  access to your own Nextcloud (Unified Search, Collectives, files, PDF text) — no MCP server,\n  no extra container, no app password needed\n* External MCP servers (Streamable HTTP, tools only) with token or OAuth 2.1 sign-in — proxied by\n  the server, so their tokens never reach the browser, and every call asks first\n* Skills: Markdown files in your own Files where you write down how a kind of question should be\n  answered, which source to use and how the reply should look. Ships with a weather example that\n  replaces a web search with one API call, fetched by your browser from a host you allowlisted\n* Models can ask you a question in a dialog instead of guessing at an ambiguous requirement\n* File picker in the composer, so a path goes into the prompt without being typed\n* \"LLM Chat\" in the Files menu opens a new chat with that file's path already in the prompt\n* Vision-capable models can be shown an image or a rendered PDF page from your files, behind a\n  per-profile switch that is off by default\n* Approval dialog before any tool call that leaves the browser, on by default\n* Chat history in IndexedDB — local to the browser, by design\n* Archive chats as Markdown files into your Nextcloud files\n* Profile export/import as JSON (never contains secrets)\n\n**Note:** API keys are stored encrypted on the server but are necessarily delivered to the browser,\nsince that is where the request is made. Each user only ever sees their own key.",
     "homepage": "https://github.com/markuman/llmchat",
     "licenses": [
       "AGPL-3.0-or-later"
@@ -1907,6 +1907,16 @@
     "homepage": "https://github.com/nextcloud/mail#readme",
     "licenses": [
       "agpl"
+    ]
+  },
+  "maildrop": {
+    "hash": "sha256-O9sC3uUjhahuJRm0Ixax2ZA6//F0f1qYmCSah0K0o8s=",
+    "url": "https://github.com/djschilling/Nextcloud-MailDrop/releases/download/v1.1.5/maildrop-1.1.5.tar.gz",
+    "version": "1.1.5",
+    "description": "MailDrop fetches emails via IMAP, extracts attachments, and stores them automatically in a configurable Nextcloud folder.\n\n### Features\n\n- Multiple mappings (each IMAP mailbox → one target user and folder)\n- Optional subject and sender filters\n- Flat storage by default (`YYYYMMDD_HHMMSS_uidN_filename`)\n- Optional per-mail subfolders and `.eml` sidecar files\n- TLS certificate validation, attachment size limit, mark-as-seen or delete after import\n- Background job every 5 minutes, plus `occ maildrop:fetch`\n\n### Privacy\n\nMailDrop connects only to the IMAP servers you configure. IMAP passwords are stored encrypted in your Nextcloud database. The app does not send data to the author or any third-party service.\n\nImported files stay in Nextcloud when you disable the app. To delete stored mappings and IMAP settings, run `occ maildrop:purge-config --yes`.\n\n### Requirements\n\n- Nextcloud 28–35\n- PHP 8.1 or newer (follow the PHP range of your Nextcloud version)\n- Outbound IMAP access and a working system cron for the background job",
+    "homepage": "https://github.com/djschilling/Nextcloud-MailDrop",
+    "licenses": [
+      "MIT"
     ]
   },
   "maintenancecheck": {
@@ -2030,9 +2040,9 @@
     ]
   },
   "nc_gantt": {
-    "hash": "sha256-JsKYhPVw/L1NoTW85IDxrmfOuhQO6nSURFivjYN6AlM=",
-    "url": "https://codeberg.org/fds2610/NC-Gantt/releases/download/v2.1.0-f901310/nc_gantt-2.1.0-f901310.tar.gz",
-    "version": "2.1.0",
+    "hash": "sha256-IyFCFr+6amLhCP5qxiAVj/6oztxNglphO3kAha32+X4=",
+    "url": "https://codeberg.org/fds2610/NC-Gantt/releases/download/v2.2.0-6aba2b6/nc_gantt-2.2.0-6aba2b6.tar.gz",
+    "version": "2.2.0",
     "description": "**Professional project management — inside your own Nextcloud.**\n\nGantt Projects brings structured project planning and day-to-day task execution together in Nextcloud. Plan projects, subprojects, tasks and milestones with a professional Gantt chart — including dependencies, critical path, baselines, resources, capacity, budgets and Earned Value Management.\n\nThe key difference is the integration with **Nextcloud Deck**: connect the project plan with the team's actual work. Link tasks to Deck cards, create cards from project tasks, and optionally synchronize progress, dates and assignees. This connects professional project planning with agile, team-oriented execution without introducing another platform or data silo.\n\nAll project data stays on your own Nextcloud instance: no external service, no tracking, no data leaving your server.\n\n## ✨ Features\n\n* 📊 **Professional Gantt planning**: Projects, subprojects, tasks and milestones in a synchronized Gantt and table view, with day, week, month and sprint scales, inline editing and keyboard navigation.\n* 🔗 **Dependencies & scheduling**: n:m dependencies of all four types (FS, SS, FF, SF), with lag and lead time in working days. Schedule changes propagate through dependency chains and cycles are rejected.\n* 🎯 **Critical path**: Forward and backward scheduling with float calculation; the chain that determines the project end date is highlighted.\n* 📈 **Earned Value Management**: PV, EV, AC, SPI and CPI alongside rollup KPIs for progress, effort, budget and risk.\n* 📐 **Baselines & variance reporting**: Freeze a plan, keep the baseline visible and compare the current schedule against it element by element.\n* 🔮 **What-if simulation**: Test schedule changes without modifying the saved plan.\n* 👥 **Resources & capacity**: Resource groups, optional links to Nextcloud user accounts, multiple assignees per task, capacity planning, workload charts and over-allocation warnings.\n* 📅 **Working calendars**: Week models, regional calendars and holidays are taken into account by date calculations.\n* 🃏 **Nextcloud Deck integration**: Connect projects, subprojects and tasks with Deck boards, lists and cards. Choose between four opt-in synchronization levels, from feedback-only to writing changes with or without confirmation.\n* 🤝 **Sharing & permissions**: Share individual projects as viewer, editor or project admin.\n* 🗓 **Calendar & Tasks integration**: Subscribe to project dates and milestones via ICS and optionally write your own tasks to the Nextcloud Tasks app.\n* 🔄 **Import & export**: JSON, CSV, PNG, SVG and PDF.\n* 🏠 **Dashboard widgets**: See active projects and your next due or overdue tasks directly on the Nextcloud dashboard.\n* 🔔 **Notifications**: Configurable reminders for tasks and milestones, plus notifications for assignments and schedule changes.\n* ↩ **Undo & audit log**: Undo accidental schedule changes including their propagation chain; field changes are recorded.\n* 🔍 **Search & filters**: Filter by risk, overdue items, budget overruns, resources, assigned tasks and missing Deck links without losing the time context.\n* 📖 **Project management glossary**: Around 30 project-management terms and formulas built into the app.\n* 🌐 **Localisation**: English, German, French, Spanish, Italian, Dutch and Brazilian Portuguese.\n\n## 🔐 Sovereign by design\n\nGantt Projects runs entirely on your Nextcloud instance. Project plans, resources, schedules and reports remain under your control — without a separate SaaS service or external tracking.\n\nRequires Nextcloud 31–35 and PHP 8.1 or newer. Works with MySQL, MariaDB, PostgreSQL and SQLite.\n\n## 📚 Documentation\n\n* 🚀 [HOWTO](https://codeberg.org/fds2610/NC-Gantt/src/branch/main/nc_gantt/docs/en/HOWTO.md) — plan a sample project step by step, from the working calendar to the finished report\n* 📋 [Feature reference](https://codeberg.org/fds2610/NC-Gantt/src/branch/main/nc_gantt/docs/en/FEATURES.md) — every function with its purpose, input and output\n* 📝 [Changelog](https://codeberg.org/fds2610/NC-Gantt/src/branch/main/nc_gantt/CHANGELOG.md) — what changed in each release\n* 💾 [Installation](https://codeberg.org/fds2610/NC-Gantt/src/branch/main/nc_gantt/docs/en/INSTALL.md) — setup and update notes\n\n## 🐛 Feedback\n\nBug reports and feature requests are welcome in the [issue tracker](https://codeberg.org/fds2610/NC-Gantt/issues).",
     "homepage": "https://codeberg.org/fds2610/NC-Gantt",
     "licenses": [
@@ -2040,9 +2050,9 @@
     ]
   },
   "ncc_backend_4mc": {
-    "hash": "sha256-6OYBs7m9EGF9/FMRsp305jTltoH1eL74g9NcES9QPWI=",
-    "url": "https://github.com/nc-connector/Server_Backend/releases/download/v1.4.1/ncc_backend_4mc-1.4.1.tar.gz",
-    "version": "1.4.1",
+    "hash": "sha256-10ksX0xJfM56WmAH59gy3Gsns0LrFbQjmw8D1icEbl4=",
+    "url": "https://github.com/nc-connector/Server_Backend/releases/download/v1.4.2/ncc_backend_4mc-1.4.2.tar.gz",
+    "version": "1.4.2",
     "description": "# NC Connector Backend\n\nNC Connector Backend is the optional Nextcloud app for organizations that centrally manage NC Connector for Thunderbird and Outlook Classic. The mail add-ons continue to work without it.\n\nCommunity mode includes one free seat. It gives one assigned Nextcloud user the full Pro feature set. Pro extends this model to teams from five seats. Each seat corresponds to exactly one assigned Nextcloud user.\n\n## Features\n\n- Define Share, Talk, attachment, email-signature and Thunderbird VFS policies\n- Lock selected settings while leaving others editable in the mail add-on\n- Apply defaults with group and user overrides\n- Manage Community and Pro license modes and their user assignments\n- Delegate selected administration tasks without granting full Nextcloud administrator rights\n- Create custom-branded HTML templates for Share blocks, password mails, Talk invitations and email signatures\n- Deliver passwords through a separate mail or an expiring Nextcloud Secrets link\n- Provide backend, license and assignment status for client diagnostics\n- Control NC Connector's Nextcloud VFS provider and access to compatible external VFS sources in Thunderbird\n\nEmail signatures can use Nextcloud profile data and per-user values. Nextcloud Talk and Secrets remain optional integrations.\n\nThe backend does not store email content or attachments.\n\n## Mail clients\n\n- Thunderbird: [https://addons.thunderbird.net/thunderbird/addon/nc4tb/](https://addons.thunderbird.net/thunderbird/addon/nc4tb/)\n- Outlook Classic: [https://github.com/nc-connector/NC_Connector_for_Outlook/releases/latest](https://github.com/nc-connector/NC_Connector_for_Outlook/releases/latest)\n\n## More information\n\n- Homepage: [https://nc-connector.de](https://nc-connector.de)\n- Contact: [https://nc-connector.de/kontakt/](https://nc-connector.de/kontakt/)",
     "homepage": "https://nc-connector.de",
     "licenses": [
@@ -2050,9 +2060,9 @@
     ]
   },
   "netbase": {
-    "hash": "sha256-ge9Pbq2YhOTfsD8UCYPC5NB1Q11MQ2YgBw9hl/UROM4=",
-    "url": "https://github.com/ktec-nc-apps/NetBase/releases/download/v0.7.1/netbase-0.7.1.tar.gz",
-    "version": "0.7.1",
+    "hash": "sha256-VTMCd0l6V0ZVDwDq3IRe5YF9RHPnhV8UKeN3ZvYKuaE=",
+    "url": "https://github.com/ktec-nc-apps/NetBase/releases/download/v0.7.2/netbase-0.7.2.tar.gz",
+    "version": "0.7.2",
     "description": "NetBase turns your Nextcloud into a network console: it finds every device on the LAN, opens each one's own settings page from inside Nextcloud, and keeps the everyday lookup tools on the same screen.\n\nDevice windows are the heart of it. The server fetches a device's own web interface and rewrites every address inside it, so a router, a switch, a printer or a NAS can be signed into and configured from anywhere the Nextcloud is reachable — no VPN, no jump host, no site visit. Firmware can be sent, a configuration restored, a backup taken. Several windows can be open at once.\n\nDiscovery needs no root, no agent and no extra packages: NetBase primes the kernel neighbour table, reads it back, and asks each device for its own name over NetBIOS, mDNS, WS-Discovery and SSDP. It also listens for the announcements devices make, continuously and in the background, so a device sitting on another subnet of the same wire — one nothing here can reach, and which can never answer a question — still appears in the list. MAC addresses are resolved against a bundled IEEE registry of more than 53,000 vendor prefixes, offline.\n\nWhat each part is for:\n- Device windows — a device's own settings page, through Nextcloud, from anywhere\n- LAN sweep and inventory — name, IPv4, MAC, vendor, type and open ports, exportable as CSV\n- DNS — any record type from any resolver, resolver comparison, delegation trace, zone-transfer test\n- Whois and free-domain search — look up any domain or address (IANA referrals, no whois binary), or check a name across a whole range of endings at once to find one that is still free\n- Wake-on-LAN — wake a device by its MAC address\n- TLS and HTTP — certificate, chain and expiry, accepted TLS versions, redirect chain, security headers\n- Mail — SPF, DKIM, DMARC, MTA-STS, DANE and blocklists, plus SMTP/IMAP/POP3 server tests, an open-relay test and a real test message\n- FTP and SFTP — browse a remote server and move files to and from your Nextcloud folders\n- SSH and Telnet — a credential-free probe, and commands or a full terminal on a saved connection\n- Benchmarks — internet speed, LAN throughput over iperf3, resolver comparison, HTTP timing\n- Every result can be copied, downloaded or saved straight into your own Nextcloud files\n\nAccess is per tool. NetBase is an administrator's app, and everything that touches the local network defaults to administrators — but each tool can be opened to named groups or to everyone from Administration settings, so an instance can lend out whois, DNS and the other harmless lookups without lending out the network. Where an account is allowed nothing, NetBase leaves itself out of that account's app menu.\n\nAvailable in twenty languages, and NetBase can be set to a different language from the rest of Nextcloud, per account.",
     "homepage": "https://github.com/ktec-nc-apps/NetBase",
     "licenses": [
@@ -2067,6 +2077,16 @@
     "homepage": "https://github.com/pbek/nextcloud-nextpod",
     "licenses": [
       "agpl"
+    ]
+  },
+  "nextsnapmail": {
+    "hash": "sha256-uFAUIK7KtuEzbN5rQwdvI8zmbWZQxRgW4j3bDKBvsGs=",
+    "url": "https://github.com/oe79/NextSnapMail/releases/download/v0.1.12/nextsnapmail-0.1.12-nextcloud.tar.gz",
+    "version": "0.1.12",
+    "description": "**A SnappyMail fork focused on integration with Nextcloud.**\n\nNextSnapMail is an independent community fork of SnappyMail for the Nextcloud\nuse case. It is not affiliated with, endorsed by, or sponsored by Nextcloud GmbH.\n\nNextSnapMail is under active development and provided as-is. Please test it\ncarefully before using it in production. Installation and use are at your own\nrisk.\n\n**Lightweight & fast email client.**\n\n- **Dark mode**\n- **Responsive design**\n- **Full Sieve filtering support**\n- **Almost all IMAP features** including advanced searching\n- **Integration with Nextcloud Unified Search**\n- **Integration with other Nextcloud apps** (Contacts, Files and Calendar)\n- **Multiple mail accounts and identities**\n- **Integrated Gmail / Google OAuth2 login**, including main account setup from\n  the personal settings and additional Gmail accounts from the webmail account\n  menu\n- **Admin-assisted import from existing SnappyMail installations**, including\n  stored mailbox credentials, additional accounts and app data\n- **Admin reset option** to remove NextSnapMail account settings and recreate a\n  clean NextSnapMail data folder when troubleshooting is needed\n- **Admin-controlled message list size**, including default value, maximum\n  value and an optional enforced setting for all users\n- **Send & receive OpenPGP encrypted/signed emails** (With full HTML support, ECC keys, or plain text with Mailvelope)\n- **Send & receive S/MIME encrypted/signed emails**\n- **Many security features** (Sodium encrypted passwords, Sec-Fetch, TOTP 2FA, DKIM, prevent tracking, etc.)\n- **Kolab integrations**\n\nAfter enabling the app, administrators can configure the integration in the\ndedicated \"NextSnapMail\" section of the Nextcloud administration settings.\nUsers can add their initial mailbox credentials in the dedicated\n\"NextSnapMail\" section of their personal settings.\n\nAdministrators can also use the NextSnapMail administration settings to import\ndata from an existing SnappyMail installation or reset NextSnapMail data for\ntroubleshooting.",
+    "homepage": "https://github.com/oe79/NextSnapMail",
+    "licenses": [
+      "AGPL-3.0-only"
     ]
   },
   "noteberg": {
@@ -2200,9 +2220,9 @@
     ]
   },
   "paperless_sync": {
-    "hash": "sha256-rUg1/GSp1H6hZlBxoEUMNJPv4TvVVmztykhpG8HWaXE=",
-    "url": "https://github.com/Dennis-Otto/paperless-sync/releases/download/v0.1.2/paperless_sync.tar.gz",
-    "version": "0.1.2",
+    "hash": "sha256-qqikjZmJg1HEjJQqvf1vMx+RN8UxiIgW0G9WsDxU5nc=",
+    "url": "https://github.com/Dennis-Otto/paperless-sync/releases/download/v0.1.3/paperless_sync.tar.gz",
+    "version": "0.1.3",
     "description": "### A native bridge between Paperless-ngx and Nextcloud\n\nPaperless Sync mirrors finalized Paperless-ngx documents into a readable Nextcloud folder structure. Paperless remains the authoritative document archive while Nextcloud provides familiar access through Files, desktop sync, mobile apps, sharing, and its built-in viewer.\n\n### Structured, automatic, and reversible\n\n- Exports archive PDFs or original files through the Paperless API\n- Builds a configurable hierarchy from correspondent, document type, date, title, and document ID\n- Moves or renames files when Paperless metadata changes\n- Skips Paperless inbox documents until they are finalized and removes previously mirrored copies when an exclusion tag is added\n- Imports files from a configurable Nextcloud inbox into Paperless\n- Mirrors the Paperless trash into a dedicated Nextcloud folder\n- Optionally removes files after they are permanently deleted from Paperless\n- Removes empty archive folders after moves and deletions\n- Runs through native Nextcloud background jobs with resumable state\n\n### Safe by default\n\nSynchronization is disabled until an administrator completes and validates the configuration. Permanent deletion is an explicit opt-in and can be protected by multiple missing-document confirmations. A dry-run previews changes without modifying files.\n\nThe Paperless API token is stored server-side in Nextcloud's credentials manager and is never returned to the browser. The app operates directly through Nextcloud's filesystem API, so no Nextcloud password or WebDAV credential is required.\n\n### Requirements\n\n- Nextcloud 33 to 35 with reliable cron background jobs\n- A reachable Paperless-ngx instance with API access\n- A dedicated Paperless service account with only the permissions needed for the enabled features\n\nPaperless Sync is independent from [Paperless Unified Search](https://apps.nextcloud.com/apps/paperless_unified_search). Both apps understand stable document markers such as `[P123]` and can be installed separately.",
     "homepage": "https://github.com/Dennis-Otto/paperless-sync",
     "licenses": [
@@ -2210,9 +2230,9 @@
     ]
   },
   "paperless_unified_search": {
-    "hash": "sha256-ZAxaYeNw9p2hiPSnJGO7pFZAG4z7oiySObEDlpuwD3g=",
-    "url": "https://github.com/Dennis-Otto/paperless-unified-search/releases/download/v0.1.7/paperless_unified_search.tar.gz",
-    "version": "0.1.7",
+    "hash": "sha256-o38N40p5f0AsZqqSE5/YWbJYILkKEr2aqQ3asi2sQxk=",
+    "url": "https://github.com/Dennis-Otto/paperless-unified-search/releases/download/v0.1.8/paperless_unified_search.tar.gz",
+    "version": "0.1.8",
     "description": "### Paperless search, seamlessly integrated into Nextcloud\n\nPaperless Unified Search brings Paperless-ngx's OCR-powered document search directly into Nextcloud's global search. Find invoices, contracts, letters, statements, and any text recognized inside your documents — without leaving Nextcloud.\n\n### Search in Paperless. Work in Nextcloud.\n\n- Uses Paperless-ngx's native OCR and full-text search\n- Shows results directly in Nextcloud's global search\n- Opens the synchronized file in Nextcloud's built-in viewer on web, iOS, and Android\n- Matches documents through stable markers such as `[P123]`\n- Includes only files the current Nextcloud user is allowed to access\n- Automatically excludes documents that have not yet been synchronized\n\n### Privacy and access control\n\nPaperless is queried server-to-server. The API token is stored in Nextcloud's encrypted credentials manager and is never exposed to the browser.\n\nBy default, searches are sent to Paperless only when users enable connected-services search. Administrators can optionally mark their Paperless server as trusted and include it automatically in every global search.\n\nA dedicated, read-only Paperless account is recommended.\n\n### Requirements\n\n- Nextcloud 33 to 35\n- A reachable Paperless-ngx instance with API access\n- Synchronized files whose names contain their Paperless document marker, for example `[P123]`\n\nThis app provides search integration only. It does not synchronize documents between Paperless and Nextcloud.\n\n### Native synchronization companion\n\nFor structured document synchronization, use the independent [Paperless Sync](https://github.com/Dennis-Otto/paperless-sync) Nextcloud app. Both apps use the same stable `[P123]` document marker and can be maintained and updated separately.",
     "homepage": "https://github.com/Dennis-Otto/paperless-unified-search",
     "licenses": [
@@ -2359,6 +2379,16 @@
       "agpl"
     ]
   },
+  "rechnungswerk": {
+    "hash": "sha256-SdgabfFyKqjsQVW6UXO9VztngNmmmq2NjxHyLdpHQAU=",
+    "url": "https://github.com/cpcMomentum/rechnungswerk/releases/download/v0.6.0/rechnungswerk-v0.6.0.tar.gz",
+    "version": "0.6.0",
+    "description": "# RechnungsWerk\n\nSchlanke Nextcloud-App zum Erstellen von Rechnungen und **E-Rechnungen** (ZUGFeRD/EN16931)\nfür deutsche Unternehmen — mit frei wählbarem Empfänger pro Rechnung und automatischer\nÜbergabe an DATEV, ohne den starren Zwang von DATEV Auftragswesen Next.\n\n## Features\n\n- **Rechnungs-Editor** — Positionen mit Menge, Maßeinheit, Einzelpreis und USt-Satz pro Zeile, Live-Summen\n- **ZUGFeRD-Erzeugung** — eine lesbare PDF, die zugleich eine gültige E-Rechnung ist (PDF/A-3 + EN16931-CII-XML)\n- **Festschreibung** — GoBD-konform: Entwurf → festgeschrieben (unveränderbar) → Storno/Gutschrift\n- **DATEV-Übergabe** — automatisch per Upload Mail beim Festschreiben\n- **Kundenversand** — PDF-Download und In-App-Versand mit Empfängerwahl aus Nextcloud-Kontakten\n- **Produktkatalog** — wiederkehrende Leistungen einmal pflegen\n- **Stammdaten** — Firmendaten, Logo, Standardtexte, Nummernformat, Kleinunternehmer §19",
+    "homepage": "",
+    "licenses": [
+      "AGPL-3.0-or-later"
+    ]
+  },
   "recognize": {
     "hash": "sha256-bdeMFBomHKbEZC/lL7TBl5nFB5PGRtay5TaWwvwHo7E=",
     "url": "https://github.com/nextcloud/recognize/releases/download/v13.1.0/recognize-13.1.0.tar.gz",
@@ -2370,9 +2400,9 @@
     ]
   },
   "regibase": {
-    "hash": "sha256-o8kadzULDON6IMG+x2EaYWAc8saoo/nOg5HubzlR0us=",
-    "url": "https://github.com/ktec-nc-apps/RegiBase/releases/download/v0.20.0/regibase-0.20.0.tar.gz",
-    "version": "0.20.0",
+    "hash": "sha256-4QI9S1yIiCeW0nj+XoP3wfyoltfYQtyIdH5SgW155BU=",
+    "url": "https://github.com/ktec-nc-apps/RegiBase/releases/download/v0.20.3/regibase-0.20.3.tar.gz",
+    "version": "0.20.3",
     "description": "RegiBase is a lightweight personal database for the information you want to keep — credit cards, bank accounts, online accounts, memberships, licenses, contacts and anything else.\n\nDesign your own fields (or start from a template), then browse records as a list, a spreadsheet-style table (with a frozen first column), or cards, and choose per field which of those views it appears in.\n\nRegiBase works together with your other Nextcloud apps — Contacts, Tables, Files, Notes and Calendar — using each one when it is installed.\n\nFeatures:\n- Custom form fields with per-field input rules, built from reusable templates\n- Save your own templates, and edit the built-in ones (per-user override, resettable to default)\n- Duplicate a collection — optionally including all of its records\n- Share a collection with Nextcloud users or groups at three levels (view / edit / delete), with an optional access password and optional secret-field sharing\n- Optional client-side encryption (AES-GCM) for secret fields — the server never sees the key or the plaintext\n- Nextcloud Tables integration: import a table into a new collection, or export a collection to a new Tables table\n- Import from CSV / JSON (e.g. Google Password Manager), or from your Nextcloud Contacts (including photos)\n- Attach images and files from Nextcloud Files or Notes\n- Add reminders to Nextcloud Calendar from date fields, and open addresses in a map (Google Maps / Yahoo! Maps / OpenStreetMap / Apple Maps / Bing Maps), configurable per collection\n- Move / copy / merge records between collections\n- Password-protected full backup & restore (AES-256 ZIP)\n- Command-line access via occ — list / get / export / find (with regex), plus master-key management (set / change / remove) — with opt-in secret decryption\n- Available in 21 languages (Portuguese in both Brazilian and European forms)",
     "homepage": "https://github.com/ktec-nc-apps/RegiBase",
     "licenses": [
@@ -2549,6 +2579,16 @@
       "agpl"
     ]
   },
+  "share_audit_dashboard": {
+    "hash": "sha256-uwn1hL1ZQy1mdQn+xG9pepA8tGGl4I6U5R5TyLarQGA=",
+    "url": "https://github.com/kreotropic/share_audit/releases/download/v0.8.0/share_audit_dashboard-v0.8.0.tar.gz",
+    "version": "0.8.0",
+    "description": "See and audit every share on your Nextcloud, in the browser and not the command line.\n\nShare Audit Dashboard gives administrators a single, visual overview of every share on the\ninstance (user, group, public link, email, federated, Talk), flags the risky ones, and lets you\nfix them in bulk. Regular users get a personal view to audit and clean up the files they share.\n\n**For administrators (Settings → Administration → Share Audit):**\n- Dashboard: totals per share type, a 12‑month creation trend, an internal‑vs‑external exposure\n  donut, top sharers, and attention banners for insecure links and orphaned shares.\n- All shares: a filterable, sortable, server‑side paginated table with per‑column header filters\n  and human‑readable permissions. Export the filtered view to CSV.\n- Security alerts: public links with no password, no expiration, or a sensitive file type, fixable\n  individually or in bulk (add a generated password, set an expiration, revoke). Rules configurable.\n- Orphan shares: shares still owned by disabled or deleted accounts, with bulk revoke or transfer to another account.\n- Exposure map: internal / external / public reach, a 0‑100 exposure score and the top public sharers.\n- Access lookup: search a user, group or email and see every file they can reach, with revoke‑all.\n\n**For every user (Settings → Personal → My shares audit):**\n- Review the files you share and fix your own risky public links (add password / set expiration /\n  revoke), plus a dashboard widget highlighting the links that need your attention.\n\nUnlike the CLI‑only sharelisting app, everything is available in the browser.",
+    "homepage": "https://github.com/kreotropic/share_audit",
+    "licenses": [
+      "AGPL-3.0-or-later"
+    ]
+  },
   "share_via_device": {
     "hash": "sha256-CM4cKJ3EWrusrL+7WngljQwPq09+TjKEWbvankmEeTQ=",
     "url": "https://github.com/lee-soda/share_via_device/releases/download/v1.0.1/share_via_device-v1.0.1.tar.gz",
@@ -2630,9 +2670,9 @@
     ]
   },
   "smartcook": {
-    "hash": "sha256-kng7HUYhduBi2oCnCaNX4ORhN5InGrLFXlQmHImzrbA=",
-    "url": "https://github.com/gabryk91/smartcook/releases/download/v1.0.159/smartcook-1.0.159.tar.gz",
-    "version": "1.0.159",
+    "hash": "sha256-eobLz5LfgVXSUKcRQNus3fPHPYxabOHkZQLK/URwkXY=",
+    "url": "https://github.com/gabryk91/smartcook/releases/download/v1.0.188/smartcook-1.0.188.tar.gz",
+    "version": "1.0.188",
     "description": "SmartCook is a self-hosted, multilingual recipe manager for Nextcloud. Organize recipes with structured ingredients, substitutions, steps, timings, nutrition, tags, categories and tools; plan meals, generate shopping lists, share recipes and export your collection.\n\nImport recipes from ordinary webpages, YouTube videos, public Facebook posts and Reels, and public Instagram posts and Reels, as well as pasted text, Markdown, JSON and supported files. SmartCook extracts the publicly exposed title, description or caption and cover image when available, then always presents an editable preview before saving. Private, restricted or login-required social content cannot be imported.\n\nSmartCook checks Schema.org recipe data first and then uses deterministic local parsing. AI refinement and OCR are optional: choose and configure only the providers you trust. Your source is never saved until you review and confirm the extracted recipe.",
     "homepage": "https://github.com/gabryk91/smartcook",
     "licenses": [
@@ -2940,8 +2980,8 @@
     ]
   },
   "uniteos_notifier": {
-    "hash": "sha256-vaWgvCrCGCfm5ygADrXCKR/nRTU9DFar/FQZg59ajus=",
-    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/1.0.6/uniteos_notifier.tar.gz",
+    "hash": "sha256-yoNEdBloqNFtXTZsR4EN1PoTlGRjQKObaZ2B+qSFp4g=",
+    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/main/uniteos_notifier.tar.gz",
     "version": "1.0.6",
     "description": "This app allows forwarding Nextcloud events for a deeper integration into UniteOS developed by wechange eG by presenting a selected set of events as user notifications.",
     "homepage": "",
@@ -3149,10 +3189,20 @@
       "agpl"
     ]
   },
+  "worktime": {
+    "hash": "sha256-PXT4qdLwSv9zBrKzOp4tyoK7jYIMptfRHWu5V25om3Q=",
+    "url": "https://github.com/cpcMomentum/worktime/releases/download/v0.24.0/worktime-v0.24.0.tar.gz",
+    "version": "0.24.0",
+    "description": "# WorkTime - Arbeitszeiterfassung für Nextcloud\n\nGesetzeskonforme Arbeitszeiterfassung für kleine Unternehmen in Deutschland.\n\n## Erfassung & Berechnung\n\n- **Zeiterfassung** mit Start, Ende und Pause\n- **Automatische Pausenberechnung** nach §4 ArbZG\n- **Überstundenkonto** mit Soll/Ist-Vergleich und Eintrittsdatum-Berücksichtigung\n- **Projektbezogene Erfassung** für bessere Auswertung\n- **Deutsche Feiertage** automatisch nach Bundesland\n\n## Urlaub & Abwesenheiten\n\n- **Urlaubsverwaltung** mit Quoten-Validierung und Resturlaub-Anzeige\n- **Abwesenheiten**: Urlaub, Krankheit, Sonderurlaub, Freizeitausgleich\n- **Jahresübertrag** für Überstunden und Resturlaub vom Vorjahr — automatisch und manuell korrigierbar\n\n## Reporting & Team\n\n- **Monatsübersicht** mit PDF-Export\n- **Team-Übersicht** für Vorgesetzte und HR-Manager\n- **Jahresübersicht** mit allen Mitarbeitern und Übertragswerten\n- **Audit-Log** für vollständiges Änderungsprotokoll (Admin/HR)\n\n## Workflow & Genehmigung\n\n- **Rollenbasierte Berechtigungen** (Admin, HR-Manager, Supervisor, Employee)\n- **Genehmigungsworkflow** für Abwesenheiten mit eingebetteter Zeitanzeige\n- **Kontextuelle Hilfe** mit Info-Icons an allen relevanten Stellen\n\n## Internationalisierung\n\n- **Mehrsprachig**: Deutsch und Englisch\n\nBehalten Sie den Überblick über Arbeitszeiten, Überstunden und Urlaub.",
+    "homepage": "",
+    "licenses": [
+      "AGPL-3.0-or-later"
+    ]
+  },
   "x2mail": {
-    "hash": "sha256-A89AYACVpCgci6MGHHR49gJUHunNXk6mVNFD6CSVwso=",
-    "url": "https://github.com/NK-IT-CLOUD/x2mail/releases/download/v0.8.4/x2mail-0.8.4.tar.gz",
-    "version": "0.8.4",
+    "hash": "sha256-IVD477uZJPuBYJwQ09axVRtYkba1X/cVJH5w5tWXfsc=",
+    "url": "https://github.com/NK-IT-CLOUD/x2mail/releases/download/v0.8.5/x2mail-0.8.5.tar.gz",
+    "version": "0.8.5",
     "description": "X2Mail is webmail for Nextcloud with native SSO.\n\nLog in to Nextcloud through your OIDC provider and open Email. X2Mail passes your OIDC token to the mail server via OAuth2 (OAUTHBEARER/XOAUTH2), so users never enter a separate mail password or see a second login form.\n\nX2Mail uses Nextcloud's own APIs. It needs no external services and no database of its own.\n\n### Nextcloud integration\n- Contacts: read, create and edit contacts in all your Nextcloud address books\n- Files: attach files from Nextcloud Files, save emails and attachments there\n- Calendar: add ICS invitations to your calendar, with a warning if the event already exists\n- Dashboard: widget for unread mail, with automatic OIDC token refresh\n- Search: find emails through Nextcloud Unified Search\n- SSO: IMAP access with your OIDC login instead of stored credentials\n\n### Features\n- SSO without extra configuration in X2Mail: OAUTHBEARER and XOAUTH2 are detected automatically and the token is refreshed before it expires\n- Nextcloud admins manage X2Mail in the Nextcloud settings, without a separate admin password\n- Setup wizard with preflight checks for IMAP, SMTP and OIDC, plus token diagnostics\n- Nextcloud theme with light and dark mode\n- Server-side mail filters (Sieve)\n- Multiple sender identities\n- OpenPGP and S/MIME\n- Command line: `occ x2mail:setup`, `occ x2mail:status`\n\n### Setup\n```\nocc x2mail:setup --imap-host mail.example.com --domain example.com --sieve\n```\n\n### Requirements\n- Nextcloud 33 to 35, PHP 8.3+\n- Mail server with OAuth2 SASL (OAUTHBEARER) on IMAP and SMTP submission; tested with Dovecot 2.4+ with Postfix, and with Stalwart 0.16+\n- `user_oidc` with an OIDC provider; tested with Keycloak",
     "homepage": "https://github.com/NK-IT-CLOUD/x2mail",
     "licenses": [
