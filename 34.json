@@ -210,9 +210,9 @@
     ]
   },
   "astrolabe": {
-    "hash": "sha256-l1Ptkfn0e4v+lY8tuzam91yfWSx5Y580FLslQcuZFRQ=",
-    "url": "https://github.com/cbcoutinho/astrolabe/releases/download/v0.45.1/astrolabe-0.45.1.tar.gz",
-    "version": "0.45.1",
+    "hash": "sha256-DygXXjYIUaz5C2bQaXKcw9dGLhsPHRDNDCd7L41E48U=",
+    "url": "https://github.com/cbcoutinho/astrolabe/releases/download/v0.45.2/astrolabe-0.45.2.tar.gz",
+    "version": "0.45.2",
     "description": "# Astrolabe - Semantic Search for Nextcloud\n\nFind your content by meaning, not just keywords. Astrolabe brings AI-powered semantic search to your Nextcloud, helping you discover documents, notes, calendar events, and files through natural language.\n\n## Features\n\n- **Semantic Search**: Search across Notes, Files, Calendar, Deck, and more using natural language queries\n- **Unified Search Integration**: Results appear in Nextcloud's global search bar alongside traditional results\n- **Background Indexing**: Your content is automatically indexed for instant semantic search\n- **Vector Visualization**: Explore your content in an interactive 2D visualization showing semantic relationships\n- **Hybrid Search**: Combines semantic understanding with keyword matching for best results\n\n## How It Works\n\nAstrolabe connects to a semantic search service that understands the meaning of your content. Instead of exact keyword matches, you can search for concepts - ask \"meeting notes from last week\" or \"recipes with chicken\" and find relevant documents even if they don't contain those exact words.\n\n## Getting Started\n\n1. Install and enable the app\n2. Grant background access to allow indexing of your content\n3. Start searching with natural language in Nextcloud's search bar\n\nSee [documentation](https://github.com/cbcoutinho/astrolabe) for configuration details.",
     "homepage": "",
     "licenses": [
@@ -1789,6 +1789,16 @@
       "agpl"
     ]
   },
+  "group_manager": {
+    "hash": "sha256-lIh3M8+nqWt0scoNQwZsoYzSvsUshLBLbLMxuOonhvU=",
+    "url": "https://github.com/kreotropic/group_manager/releases/download/v0.4.1/group_manager-v0.4.1.tar.gz",
+    "version": "0.4.1",
+    "description": "Group Manager gives administrators a single screen to browse groups (local and LDAP), manage\nlocal group membership in bulk, and — when Team Folders is installed — create or assign group\nfolders and their per-group permissions and quota, without leaving Settings.\n\n- Browse local and LDAP/AD groups side by side, searchable, with LDAP groups grouped separately.\n- Add people, a whole group at once, or a pasted list to a local group; queue several changes as\n  colored chips and apply them in one batch that never aborts over a single failed row.\n- Make members group admins (Nextcloud subadmins) right from the member list, in the same\n  queued batch.\n- Create a new group folder or assign an existing one to a group, edit Write/Share/Delete\n  permissions and the folder's quota, and see a badge when a folder has advanced permissions\n  (ACL) enabled — works for LDAP groups too.\n- LDAP group membership stays read-only, as the directory is the source of truth; everything else,\n  group admins included, works the same as for a local group.",
+    "homepage": "https://github.com/kreotropic/group_manager",
+    "licenses": [
+      "AGPL-3.0-or-later"
+    ]
+  },
   "groupfolders": {
     "hash": "sha256-v/81exK70kJX2NEnzzDoOnIlbnZZ8cw+Mr0J/mR9L5s=",
     "url": "https://github.com/nextcloud-releases/groupfolders/releases/download/v22.0.6/groupfolders-v22.0.6.tar.gz",
@@ -2550,11 +2560,11 @@
     ]
   },
   "kanso": {
-    "hash": "sha256-JIWz8pzbnkvCN2j16eVvHFXKQHV9uP7C9KirBnyjxPY=",
-    "url": "https://github.com/aktasfatih/kanso/releases/download/v0.37.0/kanso.tar.gz",
-    "version": "0.37.0",
+    "hash": "sha256-rZMo7V5a7zKAKkQ0fwhol2lrJpKvRB7xR8H8MejXfCg=",
+    "url": "https://github.com/aktasfatih/kanso/releases/download/v0.38.0/kanso.tar.gz",
+    "version": "0.38.0",
     "description": "Kanso is a kanban board app for Nextcloud, built for speed. Boards, stacks and\ncards with instant drag & drop, optimistic updates and payloads sized for large\nboards (2,000+ cards). Realtime updates via notify_push, with a polling fallback.\n\nRich cards with markdown, labels, due dates, assignees, priorities, checklists,\nparent/child cards and threaded comments with @mentions and watchers. File\nattachments (up to 100 MiB each), custom fields per board (text, number, date or\na select list), time tracking with a per-card total, and private reminders on a\ncard or a single comment. Board sharing with per-user and per-group access\ncontrol, plus an optional read-only public link that needs no Nextcloud account.\n\nA review workflow (request review, approve / request changes, customizable\nreview types, and an optional done-gate). A cross-board My Work hub (my tasks,\nreviews, inbox), cross-board Projects, and per-board and per-project analytics\n(velocity, cycle time, throughput). Board, List and Timeline (Gantt) views, with\nswimlanes, saved filters and display sort.\n\nRecurring cards on RRULE schedules, auto-archive rules, WIP limits and stack\nroles, card templates, a command palette with full-text search, and trash with\nrestore.\n\nEvery board you can read also appears as a read-only CalDAV task list of its\ndue-dated cards, with an optional per-board .ics feed. Email intake turns mail in\nan IMAP folder into cards in a column you choose, and GitHub and Forgejo links\nand webhooks keep cards in step with pull requests and issues. One-click Import\nfrom Deck, import from a Trello JSON export or a CSV, board export and re-import\nas a zip with attachments, board duplication, and scheduled periodic backups of\nevery board for administrators.",
-    "homepage": "https://github.com/aktasfatih/kanso",
+    "homepage": "https://aktasfatih.com/kanso/",
     "licenses": [
       "agpl"
     ]
@@ -2900,9 +2910,9 @@
     ]
   },
   "media_embedding_connector": {
-    "hash": "sha256-keBxBOwI1rA4DLMxzkLub19clF9u6omHFNUB7odTDOw=",
-    "url": "https://github.com/Digitale-Medien-der-Armee-DMA/media_embedding_connector/releases/download/v0.4.3/media_embedding_connector-0.4.3.tar.gz",
-    "version": "0.4.3",
+    "hash": "sha256-ZlbecGBS8l6DKLbbM94UlMa8k/S4zvgC2gN+tRUQgt8=",
+    "url": "https://github.com/Digitale-Medien-der-Armee-DMA/media_embedding_connector/releases/download/v0.4.4/media_embedding_connector-0.4.4.tar.gz",
+    "version": "0.4.4",
     "description": "Search images in Nextcloud by meaning or visual similarity.\n\nMedia Embedding Connector sends supported images and text queries to an administrator-configured Media Embedding Service. The resulting vectors are stored in a connector-managed Elasticsearch index. The current adapter supports the MediaLab External API.\n\n* Search with natural-language descriptions\n* Find visually similar images, including from a temporary uploaded query image\n* Browse permission-filtered results in a responsive image layout\n* Open previews, download files, or navigate to their source folder\n* Keep filenames, paths, users, groups, shares, and access-control data in Nextcloud\n\nThe app requires a compatible embedding API and Elasticsearch 8.12 or newer. Administrators retain control over network endpoints, indexing activation, supported formats, and backfill operations.",
     "homepage": "https://github.com/Digitale-Medien-der-Armee-DMA/media_embedding_connector",
     "licenses": [
@@ -2910,9 +2920,9 @@
     ]
   },
   "mediafetch": {
-    "hash": "sha256-PlUqjRUqw9bYAnMBqLjfvi6RrbMeeYxxKtNQq0bpu1c=",
-    "url": "https://github.com/Happyfeet01/mediafetch/releases/download/v1.1.1/mediafetch-1.1.1.tar.gz",
-    "version": "1.1.1",
+    "hash": "sha256-K7te9WHnrvRa1MqihJkIFt/rxrixvg/5nus0pYJrzqY=",
+    "url": "https://github.com/Happyfeet01/mediafetch/releases/download/v1.1.3/mediafetch-1.1.3.tar.gz",
+    "version": "1.1.3",
     "description": "MediaFetch is a download manager for Nextcloud that combines aria2 and yt-dlp in one web interface.\n\nFeatures include regular HTTP/HTTPS downloads, BitTorrent and magnet downloads through aria2, and media downloads through yt-dlp. Administrators keep control over global downloader settings while every user can configure their own download folders, aria2 options and yt-dlp options.\n\nMediaFetch is based on the original NCDownloader / Net loader project and continues its AGPL-licensed codebase.",
     "homepage": "https://github.com/Happyfeet01/mediafetch",
     "licenses": [
@@ -3630,8 +3640,8 @@
     ]
   },
   "profile_fields": {
-    "hash": "sha256-rwi3ti8J2nZJlxLfft6DZUAHvfyjPkmdH4qygfZ4lI8=",
-    "url": "https://github.com/LibreCodeCoop/profile_fields/releases/download/v4.0.0/profile_fields-v4.0.0.tar.gz",
+    "hash": "sha256-AzWTJcD/EyxWsmj8/RrgHWTxIIAb6URMEZAcjy0kHAk=",
+    "url": "https://github.com/LibreCodeCoop/profile_fields/releases/download/nightly/profile_fields-nightly.tar.gz",
     "version": "4.0.0",
     "description": "Profile fields lets organizations extend Nextcloud user profiles with customizable fields, per-field access control, and integration-friendly APIs.\n\nCreate custom fields for support regions, product specialties, escalation aliases, customer segments, internal access levels, and any other organization-specific context that does not belong in the default profile.\n\nEach field is governed by edit and visibility rules so teams can combine self-service updates with admin-managed data, keeping sensitive operational context accurate without losing usability for employees, partners, and support teams.\n\n## Donation\n\nDeveloped with ❤️ by [LibreCode](https://librecode.coop). Ongoing maintenance, bug fixes, and long-term sustainability depend on community support.\n\n* [Sponsor LibreSign on GitHub (monthly recurring support is especially welcome): ![Donate using GitHub Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/LibreSign)",
     "homepage": "https://librecode.coop",
@@ -3780,9 +3790,9 @@
     ]
   },
   "reinhardterp": {
-    "hash": "sha256-ccK8zkjew0i8bPZx5Uwrr2IfJSWDVO3sD9ZmxFxeF68=",
-    "url": "https://github.com/SchreinereiReinhardt/NextERP/releases/download/v2.9.10/reinhardterp-2.9.10.tar.gz",
-    "version": "2.9.10",
+    "hash": "sha256-KeA4wsWeCWSeMi78tMyY3TTrRBrjSkc1oSlUzH6F9uU=",
+    "url": "https://github.com/SchreinereiReinhardt/NextERP/releases/download/v2.10.18/reinhardterp-2.10.18.tar.gz",
+    "version": "2.10.18",
     "description": "Betrio is an ERP and project management solution designed specifically for trades and craft businesses and integrated directly into Nextcloud.\n\nThe app combines commercial and operational workflows in one central application – from customers and projects to quotations, orders and invoices, as well as work reports, time tracking, materials, documents and mobile on-site processes.\n\nFeatures:\n\n- Customer management and CRM\n- Project management and digital project files\n- Quotations and orders\n- Invoices\n- Progress and final invoices\n- Credit notes and cancellations\n- Payment status and incoming payments\n- Outstanding and overdue receivables\n- PDF invoices\n- XRechnung\n- Invoice audit trail and invoice finalization\n- Quotation → order → invoice workflow\n- Work reports with signature and PDF\n- Time tracking and evaluation\n- Material and inventory management\n- DATANORM import with preview and supplier assignment\n- Inventory assistant and inventory list as PDF\n- Supplier filtering and sorting in the material master data\n- PDF evaluations for working time, billing, finance, taxes and project post-calculation\n- Documents, photos and project files\n- Smart Document Inbox for incoming documents\n- Digital attendance clock with breaks and manual corrections\n- Individual work schedules and working-time account\n- Vacation, sickness, training and other absences\n- Workforce planning and team calendar\n- Appointments and project timeline\n- Financial overviews and open items\n- Cash book and tax overviews\n- DATEV EXTF export\n- Mobile smartphone interface\n- Camera and barcode functions\n- Integration with Nextcloud Files\n- German and English user interface\n\nAttendance time, project time and planned time are deliberately kept separate. The working-time account supports individual target hours per weekday, approved absences, a configurable start date and an opening balance.\n\nAfter an update, Betrio shows each user a one-time overview of important changes. Release information remains available under Help → What's new?.\n\nA separate Android app, “Betrio Mobile”, is also available.\n\nBetrio runs directly within your own Nextcloud installation. Customer, project and business data therefore do not need to be moved to a separate ERP cloud to operate Betrio.\n\nThe commercial functions support the workflow from quotation and order through invoicing to payment receipt. Finalized invoices and relevant actions are documented through the invoice audit trail.\n\nA DATEV EXTF export is available for exchanging accounting data.\n\nXRechnung is integrated and continues to be developed and validated.\n\nBetrio does not replace tax or legal advice. Accounting and export functions should be checked against the requirements of your business and, where appropriate, coordinated with your tax adviser before productive use.",
     "homepage": "",
     "licenses": [
@@ -4310,9 +4320,9 @@
     ]
   },
   "structura_integration_gateway": {
-    "hash": "sha256-n7zusbzu0n5YpDxzdaLYfcf4eb53JKnArrmeObkIufY=",
-    "url": "https://github.com/struct-ura/structura-integration-gateway/releases/download/v1.0.0/structura_integration_gateway-v1.0.0.tar.gz",
-    "version": "1.0.0",
+    "hash": "sha256-EaC2qDg/RcUN6ELK8uXO9pi1ldbIsW5GbkCn2O40rpQ=",
+    "url": "https://github.com/struct-ura/structura-integration-gateway/releases/download/v1.0.3/structura_integration_gateway-v1.0.3.tar.gz",
+    "version": "1.0.3",
     "description": "## **Structura Integration Gateway**\n\nStructura Integration Gateway provides a secure and lightweight way to centrally manage custom JavaScript integrations in Nextcloud.\n\nAdministrators can configure JavaScript through the Nextcloud administration settings. Configured integrations are loaded automatically for authenticated users while remaining disabled on login and unauthenticated pages.\n\n### Key features\n\n- Central management through Nextcloud administration settings\n- Available only to authenticated Nextcloud users\n- No JavaScript injection on login or public pages\n- Lightweight integration without additional background services",
     "homepage": "https://github.com/struct-ura/structura-integration-gateway",
     "licenses": [
@@ -4360,11 +4370,11 @@
     ]
   },
   "task_proc_util": {
-    "hash": "sha256-tyBJKBhkYE3pd29Lce+WOb0O6IJA377SsrGQUTg7JjI=",
-    "url": "https://github.com/kyteinsky/task_proc_util/releases/download/v0.1.1/task_proc_util-v0.1.1.tar.gz",
-    "version": "0.1.1",
-    "description": "A persistent supervisor service that scales the number of Task Processing\nPHP workers up and down between an admin-configurable minimum and maximum,\nbased on the size of the Task Processing queue. Each task type is scheduled\nfairly so that a flood of one task type cannot starve the others.\n\nThe supervisor is a single static binary (written in Go) that reads the task\nqueue directly from the Nextcloud database and spawns long-lived PHP workers,\neach pinned to one task type and recycled periodically to pick up config\nchanges.",
-    "homepage": "",
+    "hash": "sha256-rQ8ZR9mLFoYZQTEq1v7B7yfVe4uhAB+El92w9ZKguQw=",
+    "url": "https://github.com/kyteinsky/task_proc_util/releases/download/v0.1.2/task_proc_util-v0.1.2.tar.gz",
+    "version": "0.1.2",
+    "description": "**Disclaimer: this project has been vibe coded.**\n\nThis application changes the number of Nextcloud Task Processing workers\nautomatically. It calculates the number of workers from the number of tasks in\nthe queue. The number of workers stays under a maximum value. The administrator\nsets this value.\n\nThe application gives workers to all the task types. Thus a large number of\ntasks of one type does not prevent the operation of the other types.\n\nThe Nextcloud administrator manual gives this method in \"Improve AI task pickup\nspeed\". This application uses the same method. But it calculates the number of\nworkers from the queue. It does not use a constant number of workers.\n\nA supervisor service does the work. The supervisor is one static binary,\nwritten in Go. It reads the task queue and its configuration directly from the\nNextcloud database. Then it starts workers with the command\n`occ taskprocessing-util:run`. Each worker operates on one task type only. Each\nworker stops after a time limit, and the supervisor starts a new one. Thus the\nworkers get the new configuration.\n\n## Setup\n\nThe application has two parts: this application, and a supervisor service that\nyou must start yourself. **The application does nothing until the service\noperates.**\n\n1. Enable the application: `occ app:enable task_proc_util`\n2. Write a systemd unit that starts\n   `apps/task_proc_util/bin/task_proc_util-supervisor` and gives it the path to\n   your `config.php`. The service must operate on the same computer as\n   Nextcloud. It must also operate as the user that owns `config.php`, usually\n   `www-data`, because `occ` does not operate as a different user. An\n   application password is not necessary. HTTP credentials are not necessary.\n   Set `TimeoutStopSec=3600`, so the workers can complete the current task\n   when the service stops.\n3. Start the service, then examine its log. If `occ` does not operate, the\n   supervisor shows the cause and stops immediately.\n4. Adjust the settings in **Administration → Artificial Intelligence**: the\n   main switch, the maximum number of workers, the poll interval, and the\n   config reload interval.\n\nThe README file gives the complete systemd unit, the requirements, and all the\nflags and environment variables:\nhttps://github.com/kyteinsky/task_proc_util#setup",
+    "homepage": "https://github.com/kyteinsky/task_proc_util",
     "licenses": [
       "agpl"
     ]
@@ -4600,10 +4610,10 @@
     ]
   },
   "twofactor_email": {
-    "hash": "sha256-Rl93A8u2dWnRcCSM8dc9gReg/tKv5sxqqNZ395WyYHg=",
-    "url": "https://github.com/datenschutz-individuell/twofactor_email/releases/download/3.5.1/twofactor_email.tar.gz",
-    "version": "3.5.1",
-    "description": "### A Two-Factor-Auth Provider using email\n\nNextcloud supports web logins with a second factor (two-factor authentication,\n2FA). To support a certain type of 2FA, a \"2FA provider\" server app must be\ninstalled. 2FA kicks in after the primary authentication stage (typically\nusername and password) were successful. This provider challenges the user to\nenter a randomly generated authentication code (aka one-time password, OTP,\ndefault: six digits). It sends that code to the user's primary email address\nand expects the user to enter it on an additional second step web login page.\n\n### Installation, activation and usage\n\nAs with any 2FA provider, two-factor email must be installed and enabled by a\nNextcloud server admin. Additionally, the Nextcloud must have a working email\nserver configured.\n\nThe user may set up any of the installed providers or even multiple. This\nprovider uses email to send the code and thus can only be enabled if an email\naddress is set in \"Personal info\". Mind that a user may not be able to log in\nif that email address is invalid (or email server setup of the Nextcloud is\nnot working properly).\n\nAdmins with console access may enable and disable this provider for specified\nusers via \"occ\" command. Admins may also enforce 2FA for all users (or specific\ngroups) via \"Admin Settings\". This is a Nextcloud feature and not specific to\nthis provider. If enforced, users with no 2FA are prompted to enable any\ninstalled provider (if they support that feature). This provider supports it\nsince v3. If the admin installs this provider and enforces 2FA, it should be\nensured that each user does have a valid email address.\n\nMind that, once a user enabled any 2FA provider, they can no longer use their\npassword in applications that don't support the web-based 2FA login flow. For\nsuch applications, the user needs to create and use app passwords (to be found\nat the bottom of \"Personal Settings/Security\").",
+    "hash": "sha256-7bQksPtM6ZjiaCOr8SCIsvgloH9r/V1mqAIzqGgjZ58=",
+    "url": "https://github.com/datenschutz-individuell/twofactor_email/releases/download/3.6.0/twofactor_email.tar.gz",
+    "version": "3.6.0",
+    "description": "### A two-factor provider using email\n\nNextcloud can ask for a second factor after the password (two-factor\nauthentication, 2FA). Each kind of second factor comes from a provider app\nthat a server admin installs. This one emails a one-time code (OTP) - six\ndigits by default - and asks for it on a second login page.\n\n### Installation and setup\n\nAn admin installs and enables this app. The server needs a working mail\nsetup, because the code travels by email.\n\nA user then switches it on under \"Personal settings / Security\", which needs\nan email address in \"Personal info\". An admin can switch it on for someone\ninstead: \"occ twofactorauth:enable USERID email\".\n\nNextcloud can also enforce a second factor for everyone or per group, though\nnever one particular method. Email is a low-friction choice there: the user\nconfirms one code and is done, with no device to enroll. Check first that\nevery account has a working address - a user whose address does not work\ncannot log in.\n\nAny second factor stops desktop and mobile clients from signing in with the\nnormal password. Each of them needs an app password instead, created under\n\"Personal settings / Security\".\n\nThe user and administrator guides cover all of this in detail.",
     "homepage": "https://github.com/datenschutz-individuell/twofactor_email",
     "licenses": [
       "agpl"
@@ -4650,8 +4660,8 @@
     ]
   },
   "uniteos_notifier": {
-    "hash": "sha256-vaWgvCrCGCfm5ygADrXCKR/nRTU9DFar/FQZg59ajus=",
-    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/1.0.6/uniteos_notifier.tar.gz",
+    "hash": "sha256-yoNEdBloqNFtXTZsR4EN1PoTlGRjQKObaZ2B+qSFp4g=",
+    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/main/uniteos_notifier.tar.gz",
     "version": "1.0.6",
     "description": "This app allows forwarding Nextcloud events for a deeper integration into UniteOS developed by wechange eG by presenting a selected set of events as user notifications.",
     "homepage": "",
