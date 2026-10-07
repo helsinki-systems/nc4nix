@@ -500,9 +500,9 @@
     ]
   },
   "crate": {
-    "hash": "sha256-x/kArIOmFiKyGWVAY6kESKnSKphtEHib5j4hW/JT8dQ=",
-    "url": "https://github.com/megamaced/crate/releases/download/v1.12.0/crate-1.12.0.tar.gz",
-    "version": "1.12.0",
+    "hash": "sha256-6cUWwuBRau547c8M73LblgYJazy9VqHX9mSySEc8TUQ=",
+    "url": "https://github.com/megamaced/crate/releases/download/v1.13.0/crate-1.13.0.tar.gz",
+    "version": "1.13.0",
     "description": "Crate is a personal physical media catalogue for Nextcloud — browse and manage your music, films, books, games and comics in one place, with everything stored on your own server.\n\nAdd items manually or by barcode scan. Pull rich metadata automatically from Discogs (music), TMDB (films), Open Library (books), RAWG (games) and ComicVine (comics). Track market values from Discogs and PriceCharting alongside what you originally paid. Attach the cover art plus two extra user photos per item (receipts, sleevenotes, disc shots).\n\nOwned vs. wanted, playlists, sharing with other Nextcloud users, full CSV and XLSX import / export. There's a native Android companion at https://github.com/megamaced/crate-android.",
     "homepage": "",
     "licenses": [
@@ -580,10 +580,10 @@
     ]
   },
   "dashboard_links": {
-    "hash": "sha256-nn+6r1/TrWZT26JoYZIW+89agq51rqYc1DtdIQuo0X8=",
-    "url": "https://github.com/codedbyandre/nc-dashboard-links/releases/download/v1.1.0/dashboard_links-v1.1.0.tar.gz",
-    "version": "1.1.0",
-    "description": "One catalog of company links for the Dashboard and the All links page.\n\n- A category is a heading. Links without a category stay in one list.\n- A link can use a Nextcloud icon, an uploaded image, or a fetched favicon.\n- Only https addresses are allowed. Each link can be switched off.\n- After enabling the app, add the Company links tile under Customize.\n\n**Privacy.** This app stores no user accounts and sends no catalog to the author. Opening a link sends the browser to the https address an administrator saved. The response sets Referrer-Policy no-referrer. The destination can still see the IP address and usual browser headers. List those destinations in the instance privacy notice.\n\nFetch favicon runs only when an administrator presses the button. The server then requests that site. If the site returns no image, the server requests a favicon for the hostname from Google. Uninstall deletes the catalog and the stored icons.",
+    "hash": "sha256-53ZYY3/W/TSNi7FQNnMBCAKGsF0FdDi3lhn7o3aZHJc=",
+    "url": "https://github.com/codedbyandre/nc-dashboard-links/releases/download/v1.1.1/dashboard_links-v1.1.1.tar.gz",
+    "version": "1.1.1",
+    "description": "Company links on the Dashboard: the handbook, the help desk, the tools people should open.\n\nAn administrator keeps one catalog. The same links appear in the tile and on the All links page.\n\n* **Categories** are headings. Links without a category stay in one list. The line under a link is the host.\n* **Icons** come from Nextcloud, from an uploaded image, or from the site's favicon.\n* **https only.** A link can be switched off without deleting it.\n* **Show the tile.** After the app is enabled, each person adds Company links under Customize.\n\n**Privacy.** This app stores no user accounts and sends no catalog to the author. Opening a link sends the browser to the https address an administrator saved. The response sets Referrer-Policy to no-referrer. The destination can still see the IP address and the usual browser headers. Name those destinations in the instance privacy notice.\n\nFetch favicon runs only when an administrator presses the button. The server then requests that site. If the site returns no image, the server requests a favicon for the hostname from Google. Removing the app deletes the catalog and the stored icons.",
     "homepage": "https://github.com/codedbyandre/nc-dashboard-links",
     "licenses": [
       "AGPL-3.0-or-later"
@@ -640,9 +640,9 @@
     ]
   },
   "deliver": {
-    "hash": "sha256-PgBmBR0VDFbXJIRIUL9sLhSihKdACN2R2AM8g1TdZE0=",
-    "url": "https://github.com/joshuabke/nextcloud-deliver/releases/download/v0.8.1/deliver-0.8.1.tar.gz",
-    "version": "0.8.1",
+    "hash": "sha256-jVlNUfZjE3UNoG/6Pk/4880opWzktf8K5EH3gSS/MWI=",
+    "url": "https://github.com/joshuabke/nextcloud-deliver/releases/download/v0.8.2/deliver-0.8.2.tar.gz",
+    "version": "0.8.2",
     "description": "Frame-accurate video and audio review, right where your files already are.\n\n**Pre-release:** the 0.x releases come before 1.0. Use Deliver on real projects, but keep your own backups and expect rough edges; please report what you find on GitHub.\n\n- **Review in place** from the Files sidebar, or a whole folder as a Project. Nothing is copied or moved.\n- **Comments on the Frame** or a Range, with Drawings, Replies, Reactions, Mentions and Attachments\n- **Versions** stack by name (`…_v1`, `…_v2`) and compare side by side or under a wipe\n- **Sign-off** with Approvals, Due Dates and reminders\n- **Clients without accounts** on Project Links: password, expiry, Watermark, downloads, and who watched what\n- **Back into the edit:** export comments as markers for\n  - Video: DaVinci Resolve (EDL), Premiere Pro (FCP7 XML), Final Cut Pro (FCPXML), CSV\n  - Audio: WAV markers, MIDI, REAPER regions, Ableton Live Set\n- **Supported files**\n  - Video: MP4 and MOV (H.264), WebM\n  - Audio: WAV, FLAC, MP3, AAC, Ogg\n  - Images: JPEG, PNG, WebP, GIF, AVIF\n  - Everything else (ProRes, H.265, MXF, AVI …) needs ffmpeg\n- **Waveforms, thumbnails and scrubbing** by hovering over a video\n- **Fully mobile ready**\n- **With ffmpeg on the server**\n  - Proxies, thumbnails and waveforms for every format ffmpeg reads\n  - Hardware encoding: VAAPI, NVENC, VideoToolbox\n\nScreenshots: footage from Tears of Steel, (CC) Blender Foundation | mango.blender.org.",
     "homepage": "",
     "licenses": [
@@ -775,6 +775,16 @@
     "version": "0.2.0",
     "description": "EditBase is a word processor whose documents are ordinary web pages. Every document is saved to your Nextcloud Files as a single self-contained .html file with its stylesheet inside it, so it opens in any browser, on any device, for as long as browsers exist — no import, no export, no proprietary format in between.\n\nBecause the document is HTML and CSS, printing is typesetting: paper size, orientation and margins are set in millimetres, page breaks are explicit, and your browser's own \"Save as PDF\" produces the finished result. The editor lays the pages out itself and draws them as sheets of paper, so what is on the screen is what comes off the printer.\n\nEditBase is a program for writing documents with HTML, CSS and JavaScript alone, without relying on any external program. It is made to work like LibreOffice Writer, with handling close to that of DTP software. It has grown into a very large program, so many bugs may remain.\n\nFeatures:\n- Documents are plain HTML files in your own Files, editable and shareable like any other file\n- Paper setup in millimetres — A3, A4, A5, B4, B5, Letter and Legal, portrait or landscape — with page guides, a ruler and a grid\n- A running header and footer on every printed page, carrying the page number, the title, the file name or the date\n- Headings, lists, tables, quotations, callout boxes, footnotes, a table of contents, columns and vertical writing\n- Readings over words (ruby), emphasis dots, highlighting and text colour, applied as clean HTML rather than editor cruft\n- Pictures, shapes, tables, rules and embedded pages placed by hand: standard placement keeps clear of the text and of other objects by the rules of HTML; free placement puts it anywhere with CSS\n- Tables that calculate like a small spreadsheet: formulas as in LibreOffice Calc, a formula bar, column letters and row numbers\n- Cell properties in tabs as in Excel: number format, alignment, font, borders and fill, for a block of cells at once\n- Twenty heading designs drawn with CSS alone\n- Frames that carry their writing on into the next page, cut at the line rather than at the edge of the paper\n- Mathematics written as native MathML — no images, no external renderer\n- Formulas made in FormulaBase inserted into the document as they are\n- Styles for each kind of block, and the document's own stylesheet for anything they cannot say\n- A check over the document that finds what is wrong with the page before it is printed\n- Find and replace, recorded changes, mail merge, and an undo history kept by the editor itself\n- HTML5 and CSS first: JavaScript is used only for what they cannot do (text on both sides of an object, photographs enlarged with an effect, table calculation), and can be turned on or off for each document",
     "homepage": "https://github.com/ktec-nc-apps/EditBase",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "educai": {
+    "hash": "sha256-83ZNWYZTcfsw2wYHhEb381RBojCb6OmQucj/aLd9v8c=",
+    "url": "https://github.com/EDUCAlliance/talk-ai/releases/download/v2.42.2/educai-2.42.2.tar.gz",
+    "version": "2.42.2",
+    "description": "Talk AI turns Nextcloud Talk into a home for **multiple** AI bots instead of one generic assistant. Each bot has its own system prompt, model, knowledge and tools — and a visibility scope: **personal**, **group**, **team**, or **global** (with an approval workflow for shared bots), so users only see and use the bots they are entitled to.\n\n- **Multi-bot by design** — unlimited bots, each with a stable @mention, own prompt, temperature and model selection.\n- **Bring your own model** — any OpenAI-compatible chat / model-list / embedding / vision / speech endpoint, with a primary + optional secondary endpoint and an automatic fallback model.\n- **Knowledge (RAG)** — index Nextcloud files and folders, with optional Docling conversion for PDF, Office and image formats.\n- **Agentic tools** — built-in document search, room-document search, image analysis, audio transcription and persistent Markdown wikis, plus an extension point for companion apps and support for external MCP tool servers.\n- **Native Talk integration** — shared Talk bot, Smart Picker support, signature-verified webhooks, admin control over providers, credentials, rate limits and tool access.\n\nDeveloped by EDUC — the European Digital UniverCity (its package id is educai). Works with any OpenAI-compatible endpoint on any supported Nextcloud install.\n\n### EU funding\n\n![Co-funded by the European Union](https://raw.githubusercontent.com/EDUCAlliance/talk-ai/v2.40.0/img/eu-co-funded-appstore.png)\n\nFunded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Education and Culture Executive Agency (EACEA). Neither the European Union nor EACEA can be held responsible for them.",
+    "homepage": "",
     "licenses": [
       "agpl"
     ]
@@ -1080,9 +1090,9 @@
     ]
   },
   "files_sharing_raw": {
-    "hash": "sha256-zQY7ItUwXyVxmK+gP3UndAM5xX7aQKNb2DBE8KL8REA=",
-    "url": "https://github.com/ernolf/files_sharing_raw/releases/download/v0.7.3/files_sharing_raw-0.7.3.tar.gz",
-    "version": "0.7.3",
+    "hash": "sha256-gcSDnuWpeaAkbdtgt9qOJQMamSFC881aFD6TKBNkS4c=",
+    "url": "https://github.com/ernolf/files_sharing_raw/releases/download/v0.8.0/files_sharing_raw-0.8.0.tar.gz",
+    "version": "0.8.0",
     "description": "Raw Fileserver (**`files_sharing_raw`**) serves files **as-is** so you can link directly to the file itself (i.e. without any of Nextcloud's UI). This makes it easy to host static web pages, RSS feeds, images, or other assets and embed/link them elsewhere.\n\n## Design goals\n\n* **Minimal**: deliver bytes, not UI.\n* **Fast**: keep server work low (good for assets).\n* **Quiet failures**: plain 404 Not found (text/plain) for invalid/missing public shares (no Nextcloud HTML error pages), ideal for asset fetches.\n* **Privacy-friendly**: **cookie-free responses** (best effort).\n* **Allowlist-gated:** public raw access is opt-in — only explicitly enabled public share tokens are served.\n* **Secure by default**: strict CSP with optional per-scope overrides. *)\n* **Streaming by default**: for normal `GET` (`200`) responses, the body is streamed whenever possible instead of loading the entire file into memory.\n\n*) For security and privacy, the content is served with a configurable [Content-Security-Policy][] (CSP) header, allowing different policies per share token, path, file extension, or MIME type (with a safe hardcoded fallback).\n\n[Content-Security-Policy]: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy\n\n## Usage\n\nThe common usage is to first share a file and enable public access through a link. In the Advanced settings of this share (in the right sidebar), the Raw link must be enabled. If the share link is `https://my-nextcloud/s/aBc123DeF456xyZ`, then this app will provide access to the raw file at `https://my-nextcloud/raw/aBc123DeF456xyZ`. If the share is a folder, the files within it are accessible as e.g. `https://my-nextcloud/raw/aBc123DeF456xyZ/path/to/file`.\n\nA user can also access their own private files. For example, a file named `test.html` in anansi's Documents folder would be available at `https://my-nextcloud/raw/u/anansi/Documents/test.html`.",
     "homepage": "https://github.com/ernolf/files_sharing_raw",
     "licenses": [
@@ -1210,9 +1220,9 @@
     ]
   },
   "fulltextsearch_elasticsearch": {
-    "hash": "sha256-qlf5oWxK1/gSBHZKI19YGHQ5t39lsSyUrnC2aCVT9fk=",
-    "url": "https://github.com/nextcloud-releases/fulltextsearch_elasticsearch/releases/download/v35.0.0/fulltextsearch_elasticsearch-v35.0.0.tar.gz",
-    "version": "35.0.0",
+    "hash": "sha256-nomFjyIO8xlBGm7UHrpWgRm5813SajlqzMRQNlVMQEI=",
+    "url": "https://github.com/nextcloud-releases/fulltextsearch_elasticsearch/releases/download/v35.0.1/fulltextsearch_elasticsearch-v35.0.1.tar.gz",
+    "version": "35.0.1",
     "description": "Extension to the _Full text search_ app to communicate with ElasticSearch.",
     "homepage": "https://github.com/nextcloud/fulltextsearch_elasticsearch",
     "licenses": [
@@ -1950,9 +1960,9 @@
     ]
   },
   "kanso": {
-    "hash": "sha256-rZMo7V5a7zKAKkQ0fwhol2lrJpKvRB7xR8H8MejXfCg=",
-    "url": "https://github.com/aktasfatih/kanso/releases/download/v0.38.0/kanso.tar.gz",
-    "version": "0.38.0",
+    "hash": "sha256-OaA1kbjk/OlHpNQBNwNVV9PFot2tLdlh9/tENrTB99Q=",
+    "url": "https://github.com/aktasfatih/kanso/releases/download/v0.38.1/kanso.tar.gz",
+    "version": "0.38.1",
     "description": "Kanso is a kanban board app for Nextcloud, built for speed. Boards, stacks and\ncards with instant drag & drop, optimistic updates and payloads sized for large\nboards (2,000+ cards). Realtime updates via notify_push, with a polling fallback.\n\nRich cards with markdown, labels, due dates, assignees, priorities, checklists,\nparent/child cards and threaded comments with @mentions and watchers. File\nattachments (up to 100 MiB each), custom fields per board (text, number, date or\na select list), time tracking with a per-card total, and private reminders on a\ncard or a single comment. Board sharing with per-user and per-group access\ncontrol, plus an optional read-only public link that needs no Nextcloud account.\n\nA review workflow (request review, approve / request changes, customizable\nreview types, and an optional done-gate). A cross-board My Work hub (my tasks,\nreviews, inbox), cross-board Projects, and per-board and per-project analytics\n(velocity, cycle time, throughput). Board, List and Timeline (Gantt) views, with\nswimlanes, saved filters and display sort.\n\nRecurring cards on RRULE schedules, auto-archive rules, WIP limits and stack\nroles, card templates, a command palette with full-text search, and trash with\nrestore.\n\nEvery board you can read also appears as a read-only CalDAV task list of its\ndue-dated cards, with an optional per-board .ics feed. Email intake turns mail in\nan IMAP folder into cards in a column you choose, and GitHub and Forgejo links\nand webhooks keep cards in step with pull requests and issues. One-click Import\nfrom Deck, import from a Trello JSON export or a CSV, board export and re-import\nas a zip with attachments, board duplication, and scheduled periodic backups of\nevery board for administrators.",
     "homepage": "https://aktasfatih.com/kanso/",
     "licenses": [
@@ -1960,9 +1970,9 @@
     ]
   },
   "keepiq": {
-    "hash": "sha256-yT8NKqegdG+J9yTSN0GOsF8rnR60Y3bWrEFGROpQ0AI=",
-    "url": "https://github.com/ConductionNL/keepiq/releases/download/v0.3.5/keepiq-0.3.5.tar.gz",
-    "version": "0.3.5",
+    "hash": "sha256-0YL3pvbohX9HMxRg02cTRbKLSOr4xmfoBib69jeUr3g=",
+    "url": "https://github.com/ConductionNL/keepiq/releases/download/v0.3.8/keepiq-0.3.8.tar.gz",
+    "version": "0.3.8",
     "description": "A zero-knowledge encrypted secrets manager for Nextcloud — a personal vault for users and a write-without-read credential store for applications, using end-to-end RSA-4096/AES-256 encryption backed by a private Certificate Authority. Your master password is never stored: not even the server administrator can read your secrets.\n\n**Key Features**\n\n- **End-to-end encryption** — RSA-4096 + AES-256 private-key protection with a private Certificate Authority (root + intermediate, auto-renewal)\n- **Personal vault** — folder organisation, fuzzy search, Nextcloud unified search integration\n- **Secret sharing** — share with Nextcloud users and groups, password-protected link sharing, secret requests (write-without-read), temporary ownership delegation\n- **Application management** — register applications with CSR-based onboarding, write-without-read application secrets, OAuth-style application tokens (RFC 7523 JWT Bearer)\n- **Admin settings** — CA health monitoring, password policies, application approval queue\n- **NL Design System ready** — CSS variables, WCAG AA, government theming\n\nFree and open source under the EUPL-1.2 license.\n\n**Support:** For support, contact support@conduction.nl.",
     "homepage": "https://github.com/ConductionNL/keepiq",
     "licenses": [
@@ -2030,9 +2040,9 @@
     ]
   },
   "libresign": {
-    "hash": "sha256-PL+j1IKqjG0rLBalMjLs3MnPLReJezA3hz6udygAGJQ=",
-    "url": "https://github.com/LibreSign/libresign/releases/download/nightly/libresign-nightly.tar.gz",
-    "version": "15.0.7",
+    "hash": "sha256-S0PXsWHWVGTx35OjjrnRi9kB5RdzoCt0CBzKnYAqhUM=",
+    "url": "https://github.com/LibreSign/libresign/releases/download/v15.0.8/libresign-v15.0.8.tar.gz",
+    "version": "15.0.8",
     "description": "**LibreSign helps organizations manage document signing inside Nextcloud.**\n\nIt is built for teams that need clear signing rules, traceable actions, and workflows that follow internal processes and legal requirements.\n\nLibreSign has been a verified [Digital Public Good](https://digitalpublicgoods.net/r/libresign) since 2025.\n\n**What LibreSign enables**\n\n- Define signing order and signer roles\n- Support internal and external signers\n- Keep a traceable record of requests and validations\n- Use digital certificates for compliant signing workflows\n- Validate documents using QR codes\n- Work directly with Nextcloud files and users\n- Integrate signing with other systems through APIs\n\n**Support LibreSign**\nIf your organization uses LibreSign, support its development:\n\n[![Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/libresign)\n\nFor enterprise support, contact LibreCode:\nhttps://libresign.coop",
     "homepage": "https://github.com/LibreSign/libresign",
     "licenses": [
@@ -2110,9 +2120,9 @@
     ]
   },
   "mail": {
-    "hash": "sha256-by814Ufc0o3d28oUYC5cLmn9FPymQ7qGev0ZKWazC/M=",
-    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.12.3/mail-v5.12.3.tar.gz",
-    "version": "5.12.3",
+    "hash": "sha256-yr64UG/4xtkIEy1yBPEB8WNF8ipcMNCiqCfn9HvGZnU=",
+    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.12.4/mail-v5.12.4.tar.gz",
+    "version": "5.12.4",
     "description": "**💌 A mail app for Nextcloud**\n\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://www.horde.org) libraries.\n- **📬 Want to host your own mail server?** We do not have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!\n\n## Ethical AI Rating\n\n### Priority Inbox\n\nPositive:\n* The software for training and inferencing of this model is open source.\n* The model is created and trained on-premises based on the user's own data.\n* The training data is accessible to the user, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n### Thread Summaries (opt-in)\n\n**Rating:** 🟢/🟡/🟠/🔴\n\nThe rating depends on the installed text processing backend. See [the rating overview](https://docs.nextcloud.com/server/latest/admin_manual/ai/index.html) for details.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/mail#readme",
     "licenses": [
@@ -2240,11 +2250,11 @@
     ]
   },
   "moviedb": {
-    "hash": "sha256-t1JHksqE0xrmW23JyST5HWiXZQXxFlfeNmKI44A3zOQ=",
-    "url": "https://github.com/shellmann/nextcloud-moviedb/releases/download/v1.5.5/moviedb-1.5.5.tar.gz",
-    "version": "1.5.5",
+    "hash": "sha256-ivOJ+7zXwBCzUIii0UyMybUteIalh9R1NMT0XDn8MTM=",
+    "url": "https://github.com/shellmann/nextcloud-moviedb/releases/download/v1.6.0/moviedb-1.6.0.tar.gz",
+    "version": "1.6.0",
     "description": "# MovieDB - Personal Movie & TV Database\n\nTrack all the movies and TV shows you've watched with rich metadata from TMDB.\n\n## Features\n\n- **Movie Tracking**: Log movies with where you watched them (Netflix, Disney+, cinema, etc.)\n- **TV Show Tracking**: Track series at the episode level — see progress per season, an \"up next\" card, and bulk-mark whole seasons or series as watched\n- **Rewatch Support**: Log multiple viewings of the same movie with separate ratings and dates\n- **TMDB Integration**: Automatically fetch posters, cast, plot, and episode data\n- **Personal Ratings**: Rate movies and shows 1–10 and write your own reviews\n- **Watch History**: Full watch history per title, including per-viewing platform, language, and date\n- **Watchlist**: Maintain a mixed movie + TV watchlist with priorities and a random picker\n- **Filtering & Sorting**: Filter by genre, platform, and favorites, and sort in either direction\n- **Statistics**: Dashboard with viewing stats by genre, platform, episodes watched, and total runtime, plus year- and platform-breakdown charts (including TV shows) with a movies/TV filter\n- **Shared Libraries**: Create named libraries and share your collection with other Nextcloud users — assign viewer or editor roles, manage members, and switch between libraries from one account\n\n## Getting Started\n\n1. Get a free API key from [TMDB](https://www.themoviedb.org/settings/api)\n2. Enter your API key in the app settings\n3. Start adding movies and TV shows to your collection!\n\n## Data source\n\nMovie and TV show data is provided by [The Movie Database (TMDB)](https://www.themoviedb.org/). This product uses TMDB and the TMDB APIs but is not endorsed, certified, or otherwise approved by TMDB.",
-    "homepage": "",
+    "homepage": "https://github.com/shellmann/nextcloud-moviedb",
     "licenses": [
       "AGPL-3.0-or-later"
     ]
@@ -2309,6 +2319,16 @@
       "agpl"
     ]
   },
+  "nextdiary": {
+    "hash": "sha256-LchW8APvJ3J+SRNGX8s2B6i1p29M5YKfppzYDjH/uzs=",
+    "url": "https://github.com/89simpson/nextdiary/releases/download/v1.1.1/nextdiary.tar.gz",
+    "version": "1.1.1",
+    "description": "A personal diary and health journal for Nextcloud.\n\n## Features\n\n* **Markdown editor** - write diary entries with full Markdown support\n* **Multiple entries per day** - create several entries for the same date\n* **Mood & wellbeing tracking** - rate your mood and wellbeing on a 1-5 scale\n* **Tags** - organize entries with tags, auto-extracted from #hashtags\n* **Symptoms** - track health symptoms across entries\n* **Medications** - log medications linked to diary entries\n* **Manage your lists** - rename or delete tags, symptoms and medications at any time\n* **File attachments** - attach files to entries, stored in Nextcloud\n* **Calendar navigation** - jump to any date, highlighted days with entries\n* **Configurable sidebar** - show/hide sections, reorder tags/symptoms/medications\n* **Export** - download entries as Markdown, PDF, or analytical CSV (single entry, day, date range, or all)\n* **Localization** - 88 languages with full translations included",
+    "homepage": "https://github.com/89simpson/nextdiary",
+    "licenses": [
+      "AGPL-3.0-or-later"
+    ]
+  },
   "nextpod": {
     "hash": "sha256-wgW0X2j2Cv5rp/OFa0xsuiYuE1TJr/+ooED48JcsAvo=",
     "url": "https://github.com/pbek/nextcloud-nextpod/releases/download/v0.7.12/nextpod-nc.tar.gz",
@@ -2327,6 +2347,16 @@
     "homepage": "https://github.com/oe79/NextSnapMail",
     "licenses": [
       "AGPL-3.0-only"
+    ]
+  },
+  "ng_backup": {
+    "hash": "sha256-gPSi8Gce5QO4/NBSpCCvsg3pJ9aCinhdmAkoEZTDA50=",
+    "url": "https://github.com/dillardblom/ng_backup/releases/download/v0.9.1-beta.2/ng_backup-0.9.1.tar.gz",
+    "version": "0.9.1",
+    "description": "Beta: scheduled, encrypted, incremental backups of the database, config and data\ndirectory to S3, SFTP, WebDAV, FTP, SMB or a local path, with restore of files and folders, of\nsingle users (via user_migration) and of the whole server onto a fresh installation. Tested\nthoroughly and usable alongside your current backup, but not yet a drop-in replacement for it.\nSee the README for known limitations and the recovery kit before relying on it.",
+    "homepage": "https://apps.nextcloud.com/apps/ng_backup",
+    "licenses": [
+      "agpl"
     ]
   },
   "nopstation_analytics": {
@@ -2400,9 +2430,9 @@
     ]
   },
   "oidc": {
-    "hash": "sha256-ERsCnBmXNc5W6whdM/KFfiHqAgHCnnobjXgAjll/71U=",
-    "url": "https://github.com/H2CK/oidc/releases/download/2.5.1/oidc-2.5.1.tar.gz",
-    "version": "2.5.1",
+    "hash": "sha256-k8mxj56b3IuvMIU3DZEtBRsMRZycUSDllXo/jw01vuQ=",
+    "url": "https://github.com/H2CK/oidc/releases/download/2.5.2/oidc-2.5.2.tar.gz",
+    "version": "2.5.2",
     "description": "Nextcloud as OpenID Connect Identity Provider\n\nWith this app you can use Nextcloud as OpenID Connect Identity Provider. If other services\nare configured correctly, you are able to access those services with your Nextcloud login.\n\nFull documentation can be found at:\n\n- [User Documentation](https://github.com/H2CK/oidc/wiki#user-documentation)\n- [Developer Documentation](https://github.com/H2CK/oidc/wiki#developer-documentation)",
     "homepage": "https://github.com/H2CK/oidc",
     "licenses": [
@@ -2490,9 +2520,9 @@
     ]
   },
   "paperless_sync": {
-    "hash": "sha256-QwKc8DhgyTYSxw+mz701DO345ID1lcXUxahu9TFAZQM=",
-    "url": "https://github.com/Dennis-Otto/paperless-sync/releases/download/v0.1.5/paperless_sync.tar.gz",
-    "version": "0.1.5",
+    "hash": "sha256-Mgiyi6gaN2FYw4VHQSCnBY9DHq3L8iwdcf8aJru8Jxw=",
+    "url": "https://github.com/Dennis-Otto/paperless-sync/releases/download/v0.1.6/paperless_sync.tar.gz",
+    "version": "0.1.6",
     "description": "### A native bridge between Paperless-ngx and Nextcloud\n\nPaperless Sync mirrors finalized Paperless-ngx documents into a readable Nextcloud folder structure. Paperless remains the authoritative document archive while Nextcloud provides familiar access through Files, desktop sync, mobile apps, sharing, and its built-in viewer.\n\n### Structured, automatic, and reversible\n\n- Exports archive PDFs or original files through the Paperless API\n- Builds a configurable hierarchy from correspondent, document type, date, title, and document ID\n- Moves or renames files when Paperless metadata changes\n- Skips Paperless inbox documents until they are finalized and removes previously mirrored copies when an exclusion tag is added\n- Imports files from a configurable Nextcloud inbox into Paperless\n- Mirrors the Paperless trash into a dedicated Nextcloud folder\n- Optionally removes files after they are permanently deleted from Paperless\n- Removes empty archive folders after moves and deletions\n- Runs through native Nextcloud background jobs with resumable state\n\n### Safe by default\n\nSynchronization is disabled until an administrator completes and validates the configuration. Permanent deletion is an explicit opt-in and can be protected by multiple missing-document confirmations. A dry-run previews changes without modifying files.\n\nThe Paperless API token is stored server-side in Nextcloud's credentials manager and is never returned to the browser. The app operates directly through Nextcloud's filesystem API, so no Nextcloud password or WebDAV credential is required.\n\n### Requirements\n\n- Nextcloud 33 to 35 with reliable cron background jobs\n- A reachable Paperless-ngx instance with API access\n- A dedicated Paperless service account with only the permissions needed for the enabled features\n\nPaperless Sync is independent from [Paperless Unified Search](https://apps.nextcloud.com/apps/paperless_unified_search). Both apps understand stable document markers such as `[P123]` and can be installed separately.",
     "homepage": "https://github.com/Dennis-Otto/paperless-sync",
     "licenses": [
@@ -2500,9 +2530,9 @@
     ]
   },
   "paperless_unified_search": {
-    "hash": "sha256-YMFWVibnJWaNPetxgLN7j4OCqCD1xWKZ0GEpVUB13/4=",
-    "url": "https://github.com/Dennis-Otto/paperless-unified-search/releases/download/v0.1.10/paperless_unified_search.tar.gz",
-    "version": "0.1.10",
+    "hash": "sha256-i4zLJdZRcfildmkGoLNy1w4PPtPbyZLNFGlTWUwvOdU=",
+    "url": "https://github.com/Dennis-Otto/paperless-unified-search/releases/download/v0.1.11/paperless_unified_search.tar.gz",
+    "version": "0.1.11",
     "description": "### Paperless search, seamlessly integrated into Nextcloud\n\nPaperless Unified Search brings Paperless-ngx's OCR-powered document search directly into Nextcloud's global search. Find invoices, contracts, letters, statements, and any text recognized inside your documents — without leaving Nextcloud.\n\n### Search in Paperless. Work in Nextcloud.\n\n- Uses Paperless-ngx's native OCR and full-text search\n- Shows results directly in Nextcloud's global search\n- Opens the synchronized file in Nextcloud's built-in viewer on web, iOS, and Android\n- Matches documents through stable markers such as `[P123]`\n- Includes only files the current Nextcloud user is allowed to access\n- Automatically excludes documents that have not yet been synchronized\n\n### Privacy and access control\n\nPaperless is queried server-to-server. The API token is stored in Nextcloud's encrypted credentials manager and is never exposed to the browser.\n\nBy default, searches are sent to Paperless only when users enable connected-services search. Administrators can optionally mark their Paperless server as trusted and include it automatically in every global search.\n\nA dedicated, read-only Paperless account is recommended.\n\n### Requirements\n\n- Nextcloud 33 to 35\n- A reachable Paperless-ngx instance with API access\n- Synchronized files whose names contain their Paperless document marker, for example `[P123]`\n\nThis app provides search integration only. It does not synchronize documents between Paperless and Nextcloud.\n\n### Native synchronization companion\n\nFor structured document synchronization, use the independent [Paperless Sync](https://github.com/Dennis-Otto/paperless-sync) Nextcloud app. Both apps use the same stable `[P123]` document marker and can be maintained and updated separately.",
     "homepage": "https://github.com/Dennis-Otto/paperless-unified-search",
     "licenses": [
@@ -2740,9 +2770,9 @@
     ]
   },
   "reinhardterp": {
-    "hash": "sha256-KeA4wsWeCWSeMi78tMyY3TTrRBrjSkc1oSlUzH6F9uU=",
-    "url": "https://github.com/SchreinereiReinhardt/NextERP/releases/download/v2.10.18/reinhardterp-2.10.18.tar.gz",
-    "version": "2.10.18",
+    "hash": "sha256-FbFmS6FqL9WHSlI+TyII5thiLKtNMpYu+GWdklFruR0=",
+    "url": "https://github.com/SchreinereiReinhardt/NextERP/releases/download/v2.10.22/reinhardterp-2.10.22.tar.gz",
+    "version": "2.10.22",
     "description": "Betrio is an ERP and project management solution designed specifically for trades and craft businesses and integrated directly into Nextcloud.\n\nThe app combines commercial and operational workflows in one central application – from customers and projects to quotations, orders and invoices, as well as work reports, time tracking, materials, documents and mobile on-site processes.\n\nFeatures:\n\n- Customer management and CRM\n- Project management and digital project files\n- Quotations and orders\n- Invoices\n- Progress and final invoices\n- Credit notes and cancellations\n- Payment status and incoming payments\n- Outstanding and overdue receivables\n- PDF invoices\n- XRechnung\n- Invoice audit trail and invoice finalization\n- Quotation → order → invoice workflow\n- Work reports with signature and PDF\n- Time tracking and evaluation\n- Material and inventory management\n- DATANORM import with preview and supplier assignment\n- Inventory assistant and inventory list as PDF\n- Supplier filtering and sorting in the material master data\n- PDF evaluations for working time, billing, finance, taxes and project post-calculation\n- Documents, photos and project files\n- Smart Document Inbox for incoming documents\n- Digital attendance clock with breaks and manual corrections\n- Individual work schedules and working-time account\n- Vacation, sickness, training and other absences\n- Workforce planning and team calendar\n- Appointments and project timeline\n- Financial overviews and open items\n- Cash book and tax overviews\n- DATEV EXTF export\n- Mobile smartphone interface\n- Camera and barcode functions\n- Integration with Nextcloud Files\n- German and English user interface\n\nAttendance time, project time and planned time are deliberately kept separate. The working-time account supports individual target hours per weekday, approved absences, a configurable start date and an opening balance.\n\nAfter an update, Betrio shows each user a one-time overview of important changes. Release information remains available under Help → What's new?.\n\nA separate Android app, “Betrio Mobile”, is also available.\n\nBetrio runs directly within your own Nextcloud installation. Customer, project and business data therefore do not need to be moved to a separate ERP cloud to operate Betrio.\n\nThe commercial functions support the workflow from quotation and order through invoicing to payment receipt. Finalized invoices and relevant actions are documented through the invoice audit trail.\n\nA DATEV EXTF export is available for exchanging accounting data.\n\nXRechnung is integrated and continues to be developed and validated.\n\nBetrio does not replace tax or legal advice. Accounting and export functions should be checked against the requirements of your business and, where appropriate, coordinated with your tax adviser before productive use.",
     "homepage": "",
     "licenses": [
@@ -2805,6 +2835,16 @@
     "version": "0.1.12",
     "description": "Clean duplicate items from the root filecache by deleting user specific entries that got indexed into the root cache by mistake.",
     "homepage": "https://github.com/icewind1991/root_cache_cleaner",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "rotatingwallpapers": {
+    "hash": "sha256-R52eBI4S9sMDIhCPvs861ADKJodmgl3kL8fCF15W2FA=",
+    "url": "https://github.com/ole-am/RotatingWallpapers/releases/download/v2/rotatingwallpapers.tar.gz",
+    "version": "1.1.0",
+    "description": "🖼️ Create a more dynamic and visually engaging user experience with rotating background wallpapers. Upload and manage multiple images through the admin settings, define a custom rotation interval, and optionally set a dedicated wallpaper for guests and the login page.\n\n> Please note that uploaded images may be publicly accessible via the web.",
+    "homepage": "https://github.com/ole-am/RotatingWallpapers",
     "licenses": [
       "agpl"
     ]
@@ -3180,9 +3220,9 @@
     ]
   },
   "tachyon": {
-    "hash": "sha256-cnPAOf6zRfC7Iw6OVrwNZOgSgbbHl56zXp4QarO07YU=",
-    "url": "https://github.com/kimusan/Tachyon/releases/download/v4.3.1/tachyon-4.3.1-nextcloud.tar.gz",
-    "version": "4.3.1",
+    "hash": "sha256-3inw/881NXoZyte4T5bt4ML56RvbEpnCclhqV0bzJJw=",
+    "url": "https://github.com/kimusan/Tachyon/releases/download/v4.4.1/tachyon-4.4.1-nextcloud.tar.gz",
+    "version": "4.4.1",
     "description": "**Lightweight & fast email client.**\n\n- **Dark mode**\n- **Responsive design**\n- **Full Sieve filtering support**\n- **Almost all IMAP features** including advanced searching\n- **Integration with Nextcloud Unified Search**\n- **Integration with other Nextcloud apps** (Contacts, Files and Calendar)\n- **Multiple mail accounts and identities**\n- **Send & receive OpenPGP encrypted/signed emails** (With full HTML support, ECC keys, or plain text with Mailvelope)\n- **Send & receive S/MIME encrypted/signed emails**\n- **Many security features** (Sodium encrypted passwords, Sec-Fetch, TOTP 2FA, DKIM, prevent tracking, etc.)\n- **Kolab integrations**\n\nAfter enabling in Nextcloud, go to Nextcloud admin panel, \"Additional settings\" and you will see a \"Tachyon webmail\" section.\nThere, click on the link to go to the Tachyon admin panel.",
     "homepage": "https://tachyonmail.app/",
     "licenses": [
@@ -3287,6 +3327,16 @@
     "homepage": "",
     "licenses": [
       "agpl"
+    ]
+  },
+  "thinkfree": {
+    "hash": "sha256-tmn7jRH6fbVKgwHMwpYfqsa3nbQLA+MNQ6KkCDdSB90=",
+    "url": "https://github.com/thinkfree/thinkfree-nextcloud/releases/download/v3.0.0/thinkfree-3.0.0.tar.gz",
+    "version": "3.0.0",
+    "description": "This Nextcloud connector integrates Thinkfree Office, a powerful web-based collaborative editor for seamless document viewing, creation, and real-time editing. Designed for teams and businesses of all sizes, it supports word processing, spreadsheets, and presentations with industry-leading compatibility with MS formats. Thinkfree Office is built for effortless deployment across various environments and integrates smoothly with a wide range of platforms and devices. For enhanced security and compliance, it also offers on-premises deployment, keeping all data under the your control.",
+    "homepage": "",
+    "licenses": [
+      "AGPL-3.0-or-later"
     ]
   },
   "tickbuddy": {
