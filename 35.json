@@ -350,9 +350,9 @@
     ]
   },
   "calcbase": {
-    "hash": "sha256-byMMhy8Jh1K+MNF0pgY+ycoyBjb+GyKNS/YIgJC9/hc=",
-    "url": "https://github.com/ktec-nc-apps/CalcBase/releases/download/v0.1.0/calcbase-0.1.0.tar.gz",
-    "version": "0.1.0",
+    "hash": "sha256-GJLBcZMv39qgeQJVkruARMM5kurR6D+oeGwkAqFsEb0=",
+    "url": "https://github.com/ktec-nc-apps/CalcBase/releases/download/v0.1.1/calcbase-0.1.1.tar.gz",
+    "version": "0.1.1",
     "description": "CalcBase is a spreadsheet whose workbooks are ordinary web pages. Every workbook is saved to your Nextcloud Files as a single self-contained .html file with its stylesheet inside it, so it opens in any browser, on any device, for as long as browsers exist — the sheets are shown as tables, with their values, formulas, formats and styles written into the page itself.\n\nFormulas are written as in LibreOffice Calc and Excel: =SUM(B2:B5), Sheet2.A1 or Sheet2!A1, absolute references with $, whole columns and rows. Where Calc and Excel differ, CalcBase follows LibreOffice Calc. Workbooks are calculated in the browser; nothing is sent anywhere.\n\nCalcBase is derived from EditBase, the word processor whose documents are plain HTML. With the free AI-Hub app it can also use a large language model (LLM) as an assistant, set up once for every app on the server. It is a young program, so bugs may remain.\n\nFeatures:\n- Workbooks are plain HTML files in your own Files, editable and shareable like any other file; versions are kept beside the workbook\n- Sheets, merged cells, frozen panes, column widths and row heights, number formats (numbers, currency, percent, dates, times, Japanese era dates), fonts, colours, borders and alignment\n- About 500 functions as in LibreOffice Calc: mathematics, statistics, text, lookup, date and time, logic, information and finance\n- Import of CSV and TSV (UTF-8 and Shift_JIS), ODS and XLSX — values, formulas, number formats, styles, column widths and merged cells, several sheets\n- Export to CSV, ODS and XLSX with formulas, values, formats and styles kept\n- Import also from RegiBase, FormulaBase, EditBase, NetBase, Tables, Contacts and Calendar, from a web page and from a Markdown file\n- For tables kept by hand, not bulk data: 100,000 cells a book by default, 30,000 rows a sheet, 24 MB a file — raised in the settings at your own risk\n- An AI assistant, through the AI-Hub app: a chat beside the sheet that knows spreadsheets and Calc formulas, and proposes changes to cells that are applied as one undoable step\n- Japanese and English interface; light and dark themes\n- HTML5 and CSS first: a workbook is readable without any program but a browser; JavaScript is used only for what HTML and CSS cannot do",
     "homepage": "https://github.com/ktec-nc-apps/CalcBase",
     "licenses": [
@@ -467,6 +467,16 @@
     "homepage": "https://collectives.cloud/",
     "licenses": [
       "agpl"
+    ]
+  },
+  "collectives_todos": {
+    "hash": "sha256-9O5Z1vSVAl82WN2iyHnU51ppMJZeDpKV8Jvr1HKj6iA=",
+    "url": "https://github.com/deltadrai/collectives-todos/releases/download/v0.2.1/collectives_todos-v0.2.1.tar.gz",
+    "version": "0.2.1",
+    "description": "Keep track of everything your team has to do across all pages of your Collectives — without opening a single one.\n\nCollectives Todos automatically gathers every markdown checkbox from every page of a collective onto one central \"Todos\" page, and keeps it up to date as pages change.\n\nAll your to-dos in one page: every checkbox from every page, grouped under a link that takes you straight to the page it came from.\n\nAlways current: whenever a page is edited, renamed or deleted, the Todos page regenerates itself.\n\nTwo-way sync: tick a task off on the Todos page and it is checked off on its source page as well.\n\nYours to configure: admins can choose the Todos page name, its position in the page tree, an emoji — and switch the app on or off, globally or per collective.\n\nRequires Nextcloud 27–35 and the Collectives app. Developed by deltadrai gmbh as open source under AGPL-3.0-or-later.",
+    "homepage": "https://deltadrai.github.io/collectives-todos/",
+    "licenses": [
+      "AGPL-3.0-or-later"
     ]
   },
   "command_bot": {
@@ -810,9 +820,9 @@
     ]
   },
   "editbase": {
-    "hash": "sha256-pYBv1/PU2bQTrYkvKggCIqDmgDnLAZZMv4MCDkIaP/A=",
-    "url": "https://github.com/ktec-nc-apps/EditBase/releases/download/v0.3.0/editbase-0.3.0.tar.gz",
-    "version": "0.3.0",
+    "hash": "sha256-Aq6GVdMfYBJvJaKBp4Ku6BEjDy/5bgPN4ZAZ2/D6Nqo=",
+    "url": "https://github.com/ktec-nc-apps/EditBase/releases/download/v0.3.1/editbase-0.3.1.tar.gz",
+    "version": "0.3.1",
     "description": "EditBase is a word processor whose documents are ordinary web pages. Every document is saved to your Nextcloud Files as a single self-contained .html file with its stylesheet inside it, so it opens in any browser, on any device, for as long as browsers exist — no import, no export, no proprietary format in between.\n\nBecause the document is HTML and CSS, printing is typesetting: paper size, orientation and margins are set in millimetres, page breaks are explicit, and your browser's own \"Save as PDF\" produces the finished result. The editor lays the pages out itself and draws them as sheets of paper, so what is on the screen is what comes off the printer.\n\nEditBase is a program for writing documents with HTML, CSS and JavaScript alone, without relying on any external program. It is made to work like LibreOffice Writer, with handling close to that of DTP software. It has grown into a very large program, so many bugs may remain.\n\nFeatures:\n- Documents are plain HTML files in your own Files, editable and shareable like any other file\n- Paper setup in millimetres — A3, A4, A5, B4, B5, Letter and Legal, portrait or landscape — with page guides, a ruler and a grid\n- A running header and footer on every printed page, carrying the page number, the title, the file name or the date\n- Headings, lists, tables, quotations, callout boxes, footnotes, a table of contents, columns and vertical writing\n- Readings over words (ruby), emphasis dots, highlighting and text colour, applied as clean HTML rather than editor cruft\n- Pictures, shapes, tables, rules and embedded pages placed by hand: standard placement keeps clear of the text and of other objects by the rules of HTML; free placement puts it anywhere with CSS\n- Tables that calculate like a small spreadsheet: formulas as in LibreOffice Calc, a formula bar, column letters and row numbers\n- Cell properties in tabs as in Excel: number format, alignment, font, borders and fill, for a block of cells at once\n- Twenty heading designs drawn with CSS alone\n- Frames that carry their writing on into the next page, cut at the line rather than at the edge of the paper\n- Mathematics written as native MathML — no images, no external renderer\n- Formulas made in FormulaBase inserted into the document as they are\n- An AI assistant, through the AI-Hub app: a chat beside the pages that knows EditBase, changes the open document when asked (every change undoable with Ctrl+Z) and reads from the other apps of the series only as the administrator allows\n- Styles for each kind of block, and the document's own stylesheet for anything they cannot say\n- A check over the document that finds what is wrong with the page before it is printed\n- Find and replace, recorded changes, mail merge, and an undo history kept by the editor itself\n- HTML5 and CSS first: JavaScript is used only for what they cannot do (text on both sides of an object, photographs enlarged with an effect, table calculation), and can be turned on or off for each document",
     "homepage": "https://github.com/ktec-nc-apps/EditBase",
     "licenses": [
@@ -930,9 +940,9 @@
     ]
   },
   "file_checksum_search": {
-    "hash": "sha256-PYr3nFDHh8EOR4RZFQTQPKmmYCBGy2ERKuOKnKLdz1E=",
-    "url": "https://github.com/metaworx/file_checksum_search/releases/download/v0.24.0/file_checksum_search-0.24.0.tar.gz",
-    "version": "0.24.0",
+    "hash": "sha256-yrODZCxJ4H8B3+iN0SqzJ89Y2cczbWWoBoA7g8WzCrA=",
+    "url": "https://github.com/metaworx/file_checksum_search/releases/download/v0.25.0/file_checksum_search-0.25.0.tar.gz",
+    "version": "0.25.0",
     "description": "Indexes file checksums, so a file can be found by its checksum, and its duplicates at once.\n\nWhat you get:\n\n- **Unified Search** by hash: paste a checksum, find the file.\n- A **Checksums** tab in the file details: lists every checksum stored for the file, recalculated on demand, with its duplicates listed inline.\n- A **Duplicates** page: every group of identical files you hold, and, for those allowed to look across accounts, other accounts' files too.\n- **Rules** decide what is hashed and when: instance-wide or per account, by path pattern, computed in the background.\n- A stable **REST API (v1)** and a stable **PHP API** for other apps and integrations.\n- **occ commands** for hashing, searching, duplicates, rules, backup and import.\n- Storage in Nextcloud's own files metadata index: no custom tables, nothing to migrate.",
     "homepage": "https://gitlab.com/metaworx/open-source/nextcloud/file_checksum_search",
     "licenses": [
@@ -1130,9 +1140,9 @@
     ]
   },
   "files_sharing_raw": {
-    "hash": "sha256-gcSDnuWpeaAkbdtgt9qOJQMamSFC881aFD6TKBNkS4c=",
-    "url": "https://github.com/ernolf/files_sharing_raw/releases/download/v0.8.0/files_sharing_raw-0.8.0.tar.gz",
-    "version": "0.8.0",
+    "hash": "sha256-1dpP3BBJ2fLgioLy0gGuk5KIjN03hyCl8nTzJtYWlvM=",
+    "url": "https://github.com/ernolf/files_sharing_raw/releases/download/v0.9.0/files_sharing_raw-0.9.0.tar.gz",
+    "version": "0.9.0",
     "description": "Raw Fileserver (**`files_sharing_raw`**) serves files **as-is** so you can link directly to the file itself (i.e. without any of Nextcloud's UI). This makes it easy to host static web pages, RSS feeds, images, or other assets and embed/link them elsewhere.\n\n## Design goals\n\n* **Minimal**: deliver bytes, not UI.\n* **Fast**: keep server work low (good for assets).\n* **Quiet failures**: plain 404 Not found (text/plain) for invalid/missing public shares (no Nextcloud HTML error pages), ideal for asset fetches.\n* **Privacy-friendly**: **cookie-free responses** (best effort).\n* **Allowlist-gated:** public raw access is opt-in — only explicitly enabled public share tokens are served.\n* **Secure by default**: strict CSP with optional per-scope overrides. *)\n* **Streaming by default**: for normal `GET` (`200`) responses, the body is streamed whenever possible instead of loading the entire file into memory.\n\n*) For security and privacy, the content is served with a configurable [Content-Security-Policy][] (CSP) header, allowing different policies per share token, path, file extension, or MIME type (with a safe hardcoded fallback).\n\n[Content-Security-Policy]: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy\n\n## Usage\n\nThe common usage is to first share a file and enable public access through a link. In the Advanced settings of this share (in the right sidebar), the Raw link must be enabled. If the share link is `https://my-nextcloud/s/aBc123DeF456xyZ`, then this app will provide access to the raw file at `https://my-nextcloud/raw/aBc123DeF456xyZ`. If the share is a folder, the files within it are accessible as e.g. `https://my-nextcloud/raw/aBc123DeF456xyZ/path/to/file`.\n\nA user can also access their own private files. For example, a file named `test.html` in anansi's Documents folder would be available at `https://my-nextcloud/raw/u/anansi/Documents/test.html`.",
     "homepage": "https://github.com/ernolf/files_sharing_raw",
     "licenses": [
@@ -1199,6 +1209,16 @@
       "AGPL-3.0-or-later"
     ]
   },
+  "fintrack": {
+    "hash": "sha256-P+yZSQv4Bst54JmH/UsNiOdj9IcoHZOtpRuS3Ze747Y=",
+    "url": "https://github.com/cloudsliberty/fintrack/releases/download/v1.22.3/fintrack.v1.22.3.tar.gz",
+    "version": "1.22.3",
+    "description": "FinTrack is a full-featured personal finance tracking application integrated into Nextcloud.\n**Features:**\n- Asset, Expense, Revenue and Liability accounts\n- Multi-currency support with online live conversion rates\n- Income and expense transaction tracking\n- Inter-account transfers with automatic currency conversion\n- Recurring transactions posted automatically in the background\n- Budget management with progress tracking\n- Categories and tags for transactions\n- Financial reports and analytics\n- External URL for remote transaction entry\n- CSV/JSON import and export, with automatic duplicate detection and rule-based auto-categorization on CSV import\n- Dashboard preview of upcoming recurring transactions due\n- Full backup & restore options\n- An optional PIN lock with session timeout and lockout, layered on top of your Nextcloud login\n- All data stored securely in your Nextcloud database\n- Clients:\n  - Installable Progressive Web App (PWA) for desktop and mobile devices\n  - Android app currently available in beta testing\n  - Responsive web interface optimized for all screen sizes\n- Support development via PayPal or Ko-fi (see Settings → About FinTrack)\n\n**What's new:**\n- Nextcloud alerts for recurring transactions (per-rule on/off) and custom transaction reminders\n- PWA fixes: account pre-fill, dark-mode headers, clear-button and dropdown alignment\n- \"Report an issue\" link; log files now start with your instance UUID and app version\n- Full Progressive Web App with offline transaction entry & auto-sync\n- Biometric unlock (Face/Touch ID) for the PWA\n- Remote PWA session management — view & revoke devices, auto-wipe on inactivity\n- Mandatory PIN Lock policy for PWA access\n- Per-currency exchange-rate provider selection (auto/Frankfurter/exchangerate.host)\n- Cached \"last updated\" exchange rates, auto-filled on new entries\n- Safer deletes: accounts/categories/tags/currencies in use are protected, not silently orphaned\n- Modernized PWA UI: fuzzy search pickers, responsive layout, mobile bottom nav",
+    "homepage": "https://github.com/cloudsliberty/fintrack",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "flow_notifications": {
     "hash": "sha256-Ms7YlImTCT+pRqA9Swyz066gQrYZi0hms6VbP134zzc=",
     "url": "https://github.com/nextcloud-releases/flow_notifications/releases/download/v6.0.0/flow_notifications-v6.0.0.tar.gz",
@@ -1230,9 +1250,9 @@
     ]
   },
   "formulabase": {
-    "hash": "sha256-BhmN9FjEJiOh51SCYJy+VPD8pG3QbA+SGyyewC6pfu4=",
-    "url": "https://github.com/ktec-nc-apps/FormulaBase/releases/download/v0.9.0/formulabase-0.9.0.tar.gz",
-    "version": "0.9.0",
+    "hash": "sha256-Pgybtfkwod9WyxcEiYSl3CQazuCodV5CV1jnzd1yzjc=",
+    "url": "https://github.com/ktec-nc-apps/FormulaBase/releases/download/v0.9.1/formulabase-0.9.1.tar.gz",
+    "version": "0.9.1",
     "description": "FormulaBase is a lightweight personal calculator for the formulas you use again and again — markups, unit conversions, loan payments, mixing ratios, engineering constants, anything.\n\nOrganise your formulas into collections, define each formula's variables once, then open it any time, type in numbers, and read the result live. The math runs entirely in your browser (no eval, no server round-trip).\n\nFeatures:\n- 5,522 built-in formula templates in 13 fields (mathematics, statistics and probability, AI and computing, physics, chemistry and materials, engineering, personal money, investing, business and accounting, health and life sciences, everyday life, and more) — searchable, and ready to drop into your own collections\n- Template settings: hide whole fields, subcategories or single templates you do not need\n- Collections of reusable formulas\n- Named variables with labels, units and default values — numbers, lists, matrices or complex numbers\n- Safe expression engine with more than 200 functions: arithmetic, conditions (if, piecewise), sums, products, integrals, derivatives and equation solving, statistics, cash flows, matrices, number theory, special functions, probability distributions and physical constants\n- Live result as you type, with unit and decimal-place control\n- Version history per formula — the version before each edit is kept beside it, numbered and restorable, separate from the calculation history\n- Share a collection with other Nextcloud users at three levels (view / edit / delete)\n- An AI assistant, through the AI-Hub app: a chat beside the formulas that knows FormulaBase and how its expressions are written, answers in words and writes a formula out as text you can type in, and reads the open collection only as the administrator allows. Without AI-Hub it is simply not shown\n- Same clean, themable design as RegiBase (light / dark)\n\nThe 2,400 templates added in 0.7.0 were each checked against an independent calculation. Since 0.8.0 the whole library and every screen are translated into 13 languages — English, Japanese, Chinese, Spanish, French, German, Italian, Portuguese (Brazil and Portugal), Russian, Arabic, Hindi and Korean. The older part of the library (3,122 formulas) has not all been hand-verified. If you spot a wrong formula, bad default, mistranslation, or missing unit, please open an issue on GitHub — reports are welcome.",
     "homepage": "https://github.com/ktec-nc-apps/FormulaBase",
     "licenses": [
@@ -1280,9 +1300,9 @@
     ]
   },
   "fulltextsearch_postgresql": {
-    "hash": "sha256-FiOYJDOrjP93KFPDlcxt7a6EozTRi9lMM/AKplerAQY=",
-    "url": "https://github.com/Alain-L/fulltextsearch_postgresql/releases/download/v0.1.3/fulltextsearch_postgresql-0.1.3.tar.gz",
-    "version": "0.1.3",
+    "hash": "sha256-igpzbvEAjSW9eIqBL3zhZab3kI21T+OEFolL6dJGETs=",
+    "url": "https://github.com/Alain-L/fulltextsearch_postgresql/releases/download/v0.1.4/fulltextsearch_postgresql-0.1.4.tar.gz",
+    "version": "0.1.4",
     "description": "Full text search for Nextcloud without a search server: the index lives in the PostgreSQL\ndatabase your Nextcloud already uses.\n\nPostgreSQL uses less memory and disk space, without sacrificing response time or search\nquality.\n\n- Indexing follows the language and folds accents, so \"numerisation\" finds \"numérisation\". The\n  app takes the language of your instance, and can combine several.\n- The app reads PDF and office files itself (docx, xlsx, pptx, odt, ods, odp), with no\n  extraction service.\n- Permissions are indexed with the content, so a search only returns documents the person\n  running it can open.\n\nRequires the Full text search app (fulltextsearch) and a content provider, usually the one for\nfiles (files_fulltextsearch). The unaccent and pg_trgm extensions install themselves when the\ndatabase privileges allow; otherwise search stays accent-sensitive until an administrator\ncreates them.",
     "homepage": "https://github.com/Alain-L/fulltextsearch_postgresql",
     "licenses": [
@@ -1417,6 +1437,16 @@
     "homepage": "",
     "licenses": [
       "AGPL-3.0-or-later"
+    ]
+  },
+  "hidesidebars": {
+    "hash": "sha256-0lDbrRnGvk59l21EQNp9qPSqqgXKJJodODFcwS/uDF8=",
+    "url": "https://github.com/pointcz/hidesidebars/releases/download/v2.2.8/hidesidebars.tar.gz",
+    "version": "2.2.8",
+    "description": "# Hide sidebars\n\nHide left sidebar and top header bar for use in iframe for example or some other scenarios.\n\n## Usage\nAdd `hide-sidebars` after `?` as query parameter to nextcloud url or with `dir` parameter after `&`.\n\nExamples:\n```\nhttp://nextcloud.example.com/index.php/apps/files/?hide-sidebars\nhttp://nextcloud.example.com/index.php/apps/files/?dir=/New%20folder&hide-sidebars\n```\n\nThis app from version 2.0.0 brings new config parameter `addAllowedFrameAncestorDomain` to allow embedding into a website.\nSimply add the following line to your `config/config.php`:\n\n```\n...\n'addAllowedFrameAncestorDomain' => '*.example.com:*'\n...\n```\n\nFor Nextcloud All-in-One (AIO) set it with `occ` on the host:\n\n```\nsudo docker exec --user www-data -it nextcloud-aio-nextcloud php occ config:system:set addAllowedFrameAncestorDomain --value=\"*.example.com:*\"\n```",
+    "homepage": "https://github.com/pointcz/hidesidebars",
+    "licenses": [
+      "agpl"
     ]
   },
   "hideuseremails": {
@@ -2040,9 +2070,9 @@
     ]
   },
   "ktec_talkbot": {
-    "hash": "sha256-+iw8csmfPk55vrRGxKX3hcGd6J+VObeOAD0PsCG0aaI=",
-    "url": "https://github.com/ktec-nc-apps/Talk-Bot/releases/download/v2.2.0/ktec_talkbot-2.2.0.tar.gz",
-    "version": "2.2.0",
+    "hash": "sha256-SSpasJwwoPYZnkkARqNLRu5ziD3DJjckIig+H6MyvmI=",
+    "url": "https://github.com/ktec-nc-apps/Talk-Bot/releases/download/v2.2.1/ktec_talkbot-2.2.1.tar.gz",
+    "version": "2.2.1",
     "description": "**Talk-Bot** turns any Nextcloud Talk conversation into an AI chat.\n\nEnable the app and switch the bot on in a conversation — that is the whole setup\non the Talk side. No external daemon, no webhook endpoint, no Docker image and no\nseparate machine are required: the bot runs entirely inside Nextcloud as a Talk\nin-app bot, in a few hundred kilobytes of PHP.\n\n### Requires AI-Hub\n\nTalk-Bot no longer talks to a model itself. The AI service, key, model and limits\nlive in **AI-Hub** — a separate app that is the one place AI is set up for the\nwhole Base series — and Talk-Bot asks it for every answer. Install AI-Hub from the\nApp Store, choose the AI service, key and model there, and Talk-Bot uses them. The\nsame AI-Hub also serves the other apps, so there is only one place to configure and\none bill to watch.\n\n### Light by design\n\nOne small app, installed from the App Store like any other. There is nothing else\nto run and nothing else to keep alive. It answers off the request path, so posting\na message never waits for the model.\n\n### A plain, sandboxed assistant\n\nEveryone talks to the same assistant: it answers questions and nothing more. It has\nno tools of any kind — no files, no shell, no way to touch the server. (An\nadministrator who wants a chat assistant with shell access uses NetBase's assistant\ninstead; Talk-Bot does not do that.)\n\n### And the rest\n\n- **Per-conversation memory.** Each user keeps their own history in every room;\n  `?reset` starts over.\n- **Commands.** `?reset`, `?undo`, `?retry`, `?summary` and `?lang <code>` for the\n  conversation; `?help`, `?status`, `?model`, `?whoami` and `?version` for\n  information; and `?roll`, `?flip`, `?8ball`, `?ping` and `?joke` for fun. `?help`\n  lists them all.\n- **Access control.** Optionally restrict the bot to an allow-list of users.\n- **Reply language.** Answer always in a fixed language, or mirror the user.\n\n### Privacy\n\nMessages sent to the bot go through AI-Hub to the AI provider configured there, and\nnowhere else. Point AI-Hub at a local model server and nothing leaves your machine\nat all.\n\nRequires the Nextcloud Talk app and the AI-Hub app.",
     "homepage": "https://github.com/ktec-nc-apps/Talk-Bot",
     "licenses": [
@@ -2380,9 +2410,9 @@
     ]
   },
   "nc_netherrack": {
-    "hash": "sha256-EXfHwkb20ZUytCSihpLWB6o/mK9N9fVBJSTYGNwJxMM=",
-    "url": "https://codeberg.org/fds2610/Netherrack/releases/download/v0.3.3-4befcdf/nc_netherrack-0.3.3-4befcdf.tar.gz",
-    "version": "0.3.3",
+    "hash": "sha256-9DlWqfwvm+AStnB35VLKMtC6WkrmSrKw7u3asuQ2S80=",
+    "url": "https://codeberg.org/fds2610/Netherrack/releases/download/v0.3.4-9c72700/nc_netherrack-0.3.4-9c72700.tar.gz",
+    "version": "0.3.4",
     "description": "**Your second brain — inside your own Nextcloud.**\n\nNetherrack keeps your notes as plain Markdown files with YAML front matter in the `Netherrack/` folder of your Nextcloud. Sharing, versioning, sync clients and WebDAV work out of the box because notes are ordinary files — no proprietary format, no lock-in. On top of the files the app maintains an index for search, backlinks, properties, tasks and graph views, and turns your notes into a linked knowledge base: wiki links, embeds, bookmarks, canvases and database-like views.\n\nAll notes stay on your own Nextcloud instance: no external service, no tracking, no data leaving your server.\n\n## ✨ Features\n\n* ✍️ **Markdown editor**: CodeMirror 6 with formatting toolbar, live preview and autosave. Conflict detection warns you if a note was changed elsewhere instead of silently overwriting it.\n* 🔗 **Wiki links**: `[[Note]]` with autocomplete, automatic creation of missing targets and link rewriting on rename. Link to headings (`[[Note#Heading]]`) and blocks (`[[Note#^id]]`).\n* ↩️ **Backlinks & outgoing links**: Panels with a jump to the linking passage, including the linked sections and blocks.\n* 🕸 **Graph view**: See all notes and their connections; hover for the file path, click to open.\n* 🏷 **Tags**: `#tag` and front matter tags with overview, AND/OR filter and autocomplete.\n* 🗂 **Properties**: All front matter fields are indexed with types (text, number, checkbox, date, date-time, list, tags). Edit them in a dialog above the editor; renaming a key works across notes.\n* 🧩 **Embeds**: `![[Note]]`, `![[Note#Heading]]`, `![[Note#^id]]` and files (`![[image.png|300]]`, PDF, audio, video) right in the preview. Paste or drag & drop uploads to the attachment folder.\n* 🔍 **Search**: Weighted full-text search (title > heading > tag/property > path > content) with jump to the match, also in the global Nextcloud search.\n* ✅ **Tasks**: `- [ ]` / `- [x]` from all notes in one view, split into “My tasks” and “Unassigned tasks”, with filters for status, due date, priority, tag and folder; check them off right from the overview.\n* 🙋 **Mentions**: `@user` with autocompletion shares the note with that user and notifies them; chips in the preview show who has access, “For me” lists all notes that mention you.\n* 🗃 **Bases**: Database-like views over your notes as `.base` files — table, list, cards, kanban (drag & drop changes the property) and calendar, with filters, sorting, grouping and editable cells.\n* 🎨 **Canvas**: Infinite boards in the open JSON Canvas 1.0 format with text, note, file, link and group cards, labelled connections and colors.\n* 📑 **Templates**: Every note in the templates folder is a template, with variables such as `{{title}}` and `{{date:FORMAT}}`; optional template for new daily notes.\n* 📅 **Daily notes**: Journal with day navigation.\n* 🔖 **Bookmarks**: Notes, folders, headings, blocks, saved searches, tags, bases and links in nested groups — they follow renames.\n* 🪟 **Tabs, split view & layouts**: Open notes in tabs, work in two panes side by side, choose the sidebar panels (backlinks, outgoing links, tags, outline) and save named layouts.\n* 🌐 **Publish**: Share notes and folders as a public web page via a link share, with rendered Markdown, wiki links and embeds restricted to the shared content; password and expiry date of the share apply.\n* 🎙 **Voice notes**: Record in the app and transcribe locally with whisper.cpp as a background job (optional, off by default, set up by the admin).\n* 👥 **Shared notes & Group Folders**: Changes by any user update the index of everyone who has the note.\n* 🔌 **API for other apps**: OCS REST API (`openapi.json`), a query API with typed filters, AND/OR/NOT groups, sorting and pagination, and a PHP service (`NetherrackService`) for other apps.\n* 📱 **Mobile view** and 🌐 **localisation** (English, German).\n\n## 🔐 Sovereign by design\n\nNetherrack runs entirely on your Nextcloud instance. Your notes are plain files you can open with any editor or sync client at any time.\n\nRequires Nextcloud 31–35 and PHP 8.1 or newer. Works with MySQL, MariaDB, PostgreSQL and SQLite.\n\n## 📚 Documentation\n\n* 🚀 [HOWTO](https://codeberg.org/fds2610/Netherrack/src/branch/main/nc_netherrack/docs/en/HOWTO.md) — first steps with notes, links, tags and search\n* 📋 [Feature reference](https://codeberg.org/fds2610/Netherrack/src/branch/main/nc_netherrack/docs/en/FEATURES.md) — every function with its purpose\n* 📝 [Changelog](https://codeberg.org/fds2610/Netherrack/src/branch/main/nc_netherrack/CHANGELOG.md) — what changed in each release\n* 💾 [Installation](https://codeberg.org/fds2610/Netherrack/src/branch/main/nc_netherrack/docs/en/INSTALL.md) — setup and update notes\n\n## 🐛 Feedback\n\nBug reports and feature requests are welcome in the [issue tracker](https://codeberg.org/fds2610/Netherrack/issues).",
     "homepage": "https://codeberg.org/fds2610/Netherrack",
     "licenses": [
@@ -2420,9 +2450,9 @@
     ]
   },
   "netbase": {
-    "hash": "sha256-vh2sWLcvzRw0OoBQMkHAb1gS+gyV6p+lC8VYPqBZDEU=",
-    "url": "https://github.com/ktec-nc-apps/NetBase/releases/download/v0.8.0/netbase-0.8.0.tar.gz",
-    "version": "0.8.0",
+    "hash": "sha256-ZPGW8SRj3APsEg9aUhWSk8tsdZVHWbRO1URxP4bKy/A=",
+    "url": "https://github.com/ktec-nc-apps/NetBase/releases/download/v0.8.1/netbase-0.8.1.tar.gz",
+    "version": "0.8.1",
     "description": "NetBase turns your Nextcloud into a network console: it finds every device on the LAN, opens each one's own settings page from inside Nextcloud, and keeps the everyday lookup tools on the same screen.\n\nDevice windows are the heart of it. The server fetches a device's own web interface and rewrites every address inside it, so a router, a switch, a printer or a NAS can be signed into and configured from anywhere the Nextcloud is reachable — no VPN, no jump host, no site visit. Firmware can be sent, a configuration restored, a backup taken. Several windows can be open at once.\n\nDiscovery needs no root, no agent and no extra packages: NetBase primes the kernel neighbour table, reads it back, and asks each device for its own name over NetBIOS, mDNS, WS-Discovery and SSDP. It also listens for the announcements devices make, continuously and in the background, so a device sitting on another subnet of the same wire — one nothing here can reach, and which can never answer a question — still appears in the list. MAC addresses are resolved against a bundled IEEE registry of more than 53,000 vendor prefixes, offline.\n\nWhat each part is for:\n- Device windows — a device's own settings page, through Nextcloud, from anywhere\n- LAN sweep and inventory — name, IPv4, MAC, vendor, type and open ports, exportable as CSV\n- DNS — any record type from any resolver, resolver comparison, delegation trace, zone-transfer test\n- Whois and free-domain search — look up any domain or address (IANA referrals, no whois binary), or check a name across a whole range of endings at once to find one that is still free\n- Wake-on-LAN — wake a device by its MAC address\n- TLS and HTTP — certificate, chain and expiry, accepted TLS versions, redirect chain, security headers\n- Mail — SPF, DKIM, DMARC, MTA-STS, DANE and blocklists, plus SMTP/IMAP/POP3 server tests, an open-relay test and a real test message\n- FTP and SFTP — browse a remote server and move files to and from your Nextcloud folders\n- SSH and Telnet — a credential-free probe, and commands or a full terminal on a saved connection\n- Benchmarks — internet speed, LAN throughput over iperf3, resolver comparison, HTTP timing\n- Every result can be copied, downloaded or saved straight into your own Nextcloud files\n- An AI assistant, through the AI-Hub app, that explains what is on the screen (a scan, a ping, a list of devices); administrators who switch it on can let it suggest commands, run only after the person approves each one. Without AI-Hub it is simply not shown\n\nAccess is per tool. NetBase is an administrator's app, and everything that touches the local network defaults to administrators — but each tool can be opened to named groups or to everyone from Administration settings, so an instance can lend out whois, DNS and the other harmless lookups without lending out the network. Where an account is allowed nothing, NetBase leaves itself out of that account's app menu.\n\nAvailable in twenty languages, and NetBase can be set to a different language from the rest of Nextcloud, per account.",
     "homepage": "https://github.com/ktec-nc-apps/NetBase",
     "licenses": [
@@ -2529,6 +2559,16 @@
       "AGPL-3.0-or-later"
     ]
   },
+  "ocr_search": {
+    "hash": "sha256-s/si6fPNqh7l7crVuSgzGK+9WpgvsgbMt3ujCwVueI8=",
+    "url": "https://github.com/rurutheGeek/nextcloud-ocr-search/releases/download/v1.0.1/ocr_search.tar.gz",
+    "version": "1.0.1",
+    "description": "Makes the text inside your images searchable from the unified search:\nscreenshots first of all, and also photos of notes, signs and documents.\n\nImages are recognised by a small OCR service that runs next to Nextcloud\n(PP-OCRv5 through ONNX Runtime, CPU only, under 1 GiB of memory). New and\nchanged images are indexed automatically by the background job; existing\nimages are indexed with `occ ocr_search:index` and `occ ocr_search:process`,\nwhich can be scheduled at night and limited in runtime. The recognised text is\nshown in a tab of the file sidebar and can be copied.\n\nSearch results only contain files the searching user can access. Uploading and\nviewing keep working when the OCR service is down; images simply wait in the\nqueue.\n\nThe OCR service ships in the `server/` directory of this app's repository,\nwith a `compose.yaml`. Its URL and shared token are configured by an\nadministrator under *Administration settings → OCR Search*.\n\nRequirements:\n- Nextcloud 33 or newer, background jobs run by cron\n- The OCR service reachable from the Nextcloud server (see `server/`)\n\nPrivacy: every image that is indexed is sent to the OCR service URL configured\nby the administrator. No other data is transmitted.",
+    "homepage": "https://github.com/rurutheGeek/nextcloud-ocr-search",
+    "licenses": [
+      "AGPL-3.0-or-later"
+    ]
+  },
   "ocs_api_viewer": {
     "hash": "sha256-N10h8gzSmfjt+Pv26Am5dPnYtS4nKnuiasM5bPUJ+DU=",
     "url": "https://github.com/nextcloud-releases/ocs_api_viewer/releases/download/v1.0.13/ocs_api_viewer-v1.0.13.tar.gz",
@@ -2630,9 +2670,9 @@
     ]
   },
   "pantry": {
-    "hash": "sha256-kpTn/qYhsCNJEGnE7JhLitJYV/7Dk0qpXdKqP0mNXQI=",
-    "url": "https://github.com/chenasraf/nextcloud-pantry/releases/download/v0.35.1/pantry-v0.35.1.tar.gz",
-    "version": "0.35.1",
+    "hash": "sha256-UHHyA7glFGPbiLIY49ctp5kJFtWg7SFogpnTbROvXbI=",
+    "url": "https://github.com/chenasraf/nextcloud-pantry/releases/download/v0.36.0/pantry-v0.36.0.tar.gz",
+    "version": "0.36.0",
     "description": "Pantry helps households stay organized in Nextcloud.\n\n- **Houses** group members and their shared data. A person can belong to multiple houses and switch between them freely.\n- **Checklists** support recurring items (e.g. milk every week) that automatically reappear when due. Share lists with the whole household so everyone knows what to pick up.\n- **Shopping mode** turns your lists into a store-by-store trip — pick the lists and the route, check items off as you walk, see which housemates are out shopping, and finish with a priced review that lands in your shopping history.\n- **Barcode scanning** prefills an item from a product's EAN or UPC. Scan with the camera or type the code in, and Pantry looks up the name, category and photo for you to review.\n- **Custom fields** attach your own information to checklist items — an expiry date, an aisle number, a size, a yes/no flag. Define a field once for the house or a single list; date fields can send a reminder before they come due.\n- **Photo boards** let you keep shared reference photos organized in folders — the right brand of dog food, a favorite recipe card, a product label, and so on.\n- **Notes wall** gives the household a lightweight shared space for reminders, pinned messages, and quick notes with customizable colors.\n- **Notifications** keep everyone in the loop when photos are uploaded or notes are added or edited.\n\nAll data is scoped to a house; members only see the houses they belong to.\n\nPantry also has companion apps for mobile, watch and desktop that let you manage your lists, photos and notes on the go and keep everything in sync with your Nextcloud instance.\n\n**Companion apps:** Android ([Google Play](https://play.google.com/store/apps/details?id=dev.casraf.pantry), [F-Droid](https://f-droid.org/en/packages/dev.casraf.pantry/)) | iOS/macOS ([App Store](https://apps.apple.com/us/app/pantry-for-nextcloud/id6762161619)) | Wear OS ([Google Play](https://play.google.com/store/apps/details?id=dev.casraf.pantry)) | [Windows](https://pantry.casraf.dev/docs/getting-started/apps#desktop) | [Linux](https://pantry.casraf.dev/docs/getting-started/apps#desktop)\n\n**Website:** [pantry.casraf.dev](https://pantry.casraf.dev) | **Documentation:** [pantry.casraf.dev/docs](https://pantry.casraf.dev/docs)",
     "homepage": "https://pantry.casraf.dev",
     "licenses": [
@@ -2660,9 +2700,9 @@
     ]
   },
   "passman": {
-    "hash": "sha256-LWG/UElllAYnZ6gzVJUczYjBv857YTbaMsQxgmPYa70=",
-    "url": "https://releases.passman.cc/passman_2.6.3.tar.gz",
-    "version": "2.6.3",
+    "hash": "sha256-+GjP9qradHgFMPR9+DHGPobgn0UczqvSHnFmURdshsU=",
+    "url": "https://releases.passman.cc/passman_2.6.4.tar.gz",
+    "version": "2.6.4",
     "description": "**Passman** is a full-featured, open source password manager for Nextcloud.\n\n## Features:\n- Vaults\n- Vault key is never sent to the server\n- Browser extension for easy access to passwords\n- Android app for on the road access\n- Credentials are client side encrypted with 256bit AES\n- Credentials are server side encrypted with 256bit AES\n- Ability to add custom fields to credentials\n- Built-in OTP (One Time Password) generator\n- Password analyzer\n- Share passwords internally and via link in a secure manner.\n- Import from various password managers (KeePass, LastPass, DashLane, ZOHO, Clipperz.is)\n\n## Demo\nFor a demo of this app visit [https://demo.passman.cc](https://demo.passman.cc)",
     "homepage": "https://passman.cc",
     "licenses": [
@@ -2829,6 +2869,16 @@
       "AGPL-3.0-or-later"
     ]
   },
+  "public_share_control": {
+    "hash": "sha256-/KdK3t7Q/X0lbnNdzjhv+KhHfFtuztPMzcKg1ErHP7o=",
+    "url": "https://github.com/nicostoe/public_share_control/releases/download/v1.0.0/public_share_control-1.0.0.tar.gz",
+    "version": "1.0.0",
+    "description": "Public Share Control gives share owners and administrators more control over what visitors can do on public folder links.\n\n**Restrict the \"New\" menu per link.** In a link's sharing settings, the owner chooses which entries of the \"New\" menu visitors see — for example, allow uploads but hide \"New folder\", text documents, spreadsheets, whiteboards or \"Add folder description\". Uploading itself always stays available.\n\n**One-click uploads for visitors.** Links that allow uploads get an \"Upload files\" button right next to \"Public share\", on every screen size. Name conflicts are handled with Nextcloud's own dialog (Cancel, Keep both, Replace). File requests keep Nextcloud's own upload page.\n\n**Defaults and restrictions for administrators** (Administration settings → Sharing):\n\n- *Hidden by default:* entries hidden on every link whose owner hasn't changed the selection.\n- *Forbidden:* entries hidden on all links, including existing ones. Owners can't turn them back on.\n- A switch to turn the \"Upload files\" button off for the whole server.\n\nHiding menu entries changes what visitors see, not what the link permits: a link that allows uploads still lets visitors create files by other means, e.g. WebDAV.",
+    "homepage": "https://github.com/nicostoe/public_share_control",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "pulse": {
     "hash": "sha256-LX+xuN0cIKd7Kt7/QQWQGdDTMQz9m4WJwbGsAe/Abz8=",
     "url": "https://github.com/hotochan123/nextcloud-pulse/releases/download/v0.19.1/pulse-0.19.1.tar.gz",
@@ -2900,9 +2950,9 @@
     ]
   },
   "regibase": {
-    "hash": "sha256-WBXKGl1Txjme2V05erq6Umxym86LrWiEYWpAsrjdNXY=",
-    "url": "https://github.com/ktec-nc-apps/RegiBase/releases/download/v0.21.0/regibase-0.21.0.tar.gz",
-    "version": "0.21.0",
+    "hash": "sha256-lcqbkfS8i1Zenq21QHujQ4ed2VzcFZlfZvesJJ+d5Zc=",
+    "url": "https://github.com/ktec-nc-apps/RegiBase/releases/download/v0.21.1/regibase-0.21.1.tar.gz",
+    "version": "0.21.1",
     "description": "RegiBase is a lightweight personal database for the information you want to keep — credit cards, bank accounts, online accounts, memberships, licenses, contacts and anything else.\n\nDesign your own fields (or start from a template), then browse records as a list, a spreadsheet-style table (with a frozen first column), or cards, and choose per field which of those views it appears in.\n\nRegiBase works together with your other Nextcloud apps — Contacts, Tables, Files, Notes and Calendar — using each one when it is installed.\n\nFeatures:\n- Custom form fields with per-field input rules, built from reusable templates\n- Save your own templates, and edit the built-in ones (per-user override, resettable to default)\n- Duplicate a collection — optionally including all of its records\n- Share a collection with Nextcloud users or groups at three levels (view / edit / delete), with an optional access password and optional secret-field sharing\n- Optional client-side encryption (AES-GCM) for secret fields — the server never sees the key or the plaintext\n- Nextcloud Tables integration: import a table into a new collection, or export a collection to a new Tables table\n- Import from CSV / JSON (e.g. Google Password Manager), or from your Nextcloud Contacts (including photos)\n- Attach images and files from Nextcloud Files or Notes\n- Add reminders to Nextcloud Calendar from date fields, and open addresses in a map (Google Maps / Yahoo! Maps / OpenStreetMap / Apple Maps / Bing Maps), configurable per collection\n- Move / copy / merge records between collections\n- Password-protected full backup & restore (AES-256 ZIP)\n- Command-line access via occ — list / get / export / find (with regex), plus master-key management (set / change / remove) — with opt-in secret decryption\n- An AI assistant, through the AI-Hub app: a chat beside the open collection that answers in words and writes out what to type. It never sees the value of a secret field. Without AI-Hub it is simply not shown\n- Available in 21 languages (Portuguese in both Brazilian and European forms)",
     "homepage": "https://github.com/ktec-nc-apps/RegiBase",
     "licenses": [
@@ -2970,9 +3020,9 @@
     ]
   },
   "roomvox": {
-    "hash": "sha256-Hj59QLcC+cF00o0KBEy0V0eQNI89tELcmNxncxukjz4=",
-    "url": "https://github.com/nextcloud/roomvox/releases/download/v1.6.0/roomvox-1.6.0.tar.gz",
-    "version": "1.6.0",
+    "hash": "sha256-YALGJWiPQvKtJmKuDrH3LbLNDbAXM1z02fNvYbYHneE=",
+    "url": "https://github.com/nextcloud/roomvox/releases/download/v1.6.1/roomvox-1.6.1.tar.gz",
+    "version": "1.6.1",
     "description": "RoomVox makes it easy to book and manage rooms in your organization. Whether it's meeting rooms, lecture halls, studios, or shared spaces — users simply add a room to their calendar event and RoomVox takes care of the rest.\n\nNo separate booking portal needed. Rooms appear directly in the calendar app your team already uses.\n\n**For users:**\n* Book rooms directly from your calendar — no extra tools\n* Instant confirmation or automatic approval requests\n* Email notifications with calendar attachments\n\n**For admins:**\n* Full room management with groups, permissions, and availability rules\n* Auto-accept or manager approval workflow per room\n* Role-based access control (Viewer / Booker / Manager)\n* CSV import/export for easy migration from MS365/Exchange\n* Public REST API for displays, kiosks, and digital signage\n* Per-room email and SMTP configuration\n* Microsoft Exchange bidirectional sync\n\n**Compatible calendar clients:**\n* Nextcloud Calendar\n* Apple Calendar (iOS/macOS)\n* Microsoft Outlook\n* Mozilla Thunderbird\n* eM Client",
     "homepage": "https://voxcloud.nl",
     "licenses": [
@@ -3060,10 +3110,10 @@
     ]
   },
   "scoreview": {
-    "hash": "sha256-IYIUdEHl5uXMu8n2Q5LDskT5zRsqIt8NJgkb0pNX+7M=",
-    "url": "https://github.com/AndiMb/scoreview/releases/download/v1.12.0/scoreview.tar.gz",
-    "version": "1.12.0",
-    "description": "ScoreView displays MuseScore scores (.mscz) directly from Files - as faithful\nMuseScore notation (SVG) with a playback cursor that follows client-side\nsynthesized MIDI playback in sync, instead of a static PDF export.\n\nMade for choir and ensemble work: the notation looks like the sheet music you\nalready know, every voice can be heard on its own, and every measure is one\nclick away.\n\nAn uploaded .mscz file is converted once, server-side, to notation pages (SVG),\nMIDI and timing data, then cached: opening the same file again does not\nre-render, it is served from the cache. Only a change to the file triggers a\nnew conversion.\n\nThere are two equivalent conversion paths that produce the same result. The\ndefault one needs no configuration at all and no container: MuseScore as\nWebAssembly, executed by the server's Node.js runtime - everything it needs\nships with the app, and the server fetches the SoundFont for playback on its\nown. Alternatively a MuseScore container next to Nextcloud does the\nconverting.\n\nFeature set: zoom presets, fullscreen and auto-scrolling in time with playback;\na freely configurable playback highlight (sounding notes or a bar, in a colour\nof your choice);\nmeasure navigation, looping over a measure range, click-to-note jump and\nkeyboard shortcuts; a mixer with per-voice volume/mute/solo, a \"my voice\"\npreset, tempo in BPM and a metronome; annotations anchored to musical\nposition (private or shared, surviving a re-upload); touch controls with\npinch-zoom for a tablet on the music stand.\n\nFor practice, choir rehearsal and concert: the starting note of your own voice\nor the key note, your own voice in the stereo image, a speed trainer in the\nloop, light notes on a dark background, a performance mode with page turning by\nkey or pedal; a leader role per score with voice notes, rehearsal stamps and\nrehearsal marks in the navigation; \"Follow me\" - the leader sends position,\nloop and starting note to every device (below one second with notify_push);\nsetlists as a Markdown file with piece changes inside the viewer; own\nrecordings only the person recording can hear, and intonation feedback while\nsinging. Apart from the microphone in the Android app, this also works in\nthe Nextcloud mobile apps.\n\nOn the go and on a phone: practice tracks as MP3 files in Files - the current\nmix, optionally one per voice for everyone -, a coach mode (your own voice on\nthe piano), transposing the sound, a system band with the staves side by\nside, a lyrics view of your own voice, note names on the notes, and scores\nwith sound without a network via an offline page in the browser. \"Follow me\"\ntakes everyone along to the next piece of the setlist.",
+    "hash": "sha256-Cexr0Fpzy+r+iG7kjSDp5V1gfuXkx+bO6YHphzi4XUs=",
+    "url": "https://github.com/AndiMb/scoreview/releases/download/v1.14.0/scoreview.tar.gz",
+    "version": "1.14.0",
+    "description": "ScoreView displays MuseScore scores (.mscz) directly from Files - as faithful\nMuseScore notation (SVG) with a playback cursor that follows client-side\nsynthesized MIDI playback in sync, instead of a static PDF export.\n\nMade for choir and ensemble work: the notation looks like the sheet music you\nalready know, every voice can be heard on its own, and every measure is one\nclick away.\n\nAn uploaded .mscz file is converted once, server-side, to notation pages (SVG),\nMIDI and timing data, then cached: opening the same file again does not\nre-render, it is served from the cache. Only a change to the file triggers a\nnew conversion.\n\nThere are two equivalent conversion paths that produce the same result. The\ndefault one needs no configuration at all and no container: MuseScore as\nWebAssembly, executed by the server's Node.js runtime - everything it needs\nships with the app, and the server fetches the SoundFont for playback on its\nown. Alternatively a MuseScore container next to Nextcloud does the\nconverting. If the server can run neither, the browser converts instead -\nwithout a cache, as a fallback.\n\nFeature set: zoom presets, fullscreen and auto-scrolling in time with playback;\na freely configurable playback highlight (sounding notes or a bar, in a colour\nof your choice);\nmeasure navigation, looping over a measure range, click-to-note jump and\nkeyboard shortcuts; a mixer with per-voice volume/mute/solo, a \"my voice\"\npreset, tempo in BPM and a metronome; annotations anchored to musical\nposition (private or shared, surviving a re-upload); touch controls with\npinch-zoom for a tablet on the music stand.\n\nFor practice, choir rehearsal and concert: the starting note of your own voice\nor the key note, your own voice in the stereo image, a speed trainer in the\nloop, light notes on a dark background, a performance mode with page turning by\nkey or pedal; a leader role per score with voice notes, rehearsal stamps and\nrehearsal marks in the navigation; \"Follow me\" - the leader sends position,\nloop and starting note to every device (below one second with notify_push)\nand lets them follow silently while it plays;\nsetlists as a Markdown file with piece changes inside the viewer; own\nrecordings only the person recording can hear, and intonation feedback while\nsinging. The Nextcloud mobile apps open the viewer too - the Android app\nwithout the microphone; so far only Android has been tested.\n\nOn the go and on a phone: practice tracks as MP3 files in Files - the current\nmix, optionally one per voice for everyone -, a coach mode (your own voice on\nthe piano), transposing the sound, a system band with the staves side by\nside, a lyrics view of your own voice, note names on the notes, and scores\nwith sound without a network via an offline page in the browser. \"Follow me\"\ntakes everyone along to the next piece of the setlist.",
     "homepage": "https://github.com/AndiMb/scoreview",
     "licenses": [
       "agpl"
@@ -3359,6 +3409,16 @@
       "AGPL-3.0-or-later"
     ]
   },
+  "stepupauth": {
+    "hash": "sha256-Ld3NkVtJspl/iP4CcZHniQY11SUPMU0erTdWV/UFMow=",
+    "url": "https://github.com/SUNET/nextcloud-stepupauth/releases/download/v0.2.4/stepupauth-0.2.4.tar.gz",
+    "version": "0.2.4",
+    "description": "The Step Auth App allows SSO accounts to validate a second factor.",
+    "homepage": "https://github.com/SUNET/nextcloud-stepupauth",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "tables": {
     "hash": "sha256-E12Ax2B74LEfiwRTF1/bkFYBH5iksvcxre5ZqzC1T8M=",
     "url": "https://github.com/nextcloud-releases/tables/releases/download/v2.3.1/tables-v2.3.1.tar.gz",
@@ -3420,10 +3480,10 @@
     ]
   },
   "teamhub": {
-    "hash": "sha256-YFI+FCfEKjcB+m5dnvbxDKy9UoUkR8tekDi+xxqUNe8=",
-    "url": "https://github.com/JustinDoek/Nextcloud-Teamhub/releases/download/v4.11.3/teamhub.tar.gz",
-    "version": "4.11.3",
-    "description": "**Your users are asking for Microsoft Teams. Your auditor is asking who approved what, and where it is stored. TeamHub answers both from the Nextcloud you already run.**\n\nA Nextcloud Team on its own is a membership list. TeamHub turns that list into a governed workspace: messages, decisions, presence, a timeline and projects on one page per team, beside the Talk conversation, team space, Calendar, Collective and Deck board that team already uses. Deck stays the source of truth for cards, Talk for conversations, Files for documents — TeamHub reads across them, writes your actions back to them, and records what happened.\n\n**Control**\n- Teams are created from templates and carry policy profiles — apps, modules and settings decided before anyone joins\n- Gates are server-side, not interface-side: every controller method checks membership and role\n- No side doors — a team made in Contacts, Collectives or `occ` is not a TeamHub team, and a TeamHub team cannot be deleted from Nextcloud's Teams page\n- Bulk rollout from CSV, with a dry run that creates nothing until you confirm\n- Restricted means hidden: an action a role may not perform is not rendered at all\n\n**Evidence**\n- Append-only per-team audit log — membership, files, shares, resources and configuration, with actor and before/after. Retention 7–3650 days. Exports as JSON\n- Changes made outside TeamHub are pulled in hourly from Nextcloud's own activity and share tables\n- ISO/IEC 27001:2022 control report — this instance's live state against the Annex A controls TeamHub can evidence, and the ones it cannot\n- Decisions with no delete button; service requests sealed with a re-verifiable SHA-256 chain\n- Code integrity checked against a SHA-256 manifest generated at build time\n\n**Residency**\n- Runs entirely inside your Nextcloud — no hosted version, no external service, no sub-processor to add to your register\n- An instance with an active licence transmits nothing at all",
+    "hash": "sha256-4GYXmIuyoi3zJpqr0YVi4+mD/dm9gqa0HByj3Dlj2u8=",
+    "url": "https://github.com/JustinDoek/Nextcloud-Teamhub/releases/download/4.12.1/teamhub.tar.gz",
+    "version": "4.12.1",
+    "description": "**Your users are asking for Microsoft Teams. Your auditor is asking who approved what, and where it is stored. TeamHub answers both from the Nextcloud you already run.**\n\nA Nextcloud Team on its own is a membership list. TeamHub turns that list into a governed workspace: messages, decisions, presence, a timeline and projects on one page per team, beside the Talk conversation, team space, Calendar, Collective and Deck board that team already uses. Deck stays the source of truth for cards, Talk for conversations, Files for documents Ã¢â‚¬â€ TeamHub reads across them, writes your actions back to them, and records what happened.\n\n**Control**\n- Teams are created from templates and carry policy profiles Ã¢â‚¬â€ apps, modules and settings decided before anyone joins\n- Gates are server-side, not interface-side: every controller method checks membership and role\n- No side doors Ã¢â‚¬â€ a team made in Contacts, Collectives or `occ` is not a TeamHub team, and a TeamHub team cannot be deleted from Nextcloud's Teams page\n- Bulk rollout from CSV, with a dry run that creates nothing until you confirm\n- Restricted means hidden: an action a role may not perform is not rendered at all\n\n**Evidence**\n- Append-only per-team audit log Ã¢â‚¬â€ membership, files, shares, resources and configuration, with actor and before/after. Retention 7Ã¢â‚¬â€œ3650 days. Exports as JSON\n- Changes made outside TeamHub are pulled in hourly from Nextcloud's own activity and share tables\n- ISO/IEC 27001:2022 control report Ã¢â‚¬â€ this instance's live state against the Annex A controls TeamHub can evidence, and the ones it cannot\n- Decisions with no delete button; service requests sealed with a re-verifiable SHA-256 chain\n- Code integrity checked against a SHA-256 manifest generated at build time\n\n**Residency**\n- Runs entirely inside your Nextcloud Ã¢â‚¬â€ no hosted version, no external service, no sub-processor to add to your register\n- An instance with an active licence transmits nothing at all",
     "homepage": "https://teamhub.doekworks.eu",
     "licenses": [
       "agpl"
@@ -3620,8 +3680,8 @@
     ]
   },
   "uniteos_notifier": {
-    "hash": "sha256-yoNEdBloqNFtXTZsR4EN1PoTlGRjQKObaZ2B+qSFp4g=",
-    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/main/uniteos_notifier.tar.gz",
+    "hash": "sha256-vaWgvCrCGCfm5ygADrXCKR/nRTU9DFar/FQZg59ajus=",
+    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/1.0.6/uniteos_notifier.tar.gz",
     "version": "1.0.6",
     "description": "This app allows forwarding Nextcloud events for a deeper integration into UniteOS developed by wechange eG by presenting a selected set of events as user notifications.",
     "homepage": "",
@@ -3770,13 +3830,13 @@
     ]
   },
   "vereinsflieger_login": {
-    "hash": "sha256-SUGCjpSktl3+iV0wkGKlMgH/LSyfqMNX/KvLggEbn/A=",
-    "url": "https://github.com/FISEChris1337/nextcloud-vereinsflieger-login/releases/download/v0.6.7/vereinsflieger_login-0.6.7.tar.gz",
-    "version": "0.6.7",
-    "description": "Vereinsflieger Login lets members of your club sign in to Nextcloud using their Vereinsflieger credentials.\n\n- SSO through Vereinsflieger: sign-in for members of the configured club.\n- Roles and groups: received Vereinsflieger roles are stored and can be mapped to Nextcloud groups in the admin settings.\n- Existing account migration: optionally link existing local member accounts to SSO through a unique email match on their first successful login. This option is disabled by default.\n- Automatic member provisioning: optionally create new Nextcloud accounts on first successful login with first name, last name and email.\n- Stable account linking: the Vereinsflieger ID keeps accounts linked after email changes.\n- Nextcloud features: native sessions, Remember me, Nextcloud two-factor authentication and app passwords.\n- Local emergency accounts: selected accounts remain available for local login; SSO-linked accounts are protected against local account password login.\n- Central administration: German and English admin settings with group mapping, API usage, configurable login pauses and unlock controls.\n\nIndependent community integration. Not an official Vereinsflieger product.",
-    "homepage": "",
+    "hash": "sha256-KdexTD8Dcy6uyZbDa0ycmWZcxNf0DcZvxlF3aSls2SE=",
+    "url": "https://github.com/FISEChris1337/nextcloud-vereinsflieger-login/releases/download/v0.6.8/vereinsflieger_login-0.6.8.tar.gz",
+    "version": "0.6.8",
+    "description": "Let your club members sign in to Nextcloud with their Vereinsflieger credentials.\n\n### Sign-in\n- Vereinsflieger sign-in for members of the configured club.\n- Native Nextcloud sessions, Remember me, two-factor authentication and app passwords.\n- Selected emergency accounts retain local login. Linked SSO accounts cannot use a local account password.\n\n### Accounts and migration\n- Optionally create new member accounts with first name, last name and email.\n- Optionally migrate existing local accounts through a unique email match on first successful sign-in. Disabled by default; enable temporarily for a controlled migration.\n- Stable Vereinsflieger IDs keep accounts linked after email changes. Verified first and last names are updated after sign-in.\n\n### Roles and administration\n- Map received Vereinsflieger roles to Nextcloud groups. Local memberships and admin rights are preserved.\n- German and English admin settings with account links, role mapping, API usage and configurable login pauses.\n\nIndependent community integration. Not an official Vereinsflieger product.",
+    "homepage": "https://github.com/FISEChris1337/nextcloud-vereinsflieger-login",
     "licenses": [
-      "agpl"
+      "AGPL-3.0-or-later"
     ]
   },
   "vinarium": {
