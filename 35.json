@@ -200,9 +200,9 @@
     ]
   },
   "audioarchive": {
-    "hash": "sha256-9upqS83Fv9nuV59fDNlrWCuj4EwJlWKRxiASUOOELQ4=",
-    "url": "https://github.com/minichhenoch-sir/Audio-Archive/releases/download/v1.0.1/audioarchive-1.0.1.tar.gz",
-    "version": "1.0.1",
+    "hash": "sha256-CH0ZYAd1o1LLgU4x4/AOZ79r6vEpj8yM6wc2WMG0jJI=",
+    "url": "https://github.com/minichhenoch-sir/Audio-Archive/releases/download/v1.0.3/audioarchive-1.0.3.tar.gz",
+    "version": "1.0.3",
     "description": "**Audio Archive** turns a folder of recordings in your Nextcloud – sermons, talks, lectures, concerts, podcasts, rehearsals – into a simple audio player for everyone.\n\n* **Browse the real folder structure**, however deeply nested, with search, sorting (name, newest, shuffle) and favourites\n* **Plays in the background** with lock-screen and headset controls, remembers where you stopped, continues with the next folder\n* **Many formats:** MP3, M4A/AAC, Ogg Vorbis, Opus, FLAC, WAV, WebM, AIFF – optionally converted to MP3 on the fly (needs ffmpeg on the server)\n* **Installable as an app** (PWA) on phones and desktops, with **offline** listening of saved folders\n* **Share without an account:** a public link with password, plus links that users create for single folders (expiry date, own design, offline/download allowed or not)\n* **Comments and ratings** per recording, overview and Excel export for admins\n* **Designs:** own colours, background image, cover images, or Nextcloud's look\n* **Help and contact** button that notifies a group in Nextcloud\n\nThe user interface is currently in **German** only; an English translation is planned.\n\nOptional: ffmpeg in the Nextcloud container for MP3 conversion; a working background job (cron) speeds up reading title/artist of large archives.",
     "homepage": "https://github.com/minichhenoch-sir/Audio-Archive",
     "licenses": [
@@ -340,10 +340,10 @@
     ]
   },
   "budget": {
-    "hash": "sha256-gZD8C4E9QDAE+MIOxS+pGqxjpQwcJoDQTqTCyQUr3t0=",
-    "url": "https://github.com/otherworld-dev/Budget/releases/download/v2.54.0/budget.tar.gz",
-    "version": "2.54.0",
-    "description": "**⚠️ Beta: This app is currently in testing. Data loss is possible. Please backup your data regularly and report any issues.**\n\n# Budget - Financial Tracking for Nextcloud\n\nTrack your spending habits, manage savings, and forecast future account balances with intelligent analysis of your financial history.\n\n## Features\n\n* **Import Bank Statements**: Support for CSV, OFX, QIF and ISO 20022 camt.053 XML formats\n* **Smart Categorization**: Automatic vendor matching and transaction categorization\n* **Auto-Categorization Rules**: Apply rules to existing transactions anytime with preview\n* **Split Transactions**: Allocate single transactions across multiple categories\n* **Transfer Detection**: Automatic matching of transfers between accounts\n* **Budget Tracking**: Set spending limits with alerts when approaching or exceeding budgets\n* **Balance Forecasting**: Predict future balances based on historical data\n* **Recurring Bills**: Track bills with due date monitoring and Nextcloud notifications\n* **Recurring Income**: Track expected income sources with receipt tracking\n* **Split Expenses**: Share expenses with contacts and track who owes whom\n* **Debt Payoff Planner**: Plan repayment using avalanche or snowball strategies\n* **Savings Goals**: Set targets with progress tracking and achievement forecasting\n* **Pension Tracker**: Track retirement accounts with growth projections\n* **Net Worth History**: Track assets and liabilities over time\n* **Year-over-Year Reports**: Compare spending across multiple years\n* **Multi-Account Support**: Manage multiple bank accounts and currencies\n* **Custom Categories**: Create your own category hierarchy\n* **Reports & Charts**: Visualize your financial data with interactive charts\n\n## Documentation\n\nFull user documentation: https://budget.otherworld.dev/docs/\n\n## Requirements\n\n* Nextcloud 30 or higher\n* PHP 8.1 or higher\n* PHP BCMath extension (`php-bcmath`)",
+    "hash": "sha256-7FB+qcFq2tPd/9vD/MSdMVpLct/tcQ7reFWCpsIPKfk=",
+    "url": "https://github.com/otherworld-dev/Budget/releases/download/v3.0.0/budget.tar.gz",
+    "version": "3.0.0",
+    "description": "# Budget - Financial Tracking for Nextcloud\n\nTrack your spending habits, manage savings, and forecast future account balances with intelligent analysis of your financial history.\n\n## Features\n\n* **Import Bank Statements**: Support for CSV, Excel and LibreOffice spreadsheets (.xls, .xlsx, .ods), OFX, QIF and ISO 20022 camt.053 XML formats, plus exports from Firefly III, YNAB, Actual Budget, Mint and Monarch Money\n* **Import Folder**: Drop a statement into a folder in your Files and it is imported in the background, or held for you to review first\n* **Bank Sync (beta)**: Pull transactions in automatically through GoCardless (UK/EU) or SimpleFIN (US)\n* **Smart Categorization**: Automatic vendor matching and transaction categorization\n* **Auto-Categorization Rules**: Apply rules to existing transactions anytime with preview\n* **Split Transactions**: Allocate single transactions across multiple categories\n* **Transfer Detection**: Automatic matching of transfers between accounts\n* **Statement Reconciliation**: Tick transactions off against a bank statement until the difference reaches zero\n* **Receipt Scanning**: Attach receipt photos to transactions and, once an admin sets it up, read the amount and items from them (OCR)\n* **Android App, Quick Add and a Public API**: Budget Companion for Android (on Google Play: https://play.google.com/store/apps/details?id=dev.otherworld.budget) to photograph receipts and check your balances, a fast entry page for your phone, and a REST API for scripts and automation\n* **Budget Tracking**: Set spending limits with alerts when approaching or exceeding budgets\n* **Rollover Budgets**: Envelope budgeting, where unspent money (or overspending) carries into the next month\n* **Project Budgets**: One budget for a job that runs over months, such as a renovation or a wedding\n* **Balance Forecasting**: Predict future balances based on historical data\n* **Recurring Bills**: Track bills with due date monitoring and Nextcloud notifications\n* **Subscription Detection**: Spots payments that look recurring but are not tracked yet, and turns them into bills in one click\n* **Recurring Income**: Track expected income sources with receipt tracking\n* **Split Expenses**: Share expenses with one or several people and track who owes whom\n* **Debt Payoff Planner**: Plan repayment using avalanche or snowball strategies\n* **Savings Goals**: Set targets with progress tracking and achievement forecasting\n* **Pension Tracker**: Track retirement accounts with growth projections\n* **Net Worth History**: Track assets and liabilities over time\n* **Year-over-Year Reports**: Compare spending across multiple years\n* **Money Flow Report**: A Sankey diagram of where a period's money came from and went\n* **Digest and Unusual Spending Alerts**: An optional weekly or monthly summary, and a notification when a category runs well above its usual level\n* **Scheduled PDF Reports**: Last month's report saved to your Files or emailed to you automatically\n* **Multi-Account Support**: Manage multiple bank accounts and currencies\n* **Custom Categories**: Create your own category hierarchy\n* **Reports & Charts**: Visualize your financial data with interactive charts\n* **Getting Started Checklist**: A first-run checklist, with sample data to explore before adding your own\n\n## Documentation\n\nFull user documentation: https://budget.otherworld.dev/docs/\n\n## Requirements\n\n* Nextcloud 30 or higher\n* PHP 8.1 or higher\n* PHP BCMath extension (`php-bcmath`)",
     "homepage": "https://budget.otherworld.dev/",
     "licenses": [
       "AGPL-3.0-or-later"
@@ -519,10 +519,20 @@
       "AGPL-3.0-or-later"
     ]
   },
+  "context_chat": {
+    "hash": "sha256-xY7/3OgV/s3KtLK1BBlET58MWJuKabl3cJYpJu7e7/Y=",
+    "url": "https://github.com/nextcloud-releases/context_chat/releases/download/v5.5.0/context_chat-v5.5.0.tar.gz",
+    "version": "5.5.0",
+    "description": "Ask questions to Nextcloud Assistant about the content of your documents.\n\n\nSee [the Admin docs](https://docs.nextcloud.com/server/latest/admin_manual/ai/app_context_chat.html) for installation steps and requirements.\n\nSetup background job workers as described here: https://docs.nextcloud.com/server/latest/admin_manual/ai/overview.html#improve-ai-task-pickup-speed\n\nNote:\nRefer to the [Context Chat Backend's readme](https://github.com/nextcloud/context_chat_backend/?tab=readme-ov-file) and the [AppAPI's documentation](https://cloud-py-api.github.io/app_api/) for help with setup of AppAPI's deploy daemon.",
+    "homepage": "https://github.com/nextcloud/context_chat",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "contractmanager": {
-    "hash": "sha256-SJDNoTnwDitucnlQ91Yxq/s0PoGKU25oP1IKNtsaENA=",
-    "url": "https://github.com/cpcMomentum/contractmanager/releases/download/v1.9.0/contractmanager-v1.9.0.tar.gz",
-    "version": "1.9.0",
+    "hash": "sha256-VRrKh/4Vzk9kc83Tgxwu9BhvlwfqR9z52vFy3NpoYLk=",
+    "url": "https://github.com/cpcMomentum/contractmanager/releases/download/v1.10.0/contractmanager-v1.10.0.tar.gz",
+    "version": "1.10.0",
     "description": "# VertragsWerk\n\nVerwalten Sie Ihre Verträge zentral in Nextcloud:\n\n- **Vertragsübersicht** mit allen wichtigen Daten\n- **Automatische Erinnerungen** vor Kündigungsfristen\n- **Kategorien** zur Organisation\n- **Archiv** für beendete Verträge\n- **Dateianhänge** aus Nextcloud Files\n\nBehalten Sie den Überblick über Laufzeiten, Kosten und Kündigungsfristen.",
     "homepage": "",
     "licenses": [
@@ -790,9 +800,9 @@
     ]
   },
   "done": {
-    "hash": "sha256-X8epzC71LJMFJoPD7WzVI4/A+nzn9jNfWQFBcwTqt00=",
-    "url": "https://github.com/the-done/done-nextcloud/releases/download/v1.9.0/done.tar.gz",
-    "version": "1.9.0",
+    "hash": "sha256-9SBJO+IEDLy+3WHlOOUC63Q/Gn/cx9Fs/qiEkS9+dGQ=",
+    "url": "https://github.com/the-done/done-nextcloud/releases/download/v1.10.0/done.tar.gz",
+    "version": "1.10.0",
     "description": "**Stop guessing where your team's time goes.** Done turns everyday time tracking into a clear picture of your projects, people and profitability, right inside your Nextcloud.\n\nNo new SaaS account, no data leaving your server. Employee profiles are built from your Nextcloud users, so your team can start logging time in minutes.\n\n## Why teams choose Done\n\n- 🔒 **Your data stays yours.** Everything lives in your own Nextcloud, not in someone else's cloud.\n- ⏱️ **Logging time takes seconds.** Quick entry, a fast time picker, repeating entries and remembered recent projects mean people actually keep their timesheets up to date.\n- 📊 **Reports without spreadsheets.** Look at effort by project, employee or period, and drill down from the big picture to single records.\n- 💰 **From hours to margin.** Link actual effort to labour cost, client price and extra expenses, so you know which projects really make money.\n- 🧩 **Pay only for what you use.** Start free and add modules as your processes grow.\n\n## Free: everything you need to start\n\n- **Time tracking** by project and task, with comments and personal statistics\n- **Projects** with team members, roles, stages and custom fields\n- **Employees** in a smart table (drag-and-drop columns, multi-level sorting and filtering) or as cards\n- **Reports**: overall, by project and by employee\n\n## Professional: run the whole team\n\n- 👩‍💻 **Teams**: group people and see workload and utilization at a glance\n- 💼 **Finance**: payments, contracts and contract parameters with calculation formulas\n- 🌴 **Leave**: balances, requests and a team availability schedule, plus leave reports\n- ✅ **Approvals**: employee requests submitted and reviewed in one place, instead of getting lost in email and chats\n\n## AI: ask your data in plain language\n\n- 💬 **AI chat**: *\"What did Anna work on in project X this month?\"* The answer comes from your Done data.\n- 📅 **My day**: suggested time entries based on your calendar events\n\n## Built for project-driven teams\n\nAgencies, development studios, consultancies and internal project offices use Done to answer three questions every manager asks: *Who is working on what? Where is the time going? Is this project profitable?*\n\nFlexible permissions, custom fields and configurable interface visibility let you fit Done to your structure, not the other way round.\n\n## Get started\n\n1. Click **Enable** in your Nextcloud Apps.\n2. Open **Done**. Your Nextcloud users are ready to become employees.\n3. Create a project and log your first hour.\n\n🌐 [the-done.app](https://the-done.app) · 💳 [Pricing](https://the-done.app/en/pricing/) · 📖 [Support](https://the-done.app/en/support/) · 🐞 [GitHub](https://github.com/the-done)",
     "homepage": "",
     "licenses": [
@@ -870,9 +880,9 @@
     ]
   },
   "educai": {
-    "hash": "sha256-83ZNWYZTcfsw2wYHhEb381RBojCb6OmQucj/aLd9v8c=",
-    "url": "https://github.com/EDUCAlliance/talk-ai/releases/download/v2.42.2/educai-2.42.2.tar.gz",
-    "version": "2.42.2",
+    "hash": "sha256-Jn5G3XUUhsxwmsDUJEPxHf7RF+PVKfu+JC8vd/ZFyzQ=",
+    "url": "https://github.com/EDUCAlliance/talk-ai/releases/download/v2.43.0/educai-2.43.0.tar.gz",
+    "version": "2.43.0",
     "description": "Talk AI turns Nextcloud Talk into a home for **multiple** AI bots instead of one generic assistant. Each bot has its own system prompt, model, knowledge and tools — and a visibility scope: **personal**, **group**, **team**, or **global** (with an approval workflow for shared bots), so users only see and use the bots they are entitled to.\n\n- **Multi-bot by design** — unlimited bots, each with a stable @mention, own prompt, temperature and model selection.\n- **Bring your own model** — any OpenAI-compatible chat / model-list / embedding / vision / speech endpoint, with a primary + optional secondary endpoint and an automatic fallback model.\n- **Knowledge (RAG)** — index Nextcloud files and folders, with optional Docling conversion for PDF, Office and image formats.\n- **Agentic tools** — built-in document search, room-document search, image analysis, audio transcription and persistent Markdown wikis, plus an extension point for companion apps and support for external MCP tool servers.\n- **Native Talk integration** — shared Talk bot, Smart Picker support, signature-verified webhooks, admin control over providers, credentials, rate limits and tool access.\n\nDeveloped by EDUC — the European Digital UniverCity (its package id is educai). Works with any OpenAI-compatible endpoint on any supported Nextcloud install.\n\n### EU funding\n\n![Co-funded by the European Union](https://raw.githubusercontent.com/EDUCAlliance/talk-ai/v2.40.0/img/eu-co-funded-appstore.png)\n\nFunded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Education and Culture Executive Agency (EACEA). Neither the European Union nor EACEA can be held responsible for them.",
     "homepage": "",
     "licenses": [
@@ -930,10 +940,10 @@
     ]
   },
   "epubviewer": {
-    "hash": "sha256-nSywroJ/EPBVcd61yn/RiCApkRlKDd/Vf73P0OlqN4U=",
-    "url": "https://github.com/devnoname120/epubviewer/releases/download/1.9.10/epubviewer-1.9.10.tar.gz",
-    "version": "1.9.10",
-    "description": "# EPUB Viewer\nEPUB Viewer is an ebook reader based on pure javascript renderers. It works for publications formatted according to the following standards:\n\n - [EPUB]\n - [PDF]\n - [CBR and CBZ] ('comics')\n\nEPUB files are displayed using the futurepress [epub.js] renderer to provide near-native looks, especially when used full-screen. Turn pages by pressing the left/right hand side of the screen/window or using the cursor keys (if you have those), use the sidebar to browse through chapters or bookmarks and add annotations.\n\nPDF is handled by Mozilla's [pdf.js] renderer in combination with a custom reader app to enable side-by-side display, batch search and more. Controls are like those used in the Epub renderer with a few exceptions, e.g. night mode has not been implemented yet.\n\nCBR and CBZ are supported using a custom renderer inspired by [balaclark]'s work. As with Epub, books can be navigated using the keyboard as well as mouse or touch navigation. Reader generates a visual index of all pages, show in the sidebar (thumbnail generation can be disabled for low-memory and/or -speed devices). As CBx files are often of varying quality, a set of image enhancement filters are provided.\n\nComic pages may use static JPEG, PNG, GIF, or WebP images. PDF and comic documents are limited to 1,000 pages. Animated images and TIFF pages are not supported.\n\nSee [README] for more exhaustive information on features and potential misfeatures of this app.\n\n   [epub.js]: https://github.com/futurepress/epub.js\n   [EPUB]: http://idpf.org/epub\n   [CBR and CBZ]: https://wiki.mobileread.com/wiki/CBR_and_CBZ\n   [balaclark]: https://github.com/balaclark/HTML5-Comic-Book-Reader\n   [PDF]: https://en.wikipedia.org/wiki/Portable_Document_Format\n   [pdf.js]: https://github.com/mozilla/pdf.js\n   [README]: https://github.com/devnoname120/epubviewer#readme",
+    "hash": "sha256-gV+oGK4ysctIrQk5+Z+6F+GFmkw4uJjk/5PfJBuqXT8=",
+    "url": "https://github.com/devnoname120/epubviewer/releases/download/1.9.11/epubviewer-1.9.11.tar.gz",
+    "version": "1.9.11",
+    "description": "# EPUB Viewer\nEPUB Viewer is an ebook reader based on pure javascript renderers. It works for publications formatted according to the following standards:\n\n - [EPUB]\n - [PDF]\n - [CBR and CBZ] ('comics')\n\nEPUB files are displayed using the futurepress [epub.js] renderer to provide near-native looks, especially when used full-screen. Turn pages by pressing the left/right hand side of the screen/window or using the cursor keys (if you have those), use the sidebar to browse through chapters or bookmarks and add annotations.\n\nPDF is handled by Mozilla's [pdf.js] renderer in combination with a custom reader app to enable side-by-side display, batch search and more. Controls are like those used in the Epub renderer with a few exceptions, e.g. night mode has not been implemented yet.\n\nCBR and CBZ are supported using a custom renderer inspired by [balaclark]'s work. As with Epub, books can be navigated using the keyboard as well as mouse or touch navigation. Reader generates a visual index of all pages, show in the sidebar (thumbnail generation can be disabled for low-memory and/or -speed devices). As CBx files are often of varying quality, a set of image enhancement filters are provided.\n\nComic pages may use static JPEG, PNG, GIF, or WebP images. PDF and comic documents are limited to 1,000 pages. Animated images and TIFF pages are not supported.\n\nNextcloud file thumbnails use the first naturally ordered supported image in CBZ archives. CBR thumbnails are enabled when the optional PHP `rar` extension is installed. Unsupported, encrypted, multi-volume, malformed, or over-limit archives retain Nextcloud's generic file icon.\n\nSee [README] for more exhaustive information on features and potential misfeatures of this app.\n\n   [epub.js]: https://github.com/futurepress/epub.js\n   [EPUB]: http://idpf.org/epub\n   [CBR and CBZ]: https://wiki.mobileread.com/wiki/CBR_and_CBZ\n   [balaclark]: https://github.com/balaclark/HTML5-Comic-Book-Reader\n   [PDF]: https://en.wikipedia.org/wiki/Portable_Document_Format\n   [pdf.js]: https://github.com/mozilla/pdf.js\n   [README]: https://github.com/devnoname120/epubviewer#readme",
     "homepage": "https://github.com/devnoname120/epubviewer",
     "licenses": [
       "agpl"
@@ -1279,6 +1289,16 @@
       "agpl"
     ]
   },
+  "folder_protection": {
+    "hash": "sha256-Sq00CzHfjKaJD+GjQBtU2zofFBX91IoVmfMPwivSHFs=",
+    "url": "https://github.com/kreotropic/folder_protection/releases/download/v2.5.2/folder_protection-v2.5.2-signed.tar.gz",
+    "version": "2.5.2",
+    "description": "Stop the folders that matter from being moved, copied or deleted by accident.\n\nMoving or deleting a folder with hundreds of gigabytes can keep a Nextcloud server busy for hours, and one wrong drag in the desktop client is enough to start it. Folder Protection lets administrators mark the folders that must stay where they are.\n\n## What protection does\n\n- **A protected folder can't be deleted, moved or copied**, whether from the web interface, the desktop and mobile clients or plain WebDAV. Its parent folders can't be deleted either, since that would take it along.\n- **Work inside it carries on as usual.** Users can still create folders, add and edit files, and rename things inside a protected folder.\n- **The desktop client plays along.** Protected folders are reported without the delete permission, so the client never tries to delete them, and a blocked move shows up as a clear error in its sync activity.\n- **Users can see it.** Protected folders get a lock icon in the Files list, the actions that would fail are hidden, and a blocked attempt sends the user a notification explaining why.\n\n## Managing protections\n\n- **Admin page** (Administration settings → Folder Protection) with a folder tree picker: protect several folders at once and record why each one is protected.\n- **Team folders**: protect any Team folder (Group Folders app) from the admin page, without being a member of it.\n- **External storage**: folders on SMB, S3, WebDAV or local mounts are supported.\n- **Dashboard widget** listing every protected folder with its size and reason.\n- **occ commands** to protect, unprotect, list and check folders from scripts.\n\nProtection is checked at two layers (WebDAV and storage). A distributed cache (Redis or Memcached) is recommended: without it, protections added with occ can take up to five minutes to apply.\n\nAvailable in English, Portuguese, German, Spanish and French.",
+    "homepage": "https://github.com/kreotropic/folder_protection",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "folder_retention": {
     "hash": "sha256-2luFCz8isk4iGNKO20HOfHAEBnO2Od5GQmI99mcpbMQ=",
     "url": "https://github.com/hotochan123/nextcloud-folder-retention/releases/download/v0.9.1/folder_retention-0.9.1.tar.gz",
@@ -1370,9 +1390,9 @@
     ]
   },
   "fulltextsearch_sql": {
-    "hash": "sha256-RztKun9w8JBqYcUemFziT80TRWfAGyNZnRBpgL2eo+I=",
-    "url": "https://github.com/jplitza/fulltextsearch_sql/releases/download/v1.5.0/fulltextsearch_sql.tar.gz",
-    "version": "1.5.0",
+    "hash": "sha256-z/LKj7ybJn7CH7y0IERMTzPk3ffiNTrzzNtxmen+gFk=",
+    "url": "https://github.com/jplitza/fulltextsearch_sql/releases/download/v1.5.1/fulltextsearch_sql.tar.gz",
+    "version": "1.5.1",
     "description": "Makes the _Full text search_ app work without any additional services.\n\nIt uses the Nextcloud MySQL or PostgreSQL database backend as search provider.\n\nCurrently can not index office document formats, but does work with PDFs (if they contain text/have been OCR'ed).\n\n**Warning:** This app will store all indexed content in your Nextcloud database *twice* (roughly) - once as plain text and once as searchable index. This means that your database can easily grow hundreds of megabytes or even gigabytes in size if you have much indexable content (e.g. documents).",
     "homepage": "https://github.com/jplitza/fulltextsearch_sql",
     "licenses": [
@@ -1450,10 +1470,10 @@
     ]
   },
   "group_manager": {
-    "hash": "sha256-lIh3M8+nqWt0scoNQwZsoYzSvsUshLBLbLMxuOonhvU=",
-    "url": "https://github.com/kreotropic/group_manager/releases/download/v0.4.1/group_manager-v0.4.1.tar.gz",
-    "version": "0.4.1",
-    "description": "Group Manager gives administrators a single screen to browse groups (local and LDAP), manage\nlocal group membership in bulk, and — when Team Folders is installed — create or assign group\nfolders and their per-group permissions and quota, without leaving Settings.\n\n- Browse local and LDAP/AD groups side by side, searchable, with LDAP groups grouped separately.\n- Add people, a whole group at once, or a pasted list to a local group; queue several changes as\n  colored chips and apply them in one batch that never aborts over a single failed row.\n- Make members group admins (Nextcloud subadmins) right from the member list, in the same\n  queued batch.\n- Create a new group folder or assign an existing one to a group, edit Write/Share/Delete\n  permissions and the folder's quota, and see a badge when a folder has advanced permissions\n  (ACL) enabled — works for LDAP groups too.\n- LDAP group membership stays read-only, as the directory is the source of truth; everything else,\n  group admins included, works the same as for a local group.",
+    "hash": "sha256-QljUl3SVdlsB0cAmLI+4SE1ybGWMRwwzjGtqL70UoJ8=",
+    "url": "https://github.com/kreotropic/group_manager/releases/download/v0.5.0/group_manager-v0.5.0-signed.tar.gz",
+    "version": "0.5.0",
+    "description": "Group Manager gives administrators a single screen to browse groups (local and LDAP), manage\nlocal group membership in bulk, and — when Team Folders is installed — create or assign group\nfolders and their per-group permissions and quota, without leaving Settings.\n\n- Browse local and LDAP/AD groups side by side, searchable, with LDAP groups grouped separately.\n- Add people, a whole group at once, or a pasted list to a local group; queue several changes as\n  colored chips and apply them in one batch that never aborts over a single failed row.\n- Make members group admins (Nextcloud subadmins) right from the member list, in the same\n  queued batch.\n- Create a new group folder or assign an existing one to a group, edit Write/Share/Delete\n  permissions and the folder's quota, and see a badge when a folder has advanced permissions\n  (ACL) enabled — works for LDAP groups too.\n- When the Group Quota app is installed, view and set a group's shared storage limit, with a\n  warning for members who belong to several groups that have a quota.\n- LDAP group membership stays read-only, as the directory is the source of truth; everything else,\n  group admins included, works the same as for a local group.",
     "homepage": "https://github.com/kreotropic/group_manager",
     "licenses": [
       "AGPL-3.0-or-later"
@@ -1590,9 +1610,9 @@
     ]
   },
   "integration_davc": {
-    "hash": "sha256-57olvUxO6iI3WP2NrX5KA/OxUgnXwm7c6JZW/st0fVQ=",
-    "url": "https://github.com/nextcloud-releases/integration_davc/releases/download/v1.1.0/integration_davc-v1.1.0.tar.gz",
-    "version": "1.1.0",
+    "hash": "sha256-bdMNs7FXbdZGYTG7o6hTXu92+pzjgi1WKXn3trP4ggA=",
+    "url": "https://github.com/nextcloud-releases/integration_davc/releases/download/v1.2.1/integration_davc-v1.2.1.tar.gz",
+    "version": "1.2.1",
     "description": "DAV Connector allows you connect any compatible DAV service to Nextcloud",
     "homepage": "https://github.com/nextcloud/integration_davc",
     "licenses": [
@@ -1860,9 +1880,9 @@
     ]
   },
   "integration_openstreetmap": {
-    "hash": "sha256-bWAKcP4NrlqQZM7n7sDk1HELwFDBFG2+ON48Bl47d1I=",
-    "url": "https://github.com/nextcloud-releases/integration_openstreetmap/releases/download/v4.2.0/integration_openstreetmap-v4.2.0.tar.gz",
-    "version": "4.2.0",
+    "hash": "sha256-I742sporrzlV2SSzkxgmfjDDu+nMWVvqtnHrtf36aFg=",
+    "url": "https://github.com/nextcloud-releases/integration_openstreetmap/releases/download/v4.3.1/integration_openstreetmap-v4.3.1.tar.gz",
+    "version": "4.3.1",
     "description": "OpenStreetMap integration provides a search provider for locations, a reference\nprovider to render location links from various map services (OpenStreetMap, Google maps...) and a custom link picker\ncomponent to quickly insert a location link by searching or selecting a point on an (awesome) interactive map.",
     "homepage": "https://github.com/nextcloud/integration_openstreetmap",
     "licenses": [
@@ -2191,7 +2211,7 @@
   },
   "learning": {
     "hash": "sha256-xxvoBxTKDN5jXZ0SbAX+PQNGXDU7Q45yo4Kz0KhI2eE=",
-    "url": "https://codeberg.org/andremadstop/learning-nc/releases/download/v5.6.0/learning-5.6.0.tar.gz",
+    "url": "https://github.com/andremadstop/learning-nc/releases/download/v5.6.0/learning-5.6.0.tar.gz",
     "version": "5.6.0",
     "description": "**Learning** is a self-hosted learning platform for Nextcloud. Your questions, progress, and student data never leave your server.\n\nBuilt for IT certification bootcamps (CompTIA, Cisco, AWS) but works for any subject. Instructors create courses, track student progress, and identify at-risk learners. Students drill with scientifically-backed spaced repetition and hands-on simulations.\n\n## Why Learning?\n\n- **Your data stays on your server** — no cloud dependency, full GDPR compliance\n- **FSRS adaptive scheduling** — cards are prioritized by memory strength, not rigid intervals\n- **9 interactive IT simulators** — CLI terminals, firewall builders, DNS resolvers, subnet calculators, network topology placement\n- **AI tutor (optional)** — answers questions by citing your uploaded course materials\n- **Verifiable certificates** — issue cryptographically signed, publicly verifiable completion credentials\n\n## For Instructors\n\n- Course management with pool assignment and student enrollment\n- **At-risk warnings** — automatic detection of struggling students\n- **Chapter heatmaps** — see where the class struggles at a glance\n- **Curriculum timeline** — plan course schedule with milestones\n- **Admin dashboard** — CSV export, course archiving, cohort merging\n- Campaign selection — choose which story scenarios are available per course\n\n## Certification &amp; Compliance\n\n- **Signed completion certificates** — every passing learner receives a cryptographically signed (Ed25519) certificate, minted automatically\n- **Public verification portal** — anyone can verify a certificate's authenticity via its permanent URL, no login required\n- **Compliance reports** — organization-wide completion overview for audits and works agreements\n- **Mandatory training &amp; recertification** — assign required courses, track certificate expiry, and automate recertification reminders\n- **Tamper-proof audit trail** — every issuance, revocation, and completion is logged\n\n## For Learners\n\n- **Smart Queue** — one-click review of all due cards, sorted by urgency\n- **Training &amp; Exam Mode** — practice or simulate timed exams\n- **PBQ Simulations** — performance-based questions with interactive CLI, drag-and-drop placement, and wiring tasks\n- **Story Campaigns** — learn through real IT incident scenarios (WannaCry, SolarWinds, Log4Shell)\n- **Live Duels &amp; Sprint** — real-time multiplayer quiz battles via Server-Sent Events\n- **Gamification** — XP, levels, streaks, 10 badges, seasonal league\n- **Maintenance Mode** — long-term retention schedule after course ends\n- **Trouble-spot cheat sheet** — export your weakest topics for exam prep\n\n## AI Features (optional)\n\nRequires a Google Gemini API key. Without it, the app is fully functional — AI features are simply hidden. Each user must explicitly opt in before any data is sent to the API.\n\n- **VirtuProf** — AI learning assistant with RAG-powered answers and source citations\n- **Question Generator** — create flashcards from pasted text\n- **Note Generator** — AI-powered topic summaries saved to Nextcloud Files\n\n## Question Types\n\n- Multiple Choice, Free Text with fuzzy matching, PBQ Simulations\n- CSV/JSON import &amp; export, pool sharing, multi-language translations\n\n## Technical\n\n- Vue 3, Vite, Pinia — modern frontend stack\n- 1220 unit tests, PHPStan Level 5, pre-push quality gates\n- Native Nextcloud integration: Dashboard widgets, Notifications, Talk, Files\n- AGPL-3.0 — fully open source\n\n## Requirements\n\n- Nextcloud 33–35\n- PHP 8.1+\n- PostgreSQL 13+ or MySQL 8+\n\n**Looking for pilot partners!** If you run Nextcloud at a school, university, or training provider — we'd love your feedback. Open an issue with a bit of context and we're happy to walk you through it.",
     "homepage": "https://codeberg.org/andremadstop/learning-nc",
@@ -2410,9 +2430,9 @@
     ]
   },
   "memories": {
-    "hash": "sha256-Ua8G4/K5iKmsV2P17hqswWpfLRzlwLW1Gy1J3YxsL/c=",
-    "url": "https://github.com/pulsejet/memories/releases/download/v10.0.1/memories.tar.gz",
-    "version": "10.0.1",
+    "hash": "sha256-tbR2ts19fXoW8hkUF1LIoA4tQO6WQWJvNjG/gnWUlw8=",
+    "url": "https://github.com/pulsejet/memories/releases/download/v10.1.0/memories.tar.gz",
+    "version": "10.1.0",
     "description": "# Memories: Photo Management for Nextcloud\n\nMemories is a *batteries-included* photo management solution for Nextcloud with advanced features including:\n\n- **📸 Timeline**: Sort photos and videos by date taken, parsed from Exif data.\n- **⏪ Rewind**: Jump to any time in the past instantly and relive your memories.\n- **🤖 AI Tagging**: Group photos by people and objects, powered by [recognize](https://github.com/nextcloud/recognize) and [facerecognition](https://github.com/matiasdelellis/facerecognition).\n- **🖼️ Albums**: Create albums to group photos and videos together. Then share these albums with others.\n- **🫱🏻‍🫲🏻 External Sharing**: Share photos and videos with people outside of your Nextcloud instance.\n- **📱 Mobile Support**: Work from any device, of any shape and size through the web app.\n- **✏️ Edit Metadata**: Edit dates and other metadata on photos quickly and in bulk.\n- **📦 Archive**: Store photos you don't want to see in your timeline in a separate folder.\n- **📹 Video Transcoding**: Transcode videos and use HLS for maximal performance.\n- **🗺️ Map**: View your photos on a map, tagged with accurate reverse geocoding.\n- **📦 Migration**: Migrate easily from Nextcloud Photos and Google Takeout.\n- **⚡️ Performance**: Do all this very fast.\n\n## 🚀 Installation\n\n1. Install the app from the Nextcloud app store (try a demo [here](https://demo.memories.gallery/apps/memories/)).\n1. Perform the recommended [configuration steps](https://memories.gallery/config/).\n1. Run `php occ memories:index` to generate metadata indices for existing photos.\n1. Open the 📷 Memories app in Nextcloud and set the directory containing your photos.",
     "homepage": "https://memories.gallery",
     "licenses": [
@@ -2469,6 +2489,16 @@
       "agpl"
     ]
   },
+  "musiccurator": {
+    "hash": "sha256-XLHXFrVwpH+6JktGCxdrCH56m7A8bSi8HMso4g19F8g=",
+    "url": "https://github.com/Happyfeet01/musiccurator/releases/download/v1.5.0/musiccurator-1.5.0.tar.gz",
+    "version": "1.5.0",
+    "description": "MusicCurator helps you review and improve the metadata of audio files stored in Nextcloud.\nCompare existing tags with metadata-provider suggestions, choose changes field by field,\norganize files into album or playlist folders, and keep every destructive action behind a preview.\n\nThe project is designed as a companion for Nextcloud Music. MusicCurator manages the library;\nNextcloud Music remains responsible for playback.",
+    "homepage": "https://github.com/Happyfeet01/musiccurator",
+    "licenses": [
+      "AGPL-3.0-or-later"
+    ]
+  },
   "musicsheetviewer": {
     "hash": "sha256-qskBZUWD6d7MZsCY2MHdNeh2pUq7SF2NHrtnZ7qEPso=",
     "url": "https://github.com/partitioncloud/nextcloud-musicsheet-viewer/releases/download/v1.3.2/musicsheetviewer.tar.gz",
@@ -2490,10 +2520,10 @@
     ]
   },
   "nc_gantt": {
-    "hash": "sha256-+7Y3oRh74v71onjoX24iSGBTd2FNtlNax6i/SPaMUJA=",
-    "url": "https://codeberg.org/fds2610/NC-Gantt/releases/download/v2.3.1-dfa2744/nc_gantt-2.3.1-dfa2744.tar.gz",
-    "version": "2.3.1",
-    "description": "**Professional project management — inside your own Nextcloud.**\n\nGantt Projects brings structured project planning and day-to-day task execution together in Nextcloud. Plan projects, subprojects, tasks and milestones with a professional Gantt chart — including dependencies, critical path, baselines, resources, capacity, budgets and Earned Value Management.\n\nThe key difference is the integration with **Nextcloud Deck**: connect the project plan with the team's actual work. Link tasks to Deck cards, create cards from project tasks, and optionally synchronize progress, dates and assignees. This connects professional project planning with agile, team-oriented execution without introducing another platform or data silo.\n\nAll project data stays on your own Nextcloud instance: no external service, no tracking, no data leaving your server.\n\n## ✨ Features\n\n* 📊 **Professional Gantt planning**: Projects, subprojects, tasks and milestones in a synchronized Gantt and table view, with day, week, month and sprint scales, inline editing and keyboard navigation.\n* 🔗 **Dependencies & scheduling**: n:m dependencies of all four types (FS, SS, FF, SF), with lag and lead time in working days. Schedule changes propagate through dependency chains and cycles are rejected.\n* 🎯 **Critical path**: Forward and backward scheduling with float calculation; the chain that determines the project end date is highlighted.\n* 📈 **Earned Value Management**: PV, EV, AC, SPI and CPI alongside rollup KPIs for progress, effort, budget and risk.\n* 📐 **Baselines & variance reporting**: Freeze a plan, keep the baseline visible and compare the current schedule against it element by element.\n* 🔮 **What-if simulation**: Test schedule changes without modifying the saved plan.\n* 👥 **Resources & capacity**: Resource groups, optional links to Nextcloud user accounts, multiple assignees per task, capacity planning, workload charts and over-allocation warnings.\n* 📅 **Working calendars**: Week models, regional calendars and holidays are taken into account by date calculations.\n* 🃏 **Nextcloud Deck integration**: Connect projects, subprojects and tasks with Deck boards, lists and cards. Choose between four opt-in synchronization levels, from feedback-only to writing changes with or without confirmation.\n* 🤝 **Sharing & permissions**: Share individual projects as viewer, editor or project admin.\n* 📎 **Attachments**: Attach any number of files and Notes to projects, subprojects, tasks and milestones; they are shared automatically with everyone who has access to the project.\n* 🗓 **Calendar & Tasks integration**: Subscribe to project dates and milestones via ICS and optionally write your own tasks to the Nextcloud Tasks app.\n* 🔄 **Import & export**: JSON, CSV, PNG, SVG and PDF.\n* 🏠 **Dashboard widgets**: See active projects and your next due or overdue tasks directly on the Nextcloud dashboard.\n* 🔔 **Notifications**: Configurable reminders for tasks and milestones, plus notifications for assignments and schedule changes.\n* ↩ **Undo & audit log**: Undo accidental schedule changes including their propagation chain; field changes are recorded.\n* 🔍 **Search & filters**: Filter by risk, overdue items, budget overruns, resources, assigned tasks and missing Deck links without losing the time context.\n* 📖 **Project management glossary**: Around 30 project-management terms and formulas built into the app.\n* 🌐 **Localisation**: English, German, French, Spanish, Italian, Dutch and Brazilian Portuguese.\n\n## 🔐 Sovereign by design\n\nGantt Projects runs entirely on your Nextcloud instance. Project plans, resources, schedules and reports remain under your control — without a separate SaaS service or external tracking.\n\nRequires Nextcloud 31–35 and PHP 8.1 or newer. Works with MySQL, MariaDB, PostgreSQL and SQLite.\n\n## 📚 Documentation\n\n* 🚀 [HOWTO](https://codeberg.org/fds2610/NC-Gantt/src/branch/main/nc_gantt/docs/en/HOWTO.md) — plan a sample project step by step, from the working calendar to the finished report\n* 📋 [Feature reference](https://codeberg.org/fds2610/NC-Gantt/src/branch/main/nc_gantt/docs/en/FEATURES.md) — every function with its purpose, input and output\n* 📝 [Changelog](https://codeberg.org/fds2610/NC-Gantt/src/branch/main/nc_gantt/CHANGELOG.md) — what changed in each release\n* 💾 [Installation](https://codeberg.org/fds2610/NC-Gantt/src/branch/main/nc_gantt/docs/en/INSTALL.md) — setup and update notes\n\n## 🐛 Feedback\n\nBug reports and feature requests are welcome in the [issue tracker](https://codeberg.org/fds2610/NC-Gantt/issues).",
+    "hash": "sha256-Fa763Bu8tGSu1Xa7LIChn3ZWCg73rXpxTv/pT/4o6ww=",
+    "url": "https://codeberg.org/fds2610/NC-Gantt/releases/download/v2.4.0-93a2d5d/nc_gantt-2.4.0-93a2d5d.tar.gz",
+    "version": "2.4.0",
+    "description": "**Professional project management — inside your own Nextcloud.**\n\nnc_Gantt brings structured project planning and day-to-day task execution together in Nextcloud. Plan projects, subprojects, tasks and milestones with a professional Gantt chart — including dependencies, critical path, baselines, resources, capacity, budgets and Earned Value Management.\n\nThe key difference is the integration with **Nextcloud Deck**: connect the project plan with the team's actual work. Link tasks to Deck cards, create cards from project tasks, and optionally synchronize progress, dates and assignees. This connects professional project planning with agile, team-oriented execution without introducing another platform or data silo.\n\nAll project data stays on your own Nextcloud instance: no external service, no tracking, no data leaving your server.\n\n## ✨ Features\n\n* 📊 **Professional Gantt planning**: Projects, subprojects, tasks and milestones in a synchronized Gantt and table view, with day, week, month and sprint scales, inline editing and keyboard navigation.\n* 🔗 **Dependencies & scheduling**: n:m dependencies of all four types (FS, SS, FF, SF), with lag and lead time in working days. Schedule changes propagate through dependency chains and cycles are rejected.\n* 🎯 **Critical path**: Forward and backward scheduling with float calculation; the chain that determines the project end date is highlighted.\n* 📈 **Earned Value Management**: PV, EV, AC, SPI and CPI alongside rollup KPIs for progress, effort, budget and risk.\n* 📐 **Baselines & variance reporting**: Freeze a plan, keep the baseline visible and compare the current schedule against it element by element.\n* 🔮 **What-if simulation**: Test schedule changes without modifying the saved plan.\n* 👥 **Resources & capacity**: Resource groups, roles as a resource type, optional links to Nextcloud user accounts, multiple assignees per task, capacity planning, workload charts and over-allocation warnings.\n* 📅 **Working calendars**: Week models, regional calendars and holidays are taken into account by date calculations.\n* 🃏 **Nextcloud Deck integration**: Connect projects, subprojects and tasks with Deck boards, lists and cards. Choose between four opt-in synchronization levels, from feedback-only to writing changes with or without confirmation.\n* 🤝 **Sharing & permissions**: Share individual projects as viewer, editor or project admin.\n* 📎 **Attachments**: Attach any number of files and Notes to projects, subprojects, tasks and milestones; they are shared automatically with everyone who has access to the project.\n* 🗓 **Calendar & Tasks integration**: Subscribe to project dates and milestones via ICS and optionally write your own tasks to the Nextcloud Tasks app.\n* 🔄 **Import & export**: JSON, CSV, PNG, SVG and PDF. Plans from **Microsoft Project** (MSPDI XML, also written by ProjectLibre and GanttProject) can be imported as a new project, including hierarchy, dependencies, resources, working calendar and planned costs.\n* 🧬 **Duplicate & templates**: Copy a proven project as the starting point for a new one, with a new start date and a choice of keeping all, only role or no resource assignments.\n* 🔗 **Link previews**: Links to projects and tasks show a rich preview in Text, Talk, Notes and other apps.\n* 🏠 **Dashboard widgets**: See active projects and your next due or overdue tasks directly on the Nextcloud dashboard.\n* 🔔 **Notifications**: Configurable reminders for tasks and milestones, plus notifications for assignments and schedule changes.\n* ↩ **Undo & audit log**: Undo accidental schedule changes including their propagation chain; field changes are recorded.\n* 🔍 **Search & filters**: Filter by risk, overdue items, budget overruns, resources, assigned tasks and missing Deck links without losing the time context.\n* 📖 **Project management glossary**: Around 30 project-management terms and formulas built into the app.\n* 🌐 **Localisation**: English, German, French, Spanish, Italian, Dutch and Brazilian Portuguese.\n\n## 🔐 Sovereign by design\n\nnc_Gantt runs entirely on your Nextcloud instance. Project plans, resources, schedules and reports remain under your control — without a separate SaaS service or external tracking.\n\nRequires Nextcloud 31–35 and PHP 8.1 or newer. Works with MySQL, MariaDB, PostgreSQL and SQLite.\n\n## 📚 Documentation\n\n* 🚀 [HOWTO](https://codeberg.org/fds2610/NC-Gantt/src/branch/main/nc_gantt/docs/en/HOWTO.md) — plan a sample project step by step, from the working calendar to the finished report\n* 📋 [Feature reference](https://codeberg.org/fds2610/NC-Gantt/src/branch/main/nc_gantt/docs/en/FEATURES.md) — every function with its purpose, input and output\n* 📝 [Changelog](https://codeberg.org/fds2610/NC-Gantt/src/branch/main/nc_gantt/CHANGELOG.md) — what changed in each release\n* 💾 [Installation](https://codeberg.org/fds2610/NC-Gantt/src/branch/main/nc_gantt/docs/en/INSTALL.md) — setup and update notes\n\n## 🐛 Feedback\n\nBug reports and feature requests are welcome in the [issue tracker](https://codeberg.org/fds2610/NC-Gantt/issues).",
     "homepage": "https://codeberg.org/fds2610/NC-Gantt",
     "licenses": [
       "agpl"
@@ -2780,9 +2810,9 @@
     ]
   },
   "pantry": {
-    "hash": "sha256-UHHyA7glFGPbiLIY49ctp5kJFtWg7SFogpnTbROvXbI=",
-    "url": "https://github.com/chenasraf/nextcloud-pantry/releases/download/v0.36.0/pantry-v0.36.0.tar.gz",
-    "version": "0.36.0",
+    "hash": "sha256-PboKBw8IrEDKAiBwqQLE4IvD974d73nnZpZDt5s/b5Y=",
+    "url": "https://github.com/chenasraf/nextcloud-pantry/releases/download/v0.37.0/pantry-v0.37.0.tar.gz",
+    "version": "0.37.0",
     "description": "Pantry helps households stay organized in Nextcloud.\n\n- **Houses** group members and their shared data. A person can belong to multiple houses and switch between them freely.\n- **Checklists** support recurring items (e.g. milk every week) that automatically reappear when due. Share lists with the whole household so everyone knows what to pick up.\n- **Shopping mode** turns your lists into a store-by-store trip — pick the lists and the route, check items off as you walk, see which housemates are out shopping, and finish with a priced review that lands in your shopping history.\n- **Barcode scanning** prefills an item from a product's EAN or UPC. Scan with the camera or type the code in, and Pantry looks up the name, category and photo for you to review.\n- **Custom fields** attach your own information to checklist items — an expiry date, an aisle number, a size, a yes/no flag. Define a field once for the house or a single list; date fields can send a reminder before they come due.\n- **Photo boards** let you keep shared reference photos organized in folders — the right brand of dog food, a favorite recipe card, a product label, and so on.\n- **Notes wall** gives the household a lightweight shared space for reminders, pinned messages, and quick notes with customizable colors.\n- **Notifications** keep everyone in the loop when photos are uploaded or notes are added or edited.\n\nAll data is scoped to a house; members only see the houses they belong to.\n\nPantry also has companion apps for mobile, watch and desktop that let you manage your lists, photos and notes on the go and keep everything in sync with your Nextcloud instance.\n\n**Companion apps:** Android ([Google Play](https://play.google.com/store/apps/details?id=dev.casraf.pantry), [F-Droid](https://f-droid.org/en/packages/dev.casraf.pantry/)) | iOS/macOS ([App Store](https://apps.apple.com/us/app/pantry-for-nextcloud/id6762161619)) | Wear OS ([Google Play](https://play.google.com/store/apps/details?id=dev.casraf.pantry)) | [Windows](https://pantry.casraf.dev/docs/getting-started/apps#desktop) | [Linux](https://pantry.casraf.dev/docs/getting-started/apps#desktop)\n\n**Website:** [pantry.casraf.dev](https://pantry.casraf.dev) | **Documentation:** [pantry.casraf.dev/docs](https://pantry.casraf.dev/docs)",
     "homepage": "https://pantry.casraf.dev",
     "licenses": [
@@ -3099,6 +3129,16 @@
       "AGPL-3.0-or-later"
     ]
   },
+  "remotestorage": {
+    "hash": "sha256-rZynovy2R0EisR1McWSbT4Wz0F7RKoI+2ElrlNiUB3g=",
+    "url": "https://github.com/jonocodes/nextcloud-remotestorage/releases/download/v0.3.2/remotestorage.tar.gz",
+    "version": "0.3.2",
+    "description": "Makes Nextcloud a [remoteStorage](https://remotestorage.io) server. Users connect any remoteStorage app with their address `user@your-nextcloud`, approve the access it asks for, and the app's data is stored as normal files in their Nextcloud.\n\nThe app only fills the gaps: WebFinger discovery, an OAuth consent page with per-folder scopes, and remoteStorage folder listings and CORS on Nextcloud's own WebDAV. All file operations, ETags, versions, quotas and trash are Nextcloud's.",
+    "homepage": "https://github.com/jonocodes/nextcloud-remotestorage",
+    "licenses": [
+      "AGPL-3.0-or-later"
+    ]
+  },
   "repod": {
     "hash": "sha256-RASx+wMprz5d/ck7oc7ulu03fTt6e2mj5LJRgwF2hCM=",
     "url": "https://git.crystalyx.net/Xefir/repod/releases/download/4.3.3/repod.tar.gz",
@@ -3220,10 +3260,10 @@
     ]
   },
   "savapage": {
-    "hash": "sha256-x8Xm6q8fKSd2Q8JNuUT3OGEyQRwk88zv257VjvpzMvo=",
-    "url": "https://codeberg.org/Interlunium/nextcloud-savapage/releases/download/1.1.4/savapage-1.1.4.tar.gz",
-    "version": "1.1.4",
-    "description": "## Print from Nextcloud to SavaPage\n\nSend documents directly from Nextcloud to a [SavaPage](https://www.savapage.org) print server.\n\n- Send a **single file** from the Files app context menu.\n- **Batch print** multiple files or whole folders; folders are expanded recursively on the server.\n- Allowed file types are enforced server-side, so only printable documents are sent.\n- Credentials are managed per user and can be synced automatically from SavaPage, or overridden by users when the administrator allows it.\n- Dedicated **SavaPage** sections in both Administration and Personal settings.\n\n### Requirements\n\n- Nextcloud 28 – 34\n- PHP 8.2+\n- A reachable SavaPage server\n\n### Installation\n\nInstall SavaPage Print from the [Nextcloud App Store](https://apps.nextcloud.com/apps/savapage), or download a release archive and enable it in your `apps` directory.\n\n### How it works\n\nWhen you choose *Print to SavaPage*, the app uploads the document to your SavaPage server (`{Server URI}/restful/v1/documents/print`) using your personal SavaPage ID and UUID. SavaPage then holds the document in its print queue for you to release at the printer.\n\n[Read the full documentation](https://www.savapage.org) for administrator and user guides.",
+    "hash": "",
+    "url": "https://codeberg.org/Interlunium/nextcloud-savapage/releases/download/1.1.5/savapage-1.1.5.tar.gz",
+    "version": "1.1.5",
+    "description": "## Print from Nextcloud to SavaPage\n\nSend documents directly from Nextcloud to a [SavaPage](https://www.savapage.org) print server.\n\n- Send a **single file** from the Files app context menu.\n- **Batch print** multiple files or whole folders; folders are expanded recursively on the server.\n- Allowed file types are enforced server-side, so only printable documents are sent.\n- Credentials are managed per user and can be synced automatically from SavaPage, or overridden by users when the administrator allows it.\n- Dedicated **SavaPage** sections in both Administration and Personal settings.\n\n### Requirements\n\n- Nextcloud 28 – 35\n- PHP 8.3+\n- A reachable SavaPage server\n\n### Installation\n\nInstall SavaPage Print from the [Nextcloud App Store](https://apps.nextcloud.com/apps/savapage), or download a release archive and enable it in your `apps` directory.\n\n### How it works\n\nWhen you choose *Print to SavaPage*, the app uploads the document to your SavaPage server (`{Server URI}/restful/v1/documents/print`) using your personal SavaPage ID and UUID. SavaPage then holds the document in its print queue for you to release at the printer.\n\n[Read the full documentation](https://www.savapage.org) for administrator and user guides.",
     "homepage": "https://www.savapage.org",
     "licenses": [
       "AGPL-3.0-or-later"
@@ -3270,9 +3310,9 @@
     ]
   },
   "sendent": {
-    "hash": "sha256-yyM9zE9umDtBWj5tlwQuntPwzRmRo3kpO/CU8eHg2P4=",
-    "url": "https://github.com/Sendent-B-V/Sendent-App-for-Nextcloud/releases/download/Release-4.6.2/sendent.tar.gz",
-    "version": "4.6.2",
+    "hash": "sha256-47xe2RlUX8BtFgwgsuhbmTzw4+Prq5vV32hNew13R5A=",
+    "url": "https://github.com/Sendent-B-V/Sendent-App-for-Nextcloud/releases/download/Release-4.6.3/sendent.tar.gz",
+    "version": "4.6.3",
     "description": "Sendent now securely exchanges files and emails, integrating with both Microsoft Outlook and Microsoft Teams. This enhanced capability allows users to seamlessly conduct their work, not only within their preferred email environment but also within the collaborative framework of Microsoft Teams. Whether sharing privacy-sensitive documents, content, or handling attachments that exceed standard email size constraints, Sendent ensures a streamlined and secure communication experience. All files are directed to your Nextcloud instance, empowering you to control and manage access permissions effectively.",
     "homepage": "https://www.sendent.com",
     "licenses": [
@@ -3540,9 +3580,9 @@
     ]
   },
   "spreed": {
-    "hash": "sha256-dcGerKnW0bieJpmFTburhTNv74e1qPful4wGMM7DUDk=",
-    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v25.0.5/spreed-v25.0.5.tar.gz",
-    "version": "25.0.5",
+    "hash": "sha256-Kz4+rkLZv4uo2iqyRNFjR6PPrLuL/zRr2ZzzLNb5xl4=",
+    "url": "https://github.com/nextcloud-releases/spreed/releases/download/v25.0.6/spreed-v25.0.6.tar.gz",
+    "version": "25.0.6",
     "description": "Chat, video & audio-conferencing using WebRTC\n\n* 💬 **Chat** Nextcloud Talk comes with a simple text chat, allowing you to share or upload files from your Nextcloud Files app or local device and mention other participants.\n* 👥 **Private, group, public and password protected calls!** Invite someone, a whole group or send a public link to invite to a call.\n* 🌐 **Federated chats** Chat with other Nextcloud users on their servers\n* 💻 **Screen sharing!** Share your screen with the participants of your call.\n* 🚀 **Integration with other Nextcloud apps** like Files, Calendar, User status, Dashboard, Flow, Maps, Smart picker, Contacts, Deck, and many more.\n* 🌉 **Sync with other chat solutions** With [Matterbridge](https://github.com/42wim/matterbridge/) being integrated in Talk, you can easily sync a lot of other chat solutions to Nextcloud Talk and vice-versa.",
     "homepage": "https://github.com/nextcloud/spreed",
     "licenses": [
@@ -3570,9 +3610,9 @@
     ]
   },
   "tachyon": {
-    "hash": "sha256-ci8k/pKcEroUe4d1uvy75GMWALWQgU1mKgiLgZ4ASjM=",
-    "url": "https://github.com/kimusan/Tachyon/releases/download/v4.4.2/tachyon-4.4.2-nextcloud.tar.gz",
-    "version": "4.4.2",
+    "hash": "sha256-qT9CF/sa70LEZ7GxkWCq4ieqZGkM+drBpaO0d72sjH0=",
+    "url": "https://github.com/kimusan/Tachyon/releases/download/v4.4.3/tachyon-4.4.3-nextcloud.tar.gz",
+    "version": "4.4.3",
     "description": "**Lightweight & fast email client.**\n\n- **Dark mode**\n- **Responsive design**\n- **Full Sieve filtering support**\n- **Almost all IMAP features** including advanced searching\n- **Integration with Nextcloud Unified Search**\n- **Integration with other Nextcloud apps** (Contacts, Files and Calendar)\n- **Multiple mail accounts and identities**\n- **Send & receive OpenPGP encrypted/signed emails** (With full HTML support, ECC keys, or plain text with Mailvelope)\n- **Send & receive S/MIME encrypted/signed emails**\n- **Many security features** (Sodium encrypted passwords, Sec-Fetch, TOTP 2FA, DKIM, prevent tracking, etc.)\n- **Kolab integrations**\n\nAfter enabling in Nextcloud, go to Nextcloud admin panel, \"Additional settings\" and you will see a \"Tachyon webmail\" section.\nThere, click on the link to go to the Tachyon admin panel.",
     "homepage": "https://tachyonmail.app/",
     "licenses": [
@@ -3830,8 +3870,8 @@
     ]
   },
   "uniteos_notifier": {
-    "hash": "sha256-yoNEdBloqNFtXTZsR4EN1PoTlGRjQKObaZ2B+qSFp4g=",
-    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/main/uniteos_notifier.tar.gz",
+    "hash": "sha256-vaWgvCrCGCfm5ygADrXCKR/nRTU9DFar/FQZg59ajus=",
+    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/1.0.6/uniteos_notifier.tar.gz",
     "version": "1.0.6",
     "description": "This app allows forwarding Nextcloud events for a deeper integration into UniteOS developed by wechange eG by presenting a selected set of events as user notifications.",
     "homepage": "",
@@ -3990,9 +4030,9 @@
     ]
   },
   "vereinsbuchhaltung": {
-    "hash": "sha256-Z4xPq8odXvdtOX9Cp0ti51WOzoJka+X964oPIq3h2Cw=",
-    "url": "https://github.com/AndiMb/nc_vereinsbuchhaltung/releases/download/v0.36.1/vereinsbuchhaltung-0.36.1.tar.gz",
-    "version": "0.36.1",
+    "hash": "sha256-UCeZPv/zD2hf0x5hrI0Is1x6Q7H4YkwlGmz+h1ERvzY=",
+    "url": "https://github.com/AndiMb/nc_vereinsbuchhaltung/releases/download/v0.36.2/vereinsbuchhaltung-0.36.2.tar.gz",
+    "version": "0.36.2",
     "description": "**Accounting for nonprofit clubs – fully within your own Nextcloud.**\n\nFor treasurers of small and medium-sized clubs who don't run separate\naccounting software and don't want their financial data in some provider's\ncloud. Your data stays wherever your Nextcloud is hosted.\n\nYou don't need to be an accountant: in **simple mode** you record an \"income\"\nor \"expense\" with amount, date and category – the app handles double-entry\nbookkeeping in the background. If you'd rather set debit and credit yourself,\nswitch to expert mode.\n\n**[▶ The app in two minutes (video, German)](https://youtu.be/eaF-tAQ_OOM)** –\nimport bank statements, assign transactions, evaluate and produce the annual\ntreasurer's report.\n\n## The workflow\n\n1. **Import a bank statement** – CSV-CAMT, CAMT.053 (XML) or MT940 from your\n   online banking; the app detects the format from the content, the file\n   extension doesn't matter. Transactions already present are recognized and\n   skipped, even across formats. A watch folder can even pick up new\n   statements on its own, without a manual import.\n2. **Assign transactions** – every bank entry gets a counter-account. Rules\n   handle recurring assignments (rent, membership fees, charges)\n   automatically.\n3. **Attach receipts** – photo or PDF, either in a Nextcloud folder of your\n   choice or stored inside the app. Or as a watch folder: whatever you drop\n   into it in the Files app can be picked when booking, and the overview\n   reports what is not yet assigned to an entry.\n4. **Evaluate and report** – treasurer's report for the general assembly,\n   short report for board meetings, exports for the audit.\n\n## What the app can do\n\n- **Double-entry bookkeeping** with a freely definable chart of accounts; a\n  standard chart of accounts for clubs is included\n- **Treasurer's report** and **short report** as print-ready pages (Ctrl+P),\n  optionally with your club's logo and accent color\n- **Financial plan** with plan/actual comparison and freezable plan snapshots\n- **Nonprofit status:** spheres following the German four-sphere model\n  (ideational, asset management, purpose-related business, commercial\n  business) and reserves per § 62 AO\n- **Membership fees & SEPA direct debit** (optional, can be enabled as\n  needed): member management with CSV import, direct debit mandates on paper\n  or electronic, contribution groups with an interval, pre-notification and\n  collection as a pain.008 file for your bank with a release before\n  submission, bank reconciliation, returned debits with dunning, and a \"My\n  contribution\" area for members – its own tab in the main navigation; if you\n  don't need the module, you never see it\n- **Open items** – keep track of unpaid receivables with due dates\n- **Multi-year trend** and result per reporting group\n- **Freely definable fiscal year:** it does not have to match the calendar\n  year – October–September, the school year August–July or half-year\n  periods (semesters) are just as possible\n- **Year-end closing:** a finalized fiscal year can no longer be changed;\n  continuous, gap-free posting numbers per fiscal year\n- **Change log:** who changed what, and when\n- **Roles:** administrator, bookkeeper and auditor – the audit role gets\n  read access to everything without being able to change anything\n- **On the go:** dedicated view for smartphones, photograph receipts\n  directly\n- **Annual audit:** all receipts for a year as a ZIP, print-ready quick\n  guide for the auditor, completeness check of posting numbers\n\n## Member management & SEPA direct debit (optional)\n\nFor clubs that collect their membership fees by direct debit: a tab of its own\n(\"Contributions\"), enabled when needed. If you don't need the module, you\nnever see it.\n\n- **Members:** member list with a record per member, intake assistant, CSV\n  import of whole member lists, leaving, information under Art. 15 GDPR and\n  anonymization; the email addresses for a bulk mail can be copied with one\n  click\n- **SEPA mandates:** on paper or electronically via a one-time link, with\n  history, suspension, revocation and a warning before they expire\n- **Contribution groups:** lower limit and allowed intervals (monthly to\n  annual), assignments with a preview, members who pay no fee\n- **Collection:** pre-notification by email, release before submission,\n  collection file (pain.008) for your bank, timeline of collection dates and\n  bank reconciliation with matching suggestions\n- **Returned debits & dunning:** reasons in plain language, payment request\n  with payment details and a GiroCode per item, dunning levels, fees passed on\n  if you wish\n- **\"My contribution\" for members:** maintain contact details, contribution,\n  interval and mandate themselves – with a preview and a confirmation email –,\n  plus contribution confirmation and data overview\n- **Task clipboard:** shows in the header what needs doing next\n\nA **sample club** can be created with one click to try everything out\nrisk-free, and removed again with another click.\n\nExisting data from \"zero Buchhaltung\" can be taken over via its xbuc files.\n\nFull manual in German and English: see documentation.",
     "homepage": "https://github.com/AndiMb/nc_vereinsbuchhaltung",
     "licenses": [
