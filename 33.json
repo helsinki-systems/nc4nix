@@ -210,9 +210,9 @@
     ]
   },
   "arbeitszeitcheck": {
-    "hash": "sha256-c3M7YV/dW3PEPGcAAebfx47ah8G8vMJvQDKgNUs5PbQ=",
-    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-arbeitszeitcheck/releases/download/v1.9.4/arbeitszeitcheck-1.9.4.tar.gz",
-    "version": "1.9.4",
+    "hash": "sha256-V8/0ccJf0DWDPUIAluyeJwH4g48z6GyJn+tAKOxRKH8=",
+    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-arbeitszeitcheck/releases/download/v1.9.7/arbeitszeitcheck-1.9.7.tar.gz",
+    "version": "1.9.7",
     "description": "# Clock in. Stay within the rules you set.\n\nArbeitszeitCheck records clock-in, clock-out and breaks on the Nextcloud you already host. Pick a country profile for Germany (ArbZG), Austria (AZG/ARG) or Switzerland (ArG), match holiday regions, approve absences, run reports (including DATEV) and keep an audit log.\n\nAlso listed as **TimeGuard** in some App Store searches.\n\n**Free web app** (AGPL-3.0-or-later). Companion apps: https://nextcloud.software-by-design.de/\n\n## Why teams install it\n\n- **Start and stop work cleanly** — pauses, resume, manual entries with a reason\n- **Match your country** — DE / AT / CH profiles with Länder, Bundesländer or cantons\n- **See break and rest issues early** — technical checks against the profile you configured\n- **Run absences properly** — vacation, illness, special and unpaid leave with approval; entitlement modes and CSV import via `occ`\n- **Report what happened** — employee, team and manager views; overtime and absence reports; DATEV export\n- **Lock a month when you need to** — optional finalization with snapshot, hash and PDF; admin reopen with a reason\n- **Control access** — open to all users or allow-lists; Nextcloud admins keep access\n\n## Clear limits\n\n- This app is **not legal advice**. You stay responsible for working-time models, collective agreements, configuration and how recorded data is used. Ask counsel when needed.\n- Technical violation reports against your profile are not a third-party certification.\n- Declared databases: MySQL and PostgreSQL. Nextcloud 32–35, PHP 8.1–8.5.\n\n## Feedback welcome\n\nWe improve this app with real-world use. Bug reports, rough edges, and ideas help — open a GitHub Issue (https://github.com/aSoftwareByDesignRepository/nextcloud-arbeitszeitcheck/issues) or write to info@software-by-design.de. Your feedback directly shapes what we build next.\n\n## Requirements\n\n- Nextcloud 32–35 · PHP 8.1–8.5 · MySQL or PostgreSQL",
     "homepage": "http://nextcloud.software-by-design.de",
     "licenses": [
@@ -740,9 +740,9 @@
     ]
   },
   "cospend": {
-    "hash": "sha256-anScVCo9brBmlNU1oPbXdJEqM38oyltOmtVRzKR6mt4=",
-    "url": "https://github.com/julien-nc/cospend-nc/releases/download/v4.1.3/cospend-4.1.3.tar.gz",
-    "version": "4.1.3",
+    "hash": "sha256-CGGseG4FcSWtkaTl+jgTFeXs6Ae6trMgs53LrZ6rb/0=",
+    "url": "https://github.com/julien-nc/cospend-nc/releases/download/v4.3.0/cospend-4.3.0.tar.gz",
+    "version": "4.3.0",
     "description": "# Nextcloud Cospend 💰\n\nNextcloud Cospend is a group/shared budget manager. It was inspired by the great [IHateMoney](https://github.com/spiral-project/ihatemoney/).\n\nYou can use it when you share a house, when you go on vacation with friends, whenever you share expenses with a group of people.\n\nIt lets you create projects with members and bills. Each member has a balance computed from the project bills. Balances are not an absolute amount of money at members disposal but rather a relative information showing if a member has spent more for the group than the group has spent for her/him, independently of exactly who spent money for whom. This way you can see who owes the group and who the group owes. Ultimately you can ask for a settlement plan telling you which payments to make to reset members balances.\n\nProject members are independent from Nextcloud users. Projects can be shared with other Nextcloud users or via public links.\n\n[MoneyBuster](https://gitlab.com/eneiluj/moneybuster) Android client is [available in F-Droid](https://f-droid.org/packages/net.eneiluj.moneybuster/) and on the [Play store](https://play.google.com/store/apps/details?id=net.eneiluj.moneybuster).\n\n[PayForMe](https://github.com/mayflower/PayForMe) iOS client is currently under developpement!\n\nThe private and public APIs are documented using [the Nextcloud OpenAPI extractor](https://github.com/nextcloud/openapi-extractor/). This documentation can be accessed directly in Nextcloud. All you need is to install Cospend (>= v1.6.0) and use the [the OCS API Viewer app](https://apps.nextcloud.com/apps/ocs_api_viewer) to browse the OpenAPI documentation.\n\n## Features\n\n* ✎ Create/edit/delete projects, members, bills, bill categories, currencies\n* ⚖ Check member balances\n* 🗠 Display project statistics\n* ♻ Display settlement plan\n* Move bills from one project to another\n* Move bills to trash before actually deleting them\n* Archive old projects before deleting them\n* 🎇 Automatically create reimbursement bills from settlement plan\n* 🗓 Create recurring bills (day/week/month/year)\n* 📊 Optionally provide custom amount for each member in new bills\n* 🔗 Link personal files to bills (picture of physical receipt for example)\n* 👩 Public links for people outside Nextcloud (can be password protected)\n* 👫 Share projects with Nextcloud users/groups/circles\n* 🖫 Import/export projects as csv (compatible with csv files from IHateMoney and SplitWise)\n* 🔗 Generate link/QRCode to easily add projects in MoneyBuster\n* 🗲 Implement Nextcloud notifications and activity stream\n\nThis app usually support the 2 or 3 last major versions of Nextcloud.\n\nThis app is under development.\n\n🌍 Help us to translate this app on [Nextcloud-Cospend/MoneyBuster Crowdin project](https://crowdin.com/project/moneybuster).\n\n⚒ Check out other ways to help in the [contribution guidelines](https://github.com/julien-nc/cospend-nc/blob/master/CONTRIBUTING.md).\n\n## Documentation\n\n* [User documentation](https://github.com/julien-nc/cospend-nc/blob/master/docs/user.md)\n* [Admin documentation](https://github.com/julien-nc/cospend-nc/blob/master/docs/admin.md)\n* [Developer documentation](https://github.com/julien-nc/cospend-nc/blob/master/docs/dev.md)\n* [CHANGELOG](https://github.com/julien-nc/cospend-nc/blob/master/CHANGELOG.md#change-log)\n* [AUTHORS](https://github.com/julien-nc/cospend-nc/blob/master/AUTHORS.md#authors)\n\n## Known issues\n\n* It does not make you rich\n\nAny feedback will be appreciated.\n\n\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://github.com/julien-nc/cospend-nc",
     "licenses": [
@@ -1260,9 +1260,9 @@
     ]
   },
   "edusign": {
-    "hash": "sha256-Tzvpusgdo6M6FRmvoZL8uMaR8nUtNwQiDGzjbQSbI0c=",
-    "url": "https://github.com/SUNET/nextcloud-edusign/releases/download/v0.0.12/edusign-0.0.12.tar.gz",
-    "version": "0.0.12",
+    "hash": "sha256-MPI/0CXxKaFpeHsdnb19t6zZ8xVcI6fkC29LZBqWKMo=",
+    "url": "https://github.com/SUNET/nextcloud-edusign/releases/download/v0.0.14/edusign-0.0.14.tar.gz",
+    "version": "0.0.14",
     "description": "Edusign integration for Nextcloud",
     "homepage": "",
     "licenses": [
@@ -1460,9 +1460,9 @@
     ]
   },
   "file_checksum_search": {
-    "hash": "sha256-LXcshgu/Rz3kSvvnBQqQLdB9GmuogDMetq7KdLb3wMc=",
-    "url": "https://github.com/metaworx/file_checksum_search/releases/download/v0.26.0/file_checksum_search-0.26.0.tar.gz",
-    "version": "0.26.0",
+    "hash": "sha256-JIiGuOgE8iqEFuoevMKhDDfGO55r1J3H+1lW/3y/rRc=",
+    "url": "https://github.com/metaworx/file_checksum_search/releases/download/v0.28.0/file_checksum_search-0.28.0.tar.gz",
+    "version": "0.28.0",
     "description": "Indexes file checksums, so a file can be found by its checksum, and its duplicates at once.\n\nWhat you get:\n\n- **Unified Search** by hash: paste a checksum, find the file.\n- A **Checksums** tab in the file details: lists every checksum stored for the file, recalculated on demand, with its duplicates listed inline.\n- A **Duplicates** page: every group of identical files you hold, and, for those allowed to look across accounts, other accounts' files too.\n- **Rules** decide what is hashed and when: instance-wide or per account, by path pattern, computed in the background.\n- A stable **REST API (v1)** and a stable **PHP API** for other apps and integrations.\n- **occ commands** for hashing, searching, duplicates, rules, backup and import.\n- Storage in Nextcloud's own files metadata index: no custom tables, nothing to migrate.",
     "homepage": "https://gitlab.com/metaworx/open-source/nextcloud/file_checksum_search",
     "licenses": [
@@ -1820,9 +1820,9 @@
     ]
   },
   "flowline": {
-    "hash": "sha256-KroCHeRsTYESG4YsbgJh+PAavSbUoMVxDJXBQthEE24=",
-    "url": "https://github.com/StreamLINE-Solutions/nextcloud-flowline/releases/download/v0.6.0/flowline.tar.gz",
-    "version": "0.6.0",
+    "hash": "sha256-ka6aJaMBPsH5Cw9QQIGJPzIQIj/cY5jKCuLaiVJtiMs=",
+    "url": "https://github.com/StreamLINE-Solutions/nextcloud-flowline/releases/download/v0.6.2/flowline.tar.gz",
+    "version": "0.6.2",
     "description": "FlowLINE brings your remote support workspace into Nextcloud. Link your FlowLINE account, see your machines and sessions, invite a computer and receive notifications — without leaving your Nextcloud. Requires a FlowLINE account and connects only to the FlowLINE API you configure.",
     "homepage": "https://flowline.support",
     "licenses": [
@@ -2000,9 +2000,9 @@
     ]
   },
   "gpxpod": {
-    "hash": "sha256-aQeU4jc6zFmrdScIob4+mK6pK6rx2K+f0GkXJtFMw98=",
-    "url": "https://github.com/julien-nc/gpxpod/releases/download/v8.4.1/gpxpod-8.4.1.tar.gz",
-    "version": "8.4.1",
+    "hash": "sha256-ZoT7bVKUOc+h3WZhWc74xdE1lCz9J6B6HfYiiAaSR1o=",
+    "url": "https://github.com/julien-nc/gpxpod/releases/download/v8.5.0/gpxpod-8.5.0.tar.gz",
+    "version": "8.5.0",
     "description": "# GpxPod Nextcloud application\n\nDisplay, analyse, compare and share GPS track files.\n\n🌍 Help us to translate this app on [GpxPod Crowdin project](https://crowdin.com/project/gpxpod).\n\nGpxPod:\n\n* 🗺 can display your gpx/kml/tcx/igc/fit files\n* 📏 supports metric, english and nautical measure systems\n* 🗠 draws interactive chart for elevation, speed, pace or any extension data\n* 🗠 use line gradient color for track lines with speed, elevation, pace or any extension data\n* 🗠 shows track statistics\n* 🖻 displays geotagged pictures\n* 🖧 generates public links pointing to a track/folder\n* 🗠 can correct tracks elevations using SRTM data\n* ⚖ can make global comparison of multiple tracks\n* ⚖ can make visual pair comparison of divergent parts of similar tracks\n* 🀆 allows users to add personal map tile servers\n* 🖍 allows user to manually choose line color for each track\n* 🔒 works with encrypted data folder (server side encryption)\n* 🍂 proudly uses Leaflet and MapLibre GL\n\nLink to Nextcloud application website : https://apps.nextcloud.com/apps/gpxpod\n\n## Install\n\nSee the [AdminDoc](https://gitlab.com/eneiluj/gpxpod-oc/wikis/admindoc) for installation details\n\n## Known issues\n\n* *WARNING*, kml conversion will NOT work with recent kml files using the proprietary \"gx:track\" extension tag.\n\nAny feedback will be appreciated.\n\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://github.com/julien-nc/gpxpod",
     "licenses": [
@@ -2190,9 +2190,9 @@
     ]
   },
   "iframewidget": {
-    "hash": "sha256-BpjlXnjbTiQjNrzXXcYzdvxTWBUG1DmC5br6sK9c/Ng=",
-    "url": "https://github.com/IT-BAER/nc-iframewidget/releases/download/v1.0.4/iframewidget.tar.gz",
-    "version": "1.0.4",
+    "hash": "sha256-D1/7zfX2wusPvR7R7Mb4QxIaV6o5QOxeAKtMVHhKA5c=",
+    "url": "https://github.com/IT-BAER/nc-iframewidget/releases/download/v1.0.5/iframewidget.tar.gz",
+    "version": "1.0.5",
     "description": "**🔲 iFrame Widget for Nextcloud Dashboard**\n\nThis app adds customizable iFrame widgets to your Nextcloud dashboard, allowing you to embed external websites directly within Nextcloud.\n\n## ✨ Features\n\n- **Embed any website** directly in your Nextcloud dashboard\n- **Customize appearance** with custom titles and icons\n- **SimpleIcons integration** using the `si:` prefix for thousands of brand icons\n- **Colorize icons** with a built-in color picker\n- **Adjustable height** for perfect layout integration\n- **Responsive design** with extra-wide display option (2 columns)\n- **Personal widgets** for individual user customization\n- **Group-based widgets** for targeted content delivery\n- **Admin controls** for global and group-specific configurations\n- **Multiple widget slots** up to 5 public and 5 group widgets\n- **Iframe security controls** with sandbox and allow attribute customization\n\n## 🛠️ Configuration\n\nThe widget supports three types of configurations:\n\n### 🌍 Global/Public Widgets (5 slots)\nSet up widgets that appear on all users' dashboards.\n\n### 👤 Personal Widgets (1 per user)\nAllow each user to create their own personalized widgets.\n\n### 👥 Group Widgets (5 slots per group)\nCreate widgets that are only visible to specific user groups.\n\n## 🔒 CSP Configuration\n\nIf you encounter Content Security Policy errors, this app now adjusts CSP via the Nextcloud PHP CSP API based on the configured widget URLs. Avoid adding a second CSP header at the web server level, as browsers apply the strictest policy. See the full documentation on GitHub for details.\n\n## 💻 Compatibility\n- Nextcloud 33–35",
     "homepage": "https://github.com/IT-BAER/nc-iframewidget",
     "licenses": [
@@ -3120,9 +3120,9 @@
     ]
   },
   "mail": {
-    "hash": "sha256-yr64UG/4xtkIEy1yBPEB8WNF8ipcMNCiqCfn9HvGZnU=",
-    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.12.4/mail-v5.12.4.tar.gz",
-    "version": "5.12.4",
+    "hash": "sha256-xS2rGKTeFxCFQDjZWBD5rk63aoZW2JgA59zrWv8ANOA=",
+    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.12.5/mail-v5.12.5.tar.gz",
+    "version": "5.12.5",
     "description": "**💌 A mail app for Nextcloud**\n\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://www.horde.org) libraries.\n- **📬 Want to host your own mail server?** We do not have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!\n\n## Ethical AI Rating\n\n### Priority Inbox\n\nPositive:\n* The software for training and inferencing of this model is open source.\n* The model is created and trained on-premises based on the user's own data.\n* The training data is accessible to the user, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n### Thread Summaries (opt-in)\n\n**Rating:** 🟢/🟡/🟠/🔴\n\nThe rating depends on the installed text processing backend. See [the rating overview](https://docs.nextcloud.com/server/latest/admin_manual/ai/index.html) for details.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/mail#readme",
     "licenses": [
@@ -3430,10 +3430,10 @@
     ]
   },
   "nc_netherrack": {
-    "hash": "sha256-G+Owh+YI4FVbZGmk+TMq18Ss1GjZJ8QpmRhY34uizR8=",
-    "url": "https://codeberg.org/fds2610/Netherrack/releases/download/v0.5.0-e1cb900/nc_netherrack-0.5.0-e1cb900.tar.gz",
-    "version": "0.5.0",
-    "description": "**Your second brain — inside your own Nextcloud.**\n\nNetherrack keeps your notes as plain Markdown files with YAML front matter in the `Netherrack/` folder of your Nextcloud. Sharing, versioning, sync clients and WebDAV work out of the box because notes are ordinary files — no proprietary format, no lock-in. On top of the files the app maintains an index for search, backlinks, properties, tasks and graph views, and turns your notes into a linked knowledge base: wiki links, embeds, bookmarks, canvases and database-like views.\n\nAll notes stay on your own Nextcloud instance: no external service, no tracking, no data leaving your server.\n\n## ✨ Features\n\n* ✍️ **Markdown editor**: CodeMirror 6 with formatting toolbar, live preview and autosave. Conflict detection warns you if a note was changed elsewhere instead of silently overwriting it.\n* 🔗 **Wiki links**: `[[Note]]` with autocomplete, automatic creation of missing targets and link rewriting on rename. Link to headings (`[[Note#Heading]]`) and blocks (`[[Note#^id]]`).\n* ↩️ **Backlinks & outgoing links**: Panels with a jump to the linking passage, including the linked sections and blocks.\n* 🕸 **Graph view**: See all notes and their connections; hover for the file path, click to open.\n* 🏷 **Tags**: `#tag` and front matter tags with overview, AND/OR filter and autocomplete.\n* 🗂 **Properties**: All front matter fields are indexed with types (text, number, checkbox, date, date-time, list, tags). Edit them in a dialog above the editor; renaming a key works across notes.\n* 🧩 **Embeds**: `![[Note]]`, `![[Note#Heading]]`, `![[Note#^id]]` and files (`![[image.png|300]]`, PDF, audio, video) right in the preview. Paste or drag & drop uploads to the attachment folder.\n* 🔍 **Search**: Weighted full-text search (title > heading > tag/property > path > content) with jump to the match, also in the global Nextcloud search.\n* ✅ **Tasks**: `- [ ]` / `- [x]` from all notes in one view, split into “My tasks” and “Unassigned tasks”, with filters for status, due date, priority, tag and folder; check them off right from the overview. They also appear in the Nextcloud “Tasks” app and, with a due date, in the Calendar.\n* 🙋 **Mentions**: `@user` with autocompletion shares the note with that user and notifies them; chips in the preview show who has access, “For me” lists all notes that mention you.\n* 🗃 **Bases**: Database-like views over your notes as `.base` files — table, list, cards, kanban (drag & drop changes the property) and calendar, with filters, sorting, grouping and editable cells.\n* 🎨 **Canvas**: Infinite boards in the open JSON Canvas 1.0 format with text, note, file, link and group cards, labelled connections and colors.\n* 📊 **Tables**: Spreadsheets as `.ods` files (LibreOffice-compatible) with formulas (function menu, pick cells and ranges with the mouse), number formats, colors and Markdown/Excel clipboard — edited together in real time with live cursors of everyone working in the table.\n* 📑 **Templates**: Every note in the templates folder is a template, with variables such as `{{title}}` and `{{date:FORMAT}}`; optional template for new daily notes.\n* 📅 **Daily notes**: Journal with day navigation.\n* 🔖 **Bookmarks**: Notes, folders, headings, blocks, saved searches, tags, bases and links in nested groups — they follow renames.\n* 🪟 **Tabs, split view & layouts**: Open notes in tabs, work in two panes side by side, choose the sidebar panels (backlinks, outgoing links, tags, outline) and save named layouts.\n* 🌐 **Publish**: Share notes and folders as a public web page via a link share, with rendered Markdown, wiki links and embeds restricted to the shared content; password and expiry date of the share apply.\n* 🎙 **Voice notes**: Record in the app and transcribe locally with whisper.cpp as a background job (optional, off by default, set up by the admin).\n* 👥 **Shared notes & Group Folders**: Changes by any user update the index of everyone who has the note.\n* 🔌 **API for other apps**: OCS REST API (`openapi.json`), a query API with typed filters, AND/OR/NOT groups, sorting and pagination, and a PHP service (`NetherrackService`) for other apps.\n* 📱 **Mobile view** and 🌐 **localisation** (English, German).\n\n## 🔐 Sovereign by design\n\nNetherrack runs entirely on your Nextcloud instance. Your notes are plain files you can open with any editor or sync client at any time.\n\nRequires Nextcloud 31–35 and PHP 8.1 or newer. Works with MySQL, MariaDB, PostgreSQL and SQLite.\n\n## 📚 Documentation\n\n* 🚀 [HOWTO](https://codeberg.org/fds2610/Netherrack/src/branch/main/nc_netherrack/docs/en/HOWTO.md) — first steps with notes, links, tags and search\n* 📋 [Feature reference](https://codeberg.org/fds2610/Netherrack/src/branch/main/nc_netherrack/docs/en/FEATURES.md) — every function with its purpose\n* 📝 [Changelog](https://codeberg.org/fds2610/Netherrack/src/branch/main/nc_netherrack/CHANGELOG.md) — what changed in each release\n* 💾 [Installation](https://codeberg.org/fds2610/Netherrack/src/branch/main/nc_netherrack/docs/en/INSTALL.md) — setup and update notes\n\n## 🐛 Feedback\n\nBug reports and feature requests are welcome in the [issue tracker](https://codeberg.org/fds2610/Netherrack/issues).",
+    "hash": "sha256-qm5mzh//X9G/YtsOpAF5CMO8kX2X24kTpH5h0mnoCq0=",
+    "url": "https://codeberg.org/fds2610/Netherrack/releases/download/v0.5.1-a2fc6e1/nc_netherrack-0.5.1-a2fc6e1.tar.gz",
+    "version": "0.5.1",
+    "description": "**Your second brain — inside your own Nextcloud.**\n\nNetherrack keeps your notes as plain Markdown files with YAML front matter in the `Netherrack/` folder of your Nextcloud. Sharing, versioning, sync clients and WebDAV work out of the box because notes are ordinary files — no proprietary format, no lock-in. On top of the files the app maintains an index for search, backlinks, properties, tasks and graph views, and turns your notes into a linked knowledge base: wiki links, embeds, bookmarks, canvases and database-like views.\n\nAll notes stay on your own Nextcloud instance: no external service, no tracking, no data leaving your server.\n\n## ✨ Features\n\n* ✍️ **Markdown editor**: CodeMirror 6 with formatting toolbar, live preview and autosave. Conflict detection warns you if a note was changed elsewhere instead of silently overwriting it.\n* 🔗 **Wiki links**: `[[Note]]` with autocomplete, automatic creation of missing targets and link rewriting on rename. Link to headings (`[[Note#Heading]]`) and blocks (`[[Note#^id]]`).\n* ↩️ **Backlinks & outgoing links**: Panels with a jump to the linking passage, including the linked sections and blocks.\n* 🕸 **Graph view**: See all notes and their connections; hover for the file path, click to open.\n* 🏷 **Tags**: `#tag` and front matter tags with overview, AND/OR filter and autocomplete.\n* 🗂 **Properties**: All front matter fields are indexed with types (text, number, checkbox, date, date-time, list, tags). Edit them in a dialog above the editor; renaming a key works across notes.\n* 🧩 **Embeds**: `![[Note]]`, `![[Note#Heading]]`, `![[Note#^id]]` and files (`![[image.png|300]]`, PDF, audio, video) right in the preview. Paste or drag & drop uploads to the attachment folder.\n* 🔍 **Search**: Weighted full-text search (title > heading > tag/property > path > content) with jump to the match, also in the global Nextcloud search.\n* ✅ **Tasks**: `[ ]` / `[x]` from all notes in one view, split into “My tasks” and “Unassigned tasks”, with filters for status, due date, priority, tag and folder; check them off right from the overview. They also appear in the Nextcloud “Tasks” app and, with a due date, in the Calendar.\n* 🙋 **Mentions**: `@user` with autocompletion shares the note with that user and notifies them; chips in the preview show who has access, “For me” lists all notes that mention you.\n* 🗃 **Bases**: Database-like views over your notes as `.base` files — table, list, cards, kanban (drag & drop changes the property) and calendar, with filters, sorting, grouping and editable cells.\n* 🎨 **Canvas**: Infinite boards in the open JSON Canvas 1.0 format with text, note, file, link and group cards, labelled connections and colors.\n* 📊 **Tables**: Spreadsheets as `.ods` files (LibreOffice-compatible) with several sheets, formulas (function menu, pick cells and ranges with the mouse), number formats, merged cells, comments, colors and Markdown/Excel clipboard — edited together in real time with live cursors of everyone working in the table.\n* 📑 **Templates**: Every note in the templates folder is a template, with variables such as `{{title}}` and `{{date:FORMAT}}`; optional template for new daily notes.\n* 📅 **Daily notes**: Journal with day navigation.\n* 🔖 **Bookmarks**: Notes, folders, headings, blocks, saved searches, tags, bases and links in nested groups — they follow renames.\n* 🪟 **Tabs, split view & layouts**: Open notes in tabs, work in two panes side by side, choose the sidebar panels (backlinks, outgoing links, tags, outline) and save named layouts.\n* 🌐 **Publish**: Share notes and folders as a public web page via a link share, with rendered Markdown, wiki links and embeds restricted to the shared content; password and expiry date of the share apply.\n* 🎙 **Voice notes**: Record in the app and transcribe locally with whisper.cpp as a background job (optional, off by default, set up by the admin).\n* 👥 **Shared notes & Group Folders**: Changes by any user update the index of everyone who has the note.\n* 🔌 **API for other apps**: OCS REST API (`openapi.json`), a query API with typed filters, AND/OR/NOT groups, sorting and pagination, and a PHP service (`NetherrackService`) for other apps.\n* 📱 **Mobile view** and 🌐 **localisation** (English, German).\n\n## 🔐 Sovereign by design\n\nNetherrack runs entirely on your Nextcloud instance. Your notes are plain files you can open with any editor or sync client at any time.\n\nRequires Nextcloud 31–35 and PHP 8.1 or newer. Works with MySQL, MariaDB, PostgreSQL and SQLite.\n\n## 📚 Documentation\n\n* 🚀 [HOWTO](https://codeberg.org/fds2610/Netherrack/src/branch/main/nc_netherrack/docs/en/HOWTO.md) — first steps with notes, links, tags and search\n* 📋 [Feature reference](https://codeberg.org/fds2610/Netherrack/src/branch/main/nc_netherrack/docs/en/FEATURES.md) — every function with its purpose\n* 📝 [Changelog](https://codeberg.org/fds2610/Netherrack/src/branch/main/nc_netherrack/CHANGELOG.md) — what changed in each release\n* 💾 [Installation](https://codeberg.org/fds2610/Netherrack/src/branch/main/nc_netherrack/docs/en/INSTALL.md) — setup and update notes\n\n## 🐛 Feedback\n\nBug reports and feature requests are welcome in the [issue tracker](https://codeberg.org/fds2610/Netherrack/issues).",
     "homepage": "https://codeberg.org/fds2610/Netherrack",
     "licenses": [
       "agpl"
@@ -3470,9 +3470,9 @@
     ]
   },
   "netbase": {
-    "hash": "sha256-LvjEfiGrbCnUw4QXGw4h5J2cHv/er+VM68acKSTFwoY=",
-    "url": "https://github.com/ktec-nc-apps/NetBase/releases/download/v0.9.3/netbase-0.9.3.tar.gz",
-    "version": "0.9.3",
+    "hash": "sha256-KkWHS044cBmEzYRp3lDcZs0BAMIxTitNNRsxXm1cz/w=",
+    "url": "https://github.com/ktec-nc-apps/NetBase/releases/download/v0.9.4/netbase-0.9.4.tar.gz",
+    "version": "0.9.4",
     "description": "NetBase turns your Nextcloud into a network console: it finds every device on the LAN, opens each one's own settings page from inside Nextcloud, and keeps the everyday lookup tools on the same screen.\n\nDevice windows are the heart of it. The server fetches a device's own web interface and rewrites every address inside it, so a router, a switch, a printer or a NAS can be signed into and configured from anywhere the Nextcloud is reachable — no VPN, no jump host, no site visit. Firmware can be sent, a configuration restored, a backup taken. Several windows can be open at once.\n\nDiscovery needs no root, no agent and no extra packages: NetBase primes the kernel neighbour table, reads it back, and asks each device for its own name over NetBIOS, mDNS, WS-Discovery and SSDP. It also listens for the announcements devices make, continuously and in the background, so a device sitting on another subnet of the same wire — one nothing here can reach, and which can never answer a question — still appears in the list. MAC addresses are resolved against a bundled IEEE registry of more than 53,000 vendor prefixes, offline.\n\nWhat each part is for:\n- Device windows — a device's own settings page, through Nextcloud, from anywhere\n- LAN sweep and inventory — name, IPv4, MAC, vendor, type and open ports, exportable as CSV\n- DNS — any record type from any resolver, resolver comparison, delegation trace, zone-transfer test\n- Whois and free-domain search — look up any domain or address (IANA referrals, no whois binary), or check a name across a whole range of endings at once to find one that is still free\n- Wake-on-LAN — wake a device by its MAC address\n- TLS and HTTP — certificate, chain and expiry, accepted TLS versions, redirect chain, security headers\n- Mail — SPF, DKIM, DMARC, MTA-STS, DANE and blocklists, SMTP/IMAP/POP3 server tests and an open-relay test, plus a basic mail program: read, search, reply, forward and send with attachments from your Nextcloud files\n- FTP, SFTP and SCP — browse a remote server and move files to and from your Nextcloud folders; copy, move, compress and extract (ZIP, tar.gz, 7z and more), convert text encodings and line endings, resume transfers, and act as another account through sudo\n- SSH and Telnet — a credential-free probe, and commands or a full terminal on a saved connection\n- Benchmarks — internet speed, LAN throughput over iperf3, resolver comparison, HTTP timing\n- Every result can be copied, downloaded or saved straight into your own Nextcloud files\n- An AI assistant, through the AI-Hub app, that explains what is on the screen (a scan, a ping, a list of devices); administrators who switch it on can let it suggest commands, run only after the person approves each one. Without AI-Hub it is simply not shown\n\nAccess is per tool. NetBase is an administrator's app, and everything that touches the local network defaults to administrators — but each tool can be opened to named groups or to everyone from Administration settings, so an instance can lend out whois, DNS and the other harmless lookups without lending out the network. Where an account is allowed nothing, NetBase leaves itself out of that account's app menu.\n\nAvailable in twenty-one languages, and NetBase can be set to a different language from the rest of Nextcloud, per account.",
     "homepage": "https://github.com/ktec-nc-apps/NetBase",
     "licenses": [
@@ -3700,9 +3700,9 @@
     ]
   },
   "oidc": {
-    "hash": "sha256-k8mxj56b3IuvMIU3DZEtBRsMRZycUSDllXo/jw01vuQ=",
-    "url": "https://github.com/H2CK/oidc/releases/download/2.5.2/oidc-2.5.2.tar.gz",
-    "version": "2.5.2",
+    "hash": "sha256-i59p6TzdTJ7u6QGm1FWzUbm4FJMvO1sTN8vO4RfEcqk=",
+    "url": "https://github.com/H2CK/oidc/releases/download/2.6.0/oidc-2.6.0.tar.gz",
+    "version": "2.6.0",
     "description": "Nextcloud as OpenID Connect Identity Provider\n\nWith this app you can use Nextcloud as OpenID Connect Identity Provider. If other services\nare configured correctly, you are able to access those services with your Nextcloud login.\n\nFull documentation can be found at:\n\n- [User Documentation](https://github.com/H2CK/oidc/wiki#user-documentation)\n- [Developer Documentation](https://github.com/H2CK/oidc/wiki#developer-documentation)",
     "homepage": "https://github.com/H2CK/oidc",
     "licenses": [
@@ -3890,9 +3890,9 @@
     ]
   },
   "paperless_sync": {
-    "hash": "sha256-2M80Ke0R2Dk/AXj1lHKeagxaz+FYCBLe3gFW7nfN8og=",
-    "url": "https://github.com/Dennis-Otto/paperless-sync/releases/download/v1.1.0/paperless_sync.tar.gz",
-    "version": "1.1.0",
+    "hash": "sha256-0Ej++r+Pq6QZxuiypwsJ2sBDERFF0qvniu8db1ltvJs=",
+    "url": "https://github.com/Dennis-Otto/paperless-sync/releases/download/v1.1.1/paperless_sync.tar.gz",
+    "version": "1.1.1",
     "description": "### A native bridge between Paperless-ngx and Nextcloud\n\nPaperless Sync mirrors finalized Paperless-ngx documents into a readable Nextcloud folder structure. Paperless remains the authoritative document archive while Nextcloud provides familiar access through Files, desktop sync, mobile apps, sharing, and its built-in viewer.\n\n### Structured, automatic, and reversible\n\n- Exports archive PDFs or original files through the Paperless API\n- Builds a configurable hierarchy from correspondent, document type, date, title, and document ID\n- Gives each Nextcloud user the documents they own in Paperless, through the one connection of the administrator (optional per-user ownership)\n- Moves or renames files when Paperless metadata changes\n- Skips Paperless inbox documents until they are finalized and removes previously mirrored copies when an exclusion tag is added\n- Imports files from a configurable Nextcloud inbox into Paperless\n- Sends a file or a folder to Paperless from its menu in Files, for a group of your choice, and opens the document of a mirrored copy in Paperless\n- Sends files to Paperless by rules of Flow, such as every PDF that a member of a group uploads, with tags of their own\n- Mirrors the Paperless trash into a dedicated Nextcloud folder\n- Optionally removes files after they are permanently deleted from Paperless\n- Removes empty archive folders after moves and deletions\n- Runs through native Nextcloud background jobs with resumable state\n- Mirrors a new or changed document within seconds when a workflow of Paperless calls its webhook, protected by a secret\n- Notifies the administrators when the mirror keeps failing, with setup checks under Administration and a status API for monitors such as Uptime Kuma or Home Assistant\n\n### Safe by default\n\nSynchronization is disabled until an administrator completes and validates the configuration. Permanent deletion is an explicit opt-in and can be protected by multiple missing-document confirmations. A dry-run previews changes without modifying files.\n\nThe Paperless API token is stored server-side in Nextcloud's credentials manager and is never returned to the browser. The app operates directly through Nextcloud's filesystem API, so no Nextcloud password or WebDAV credential is required.\n\n### Requirements\n\n- Nextcloud 33 to 35 with reliable cron background jobs\n- A reachable Paperless-ngx instance, version 2.16 or newer, 3.x included, with API access\n- A dedicated Paperless service account with only the permissions needed for the enabled features\n\nPaperless Sync is independent from [Paperless Unified Search](https://apps.nextcloud.com/apps/paperless_unified_search). Both apps understand stable document markers such as `[P123]` and can be installed separately.",
     "homepage": "https://dennis-otto.github.io/paperless-sync/",
     "licenses": [
@@ -3980,9 +3980,9 @@
     ]
   },
   "phonetrack": {
-    "hash": "sha256-aKny+yFvDxI/dg1xXI0lkKk7ijEOwtkWUfDuGaiYbyg=",
-    "url": "https://github.com/julien-nc/phonetrack/releases/download/v1.3.5/phonetrack-1.3.5.tar.gz",
-    "version": "1.3.5",
+    "hash": "sha256-xzqxKG3y/PXhJw5MsrpHhSzAlZwYvuDZLJeP49pj/gI=",
+    "url": "https://github.com/julien-nc/phonetrack/releases/download/v1.4.0/phonetrack-1.4.0.tar.gz",
+    "version": "1.4.0",
     "description": "# PhoneTrack Nextcloud application\n\n📱 PhoneTrack is a Nextcloud application to track and store mobile device's locations.\n\n🗺 It receives information from mobile phone's logging apps and displays it dynamically on a map.\n\n🌍 Help us to translate this app on [PhoneTrack Crowdin project](https://crowdin.com/project/phonetrack).\n\n⚒ Check out other ways to help in the [contribution guidelines](https://gitlab.com/eneiluj/phonetrack-oc/blob/master/CONTRIBUTING.md).\n\nHow to use PhoneTrack :\n\n- Create a tracking session.\n- Give the logging link\\* to the mobile devices. Choose the [logging method](https://github.com/julien-nc/phonetrack/blob/main/doc/user.md#logging-methods) you prefer.\n- Watch the session's devices location in real time (or not) in PhoneTrack or share it with public pages.\n\n(\\*) Don't forget to set the device name in the link (rather than in the logging app settings). Replace \"yourname\" with the desired device name.\nSetting the device name in logging app settings only works with Owntracks, Traccar and OpenGTS.\n\nOn PhoneTrack main page, while watching a session, you can :\n\n- 📍 Display location history\n- ⛛ Filter points\n- ✎ Manually edit/add/delete points\n- ✎ Edit devices (rename, change colour/shape, move to another session)\n- ⛶ Define geofencing zones for devices\n- ⚇ Define proximity alerts for device pairs\n- 🖧 Share a session to other Nextcloud users or with a public link (read-only)\n- 🔗 Generate public share links with optional restrictions (filters, device name, last positions only, geofencing simplification)\n- 🖫 Import/export a session in GPX format (one file with one track per device or one file per device)\n- 🗠 Display sessions statistics\n- 🔒 [Reserve a device name](https://github.com/julien-nc/phonetrack/blob/main/doc/user.md#device-name-reservation) to make sure only authorized user can log with this name\n- 🗓 Toggle session auto export and auto purge (daily/weekly/monthly)\n- ◔ Choose what to do when point number quota is reached (block logging or delete oldest point)\n\nPublic page and public filtered page work like main page except there is only one session displayed, everything is read-only and there is no need to be logged in.\n\nThis app is under development.\n\n## Install\n\nSee the [AdminDoc](https://gitlab.com/eneiluj/phonetrack-oc/wikis/admindoc) for installation details.\n\nCheck [CHANGELOG](https://gitlab.com/eneiluj/phonetrack-oc/blob/master/CHANGELOG.md#change-log) file to see what's new and what's coming in next release.\n\nCheck [AUTHORS](https://gitlab.com/eneiluj/phonetrack-oc/blob/master/AUTHORS.md#authors) file to see complete list of authors.\n\n## Known issues\n\n- PhoneTrack **now works** with Nextcloud group restriction activated. See [admindoc](https://github.com/julien-nc/phonetrack/blob/main/doc/admin.md#issue-with-phonetrack-restricted-to-some-groups-in-nextcloud).\n\nAny feedback will be appreciated.\n\n\n\n## Donation\n\nI develop this app during my free time.\n\n* [Donate with Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66PALMY8SF5JE) (you don't need a paypal account)\n* [Donate with Liberapay : ![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/eneiluj/donate)",
     "homepage": "https://github.com/julien-nc/phonetrack",
     "licenses": [
@@ -4010,9 +4010,9 @@
     ]
   },
   "photosweep": {
-    "hash": "sha256-1JTH9wQm4ivNv8JdibDZp7eXdDvpDE2MIpm6It05VZQ=",
-    "url": "https://github.com/Nissaar/photo-sweep/releases/download/v1.0.4/photosweep-1.0.4.tar.gz",
-    "version": "1.0.4",
+    "hash": "sha256-fwOgF/8YdRgPSQgJQuF1/QHjHBcvuZnvoE8xdTcwpsE=",
+    "url": "https://github.com/Nissaar/photo-sweep/releases/download/v1.0.6/photosweep-1.0.6.tar.gz",
+    "version": "1.0.6",
     "description": "Photo Sweep turns the job of tidying a large photo library into something you can\nactually finish: pick a month, judge one photo at a time, then review everything you\nmarked before a single file is touched.\n\n- **Month by month.** Your photos and videos are indexed by the date they were taken,\n  not the date they were uploaded. Months you have finished move out of the way.\n- **One at a time.** Keep or delete each photo with a swipe, a click or the keyboard.\n  Undo steps back.\n- **Nothing happens until you confirm.** Verdicts are held as a pending list. The\n  review screen is the only place that changes your files, and it shows you everything\n  first.\n- **Two ways to delete.** Move files to the Nextcloud trash, where your server's\n  retention policy keeps them recoverable, or collect them in a folder and delete them\n  yourself in Files.\n\nThe index is built from your own files. The Photos app's extracted EXIF capture date\nis used when it is available, and Photo Sweep falls back to the filename and the\nmodification time when it is not, so it works on any install.\n\nA companion Android app talks to this app over its REST API, so you can do the same\nreview from your phone.",
     "homepage": "https://github.com/Nissaar/photo-sweep",
     "licenses": [
@@ -4530,9 +4530,9 @@
     ]
   },
   "sendentsynchroniser": {
-    "hash": "sha256-L17+K8B3qqz4ogrqsM90iQcx/4TD2yPlpy6tHcwQ0K4=",
-    "url": "https://github.com/Sendent-B-V/Sendent-Synchroniser-App-for-Nextcloud/releases/download/Release-2.1.0/sendentsynchroniser.tar.gz",
-    "version": "2.1.0",
+    "hash": "sha256-6EjdOJclqSLJLNp9HO59PxxsEekKE/GHikZ3G2ElEc4=",
+    "url": "https://github.com/Sendent-B-V/Sendent-Synchroniser-App-for-Nextcloud/releases/download/Release-2.1.1/sendentsynchroniser.tar.gz",
+    "version": "2.1.1",
     "description": "Say goodbye to manual updates! The Sendent Sync app, designed for the Nextcloud Exchange Connector, enables bi-directional syncing of agendas and contacts between your Microsoft Exchange and Nextcloud Hub. Focus on what truly matters – your work – while your data flows effortlessly.",
     "homepage": "https://www.sendent.com",
     "licenses": [
@@ -4640,9 +4640,9 @@
     ]
   },
   "shopping_list": {
-    "hash": "sha256-vLgHFvZGYZlcEVLPc7EGl/lemlZq43X6XDyVwvI/Pnw=",
-    "url": "https://github.com/otherworld-dev/Shopping-List/releases/download/v1.12.0/shopping_list.tar.gz",
-    "version": "1.12.0",
+    "hash": "sha256-kuGrCsMhTXoM5Vq21Mvk6NTrWod+CpmXuEtowMXpyEo=",
+    "url": "https://github.com/otherworld-dev/Shopping-List/releases/download/v1.13.0/shopping_list.tar.gz",
+    "version": "1.13.0",
     "description": "Manage shared shopping lists between household members. Create multiple lists, categorize items by shop area, tag items, and collaborate in real-time.\n\nOfficial website: [shoppinglist.otherworld.dev](https://shoppinglist.otherworld.dev/)\n\nOfficial companion Android app: [Google Play](https://play.google.com/store/apps/details?id=dev.otherworld.shoppinglist)",
     "homepage": "https://shoppinglist.otherworld.dev/",
     "licenses": [
@@ -4949,11 +4949,21 @@
       "AGPL-3.0-or-later"
     ]
   },
+  "sumoffice": {
+    "hash": "sha256-x0h/Hw4MihktOwdUgfQoBfCVMuFGzAHaqui7BsRGG7g=",
+    "url": "https://github.com/SumOfficeApp/sumoffice-nextcloud/releases/download/v0.1.6/sumoffice-0.1.6.tar.gz",
+    "version": "0.1.6",
+    "description": "Connects Nextcloud Office to a **SumOffice** server — SumSheet for .xlsx / .xlsm / .xlsb and SumDoc for .docx — with one field: the address of your SumOffice stack.\n\nWhat you get:\n\n* **Your Excel files keep working.** A workbook with macros and Power Query opens from Files, is edited in the browser, and comes back with its VBA project byte for byte; Excel opens it clean.\n* **Word documents the same way**, pictures and charts intact.\n* **Two people can edit one workbook together through Nextcloud Office.** Measured on the\n  28 September editor images: both users' changes stay in the file. Documents (DOCX) are\n  single-editor for now — we do not claim simultaneous Word editing.\n* **Nothing leaves your servers**: the editors run in your own Docker (`hissih/sumsheet-webhost`, `hissih/sumdoc-webhost`), Nextcloud stays the WOPI host.\n\nThis app is the installer: it points the standard Nextcloud Office (richdocuments) app at your SumOffice server, checks the discovery and capabilities endpoints, and shows what the server offers. It requires Nextcloud Office to be installed. One rule to save you an evening: the address you give Nextcloud Office must be the address the browser itself can reach, over https (or the same origin as Nextcloud) — otherwise the editor frame is blocked by the content-security policy and the session cookie never arrives.\n\nThree steps, measured on a real macro workbook: https://sumoffice.com/nextcloud.html",
+    "homepage": "https://sumoffice.com/nextcloud.html",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "synaplan_integration": {
-    "hash": "sha256-rxezCtWsbzwYn/0+ibT1UiXA8h5S00MTWMyeHfHbtwc=",
-    "url": "https://github.com/metadist/synaplan-nextcloud/releases/download/v1.5.0/synaplan_integration.tar.gz",
-    "version": "1.5.0",
-    "description": "Bring Synaplan's AI capabilities directly into Nextcloud:\n\n- **Summarize** documents with one click\n- **Translate** files to multiple languages\n- **Add to Knowledge** — vectorize files into the AI knowledge base\n- **Research Chat** — AI assistant with knowledge group and model selection, optional personal memories, and live status (model, language, image/video capabilities)\n- **Configurable answer language** — set a default language and optionally follow each user's Nextcloud interface language\n\nRequires a running Synaplan instance and API key.",
+    "hash": "sha256-iWmp6ddrqOAK+KpNUMHzbkYOwPaXMqnxMYV4TsIZCw0=",
+    "url": "https://github.com/metadist/synaplan-nextcloud/releases/download/v1.7.0-rc.1/synaplan_integration.tar.gz",
+    "version": "1.7.0",
+    "description": "Bring Synaplan's AI into Nextcloud Files:\n\n- **Summarize** a document with one click\n- **Translate** a file into another language\n- **Chat about this file**: ask questions about one document\n- **Make searchable by AI**: the AI finds the file when you ask a question, in the chat or in Synaplan\n- **AI chat** with a knowledge folder and model of your choice, optional personal memories, and live status (model, language, images and videos)\n- **Answer language**: a default language, or each person's Nextcloud language\n- **Connect your Synaplan account**: people sign in once, and the AI actions run as them\n- **Five languages**: English, German (informal and formal), Spanish, French and Turkish\n\nRequires a running Synaplan instance. Three ways to connect: one shared account, accounts created by the administrator, or each person connects their own Synaplan account.",
     "homepage": "https://synaplan.com",
     "licenses": [
       "Apache-2.0"
@@ -5200,9 +5210,9 @@
     ]
   },
   "timesister": {
-    "hash": "sha256-sgE3tko6pxxyph2op4h9Lgy3ZyNFQ+UNb5mq1Xtavz8=",
-    "url": "https://github.com/bias-city/timesister-nextcloud/releases/download/v0.26.1/timesister-0.26.1.tar.gz",
-    "version": "0.26.1",
+    "hash": "sha256-riTDJnC5d8gxQobXJzzihXe6sGylMaLjQWnNCOYHFEI=",
+    "url": "https://github.com/bias-city/timesister-nextcloud/releases/download/v0.26.2/timesister-0.26.2.tar.gz",
+    "version": "0.26.2",
     "description": "The server side of TimeSister, a time tracker for macOS: it stores master data such as people, locations, projects and clients as versioned records, checks permissions on the server and keeps calendar backups and the clients' status reports.\n\nEach team builds on one existing Nextcloud group, the team group. There are three roles, called Team Admin, Lead and User in every language: Team Admins are the group admins of the team group, the app keeps Lead and leaving the team. Every member names their time calendar once; the server reads it and hands the team's time entries out by role, so nobody shares a calendar. Leads and Team Admins offer Jobs – shares of a project or work package – to people of the team; the server checks volume and overlaps, and notifications tell who has to answer. The app creates no accounts and no calendars of its own; time entries stay in the users' CalDAV calendars.\n\nIt requires the TimeSister Mac app, where master data, roles and backups are managed. On its own, the app only adds an admin section for teams and status.",
     "homepage": "https://bias.city/timesister",
     "licenses": [
@@ -5320,8 +5330,8 @@
     ]
   },
   "uniteos_notifier": {
-    "hash": "sha256-yoNEdBloqNFtXTZsR4EN1PoTlGRjQKObaZ2B+qSFp4g=",
-    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/main/uniteos_notifier.tar.gz",
+    "hash": "sha256-vaWgvCrCGCfm5ygADrXCKR/nRTU9DFar/FQZg59ajus=",
+    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/1.0.6/uniteos_notifier.tar.gz",
     "version": "1.0.6",
     "description": "This app allows forwarding Nextcloud events for a deeper integration into UniteOS developed by wechange eG by presenting a selected set of events as user notifications.",
     "homepage": "",
@@ -5580,9 +5590,9 @@
     ]
   },
   "w3ds_login": {
-    "hash": "sha256-rTq7qYwrMwUAwLMZamePE+ZWjHjRDpQsGTUfhookq78=",
-    "url": "https://github.com/ensombl/nextcloud-w3ds-login/releases/download/v0.15.2/w3ds_login-0.15.2.tar.gz",
-    "version": "0.15.2",
+    "hash": "sha256-xHdc56bZe8Ejiz7bPljWO/VIOXb/q6f0fJxQBBFaB/k=",
+    "url": "https://github.com/ensombl/nextcloud-w3ds-login/releases/download/v0.15.3/w3ds_login-0.15.3.tar.gz",
+    "version": "0.15.3",
     "description": "Connect Nextcloud to the W3DS decentralized identity ecosystem for passwordless\nauthentication and optional bidirectional sync of Nextcloud Talk conversations\nto and from users' eVaults.\n\nUsers authenticate by scanning a QR code with their eID wallet, which signs a\nsession challenge using ECDSA P-256. No passwords are transmitted or stored.\n\nOnce a user has linked their W3DS identity, their Talk rooms and messages are\nmirrored to their eVault, so the same conversations are available on any other\nW3DS-connected platform. Login works with or without Nextcloud Talk installed.\n\nAuthentication:\n- QR code login on the Nextcloud login page\n- Auto-provisioning of new users on first authentication\n- Display name, email and avatar hydrated from the user's eVault profile\n- Link and unlink a W3DS identity from personal settings\n- Signature verification via the W3DS Registry\n\nTalk chat sync (requires Nextcloud Talk):\n- Rooms and messages synced in both directions\n- File and image attachments\n- @ mentions translated between Talk and W3DS identities\n- W3DS users discoverable in the share picker and from inside a room",
     "homepage": "https://github.com/ensombl/nextcloud-w3ds-login",
     "licenses": [
