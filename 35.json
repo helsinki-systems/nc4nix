@@ -350,9 +350,9 @@
     ]
   },
   "bookmarks": {
-    "hash": "sha256-YdFpK2RSNkIzOuiveHmlidsaxWjm1fS++pFkO9pWsCM=",
-    "url": "https://github.com/nextcloud/bookmarks/releases/download/v17.0.0/bookmarks-17.0.0.tar.gz",
-    "version": "17.0.0",
+    "hash": "sha256-e8R6sjTq/C6Mg81OsQWe+G96C0PERJqYDTljqjCxNlE=",
+    "url": "https://github.com/nextcloud/bookmarks/releases/download/v17.0.1/bookmarks-17.0.1.tar.gz",
+    "version": "17.0.1",
     "description": "- 📂 Sort bookmarks into folders\n- 🏷 Add tags and personal notes\n- ☠ Find broken links and duplicates\n- 📲 Synchronize with all your browsers and devices\n- 📔 Store archived versions of your links in case they are depublished\n- 🔍 Full-text search on site contents\n- 👪 Share bookmarks with other users, groups and teams or via public links\n- ⚛ Generate RSS feeds of your collections\n- 📈 Stats on how often you access which links\n- 🔒 Automatic backups of your bookmarks collection\n- 💼 Built-in Dashboard widgets for frequent and recent links\n\nRequirements:\n - PHP extensions:\n   - intl: *\n   - mbstring: *",
     "homepage": "https://github.com/nextcloud/bookmarks",
     "licenses": [
@@ -670,9 +670,9 @@
     ]
   },
   "curio": {
-    "hash": "sha256-+fdaXlOTys6ojHnnYrt69ka+1HQ9YJCHs56FAxGka1E=",
-    "url": "https://github.com/Acknar/Curio/releases/download/v2.1.2/curio-2.1.2.tar.gz",
-    "version": "2.1.2",
+    "hash": "sha256-ua+QakegZkwj8ixuYCJDILT15tDhvq/99QNLwZFAYOY=",
+    "url": "https://github.com/Acknar/Curio/releases/download/v2.2.0/curio-2.2.0.tar.gz",
+    "version": "2.2.0",
     "description": "Curio turns the images, links, videos and notes you collect into visual boards you can filter, tag and share. Paste a link from Pinterest, Instagram, YouTube or any website and it pulls in the picture, title and a snapshot for you. Upload your own photos, drop in a PDF, or jot a quick note.\n\n## Bring everything together\n\nAdd references from wherever you find them:\n\n- Photos and images uploaded straight from your device\n- Links from Pinterest, Instagram, YouTube and any website, with the image, title and a saved snapshot grabbed automatically\n- Videos, either embedded from a provider or uploaded directly\n- PDFs, shown with a page preview\n- Plain text notes for the ideas that do not have a link yet\n\nHashtags are recognized and are suggested and the ones you already have are automatically added, but you can easily remove those you don't want during the reference import.\n\nWhen a page offers more than one image, you choose which one becomes the tile.\n\n## Organize the way you think\n\nSort references into boards, one per project, mood or topic. Tag them with colored labels and group those labels into folders, so a growing collection stays easy to navigate.\n\nSwitch between layouts and filter by file type, boards and/or tags to view your references however you like.\n\n## Collaborate\n\nShare a board with anyone on your Nextcloud, with view-only or full edit access. Sharing uses Nextcloud's own sharing and permissions, so collaborators' changes are attributed to them. Leave comments on a reference to discuss it in context.\n\n## How files are handled\n\n- On first launch you choose the Nextcloud folder where Curio keeps its boards. Your references can be found in that folder and subfolders and removal of curio will not delete them.\n- Files can be dropped into those folders from the nextcloud file manager and they will appear on the board. Renaming or removing from outside the app also works.\n- Imported images will be converted to .webp to save up on space on your cloud.\n- Videos are not converted and will be links to the site so they may break if site removes the videos or moves them\n- A button in the settings lets you export or import a board as CSV of references.\n- Everything remains on your server, nothing is sent to a third party. Your references live on your server, under your control.",
     "homepage": "https://github.com/Acknar/Curio",
     "licenses": [
@@ -1020,9 +1020,9 @@
     ]
   },
   "epubviewer": {
-    "hash": "sha256-cN8CW7122zpfiqJgKJK6q8oKvKszq2t/5KCWtmkOxTc=",
-    "url": "https://github.com/devnoname120/epubviewer/releases/download/1.9.17/epubviewer-1.9.17.tar.gz",
-    "version": "1.9.17",
+    "hash": "sha256-MN46C/YLENfjbWELzR3gh+rHZbQjUaw8BHLM2oA95yk=",
+    "url": "https://github.com/devnoname120/epubviewer/releases/download/1.9.18/epubviewer-1.9.18.tar.gz",
+    "version": "1.9.18",
     "description": "# EPUB Viewer\nEPUB Viewer is an ebook reader based on pure javascript renderers. It works for publications formatted according to the following standards:\n\n - [EPUB]\n - [PDF]\n - [CBR and CBZ] ('comics')\n\nEPUB files are displayed using the futurepress [epub.js] renderer to provide near-native looks, especially when used full-screen. Turn pages by pressing the left/right hand side of the screen/window or using the cursor keys (if you have those), use the sidebar to browse through chapters or bookmarks and add annotations.\n\nPDF is handled by Mozilla's [pdf.js] renderer in combination with a custom reader app to enable side-by-side display, batch search and more. Controls are like those used in the Epub renderer with a few exceptions, e.g. night mode has not been implemented yet.\n\nCBR and CBZ are supported using a custom renderer inspired by [balaclark]'s work. As with Epub, books can be navigated using the keyboard as well as mouse or touch navigation. Reader generates a visual index of all pages, show in the sidebar (thumbnail generation can be disabled for low-memory and/or -speed devices). As CBx files are often of varying quality, a set of image enhancement filters are provided.\n\nComic pages may use static JPEG, PNG, GIF, or WebP images. PDF and comic documents are limited to 1,000 pages. Animated images and TIFF pages are not supported.\n\nNextcloud file thumbnails use the first naturally ordered supported image in CBZ archives. CBR thumbnails are enabled when the optional PHP `rar` extension is installed. Unsupported, encrypted, multi-volume, malformed, or over-limit archives retain Nextcloud's generic file icon.\n\nSee [README] for more exhaustive information on features and potential misfeatures of this app.\n\n   [epub.js]: https://github.com/futurepress/epub.js\n   [EPUB]: http://idpf.org/epub\n   [CBR and CBZ]: https://wiki.mobileread.com/wiki/CBR_and_CBZ\n   [balaclark]: https://github.com/balaclark/HTML5-Comic-Book-Reader\n   [PDF]: https://en.wikipedia.org/wiki/Portable_Document_Format\n   [pdf.js]: https://github.com/mozilla/pdf.js\n   [README]: https://github.com/devnoname120/epubviewer#readme",
     "homepage": "https://github.com/devnoname120/epubviewer",
     "licenses": [
@@ -1085,6 +1085,16 @@
     "version": "0.30.0",
     "description": "Indexes file checksums, so a file can be found by its checksum, and its duplicates at once.\n\nWhat you get:\n\n- **Unified Search** by hash: paste a checksum, find the file.\n- A **Checksums** tab in the file details: lists every checksum stored for the file, recalculated on demand, with its duplicates listed inline.\n- A **Duplicates** page: every group of identical files you hold, and, for those allowed to look across accounts, other accounts' files too.\n- **Rules** decide what is hashed and when: instance-wide or per account, by path pattern, computed in the background.\n- A stable **REST API (v1)** and a stable **PHP API** for other apps and integrations.\n- **occ commands** for hashing, searching, duplicates, rules, backup and import.\n- Storage in Nextcloud's own files metadata index: no custom tables, nothing to migrate.",
     "homepage": "https://gitlab.com/metaworx/open-source/nextcloud/file_checksum_search",
+    "licenses": [
+      "AGPL-3.0-or-later"
+    ]
+  },
+  "files_360viewer": {
+    "hash": "sha256-vy8H41hGgJ0+a66go1pgBxMOY5QQj9/PT1zn4dMTHG8=",
+    "url": "https://github.com/wizcs/files_360viewer/releases/download/v0.1.91/files_360viewer-0.1.91-final.tar.gz",
+    "version": "0.1.91",
+    "description": "Streams read-only 360 camera originals through a server-side dual-fisheye stitch and equirectangular HLS pipeline, with authenticated range delivery, seek, audio and adaptive bitrate playback.",
+    "homepage": "https://github.com/wizcs/files_360viewer",
     "licenses": [
       "AGPL-3.0-or-later"
     ]
@@ -1185,6 +1195,16 @@
     "version": "2.0.3",
     "description": "This application allows administrators to exclude specific directories and files from being added to the Nextcloud database file cache based on string patterns or glob wildcards.\n\nThis is extremely useful when using External Storages or shared folders that contain massive directories (like snapshot folders, node_modules, or cache folders) which can otherwise severely slow down the synchronization scanner.\n\n**Features:**\n- Universal storage wrapping for local, shared, and external storage mounts.\n- Safe, real-time background file scanner exclusion.\n- Beautiful built-in Web Administration interface to manage patterns, run dry-run previews of affected files, and safely trigger cache purges.\n- Native `occ files_excludedirs:clean-cache` command-line utility for high-speed cache database cleanup.",
     "homepage": "https://github.com/wonx/nextcloud-files-excludedirs",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "files_external_ethswarm": {
+    "hash": "sha256-p5homN8S+TUZpVfk6Rk3ynySiRTw5Bufe0UCLzw15+Q=",
+    "url": "https://github.com/MetaProvide/nextcloud-swarm-plugin/releases/download/v1.0.6/files_external_ethswarm.tar.gz",
+    "version": "1.0.6",
+    "description": "*Bring decentralized, sovereign cloud storage to Nextcloud with the HejBit Swarm plugin!*\n\nThis plugin integrates [Swarm](https://www.ethswarm.org/) (a decentralized, blockchain-connected file storage system) directly into your [Nextcloud ](https://nextcloud.com/)instance.\n\n## Table of Contents\n\n- Dependencies\n- Setup and Installation\n- Usage\n  - Settings\n  - Using HejBit Swarm\n  - Additional Integration with Moodle\n- HejBit Free Trial\n- License\n\n\n## Dependencies\n\nBefore using the plugin, ensure you have the following:\n\n-   An active Nextcloud instance (version 33-35)\n-   A valid subscription on [app.hejbit.com](https://app.hejbit.com)\n    -   [Get Your Free Trial for the Nextcloud Swarm Plugin](https://app.hejbit.com/register)\n\n## Setup and Installation\n\nFollow these steps to configure HejBit Swarm in Nextcloud:\n\n1. Install the \"External Storage: HejBit Swarm\" app from the Nextcloud App Store.\n2. As a signed in user, use [Quick Connect](https://app.hejbit.com/plugin/setup) to setup the storage on your Nextcloud instance\n\n## Usage\n\nOnce installed, HejBit integrates Swarm directly with Nextcloud’s \"Files\" section, allowing seamless file operations:\n\n- **Upload:** Transfer files to decentralized storage.\n- **Download/View:** Retrieve and view files from decentralized storage.\n- **Copy/Move:** Shift files between any external storage and decentralized storage.\n- **Rename:** Change file names as needed.\n- **Archive/Restore:** Manage your files by archiving or restoring them.\n- **Hide/Show:** Control the visibility of files in your storage.\n- **View Swarm Reference:** Access the unique Swarm reference for each file.\n- **Export all Swarm References:** Backup all your Swarm references easily.\n\nAdditionally, we have introduced a HejBit Feedback button that appears in the bottom left corner when you are inside a HejBit folder. This feature allows users to easily send feedback regarding general inquiries, ideas, or issues directly from the plugin.\n\n### Settings\n\nUsers with administrative credentials can configure the plugin through the standard External Storage settings. Here, you can input your Access Key and URL for HejBit.\n\n### Using HejBit Swarm\n\nOnce setup and configured, the Decentralized Storage is ready to use.\n\n- Access the Decentralized Storage folder under \"All Files\" or via the \"Files\" menu under \"External Storage.\"\n- Once uploaded, it can be viewed internally or downloaded. It can also be copied to another storage.\n- Files from another Nextcloud storage can also be copied/moved to the decentralized storage. Choose the decentralized storage folder as the target Folder.\n- To access a file's Swarm reference (its unique swarm network address), you have two options: right-click directly on the file and select the reference option, or use the three-dot Actions menu and choose 'View Swarm Reference.' Both methods will display the hash, which you can then copy to your clipboard for sharing or future access.\n- To effectively organize your files, you can utilize the Archive and Restore features for both folders and individual files, allowing for better management of your storage.\n- For a comprehensive backup of all your Swarm hashes, you can easily export all Swarm references directly from the menu located in the root HejBit Swarm folder.\n- We encourage you to share your thoughts and experiences with us! A **HejBit Feedback** button is conveniently located in the bottom left corner when you are inside a HejBit folder. This feature allows you to provide feedback on any inquiries, suggestions, or issues you may encounter, helping us enhance your experience and improve the plugin for all users.\n\n\n\n\n### Additional Integration with Moodle\n\nYou can also enhance your experience by integrating the HejBit Swarm plugin with the **Moodle Nextcloud plugin**. This integration allows users to access decentralized storage directly within the Moodle environment, providing a seamless experience for educational content management. For more information on how to set up this integration, visit the [Moodle Nextcloud repository documentation](https://docs.moodle.org/405/en/Nextcloud_repository).\n\nFor detailed guidance on using the integrated features, please refer to the [Metaprovide Learning Platform](https://learning.metaprovide.org/login/index.php).\n\n## HejBit Free Trial\n\nExperience the future of data storage with 5GB of free, decentralized storage on the Ethereum Swarm network. This offer is available as a 14-day free trial, allowing you to explore the capabilities of our plugin without any commitment. HejBit seamlessly integrates with your existing Nextcloud interface, providing true data sovereignty without the complexity. Enjoy the benefits of decentralized storage and take control of your data today!\n[Get your Free Trial here!](https://app.hejbit.com)\n\n## License\n\nThis program is licensed under the AGPLv3 or later.",
+    "homepage": "https://github.com/MetaProvide/nextcloud-swarm-plugin",
     "licenses": [
       "agpl"
     ]
@@ -1729,6 +1749,16 @@
       "agpl"
     ]
   },
+  "imageconverter": {
+    "hash": "sha256-JzsprJhLrQXJrJ9n+BDmt72PyfQ91zkEdVPjhL/8KdU=",
+    "url": "https://github.com/major-mayer/imageconverter/releases/download/v.2.2.2/imageconverter.tar.gz",
+    "version": "2.2.3",
+    "description": "Very simple app to convert your HEIC/ HEIF files to JPEG using ImagickMagick and the PHP Imagick extension. \n        Needs imagemagick with HEIC support installed and the PHP bindings (Imagick extension) enabled.\n        Check Github for more details.",
+    "homepage": "",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "impersonate": {
     "hash": "sha256-A/5EiGfge/Tm492V81UPige1yJaDorrxOCsc1c8KF70=",
     "url": "https://github.com/nextcloud-releases/impersonate/releases/download/v6.0.0/impersonate-v6.0.0.tar.gz",
@@ -1890,9 +1920,9 @@
     ]
   },
   "integration_immich": {
-    "hash": "sha256-BRHNg/hFmFfB21M57yZqVd99+cJswwT4Gxug5JditG0=",
-    "url": "https://github.com/xXRoxXeRXx/integration_immich/releases/download/v1.5.1/integration_immich.tar.gz",
-    "version": "1.5.1",
+    "hash": "sha256-+kU8VYh5+K8/jIowbCC0wBWLaSrBojR3BwvdDKGzq3k=",
+    "url": "https://github.com/xXRoxXeRXx/integration_immich/releases/download/v1.5.2/integration_immich.tar.gz",
+    "version": "1.5.2",
     "description": "Seamlessly integrates your [Immich](https://immich.app) photo library into Nextcloud.\n\n**Features:**\n- 🖼️ **Timeline** — lazy-loaded photo & video timeline grouped by date\n- 📁 **Albums** — browse, create, rename and delete Immich albums\n- 👤 **People** — explore your library by recognized person (face recognition)\n- 🗺️ **Map** — interactive map of all geotagged photos\n- 🔍 **Explore** — browse by city, country, state, object or tag\n- 🔎 **Lightbox** — full-screen viewer with keyboard navigation, pinch-to-zoom and EXIF metadata\n- ⭐ **Favorites** — mark and unmark photos as favorites\n- 💾 **Save to Nextcloud** — save Immich originals directly to your Nextcloud Files\n- ⬆️ **Upload to Immich** — send photos and videos from Nextcloud Files to Immich\n- ☑️ **Multi-select** — batch operations across any view",
     "homepage": "https://github.com/xXRoxXeRXx/integration_immich",
     "licenses": [
@@ -2810,9 +2840,9 @@
     ]
   },
   "ng_backup": {
-    "hash": "sha256-OYFXjjgtjZNX7db8wY8/xv/kHW/4i1I3QFb1KKNyttE=",
-    "url": "https://github.com/dillardblom/ng_backup/releases/download/v1.0.0-rc.5/ng_backup-0.9.11.tar.gz",
-    "version": "0.9.11",
+    "hash": "sha256-EqbJkxSWia+N5thngXUP8GV/IJcihef/K+/tx8IRKRw=",
+    "url": "https://github.com/dillardblom/ng_backup/releases/download/v1.0.0-rc.6/ng_backup-0.9.12.tar.gz",
+    "version": "0.9.12",
     "description": "Back up your whole Nextcloud — data directory, database and configuration — encrypted and\nincremental, to storage you choose. Restore single files, folders, a user, or the whole server from\nthe web interface or `occ`. No shell access or external tools needed, so it also runs on Nextcloud\nAll-in-One and hosted Nextcloud.\n\n**Where to**\n- S3 and S3-compatible storage, SFTP, WebDAV, SMB, FTP, Swift or a local path (NFS mount), through\n  the connection code of the External storage app. A location is never mounted and never shows up\n  in Files.\n\n**How**\n- Deduplicated, compressed and encrypted (XChaCha20-Poly1305) on the server before upload, streamed\n  straight to the location: no local copy, no double disk space. Unchanged files are not read again.\n- Database dump through Nextcloud's own connection, in one consistent transaction (PostgreSQL,\n  MySQL/MariaDB, SQLite).\n- Runs in short steps from the background jobs, so a server or container restart does not lose a\n  running backup.\n- Daily schedule, retention policy, and `occ backup:verify` (optionally `--deep`) to check that a\n  backup can be read.\n\n**Safe**\n- Up to three passphrases plus a recovery kit; the passphrase is the actual key.\n- Deletion delay and append-only locations against ransomware or a compromised server; S3 object\n  lock supported.\n- Admin notifications on failures, stale backups and changes to keys and locations.\n\n**Restore**\n- Files and folders into a new folder, merged, or replacing the original — through Nextcloud, so\n  overwritten files keep a version and removed ones go to the trash.\n- One user (account, files, calendars, contacts) via user_migration.\n- The whole server onto a fresh installation (disaster recovery).\n\nNG Backup needs Nextcloud's background jobs on system cron (a real cron line, not only the setting).\nRead \"Known limitations\" in the README before you rely on it, and test a restore. Feedback is very\nwelcome: use the \"Share your experience\" link on the admin page.\n\nDeveloped and sponsored by [Ensembia](https://www.ensembia.com). We can offer (paid) assistance if\nyou need help with restoring a backup after a crash.",
     "homepage": "https://github.com/dillardblom/ng_backup",
     "licenses": [
@@ -3050,9 +3080,9 @@
     ]
   },
   "paperless_sync": {
-    "hash": "sha256-0Ej++r+Pq6QZxuiypwsJ2sBDERFF0qvniu8db1ltvJs=",
-    "url": "https://github.com/Dennis-Otto/paperless-sync/releases/download/v1.1.1/paperless_sync.tar.gz",
-    "version": "1.1.1",
+    "hash": "sha256-EEExOQW30xRgx4gFsQdQT3n1awvF++Nv9iMNjo4+YLM=",
+    "url": "https://github.com/Dennis-Otto/paperless-sync/releases/download/v1.2.0/paperless_sync.tar.gz",
+    "version": "1.2.0",
     "description": "### A native bridge between Paperless-ngx and Nextcloud\n\nPaperless Sync mirrors finalized Paperless-ngx documents into a readable Nextcloud folder structure. Paperless remains the authoritative document archive while Nextcloud provides familiar access through Files, desktop sync, mobile apps, sharing, and its built-in viewer.\n\n### Structured, automatic, and reversible\n\n- Exports archive PDFs or original files through the Paperless API\n- Builds a configurable hierarchy from correspondent, document type, date, title, and document ID\n- Gives each Nextcloud user the documents they own in Paperless, through the one connection of the administrator (optional per-user ownership)\n- Moves or renames files when Paperless metadata changes\n- Skips Paperless inbox documents until they are finalized and removes previously mirrored copies when an exclusion tag is added\n- Imports files from a configurable Nextcloud inbox into Paperless\n- Sends a file or a folder to Paperless from its menu in Files, for a group of your choice, and opens the document of a mirrored copy in Paperless\n- Sends files to Paperless by rules of Flow, such as every PDF that a member of a group uploads, with tags of their own\n- Mirrors the Paperless trash into a dedicated Nextcloud folder\n- Optionally removes files after they are permanently deleted from Paperless\n- Removes empty archive folders after moves and deletions\n- Runs through native Nextcloud background jobs with resumable state\n- Mirrors a new or changed document within seconds when a workflow of Paperless calls its webhook, protected by a secret\n- Notifies the administrators when the mirror keeps failing, with setup checks under Administration and a status API for monitors such as Uptime Kuma or Home Assistant\n\n### Safe by default\n\nSynchronization is disabled until an administrator completes and validates the configuration. Permanent deletion is an explicit opt-in and can be protected by multiple missing-document confirmations. A dry-run previews changes without modifying files.\n\nThe Paperless API token is stored server-side in Nextcloud's credentials manager and is never returned to the browser. The app operates directly through Nextcloud's filesystem API, so no Nextcloud password or WebDAV credential is required.\n\n### Requirements\n\n- Nextcloud 33 to 35 with reliable cron background jobs\n- A reachable Paperless-ngx instance, version 2.16 or newer, 3.x included, with API access\n- A dedicated Paperless service account with only the permissions needed for the enabled features\n\nPaperless Sync is independent from [Paperless Unified Search](https://apps.nextcloud.com/apps/paperless_unified_search). Both apps understand stable document markers such as `[P123]` and can be installed separately.",
     "homepage": "https://dennis-otto.github.io/paperless-sync/",
     "licenses": [
@@ -3490,9 +3520,9 @@
     ]
   },
   "s3_api": {
-    "hash": "sha256-Z+Nu9lTwyxTKpU1P419DCyOmalnLyDHveyLr78VNXow=",
-    "url": "https://github.com/markuman/nextcloud-s3-api/releases/download/v1.6.1/s3_api-1.6.1.tar.gz",
-    "version": "1.6.1",
+    "hash": "sha256-icJBVOBwHi3ePC5I1HSYjuV8sV/16uX4Osf9lEAZqws=",
+    "url": "https://github.com/markuman/nextcloud-s3-api/releases/download/v1.6.2/s3_api-1.6.2.tar.gz",
+    "version": "1.6.2",
     "description": "**Point any S3 client at a Nextcloud folder.**\n\nMark a folder as a bucket in your personal settings, create an API key, and use it with the AWS\nCLI, boto3, rclone or any other S3-compatible client. The files stay ordinary Nextcloud files —\nvisible in the web UI, synced by the desktop client, shareable, versioned. Nothing is duplicated\ninto a separate object store.\n\nRather than the handful of calls a file sync needs, this implements the parts that make an S3\nendpoint usable as a real backend:\n\n* Conditional writes (`If-Match` / `If-None-Match`) that serialise concurrent writers, so the\n  store works as a compare-and-swap primitive\n* Multipart uploads, including `UploadPartCopy` for server-side compose\n* Ranged and conditional reads, delimited listings, presigned URLs\n* Streaming uploads — bodies are never buffered in memory, and `aws-chunked` payloads have their\n  per-chunk signature chain verified\n* Correct S3 ETags (content MD5, compound form for multipart) rather than Nextcloud's internal\n  etag, which is too coarse to build a compare-and-swap on\n\nAuthentication is AWS Signature V4, via header or presigned URL. Each API key is scoped to exactly\none bucket and is either readonly or readwrite.\n\nVerified against [gits3](https://github.com/markuman/gits3srv), a git server that keeps bare\nrepositories in a bucket: its own S3 client and a real push / clone / gc cycle run against this\napp in the test suite, exercising compare-and-swap, content ETags, ranged reads and delimited\nlistings.\n\n**Note:** every request passes through PHP and Nextcloud's storage layer. This is a convenient way\nto talk S3 to data you already keep in Nextcloud — not a replacement for a high-throughput object\nstore.",
     "homepage": "https://github.com/markuman/nextcloud-s3-api",
     "licenses": [
@@ -3540,9 +3570,9 @@
     ]
   },
   "scoreview": {
-    "hash": "sha256-CPvnAVxyZr68Pl/5CFPBtraSsHjqxi53V5U19Ho62lw=",
-    "url": "https://github.com/AndiMb/scoreview/releases/download/v1.20.1/scoreview.tar.gz",
-    "version": "1.20.1",
+    "hash": "sha256-MtXJNOp5xwhXweWczd1FLkVdVJ7w8C+UCSCHhUjK7F8=",
+    "url": "https://github.com/AndiMb/scoreview/releases/download/v1.21.1/scoreview.tar.gz",
+    "version": "1.21.1",
     "description": "ScoreView displays MuseScore scores (.mscz) directly from Files - as faithful\nMuseScore notation (SVG) with a playback cursor that follows client-side\nsynthesized MIDI playback in sync, instead of a static PDF export.\n\nMade for choir and ensemble work: the notation looks like the sheet music you\nalready know, every voice can be heard on its own, and every measure is one\nclick away.\n\nAn uploaded .mscz file is converted once, server-side, to notation pages (SVG),\nMIDI and timing data, then cached: opening the same file again does not\nre-render, it is served from the cache. Only a change to the file triggers a\nnew conversion.\n\nThere are two equivalent conversion paths that produce the same result. The\ndefault one needs no configuration at all and no container: MuseScore as\nWebAssembly, executed by the server's Node.js runtime - everything it needs\nships with the app, and the server fetches the SoundFont for playback on its\nown. Alternatively a MuseScore container next to Nextcloud does the\nconverting. If the server can run neither, the browser converts instead -\nwithout a cache, as a fallback.\n\nFeature set: zoom presets, fullscreen and auto-scrolling in time with playback;\na freely configurable playback highlight (sounding notes or a bar, in a colour\nof your choice);\nmeasure navigation, looping over a measure range, click-to-note jump and\nkeyboard shortcuts; a mixer with per-voice volume/mute/solo, a \"my voice\"\npreset, tempo in BPM and a metronome; annotations anchored to musical\nposition (private or shared, surviving a re-upload); touch controls with\npinch-zoom for a tablet on the music stand.\n\nFor practice, choir rehearsal and concert: the starting note of your own voice\nor the key note, your own voice in the stereo image, a speed trainer in the\nloop, light notes on a dark background, a performance mode with page turning by\nkey or pedal; a leader role per score with voice notes, rehearsal stamps and\nrehearsal marks in the navigation; \"Follow me\" - the leader sends position,\nloop and starting note to every device (below one second with notify_push)\nand lets them follow silently while it plays;\nsetlists as a Markdown file with piece changes inside the viewer; own\nrecordings only the person recording can hear, and intonation feedback while\nsinging. The Nextcloud mobile apps open the viewer too - the Android app\nwithout the microphone; so far only Android has been tested.\n\nOn the go and on a phone: practice tracks as MP3 files in Files - the current\nmix, optionally one per voice for everyone -, a coach mode (your own voice on\nthe piano), transposing the sound, a system band with the staves side by\nside, a lyrics view of your own voice, note names on the notes, and scores\nwith sound without a network via an offline page in the browser. \"Follow me\"\ntakes everyone along to the next piece of the setlist.",
     "homepage": "https://github.com/AndiMb/scoreview",
     "licenses": [
@@ -4080,19 +4110,19 @@
     ]
   },
   "timesister": {
-    "hash": "sha256-riTDJnC5d8gxQobXJzzihXe6sGylMaLjQWnNCOYHFEI=",
-    "url": "https://github.com/bias-city/timesister-nextcloud/releases/download/v0.26.2/timesister-0.26.2.tar.gz",
-    "version": "0.26.2",
-    "description": "The server side of TimeSister, a time tracker for macOS: it stores master data such as people, locations, projects and clients as versioned records, checks permissions on the server and keeps calendar backups and the clients' status reports.\n\nEach team builds on one existing Nextcloud group, the team group. There are three roles, called Team Admin, Lead and User in every language: Team Admins are the group admins of the team group, the app keeps Lead and leaving the team. Every member names their time calendar once; the server reads it and hands the team's time entries out by role, so nobody shares a calendar. Leads and Team Admins offer Jobs – shares of a project or work package – to people of the team; the server checks volume and overlaps, and notifications tell who has to answer. The app creates no accounts and no calendars of its own; time entries stay in the users' CalDAV calendars.\n\nIt requires the TimeSister Mac app, where master data, roles and backups are managed. On its own, the app only adds an admin section for teams and status.",
+    "hash": "sha256-PI9IDJHcFtGOcj8XMp0yRu80r7WrxF+Mk3/xJCggHoI=",
+    "url": "https://github.com/bias-city/timesister-nextcloud/releases/download/v0.28.0/timesister-0.28.0.tar.gz",
+    "version": "0.28.0",
+    "description": "The server side of TimeSister, a time tracker for macOS: it stores master data such as people, locations, projects and clients as versioned records, checks permissions on the server and keeps calendar backups and the clients' status reports.\n\nEach team builds on one existing Nextcloud group, the team group. There are three roles, called Team Admin, Lead and User in every language: Team Admins are the group admins of the team group, the app keeps Lead and leaving the team. Every member names their time calendar once; the server reads it and hands the team's time entries out by role, so nobody shares a calendar. Leads and Team Admins offer Jobs – shares of a project or work package – to people of the team; the server checks volume and overlaps, and notifications tell who has to answer. The app creates no accounts and no calendars of its own; time entries stay in the users' CalDAV calendars. Only the hours of external persons that a Team Admin imports from a list live in the app's database.\n\nIt requires the TimeSister Mac app, where master data, roles and backups are managed. On its own, the app only adds an admin section for teams and status.",
     "homepage": "https://bias.city/timesister",
     "licenses": [
       "AGPL-3.0-or-later"
     ]
   },
   "transfer": {
-    "hash": "sha256-yCN/fqwbTVxj1hQZi86c9jgkiFxpdmp8c1gpIb81v6g=",
-    "url": "https://github.com/beleon/transfer/releases/download/v1.0.3/transfer.tar.gz",
-    "version": "1.0.3",
+    "hash": "sha256-zPfOQIwA8Zlw7lMFSmMS+u43mE5DYA26/g3pkRyzorU=",
+    "url": "https://github.com/beleon/transfer/releases/download/v1.0.4/transfer.tar.gz",
+    "version": "1.0.4",
     "description": "\"Upload by link\" functionality for Nextcloud. Transfer files\n                using the full bandwidth available to your server. Avoid the need to\n                leave your own device online to finish an upload.",
     "homepage": "https://github.com/beleon/transfer#readme",
     "licenses": [
@@ -4180,8 +4210,8 @@
     ]
   },
   "uniteos_notifier": {
-    "hash": "sha256-vaWgvCrCGCfm5ygADrXCKR/nRTU9DFar/FQZg59ajus=",
-    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/1.0.6/uniteos_notifier.tar.gz",
+    "hash": "sha256-yoNEdBloqNFtXTZsR4EN1PoTlGRjQKObaZ2B+qSFp4g=",
+    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/main/uniteos_notifier.tar.gz",
     "version": "1.0.6",
     "description": "This app allows forwarding Nextcloud events for a deeper integration into UniteOS developed by wechange eG by presenting a selected set of events as user notifications.",
     "homepage": "",
@@ -4340,9 +4370,9 @@
     ]
   },
   "vereinsbuchhaltung": {
-    "hash": "sha256-4yz376LVTV07EuUaDenvlLEIHvqAY0/ts1YQ7S/Fov8=",
-    "url": "https://github.com/AndiMb/nc_vereinsbuchhaltung/releases/download/v0.41.0/vereinsbuchhaltung-0.41.0.tar.gz",
-    "version": "0.41.0",
+    "hash": "sha256-W2YFu36TDvU+2+T0+RJAcKTq0ZmrEQGNxgeixJxqqaA=",
+    "url": "https://github.com/AndiMb/nc_vereinsbuchhaltung/releases/download/v0.41.2/vereinsbuchhaltung-0.41.2.tar.gz",
+    "version": "0.41.2",
     "description": "**Accounting for nonprofit clubs – fully within your own Nextcloud.**\n\nFor treasurers of small and medium-sized clubs who don't run separate\naccounting software and don't want their financial data in some provider's\ncloud. Your data stays wherever your Nextcloud is hosted.\n\nYou don't need to be an accountant: in **simple mode** you record an \"income\"\nor \"expense\" with amount, date and category – the app handles double-entry\nbookkeeping in the background. If you'd rather set debit and credit yourself,\nswitch to expert mode.\n\n**[▶ The app in two minutes (video, German)](https://youtu.be/eaF-tAQ_OOM)** –\nimport bank statements, assign transactions, evaluate and produce the annual\ntreasurer's report.\n\n## The workflow\n\n1. **Import a bank statement** – CSV-CAMT, CAMT.053 (XML) or MT940 from your\n   online banking; the app detects the format from the content, the file\n   extension doesn't matter. Transactions already present are recognized and\n   skipped, even across formats. A watch folder can even pick up new\n   statements on its own, without a manual import.\n2. **Assign transactions** – every bank entry gets a counter-account. Rules\n   handle recurring assignments (rent, membership fees, charges)\n   automatically.\n3. **Attach receipts** – photo or PDF, either in a Nextcloud folder of your\n   choice or stored inside the app. Or as a watch folder: whatever you drop\n   into it in the Files app can be picked when booking, and the overview\n   reports what is not yet assigned to an entry.\n4. **Evaluate and report** – treasurer's report for the general assembly,\n   short report for board meetings, exports for the audit.\n\n## What the app can do\n\n- **Double-entry bookkeeping** with a freely definable chart of accounts; a\n  standard chart of accounts for clubs is included\n- **Treasurer's report** and **short report** as print-ready pages (Ctrl+P),\n  optionally with your club's logo and accent color\n- **Financial plan** with plan/actual comparison, comparison with the previous year and freezable plan snapshots\n- **Structured report** by template, e.g. as a budget for funding bodies or as a result per project\n- **Nonprofit status:** spheres following the German four-sphere model\n  (ideational, asset management, purpose-related business, commercial\n  business) and reserves per § 62 AO\n- **Membership fees & SEPA direct debit** (optional, can be enabled as\n  needed): member management with CSV import, direct debit mandates on paper\n  or electronic, contribution groups with an interval, pre-notification and\n  collection as a pain.008 file for your bank with a release before\n  submission, bank reconciliation, returned debits with dunning, and a \"My\n  contribution\" area for members – its own tab in the main navigation; if you\n  don't need the module, you never see it\n- **Open items** – keep track of unpaid receivables with due dates\n- **Multi-year trend** and result per reporting group\n- **Freely definable fiscal year:** it does not have to match the calendar\n  year – October–September, the school year August–July or half-year\n  periods (semesters) are just as possible\n- **Year-end closing:** a finalized fiscal year can no longer be changed;\n  continuous, gap-free posting numbers per fiscal year\n- **Change log:** who changed what, and when\n- **Roles:** administrator, bookkeeper and auditor – the audit role gets\n  read access to everything without being able to change anything\n- **On the go:** dedicated view for smartphones, photograph receipts\n  directly\n- **Annual audit:** all receipts for a year as a ZIP, print-ready quick\n  guide for the auditor, completeness check of posting numbers\n\n## Member management & SEPA direct debit (optional)\n\nFor clubs that collect their membership fees by direct debit: a tab of its own\n(\"Contributions\"), enabled when needed. If you don't need the module, you\nnever see it.\n\n- **Members:** member list with a record per member, intake assistant, CSV\n  import of whole member lists, leaving, information under Art. 15 GDPR and\n  anonymization; the email addresses for a bulk mail can be copied with one\n  click\n- **SEPA mandates:** on paper or electronically via a one-time link, with\n  history, suspension, revocation and a warning before they expire\n- **Contribution groups:** lower limit and allowed intervals (monthly to\n  annual), assignments with a preview, members who pay no fee\n- **Collection:** pre-notification by email, release before submission,\n  collection file (pain.008) for your bank, timeline of collection dates and\n  bank reconciliation with matching suggestions\n- **Returned debits & dunning:** reasons in plain language, payment request\n  with payment details and a GiroCode per item, dunning levels, fees passed on\n  if you wish\n- **\"My contribution\" for members:** maintain contact details, contribution,\n  interval and mandate themselves – with a preview and a confirmation email –,\n  plus contribution confirmation and data overview\n- **Task clipboard:** shows in the header what needs doing next\n\nA **sample club** can be created with one click to try everything out\nrisk-free, and removed again with another click.\n\nExisting data from \"zero Buchhaltung\" can be taken over via its xbuc files.\n\nFull manual in German and English: see documentation.",
     "homepage": "https://github.com/AndiMb/nc_vereinsbuchhaltung",
     "licenses": [
