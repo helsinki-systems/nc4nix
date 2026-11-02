@@ -520,9 +520,9 @@
     ]
   },
   "camerarawpreviews": {
-    "hash": "sha256-GlTCfFkg1NLzdJh7v766EtFiJrHDWyK9IKbT05lmQUY=",
-    "url": "https://github.com/ariselseng/camerarawpreviews/releases/download/v1.2.0/camerarawpreviews_nextcloud.tar.gz",
-    "version": "1.2.0",
+    "hash": "sha256-SQ7bu80hoZimfxMjx/7h6fgSIF9NpZ9I0GdzqrXtZCU=",
+    "url": "https://github.com/ariselseng/camerarawpreviews/releases/download/v1.3.0/camerarawpreviews_nextcloud.tar.gz",
+    "version": "1.3.0",
     "description": "This app will make previews of &quot;RAW&quot; files from cameras in Nextcloud.",
     "homepage": "",
     "licenses": [
@@ -537,6 +537,16 @@
     "homepage": "https://capauth.io",
     "licenses": [
       "AGPL-3.0-or-later"
+    ]
+  },
+  "carecheck": {
+    "hash": "sha256-zNhqQ4l6gHD+8F/0qwkWOVVR8Z2vNI8ongmUUsgIjbs=",
+    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-carecheck/releases/download/v0.4.2/carecheck.tar.gz",
+    "version": "0.4.2",
+    "description": "# CareCheck — tour, visit & care documentation\n\nAmbulatory care documentation on your own Nextcloud: recurring tour templates that materialize into daily tours, offline-first visit bundles with plan snapshots and signatures, an append-only hash-chained journal with external timestamp anchoring, audited break-glass cover access, and encrypted client records.\n\n**Free AGPL web app.** The native companion (worker & paired-member modes) is licensed separately (`CCK2`). The web is never paywalled.",
+    "homepage": "https://nextcloud.software-by-design.de/",
+    "licenses": [
+      "agpl"
     ]
   },
   "carnet": {
@@ -705,6 +715,16 @@
     "version": "5.5.0",
     "description": "Ask questions to Nextcloud Assistant about the content of your documents.\n\n\nSee [the Admin docs](https://docs.nextcloud.com/server/latest/admin_manual/ai/app_context_chat.html) for installation steps and requirements.\n\nSetup background job workers as described here: https://docs.nextcloud.com/server/latest/admin_manual/ai/overview.html#improve-ai-task-pickup-speed\n\nNote:\nRefer to the [Context Chat Backend's readme](https://github.com/nextcloud/context_chat_backend/?tab=readme-ov-file) and the [AppAPI's documentation](https://cloud-py-api.github.io/app_api/) for help with setup of AppAPI's deploy daemon.",
     "homepage": "https://github.com/nextcloud/context_chat",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "contractcheck": {
+    "hash": "sha256-+XRE4+uOsedDNkjGD4sASmJcC8Yt76dPZfhxVO5XLXU=",
+    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-contractcheck/releases/download/v1.0.2/contractcheck-1.0.2.tar.gz",
+    "version": "1.0.2",
+    "description": "# ContractCheck — never miss a cancellation window again\n\nOne register for every contract: notice periods and anchors (month end, quarter end, year end, contract end, anytime), automatic renewals, revision history, linked Nextcloud files, cost entries with yearly rollups, CSV/PDF export, and an ICS feed for your calendar.\n\nA deterministic deadline engine computes the next cancel-by date for every contract — so auto-renewals never surprise you again.\n\n**Free AGPL web app.**\n\n## Clear limits\n\n- Not e-signature, drafting or clause management\n- Not procurement (EinkaufCheck) or invoicing (InvoiceCheck)\n- Not public tender law workflows\n\n## Feedback welcome\n\nBug reports and ideas help — open a GitHub Issue (https://github.com/aSoftwareByDesignRepository/nextcloud-contractcheck/issues) or write to info@software-by-design.de.\n\n## Requirements\n\n- Nextcloud 32–35 · PHP 8.2–8.5 · MySQL or PostgreSQL",
+    "homepage": "https://nextcloud.software-by-design.de/",
     "licenses": [
       "agpl"
     ]
@@ -1120,9 +1140,9 @@
     ]
   },
   "dokuwiki": {
-    "hash": "sha256-AN+lM+lBWKr0L23uPFUTA9hSdl1Z4LBYDkzEovlRPXg=",
-    "url": "https://github.com/rotdrop/nextcloud-app-dokuwiki/releases/download/v1.2.1/dokuwiki-1.2.1.tar.gz",
-    "version": "1.2.1",
+    "hash": "sha256-40jzZIWh4V4V5gPvnL8r42+ZFg3KcOWbvDHrIh+KzRI=",
+    "url": "https://github.com/rotdrop/nextcloud-app-dokuwiki/releases/download/v1.2.2/dokuwiki-1.2.2.tar.gz",
+    "version": "1.2.2",
     "description": "Embed an existing DokuWiki instance into Nextcloud, potentially with SSO. For SSO DokuWiki users and Nextcloud users have to coincide, e.g. by using a common authentication backend like LDAP, or with an appropriate auth plugin on either side of the integration.",
     "homepage": "",
     "licenses": [
@@ -1250,9 +1270,9 @@
     ]
   },
   "educai": {
-    "hash": "sha256-ltTWbmy+zWC8ox5gwU/tWqESGm0GaJONG4LtIW9IGfs=",
-    "url": "https://github.com/EDUCAlliance/talk-ai/releases/download/v2.43.2/educai-2.43.2.tar.gz",
-    "version": "2.43.2",
+    "hash": "sha256-Qd4uZzrhtNldZ4gAoML+XCXua9ZsKqxCKCOWwR+Bi2M=",
+    "url": "https://github.com/EDUCAlliance/talk-ai/releases/download/v2.45.0/educai-2.45.0.tar.gz",
+    "version": "2.45.0",
     "description": "Talk AI turns Nextcloud Talk into a home for **multiple** AI bots instead of one generic assistant. Each bot has its own system prompt, model, knowledge and tools — and a visibility scope: **personal**, **group**, **team**, or **global** (with an approval workflow for shared bots), so users only see and use the bots they are entitled to.\n\n- **Multi-bot by design** — unlimited bots, each with a stable @mention, own prompt, temperature and model selection.\n- **Bring your own model** — any OpenAI-compatible chat / model-list / embedding / vision / speech endpoint, with a primary + optional secondary endpoint and an automatic fallback model.\n- **Knowledge (RAG)** — index Nextcloud files and folders, with optional Docling conversion for PDF, Office and image formats.\n- **Agentic tools** — built-in document search, room-document search, image analysis, audio transcription and persistent Markdown wikis, plus an extension point for companion apps and support for external MCP tool servers.\n- **Native Talk integration** — shared Talk bot, Smart Picker support, signature-verified webhooks, admin control over providers, credentials, rate limits and tool access.\n\nDeveloped by EDUC — the European Digital UniverCity (its package id is educai). Works with any OpenAI-compatible endpoint on any supported Nextcloud install.\n\n### EU funding\n\n![Co-funded by the European Union](https://raw.githubusercontent.com/EDUCAlliance/talk-ai/v2.40.0/img/eu-co-funded-appstore.png)\n\nFunded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Education and Culture Executive Agency (EACEA). Neither the European Union nor EACEA can be held responsible for them.",
     "homepage": "",
     "licenses": [
@@ -1380,10 +1400,10 @@
     ]
   },
   "eva_ai": {
-    "hash": "sha256-iU/K5IEN+R78sGmTUZq3lNhYSbzDWheUJ3yj6q8ak8Q=",
-    "url": "https://github.com/SchBenedikt/nextcloud-ai/releases/download/v1.16.96/eva_ai-v1.16.96.tar.gz",
-    "version": "1.16.96",
-    "description": "Eva AI turns your Nextcloud into a private, searchable knowledge base powered by Large Language Models. Ask questions in natural language and get instant, cited answers drawn from your own files — fully local with Ollama, or optionally via Groq for cloud-hosted inference.\n\n## Why Eva AI?\n\nYour data stays yours. No third-party indexing, no external databases, no cloud required. Eva runs entirely within your Nextcloud instance, giving you full control over your files and conversations.\n\n## Key Features\n\n**Intelligent File Indexing**\nEva automatically reads, chunks, and embeds your files for semantic search. Supports a wide range of formats: plain text (txt, md, csv, json, xml, yaml, sql, ...), PDF, Microsoft Office (docx/xlsx/pptx with macros and templates), OpenDocument (odt/ods/odp), EPUB, saved mail (eml, mbox), web archives (mht/mhtml), Jupyter notebooks (ipynb), and many more. A file that cannot be read is skipped instead of stopping the run.\n\n**Hybrid Retrieval Engine**\nCombines vector-based semantic search with lexical search (BM25) using Reciprocal Rank Fusion (RRF) to deliver the most relevant results — even for exact-match queries.\n\n**Cited Sources**\nEvery answer includes the exact file path where the information was found, so you can always verify the source. Answers that used the web list the pages they actually retrieved, with their site and an excerpt, marked as web sources.\n\n**Nextcloud Integration**\nEva can perform actions directly within Nextcloud: search for files, create documents, rename items, and work with templates across your entire home space — including Notes and Contacts.\n\n**Ollama and Groq Support**\nStart fully local with Ollama (no configuration required) or optionally connect to Groq for cloud-hosted inference. Embeddings always run locally via Ollama.\n\n**Zero Configuration**\nJust install and go. Eva automatically detects your local Ollama instance and selects appropriate models.\n\n**Talk Integration**\nOptionally integrate with Nextcloud Talk for conversational AI within your chat rooms.\n\n## Requirements\n\n- Nextcloud 30–35\n- PHP 8.2+\n- [Ollama](https://ollama.com) running locally (default: http://localhost:11434)\n- Optional: Groq API key for cloud-hosted inference\n\n## Get Started\n\n1. Install the app\n2. Ensure Ollama is running on your server\n3. Open Eva from the left sidebar\n4. Start chatting with your files\n\n## Privacy\n\nWith Ollama, all processing happens on your server. Your files never leave your infrastructure. No analytics, no telemetry, no external calls.\n\n## Support\n\n- GitHub: https://github.com/SchBenedikt/nextcloud-ai\n- Issues: https://github.com/SchBenedikt/nextcloud-ai/issues\n\nLicensed under AGPL-3.0-or-later.",
+    "hash": "sha256-IdcoaGpqJKzflBhqBJn+Y9vpOF0M6TKbpoRHln52Sw8=",
+    "url": "https://github.com/SchBenedikt/nextcloud-ai/releases/download/v1.20.42/eva_ai-1.20.42.tar.gz",
+    "version": "1.20.42",
+    "description": "EVA adds a capable AI assistant to your Nextcloud. It is deeply integrated into Nextcloud itself: it powers the official Nextcloud Assistant, works inside Files, Talk, Mail, Calendar, Contacts and Tasks, and answers with cited sources from your own documents.\n\n## Deep Nextcloud integration\n\nEVA is not an external chatbot — it is a native Nextcloud app. It registers TaskProcessing providers, so it powers the official Nextcloud Assistant app across the whole instance: chat with your indexed files in the Assistant sidebar, use text, audio and image tools, and run scheduled tasks (\"Geplante Aufgaben\") that trigger EVA. In Files you can open any document with EVA for a focused file conversation. EVA can also join Nextcloud Talk as a bot and read or post messages in rooms (off by default).\n\n## More than 80 actions\n\nEVA works through the real Nextcloud APIs, and every write action asks for your confirmation first:\n\n- **Files & knowledge**: search, read, create, rename, move, copy and delete files, write Markdown notes, keep a personal knowledge memory, manage shares, comments, system tags and file versions.\n- **Calendar & tasks**: list, create, update and delete events, find free slots, and create, complete and delete your to-dos.\n- **Mail & contacts**: search, list and read mails, summarize your inbox, and manage contacts and your profile.\n- **Talk**: list rooms, read conversations and post messages into Nextcloud Talk.\n\n## Web search and images from the internet\n\nEVA can search the current web for up-to-date answers and show images from the internet directly in the chat. Answers list the pages that were actually retrieved, and image results always link back to their source page.\n\n## Your models, your choice\n\nUse native Ollama or Groq, or add compatible profiles for OpenAI, Google Gemini, Mistral, DeepSeek, OpenRouter and other Chat Completions servers. The search index stays on your Nextcloud server; you decide where inference happens.\n\n## Cited answers from your files\n\nEVA extracts text, PDF, Office, OpenDocument and many other formats, then combines semantic and keyword retrieval. Every file answer links back to its sources so you can verify it.\n\n## Requirements\n\n- Nextcloud 30–35\n- PHP 8.2+\n- Ollama reachable from the Nextcloud server (default: http://127.0.0.1:11434), or a hosted provider key\n\n## Privacy\n\nThe search index is stored on your Nextcloud server. Chat prompts, retrieved excerpts and tool results are sent to the model provider you configured; the default chat model uses Ollama Cloud, so select a local model to keep everything on your infrastructure. Web search, image search, Mail, Talk and external connectors each have their own data flow and stay disabled until you enable them. EVA adds no third-party analytics.\n\n## Support\n\n- GitHub: https://github.com/SchBenedikt/nextcloud-ai\n- Issues: https://github.com/SchBenedikt/nextcloud-ai/issues\n\nLicensed under AGPL-3.0-or-later.",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -1790,10 +1810,10 @@
     ]
   },
   "findling": {
-    "hash": "sha256-iQ2GHT0/RROeiSbwEVBN5BEdLXFAR9/YgOW8sSIsPwM=",
-    "url": "https://github.com/street1983nk/nextcloud-search/releases/download/v1.6.0/findling.tar.gz",
-    "version": "1.6.0",
-    "description": "What Findling does:\n- Full text search in the normal Nextcloud search bar\n- Filter by file type or folder directly in the Nextcloud search\n- OCR for scanned PDFs and images: ten languages available, German, English and French are the default\n- Semantic search: finds documents through paraphrases\n- Similar documents: a link at every hit on the results page lists files with related content\n- Every result is permission-checked by Nextcloud\n- No configuration: the first index run starts on its own\n- Exclude folders or patterns such as *.photoslibrary from the index\n- Performance profiles: Economy by default, Standard and Performance after a pre-check of the hardware\n- Search model: int8 built in, the more accurate fp32 can be downloaded once under Standard and Performance\n- Privacy: everything runs locally, no telemetry, nothing leaves your server\n- Search languages: German and English by default, Spanish, Italian, Dutch, Portuguese and Czech available\n\nSwitching from fulltextsearch/Elasticsearch: [steps in the documentation](https://github.com/street1983nk/nextcloud-search/blob/v1.6.0/docs/migrate-from-fulltextsearch.en.md)\n\nKnown limitations:\n- Spanish: año and ano are treated as the same word\n- Portuguese: spellings before and after the spelling reform are not unified\n- Compound words are split for German and Dutch only\n- French has no full text analysis chain for document text\n- Czech: no stemming, inflected forms count as separate words\n\nTogether with the [Nextcloud MCP Connector](https://apps.nextcloud.com/apps/mcp_connector), Findling forms the retrieval layer for your own RAG: AI assistants search your document contents with exactly the rights of the asking user, and no content leaves your server.\n\nSupported file types:\n- PDF (scanned too), DOC, DOCX, PPTX, XLS, XLSX, ODT, ODS, ODP\n- HTML, RTF, TXT, Markdown, CSV, mails (EML)\n- ZIP files: the files inside, without OCR\n- Images through OCR: JPEG, PNG, TIFF, WebP, HEIC\n\nRequirements:\n- Nextcloud 33 to 35, apps: AppAPI, Findling Backend (External Apps), Findling\n- RAM: 4 GB is enough, 730.2 MB resident after an index run, under a hard 2 GB limit (measured)\n- CPU: 2 cores are enough, amd64 and arm64\n\nWithout any change on your side, Findling keeps running as economically as before. Anyone with more hardware can use a profile to free at most half of the machine the backend runs on (Standard profile) or everything but one core (Performance profile).\n\nEnterprise support and paid add-ons: request a quote at admin@infranode.dev",
+    "hash": "sha256-YNTsPgtJ9OeU5QNCyhivA7gCvZyJpAxNv7dCWN2660s=",
+    "url": "https://github.com/street1983nk/nextcloud-search/releases/download/v1.6.1/findling.tar.gz",
+    "version": "1.6.1",
+    "description": "What Findling does:\n- Full text search in the normal Nextcloud search bar\n- Filter by file type or folder directly in the Nextcloud search\n- OCR for scanned PDFs and images: ten languages available, German, English and French are the default\n- Semantic search: finds documents through paraphrases\n- Similar documents: a link at every hit on the results page lists files with related content\n- Every result is permission-checked by Nextcloud\n- No configuration: the first index run starts on its own\n- Exclude folders or patterns such as *.photoslibrary from the index\n- Performance profiles: Economy by default, Standard and Performance after a pre-check of the hardware\n- Search model: int8 built in, the more accurate fp32 can be downloaded once under Standard and Performance\n- Privacy: everything runs locally, no telemetry, nothing leaves your server\n- Search languages: German and English by default, Spanish, Italian, Dutch, Portuguese and Czech available\n\nSwitching from fulltextsearch/Elasticsearch: [steps in the documentation](https://github.com/street1983nk/nextcloud-search/blob/v1.6.1/docs/migrate-from-fulltextsearch.en.md)\n\nKnown limitations:\n- Spanish: año and ano are treated as the same word\n- Portuguese: spellings before and after the spelling reform are not unified\n- Compound words are split for German and Dutch only\n- French has no full text analysis chain for document text\n- Czech: no stemming, inflected forms count as separate words\n\nTogether with the [Nextcloud MCP Connector](https://apps.nextcloud.com/apps/mcp_connector), Findling forms the retrieval layer for your own RAG: AI assistants search your document contents with exactly the rights of the asking user, and no content leaves your server.\n\nSupported file types:\n- PDF (scanned too), DOC, DOCX, PPTX, XLS, XLSX, ODT, ODS, ODP\n- HTML, RTF, TXT, Markdown, CSV, mails (EML)\n- ZIP files: the files inside, without OCR\n- Images through OCR: JPEG, PNG, TIFF, WebP, HEIC\n\nRequirements:\n- Nextcloud 33 to 35, apps: AppAPI, Findling Backend (External Apps), Findling\n- RAM: 4 GB is enough, 730.2 MB resident after an index run, under a hard 2 GB limit (measured)\n- CPU: 2 cores are enough, amd64 and arm64\n\nWithout any change on your side, Findling keeps running as economically as before. Anyone with more hardware can use a profile to free at most half of the machine the backend runs on (Standard profile) or everything but one core (Performance profile).\n\nEnterprise support and paid add-ons: request a quote at admin@infranode.dev",
     "homepage": "https://github.com/street1983nk/nextcloud-search",
     "licenses": [
       "AGPL-3.0-or-later"
@@ -2690,9 +2710,9 @@
     ]
   },
   "integration_vuisio": {
-    "hash": "sha256-Q8/R5Fia2QEKOReKMWAMKsbe1z3I6/cmB9UctQEHsTk=",
-    "url": "https://releases.vuis.io/nextcloud/integration_vuisio-0.3.0.tar.gz",
-    "version": "0.3.0",
+    "hash": "sha256-D1Fsr6OibXHqQHkLZ9TzgoDtYEr8ZXkYWDsJHlXicOQ=",
+    "url": "https://releases.vuis.io/nextcloud/integration_vuisio-0.3.1.tar.gz",
+    "version": "0.3.1",
     "description": "Vuisio brings secure, self-hosted video conferencing into Nextcloud.\n\nCreate a meeting room, share its link, and join it right from Nextcloud with your\nNextcloud identity. Whoever creates a room joins as its moderator. Audio and video\nnever transit Nextcloud: they flow directly to your own Vuisio server, so your\nmeetings stay under your control.\n\n## Features\n\n- 🎥 Create and join Vuisio video meetings without leaving Nextcloud\n- 🔗 Short meeting room links, the same for the organiser and their guests, including external ones\n- 📅 Add a Vuisio meeting to a Calendar event: its link goes out with the invitation\n- 🔎 Your meeting rooms appear in the Nextcloud global search\n- ✅ A quick system check (camera, microphone, browser) before you join\n- 🛡️ Camera, microphone, screen sharing, chat and a moderator role in a clean in-browser experience\n\n## Requirements\n\nThis app connects Nextcloud to a Vuisio server, the open-source, self-hosted video\nconferencing platform. You need a reachable Vuisio server (see https://www.vuisio.com).\nIn the app administration settings, set the server URL and the credentials your server\nprovides.\n\n## Privacy\n\nVuisio is self-hosted and open-source. Media is exchanged through your Vuisio server\nonly. Nextcloud handles identity and launches the meeting, and is never used as a\nmedia relay.\n\n## Credits\n\nBased on the Nextcloud Jitsi integration app by Michael Weimann (AGPL-3.0),\nhttps://github.com/nextcloud/jitsi.",
     "homepage": "https://www.vuisio.com",
     "licenses": [
@@ -3140,9 +3160,9 @@
     ]
   },
   "mail": {
-    "hash": "sha256-du+Gh7YIUpJ+ZPBmEDbqBF9bJ81fxuyz62UscbaBvJw=",
-    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.12.6/mail-v5.12.6.tar.gz",
-    "version": "5.12.6",
+    "hash": "sha256-9jFtIVs/0zN5DE/Nhm7HyJLtsaG9ws2mya/BNBZzVZo=",
+    "url": "https://github.com/nextcloud-releases/mail/releases/download/v5.13.0/mail-v5.13.0.tar.gz",
+    "version": "5.13.0",
     "description": "**💌 A mail app for Nextcloud**\n\n- **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.\n- **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.\n- **🔒 Send & receive encrypted mails!** Using the great [Mailvelope](https://mailvelope.com) browser extension.\n- **🙈 We’re not reinventing the wheel!** Based on the great [Horde](https://www.horde.org) libraries.\n- **📬 Want to host your own mail server?** We do not have to reimplement this as you could set up [Mail-in-a-Box](https://mailinabox.email)!\n\n## Ethical AI Rating\n\n### Priority Inbox\n\nPositive:\n* The software for training and inferencing of this model is open source.\n* The model is created and trained on-premises based on the user's own data.\n* The training data is accessible to the user, making it possible to check or correct for bias or optimise the performance and CO2 usage.\n\n### Thread Summaries (opt-in)\n\n**Rating:** 🟢/🟡/🟠/🔴\n\nThe rating depends on the installed text processing backend. See [the rating overview](https://docs.nextcloud.com/server/latest/admin_manual/ai/index.html) for details.\n\nLearn more about the Nextcloud Ethical AI Rating [in our blog](https://nextcloud.com/blog/nextcloud-ethical-ai-rating/).",
     "homepage": "https://github.com/nextcloud/mail#readme",
     "licenses": [
@@ -3530,10 +3550,10 @@
     ]
   },
   "nextfleet": {
-    "hash": "sha256-TQ8z1lrNxAr0yUd0VyN+tX9ZAkf0JCZCG2HoNwEHYSM=",
-    "url": "https://github.com/typical42/next-fleet/releases/download/v0.4.1/nextfleet-0.4.1.tar.gz",
-    "version": "0.4.1",
-    "description": "Keep the paperwork for your vehicles in your own Nextcloud: mileage, fuel and charging, costs,\nservice and inspection dates, a trip log, and who has the car when.\n\n- **Odometer that adds up.** Readings are kept as history, not as a running total. Enter a distance\n  and NextFleet derives the reading; enter what the dashboard actually says and that wins.\n- **Costs and consumption** in cents, millilitres and watt-hours — never rounded floats. A year per\n  vehicle as monthly bars and a table, with the total cost of ownership and a CO₂ estimate. Trips,\n  fill-ups, maintenance and expenses export as CSV.\n- **Reminders** for HU/AU, service or anything you name, by date or by distance, as notifications,\n  a mail digest and a dashboard widget.\n- **Trip log** with the fields a German Fahrtenbuch needs, and the mileage claim for business\n  trips, both printed from the browser. Other countries get a plain logbook.\n- **Give others access to a vehicle.** Let a user or a group in as viewer, driver or manager, as\n  far as your admin's settings allow. A driver enters their own trips and costs, and each entry says who\n  entered it.\n- **Bookings and handover.** Book the car for a time, take it and give it back with the counter,\n  the tank or battery level and a note. Giving it back fills in the trip.\n- **Papers from Files.** Attach the registration or a workshop invoice to the vehicle, or to the\n  entry it belongs to. Everyone who may see the vehicle can open it.\n- **A receipt inbox.** Choose a folder in Files. A receipt saved there waits to be attached to its\n  fill-up, maintenance or expense, or starts a new one.\n- **Import your history** from a CSV (LubeLogger format) or CSV (Spritmonitor format) file in your\n  Files. A preview shows every row before anything is written, and the whole import can be undone.\n- **An API for apps.** An OCS API with a sync endpoint, so a client such as a phone app can be built\n  on it. It signs in with a Nextcloud app password.\n- **A QR sticker** for the glovebox opens the entry sheet on that vehicle.\n- **Nextcloud's search** finds a vehicle by its plate, manufacturer or model.\n\nYour data stays on your server, except reminder mails, which go out through the server's mail\naccount. No tracking, no GPS, no cloud service in between.\n\n**No legal review.** NextFleet helps you keep a logbook. It does not promise the result satisfies\nany tax office, auditor or court. The rules and rates come from public sources, may be wrong and\nwill go out of date. Ask your own adviser before relying on it.",
+    "hash": "sha256-jjXxaJTZNzJ2fKeDR8+a2j7GzT84ZbXTkccaMXN0fA4=",
+    "url": "https://github.com/typical42/next-fleet/releases/download/v0.5.0/nextfleet-0.5.0.tar.gz",
+    "version": "0.5.0",
+    "description": "Keep the paperwork for your vehicles in your own Nextcloud: mileage, fuel and charging, costs,\nservice and inspection dates, a trip log, and who has the car when.\n\n- **Odometer that adds up.** Readings are kept as history, not as a running total. Enter a distance\n  and NextFleet derives the reading; enter what the dashboard actually says and that wins.\n- **Costs and consumption** in cents, millilitres and watt-hours — never rounded floats. The vehicle\n  page shows the cost per 100 km and the total cost of ownership.\n- **Statistics** for all your vehicles or one, over a year, all time or the days you choose: the\n  costs by category, the cost per 100 km over time, the consumption, a CO₂ estimate, and the\n  distance by trip type and by driver. Trips, fill-ups, maintenance and expenses export as CSV.\n- **Reminders** for HU/AU, service or anything you name, by date or by distance, as notifications,\n  a mail digest and a dashboard widget.\n- **Trip log** with the fields a German Fahrtenbuch needs, and the mileage claim for business\n  trips, both printed from the browser. Other countries get a plain logbook.\n- **Give others access to a vehicle.** Let a user or a group in as viewer, driver or manager, as\n  far as your admin's settings allow. A driver enters their own trips and costs, and each entry says who\n  entered it. You can keep the costs from drivers and viewers.\n- **Bookings and handover.** Book the car for a time, take it and give it back with the counter,\n  the tank or battery level and a note. Giving it back fills in the trip. Bookings can wait for\n  approval by the owner or a manager, and you choose who gets a notification of them.\n- **Papers from Files.** Attach the registration or a workshop invoice to the vehicle, or to the\n  entry it belongs to. Everyone who may see the vehicle can open it, except receipts while the\n  costs are kept from them.\n- **A receipt inbox.** Choose a folder in Files. A receipt saved there waits to be attached to its\n  fill-up, maintenance or expense, or starts a new one.\n- **Import your history** from a CSV (LubeLogger format) or CSV (Spritmonitor format) file in your\n  Files. A preview shows every row before anything is written, and the whole import can be undone.\n- **An API for apps.** An OCS API with a sync endpoint, so a client such as a phone app can be built\n  on it. It signs in with a Nextcloud app password.\n- **A QR sticker** for the glovebox opens the entry sheet on that vehicle.\n- **Nextcloud's search** finds a vehicle by its plate, manufacturer or model.\n\nYour data stays on your server, except reminder mails, which go out through the server's mail\naccount. No tracking, no GPS, no cloud service in between.\n\n**No legal review.** NextFleet helps you keep a logbook. It does not promise the result satisfies\nany tax office, auditor or court. The rules and rates come from public sources, may be wrong and\nwill go out of date. Ask your own adviser before relying on it.",
     "homepage": "",
     "licenses": [
       "AGPL-3.0-or-later"
@@ -4300,9 +4320,9 @@
     ]
   },
   "requrvhive": {
-    "hash": "sha256-/e7bKtN1A8b1metjP3dItHHMMYkWLYyDHZexAB71mRI=",
-    "url": "https://github.com/ReQurv/nextcloud-plugin-hive/releases/download/nc-v0.6.1/requrvhive.tar.gz",
-    "version": "0.6.1",
+    "hash": "sha256-OP7eHJji8Mj/eNRB6h5keDfzOa/JKKnMbUxKTXnDRp4=",
+    "url": "https://github.com/ReQurv/nextcloud-plugin-hive/releases/download/nc-v0.7.0/requrvhive.tar.gz",
+    "version": "0.7.0",
     "description": "**ReQurv Hive** brings AI into your [Nextcloud](https://nextcloud.com) — private, self-hosted, and under your control. All model calls are served by [ReQurv AI Hive](https://hive.requrv.ai), ReQurv's private and secure OpenAI-compatible inference endpoint.\n\n### Nextcloud App\n\n- **Chat** — Converse with an AI assistant about your files and documents\n- **Projects** — Scope a conversation to selected folders, so the assistant only sees what you choose\n- **Coworkers** — Save repeatable AI jobs and run them on demand or on a schedule\n- **Summarise & rewrite** — Condense, draft, rephrase and proofread text\n- **Model picker** — Switch model per conversation\n- **Usage metrics** — Token and conversation counters exported via OpenMetrics\n\n### AI provider\n\n**ReQurv AI Hive** — OpenAI-compatible API hosted by ReQurv at hive.requrv.ai. The API key\nis configured once by the admin and stored encrypted; the base URL is an admin-only setting.\nProvider choice applies to chat and to the Nextcloud Assistant integrations alike.\nAssistant actions that send images need a vision-capable model.\n\n### MCP Server\n\nReQurv Hive includes a [Model Context Protocol](https://modelcontextprotocol.io) server with 316 tools that gives any MCP client — Claude Desktop, Claude Code, Claude.ai and the Claude mobile app, Cursor, VS Code and others — direct access to your Nextcloud:\n\n- **Files & sharing** — Browse, read, write, search, share, tag, and restore from trash or older versions\n- **Calendar, Tasks & Contacts** — Events, to-dos and address books over CalDAV and CardDAV, plus Deck boards and Projects\n- **Talk, Mail & Notifications** — Conversations, polls and reactions, mail accounts and messages, notification triage\n- **Photos & Maps** — Albums and metadata, GPS tracks and devices, favourites, and photo geotagging\n- **Notes, News, Recipes & Bookmarks** — Markdown notes, RSS feeds, recipes, and bookmark folders and tags\n- **Coworkers & administration** — Run saved AI jobs, manage users, groups and apps, run `occ`, and check integrity\n\n### Resources\n\n- [ReQurv AI Hive](https://hive.requrv.ai)\n\n---\n\n### Provenance & licensing\n\nReQurv Hive is based on [AIquila](https://github.com/elgorro/aiquila) by\n[sirgorro](https://github.com/elgorro), licensed under AGPL-3.0-or-later (Nextcloud\napp) and MIT (MCP server and repository). Modified by ReQurv since 2026-09-25.\n\nBuilt on the [Nextcloud](https://nextcloud.com) open-source community and the [Model Context Protocol](https://modelcontextprotocol.io).\nPublished under the AGPL-3.0 license.",
     "homepage": "https://requrv.ai",
     "licenses": [
@@ -4500,9 +4520,9 @@
     ]
   },
   "scoreview": {
-    "hash": "sha256-pMObrYKtGWfrSitt/etC/X/J6KpoPT6N3Hf7vRK0Ut4=",
-    "url": "https://github.com/AndiMb/scoreview/releases/download/v1.29.0/scoreview.tar.gz",
-    "version": "1.29.0",
+    "hash": "sha256-3E/VjPyB8RX71LG3D5RRJldeIO4/W5HFuQPG/zSXu1o=",
+    "url": "https://github.com/AndiMb/scoreview/releases/download/v1.29.1/scoreview.tar.gz",
+    "version": "1.29.1",
     "description": "ScoreView displays MuseScore scores (.mscz) directly from Files - as faithful\nMuseScore notation (SVG) with a playback cursor that follows client-side\nsynthesized MIDI playback in sync, instead of a static PDF export.\n\nMade for choir and ensemble work: the notation looks like the sheet music you\nalready know, every voice can be heard on its own, and every measure is one\nclick away.\n\nAn uploaded .mscz file is converted once, server-side, to notation pages (SVG),\nMIDI and timing data, then cached: opening the same file again does not\nre-render, it is served from the cache. Only a change to the file triggers a\nnew conversion.\n\nThere are two equivalent conversion paths that produce the same result. The\ndefault one needs no configuration at all and no container: MuseScore as\nWebAssembly, executed by the server's Node.js runtime - everything it needs\nships with the app, and the server fetches the SoundFont for playback on its\nown. Alternatively a MuseScore container next to Nextcloud does the\nconverting. If the server can run neither, the browser converts instead -\nwithout a cache, as a fallback.\n\nFeature set: zoom presets, fullscreen and auto-scrolling in time with playback;\na freely configurable playback highlight (sounding notes or a bar, in a colour\nof your choice);\nmeasure navigation, looping over a measure range, click-to-note jump and\nkeyboard shortcuts; a mixer with per-voice volume/mute/solo, a \"my voice\"\npreset, tempo in BPM and a metronome; annotations anchored to musical\nposition (private or shared, surviving a re-upload); touch controls with\npinch-zoom for a tablet on the music stand.\n\nFor practice, choir rehearsal and concert: the starting note of your own voice\nor the key note, your own voice in the stereo image, a speed trainer in the\nloop, light notes on a dark background, a performance mode with page turning by\nkey or pedal; a leader role per score with voice notes, rehearsal stamps and\nrehearsal marks in the navigation; \"Follow me\" - the leader sends position,\nloop and starting note to every device (below one second with notify_push)\nand lets them follow silently while it plays;\nsetlists as a Markdown file with piece changes inside the viewer; own\nrecordings only the person recording can hear, and intonation feedback while\nsinging. The Nextcloud mobile apps open the viewer too - the Android app\nwithout the microphone; so far only Android has been tested.\n\nOn the go and on a phone: practice tracks as MP3 files in Files - the current\nmix, optionally one per voice for everyone -, a coach mode (your own voice on\nthe piano), transposing the sound, a system band with the staves side by\nside, a lyrics view of your own voice, note names on the notes, and scores\nwith sound without a network via an offline page in the browser. \"Follow me\"\ntakes everyone along to the next piece of the setlist.",
     "homepage": "https://github.com/AndiMb/scoreview",
     "licenses": [
@@ -4520,9 +4540,9 @@
     ]
   },
   "secure_office": {
-    "hash": "sha256-7wx9ME76JhhE/wOsYkAMmsh79NW7Vikjc4Reup/wdck=",
-    "url": "https://github.com/nmarafo/nextcloud-secure-office/releases/download/v0.5.1/secure_office.tar.gz",
-    "version": "0.5.1",
+    "hash": "sha256-2/tpzv2mWkhMtTdMxlwfQtWDxwIRIEGMhP8NjH07A34=",
+    "url": "https://github.com/nmarafo/nextcloud-secure-office/releases/download/v0.5.2/secure_office.tar.gz",
+    "version": "0.5.2",
     "description": "Nextcloud Secure Office is an enterprise security and Data Loss Prevention (DLP) extension designed for environments requiring high-assurance data protection, forensic traceability, and regulatory compliance.\n\nSpecifically architected to assist public administrations, educational institutions, critical infrastructures, and regulated entities in meeting the baseline established in:\n- [CCN-STIC-826: Implementación de Seguridad Nextcloud](https://www.ccn-cert.cni.es/es/800-guia-esquema-nacional-de-seguridad/4229-ccn-stic-826-implementacion-de-seguridad-nextcloud/file.html)\n- Esquema Nacional de Seguridad (ENS - Real Decreto 311/2022) - Medium / High baseline.\n\nKey Capabilities:\n\n1. Collaborative Office Protection (Collabora Online / CODE)\n• Dynamic Forensic Watermarking: Injects real-time indelible background watermarks displaying user identity, client IP, timestamp, and classification tags to deter leaks and camera captures.\n• Role-Based Office DLP: Restricts document downloading/export, printing, and clipboard copying per user group.\n\n2. Native Files Protection & Traceability (Nextcloud Files)\n• Role-Based Native File DLP: Regulates direct file downloads (PDFs, images, ZIPs, binaries), restricting downloads to authorized roles while allowing secure preview.\n• Immutable Audit Trail: Automatically logs all document views, file downloads, and blocked actions in a dedicated database with direct CSV export for security audits.\n\n3. Delegated Governance & Segregation of Duties\n• Institutional Management (Responsable de la Información): Empowers designated managers (such as School Directors or Department Heads) to govern DLP policies directly without requiring global IT superadmin privileges.\n• Policy Change Traceability: Every update to security rules is automatically audited with user identity, origin IP, and timestamp.\n• User Transparency View: Clean interface for end-users (teachers, staff, students) displaying active session restrictions and compliance status.\n\n4. Compliance & Diagnostic Tools\n• Storage Encryption Compatibility: Fully compatible with Nextcloud Server-Side Encryption (AES-256-CTR Master Key).\n• Compliance Dashboard & CLI: Real-time diagnostic cards in Administration Settings and built-in terminal auditor (`php occ secure_office:ens-audit`).\n\n5. Granular File & File × User Matrix\n• Per-File & Per-User Policies: Define custom export, print, copy, and download rules for specific documents or specific user/group combinations overriding general rules.",
     "homepage": "https://github.com/nmarafo/nextcloud-secure-office",
     "licenses": [
@@ -5070,9 +5090,9 @@
     ]
   },
   "teamtrip": {
-    "hash": "sha256-+aF/gaoVq5Opi7HNM7vrxGr+A86s6P5ejDKCqIqpymc=",
-    "url": "https://github.com/knuthwien/teamtrip/releases/download/v0.1.8/teamtrip-0.1.8.tar.gz",
-    "version": "0.1.8",
+    "hash": "sha256-fdpzBq5OwtxaoWOrn0bNH5FvD0oWVVGMzxgeq1SVk3c=",
+    "url": "https://github.com/knuthwien/teamtrip/releases/download/v0.2.0/teamtrip-0.2.0.tar.gz",
+    "version": "0.2.0",
     "description": "TeamTrip for Nextcloud is the server component for the existing TeamTrip iOS app.\n\nIt does not replace the mobile app or provide a standalone trip-planning interface. Instead, it connects TeamTrip to your own Nextcloud instance, allowing trip data to remain under your control while enabling synchronization between devices and sharing with other Nextcloud users.\n\n**Features**\n- Self-hosted synchronization for the TeamTrip iOS app\n- Sharing with read and edit permissions\n- Versioned trip snapshots for reliable synchronization\n- Compact web view for inspecting the data stored on your Nextcloud server\n\nThe TeamTrip iOS app is required for the full trip-planning experience.\n\nLearn more about TeamTrip:\nhttps://apps.knuthwien.at/build-a-clean-travel-itinerary-for-your-next-journey-in-minutes/",
     "homepage": "https://github.com/knuthwien/teamtrip",
     "licenses": [
@@ -5269,6 +5289,16 @@
       "agpl"
     ]
   },
+  "tourcheck": {
+    "hash": "sha256-S6RgGEZP7rV7KVtBX1vDE2ScYKO/mJNMtmJpcGrMNoM=",
+    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-tourcheck/releases/download/v0.1.6/tourcheck.tar.gz",
+    "version": "0.1.6",
+    "description": "# TourCheck — rounds, checkpoints, proof of service\n\nDocument security patrols, facility rounds and inspections on your own Nextcloud: QR/NFC checkpoints, kiosk sign-off for shared stations, supervisor attestation, an append-only hash-chained Wachbuch with external RFC 3161 timestamp anchoring, SLA reports and one-click claim bundles.\n\n**Free AGPL web app.** The native companion (worker + station modes) is licensed separately (`TCK2`). Web is never gated by the device licence.\n\n## Clear limits\n\n- Not a scheduling/roster tool — rounds, not shifts\n- Not a time-tracking suite — presence evidence at checkpoints only\n- No covert tracking — GPS is opt-in per site, visible, and auto-purged\n\n## Feedback welcome\n\nWe improve this app with real-world use — open a GitHub Issue (https://github.com/aSoftwareByDesignRepository/nextcloud-tourcheck/issues) or write to info@software-by-design.de.\n\n## Requirements\n\n- Nextcloud 32–35 · PHP 8.2+ · MySQL or PostgreSQL",
+    "homepage": "https://nextcloud.software-by-design.de/",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "transfer": {
     "hash": "sha256-zPfOQIwA8Zlw7lMFSmMS+u43mE5DYA26/g3pkRyzorU=",
     "url": "https://github.com/beleon/transfer/releases/download/v1.0.4/transfer.tar.gz",
@@ -5450,9 +5480,9 @@
     ]
   },
   "user_lockdown": {
-    "hash": "sha256-FhvdxubqEao4UpieELIFogu8278koXpLvBWaYr6CycU=",
-    "url": "https://github.com/RentnerKev/UserLockdown/releases/download/v1.2.0/user_lockdown.tar.gz",
-    "version": "1.2.0",
+    "hash": "sha256-oLOkzFJek50qNRuNqZ/zbiYm80QzPvRv7yqiSbSqUbI=",
+    "url": "https://github.com/RentnerKev/UserLockdown/releases/download/v1.2.1/user_lockdown.tar.gz",
+    "version": "1.2.1",
     "description": "Control file viewing, writing, deletion, sharing, password changes, full access, and an optional All files-only interface per user with reusable presets and configurable defaults.",
     "homepage": "https://github.com/RentnerKev/UserLockdown",
     "licenses": [
