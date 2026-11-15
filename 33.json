@@ -303,7 +303,7 @@
     "hash": "sha256-ZbCOHLSMusu0IFV51ZYxcv0iVtwYhEA70EOBf5HEH7U=",
     "url": "https://github.com/david-brauer/audiocoverpreview/releases/download/0.12.1/audiocoverpreview.tar.gz",
     "version": "0.12.1",
-    "description": "This app generates preview images for additional audio formats from the embedded album cover. \n\tThese previois will be shown in the nextcloud list view to make browsing your music library easier.\n\tThe geration is done with ffmpeg which is required for the app to work.\n\tAlso imagemagick is recommended for best results and required for some optional settings.\n\n\tThe App has not been extensively tested. Usage is at your own risk. It is recommended to backup your DB and preview files before installing the app.\n\n\tCurrently the following formats are supported:\n\t\n\t- M4A\n\t- OPUS\n\t- OGG\n\t- FLAC\n\t- MP3 (the nextcloud default provider seems to have issues with my files sometimes)\n\t\n\tMore information is avaliable on GitHub.",
+    "description": "This app generates preview images for additional audio formats from the embedded album cover. \n\tThese previois will be shown in the nextcloud list view to make browsing your music library easier.\n\tThe geration is done with ffmpeg which is required for the app to work.\n\tAlso imagemagick is recommended for best results and required for some optional settings.\n\tThe App has not been extensively tested. Usage is at your own risk. It is recommended to backup your DB and preview files before installing the app.\n\n\tCurrently the following formats are supported:\n\t- M4A\n\t- OPUS\n\t- OGG\n\t- FLAC\n\t- MP3 (the nextcloud default provider seems to have issues with my files sometimes)\n\t\n\tMore information is avaliable on GitHub.",
     "homepage": "",
     "licenses": [
       "AGPL-3.0-or-later"
@@ -1280,9 +1280,9 @@
     ]
   },
   "duplicatefinder": {
-    "hash": "sha256-D7arG9hs1Z7obUWCCv6vMyad8D50NL7PfU1DjdU4WZM=",
-    "url": "https://github.com/eldertek/duplicatefinder/releases/download/v1.10.12/duplicatefinder-v1.10.12.tar.gz",
-    "version": "1.10.12",
+    "hash": "sha256-W4UUpsTzVXKeKSC4BJIOOmMweljSaX0XKmHm8z1iE4s=",
+    "url": "https://github.com/eldertek/duplicatefinder/releases/download/v1.10.13/duplicatefinder-v1.10.13.tar.gz",
+    "version": "1.10.13",
     "description": "Find and manage duplicate files in your Nextcloud with powerful features:\n\n* 🔍 **Smart Detection** - Three ways to find duplicates:\n  * Event-based detection for new or changed files\n  * Background job scanning\n  * Manual command-line scanning\n* 📁 **Protected Folders** - Configure \"Origin Folders\" to protect specific files from accidental deletion\n* 🛡️ **Safe Management** - Files in protected folders cannot be deleted through the interface\n* 🔎 **Advanced Search** - Search and filter duplicates by file path or name\n* ⚡ **Bulk Operations** - Handle thousands of duplicates efficiently with bulk deletion tools\n* 📊 **Preview & Dry Run** - See what would be deleted before taking action\n* 💼 **Background Processing** - Automated duplicate finding jobs",
     "homepage": "https://github.com/eldertek/duplicatefinder",
     "licenses": [
@@ -1970,13 +1970,13 @@
     ]
   },
   "formvox": {
-    "hash": "sha256-jdyUUJj1E5qZvyU/5K952+LfKRsu3tu0iTeq/Z4L9fI=",
-    "url": "https://github.com/nextcloud/formvox/releases/download/v1.5.0/formvox-1.5.0.tar.gz",
-    "version": "1.5.0",
+    "hash": "sha256-xU+xmoiGHPe+kcaOZhehniRsV0BZhtxbWT2q03dvmAM=",
+    "url": "https://github.com/nextcloud/formvox/releases/download/v1.6.0/formvox-1.6.0.tar.gz",
+    "version": "1.6.0",
     "description": "FormVox is a file-based forms and polls app for Nextcloud. Unlike traditional form apps, FormVox stores everything in .fvform files — no database tables needed.\n\n**Features:**\n* 100% file-based storage (.fvform files)\n* Question types: text, textarea, single/multiple choice, dropdown, date, time, number, scale, rating, file upload, matrix, table\n* Conditional logic and page routing\n* Quiz mode with scoring\n* Export to CSV, JSON, and ODT (with custom template support)\n* Import from Microsoft Forms\n* Per-form branding with visual page builder\n* Answer piping (use previous answers in later questions)\n* Charts and visualizations in Results view\n* Webhooks and REST API for integrations\n* Collaborative editing with real-time presence indicators\n* Notifications on new responses\n* Password protection and expiration for public links\n* Multi-language: English, Dutch, German, French\n\n**Unique Benefits:**\n* One file contains everything (definition + responses)\n* Works with Nextcloud's versioning and sharing\n* End-to-end encryption compatible\n* No database migrations needed\n\n**Perfect for:**\n* Surveys and feedback forms\n* Quizzes and assessments\n* Event registrations\n* Expense declarations\n* Data collection with privacy requirements",
     "homepage": "https://voxcloud.nl",
     "licenses": [
-      "agpl"
+      "AGPL-3.0-or-later"
     ]
   },
   "forum": {
@@ -2150,13 +2150,23 @@
     ]
   },
   "grimoire": {
-    "hash": "sha256-bG1LltK5QNN0Tu9ExqZjIwuGzhEl/64F+NlS6l/pTu0=",
-    "url": "https://github.com/Roboman124/Nextcloud-DND-App/releases/download/v0.8.2/grimoire.tar.gz",
-    "version": "0.8.2",
+    "hash": "sha256-5i6XcG0WFYZOvQ7giYK2E8aDvA40rxPyZHEzP8qLiZk=",
+    "url": "https://github.com/Roboman124/Nextcloud-DND-App/releases/download/v0.8.3/grimoire.tar.gz",
+    "version": "0.8.3",
     "description": "Grimoire is a virtual tabletop (VTT) built into Nextcloud. Run campaigns and\nlive sessions with shared 2D battlemaps and a physics-driven 3D mode where you\ncan load glTF character models and build maps in three dimensions.\n\n## Features\n\n- Campaigns and scenes, stored in your own Nextcloud\n- 2D mode: maps, tokens, drawings, fog of war, grid (square/hex)\n- 3D mode: glTF/GLB models, 3D map building, orbit camera\n- Physics 3D dice (d4–d20) with real settle-and-read results\n- 2D dice viewport: roll physics dice without leaving the battlemap\n- Tools: pointer, grab, measurement, area-of-effect, draw, fog, build\n- Token health system with DM-controlled HP bars\n- Player permissions (per-layer create/update/delete, owner-only tokens)\n- Real-time multiplayer rooms (built-in sync, no extra services)\n- Initiative tracker and rich-text notes on the table\n- Asset library backed by Nextcloud Files",
     "homepage": "https://github.com/Roboman124/Nextcloud-DND-App",
     "licenses": [
       "AGPL-3.0-or-later"
+    ]
+  },
+  "grocerylist": {
+    "hash": "sha256-JLwBOB63T+Z0J56TizprwbQPiY2u3T2SHQsfvxtOOFo=",
+    "url": "https://github.com/tobiasKaminsky/grocerylist/releases/download/v0.1.0/grocerylist-v0.1.0.tar.gz",
+    "version": "0.1.0",
+    "description": "Keep your grocery lists in Nextcloud and shop together.\n\n- **Categories in store order**: group items into categories, give them colors and drag them into the order you walk through your store\n- **Check off and snooze**: check items off while shopping, or snooze an item for 15 minutes when you cannot find it right now\n- **Focus on what is left**: show only unchecked items, or switch to an A–Z list with a letter index\n- **Share lists**: share a list with other users of your Nextcloud so everyone can add and check off items\n- **Mobile friendly**: works well on the phone in the store",
+    "homepage": "https://github.com/tobiasKaminsky/grocerylist",
+    "licenses": [
+      "agpl"
     ]
   },
   "group_default_quota": {
@@ -3000,9 +3010,9 @@
     ]
   },
   "kanso": {
-    "hash": "sha256-DVSR4YR3cSlGb3fXFZPd2Bkml7Z6ejMl6Tg0AywDr/E=",
-    "url": "https://github.com/aktasfatih/kanso/releases/download/v0.45.1/kanso.tar.gz",
-    "version": "0.45.1",
+    "hash": "sha256-0adK7rfIVcOw/mR2taDd7qbuQWN0QboBm5qTOJXUU0k=",
+    "url": "https://github.com/aktasfatih/kanso/releases/download/v0.46.0/kanso.tar.gz",
+    "version": "0.46.0",
     "description": "Kanso is a kanban board app for Nextcloud, built for speed. Boards, stacks and\ncards with instant drag & drop, optimistic updates and payloads sized for large\nboards (2,000+ cards). Realtime updates via notify_push, with a polling fallback.\n\nRich cards with markdown, labels, due dates, assignees, priorities, checklists,\nparent/child cards and threaded comments with @mentions and watchers. File\nattachments (up to 100 MiB each), custom fields per board (text, number, date or\na select list), time tracking with a per-card total, and private reminders on a\ncard or a single comment. Board sharing with per-user and per-group access\ncontrol, plus an optional read-only public link that needs no Nextcloud account.\n\nA review workflow (request review, approve / request changes, customizable\nreview types, and an optional done-gate). A cross-board My Work hub (my tasks,\nreviews, inbox), cross-board Projects, and per-board and per-project analytics\n(velocity, cycle time, throughput). Board, List and Timeline (Gantt) views, with\nswimlanes, saved filters and display sort.\n\nRecurring cards on RRULE schedules, auto-archive rules, WIP limits and stack\nroles, card templates, a command palette with full-text search, and trash with\nrestore.\n\nEvery board you can read also appears as a read-only CalDAV task list of its\ndue-dated cards, with an optional per-board .ics feed. Email intake turns mail in\nan IMAP folder into cards in a column you choose, and GitHub and Forgejo links\nand webhooks keep cards in step with pull requests and issues. One-click Import\nfrom Deck, import from a Trello JSON export or a CSV, board export and re-import\nas a zip with attachments, board duplication, and scheduled periodic backups of\nevery board for administrators.",
     "homepage": "https://aktasfatih.com/kanso/",
     "licenses": [
@@ -3140,9 +3150,9 @@
     ]
   },
   "learning": {
-    "hash": "sha256-2USLtq5lgrVJlQsPb5GrhmVF1LpmRcTPsb0ingeojn8=",
-    "url": "https://github.com/andremadstop/learning-nc/releases/download/v5.11.0/learning-5.11.0.tar.gz",
-    "version": "5.11.0",
+    "hash": "sha256-tuxlXN6vBBfWu12ce5QygcZvr+2Vi+bBYH8/rDFReOg=",
+    "url": "https://github.com/andremadstop/learning-nc/releases/download/v5.12.0/learning-5.12.0.tar.gz",
+    "version": "5.12.0",
     "description": "**Learning** is a self-hosted learning platform for Nextcloud. Your questions, progress, and student data never leave your server.\n\nBuilt for IT certification bootcamps (CompTIA, Cisco, AWS) but works for any subject. Instructors create courses, track student progress, and identify at-risk learners. Students drill with scientifically-backed spaced repetition and hands-on simulations.\n\n## Why Learning?\n\n- **Your data stays on your server** — no cloud dependency, full GDPR compliance\n- **FSRS adaptive scheduling** — cards are prioritized by memory strength, not rigid intervals\n- **9 interactive IT simulators** — CLI terminals, firewall builders, DNS resolvers, subnet calculators, network topology placement\n- **AI tutor (optional)** — answers questions by citing your uploaded course materials\n- **Verifiable certificates** — issue cryptographically signed, publicly verifiable completion credentials\n\n## For Instructors\n\n- Course management with pool assignment and student enrollment\n- **At-risk warnings** — automatic detection of struggling students\n- **Chapter heatmaps** — see where the class struggles at a glance\n- **Curriculum timeline** — plan course schedule with milestones\n- **Admin dashboard** — CSV export, course archiving, cohort merging\n- Campaign selection — choose which story scenarios are available per course\n\n## Certification &amp; Compliance\n\n- **Signed completion certificates** — every passing learner receives a cryptographically signed (Ed25519) certificate, minted automatically\n- **Public verification portal** — anyone can verify a certificate's authenticity via its permanent URL, no login required\n- **Compliance reports** — organization-wide completion overview for audits and works agreements\n- **Mandatory training &amp; recertification** — assign required courses, track certificate expiry, and automate recertification reminders\n- **Tamper-proof audit trail** — every issuance, revocation, and completion is logged\n\n## For Learners\n\n- **Smart Queue** — one-click review of all due cards, sorted by urgency\n- **Training &amp; Exam Mode** — practice or simulate timed exams\n- **PBQ Simulations** — performance-based questions with interactive CLI, drag-and-drop placement, and wiring tasks\n- **Story Campaigns** — learn through real IT incident scenarios (WannaCry, SolarWinds, Log4Shell)\n- **Live Duels &amp; Sprint** — real-time multiplayer quiz battles via Server-Sent Events\n- **Gamification** — XP, levels, streaks, 10 badges, seasonal league\n- **Maintenance Mode** — long-term retention schedule after course ends\n- **Trouble-spot cheat sheet** — export your weakest topics for exam prep\n\n## AI Features (optional)\n\nOptional: the admin connects Google Gemini (API key) or a local Ollama server. Without a connection, the app is fully functional — AI features are simply off. Each user must explicitly consent to the configured recipient before any data is sent; the consent is asked again if the recipient or the consent text changes, and can be withdrawn at any time.\n\n- **VirtuProf** — AI learning assistant with RAG-powered answers and source citations\n- **Question Generator** — create flashcards from pasted text\n- **Note Generator** — AI-powered topic summaries saved to Nextcloud Files\n\n## Question Types\n\n- Multiple Choice, Free Text with fuzzy matching, PBQ Simulations\n- CSV/JSON import &amp; export, pool sharing, multi-language translations\n\n## Technical\n\n- Vue 3, Vite, Pinia — modern frontend stack\n- 1830 automated tests, PHPStan Level 5, pre-push quality gates\n- Native Nextcloud integration: Dashboard widgets, Notifications, Talk, Files\n- AGPL-3.0 — fully open source\n\n## Requirements\n\n- Nextcloud 33–35\n- PHP 8.1+\n- PostgreSQL 13+ or MySQL 8+\n\n**Looking for pilot partners!** If you run Nextcloud at a school, university, or training provider — we'd love your feedback. Open an issue with a bit of context and we're happy to walk you through it.",
     "homepage": "https://github.com/andremadstop/learning-nc",
     "licenses": [
@@ -3170,9 +3180,9 @@
     ]
   },
   "leiterrunde": {
-    "hash": "sha256-FJMNWu11BNWO1A41GtEdVrksBrHapKDjrRLCb9gKA7A=",
-    "url": "https://github.com/ollimaz/leiterrunde/releases/download/v0.0.3/leiterrunde-0.0.3.tar.gz",
-    "version": "0.0.3",
+    "hash": "sha256-/xAeK4TErEhLgUVfYgKQw2E+Cf241mJE644iNDDqiN0=",
+    "url": "https://github.com/ollimaz/leiterrunde/releases/download/v0.0.6/leiterrunde-0.0.6.tar.gz",
+    "version": "0.0.6",
     "description": "Interne Verwaltungs-App der Leiterrunde: Adressen, Schulungsnachweise (inkl. Führungszeugnisse), Finanzen (Kontoauszüge, Zahlungsverpflichtungen, Auslagen) sowie Veranstaltungen mit Anmelde-Sync zur öffentlichen Website.",
     "homepage": "",
     "licenses": [
@@ -3180,9 +3190,9 @@
     ]
   },
   "leiterrunde_finanzen": {
-    "hash": "sha256-neSM6U2/rtfYmW0GnYjzw8xFJ3OF889NwHiB1d3AEtg=",
-    "url": "https://github.com/ollimaz/leiterrunde_finanzen/releases/download/v0.0.2/leiterrunde_finanzen-0.0.2.tar.gz",
-    "version": "0.0.2",
+    "hash": "sha256-V9QUJpc2Xd0+GgjFgu1FZt3407JznZLPLxPwzdordg8=",
+    "url": "https://github.com/ollimaz/leiterrunde_finanzen/releases/download/v0.0.3/leiterrunde_finanzen-0.0.3.tar.gz",
+    "version": "0.0.3",
     "description": "Finances module of the Leiterrunde suite – requires the Leiterrunde app. Bank accounts with CSV/camt.053 and IMAP import, payment obligations, expense claims and transaction matching.",
     "homepage": "",
     "licenses": [
@@ -3190,9 +3200,9 @@
     ]
   },
   "leiterrunde_messdienerplan": {
-    "hash": "sha256-BXHAOcS24+a4443iPmuOoJ++RvNuSpRs7uMUbGW7aGg=",
-    "url": "https://github.com/ollimaz/leiterrunde_messdienerplan/releases/download/v0.0.2/leiterrunde_messdienerplan-0.0.2.tar.gz",
-    "version": "0.0.2",
+    "hash": "sha256-bTEGcdDlJ854duF7w9sMSpdaXASDMQaKdX3MkxLU784=",
+    "url": "https://github.com/ollimaz/leiterrunde_messdienerplan/releases/download/v0.0.3/leiterrunde_messdienerplan-0.0.3.tar.gz",
+    "version": "0.0.3",
     "description": "Altar server plan module of the Leiterrunde suite – requires the Leiterrunde app. Services at multiple church locations with availability polls and smart assignment.",
     "homepage": "",
     "licenses": [
@@ -3200,9 +3210,9 @@
     ]
   },
   "leiterrunde_schulungen": {
-    "hash": "sha256-lpVPdzpAqSkgCYToq4Agz551lnI/ybBQ/TeSGVd/YDQ=",
-    "url": "https://github.com/ollimaz/leiterrunde_schulungen/releases/download/v0.0.3/leiterrunde_schulungen-0.0.3.tar.gz",
-    "version": "0.0.3",
+    "hash": "sha256-1h8zCj85psCBpA+EZ1iI2ibw1e5nDXleShrpUNFxKx4=",
+    "url": "https://github.com/ollimaz/leiterrunde_schulungen/releases/download/v0.0.4/leiterrunde_schulungen-0.0.4.tar.gz",
+    "version": "0.0.4",
     "description": "Training module of the Leiterrunde suite – requires the Leiterrunde app. Manage training records with certificate files, certificates of conduct (Führungszeugnisse) and training types with validity rules.",
     "homepage": "",
     "licenses": [
@@ -3210,9 +3220,9 @@
     ]
   },
   "leiterrunde_veranstaltungen": {
-    "hash": "sha256-77R/hESTacQhsTuLs1t6vghlXo5yD0DioL4Iioy+cPc=",
-    "url": "https://github.com/ollimaz/leiterrunde_veranstaltungen/releases/download/v0.0.3/leiterrunde_veranstaltungen-0.0.3.tar.gz",
-    "version": "0.0.3",
+    "hash": "sha256-X73o9bi+n3pn2VKuo7hcEIzio6VHIeTLCGAGWDBehCc=",
+    "url": "https://github.com/ollimaz/leiterrunde_veranstaltungen/releases/download/v0.0.4/leiterrunde_veranstaltungen-0.0.4.tar.gz",
+    "version": "0.0.4",
     "description": "Events module of the Leiterrunde suite – requires the Leiterrunde app. Events with team, budget, registrations and registration sync to the public website.",
     "homepage": "",
     "licenses": [
@@ -3500,9 +3510,9 @@
     ]
   },
   "mediafetch": {
-    "hash": "sha256-M9CKZDj5dFmwqldtiqlakiSzPzGVoBW3t4hZOSnSbRY=",
-    "url": "https://github.com/Happyfeet01/mediafetch/releases/download/v2.0.1/mediafetch-2.0.1.tar.gz",
-    "version": "2.0.1",
+    "hash": "sha256-rWDG82TiioUOFL1261F8VwRSBObMH1/R8csHU/WfK00=",
+    "url": "https://github.com/Happyfeet01/mediafetch/releases/download/v2.0.2/mediafetch-2.0.2.tar.gz",
+    "version": "2.0.2",
     "description": "MediaFetch is a download manager for Nextcloud that combines aria2 and yt-dlp in one web interface. Version 2.0 adds graphical yt-dlp settings, per-download video and music presets, enhanced torrent search and German/English localization.\n\nFeatures include regular HTTP/HTTPS downloads, BitTorrent and magnet downloads through aria2, and media downloads through yt-dlp. Administrators keep control over global downloader settings while every user can configure their own download folders, aria2 options and yt-dlp options.\n\nMediaFetch is based on the original NCDownloader / Net loader project and continues its AGPL-licensed codebase.",
     "homepage": "https://github.com/Happyfeet01/mediafetch",
     "licenses": [
@@ -3610,10 +3620,10 @@
     ]
   },
   "moviedb": {
-    "hash": "sha256-1z4LbeK1NBjHgMU5K7HkVAaqmcRDIHhxuQfpSYnMzzE=",
-    "url": "https://github.com/shellmann/nextcloud-moviedb/releases/download/v1.11.1/moviedb-1.11.1.tar.gz",
-    "version": "1.11.1",
-    "description": "# MovieDB - Personal Movie & TV Database\n\nTrack all the movies and TV shows you've watched with rich metadata from TMDB.\n\n## Features\n\n- **Movie Tracking**: Log movies with where you watched them (Netflix, Disney+, cinema, etc.)\n- **TV Show Tracking**: Track series at the episode level — see progress per season, an \"up next\" card, and bulk-mark whole seasons or series as watched\n- **Continue Watching**: The dashboard lists the shows you are in the middle of with the next episode; stop watching a show you gave up on, and filter the TV list by in progress, finished and stopped\n- **Always Up to Date**: A background job keeps the episodes of your TV shows in sync with TMDB, so new seasons and episodes show up by themselves, and the dashboard lists what airs soon under \"Coming up\"\n- **Release dates stay current**: Watchlist titles without a release date get it from TMDB by themselves, with a \"New date\" badge on the poster\n- **Never miss an episode**: Get a Nextcloud notification when an episode of one of your shows airs or a watchlist title comes out, and see it all in a read-only \"MovieDB – Upcoming\" calendar in the Calendar app and on devices that sync your calendars (both can be switched off per user)\n- **More show details**: Type, network, TMDB score and cast on the TV show page\n- **Rewatch Support**: Log multiple viewings of the same movie with separate ratings and dates\n- **TMDB Integration**: Automatically fetch posters, cast, plot, and episode data\n- **Personal Ratings**: Rate movies and shows 1–10 and write your own reviews\n- **Watch History**: Full watch history per title, including per-viewing platform, language, and date\n- **Watchlist**: Maintain a mixed movie + TV watchlist with priorities and a random picker that chooses from the whole list (filter by type, genre, high priority)\n- **Quiz**: Play a quiz about your own library — when you watched a title, when it was released, who directed it — with a question count of your choice, a score history chart and a personal best\n- **Filtering & Sorting**: Filter by genre, platform, and favorites, and sort in either direction\n- **Statistics**: Dashboard with viewing stats by genre, platform, episodes watched, and total runtime, plus year- and platform-breakdown charts (including TV shows) with a movies/TV filter\n- **Shared Libraries**: Create named libraries and share your collection with other Nextcloud users — assign viewer or editor roles, manage members, and switch between libraries from one account\n- **Import / Export**: Back up a library or move it to another Nextcloud instance as a single JSON file — ratings, reviews, rewatches, episode progress and watchlist included\n- **Multilingual**: English, German, Spanish, French, Italian and Dutch\n\n## Getting Started\n\n1. Get a free API key from [TMDB](https://www.themoviedb.org/settings/api)\n2. Enter your API key in the app settings, or as an administrator set one key for all users under Administration settings → MovieDB\n3. Start adding movies and TV shows to your collection!\n\n## Data source\n\nMovie and TV show data is provided by [The Movie Database (TMDB)](https://www.themoviedb.org/). This product uses TMDB and the TMDB APIs but is not endorsed, certified, or otherwise approved by TMDB.",
+    "hash": "sha256-zy2w18INP+3iqXY/ZLiYxLdN80INS85gUKav3FuseP8=",
+    "url": "https://github.com/shellmann/nextcloud-moviedb/releases/download/v1.12.0/moviedb-1.12.0.tar.gz",
+    "version": "1.12.0",
+    "description": "# MovieDB - Personal Movie & TV Database\n\nTrack all the movies and TV shows you've watched with rich metadata from TMDB.\n\n## Features\n\n- **Movie Tracking**: Log movies with where you watched them (Netflix, Disney+, cinema, etc.)\n- **TV Show Tracking**: Track series at the episode level — see progress per season, an \"up next\" card, and bulk-mark whole seasons or series as watched\n- **Continue Watching**: The dashboard lists the shows you are in the middle of with the next episode; stop watching a show you gave up on, and filter the TV list by in progress, finished and stopped\n- **Always Up to Date**: A background job keeps the episodes of your TV shows in sync with TMDB, so new seasons and episodes show up by themselves, and the dashboard lists what airs soon under \"Coming up\"\n- **Release dates stay current**: Watchlist titles without a release date get it from TMDB by themselves, with a \"New date\" badge on the poster\n- **Never miss an episode**: Get a Nextcloud notification when an episode of one of your shows airs or a watchlist title comes out, and see it all in a read-only \"MovieDB – Upcoming\" calendar in the Calendar app and on devices that sync your calendars (both can be switched off per user)\n- **More show details**: Type, network (with its logo), TMDB score and cast on the TV show page, and when it was last synced with TMDB\n- **Trailer and where to watch**: A \"Play trailer\" link and the streaming services that offer a title in your country, on the movie and TV show pages\n- **Rewatch Support**: Log multiple viewings of the same movie with separate ratings and dates\n- **TMDB Integration**: Automatically fetch posters, cast, plot, and episode data\n- **Personal Ratings**: Rate movies and shows 1–10 and write your own reviews\n- **Watch History**: Full watch history per title, including per-viewing platform, language, and date\n- **Watchlist**: Maintain a mixed movie + TV watchlist with priorities and a random picker that chooses from the whole list (filter by type, genre, high priority)\n- **Quiz**: Play a quiz about your own library — when you watched a title, when it was released, who directed it — with a question count of your choice, a score history chart and a personal best\n- **Filtering & Sorting**: Filter by genre, platform, and favorites, and sort in either direction\n- **Statistics**: Dashboard with viewing stats by genre, platform, episodes watched, and total runtime, plus year- and platform-breakdown charts (including TV shows) with a movies/TV filter\n- **Shared Libraries**: Create named libraries and share your collection with other Nextcloud users — assign viewer or editor roles, manage members, and switch between libraries from one account\n- **Import / Export**: Back up a library or move it to another Nextcloud instance as a single JSON file — ratings, reviews, rewatches, episode progress and watchlist included\n- **Multilingual**: English, German, Spanish, French, Italian and Dutch\n\n## Getting Started\n\n1. Get a free API key from [TMDB](https://www.themoviedb.org/settings/api)\n2. Enter your API key in the app settings, or as an administrator set one key for all users under Administration settings → MovieDB\n3. Start adding movies and TV shows to your collection!\n\n## Data source\n\nMovie and TV show data is provided by [The Movie Database (TMDB)](https://www.themoviedb.org/). This product uses TMDB and the TMDB APIs but is not endorsed, certified, or otherwise approved by TMDB. Streaming availability is provided by [JustWatch](https://www.justwatch.com/), via TMDB.",
     "homepage": "https://github.com/shellmann/nextcloud-moviedb",
     "licenses": [
       "AGPL-3.0-or-later"
@@ -4182,9 +4192,9 @@
     ]
   },
   "pantry": {
-    "hash": "sha256-4uz7Yk5gs1+F7s7piqnc87WYlru4Slr+Pe2ZxXb1UyI=",
-    "url": "https://github.com/chenasraf/nextcloud-pantry/releases/download/v0.38.0/pantry-v0.38.0.tar.gz",
-    "version": "0.38.0",
+    "hash": "sha256-ae+0IecEcBTvcUwxtmUBcncTXfMH1CoNw+kVqrsK2rI=",
+    "url": "https://github.com/chenasraf/nextcloud-pantry/releases/download/v0.39.0/pantry-v0.39.0.tar.gz",
+    "version": "0.39.0",
     "description": "Pantry helps households stay organized in Nextcloud.\n\n- **Houses** group members and their shared data. A person can belong to multiple houses and switch between them freely.\n- **Checklists** support recurring items (e.g. milk every week) that automatically reappear when due. Share lists with the whole household so everyone knows what to pick up.\n- **Shopping mode** turns your lists into a store-by-store trip — pick the lists and the route, check items off as you walk, see which housemates are out shopping, and finish with a priced review that lands in your shopping history.\n- **Barcode scanning** prefills an item from a product's EAN or UPC. Scan with the camera or type the code in, and Pantry looks up the name, category and photo for you to review.\n- **Custom fields** attach your own information to checklist items — an expiry date, an aisle number, a size, a yes/no flag. Define a field once for the house or a single list; date fields can send a reminder before they come due.\n- **Photo boards** let you keep shared reference photos organized in folders — the right brand of dog food, a favorite recipe card, a product label, and so on.\n- **Notes wall** gives the household a lightweight shared space for reminders, pinned messages, and quick notes with customizable colors.\n- **Notifications** keep everyone in the loop when photos are uploaded or notes are added or edited.\n\nAll data is scoped to a house; members only see the houses they belong to.\n\nPantry also has companion apps for mobile, watch and desktop that let you manage your lists, photos and notes on the go and keep everything in sync with your Nextcloud instance.\n\n**Companion apps:** Android ([Google Play](https://play.google.com/store/apps/details?id=dev.casraf.pantry), [F-Droid](https://f-droid.org/en/packages/dev.casraf.pantry/)) | iOS/macOS ([App Store](https://apps.apple.com/us/app/pantry-for-nextcloud/id6762161619)) | Wear OS ([Google Play](https://play.google.com/store/apps/details?id=dev.casraf.pantry)) | [Windows](https://pantry.casraf.dev/docs/getting-started/apps#desktop) | [Linux](https://pantry.casraf.dev/docs/getting-started/apps#desktop)\n\n**Website:** [pantry.casraf.dev](https://pantry.casraf.dev) | **Documentation:** [pantry.casraf.dev/docs](https://pantry.casraf.dev/docs)",
     "homepage": "https://pantry.casraf.dev",
     "licenses": [
@@ -4822,9 +4832,9 @@
     ]
   },
   "scoreview": {
-    "hash": "sha256-23aiuZNCSgRHjR7iLYxvjLlzH6ZzExQiaiBJGZ9zHb0=",
-    "url": "https://github.com/AndiMb/scoreview/releases/download/v1.30.0/scoreview.tar.gz",
-    "version": "1.30.0",
+    "hash": "sha256-rNU5iWi4qnpkpilqW9dtG2CnjePdwRSnEWLp+qBxxyk=",
+    "url": "https://github.com/AndiMb/scoreview/releases/download/v1.31.0/scoreview.tar.gz",
+    "version": "1.31.0",
     "description": "ScoreView displays MuseScore scores (.mscz) directly from Files - as faithful\nMuseScore notation (SVG) with a playback cursor that follows client-side\nsynthesized MIDI playback in sync, instead of a static PDF export.\n\nMade for choir and ensemble work: the notation looks like the sheet music you\nalready know, every voice can be heard on its own, and every measure is one\nclick away.\n\nAn uploaded .mscz file is converted once, server-side, to notation pages (SVG),\nMIDI and timing data, then cached: opening the same file again does not\nre-render, it is served from the cache. Only a change to the file triggers a\nnew conversion.\n\nThere are two equivalent conversion paths that produce the same result. The\ndefault one needs no configuration at all and no container: MuseScore as\nWebAssembly, executed by the server's Node.js runtime - everything it needs\nships with the app, and the server fetches the SoundFont for playback on its\nown. Alternatively a MuseScore container next to Nextcloud does the\nconverting. If the server can run neither, the browser converts instead -\nwithout a cache, as a fallback.\n\nFeature set: zoom presets, fullscreen and auto-scrolling in time with playback;\na freely configurable playback highlight (sounding notes or a bar, in a colour\nof your choice);\nmeasure navigation, looping over a measure range, click-to-note jump and\nkeyboard shortcuts; a mixer with per-voice volume/mute/solo, a \"my voice\"\npreset, tempo in BPM and a metronome; annotations anchored to musical\nposition (private or shared, surviving a re-upload); touch controls with\npinch-zoom for a tablet on the music stand.\n\nFor practice, choir rehearsal and concert: the starting note of your own voice\nor the key note, your own voice in the stereo image, a speed trainer in the\nloop, light notes on a dark background, a performance mode with page turning by\nkey or pedal; a leader role per score with voice notes, rehearsal stamps and\nrehearsal marks in the navigation; \"Follow me\" - the leader sends position,\nloop and starting note to every device (below one second with notify_push)\nand lets them follow silently while it plays;\nsetlists as a Markdown file with piece changes inside the viewer; own\nrecordings only the person recording can hear, and intonation feedback while\nsinging. The Nextcloud mobile apps open the viewer too - the Android app\nwithout the microphone; so far only Android has been tested.\n\nOn the go and on a phone: practice tracks as MP3 files in Files - the current\nmix, optionally one per voice for everyone -, a coach mode (your own voice on\nthe piano), transposing the sound, a system band with the staves side by\nside, a lyrics view of your own voice, note names on the notes, and scores\nwith sound without a network via an offline page in the browser. \"Follow me\"\ntakes everyone along to the next piece of the setlist.",
     "homepage": "https://github.com/AndiMb/scoreview",
     "licenses": [
@@ -5312,10 +5322,10 @@
     ]
   },
   "starrate": {
-    "hash": "sha256-q8LvaMH5tTR+j4n38nq19+25yAC9EFwdgPdEr6F+Bzs=",
-    "url": "https://github.com/merlin1de/StarRate/releases/download/v1.4.1/starrate.tar.gz",
-    "version": "1.4.1",
-    "description": "StarRate is a professional photo rating and culling tool for photographers, seamlessly integrated into Nextcloud.\n\nRate photos with 1–5 stars and color labels, flag picks and rejects with keyboard shortcuts, and share a guest gallery link with your client or model. They pick their favorites in the browser — no Nextcloud account required. Leave comments on individual images for feedback rounds, and export the final rating list as CSV when you're done.\n\n**Ratings are written as XMP metadata directly into the JPEG file.** Open it in Lightroom Classic, digiKam, F-Stop or Darktable — the stars are already there. No re-export, no sidecar files. **Coming from Lightroom?** Import your existing XMP ratings with one `occ` command — your years of curation travel with you.\n\n**Browse a whole folder tree at once.** Recursive folder view flattens nested directories into a single sortable, filterable grid — perfect for working through an entire shoot week or a multi-event archive without clicking into every subfolder.\n\n**Built for client presentations.** Slideshow mode in the loupe auto-advances through filtered images at a configurable interval — pre-filter to your three-star picks, hand over the keyboard, and let it run.\n\n**Read the workflow guide:** [Nextcloud as a photo home — what works today (and what is still missing)](https://whitespace.de/en/artikel/nextcloud-foto-workflow/)\n\n**Features:**\n- Star ratings (0–5) + color labels (Red/Yellow/Green/Blue/Purple) + Pick/Reject flags\n- **Recursive folder view** — browse an entire folder tree as a flat stream or grouped by folder depth. Opt-in — enable it once under Personal → StarRate. [How it works](https://github.com/merlin1de/starrate/blob/master/docs/recursive-folders.en.md)\n- **Loupe slideshow mode** — auto-advance with configurable interval, ideal for client presentations\n- XMP metadata written into JPEG — Lightroom / Bridge / digiKam compatible\n- Configurable XMP label language: Lightroom (German localization) or Bridge / digiKam / English tools\n- Self-healing XMP read on loupe open — externally-edited files (Lightroom, digiKam) sync their new ratings the next time you click into them, no manual `occ` run needed\n- Import existing XMP ratings from Lightroom/digiKam via `occ starrate:import-xmp` (with `--recursive` for whole folder trees)\n- Comments on individual images — for client feedback rounds or personal notes, optional in guest galleries\n- Export the rating list as CSV (filename, stars, color, pick/reject) — download or copy to clipboard\n- Download original images — a single image from the loupe, or the whole selection as a ZIP; available to logged-in users and, per share, to guests\n- Guest share links for clients and models (no Nextcloud login required), with optional password, expiry, and per-share permissions (rate / pick / download / export / comments / recursive)\n- Keyboard shortcuts like Lightroom: 0–5 stars, 6–9 colors, P/X pick/reject, S slideshow\n- Batch rating and batch pick/reject with Shift+click / Ctrl+click / Ctrl+A\n- Combinable filters: stars, color, Pick/Reject, unrated\n- Full-screen loupe view with zoom up to 400%, pan, pinch-to-zoom\n- Dark professional UI theme optimized for photo work\n- English and German",
+    "hash": "sha256-pyIu4alt/JKtJYvdqMgi9cx8neatDlb9INV5Mi63af0=",
+    "url": "https://github.com/merlin1de/StarRate/releases/download/v1.4.2/starrate.tar.gz",
+    "version": "1.4.2",
+    "description": "StarRate is a professional photo rating and culling tool for photographers, seamlessly integrated into Nextcloud.\n\nRate photos with 1–5 stars and color labels, flag picks and rejects with keyboard shortcuts, and share a guest gallery link with your client or model. They pick their favorites in the browser — no Nextcloud account required. Leave comments on individual images for feedback rounds, and export the final rating list as CSV when you're done.\n\n**Ratings are written as XMP metadata directly into the JPEG file.** Open it in Lightroom Classic, digiKam, F-Stop or Darktable — the stars are already there. No re-export, no sidecar files. **Shooting RAW?** Turn on camera RAWs and rate NEF, CR3 & Co. right in the grid — StarRate shows the preview the camera embeds and keeps the ratings in a Lightroom-style XMP sidecar, the RAW itself stays untouched. **Coming from Lightroom?** Import your existing XMP ratings with one `occ` command — your years of curation travel with you.\n\n**Browse a whole folder tree at once.** Recursive folder view flattens nested directories into a single sortable, filterable grid — perfect for working through an entire shoot week or a multi-event archive without clicking into every subfolder.\n\n**Built for client presentations.** Slideshow mode in the loupe auto-advances through filtered images at a configurable interval — pre-filter to your three-star picks, hand over the keyboard, and let it run.\n\n**Read the workflow guide:** [Nextcloud as a photo home — what works today (and what is still missing)](https://whitespace.de/en/artikel/nextcloud-foto-workflow/)\n\n**Features:**\n- Star ratings (0–5) + color labels (Red/Yellow/Green/Blue/Purple) + Pick/Reject flags\n- **Recursive folder view** — browse an entire folder tree as a flat stream or grouped by folder depth. Opt-in — enable it once under Personal → StarRate. [How it works](https://github.com/merlin1de/starrate/blob/master/docs/recursive-folders.en.md)\n- **Loupe slideshow mode** — auto-advance with configurable interval, ideal for client presentations\n- XMP metadata written into JPEG — Lightroom / Bridge / digiKam compatible\n- **Camera RAW (opt-in)** — NEF, CR2, CR3, ARW, DNG, ORF, RW2, RAF, PEF in grid, loupe and guest galleries, using the preview the camera embeds (no extra server packages); ratings go into Lightroom-style XMP sidecars that follow the RAW on rename, move and delete\n- Configurable XMP label language: Lightroom (German localization) or Bridge / digiKam / English tools\n- Self-healing XMP read on loupe open — externally-edited files (Lightroom, digiKam) sync their new ratings the next time you click into them, no manual `occ` run needed\n- Import existing XMP ratings from Lightroom/digiKam via `occ starrate:import-xmp` (with `--recursive` for whole folder trees)\n- Comments on individual images — for client feedback rounds or personal notes, optional in guest galleries\n- Export the rating list as CSV (filename, stars, color, pick/reject) — download or copy to clipboard\n- Download original images — a single image from the loupe, or the whole selection as a ZIP; available to logged-in users and, per share, to guests\n- Guest share links for clients and models (no Nextcloud login required), with optional password, expiry, and per-share permissions (rate / pick / download / export / comments / recursive)\n- Keyboard shortcuts like Lightroom: 0–5 stars, 6–9 colors, P/X pick/reject, S slideshow\n- Batch rating and batch pick/reject with Shift+click / Ctrl+click / Ctrl+A\n- Combinable filters: stars, color, Pick/Reject, unrated\n- Full-screen loupe view with zoom up to 400%, pan, pinch-to-zoom\n- Dark professional UI theme optimized for photo work\n- English and German",
     "homepage": "https://github.com/merlin1de/starrate",
     "licenses": [
       "agpl"
@@ -5992,10 +6002,10 @@
     ]
   },
   "verein": {
-    "hash": "sha256-fpQ4bTUo8e16AMz3Loof6hLFzYi+8H1mdbQ+N+3aLWw=",
-    "url": "https://github.com/ghostsailorgit/nextcloud-vereinsverwaltung/releases/download/v1.12.0/verein-v1.12.0.tar.gz",
-    "version": "1.12.0",
-    "description": "Manage the members, membership fees and SEPA direct debits of one or several clubs – inside your own Nextcloud, with the data staying on your server.\n\n- **Several clubs in one installation.** A person can belong to several clubs, each with its own date joined, position and SEPA mandate. Each club has its own bank accounts and creditor identifier.\n- **Members:** personal details, position (member, treasurer, board), joined/left, founding member, deceased; CSV import with preview and duplicate check; deactivate instead of delete.\n- **Fees:** fee categories per club (including fee-exempt), an annual fee run with preview (optionally pro rata for new members), unpaid/paid/overdue status and payment reminder letters by email (through the Nextcloud mail server) or as PDF.\n- **SEPA direct debit** (pain.008.001.02) per club and bank account, validated against the official schema; fees are never collected before they are due, and anything that cannot be collected is listed with the reason. Optionally, members get an advance notice of the collection by email.\n- **Permissions per club**, assigned as roles or derived automatically from a member's position via their linked Nextcloud account.\n- **My data:** linked members see (and download) what the club has stored about them.\n- **Club calendar** with birthdays and membership anniversaries, visible only to the Nextcloud groups you choose.\n- **Data protection:** audit log without personal data in plain text, personal data export, anonymization, daily backups with restore.\n\nNo extra PHP extensions, tools or system cron are needed. **Please** check the first SEPA file with your bank's validation tool before the first real collection.",
+    "hash": "sha256-mV75X3wngTV8JwKEo24kwhCXMFfrsGyCHvKbevwAj3U=",
+    "url": "https://github.com/ghostsailorgit/nextcloud-vereinsverwaltung/releases/download/v1.17.0/verein-v1.17.0.tar.gz",
+    "version": "1.17.0",
+    "description": "Manage the members, membership fees and SEPA direct debits of one or several clubs – inside your own Nextcloud, with the data staying on your server.\n\n- **Several clubs in one installation.** A person can belong to several clubs, each with its own date joined, position and SEPA mandate. Each club has its own bank accounts and creditor identifier.\n- **Members:** personal details, position (member, treasurer, board), joined/left, founding member, deceased; CSV import with preview and duplicate check; deactivate instead of delete.\n- **Groups** inside a club, e.g. training groups or departments, with joining and leaving recorded for each stay.\n- **Fees:** fee categories per club (including fee-exempt), by age if needed, paid yearly, half-yearly, quarterly or monthly, with an optional admission fee and own payment text; a group can add a fee of its own. A fee run with preview (optionally pro rata for new members), unpaid/paid/overdue status and payment reminder letters by email (through the Nextcloud mail server) or as PDF.\n- **SEPA direct debit** (pain.008.001.02) per club and bank account, validated against the official schema; fees are never collected before they are due, and anything that cannot be collected is listed with the reason. Optionally, members get an advance notice of the collection by email. A booking summary per collection (without names) helps to split the credit in the bookkeeping.\n- **Emails** with the club's own text and logo, e.g. a membership confirmation on request.\n- **Membership report** for sports federations: members by year of birth and gender, as a table and as an XML file of the DOSB interface.\n- **Permissions per club**, assigned as roles or derived automatically from a member's position via their linked Nextcloud account.\n- **My data:** linked members see (and download) what the club has stored about them.\n- **Club calendar** with birthdays and membership anniversaries, visible only to the Nextcloud groups you choose.\n- **Data protection:** audit log without personal data in plain text, personal data export, anonymization, daily backups with restore.\n\nNo extra PHP extensions, tools or system cron are needed. **Please** check the first SEPA file with your bank's validation tool before the first real collection.",
     "homepage": "https://github.com/ghostsailorgit/nextcloud-vereinsverwaltung",
     "licenses": [
       "agpl"
