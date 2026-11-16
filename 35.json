@@ -440,9 +440,9 @@
     ]
   },
   "calcbase": {
-    "hash": "sha256-EEXkWpZw6YxTfcmLu0r+3mFn+4jOWv+wIDG8QjpG5kM=",
-    "url": "https://github.com/ktec-nc-apps/CalcBase/releases/download/v0.1.2/calcbase-0.1.2.tar.gz",
-    "version": "0.1.2",
+    "hash": "sha256-L/xXUQAF8JK7bl7lcv3jKSSRNdpVoiQNtFVJcZHrbLo=",
+    "url": "https://github.com/ktec-nc-apps/CalcBase/releases/download/v0.1.3/calcbase-0.1.3.tar.gz",
+    "version": "0.1.3",
     "description": "CalcBase is a spreadsheet whose workbooks are ordinary web pages. Every workbook is saved to your Nextcloud Files as a single self-contained .html file with its stylesheet inside it, so it opens in any browser, on any device, for as long as browsers exist — the sheets are shown as tables, with their values, formulas, formats and styles written into the page itself.\n\nFormulas are written as in LibreOffice Calc and Excel: =SUM(B2:B5), Sheet2.A1 or Sheet2!A1, absolute references with $, whole columns and rows. Where Calc and Excel differ, CalcBase follows LibreOffice Calc. Workbooks are calculated in the browser; nothing is sent anywhere.\n\nCalcBase is derived from EditBase, the word processor whose documents are plain HTML. With the free AI-Hub app it can also use a large language model (LLM) as an assistant, set up once for every app on the server. It is a young program, so bugs may remain.\n\nFeatures:\n- Workbooks are plain HTML files in your own Files, editable and shareable like any other file; versions are kept beside the workbook\n- Sheets, merged cells, frozen panes, column widths and row heights, number formats (numbers, currency, percent, dates, times, Japanese era dates), fonts, colours, borders and alignment\n- About 500 functions as in LibreOffice Calc: mathematics, statistics, text, lookup, date and time, logic, information and finance\n- Import of CSV and TSV (UTF-8 and Shift_JIS), ODS and XLSX — values, formulas, number formats, styles, column widths and merged cells, several sheets\n- Export to CSV, ODS and XLSX with formulas, values, formats and styles kept\n- Import also from RegiBase, FormulaBase, EditBase, NetBase, Tables, Contacts and Calendar, from a web page and from a Markdown file\n- For tables kept by hand, not bulk data: 100,000 cells a book by default, 30,000 rows a sheet, 24 MB a file — raised in the settings at your own risk\n- An AI assistant, through the AI-Hub app: a chat beside the sheet that knows spreadsheets and Calc formulas, and proposes changes to cells that are applied as one undoable step\n- Japanese and English interface; light and dark themes\n- HTML5 and CSS first: a workbook is readable without any program but a browser; JavaScript is used only for what HTML and CSS cannot do",
     "homepage": "https://github.com/ktec-nc-apps/CalcBase",
     "licenses": [
@@ -570,9 +570,9 @@
     ]
   },
   "classic_appmenu": {
-    "hash": "sha256-UMJdKqj4TBkigF/3w6dIUnXNxY6thgD5w+zvikPOH6E=",
-    "url": "https://github.com/moregeo-it/nextcloud-classic-menu/releases/download/v1.1.0/classic_appmenu-1.1.0.tar.gz",
-    "version": "1.1.0",
+    "hash": "sha256-ehqBdFU/aFDJ1uXdEQhEJfvRandNfaOBzNzgIBmOiCU=",
+    "url": "https://github.com/moregeo-it/nextcloud-classic-menu/releases/download/v1.1.1/classic_appmenu-1.1.1.tar.gz",
+    "version": "1.1.1",
     "description": "Nextcloud 34 replaced the app icons in the header with a waffle menu.\nThis app restores the icons in the top bar. Administrators can decide globally\nwhich apps are shown in the top bar, which ones go into the waffle menu,\nand in which order.",
     "homepage": "",
     "licenses": [
@@ -580,10 +580,10 @@
     ]
   },
   "cobudget": {
-    "hash": "sha256-6ubZXsyvEjEV0F+GSvuAwEDGDwSvMIFV0z5WGbFrBbU=",
-    "url": "https://github.com/whollaus/cobudget/releases/download/v0.8.5/cobudget.tar.gz",
-    "version": "0.8.5",
-    "description": "[Beta version]\n\n**CoBudget brings personal budgeting and shared expense management into Nextcloud.** Keep track of everyday finances on your own or organize costs together with partners, families, travel groups and project teams.\n\n### Personal finances\n\n- Record income and expenses with categories, payment partners, labels and free-form tags\n- Maintain optional internal address, contact and bank details for payment partners\n- Add receipts, recurring payments and reminders\n- Set budget goals and explore trends, forecasts and detailed financial reports\n- Separate financial contexts with workspaces and move your data using personal exports\n\n### Shared expenses\n\n- Create areas for a household, trip, event, project or any other shared purpose\n- Record who paid and split payments equally, by custom shares or entirely to one member\n- Keep personal shares and outstanding balances visible, then settle an area with a clear history\n- Use area-specific categories and payment partners when needed\n\n### Built for Nextcloud\n\n- Use CoBudget in English, German, French or Spanish\n- Keep your financial data in your own Nextcloud\n- Receive notifications about activity in shared areas\n- Create full administrator backups for disaster recovery",
+    "hash": "sha256-Q+FM86GI1s6Y8hcBSRwa52vRr9SmfNGIlFL6aFM+7ZY=",
+    "url": "https://github.com/whollaus/cobudget/releases/download/v1.0.0/cobudget.tar.gz",
+    "version": "1.0.0",
+    "description": "CoBudget combines a personal household budget with shared areas in Nextcloud. You record income and expenses and, for shared payments, specify who paid and how the amount is divided. Your personal overview includes your share; the shared area shows the full payment and what members owe each other.\n\nThe web app is designed for smartphones and tablets too. You can record payments directly from your mobile device while on the go.\n\nCoBudget does not connect to bank accounts. Its reports are based on the payments you record.\n\n- Track income and expenses with categories, payment partners, labels and tags\n- Plan recurring payments and budget goals; explore reports, comparisons and forecasts\n- Share a household, trip or small-group area: record who paid, choose the split and settle outstanding balances\n- Keep receipts in Nextcloud Files and manage independent or payment-linked reminders\n- Choose Nextcloud notifications, a private Talk chat or optional email for supported events; synchronize reminders with a calendar\n- Print reports, export CSV and create personal exports or administrator backups\n- Use separate workspaces, mobile and desktop layouts, and light or dark appearance\n\nAvailable in English, German, French and Spanish. Backup archives store receipt paths, not receipt files; back up the associated Nextcloud Files separately.\n\nCoBudget requires Nextcloud 34 or newer.",
     "homepage": "https://github.com/whollaus/cobudget",
     "licenses": [
       "AGPL-3.0-or-later"
@@ -840,10 +840,10 @@
     ]
   },
   "dashboard_links": {
-    "hash": "sha256-AaRd8gM83UhJSjJwQ3xSSSH1HEdE1fPo0+72DeJsHhU=",
-    "url": "https://github.com/codedbyandre/nc-dashboard-links/releases/download/v1.1.2/dashboard_links-v1.1.2.tar.gz",
-    "version": "1.1.2",
-    "description": "Company links on the Dashboard: the handbook, the help desk, the tools people should open.\n\nAn administrator keeps one catalog. The same links appear in the tile and on the All links page.\n\n* **Categories** are headings. Links without a category stay in one list. The line under a link is the host.\n* **Icons** come from Nextcloud, from an uploaded image, or from the site's favicon.\n* **https only.** A link can be switched off without deleting it.\n* **Show the tile.** After the app is enabled, each person adds Company links under Customize.\n\n**Privacy.** This app stores no user accounts and sends no catalog to the author. Opening a link sends the browser to the https address an administrator saved. The response sets Referrer-Policy to no-referrer. The destination can still see the IP address and the usual browser headers. Name those destinations in the instance privacy notice.\n\nFetch favicon runs only when an administrator presses the button. The server then requests that site. If the site returns no image, the server requests a favicon for the hostname from Google. Removing the app deletes the catalog and the stored icons.",
+    "hash": "sha256-Ak0byXkzaBENAZtExeMcCpPSqzYN7RSS1s0a2BzlVSE=",
+    "url": "https://github.com/codedbyandre/nc-dashboard-links/releases/download/v1.2.0/dashboard_links-v1.2.0.tar.gz",
+    "version": "1.2.0",
+    "description": "Company links on the Dashboard: the handbook, the help desk, the tools people should open.\n\nAn administrator keeps one catalog. The same links appear in the tile and on the All links page.\n\n* **Categories** are headings. Links without a category stay in one list. The line under a link is the host.\n* **Icons** come from Nextcloud, from an uploaded image, or from the site's favicon.\n* **https only.** A link can be switched off without deleting it, and can open in a new tab.\n* **Your title and icon.** The tile can be called something other than Company links.\n* **Show the tile.** After the app is enabled, each person adds Company links under Customize.\n\n**Privacy.** This app stores no user accounts and sends no catalog to the author. Opening a link sends the browser to the https address an administrator saved. The response sets Referrer-Policy to no-referrer. The destination can still see the IP address and the usual browser headers. Name those destinations in the instance privacy notice.\n\nFetch favicon runs only when an administrator presses the button. The server then requests that site. If the site returns no image, the server requests a favicon for the hostname from Google. Removing the app deletes the catalog and the stored icons.",
     "homepage": "https://github.com/codedbyandre/nc-dashboard-links",
     "licenses": [
       "AGPL-3.0-or-later"
@@ -1080,9 +1080,9 @@
     ]
   },
   "duplicatefinder": {
-    "hash": "sha256-W4UUpsTzVXKeKSC4BJIOOmMweljSaX0XKmHm8z1iE4s=",
-    "url": "https://github.com/eldertek/duplicatefinder/releases/download/v1.10.13/duplicatefinder-v1.10.13.tar.gz",
-    "version": "1.10.13",
+    "hash": "sha256-rFy72+QiI67GAy/Fq/MCNJdbtN92Z8JcmsXcoexgAaM=",
+    "url": "https://github.com/eldertek/duplicatefinder/releases/download/v1.10.17/duplicatefinder-v1.10.17.tar.gz",
+    "version": "1.10.17",
     "description": "Find and manage duplicate files in your Nextcloud with powerful features:\n\n* 🔍 **Smart Detection** - Three ways to find duplicates:\n  * Event-based detection for new or changed files\n  * Background job scanning\n  * Manual command-line scanning\n* 📁 **Protected Folders** - Configure \"Origin Folders\" to protect specific files from accidental deletion\n* 🛡️ **Safe Management** - Files in protected folders cannot be deleted through the interface\n* 🔎 **Advanced Search** - Search and filter duplicates by file path or name\n* ⚡ **Bulk Operations** - Handle thousands of duplicates efficiently with bulk deletion tools\n* 📊 **Preview & Dry Run** - See what would be deleted before taking action\n* 💼 **Background Processing** - Automated duplicate finding jobs",
     "homepage": "https://github.com/eldertek/duplicatefinder",
     "licenses": [
@@ -1245,6 +1245,16 @@
     "version": "10.0.0",
     "description": "This application allows an admin to add additional links into the Nextcloud menus.\nFollowing a link, the external website appears in the Nextcloud frame.\nIt is also possible to add links only for a given language, device type or user group.\n\nMore information is available in the External sites documentation.",
     "homepage": "https://github.com/nextcloud/external",
+    "licenses": [
+      "agpl"
+    ]
+  },
+  "externalportal": {
+    "hash": "sha256-d2sl69CN4bANgUZDiPBVhg1IAgeGn3CmMR6h1JxrwMA=",
+    "url": "https://github.com/puavo-org/externalportal/releases/download/v2.3.0/externalportal.tar.gz",
+    "version": "2.3.0",
+    "description": "A dashboard widget that displays the content from the External sites app on Dashboard.",
+    "homepage": "",
     "licenses": [
       "agpl"
     ]
@@ -1550,10 +1560,10 @@
     ]
   },
   "findling": {
-    "hash": "sha256-n4Pe/YuBEUVAET65JWBNyYrqun8Ifb3Bx30SZdOoxaw=",
-    "url": "https://github.com/street1983nk/nextcloud-search/releases/download/v1.6.4/findling.tar.gz",
-    "version": "1.6.4",
-    "description": "What Findling does:\n- Full text search in the normal Nextcloud search bar\n- Filter by file type or folder directly in the Nextcloud search\n- OCR for scanned PDFs and images: ten languages available, German, English and French are the default\n- Semantic search: finds documents through paraphrases\n- Similar documents: a link at every hit on the results page lists files with related content\n- Every result is permission-checked by Nextcloud\n- No configuration: the first index run starts on its own\n- Exclude folders or patterns such as *.photoslibrary from the index\n- Performance profiles: Economy by default, Standard and Performance after a pre-check of the hardware\n- Search model: int8 built in, the more accurate fp32 can be downloaded once under Standard and Performance\n- Privacy: everything runs locally, no telemetry, nothing leaves your server\n- Search languages: German and English by default, Spanish, Italian, Dutch, Portuguese and Czech available\n\nSwitching from fulltextsearch/Elasticsearch: [steps in the documentation](https://github.com/street1983nk/nextcloud-search/blob/v1.6.4/docs/migrate-from-fulltextsearch.en.md)\n\nKnown limitations:\n- Spanish: año and ano are treated as the same word\n- Portuguese: spellings before and after the spelling reform are not unified\n- Compound words are split for German and Dutch only\n- French has no full text analysis chain for document text\n- Czech: no stemming, inflected forms count as separate words\n\nTogether with the [Nextcloud MCP Connector](https://apps.nextcloud.com/apps/mcp_connector), Findling forms the retrieval layer for your own RAG: AI assistants search your document contents with exactly the rights of the asking user, and no content leaves your server.\n\nSupported file types:\n- PDF (scanned too), DOC, DOCX, PPTX, XLS, XLSX, ODT, ODS, ODP\n- HTML, RTF, TXT, Markdown, CSV, mails (EML)\n- ZIP files: the files inside, without OCR\n- Images through OCR: JPEG, PNG, TIFF, WebP, HEIC\n\nRequirements:\n- Nextcloud 33 to 35, apps: AppAPI, Findling Backend (External Apps), Findling\n- RAM: 4 GB is enough, 730.2 MB resident after an index run, under a hard 2 GB limit (measured)\n- CPU: 2 cores are enough, amd64 and arm64\n\nWithout any change on your side, Findling keeps running as economically as before. Anyone with more hardware can use a profile to free at most half of the machine the backend runs on (Standard profile) or everything but one core (Performance profile).\n\nEnterprise support and paid add-ons: request a quote at admin@infranode.dev",
+    "hash": "sha256-AFHnU7eDIDLXLcUJZQjGBm0rOpvaQaxonK2cDTFl+2k=",
+    "url": "https://github.com/street1983nk/nextcloud-search/releases/download/v1.6.5/findling.tar.gz",
+    "version": "1.6.5",
+    "description": "What Findling does:\n- Full text search in the normal Nextcloud search bar\n- Filter by file type or folder directly in the Nextcloud search\n- OCR for scanned PDFs and images: ten languages available, German, English and French are the default\n- Semantic search: finds documents through paraphrases\n- Similar documents: a link at every hit on the results page lists files with related content\n- Every result is permission-checked by Nextcloud\n- No configuration: the first index run starts on its own\n- Exclude folders or patterns such as *.photoslibrary from the index\n- Performance profiles: Economy by default, Standard and Performance after a pre-check of the hardware\n- Search model: int8 built in, the more accurate fp32 can be downloaded once under Standard and Performance\n- Privacy: everything runs locally, no telemetry, nothing leaves your server\n- Search languages: German and English by default, Spanish, Italian, Dutch, Portuguese and Czech available\n\nSwitching from fulltextsearch/Elasticsearch: [steps in the documentation](https://github.com/street1983nk/nextcloud-search/blob/v1.6.5/docs/migrate-from-fulltextsearch.en.md)\n\nKnown limitations:\n- Spanish: año and ano are treated as the same word\n- Portuguese: spellings before and after the spelling reform are not unified\n- Compound words are split for German and Dutch only\n- French has no full text analysis chain for document text\n- Czech: no stemming, inflected forms count as separate words\n\nTogether with the [Nextcloud MCP Connector](https://apps.nextcloud.com/apps/mcp_connector), Findling forms the retrieval layer for your own RAG: AI assistants search your document contents with exactly the rights of the asking user, and no content leaves your server.\n\nSupported file types:\n- PDF (scanned too), DOC, DOCX, PPTX, XLS, XLSX, ODT, ODS, ODP\n- HTML, RTF, TXT, Markdown, CSV, mails (EML)\n- ZIP files: the files inside, without OCR\n- Images through OCR: JPEG, PNG, TIFF, WebP, HEIC\n\nRequirements:\n- Nextcloud 33 to 35, apps: AppAPI, Findling Backend (External Apps), Findling\n- RAM: 4 GB is enough, 730.2 MB resident after an index run, under a hard 2 GB limit (measured)\n- CPU: 2 cores are enough, amd64 and arm64\n\nWithout any change on your side, Findling keeps running as economically as before. Anyone with more hardware can use a profile to free at most half of the machine the backend runs on (Standard profile) or everything but one core (Performance profile).\n\nEnterprise support and paid add-ons: request a quote at admin@infranode.dev",
     "homepage": "https://github.com/street1983nk/nextcloud-search",
     "licenses": [
       "AGPL-3.0-or-later"
@@ -1840,9 +1850,9 @@
     ]
   },
   "graphcal": {
-    "hash": "sha256-0owi/dQD4RLoFhkcSrFFPWs4Z9hSIoReyZWVS/gbff4=",
-    "url": "https://github.com/second2falcon/graphcal/releases/download/v0.1.4/graphcal-0.1.4.tar.gz",
-    "version": "0.1.4",
+    "hash": "sha256-DzvkiKN0mfEjZW1ipF9eMI9cgL4nQkg3nLkOdx/qjSI=",
+    "url": "https://github.com/second2falcon/graphcal/releases/download/v0.1.5/graphcal-0.1.5.tar.gz",
+    "version": "0.1.5",
     "description": "**Caution: this app is entirely AI-generated.** It is tested against a Microsoft 365 tenant in production, and by automated tests on Nextcloud 33–35 and Nextcloud All-in-One.\n\nGraphCal mirrors your Microsoft 365 / Exchange Online calendars into Nextcloud and pushes changes made in Nextcloud back, using Microsoft Graph.\n\nMeeting invitations, updates, cancellations and replies for synced calendars are sent by **Exchange**, not by Nextcloud, so Outlook users get native meeting requests.\n\n**Data & privacy:** after a user connects their Microsoft account, the events of their synced calendars (title, time, location, description, attendees) are exchanged with Microsoft Graph. OAuth tokens are stored encrypted in Nextcloud. Users can disconnect at any time in their personal settings; this deletes the tokens and the sync state.\n\nRequires an Entra ID app registration created by the administrator (see the README).\n\nMicrosoft, Microsoft 365, Outlook and Exchange are trademarks of the Microsoft group of companies. This app is not affiliated with Microsoft.",
     "homepage": "https://github.com/second2falcon/graphcal",
     "licenses": [
@@ -2100,10 +2110,10 @@
     ]
   },
   "imageconverter": {
-    "hash": "sha256-JzsprJhLrQXJrJ9n+BDmt72PyfQ91zkEdVPjhL/8KdU=",
-    "url": "https://github.com/major-mayer/imageconverter/releases/download/v.2.2.2/imageconverter.tar.gz",
-    "version": "2.2.3",
-    "description": "Very simple app to convert your HEIC/ HEIF files to JPEG using ImagickMagick and the PHP Imagick extension. \n        Needs imagemagick with HEIC support installed and the PHP bindings (Imagick extension) enabled.\n        Check Github for more details.",
+    "hash": "sha256-yFWcFB2iYb0y9Qu+wIX63yUk8vIIgklv65Uhq4WmHJY=",
+    "url": "https://github.com/major-mayer/imageconverter/releases/download/v.3.0.1/imageconverter.tar.gz",
+    "version": "3.0.1",
+    "description": "# HEIC/HEIF Image Converter\n\nConvert images to other formats with the power of ImageMagick and the PHP Imagick extension.\n\n## ✨ Features\n\n- **📦 Flexible conversion**: Convert your photos and images to common formats such as JPEG, PNG, WEBP, AVIF, JXL, and HEIC.\n- **⚙️ ImageMagick-based**: Uses the installed ImageMagick engine and PHP Imagick bindings for reliable processing.\n- **🧩 Compatibility-aware**: Supported formats depend on the version and features of your ImageMagick installation.\n\n## Notes\n> Requires ImageMagick with support for your desired formats and the PHP Imagick extension enabled. \nCheck the GitHub project for setup details and compatibility notes.",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -2720,9 +2730,9 @@
     ]
   },
   "keepiq": {
-    "hash": "sha256-bXPVBLzqNynRmazg6BwWToM9JbXPN7u1PxXtA2t3Pbo=",
-    "url": "https://github.com/ConductionNL/keepiq/releases/download/v0.3.10/keepiq-0.3.10.tar.gz",
-    "version": "0.3.10",
+    "hash": "sha256-MvB43/+FEUzyy0JlFnDEhAO2kzJx2Dl7a9Np5e6osuk=",
+    "url": "https://github.com/ConductionNL/keepiq/releases/download/v0.3.12/keepiq-0.3.12.tar.gz",
+    "version": "0.3.12",
     "description": "A zero-knowledge encrypted secrets manager for Nextcloud — a personal vault for users and a write-without-read credential store for applications, using end-to-end RSA-4096/AES-256 encryption backed by a private Certificate Authority. Your master password is never stored: not even the server administrator can read your secrets.\n\n**Key Features**\n\n- **End-to-end encryption** — RSA-4096 + AES-256 private-key protection with a private Certificate Authority (root + intermediate, auto-renewal)\n- **Personal vault** — folder organisation, fuzzy search, Nextcloud unified search integration\n- **Secret sharing** — share with Nextcloud users and groups, password-protected link sharing, secret requests (write-without-read), temporary ownership delegation\n- **Application management** — register applications with CSR-based onboarding, write-without-read application secrets, OAuth-style application tokens (RFC 7523 JWT Bearer)\n- **Admin settings** — CA health monitoring, password policies, application approval queue\n- **NL Design System ready** — CSS variables, WCAG AA, government theming\n\nFree and open source under the EUPL-1.2 license.\n\n**Support:** For support, contact support@conduction.nl.",
     "homepage": "https://github.com/ConductionNL/keepiq",
     "licenses": [
@@ -2789,6 +2799,16 @@
       "AGPL-3.0-or-later"
     ]
   },
+  "laudatio": {
+    "hash": "sha256-ugtHUqtYCE1gfm7bOR5Jq0TL8jtd8r/GAjaOGz8HxlI=",
+    "url": "https://github.com/adymorz/nextcloud-laudatio-app/releases/download/v0.4.0/laudatio-0.4.0.tar.gz",
+    "version": "0.4.0",
+    "description": "Laudatio helps clubs, associations, parishes and companies to appreciate the people engaged with them: members, employees, elected officials and volunteers. Record who holds which function since when, and the app reminds the right people of every birthday, anniversary and yearly gift.\n\n- **Persons, groups and functions**: persons with date of birth, address, phone numbers, email address and notes, and the functions they hold over time, e.g. \"Treasurer\" of the \"Board\" from 2021 to 2024.\n- **Birthdays and anniversaries** are generated automatically. Anniversaries are counted from the start of a continuous period of service, so a re-election does not reset the count. The anniversary years can be set globally and per group.\n- **Yearly gifts**: mark a function \"One gift per year\", and the responsible person is reminded to present one gift per calendar year to everybody holding it. A link to the gift regulations can be shown in the app navigation.\n- **Calendar**: everybody involved in a group gets a read-only calendar \"Birthdays & anniversaries\" in the Calendar app and on CalDAV devices.\n- **Reminders** as Nextcloud notifications before each event, optionally also by email.\n- **Upcoming** view with a \"congratulated\" checklist, and the yearly gifts with a \"presented\" checklist.\n- **Data sheet** per person to print or save as PDF, so the person can check and complete their data, with an optional note of your organization on who stores the data and why.\n- **Roles**: managers see and edit everything. Each group has one responsible person, who sees its members with date of birth, contact data and notes, and any number of interested persons, who only see names and functions and get the birthdays (without the age) and anniversaries for information. Everybody else does not see the app.\n- **Audit log** of all changes to persons, groups and functions, and of all exports.\n- **Import and export**: managers download all groups, functions and persons as a file, as a backup or to move them to another Nextcloud. The file holds no references to Nextcloud users.\n- **Privacy**: all data stays in the database of your Nextcloud unless a manager exports it, nothing is sent anywhere else. Deleting a person removes all their data from the app, `occ laudatio:purge` removes everything.\n\nPersons don't need a Nextcloud account. Available in English and German.",
+    "homepage": "https://github.com/adymorz/nextcloud-laudatio-app",
+    "licenses": [
+      "AGPL-3.0-or-later"
+    ]
+  },
   "ldap_contacts_backend": {
     "hash": "sha256-lhevI3R0rblGKMLvee6gz/BjB083k6sW0lMgiRC9anI=",
     "url": "https://github.com/nextcloud-releases/ldap_contacts_backend/releases/download/v1.15.1/ldap_contacts_backend-v1.15.1.tar.gz",
@@ -2810,9 +2830,9 @@
     ]
   },
   "learning": {
-    "hash": "sha256-tuxlXN6vBBfWu12ce5QygcZvr+2Vi+bBYH8/rDFReOg=",
-    "url": "https://github.com/andremadstop/learning-nc/releases/download/v5.12.0/learning-5.12.0.tar.gz",
-    "version": "5.12.0",
+    "hash": "sha256-4wec3+m5et3Rpp/gsF0+4FqZAOo9Pt2rqnZH8C2NGB0=",
+    "url": "https://github.com/andremadstop/learning-nc/releases/download/v5.13.0/learning-5.13.0.tar.gz",
+    "version": "5.13.0",
     "description": "**Learning** is a self-hosted learning platform for Nextcloud. Your questions, progress, and student data never leave your server.\n\nBuilt for IT certification bootcamps (CompTIA, Cisco, AWS) but works for any subject. Instructors create courses, track student progress, and identify at-risk learners. Students drill with scientifically-backed spaced repetition and hands-on simulations.\n\n## Why Learning?\n\n- **Your data stays on your server** — no cloud dependency, full GDPR compliance\n- **FSRS adaptive scheduling** — cards are prioritized by memory strength, not rigid intervals\n- **9 interactive IT simulators** — CLI terminals, firewall builders, DNS resolvers, subnet calculators, network topology placement\n- **AI tutor (optional)** — answers questions by citing your uploaded course materials\n- **Verifiable certificates** — issue cryptographically signed, publicly verifiable completion credentials\n\n## For Instructors\n\n- Course management with pool assignment and student enrollment\n- **At-risk warnings** — automatic detection of struggling students\n- **Chapter heatmaps** — see where the class struggles at a glance\n- **Curriculum timeline** — plan course schedule with milestones\n- **Admin dashboard** — CSV export, course archiving, cohort merging\n- Campaign selection — choose which story scenarios are available per course\n\n## Certification &amp; Compliance\n\n- **Signed completion certificates** — every passing learner receives a cryptographically signed (Ed25519) certificate, minted automatically\n- **Public verification portal** — anyone can verify a certificate's authenticity via its permanent URL, no login required\n- **Compliance reports** — organization-wide completion overview for audits and works agreements\n- **Mandatory training &amp; recertification** — assign required courses, track certificate expiry, and automate recertification reminders\n- **Tamper-proof audit trail** — every issuance, revocation, and completion is logged\n\n## For Learners\n\n- **Smart Queue** — one-click review of all due cards, sorted by urgency\n- **Training &amp; Exam Mode** — practice or simulate timed exams\n- **PBQ Simulations** — performance-based questions with interactive CLI, drag-and-drop placement, and wiring tasks\n- **Story Campaigns** — learn through real IT incident scenarios (WannaCry, SolarWinds, Log4Shell)\n- **Live Duels &amp; Sprint** — real-time multiplayer quiz battles via Server-Sent Events\n- **Gamification** — XP, levels, streaks, 10 badges, seasonal league\n- **Maintenance Mode** — long-term retention schedule after course ends\n- **Trouble-spot cheat sheet** — export your weakest topics for exam prep\n\n## AI Features (optional)\n\nOptional: the admin connects Google Gemini (API key) or a local Ollama server. Without a connection, the app is fully functional — AI features are simply off. Each user must explicitly consent to the configured recipient before any data is sent; the consent is asked again if the recipient or the consent text changes, and can be withdrawn at any time.\n\n- **VirtuProf** — AI learning assistant with RAG-powered answers and source citations\n- **Question Generator** — create flashcards from pasted text\n- **Note Generator** — AI-powered topic summaries saved to Nextcloud Files\n\n## Question Types\n\n- Multiple Choice, Free Text with fuzzy matching, PBQ Simulations\n- CSV/JSON import &amp; export, pool sharing, multi-language translations\n\n## Technical\n\n- Vue 3, Vite, Pinia — modern frontend stack\n- 1830 automated tests, PHPStan Level 5, pre-push quality gates\n- Native Nextcloud integration: Dashboard widgets, Notifications, Talk, Files\n- AGPL-3.0 — fully open source\n\n## Requirements\n\n- Nextcloud 33–35\n- PHP 8.1+\n- PostgreSQL 13+ or MySQL 8+\n\n**Looking for pilot partners!** If you run Nextcloud at a school, university, or training provider — we'd love your feedback. Open an issue with a bit of context and we're happy to walk you through it.",
     "homepage": "https://github.com/andremadstop/learning-nc",
     "licenses": [
@@ -2890,8 +2910,8 @@
     ]
   },
   "libresign": {
-    "hash": "sha256-yv0HKEe+IQpYmfydM1gB8VJGHWqR8T+vJdp9lUe/l4s=",
-    "url": "https://github.com/LibreSign/libresign/releases/download/nightly/libresign-nightly.tar.gz",
+    "hash": "sha256-er6HlKvtXwxKjZfXauJTVw8QfN8w5Phfwc+E+nG4lnI=",
+    "url": "https://github.com/LibreSign/libresign/releases/download/v15.0.12/libresign-v15.0.12.tar.gz",
     "version": "15.0.12",
     "description": "**LibreSign helps organizations manage document signing inside Nextcloud.**\n\nIt is built for teams that need clear signing rules, traceable actions, and workflows that follow internal processes and legal requirements.\n\nLibreSign has been a verified [Digital Public Good](https://digitalpublicgoods.net/r/libresign) since 2025.\n\n**What LibreSign enables**\n\n- Define signing order and signer roles\n- Support internal and external signers\n- Keep a traceable record of requests and validations\n- Use digital certificates for compliant signing workflows\n- Validate documents using QR codes\n- Work directly with Nextcloud files and users\n- Integrate signing with other systems through APIs\n\n**Support LibreSign**\nIf your organization uses LibreSign, support its development:\n\n[![Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/libresign)\n\nFor enterprise support, contact LibreCode:\nhttps://libresign.coop",
     "homepage": "https://github.com/LibreSign/libresign",
@@ -2930,9 +2950,9 @@
     ]
   },
   "llmchat": {
-    "hash": "sha256-gp1nHc44sfYZf84qnJl50zy/V0FC/lRYVn/iV9ccIvo=",
-    "url": "https://github.com/markuman/llmchat/releases/download/3.0.1/llmchat-3.0.1.tar.gz",
-    "version": "3.0.1",
+    "hash": "sha256-1J7WvAUJdHEdiYhBpOA7F7TLQ24l+qCNsNx/g8wIaLc=",
+    "url": "https://github.com/markuman/llmchat/releases/download/3.1.0/llmchat-3.1.0.tar.gz",
+    "version": "3.1.0",
     "description": "**Privacy-first by architecture. Batteries included. Bring your own LLM.**\n\nA chat interface for large language models where **your browser talks directly to the LLM backend**.\nNextcloud acts only as configuration storage and archive target — it is never a proxy and never sees\nprompts or responses. Not \"we promise not to look\": it structurally cannot.\n\nBecause the requests originate in the browser, `localhost` resolves from the *user's* machine. Your\nNextcloud can live in a datacenter and still talk to an Ollama instance running on your laptop —\nno tunnel, no VPN, no exposed port. No server-side LLM app can do that.\n\nFeatures:\n\n* Bring your own backend: Ollama, llama.cpp, LiteLLM, OpenRouter, vLLM — anything OpenAI-compatible\n* Multiple connections with encrypted API key storage, multiple profiles per connection\n* Profiles carry model, system prompt, temperature, token budget, streaming and reasoning switches\n* Streaming responses with a stop button, edit-and-retry, regenerate — including regenerating the\n  same question with a different profile or model\n* Full-text search across your local chat history\n* Optional agent tools: web search via your own SearXNG, page fetching, clock, and read-only\n  access to your own Nextcloud (Unified Search, Collectives, files, PDF text) — no MCP server,\n  no extra container, no app password needed\n* External MCP servers (Streamable HTTP, tools only) with token or OAuth 2.1 sign-in — proxied by\n  the server, so their tokens never reach the browser, and every call asks first\n* Skills: Markdown files in your own Files where you write down how a kind of question should be\n  answered, which source to use and how the reply should look. Ships with a weather example that\n  replaces a web search with one API call, fetched by your browser from a host you allowlisted\n* Models can ask you a question in a dialog instead of guessing at an ambiguous requirement\n* File picker in the composer, so a path goes into the prompt without being typed\n* \"LLM Chat\" in the Files menu opens a new chat with that file's path already in the prompt\n* Vision-capable models can be shown an image or a rendered PDF page from your files, behind a\n  per-profile switch that is off by default\n* Approval dialog before any tool call that leaves the browser, on by default\n* Chat history in IndexedDB — local to the browser, by design\n* Archive chats as Markdown files into your Nextcloud files\n* Memory: one Markdown file per memory profile in your own Files, read at the start of a chat and\n  kept up to date by a short recap after each answer — written by your browser over WebDAV, never\n  by the server. Profiles without one are incognito. `/remember` and `/forget` for the explicit cases\n* \"Delete all chats\" clears this browser's history in one go; archived files are not touched\n* Profile export/import as JSON (never contains secrets)\n\n**Note:** API keys are stored encrypted on the server but are necessarily delivered to the browser,\nsince that is where the request is made. Each user only ever sees their own key.",
     "homepage": "https://github.com/markuman/llmchat",
     "licenses": [
@@ -3270,10 +3290,10 @@
     ]
   },
   "nccare": {
-    "hash": "sha256-6CpRD1LoKMSpPEw9Ube5+9JeOsZXcRD6tygNWnpFVtQ=",
-    "url": "https://nc-care.itservicenet.net/downloads/nc-care-nextcloud-app-1.0.5.tar.gz",
-    "version": "1.0.5",
-    "description": "NC Care by ITServicenet checks the technical health of your Nextcloud installation and sends it to the NC Care portal, so you can monitor it over time and get an alert when something needs attention.\n\n**What the app sends.** A report is sent with non-sensitive technical information only: Nextcloud and PHP versions, database type, aggregate user counts, the list of enabled apps, the background job mode, the results of the automatic checks and, when available, hardware statistics. The full list is shown in the app settings.\n\n**NB: files, user names or any other content of your Nextcloud instance are never sent.**\n\n**How it works.**\n1. Enable the app: this registers your instance with the NC Care portal and sends a first report. Note: a new instance stays *pending approval* until ITServicenet verifies it.\n2. Create an account on the portal with the instance address and the identifier shown in the app settings.\n3. After approval you will receive reports regularly, and you can set up alerts by email or Telegram, availability monitoring and the weekly summary.\n\nAdministrator rights are required to configure it. Reports are sent to the portal address shown in the app settings.\n\nITServicenet is a Nextcloud Platinum partner and officially supports this app.",
+    "hash": "sha256-5qFpHmbaGmPnWJ6nb2ctfVVDySkCJuSN7KPfQ8DJXIk=",
+    "url": "https://github.com/ITServicenet/nccare/releases/download/v1.0.7/nc-care-nextcloud-app-1.0.7.tar.gz",
+    "version": "1.0.7",
+    "description": "**NC Care** by ITServicenet monitors the technical health of your Nextcloud installation: it collects a periodic report and sends it to the NC Care portal, so you can track it over time and receive an alert whenever something needs your attention.\n\n**What the app sends.** The report contains only non-sensitive technical information: Nextcloud and PHP versions, database type, aggregated user counts, list of enabled apps, background job processes mode, results of the automatic checks and, when available, hardware statistics. The full list is in the app settings.\nFiles, usernames or any other content of your instance are never sent.\n\n**How it works.**\n1. **Enable the app**: your instance is registered on the NC Care portal and a first report is sent. Until ITServicenet verifies it, the new instance remains pending approval.\n2. **Create an account on the portal** using the instance address and the identifier shown in the app settings.\n3. **After approval** the reports arrive regularly. You can then configure email or Telegram alerts, reachability monitoring and the weekly summary.\n\nAdministrator permissions are required to configure the app. Reports are sent to the portal address shown in the app settings.\n\n**What you get by installing it.**\nUpon registration you always receive **5 free support tickets**, to check the quality of our service.\n\nYou also get access to a panel for a **basic evaluation** of your Nextcloud instance: we validate it according to ITServicenet's standards, which guarantee professional, business-ready functionality.\nBy answering a series of questions, it is also possible to evaluate the **governance** of your instance.\n\nFrom here on, the rest is **optional**: on request we provide\n- **additional services** for business continuity, patching, and the secure and resilient management of your Nextcloud instance, with the additional modules selected by ITServicenet;\n- **support** for the optimization and maintenance of your installation;\n- **compliance consulting** on NIS2 and GDPR;\n- **consulting for enterprise AI integration**, with RAG and \"second brain\" (company memory and knowledge);\n- **and much more**, which you'll discover once you're registered on the portal.\n\nITServicenet is a platinum partner of Nextcloud and officially supports NC Care.\n\n**Useful links:** [NC Care page](https://nc-care.itservicenet.net/landing-page) · [source code on GitHub](https://github.com/ITServicenet/nccare)",
     "homepage": "https://nc-care.itservicenet.net/landing-page",
     "licenses": [
       "AGPL-3.0-or-later"
@@ -3510,9 +3530,9 @@
     ]
   },
   "oidc": {
-    "hash": "sha256-16//6XiZ/LPfXa5Ijl4zM70Xwq13XlUKWW5FcuXXUW4=",
-    "url": "https://github.com/H2CK/oidc/releases/download/2.6.2/oidc-2.6.2.tar.gz",
-    "version": "2.6.2",
+    "hash": "sha256-Z84hS6tDfEJpO0hx59g0hBAZEhLzvrJ2rhy2NTmO+Ok=",
+    "url": "https://github.com/H2CK/oidc/releases/download/2.6.3/oidc-2.6.3.tar.gz",
+    "version": "2.6.3",
     "description": "Nextcloud as OpenID Connect Identity Provider\n\nWith this app you can use Nextcloud as OpenID Connect Identity Provider. If other services\nare configured correctly, you are able to access those services with your Nextcloud login.\n\nFull documentation can be found at:\n\n- [User Documentation](https://github.com/H2CK/oidc/wiki#user-documentation)\n- [Developer Documentation](https://github.com/H2CK/oidc/wiki#developer-documentation)",
     "homepage": "https://github.com/H2CK/oidc",
     "licenses": [
@@ -3540,9 +3560,9 @@
     ]
   },
   "olvid": {
-    "hash": "sha256-pPZYt2TDRzUT6FodeEZpnerXQ9tylwDJubFdsa+Zh5c=",
-    "url": "https://github.com/olvid-io/Nextcloud-App/releases/download/v0.0.8/olvid-0.0.8.tar.gz",
-    "version": "0.0.8",
+    "hash": "sha256-mbn0bLdEk5u61p59HY6UzZjkV9oxD39V+KTaN4ueRuc=",
+    "url": "https://github.com/olvid-io/Nextcloud-App/releases/download/v0.0.9/olvid-0.0.9.tar.gz",
+    "version": "0.0.9",
     "description": "Use your Nextcloud instance as an Olvid directory.\n\n- 📑 Directory: Start an Olvid discussion with any other Nextcloud user in one click\n- 👥 Groups: Associate an Olvid discussion with a Nextcloud group\n- 🪄 Magic Links: easily bind your Olvid identity to your Nextcloud account\n- ✉️ Security: Your messages are still exchanged using Olvid cryptographic protocols, your Nextcloud server cannot access it.",
     "homepage": "https://olvid.io",
     "licenses": [
@@ -3791,6 +3811,16 @@
       "agpl"
     ]
   },
+  "photosphere_photos_integration": {
+    "hash": "sha256-QF/Kys0p736RmJjU9DH9l8+6eb6tZyjyPzwxRQwSExs=",
+    "url": "https://github.com/napoweb/photosphere_photos_integration/releases/download/v0.4.18/photosphere_photos_integration-0.4.18.tar.gz",
+    "version": "0.4.18",
+    "description": "Photo Sphere erweitert Nextcloud Fotos und Dateien um einen integrierten 360°-Panoramabetrachter. Panoramabilder werden automatisch erkannt und lassen sich direkt in Nextcloud interaktiv betrachten – auch über öffentliche Freigaben.\n\n### Funktionen\n- Automatische Erkennung von 360°-Panoramabildern\n- Interaktive 360°-Ansicht mit Maus-, Tastatur- und Touchsteuerung\n- Stufenloser Zoom und animierte Ladeanzeige\n- Unterstützung für öffentliche Fotoalben und Dateifreigaben\n- Individuelle Wasserzeichen mit zentraler Verwaltung\n- Ordnerabhängige Wasserzeichen mit Vererbung an Unterordner\n- Anpassbare Position, Größe und Sichtbarkeit der Wasserzeichen\n- Originalbilder bleiben unverändert",
+    "homepage": "https://github.com/napoweb/photosphere_photos_integration",
+    "licenses": [
+      "AGPL-3.0-or-later"
+    ]
+  },
   "photosphere_tours": {
     "hash": "sha256-9t9zzxZ/6fly+G3z+MJWSwSpEPKEc+lwoR6+4LXs5EU=",
     "url": "https://github.com/weltmaister/photosphere_tours/releases/download/v0.6.2/photosphere_tours.tar.gz",
@@ -3952,9 +3982,9 @@
     ]
   },
   "public_share_control": {
-    "hash": "sha256-/KdK3t7Q/X0lbnNdzjhv+KhHfFtuztPMzcKg1ErHP7o=",
-    "url": "https://github.com/nicostoe/public_share_control/releases/download/v1.0.0/public_share_control-1.0.0.tar.gz",
-    "version": "1.0.0",
+    "hash": "sha256-OmpwEHybFVSMeMlD+rTg5XGmE92s9q0Igrxpx50AH7M=",
+    "url": "https://github.com/nicostoe/public_share_control/releases/download/v1.0.1/public_share_control-1.0.1.tar.gz",
+    "version": "1.0.1",
     "description": "Public Share Control gives share owners and administrators more control over what visitors can do on public folder links.\n\n**Restrict the \"New\" menu per link.** In a link's sharing settings, the owner chooses which entries of the \"New\" menu visitors see — for example, allow uploads but hide \"New folder\", text documents, spreadsheets, whiteboards or \"Add folder description\". Uploading itself always stays available.\n\n**One-click uploads for visitors.** Links that allow uploads get an \"Upload files\" button right next to \"Public share\", on every screen size. Name conflicts are handled with Nextcloud's own dialog (Cancel, Keep both, Replace). File requests keep Nextcloud's own upload page.\n\n**Defaults and restrictions for administrators** (Administration settings → Sharing):\n\n- *Hidden by default:* entries hidden on every link whose owner hasn't changed the selection.\n- *Forbidden:* entries hidden on all links, including existing ones. Owners can't turn them back on.\n- A switch to turn the \"Upload files\" button off for the whole server.\n\nHiding menu entries changes what visitors see, not what the link permits: a link that allows uploads still lets visitors create files by other means, e.g. WebDAV.",
     "homepage": "https://github.com/nicostoe/public_share_control",
     "licenses": [
@@ -4212,9 +4242,9 @@
     ]
   },
   "s3_api": {
-    "hash": "sha256-j6Ir5gFeLrrlRmgCMATOyB85OvUAme2fDmUPGSyAp3o=",
-    "url": "https://github.com/markuman/nextcloud-s3-api/releases/download/v1.7.2/s3_api-1.7.2.tar.gz",
-    "version": "1.7.2",
+    "hash": "sha256-dcCDw0zlygMyLCnAwoUPITJdNANM+ei23V3VXxgyUBk=",
+    "url": "https://github.com/markuman/nextcloud-s3-api/releases/download/v1.7.3/s3_api-1.7.3.tar.gz",
+    "version": "1.7.3",
     "description": "**Point any S3 client at a Nextcloud folder.**\n\nMark a folder as a bucket in your personal settings, create an API key, and use it with the AWS\nCLI, boto3, rclone or any other S3-compatible client. The files stay ordinary Nextcloud files —\nvisible in the web UI, synced by the desktop client, shareable, versioned. Nothing is duplicated\ninto a separate object store.\n\nRather than the handful of calls a file sync needs, this implements the parts that make an S3\nendpoint usable as a real backend:\n\n* Conditional writes (`If-Match` / `If-None-Match`) that serialise concurrent writers, so the\n  store works as a compare-and-swap primitive\n* Multipart uploads, including `UploadPartCopy` for server-side compose\n* Ranged and conditional reads, delimited listings, presigned URLs\n* Streaming uploads — bodies are never buffered in memory, and `aws-chunked` payloads have their\n  per-chunk signature chain verified\n* Correct S3 ETags (content MD5, compound form for multipart) rather than Nextcloud's internal\n  etag, which is too coarse to build a compare-and-swap on\n\nAuthentication is AWS Signature V4, via header or presigned URL. Each API key is scoped to exactly\none bucket and is either readonly or readwrite.\n\nVerified against [gits3](https://github.com/markuman/gits3srv), a git server that keeps bare\nrepositories in a bucket: its own S3 client and a real push / clone / gc cycle run against this\napp in the test suite, exercising compare-and-swap, content ETags, ranged reads and delimited\nlistings.\n\n**Note:** every request passes through PHP and Nextcloud's storage layer. This is a convenient way\nto talk S3 to data you already keep in Nextcloud — not a replacement for a high-throughput object\nstore.",
     "homepage": "https://github.com/markuman/nextcloud-s3-api",
     "licenses": [
@@ -4282,10 +4312,10 @@
     ]
   },
   "scoreview": {
-    "hash": "sha256-rNU5iWi4qnpkpilqW9dtG2CnjePdwRSnEWLp+qBxxyk=",
-    "url": "https://github.com/AndiMb/scoreview/releases/download/v1.31.0/scoreview.tar.gz",
-    "version": "1.31.0",
-    "description": "ScoreView displays MuseScore scores (.mscz) directly from Files - as faithful\nMuseScore notation (SVG) with a playback cursor that follows client-side\nsynthesized MIDI playback in sync, instead of a static PDF export.\n\nMade for choir and ensemble work: the notation looks like the sheet music you\nalready know, every voice can be heard on its own, and every measure is one\nclick away.\n\nAn uploaded .mscz file is converted once, server-side, to notation pages (SVG),\nMIDI and timing data, then cached: opening the same file again does not\nre-render, it is served from the cache. Only a change to the file triggers a\nnew conversion.\n\nThere are two equivalent conversion paths that produce the same result. The\ndefault one needs no configuration at all and no container: MuseScore as\nWebAssembly, executed by the server's Node.js runtime - everything it needs\nships with the app, and the server fetches the SoundFont for playback on its\nown. Alternatively a MuseScore container next to Nextcloud does the\nconverting. If the server can run neither, the browser converts instead -\nwithout a cache, as a fallback.\n\nFeature set: zoom presets, fullscreen and auto-scrolling in time with playback;\na freely configurable playback highlight (sounding notes or a bar, in a colour\nof your choice);\nmeasure navigation, looping over a measure range, click-to-note jump and\nkeyboard shortcuts; a mixer with per-voice volume/mute/solo, a \"my voice\"\npreset, tempo in BPM and a metronome; annotations anchored to musical\nposition (private or shared, surviving a re-upload); touch controls with\npinch-zoom for a tablet on the music stand.\n\nFor practice, choir rehearsal and concert: the starting note of your own voice\nor the key note, your own voice in the stereo image, a speed trainer in the\nloop, light notes on a dark background, a performance mode with page turning by\nkey or pedal; a leader role per score with voice notes, rehearsal stamps and\nrehearsal marks in the navigation; \"Follow me\" - the leader sends position,\nloop and starting note to every device (below one second with notify_push)\nand lets them follow silently while it plays;\nsetlists as a Markdown file with piece changes inside the viewer; own\nrecordings only the person recording can hear, and intonation feedback while\nsinging. The Nextcloud mobile apps open the viewer too - the Android app\nwithout the microphone; so far only Android has been tested.\n\nOn the go and on a phone: practice tracks as MP3 files in Files - the current\nmix, optionally one per voice for everyone -, a coach mode (your own voice on\nthe piano), transposing the sound, a system band with the staves side by\nside, a lyrics view of your own voice, note names on the notes, and scores\nwith sound without a network via an offline page in the browser. \"Follow me\"\ntakes everyone along to the next piece of the setlist.",
+    "hash": "sha256-Hn7tyHz3tpfGqcIEGWolXdygJqe7YozTdlDs+cS563I=",
+    "url": "https://github.com/AndiMb/scoreview/releases/download/v1.32.1/scoreview.tar.gz",
+    "version": "1.32.1",
+    "description": "ScoreView displays MuseScore scores (.mscz) directly from Files - as faithful\nMuseScore notation (SVG) with a playback cursor that follows client-side\nsynthesized MIDI playback in sync, instead of a static PDF export.\n\nMade for choir and ensemble work: the notation looks like the sheet music you\nalready know, every voice can be heard on its own, and every measure is one\nclick away.\n\nVideo: [the two-minute feature tour on YouTube](https://youtu.be/rdMtFba9DxY)\n([German version](https://youtu.be/XyMul5YWA4k))\n\nAn uploaded .mscz file is converted once, server-side, to notation pages (SVG),\nMIDI and timing data, then cached: opening the same file again does not\nre-render, it is served from the cache. Only a change to the file triggers a\nnew conversion.\n\nThere are two equivalent conversion paths that produce the same result. The\ndefault one needs no configuration at all and no container: MuseScore as\nWebAssembly, executed by the server's Node.js runtime - everything it needs\nships with the app, and the server fetches the SoundFont for playback on its\nown. Alternatively a MuseScore container next to Nextcloud does the\nconverting. If the server can run neither, the browser converts instead -\nwithout a cache, as a fallback.\n\nFeature set: zoom presets, fullscreen and auto-scrolling in time with playback;\na freely configurable playback highlight (sounding notes or a bar, in a colour\nof your choice);\nmeasure navigation, looping over a measure range, click-to-note jump and\nkeyboard shortcuts; a mixer with per-voice volume/mute/solo, a \"my voice\"\npreset, tempo in BPM and a metronome; annotations anchored to musical\nposition (private or shared, surviving a re-upload); touch controls with\npinch-zoom for a tablet on the music stand.\n\nFor practice, choir rehearsal and concert: the starting note of your own voice\nor the key note, your own voice in the stereo image, a speed trainer in the\nloop, light notes on a dark background, a performance mode with page turning by\nkey or pedal; a leader role per score with voice notes, rehearsal stamps and\nrehearsal marks in the navigation; \"Follow me\" - the leader sends position,\nloop and starting note to every device (below one second with notify_push)\nand lets them follow silently while it plays;\nsetlists as a Markdown file with piece changes inside the viewer; own\nrecordings only the person recording can hear, and intonation feedback while\nsinging. The Nextcloud mobile apps open the viewer too - the Android app\nwithout the microphone; so far only Android has been tested.\n\nOn the go and on a phone: practice tracks as MP3 files in Files - the current\nmix, optionally one per voice for everyone -, a coach mode (your own voice on\nthe piano), transposing the sound, a system band with the staves side by\nside, a lyrics view of your own voice, note names on the notes, and scores\nwith sound without a network via an offline page in the browser. \"Follow me\"\ntakes everyone along to the next piece of the setlist.",
     "homepage": "https://github.com/AndiMb/scoreview",
     "licenses": [
       "agpl"
@@ -4701,6 +4731,16 @@
       "AGPL-3.0-or-later"
     ]
   },
+  "story2bpmn": {
+    "hash": "sha256-9bRClo6TYP0hxiyLrEL5AWTi4xp9gMt3TLOW+6pAjpE=",
+    "url": "https://github.com/hotochan123/nextcloud-story2bpmn/releases/download/v0.3.0/story2bpmn-0.3.0.tar.gz",
+    "version": "0.3.0",
+    "description": "Tell a business process as a story, one move at a time. After each move the app offers only\nwhat is possible at that point, so the diagram is formally correct at every stage. The result\nis documentation, not an executable process: a BPMN 2.0 working file in your Files and a\nreadable PDF copy. No language model involved.",
+    "homepage": "https://github.com/hotochan123/nextcloud-story2bpmn",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "sumoffice": {
     "hash": "sha256-1u9UVT/IgKY9cGqSTxaTzoXocJ74lKEZntmt1Hp9UCI=",
     "url": "https://github.com/SumOfficeApp/sumoffice-nextcloud/releases/download/v0.1.7/sumoffice-0.1.7.tar.gz",
@@ -4752,9 +4792,9 @@
     ]
   },
   "talk_ai": {
-    "hash": "sha256-/oQbTfDo1UeXEkfYhOH2fYHA2ZVZKG/jYcbeDoeSs0M=",
-    "url": "https://git.ciepiela.org/dawid/nextcloud-talk-ai/releases/download/v0.17.0/talk_ai-0.17.0.tar.gz",
-    "version": "0.17.0",
+    "hash": "sha256-n/6kUVySyfFniAZHXRWcjBUFTSZawAI3ky3xyu1AMJ0=",
+    "url": "https://git.ciepiela.org/dawid/nextcloud-talk-ai/releases/download/v0.17.1/talk_ai-0.17.1.tar.gz",
+    "version": "0.17.1",
     "description": "A bot for Nextcloud Talk that answers with the AI you choose: Claude or Gemini by API key, any OpenAI-compatible server (OpenAI, OpenRouter, Mistral, Ollama, …), Claude Code or Gemini CLI on the server for a subscription, or Nextcloud's own AI providers. It is named after the AI that answers (Claude, Gemini, …).\n\n- **Its own AI connection**: native tool calls, images and PDFs, web search, prompt caching, a fallback chain, limits per person and server, the use per day; keys encrypted. It can also serve Nextcloud's Assistant, and other clients through an OCS API\n\n- **Reads what you share**: Word, Excel, PowerPoint (with speaker notes), OpenDocument, old .doc/.xls/.ppt, PDF, text, and images, with OCR for photos and scans\n- **Writes files into the chat**: PDF, Word, Excel (with formulas), PowerPoint, OpenDocument, Markdown, CSV, in designed themes with cover pages, contents, callouts, footnotes, formulas, highlighted code, and embedded charts and images\n- **Learning**: summaries, quizzes, and flash cards to print or to import into Anki or Quizlet\n- **Maths**: step by step, with exact calculation, formulas in documents, statistics, and graphs and charts as images\n- **Sources**: reads web pages, searches the web, Wikipedia and scholarly papers, and cites by DOI, ISBN or URL in APA, MLA, Chicago, Harvard, IEEE, DIN 1505-2 and other styles\n- **Subjects**: curve sketching, linear algebra and vectors, chemistry, physics units and constants, genetics and DNA, statistics and hypothesis tests, geography and climate diagrams, music theory, interest and loans, sport science, truth tables and SQL, timelines and mind maps\n- **Exams by the official rules**: grading tables, error index, weighted and combined grades, the Abitur's average, practice exam checks, study plans; requirements read from the official documents\n- **Studies**: university averages by your Prüfungsordnung, measurement uncertainty, numerics, ANOVA and rank tests, pH and equilibria, automata, legal deadlines, formulas typeset as images\n- **Images drawn with code** (with the document sandbox): diagrams, flowcharts, posters, invitations, icons and illustrations as PNG, SVG or WebP, and changes to a shared photo\n- **Art**: the palette of a painting, colour harmonies, value studies and composition grids\n- **Planning**: events, reminders and tasks in your calendar, and .ics files from dates in a PDF or a photo\n- **Presentations** with 15 layouts, modern themes or its own design, and free photos from Wikimedia Commons; research on the web by default\n- Everything runs **with the asking person's rights**: the bot sees only what they may see\n\nEnable the bot in a conversation (conversation settings, Bots). In a conversation with one person it answers every message; with more people, when it is named (@Claude) or replied to. Office formats need Nextcloud Office (Collabora); reading PDFs needs pdftotext, OCR needs Tesseract on the server.",
     "homepage": "https://git.ciepiela.org/dawid/nextcloud-talk-ai",
     "licenses": [
@@ -5242,9 +5282,9 @@
     ]
   },
   "verein": {
-    "hash": "sha256-mV75X3wngTV8JwKEo24kwhCXMFfrsGyCHvKbevwAj3U=",
-    "url": "https://github.com/ghostsailorgit/nextcloud-vereinsverwaltung/releases/download/v1.17.0/verein-v1.17.0.tar.gz",
-    "version": "1.17.0",
+    "hash": "sha256-gOwog4JY4XNA4YMkHMsoBnNnIAaZAbyjQZQlR4rinOM=",
+    "url": "https://github.com/ghostsailorgit/nextcloud-vereinsverwaltung/releases/download/v1.21.0/verein-v1.21.0.tar.gz",
+    "version": "1.21.0",
     "description": "Manage the members, membership fees and SEPA direct debits of one or several clubs – inside your own Nextcloud, with the data staying on your server.\n\n- **Several clubs in one installation.** A person can belong to several clubs, each with its own date joined, position and SEPA mandate. Each club has its own bank accounts and creditor identifier.\n- **Members:** personal details, position (member, treasurer, board), joined/left, founding member, deceased; CSV import with preview and duplicate check; deactivate instead of delete.\n- **Groups** inside a club, e.g. training groups or departments, with joining and leaving recorded for each stay.\n- **Fees:** fee categories per club (including fee-exempt), by age if needed, paid yearly, half-yearly, quarterly or monthly, with an optional admission fee and own payment text; a group can add a fee of its own. A fee run with preview (optionally pro rata for new members), unpaid/paid/overdue status and payment reminder letters by email (through the Nextcloud mail server) or as PDF.\n- **SEPA direct debit** (pain.008.001.02) per club and bank account, validated against the official schema; fees are never collected before they are due, and anything that cannot be collected is listed with the reason. Optionally, members get an advance notice of the collection by email. A booking summary per collection (without names) helps to split the credit in the bookkeeping.\n- **Emails** with the club's own text and logo, e.g. a membership confirmation on request.\n- **Membership report** for sports federations: members by year of birth and gender, as a table and as an XML file of the DOSB interface.\n- **Permissions per club**, assigned as roles or derived automatically from a member's position via their linked Nextcloud account.\n- **My data:** linked members see (and download) what the club has stored about them.\n- **Club calendar** with birthdays and membership anniversaries, visible only to the Nextcloud groups you choose.\n- **Data protection:** audit log without personal data in plain text, personal data export, anonymization, daily backups with restore.\n\nNo extra PHP extensions, tools or system cron are needed. **Please** check the first SEPA file with your bank's validation tool before the first real collection.",
     "homepage": "https://github.com/ghostsailorgit/nextcloud-vereinsverwaltung",
     "licenses": [
@@ -5267,6 +5307,16 @@
     "version": "0.6.10",
     "description": "Let your club members sign in to Nextcloud with their Vereinsflieger credentials.\n\n### Sign-in\n- Vereinsflieger sign-in for members of the configured club.\n- Native Nextcloud sessions, Remember me, two-factor authentication and app passwords.\n- Selected emergency accounts retain local login. Linked SSO accounts cannot use a local account password.\n\n### Accounts and migration\n- Optionally create new member accounts with first name, last name and email.\n- Optionally migrate existing local accounts through a unique email match on first successful sign-in. Disabled by default; enable temporarily for a controlled migration.\n- Stable Vereinsflieger IDs keep accounts linked after email changes. Verified first and last names are updated after sign-in.\n\n### Roles and administration\n- Map received Vereinsflieger roles to Nextcloud groups. Local memberships and admin rights are preserved.\n- German and English admin settings with account links, role mapping, API usage and configurable login pauses.\n\n### IP protection and login logs\n- Optionally protect Vereinsflieger sign-in or all native Nextcloud logins, including app passwords, using IPv4/IPv6 addresses and CIDR networks.\n- Schedule HTTPS blocklist downloads, add manual blocks and use a priority whitelist. Failed downloads retain the last valid list.\n- View IPv4/IPv6 entry counts, choose refresh intervals and test an IP to identify the matching source and network. Optionally email administrators after repeated download failures.\n- Enable a separate app login log with search, severity filters and configurable retention while keeping normal Nextcloud logging active.\n- IP protection and the separate app log are disabled by default. Existing browser sessions remain active; configure trusted proxies correctly to identify real client IPs.\n\nIndependent community integration. Not an official Vereinsflieger product.",
     "homepage": "https://github.com/FISEChris1337/nextcloud-vereinsflieger-login",
+    "licenses": [
+      "AGPL-3.0-or-later"
+    ]
+  },
+  "videosubtitles": {
+    "hash": "sha256-IVzCz1VnKsW18awHQOf6CR1ScxsKyx4nOt/F8vvhIA0=",
+    "url": "https://raw.githubusercontent.com/huhas12/NextCC-Plus-Public/2b64715a94b76346eefb51c73ff3baae6d72504f/dist/videosubtitles-0.5.1.tar.gz",
+    "version": "0.5.1",
+    "description": "NextCC+ adds local SRT and WebVTT loading, same-folder subtitle discovery and adjustable appearance to the Nextcloud 35 video player.\n\nUse one timing point to shift subtitles or a second to correct drift. Preview the result and export a new SRT or WebVTT copy. Signed-in users with folder write access can save the copy beside the video. Administrators can enable playback and local export on read-only public links.\n\nNextCC+ includes optional OpenSubtitles.com search by title or video hash and links to subtitle websites for manual download and import.",
+    "homepage": "",
     "licenses": [
       "AGPL-3.0-or-later"
     ]
