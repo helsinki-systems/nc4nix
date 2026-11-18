@@ -200,19 +200,29 @@
     ]
   },
   "arbeitszeitcheck": {
-    "hash": "sha256-CzZDa+1/qpamUvTIc/JEATVULEokyHsryxmxFMY5KdQ=",
-    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-arbeitszeitcheck/releases/download/v1.11.0/arbeitszeitcheck-1.11.0.tar.gz",
-    "version": "1.11.0",
+    "hash": "sha256-rNBYqybthhFBPAGhnLC1N6toKMj6q/zbOaPaEhD4yGY=",
+    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-arbeitszeitcheck/releases/download/v1.12.0/arbeitszeitcheck-1.12.0.tar.gz",
+    "version": "1.12.0",
     "description": "# Clock in. Stay within the rules you set.\n\nArbeitszeitCheck records clock-in, clock-out and breaks on the Nextcloud you already host. Pick a country profile for Germany (ArbZG), Austria (AZG/ARG) or Switzerland (ArG), match holiday regions, approve absences, run reports (including DATEV) and keep an audit log.\n\nAlso listed as **TimeGuard** in some App Store searches.\n\n**Free web app** (AGPL-3.0-or-later). Companion apps: https://nextcloud.software-by-design.de/\n\n## Why teams install it\n\n- **Start and stop work cleanly** — pauses, resume, manual entries with a reason\n- **Match your country** — DE / AT / CH profiles with Länder, Bundesländer or cantons\n- **See break and rest issues early** — technical checks against the profile you configured\n- **Run absences properly** — vacation, illness, special and unpaid leave with approval; entitlement modes and CSV import via `occ`\n- **Report what happened** — employee, team and manager views; overtime and absence reports; DATEV export\n- **Lock a month when you need to** — optional finalization with snapshot, hash and PDF; admin reopen with a reason\n- **Control access** — open to all users or allow-lists; Nextcloud admins keep access\n\n## Clear limits\n\n- This app is **not legal advice**. You stay responsible for working-time models, collective agreements, configuration and how recorded data is used. Ask counsel when needed.\n- Technical violation reports against your profile are not a third-party certification.\n- Declared databases: MySQL and PostgreSQL. Nextcloud 32–35, PHP 8.1–8.5.\n\n## Feedback welcome\n\nWe improve this app with real-world use. Bug reports, rough edges, and ideas help — open a GitHub Issue (https://github.com/aSoftwareByDesignRepository/nextcloud-arbeitszeitcheck/issues) or write to info@software-by-design.de. Your feedback directly shapes what we build next.\n\n## Requirements\n\n- Nextcloud 32–35 · PHP 8.1–8.5 · MySQL or PostgreSQL",
     "homepage": "http://nextcloud.software-by-design.de",
     "licenses": [
       "AGPL-3.0-or-later"
     ]
   },
+  "askanina": {
+    "hash": "sha256-Xi7l2TSpxPN/TGSrvV7sBkaeXnnij7gdOlAsrWeWyOA=",
+    "url": "https://github.com/dev-raminberwers/askanina-nextcloud/releases/download/v0.4.4/askanina-0.4.4.tar.gz",
+    "version": "0.4.4",
+    "description": "**AskAnina: your personal assistant, right inside Nextcloud.**\n\nAskAnina keeps your day in order and thinks ahead for you. Open it from Nextcloud's menu, or add the **AskAnina Today** widget to your Dashboard.\n\n▶ **[Watch AskAnina in Nextcloud in 1 minute](https://askanina.com/videos/en/askanina-nextcloud-1-minute.mp4)**\n\n- **Today at a glance:** appointments, reminders, tasks, weather warnings and what's coming up, in one calm overview.\n- **Everything connected:** AskAnina links your people, appointments, places, trips, documents and notes, so one tap shows everything that belongs together, and its history.\n- **Your Nextcloud calendars, contacts and Deck:** AskAnina works with what you already have.\n- **On time, everywhere:** travel times to every appointment, when to leave, traffic, parking, flights and fuel prices along the way.\n- **Trips:** plan whole journeys, share them with the people travelling with you.\n- **Deliveries, documents and expiry dates:** know what's arriving and what's about to expire.\n- **Health, podcasts, news, TV and more:** everything in one place, on your phone and in Nextcloud.\n\nSign in with your AskAnina account. New accounts get **14 days of everything, free**. Using AskAnina in Nextcloud is part of the Plus and Complete plans.\n\nYour data stays yours: how AskAnina handles it is at https://askanina.com.\n\n_This Nextcloud app is open source (Apache-2.0). The AskAnina service it opens is © Ramin Berwers, all rights reserved._",
+    "homepage": "https://askanina.com",
+    "licenses": [
+      "Apache-2.0"
+    ]
+  },
   "assinafy": {
-    "hash": "sha256-Zlnm75alYj6CnPyyVnUiDI2zVFpxH2+aVb6mlAy7m/k=",
-    "url": "https://github.com/assinafy/nextcloud/releases/download/v0.3.1/assinafy-0.3.1.tar.gz",
-    "version": "0.3.1",
+    "hash": "sha256-IneMe1vEL6AVhmro3hJtFD8xgy8eDytP019t6961Z2o=",
+    "url": "https://github.com/assinafy/nextcloud/releases/download/v0.3.2/assinafy-0.3.2.tar.gz",
+    "version": "0.3.2",
     "description": "Connect a Nextcloud account to Assinafy with OAuth 2.0 and send stored PDF files for signature.\n\nSupported signature and notification methods include email, WhatsApp, biometric identity verification and ICP-Brasil A1/A3 digital certificates. Contract lifecycle tracking and webhook management are included.\n\nRequires an Assinafy account. An administrator registers the Assinafy OAuth client once; each user then connects one Assinafy workspace.\n\n**Data sent to Assinafy:** only when a user sends a document does the app upload the selected PDF and the recipients' names, email addresses, phone numbers and CPF/CNPJ to Assinafy (https://www.assinafy.com.br). Contract terms and webhook settings are sent when a user saves them. OAuth tokens stay encrypted on the Nextcloud server and never reach the browser.",
     "homepage": "https://www.assinafy.com.br",
     "licenses": [
@@ -260,10 +270,10 @@
     ]
   },
   "audioarchive": {
-    "hash": "sha256-IVbW+kmgwYl2eqI5Hb7AlGhYcpzwaezs2FpM16DOiWg=",
-    "url": "https://github.com/minichhenoch-sir/Audio-Archive/releases/download/v1.0.6/audioarchive-1.0.6.tar.gz",
-    "version": "1.0.6",
-    "description": "**Audio Archive** turns a folder of recordings in your Nextcloud – sermons, talks, lectures, concerts, podcasts, rehearsals – into a simple audio player for everyone.\n\n* **Browse the real folder structure**, however deeply nested, with search, sorting (name, newest, shuffle) and favourites\n* **Plays in the background** with lock-screen and headset controls, remembers where you stopped, continues with the next folder\n* **Many formats:** MP3, M4A/AAC, Ogg Vorbis, Opus, FLAC, WAV, WebM, AIFF – optionally converted to MP3 on the fly (needs ffmpeg on the server)\n* **Installable as an app** (PWA) on phones and desktops, with **offline** listening of saved folders\n* **Share without an account:** a public link with password, plus links that users create for single folders (expiry date, own design, offline/download allowed or not)\n* **Comments and ratings** per recording, overview and Excel export for admins\n* **Designs:** own colours, background image, cover images, or Nextcloud's look\n* **Help and contact** button that notifies a group in Nextcloud\n\nThe user interface is currently in **German** only; an English translation is planned.\n\nOptional: ffmpeg in the Nextcloud container for MP3 conversion; a working background job (cron) speeds up reading title/artist of large archives.",
+    "hash": "sha256-KUE0zFeto1wGvAcCV4EffsuoGLgmU0NGVQsLWGmrajs=",
+    "url": "https://github.com/minichhenoch-sir/Audio-Archive/releases/download/v1.5.0/audioarchive-1.5.0.tar.gz",
+    "version": "1.5.0",
+    "description": "**Audio Archive** turns a folder of recordings in your Nextcloud – sermons, talks, lectures, concerts, podcasts, rehearsals – into a simple audio player for everyone.\n\n* **Browse the real folder structure**, however deeply nested, with search, sorting (name, newest, shuffle) and favourites\n* **Plays in the background** with lock-screen and headset controls, remembers where you stopped, continues with the next folder\n* **Many formats:** MP3, M4A/AAC, Ogg Vorbis, Opus, FLAC, WAV, WebM, AIFF – optionally converted to MP3 on the fly (needs ffmpeg on the server)\n* **Installable as an app** (PWA) on phones and desktops, with **offline** listening of saved folders\n* **Share without an account:** links that users create in the app for any folder (password, expiry date, own design, offline/download allowed or not, display patterns for file and folder names)\n* **Comments and ratings** per recording, overview and Excel export for admins\n* **Designs:** own colours, background image, cover images, or Nextcloud's look\n* **Help and contact** button that notifies a group in Nextcloud\n\nThe user interface is currently in **German** only; an English translation is planned.\n\nOptional: ffmpeg in the Nextcloud container for MP3 conversion; a working background job (cron) speeds up reading title/artist of large archives.",
     "homepage": "https://github.com/minichhenoch-sir/Audio-Archive",
     "licenses": [
       "agpl"
@@ -407,6 +417,16 @@
     "homepage": "https://brewmemo.de/en/?source=nextcloud",
     "licenses": [
       "agpl"
+    ]
+  },
+  "briefing": {
+    "hash": "sha256-KkuzkjwFFCA+t3mbLL0Mpxj3XF/avq6hDeQYdqd6ckk=",
+    "url": "https://raw.githubusercontent.com/holtwick/briefing/master/integrations/nextcloud/releases/briefing-1.0.1.tar.gz",
+    "version": "1.0.1",
+    "description": "**Video rooms for your teams in two clicks - without a call server of your own.**\n\nBriefing brings secure video calls into Nextcloud. Create a room, share it with a group, and everyone finds it in their Briefing list. Guests without an account join with a link in the browser - no app, no sign-up.\n\n### Why Briefing\n\n- **End-to-end encrypted**: audio, video, chat and files go directly between the participants. The room key stays in the browsers; the server only brokers the connection and cannot read anything.\n- **Nothing is recorded**: there is no recording and no storage of calls on any server.\n- **Moderated rooms**: as owner you join as moderator, give roles, mute and remove participants. Roles are signed in your browser, not granted by a server.\n- **No call backend to run**: no TURN or media server setup in Nextcloud. Rooms open on the official instance brie.fi or on your own Briefing installation.\n- **Chat rooms too**: start a room as video call or as chat only.\n\n### How it works\n\n1. Open **Briefing** in the app menu and create a room - moderated by default, optionally shared with one of your groups.\n2. Join as moderator, or copy the link for guests.\n3. Members of the group see the room in their list and join as participants.\n\n### Your data\n\nThe app stores per room only its name, owner, group and the link parts. It sends nothing about your users to Briefing - the link simply opens in the browser. Rooms of a deleted user are deleted with them.\n\n### For administrators\n\nUnder *Administration settings > Additional settings > Briefing* you choose the Briefing instance: empty for the official one, or the URL of your own installation including its room path.",
+    "homepage": "https://about.brie.fi/?ref=nextcloud",
+    "licenses": [
+      "AGPL-3.0-or-later"
     ]
   },
   "budget": {
@@ -750,9 +770,9 @@
     ]
   },
   "crmhub_nc_app": {
-    "hash": "sha256-+fsOlt+1xiFAvfLKghTTnFGkL/M0L3SNDJv+tezKJ9o=",
-    "url": "https://github.com/reidellawfirm/crmhub-nc-app/releases/download/v0.2.2/crmhub_nc_app-0.2.2.tar.gz",
-    "version": "0.2.2",
+    "hash": "sha256-+Xm34OIB7x8mKBGmT+S3FwfqdVH8T9NnQnGaEoOfOIs=",
+    "url": "https://github.com/reidellawfirm/crmhub-nc-app/releases/download/v0.3.0/crmhub_nc_app-0.3.0-installable.tar.gz",
+    "version": "0.3.0",
     "description": "**Reidel CRM Hub** turns Nextcloud into a relational CRM for client and project work without replacing any existing app.\n\nIt maintains a local cache of contact records linked to Nextcloud Contacts vCards, attaches projects (with their case folder in Files and their card in Deck), records a unified activity timeline, and exposes a Dashboard widget for at-a-glance review.\n\nHeavy email/funnel automation is offloaded to Windmill via a small REST surface; a Groundhogg importer keeps existing CRM contacts in sync.",
     "homepage": "https://github.com/reidellawfirm/crmhub-nc-app",
     "licenses": [
@@ -1040,10 +1060,10 @@
     ]
   },
   "docuseal_nc_app": {
-    "hash": "sha256-HUvkXG5nu7zwsI//5DbpOTTX2sjh/G5pZakAw0cVH4k=",
-    "url": "https://github.com/reidellawfirm/docuseal-nc-app/releases/download/v1.1.11/docuseal_nc_app-1.1.11.tar.gz",
-    "version": "1.1.11",
-    "description": "**DocuSeal Integration** brings enterprise-grade electronic signature capabilities directly into Nextcloud, eliminating the need for external e-signature platforms while keeping full control over your data with a self-hosted DocuSeal instance.\n\n### Signing Workflows\n\n- **Direct upload signing** — right-click any PDF, DOCX or image file in the Files app and request signatures immediately, without pre-configuring templates\n- **Template-based signing** — select from pre-configured DocuSeal templates for standardized processes such as contracts, NDAs, and agreements\n- **Interactive template builder** — drag-and-drop signature, date, and text fields onto documents without leaving Nextcloud\n- **Mixed recipients** — combine Nextcloud users (with autocomplete and avatars) and external email addresses in the same request\n- **Embedded signing** — signers can complete their signature directly inside Nextcloud via an embedded interface, or receive a signing link by email\n\n### Tracking and Management\n\n- **File sidebar panel** — a dedicated \"Signatures\" tab shows per-signer status (pending, sent, opened, completed, declined) with a visual progress bar\n- **Real-time updates** — webhook integration delivers instant status changes; a background job polls every 15 minutes as fallback\n- **Nextcloud notifications** — receive alerts when a signer completes, declines, or when all signatures are collected\n- **Activity log** — every signature event (requested, completed, declined, cancelled) is recorded in the Nextcloud Activity app\n- **Reminders and cancellation** — resend reminder emails to individual signers or cancel pending requests at any time\n- **Expiration dates** — set optional deadlines after which signing is no longer possible\n\n### Signed Documents\n\n- **Automatic download** — completed documents are saved back to Nextcloud with a timestamped filename (e.g. `contract_signed_20260326_143000.pdf`)\n- **Audit trail** — view a detailed timeline for each signer and download the official DocuSeal PDF audit log for compliance and legal records\n\n### Dashboard and Search\n\n- **Dashboard widget** — shows your most recent signature requests with status at a glance\n- **Unified search** — find signature requests by filename or status from Nextcloud's global search bar\n\n### Security\n\n- API credentials encrypted at rest using Nextcloud's encryption service\n- Webhook validation via HMAC-SHA256 shared secret\n- Time-limited JWT tokens for the template builder\n- HMAC-protected file download tokens with 10-minute expiry\n- Full user isolation — each user only sees their own requests\n\n### Multilingual\n\nAvailable in **English**, **Italian**, **German**, **French**, and **Spanish**.\n\n### Getting Started\n\n1. Install and enable the app\n2. Go to **Settings → Connected accounts → DocuSeal**\n3. Enter your DocuSeal server URL and API key\n4. Optionally configure the webhook URL displayed in the settings panel\n5. Right-click any PDF or DOCX in the Files app and select **Request signature with DocuSeal**\n\nRequires a self-hosted [DocuSeal](https://www.docuseal.com) Enterprise instance (Nextcloud 30–34, PHP 8.1+).",
+    "hash": "sha256-YAqW6iRINalqQ6cTA6dID5a64FlN9ABRhHBKag4p7Ds=",
+    "url": "https://github.com/reidellawfirm/docuseal-nc-app/releases/download/v1.1.16/docuseal_nc_app-1.1.16.tar.gz",
+    "version": "1.1.16",
+    "description": "**DocuSeal Integration** brings enterprise-grade electronic signature capabilities directly into Nextcloud, eliminating the need for external e-signature platforms while keeping full control over your data with a self-hosted DocuSeal instance.\n\n### Signing Workflows\n\n- **Direct upload signing** — right-click any PDF, DOCX or image file in the Files app and request signatures immediately, without pre-configuring templates\n- **Template-based signing** — select from pre-configured DocuSeal templates for standardized processes such as contracts, NDAs, and agreements\n- **Interactive template builder** — drag-and-drop signature, date, and text fields onto documents without leaving Nextcloud\n- **Mixed recipients** — combine Nextcloud users (with autocomplete and avatars) and external email addresses in the same request\n- **Embedded signing** — signers can complete their signature directly inside Nextcloud via an embedded interface, or receive a signing link by email\n\n### Tracking and Management\n\n- **File sidebar panel** — a dedicated \"Signatures\" tab shows per-signer status (pending, sent, opened, completed, declined) with a visual progress bar\n- **Real-time updates** — webhook integration delivers instant status changes; a background job polls every 15 minutes as fallback\n- **Nextcloud notifications** — receive alerts when a signer completes, declines, or when all signatures are collected\n- **Activity log** — every signature event (requested, completed, declined, cancelled) is recorded in the Nextcloud Activity app\n- **Reminders and cancellation** — resend reminder emails to individual signers or cancel pending requests at any time\n- **Expiration dates** — set optional deadlines after which signing is no longer possible\n\n### Signed Documents\n\n- **Automatic download** — completed documents are saved back to Nextcloud with a timestamped filename (e.g. `contract_signed_20260326_143000.pdf`)\n- **Audit trail** — view a detailed timeline for each signer and download the official DocuSeal PDF audit log for compliance and legal records\n\n### Dashboard and Search\n\n- **Dashboard widget** — shows your most recent signature requests with status at a glance\n- **Unified search** — find signature requests by filename or status from Nextcloud's global search bar\n\n### Security\n\n- API credentials encrypted at rest using Nextcloud's encryption service\n- Webhook validation via HMAC-SHA256 shared secret\n- Time-limited JWT tokens for the template builder\n- HMAC-protected file download tokens with 10-minute expiry\n- Full user isolation — each user only sees their own requests\n\n### Multilingual\n\nAvailable in **English**, **Italian**, **German**, **French**, and **Spanish**.\n\n### Getting Started\n\n1. Install and enable the app\n2. Go to **Settings → Connected accounts → DocuSeal**\n3. Enter your DocuSeal server URL and API key\n4. Enter the email of the DocuSeal account that owns the API key (required for the field builder)\n5. Optionally configure the webhook URL displayed in the settings panel\n6. Right-click any PDF or DOCX in the Files app and select **Request signature with DocuSeal**\n\nRequires a self-hosted [DocuSeal](https://www.docuseal.com) Enterprise instance (Nextcloud 34–35, PHP 8.1+).",
     "homepage": "https://github.com/reidellawfirm/docuseal-nc-app",
     "licenses": [
       "AGPL-3.0-or-later"
@@ -1330,9 +1350,9 @@
     ]
   },
   "files_antivirus": {
-    "hash": "sha256-C/2WUqxBLI/4UyaJ/WX50LmW0C4aso4ThHmwhBgX9vA=",
-    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v6.5.0/files_antivirus-v6.5.0.tar.gz",
-    "version": "6.5.0",
+    "hash": "sha256-rCix5480KahExEJexFn1WqfPj9Rh79KsbYT68VTQ560=",
+    "url": "https://github.com/nextcloud-releases/files_antivirus/releases/download/v6.5.1/files_antivirus-v6.5.1.tar.gz",
+    "version": "6.5.1",
     "description": "Antivirus for files is an antivirus app for Nextcloud.\n\n* 🕵️‍♂️ When the user uploads a file, it's checked\n* ☢️ Uploaded and infected files will be deleted and a notification will be shown and/or sent via email\n* 🔎 Background Job to scan all files\n* ❓ Use ClamAV (open source), Kaspersky Scan Engine or an ICAP compatible scanner\n\nThis application inspects files that are uploaded to Nextcloud for viruses before they are written to the Nextcloud storage. If a file is identified as a virus, it is either logged or not uploaded to the server. The application relies on the underlying ClamAV virus scanning engine, which the admin points Nextcloud to when configuring the application. Alternatively, a Kaspersky Scan Engine can be configured, which has to run on a separate server.\nFor this app to be effective, the ClamAV virus definitions should be kept up to date. Also note that enabling this app will impact system performance as additional processing is required for every upload. More information is available in the Antivirus documentation.",
     "homepage": "",
     "licenses": [
@@ -1659,6 +1679,16 @@
       "AGPL-3.0-or-later"
     ]
   },
+  "foldertemplate": {
+    "hash": "sha256-VfEJfln01CWTKXbBxTFSQUnJquiJQO7l2MT+QmdKTTE=",
+    "url": "https://github.com/uttii-com/uttii-foldertemplate/releases/download/v0.2.0/foldertemplate-v0.2.0.tar.gz",
+    "version": "0.2.0",
+    "description": "uttii-FolderTemplate lets you register any existing Nextcloud folder as a dynamic template using its internal fileId. Whenever the source folder is updated, moved, or renamed, newly created folders from the template always reflect the latest contents without consuming extra storage. Includes template management in Personal Settings, Japanese/English UI switching, and automatic duplicate-name numbering.",
+    "homepage": "https://app-nextcloud.uttii.com/",
+    "licenses": [
+      "AGPL-3.0-or-later"
+    ]
+  },
   "folderwatch": {
     "hash": "sha256-2jl/+CEuol7apErijylRR0nseOG0A9MLx0GQIGC5w6k=",
     "url": "https://github.com/feixeth/folderwatch/releases/download/v1.0.4/folderwatch-1.0.4.tar.gz",
@@ -1770,9 +1800,9 @@
     ]
   },
   "fulltextsearch_pgsql": {
-    "hash": "sha256-on80FDuZdJbQg+B+NJJ1hkmAK2qKiNjkWfWoiiNmY1g=",
-    "url": "https://github.com/surfcu/fulltextsearch_pgsql/releases/download/1.5.0/fulltextsearch_pgsql.tar.gz",
-    "version": "1.5.0",
+    "hash": "sha256-K4jFPDPL0T5DMM/deiuzf/g2XalMdzMJa1if4FRwzI4=",
+    "url": "https://github.com/surfcu/fulltextsearch_pgsql/releases/download/1.6.0/fulltextsearch_pgsql.tar.gz",
+    "version": "1.6.0",
     "description": "Index and search your Nextcloud using PostgreSQL's built-in full-text search, with no extra search server.\n\n- Weighted ranking (title > tags > comments/parts > content), with rare words counting more in searches with several words, and excerpts around the match even in long documents\n- Prefix matching while typing, \"exact phrases\", -exclusions and OR\n- The Files app's filters: by extension, file name or content only, local/external/group folders\n- Typo correction and search without diacritics (\"calisma\" finds \"çalışma\")\n- Substring matching in titles and file names split into words\n- Every text search language your PostgreSQL server ships, including Turkish, and several at once: each document is indexed in its own language\n- Respects ownership and shares to users, groups and teams\n- Text extraction for plain text, OpenDocument and Office files (including Office 97–2003 with catdoc), and PDFs (pdftotext when installed, a built-in parser otherwise)\n- Settings and status in Administration settings → Full text search, or with occ\n\nRequires Nextcloud to run on PostgreSQL 13 or newer, plus the Full Text Search app.",
     "homepage": "https://github.com/surfcu/fulltextsearch_pgsql",
     "licenses": [
@@ -1970,10 +2000,10 @@
     ]
   },
   "hc_familytree": {
-    "hash": "sha256-T3qhX/eHB8PDAgQxKTMncd5XJr6vk5UzsDhaOWfXEs4=",
-    "url": "https://github.com/hacesoft/FamilyTree/releases/download/v1.2.0/hc_familytree-1.2.0.tar.gz",
-    "version": "1.2.0",
-    "description": "# FamilyTree\n\nKeep family history in your own Nextcloud instance. Create, explore and share family trees without publishing personal records to an external service.\n\n## Features\n- Interactive family trees, people, relatives and events\n- Photos, documents, sources, citations and research notes\n- FamilySearch GEDCOM 7 and GEDZIP import with research records\n- Access-controlled sharing with other Nextcloud users\n- Responsive layout with multilingual interface\n\n## Installation\nInstall the signed official release from Nextcloud Apps. For developers/testers only, the source repository provides a Docker install.sh.\n\n## Requirements\n- Nextcloud 35\n- Hacesoft Shared App Core 0.18.8 or newer, installed and enabled\n\n## Documentation\nhttps://github.com/hacesoft/familytree",
+    "hash": "sha256-Fcxs2/T5P42guxCMLspQ0qVDATGnsbO2OhFEe1OelB8=",
+    "url": "https://github.com/hacesoft/FamilyTree/releases/download/v1.2.1/hc_familytree-1.2.1.tar.gz",
+    "version": "1.2.1",
+    "description": "# FamilyTree 1.2.1 — NIGHTLY TEST ONLY\n\n**WARNING: This is an experimental nightly release, not a functional production application.**\n\nThis release exists exclusively to test Nextcloud App Store metadata, screenshots, and NC34–NC35 compatibility declarations. Family tree editing, viewing, imports, exports, and all other genealogy functions are intentionally unavailable. No database migrations or data changes are performed by this test application.\n\nDo not install this nightly build on an instance where you use the production FamilyTree app. It uses the same application ID and replaces the production application code.\n\nThis release does NOT demonstrate actual compatibility with Nextcloud 34.",
     "homepage": "https://github.com/hacesoft/familytree",
     "licenses": [
       "AGPL-3.0-or-later"
@@ -2890,9 +2920,9 @@
     ]
   },
   "learning": {
-    "hash": "sha256-VZgVsiCi0XAsd3E0hFELkyuvBcrmcpWhu+X1FPGj1xo=",
-    "url": "https://github.com/andremadstop/learning-nc/releases/download/v5.14.1/learning-5.14.1.tar.gz",
-    "version": "5.14.1",
+    "hash": "sha256-BKOHgF8ieKLW7rW/H20TOGYiiubMXILAivwuZs9ro08=",
+    "url": "https://github.com/andremadstop/learning-nc/releases/download/v5.15.0/learning-5.15.0.tar.gz",
+    "version": "5.15.0",
     "description": "**Learning** is a self-hosted learning platform for Nextcloud. Your questions, progress, and student data never leave your server.\n\nBuilt for IT certification bootcamps (CompTIA, Cisco, AWS) but works for any subject. Instructors create courses, track student progress, and identify at-risk learners. Students drill with scientifically-backed spaced repetition and hands-on simulations.\n\n## Why Learning?\n\n- **Your data stays on your server** — no cloud dependency, full GDPR compliance\n- **FSRS adaptive scheduling** — cards are prioritized by memory strength, not rigid intervals\n- **9 interactive IT simulators** — CLI terminals, firewall builders, DNS resolvers, subnet calculators, network topology placement\n- **AI tutor (optional)** — answers questions by citing your uploaded course materials\n- **Verifiable certificates** — issue cryptographically signed, publicly verifiable completion credentials\n\n## For Instructors\n\n- Course management with pool assignment and student enrollment\n- **At-risk warnings** — automatic detection of struggling students\n- **Chapter heatmaps** — see where the class struggles at a glance\n- **Curriculum timeline** — plan course schedule with milestones\n- **Admin dashboard** — CSV export, course archiving, cohort merging\n- Campaign selection — choose which story scenarios are available per course\n\n## Certification &amp; Compliance\n\n- **Signed completion certificates** — every passing learner receives a cryptographically signed (Ed25519) certificate, minted automatically\n- **Public verification portal** — anyone can verify a certificate's authenticity via its permanent URL, no login required\n- **Compliance reports** — organization-wide completion overview for audits and works agreements\n- **Mandatory training &amp; recertification** — assign required courses, track certificate expiry, and automate recertification reminders\n- **Tamper-proof audit trail** — every issuance, revocation, and completion is logged\n\n## For Learners\n\n- **Smart Queue** — one-click review of all due cards, sorted by urgency\n- **Training &amp; Exam Mode** — practice or simulate timed exams\n- **PBQ Simulations** — performance-based questions with interactive CLI, drag-and-drop placement, and wiring tasks\n- **Story Campaigns** — learn through real IT incident scenarios (WannaCry, SolarWinds, Log4Shell)\n- **Live Duels &amp; Sprint** — real-time multiplayer quiz battles via Server-Sent Events\n- **Gamification** — XP, levels, streaks, 10 badges, seasonal league\n- **Maintenance Mode** — long-term retention schedule after course ends\n- **Trouble-spot cheat sheet** — export your weakest topics for exam prep\n\n## AI Features (optional)\n\nOptional: the admin connects Google Gemini (API key) or a local Ollama server. Without a connection, the app is fully functional — AI features are simply off. Each user must explicitly consent to the configured recipient before any data is sent; the consent is asked again if the recipient or the consent text changes, and can be withdrawn at any time.\n\n- **VirtuProf** — AI learning assistant with RAG-powered answers and source citations\n- **Question Generator** — create flashcards from pasted text\n- **Note Generator** — AI-powered topic summaries saved to Nextcloud Files\n\n## Question Types\n\n- Multiple Choice, Free Text with fuzzy matching, PBQ Simulations\n- CSV/JSON import &amp; export, pool sharing, multi-language translations\n\n## Technical\n\n- Vue 3, Vite, Pinia — modern frontend stack\n- 1830 automated tests, PHPStan Level 5, pre-push quality gates\n- Native Nextcloud integration: Dashboard widgets, Notifications, Talk, Files\n- AGPL-3.0 — fully open source\n\n## Requirements\n\n- Nextcloud 33–35\n- PHP 8.1+\n- PostgreSQL 13+ or MySQL 8+\n\n**Looking for pilot partners!** If you run Nextcloud at a school, university, or training provider — we'd love your feedback. Open an issue with a bit of context and we're happy to walk you through it.",
     "homepage": "https://github.com/andremadstop/learning-nc",
     "licenses": [
@@ -2970,8 +3000,8 @@
     ]
   },
   "libresign": {
-    "hash": "sha256-er6HlKvtXwxKjZfXauJTVw8QfN8w5Phfwc+E+nG4lnI=",
-    "url": "https://github.com/LibreSign/libresign/releases/download/v15.0.12/libresign-v15.0.12.tar.gz",
+    "hash": "sha256-zSeRYt4oGVRfS4dozatXkVlu2OQ5xqFoFJJF8439g3E=",
+    "url": "https://github.com/LibreSign/libresign/releases/download/nightly/libresign-nightly.tar.gz",
     "version": "15.0.12",
     "description": "**LibreSign helps organizations manage document signing inside Nextcloud.**\n\nIt is built for teams that need clear signing rules, traceable actions, and workflows that follow internal processes and legal requirements.\n\nLibreSign has been a verified [Digital Public Good](https://digitalpublicgoods.net/r/libresign) since 2025.\n\n**What LibreSign enables**\n\n- Define signing order and signer roles\n- Support internal and external signers\n- Keep a traceable record of requests and validations\n- Use digital certificates for compliant signing workflows\n- Validate documents using QR codes\n- Work directly with Nextcloud files and users\n- Integrate signing with other systems through APIs\n\n**Support LibreSign**\nIf your organization uses LibreSign, support its development:\n\n[![Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/libresign)\n\nFor enterprise support, contact LibreCode:\nhttps://libresign.coop",
     "homepage": "https://github.com/LibreSign/libresign",
@@ -3000,10 +3030,10 @@
     ]
   },
   "listman": {
-    "hash": "sha256-BgJnwDhv4iIPs8+eez++jT44K5Ma/FWNz2CfrCHUHrU=",
-    "url": "https://dalliance.net/listman/listman-35.1.0.tar.gz",
-    "version": "35.1.0",
-    "description": "This is a simple app for managing mail-lists with the Nextcloud System. Each Nextcloud user may create multiple mail-lists, circulate subscribe forms, send messages to the members of the list etc. It has a separate SMTP configuration visible only to nextcloud admin-users.\\n\\nOnly admins can send to lists, not for a shared discussion.\\n\\nNew in version 31.0.1 - fixed bugs to allow working with Nextcloud31.\\n\\nNew in version 32.0.2 - Allow share links to be hidden.\\n\\nNew in version 33.0.0 - Version Bump for new Nextcloud.\\n\\nNew in version 33.0.1 - Fix bug breaking sent queue display\\nNew in version 35.0.0 - Fixes to work with latest Nextcloud\\nNew in version 35.1.0 - Setting in each list to hide react links. Database schema will upgrade.",
+    "hash": "sha256-L2R42x4p+fWHRmRpSrRd3jKrSAG5halrsxWzkgtg6qE=",
+    "url": "https://dalliance.net/listman/listman-35.1.1.tar.gz",
+    "version": "35.1.1",
+    "description": "This is a simple app for managing mail-lists with the Nextcloud System. Each Nextcloud user may create multiple mail-lists, circulate subscribe forms, send messages to the members of the list etc. It has a separate SMTP configuration visible only to nextcloud admin-users.\\n\\nOnly admins can send to lists, not for a shared discussion.\\n\\nNew in version 31.0.1 - fixed bugs to allow working with Nextcloud31.\\n\\nNew in version 32.0.2 - Allow share links to be hidden.\\n\\nNew in version 33.0.0 - Version Bump for new Nextcloud.\\n\\nNew in version 33.0.1 - Fix bug breaking sent queue display\\nNew in version 35.0.0 - Fixes to work with latest Nextcloud\\nNew in version 35.1.0 - Setting in each list to hide react links. Database schema will upgrade.\\n\\nV31.1.1 - Remove old script reference no longer user, stops error in log.",
     "homepage": "https://github.com/revpriest/listman",
     "licenses": [
       "agpl"
@@ -3380,9 +3410,9 @@
     ]
   },
   "netbase": {
-    "hash": "sha256-3P1fVXFCnRm5Ph5LsgAhejkTJ1q+jwU1qtQPn/TESvo=",
-    "url": "https://github.com/ktec-nc-apps/NetBase/releases/download/v0.9.17/netbase-0.9.17.tar.gz",
-    "version": "0.9.17",
+    "hash": "sha256-ogG9wF6G0ZPT85qKK9w7DW+1T2Y5JsLHCO2lxRKly8A=",
+    "url": "https://github.com/ktec-nc-apps/NetBase/releases/download/v0.9.19/netbase-0.9.19.tar.gz",
+    "version": "0.9.19",
     "description": "NetBase turns your Nextcloud into a network console: it finds every device on the LAN, opens each one's own settings page from inside Nextcloud, and keeps the everyday lookup tools on the same screen.\n\nDevice windows are the heart of it. The server fetches a device's own web interface and rewrites every address inside it, so a router, a switch, a printer or a NAS can be signed into and configured from anywhere the Nextcloud is reachable — no VPN, no jump host, no site visit. Firmware can be sent, a configuration restored, a backup taken. Several windows can be open at once.\n\nDiscovery needs no root, no agent and no extra packages: NetBase primes the kernel neighbour table, reads it back, and asks each device for its own name over NetBIOS, mDNS, WS-Discovery and SSDP. It also listens for the announcements devices make, continuously and in the background, so a device sitting on another subnet of the same wire — one nothing here can reach, and which can never answer a question — still appears in the list. MAC addresses are resolved against a bundled IEEE registry of more than 53,000 vendor prefixes, offline.\n\nWhat each part is for:\n- Device windows — a device's own settings page, through Nextcloud, from anywhere\n- LAN sweep and inventory — name, IPv4, MAC, vendor, type and open ports, exportable as CSV\n- DNS — any record type from any resolver, resolver comparison, delegation trace, zone-transfer test\n- Whois and free-domain search — look up any domain or address (IANA referrals, no whois binary), or check a name across a whole range of endings at once to find one that is still free\n- Wake-on-LAN — wake a device by its MAC address\n- TLS and HTTP — certificate, chain and expiry, accepted TLS versions, redirect chain, security headers\n- Mail — SPF, DKIM, DMARC, MTA-STS, DANE and blocklists, SMTP/IMAP/POP3 server tests and an open-relay test, plus a basic mail program: read, search, reply, forward and send with attachments from your Nextcloud files\n- FTP, SFTP and SCP — browse a remote server and move files to and from your Nextcloud folders; copy, move, compress and extract (ZIP, tar.gz, 7z and more), convert text encodings and line endings, resume transfers, and act as another account through sudo\n- SSH and Telnet — a credential-free probe, and commands or a full terminal on a saved connection\n- Benchmarks — internet speed, LAN throughput over iperf3, resolver comparison, HTTP timing\n- Every result can be copied, downloaded or saved straight into your own Nextcloud files\n- An AI assistant, through the AI-Hub app, that explains what is on the screen (a scan, a ping, a list of devices); administrators who switch it on can let it suggest commands, run only after the person approves each one. Without AI-Hub it is simply not shown\n\nAccess is per tool. NetBase is an administrator's app, and everything that touches the local network defaults to administrators — but each tool can be opened to named groups or to everyone from Administration settings, so an instance can lend out whois, DNS and the other harmless lookups without lending out the network. Where an account is allowed nothing, NetBase leaves itself out of that account's app menu.\n\nAvailable in twenty-one languages, and NetBase can be set to a different language from the rest of Nextcloud, per account.",
     "homepage": "https://github.com/ktec-nc-apps/NetBase",
     "licenses": [
@@ -3449,6 +3479,16 @@
       "AGPL-3.0-or-later"
     ]
   },
+  "nextgallery": {
+    "hash": "sha256-8AZuijYUvUIjeVM2oJW2NRuofZGsBC28s7CTPP68KiM=",
+    "url": "https://github.com/wolpa29/nextcloud-nextgallery/releases/download/v0.4.48/nextgallery.tar.gz",
+    "version": "0.4.48",
+    "description": "Open your Nextcloud photos and videos as a gallery right in your browser. Pick the folders you already use, browse by date, or see photos with location data on a map. Your files stay in their folders. Save previews to browse offline.\n\nThe gallery works without AI. With optional setup, you can also search for what's in a photo, read text in images, and find spoken words in videos.\n\nInstall **NextGallery Server** from **Apps** in your Nextcloud, then open it and choose your folders.\n\n**Also on Android.** Browse your Nextcloud photos and videos on your phone with [NextGallery on Google Play](https://play.google.com/store/apps/details?id=at.wolpa.chronik).",
+    "homepage": "https://github.com/wolpa29/nextcloud-nextgallery",
+    "licenses": [
+      "AGPL-3.0-or-later"
+    ]
+  },
   "nextpod": {
     "hash": "sha256-zhD/JvlJlirD/TgBIRIIjIM5Zp8U31KKWTnvYm+IhwQ=",
     "url": "https://github.com/pbek/nextcloud-nextpod/releases/download/v0.7.13/nextpod-0.7.13.tar.gz",
@@ -3490,10 +3530,10 @@
     ]
   },
   "noteberg": {
-    "hash": "sha256-uU/r6mveIGO7Cje0jZPzAtssPx48ZYRfgFkO6xKgLHQ=",
-    "url": "https://github.com/thomasleuthold/NoteBerg/releases/download/0.5.43/noteberg_nextcloud-0.5.43.9.tar.gz",
-    "version": "0.5.43",
-    "description": "NoteBerg is a note-taking app combining handwriting, rich text, and Nextcloud sync.\n\n## Features\n\n### Handwriting & Drawing\n- Handwriting input with active stylus and pressure sensitivity\n- Pen tool with customizable colors, marker/highlighter tool\n- Lasso selection — move, resize, rotate, copy selected strokes\n- Eraser tool, unlimited undo/redo\n- Mark handwritten notes as tasks\n\n### Text Editing\n- Rich text editor (WYSIWYG) with formatting, tables, colors, and font sizes\n- Automatic mode switching between drawing and text editing\n- Task checkboxes inline with notes\n\n### Media & Import/Export\n- PDF import — annotate PDFs with pen and text\n- Image insertion with cropping and perspective correction, with automatic page corner detection\n- Document mode in the camera — outlines the page live, straightens it after the shot, and can flatten shadows for a scanned look\n- PDF export with automatic A4 pagination\n\n### Organization\n- Notebooks for hierarchical organization\n- Note overview with thumbnail previews\n- Full-text search across handwriting and typed text\n- Markers tab — browse task markers across all notes\n- Recycle bin with soft delete and permanent deletion\n\n### Sync & Storage\n- Offline-first — all data stored locally in IndexedDB\n- Nextcloud sync via WebDAV with conflict resolution\n\n### UI\n- Dark mode / light mode with system preference detection\n- Background patterns — ruled lines and grid\n- Internationalization — English, German, Spanish, French, Italian, Japanese, Korean, Portuguese, Chinese\n\n### Handwriting Recognition\n- Optional AI recognition with a vision model you configure yourself — off by default, always started manually.\n- Nothing is sent anywhere unless you turn it on and supply your own provider details.\n- When you start a recognition, your handwriting is rendered as an image and sent from your Nextcloud server to the endpoint you configured, and the transcribed text is returned.\n- The request is made by the server rather than the browser, so your API key stays on the server and is never exposed to the web page. It is stored encrypted.\n\n### AI Integration (optional)\n- A shared, off-by-default AI provider connection (endpoint, model, API key) configured once per account in the app's settings. There is no built-in or shared service, and no key ships with the app.\n- AI handwriting recognition (above) is the first feature built on this connection, with more planned.\n\n### Data & Privacy\n- All note data is stored exclusively on your own Nextcloud server — no third-party services or telemetry, except for the optional AI recognition described above, which is off unless you configure it\n- Note: uninstalling this app does not delete your note data from the server. Your notes remain in the /NoteBerg/ WebDAV folder and can be re-accessed by reinstalling the app. This is intentional — your data may also have been synced there by the NoteBerg desktop or mobile app.\n\n### Also available on other platforms\n- Android: native app via Google Play open testing: https://play.google.com/store/apps/details?id=eu.noteberg.app\n- Windows: desktop installer from GitHub Releases: https://github.com/thomasleuthold/NoteBerg/releases (unsigned build; Windows may warn about an unknown publisher)",
+    "hash": "sha256-qnKHU1j3f2ClnZ0cx3b18Bc0+KXbOvI/1t9MBI0I/og=",
+    "url": "https://github.com/thomasleuthold/NoteBerg/releases/download/0.5.44/noteberg_nextcloud-0.5.44.10.tar.gz",
+    "version": "0.5.44",
+    "description": "NoteBerg is a note-taking app combining handwriting, rich text, and Nextcloud sync.\n\n## Features\n\n### Handwriting & Drawing\n- Handwriting input with active stylus and pressure sensitivity\n- Pen tool with customizable colors, marker/highlighter tool\n- Lasso selection — move, resize, rotate, copy selected strokes\n- Eraser tool, unlimited undo/redo\n- Mark handwritten notes as tasks\n\n### Text Editing\n- Rich text editor (WYSIWYG) with formatting, tables, colors, and font sizes\n- Text boxes anywhere on the page: tap to type, drag to move, change the width; they snap to the page's lines and grid, and work on PDF pages too\n- Automatic mode switching between drawing and text editing\n- Task checkboxes inline with notes\n\n### Media & Import/Export\n- PDF import — annotate PDFs with pen and text\n- Image insertion with cropping and perspective correction, with automatic page corner detection\n- Document mode in the camera — outlines the page live, straightens it after the shot, and can flatten shadows for a scanned look\n- PDF export with automatic A4 pagination\n\n### Organization\n- Notebooks for hierarchical organization\n- Note overview with thumbnail previews\n- Full-text search across handwriting and typed text\n- Markers tab — browse task markers across all notes\n- Recycle bin with soft delete and permanent deletion\n\n### Sync & Storage\n- Offline-first — all data stored locally in IndexedDB\n- Nextcloud sync via WebDAV with conflict resolution\n- Notebook sharing (preview, off by default): share a notebook with another Nextcloud user to read or edit; open notes pick up the other person's changes\n\n### UI\n- Dark mode / light mode with system preference detection\n- Background patterns — ruled lines and grid\n- Internationalization — English, German, Spanish, French, Italian, Japanese, Korean, Portuguese, Chinese\n\n### Handwriting Recognition\n- Optional AI recognition with a vision model you configure yourself — off by default, always started manually.\n- Nothing is sent anywhere unless you turn it on and supply your own provider details.\n- When you start a recognition, your handwriting is rendered as an image and sent from your Nextcloud server to the endpoint you configured, and the transcribed text is returned.\n- The request is made by the server rather than the browser, so your API key stays on the server and is never exposed to the web page. It is stored encrypted.\n\n### AI Integration (optional)\n- A shared, off-by-default AI provider connection (endpoint, model, API key) configured once per account in the app's settings. There is no built-in or shared service, and no key ships with the app.\n- AI handwriting recognition (above) is the first feature built on this connection, with more planned.\n\n### Data & Privacy\n- All note data is stored exclusively on your own Nextcloud server — no third-party services or telemetry, except for the optional AI recognition described above, which is off unless you configure it\n- Note: uninstalling this app does not delete your note data from the server. Your notes remain in the /NoteBerg/ WebDAV folder and can be re-accessed by reinstalling the app. This is intentional — your data may also have been synced there by the NoteBerg desktop or mobile app.\n\n### Also available on other platforms\n- Android: native app via Google Play open testing: https://play.google.com/store/apps/details?id=eu.noteberg.app\n- Windows: desktop installer from GitHub Releases: https://github.com/thomasleuthold/NoteBerg/releases (unsigned build; Windows may warn about an unknown publisher)",
     "homepage": "",
     "licenses": [
       "MIT"
@@ -3762,9 +3802,9 @@
     ]
   },
   "paperless_sync": {
-    "hash": "sha256-+w9NZ8MW7XVvyOSiyvEewSiJCPIbHRio0q3U87ALYH8=",
-    "url": "https://github.com/Dennis-Otto/paperless-sync/releases/download/v1.10.0/paperless_sync.tar.gz",
-    "version": "1.10.0",
+    "hash": "sha256-8w7G0UnAi2NEdv3QS7ChlmTvxqeUdzXCrT6GVji9BzM=",
+    "url": "https://github.com/Dennis-Otto/paperless-sync/releases/download/v1.10.3/paperless_sync.tar.gz",
+    "version": "1.10.3",
     "description": "### A native bridge between Paperless-ngx and Nextcloud\n\nPaperless Sync mirrors finalized Paperless-ngx documents into a readable Nextcloud folder structure. Paperless remains the authoritative document archive while Nextcloud provides familiar access through Files, desktop sync, mobile apps, sharing, and its built-in viewer. Files that you put into an inbox folder of Nextcloud go the other way, to Paperless.\n\n### The archive in Files\n\n- Builds the folders from correspondent, document type, date, title, and document ID, with a path template that shows where the newest documents go while you type, or follows the storage paths of Paperless\n- Exports archive PDFs or original files, and moves or renames a copy when its metadata changes in Paperless: it stays the same file, with its shares, comments, and versions\n- Gives each Nextcloud user the documents they own in Paperless, and if you choose those that it shares with them, through the one connection of the administrator (optional per-user ownership)\n- Lets the administrator give some users only the documents with their tags of Paperless, in an archive of their own, while everyone else sees what they saw before\n- Waits for documents in the Paperless inbox until they are finalized, leaves out those with a tag that you exclude, or mirrors only the documents with the tags that you choose\n- Shows the tags of Paperless as Nextcloud tags on the copies, so that Files filters and searches the archive by them\n- Writes metadata next to the archive if you like: a JSON sidecar for each document, with its tags, notes, and custom fields, and an index.csv of the whole archive\n- Mirrors the Paperless trash into a folder of its own and removes empty archive folders after moves and deletions\n\n### Inbox and Files\n\n- Imports files from a Nextcloud inbox folder into Paperless, with a tag for each subfolder if you like, and moves a failed import to an error folder, next to its reason\n- Sends a file or a folder to Paperless from its menu in Files, for a group of your choice, and opens the document of a mirrored copy in Paperless\n- Sends files to Paperless by rules of Flow, such as every PDF that a member of a group uploads, with tags of their own\n- Shows a note above each folder of the app in Files that says what it does, also to people who reach it through a share\n\n### Setup and operation\n\n- Leads through the setup with Getting started, and creates the account of the app in Paperless in one step, with only the permissions that your features need\n- Delegates the settings to a group, for the person who runs Paperless but isn't an administrator of Nextcloud\n- Runs through native Nextcloud background jobs with resumable state, and mirrors a new or changed document within seconds when a workflow of Paperless calls its webhook, protected by a secret\n- Reports what each run and dry-run changed on the settings page, errors first, and what each run changed in the Activity stream, with links to the files\n- Notifies the administrators when the mirror keeps failing, with setup checks under Administration and a status API for monitors such as Uptime Kuma or Home Assistant\n- Offers `occ` commands for scripts and monitoring: a run, a dry-run, the status, and copies written again, with JSON output\n- Follows the language of Nextcloud in English, German (informal and formal), French, Spanish, Dutch, Simplified Chinese, and Traditional Chinese\n- Can be [tried in a few minutes](https://dennis-otto.github.io/paperless-sync/#try-it) with a demo in Docker, which starts Nextcloud and Paperless-ngx with a made-up household archive\n\n### Safe by default\n\nSynchronization is disabled until an administrator completes and validates the configuration. Permanent deletion is an explicit opt-in and can be protected by multiple missing-document confirmations. A dry-run previews changes without modifying files.\n\nThe Paperless API token is stored server-side in Nextcloud's credentials manager and is never returned to the browser. The app operates directly through Nextcloud's filesystem API, so no Nextcloud password or WebDAV credential is required. A Paperless in your local network, such as `http://paperless:8000`, works without turning off Nextcloud's protection against server-side request forgery for the whole server.\n\n### Requirements\n\n- Nextcloud 33 to 35 with reliable cron background jobs\n- A reachable Paperless-ngx instance, version 2.16 or newer, 3.x included, with API access\n- A Paperless account for the app, no superuser, with only the permissions needed for the enabled features, which the settings can create for you\n\nPaperless Sync is independent from [Paperless Unified Search](https://apps.nextcloud.com/apps/paperless_unified_search). Both apps understand stable document markers such as `[P123]` and can be installed separately.",
     "homepage": "https://dennis-otto.github.io/paperless-sync/",
     "licenses": [
@@ -3772,9 +3812,9 @@
     ]
   },
   "paperless_unified_search": {
-    "hash": "sha256-G/hjK2RnQXduWyRCQT9pjWD8GzPwyJuowUFx7gtyw6I=",
-    "url": "https://github.com/Dennis-Otto/paperless-unified-search/releases/download/v1.8.1/paperless_unified_search.tar.gz",
-    "version": "1.8.1",
+    "hash": "sha256-4o9fcIBVxfCB+9ZBpm9H3HfUwiw8DHTtg9Bc05vJSuE=",
+    "url": "https://github.com/Dennis-Otto/paperless-unified-search/releases/download/v1.8.2/paperless_unified_search.tar.gz",
+    "version": "1.8.2",
     "description": "Full-text search of your Paperless-ngx archive in Nextcloud's search bar, without Elasticsearch, a second index or another container: Paperless answers, Nextcloud decides who sees the file.\n\nFind invoices, contracts, letters, statements, and any text recognized inside your documents, and open the synchronized file in Nextcloud's viewer — without leaving Nextcloud.\n\n### Search in Paperless. Work in Nextcloud.\n\n- Uses Paperless-ngx's native OCR and full-text search, with no index of its own to build or keep current\n- Shows results directly in Nextcloud's global search, each with a preview of the document, its date in your language, its correspondent, its type and its tags\n- Finds documents from the smart picker in Talk, Text, Deck, and Mail, and inserts a link to their file\n- Lists the newest Paperless documents you can open on Nextcloud's dashboard, with the widget New in Paperless\n- Tells you with a notification when Paperless adds a document that one of your saved searches finds and that you can open\n- Opens the synchronized file in Nextcloud's built-in viewer on web, iOS, and Android\n- Matches documents through stable markers such as `[P123]`\n- Shows a document only to the users who may open its synchronized file\n- Shows a user only the documents with the tags that the administrator allows them in the setting “Tags that a user may see” of Paperless Sync, whatever is shared with them\n- Automatically excludes documents that have not yet been synchronized\n- Diagnostics: the settings test the connection and keep a history of failed searches with their errors, also where the hoster keeps Nextcloud's log from administrators\n- For administrators: set the app up and test it with occ, without a browser, ask occ why a user doesn't see a document, and see the state of the search in the overview of the administration settings\n\n### Privacy and access control\n\nPaperless is queried server-to-server. The API token is stored in Nextcloud's encrypted credentials manager and is never exposed to the browser.\n\nBy default, Nextcloud's search sends terms to Paperless only when users enable connected-services search or choose “Always search my Paperless documents” in their personal settings, and the smart picker only when users pick Paperless documents in it; a client that asks the search API for this provider sends them as well. Administrators can optionally mark their Paperless server as trusted and include it automatically in every global search, or hide the personal choice. The saved searches of the notifications stay with the account of each user, and a background job sends them to Paperless once documents are new.\n\nA dedicated, read-only Paperless account is recommended.\n\n### Requirements\n\n- Nextcloud 33 to 35\n- A reachable Paperless-ngx instance with API access\n- Synchronized files whose names contain their Paperless document marker, for example `[P123]`, owned by one Nextcloud account, the archive account, and shared read-only with the users who may see them\n\nThis app provides search integration only. It does not synchronize documents between Paperless and Nextcloud, and without such files the search shows no Paperless documents.\n\n### Native synchronization companion\n\nThe independent [Paperless Sync](https://github.com/Dennis-Otto/paperless-sync) Nextcloud app writes these files into the archive account. Both apps use the same stable `[P123]` document marker and can be maintained and updated separately.\n\nDocumentation: <https://dennis-otto.github.io/paperless-unified-search/>",
     "homepage": "https://dennis-otto.github.io/paperless-unified-search/",
     "licenses": [
@@ -3809,6 +3849,16 @@
     "homepage": "",
     "licenses": [
       "agpl"
+    ]
+  },
+  "pathcopy": {
+    "hash": "sha256-DkU3ISJ/HPeoqSqyjwSFl1nbNNAZibCVPpEsG31cOC4=",
+    "url": "https://github.com/uttii-com/uttii-pathcopy/releases/download/v0.2.0/pathcopy-v0.2.0.tar.gz",
+    "version": "0.2.0",
+    "description": "uttii-PathCopy adds a convenient 'Copy path' action to the Files context menu for single or multiple selected items. Uses modern Clipboard API with an automatic fallback for broader browser and mobile compatibility, and provides instant toast feedback with Japanese/English support.",
+    "homepage": "https://app-nextcloud.uttii.com/",
+    "licenses": [
+      "AGPL-3.0-or-later"
     ]
   },
   "pdf_downloader": {
@@ -3872,10 +3922,10 @@
     ]
   },
   "photosphere_photos_integration": {
-    "hash": "sha256-QF/Kys0p736RmJjU9DH9l8+6eb6tZyjyPzwxRQwSExs=",
-    "url": "https://github.com/napoweb/photosphere_photos_integration/releases/download/v0.4.18/photosphere_photos_integration-0.4.18.tar.gz",
-    "version": "0.4.18",
-    "description": "Photo Sphere erweitert Nextcloud Fotos und Dateien um einen integrierten 360°-Panoramabetrachter. Panoramabilder werden automatisch erkannt und lassen sich direkt in Nextcloud interaktiv betrachten – auch über öffentliche Freigaben.\n\n### Funktionen\n- Automatische Erkennung von 360°-Panoramabildern\n- Interaktive 360°-Ansicht mit Maus-, Tastatur- und Touchsteuerung\n- Stufenloser Zoom und animierte Ladeanzeige\n- Unterstützung für öffentliche Fotoalben und Dateifreigaben\n- Individuelle Wasserzeichen mit zentraler Verwaltung\n- Ordnerabhängige Wasserzeichen mit Vererbung an Unterordner\n- Anpassbare Position, Größe und Sichtbarkeit der Wasserzeichen\n- Originalbilder bleiben unverändert",
+    "hash": "sha256-nkPzUJaP6WhhevbEDKWTde261Fh2b2U9m7QVrgVX4p0=",
+    "url": "https://github.com/napoweb/photosphere_photos_integration/releases/download/v0.4.27/photosphere_photos_integration-0.4.27.tar.gz",
+    "version": "0.4.27",
+    "description": "**Interaktive 360°-Panoramen in Nextcloud Fotos und Dateien erleben.**\n\nPhoto Sphere erweitert sowohl die Nextcloud **Fotos-App** als auch die **Dateien-App** um eine interaktive 360°-Ansicht. Panoramabilder werden automatisch erkannt, **aber niemals automatisch im 360°-Betrachter geöffnet**. Die gewohnte Bildansicht und Navigation bleiben erhalten. Erst ein Klick auf die 360°-Schaltfläche startet das Panorama.\n\n### Funktionen\n- Nahtlose Integration in Nextcloud Fotos und Dateien ohne automatisches Öffnen erkannter Panoramen\n- Interaktive Steuerung mit Maus, Tastatur und Touch; optional per Gyroskop auf unterstützten Smartphones\n- Konfigurierbarer Start-Zoom und Zoomgrenzen für Desktop und Mobilgeräte\n- Sanfter Tastatur-Zoom sowie animierte Ladeanzeige mit tatsächlichem Downloadfortschritt\n- Unterstützung öffentlicher Fotoalben und Dateifreigaben\n- Individuelle und ordnerabhängige Wasserzeichen mit zentraler Verwaltung\n- Anpassbare Position, Größe und Sichtbarkeit; Vererbung an Unterordner\n- Originalbilder bleiben unverändert",
     "homepage": "https://github.com/napoweb/photosphere_photos_integration",
     "licenses": [
       "AGPL-3.0-or-later"
@@ -4111,6 +4161,16 @@
       "AGPL-3.0-or-later"
     ]
   },
+  "quickmove": {
+    "hash": "sha256-3LXNkxs7SB/rBjyLqHiNRGVYBOVvYxSz/Cpp/l1GoGc=",
+    "url": "https://github.com/uttii-com/uttii-quickmove/releases/download/v0.2.0/quickmove-v0.2.0.tar.gz",
+    "version": "0.2.0",
+    "description": "uttii-QuickMove lets you register frequently used destination folders (such as Archive or Inbox) and move single or multiple items via the Files right-click menu in one click. Updates the file list immediately without reloading, and supports managing destinations and switching Japanese/English in Personal Settings.",
+    "homepage": "https://app-nextcloud.uttii.com/",
+    "licenses": [
+      "AGPL-3.0-or-later"
+    ]
+  },
   "quota_warning": {
     "hash": "sha256-0160Np2MXsyPEk0pEArLZHqTBEZI3jZUBKJ+qXMhFfc=",
     "url": "https://github.com/nextcloud-releases/quota_warning/releases/download/v1.25.0/quota_warning-v1.25.0.tar.gz",
@@ -4172,9 +4232,9 @@
     ]
   },
   "reinhardterp": {
-    "hash": "sha256-+7Tt+WRPGtz7x07Drnm9eRv+kcDBUyY2H2SS3q+9Mas=",
-    "url": "https://github.com/SchreinereiReinhardt/NextERP/releases/download/2.15.97/reinhardterp-2.15.97.tar.gz",
-    "version": "2.15.97",
+    "hash": "sha256-Szw0kqW7WqjNxBV5FqhDbLusbI1fi6ZRa11X7BNYik8=",
+    "url": "https://github.com/SchreinereiReinhardt/NextERP/releases/download/v2.16.0/reinhardterp-2.16.0.tar.gz",
+    "version": "2.16.0",
     "description": "Betrio is an ERP and project management solution designed specifically for trades and craft businesses and integrated directly into Nextcloud.\n\nThe app combines commercial and operational workflows in one central application – from customers and projects to quotations, orders and invoices, as well as work reports, time tracking, materials, documents and mobile on-site processes.\n\nFeatures:\n\n- Customer management and CRM with structured private, business and public-sector customers\n- Extended customer search plus deletion and anonymization of customer master data\n- CSV customer import with automatic detection, manual field mapping, preview and duplicate checks (Betrio Pro)\n- Project management and digital project files\n- Quotations and orders\n- Invoices\n- Progress and final invoices\n- Credit notes and cancellations\n- Payment status and incoming payments\n- Outstanding and overdue receivables\n- PDF invoices\n- XRechnung\n- ZUGFeRD / Factur-X using the EN16931 profile (Betrio Pro)\n- Invoice audit trail and invoice finalization\n- Quotation → order → invoice workflow\n- Work reports with signature and PDF\n- Time tracking and evaluation\n- Material and inventory management\n- DATANORM import with preview and supplier assignment\n- Inventory assistant and inventory list as PDF\n- Supplier filtering and sorting in the material master data\n- PDF evaluations for working time, billing, finance, taxes and project post-calculation\n- Documents, photos and project files\n- Smart Document Inbox for incoming documents\n- Digital attendance clock with breaks and manual corrections\n- Individual work schedules and working-time account\n- Vacation, sickness, training and other absences\n- Workforce planning and team calendar\n- Appointments and project timeline\n- Financial overviews and open items\n- Cash book and tax overviews\n- DATEV EXTF export\n- Mobile smartphone interface\n- Camera and barcode functions\n- Integration with Nextcloud Files\n- German and English user interface\n\nAttendance time, project time and planned time are deliberately kept separate. The working-time account supports individual target hours per weekday, approved absences, a configurable start date and an opening balance.\n\nAfter an update, Betrio shows each user a one-time overview of important changes. Release information remains available under Help → What's new?.\n\nA separate Android app, “Betrio Mobile”, is also available.\n\nBetrio runs directly within your own Nextcloud installation. Customer, project and business data therefore do not need to be moved to a separate ERP cloud to operate Betrio.\n\nBetrio is offered in Community and Pro editions. The Community edition remains free to use. A valid Betrio Pro licence unlocks additional professional features. The Pro licence can be activated and managed directly in Betrio. Changing editions or ending a Pro licence does not delete existing customers, projects or documents.\n\nThe commercial functions support the workflow from quotation and order through invoicing to payment receipt. Finalized invoices and relevant actions are documented through the invoice audit trail.\n\nA DATEV EXTF export is available for exchanging accounting data.\n\nXRechnung is integrated and continues to be developed and validated.\n\nBetrio does not replace tax or legal advice. Accounting and export functions should be checked against the requirements of your business and, where appropriate, coordinated with your tax adviser before productive use.",
     "homepage": "",
     "licenses": [
@@ -4511,6 +4571,16 @@
       "agpl"
     ]
   },
+  "shortcut": {
+    "hash": "sha256-qkLqcj8kjmXIvGmUAhr15nsMk2LRZZnwGUlHYqCl7V4=",
+    "url": "https://github.com/uttii-com/uttii-shortcut/releases/download/v0.3.0/shortcut-v0.3.0.tar.gz",
+    "version": "0.3.0",
+    "description": "uttii-Shortcut allows you to create lightweight .url shortcuts to folders and files and open them inline without page reloads. Tracks targets by internal fileId so shortcuts survive renames and moves, remains compatible with Windows desktop sync folders, and supports batch creation, external storage mounts, broken-link cleanup, and Japanese/English switching.",
+    "homepage": "https://app-nextcloud.uttii.com/",
+    "licenses": [
+      "AGPL-3.0-or-later"
+    ]
+  },
   "shortcuts": {
     "hash": "sha256-+pLupnpAV8q3J/ausezgqlR3PGLYi4XZ3OhZkatNLRc=",
     "url": "https://git.lschaefer.xyz/lukasdotcom/nextcloud-shortcuts/releases/download/v1.0.2/shortcuts-v1.0.2.tar.gz",
@@ -4612,9 +4682,9 @@
     ]
   },
   "snappymail": {
-    "hash": "sha256-BQEOasjZnG4BMPNNspT5d1t0UtdpWF0e/U47K4Z9674=",
-    "url": "https://github.com/the-djmaze/snappymail/releases/download/v3.0.1/snappymail-3.0.1-nextcloud.tar.gz",
-    "version": "3.0.1",
+    "hash": "sha256-svUDnS5Nzvou+5OmySlV4H0lzx/9B7l7MKHhGjcexJI=",
+    "url": "https://snappymail.eu/repository/nextcloud/snappymail-3.1.3-nextcloud.tar.gz",
+    "version": "3.1.3",
     "description": "**Lightweight & fast email client.**\n\n- **Dark mode**\n- **Responsive design**\n- **Full Sieve filtering support**\n- **Almost all IMAP features** including advanced searching\n- **Integration with Nextcloud Unified Search**\n- **Integration with other Nextcloud apps** (Contacts, Files and Calendar)\n- **Multiple mail accounts and identities**\n- **Send & receive OpenPGP encrypted/signed emails** (With full HTML support, ECC keys, or plain text with Mailvelope)\n- **Send & receive S/MIME encrypted/signed emails**\n- **Many security features** (Sodium encrypted passwords, Sec-Fetch, TOTP 2FA, DKIM, prevent tracking, etc.)\n- **Kolab integrations**\n\nAfter enabling in Nextcloud, go to Nextcloud admin panel, \"Additional settings\" and you will see a \"SnappyMail webmail\" section.\nThere, click on the link to go to the SnappyMail admin panel.",
     "homepage": "https://snappymail.eu",
     "licenses": [
@@ -4732,10 +4802,10 @@
     ]
   },
   "souvenirs": {
-    "hash": "sha256-YxVQBuWDvvE+1nL+stksJS+/GdlEomThKloAHaZOyWA=",
-    "url": "https://github.com/zorgluf/souvenirs-nextcloud/releases/download/v2.6.1/souvenirs.tar.gz",
-    "version": "2.6.1",
-    "description": "Relive your memories the way you used to with paper albums: page after page, story after story.\n\n**Souvenirs** lets you craft \"old school\" albums from the photos and videos already stored on your Nextcloud — and share them with the people who matter.\n\n### ✨ What you can do\n\n- 📖 **Browse albums like a book** — turn pages instead of scrolling through photo grids\n- 🎨 **Create and edit albums** right from the web interface: pick your photos, arrange your pages, give each album a name and a date\n- 🎬 **Mix media freely** — photos, videos, audio recordings and even 360° panoramas on the same page\n- 🌐 **Explore panoramas** interactively thanks to the integrated 360° viewer\n- 🔗 **Share with a simple link** — family and friends can enjoy your albums without a Nextcloud account\n- 📱 **Pair with the [Souvenirs Android app](https://github.com/zorgluf/souvenirs-android)** to build albums on the go and sync them with your server\n- ♻️ **Save space** — media already on your server is reused, not duplicated\n\n### 🔒 Your souvenirs, your server\nAlbums are stored as plain folders and files on your own Nextcloud. No third-party service, no lock-in: your souvenirs stay yours.",
+    "hash": "sha256-g7vnxuH5A25wd8Ta6orxb7rnoG9ays5hCAJya838AG0=",
+    "url": "https://github.com/zorgluf/souvenirs-nextcloud/releases/download/v2.7.0/souvenirs.tar.gz",
+    "version": "2.7.0",
+    "description": "Relive your memories the way you used to with paper albums: page after page, story after story.\n\n**Souvenirs** lets you craft \"old school\" albums from the photos and videos already stored on your Nextcloud — and share them with the people who matter.\n\n### ✨ What you can do\n\n- 📖 **Browse albums like a book** — turn pages instead of scrolling through photo grids\n- 🎨 **Create and edit albums** right from the web interface: pick your photos, arrange your pages, give each album a name and a date\n- 🎬 **Mix media freely** — photos, videos, audio recordings and even 360° panoramas on the same page\n- 🌐 **Explore panoramas** interactively thanks to the integrated 360° viewer\n- 🔗 **Share with a simple link** — family and friends can enjoy your albums without a Nextcloud account\n- 📴 **Keep working offline** — view and edit your albums without a connection, right in the browser; your changes are synced when the server is back\n- 📱 **Pair with the [Souvenirs Android app](https://github.com/zorgluf/souvenirs-android)** to build albums on the go and sync them with your server\n- ♻️ **Save space** — media already on your server is reused, not duplicated\n\n### 🔒 Your souvenirs, your server\nAlbums are stored as plain folders and files on your own Nextcloud. No third-party service, no lock-in: your souvenirs stay yours.",
     "homepage": "https://github.com/zorgluf/souvenirs-nextcloud",
     "licenses": [
       "agpl"
@@ -5002,9 +5072,9 @@
     ]
   },
   "thinkfree": {
-    "hash": "sha256-RtK4SG0MwyFXjwOlJOWEIgDa8tga6hpwGVLzPrzn22Y=",
-    "url": "https://github.com/thinkfree/thinkfree-nextcloud/releases/download/v3.0.1/thinkfree-3.0.1.tar.gz",
-    "version": "3.0.1",
+    "hash": "sha256-n7dQsKaYJeJXcqMAKPrzZ4KXriV2oxe4uYasTPz3iRA=",
+    "url": "https://github.com/thinkfree/thinkfree-nextcloud/releases/download/v3.1.0/thinkfree-3.1.0.tar.gz",
+    "version": "3.1.0",
     "description": "This Nextcloud connector integrates Thinkfree Office, a powerful web-based collaborative editor for seamless document viewing, creation, and real-time editing. Designed for teams and businesses of all sizes, it supports word processing, spreadsheets, and presentations with industry-leading compatibility with MS formats. Thinkfree Office is built for effortless deployment across various environments and integrates smoothly with a wide range of platforms and devices. For enhanced security and compliance, it also offers on-premises deployment, keeping all data under the your control.",
     "homepage": "",
     "licenses": [
@@ -5192,8 +5262,8 @@
     ]
   },
   "uniteos_notifier": {
-    "hash": "sha256-vaWgvCrCGCfm5ygADrXCKR/nRTU9DFar/FQZg59ajus=",
-    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/1.0.6/uniteos_notifier.tar.gz",
+    "hash": "sha256-yoNEdBloqNFtXTZsR4EN1PoTlGRjQKObaZ2B+qSFp4g=",
+    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/main/uniteos_notifier.tar.gz",
     "version": "1.0.6",
     "description": "This app allows forwarding Nextcloud events for a deeper integration into UniteOS developed by wechange eG by presenting a selected set of events as user notifications.",
     "homepage": "",
@@ -5362,10 +5432,10 @@
     ]
   },
   "vereinsbuchhaltung": {
-    "hash": "sha256-miSp8a63Sbzkqxr4y8y5AeSj9o7wnnYEa01kEiTFiAg=",
-    "url": "https://github.com/AndiMb/nc_vereinsbuchhaltung/releases/download/v0.53.0/vereinsbuchhaltung-0.53.0.tar.gz",
-    "version": "0.53.0",
-    "description": "**Accounting for nonprofit clubs – fully within your own Nextcloud.**\n\nFor treasurers of small and medium-sized clubs who don't run separate\naccounting software and don't want their financial data in some provider's\ncloud. Your data stays wherever your Nextcloud is hosted.\n\nYou don't need to be an accountant: in **simple mode** you record an \"income\"\nor \"expense\" with amount, date and category – the app handles double-entry\nbookkeeping in the background. If you'd rather set debit and credit yourself,\nswitch to expert mode.\n\n**[▶ The app in two minutes (video, German)](https://youtu.be/eaF-tAQ_OOM)** –\nimport bank statements, assign transactions, evaluate and produce the annual\ntreasurer's report.\n\n## The workflow\n\n1. **Import a bank statement** – CSV-CAMT, CAMT.053 (XML) or MT940 from your\n   online banking; the app detects the format from the content, the file\n   extension doesn't matter. Transactions already present are recognized and\n   skipped, even across formats. A watch folder can even pick up new\n   statements on its own, without a manual import.\n2. **Assign transactions** – every bank entry gets a counter-account. Rules\n   handle recurring assignments (rent, membership fees, charges)\n   automatically.\n3. **Attach receipts** – photo or PDF, either in a Nextcloud folder of your\n   choice or stored inside the app. Or as a watch folder: whatever you drop\n   into it in the Files app can be picked when booking, the app suggests\n   matching receipts, and the overview reports what is not yet assigned to\n   an entry.\n4. **Evaluate and report** – treasurer's report for the general assembly,\n   short report for board meetings, exports for the audit.\n\n## What the app can do\n\n- **Double-entry bookkeeping** with a freely definable chart of accounts; a\n  standard chart of accounts for clubs is included\n- **Treasurer's report** and **short report** as print-ready pages (Ctrl+P),\n  optionally with your club's logo and accent color\n- **Financial plan** with plan/actual comparison, comparison with the previous year and freezable plan snapshots\n- **Structured report** by template, e.g. as a budget for funding bodies or as a result per project\n- **Nonprofit status:** spheres following the German four-sphere model\n  (ideational, asset management, purpose-related business, commercial\n  business) and reserves per § 62 AO\n- **Membership fees & SEPA direct debit** (optional, can be enabled as\n  needed): member management with CSV import, direct debit mandates on paper\n  or electronic, contribution groups with an interval, pre-notification and\n  collection as a pain.008 file for your bank with a release before\n  submission, bank reconciliation, returned debits with dunning, and a \"My\n  contribution\" area for members – its own tab in the main navigation; if you\n  don't need the module, you never see it\n- **Open items** – keep track of unpaid receivables with due dates\n- **Multi-year trend** and result per reporting group\n- **Freely definable fiscal year:** it does not have to match the calendar\n  year – October–September, the school year August–July or half-year\n  periods (semesters) are just as possible\n- **Year-end closing:** a finalized fiscal year can no longer be changed;\n  continuous, gap-free posting numbers per fiscal year\n- **Change log:** who changed what, and when\n- **Roles:** administrator, bookkeeper and auditor – the audit role gets\n  read access to everything without being able to change anything\n- **On the go:** dedicated view for smartphones, photograph receipts\n  directly\n- **Annual audit:** all receipts for a year as a ZIP, print-ready quick\n  guide for the auditor, completeness check of posting numbers\n\n## Member management & SEPA direct debit (optional)\n\nFor clubs that collect their membership fees by direct debit: a tab of its own\n(\"Contributions\"), enabled when needed. If you don't need the module, you\nnever see it.\n\n- **Members:** member list with a record per member, intake assistant, CSV\n  import of whole member lists, leaving, information under Art. 15 GDPR and\n  anonymization; the email addresses for a bulk mail can be copied with one\n  click\n- **SEPA mandates:** on paper or electronically via a one-time link, with\n  history, suspension, revocation and a warning before they expire\n- **Contribution groups:** lower limit and allowed intervals (monthly to\n  annual), assignments with a preview, members who pay no fee\n- **Collection:** pre-notification by email, release before submission,\n  collection file (pain.008) for your bank, timeline of collection dates and\n  bank reconciliation with matching suggestions\n- **Returned debits & dunning:** reasons in plain language, payment request\n  with payment details and a GiroCode per item, dunning levels, fees passed on\n  if you wish\n- **\"My contribution\" for members:** maintain contact details, contribution,\n  interval and mandate themselves – with a preview and a confirmation email –,\n  plus contribution confirmation and data overview\n- **Task clipboard:** shows in the header what needs doing next\n\nA **sample club** can be created with one click to try everything out\nrisk-free, and removed again with another click.\n\nExisting data from \"zero Buchhaltung\" can be taken over via its xbuc files.\n\nFull manual in German and English: see documentation.",
+    "hash": "sha256-AsPHwgrx5yW+DwmHcJrHzTBJzdbZ3Vv2HeOpsO2kLb8=",
+    "url": "https://github.com/AndiMb/nc_vereinsbuchhaltung/releases/download/v0.54.0/vereinsbuchhaltung-0.54.0.tar.gz",
+    "version": "0.54.0",
+    "description": "**Accounting for nonprofit clubs – fully within your own Nextcloud.**\n\nFor treasurers of small and medium-sized clubs who don't run separate\naccounting software and don't want their financial data in some provider's\ncloud. Your data stays wherever your Nextcloud is hosted.\n\nYou don't need to be an accountant: in **simple mode** you record an \"income\"\nor \"expense\" with amount, date and category – the app handles double-entry\nbookkeeping in the background. If you'd rather set debit and credit yourself,\nswitch to expert mode.\n\n**[▶ The app in two minutes (video, German)](https://youtu.be/eaF-tAQ_OOM)** –\nimport bank statements, assign transactions, evaluate and produce the annual\ntreasurer's report.\n\n## The workflow\n\n1. **Import a bank statement** – CSV-CAMT, CAMT.053 (XML) or MT940 from your\n   online banking; the app detects the format from the content, the file\n   extension doesn't matter. Transactions already present are recognized and\n   skipped, even across formats. A watch folder can even pick up new\n   statements on its own, without a manual import.\n2. **Assign transactions** – every bank entry gets a counter-account. Rules\n   handle recurring assignments (rent, membership fees, charges)\n   automatically.\n3. **Attach receipts** – photo or PDF, either in a Nextcloud folder of your\n   choice or stored inside the app. Or as a watch folder: whatever you drop\n   into it in the Files app can be picked when booking, the app suggests\n   matching receipts, and the overview reports what is not yet assigned to\n   an entry.\n4. **Evaluate and report** – treasurer's report for the general assembly,\n   short report for board meetings, exports for the audit.\n\n## What the app can do\n\n- **Double-entry bookkeeping** with a freely definable chart of accounts; a\n  standard chart of accounts for clubs is included\n- **Treasurer's report** and **short report** as print-ready pages (Ctrl+P),\n  optionally with your club's logo and accent color; the treasurer's report\n  also as a PDF file, optionally filed automatically when the year is closed\n- **Financial plan** with plan/actual comparison, comparison with the previous year and freezable plan snapshots\n- **Structured report** by template, e.g. as a budget for funding bodies or as a result per project\n- **Nonprofit status:** spheres following the German four-sphere model\n  (ideational, asset management, purpose-related business, commercial\n  business) and reserves per § 62 AO\n- **Membership fees & SEPA direct debit** (optional, can be enabled as\n  needed): member management with CSV import, direct debit mandates on paper\n  or electronic, contribution groups with an interval, pre-notification and\n  collection as a pain.008 file for your bank with a release before\n  submission, bank reconciliation, returned debits with dunning, and a \"My\n  contribution\" area for members – its own tab in the main navigation; if you\n  don't need the module, you never see it\n- **Open items** – keep track of unpaid receivables with due dates\n- **Multi-year trend** and result per reporting group\n- **Freely definable fiscal year:** it does not have to match the calendar\n  year – October–September, the school year August–July or half-year\n  periods (semesters) are just as possible\n- **Year-end closing:** a finalized fiscal year can no longer be changed;\n  continuous, gap-free posting numbers per fiscal year\n- **Change log:** who changed what, and when\n- **Backup and migration:** the entire data set encrypted in a single file,\n  restorable on another Nextcloud as well\n- **Roles:** administrator, bookkeeper and auditor – the audit role gets\n  read access to everything without being able to change anything\n- **On the go:** dedicated view for smartphones, photograph receipts\n  directly\n- **Annual audit:** all receipts for a year as a ZIP, print-ready quick\n  guide for the auditor, completeness check of posting numbers and\n  reconciliation of a cash account against the bank statement\n\n## Member management & SEPA direct debit (optional)\n\nFor clubs that collect their membership fees by direct debit: a tab of its own\n(\"Contributions\"), enabled when needed. If you don't need the module, you\nnever see it.\n\n- **Members:** member list with a record per member, intake assistant, CSV\n  import of whole member lists, leaving, information under Art. 15 GDPR and\n  anonymization; the email addresses for a bulk mail can be copied with one\n  click\n- **SEPA mandates:** on paper or electronically via a one-time link, with\n  history, suspension, revocation and a warning before they expire\n- **Contribution groups:** lower limit and allowed intervals (monthly to\n  annual), assignments with a preview, members who pay no fee\n- **Collection:** pre-notification by email, release before submission,\n  collection file (pain.008) for your bank, timeline of collection dates and\n  bank reconciliation with matching suggestions\n- **Returned debits & dunning:** reasons in plain language, payment request\n  with payment details and a GiroCode per item, dunning levels, fees passed on\n  if you wish\n- **\"My contribution\" for members:** maintain contact details, contribution,\n  interval and mandate themselves – with a preview and a confirmation email –,\n  plus contribution confirmation and data overview\n- **Task clipboard:** shows in the header what needs doing next\n\nA **sample club** can be created with one click to try everything out\nrisk-free, and removed again with another click.\n\nExisting data from \"zero Buchhaltung\" can be taken over via its xbuc files.\n\nFull manual in German and English: see documentation.",
     "homepage": "https://github.com/AndiMb/nc_vereinsbuchhaltung",
     "licenses": [
       "agpl"
@@ -5569,6 +5639,16 @@
     "homepage": "",
     "licenses": [
       "agpl"
+    ]
+  },
+  "workspace_fix": {
+    "hash": "sha256-9p3Yik8x+MPc4uCfn14fXF65q2zhzVlfOp4GFlHj+1c=",
+    "url": "https://github.com/uttii-com/uttii-workspace_fix/releases/download/v0.2.0/workspace_fix-v0.2.0.tar.gz",
+    "version": "0.2.0",
+    "description": "uttii-WorkspaceFix prevents display glitches and layout shifts in Nextcloud Files. Currently eliminates the 44px jump and delayed layout shift when opening folders with Readme.md (Rich Workspaces), preventing mis-clicks on both desktop and mobile devices. Includes a Personal Settings panel with Japanese/English language switching.",
+    "homepage": "https://app-nextcloud.uttii.com/",
+    "licenses": [
+      "AGPL-3.0-or-later"
     ]
   },
   "worktime": {
