@@ -220,10 +220,10 @@
     ]
   },
   "arbeitszeitcheck": {
-    "hash": "sha256-rNBYqybthhFBPAGhnLC1N6toKMj6q/zbOaPaEhD4yGY=",
-    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-arbeitszeitcheck/releases/download/v1.12.0/arbeitszeitcheck-1.12.0.tar.gz",
-    "version": "1.12.0",
-    "description": "# Clock in. Stay within the rules you set.\n\nArbeitszeitCheck records clock-in, clock-out and breaks on the Nextcloud you already host. Pick a country profile for Germany (ArbZG), Austria (AZG/ARG) or Switzerland (ArG), match holiday regions, approve absences, run reports (including DATEV) and keep an audit log.\n\nAlso listed as **TimeGuard** in some App Store searches.\n\n**Free web app** (AGPL-3.0-or-later). Companion apps: https://nextcloud.software-by-design.de/\n\n## Why teams install it\n\n- **Start and stop work cleanly** — pauses, resume, manual entries with a reason\n- **Match your country** — DE / AT / CH profiles with Länder, Bundesländer or cantons\n- **See break and rest issues early** — technical checks against the profile you configured\n- **Run absences properly** — vacation, illness, special and unpaid leave with approval; entitlement modes and CSV import via `occ`\n- **Report what happened** — employee, team and manager views; overtime and absence reports; DATEV export\n- **Lock a month when you need to** — optional finalization with snapshot, hash and PDF; admin reopen with a reason\n- **Control access** — open to all users or allow-lists; Nextcloud admins keep access\n\n## Clear limits\n\n- This app is **not legal advice**. You stay responsible for working-time models, collective agreements, configuration and how recorded data is used. Ask counsel when needed.\n- Technical violation reports against your profile are not a third-party certification.\n- Declared databases: MySQL and PostgreSQL. Nextcloud 32–35, PHP 8.1–8.5.\n\n## Feedback welcome\n\nWe improve this app with real-world use. Bug reports, rough edges, and ideas help — open a GitHub Issue (https://github.com/aSoftwareByDesignRepository/nextcloud-arbeitszeitcheck/issues) or write to info@software-by-design.de. Your feedback directly shapes what we build next.\n\n## Requirements\n\n- Nextcloud 32–35 · PHP 8.1–8.5 · MySQL or PostgreSQL",
+    "hash": "sha256-PBOn1gyeymO0d+RoKGiLYI9NeFPB36xEc5ghhtVv+K4=",
+    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-arbeitszeitcheck/releases/download/v1.12.1/arbeitszeitcheck-1.12.1.tar.gz",
+    "version": "1.12.1",
+    "description": "# Clock in. Stay within the rules you set.\n\nArbeitszeitCheck records clock-in, clock-out and breaks on the Nextcloud you already host. Pick a country profile for Germany (ArbZG), Austria (AZG/ARG) or Switzerland (ArG), match holiday regions, approve absences, run reports (including DATEV) and keep an audit log.\n\nAlso listed as **WorkTimeCheck** in some App Store searches.\n\n**Free web app** (AGPL-3.0-or-later). Companion apps: https://nextcloud.software-by-design.de/\n\n## Why teams install it\n\n- **Start and stop work cleanly** — pauses, resume, manual entries with a reason\n- **Match your country** — DE / AT / CH profiles with Länder, Bundesländer or cantons\n- **See break and rest issues early** — technical checks against the profile you configured\n- **Run absences properly** — vacation, illness, special and unpaid leave with approval; entitlement modes and CSV import via `occ`\n- **Report what happened** — employee, team and manager views; overtime and absence reports; DATEV export\n- **Lock a month when you need to** — optional finalization with snapshot, hash and PDF; admin reopen with a reason\n- **Control access** — open to all users or allow-lists; Nextcloud admins keep access\n\n## Clear limits\n\n- This app is **not legal advice**. You stay responsible for working-time models, collective agreements, configuration and how recorded data is used. Ask counsel when needed.\n- Technical violation reports against your profile are not a third-party certification.\n- Declared databases: MySQL and PostgreSQL. Nextcloud 32–35, PHP 8.1–8.5.\n\n## Feedback welcome\n\nWe improve this app with real-world use. Bug reports, rough edges, and ideas help — open a GitHub Issue (https://github.com/aSoftwareByDesignRepository/nextcloud-arbeitszeitcheck/issues) or write to info@software-by-design.de. Your feedback directly shapes what we build next.\n\n## Requirements\n\n- Nextcloud 32–35 · PHP 8.1–8.5 · MySQL or PostgreSQL",
     "homepage": "http://nextcloud.software-by-design.de",
     "licenses": [
       "AGPL-3.0-or-later"
@@ -290,9 +290,9 @@
     ]
   },
   "attendance": {
-    "hash": "sha256-1SxPFhWNan9tZqUpdGOM5nDA4HG8t50L/ajHRIh3Wyw=",
-    "url": "https://github.com/luflow/attendance/releases/download/v1.59.0/attendance.tar.gz",
-    "version": "1.59.0",
+    "hash": "sha256-k8BmkMJFRTBeAZeITqY4g1SwRAEPnQZniuWk8G7Us0w=",
+    "url": "https://github.com/luflow/attendance/releases/download/v1.60.0/attendance.tar.gz",
+    "version": "1.60.0",
     "description": "Know who is coming – to every rehearsal, training session and meeting. Attendance collects RSVPs up front, records who actually turned up at check-in, and breaks every response down by your Nextcloud groups. Made for choirs, orchestras, sports clubs, volunteer crews, congregations and every other group that needs to know not just how many are coming, but who.\n\nFree, open source, and every reply, attendance list and comment stays on your own server.\n\n## Collecting replies\n\n- **One click:** Yes, No or Maybe, with an optional comment – drop \"Maybe\" for appointments that need a clear answer\n- **Attendance limit with a waitlist:** cap an appointment at a number of spots, extra yes-repliers queue up and move in when a spot frees\n- **Vacation:** members enter their absences, new appointments warn about people on vacation, and existing ones can be answered with \"No\" automatically – optionally written to a calendar\n- **Changed plans:** update or withdraw a reply any time before the appointment\n- **Quick-reply links:** answer straight from the notification email, no login needed\n- **Dashboard widget:** reply from the Nextcloud dashboard without opening the app\n- **Guests without an account:** invite people by email address through the Nextcloud Guests app\n- **Reminders:** automatic nudges for everyone who has not replied yet, plus manual reminders\n\n## Organising appointments\n\n- **All-day appointments:** for outings, camps and festivals, also as a series\n- **Category templates:** every category can prefill name, description, location, deadline, limit and access for new appointments\n- **Recurring appointments:** create daily, weekly or monthly series in one go, then edit or delete this one, this and following, or all of them\n- **Import from your calendar:** pull events out of Nextcloud Calendar, with optional automatic sync (Nextcloud 32+)\n- **Closing and deadlines:** close an inquiry by hand, on a deadline, or automatically once it starts\n- **Cancel and reactivate:** cancelling is a state of its own, and plans can change back\n- **Scheduling:** mark the yes-repliers you actually need and notify exactly those people\n- **Attachments:** attach sheet music, agendas or minutes straight from Nextcloud Files\n- **Visibility:** restrict an appointment to individual people, groups or Nextcloud Teams (Circles)\n- **Copy:** duplicate an appointment with all of its settings\n\n## Seeing what you need\n\n- **Response summary by group:** your Nextcloud groups and Teams appear as separate sections, each with its own counts\n- **Check-in:** tick off who actually turned up, in bulk if you like, with a note per person\n- **Unanswered:** a section that shows only what still waits for your reply\n- **Activity history:** every reply, change, withdrawal and check-in with who, when and from where\n- **Export:** all data as an ODS spreadsheet, filtered by series, with switchable columns\n- **Filters:** show only the appointments you organise or only those you answer\n- **Calendar subscription:** a personal iCal feed for Google Calendar, Apple Calendar, Outlook or Thunderbird\n- **Permissions:** group-based permissions decide who may manage appointments, see all appointments, check people in, see summaries, read comments and see the team's vacation\n\n## Optional: a mobile app for iOS and Android\n\nEverything above works entirely in the browser. If you want more, there is a companion app that talks to your own Nextcloud and adds the two things a browser cannot do:\n\n- **Self-check-in by QR code or NFC:** people scan a printed QR code or tap an NFC tag as they arrive, and the attendance list fills itself\n- **Push notifications:** new appointments and reminders reach the phone straight away – through Google or Apple, or without either via UnifiedPush\n\nIt also puts your appointments, replies and comments in your pocket and holds several Nextcloud accounts in one app. The mobile app is free for 30 days per Nextcloud instance, then one yearly subscription covers the whole instance – this Nextcloud app stays free and open source, with or without it.\n\n[App Store](https://apps.apple.com/app/id6759988681) · [Google Play](https://play.google.com/store/apps/details?id=de.krautnerds.attendance) · [F-Droid](https://fdroid.anwesenheit.app/repo?fingerprint=4E1BFBC669A19270E83E6FF960B1F9C9E2AF6C824DE79D975888B36C85F33D0E) · [What the app does](https://anwesenheit.app/mobile)\n\nDocumentation, use cases and roadmap: [anwesenheit.app](https://anwesenheit.app)",
     "homepage": "https://anwesenheit.app",
     "licenses": [
@@ -920,10 +920,10 @@
     ]
   },
   "crate": {
-    "hash": "sha256-8IrlxZ2qeTMSySNgHJp8ksTIMB5v/7ADn2Q8KAKDtog=",
-    "url": "https://github.com/megamaced/crate/releases/download/v1.15.0/crate-1.15.0.tar.gz",
-    "version": "1.15.0",
-    "description": "Crate is a personal physical media catalogue for Nextcloud — browse and manage your music, films, books, games and comics in one place, with everything stored on your own server.\n\nAdd items manually or by barcode scan. Pull rich metadata automatically from Discogs (music), TMDB (films), Open Library (books), RAWG (games) and ComicVine (comics). Track market values from Discogs and PriceCharting alongside what you originally paid. Attach the cover art plus two extra user photos per item (receipts, sleevenotes, disc shots).\n\nOwned vs. wanted, star ratings, playlists, sharing with other Nextcloud users, full CSV and XLSX import / export. There's a native Android companion at https://github.com/megamaced/crate-android.",
+    "hash": "sha256-Jk83dlXVfRUGQvVuKAvx4K3JtSZAkd78K60kWDNOzJc=",
+    "url": "https://github.com/megamaced/crate/releases/download/v1.16.0/crate-1.16.0.tar.gz",
+    "version": "1.16.0",
+    "description": "Crate is a personal physical media catalogue for Nextcloud — browse and manage your music, films, books, games and comics in one place, with everything stored on your own server.\n\nAdd items manually or by barcode scan. Pull rich metadata automatically from Discogs (music), TMDB (films), Open Library (books), RAWG (games) and ComicVine (comics). Track market values from Discogs and PriceCharting alongside what you originally paid. Attach the cover art plus two extra user photos per item (receipts, sleevenotes, disc shots).\n\nOwned vs. wanted, star ratings, playlists, sharing with other Nextcloud users, full CSV and XLSX import / export. There's a native Android companion at https://github.com/megamaced/crate-android.\n\nCrate uses Weblate for community translations, with free hosting provided through its Libre plan. Help translate the web and Android apps at https://hosted.weblate.org/projects/crate/.",
     "homepage": "",
     "licenses": [
       "AGPL-3.0-or-later"
@@ -1180,9 +1180,9 @@
     ]
   },
   "digikam_face_sync": {
-    "hash": "sha256-CJFoZiHJ+wtjLKyq87AZRR1gIKrloBdlkkcm2202fhQ=",
-    "url": "https://github.com/keithvassallomt/digikam-memories-sync/releases/download/v0.2.0/digikam_face_sync-0.6.1.tar.gz",
-    "version": "0.6.1",
+    "hash": "sha256-GGvTKbpqR9nLSHvBbU56kEBFa8v7um69HhUboUnrCMc=",
+    "url": "https://github.com/keithvassallomt/digikam-memories-sync/releases/download/v0.3.2/digikam_face_sync-0.6.2.tar.gz",
+    "version": "0.6.2",
     "description": "The Nextcloud half of DigiMem, which keeps face names and rectangles in step\nbetween a local digiKam library and Nextcloud Memories, in both directions.\n\nAdds authenticated APIs for importing digiKam face rectangles and reading\nnamed Recognize faces. Face descriptors are generated locally with the model\ninstalled by Recognize.\n\nAlso reports a cheap fingerprint of your named faces, so Face Sync can tell\nwhether anything changed without reading the whole library, and whether\nRecognize is busy so it can wait its turn.\n\nThis app does nothing on its own. DigiMem itself is a desktop application for\nLinux, macOS and Windows, and is what talks to it.",
     "homepage": "https://github.com/keithvassallomt/digikam-memories-sync",
     "licenses": [
@@ -1350,9 +1350,9 @@
     ]
   },
   "duplicatefinder": {
-    "hash": "sha256-rS37y3aS2RBU/6Z6gc6ZAsly6XWKvcAeVSweBMEYa3M=",
-    "url": "https://github.com/eldertek/duplicatefinder/releases/download/v1.10.18/duplicatefinder-v1.10.18.tar.gz",
-    "version": "1.10.18",
+    "hash": "sha256-uAhCstBbcjByX2AWCbde+BLa1WY83Idhy9m6D41j9Mg=",
+    "url": "https://github.com/eldertek/duplicatefinder/releases/download/v1.10.20/duplicatefinder-v1.10.20.tar.gz",
+    "version": "1.10.20",
     "description": "Find and manage duplicate files in your Nextcloud with powerful features:\n\n* 🔍 **Smart Detection** - Three ways to find duplicates:\n  * Event-based detection for new or changed files\n  * Background job scanning\n  * Manual command-line scanning\n* 📁 **Protected Folders** - Configure \"Origin Folders\" to protect specific files from accidental deletion\n* 🛡️ **Safe Management** - Files in protected folders cannot be deleted through the interface\n* 🔎 **Advanced Search** - Search and filter duplicates by file path or name\n* ⚡ **Bulk Operations** - Handle thousands of duplicates efficiently with bulk deletion tools\n* 📊 **Preview & Dry Run** - See what would be deleted before taking action\n* 💼 **Background Processing** - Automated duplicate finding jobs",
     "homepage": "https://github.com/eldertek/duplicatefinder",
     "licenses": [
@@ -2160,9 +2160,9 @@
     ]
   },
   "gestion": {
-    "hash": "sha256-C61JA6xW9jnXVhG+CQ05TF08vke0CaBpUQRSrJ1fKf0=",
-    "url": "https://github.com/baimard/gestion/releases/download/3.5.1/gestion-3.5.1.tar.gz",
-    "version": "3.5.1",
+    "hash": "sha256-NIZFoHo5Xja9RCkcKIlPNq4qlaRCD/m78BqsLZW+OgM=",
+    "url": "https://github.com/baimard/gestion/releases/download/3.6.0/gestion-3.6.0.tar.gz",
+    "version": "3.6.0",
     "description": "# Run your business with Gestion\nGestion is a Nextcloud application designed to make invoicing simple, secure, and efficient for freelancers, micro-enterprises, and small businesses.\n\nKey Features:\n* Add and manage customer profiles\n* Create and customize product entries\n* Generate professional quotes and invoices in PDF format\n* Choose a sender profile with its own contact details and logo, under the same legal company\n* Generate electronic invoices in the Factur-X format\n* Send PDFs directly by email from the application\n* Store generated documents securely within your Nextcloud instance\n* Track your business activities more efficiently\n\n✨ Electronic invoicing is supported in France. Gestion can generate Factur-X invoices that combine a human-readable PDF with structured electronic invoice data.\n\nFactur-X files can always be generated and downloaded without using an external platform. Each company can also select and configure a compatible approved electronic invoicing platform.\n\nThe PDF generation system has also been redesigned to improve document layout, styling, and compatibility.\n\nGestion integrates seamlessly with the Nextcloud ecosystem and keeps your business data under your control.\n\nIf you require adaptations to comply with your country's regulations, please open an issue on the GitHub repository.\n\n[![Donate](https://img.shields.io/badge/Donate-Buy%20me%20a%20coffee-yellow.svg)](https://www.buymeacoffee.com/benjaminaimard)",
     "homepage": "https://github.com/baimard/gestion",
     "licenses": [
@@ -2170,9 +2170,9 @@
     ]
   },
   "glimpse": {
-    "hash": "sha256-LCNwOTz2RAFvlKg68OvP3QXUP+skcaf4zOLsWSxQFdg=",
-    "url": "https://github.com/Infraviored/nextcloud-immich-search/releases/download/v4.13.2/glimpse-4.13.2.tar.gz",
-    "version": "4.13.2",
+    "hash": "sha256-Gjg+9cfS37ehJ80YZv71YHIJ0onCad7ZmYcKyAY30RQ=",
+    "url": "https://github.com/Infraviored/nextcloud-immich-search/releases/download/v4.13.3/glimpse-4.13.3.tar.gz",
+    "version": "4.13.3",
     "description": "**Find any photo in your Nextcloud by what is in it.** Type \"dog in the snow\", \"birthday cake\"\nor a person's name, and Glimpse finds the picture, among the files you already keep in\nNextcloud. The image understanding (CLIP), face recognition, memories and duplicate detection\ncome from a self-hosted [Immich](https://immich.app) that indexes your Nextcloud files\nread-only. Nextcloud still decides who sees what.\n\n### Search\n- **By content**: describe the picture, results are ranked by meaning, not by file names or tags.\n- **Inside videos**: finds moments in videos by what is in them, jumping straight to the scene.\n- **By person**, or both at once: \"Alex beach\" finds Alex's beach pictures.\n- Filter by tag, photos or videos; \"More like this\" for any picture.\n- Also in Nextcloud's own search bar and in the Nextcloud mobile apps.\n\n### Browse\n- **Timeline** in year bands with a year rail, \"On this day\" and \"Back to today\".\n- **Map** of geotagged pictures (tiles proxied by your server).\n- **Folders** as galleries, **duplicates** with Immich's suggestion of what to keep.\n\n### People\nName, merge, hide and favorite people; assign single faces or correct many at once; \"Label\npeople\" names them in a row. Faces are cut only from pictures the viewer may open.\n\n### Viewer\nBelow an open picture, as in the Android app: share, favorite, similar, delete, and an info\nsheet with date, the people in it, its folder, download, move, copy, album and tag.\n\n### Sort in bulk\nSelect many (long-press on touch), then move or copy into folders with undo, tag, favorite, add to\na Photos album and share it, download as ZIP, or delete.\n\n### Private area\nFolders, people and single pictures that only appear after unlocking with your password, and\nnever in the global search or on the dashboard.\n\n### Sensitive pictures (optional)\nOff unless the admin allows it and you turn it on: recognises nudity from what Immich already\nknows, marks it on the tiles, and lets you hide it or see only it. You correct it with one tap\nand it learns from that.\n\n### Nextcloud permissions decide\nOne shared index, but every user only ever sees files they can open in Nextcloud: their own and\nthose shared with them. Thumbnails, faces, map markers, memories and duplicates are checked the\nsame way.\n\n### Everywhere in Nextcloud\nA \"Similar pictures\" action and a \"People\" tab in Files, an \"On this day\" dashboard widget, and\na native [Android app](https://github.com/Infraviored/glimpse-android).\n\n**Requirements:** a self-hosted Immich with its machine-learning service, read-only access for\nImmich to the Nextcloud data directory, Nextcloud cron, and ffmpeg on the Nextcloud server (for\nsearch inside videos). Setup guide:\n[README](https://github.com/Infraviored/nextcloud-immich-search#install).",
     "homepage": "https://github.com/Infraviored/nextcloud-immich-search",
     "licenses": [
@@ -2250,9 +2250,9 @@
     ]
   },
   "grimoire": {
-    "hash": "sha256-5i6XcG0WFYZOvQ7giYK2E8aDvA40rxPyZHEzP8qLiZk=",
-    "url": "https://github.com/Roboman124/Nextcloud-DND-App/releases/download/v0.8.3/grimoire.tar.gz",
-    "version": "0.8.3",
+    "hash": "sha256-oLiegazDAVG4fcMoiMSse+EYxAtA2Jk4FC1ReVljYNQ=",
+    "url": "https://github.com/Roboman124/Nextcloud-DND-App/releases/download/v0.8.4/grimoire.tar.gz",
+    "version": "0.8.4",
     "description": "Grimoire is a virtual tabletop (VTT) built into Nextcloud. Run campaigns and\nlive sessions with shared 2D battlemaps and a physics-driven 3D mode where you\ncan load glTF character models and build maps in three dimensions.\n\n## Features\n\n- Campaigns and scenes, stored in your own Nextcloud\n- 2D mode: maps, tokens, drawings, fog of war, grid (square/hex)\n- 3D mode: glTF/GLB models, 3D map building, orbit camera\n- Physics 3D dice (d4–d20) with real settle-and-read results\n- 2D dice viewport: roll physics dice without leaving the battlemap\n- Tools: pointer, grab, measurement, area-of-effect, draw, fog, build\n- Token health system with DM-controlled HP bars\n- Player permissions (per-layer create/update/delete, owner-only tokens)\n- Real-time multiplayer rooms (built-in sync, no extra services)\n- Initiative tracker and rich-text notes on the table\n- Asset library backed by Nextcloud Files",
     "homepage": "https://github.com/Roboman124/Nextcloud-DND-App",
     "licenses": [
@@ -3150,9 +3150,9 @@
     ]
   },
   "kanso": {
-    "hash": "sha256-YLgQ1OZRHe2vKK3FJccsnSBKqoTMSjvCcK5TxRoBL4o=",
-    "url": "https://github.com/aktasfatih/kanso/releases/download/v0.47.0/kanso.tar.gz",
-    "version": "0.47.0",
+    "hash": "sha256-XDRVv73EInZYRC0T0dRZ0xbWEUAEo8aar4MqIzLymBg=",
+    "url": "https://github.com/aktasfatih/kanso/releases/download/v0.48.0/kanso.tar.gz",
+    "version": "0.48.0",
     "description": "Kanso is a kanban board app for Nextcloud, built for speed. Boards, stacks and\ncards with instant drag & drop, optimistic updates and payloads sized for large\nboards (2,000+ cards). Realtime updates via notify_push, with a polling fallback.\n\nRich cards with markdown, labels, due dates, assignees, priorities, checklists,\nparent/child cards and threaded comments with @mentions and watchers. File\nattachments (up to 100 MiB each), custom fields per board (text, number, date or\na select list), time tracking with a per-card total, and private reminders on a\ncard or a single comment. Board sharing with per-user and per-group access\ncontrol, plus an optional read-only public link that needs no Nextcloud account.\n\nA review workflow (request review, approve / request changes, customizable\nreview types, and an optional done-gate). A cross-board My Work hub (my tasks,\nreviews, inbox), cross-board Projects, and per-board and per-project analytics\n(velocity, cycle time, throughput). Board, List and Timeline (Gantt) views, with\nswimlanes, saved filters and display sort.\n\nRecurring cards on RRULE schedules, auto-archive rules, WIP limits and stack\nroles, card templates, a command palette with full-text search, and trash with\nrestore.\n\nEvery board you can read also appears as a read-only CalDAV task list of its\ndue-dated cards, with an optional per-board .ics feed. Email intake turns mail in\nan IMAP folder into cards in a column you choose, and GitHub and Forgejo links\nand webhooks keep cards in step with pull requests and issues. One-click Import\nfrom Deck, import from a Trello JSON export or a CSV, board export and re-import\nas a zip with attachments, board duplication, and scheduled periodic backups of\nevery board for administrators.",
     "homepage": "https://aktasfatih.com/kanso/",
     "licenses": [
@@ -3170,9 +3170,9 @@
     ]
   },
   "keepassnc": {
-    "hash": "sha256-RaOfic94x/HEquEMSvK5Gv97JuyKmDC1V+R4hTOdTOg=",
-    "url": "https://github.com/StudioCuda/KeePassNC/releases/download/v1.2.0/keepassnc-1.2.0.tar.gz",
-    "version": "1.2.0",
+    "hash": "sha256-1plzAEEGsKrqi9O3EQ7ssPlj5ZM3auI3u8H4lVHlCyo=",
+    "url": "https://github.com/StudioCuda/KeePassNC/releases/download/v1.3.0/keepassnc-1.3.0.tar.gz",
+    "version": "1.3.0",
     "description": "---\n\nOpen and edit KeePass databases (KDBX 3.1 / 4.x) straight from Files. Click the .kdbx, type your master password, get on with your day.\n\n**Safe by design**\n\n- Your Nextcloud, nothing else: no extra account, no subscription, no third-party cloud. The file stays on your own server.\n- Everything is decrypted in your browser. The master password and the plaintext never leave it; the server only ever sees the encrypted file.\n- Saves are checked against the file's ETag, and a backup is made first.\n- If two devices edit at once, the versions are merged instead of one quietly winning.\n- An optional encrypted offline copy keeps the database usable when the server or network is down.\n\n**What's inside**\n\n- No database yet? Make one right in Files with + New\n- KeePassXC-style search and tags\n- TOTP, Steam Guard included, set up from a screenshot of the QR code\n- Attachments with a preview, entry colors, history and icons\n- Placeholders and field references like KeePassXC knows them\n- Database settings, encryption and key derivation included, with values a browser can handle\n- A new master password or key file whenever you like\n- Merge a \"conflicted copy\" back in, and import CSV or JSON (KeePassXC, Bitwarden, Nextcloud Passwords, Passman, browsers …) or export CSV\n- Password generator and a health report\n- Follows your Nextcloud's accent color and light or dark theme, with a layout that works on phones and big screens alike\n- English, German and Chinese\n\n**Still just a KeePass file**\n\nKeePassXC, KeePassDX and Strongbox keep working on it, no lock-in.",
     "homepage": "https://github.com/StudioCuda/KeePassNC",
     "licenses": [
@@ -3330,9 +3330,9 @@
     ]
   },
   "learning": {
-    "hash": "sha256-6Dxq/mSSRCut5LPmXyKKsnA+fmGAs+Yv8rtNPWvBz+o=",
-    "url": "https://github.com/andremadstop/learning-nc/releases/download/v5.16.0/learning-5.16.0.tar.gz",
-    "version": "5.16.0",
+    "hash": "sha256-FW+2+T0yZy+/CvjpYQAkyKTqwIxUCx5fIzneL7FbIl0=",
+    "url": "https://github.com/andremadstop/learning-nc/releases/download/v5.17.0/learning-5.17.0.tar.gz",
+    "version": "5.17.0",
     "description": "**Learning** is a self-hosted learning platform for Nextcloud. Your questions, progress, and student data never leave your server.\n\nBuilt for IT certification bootcamps (Cisco, AWS and others) but works for any subject. Instructors create courses, track student progress, and identify at-risk learners. Students drill with scientifically-backed spaced repetition and hands-on simulations.\n\n## Why Learning?\n\n- **Your data stays on your server** — no cloud dependency, full GDPR compliance\n- **FSRS adaptive scheduling** — cards are prioritized by memory strength, not rigid intervals\n- **9 interactive IT simulators** — CLI terminals, firewall builders, DNS resolvers, subnet calculators, network topology placement\n- **AI tutor (optional)** — answers questions by citing your uploaded course materials\n- **Verifiable certificates** — issue cryptographically signed, publicly verifiable completion credentials\n\n## For Instructors\n\n- Course management with pool assignment and student enrollment\n- **At-risk warnings** — automatic detection of struggling students\n- **Chapter heatmaps** — see where the class struggles at a glance\n- **Curriculum timeline** — plan course schedule with milestones\n- **Admin dashboard** — CSV export, course archiving, cohort merging\n- Campaign selection — choose which story scenarios are available per course\n\n## Certification &amp; Compliance\n\n- **Signed completion certificates** — every passing learner receives a cryptographically signed (Ed25519) certificate, minted automatically\n- **Public verification portal** — anyone can verify a certificate's authenticity via its permanent URL, no login required\n- **Compliance reports** — organization-wide completion overview for audits and works agreements\n- **Mandatory training &amp; recertification** — assign required courses, track certificate expiry, and automate recertification reminders\n- **Tamper-proof audit trail** — every issuance, revocation, and completion is logged\n\n## For Learners\n\n- **Smart Queue** — one-click review of all due cards, sorted by urgency\n- **Training &amp; Exam Mode** — practice or simulate timed exams\n- **PBQ Simulations** — performance-based questions with interactive CLI, drag-and-drop placement, and wiring tasks\n- **Story Campaigns** — learn through real IT incident scenarios (WannaCry, SolarWinds, Log4Shell)\n- **Live Duels &amp; Sprint** — real-time multiplayer quiz battles via Server-Sent Events\n- **Gamification** — XP, levels, streaks, 10 badges, seasonal league\n- **Maintenance Mode** — long-term retention schedule after course ends\n- **Trouble-spot cheat sheet** — export your weakest topics for exam prep\n\n## AI Features (optional)\n\nOptional: the admin connects Google Gemini (API key) or a local Ollama server. Without a connection, the app is fully functional — AI features are simply off. Each user must explicitly consent to the configured recipient before any data is sent; the consent is asked again if the recipient or the consent text changes, and can be withdrawn at any time.\n\n- **VirtuProf** — AI learning assistant with RAG-powered answers and source citations\n- **Question Generator** — create flashcards from pasted text\n- **Note Generator** — AI-powered topic summaries saved to Nextcloud Files\n\n## Question Types\n\n- Multiple Choice, Free Text with fuzzy matching, PBQ Simulations\n- CSV/JSON import &amp; export, pool sharing, multi-language translations\n\n## Technical\n\n- Vue 3, Vite, Pinia — modern frontend stack\n- 1830 automated tests, PHPStan Level 5, pre-push quality gates\n- Native Nextcloud integration: Dashboard widgets, Notifications, Talk, Files\n- AGPL-3.0 — fully open source\n\n## Requirements\n\n- Nextcloud 33–35\n- PHP 8.1+\n- PostgreSQL 13+ or MySQL 8+\n\n**Looking for pilot partners!** If you run Nextcloud at a school, university, or training provider — we'd love your feedback. Open an issue with a bit of context and we're happy to walk you through it.",
     "homepage": "https://github.com/andremadstop/learning-nc",
     "licenses": [
@@ -4370,15 +4370,15 @@
     ]
   },
   "oxidocs_preview": {
-    "hash": "sha256-1izZDgsXF3AGygv4aUexVeFl12X/QGp6Li1Rdo0Gzt0=",
-    "url": "https://github.com/Ryujiyasu/oxi/releases/download/nextcloud-app-v0.1.1/oxidocs_preview-0.1.1.tar.gz",
-    "version": "0.1.1",
-    "description": "Nextcloud ships its Word-document previews switched off: they start LibreOffice once for every file. This app shows thumbnails of `.docx`, `.docm` and `.dotx` files in Files without LibreOffice, Collabora or ONLYOFFICE.\n\nThe thumbnails are drawn by the bundled [Oxi](https://github.com/Ryujiyasu/oxi) engine, a single Rust program that runs on the server itself. The document never leaves your server, and the app makes no network requests.\n\n- Nothing to configure: enable the app and Word documents get thumbnails.\n- Bundled for Linux x86_64 and arm64 (static, so Alpine-based installs work too).\n- About 0.1 s for a typical document.\n\nOxi lays documents out to match Microsoft Word, and on documents scored against Word's own PDFs it is closer than LibreOffice. A thumbnail shows the first page as Oxi's PDF output would.\n\nThis app was written with AI assistance (Claude). It is not part of Nextcloud: report problems at the Oxi repository.",
+    "hash": "sha256-LsWIUKJHtsUK8P/Nyc3h6qwvLmafroLqDxGyNUAz1v0=",
+    "url": "https://github.com/Ryujiyasu/oxi/releases/download/nextcloud-app-v0.2.0/oxidocs_preview-0.2.0.tar.gz",
+    "version": "0.2.0",
+    "description": "Nextcloud ships its Office previews switched off: they start LibreOffice once for every file. This app shows thumbnails of Word, PowerPoint and Excel files in Files without LibreOffice, Collabora or ONLYOFFICE:\n\n- Word (`.docx`, `.docm`, `.dotx`, `.dotm`): the first page.\n- PowerPoint (`.pptx`, `.pptm`, `.potx`, `.ppsx` and their macro forms): the first slide.\n- Excel (`.xlsx`, `.xlsm`, `.xltx`, `.xltm`): the first printed page, cut to the part with content.\n\nThe thumbnails are drawn by the bundled [Oxi](https://github.com/Ryujiyasu/oxi) engine, a single Rust program that runs on the server itself. The file never leaves your server, and the app makes no network requests.\n\n- Nothing to configure: enable the app and Office files get thumbnails.\n- Bundled for Linux x86_64 and arm64 (static, so Alpine-based installs work too).\n- About 0.1 s for a typical file.\n\nOxi lays documents out to match Microsoft Office, and on files scored against Word's and PowerPoint's own PDFs it is closer than LibreOffice. A thumbnail shows what Oxi's PDF output would.\n\nThis app was written with AI assistance (Claude). It is not part of Nextcloud: report problems at the Oxi repository.",
     "homepage": "https://github.com/Ryujiyasu/oxi/tree/main/integrations/nextcloud",
     "licenses": [
-      "MIT",
       "Apache-2.0",
-      "MPL-2.0"
+      "MPL-2.0",
+      "MIT"
     ]
   },
   "pandoc": {
@@ -4782,10 +4782,10 @@
     ]
   },
   "quickbook": {
-    "hash": "sha256-HgqqILufvARM0hIOBW71mYzjjsPszrZEYlHNeTwPUDg=",
-    "url": "https://github.com/jurjurijur/nextcloud-quickbook/releases/download/v0.5.1/quickbook-0.5.1.tar.gz",
-    "version": "0.5.1",
-    "description": "Quick Booking adds a public booking page for the appointment schedules you already have in the Calendar app. Requires the Calendar app.\n\nVisitors pick a date and time, enter their details, review and confirm on the same page. The appointment is booked immediately and the usual booking confirmation email (with .ics) is sent.\n\n* Share the usual Calendar booking link (\"Copy link\" in the Calendar app): it opens Quick Booking.\n* Built-in rate limiting of bookings per visitor and per email address.\n* Self-check: verifies after every Calendar or Nextcloud update that it still works, and lets the booking link show the standard Calendar booking page when something breaks.",
+    "hash": "sha256-R46AO3mSzESwYnCTotm1TinrbMxPQgTS68la6xoWDUs=",
+    "url": "https://github.com/jurjurijur/nextcloud-quickbook/releases/download/v0.6.1/quickbook-0.6.1.tar.gz",
+    "version": "0.6.1",
+    "description": "Quick Booking adds a public booking page for the appointment schedules you already have in the Calendar app. Requires the Calendar app.\n\nVisitors pick a date and time, enter their details, review and confirm on the same page. The appointment is booked immediately and the usual booking confirmation email (with .ics) is sent.\n\n* Share the usual Calendar booking link (\"Copy link\" in the Calendar app): it opens Quick Booking.\n* One-time appointment schedules: offer appointments on one or more chosen dates (e.g. parent-teacher conferences) instead of weekly. Create them in the Calendar app under \"One-time appointment schedules\".\n* Built-in rate limiting of bookings per visitor and per email address.\n* Self-check: verifies after every Calendar or Nextcloud update that it still works, and lets the booking link show the standard Calendar booking page when something breaks.",
     "homepage": "https://github.com/jurjurijur/nextcloud-quickbook",
     "licenses": [
       "AGPL-3.0-or-later"
@@ -4922,9 +4922,9 @@
     ]
   },
   "richdocumentscode": {
-    "hash": "sha256-KHkkCo8rB+Yp+C0qMi3SN1X/fZr9771HCoMekaFd9Rw=",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/26.4.502/richdocumentscode.tar.gz",
-    "version": "26.4.502",
+    "hash": "sha256-qe5cBJ7gIrvSmy91mr7dzWb1/TR2cutFehDY8Gh9k9g=",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/26.4.602/richdocumentscode.tar.gz",
+    "version": "26.4.602",
     "description": "**This app has to be installed and used together with the [Nextcloud Office](https://apps.nextcloud.com/apps/richdocuments) integration app.**\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\n* This app provides a built-in server with all of the document editing features of Collabora Online.\n* Easy to install, for personal use or for small teams.\n* A bit slower than a standalone server and without the advanced scalability features.\n\n**System Requirements:**\n- Linux running on ```x86-64``` or ```arm64/aarch64```\n- A ```glibc``` based distribution/container (```musl libc``` is **not** supported)\n- Fontconfig (```libfontconfig.so.1```)\n- Additional requirements can be found in [here](https://github.com/CollaboraOnline/richdocumentscode#richdocumentscode)\n\n*The download is rather big so it is possible you will experience a time-out when installing via the web interface.* You can use the OCC command install the built-in server from the command-line instead:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)\n\nAdditional troubleshooting tips can be found [here](https://github.com/CollaboraOnline/richdocumentscode?tab=readme-ov-file#troubleshooting).",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -4932,9 +4932,9 @@
     ]
   },
   "richdocumentscode_arm64": {
-    "hash": "sha256-yOyLkG4117TL8dTHfT6EDLKzUqO9WBSBC+RAx9xU4os=",
-    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/26.4.502/richdocumentscode_arm64.tar.gz",
-    "version": "26.4.502",
+    "hash": "sha256-ubVEKOcISKVOAOEdHTRnSZLISnQzjYK2TCMLTBQOTGo=",
+    "url": "https://github.com/CollaboraOnline/richdocumentscode/releases/download/26.4.602/richdocumentscode_arm64.tar.gz",
+    "version": "26.4.602",
     "description": "**This app has to be installed and used together with the [Nextcloud Office](https://apps.nextcloud.com/apps/richdocuments) integration app.**\n\nCollabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major documents, spreadsheet and presentation file formats and works together with all modern browsers.\n\n* This app provides a built-in server with all of the document editing features of Collabora Online.\n* Easy to install, for personal use or for small teams.\n* A bit slower than a standalone server and without the advanced scalability features.\n\n**System Requirements:**\n- Linux running on ```x86-64``` or ```arm64/aarch64```\n- A ```glibc``` based distribution/container (```musl libc``` is **not** supported)\n- Fontconfig (```libfontconfig.so.1```)\n- Additional requirements can be found in [here](https://github.com/CollaboraOnline/richdocumentscode#richdocumentscode)\n\n*The download is rather big so it is possible you will experience a time-out when installing via the web interface.* You can use the OCC command install the built-in server from the command-line instead:\n\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:install richdocumentscode_arm64\n```\nWhere `wwwrun` is the user of your web server. This is ```www-data``` on Debian, Ubuntu and derivatives, `wwwrun` on SUSE based distributions, `apache` on Red Hat/Fedora and `http` on Arch linux and derivatives.\n\nUpdates can be done like this:\n```\nsudo -u wwwrun php -d memory_limit=512M ./occ app:update --all\n```\n\nOf course, alternatively you could increase memory usage and PHP time-outs by default, see the [Nextcloud documentation.](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/big_file_upload_configuration.html?highlight=php%20timeout#configuring-your-web-server)\n\nAdditional troubleshooting tips can be found [here](https://github.com/CollaboraOnline/richdocumentscode?tab=readme-ov-file#troubleshooting).",
     "homepage": "https://collaboraoffice.com/",
     "licenses": [
@@ -5321,6 +5321,16 @@
       "MIT"
     ]
   },
+  "smartmigration": {
+    "hash": "sha256-iS28LS5OiuyrT+lJ6IovZJbtaribYeun9dAsP3i2jVI=",
+    "url": "https://github.com/MigrationViking/smartmigration-releases/releases/download/v1.1.0/smartmigration-1.1.0.tar.gz",
+    "version": "1.1.0",
+    "description": "Manage file migrations from **SharePoint, OneDrive, Teams and file shares** to\nNextcloud — with deep file discovery, progress tracking, a complete Run History,\nand interactive business intelligence in Power BI that is also the record of what\nmoved where.\n\n### 🔍 Discover first\n\n- A **Discovery** job maps a source without moving a single file.\n- The Power BI report shows volume, age, structure and the content that needs\n  attention first.\n- Discovery alone is a complete result.\n\n### 📈 Business intelligence with Power BI\n\n- All BI data is stored in **PostgreSQL on a server you control** — your own,\n  or a cloud service of your choice.\n- Power BI reads it from **any machine with ODBC access** to that database.\n- **Power BI Desktop is free**, for everyone who opens or refreshes the report.\n- A refresh takes a **snapshot of the data into the shareable .pbix file**,\n  as it is at that moment; the data stays in the database too. Share the file\n  by mail or in a Team folder, and analyse it with **no database connection**.\n\n### 📦 Migrate when ready\n\n- **Test Migration** and **Migration** jobs move SharePoint libraries,\n  OneDrives and file shares — or exactly the files a CSV list names.\n- Into Team folders or users' own files, **with their version history**.\n- Recurring jobs keep a copy up to date, for digital operational resilience.\n- Files only: mail, contacts and calendars are not migrated.\n\n### 🛟 Restore — reverse migration\n\nIf needed, a file migrated from a **SharePoint Online or Teams document\nlibrary** can be migrated back into its original file:\n\n- Its **original version history and permissions** are kept.\n- Every version added in Nextcloud is added **on top of the original version\n  history**.\n- **New files created in Nextcloud** can be migrated back too, so the source\n  is complete again.\n- Not available for SharePoint on-premises (SharePoint Server).\n\nRestore is meant for an emergency or a one-time return, not for everyday\nproduction: it is slow, and it is not designed to keep two places in sync.\n\n### 🏷️ Metadata and views with MetaVox\n\nWith the MetaVox app installed, a migration into a Team folder brings the\nSharePoint library's metadata along:\n\n- Missing columns are **created in MetaVox** with their types.\n- Every file and folder gets its values.\n- The library's **views are recreated** with their columns and sort order.\n\nPeople find their files by customer, case number or document type the day after\nthe migration.\n\n### 📊 Follow and document\n\n- The **Dashboard**, **Run History** and **File Issues** show every run, its\n  result and every file that could not move.\n- The Power BI report keeps every file's source and destination, to answer\n  *\"where did this file come from?\"* years later.\n\n### 👥 Teamwork\n\nThe customer's administrators and the consultants work on the same migration at\nthe same time, each with their own Nextcloud account, pins, notes and filters.\n\n### ⚙️ SMART Migration Server does the work\n\n- A separate **Windows program in your own network** runs every job.\n- It reads SharePoint, Microsoft 365 and file shares through Microsoft's own\n  APIs, and writes the files and reports into Nextcloud.\n- This app plans the jobs and keeps their record; it never contacts\n  Microsoft 365 itself.\n- A **SMART Migration partner** provides the server and its licence — the\n  app's **Support** tab lists them.\n\n---\n\n🇬🇧 English · 🇩🇪 Deutsch · 🇫🇷 Français · 🇳🇱 Nederlands · [migratedms.com](https://www.migratedms.com)",
+    "homepage": "https://www.migratedms.com",
+    "licenses": [
+      "AGPL-3.0-or-later"
+    ]
+  },
   "smb_test": {
     "hash": "sha256-bF1XRWT6pvMZzMVMoWBOJB1K9yVaQKNO+1BRz1Pwxhs=",
     "url": "https://github.com/icewind1991/smb_test/releases/download/v0.3.15/smb_test-v0.3.15.tar.gz",
@@ -5522,10 +5532,10 @@
     ]
   },
   "starrate": {
-    "hash": "sha256-pyIu4alt/JKtJYvdqMgi9cx8neatDlb9INV5Mi63af0=",
-    "url": "https://github.com/merlin1de/StarRate/releases/download/v1.4.2/starrate.tar.gz",
-    "version": "1.4.2",
-    "description": "StarRate is a professional photo rating and culling tool for photographers, seamlessly integrated into Nextcloud.\n\nRate photos with 1–5 stars and color labels, flag picks and rejects with keyboard shortcuts, and share a guest gallery link with your client or model. They pick their favorites in the browser — no Nextcloud account required. Leave comments on individual images for feedback rounds, and export the final rating list as CSV when you're done.\n\n**Ratings are written as XMP metadata directly into the JPEG file.** Open it in Lightroom Classic, digiKam, F-Stop or Darktable — the stars are already there. No re-export, no sidecar files. **Shooting RAW?** Turn on camera RAWs and rate NEF, CR3 & Co. right in the grid — StarRate shows the preview the camera embeds and keeps the ratings in a Lightroom-style XMP sidecar, the RAW itself stays untouched. **Coming from Lightroom?** Import your existing XMP ratings with one `occ` command — your years of curation travel with you.\n\n**Browse a whole folder tree at once.** Recursive folder view flattens nested directories into a single sortable, filterable grid — perfect for working through an entire shoot week or a multi-event archive without clicking into every subfolder.\n\n**Built for client presentations.** Slideshow mode in the loupe auto-advances through filtered images at a configurable interval — pre-filter to your three-star picks, hand over the keyboard, and let it run.\n\n**Read the workflow guide:** [Nextcloud as a photo home — what works today (and what is still missing)](https://whitespace.de/en/artikel/nextcloud-foto-workflow/)\n\n**Features:**\n- Star ratings (0–5) + color labels (Red/Yellow/Green/Blue/Purple) + Pick/Reject flags\n- **Recursive folder view** — browse an entire folder tree as a flat stream or grouped by folder depth. Opt-in — enable it once under Personal → StarRate. [How it works](https://github.com/merlin1de/starrate/blob/master/docs/recursive-folders.en.md)\n- **Loupe slideshow mode** — auto-advance with configurable interval, ideal for client presentations\n- XMP metadata written into JPEG — Lightroom / Bridge / digiKam compatible\n- **Camera RAW (opt-in)** — NEF, CR2, CR3, ARW, DNG, ORF, RW2, RAF, PEF in grid, loupe and guest galleries, using the preview the camera embeds (no extra server packages); ratings go into Lightroom-style XMP sidecars that follow the RAW on rename, move and delete\n- Configurable XMP label language: Lightroom (German localization) or Bridge / digiKam / English tools\n- Self-healing XMP read on loupe open — externally-edited files (Lightroom, digiKam) sync their new ratings the next time you click into them, no manual `occ` run needed\n- Import existing XMP ratings from Lightroom/digiKam via `occ starrate:import-xmp` (with `--recursive` for whole folder trees)\n- Comments on individual images — for client feedback rounds or personal notes, optional in guest galleries\n- Export the rating list as CSV (filename, stars, color, pick/reject) — download or copy to clipboard\n- Download original images — a single image from the loupe, or the whole selection as a ZIP; available to logged-in users and, per share, to guests\n- Guest share links for clients and models (no Nextcloud login required), with optional password, expiry, and per-share permissions (rate / pick / download / export / comments / recursive)\n- Keyboard shortcuts like Lightroom: 0–5 stars, 6–9 colors, P/X pick/reject, S slideshow\n- Batch rating and batch pick/reject with Shift+click / Ctrl+click / Ctrl+A\n- Combinable filters: stars, color, Pick/Reject, unrated\n- Full-screen loupe view with zoom up to 400%, pan, pinch-to-zoom\n- Dark professional UI theme optimized for photo work\n- English and German",
+    "hash": "sha256-wGmK6cTOLNpzytRRx66aA7mQ+LjDd0PcDZ4MHL8kgYI=",
+    "url": "https://github.com/merlin1de/StarRate/releases/download/v1.4.3/starrate.tar.gz",
+    "version": "1.4.3",
+    "description": "StarRate is a professional photo rating and culling tool for photographers, seamlessly integrated into Nextcloud.\n\n▶ **[Watch the 1-minute demo](https://www.youtube.com/watch?v=ziOHtoiHQ5g)**\n\nRate photos with 1–5 stars and color labels, flag picks and rejects with keyboard shortcuts, and share a guest gallery link with your client or model. They pick their favorites in the browser — no Nextcloud account required. Leave comments on individual images for feedback rounds, and export the final rating list as CSV when you're done.\n\n**Ratings are written as XMP metadata directly into the JPEG file.** Open it in Lightroom Classic, digiKam, F-Stop or Darktable — the stars are already there. No re-export, no sidecar files. **Shooting RAW?** Turn on camera RAWs and rate NEF, CR3 & Co. right in the grid — StarRate shows the preview the camera embeds and keeps the ratings in a Lightroom-style XMP sidecar, the RAW itself stays untouched. **Coming from Lightroom?** Import your existing XMP ratings with one `occ` command — your years of curation travel with you.\n\n**Browse a whole folder tree at once.** Recursive folder view flattens nested directories into a single sortable, filterable grid — perfect for working through an entire shoot week or a multi-event archive without clicking into every subfolder.\n\n**Built for client presentations.** Slideshow mode in the loupe auto-advances through filtered images at a configurable interval — pre-filter to your three-star picks, hand over the keyboard, and let it run.\n\n**Read the workflow guide:** [Nextcloud as a photo home — what works today (and what is still missing)](https://whitespace.de/en/artikel/nextcloud-foto-workflow/)\n\n**Features:**\n- Star ratings (0–5) + color labels (Red/Yellow/Green/Blue/Purple) + Pick/Reject flags\n- **Recursive folder view** — browse an entire folder tree as a flat stream or grouped by folder depth. Opt-in — enable it once under Personal → StarRate. [How it works](https://github.com/merlin1de/starrate/blob/master/docs/recursive-folders.en.md)\n- **Loupe slideshow mode** — auto-advance with configurable interval, ideal for client presentations\n- XMP metadata written into JPEG — Lightroom / Bridge / digiKam compatible\n- **Camera RAW (opt-in)** — NEF, CR2, CR3, ARW, DNG, ORF, RW2, RAF, PEF in grid, loupe and guest galleries, using the preview the camera embeds (no extra server packages); ratings go into Lightroom-style XMP sidecars that follow the RAW on rename, move and delete\n- Configurable XMP label language: Lightroom (German localization) or Bridge / digiKam / English tools\n- Self-healing XMP read on loupe open — externally-edited files (Lightroom, digiKam) sync their new ratings the next time you click into them, no manual `occ` run needed\n- Import existing XMP ratings from Lightroom/digiKam via `occ starrate:import-xmp` (with `--recursive` for whole folder trees)\n- Comments on individual images — for client feedback rounds or personal notes, optional in guest galleries\n- Export the rating list as CSV (filename, stars, color, pick/reject) — download or copy to clipboard\n- Download original images — a single image from the loupe, or the whole selection as a ZIP; available to logged-in users and, per share, to guests\n- Guest share links for clients and models (no Nextcloud login required), with optional password, expiry, and per-share permissions (rate / pick / download / export / comments / recursive)\n- Keyboard shortcuts like Lightroom: 0–5 stars, 6–9 colors, P/X pick/reject, S slideshow\n- Batch rating and batch pick/reject with Shift+click / Ctrl+click / Ctrl+A\n- Combinable filters: stars, color, Pick/Reject, unrated\n- Full-screen loupe view with zoom up to 400%, pan, pinch-to-zoom\n- Dark professional UI theme optimized for photo work\n- English and German",
     "homepage": "https://github.com/merlin1de/starrate",
     "licenses": [
       "agpl"
@@ -5802,9 +5812,9 @@
     ]
   },
   "ticketcheck": {
-    "hash": "sha256-+bc3gELS1zH1JCw5yQSTMKUZcY6Cizpbu6mxumkx5Js=",
-    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-ticketcheck/releases/download/v2.6.2/ticketcheck.tar.gz",
-    "version": "2.6.2",
+    "hash": "sha256-YXnTEwVc+nho1a9kIMv/fWkhbtKAZbsrq0CYbOVFDRY=",
+    "url": "https://github.com/aSoftwareByDesignRepository/nextcloud-ticketcheck/releases/download/v2.6.3/ticketcheck.tar.gz",
+    "version": "2.6.3",
     "description": "A complete standalone helpdesk and customer support system for Nextcloud.\n\t\tWorks out of the box with no dependencies.\n\n\t\tFeatures:\n\t\t- Multi-tenant project-based access control\n\t\t- Built-in projects and customers management\n\t\t- Secure guest portal (restricted to helpdesk only)\n\t\t- Automated email notifications and background jobs\n\t\t- Rich text editor for knowledge base\n\t\t- File attachments with image previews\n\t\t- Visual charts and reporting\n\t\t- CSV export\n\t\t- SLA monitoring and breach alerts\n\t\t- Daily digest emails for agents\n\t\t- Interface in 13 languages\n\n## Feedback welcome\n\nWe improve this app with real-world use. Bug reports, rough edges, and ideas help — open a GitHub Issue (https://github.com/aSoftwareByDesignRepository/nextcloud-ticketcheck/issues). Your feedback directly shapes what we build next.\n\n## Funding\n\nTicketCheck (grant project NEXTICK) is funded by the German Federal Ministry of Research, Technology and Space (BMFTR) through the Prototype Fund programme (https://www.prototypefund.de/) — funding measure \"Software Sprint\" (round 2), June to November 2026 (Förderkennzeichen: 16IS26S24). The complete source code is published as free and open-source software under the AGPL-3.0-or-later license.",
     "homepage": "",
     "licenses": [
@@ -6022,9 +6032,9 @@
     ]
   },
   "universal_converter": {
-    "hash": "sha256-z5Qjy6m9XRnyQb3TKOKuHP6wbF7MTJhZpHp5woVRPB8=",
-    "url": "https://github.com/EmaLau/universal-converter/releases/download/nextcloud-v1.1.0/universal_converter-1.1.0.tar.gz",
-    "version": "1.1.0",
+    "hash": "sha256-hDJ6jwH37jFia9KXHI1fkQRYKgNQ9+hTzJRKoH8HII4=",
+    "url": "https://github.com/EmaLau/universal-converter/releases/download/nextcloud-v1.1.1/universal_converter-1.1.1.tar.gz",
+    "version": "1.1.1",
     "description": "Adds a **Convert to…** submenu to the file menu of Files and saves the result next to the original.\n\n- About 200 formats: documents, spreadsheets, presentations, images, audio, video, subtitles, ebooks, data, fonts and archives.\n- The menu lists only the formats possible for the selected file; with several files selected, the formats they have in common.\n- Conversions run on your own [Universal Converter](https://github.com/EmaLau/universal-converter) server: files never leave your infrastructure.\n- If you close the page, the result is still saved by a background job.\n\n**Requirements.** A Universal Converter server reachable from the Nextcloud server (`docker compose pull && docker compose up -d`, see the project README). Then set its address and, if the server requires one, an API key with the `formats`, `convert` and `jobs` permissions:\n\n    occ config:app:set universal_converter converter_url --value=http://converter-address:8080\n    occ config:app:set universal_converter converter_api_key --value=uconv_...",
     "homepage": "https://github.com/EmaLau/universal-converter",
     "licenses": [
@@ -6242,9 +6252,9 @@
     ]
   },
   "vitalog": {
-    "hash": "sha256-SXKnytvNPbyK0gP2kC/kZjQgRHLjh9SGFeEDILtx/m4=",
-    "url": "https://github.com/odolbeau/nextcloud-vitalog/releases/download/v0.2.1/vitalog-0.2.1.tar.gz",
-    "version": "0.2.1",
+    "hash": "sha256-qz71Rykimpi7c+Nm1UXH1H070Y/R0Peg29/YVAzJiv8=",
+    "url": "https://github.com/odolbeau/nextcloud-vitalog/releases/download/v0.3.0/vitalog-0.3.0.tar.gz",
+    "version": "0.3.0",
     "description": "Keep a private record of your medical appointments: date, reason and notes, with the practitioner and the place, labels to group appointments across practitioners (an ankle injury, a blood donation…), and documents attached from your Nextcloud files.\n\n* **Practitioners and places** are created once and reused, optionally linked to your Contacts; a practitioner's usual place fills the place of their appointments.\n* **Labels** gather appointments whatever the practitioner or place, and the list can be filtered by label or practitioner.\n* **Calendar**: your appointments appear in a read-only calendar (named \"🩺 Vitalog\" by default, with a reminder the day before), and the events of an existing calendar can be imported as appointments.\n* **Private**: your data stays on your instance and is strictly private to each user.",
     "homepage": "https://github.com/odolbeau/nextcloud-vitalog",
     "licenses": [
@@ -6269,6 +6279,16 @@
     "homepage": "https://github.com/digital-blueprint/webapppassword",
     "licenses": [
       "agpl"
+    ]
+  },
+  "webforms": {
+    "hash": "sha256-QJrMUjhvxMXtJt98BaVdUh7JUgi2JPhvIhDuHQ+bu3Y=",
+    "url": "https://github.com/AdamArcane/nextcloud-advanced-webforms/releases/download/v0.6.0/webforms-0.6.0.tar.gz",
+    "version": "0.6.0",
+    "description": "**A form builder with the features larger form tools have, on your own server.**\n\n- **Builder:** drag and drop fields onto a 12-column grid with a live preview. Text, email, phone, number, date, time, select, radio, checkboxes, rating, scale, consent, hidden fields, file uploads, headings, paragraphs and images.\n- **Rules engine:** show, hide, or require fields based on earlier answers, with nested AND/OR conditions. Checked again on the server.\n- **Multi-page forms:** progress indicator, an optional summary step before sending, and optional \"continue later\" that keeps unsent answers in the respondent's own browser.\n- **After-submit actions:** confirmation message, redirect, email, signed webhook, a row in Nextcloud Tables, or a line in a CSV file in your Files. Each can have conditions and is retried in the background.\n- **Responses:** browse, filter by status, add a note, see the delivery log, and download a CSV. New responses are marked for you.\n- **Sharing:** public link, custom address, QR code and embedding in a frame, with spam protection that keeps your visitors' data on your server.\n- **Flow integration** and server-wide administration settings.\n\nForms and responses stay on your server. Requires Nextcloud 34 or 35.",
+    "homepage": "https://github.com/AdamArcane/nextcloud-advanced-webforms",
+    "licenses": [
+      "AGPL-3.0-or-later"
     ]
   },
   "weekplanner": {
