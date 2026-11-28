@@ -1,8 +1,8 @@
 {
   "abscompat": {
-    "hash": "sha256-TBU7tX+ce0KvPb3gAYwjwKZGPx6rBSRz/oCN9KXVMP4=",
-    "url": "https://github.com/fifthQuark/abscompat/releases/download/v0.9.0/abscompat-0.9.0.tar.gz",
-    "version": "0.9.0",
+    "hash": "sha256-TRz8LXeEzQVwUvNxqc04mYVG6S/hEW5oJBiZ8wUD6jE=",
+    "url": "https://github.com/fifthQuark/abscompat/releases/download/v0.9.1/abscompat-0.9.1.tar.gz",
+    "version": "0.9.1",
     "description": "Turn a folder of audiobooks in your Nextcloud into a small **Audiobookshelf-compatible server**.\n\n- **Listen offline on your phone** with the official Audiobookshelf app (or another compatible player): browse your books, download them once, and listen without a connection.\n- **Progress syncs** between your devices when they are back online. It is stored in Nextcloud.\n- **Audiobook ↔ ebook sync** with [CrossPoint Sync](https://github.com/crosspoint-reader/crosspoint-sync): your listening position follows the matching ebook on your e-reader, and back.\n- **Library page.** See your books by author, series and progress, and upload new ones: title, author, series and cover are filled in from the files, and the right folders are created.\n- **Series.** Read from tags and folder names, or set on the library page. The app then offers the next book of a series you have started.\n- **Playlists, collections, tags and bookmarks**, editable details, and a year in review.\n- **Ebooks** next to your audiobooks or on their own. Works with the OPDS+ app: matching ebooks are added by themselves.\n- **Podcasts from rePod.** Your rePod subscriptions show up in the apps, and where you are in an episode syncs with rePod and AntennaPod.\n- **Streaming is optional.** It is off by default, because it costs bandwidth for every listen and some hosting providers limit or forbid it.\n- **Covers.** Find square covers for books without one, by hand or automatically. This is off by default, because it sends the book's title and author to Apple's public audiobook search. Your files are not changed.\n- **No extra server.** Everything runs inside Nextcloud in PHP, so it works on managed hosting too.\n\n**How it works**\n\n- Point it at one or more folders, one folder per book (e.g. `Author/Title` or `Author/Series/1 - Title`). m4b, mp3, m4a, ogg, opus and flac are supported. Chapters and covers are read from the files, and a `cover.jpg` in the folder is used when present.\n- In the app, add your Nextcloud's server address (shown in Settings → Audiobookshelf) and log in with your Nextcloud account. With two-factor authentication, use an app password.\n- For CrossPoint Sync, create an API key in the same settings page.\n\n**Limits**\n\n- Books are downloaded or played as whole files (with resume). There is no transcoding or HLS streaming.\n- There is no live (websocket) connection, so the app shows the server as \"not connected\" (yellow). Downloads, playback and progress sync work normally.\n- Podcasts, collections, playlists and server-side metadata matching are not supported.\n\nThis app is not affiliated with the Audiobookshelf project.",
     "homepage": "https://github.com/fifthQuark/abscompat",
     "licenses": [
@@ -70,9 +70,9 @@
     ]
   },
   "aiquila": {
-    "hash": "sha256-gQb0y+y/pJU6G/kQA0xYfaXlfiMtvT4ngU6Am/R5MTE=",
-    "url": "https://github.com/elgorro/aiquila/releases/download/nc-v0.6.0/aiquila.tar.gz",
-    "version": "0.6.0",
+    "hash": "sha256-4277+fNQQpGYA/sYAELIf1tixsueeCVy5Ub/9Jb4WUs=",
+    "url": "https://github.com/elgorro/aiquila/releases/download/nc-v0.6.1/aiquila.tar.gz",
+    "version": "0.6.1",
     "description": "**AIquila** brings AI into your [Nextcloud](https://nextcloud.com) — private, self-hosted, and under your control. You choose which AI provider processes your data, including models running entirely on your own hardware.\n\n### Nextcloud App\n\n- **Chat** — Converse with an AI assistant about your files and documents\n- **Projects** — Scope a conversation to selected folders, so the assistant only sees what you choose\n- **Coworkers** — Save repeatable AI jobs and run them on demand or on a schedule\n- **Summarise & rewrite** — Condense, draft, rephrase and proofread text\n- **Model picker** — Switch provider and model per conversation\n- **Usage metrics** — Token and conversation counters exported via OpenMetrics\n\n### Choose your AI provider\n\nAdmins enable the providers they want, and can restrict them per user or group:\n\n- **Claude (Anthropic)** — The default, and the most deeply integrated: vision, thinking budgets, native MCP connector, and PDF handling with citations.\n- **Hetzner Inference** — OpenAI-compatible API from the German provider Hetzner. Currently an experimental service, free while experimental; Hetzner states it does not store request and response content.\n- **Mistral** — French provider, also supporting the native MCP connector. EU-only processing is available through Mistral's regional inference endpoints.\n- **Local model** — Ollama, LM Studio or llama.cpp on your own hardware. Nothing leaves your infrastructure.\n- **DeepSeek** — OpenAI-compatible API.\n\nAPI keys are stored encrypted, and base URLs are admin-only settings. Provider choice\napplies to chat and to the Nextcloud Assistant integrations alike. Assistant actions\nthat send images need a vision-capable provider.\n\n### MCP Server\n\nAIquila includes a [Model Context Protocol](https://modelcontextprotocol.io) server with 316 tools that gives any MCP client — Claude Desktop, Claude Code, Claude.ai and the Claude mobile app, Cursor, VS Code and others — direct access to your Nextcloud:\n\n- **Files & sharing** — Browse, read, write, search, share, tag, and restore from trash or older versions\n- **Calendar, Tasks & Contacts** — Events, to-dos and address books over CalDAV and CardDAV, plus Deck boards and Projects\n- **Talk, Mail & Notifications** — Conversations, polls and reactions, mail accounts and messages, notification triage\n- **Photos & Maps** — Albums and metadata, GPS tracks and devices, favourites, and photo geotagging\n- **Notes, News, Recipes & Bookmarks** — Markdown notes, RSS feeds, recipes, and bookmark folders and tags\n- **Coworkers & administration** — Run saved AI jobs, manage users, groups and apps, run `occ`, and check integrity\n\n### Resources\n\n- [Documentation](https://github.com/elgorro/aiquila/blob/main/docs/README.md)\n- [Source Code](https://github.com/elgorro/aiquila)\n- [Report Issues](https://github.com/elgorro/aiquila/issues)\n- [Discussions](https://github.com/elgorro/aiquila/discussions)\n\n---\n\nBuilt on the [Nextcloud](https://nextcloud.com) open-source community, the [Model Context Protocol](https://modelcontextprotocol.io), and the open and commercial AI providers listed above.",
     "homepage": "https://github.com/elgorro/aiquila",
     "licenses": [
@@ -369,6 +369,16 @@
       "AGPL-3.0-or-later"
     ]
   },
+  "authentik_dav": {
+    "hash": "sha256-zZZTuMS//GtZtZ9z+/kKPvjS07Xh4g5yLgv0B7mtilI=",
+    "url": "https://github.com/EmaLau/nextcloud-authentik-dav/releases/download/v1.2.0/authentik_dav-1.2.0.tar.gz",
+    "version": "1.2.0",
+    "description": "When users log in to Nextcloud through **Authentik** (OpenID Connect), WebDAV and other password-based clients cannot follow the browser login: they only send a username and a password. This app lets those clients use the **Authentik password**.\n\n- Nextcloud asks Authentik whether the password is right, through a dedicated Authentik flow (identification, password and MFA check stages) that creates no session.\n- It only checks passwords of **existing** Nextcloud accounts: it creates no users.\n- Users with MFA in Authentik, or with two-factor authentication in Nextcloud, are refused and keep using Nextcloud app passwords.\n- Nextcloud administrators are excluded by default.\n- A correct password is cached for 60 seconds in the local memory cache only. Failed attempts are throttled by Nextcloud and logged with user, address and reason, never the password.\n\n- Optionally, only members of chosen Nextcloud groups can use the Authentik password.\n\n**Setup.** Create the check flow in Authentik with the blueprint included in the project, then enter the Authentik address in *Administration settings → Security* and press *Test connection*. The *Overview* page warns when Authentik cannot be reached or the flow is not right.",
+    "homepage": "https://github.com/EmaLau/nextcloud-authentik-dav",
+    "licenses": [
+      "agpl"
+    ]
+  },
   "auto_groups": {
     "hash": "sha256-N+N03DkmjJiKPnyyS2L1KXcbWX/Z6BnbGdKEnbksWJ0=",
     "url": "https://github.com/jo23sh/auto_groups/releases/download/v1.8.1/auto_groups-v1.8.1.tar.gz",
@@ -650,12 +660,13 @@
     ]
   },
   "certexi_sync": {
-    "hash": "sha256-jWiNRGDOrEsVxzdsTVQG5m3ikwE70lJJ1J7rZmR07h0=",
-    "url": "https://github.com/certexi/certexi_sync/releases/download/v0.1.0/certexi_sync-0.1.0.tar.gz",
-    "version": "0.1.0",
-    "description": "Lets a Certexi Home node keep Nextcloud Tables in sync efficiently.\n\n* A change journal records every row created, updated or deleted in Tables, so a node asks \"what changed since N?\" with one request instead of re-reading tables.\n* A batch endpoint applies many row creates, updates and deletes in one request and one database transaction.\n\nEverything goes through the Tables app's own services, so a user can only read or change rows they already can in Tables. The journal stores row and table IDs only (no cell values) and is pruned after 30 days.",
+    "hash": "sha256-JZhZEeaGTMS5c/GCE/EYvGnyX5tdWBrVBxoE/vM1APs=",
+    "url": "https://github.com/certexi/certexi_sync/releases/download/v0.3.0/certexi_sync-0.3.0.tar.gz",
+    "version": "0.3.0",
+    "description": "Projects confirmed Certexi bookings into calendars explicitly bound by their owners.\n\nLets a Certexi Home node keep Nextcloud Tables in sync efficiently.\n\n* A change journal records every row created, updated or deleted in Tables, so a node asks \"what changed since N?\" with one request instead of re-reading tables.\n* A batch endpoint applies many row creates, updates and deletes in one request and one database transaction.\n\nEverything goes through the Tables app's own services, so a user can only read or change rows they already can in Tables. The journal stores row and table IDs only (no cell values) and is pruned after 30 days.",
     "homepage": "https://github.com/certexi/certexi_sync",
     "licenses": [
+      "agpl",
       "Apache-2.0"
     ]
   },
@@ -753,7 +764,7 @@
     "hash": "sha256-6ubZXsyvEjEV0F+GSvuAwEDGDwSvMIFV0z5WGbFrBbU=",
     "url": "https://github.com/whollaus/cobudget/releases/download/v0.8.5/cobudget.tar.gz",
     "version": "0.8.5",
-    "description": "CoBudget combines a personal household budget with shared areas in Nextcloud. You record income and expenses and, for shared payments, specify who paid and how the amount is divided. Your personal overview includes your share; the shared area shows the full payment and what members owe each other.\n\nThe web app is designed for smartphones and tablets too. You can record payments directly from your mobile device while on the go.\n\nCoBudget does not connect to bank accounts. Its reports are based on the payments you record.\n\n- Track income and expenses with categories, payment partners, labels and tags\n- Plan recurring payments and budget goals; explore reports, comparisons and forecasts\n- Share a household, trip or small-group area: record who paid, choose the split and settle outstanding balances\n- Keep receipts in Nextcloud Files and manage independent or payment-linked reminders\n- Choose Nextcloud notifications, a private Talk chat or optional email for supported events; synchronize reminders with a calendar\n- Optionally import payment files manually or automatically from a Nextcloud folder\n- Print reports, export CSV and create personal exports or administrator backups\n- Use separate workspaces, mobile and desktop layouts, and light or dark appearance\n\nAvailable in English, German, French and Spanish. Backup archives store receipt paths, not receipt files; back up the associated Nextcloud Files separately.\n\nCoBudget requires Nextcloud 34 or newer.",
+    "description": "CoBudget combines a personal household budget with shared areas in Nextcloud. You record income and expenses and, for shared payments, specify who paid and how the amount is divided. Your personal overview includes your share; the shared area shows the full payment and what members owe each other.\n\nThe web app is designed for smartphones and tablets too. You can record payments directly from your mobile device while on the go.\n\nCoBudget does not connect to bank accounts. Its reports are based on the payments you record.\n\n- Track income and expenses with categories, payment partners, labels and tags\n- Plan recurring payments and budget goals; explore reports, comparisons and forecasts\n- Share a household, trip or small-group area: record who paid, choose the split and settle outstanding balances\n- Keep receipts in Nextcloud Files and manage independent or payment-linked reminders\n- Choose Nextcloud notifications, a private Talk chat or optional email for supported events; synchronize reminders with a calendar\n- Optionally import payment files manually or automatically from a Nextcloud folder\n- Print reports, export CSV and create personal exports or administrator backups\n- Use separate workspaces, mobile and desktop layouts, and light or dark appearance\n- Browse personal, area, budget goal and administration settings by topic\n- Connect integrations through the external API (Beta) with personal keys and workspace permissions\n\nAvailable in English, German, French and Spanish. Back up receipt files separately in Nextcloud Files. After restoring an older archive or moving a receipt, you may need to attach the file again.\n\nCoBudget requires Nextcloud 34 or newer.",
     "homepage": "https://github.com/whollaus/cobudget",
     "licenses": [
       "AGPL-3.0-or-later"
@@ -1970,10 +1981,10 @@
     ]
   },
   "findling": {
-    "hash": "sha256-Z/A7pJLpVIzTi90iLU29Tv6ID0O4Kc1BR5aIlmRp1Ak=",
-    "url": "https://github.com/street1983nk/nextcloud-search/releases/download/v1.7.0/findling.tar.gz",
-    "version": "1.7.0",
-    "description": "Full text, OCR and semantic search for your Nextcloud files, in the normal search bar and without configuration.\n\nWhat Findling does:\n- Full text search in the normal Nextcloud search bar\n- OCR for scanned PDFs and images\n- Semantic search: finds documents through paraphrases\n- Every result is permission-checked by Nextcloud\n- No configuration: the first index run starts on its own\n\nPrivacy: everything runs locally, no telemetry, nothing leaves your server\n\nTogether with the [Nextcloud MCP Connector](https://apps.nextcloud.com/apps/mcp_connector), Findling forms the retrieval layer for your own RAG: AI assistants search your document contents with exactly the rights of the asking user, and no content leaves your server.\n\nRequirements:\n- Nextcloud 33 to 35, apps: AppAPI (HaRP as the deploy target), Findling Backend (External Apps), Findling\n- RAM: 4 GB is enough\n- CPU: 2 cores are enough, amd64 and arm64\n\nSwitching from fulltextsearch/Elasticsearch: [steps in the documentation](https://github.com/street1983nk/nextcloud-search/blob/v1.7.0/docs/migrate-from-fulltextsearch.en.md)\n\nDocumentation: [README on GitHub](https://github.com/street1983nk/nextcloud-search/blob/v1.7.0/README.en.md)\n\nEnterprise support and paid add-ons: request a quote at admin@infranode.dev",
+    "hash": "sha256-d7vycnFr/oGAEThcdtrVnGPMPVszN2GM4T5+xjC/K6Q=",
+    "url": "https://github.com/street1983nk/nextcloud-search/releases/download/v1.7.1/findling.tar.gz",
+    "version": "1.7.1",
+    "description": "Full text, OCR and semantic search for your Nextcloud files, in the normal search bar and without configuration.\n\nWhat Findling does:\n- Full text search in the normal Nextcloud search bar\n- OCR for scanned PDFs and images\n- Semantic search: finds documents through paraphrases\n- Every result is permission-checked by Nextcloud\n- No configuration: the first index run starts on its own\n\nPrivacy: everything runs locally, no telemetry, nothing leaves your server\n\nTogether with the [Nextcloud MCP Connector](https://apps.nextcloud.com/apps/mcp_connector), Findling forms the retrieval layer for your own RAG: AI assistants search your document contents with exactly the rights of the asking user, and no content leaves your server.\n\nRequirements:\n- Nextcloud 33 to 35, apps: AppAPI (HaRP as the deploy target), Findling Backend (External Apps), Findling\n- RAM: 4 GB is enough\n- CPU: 2 cores are enough, amd64 and arm64\n\nSwitching from fulltextsearch/Elasticsearch: [steps in the documentation](https://github.com/street1983nk/nextcloud-search/blob/v1.7.1/docs/migrate-from-fulltextsearch.en.md)\n\nDocumentation: [README on GitHub](https://github.com/street1983nk/nextcloud-search/blob/v1.7.1/README.en.md)\n\nEnterprise support and paid add-ons: request a quote at admin@infranode.dev",
     "homepage": "https://github.com/street1983nk/nextcloud-search",
     "licenses": [
       "AGPL-3.0-or-later"
@@ -2503,7 +2514,7 @@
     "hash": "sha256-7lZY524lJ1OFkQgRaFOa+RZSgLTbEdEuYEFoxpUWiUc=",
     "url": "https://github.com/major-mayer/imageconverter/releases/download/v.2.2.0/imageconverter.tar.gz",
     "version": "2.2.0",
-    "description": "# HEIC/HEIF Image Converter\n\nConvert images to other formats with the power of ImageMagick and the PHP Imagick extension.\n\n## ✨ Features\n\n- **📦 Flexible conversion**: Convert your photos and images to common formats such as JPEG, PNG, WEBP, AVIF, JXL, and HEIC.\n- **⚙️ ImageMagick-based**: Uses the installed ImageMagick engine and PHP Imagick bindings for reliable processing.\n- **🧩 Compatibility-aware**: Supported formats depend on the version and features of your ImageMagick installation.\n\n## Notes\n> Requires ImageMagick with support for your desired formats and the PHP Imagick extension enabled. \nCheck the GitHub project for setup details and compatibility notes.",
+    "description": "# Image Converter\n\nConvert images to other formats with the power of ImageMagick and the PHP Imagick extension.\n\n## ✨ Features\n\n- **📦 Flexible conversion**: Convert your photos and images to common formats such as JPEG, PNG, WEBP, AVIF, JXL, and HEIC.\n- **⚙️ ImageMagick-based**: Uses the installed ImageMagick engine and PHP Imagick bindings for reliable processing.\n- **🧩 Compatibility-aware**: Supported formats depend on the version and features of your ImageMagick installation.\n\n## Notes\n> Requires ImageMagick with support for your desired formats and the PHP Imagick extension enabled. \nCheck the GitHub project for setup details and compatibility notes.",
     "homepage": "",
     "licenses": [
       "agpl"
@@ -3790,9 +3801,9 @@
     ]
   },
   "moviedb": {
-    "hash": "sha256-zy2w18INP+3iqXY/ZLiYxLdN80INS85gUKav3FuseP8=",
-    "url": "https://github.com/shellmann/nextcloud-moviedb/releases/download/v1.12.0/moviedb-1.12.0.tar.gz",
-    "version": "1.12.0",
+    "hash": "sha256-xKRDdYy1tjUAPRBobrVyt61w6DR/w8SzkvVm9JOc8GA=",
+    "url": "https://github.com/shellmann/nextcloud-moviedb/releases/download/v1.12.1/moviedb-1.12.1.tar.gz",
+    "version": "1.12.1",
     "description": "# MovieDB - Personal Movie & TV Database\n\nTrack all the movies and TV shows you've watched with rich metadata from TMDB.\n\n## Features\n\n- **Movie Tracking**: Log movies with where you watched them (Netflix, Disney+, cinema, etc.)\n- **TV Show Tracking**: Track series at the episode level — see progress per season, an \"up next\" card, and bulk-mark whole seasons or series as watched\n- **Continue Watching**: The dashboard lists the shows you are in the middle of with the next episode; stop watching a show you gave up on, and filter the TV list by in progress, finished and stopped\n- **Always Up to Date**: A background job keeps the episodes of your TV shows in sync with TMDB, so new seasons and episodes show up by themselves, and the dashboard lists what airs soon under \"Coming up\"\n- **Release dates stay current**: Watchlist titles without a release date get it from TMDB by themselves, with a \"New date\" badge on the poster\n- **Never miss an episode**: Get a Nextcloud notification when an episode of one of your shows airs or a watchlist title comes out, and see it all in a read-only \"MovieDB – Upcoming\" calendar in the Calendar app and on devices that sync your calendars (both can be switched off per user)\n- **More show details**: Type, network (with its logo), TMDB score and cast on the TV show page, and when it was last synced with TMDB\n- **Trailer and where to watch**: A \"Play trailer\" link and the streaming services that offer a title in your country, on the movie and TV show pages\n- **Rewatch Support**: Log multiple viewings of the same movie with separate ratings and dates\n- **TMDB Integration**: Automatically fetch posters, cast, plot, and episode data\n- **Personal Ratings**: Rate movies and shows 1–10 and write your own reviews\n- **Watch History**: Full watch history per title, including per-viewing platform, language, and date\n- **Watchlist**: Maintain a mixed movie + TV watchlist with priorities and a random picker that chooses from the whole list (filter by type, genre, high priority)\n- **Quiz**: Play a quiz about your own library — when you watched a title, when it was released, who directed it — with a question count of your choice, a score history chart and a personal best\n- **Filtering & Sorting**: Filter by genre, platform, and favorites, and sort in either direction\n- **Statistics**: Dashboard with viewing stats by genre, platform, episodes watched, and total runtime, plus year- and platform-breakdown charts (including TV shows) with a movies/TV filter\n- **Shared Libraries**: Create named libraries and share your collection with other Nextcloud users — assign viewer or editor roles, manage members, and switch between libraries from one account\n- **Import / Export**: Back up a library or move it to another Nextcloud instance as a single JSON file — ratings, reviews, rewatches, episode progress and watchlist included\n- **Multilingual**: English, German, Spanish, French, Italian and Dutch\n\n## Getting Started\n\n1. Get a free API key from [TMDB](https://www.themoviedb.org/settings/api)\n2. Enter your API key in the app settings, or as an administrator set one key for all users under Administration settings → MovieDB\n3. Start adding movies and TV shows to your collection!\n\n## Data source\n\nMovie and TV show data is provided by [The Movie Database (TMDB)](https://www.themoviedb.org/). This product uses TMDB and the TMDB APIs but is not endorsed, certified, or otherwise approved by TMDB. Streaming availability is provided by [JustWatch](https://www.justwatch.com/), via TMDB.",
     "homepage": "https://github.com/shellmann/nextcloud-moviedb",
     "licenses": [
@@ -4240,9 +4251,9 @@
     ]
   },
   "opds": {
-    "hash": "sha256-lJJuJmm5Huy5PlIHSGnF0aghnkOrkCZX0aDimSwHqb0=",
-    "url": "https://github.com/fifthQuark/nextcloud-opds/releases/download/v1.11.0/opds-1.11.0.tar.gz",
-    "version": "1.11.0",
+    "hash": "sha256-yJXfGQFvhrexFyfwLY692Ql4l9iBH6NUwU9wlNzWDxI=",
+    "url": "https://github.com/fifthQuark/nextcloud-opds/releases/download/v1.12.0/opds-1.12.0.tar.gz",
+    "version": "1.12.0",
     "description": "Turns a folder in your Nextcloud into an OPDS 1.2 catalog that e-reader apps\n(KOReader, Moon+ Reader, Thorium, Librera, Aldiko, Foliate, ...) can browse,\nsort and download from.\n\n* Metadata is read from EPUB, PDF, CBZ (ComicInfo.xml), MOBI/AZW/AZW3, FB2 and\n  DOCX files, with a filename fallback (\"Author - Title.ext\").\n* Browse by author, title, series, genre/subject, publisher, language,\n  publication year, format or folder, search, and sort every list by title,\n  author, publication date, date added, date modified, publisher, series,\n  language, format or file size.\n* Covers are extracted from the books and served as OPDS images/thumbnails.\n* Browse the same library inside Nextcloud: covers, search, authors, series,\n  genres and downloads.\n* Beta, off by default: edit the metadata and covers of Calibre libraries.\n* With the News app installed, a News entry offers the latest articles of all\n  or selected feeds and folders as an EPUB: one part per feed, one chapter per\n  article.\n* Log in from your reader with your Nextcloud user name and an app password\n  (Settings > Security > Devices & sessions).",
     "homepage": "https://github.com/fifthQuark/nextcloud-opds",
     "licenses": [
@@ -4682,9 +4693,9 @@
     ]
   },
   "proofing_gallery": {
-    "hash": "sha256-kP8Z/G6Z1NmuzDx9HV5nYp908lL4ejLWyQHMEuFCcBc=",
-    "url": "https://github.com/soerennb/nextcloud-proofing_gallery/releases/download/v0.13.1/proofing_gallery.tar.gz",
-    "version": "0.13.1",
+    "hash": "sha256-Foell7kHXVKh5MmiBhW0q3hrr9ZUw+NAmTUUhiGxFpE=",
+    "url": "https://github.com/soerennb/nextcloud-proofing_gallery/releases/download/v0.13.2/proofing_gallery.tar.gz",
+    "version": "0.13.2",
     "description": "Proofing Gallery turns existing Nextcloud folders and copy-free collections into\nbranded client galleries for photographers, studios, and teams. Original media\nremains in Nextcloud Files; Proofing Gallery adds responsive presentation,\nproofing workflows, and controlled delivery without copying source media into\napp storage.\n\nCreate guided projects for showcases, finished-photo delivery, client\nselections, collaborative proofing, or receiving files. Choose Presentation or\nProofing mode, then configure each public link with its own folder scope,\nlanguage, appearance, password, expiry, downloads, feedback, uploads,\nmetadata, and preview watermark.\n\nSet an administrator default image order, choose a gallery order, and let\nvisitors change or reset their view. Sort by filename, capture date, last\nmodified date, or file size in either direction. Existing collections retain\ntheir original order; images without a capture date remain visible at the end.\n\nCreate and publish Fotobox galleries from the owner interface. An authenticated\nAPI provisions galleries and accepts JPEG uploads with stable photo links for\nQR codes. The API supports integration with external photobooth software;\nthe external kiosk application is not included.\n\nPublic links can inherit gallery feedback, delivery permissions, and navigation\nindependently or retain their own settings. Review controls explain applicable\nadministrator, gallery, and link restrictions.\n\nClients can like, rate, pick, reject, comment, annotate, and save named\nselections. Owners get culling, review rounds, CSV exports, Adobe-compatible\nXMP sidecars, and explicit promotion of client decisions. Allow individual\nfiles, saved selections, or complete-gallery downloads with original or\nmetadata-free JPEG presets, optional watermarks, and printable contact sheets.\n\nFor schools, sports, and other volume events, release shared, group, and one\nprivate participant folder per recipient through scoped release waves. Import\nrecipients by CSV, use PINs and invitations, schedule or retry releases, rotate\nlinks, and set the wave's download policy without exposing another\nparticipant's files. Guest uploads go to a hidden moderation inbox before\nacceptance.\n\nUse recursive galleries, collections without copying media, video derivatives,\nfilename and metadata search, optional scene search, Live Push, custom domains,\ntemplates, and Nextcloud integrations when enabled. Administrator, gallery,\nlink, and event-wave policies are combined so each public link can only grant\nwhat all applicable policies allow.",
     "homepage": "https://soerennb.github.io/nextcloud-proofing_gallery/",
     "licenses": [
@@ -5531,6 +5542,16 @@
       "agpl"
     ]
   },
+  "socklessmail": {
+    "hash": "sha256-q4F27B2/okz/yYX99sFkYDxzZ9s+hvVqZciyJihvlqQ=",
+    "url": "https://github.com/sockless-coding/nextcloud-mail/releases/download/v0.51.0/socklessmail.tar.gz",
+    "version": "0.51.0",
+    "description": "**Optional companion to the Sockless Mail External App** (app id `sockless_mail`). Install Sockless Mail first; this app adds nothing on its own.\n\n- **A short address**: the mail page opens at `/apps/socklessmail/` instead of AppAPI's `/apps/app_api/embedded/sockless_mail/sockless_mail`, and the Sockless Mail entry of the app menu points there. AppAPI's address keeps working.\n- **An installable browser app**: from that address the browser can install Sockless Mail as an app, named and pictured like it, which shows the unread count on its icon.\n\nEverything else, including the mail page itself, still comes from the External App.",
+    "homepage": "https://github.com/sockless-coding/nextcloud-mail",
+    "licenses": [
+      "MIT"
+    ]
+  },
   "softwarecatalog": {
     "hash": "sha256-eJoXoFet18loJzuOvukWXW9aQNr9NWgRxgnRTb9gdlQ=",
     "url": "https://github.com/ConductionNL/softwarecatalog/releases/download/v0.1.139/softwarecatalog-0.1.139.tar.gz",
@@ -5562,9 +5583,9 @@
     ]
   },
   "source": {
-    "hash": "sha256-cB4H840jf+g/rjYKeTRgY5+MZinfBIqTTx3aAlf4Gy0=",
-    "url": "https://gitlab.com/api/v4/projects/86605421/packages/generic/source/0.7.0/source-0.7.0.tar.gz",
-    "version": "0.7.0",
+    "hash": "sha256-zRNsxzJxR3rU3k9EkV5b3d0weUd1Pf9/u3r2G3yjrRY=",
+    "url": "https://github.com/altipard/source-dev/releases/download/v0.8.0/source-0.8.0.tar.gz",
+    "version": "0.8.0",
     "description": "Edit code and configuration files in the browser with the editing model you know\nfrom VS Code: syntax highlighting, multiple cursors, regex search and replace,\ncommand palette.\n\nFiles are saved through WebDAV, so versions, activity and sharing keep working\nas usual. A file changed by someone else in the meantime is never overwritten\nsilently: both versions are shown side by side.",
     "homepage": "",
     "licenses": [
@@ -5852,9 +5873,9 @@
     ]
   },
   "thesearchpage": {
-    "hash": "sha256-zRIGKXT8HB4Y4ii63dsxAt4tKSksQCviuF+ByEc455c=",
-    "url": "https://github.com/callmemagnus/nextcloud-searchpage/releases/download/v2.5.2/thesearchpage.tar.gz",
-    "version": "2.5.2",
+    "hash": "sha256-DTVrfK4YEvDdKvuan4Kmp2pG4Fk4amqnvEINZvc9MNw=",
+    "url": "https://github.com/callmemagnus/nextcloud-searchpage/releases/download/v2.5.3/thesearchpage.tar.gz",
+    "version": "2.5.3",
     "description": "🔎 A Search Page for your Nextcloud instance\n\n- [Changelog](https://raw.githubusercontent.com/callmemagnus/nextcloud-searchpage/main/CHANGELOG.md)\n- [Help translate this application](https://app.transifex.com/nextcloud/nextcloud/thesearchpage/)\n\nIt works like the existing search widget, uses the same sources to query BUT\ndisplays the results in a more readable and browsable fashion.\n\nThe content of the results depends on the other applications installed on\nyour Nextcloud instance. Every Nextcloud application can become a search\nprovider and get its results displayed by this application.\n\nOut of the Nextcloud box, you usually get the following providers:\n\n- Apps -- searches for match for in installed application names\n- Files -- searches on path and filename\n- Tags\n- Comments\n- Settings\n\nBecause of its design, the results depend on the implementation of the providers\nin respective application.\n\nKnown issues with other applications:\n\n- users -- [by design(?), it always returns an empty array](https://github.com/nextcloud/server/issues/41274) (it is hidden/disabled in this application)\n- fulltextsearch -- does not seem to AND the query terms, OR is usually less relevant\n- news -- does not provide a direct link to a feed item.\n\n\nDon't hesitate to leave a comment here or a rating!",
     "homepage": "https://github.com/callmemagnus/nextcloud-searchpage",
     "licenses": [
@@ -5882,9 +5903,9 @@
     ]
   },
   "tickbuddy": {
-    "hash": "sha256-3JTEkFuV8MhwgJECTIRVuL4327e/r7JpKEjuBm5kuPE=",
-    "url": "https://github.com/martinhammer/tickbuddy/releases/download/v3.2.0/tickbuddy-v3.2.0.tar.gz",
-    "version": "3.2.0",
+    "hash": "sha256-4vnen9qQgtZ1F1Jyeh+nz3KxKOP/9ARv/6hlLf40iWU=",
+    "url": "https://github.com/martinhammer/tickbuddy/releases/download/v3.2.1/tickbuddy-v3.2.1.tar.gz",
+    "version": "3.2.1",
     "description": "Tickbuddy is a daily habit and event tracker. \n\nTickbuddy lets you keep track of what happens each day, such as your meditation, exercise, or how many cups of coffee you had. Your scripts and AI agents can also log automatically, for example to record nightly backups. Tickbuddy is flexible: use it for habits, chores, keeping an eye on automations, or anything else that matters to you. Over time, analyse patterns and statistics with the built-in analytics.\n\nYour data is stored in Tickbuddy on your Nextcloud server. These companion apps can all read and write the same data:\n- Tickdroid, the Android app, available on F-Droid\n- Tickcli, a command-line client for your scripts and automations\n- TickLLMe, an MCP server that lets your AI agents log and read your entries",
     "homepage": "https://tickbuddy.app",
     "licenses": [
@@ -6072,9 +6093,9 @@
     ]
   },
   "twofactor_email": {
-    "hash": "sha256-7bQksPtM6ZjiaCOr8SCIsvgloH9r/V1mqAIzqGgjZ58=",
-    "url": "https://github.com/datenschutz-individuell/twofactor_email/releases/download/3.6.0/twofactor_email.tar.gz",
-    "version": "3.6.0",
+    "hash": "sha256-hhHctEMYWPy7Ub9/T5otkL7D8erLAN+4Rci59JhAQKE=",
+    "url": "https://github.com/datenschutz-individuell/twofactor_email/releases/download/3.6.2/twofactor_email.tar.gz",
+    "version": "3.6.2",
     "description": "### A two-factor provider using email\n\nNextcloud can ask for a second factor after the password (two-factor\nauthentication, 2FA). Each kind of second factor comes from a provider app\nthat a server admin installs. This one emails a one-time code (OTP) - six\ndigits by default - and asks for it on a second login page.\n\n### Installation and setup\n\nAn admin installs and enables this app. The server needs a working mail\nsetup, because the code travels by email.\n\nA user then switches it on under \"Personal settings / Security\", which needs\nan email address in \"Personal info\". An admin can switch it on for someone\ninstead: \"occ twofactorauth:enable USERID email\".\n\nNextcloud can also enforce a second factor for everyone or per group, though\nnever one particular method. Email is a low-friction choice there: the user\nconfirms one code and is done, with no device to enroll. Check first that\nevery account has a working address - a user whose address does not work\ncannot log in.\n\nAny second factor stops desktop and mobile clients from signing in with the\nnormal password. Each of them needs an app password instead, created under\n\"Personal settings / Security\".\n\nThe user and administrator guides cover all of this in detail.",
     "homepage": "https://github.com/datenschutz-individuell/twofactor_email",
     "licenses": [
@@ -6122,8 +6143,8 @@
     ]
   },
   "uniteos_notifier": {
-    "hash": "sha256-vaWgvCrCGCfm5ygADrXCKR/nRTU9DFar/FQZg59ajus=",
-    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/1.0.6/uniteos_notifier.tar.gz",
+    "hash": "sha256-yoNEdBloqNFtXTZsR4EN1PoTlGRjQKObaZ2B+qSFp4g=",
+    "url": "https://git.wechange.de/api/v4/projects/467/packages/generic/uniteos_notifier/main/uniteos_notifier.tar.gz",
     "version": "1.0.6",
     "description": "This app allows forwarding Nextcloud events for a deeper integration into UniteOS developed by wechange eG by presenting a selected set of events as user notifications.",
     "homepage": "",
